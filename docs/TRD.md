@@ -46,8 +46,8 @@ cc-trip/
 | 모듈 | 책임 | 의존 |
 |------|------|------|
 | `config.js` | 상수만 노출: `QUIZ_PIN`, `QUIZ_TIME_SEC`(600), `QUIZ_COUNT`(10), `SESSION_KEY` 등 | 없음 |
-| `util.js` | 순수 함수: `shuffle(arr)`, `pickRandom(arr, n)`, `scoreQuiz(picked, answers)`, `formatTime(sec)`, `getParam(name)` | 없음 |
-| `data.js` | `loadCategories()`, `loadCategory(id)`, `findChapter(category, chId)` — fetch 래핑 + 조회 헬퍼 | config |
+| `util.js` | 순수 함수: `shuffle(arr)`, `pickRandom(arr, n)`, `pickSetQuestions(chapter)`, `prepareQuestion(q)`, `scoreQuiz(picked, answers)`, `formatTime(sec)`, `getParam(name)` | 없음 |
+| `data.js` | `loadCategories()`, `loadCategory(id)`, `findChapter(detail, chId)`, `setCount(chapter)`, `hasQuestions(chapter)` — fetch 래핑 + 조회 헬퍼 | config |
 | `index.js` | 메인 목차 렌더 (카테고리 카드) | data |
 | `category.js` | 챕터 목록 렌더 | data, util(getParam) |
 | `chapter.js` | 본문 렌더 + PIN 모달 + 퀴즈 시작(통과 플래그 기록 후 이동) | data, config, util |
@@ -86,7 +86,7 @@ cc-trip/
 | `title` | string | 챕터 제목 |
 | `summary` | string | 한 줄 요약 |
 | `sections` | Section[] | 학습 본문 블록 |
-| `questions` | Question[] | 문제 배열 (0개 가능 → "준비 중") |
+| `sets` | Set[] | 문제 세트 배열 (빈 배열 가능 → "준비 중") |
 
 **Section**
 
@@ -95,15 +95,22 @@ cc-trip/
 | `heading` | string | 소제목 |
 | `body` | string | 본문 텍스트 |
 
+**Set**
+
+| 필드 | 타입 | 설명 |
+|------|------|------|
+| `id` | string | 세트 id (챕터 내 유일, 예: `set01`) |
+| `questions` | Question[] | 문제 배열 (정확히 10문제 권장) |
+
 **Question**
 
 | 필드 | 타입 | 설명 |
 |------|------|------|
-| `id` | string | 문제 id. 권장 형식 `카테고리약어_챕터_번호` |
-| `type` | string | 현재 `"multiple_choice"`만 지원 |
-| `question` | string | 문제 문장 |
-| `options` | string[] | 보기 (길이 가변, 보통 3~4) |
-| `answerIndex` | number | 정답 인덱스 (0-based) |
+| `id` | string | 문제 id. 권장 형식 `카테고리약어_챕터_세트_번호` |
+| `type` | string | `"multiple_choice"` 또는 `"ox"` |
+| `question` | string | 문제 문장(ox는 참/거짓 판단 문장) |
+| `options` | string[] | (multiple_choice 전용) 보기. ox는 생략, 화면에 O/X 자동 표시 |
+| `answerIndex` | number | 정답 인덱스 (0-based). ox는 0=O(참), 1=X(거짓) |
 | `explanation` | string | 해설 |
 
 ## 5. 핵심 로직 상세
@@ -120,16 +127,20 @@ onSubmit(pin):
     모달 내 경고 메시지 표시 (진입 차단)
 ```
 
-### 5.2 랜덤 출제 (`quiz.js`)
+### 5.2 세트 랜덤 출제 (`quiz.js`)
 ```
 가드: sessionStorage["quizUnlocked"] !== `${cat}:${ch}` → chapter.html로 되돌림
-chapter = findChapter(category, ch)
-if chapter.questions.length === 0 → chapter로 되돌림
-picked = pickRandom(chapter.questions, config.QUIZ_COUNT)   # min(10, 전체)
+chapter = findChapter(detail, ch)
+if !hasQuestions(chapter) → chapter로 되돌림
+picked = pickSetQuestions(chapter)   # 세트 1개 랜덤 → 문제 셔플 + 보기 셔플
 sessionStorage["quizSession"] = { cat, ch, picked, answers: [] }
-화면: picked 전 문항 세로 스크롤 렌더
+화면: picked 전 문항 세로 스크롤 렌더 (q.displayOptions 사용)
 ```
-- `pickRandom`은 `shuffle` 후 `slice(0, n)`로 구현 (Fisher-Yates).
+- `pickSetQuestions`: 챕터 `sets` 중 1개를 무작위 선택 → 세트 내 문제 순서 `shuffle` → 각 문제를 `prepareQuestion`으로 변환.
+- `prepareQuestion`:
+  - `ox` → `displayOptions = ["O (맞다)", "X (아니다)"]`, `answerIndex` 그대로(0=O,1=X).
+  - `multiple_choice` → `options`를 셔플해 `displayOptions` 생성, 정답이 옮겨간 새 위치로 `answerIndex` 재매핑.
+  - 결과의 `displayOptions`/`answerIndex`는 같은 좌표계 → 사용자 선택 인덱스와 곧바로 채점 가능.
 
 ### 5.3 타이머 & 자동 제출 (`quiz.js`)
 ```
@@ -151,7 +162,7 @@ session = sessionStorage["quizSession"]
 { correct, total } = scoreQuiz(session.picked, session.answers)
 점수 = `${correct} / ${total}`
 해설 리스트: picked 순서대로
-  - 문제, options
+  - 문제, displayOptions
   - 사용자 선택 표시 / 정답 표시
   - O(초록) / X(빨강)
   - explanation
@@ -160,11 +171,13 @@ session = sessionStorage["quizSession"]
 
 ### 5.5 순수 함수 시그니처 (`util.js`)
 ```
-shuffle(arr) -> arr'           # 원본 비변경, 셔플된 새 배열
-pickRandom(arr, n) -> arr'     # shuffle 후 slice(0, min(n, len))
+shuffle(arr) -> arr'              # 원본 비변경, 셔플된 새 배열
+pickRandom(arr, n) -> arr'        # shuffle 후 slice(0, min(n, len))
+pickSetQuestions(chapter) -> [q'] # 세트 1개 랜덤 → 문제 셔플 → prepareQuestion. 빈 챕터는 []
+prepareQuestion(q) -> q'          # displayOptions 생성 + 보기 셔플 시 answerIndex 재매핑
 scoreQuiz(picked, answers) -> { correct, total }   # total = picked.length
 formatTime(sec) -> "MM:SS"
-getParam(name) -> string|null  # location.search 파싱
+getParam(name) -> string|null     # location.search 파싱
 ```
 
 ## 6. 에러 처리
@@ -174,7 +187,7 @@ getParam(name) -> string|null  # location.search 파싱
 | 없는 cat/ch | 조회 결과 null | "찾을 수 없는 항목" + [목차로] 버튼 |
 | fetch 실패 | catch | "콘텐츠를 불러오지 못했습니다. 새로고침 해주세요" |
 | 퀴즈 직접 진입 | `quizUnlocked` 플래그 불일치 | chapter.html로 redirect |
-| 문제 0개 챕터 | `questions.length === 0` | 퀴즈 버튼 비활성 + "준비 중인 챕터" |
+| 문제 없는 챕터 | `hasQuestions(chapter) === false` | 퀴즈 버튼 비활성 + "준비 중인 챕터" |
 | 결과 화면 직접 진입 | `quizSession` 없음 | index.html로 redirect |
 
 ## 7. 스타일 (`style.css`)
@@ -200,9 +213,10 @@ getParam(name) -> string|null  # location.search 파싱
 - [ ] quiz.html에 URL로 직접 접근 → chapter로 되돌아간다.
 
 **출제**
-- [ ] 문제 10개 이상 챕터 → 10문항 출제, 새로고침마다 구성이 바뀐다(랜덤).
-- [ ] 문제 6개 챕터 → 6문항만 출제, 점수 분모가 6이다.
-- [ ] 문제 0개 챕터 → 시작 버튼 비활성 + "준비 중" 표시.
+- [ ] 세트가 있는 챕터 → 1세트(10문항) 출제, 재진입마다 세트/문항/보기 순서가 바뀐다(랜덤).
+- [ ] 4지선다·OX 문제가 모두 정상 렌더된다 (OX는 O/X 버튼).
+- [ ] 보기를 섞어도 결과 화면의 정답 표시가 깨지지 않는다(정답 재매핑).
+- [ ] 세트 없는 챕터(빈 sets) → 시작 버튼 비활성 + "준비 중" 표시.
 
 **타이머/제출**
 - [ ] 타이머가 10:00부터 1초씩 감소한다.

@@ -32,10 +32,10 @@
 
     listEl.innerHTML = chapters
       .map(function (ch) {
-        const count = (ch.questions || []).length;
+        const sets = window.DATA.setCount(ch);
         const badge =
-          count > 0
-            ? '<span class="card-badge">문제 ' + count + "개</span>"
+          window.DATA.hasQuestions(ch)
+            ? '<span class="card-badge">' + sets + "세트</span>"
             : '<span class="card-badge">준비 중</span>';
         return (
           '<li><a class="card" href="chapter.html?cat=' +

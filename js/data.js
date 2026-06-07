@@ -28,9 +28,24 @@ window.DATA = (function () {
     return detail.chapters.find((ch) => ch.id === chId) || null;
   }
 
+  // 챕터의 세트 개수.
+  function setCount(chapter) {
+    return chapter && Array.isArray(chapter.sets) ? chapter.sets.length : 0;
+  }
+
+  // 챕터에 풀 수 있는 문제가 하나라도 있는지 (세트 중 questions가 있는 것).
+  function hasQuestions(chapter) {
+    if (!chapter || !Array.isArray(chapter.sets)) return false;
+    return chapter.sets.some(function (s) {
+      return (s.questions || []).length > 0;
+    });
+  }
+
   return {
     loadCategories: loadCategories,
     loadCategory: loadCategory,
     findChapter: findChapter,
+    setCount: setCount,
+    hasQuestions: hasQuestions,
   };
 })();

@@ -44,7 +44,7 @@
     .map(function (q, i) {
       const userIdx = answers[i];
       const isCorrect = userIdx === q.answerIndex;
-      const options = q.options || [];
+      const options = q.displayOptions || q.options || [];
       const userText =
         userIdx === null || userIdx === undefined
           ? "(선택 안 함)"

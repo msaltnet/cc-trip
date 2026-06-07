@@ -20,30 +20,170 @@
           "body": "에펠탑·샹젤리제 등 관광지에는 소매치기가 많습니다. 가방은 앞으로 메고 지갑·휴대폰을 주머니에 함부로 넣지 마세요."
         }
       ],
-      "questions": [
+      "sets": [
         {
-          "id": "city_paris_001",
-          "type": "multiple_choice",
-          "question": "파리에서 지하철을 여러 번 탈 계획일 때 경제적인 선택은?",
-          "options": ["매번 1회권 구매", "카르네(10회권)나 데이패스", "택시만 이용"],
-          "answerIndex": 1,
-          "explanation": "여러 번 탈 거라면 10회권(카르네)이나 데이패스가 1회권을 매번 사는 것보다 저렴합니다."
+          "id": "set01",
+          "questions": [
+            {
+              "id": "city_ch01_set01_001",
+              "type": "multiple_choice",
+              "question": "파리에서 지하철을 여러 번 탈 계획일 때 가장 경제적인 선택은?",
+              "options": ["매번 1회권 구매", "카르네(10회권)나 데이패스", "택시만 이용", "버스 1일권만 반복 구매"],
+              "answerIndex": 1,
+              "explanation": "여러 번 탈 거라면 10회권(카르네)이나 데이패스가 1회권을 매번 사는 것보다 저렴합니다."
+            },
+            {
+              "id": "city_ch01_set01_002",
+              "type": "multiple_choice",
+              "question": "다음 중 파리의 대표 명소가 아닌 것은?",
+              "options": ["에펠탑", "콜로세움", "루브르 박물관", "개선문"],
+              "answerIndex": 1,
+              "explanation": "콜로세움은 로마에 있습니다. 에펠탑, 루브르, 개선문이 파리의 대표 명소입니다."
+            },
+            {
+              "id": "city_ch01_set01_003",
+              "type": "multiple_choice",
+              "question": "파리 관광지에서 소매치기를 예방하는 좋은 습관은?",
+              "options": ["가방을 등 뒤로 멘다", "가방을 앞으로 메고 지퍼를 잠근다", "지갑을 뒷주머니에 넣는다", "현금을 전부 한 지갑에 넣고 들고 다닌다"],
+              "answerIndex": 1,
+              "explanation": "사람이 붐비는 관광지에서는 가방을 앞으로 메고 지퍼를 잠그는 것이 안전합니다."
+            },
+            {
+              "id": "city_ch01_set01_004",
+              "type": "multiple_choice",
+              "question": "파리의 미술 작품을 가장 많이 볼 수 있는 대표 박물관은?",
+              "options": ["루브르 박물관", "대영 박물관", "프라도 미술관", "우피치 미술관"],
+              "answerIndex": 0,
+              "explanation": "루브르 박물관은 파리를 대표하는 미술관으로 '모나리자' 등 방대한 소장품으로 유명합니다."
+            },
+            {
+              "id": "city_ch01_set01_005",
+              "type": "multiple_choice",
+              "question": "샹젤리제 거리 서쪽 끝에 자리한, 파리를 상징하는 건축물은?",
+              "options": ["개선문", "판테온", "노트르담 성당", "성 베드로 대성당"],
+              "answerIndex": 0,
+              "explanation": "개선문은 샹젤리제 거리 끝의 샤를 드골 광장에 있는 파리의 대표 상징물입니다."
+            },
+            {
+              "id": "city_ch01_set01_006",
+              "type": "multiple_choice",
+              "question": "화가들의 거리와 사크레쾨르 대성당으로 유명한 파리의 언덕은?",
+              "options": ["몽마르트르 언덕", "팔라티노 언덕", "몽파르나스 묘지", "베르사유 정원"],
+              "answerIndex": 0,
+              "explanation": "몽마르트르 언덕은 화가들의 거리와 사크레쾨르 대성당으로 유명한 파리의 명소입니다."
+            },
+            {
+              "id": "city_ch01_set01_007",
+              "type": "multiple_choice",
+              "question": "성수기에 에펠탑이나 루브르 같은 인기 명소의 대기 줄을 줄이는 가장 좋은 방법은?",
+              "options": ["현장에서 일찍 줄 서기", "온라인으로 사전 예매하기", "비 오는 날을 노리기", "단체 관광버스로 가기"],
+              "answerIndex": 1,
+              "explanation": "인기 명소는 온라인 사전 예매(시간 지정 입장권)로 현장 대기 줄을 크게 줄일 수 있습니다."
+            },
+            {
+              "id": "city_ch01_set01_008",
+              "type": "ox",
+              "question": "에펠탑은 파리에 있는 명소다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 에펠탑은 파리를 대표하는 상징물입니다."
+            },
+            {
+              "id": "city_ch01_set01_009",
+              "type": "ox",
+              "question": "파리의 메트로(지하철)는 노선이 촘촘하게 연결되어 있어 시내 이동에 편리하다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 파리 메트로는 노선망이 촘촘해 주요 명소 이동에 편리합니다."
+            },
+            {
+              "id": "city_ch01_set01_010",
+              "type": "ox",
+              "question": "붐비는 파리 관광지에서는 지갑을 바지 뒷주머니에 넣고 다니는 것이 안전하다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 뒷주머니 지갑은 소매치기의 표적이 되기 쉽습니다. 가방을 앞으로 메고 지퍼를 잠그세요."
+            }
+          ]
         },
         {
-          "id": "city_paris_002",
-          "type": "multiple_choice",
-          "question": "다음 중 파리의 대표 명소가 아닌 것은?",
-          "options": ["에펠탑", "콜로세움", "루브르 박물관"],
-          "answerIndex": 1,
-          "explanation": "콜로세움은 로마에 있습니다. 에펠탑, 루브르, 개선문이 파리의 대표 명소입니다."
-        },
-        {
-          "id": "city_paris_003",
-          "type": "multiple_choice",
-          "question": "파리 관광지에서 소매치기를 예방하는 좋은 습관은?",
-          "options": ["가방을 등 뒤로 멘다", "가방을 앞으로 메고 지퍼를 잠근다", "지갑을 뒷주머니에 넣는다"],
-          "answerIndex": 1,
-          "explanation": "사람이 붐비는 관광지에서는 가방을 앞으로 메고 지퍼를 잠그는 것이 안전합니다."
+          "id": "set02",
+          "questions": [
+            {
+              "id": "city_ch01_set02_001",
+              "type": "multiple_choice",
+              "question": "파리에서 지하철을 단 한 번만 탈 때 가장 알맞은 승차권은?",
+              "options": ["카르네(10회권)", "데이패스", "1회권(티켓 t+)", "주간 정기권"],
+              "answerIndex": 2,
+              "explanation": "한 번만 탄다면 1회권(티켓 t+)이 적합합니다. 카르네나 데이패스는 여러 번 탈 때 경제적입니다."
+            },
+            {
+              "id": "city_ch01_set02_002",
+              "type": "multiple_choice",
+              "question": "다음 중 실제로 파리에 있는 명소는?",
+              "options": ["콜로세움", "트레비 분수", "루브르 박물관", "판테온(로마)"],
+              "answerIndex": 2,
+              "explanation": "루브르 박물관은 파리에 있습니다. 콜로세움과 트레비 분수는 로마의 명소입니다."
+            },
+            {
+              "id": "city_ch01_set02_003",
+              "type": "multiple_choice",
+              "question": "사람이 붐비는 파리 거리에서 가방을 메는 가장 안전한 방법은?",
+              "options": ["가방을 앞으로 메고 지퍼를 잠근다", "가방을 등 뒤로 멘다", "가방을 열어 둔 채 손에 든다", "가방을 어깨에 느슨하게 걸친다"],
+              "answerIndex": 0,
+              "explanation": "가방을 앞으로 메고 지퍼를 잠그면 소매치기 위험을 크게 줄일 수 있습니다."
+            },
+            {
+              "id": "city_ch01_set02_004",
+              "type": "multiple_choice",
+              "question": "'모나리자'를 소장한 것으로 잘 알려진 파리의 박물관은?",
+              "options": ["오르세 미술관", "루브르 박물관", "퐁피두 센터", "로댕 미술관"],
+              "answerIndex": 1,
+              "explanation": "레오나르도 다 빈치의 '모나리자'는 파리 루브르 박물관에 전시되어 있습니다."
+            },
+            {
+              "id": "city_ch01_set02_005",
+              "type": "multiple_choice",
+              "question": "다음 명소 중 파리의 '개선문'과 직접 이어진 거리는?",
+              "options": ["콘도티 거리", "샹젤리제 거리", "라스 람블라스", "옥스퍼드 스트리트"],
+              "answerIndex": 1,
+              "explanation": "개선문은 샹젤리제 거리 서쪽 끝의 광장에 자리합니다."
+            },
+            {
+              "id": "city_ch01_set02_006",
+              "type": "multiple_choice",
+              "question": "화가들의 거리로 유명한 몽마르트르 언덕 정상에 있는 성당은?",
+              "options": ["노트르담 성당", "사크레쾨르 대성당", "성 베드로 대성당", "마들렌 성당"],
+              "answerIndex": 1,
+              "explanation": "몽마르트르 언덕 정상에는 새하얀 사크레쾨르 대성당이 있습니다."
+            },
+            {
+              "id": "city_ch01_set02_007",
+              "type": "multiple_choice",
+              "question": "여러 번 지하철을 탈 여행자가 비용을 아끼기 위해 피하는 것이 좋은 방식은?",
+              "options": ["탈 때마다 1회권을 따로 구매", "카르네(10회권) 구매", "데이패스 구매", "주간권 구매"],
+              "answerIndex": 0,
+              "explanation": "매번 1회권을 따로 사는 것은 가장 비싼 방식입니다. 카르네나 패스가 경제적입니다."
+            },
+            {
+              "id": "city_ch01_set02_008",
+              "type": "ox",
+              "question": "콜로세움은 파리의 대표 명소다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 콜로세움은 로마에 있습니다. 파리의 대표 명소는 에펠탑, 루브르, 개선문 등입니다."
+            },
+            {
+              "id": "city_ch01_set02_009",
+              "type": "ox",
+              "question": "파리의 인기 명소는 온라인 사전 예매를 하면 현장 대기 줄을 줄일 수 있다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 시간 지정 입장권을 미리 예매하면 줄을 서는 시간을 크게 줄일 수 있습니다."
+            },
+            {
+              "id": "city_ch01_set02_010",
+              "type": "ox",
+              "question": "지하철을 여러 번 탈 계획이라면 매번 1회권을 사는 것이 가장 경제적이다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 여러 번 탈 때는 카르네(10회권)나 데이패스가 더 저렴합니다."
+            }
+          ]
         }
       ]
     },
@@ -61,22 +201,170 @@
           "body": "테르미니 역 주변과 대중교통에서 소매치기가 많습니다. 무료로 팔찌·장미를 채워주려는 사람은 돈을 요구하니 단호히 거절하세요."
         }
       ],
-      "questions": [
+      "sets": [
         {
-          "id": "city_rome_001",
-          "type": "multiple_choice",
-          "question": "로마에서 줄을 줄이기 위해 예약이 거의 필수인 명소는?",
-          "options": ["트레비 분수", "콜로세움·바티칸", "거리 광장"],
-          "answerIndex": 1,
-          "explanation": "콜로세움과 바티칸은 대기 줄이 길어 사전 예약이 사실상 필수입니다."
+          "id": "set01",
+          "questions": [
+            {
+              "id": "city_ch02_set01_001",
+              "type": "multiple_choice",
+              "question": "로마에서 줄을 줄이기 위해 예약이 거의 필수인 명소는?",
+              "options": ["트레비 분수", "콜로세움·바티칸", "거리 광장", "판테온 앞 광장"],
+              "answerIndex": 1,
+              "explanation": "콜로세움과 바티칸은 대기 줄이 길어 사전 예약이 사실상 필수입니다."
+            },
+            {
+              "id": "city_ch02_set01_002",
+              "type": "multiple_choice",
+              "question": "로마에서 누군가 갑자기 팔찌나 장미를 손에 채워주려 하면?",
+              "options": ["고맙게 받는다", "단호히 거절한다(돈을 요구하는 수법)", "사진을 같이 찍는다", "값을 깎아 흥정한다"],
+              "answerIndex": 1,
+              "explanation": "무료인 척 물건을 채워준 뒤 돈을 요구하는 흔한 수법입니다. 단호히 거절하세요."
+            },
+            {
+              "id": "city_ch02_set01_003",
+              "type": "multiple_choice",
+              "question": "로마에서 검투사 경기가 열리던 고대 원형 경기장 명소는?",
+              "options": ["콜로세움", "판테온", "트레비 분수", "스페인 광장"],
+              "answerIndex": 0,
+              "explanation": "콜로세움은 고대 로마의 원형 경기장으로 로마를 대표하는 명소입니다."
+            },
+            {
+              "id": "city_ch02_set01_004",
+              "type": "multiple_choice",
+              "question": "동전을 던지면 다시 로마에 온다는 전설로 유명한 명소는?",
+              "options": ["트레비 분수", "콜로세움", "성 베드로 대성당", "포로 로마노"],
+              "answerIndex": 0,
+              "explanation": "트레비 분수는 동전을 던지면 로마에 다시 온다는 전설로 유명합니다."
+            },
+            {
+              "id": "city_ch02_set01_005",
+              "type": "multiple_choice",
+              "question": "바티칸에 있는, 가톨릭 세계 최대 규모의 성당은?",
+              "options": ["성 베드로 대성당", "노트르담 성당", "두오모 성당", "사크레쾨르 대성당"],
+              "answerIndex": 0,
+              "explanation": "성 베드로 대성당(산 피에트로 대성당)은 바티칸에 있는 가톨릭의 중심 성당입니다."
+            },
+            {
+              "id": "city_ch02_set01_006",
+              "type": "multiple_choice",
+              "question": "둥근 돔과 천장 한가운데 구멍(오쿨루스)으로 유명한 로마의 고대 신전은?",
+              "options": ["판테온", "콜로세움", "트레비 분수", "스페인 계단"],
+              "answerIndex": 0,
+              "explanation": "판테온은 거대한 돔과 천장 중앙의 오쿨루스로 유명한 고대 로마 신전입니다."
+            },
+            {
+              "id": "city_ch02_set01_007",
+              "type": "multiple_choice",
+              "question": "로마에서 소매치기가 특히 많아 주의해야 하는 곳은?",
+              "options": ["테르미니 역 주변과 대중교통", "한적한 주택가 골목", "박물관 내부 매표소", "숙소 객실 안"],
+              "answerIndex": 0,
+              "explanation": "테르미니 역 주변과 붐비는 대중교통은 소매치기가 많아 특히 주의해야 합니다."
+            },
+            {
+              "id": "city_ch02_set01_008",
+              "type": "ox",
+              "question": "콜로세움은 로마에 있는 명소다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 콜로세움은 로마를 대표하는 고대 원형 경기장입니다."
+            },
+            {
+              "id": "city_ch02_set01_009",
+              "type": "ox",
+              "question": "로마의 콜로세움과 바티칸은 대기 줄이 길어 사전 예약이 사실상 필수다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 콜로세움과 바티칸은 대기 줄이 길어 사전 예약을 권장합니다."
+            },
+            {
+              "id": "city_ch02_set01_010",
+              "type": "ox",
+              "question": "로마 거리에서 모르는 사람이 무료로 팔찌를 채워주면 좋은 선물이므로 받아도 된다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 무료인 척 채워준 뒤 돈을 요구하는 수법이므로 단호히 거절해야 합니다."
+            }
+          ]
         },
         {
-          "id": "city_rome_002",
-          "type": "multiple_choice",
-          "question": "로마에서 누군가 갑자기 팔찌나 장미를 손에 채워주려 하면?",
-          "options": ["고맙게 받는다", "단호히 거절한다(돈을 요구하는 수법)", "사진을 같이 찍는다"],
-          "answerIndex": 1,
-          "explanation": "무료인 척 물건을 채워준 뒤 돈을 요구하는 흔한 수법입니다. 단호히 거절하세요."
+          "id": "set02",
+          "questions": [
+            {
+              "id": "city_ch02_set02_001",
+              "type": "multiple_choice",
+              "question": "다음 로마 명소 중 대기 줄이 길어 사전 예약을 강하게 권하는 곳은?",
+              "options": ["트레비 분수", "스페인 광장", "콜로세움·바티칸", "거리 노점"],
+              "answerIndex": 2,
+              "explanation": "콜로세움과 바티칸은 인파가 많아 사전 예약(시간 지정 입장)이 사실상 필수입니다."
+            },
+            {
+              "id": "city_ch02_set02_002",
+              "type": "multiple_choice",
+              "question": "로마 길거리에서 누군가 손목에 팔찌를 채우고 돈을 요구할 때 올바른 대처는?",
+              "options": ["돈을 주고 빨리 보낸다", "값을 흥정한다", "단호히 거절하고 자리를 뜬다", "같이 사진을 찍는다"],
+              "answerIndex": 2,
+              "explanation": "무료인 척 물건을 채운 뒤 돈을 요구하는 수법이므로 단호히 거절하고 자리를 뜨는 것이 좋습니다."
+            },
+            {
+              "id": "city_ch02_set02_003",
+              "type": "multiple_choice",
+              "question": "다음 중 로마에 있는 고대 원형 경기장은?",
+              "options": ["판테온", "콜로세움", "성 베드로 대성당", "스페인 계단"],
+              "answerIndex": 1,
+              "explanation": "콜로세움은 고대 로마의 원형 경기장으로 로마의 대표 명소입니다."
+            },
+            {
+              "id": "city_ch02_set02_004",
+              "type": "multiple_choice",
+              "question": "관광객이 소원을 빌며 동전을 던지는 것으로 유명한 로마의 분수는?",
+              "options": ["트레비 분수", "넵튠 분수(피렌체)", "사대강 분수", "거북이 분수"],
+              "answerIndex": 0,
+              "explanation": "트레비 분수는 동전을 던지면 로마에 다시 온다는 전설로 가장 유명한 분수입니다."
+            },
+            {
+              "id": "city_ch02_set02_005",
+              "type": "multiple_choice",
+              "question": "다음 중 바티칸에 위치한 명소는?",
+              "options": ["노트르담 성당", "성 베드로 대성당", "두오모", "에펠탑"],
+              "answerIndex": 1,
+              "explanation": "성 베드로 대성당은 바티칸에 있으며, 노트르담과 에펠탑은 파리에 있습니다."
+            },
+            {
+              "id": "city_ch02_set02_006",
+              "type": "multiple_choice",
+              "question": "천장 한가운데 뚫린 구멍(오쿨루스)으로 빛이 들어오는 것으로 유명한 로마의 고대 신전은?",
+              "options": ["콜로세움", "판테온", "포로 로마노", "트레비 분수"],
+              "answerIndex": 1,
+              "explanation": "판테온은 돔 천장 중앙의 오쿨루스를 통해 빛이 들어오는 고대 로마 신전입니다."
+            },
+            {
+              "id": "city_ch02_set02_007",
+              "type": "multiple_choice",
+              "question": "로마 여행 중 소매치기를 가장 경계해야 하는 상황은?",
+              "options": ["테르미니 역 주변과 붐비는 대중교통", "한산한 미술관 내부", "예약제 식당 안", "호텔 로비"],
+              "answerIndex": 0,
+              "explanation": "테르미니 역 주변과 붐비는 대중교통은 소매치기가 많아 특히 경계해야 합니다."
+            },
+            {
+              "id": "city_ch02_set02_008",
+              "type": "ox",
+              "question": "트레비 분수는 로마에 있는 명소다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 트레비 분수는 로마를 대표하는 분수입니다."
+            },
+            {
+              "id": "city_ch02_set02_009",
+              "type": "ox",
+              "question": "성 베드로 대성당은 파리에 있다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 성 베드로 대성당은 바티칸(로마)에 있습니다."
+            },
+            {
+              "id": "city_ch02_set02_010",
+              "type": "ox",
+              "question": "로마의 콜로세움과 바티칸은 예약 없이 가도 대기 줄이 거의 없다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 콜로세움과 바티칸은 대기 줄이 길어 사전 예약이 사실상 필수입니다."
+            }
+          ]
         }
       ]
     }

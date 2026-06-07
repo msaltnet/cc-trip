@@ -34,7 +34,7 @@
       return;
     }
     chapter = window.DATA.findChapter(result.detail, chId);
-    if (!chapter || !(chapter.questions || []).length) {
+    if (!chapter || !window.DATA.hasQuestions(chapter)) {
       redirectToChapter();
       return;
     }
@@ -42,8 +42,9 @@
     document.title = "퀴즈 · " + chapter.title;
     titleEl.textContent = chapter.title + " 퀴즈";
 
-    // 랜덤 추출 (최대 QUIZ_COUNT, 부족하면 있는 만큼).
-    picked = UTIL.pickRandom(chapter.questions, CONFIG.QUIZ_COUNT);
+    // 챕터의 여러 세트 중 1개를 랜덤 선택해 통째로 출제.
+    // 세트 내 문제 순서와 각 문제의 보기 순서는 셔플된다(암기 방지).
+    picked = UTIL.pickSetQuestions(chapter);
     subEl.textContent = "총 " + picked.length + "문항 · 제한 시간 10분";
 
     renderQuestions(picked);
@@ -59,7 +60,7 @@
   function renderQuestions(questions) {
     formEl.innerHTML = questions
       .map(function (q, qi) {
-        const options = (q.options || [])
+        const options = (q.displayOptions || [])
           .map(function (opt, oi) {
             return (
               '<label class="option">' +

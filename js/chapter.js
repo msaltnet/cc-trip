@@ -63,7 +63,7 @@
 
     // 문제 유무에 따라 시작 버튼 활성/비활성.
     startArea.hidden = false;
-    const hasQuestions = (chapter.questions || []).length > 0;
+    const hasQuestions = window.DATA.hasQuestions(chapter);
     if (!hasQuestions) {
       startBtn.disabled = true;
       startBtn.textContent = "준비 중인 챕터";

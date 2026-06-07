@@ -38,6 +38,55 @@ window.UTIL = (function () {
     return new URLSearchParams(window.location.search).get(name);
   }
 
+  // 한 챕터에서 출제할 세트를 무작위로 1개 골라 그 안의 문제 배열을 반환.
+  // - sets가 비어 있으면 빈 배열.
+  // - 세트 내 문제 순서를 셔플.
+  // - 각 문제는 prepareQuestion으로 보기 순서까지 셔플하고 정답 인덱스를 재매핑.
+  function pickSetQuestions(chapter) {
+    const sets = (chapter && chapter.sets) || [];
+    if (!sets.length) return [];
+    const set = sets[Math.floor(Math.random() * sets.length)];
+    const questions = (set && set.questions) || [];
+    return shuffle(questions).map(prepareQuestion);
+  }
+
+  // 문제를 화면 표시용으로 변환.
+  // - ox 유형: 보기를 ["O", "X"]로 고정. answerIndex(0=O,1=X) 그대로.
+  // - multiple_choice: 보기 순서를 셔플하고, 정답이 옮겨간 새 위치로 answerIndex 재매핑.
+  // 반환 객체의 displayOptions / answerIndex는 같은 좌표계를 사용하므로
+  // 사용자 선택 인덱스와 곧바로 비교/채점할 수 있다.
+  function prepareQuestion(q) {
+    if (q.type === "ox") {
+      return {
+        id: q.id,
+        type: "ox",
+        question: q.question,
+        displayOptions: ["O (맞다)", "X (아니다)"],
+        answerIndex: q.answerIndex,
+        explanation: q.explanation,
+      };
+    }
+    const options = q.options || [];
+    // 원래 인덱스를 함께 들고 셔플한 뒤 정답 위치를 찾는다.
+    const order = shuffle(options.map(function (opt, i) {
+      return { opt: opt, i: i };
+    }));
+    const displayOptions = order.map(function (o) {
+      return o.opt;
+    });
+    const answerIndex = order.findIndex(function (o) {
+      return o.i === q.answerIndex;
+    });
+    return {
+      id: q.id,
+      type: "multiple_choice",
+      question: q.question,
+      displayOptions: displayOptions,
+      answerIndex: answerIndex,
+      explanation: q.explanation,
+    };
+  }
+
   // 텍스트를 HTML로 안전하게 이스케이프.
   function escapeHtml(str) {
     return String(str)
@@ -51,6 +100,8 @@ window.UTIL = (function () {
   return {
     shuffle: shuffle,
     pickRandom: pickRandom,
+    pickSetQuestions: pickSetQuestions,
+    prepareQuestion: prepareQuestion,
     scoreQuiz: scoreQuiz,
     formatTime: formatTime,
     getParam: getParam,

@@ -16,38 +16,170 @@
           "body": "식당에서는 보통 자리에 앉으면 직원이 안내합니다. 직접 자리를 잡기보다 'Table for two?' 안내를 기다리세요. 계산은 보통 테이블에서 직원을 불러서 합니다."
         }
       ],
-      "questions": [
+      "sets": [
         {
-          "id": "culture_ch01_001",
-          "type": "multiple_choice",
-          "question": "유럽 식당에서의 팁 문화에 대한 설명으로 알맞은 것은?",
-          "options": ["반드시 20% 이상 줘야 한다", "미국만큼 강제적이지 않고 5~10% 또는 잔돈 정도면 충분", "팁을 주면 실례다"],
-          "answerIndex": 1,
-          "explanation": "유럽은 봉사료가 포함된 경우가 많아, 만족했다면 5~10% 또는 잔돈을 남기는 정도면 충분합니다."
+          "id": "set01",
+          "questions": [
+            {
+              "id": "culture_ch01_set01_001",
+              "type": "multiple_choice",
+              "question": "유럽 식당에서의 팁 문화에 대한 설명으로 알맞은 것은?",
+              "options": ["반드시 20% 이상 줘야 한다", "미국만큼 강제적이지 않고 5~10% 또는 잔돈 정도면 충분", "팁을 주면 실례다", "팁 대신 선물을 줘야 한다"],
+              "answerIndex": 1,
+              "explanation": "유럽은 봉사료가 포함된 경우가 많아, 만족했다면 5~10% 또는 잔돈을 남기는 정도면 충분합니다."
+            },
+            {
+              "id": "culture_ch01_set01_002",
+              "type": "multiple_choice",
+              "question": "유럽 식당에 들어갔을 때 일반적으로 권장되는 행동은?",
+              "options": ["빈자리에 바로 앉는다", "직원의 자리 안내를 기다린다", "주방으로 가서 주문한다", "큰 소리로 직원을 부른다"],
+              "answerIndex": 1,
+              "explanation": "대부분의 식당에서 직원이 자리를 안내하므로, 입구에서 안내를 기다리는 것이 예의입니다."
+            },
+            {
+              "id": "culture_ch01_set01_003",
+              "type": "multiple_choice",
+              "question": "유럽 식당에서 계산하는 일반적인 방식은?",
+              "options": ["계산대로 직접 가서 줄 선다", "테이블에서 직원을 불러 계산한다", "다음에 와서 낸다", "입구에서 미리 결제한다"],
+              "answerIndex": 1,
+              "explanation": "유럽 식당은 보통 테이블에서 직원을 불러 'Check, please.'로 계산하는 방식이 일반적입니다."
+            },
+            {
+              "id": "culture_ch01_set01_004",
+              "type": "multiple_choice",
+              "question": "성당·교회를 방문할 때 지켜야 할 에티켓은?",
+              "options": ["민소매·반바지로 자유롭게 입는다", "어깨와 무릎을 가리는 단정한 복장을 한다", "큰 소리로 대화한다", "음식을 먹으며 둘러본다"],
+              "answerIndex": 1,
+              "explanation": "성당·교회는 종교 시설이므로 어깨와 무릎을 가리는 단정한 복장과 조용한 태도가 필요합니다."
+            },
+            {
+              "id": "culture_ch01_set01_005",
+              "type": "ox",
+              "question": "유럽 대부분의 식당에서는 봉사료가 포함된 경우가 많아 미국처럼 높은 팁이 강제되지 않는다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 유럽은 봉사료가 포함된 곳이 많아 팁 부담이 미국보다 적습니다."
+            },
+            {
+              "id": "culture_ch01_set01_006",
+              "type": "ox",
+              "question": "유럽 식당에서는 보통 자리에 앉으면 직접 계산대로 가서 결제하는 것이 일반적이다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 유럽 식당은 보통 테이블에서 직원을 불러 계산합니다."
+            },
+            {
+              "id": "culture_ch01_set01_007",
+              "type": "multiple_choice",
+              "question": "식당에서 자리를 안내받기 전에 하면 좋은 표현은?",
+              "options": ["Table for two, please.", "Check, please.", "Where is the exit?", "I am full."],
+              "answerIndex": 0,
+              "explanation": "인원수를 말하며 'Table for two, please.'로 자리를 요청합니다."
+            },
+            {
+              "id": "culture_ch01_set01_008",
+              "type": "multiple_choice",
+              "question": "현지에서 인사할 때 흔히 쓰는 표현으로 적절한 것은?",
+              "options": ["Hello / Bonjour 등 현지 인사", "큰 소리로 한국어 인사", "악수를 거부", "눈을 피한다"],
+              "answerIndex": 0,
+              "explanation": "간단한 현지 인사말(Hello, Bonjour 등)을 건네면 호감을 줍니다."
+            },
+            {
+              "id": "culture_ch01_set01_009",
+              "type": "multiple_choice",
+              "question": "박물관·미술관에서 일반적으로 금지되는 행동은?",
+              "options": ["조용히 관람", "플래시 촬영", "안내도 보기", "오디오 가이드 사용"],
+              "answerIndex": 1,
+              "explanation": "작품 보호를 위해 플래시 촬영은 대부분 금지됩니다."
+            },
+            {
+              "id": "culture_ch01_set01_010",
+              "type": "ox",
+              "question": "성당이나 교회를 방문할 때는 어깨와 무릎을 가리는 단정한 복장이 권장된다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 종교 시설에서는 노출이 적은 단정한 복장이 예의입니다."
+            }
+          ]
         },
         {
-          "id": "culture_ch01_002",
-          "type": "multiple_choice",
-          "question": "유럽 식당에 들어갔을 때 일반적으로 권장되는 행동은?",
-          "options": ["빈자리에 바로 앉는다", "직원의 자리 안내를 기다린다", "주방으로 가서 주문한다"],
-          "answerIndex": 1,
-          "explanation": "대부분의 식당에서 직원이 자리를 안내하므로, 입구에서 안내를 기다리는 것이 예의입니다."
-        },
-        {
-          "id": "culture_ch01_003",
-          "type": "multiple_choice",
-          "question": "유럽 식당에서 계산하는 일반적인 방식은?",
-          "options": ["계산대로 직접 가서 줄 선다", "테이블에서 직원을 불러 계산한다", "다음에 와서 낸다"],
-          "answerIndex": 1,
-          "explanation": "유럽 식당은 보통 테이블에서 직원을 불러 'Check, please.'로 계산하는 방식이 일반적입니다."
-        },
-        {
-          "id": "culture_ch01_004",
-          "type": "multiple_choice",
-          "question": "성당·교회를 방문할 때 지켜야 할 에티켓은?",
-          "options": ["민소매·반바지로 자유롭게 입는다", "어깨와 무릎을 가리는 단정한 복장을 한다", "큰 소리로 대화한다"],
-          "answerIndex": 1,
-          "explanation": "성당·교회는 종교 시설이므로 어깨와 무릎을 가리는 단정한 복장과 조용한 태도가 필요합니다."
+          "id": "set02",
+          "questions": [
+            {
+              "id": "culture_ch01_set02_001",
+              "type": "ox",
+              "question": "유럽에서는 식당 팁으로 항상 음식값의 20% 이상을 내야 한다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 유럽은 5~10% 또는 잔돈 정도면 충분하며 강제적이지 않습니다."
+            },
+            {
+              "id": "culture_ch01_set02_002",
+              "type": "multiple_choice",
+              "question": "식사 후 계산서를 요청하는 표현은?",
+              "options": ["Check, please.", "Table, please.", "Start, please.", "Menu, please."],
+              "answerIndex": 0,
+              "explanation": "'Check, please.' 또는 'The bill, please.'로 계산을 요청합니다."
+            },
+            {
+              "id": "culture_ch01_set02_003",
+              "type": "multiple_choice",
+              "question": "교회·성당에서 권장되지 않는 행동은?",
+              "options": ["조용히 둘러보기", "큰 소리로 통화하기", "단정한 복장 입기", "안내 표지 따르기"],
+              "answerIndex": 1,
+              "explanation": "종교 시설에서는 정숙이 기본이며, 큰 소리 통화는 실례입니다."
+            },
+            {
+              "id": "culture_ch01_set02_004",
+              "type": "multiple_choice",
+              "question": "유럽 식당에서 물을 시킬 때 무료로 받을 가능성이 높은 것은?",
+              "options": ["탄산수(병)", "수돗물(tap water)", "와인", "생수(병)"],
+              "answerIndex": 1,
+              "explanation": "tap water(수돗물)는 보통 무료로 받을 수 있고, 병물은 유료인 경우가 많습니다."
+            },
+            {
+              "id": "culture_ch01_set02_005",
+              "type": "multiple_choice",
+              "question": "식당에서 직원의 안내를 기다리는 이유로 알맞은 것은?",
+              "options": ["대부분 직원이 자리를 배정하기 때문", "자리가 없기 때문", "예약만 받기 때문", "메뉴가 없기 때문"],
+              "answerIndex": 0,
+              "explanation": "많은 유럽 식당이 직원이 자리를 안내하는 방식이라 입구에서 기다리는 것이 자연스럽습니다."
+            },
+            {
+              "id": "culture_ch01_set02_006",
+              "type": "ox",
+              "question": "박물관에서 작품을 플래시로 촬영하는 것은 대체로 허용된다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 작품 보호를 위해 플래시 촬영은 대부분 금지됩니다."
+            },
+            {
+              "id": "culture_ch01_set02_007",
+              "type": "multiple_choice",
+              "question": "현지인에게 호감을 주는 작은 습관은?",
+              "options": ["간단한 현지 인사말 사용", "줄 새치기", "큰 소리로 대화", "사진 무단 촬영"],
+              "answerIndex": 0,
+              "explanation": "Bonjour, Grazie 같은 간단한 현지 인사·감사 표현은 좋은 인상을 줍니다."
+            },
+            {
+              "id": "culture_ch01_set02_008",
+              "type": "multiple_choice",
+              "question": "팁을 남기는 적절한 방식으로 알맞은 것은?",
+              "options": ["만족했을 때 5~10% 또는 잔돈", "무조건 거절", "계산서의 2배", "동전을 던진다"],
+              "answerIndex": 0,
+              "explanation": "유럽에서는 만족했을 때 5~10% 또는 잔돈을 남기는 정도가 일반적입니다."
+            },
+            {
+              "id": "culture_ch01_set02_009",
+              "type": "multiple_choice",
+              "question": "식당에서 포장을 요청하는 표현은?",
+              "options": ["To take away, please.", "Open the door.", "More water.", "Turn it off."],
+              "answerIndex": 0,
+              "explanation": "'To take away, please.' 또는 'Can I get this to go?'로 포장을 요청합니다."
+            },
+            {
+              "id": "culture_ch01_set02_010",
+              "type": "ox",
+              "question": "유럽 식당에서는 보통 직원을 테이블로 불러 계산하는 것이 일반적이다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 테이블에서 'Check, please.'로 직원을 불러 계산합니다."
+            }
+          ]
         }
       ]
     }
