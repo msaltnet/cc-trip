@@ -1,0 +1,37 @@
+[
+  {
+    "id": "survival-english",
+    "icon": "🗣️",
+    "title": "생존 영어 회화",
+    "summary": "공항·식당·길찾기 등 상황별 표현",
+    "file": "survival-english.json"
+  },
+  {
+    "id": "city-info",
+    "icon": "🏙️",
+    "title": "방문 도시 상식",
+    "summary": "도시별 명소·교통·주의사항",
+    "file": "city-info.json"
+  },
+  {
+    "id": "culture",
+    "icon": "🤝",
+    "title": "문화·에티켓",
+    "summary": "팁 문화, 인사, 식사 예절",
+    "file": "culture.json"
+  },
+  {
+    "id": "packing",
+    "icon": "🎒",
+    "title": "짐 싸기 체크리스트",
+    "summary": "소매치기 방지 용품, 어댑터, 비상약, 운동화",
+    "file": "packing.json"
+  },
+  {
+    "id": "finance",
+    "icon": "💶",
+    "title": "환전·결제 상식",
+    "summary": "트래블카드, DCC 차단, 택스리펀",
+    "file": "finance.json"
+  }
+]

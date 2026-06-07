@@ -1,0 +1,10 @@
+# 의존성 (이 프로젝트는 런타임 의존성이 없습니다 — 검증용 임시 설치만)
+node_modules/
+package.json
+package-lock.json
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
