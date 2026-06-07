@@ -44,7 +44,7 @@
       return;
     }
 
-    document.title = chapter.title + " · 유럽 가족 여행 준비 Q&A";
+    document.title = chapter.title + " · 유럽 가족 여행 준비 Quiz";
     titleEl.textContent = chapter.title;
     subEl.textContent = chapter.summary || "";
 

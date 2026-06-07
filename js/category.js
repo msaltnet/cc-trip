@@ -19,7 +19,7 @@
       return;
     }
     const { meta, detail } = result;
-    document.title = detail.title + " · 유럽 가족 여행 준비 Q&A";
+    document.title = detail.title + " · 유럽 가족 여행 준비 Quiz";
     titleEl.textContent = (meta.icon ? meta.icon + " " : "") + detail.title;
     subEl.textContent = meta.summary || "";
 
