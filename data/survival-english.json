@@ -3058,15 +3058,15 @@
             {
               "id": "se_ch21_set01_004",
               "type": "multiple_choice",
-              "question": "주문한 음식·음료를 포장해 달라고 말할 때 쓰는 표현은?",
+              "question": "카페에서 빨대를 달라고 요청할 때 알맞은 표현은?",
               "options": [
-                "Wrap it forever.",
-                "Put it in a bag.",
-                "To go, please.",
-                "Take it home."
+                "Can I have a napkin?",
+                "Can I have a lid?",
+                "Can I have a straw?",
+                "Can I have a spoon?"
               ],
               "answerIndex": 2,
-              "explanation": "'To go, please.'는 포장해서 가지고 가겠다는 표현입니다. 이미 주문한 후 포장을 원할 때도 'Can I get this to go?'라고 말할 수 있습니다."
+              "explanation": "'Can I have a straw?'는 카페에서 빨대를 달라고 요청하는 표현입니다. 'napkin'은 냅킨, 'lid'는 컵 뚜껑, 'spoon'은 스푼입니다. 'Can I have a ~?'는 무언가를 정중하게 요청할 때 폭넓게 활용할 수 있습니다."
             },
             {
               "id": "se_ch21_set01_005",
@@ -3088,11 +3088,11 @@
               "options": [
                 "Is this chair broken?",
                 "Is this seat free?",
-                "Is anyone sitting here?",
+                "Is this seat for sale?",
                 "Can I move this seat?"
               ],
               "answerIndex": 1,
-              "explanation": "'Is this seat free?'는 자리가 비었는지(다른 사람이 예약·점유하지 않았는지) 묻는 자연스러운 표현입니다. 'Is anyone sitting here?'도 통용되지만 'Is this seat free?'가 더 간결하고 널리 쓰입니다."
+              "explanation": "'Is this seat free?'는 자리가 비었는지(다른 사람이 예약·점유하지 않았는지) 묻는 자연스러운 표현입니다. 'Is this seat for sale?'은 자리를 판매하는지 묻는 어색한 표현으로 이 상황에는 맞지 않습니다."
             },
             {
               "id": "se_ch21_set01_007",
@@ -3363,12 +3363,12 @@
               "question": "옷가게에서 가격을 확인하고 싶을 때 쓰는 표현은?",
               "options": [
                 "What is the tag?",
-                "How much does this cost?",
+                "What is the price range?",
                 "How much is it?",
                 "Is it on sale?"
               ],
               "answerIndex": 2,
-              "explanation": "'How much is it?'는 가격을 묻는 자연스럽고 간결한 표현입니다. 'How much does this cost?'도 맞는 문장이지만, 'How much is it?'이 일상 쇼핑에서 더 자주 쓰입니다."
+              "explanation": "'How much is it?'는 가격을 묻는 자연스럽고 간결한 표현입니다. 'What is the price range?'는 가격대를 묻는 표현으로 단일 품목 가격을 물을 때는 적합하지 않습니다."
             },
             {
               "id": "se_ch23_set01_007",
@@ -3419,7 +3419,7 @@
         },
         {
           "heading": "세관 도장과 양식 작성",
-          "body": "공항 출국 전 세관에서 구매 영수증과 함께 택스 프리 폼(tax-free form)에 도장을 받아야 합니다. 세관 도장을 찍는 곳을 모를 때는 'Where is the customs stamp?'라고 물어보세요."
+          "body": "공항 출국 전 세관에서 구매 영수증과 함께 택스 프리 폼(tax-free form)에 도장을 받아야 합니다. 세관 도장을 찍는 곳을 모를 때는 'Where can I get a customs stamp?'라고 물어보세요."
         },
         {
           "heading": "환급 신청과 창구 위치",
@@ -3461,13 +3461,13 @@
               "type": "multiple_choice",
               "question": "공항에서 세관 도장을 받는 곳을 물어볼 때 알맞은 표현은?",
               "options": [
-                "Where is the customs office?",
-                "Where is the customs stamp?",
+                "Where is the currency exchange?",
+                "Where can I get a customs stamp?",
                 "Where can I get stamped?",
                 "Where is the immigration?"
               ],
               "answerIndex": 1,
-              "explanation": "'Where is the customs stamp?'는 세관 도장을 찍는 곳의 위치를 묻는 표현입니다. 'customs office'는 세관 사무소 전체를 가리키고, 'immigration'은 입국 심사대입니다."
+              "explanation": "'Where can I get a customs stamp?'는 공항에서 세관 도장을 받을 수 있는 곳을 묻는 자연스러운 표현입니다. 'immigration'은 입국 심사대이며, 'currency exchange'는 환전소입니다."
             },
             {
               "id": "se_ch24_set01_004",
@@ -3519,7 +3519,7 @@
                 "신용카드로 결제하기"
               ],
               "answerIndex": 2,
-              "explanation": "택스리펀 절차는 '상점에서 양식 받기 → 공항에서 세관 도장 받기 → 환급 창구에서 환급 신청' 순서입니다. 따라서 상점에서 taxi-free form을 받는 것이 첫 번째 단계입니다."
+              "explanation": "택스리펀 절차는 '상점에서 양식 받기 → 공항에서 세관 도장 받기 → 환급 창구에서 환급 신청' 순서입니다. 따라서 상점에서 tax-free form을 받는 것이 첫 번째 단계입니다."
             },
             {
               "id": "se_ch24_set01_008",
