@@ -1856,7 +1856,7 @@
               "type": "multiple_choice",
               "question": "에어비앤비에서 체크아웃 시간을 물을 때 적절한 표현은?",
               "options": [
-                "What time should I leave?",
+                "What time is breakfast?",
                 "When does the house close?",
                 "What time is check-out?",
                 "Can I stay one more night?"
@@ -2021,12 +2021,12 @@
               "question": "'There's a mistake on my bill.'에서 'bill'의 뜻은?",
               "options": [
                 "예약 내역",
-                "영수증·청구서",
+                "청구서",
                 "할인 쿠폰",
                 "객실 번호"
               ],
               "answerIndex": 1,
-              "explanation": "'bill'은 호텔·레스토랑에서 지불해야 할 금액이 적힌 청구서를 뜻합니다. 'receipt'는 결제 후 받는 영수증이고, 'bill'은 결제 전 청구서입니다."
+              "explanation": "'bill'은 결제 전 청구서(청구서)를 뜻합니다. 'receipt'는 결제 후 받는 영수증이므로, bill(청구서, 결제 전)과 receipt(영수증, 결제 후)를 구분해 두세요."
             },
             {
               "id": "se_ch14_set01_008",
