@@ -3588,11 +3588,11 @@
               "options": [
                 "Do you have a group ticket?",
                 "Is there a family ticket?",
-                "Can I get a family pass?",
+                "Is there a group rate?",
                 "Do you sell family cards?"
               ],
               "answerIndex": 1,
-              "explanation": "'Is there a family ticket?'는 가족 전용 입장권(family ticket)이 있는지 확인하는 자연스러운 표현입니다. 'group ticket'은 단체권으로 가족권과는 다릅니다."
+              "explanation": "'Is there a family ticket?'는 가족 전용 입장권(family ticket)이 있는지 확인하는 가장 자연스러운 표현입니다. 'group ticket'은 단체권, 'group rate'는 단체 할인율을 뜻하므로 가족권과는 다릅니다."
             },
             {
               "id": "se_ch25_set01_003",
@@ -3888,13 +3888,13 @@
               "type": "multiple_choice",
               "question": "상대방이 이 관광지에 처음 왔는지 물을 때 알맞은 표현은?",
               "options": [
-                "Have you been here before?",
+                "Did you come here yesterday?",
                 "Is this your first time here?",
                 "Did you just arrive?",
                 "Are you new here?"
               ],
               "answerIndex": 1,
-              "explanation": "'Is this your first time here?'는 이 장소에 처음 방문한 것인지 묻는 표현입니다. 'Have you been here before?'도 비슷한 의미이지만, 'Is this your first time here?'가 처음 방문 여부를 더 직접적으로 묻는 표현입니다."
+              "explanation": "'Is this your first time here?'는 이 장소에 처음 방문한 것인지 묻는 표현입니다. 'Did you come here yesterday?'는 어제 왔는지를 묻는 전혀 다른 질문이고, 'Did you just arrive?'는 막 도착했는지 묻는 표현으로 처음 방문 여부와는 다릅니다."
             },
             {
               "id": "se_ch27_set01_005",
@@ -3907,7 +3907,7 @@
                 "See you soon!"
               ],
               "answerIndex": 2,
-              "explanation": "'Have a nice day!'는 헤어질 때 좋은 하루 보내라는 뜻의 가장 일반적인 인사 표현입니다. 'Good luck!'은 행운을, 'Take care!'는 조심하라는 뜻이므로 일상 작별 인사로는 'Have a nice day!'가 가장 적합합니다."
+              "explanation": "'Have a nice day!'는 헤어질 때 좋은 하루 보내라는 뜻의 가장 일반적인 인사 표현입니다. 'Good luck!'은 행운을 빌 때, 'See you soon!'은 곧 다시 만날 것을 기약할 때 씁니다. 'Take care!'도 헤어질 때 쓰는 작별 인사지만, 여기서는 '좋은 하루 되세요'에 해당하는 'Have a nice day!'가 가장 알맞습니다."
             },
             {
               "id": "se_ch27_set01_006",
@@ -4015,7 +4015,7 @@
               "options": [
                 "Where is the nearest bank?",
                 "Is there an ATM nearby?",
-                "Can I find a cash machine?",
+                "Where is the gift shop?",
                 "Do you have cash here?"
               ],
               "answerIndex": 1,
@@ -4063,15 +4063,15 @@
             {
               "id": "se_ch28_set01_007",
               "type": "multiple_choice",
-              "question": "DCC(Dynamic Currency Conversion)를 설명한 것으로 가장 알맞은 것은?",
+              "question": "환전소에서 수수료가 있는지 물을 때 알맞은 영어 표현은?",
               "options": [
-                "현금 없이 카드로만 결제하는 방식",
-                "해외 카드 결제 시 자국 통화로 결제되도록 하는 환율 변환 서비스",
-                "은행에서 환전 수수료 없이 환전해 주는 서비스",
-                "ATM에서 현지 통화를 자동으로 출금해 주는 기능"
+                "What is the exchange rate?",
+                "Is there a commission?",
+                "Can I pay in cash?",
+                "Do you accept cards?"
               ],
               "answerIndex": 1,
-              "explanation": "DCC(Dynamic Currency Conversion)는 해외에서 카드 결제 시 현지 통화 대신 자국 통화(원화)로 결제되도록 변환해 주는 서비스입니다. 편리해 보이지만 불리한 환율이 적용되므로 거절하고 현지 통화로 결제하는 것이 유리합니다."
+              "explanation": "'Is there a commission?'은 환전 수수료(commission)가 있는지 묻는 표현입니다. 'What is the exchange rate?'는 환율을 묻는 표현이고, 'Can I pay in cash?'는 현금 결제 가능 여부를, 'Do you accept cards?'는 카드 사용 가능 여부를 묻는 표현으로 수수료 질문과 다릅니다."
             },
             {
               "id": "se_ch28_set01_008",
