@@ -1378,7 +1378,7 @@
         },
         {
           "heading": "공항 기차 타기",
-          "body": "공항 철도(airport train)를 이용할 때는 'Which platform for the airport train?'이라고 물어 플랫폼 번호를 확인하세요. 유럽의 주요 공항은 대부분 기차와 연결되어 있어 편리합니다. 표를 구매한 뒤 플랫폼으로 이동하면 됩니다."
+          "body": "공항 철도(airport train)를 이용할 때는 'Which platform is for the airport train?'이라고 물어 플랫폼 번호를 확인하세요. 유럽의 주요 공항은 대부분 기차와 연결되어 있어 편리합니다. 표를 구매한 뒤 플랫폼으로 이동하면 됩니다."
         }
       ],
       "sets": [
@@ -1443,12 +1443,12 @@
               "question": "공항 철도를 타려면 어떤 플랫폼으로 가야 하는지 물을 때 알맞은 표현은?",
               "options": [
                 "Which gate is for the airport train?",
-                "Which platform for the airport train?",
-                "Which terminal for the airport train?",
-                "Which carousel for the airport train?"
+                "Which platform is for the airport train?",
+                "Which terminal is for the airport train?",
+                "Which carousel is for the airport train?"
               ],
               "answerIndex": 1,
-              "explanation": "'Which platform for the airport train?'은 공항 철도를 탈 수 있는 플랫폼 번호를 묻는 표현입니다. 'platform'은 기차·지하철 승강장을 뜻합니다."
+              "explanation": "'Which platform is for the airport train?'은 공항 철도를 탈 수 있는 플랫폼 번호를 묻는 완전한 문장 표현입니다. 'platform'은 기차·지하철 승강장을 뜻합니다."
             },
             {
               "id": "se_ch10_set01_006",
@@ -1493,9 +1493,9 @@
             {
               "id": "se_ch10_set01_010",
               "type": "ox",
-              "question": "'How do I get to the city center?'는 공항에서 시내로 가는 방법을 묻는 표현이다.",
+              "question": "'Where can I buy a ticket?'는 승차권을 어디서 구매할 수 있는지 묻는 표현이다.",
               "answerIndex": 0,
-              "explanation": "맞습니다. 'How do I get to the city center?'는 시내 중심가까지 어떻게 이동하는지 묻는 표현으로, 공항 안내 데스크나 직원에게 유용하게 쓸 수 있습니다."
+              "explanation": "맞습니다. 'Where can I buy a ticket?'는 버스·기차 등의 승차권을 어디서 살 수 있는지 물을 때 쓰는 표현입니다. 공항 내 자동발매기나 안내 데스크 위치를 안내받을 수 있습니다."
             }
           ]
         }
