@@ -44,7 +44,7 @@
               "options": [
                 "Can I choose my seat?",
                 "Can I choose my meal?",
-                "Can I choose my pilot?",
+                "Can I change my seat?",
                 "Can I choose my gate?"
               ],
               "answerIndex": 0,
@@ -105,15 +105,15 @@
             {
               "id": "se_ch01_set01_007",
               "type": "multiple_choice",
-              "question": "온라인 체크인 중 항공사 직원에게 좌석 업그레이드를 요청하는 가장 자연스러운 표현은?",
+              "question": "체크인 카운터에서 좌석 업그레이드를 요청하는 가장 자연스러운 표현은?",
               "options": [
                 "Can I upgrade my seat?",
                 "Can I upgrade my bag?",
-                "Can I upgrade my passport?",
-                "Can I upgrade my hotel?"
+                "Can I change my seat?",
+                "Can I select my meal?"
               ],
               "answerIndex": 0,
-              "explanation": "'Can I upgrade my seat?'는 좌석 업그레이드를 요청하는 표현입니다. 체크인 카운터나 앱에서 물어볼 수 있습니다."
+              "explanation": "'Can I upgrade my seat?'는 좌석 업그레이드를 요청하는 표현입니다. 체크인 카운터나 앱에서 직원에게 물어볼 수 있습니다."
             },
             {
               "id": "se_ch01_set01_008",
@@ -147,7 +147,7 @@
       "sections": [
         {
           "heading": "수하물 맡기기",
-          "body": "체크인 카운터에서 짐을 부칠 때는 'I'd like to check in this bag.'이라고 합니다. 몇 개까지 맡길 수 있는지 물으려면 'How many bags can I check?'라고 하세요. 만약 가방이 무게 초과라면 'My bag is overweight.'라고 말하면 직원이 안내해 줍니다."
+          "body": "체크인 카운터에서 짐을 부칠 때는 'I'd like to check this bag.'이라고 합니다. 몇 개까지 맡길 수 있는지 물으려면 'How many bags can I check?'라고 하세요. 만약 가방이 무게 초과라면 'My bag is overweight.'라고 말하면 직원이 안내해 줍니다."
         },
         {
           "heading": "기내 반입 가방과 좌석 요청",
@@ -167,13 +167,13 @@
               "type": "multiple_choice",
               "question": "카운터 직원에게 이 가방을 부치겠다고 말할 때 자연스러운 표현은?",
               "options": [
-                "I'd like to check in this bag.",
+                "I'd like to check this bag.",
                 "I'd like to check out this bag.",
                 "I'd like to lose this bag.",
                 "I'd like to open this bag."
               ],
               "answerIndex": 0,
-              "explanation": "'I'd like to check in this bag.'은 가방을 위탁 수하물로 맡기겠다는 표현입니다. 'check out'은 호텔 퇴실에 쓰입니다."
+              "explanation": "'I'd like to check this bag.'은 가방을 위탁 수하물로 맡기겠다는 표현입니다. 'check out'은 호텔 퇴실에 쓰입니다."
             },
             {
               "id": "se_ch02_set01_002",
@@ -183,7 +183,7 @@
                 "How many bags can I buy?",
                 "How many bags can I open?",
                 "How many bags can I check?",
-                "How many bags can I find?"
+                "How many bags can I carry?"
               ],
               "answerIndex": 2,
               "explanation": "'How many bags can I check?'는 위탁 수하물로 몇 개까지 맡길 수 있는지 묻는 표현입니다."
@@ -376,7 +376,7 @@
                 "Head up."
               ],
               "answerIndex": 1,
-              "explanation": "'Arms up.'은 전신 스캐너나 수동 검색 시 양팔을 들어올리라는 안내입니다. 'Hands up!'과 혼동되지만 보안 검색 상황에서는 'Arms up.'이 표준 표현입니다."
+              "explanation": "'Arms up.'은 전신 스캐너나 수동 검색 시 양팔을 들어올리라는 안내입니다. 보안 검색 현장에서 흔히 쓰이는 표현이며, 'Hands up!'은 주로 경찰 등 법 집행 상황에서 쓰이는 명령 표현이라 맥락이 다릅니다."
             },
             {
               "id": "se_ch03_set01_007",
@@ -394,9 +394,9 @@
             {
               "id": "se_ch03_set01_008",
               "type": "ox",
-              "question": "기내 반입 액체류는 100ml 이하 용기에 담아야 한다.",
+              "question": "'Empty your pockets.'는 보안 검색대에서 주머니 안의 물건을 꺼내라는 안내 표현이다.",
               "answerIndex": 0,
-              "explanation": "맞습니다. 국제선 보안 규정에 따라 기내 반입 액체류는 반드시 100ml(3.4oz) 이하 용기에 담아야 합니다."
+              "explanation": "맞습니다. 'Empty your pockets.'는 동전, 열쇠, 휴대폰 등 주머니 안의 모든 물건을 꺼내 바구니에 담으라는 보안 검색대 안내 표현입니다."
             },
             {
               "id": "se_ch03_set01_009",
