@@ -28,7 +28,12 @@
               "id": "se_ch01_set01_001",
               "type": "multiple_choice",
               "question": "온라인으로 체크인하고 싶다고 말할 때 가장 자연스러운 표현은?",
-              "options": ["I'd like to check in online.", "I'd like to check out now.", "I want online shopping.", "Please check my bag."],
+              "options": [
+                "I'd like to check in online.",
+                "I'd like to check out now.",
+                "I want online shopping.",
+                "Please check my bag."
+              ],
               "answerIndex": 0,
               "explanation": "'I'd like to check in online.'은 온라인 체크인을 하겠다는 표현입니다. 'check out'은 호텔에서 나갈 때 쓰는 표현으로 혼동하지 마세요."
             },
@@ -36,7 +41,12 @@
               "id": "se_ch01_set01_002",
               "type": "multiple_choice",
               "question": "원하는 좌석을 직접 선택하고 싶을 때 쓰는 표현은?",
-              "options": ["Can I choose my seat?", "Can I choose my meal?", "Can I choose my pilot?", "Can I choose my gate?"],
+              "options": [
+                "Can I choose my seat?",
+                "Can I choose my meal?",
+                "Can I choose my pilot?",
+                "Can I choose my gate?"
+              ],
               "answerIndex": 0,
               "explanation": "'Can I choose my seat?'는 좌석을 직접 고르고 싶다고 요청하는 표현입니다. 좌석 배정이 마음에 들지 않을 때도 사용할 수 있습니다."
             },
@@ -44,7 +54,12 @@
               "id": "se_ch01_set01_003",
               "type": "multiple_choice",
               "question": "배정된 좌석 번호를 확인하고 싶을 때 알맞은 표현은?",
-              "options": ["What's my boarding time?", "What's my seat number?", "What's my bag number?", "What's my passport number?"],
+              "options": [
+                "What's my boarding time?",
+                "What's my seat number?",
+                "What's my bag number?",
+                "What's my passport number?"
+              ],
               "answerIndex": 1,
               "explanation": "'What's my seat number?'는 좌석 번호를 묻는 표현입니다. 'boarding time'은 탑승 시각을 묻는 것으로 다릅니다."
             },
@@ -52,7 +67,12 @@
               "id": "se_ch01_set01_004",
               "type": "multiple_choice",
               "question": "내 항공편이 제시간에 출발하는지 확인하고 싶을 때 표현은?",
-              "options": ["Is my gate open?", "Is my ticket valid?", "Is my flight on time?", "Is my seat taken?"],
+              "options": [
+                "Is my gate open?",
+                "Is my ticket valid?",
+                "Is my flight on time?",
+                "Is my seat taken?"
+              ],
               "answerIndex": 2,
               "explanation": "'Is my flight on time?'은 항공편이 정시 운항인지 묻는 표현입니다. 연착이 있으면 'delayed(지연)'라는 답변을 받게 됩니다."
             },
@@ -60,7 +80,12 @@
               "id": "se_ch01_set01_005",
               "type": "multiple_choice",
               "question": "'boarding pass'가 의미하는 것은?",
-              "options": ["수하물 태그", "탑승권", "여권", "비자"],
+              "options": [
+                "수하물 태그",
+                "탑승권",
+                "여권",
+                "비자"
+              ],
               "answerIndex": 1,
               "explanation": "'boarding pass'는 탑승권입니다. 체크인 후 받으며, 게이트에서 제시해야 비행기에 탑승할 수 있습니다."
             },
@@ -68,7 +93,12 @@
               "id": "se_ch01_set01_006",
               "type": "multiple_choice",
               "question": "'baggage allowance'의 뜻은?",
-              "options": ["수하물 수령 구역", "수하물 허용량", "수하물 잠금장치", "수하물 분실 신고"],
+              "options": [
+                "수하물 수령 구역",
+                "수하물 허용량",
+                "수하물 잠금장치",
+                "수하물 분실 신고"
+              ],
               "answerIndex": 1,
               "explanation": "'baggage allowance'는 무료로 가져갈 수 있는 수하물 허용량입니다. 초과(overweight)하면 추가 요금이 발생합니다."
             },
@@ -76,7 +106,12 @@
               "id": "se_ch01_set01_007",
               "type": "multiple_choice",
               "question": "온라인 체크인 중 항공사 직원에게 좌석 업그레이드를 요청하는 가장 자연스러운 표현은?",
-              "options": ["Can I upgrade my seat?", "Can I upgrade my bag?", "Can I upgrade my passport?", "Can I upgrade my hotel?"],
+              "options": [
+                "Can I upgrade my seat?",
+                "Can I upgrade my bag?",
+                "Can I upgrade my passport?",
+                "Can I upgrade my hotel?"
+              ],
               "answerIndex": 0,
               "explanation": "'Can I upgrade my seat?'는 좌석 업그레이드를 요청하는 표현입니다. 체크인 카운터나 앱에서 물어볼 수 있습니다."
             },
@@ -131,7 +166,12 @@
               "id": "se_ch02_set01_001",
               "type": "multiple_choice",
               "question": "카운터 직원에게 이 가방을 부치겠다고 말할 때 자연스러운 표현은?",
-              "options": ["I'd like to check in this bag.", "I'd like to check out this bag.", "I'd like to lose this bag.", "I'd like to open this bag."],
+              "options": [
+                "I'd like to check in this bag.",
+                "I'd like to check out this bag.",
+                "I'd like to lose this bag.",
+                "I'd like to open this bag."
+              ],
               "answerIndex": 0,
               "explanation": "'I'd like to check in this bag.'은 가방을 위탁 수하물로 맡기겠다는 표현입니다. 'check out'은 호텔 퇴실에 쓰입니다."
             },
@@ -139,7 +179,12 @@
               "id": "se_ch02_set01_002",
               "type": "multiple_choice",
               "question": "수하물을 몇 개까지 부칠 수 있는지 물어보는 표현은?",
-              "options": ["How many bags can I buy?", "How many bags can I open?", "How many bags can I check?", "How many bags can I find?"],
+              "options": [
+                "How many bags can I buy?",
+                "How many bags can I open?",
+                "How many bags can I check?",
+                "How many bags can I find?"
+              ],
               "answerIndex": 2,
               "explanation": "'How many bags can I check?'는 위탁 수하물로 몇 개까지 맡길 수 있는지 묻는 표현입니다."
             },
@@ -147,7 +192,12 @@
               "id": "se_ch02_set01_003",
               "type": "multiple_choice",
               "question": "기내에 가지고 타는 가방이 괜찮은지 확인하는 표현은?",
-              "options": ["Is this checked bag okay?", "Is this carry-on okay?", "Is this passport okay?", "Is this ticket okay?"],
+              "options": [
+                "Is this checked bag okay?",
+                "Is this carry-on okay?",
+                "Is this passport okay?",
+                "Is this ticket okay?"
+              ],
               "answerIndex": 1,
               "explanation": "'Is this carry-on okay?'는 기내 반입 가방의 크기·무게가 규정에 맞는지 확인하는 표현입니다. carry-on은 기내에 직접 들고 타는 가방입니다."
             },
@@ -155,7 +205,12 @@
               "id": "se_ch02_set01_004",
               "type": "multiple_choice",
               "question": "창가 좌석을 요청할 때 알맞은 표현은?",
-              "options": ["Aisle seat, please.", "Window seat, please.", "Middle seat, please.", "First class, please."],
+              "options": [
+                "Aisle seat, please.",
+                "Window seat, please.",
+                "Middle seat, please.",
+                "First class, please."
+              ],
               "answerIndex": 1,
               "explanation": "창가 좌석은 'window seat', 통로 좌석은 'aisle seat'입니다. 'Window seat, please.'라고 요청하면 됩니다."
             },
@@ -163,7 +218,12 @@
               "id": "se_ch02_set01_005",
               "type": "multiple_choice",
               "question": "가방이 무게 초과라고 직원에게 알릴 때 적절한 표현은?",
-              "options": ["My bag is too old.", "My bag is overweight.", "My bag is overdue.", "My bag is overheated."],
+              "options": [
+                "My bag is too old.",
+                "My bag is overweight.",
+                "My bag is overdue.",
+                "My bag is overheated."
+              ],
               "answerIndex": 1,
               "explanation": "'My bag is overweight.'는 가방이 무게를 초과했다는 표현입니다. 이럴 때는 짐을 덜어내거나 추가 요금을 내야 합니다."
             },
@@ -171,7 +231,12 @@
               "id": "se_ch02_set01_006",
               "type": "multiple_choice",
               "question": "탑승 게이트가 어디 있는지 물어보는 자연스러운 표현은?",
-              "options": ["Where is the departure lounge?", "Where is the boarding gate?", "Where is the luggage belt?", "Where is the taxi stand?"],
+              "options": [
+                "Where is the departure lounge?",
+                "Where is the boarding gate?",
+                "Where is the luggage belt?",
+                "Where is the taxi stand?"
+              ],
               "answerIndex": 1,
               "explanation": "'Where is the boarding gate?'는 탑승 게이트 위치를 묻는 표현입니다. 게이트는 변경될 수 있으니 출발 전광판도 꼭 확인하세요."
             },
@@ -179,7 +244,12 @@
               "id": "se_ch02_set01_007",
               "type": "multiple_choice",
               "question": "통로 좌석을 원할 때 직원에게 하는 요청은?",
-              "options": ["Window seat, please.", "Corner seat, please.", "Aisle seat, please.", "Front seat, please."],
+              "options": [
+                "Window seat, please.",
+                "Corner seat, please.",
+                "Aisle seat, please.",
+                "Front seat, please."
+              ],
               "answerIndex": 2,
               "explanation": "통로 쪽 좌석은 'aisle seat'입니다. 화장실을 자주 가거나 다리를 뻗고 싶을 때 선호하는 좌석입니다."
             },
@@ -220,6 +290,10 @@
         {
           "heading": "액체류와 검색대 통과",
           "body": "액체류(liquids)는 100ml 이하 용기에 담아야 합니다. 'Liquids must be under 100ml.'가 규정입니다. 직원이 검색대를 통과하라고 하면 'Step through, please.'라고 합니다. 양팔을 들라는 안내는 'Arms up.'입니다."
+        },
+        {
+          "heading": "출국 심사대에서",
+          "body": "보안 검색을 마치면 출국 심사대(departure immigration)로 이동합니다. 심사관이 여권과 탑승권을 요청하면 'Passport and boarding pass, please.'라고 안내합니다. 목적지를 물으면 'Where are you flying to?'라고 합니다. 심사가 끝나면 'Have a nice flight.'라는 인사를 들을 수 있습니다."
         }
       ],
       "sets": [
@@ -230,7 +304,12 @@
               "id": "se_ch03_set01_001",
               "type": "multiple_choice",
               "question": "보안 검색대에서 직원이 재킷을 벗으라고 할 때 하는 말은?",
-              "options": ["Please take off your shoes.", "Please take off your jacket.", "Please take off your hat.", "Please take off your glasses."],
+              "options": [
+                "Please take off your shoes.",
+                "Please take off your jacket.",
+                "Please take off your hat.",
+                "Please take off your glasses."
+              ],
               "answerIndex": 1,
               "explanation": "'Please take off your jacket.'은 재킷을 벗으라는 안내입니다. 신발이나 벨트를 벗으라고 하는 경우도 있으니 상황에 따라 대응하세요."
             },
@@ -238,7 +317,12 @@
               "id": "se_ch03_set01_002",
               "type": "multiple_choice",
               "question": "노트북을 가방에서 꺼내라는 안내는?",
-              "options": ["Phones off the bag, please.", "Tablets out of the bag, please.", "Laptops out of the bag, please.", "Cameras out of the bag, please."],
+              "options": [
+                "Phones off the bag, please.",
+                "Tablets out of the bag, please.",
+                "Laptops out of the bag, please.",
+                "Cameras out of the bag, please."
+              ],
               "answerIndex": 2,
               "explanation": "'Laptops out of the bag, please.'는 노트북을 가방에서 꺼내 별도 바구니에 넣으라는 안내입니다. 보안 검사를 위해 액체류와 함께 분리해야 합니다."
             },
@@ -246,7 +330,12 @@
               "id": "se_ch03_set01_003",
               "type": "multiple_choice",
               "question": "기내 반입 액체류 규정에 대한 올바른 설명은?",
-              "options": ["Liquids must be under 500ml.", "Liquids must be under 200ml.", "Liquids must be under 100ml.", "Liquids must be under 1 liter."],
+              "options": [
+                "Liquids must be under 500ml.",
+                "Liquids must be under 200ml.",
+                "Liquids must be under 100ml.",
+                "Liquids must be under 1 liter."
+              ],
               "answerIndex": 2,
               "explanation": "기내 반입 액체류는 반드시 100ml 이하 용기에 담아야 합니다. 'Liquids must be under 100ml.'가 국제 보안 규정입니다."
             },
@@ -254,7 +343,12 @@
               "id": "se_ch03_set01_004",
               "type": "multiple_choice",
               "question": "직원이 주머니를 비우라고 할 때 하는 말은?",
-              "options": ["Open your bag.", "Empty your wallet.", "Empty your pockets.", "Check your pockets."],
+              "options": [
+                "Open your bag.",
+                "Empty your wallet.",
+                "Empty your pockets.",
+                "Check your pockets."
+              ],
               "answerIndex": 2,
               "explanation": "'Empty your pockets.'는 주머니 안에 있는 것을 모두 꺼내라는 안내입니다. 동전, 열쇠, 휴대폰 등을 바구니에 담아야 합니다."
             },
@@ -262,7 +356,12 @@
               "id": "se_ch03_set01_005",
               "type": "multiple_choice",
               "question": "검색대를 통과하라고 안내하는 표현은?",
-              "options": ["Stop here, please.", "Wait here, please.", "Step through, please.", "Turn around, please."],
+              "options": [
+                "Stop here, please.",
+                "Wait here, please.",
+                "Step through, please.",
+                "Turn around, please."
+              ],
               "answerIndex": 2,
               "explanation": "'Step through, please.'는 금속 탐지기나 검색대를 통과하라는 안내입니다. 삐 소리가 나지 않으면 짐을 찾아 이동합니다."
             },
@@ -270,7 +369,12 @@
               "id": "se_ch03_set01_006",
               "type": "multiple_choice",
               "question": "보안 검색 중 직원이 양팔을 들라고 할 때 하는 말은?",
-              "options": ["Hands up!", "Arms up.", "Legs up.", "Head up."],
+              "options": [
+                "Hands up!",
+                "Arms up.",
+                "Legs up.",
+                "Head up."
+              ],
               "answerIndex": 1,
               "explanation": "'Arms up.'은 전신 스캐너나 수동 검색 시 양팔을 들어올리라는 안내입니다. 'Hands up!'과 혼동되지만 보안 검색 상황에서는 'Arms up.'이 표준 표현입니다."
             },
@@ -278,7 +382,12 @@
               "id": "se_ch03_set01_007",
               "type": "multiple_choice",
               "question": "검색대에서 가방을 열어달라고 요청받을 때 듣는 표현은?",
-              "options": ["Can you open your bag?", "Can you open your passport?", "Can you open your ticket?", "Can you open your wallet?"],
+              "options": [
+                "Can you open your bag?",
+                "Can you open your passport?",
+                "Can you open your ticket?",
+                "Can you open your wallet?"
+              ],
               "answerIndex": 0,
               "explanation": "'Can you open your bag?'은 가방을 열어달라는 요청입니다. 의심 물품이 감지되면 직원이 직접 확인합니다. 당황하지 말고 협조하세요."
             },
@@ -291,17 +400,23 @@
             },
             {
               "id": "se_ch03_set01_009",
-              "type": "ox",
-              "question": "'Step through, please.'는 뒤로 돌아가라는 안내이다.",
-              "answerIndex": 1,
-              "explanation": "아닙니다. 'Step through, please.'는 금속 탐지기나 검색대를 통과하라는 안내입니다. 뒤로 돌아가라는 표현은 'Go back, please.'입니다."
+              "type": "multiple_choice",
+              "question": "출국 심사관이 여권과 탑승권을 요청할 때 하는 말은?",
+              "options": [
+                "Passport and boarding pass, please.",
+                "Luggage and ticket, please.",
+                "ID and visa, please.",
+                "Passport and hotel key, please."
+              ],
+              "answerIndex": 0,
+              "explanation": "'Passport and boarding pass, please.'는 출국 심사관이 여권과 탑승권을 제시하도록 안내하는 표현입니다. 두 가지를 함께 준비해 두면 심사가 빠르게 진행됩니다."
             },
             {
               "id": "se_ch03_set01_010",
               "type": "ox",
-              "question": "'Laptops out of the bag, please.'는 노트북을 가방 안에 넣어두라는 안내이다.",
-              "answerIndex": 1,
-              "explanation": "아닙니다. 노트북을 가방에서 꺼내 별도 바구니에 올려달라는 안내입니다. 검사 후에는 다시 챙기는 것 잊지 마세요."
+              "question": "'Have a nice flight.'는 출국 심사관이 심사 마무리 후 건네는 인사 표현이다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 'Have a nice flight.'는 '좋은 비행 되세요'라는 뜻으로, 출국 심사 마무리 후 심사관이 건네는 배웅 인사입니다."
             }
           ]
         }
@@ -333,7 +448,12 @@
               "id": "se_ch04_set01_001",
               "type": "multiple_choice",
               "question": "탑승 게이트에서 'Now boarding group 2.'라는 방송이 나왔습니다. 이 방송의 의미는?",
-              "options": ["2번 게이트로 이동하세요", "2그룹 승객 탑승 시작", "2번 탑승권을 꺼내세요", "2등석 승객 안내"],
+              "options": [
+                "2번 게이트로 이동하세요",
+                "2그룹 승객 탑승 시작",
+                "2번 탑승권을 꺼내세요",
+                "2등석 승객 안내"
+              ],
               "answerIndex": 1,
               "explanation": "'Now boarding group 2.'는 그룹 2에 속한 승객들이 지금 탑승할 수 있다는 안내 방송입니다. 탑승권에 적힌 그룹 번호를 확인하세요."
             },
@@ -341,7 +461,12 @@
               "id": "se_ch04_set01_002",
               "type": "multiple_choice",
               "question": "항공편이 지연되었다고 알려주는 표현은?",
-              "options": ["The flight is canceled.", "The flight is delayed.", "The flight is boarding.", "The flight is early."],
+              "options": [
+                "The flight is canceled.",
+                "The flight is delayed.",
+                "The flight is boarding.",
+                "The flight is early."
+              ],
               "answerIndex": 1,
               "explanation": "'The flight is delayed.'는 항공편이 지연되었다는 표현입니다. 'canceled'는 결항, 'early'는 조기 출발을 의미합니다."
             },
@@ -349,7 +474,12 @@
               "id": "se_ch04_set01_003",
               "type": "multiple_choice",
               "question": "'gate change'가 발생했을 때 어떻게 해야 할까요?",
-              "options": ["탑승권을 새로 발급받는다", "전광판을 확인해 새 게이트로 이동한다", "체크인 카운터로 돌아간다", "자리에서 기다린다"],
+              "options": [
+                "탑승권을 새로 발급받는다",
+                "전광판을 확인해 새 게이트로 이동한다",
+                "체크인 카운터로 돌아간다",
+                "자리에서 기다린다"
+              ],
               "answerIndex": 1,
               "explanation": "'gate change(게이트 변경)'가 발생하면 전광판이나 항공사 앱에서 새로운 게이트 번호를 확인하고 즉시 이동해야 합니다."
             },
@@ -357,7 +487,12 @@
               "id": "se_ch04_set01_004",
               "type": "multiple_choice",
               "question": "'Final call for flight KE901.'이라는 방송이 나왔을 때 적절한 행동은?",
-              "options": ["편하게 커피를 마신다", "즉시 게이트로 달려간다", "짐 찾는 곳으로 이동한다", "체크인 카운터로 간다"],
+              "options": [
+                "편하게 커피를 마신다",
+                "즉시 게이트로 달려간다",
+                "짐 찾는 곳으로 이동한다",
+                "체크인 카운터로 간다"
+              ],
               "answerIndex": 1,
               "explanation": "'Final call'은 마지막 탑승 안내 방송입니다. 이 방송 후에는 게이트가 닫힐 수 있으니 즉시 이동해야 합니다."
             },
@@ -365,7 +500,12 @@
               "id": "se_ch04_set01_005",
               "type": "multiple_choice",
               "question": "아이와 함께 먼저 탑승하고 싶을 때 직원에게 할 말은?",
-              "options": ["Can I board with my child?", "Can I board with my bag?", "Can I board with my pet?", "Can I board without a ticket?"],
+              "options": [
+                "Can I board with my child?",
+                "Can I board with my bag?",
+                "Can I board with my pet?",
+                "Can I board without a ticket?"
+              ],
               "answerIndex": 0,
               "explanation": "'Can I board with my child?'는 어린 자녀와 함께 탑승할 수 있는지 물어보는 표현입니다. 대부분 우선 탑승(priority boarding)이 허용됩니다."
             },
@@ -373,7 +513,12 @@
               "id": "se_ch04_set01_006",
               "type": "multiple_choice",
               "question": "탑승이 진행 중임을 알리는 전광판 표시나 방송은?",
-              "options": ["check in now", "boarding now", "gate closed", "delayed"],
+              "options": [
+                "check in now",
+                "boarding now",
+                "gate closed",
+                "delayed"
+              ],
               "answerIndex": 1,
               "explanation": "'boarding now'는 현재 탑승이 진행 중이라는 표시입니다. 이 표시가 보이면 서둘러 게이트로 이동하세요."
             },
@@ -381,7 +526,12 @@
               "id": "se_ch04_set01_007",
               "type": "multiple_choice",
               "question": "우선 탑승 혜택을 영어로 표현하면?",
-              "options": ["express boarding", "first check-in", "priority boarding", "early landing"],
+              "options": [
+                "express boarding",
+                "first check-in",
+                "priority boarding",
+                "early landing"
+              ],
               "answerIndex": 2,
               "explanation": "'priority boarding'은 우선 탑승 혜택을 뜻합니다. 어린이 동반 가족, 비즈니스 좌석 승객, 항공사 멤버십 회원 등에게 주어집니다."
             },
@@ -432,7 +582,12 @@
               "id": "se_ch08_set01_001",
               "type": "multiple_choice",
               "question": "입국 심사관이 방문 목적을 물을 때 관광객으로서 가장 적절한 답은?",
-              "options": ["Tourism.", "I don't know.", "Business class.", "Good morning."],
+              "options": [
+                "Tourism.",
+                "I don't know.",
+                "Business class.",
+                "Good morning."
+              ],
               "answerIndex": 0,
               "explanation": "방문 목적은 Tourism 또는 Sightseeing으로 답합니다. 'Business class'는 항공 좌석 등급이고, 'Good morning'은 인사일 뿐입니다."
             },
@@ -440,7 +595,12 @@
               "id": "se_ch08_set01_002",
               "type": "multiple_choice",
               "question": "'How long will you stay?'는 무엇을 묻는 질문일까요?",
-              "options": ["체류 기간", "여행 비용", "출신 국가", "동행 인원"],
+              "options": [
+                "체류 기간",
+                "여행 비용",
+                "출신 국가",
+                "동행 인원"
+              ],
               "answerIndex": 0,
               "explanation": "How long will you stay?는 '얼마나 머무를 건가요?'로 체류 기간을 묻는 질문입니다."
             },
@@ -448,7 +608,12 @@
               "id": "se_ch08_set01_003",
               "type": "multiple_choice",
               "question": "체류 기간이 10일일 때 적절한 답변은?",
-              "options": ["Ten euros.", "For ten days.", "Ten o'clock.", "Ten people."],
+              "options": [
+                "Ten euros.",
+                "For ten days.",
+                "Ten o'clock.",
+                "Ten people."
+              ],
               "answerIndex": 1,
               "explanation": "기간은 'For ten days.'처럼 답합니다. 나머지는 각각 금액, 시각, 인원을 뜻합니다."
             },
@@ -456,7 +621,12 @@
               "id": "se_ch08_set01_004",
               "type": "multiple_choice",
               "question": "심사관이 'Where will you stay?'라고 물으면 보여주거나 말하면 좋은 것은?",
-              "options": ["귀국 항공권", "호텔 예약 내역", "신용카드 비밀번호", "여행자 보험증서"],
+              "options": [
+                "귀국 항공권",
+                "호텔 예약 내역",
+                "신용카드 비밀번호",
+                "여행자 보험증서"
+              ],
               "answerIndex": 1,
               "explanation": "Where will you stay?는 숙소를 묻는 질문이므로 호텔 이름이나 예약 내역을 보여주면 됩니다."
             },
@@ -464,7 +634,12 @@
               "id": "se_ch08_set01_005",
               "type": "multiple_choice",
               "question": "신고할 물건이 없을 때 'Do you have anything to declare?'에 대한 적절한 답은?",
-              "options": ["Nothing to declare.", "I declare war.", "Yes, everything.", "Declare yourself."],
+              "options": [
+                "Nothing to declare.",
+                "I declare war.",
+                "Yes, everything.",
+                "Declare yourself."
+              ],
               "answerIndex": 0,
               "explanation": "declare는 '(세관에) 신고하다'라는 뜻으로, 신고할 것이 없으면 'Nothing to declare.'라고 답합니다."
             },
@@ -472,7 +647,12 @@
               "id": "se_ch08_set01_006",
               "type": "multiple_choice",
               "question": "심사관 말을 못 알아들었을 때 정중하게 다시 물어보는 표현은?",
-              "options": ["What?", "Sorry, could you say that again?", "No English.", "Go away."],
+              "options": [
+                "What?",
+                "Sorry, could you say that again?",
+                "No English.",
+                "Go away."
+              ],
               "answerIndex": 1,
               "explanation": "'Sorry, could you say that again?'은 정중하게 다시 말해달라고 요청하는 표현입니다. 'What?'은 다소 무례하게 들릴 수 있습니다."
             },
@@ -480,7 +660,12 @@
               "id": "se_ch08_set01_007",
               "type": "multiple_choice",
               "question": "가족이 함께 입국 심사를 받을 때 'We are a family.'는 어떤 의미인가요?",
-              "options": ["우리는 친구입니다", "우리는 가족입니다", "우리는 처음 왔습니다", "우리는 길을 잃었습니다"],
+              "options": [
+                "우리는 친구입니다",
+                "우리는 가족입니다",
+                "우리는 처음 왔습니다",
+                "우리는 길을 잃었습니다"
+              ],
               "answerIndex": 1,
               "explanation": "함께 온 가족임을 알릴 때 'We are a family.' 또는 'We are traveling together.'라고 합니다."
             },
@@ -514,7 +699,12 @@
               "id": "se_ch08_set02_001",
               "type": "multiple_choice",
               "question": "입국 심사관이 'What's the purpose of your visit?'라고 물었습니다. 관광객이라면 어떻게 답할까요?",
-              "options": ["For sightseeing.", "I'm hungry.", "First class.", "See you later."],
+              "options": [
+                "For sightseeing.",
+                "I'm hungry.",
+                "First class.",
+                "See you later."
+              ],
               "answerIndex": 0,
               "explanation": "방문 목적은 'For sightseeing.' 또는 'Tourism.'으로 답합니다. 'First class'는 좌석 등급입니다."
             },
@@ -522,7 +712,12 @@
               "id": "se_ch08_set02_002",
               "type": "multiple_choice",
               "question": "출장 때문에 방문했다면 목적을 어떻게 말하는 것이 가장 적절할까요?",
-              "options": ["Transit.", "Vacation.", "Business.", "Shopping."],
+              "options": [
+                "Transit.",
+                "Vacation.",
+                "Business.",
+                "Shopping."
+              ],
               "answerIndex": 2,
               "explanation": "출장·업무 목적은 'Business.'라고 답합니다. Transit은 경유, Vacation은 휴가를 뜻합니다."
             },
@@ -530,7 +725,12 @@
               "id": "se_ch08_set02_003",
               "type": "multiple_choice",
               "question": "2주 동안 머문다고 말하고 싶을 때 자연스러운 표현은?",
-              "options": ["At two o'clock.", "For two weeks.", "Two tickets.", "Two people."],
+              "options": [
+                "At two o'clock.",
+                "For two weeks.",
+                "Two tickets.",
+                "Two people."
+              ],
               "answerIndex": 1,
               "explanation": "체류 기간은 'For two weeks.'처럼 기간으로 답합니다. 시각·매수·인원과 혼동하지 마세요."
             },
@@ -538,7 +738,12 @@
               "id": "se_ch08_set02_004",
               "type": "multiple_choice",
               "question": "'Where are you staying?'라는 질문에 대한 가장 적절한 대응은?",
-              "options": ["I'm staying at the Grand Hotel.", "I'm staying home.", "I don't have a passport.", "It costs ten dollars."],
+              "options": [
+                "I'm staying at the Grand Hotel.",
+                "I'm staying home.",
+                "I don't have a passport.",
+                "It costs ten dollars."
+              ],
               "answerIndex": 0,
               "explanation": "숙소를 묻는 질문이므로 머무는 호텔 이름이나 예약 내역을 알려주면 됩니다."
             },
@@ -546,7 +751,12 @@
               "id": "se_ch08_set02_005",
               "type": "multiple_choice",
               "question": "세관 신고대에서 'Do you have anything to declare?'라고 물었습니다. 신고할 물품이 없다면?",
-              "options": ["Yes, a lot.", "No, nothing to declare.", "I declare independence.", "Please declare it."],
+              "options": [
+                "Yes, a lot.",
+                "No, nothing to declare.",
+                "I declare independence.",
+                "Please declare it."
+              ],
               "answerIndex": 1,
               "explanation": "신고할 것이 없으면 'No, nothing to declare.'라고 답합니다."
             },
@@ -554,7 +764,12 @@
               "id": "se_ch08_set02_006",
               "type": "multiple_choice",
               "question": "심사관 말이 너무 빨라 못 알아들었을 때 정중한 요청은?",
-              "options": ["Could you speak more slowly, please?", "Speak English!", "I hate this.", "Hurry up."],
+              "options": [
+                "Could you speak more slowly, please?",
+                "Speak English!",
+                "I hate this.",
+                "Hurry up."
+              ],
               "answerIndex": 0,
               "explanation": "'Could you speak more slowly, please?'는 천천히 말해달라고 정중하게 부탁하는 표현입니다."
             },
@@ -562,7 +777,12 @@
               "id": "se_ch08_set02_007",
               "type": "multiple_choice",
               "question": "일행이 함께 왔음을 알리고 싶을 때 자연스러운 표현은?",
-              "options": ["We are traveling together.", "We are very tired.", "We are leaving now.", "We are sorry."],
+              "options": [
+                "We are traveling together.",
+                "We are very tired.",
+                "We are leaving now.",
+                "We are sorry."
+              ],
               "answerIndex": 0,
               "explanation": "함께 온 일행임을 알릴 때 'We are traveling together.' 또는 'We are a family.'라고 합니다."
             },
@@ -625,7 +845,12 @@
               "id": "se_ch19_set01_001",
               "type": "multiple_choice",
               "question": "4인 자리를 요청할 때 적절한 표현은?",
-              "options": ["A table for four, please.", "Four o'clock, please.", "Table number four.", "Four dollars, please."],
+              "options": [
+                "A table for four, please.",
+                "Four o'clock, please.",
+                "Table number four.",
+                "Four dollars, please."
+              ],
               "answerIndex": 0,
               "explanation": "'A table for four, please.'는 4명이 앉을 자리를 요청하는 표현입니다."
             },
@@ -633,7 +858,12 @@
               "id": "se_ch19_set01_002",
               "type": "multiple_choice",
               "question": "메뉴 추천을 부탁할 때 자연스러운 표현은?",
-              "options": ["What do you recommend?", "Where is the toilet?", "How much is it?", "What time is it?"],
+              "options": [
+                "What do you recommend?",
+                "Where is the toilet?",
+                "How much is it?",
+                "What time is it?"
+              ],
               "answerIndex": 0,
               "explanation": "'What do you recommend?'는 추천 메뉴를 묻는 표현입니다."
             },
@@ -641,7 +871,12 @@
               "id": "se_ch19_set01_003",
               "type": "multiple_choice",
               "question": "식사 후 계산서를 요청하는 표현으로 알맞은 것은?",
-              "options": ["Check, please.", "Open, please.", "Start, please.", "Menu, please."],
+              "options": [
+                "Check, please.",
+                "Open, please.",
+                "Start, please.",
+                "Menu, please."
+              ],
               "answerIndex": 0,
               "explanation": "'Check, please.' 또는 'The bill, please.'로 계산을 요청합니다."
             },
@@ -649,7 +884,12 @@
               "id": "se_ch19_set01_004",
               "type": "multiple_choice",
               "question": "채식 메뉴가 있는지 물을 때 적절한 표현은?",
-              "options": ["Do you have vegetarian options?", "Is it expensive?", "Can I pay later?", "Where do I sit?"],
+              "options": [
+                "Do you have vegetarian options?",
+                "Is it expensive?",
+                "Can I pay later?",
+                "Where do I sit?"
+              ],
               "answerIndex": 0,
               "explanation": "'Do you have vegetarian options?'은 채식 메뉴가 있는지 묻는 표현입니다."
             },
@@ -657,7 +897,12 @@
               "id": "se_ch19_set01_005",
               "type": "multiple_choice",
               "question": "주문한 음식을 포장해 가고 싶을 때 쓰는 표현은?",
-              "options": ["Can I get this to go?", "Can I sit here?", "Can I see the chef?", "Can I pay cash?"],
+              "options": [
+                "Can I get this to go?",
+                "Can I sit here?",
+                "Can I see the chef?",
+                "Can I pay cash?"
+              ],
               "answerIndex": 0,
               "explanation": "'Can I get this to go?' 또는 'To take away, please.'로 포장을 요청합니다."
             },
@@ -665,7 +910,12 @@
               "id": "se_ch19_set01_006",
               "type": "multiple_choice",
               "question": "메뉴판을 보고 싶을 때 직원에게 하는 자연스러운 요청은?",
-              "options": ["Can I see the menu?", "Can I see the bill?", "Can I see the door?", "Can I see your ID?"],
+              "options": [
+                "Can I see the menu?",
+                "Can I see the bill?",
+                "Can I see the door?",
+                "Can I see your ID?"
+              ],
               "answerIndex": 0,
               "explanation": "'Can I see the menu?'는 메뉴판을 보여달라고 요청하는 표현입니다."
             },
@@ -673,7 +923,12 @@
               "id": "se_ch19_set01_007",
               "type": "multiple_choice",
               "question": "예약을 했다고 알릴 때 자연스러운 표현은?",
-              "options": ["I have a reservation.", "I have a question.", "I have a problem.", "I have no money."],
+              "options": [
+                "I have a reservation.",
+                "I have a question.",
+                "I have a problem.",
+                "I have no money."
+              ],
               "answerIndex": 0,
               "explanation": "'I have a reservation.'은 예약이 되어 있음을 알리는 표현입니다."
             },
@@ -707,7 +962,12 @@
               "id": "se_ch19_set02_001",
               "type": "multiple_choice",
               "question": "두 명이 앉을 자리를 요청하고 싶을 때 적절한 표현은?",
-              "options": ["Table number two.", "A table for two, please.", "Two o'clock, please.", "Two euros, please."],
+              "options": [
+                "Table number two.",
+                "A table for two, please.",
+                "Two o'clock, please.",
+                "Two euros, please."
+              ],
               "answerIndex": 1,
               "explanation": "'A table for two, please.'는 2명이 앉을 자리를 요청하는 표현입니다."
             },
@@ -715,7 +975,12 @@
               "id": "se_ch19_set02_002",
               "type": "multiple_choice",
               "question": "직원에게 인기 메뉴가 무엇인지 추천을 묻고 싶다면?",
-              "options": ["How much is it?", "Where is the exit?", "What's popular here?", "What time do you close?"],
+              "options": [
+                "How much is it?",
+                "Where is the exit?",
+                "What's popular here?",
+                "What time do you close?"
+              ],
               "answerIndex": 2,
               "explanation": "'What's popular here?'나 'What do you recommend?'로 추천 메뉴를 물을 수 있습니다."
             },
@@ -723,7 +988,12 @@
               "id": "se_ch19_set02_003",
               "type": "multiple_choice",
               "question": "식사를 마치고 계산을 하고 싶을 때 'The bill, please.'와 같은 의미의 표현은?",
-              "options": ["Check, please.", "Wait, please.", "Stop, please.", "Quiet, please."],
+              "options": [
+                "Check, please.",
+                "Wait, please.",
+                "Stop, please.",
+                "Quiet, please."
+              ],
               "answerIndex": 0,
               "explanation": "'Check, please.'는 'The bill, please.'와 같이 계산서를 요청하는 표현입니다."
             },
@@ -731,7 +1001,12 @@
               "id": "se_ch19_set02_004",
               "type": "multiple_choice",
               "question": "고기를 먹지 않아 채식 선택지가 있는지 물을 때 알맞은 표현은?",
-              "options": ["Is the table clean?", "Do you have any vegetarian dishes?", "Can I change seats?", "Do you take cards?"],
+              "options": [
+                "Is the table clean?",
+                "Do you have any vegetarian dishes?",
+                "Can I change seats?",
+                "Do you take cards?"
+              ],
               "answerIndex": 1,
               "explanation": "'Do you have any vegetarian dishes?'는 채식 메뉴가 있는지 묻는 표현으로 'Do you have vegetarian options?'과 같은 의미입니다."
             },
@@ -739,7 +1014,12 @@
               "id": "se_ch19_set02_005",
               "type": "multiple_choice",
               "question": "남은 음식을 싸 가고 싶을 때 직원에게 할 수 있는 말은?",
-              "options": ["Can I take this with me?", "Can I cook this?", "Can I meet the owner?", "Can I sit outside?"],
+              "options": [
+                "Can I take this with me?",
+                "Can I cook this?",
+                "Can I meet the owner?",
+                "Can I sit outside?"
+              ],
               "answerIndex": 0,
               "explanation": "'Can I take this with me?'나 'Can I get this to go?'로 포장을 요청할 수 있습니다."
             },
@@ -747,7 +1027,12 @@
               "id": "se_ch19_set02_006",
               "type": "multiple_choice",
               "question": "물을 무료로 받고 싶을 때 주문할 수 있는 것은?",
-              "options": ["Sparkling water", "Tap water", "Wine", "Coffee"],
+              "options": [
+                "Sparkling water",
+                "Tap water",
+                "Wine",
+                "Coffee"
+              ],
               "answerIndex": 1,
               "explanation": "tap water(수돗물)는 유럽 식당에서 보통 무료로 제공됩니다. 탄산수·와인·커피는 대개 유료입니다."
             },
@@ -755,7 +1040,12 @@
               "id": "se_ch19_set02_007",
               "type": "multiple_choice",
               "question": "주문할 준비가 되었음을 알리고 싶을 때 자연스러운 표현은?",
-              "options": ["I'd like to order, please.", "I'd like to leave, please.", "I'd like to sleep, please.", "I'd like to cook, please."],
+              "options": [
+                "I'd like to order, please.",
+                "I'd like to leave, please.",
+                "I'd like to sleep, please.",
+                "I'd like to cook, please."
+              ],
               "answerIndex": 0,
               "explanation": "'I'd like to order, please.'는 주문을 하고 싶다는 의사를 정중히 전하는 표현입니다."
             },
