@@ -2296,13 +2296,13 @@
               "type": "multiple_choice",
               "question": "유럽 도시에서 지하철이나 버스를 이용할 때 교통카드를 흔히 가리키는 표현은?",
               "options": [
-                "travel card",
+                "metro card",
                 "credit card",
                 "loyalty card",
                 "boarding pass"
               ],
               "answerIndex": 0,
-              "explanation": "유럽 대도시의 대중교통 충전식 카드는 'travel card' 또는 'metro card'라고 부릅니다. 'boarding pass'는 항공 탑승권이고, 'credit card'와 'loyalty card'는 교통카드가 아닙니다."
+              "explanation": "'metro card'는 지하철·버스 등 대중교통에서 사용하는 충전식 교통카드를 가리킵니다. 유럽 일부 도시에서는 'travel card'라고도 부르지만, 이 챕터에서는 'metro card'를 기본 표현으로 사용합니다. 'boarding pass'는 항공 탑승권이고, 'credit card'와 'loyalty card'는 교통카드가 아닙니다."
             },
             {
               "id": "se_ch16_set01_008",
@@ -2357,38 +2357,38 @@
               "question": "암스테르담행 기차가 몇 번 플랫폼에서 출발하는지 물을 때 알맞은 표현은?",
               "options": [
                 "Where is the train to Amsterdam?",
-                "Which platform is the train to Amsterdam?",
-                "What time is the train to Amsterdam?",
+                "Which platform does the train to Amsterdam leave from?",
+                "When does the train to Amsterdam leave?",
                 "How long is the train to Amsterdam?"
               ],
               "answerIndex": 1,
-              "explanation": "'Which platform is the train to Amsterdam?'는 암스테르담행 기차의 플랫폼 번호를 묻는 표현입니다. 'Where is the train'은 위치를 막연히 묻는 표현으로, 플랫폼 번호를 확인할 때는 'Which platform'이 더 적합합니다."
+              "explanation": "'Which platform does the train to Amsterdam leave from?'는 암스테르담행 기차가 몇 번 플랫폼에서 출발하는지 묻는 문법적으로 완전한 표현입니다. 'Where is the train'은 위치를 막연히 묻는 표현이고, 'When'은 출발 시간, 'How long'은 소요 시간을 묻는 표현으로 플랫폼 번호를 확인할 때는 'Which platform ... leave from?'이 적합합니다."
             },
             {
               "id": "se_ch17_set01_002",
               "type": "multiple_choice",
               "question": "탑승하려는 열차가 로마행이 맞는지 확인하는 표현은?",
               "options": [
-                "Does this train go to Rome?",
+                "Is this the platform to Rome?",
                 "Is this the train to Rome?",
                 "When does the train leave for Rome?",
                 "Which platform goes to Rome?"
               ],
               "answerIndex": 1,
-              "explanation": "'Is this the train to Rome?'는 지금 눈앞에 있는 열차가 로마행인지 확인하는 표현입니다. 'Does this train go to Rome?'도 의미는 비슷하지만, 특정 열차를 가리키는 상황에서는 'Is this the train to ...'가 더 자연스럽습니다."
+              "explanation": "'Is this the train to Rome?'는 지금 눈앞에 있는 열차가 로마행인지 확인하는 표현입니다. 'Is this the platform to Rome?'는 플랫폼을 묻는 표현으로 열차 확인과 다릅니다. 특정 열차를 가리키며 목적지를 확인할 때는 'Is this the train to ...'가 가장 자연스럽습니다."
             },
             {
               "id": "se_ch17_set01_003",
               "type": "multiple_choice",
-              "question": "열차 안에서 앉으려는 자리가 이미 예약되어 있는지 물을 때 알맞은 표현은?",
+              "question": "열차 안에서 앉으려는 자리가 비어 있는지(사용 중인지) 물을 때 알맞은 표현은?",
               "options": [
                 "Is this seat empty?",
                 "Is this seat mine?",
                 "Is this seat taken?",
-                "Is this seat reserved?"
+                "Is this seat broken?"
               ],
               "answerIndex": 2,
-              "explanation": "'Is this seat taken?'은 해당 좌석이 이미 다른 사람이 차지했는지 묻는 가장 자연스러운 표현입니다. 'taken'은 '(자리가) 사용 중인'이라는 뜻입니다. 'Is this seat reserved?'도 뜻은 유사하지만, 낯선 사람에게 일상적으로 건네는 표현으로는 'Is this seat taken?'이 더 자연스럽습니다."
+              "explanation": "'Is this seat taken?'은 해당 좌석이 이미 다른 사람이 차지했는지(사용 중인지) 묻는 가장 자연스러운 표현입니다. 'taken'은 '(자리가) 사용 중인'이라는 뜻으로, 낯선 사람에게 건네는 일상 표현으로 널리 쓰입니다. 'Is this seat empty?'는 뜻은 비슷하지만 덜 관용적이고, 'Is this seat broken?'은 좌석 파손 여부를 묻는 전혀 다른 표현입니다."
             },
             {
               "id": "se_ch17_set01_004",
@@ -2559,13 +2559,13 @@
               "type": "multiple_choice",
               "question": "목적지에 도착했을 때 기사에게 여기서 세워달라고 하는 표현은?",
               "options": [
-                "Stop the car here.",
+                "Park the car forever.",
                 "Please stop here.",
                 "Pull over now.",
-                "Let me out here."
+                "Stop the meter here."
               ],
               "answerIndex": 1,
-              "explanation": "'Please stop here.'는 이 자리에서 세워달라고 요청하는 정중한 표현입니다. 'Pull over'는 도로 가장자리에 차를 대는 뉘앙스이고, 'Let me out'은 다소 급한 느낌을 줄 수 있습니다."
+              "explanation": "'Please stop here.'는 목적지 도착 시 기사에게 이 자리에서 세워달라고 정중하게 요청하는 표현입니다. 'Park the car forever.'와 'Stop the meter here.'는 실제로 쓰이지 않는 표현이고, 'Pull over now.'는 도로 가장자리에 차를 대라는 뉘앙스로 급박한 상황에 어울립니다."
             },
             {
               "id": "se_ch18_set01_007",
