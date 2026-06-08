@@ -3,6 +3,414 @@
   "title": "생존 영어 회화",
   "chapters": [
     {
+      "id": "ch01",
+      "title": "항공권·온라인 체크인 확인",
+      "summary": "출발 전 온라인 체크인, 좌석 선택, 수하물 규정 확인",
+      "sections": [
+        {
+          "heading": "온라인 체크인 하기",
+          "body": "항공사 앱이나 웹사이트에서 체크인할 때 'I'd like to check in online.'이라는 표현이 기본입니다. 좌석을 직접 고르고 싶을 때는 'Can I choose my seat?'라고 하고, 배정된 좌석 번호를 확인하려면 'What's my seat number?'라고 물어보세요."
+        },
+        {
+          "heading": "항공편 상태 확인",
+          "body": "출발 당일에는 항공편이 제시간에 운항하는지 꼭 확인하세요. 'Is my flight on time?'이라고 물으면 됩니다. 체크인을 마치면 'boarding pass(탑승권)'를 받게 되는데, 요즘은 스마트폰 앱에서 모바일 탑승권을 받는 경우가 많습니다."
+        },
+        {
+          "heading": "수하물 허용량 알아두기",
+          "body": "'baggage allowance'는 수하물 허용량을 뜻합니다. 항공사마다 기내 반입(carry-on)과 위탁 수하물(checked baggage) 무게·크기 규정이 다르니 미리 확인해 두세요. 초과하면 추가 요금을 내야 하니 여행 전에 꼭 체크하는 것이 좋습니다."
+        }
+      ],
+      "sets": [
+        {
+          "id": "set01",
+          "questions": [
+            {
+              "id": "se_ch01_set01_001",
+              "type": "multiple_choice",
+              "question": "온라인으로 체크인하고 싶다고 말할 때 가장 자연스러운 표현은?",
+              "options": ["I'd like to check in online.", "I'd like to check out now.", "I want online shopping.", "Please check my bag."],
+              "answerIndex": 0,
+              "explanation": "'I'd like to check in online.'은 온라인 체크인을 하겠다는 표현입니다. 'check out'은 호텔에서 나갈 때 쓰는 표현으로 혼동하지 마세요."
+            },
+            {
+              "id": "se_ch01_set01_002",
+              "type": "multiple_choice",
+              "question": "원하는 좌석을 직접 선택하고 싶을 때 쓰는 표현은?",
+              "options": ["Can I choose my seat?", "Can I choose my meal?", "Can I choose my pilot?", "Can I choose my gate?"],
+              "answerIndex": 0,
+              "explanation": "'Can I choose my seat?'는 좌석을 직접 고르고 싶다고 요청하는 표현입니다. 좌석 배정이 마음에 들지 않을 때도 사용할 수 있습니다."
+            },
+            {
+              "id": "se_ch01_set01_003",
+              "type": "multiple_choice",
+              "question": "배정된 좌석 번호를 확인하고 싶을 때 알맞은 표현은?",
+              "options": ["What's my boarding time?", "What's my seat number?", "What's my bag number?", "What's my passport number?"],
+              "answerIndex": 1,
+              "explanation": "'What's my seat number?'는 좌석 번호를 묻는 표현입니다. 'boarding time'은 탑승 시각을 묻는 것으로 다릅니다."
+            },
+            {
+              "id": "se_ch01_set01_004",
+              "type": "multiple_choice",
+              "question": "내 항공편이 제시간에 출발하는지 확인하고 싶을 때 표현은?",
+              "options": ["Is my gate open?", "Is my ticket valid?", "Is my flight on time?", "Is my seat taken?"],
+              "answerIndex": 2,
+              "explanation": "'Is my flight on time?'은 항공편이 정시 운항인지 묻는 표현입니다. 연착이 있으면 'delayed(지연)'라는 답변을 받게 됩니다."
+            },
+            {
+              "id": "se_ch01_set01_005",
+              "type": "multiple_choice",
+              "question": "'boarding pass'가 의미하는 것은?",
+              "options": ["수하물 태그", "탑승권", "여권", "비자"],
+              "answerIndex": 1,
+              "explanation": "'boarding pass'는 탑승권입니다. 체크인 후 받으며, 게이트에서 제시해야 비행기에 탑승할 수 있습니다."
+            },
+            {
+              "id": "se_ch01_set01_006",
+              "type": "multiple_choice",
+              "question": "'baggage allowance'의 뜻은?",
+              "options": ["수하물 수령 구역", "수하물 허용량", "수하물 잠금장치", "수하물 분실 신고"],
+              "answerIndex": 1,
+              "explanation": "'baggage allowance'는 무료로 가져갈 수 있는 수하물 허용량입니다. 초과(overweight)하면 추가 요금이 발생합니다."
+            },
+            {
+              "id": "se_ch01_set01_007",
+              "type": "multiple_choice",
+              "question": "온라인 체크인 중 항공사 직원에게 좌석 업그레이드를 요청하는 가장 자연스러운 표현은?",
+              "options": ["Can I upgrade my seat?", "Can I upgrade my bag?", "Can I upgrade my passport?", "Can I upgrade my hotel?"],
+              "answerIndex": 0,
+              "explanation": "'Can I upgrade my seat?'는 좌석 업그레이드를 요청하는 표현입니다. 체크인 카운터나 앱에서 물어볼 수 있습니다."
+            },
+            {
+              "id": "se_ch01_set01_008",
+              "type": "ox",
+              "question": "모바일 앱으로 받은 탑승권도 'boarding pass'라고 부른다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 종이로 출력하든 스마트폰 앱으로 받든 모두 'boarding pass(탑승권)'라고 부릅니다."
+            },
+            {
+              "id": "se_ch01_set01_009",
+              "type": "ox",
+              "question": "'Is my flight on time?'은 항공편 좌석 업그레이드 가능 여부를 묻는 표현이다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 'Is my flight on time?'은 항공편이 정시에 출발하는지 묻는 표현입니다. 업그레이드는 'Can I upgrade my seat?'라고 합니다."
+            },
+            {
+              "id": "se_ch01_set01_010",
+              "type": "ox",
+              "question": "'baggage allowance'를 초과하면 추가 요금(extra fee)이 발생할 수 있다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 수하물 허용량을 초과하면 항공사에 따라 상당한 추가 요금이 부과될 수 있으니 출발 전 꼭 확인하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch02",
+      "title": "공항 체크인 카운터",
+      "summary": "수하물 맡기기, 좌석 요청, 탑승 게이트 확인",
+      "sections": [
+        {
+          "heading": "수하물 맡기기",
+          "body": "체크인 카운터에서 짐을 부칠 때는 'I'd like to check in this bag.'이라고 합니다. 몇 개까지 맡길 수 있는지 물으려면 'How many bags can I check?'라고 하세요. 만약 가방이 무게 초과라면 'My bag is overweight.'라고 말하면 직원이 안내해 줍니다."
+        },
+        {
+          "heading": "기내 반입 가방과 좌석 요청",
+          "body": "기내에 들고 탈 가방은 carry-on이라고 합니다. 크기나 무게가 걱정될 때는 'Is this carry-on okay?'라고 확인하세요. 좌석은 창가(window seat)나 통로(aisle seat) 중 원하는 쪽을 'Window seat, please.' 또는 'Aisle seat, please.'라고 요청할 수 있습니다."
+        },
+        {
+          "heading": "탑승 게이트 확인하기",
+          "body": "체크인을 마치면 탑승권에 게이트 번호가 적혀 있지만, 변경될 수 있으니 직원에게 'Where is the boarding gate?'라고 확인하는 습관이 좋습니다. 공항 전광판(departure board)도 수시로 확인하세요."
+        }
+      ],
+      "sets": [
+        {
+          "id": "set01",
+          "questions": [
+            {
+              "id": "se_ch02_set01_001",
+              "type": "multiple_choice",
+              "question": "카운터 직원에게 이 가방을 부치겠다고 말할 때 자연스러운 표현은?",
+              "options": ["I'd like to check in this bag.", "I'd like to check out this bag.", "I'd like to lose this bag.", "I'd like to open this bag."],
+              "answerIndex": 0,
+              "explanation": "'I'd like to check in this bag.'은 가방을 위탁 수하물로 맡기겠다는 표현입니다. 'check out'은 호텔 퇴실에 쓰입니다."
+            },
+            {
+              "id": "se_ch02_set01_002",
+              "type": "multiple_choice",
+              "question": "수하물을 몇 개까지 부칠 수 있는지 물어보는 표현은?",
+              "options": ["How many bags can I buy?", "How many bags can I open?", "How many bags can I check?", "How many bags can I find?"],
+              "answerIndex": 2,
+              "explanation": "'How many bags can I check?'는 위탁 수하물로 몇 개까지 맡길 수 있는지 묻는 표현입니다."
+            },
+            {
+              "id": "se_ch02_set01_003",
+              "type": "multiple_choice",
+              "question": "기내에 가지고 타는 가방이 괜찮은지 확인하는 표현은?",
+              "options": ["Is this checked bag okay?", "Is this carry-on okay?", "Is this passport okay?", "Is this ticket okay?"],
+              "answerIndex": 1,
+              "explanation": "'Is this carry-on okay?'는 기내 반입 가방의 크기·무게가 규정에 맞는지 확인하는 표현입니다. carry-on은 기내에 직접 들고 타는 가방입니다."
+            },
+            {
+              "id": "se_ch02_set01_004",
+              "type": "multiple_choice",
+              "question": "창가 좌석을 요청할 때 알맞은 표현은?",
+              "options": ["Aisle seat, please.", "Window seat, please.", "Middle seat, please.", "First class, please."],
+              "answerIndex": 1,
+              "explanation": "창가 좌석은 'window seat', 통로 좌석은 'aisle seat'입니다. 'Window seat, please.'라고 요청하면 됩니다."
+            },
+            {
+              "id": "se_ch02_set01_005",
+              "type": "multiple_choice",
+              "question": "가방이 무게 초과라고 직원에게 알릴 때 적절한 표현은?",
+              "options": ["My bag is too old.", "My bag is overweight.", "My bag is overdue.", "My bag is overheated."],
+              "answerIndex": 1,
+              "explanation": "'My bag is overweight.'는 가방이 무게를 초과했다는 표현입니다. 이럴 때는 짐을 덜어내거나 추가 요금을 내야 합니다."
+            },
+            {
+              "id": "se_ch02_set01_006",
+              "type": "multiple_choice",
+              "question": "탑승 게이트가 어디 있는지 물어보는 자연스러운 표현은?",
+              "options": ["Where is the departure lounge?", "Where is the boarding gate?", "Where is the luggage belt?", "Where is the taxi stand?"],
+              "answerIndex": 1,
+              "explanation": "'Where is the boarding gate?'는 탑승 게이트 위치를 묻는 표현입니다. 게이트는 변경될 수 있으니 출발 전광판도 꼭 확인하세요."
+            },
+            {
+              "id": "se_ch02_set01_007",
+              "type": "multiple_choice",
+              "question": "통로 좌석을 원할 때 직원에게 하는 요청은?",
+              "options": ["Window seat, please.", "Corner seat, please.", "Aisle seat, please.", "Front seat, please."],
+              "answerIndex": 2,
+              "explanation": "통로 쪽 좌석은 'aisle seat'입니다. 화장실을 자주 가거나 다리를 뻗고 싶을 때 선호하는 좌석입니다."
+            },
+            {
+              "id": "se_ch02_set01_008",
+              "type": "ox",
+              "question": "'carry-on'은 항공기에 기내 반입하는 가방을 뜻한다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. carry-on은 직접 들고 탑승하는 기내 반입 가방입니다. 위탁 수하물은 'checked baggage'라고 합니다."
+            },
+            {
+              "id": "se_ch02_set01_009",
+              "type": "ox",
+              "question": "'Window seat'는 통로 쪽 좌석을 의미한다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 'window seat'는 창가 좌석입니다. 통로 쪽은 'aisle seat'라고 합니다."
+            },
+            {
+              "id": "se_ch02_set01_010",
+              "type": "ox",
+              "question": "수하물이 무게 초과일 때 'My bag is overweight.'라고 말할 수 있다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 가방이 규정 무게를 초과했을 때 'My bag is overweight.'라고 직원에게 알릴 수 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03",
+      "title": "보안검색·출국 심사",
+      "summary": "보안 검색대 통과 및 출국 심사 필수 표현",
+      "sections": [
+        {
+          "heading": "보안 검색대에서 듣는 안내",
+          "body": "보안 검색대에서는 직원의 안내를 잘 들어야 합니다. 재킷을 벗으라는 'Please take off your jacket.', 노트북을 가방에서 꺼내라는 'Laptops out of the bag, please.', 주머니를 비우라는 'Empty your pockets.'를 기억해 두세요."
+        },
+        {
+          "heading": "액체류와 검색대 통과",
+          "body": "액체류(liquids)는 100ml 이하 용기에 담아야 합니다. 'Liquids must be under 100ml.'가 규정입니다. 직원이 검색대를 통과하라고 하면 'Step through, please.'라고 합니다. 양팔을 들라는 안내는 'Arms up.'입니다."
+        }
+      ],
+      "sets": [
+        {
+          "id": "set01",
+          "questions": [
+            {
+              "id": "se_ch03_set01_001",
+              "type": "multiple_choice",
+              "question": "보안 검색대에서 직원이 재킷을 벗으라고 할 때 하는 말은?",
+              "options": ["Please take off your shoes.", "Please take off your jacket.", "Please take off your hat.", "Please take off your glasses."],
+              "answerIndex": 1,
+              "explanation": "'Please take off your jacket.'은 재킷을 벗으라는 안내입니다. 신발이나 벨트를 벗으라고 하는 경우도 있으니 상황에 따라 대응하세요."
+            },
+            {
+              "id": "se_ch03_set01_002",
+              "type": "multiple_choice",
+              "question": "노트북을 가방에서 꺼내라는 안내는?",
+              "options": ["Phones off the bag, please.", "Tablets out of the bag, please.", "Laptops out of the bag, please.", "Cameras out of the bag, please."],
+              "answerIndex": 2,
+              "explanation": "'Laptops out of the bag, please.'는 노트북을 가방에서 꺼내 별도 바구니에 넣으라는 안내입니다. 보안 검사를 위해 액체류와 함께 분리해야 합니다."
+            },
+            {
+              "id": "se_ch03_set01_003",
+              "type": "multiple_choice",
+              "question": "기내 반입 액체류 규정에 대한 올바른 설명은?",
+              "options": ["Liquids must be under 500ml.", "Liquids must be under 200ml.", "Liquids must be under 100ml.", "Liquids must be under 1 liter."],
+              "answerIndex": 2,
+              "explanation": "기내 반입 액체류는 반드시 100ml 이하 용기에 담아야 합니다. 'Liquids must be under 100ml.'가 국제 보안 규정입니다."
+            },
+            {
+              "id": "se_ch03_set01_004",
+              "type": "multiple_choice",
+              "question": "직원이 주머니를 비우라고 할 때 하는 말은?",
+              "options": ["Open your bag.", "Empty your wallet.", "Empty your pockets.", "Check your pockets."],
+              "answerIndex": 2,
+              "explanation": "'Empty your pockets.'는 주머니 안에 있는 것을 모두 꺼내라는 안내입니다. 동전, 열쇠, 휴대폰 등을 바구니에 담아야 합니다."
+            },
+            {
+              "id": "se_ch03_set01_005",
+              "type": "multiple_choice",
+              "question": "검색대를 통과하라고 안내하는 표현은?",
+              "options": ["Stop here, please.", "Wait here, please.", "Step through, please.", "Turn around, please."],
+              "answerIndex": 2,
+              "explanation": "'Step through, please.'는 금속 탐지기나 검색대를 통과하라는 안내입니다. 삐 소리가 나지 않으면 짐을 찾아 이동합니다."
+            },
+            {
+              "id": "se_ch03_set01_006",
+              "type": "multiple_choice",
+              "question": "보안 검색 중 직원이 양팔을 들라고 할 때 하는 말은?",
+              "options": ["Hands up!", "Arms up.", "Legs up.", "Head up."],
+              "answerIndex": 1,
+              "explanation": "'Arms up.'은 전신 스캐너나 수동 검색 시 양팔을 들어올리라는 안내입니다. 'Hands up!'과 혼동되지만 보안 검색 상황에서는 'Arms up.'이 표준 표현입니다."
+            },
+            {
+              "id": "se_ch03_set01_007",
+              "type": "multiple_choice",
+              "question": "검색대에서 가방을 열어달라고 요청받을 때 듣는 표현은?",
+              "options": ["Can you open your bag?", "Can you open your passport?", "Can you open your ticket?", "Can you open your wallet?"],
+              "answerIndex": 0,
+              "explanation": "'Can you open your bag?'은 가방을 열어달라는 요청입니다. 의심 물품이 감지되면 직원이 직접 확인합니다. 당황하지 말고 협조하세요."
+            },
+            {
+              "id": "se_ch03_set01_008",
+              "type": "ox",
+              "question": "기내 반입 액체류는 100ml 이하 용기에 담아야 한다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 국제선 보안 규정에 따라 기내 반입 액체류는 반드시 100ml(3.4oz) 이하 용기에 담아야 합니다."
+            },
+            {
+              "id": "se_ch03_set01_009",
+              "type": "ox",
+              "question": "'Step through, please.'는 뒤로 돌아가라는 안내이다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 'Step through, please.'는 금속 탐지기나 검색대를 통과하라는 안내입니다. 뒤로 돌아가라는 표현은 'Go back, please.'입니다."
+            },
+            {
+              "id": "se_ch03_set01_010",
+              "type": "ox",
+              "question": "'Laptops out of the bag, please.'는 노트북을 가방 안에 넣어두라는 안내이다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 노트북을 가방에서 꺼내 별도 바구니에 올려달라는 안내입니다. 검사 후에는 다시 챙기는 것 잊지 마세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch04",
+      "title": "탑승 게이트에서",
+      "summary": "탑승 방송 이해, 지연·게이트 변경 대응",
+      "sections": [
+        {
+          "heading": "탑승 방송 듣기",
+          "body": "게이트에서 대기하다 보면 'Now boarding group 2.'처럼 그룹별 탑승 안내 방송이 나옵니다. 탑승권에 적힌 그룹 번호를 확인해 두세요. 마지막 탑승 안내는 'Final call for flight KE901.'처럼 편명을 언급합니다. 이 방송이 나오면 즉시 게이트로 이동해야 합니다."
+        },
+        {
+          "heading": "지연·게이트 변경 대응",
+          "body": "항공편이 늦어지면 'The flight is delayed.'라는 안내를 듣게 됩니다. 이때 게이트가 바뀌는 'gate change(게이트 변경)'도 함께 발생하는 경우가 있으니 전광판을 자주 확인하세요. 탑승이 시작되면 'boarding now'라는 표시나 안내가 나옵니다."
+        },
+        {
+          "heading": "아이와 함께 탑승하기",
+          "body": "어린 자녀와 함께 여행 중이라면 'Can I board with my child?'라고 물어보세요. 대부분의 항공사는 어린이 동반 가족에게 우선 탑승(priority boarding)을 허용합니다. 직원에게 미리 물어보면 더 여유롭게 탑승할 수 있습니다."
+        }
+      ],
+      "sets": [
+        {
+          "id": "set01",
+          "questions": [
+            {
+              "id": "se_ch04_set01_001",
+              "type": "multiple_choice",
+              "question": "탑승 게이트에서 'Now boarding group 2.'라는 방송이 나왔습니다. 이 방송의 의미는?",
+              "options": ["2번 게이트로 이동하세요", "2그룹 승객 탑승 시작", "2번 탑승권을 꺼내세요", "2등석 승객 안내"],
+              "answerIndex": 1,
+              "explanation": "'Now boarding group 2.'는 그룹 2에 속한 승객들이 지금 탑승할 수 있다는 안내 방송입니다. 탑승권에 적힌 그룹 번호를 확인하세요."
+            },
+            {
+              "id": "se_ch04_set01_002",
+              "type": "multiple_choice",
+              "question": "항공편이 지연되었다고 알려주는 표현은?",
+              "options": ["The flight is canceled.", "The flight is delayed.", "The flight is boarding.", "The flight is early."],
+              "answerIndex": 1,
+              "explanation": "'The flight is delayed.'는 항공편이 지연되었다는 표현입니다. 'canceled'는 결항, 'early'는 조기 출발을 의미합니다."
+            },
+            {
+              "id": "se_ch04_set01_003",
+              "type": "multiple_choice",
+              "question": "'gate change'가 발생했을 때 어떻게 해야 할까요?",
+              "options": ["탑승권을 새로 발급받는다", "전광판을 확인해 새 게이트로 이동한다", "체크인 카운터로 돌아간다", "자리에서 기다린다"],
+              "answerIndex": 1,
+              "explanation": "'gate change(게이트 변경)'가 발생하면 전광판이나 항공사 앱에서 새로운 게이트 번호를 확인하고 즉시 이동해야 합니다."
+            },
+            {
+              "id": "se_ch04_set01_004",
+              "type": "multiple_choice",
+              "question": "'Final call for flight KE901.'이라는 방송이 나왔을 때 적절한 행동은?",
+              "options": ["편하게 커피를 마신다", "즉시 게이트로 달려간다", "짐 찾는 곳으로 이동한다", "체크인 카운터로 간다"],
+              "answerIndex": 1,
+              "explanation": "'Final call'은 마지막 탑승 안내 방송입니다. 이 방송 후에는 게이트가 닫힐 수 있으니 즉시 이동해야 합니다."
+            },
+            {
+              "id": "se_ch04_set01_005",
+              "type": "multiple_choice",
+              "question": "아이와 함께 먼저 탑승하고 싶을 때 직원에게 할 말은?",
+              "options": ["Can I board with my child?", "Can I board with my bag?", "Can I board with my pet?", "Can I board without a ticket?"],
+              "answerIndex": 0,
+              "explanation": "'Can I board with my child?'는 어린 자녀와 함께 탑승할 수 있는지 물어보는 표현입니다. 대부분 우선 탑승(priority boarding)이 허용됩니다."
+            },
+            {
+              "id": "se_ch04_set01_006",
+              "type": "multiple_choice",
+              "question": "탑승이 진행 중임을 알리는 전광판 표시나 방송은?",
+              "options": ["check in now", "boarding now", "gate closed", "delayed"],
+              "answerIndex": 1,
+              "explanation": "'boarding now'는 현재 탑승이 진행 중이라는 표시입니다. 이 표시가 보이면 서둘러 게이트로 이동하세요."
+            },
+            {
+              "id": "se_ch04_set01_007",
+              "type": "multiple_choice",
+              "question": "우선 탑승 혜택을 영어로 표현하면?",
+              "options": ["express boarding", "first check-in", "priority boarding", "early landing"],
+              "answerIndex": 2,
+              "explanation": "'priority boarding'은 우선 탑승 혜택을 뜻합니다. 어린이 동반 가족, 비즈니스 좌석 승객, 항공사 멤버십 회원 등에게 주어집니다."
+            },
+            {
+              "id": "se_ch04_set01_008",
+              "type": "ox",
+              "question": "'Final call'은 해당 항공편의 마지막 탑승 안내 방송이다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 'Final call'은 마지막 탑승 안내로, 이 방송 후에는 곧 게이트가 닫힙니다. 들리면 즉시 게이트로 이동해야 합니다."
+            },
+            {
+              "id": "se_ch04_set01_009",
+              "type": "ox",
+              "question": "'The flight is delayed.'는 항공편이 결항되었다는 뜻이다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 'delayed'는 지연을 의미합니다. 결항은 'canceled'라고 합니다. 'The flight is delayed.'는 출발이 늦어진다는 뜻입니다."
+            },
+            {
+              "id": "se_ch04_set01_010",
+              "type": "ox",
+              "question": "게이트 변경이 발생했을 때 'gate change'라는 표현을 쓴다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 탑승 게이트가 변경될 때 'gate change'라고 안내합니다. 전광판이나 항공사 앱에서 자주 확인하는 습관이 중요합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ch08",
       "title": "공항 입국 심사",
       "summary": "여권·입국 목적·체류 기간 표현",
