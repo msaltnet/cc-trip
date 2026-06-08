@@ -4278,11 +4278,11 @@
               "options": [
                 "I lost my wallet.",
                 "My wallet was stolen.",
-                "Someone took my wallet.",
+                "I can't find my wallet.",
                 "My wallet is gone."
               ],
               "answerIndex": 1,
-              "explanation": "'My wallet was stolen.'은 지갑이 도난당했음을 명확히 나타내는 표현입니다. 'I lost my wallet.'은 스스로 잃어버렸다는 뜻으로 도난과 구별됩니다. 경찰 신고 시에는 도난임을 명확히 해야 합니다."
+              "explanation": "'My wallet was stolen.'은 지갑이 도난당했음을 명확히 나타내는 표현입니다. 'I lost my wallet.'과 'I can't find my wallet.'은 스스로 잃어버렸거나 분실한 상황을 나타내며 도난과 구별됩니다. 경찰 신고 시에는 도난임을 명확히 해야 합니다."
             },
             {
               "id": "se_ch30_set01_003",
@@ -4334,7 +4334,7 @@
                 "Where is the Korean tourism office?"
               ],
               "answerIndex": 1,
-              "explanation": "'Where is the Korean embassy?'는 한국 대사관 위치를 묻는 표현입니다. 'consulate'는 영사관으로 대사관(embassy)과 다른 기관이며, 여권 재발급 등 주요 업무는 대사관(embassy)에서 처리합니다."
+              "explanation": "'Where is the Korean embassy?'는 한국 대사관 위치를 묻는 표현입니다. 여권 재발급 등 주요 업무는 대사관(embassy) 또는 영사관(consulate)에서 처리합니다."
             },
             {
               "id": "se_ch30_set01_007",
