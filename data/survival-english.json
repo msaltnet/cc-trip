@@ -2055,15 +2055,555 @@
     },
     {
       "id": "ch15",
-      "title": "길찾기와 교통 (준비 중)",
-      "summary": "지하철·버스·길 묻기 (콘텐츠 준비 중)",
+      "title": "길 묻기",
+      "summary": "방향·거리·지도 보며 길 묻기",
       "sections": [
         {
-          "heading": "준비 중인 챕터",
-          "body": "이 챕터의 학습 본문과 문제는 아직 준비 중입니다. 곧 추가될 예정입니다."
+          "heading": "길을 물어볼 때 시작하기",
+          "body": "'Excuse me, where is ...?'는 모르는 사람에게 장소를 물을 때 가장 기본이 되는 표현입니다. 'Excuse me'로 시작해 상대의 주의를 먼저 끄는 것이 예의입니다. 예를 들어 'Excuse me, where is the nearest metro station?'처럼 사용하세요. 목적지까지 어떻게 가는지 전체 방법을 묻고 싶다면 'How do I get to ...?'라고 하면 됩니다."
+        },
+        {
+          "heading": "거리 묻고 방향 이해하기",
+          "body": "목적지가 가까운지 멀리 있는지 확인하려면 'Is it far from here?'라고 물어보세요. 대답을 들을 때 기억해야 할 방향 표현은 'Turn left(왼쪽으로 꺾으세요)', 'Turn right(오른쪽으로 꺾으세요)', 'Go straight(직진하세요)'입니다. 이 세 표현만 알아도 유럽 어디서든 길 안내를 받을 수 있습니다."
+        },
+        {
+          "heading": "위치 표현과 지도 활용하기",
+          "body": "건물이나 상점의 위치를 설명할 때는 'It's next to ...(~ 옆에 있어요)'와 'It's across from ...(~ 맞은편에 있어요)'가 자주 쓰입니다. 말로 설명이 어려울 때는 'Can you show me on the map?'이라고 하면 상대방이 지도에 직접 표시해 줍니다. 스마트폰 지도를 보여주며 물어보면 더욱 소통하기 쉽습니다."
         }
       ],
-      "sets": []
+      "sets": [
+        {
+          "id": "set01",
+          "questions": [
+            {
+              "id": "se_ch15_set01_001",
+              "type": "multiple_choice",
+              "question": "지나가는 사람에게 박물관이 어디 있는지 물을 때 가장 자연스러운 표현은?",
+              "options": [
+                "Excuse me, where is the museum?",
+                "Excuse me, how much is the museum?",
+                "Sorry, when is the museum open?",
+                "Pardon, can I enter the museum?"
+              ],
+              "answerIndex": 0,
+              "explanation": "'Excuse me, where is the museum?'은 박물관 위치를 묻는 표현입니다. 'Excuse me'로 먼저 주의를 끄는 것이 자연스럽습니다. 나머지는 위치가 아닌 가격·시간·입장을 묻는 표현입니다."
+            },
+            {
+              "id": "se_ch15_set01_002",
+              "type": "multiple_choice",
+              "question": "기차역까지 가는 방법을 전체적으로 물을 때 알맞은 표현은?",
+              "options": [
+                "Where is the train station?",
+                "How do I get to the train station?",
+                "How long is the train station?",
+                "Is the train station far?"
+              ],
+              "answerIndex": 1,
+              "explanation": "'How do I get to the train station?'은 기차역까지 어떻게 가야 하는지 방법 전체를 묻는 표현입니다. 'Where is ...'는 위치만 묻는 표현이고, 'How do I get to ...'는 경로와 이동 방법까지 포함합니다."
+            },
+            {
+              "id": "se_ch15_set01_003",
+              "type": "multiple_choice",
+              "question": "목적지가 여기서 멀리 있는지 확인할 때 적절한 표현은?",
+              "options": [
+                "Is it free from here?",
+                "Is it fast from here?",
+                "Is it far from here?",
+                "Is it safe from here?"
+              ],
+              "answerIndex": 2,
+              "explanation": "'Is it far from here?'는 목적지가 현재 위치에서 먼지 묻는 표현입니다. 'far'는 거리가 멀다는 뜻입니다. 'free', 'fast', 'safe'는 각각 무료·빠른·안전한을 묻는 다른 표현입니다."
+            },
+            {
+              "id": "se_ch15_set01_004",
+              "type": "multiple_choice",
+              "question": "길 안내에서 'Turn left.'의 뜻은?",
+              "options": [
+                "직진하세요.",
+                "돌아가세요.",
+                "왼쪽으로 꺾으세요.",
+                "오른쪽으로 꺾으세요."
+              ],
+              "answerIndex": 2,
+              "explanation": "'Turn left.'는 왼쪽으로 방향을 바꾸라는 뜻입니다. 'Turn right.'는 오른쪽, 'Go straight.'는 직진입니다. 방향 표현 세 가지를 함께 기억해 두세요."
+            },
+            {
+              "id": "se_ch15_set01_005",
+              "type": "multiple_choice",
+              "question": "길 안내를 받을 때 'Go straight.'의 의미는?",
+              "options": [
+                "우회전하세요.",
+                "좌회전하세요.",
+                "계단을 이용하세요.",
+                "직진하세요."
+              ],
+              "answerIndex": 3,
+              "explanation": "'Go straight.'는 방향을 바꾸지 말고 앞으로 계속 가라는 뜻입니다. 교차로에서 꺾지 않고 그대로 진행할 때 사용하는 안내 표현입니다."
+            },
+            {
+              "id": "se_ch15_set01_006",
+              "type": "multiple_choice",
+              "question": "목적지가 슈퍼마켓 바로 옆에 있다고 설명할 때 알맞은 표현은?",
+              "options": [
+                "It's inside the supermarket.",
+                "It's next to the supermarket.",
+                "It's across from the supermarket.",
+                "It's behind the supermarket."
+              ],
+              "answerIndex": 1,
+              "explanation": "'It's next to the supermarket.'는 슈퍼마켓 바로 옆에 있다는 표현입니다. 'across from'은 맞은편, 'behind'는 뒤쪽을 뜻합니다."
+            },
+            {
+              "id": "se_ch15_set01_007",
+              "type": "multiple_choice",
+              "question": "상대방에게 지도에 위치를 직접 표시해 달라고 부탁할 때 알맞은 표현은?",
+              "options": [
+                "Can you draw a map for me?",
+                "Can you show me on the map?",
+                "Can you read the map?",
+                "Can you take a photo of the map?"
+              ],
+              "answerIndex": 1,
+              "explanation": "'Can you show me on the map?'는 지도에서 위치를 직접 가리켜 달라고 부탁하는 표현입니다. 말로 설명이 어려울 때 스마트폰 지도를 보여주면서 이 표현을 쓰면 효과적입니다."
+            },
+            {
+              "id": "se_ch15_set01_008",
+              "type": "ox",
+              "question": "'It's across from the bank.'는 은행 바로 맞은편에 있다는 뜻이다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 'across from'은 '~ 맞은편에'라는 뜻입니다. 도로나 광장을 사이에 두고 반대편에 위치할 때 사용하는 표현입니다."
+            },
+            {
+              "id": "se_ch15_set01_009",
+              "type": "ox",
+              "question": "'Excuse me, where is ...?'와 'How do I get to ...?'는 같은 의미로 바꿔 쓸 수 있다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 'Where is ...?'는 위치만 묻는 표현이고, 'How do I get to ...?'는 이동 방법과 경로를 묻는 표현입니다. 위치만 알아도 가는 방법은 따로 물어봐야 할 때가 있습니다."
+            },
+            {
+              "id": "se_ch15_set01_010",
+              "type": "ox",
+              "question": "길 안내에서 'Turn right.'는 왼쪽으로 꺾으라는 뜻이다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 'Turn right.'는 오른쪽으로 꺾으라는 뜻입니다. 왼쪽은 'Turn left.'이며, 두 방향을 혼동하지 않도록 주의하세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch16",
+      "title": "지하철·버스 타기",
+      "summary": "노선 확인, 환승, 하차 지점 묻기",
+      "sections": [
+        {
+          "heading": "티켓·교통 카드 구매하기",
+          "body": "'Where can I buy a metro card?'는 지하철 카드(교통카드)를 어디서 살 수 있는지 묻는 표현입니다. 유럽 대도시에서는 Oyster, Navigo 같은 충전식 교통카드를 많이 씁니다. 어느 노선이 원하는 목적지로 가는지 확인하려면 'Which line goes to ...?'라고 물어보세요."
+        },
+        {
+          "heading": "환승과 정거장 수 확인하기",
+          "body": "환승이 필요한지 알아보려면 'Do I need to transfer?'라고 물어보세요. 버스가 원하는 장소에 서는지 확인할 때는 'Does this bus stop at ...?'이라고 합니다. 몇 정거장을 가야 하는지는 'How many stops is it?'으로 물어볼 수 있습니다."
+        },
+        {
+          "heading": "어디서 내려야 할지 확인하기",
+          "body": "목적지에서 내려야 할 정거장이 어디인지 확인하고 싶으면 'Where do I get off?'라고 물어보세요. 옆에 앉은 승객이나 기사에게 물어볼 수 있습니다. 스마트폰 지도앱에서 실시간으로 정거장을 확인하는 것도 좋은 방법입니다."
+        }
+      ],
+      "sets": [
+        {
+          "id": "set01",
+          "questions": [
+            {
+              "id": "se_ch16_set01_001",
+              "type": "multiple_choice",
+              "question": "지하철 교통카드를 어디서 구매할 수 있는지 물을 때 알맞은 표현은?",
+              "options": [
+                "Where can I buy a metro card?",
+                "Where can I charge my metro card?",
+                "Where can I find a bus pass?",
+                "Where can I buy a train ticket?"
+              ],
+              "answerIndex": 0,
+              "explanation": "'Where can I buy a metro card?'는 지하철 교통카드를 어디서 살 수 있는지 묻는 표현입니다. 'charge'는 카드 충전, 'train ticket'은 기차표를 가리키므로 다릅니다."
+            },
+            {
+              "id": "se_ch16_set01_002",
+              "type": "multiple_choice",
+              "question": "에펠탑(Eiffel Tower)으로 가는 지하철 노선을 물을 때 알맞은 표현은?",
+              "options": [
+                "Where is the Eiffel Tower station?",
+                "Which line goes to the Eiffel Tower?",
+                "How far is the Eiffel Tower?",
+                "What time does the metro leave?"
+              ],
+              "answerIndex": 1,
+              "explanation": "'Which line goes to the Eiffel Tower?'는 에펠탑으로 가는 지하철 노선이 몇 호선인지 묻는 표현입니다. 'Which line'은 노선을 특정하는 핵심 표현입니다."
+            },
+            {
+              "id": "se_ch16_set01_003",
+              "type": "multiple_choice",
+              "question": "목적지에 가려면 환승이 필요한지 물을 때 적절한 표현은?",
+              "options": [
+                "Do I need to get off here?",
+                "Do I need to buy another ticket?",
+                "Do I need to transfer?",
+                "Do I need to change my seat?"
+              ],
+              "answerIndex": 2,
+              "explanation": "'Do I need to transfer?'는 환승이 필요한지 묻는 표현입니다. 'transfer'는 다른 노선으로 갈아탄다는 뜻입니다. 'change my seat'는 좌석 변경이므로 다릅니다."
+            },
+            {
+              "id": "se_ch16_set01_004",
+              "type": "multiple_choice",
+              "question": "이 버스가 시청(City Hall)에 정차하는지 확인하는 표현은?",
+              "options": [
+                "Does this bus pass City Hall?",
+                "Does this bus stop at City Hall?",
+                "Does this bus go around City Hall?",
+                "Does this bus start at City Hall?"
+              ],
+              "answerIndex": 1,
+              "explanation": "'Does this bus stop at City Hall?'는 이 버스가 시청에 정차하는지 묻는 표현입니다. 'stop at'은 특정 장소에 서다는 의미입니다. 'pass'는 지나치기만 하는 뉘앙스가 강합니다."
+            },
+            {
+              "id": "se_ch16_set01_005",
+              "type": "multiple_choice",
+              "question": "목적지까지 몇 정거장인지 물을 때 알맞은 표현은?",
+              "options": [
+                "How many lines is it?",
+                "How many minutes is it?",
+                "How many stops is it?",
+                "How many transfers is it?"
+              ],
+              "answerIndex": 2,
+              "explanation": "'How many stops is it?'는 목적지까지 정거장이 몇 개인지 묻는 표현입니다. 'stops'는 정거장 수를 뜻합니다. 소요 시간은 'How many minutes', 노선 수는 'How many lines'로 달리 물어봅니다."
+            },
+            {
+              "id": "se_ch16_set01_006",
+              "type": "multiple_choice",
+              "question": "어느 정거장에서 내려야 하는지 물을 때 올바른 표현은?",
+              "options": [
+                "Where do I get on?",
+                "Where do I get off?",
+                "Where do I transfer?",
+                "Where do I wait?"
+              ],
+              "answerIndex": 1,
+              "explanation": "'Where do I get off?'는 어디서 내려야 하는지 묻는 표현입니다. 'get off'는 버스나 지하철에서 내린다는 뜻이고, 'get on'은 타는 것입니다."
+            },
+            {
+              "id": "se_ch16_set01_007",
+              "type": "multiple_choice",
+              "question": "유럽 도시에서 지하철이나 버스를 이용할 때 교통카드를 흔히 가리키는 표현은?",
+              "options": [
+                "travel card",
+                "credit card",
+                "loyalty card",
+                "boarding pass"
+              ],
+              "answerIndex": 0,
+              "explanation": "유럽 대도시의 대중교통 충전식 카드는 'travel card' 또는 'metro card'라고 부릅니다. 'boarding pass'는 항공 탑승권이고, 'credit card'와 'loyalty card'는 교통카드가 아닙니다."
+            },
+            {
+              "id": "se_ch16_set01_008",
+              "type": "ox",
+              "question": "'Do I need to transfer?'는 환승이 필요한지 묻는 표현이다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 'transfer'는 다른 노선으로 갈아타는 것을 의미합니다. 목적지에 따라 노선 환승이 필요할 수 있으므로 미리 확인하는 것이 좋습니다."
+            },
+            {
+              "id": "se_ch16_set01_009",
+              "type": "ox",
+              "question": "'Where do I get off?'와 'Where do I get on?'은 같은 뜻이다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 'get off'는 내리는 것, 'get on'은 타는 것입니다. 두 표현은 반대 동작을 나타냅니다."
+            },
+            {
+              "id": "se_ch16_set01_010",
+              "type": "ox",
+              "question": "'Does this bus stop at ...?'는 이 버스가 특정 장소에 정차하는지 확인하는 표현이다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 'stop at'은 특정 정류장 또는 장소에 정차한다는 의미입니다. 탑승 전 목적지 방향의 버스인지 확인할 때 유용합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch17",
+      "title": "기차 여행",
+      "summary": "플랫폼 확인, 좌석·예약 표현, 열차 지연 대처",
+      "sections": [
+        {
+          "heading": "플랫폼과 열차 확인하기",
+          "body": "'Which platform is the train to ...?'는 목적지로 가는 기차가 몇 번 플랫폼에서 출발하는지 묻는 표현입니다. 탑승하려는 열차가 맞는지 확인하려면 'Is this the train to ...?'라고 물어보세요. 예를 들어 파리행이면 'Is this the train to Paris?'라고 하면 됩니다."
+        },
+        {
+          "heading": "좌석과 예약 확인하기",
+          "body": "앉으려는 좌석이 비어 있는지 확인할 때는 'Is this seat taken?'이라고 묻습니다. 대답이 'No'이면 비어 있다는 뜻입니다. 유럽 고속열차(TGV, ICE, Eurostar 등)는 'reserved seat(예약 좌석)' 제도를 운영하므로, 좌석 번호와 예약 여부를 꼭 확인하세요."
+        },
+        {
+          "heading": "검표와 열차 지연 상황",
+          "body": "승무원이 표를 확인하러 올 때 'Tickets, please.'라고 말합니다. 열차가 연착됐을 때는 'The train is delayed.'라는 안내를 듣게 됩니다. 환승 시간이 촉박하다면 역 직원에게 상황을 설명하고 도움을 요청하세요."
+        }
+      ],
+      "sets": [
+        {
+          "id": "set01",
+          "questions": [
+            {
+              "id": "se_ch17_set01_001",
+              "type": "multiple_choice",
+              "question": "암스테르담행 기차가 몇 번 플랫폼에서 출발하는지 물을 때 알맞은 표현은?",
+              "options": [
+                "Where is the train to Amsterdam?",
+                "Which platform is the train to Amsterdam?",
+                "What time is the train to Amsterdam?",
+                "How long is the train to Amsterdam?"
+              ],
+              "answerIndex": 1,
+              "explanation": "'Which platform is the train to Amsterdam?'는 암스테르담행 기차의 플랫폼 번호를 묻는 표현입니다. 'Where is the train'은 위치를 막연히 묻는 표현으로, 플랫폼 번호를 확인할 때는 'Which platform'이 더 적합합니다."
+            },
+            {
+              "id": "se_ch17_set01_002",
+              "type": "multiple_choice",
+              "question": "탑승하려는 열차가 로마행이 맞는지 확인하는 표현은?",
+              "options": [
+                "Does this train go to Rome?",
+                "Is this the train to Rome?",
+                "When does the train leave for Rome?",
+                "Which platform goes to Rome?"
+              ],
+              "answerIndex": 1,
+              "explanation": "'Is this the train to Rome?'는 지금 눈앞에 있는 열차가 로마행인지 확인하는 표현입니다. 'Does this train go to Rome?'도 의미는 비슷하지만, 특정 열차를 가리키는 상황에서는 'Is this the train to ...'가 더 자연스럽습니다."
+            },
+            {
+              "id": "se_ch17_set01_003",
+              "type": "multiple_choice",
+              "question": "열차 안에서 앉으려는 자리가 이미 예약되어 있는지 물을 때 알맞은 표현은?",
+              "options": [
+                "Is this seat empty?",
+                "Is this seat mine?",
+                "Is this seat taken?",
+                "Is this seat reserved?"
+              ],
+              "answerIndex": 2,
+              "explanation": "'Is this seat taken?'은 해당 좌석이 이미 다른 사람이 차지했는지 묻는 가장 자연스러운 표현입니다. 'taken'은 '(자리가) 사용 중인'이라는 뜻입니다. 'Is this seat reserved?'도 뜻은 유사하지만, 낯선 사람에게 일상적으로 건네는 표현으로는 'Is this seat taken?'이 더 자연스럽습니다."
+            },
+            {
+              "id": "se_ch17_set01_004",
+              "type": "multiple_choice",
+              "question": "승무원이 탑승권을 확인할 때 하는 말은?",
+              "options": [
+                "Please show your passport.",
+                "Tickets, please.",
+                "Boarding pass, please.",
+                "Your ID, please."
+              ],
+              "answerIndex": 1,
+              "explanation": "'Tickets, please.'는 승무원이 승차권을 제시해 달라고 요청하는 표현입니다. 기차에서는 'ticket', 비행기에서는 'boarding pass'라고 합니다."
+            },
+            {
+              "id": "se_ch17_set01_005",
+              "type": "multiple_choice",
+              "question": "역에서 열차가 연착됐다는 안내를 받을 때 들을 수 있는 표현은?",
+              "options": [
+                "The train is cancelled.",
+                "The train is full.",
+                "The train is delayed.",
+                "The train is early."
+              ],
+              "answerIndex": 2,
+              "explanation": "'The train is delayed.'는 열차가 연착(지연)됐다는 표현입니다. 'cancelled'는 운행 취소, 'full'은 만석, 'early'는 일찍 도착했다는 뜻으로 각각 다릅니다."
+            },
+            {
+              "id": "se_ch17_set01_006",
+              "type": "multiple_choice",
+              "question": "'reserved seat'이 의미하는 것은?",
+              "options": [
+                "남은 좌석",
+                "창가 좌석",
+                "예약 좌석",
+                "우선 탑승 좌석"
+              ],
+              "answerIndex": 2,
+              "explanation": "'reserved seat'은 미리 예약된 좌석을 뜻합니다. 유럽 고속열차에서는 좌석 예약이 필수인 경우도 있으므로, 티켓 구매 시 'reserved seat'인지 확인하세요."
+            },
+            {
+              "id": "se_ch17_set01_007",
+              "type": "multiple_choice",
+              "question": "기차 여행에서 'platform'이란?",
+              "options": [
+                "기차 내부 복도",
+                "열차 시간표",
+                "기차역 매표소",
+                "기차·지하철 승강장"
+              ],
+              "answerIndex": 3,
+              "explanation": "'platform'은 기차나 지하철을 타고 내리는 승강장입니다. 유럽 기차역에서는 플랫폼 번호가 수시로 바뀔 수 있으므로 출발 직전에 전광판을 확인하세요."
+            },
+            {
+              "id": "se_ch17_set01_008",
+              "type": "ox",
+              "question": "'Is this seat taken?'은 빈 좌석 여부를 확인하는 표현이다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 'Is this seat taken?'은 이 자리를 다른 사람이 쓰고 있는지 확인하는 표현입니다. 대답이 'No.'이면 빈 자리이므로 앉을 수 있습니다."
+            },
+            {
+              "id": "se_ch17_set01_009",
+              "type": "ox",
+              "question": "'The train is delayed.'는 기차가 취소됐다는 안내이다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 'delayed'는 출발이나 도착이 늦어졌다는 연착을 의미합니다. 기차가 운행 취소됐을 때는 'The train is cancelled.'라고 합니다."
+            },
+            {
+              "id": "se_ch17_set01_010",
+              "type": "ox",
+              "question": "'Tickets, please.'는 기차 승무원이 승차권을 확인할 때 사용하는 표현이다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 유럽 기차에서 승무원이 객실을 돌며 'Tickets, please.'라고 하면 구입한 티켓이나 모바일 티켓을 보여주면 됩니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch18",
+      "title": "택시·라이드앱",
+      "summary": "목적지 전달, 요금 확인, 영수증·잔돈 처리",
+      "sections": [
+        {
+          "heading": "목적지 전달하기",
+          "body": "택시에 탄 뒤 목적지를 알려줄 때는 'To this address, please.'라고 하며 주소를 보여주는 것이 가장 확실합니다. 스마트폰 지도나 메모장에 주소를 미리 적어두면 발음 걱정 없이 전달할 수 있습니다. 목적지에 다 왔으면 'Please stop here.'라고 내려달라고 요청하세요."
+        },
+        {
+          "heading": "요금 확인과 미터기",
+          "body": "탑승 전이나 도중에 요금을 물을 때는 'How much will it be?'라고 하면 됩니다. 유럽 일부 도시에서는 미터기(meter)를 켜지 않는 경우가 있으니, 'Can you turn on the meter?'라고 요청하는 것이 안전합니다. 미리 정해진 요금이 없다면 반드시 미터기를 켜달라고 부탁하세요."
+        },
+        {
+          "heading": "결제와 영수증",
+          "body": "거스름돈을 따로 받지 않아도 된다고 할 때는 'Keep the change.'라고 합니다. 영수증이 필요할 때는 'Can I have a receipt?'라고 요청하면 됩니다. 업무 출장이나 경비 처리를 위해 영수증이 필요할 때 유용하며, 라이드앱의 경우 앱에서 자동 발행되기도 합니다."
+        }
+      ],
+      "sets": [
+        {
+          "id": "set01",
+          "questions": [
+            {
+              "id": "se_ch18_set01_001",
+              "type": "multiple_choice",
+              "question": "택시 기사에게 특정 주소로 가달라고 요청할 때 알맞은 표현은?",
+              "options": [
+                "Take me to this address.",
+                "To this address, please.",
+                "Drive me here, please.",
+                "Go to this place, please."
+              ],
+              "answerIndex": 1,
+              "explanation": "'To this address, please.'는 주소를 가리키며 목적지를 전달하는 간결하고 자연스러운 표현입니다. 'Take me to this address.'도 뜻은 통하지만, 실제 여행 상황에서는 'To this address, please.'가 더 자주 쓰이는 간결한 표현입니다."
+            },
+            {
+              "id": "se_ch18_set01_002",
+              "type": "multiple_choice",
+              "question": "택시 요금이 얼마가 될지 미리 물어보는 표현은?",
+              "options": [
+                "How much was it?",
+                "How much is the meter?",
+                "How much will it be?",
+                "How much do you charge?"
+              ],
+              "answerIndex": 2,
+              "explanation": "'How much will it be?'는 아직 도착하지 않은 상황에서 예상 요금을 묻는 표현입니다. 'was it'은 이미 끝난 일에 쓰이고, 'will it be'는 앞으로의 금액을 묻습니다."
+            },
+            {
+              "id": "se_ch18_set01_003",
+              "type": "multiple_choice",
+              "question": "택시 기사에게 미터기를 켜달라고 요청하는 표현은?",
+              "options": [
+                "Can you use the GPS?",
+                "Can you start the car?",
+                "Can you turn on the meter?",
+                "Can you open the window?"
+              ],
+              "answerIndex": 2,
+              "explanation": "'Can you turn on the meter?'는 요금 미터기를 켜달라고 요청하는 표현입니다. 유럽 일부 지역에서는 미터기를 켜지 않는 기사도 있으므로, 탑승 초기에 확인하는 것이 좋습니다."
+            },
+            {
+              "id": "se_ch18_set01_004",
+              "type": "multiple_choice",
+              "question": "택시 요금을 지불한 후 거스름돈을 받지 않겠다고 말할 때 알맞은 표현은?",
+              "options": [
+                "No change needed.",
+                "Keep the change.",
+                "It's all yours.",
+                "Round it up, please."
+              ],
+              "answerIndex": 1,
+              "explanation": "'Keep the change.'는 거스름돈을 그냥 팁으로 주겠다는 표현입니다. 영어권에서 택시 이용 시 널리 쓰이는 관용적 표현이므로 기억해 두세요."
+            },
+            {
+              "id": "se_ch18_set01_005",
+              "type": "multiple_choice",
+              "question": "택시나 라이드앱 이용 후 영수증을 요청하는 표현은?",
+              "options": [
+                "Can I have a discount?",
+                "Can I have a refund?",
+                "Can I have a receipt?",
+                "Can I have an invoice?"
+              ],
+              "answerIndex": 2,
+              "explanation": "'Can I have a receipt?'는 영수증을 요청하는 표현입니다. 'invoice'는 공식 청구서로 비즈니스 상황에서 주로 쓰이고, 일반 영수증은 'receipt'입니다."
+            },
+            {
+              "id": "se_ch18_set01_006",
+              "type": "multiple_choice",
+              "question": "목적지에 도착했을 때 기사에게 여기서 세워달라고 하는 표현은?",
+              "options": [
+                "Stop the car here.",
+                "Please stop here.",
+                "Pull over now.",
+                "Let me out here."
+              ],
+              "answerIndex": 1,
+              "explanation": "'Please stop here.'는 이 자리에서 세워달라고 요청하는 정중한 표현입니다. 'Pull over'는 도로 가장자리에 차를 대는 뉘앙스이고, 'Let me out'은 다소 급한 느낌을 줄 수 있습니다."
+            },
+            {
+              "id": "se_ch18_set01_007",
+              "type": "multiple_choice",
+              "question": "라이드앱(Uber, Bolt 등)을 탈 때도 목적지가 맞는지 확인하려면 어떤 표현을 쓰는 게 좋은가?",
+              "options": [
+                "Are you the right driver?",
+                "Is this the right car?",
+                "Are you going to this address?",
+                "Do you know this place?"
+              ],
+              "answerIndex": 2,
+              "explanation": "'Are you going to this address?'는 기사가 올바른 목적지로 가고 있는지 확인하는 표현입니다. 라이드앱에서는 앱에 입력된 주소를 화면으로 보여주며 확인하는 것이 일반적입니다."
+            },
+            {
+              "id": "se_ch18_set01_008",
+              "type": "ox",
+              "question": "'Keep the change.'는 거스름돈을 돌려받지 않겠다는 표현이다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 'Keep the change.'는 거스름돈을 기사에게 그대로 팁으로 주겠다는 뜻입니다. 택시나 식당에서 팁을 표현할 때 자주 씁니다."
+            },
+            {
+              "id": "se_ch18_set01_009",
+              "type": "ox",
+              "question": "'Can you turn on the meter?'는 차 안의 에어컨을 켜달라는 요청이다.",
+              "answerIndex": 1,
+              "explanation": "아닙니다. 'meter'는 택시 요금 미터기를 가리킵니다. 에어컨을 켜달라고 할 때는 'Can you turn on the air conditioning?'이라고 합니다."
+            },
+            {
+              "id": "se_ch18_set01_010",
+              "type": "ox",
+              "question": "'How much will it be?'는 아직 도착하기 전에 예상 요금을 물을 때 쓸 수 있는 표현이다.",
+              "answerIndex": 0,
+              "explanation": "맞습니다. 'will it be'는 미래 시제이므로 아직 도착하지 않은 상황에서 예상 요금을 묻는 표현입니다. 탑승 직후나 출발 전에 미리 확인할 때 유용합니다."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "ch19",
