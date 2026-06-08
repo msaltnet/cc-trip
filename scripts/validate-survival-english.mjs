@@ -18,6 +18,7 @@ for (const ch of data.chapters || []) {
     errors.push(`${ch.id}: sections 누락`);
 
   for (const set of ch.sets || []) {
+    if (!set.id) errors.push(`${ch.id}: set.id 누락`);
     const qs = set.questions || [];
     if (qs.length !== 10)
       errors.push(`${ch.id}/${set.id}: 문항 ${qs.length}개 (10개여야 함)`);
@@ -27,6 +28,9 @@ for (const ch of data.chapters || []) {
       const expectId = `se_${ch.id}_${set.id}_`;
       if (!q.id.startsWith(expectId))
         errors.push(`${q.id}: id 접두사가 ${expectId} 와 불일치`);
+      if (!q.question) errors.push(`${q.id}: question 누락`);
+      if (typeof q.answerIndex !== "number")
+        errors.push(`${q.id}: answerIndex 누락`);
       if (q.type === "multiple_choice") {
         if (!Array.isArray(q.options) || q.options.length !== 4)
           errors.push(`${q.id}: options 4개여야 함`);
