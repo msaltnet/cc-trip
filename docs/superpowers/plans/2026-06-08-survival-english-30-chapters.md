@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** `data/survival-english.json`을 여행 시간순 30챕터로 채운다 — 각 챕터는 학습 섹션 2~4개 + 10문항 퀴즈 세트 1개.
+**Goal:** `data/survival-english.json`을 여행 시간순 30챕터로 채운다 — 각 챕터는 **약 15분 학습 분량**(본문 읽기 ~5분 + 10문항 퀴즈 ~10분)으로, 학습 섹션 2~4개 + 10문항 퀴즈 세트 1개로 구성한다.
 
 **Architecture:** 정적 사이트. 엔진/HTML/CSS/JS는 손대지 않고 **JSON 데이터만** 채운다. 챕터 표시 순서는 JSON `chapters[]` 배열 순서를 따르므로, 배열을 항상 시간순(ch01→ch30)으로 유지한다. 챕터 id는 URL 매칭용이라 기존 챕터의 id 재번호가 안전하다.
 
@@ -41,6 +41,10 @@
   ]
 }
 ```
+
+### 분량 기준 (챕터당 ≈15분)
+- 본문 섹션 2~4개(읽기 ~5분) + 10문항 퀴즈 세트 1개(10분 타이머) = 약 15분.
+- 한 챕터 = 하나의 상황, 외워서 바로 쓸 핵심 표현 6~10개 수준.
 
 ### 각 세트 작성 규칙
 - 문항 **정확히 10개**.
