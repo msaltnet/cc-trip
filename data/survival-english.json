@@ -642,7 +642,7 @@
                 "Is it for sale?",
                 "Is it on the menu?",
                 "Is it free?",
-                "Is it included in the price?"
+                "Is it on sale?"
               ],
               "answerIndex": 2,
               "explanation": "'Is it free?'는 해당 서비스나 물품이 무료인지 간단하게 확인하는 표현입니다. 저가 항공사에서는 담요나 음료가 유료인 경우도 있습니다."
@@ -705,7 +705,7 @@
       "sections": [
         {
           "heading": "주변 승객에게 정중히 요청하기",
-          "body": "앞좌석 승객이 등받이를 너무 젖혀 불편할 때는 'Could you put your seat up, please?'라고 정중히 부탁하세요. 통로를 지나가야 할 때는 'Excuse me, may I get through?'라고 하면 됩니다."
+          "body": "앞좌석 승객이 등받이를 너무 젖혀 불편할 때는 'Could you put your seatback up, please?'라고 정중히 부탁하세요. 통로를 지나가야 할 때는 'Excuse me, may I get through?'라고 하면 됩니다."
         },
         {
           "heading": "몸이 불편하거나 좌석을 바꾸고 싶을 때",
@@ -725,13 +725,13 @@
               "type": "multiple_choice",
               "question": "앞좌석 승객에게 등받이를 올려달라고 정중하게 부탁하는 표현은?",
               "options": [
-                "Could you put your seat up, please?",
+                "Could you put your seatback up, please?",
                 "Could you move your seat forward?",
                 "Could you sit up straight?",
                 "Could you change your seat?"
               ],
               "answerIndex": 0,
-              "explanation": "'Could you put your seat up, please?'는 앞좌석 등받이를 세워(올려)달라는 정중한 부탁 표현입니다. 'put up'이 등받이를 원래 위치로 올리는 동작을 나타냅니다."
+              "explanation": "'Could you put your seatback up, please?'는 앞좌석 등받이(seatback)를 세워(올려)달라는 정중한 부탁 표현입니다. 'seatback'은 항공업계에서 쓰는 표준 용어로, 'put your seatback up'이 등받이를 원래 위치로 올리는 동작을 나타냅니다."
             },
             {
               "id": "se_ch06_set01_002",
@@ -889,7 +889,7 @@
               "type": "multiple_choice",
               "question": "경유 시 수하물을 다시 찾아야 하는지 물어보는 표현은?",
               "options": [
-                "Do I need to check my bags again?",
+                "Do I need to repack my bags?",
                 "Do I need to collect my bags?",
                 "Do I need to tag my bags?",
                 "Do I need to weigh my bags?"
