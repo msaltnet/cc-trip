@@ -3,7 +3,7 @@
   "title": "생존 영어 회화",
   "chapters": [
     {
-      "id": "ch01",
+      "id": "ch08",
       "title": "공항 입국 심사",
       "summary": "여권·입국 목적·체류 기간 표현",
       "sections": [
@@ -21,7 +21,7 @@
           "id": "set01",
           "questions": [
             {
-              "id": "se_ch01_set01_001",
+              "id": "se_ch08_set01_001",
               "type": "multiple_choice",
               "question": "입국 심사관이 방문 목적을 물을 때 관광객으로서 가장 적절한 답은?",
               "options": ["Tourism.", "I don't know.", "Business class.", "Good morning."],
@@ -29,7 +29,7 @@
               "explanation": "방문 목적은 Tourism 또는 Sightseeing으로 답합니다. 'Business class'는 항공 좌석 등급이고, 'Good morning'은 인사일 뿐입니다."
             },
             {
-              "id": "se_ch01_set01_002",
+              "id": "se_ch08_set01_002",
               "type": "multiple_choice",
               "question": "'How long will you stay?'는 무엇을 묻는 질문일까요?",
               "options": ["체류 기간", "여행 비용", "출신 국가", "동행 인원"],
@@ -37,7 +37,7 @@
               "explanation": "How long will you stay?는 '얼마나 머무를 건가요?'로 체류 기간을 묻는 질문입니다."
             },
             {
-              "id": "se_ch01_set01_003",
+              "id": "se_ch08_set01_003",
               "type": "multiple_choice",
               "question": "체류 기간이 10일일 때 적절한 답변은?",
               "options": ["Ten euros.", "For ten days.", "Ten o'clock.", "Ten people."],
@@ -45,7 +45,7 @@
               "explanation": "기간은 'For ten days.'처럼 답합니다. 나머지는 각각 금액, 시각, 인원을 뜻합니다."
             },
             {
-              "id": "se_ch01_set01_004",
+              "id": "se_ch08_set01_004",
               "type": "multiple_choice",
               "question": "심사관이 'Where will you stay?'라고 물으면 보여주거나 말하면 좋은 것은?",
               "options": ["귀국 항공권", "호텔 예약 내역", "신용카드 비밀번호", "여행자 보험증서"],
@@ -53,7 +53,7 @@
               "explanation": "Where will you stay?는 숙소를 묻는 질문이므로 호텔 이름이나 예약 내역을 보여주면 됩니다."
             },
             {
-              "id": "se_ch01_set01_005",
+              "id": "se_ch08_set01_005",
               "type": "multiple_choice",
               "question": "신고할 물건이 없을 때 'Do you have anything to declare?'에 대한 적절한 답은?",
               "options": ["Nothing to declare.", "I declare war.", "Yes, everything.", "Declare yourself."],
@@ -61,7 +61,7 @@
               "explanation": "declare는 '(세관에) 신고하다'라는 뜻으로, 신고할 것이 없으면 'Nothing to declare.'라고 답합니다."
             },
             {
-              "id": "se_ch01_set01_006",
+              "id": "se_ch08_set01_006",
               "type": "multiple_choice",
               "question": "심사관 말을 못 알아들었을 때 정중하게 다시 물어보는 표현은?",
               "options": ["What?", "Sorry, could you say that again?", "No English.", "Go away."],
@@ -69,7 +69,7 @@
               "explanation": "'Sorry, could you say that again?'은 정중하게 다시 말해달라고 요청하는 표현입니다. 'What?'은 다소 무례하게 들릴 수 있습니다."
             },
             {
-              "id": "se_ch01_set01_007",
+              "id": "se_ch08_set01_007",
               "type": "multiple_choice",
               "question": "가족이 함께 입국 심사를 받을 때 'We are a family.'는 어떤 의미인가요?",
               "options": ["우리는 친구입니다", "우리는 가족입니다", "우리는 처음 왔습니다", "우리는 길을 잃었습니다"],
@@ -77,21 +77,21 @@
               "explanation": "함께 온 가족임을 알릴 때 'We are a family.' 또는 'We are traveling together.'라고 합니다."
             },
             {
-              "id": "se_ch01_set01_008",
+              "id": "se_ch08_set01_008",
               "type": "ox",
               "question": "'return ticket'은 귀국(돌아오는) 항공권을 뜻한다.",
               "answerIndex": 0,
               "explanation": "맞습니다. return ticket은 돌아오는 항공권, 즉 귀국 항공권을 의미합니다. 입국 심사 때 제시를 요구받기도 합니다."
             },
             {
-              "id": "se_ch01_set01_009",
+              "id": "se_ch08_set01_009",
               "type": "ox",
               "question": "'Please put your fingers here.'는 서명을 하라는 뜻이다.",
               "answerIndex": 1,
               "explanation": "아닙니다. 지문 스캐너에 손가락을 올려달라는 안내입니다. 서명은 'Please sign here.'라고 합니다."
             },
             {
-              "id": "se_ch01_set01_010",
+              "id": "se_ch08_set01_010",
               "type": "ox",
               "question": "심사관이 'Enjoy your stay!'라고 말하면 입국이 거절된 상황이다.",
               "answerIndex": 1,
@@ -103,7 +103,7 @@
           "id": "set02",
           "questions": [
             {
-              "id": "se_ch01_set02_001",
+              "id": "se_ch08_set02_001",
               "type": "multiple_choice",
               "question": "입국 심사관이 'What's the purpose of your visit?'라고 물었습니다. 관광객이라면 어떻게 답할까요?",
               "options": ["For sightseeing.", "I'm hungry.", "First class.", "See you later."],
@@ -111,7 +111,7 @@
               "explanation": "방문 목적은 'For sightseeing.' 또는 'Tourism.'으로 답합니다. 'First class'는 좌석 등급입니다."
             },
             {
-              "id": "se_ch01_set02_002",
+              "id": "se_ch08_set02_002",
               "type": "multiple_choice",
               "question": "출장 때문에 방문했다면 목적을 어떻게 말하는 것이 가장 적절할까요?",
               "options": ["Transit.", "Vacation.", "Business.", "Shopping."],
@@ -119,7 +119,7 @@
               "explanation": "출장·업무 목적은 'Business.'라고 답합니다. Transit은 경유, Vacation은 휴가를 뜻합니다."
             },
             {
-              "id": "se_ch01_set02_003",
+              "id": "se_ch08_set02_003",
               "type": "multiple_choice",
               "question": "2주 동안 머문다고 말하고 싶을 때 자연스러운 표현은?",
               "options": ["At two o'clock.", "For two weeks.", "Two tickets.", "Two people."],
@@ -127,7 +127,7 @@
               "explanation": "체류 기간은 'For two weeks.'처럼 기간으로 답합니다. 시각·매수·인원과 혼동하지 마세요."
             },
             {
-              "id": "se_ch01_set02_004",
+              "id": "se_ch08_set02_004",
               "type": "multiple_choice",
               "question": "'Where are you staying?'라는 질문에 대한 가장 적절한 대응은?",
               "options": ["I'm staying at the Grand Hotel.", "I'm staying home.", "I don't have a passport.", "It costs ten dollars."],
@@ -135,7 +135,7 @@
               "explanation": "숙소를 묻는 질문이므로 머무는 호텔 이름이나 예약 내역을 알려주면 됩니다."
             },
             {
-              "id": "se_ch01_set02_005",
+              "id": "se_ch08_set02_005",
               "type": "multiple_choice",
               "question": "세관 신고대에서 'Do you have anything to declare?'라고 물었습니다. 신고할 물품이 없다면?",
               "options": ["Yes, a lot.", "No, nothing to declare.", "I declare independence.", "Please declare it."],
@@ -143,7 +143,7 @@
               "explanation": "신고할 것이 없으면 'No, nothing to declare.'라고 답합니다."
             },
             {
-              "id": "se_ch01_set02_006",
+              "id": "se_ch08_set02_006",
               "type": "multiple_choice",
               "question": "심사관 말이 너무 빨라 못 알아들었을 때 정중한 요청은?",
               "options": ["Could you speak more slowly, please?", "Speak English!", "I hate this.", "Hurry up."],
@@ -151,7 +151,7 @@
               "explanation": "'Could you speak more slowly, please?'는 천천히 말해달라고 정중하게 부탁하는 표현입니다."
             },
             {
-              "id": "se_ch01_set02_007",
+              "id": "se_ch08_set02_007",
               "type": "multiple_choice",
               "question": "일행이 함께 왔음을 알리고 싶을 때 자연스러운 표현은?",
               "options": ["We are traveling together.", "We are very tired.", "We are leaving now.", "We are sorry."],
@@ -159,21 +159,21 @@
               "explanation": "함께 온 일행임을 알릴 때 'We are traveling together.' 또는 'We are a family.'라고 합니다."
             },
             {
-              "id": "se_ch01_set02_008",
+              "id": "se_ch08_set02_008",
               "type": "ox",
               "question": "심사관이 'Enjoy your stay!'라고 말하면 입국 심사를 무사히 통과했다는 뜻이다.",
               "answerIndex": 0,
               "explanation": "맞습니다. '즐거운 여행 되세요'라는 인사로, 심사를 통과했을 때 듣게 됩니다."
             },
             {
-              "id": "se_ch01_set02_009",
+              "id": "se_ch08_set02_009",
               "type": "ox",
               "question": "'Please put your fingers here.'는 지문 스캐너에 손가락을 올려달라는 안내이다.",
               "answerIndex": 0,
               "explanation": "맞습니다. 입국 심사 시 지문 등록을 위해 손가락을 스캐너에 올려달라는 안내입니다."
             },
             {
-              "id": "se_ch01_set02_010",
+              "id": "se_ch08_set02_010",
               "type": "ox",
               "question": "방문 목적을 묻는 'What's the purpose of your visit?'에 'Business class.'라고 답하는 것이 적절하다.",
               "answerIndex": 1,
@@ -184,7 +184,19 @@
       ]
     },
     {
-      "id": "ch02",
+      "id": "ch15",
+      "title": "길찾기와 교통 (준비 중)",
+      "summary": "지하철·버스·길 묻기 (콘텐츠 준비 중)",
+      "sections": [
+        {
+          "heading": "준비 중인 챕터",
+          "body": "이 챕터의 학습 본문과 문제는 아직 준비 중입니다. 곧 추가될 예정입니다."
+        }
+      ],
+      "sets": []
+    },
+    {
+      "id": "ch19",
       "title": "식당에서 주문하기",
       "summary": "메뉴 묻기, 추천 요청, 계산",
       "sections": [
@@ -202,7 +214,7 @@
           "id": "set01",
           "questions": [
             {
-              "id": "se_ch02_set01_001",
+              "id": "se_ch19_set01_001",
               "type": "multiple_choice",
               "question": "4인 자리를 요청할 때 적절한 표현은?",
               "options": ["A table for four, please.", "Four o'clock, please.", "Table number four.", "Four dollars, please."],
@@ -210,7 +222,7 @@
               "explanation": "'A table for four, please.'는 4명이 앉을 자리를 요청하는 표현입니다."
             },
             {
-              "id": "se_ch02_set01_002",
+              "id": "se_ch19_set01_002",
               "type": "multiple_choice",
               "question": "메뉴 추천을 부탁할 때 자연스러운 표현은?",
               "options": ["What do you recommend?", "Where is the toilet?", "How much is it?", "What time is it?"],
@@ -218,7 +230,7 @@
               "explanation": "'What do you recommend?'는 추천 메뉴를 묻는 표현입니다."
             },
             {
-              "id": "se_ch02_set01_003",
+              "id": "se_ch19_set01_003",
               "type": "multiple_choice",
               "question": "식사 후 계산서를 요청하는 표현으로 알맞은 것은?",
               "options": ["Check, please.", "Open, please.", "Start, please.", "Menu, please."],
@@ -226,7 +238,7 @@
               "explanation": "'Check, please.' 또는 'The bill, please.'로 계산을 요청합니다."
             },
             {
-              "id": "se_ch02_set01_004",
+              "id": "se_ch19_set01_004",
               "type": "multiple_choice",
               "question": "채식 메뉴가 있는지 물을 때 적절한 표현은?",
               "options": ["Do you have vegetarian options?", "Is it expensive?", "Can I pay later?", "Where do I sit?"],
@@ -234,7 +246,7 @@
               "explanation": "'Do you have vegetarian options?'은 채식 메뉴가 있는지 묻는 표현입니다."
             },
             {
-              "id": "se_ch02_set01_005",
+              "id": "se_ch19_set01_005",
               "type": "multiple_choice",
               "question": "주문한 음식을 포장해 가고 싶을 때 쓰는 표현은?",
               "options": ["Can I get this to go?", "Can I sit here?", "Can I see the chef?", "Can I pay cash?"],
@@ -242,7 +254,7 @@
               "explanation": "'Can I get this to go?' 또는 'To take away, please.'로 포장을 요청합니다."
             },
             {
-              "id": "se_ch02_set01_006",
+              "id": "se_ch19_set01_006",
               "type": "multiple_choice",
               "question": "메뉴판을 보고 싶을 때 직원에게 하는 자연스러운 요청은?",
               "options": ["Can I see the menu?", "Can I see the bill?", "Can I see the door?", "Can I see your ID?"],
@@ -250,7 +262,7 @@
               "explanation": "'Can I see the menu?'는 메뉴판을 보여달라고 요청하는 표현입니다."
             },
             {
-              "id": "se_ch02_set01_007",
+              "id": "se_ch19_set01_007",
               "type": "multiple_choice",
               "question": "예약을 했다고 알릴 때 자연스러운 표현은?",
               "options": ["I have a reservation.", "I have a question.", "I have a problem.", "I have no money."],
@@ -258,21 +270,21 @@
               "explanation": "'I have a reservation.'은 예약이 되어 있음을 알리는 표현입니다."
             },
             {
-              "id": "se_ch02_set01_008",
+              "id": "se_ch19_set01_008",
               "type": "ox",
               "question": "유럽 식당에서 'tap water'는 보통 무료로 받을 수 있는 수돗물을 뜻한다.",
               "answerIndex": 0,
               "explanation": "맞습니다. tap water는 수돗물로 보통 무료입니다. 병에 든 생수(bottled water)는 대개 유료입니다."
             },
             {
-              "id": "se_ch02_set01_009",
+              "id": "se_ch19_set01_009",
               "type": "ox",
               "question": "'What do you recommend?'는 화장실 위치를 묻는 표현이다.",
               "answerIndex": 1,
               "explanation": "아닙니다. 'What do you recommend?'는 추천 메뉴를 묻는 표현입니다. 화장실은 'Where is the restroom?'으로 묻습니다."
             },
             {
-              "id": "se_ch02_set01_010",
+              "id": "se_ch19_set01_010",
               "type": "ox",
               "question": "음식을 포장해 가고 싶을 때 'To take away, please.'라고 말할 수 있다.",
               "answerIndex": 0,
@@ -284,7 +296,7 @@
           "id": "set02",
           "questions": [
             {
-              "id": "se_ch02_set02_001",
+              "id": "se_ch19_set02_001",
               "type": "multiple_choice",
               "question": "두 명이 앉을 자리를 요청하고 싶을 때 적절한 표현은?",
               "options": ["Table number two.", "A table for two, please.", "Two o'clock, please.", "Two euros, please."],
@@ -292,7 +304,7 @@
               "explanation": "'A table for two, please.'는 2명이 앉을 자리를 요청하는 표현입니다."
             },
             {
-              "id": "se_ch02_set02_002",
+              "id": "se_ch19_set02_002",
               "type": "multiple_choice",
               "question": "직원에게 인기 메뉴가 무엇인지 추천을 묻고 싶다면?",
               "options": ["How much is it?", "Where is the exit?", "What's popular here?", "What time do you close?"],
@@ -300,7 +312,7 @@
               "explanation": "'What's popular here?'나 'What do you recommend?'로 추천 메뉴를 물을 수 있습니다."
             },
             {
-              "id": "se_ch02_set02_003",
+              "id": "se_ch19_set02_003",
               "type": "multiple_choice",
               "question": "식사를 마치고 계산을 하고 싶을 때 'The bill, please.'와 같은 의미의 표현은?",
               "options": ["Check, please.", "Wait, please.", "Stop, please.", "Quiet, please."],
@@ -308,7 +320,7 @@
               "explanation": "'Check, please.'는 'The bill, please.'와 같이 계산서를 요청하는 표현입니다."
             },
             {
-              "id": "se_ch02_set02_004",
+              "id": "se_ch19_set02_004",
               "type": "multiple_choice",
               "question": "고기를 먹지 않아 채식 선택지가 있는지 물을 때 알맞은 표현은?",
               "options": ["Is the table clean?", "Do you have any vegetarian dishes?", "Can I change seats?", "Do you take cards?"],
@@ -316,7 +328,7 @@
               "explanation": "'Do you have any vegetarian dishes?'는 채식 메뉴가 있는지 묻는 표현으로 'Do you have vegetarian options?'과 같은 의미입니다."
             },
             {
-              "id": "se_ch02_set02_005",
+              "id": "se_ch19_set02_005",
               "type": "multiple_choice",
               "question": "남은 음식을 싸 가고 싶을 때 직원에게 할 수 있는 말은?",
               "options": ["Can I take this with me?", "Can I cook this?", "Can I meet the owner?", "Can I sit outside?"],
@@ -324,7 +336,7 @@
               "explanation": "'Can I take this with me?'나 'Can I get this to go?'로 포장을 요청할 수 있습니다."
             },
             {
-              "id": "se_ch02_set02_006",
+              "id": "se_ch19_set02_006",
               "type": "multiple_choice",
               "question": "물을 무료로 받고 싶을 때 주문할 수 있는 것은?",
               "options": ["Sparkling water", "Tap water", "Wine", "Coffee"],
@@ -332,7 +344,7 @@
               "explanation": "tap water(수돗물)는 유럽 식당에서 보통 무료로 제공됩니다. 탄산수·와인·커피는 대개 유료입니다."
             },
             {
-              "id": "se_ch02_set02_007",
+              "id": "se_ch19_set02_007",
               "type": "multiple_choice",
               "question": "주문할 준비가 되었음을 알리고 싶을 때 자연스러운 표현은?",
               "options": ["I'd like to order, please.", "I'd like to leave, please.", "I'd like to sleep, please.", "I'd like to cook, please."],
@@ -340,21 +352,21 @@
               "explanation": "'I'd like to order, please.'는 주문을 하고 싶다는 의사를 정중히 전하는 표현입니다."
             },
             {
-              "id": "se_ch02_set02_008",
+              "id": "se_ch19_set02_008",
               "type": "ox",
               "question": "'Check, please.'와 'The bill, please.'는 모두 계산을 요청하는 표현이다.",
               "answerIndex": 0,
               "explanation": "맞습니다. 두 표현 모두 계산서를 달라는 요청으로, 미국식은 check, 영국식은 bill을 주로 씁니다."
             },
             {
-              "id": "se_ch02_set02_009",
+              "id": "se_ch19_set02_009",
               "type": "ox",
               "question": "식당에서 'bottled water(병물)'는 항상 무료로 제공된다.",
               "answerIndex": 1,
               "explanation": "아닙니다. 병에 든 생수는 보통 유료입니다. 무료로 받으려면 tap water(수돗물)를 요청하세요."
             },
             {
-              "id": "se_ch02_set02_010",
+              "id": "se_ch19_set02_010",
               "type": "ox",
               "question": "'A table for four, please.'는 4명이 앉을 자리를 요청하는 표현이다.",
               "answerIndex": 0,
@@ -363,18 +375,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "ch03",
-      "title": "길찾기와 교통 (준비 중)",
-      "summary": "지하철·버스·길 묻기 (콘텐츠 준비 중)",
-      "sections": [
-        {
-          "heading": "준비 중인 챕터",
-          "body": "이 챕터의 학습 본문과 문제는 아직 준비 중입니다. 곧 추가될 예정입니다."
-        }
-      ],
-      "sets": []
     }
   ]
 }
