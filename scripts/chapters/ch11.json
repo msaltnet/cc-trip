@@ -7,34 +7,68 @@
       "id": "ch11_d01",
       "title": "수건 추가 요청하기",
       "lines": [
-        { "speaker": "나", "en": "Hi, could I get some extra towels sent up to my room?", "ko": "안녕하세요, 수건을 몇 장 더 보내주실 수 있을까요?" },
-        { "speaker": "프런트", "en": "Of course. How many would you like?", "ko": "물론이죠. 몇 장 드릴까요?" },
-        { "speaker": "나", "en": "Three more, please. And a bathmat if you have one.", "ko": "세 장 주세요. 그리고 욕실 매트도 있으면 함께요." },
-        { "speaker": "프런트", "en": "No problem. We'll send those up right away.", "ko": "알겠습니다. 바로 올려드리겠습니다." }
+        {
+          "speaker": "나",
+          "en": "Hi, could I get some extra towels sent up to my room?",
+          "ko": "안녕하세요, 수건을 몇 장 더 보내주실 수 있을까요?"
+        },
+        {
+          "speaker": "프런트",
+          "en": "Of course. How many would you like?",
+          "ko": "물론이죠. 몇 장 드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Three more, please. And a bathmat if you have one.",
+          "ko": "세 장 주세요. 그리고 욕실 매트도 있으면 함께요."
+        },
+        {
+          "speaker": "프런트",
+          "en": "No problem. We'll send those up right away.",
+          "ko": "알겠습니다. 바로 올려드리겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Could I get some extra towels?",
           "ko": "수건 추가를 정중히 요청하는 표현. 'Give me towels'처럼 명령형은 무례하게 들리므로 'Could I get ~?'을 사용하자.",
           "alternatives": [
-            { "en": "Can you send up some more towels?", "ko": "'send up'은 호텔에서 객실로 올려보낸다는 뜻의 관용 표현." },
-            { "en": "We're running low on towels.", "ko": "'running low on ~'은 ~이 거의 다 떨어져 간다는 뜻. 상황 설명으로 자연스럽게 요청을 유도." }
+            {
+              "en": "Can you send up some more towels?",
+              "ko": "'send up'은 호텔에서 객실로 올려보낸다는 뜻의 관용 표현."
+            },
+            {
+              "en": "We're running low on towels.",
+              "ko": "'running low on ~'은 ~이 거의 다 떨어져 간다는 뜻. 상황 설명으로 자연스럽게 요청을 유도."
+            }
           ]
         },
         {
           "en": "sent up to my room",
           "ko": "호텔에서 물건을 객실로 올려보낼 때 쓰는 표현. 엘리베이터를 타고 올라가는 이미지에서 'up'을 씀.",
           "alternatives": [
-            { "en": "delivered to my room", "ko": "delivered는 배달·전달의 느낌으로, sent up과 같은 의미로 혼용 가능." },
-            { "en": "brought up to room 412", "ko": "방 번호를 명시하면 더 정확하게 요청할 수 있음." }
+            {
+              "en": "delivered to my room",
+              "ko": "delivered는 배달·전달의 느낌으로, sent up과 같은 의미로 혼용 가능."
+            },
+            {
+              "en": "brought up to room 412",
+              "ko": "방 번호를 명시하면 더 정확하게 요청할 수 있음."
+            }
           ]
         },
         {
           "en": "right away",
           "ko": "직원이 '즉시 해드리겠습니다'라고 할 때 쓰는 표현. 'immediately'보다 더 구어적이고 친근한 뉘앙스.",
           "alternatives": [
-            { "en": "immediately", "ko": "격식 있는 표현으로 공식적인 상황에서 사용." },
-            { "en": "in just a moment", "ko": "잠시 후 바로 해준다는 부드러운 표현." }
+            {
+              "en": "immediately",
+              "ko": "격식 있는 표현으로 공식적인 상황에서 사용."
+            },
+            {
+              "en": "in just a moment",
+              "ko": "잠시 후 바로 해준다는 부드러운 표현."
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch11_d02",
       "title": "청소 요청 / 방해 금지 안내",
       "lines": [
-        { "speaker": "프런트", "en": "Good morning. Would you like housekeeping service today?", "ko": "안녕하세요. 오늘 객실 청소 서비스를 원하시나요?" },
-        { "speaker": "나", "en": "Actually, please skip my room today. I have the Do Not Disturb sign out.", "ko": "오늘은 청소를 건너뛰어 주세요. 방해 금지 표시를 걸어 두었어요." },
-        { "speaker": "프런트", "en": "Understood. Shall we schedule housekeeping for tomorrow instead?", "ko": "알겠습니다. 그럼 내일로 청소를 미룰까요?" },
-        { "speaker": "나", "en": "Yes, please. Around 11 in the morning would be perfect.", "ko": "네, 부탁드립니다. 오전 11시쯤이면 좋겠어요." }
+        {
+          "speaker": "프런트",
+          "en": "Good morning. Would you like housekeeping service today?",
+          "ko": "안녕하세요. 오늘 객실 청소 서비스를 원하시나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Actually, please skip my room today. I have the Do Not Disturb sign out.",
+          "ko": "오늘은 청소를 건너뛰어 주세요. 방해 금지 표시를 걸어 두었어요."
+        },
+        {
+          "speaker": "프런트",
+          "en": "Understood. Shall we schedule housekeeping for tomorrow instead?",
+          "ko": "알겠습니다. 그럼 내일로 청소를 미룰까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Yes, please. Around 11 in the morning would be perfect.",
+          "ko": "네, 부탁드립니다. 오전 11시쯤이면 좋겠어요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Please skip my room today.",
           "ko": "오늘 청소를 원하지 않는다는 직접적인 표현. 'skip'은 건너뛴다는 뜻으로 일상 회화에서 자주 쓰임.",
           "alternatives": [
-            { "en": "Please don't clean my room today.", "ko": "같은 의미의 더 직접적인 표현." },
-            { "en": "I'd prefer no housekeeping service today.", "ko": "'I'd prefer ~'은 더 정중한 거절 표현." }
+            {
+              "en": "Please don't clean my room today.",
+              "ko": "같은 의미의 더 직접적인 표현."
+            },
+            {
+              "en": "I'd prefer no housekeeping service today.",
+              "ko": "'I'd prefer ~'은 더 정중한 거절 표현."
+            }
           ]
         },
         {
           "en": "Do Not Disturb sign",
           "ko": "방해 금지 표시판. 문손잡이에 거는 팻말로 호텔 어디서나 통하는 표현. '방해하지 마시오'를 뜻함.",
           "alternatives": [
-            { "en": "DND sign", "ko": "Do Not Disturb의 약자. 직원들끼리는 주로 이렇게 씀." },
-            { "en": "privacy sign", "ko": "일부 호텔에서 '개인 프라이버시 보호'로 DND를 표기하기도 함." }
+            {
+              "en": "DND sign",
+              "ko": "Do Not Disturb의 약자. 직원들끼리는 주로 이렇게 씀."
+            },
+            {
+              "en": "privacy sign",
+              "ko": "일부 호텔에서 '개인 프라이버시 보호'로 DND를 표기하기도 함."
+            }
           ]
         },
         {
           "en": "housekeeping",
           "ko": "객실 청소 서비스를 담당하는 부서 또는 서비스 자체. '청소'라고 바로 말하는 것보다 더 호텔다운 표현.",
           "alternatives": [
-            { "en": "room cleaning", "ko": "일반적으로 이해되는 표현이지만 호텔 용어로는 housekeeping이 더 자연스러움." },
-            { "en": "maid service", "ko": "미국 일부 지역에서 쓰이지만, 현재는 housekeeping을 더 선호함." }
+            {
+              "en": "room cleaning",
+              "ko": "일반적으로 이해되는 표현이지만 호텔 용어로는 housekeeping이 더 자연스러움."
+            },
+            {
+              "en": "maid service",
+              "ko": "미국 일부 지역에서 쓰이지만, 현재는 housekeeping을 더 선호함."
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch11_d03",
       "title": "에어컨 고장 신고하기",
       "lines": [
-        { "speaker": "나", "en": "Hi, this is room 512. The air conditioning isn't working at all.", "ko": "안녕하세요, 512호입니다. 에어컨이 전혀 작동하지 않아요." },
-        { "speaker": "프런트", "en": "I'm sorry about that. Is it not turning on, or is it on but not cooling?", "ko": "불편을 드려 죄송합니다. 켜지지 않는 건가요, 아니면 켜져 있는데 시원하지 않은 건가요?" },
-        { "speaker": "나", "en": "It turns on but only blows warm air. The room is really stuffy.", "ko": "켜지긴 하는데 따뜻한 바람만 나와요. 방이 정말 답답해요." },
-        { "speaker": "프런트", "en": "I'll send a technician up right away. Apologies for the inconvenience.", "ko": "지금 바로 기술자를 올려보내겠습니다. 불편을 드려 사과드립니다." }
+        {
+          "speaker": "나",
+          "en": "Hi, this is room 512. The air conditioning isn't working at all.",
+          "ko": "안녕하세요, 512호입니다. 에어컨이 전혀 작동하지 않아요."
+        },
+        {
+          "speaker": "프런트",
+          "en": "I'm sorry about that. Is it not turning on, or is it on but not cooling?",
+          "ko": "불편을 드려 죄송합니다. 켜지지 않는 건가요, 아니면 켜져 있는데 시원하지 않은 건가요?"
+        },
+        {
+          "speaker": "나",
+          "en": "It turns on but only blows warm air. The room is really stuffy.",
+          "ko": "켜지긴 하는데 따뜻한 바람만 나와요. 방이 정말 답답해요."
+        },
+        {
+          "speaker": "프런트",
+          "en": "I'll send a technician up right away. Apologies for the inconvenience.",
+          "ko": "지금 바로 기술자를 올려보내겠습니다. 불편을 드려 사과드립니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "The air conditioning isn't working.",
           "ko": "에어컨이 고장났을 때 가장 자연스러운 표현. 'isn't working'은 작동하지 않는다는 뜻으로 모든 시설 고장에 응용 가능.",
           "alternatives": [
-            { "en": "The AC is broken.", "ko": "'broken'은 완전히 고장난 상태. AC는 air conditioning의 줄임말." },
-            { "en": "There's something wrong with the air conditioner.", "ko": "'something wrong with ~'은 뭔가 문제가 있다는 표현으로 정확한 원인 모를 때 유용." }
+            {
+              "en": "The AC is broken.",
+              "ko": "'broken'은 완전히 고장난 상태. AC는 air conditioning의 줄임말."
+            },
+            {
+              "en": "There's something wrong with the air conditioner.",
+              "ko": "'something wrong with ~'은 뭔가 문제가 있다는 표현으로 정확한 원인 모를 때 유용."
+            }
           ]
         },
         {
           "en": "It only blows warm air.",
           "ko": "냉방이 안 되고 따뜻한 바람만 나온다는 뜻. 'blow'는 바람이 나온다는 표현이며 에어컨 고장 설명에 자주 쓰임.",
           "alternatives": [
-            { "en": "It's not cooling down.", "ko": "시원해지지 않는다는 결과 중심의 표현." },
-            { "en": "The cold air isn't coming out.", "ko": "찬바람이 나오지 않는다는 직접적인 표현." }
+            {
+              "en": "It's not cooling down.",
+              "ko": "시원해지지 않는다는 결과 중심의 표현."
+            },
+            {
+              "en": "The cold air isn't coming out.",
+              "ko": "찬바람이 나오지 않는다는 직접적인 표현."
+            }
           ]
         },
         {
           "en": "Apologies for the inconvenience.",
           "ko": "직원이 불편을 드려 죄송하다고 할 때 쓰는 격식 있는 표현. 'Sorry for the trouble'보다 공식적인 뉘앙스.",
           "alternatives": [
-            { "en": "Sorry for the trouble.", "ko": "더 일상적이고 가벼운 사과 표현." },
-            { "en": "We're sorry for any inconvenience caused.", "ko": "공식 문서나 안내문에 자주 쓰이는 형태." }
+            {
+              "en": "Sorry for the trouble.",
+              "ko": "더 일상적이고 가벼운 사과 표현."
+            },
+            {
+              "en": "We're sorry for any inconvenience caused.",
+              "ko": "공식 문서나 안내문에 자주 쓰이는 형태."
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch11_d04",
       "title": "온수가 안 나올 때",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, there's no hot water in my room. I can't take a shower.", "ko": "실례합니다, 제 방에 온수가 나오지 않아요. 샤워를 할 수가 없어요." },
-        { "speaker": "직원", "en": "I'm very sorry. Have you tried waiting a few minutes for it to warm up?", "ko": "정말 죄송합니다. 잠시 기다려서 물이 따뜻해지는지 확인해 보셨나요?" },
-        { "speaker": "나", "en": "Yes, I've been running it for ten minutes and it's still cold.", "ko": "네, 10분째 틀어두고 있는데 여전히 차갑네요." },
-        { "speaker": "직원", "en": "I understand. I'll report it to maintenance immediately and call you back.", "ko": "알겠습니다. 바로 관리팀에 보고하고 연락드리겠습니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, there's no hot water in my room. I can't take a shower.",
+          "ko": "실례합니다, 제 방에 온수가 나오지 않아요. 샤워를 할 수가 없어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "I'm very sorry. Have you tried waiting a few minutes for it to warm up?",
+          "ko": "정말 죄송합니다. 잠시 기다려서 물이 따뜻해지는지 확인해 보셨나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Yes, I've been running it for ten minutes and it's still cold.",
+          "ko": "네, 10분째 틀어두고 있는데 여전히 차갑네요."
+        },
+        {
+          "speaker": "직원",
+          "en": "I understand. I'll report it to maintenance immediately and call you back.",
+          "ko": "알겠습니다. 바로 관리팀에 보고하고 연락드리겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "There's no hot water.",
           "ko": "온수가 나오지 않는다는 직접적인 표현. 'The hot water isn't working'으로도 표현 가능.",
           "alternatives": [
-            { "en": "The hot water isn't working.", "ko": "고장 패턴 'isn't working'을 온수에도 그대로 적용한 표현." },
-            { "en": "I only get cold water.", "ko": "찬물만 나온다는 결과 중심의 표현." }
+            {
+              "en": "The hot water isn't working.",
+              "ko": "고장 패턴 'isn't working'을 온수에도 그대로 적용한 표현."
+            },
+            {
+              "en": "I only get cold water.",
+              "ko": "찬물만 나온다는 결과 중심의 표현."
+            }
           ]
         },
         {
           "en": "I've been running it for ten minutes.",
           "ko": "물을 10분째 틀어두고 있다는 표현. 'running water'는 물을 흐르게 하다(수도꼭지를 열다)는 뜻.",
           "alternatives": [
-            { "en": "I've had the tap on for ten minutes.", "ko": "'tap on'은 수도꼭지를 열어 둔 상태를 의미함." },
-            { "en": "I've been waiting for ten minutes.", "ko": "좀 더 일반적인 표현이지만 문맥이 명확할 때 사용 가능." }
+            {
+              "en": "I've had the tap on for ten minutes.",
+              "ko": "'tap on'은 수도꼭지를 열어 둔 상태를 의미함."
+            },
+            {
+              "en": "I've been waiting for ten minutes.",
+              "ko": "좀 더 일반적인 표현이지만 문맥이 명확할 때 사용 가능."
+            }
           ]
         },
         {
           "en": "I'll report it to maintenance.",
           "ko": "수리 부서(maintenance)에 신고하겠다는 표현. 'maintenance'는 시설 유지·관리 담당 부서를 가리킴.",
           "alternatives": [
-            { "en": "I'll send someone to fix it.", "ko": "수리 담당자를 보내겠다는 뜻." },
-            { "en": "We'll have it looked at right away.", "ko": "바로 점검하게 하겠다는 표현. 'have it looked at'은 누군가에게 점검을 맡긴다는 뜻." }
+            {
+              "en": "I'll send someone to fix it.",
+              "ko": "수리 담당자를 보내겠다는 뜻."
+            },
+            {
+              "en": "We'll have it looked at right away.",
+              "ko": "바로 점검하게 하겠다는 표현. 'have it looked at'은 누군가에게 점검을 맡긴다는 뜻."
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch11_d05",
       "title": "와이파이 연결 문제",
       "lines": [
-        { "speaker": "나", "en": "Hi, the Wi-Fi keeps dropping in my room. I can't stay connected.", "ko": "안녕하세요, 제 방에서 와이파이가 자꾸 끊겨요. 연결이 유지가 안 돼요." },
-        { "speaker": "프런트", "en": "I'm sorry about that. Have you tried restarting your device?", "ko": "죄송합니다. 기기를 재시작해 보셨나요?" },
-        { "speaker": "나", "en": "Yes, I've restarted it twice and re-entered the password.", "ko": "네, 두 번 재시작하고 비밀번호도 다시 입력했어요." },
-        { "speaker": "프런트", "en": "Let me reset the router for your floor. Please try reconnecting in a few minutes.", "ko": "해당 층 공유기를 재설정해 드리겠습니다. 몇 분 후 다시 연결해 보세요." }
+        {
+          "speaker": "나",
+          "en": "Hi, the Wi-Fi keeps dropping in my room. I can't stay connected.",
+          "ko": "안녕하세요, 제 방에서 와이파이가 자꾸 끊겨요. 연결이 유지가 안 돼요."
+        },
+        {
+          "speaker": "프런트",
+          "en": "I'm sorry about that. Have you tried restarting your device?",
+          "ko": "죄송합니다. 기기를 재시작해 보셨나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Yes, I've restarted it twice and re-entered the password.",
+          "ko": "네, 두 번 재시작하고 비밀번호도 다시 입력했어요."
+        },
+        {
+          "speaker": "프런트",
+          "en": "Let me reset the router for your floor. Please try reconnecting in a few minutes.",
+          "ko": "해당 층 공유기를 재설정해 드리겠습니다. 몇 분 후 다시 연결해 보세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "The Wi-Fi keeps dropping.",
           "ko": "와이파이가 자꾸 끊긴다는 표현. 'keeps + -ing'은 계속 반복되는 상황을 묘사할 때 쓰임.",
           "alternatives": [
-            { "en": "The Wi-Fi keeps disconnecting.", "ko": "'disconnecting'으로 더 명확하게 끊긴다는 의미를 전달." },
-            { "en": "I can't get a stable Wi-Fi connection.", "ko": "안정적인 연결이 안 된다는 결과 중심의 표현." }
+            {
+              "en": "The Wi-Fi keeps disconnecting.",
+              "ko": "'disconnecting'으로 더 명확하게 끊긴다는 의미를 전달."
+            },
+            {
+              "en": "I can't get a stable Wi-Fi connection.",
+              "ko": "안정적인 연결이 안 된다는 결과 중심의 표현."
+            }
           ]
         },
         {
           "en": "I've restarted it twice.",
           "ko": "두 번 재시작했다는 현재완료 표현. 직원에게 이미 기본 해결을 시도했다는 사실을 알릴 때 유용.",
           "alternatives": [
-            { "en": "I already tried rebooting it.", "ko": "'reboot'은 컴퓨터나 기기를 재시작한다는 기술적 표현." },
-            { "en": "I've tried everything I can think of.", "ko": "할 수 있는 건 다 해봤다는 표현으로 해결을 더 강하게 요청하는 뉘앙스." }
+            {
+              "en": "I already tried rebooting it.",
+              "ko": "'reboot'은 컴퓨터나 기기를 재시작한다는 기술적 표현."
+            },
+            {
+              "en": "I've tried everything I can think of.",
+              "ko": "할 수 있는 건 다 해봤다는 표현으로 해결을 더 강하게 요청하는 뉘앙스."
+            }
           ]
         },
         {
           "en": "Please try reconnecting in a few minutes.",
           "ko": "몇 분 후 다시 연결해 보라는 직원의 안내. 'in a few minutes'는 몇 분 후를 의미.",
           "alternatives": [
-            { "en": "It should be back up shortly.", "ko": "'back up'은 서비스가 다시 정상화된다는 뜻." },
-            { "en": "Try logging back in after a moment.", "ko": "잠시 후 다시 로그인해 보라는 안내." }
+            {
+              "en": "It should be back up shortly.",
+              "ko": "'back up'은 서비스가 다시 정상화된다는 뜻."
+            },
+            {
+              "en": "Try logging back in after a moment.",
+              "ko": "잠시 후 다시 로그인해 보라는 안내."
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch11_d06",
       "title": "옆방 소음 항의하기",
       "lines": [
-        { "speaker": "나", "en": "Hi, I'd like to report a noise complaint. The guests next door are extremely loud.", "ko": "안녕하세요, 소음 민원을 넣고 싶어요. 옆방 손님들이 너무 시끄러워요." },
-        { "speaker": "프런트", "en": "I'm sorry to hear that. Which room is the noise coming from?", "ko": "불편을 드려 죄송합니다. 소음이 몇 호에서 나고 있나요?" },
-        { "speaker": "나", "en": "I'm in 708 and I believe it's 710. It's been going on for over an hour.", "ko": "저는 708호인데 710호인 것 같아요. 한 시간 넘게 계속되고 있어요." },
-        { "speaker": "프런트", "en": "We'll contact them right away and ask them to keep it down.", "ko": "바로 연락해서 조용히 해달라고 부탁드리겠습니다." }
+        {
+          "speaker": "나",
+          "en": "Hi, I'd like to report a noise complaint. The guests next door are extremely loud.",
+          "ko": "안녕하세요, 소음 민원을 넣고 싶어요. 옆방 손님들이 너무 시끄러워요."
+        },
+        {
+          "speaker": "프런트",
+          "en": "I'm sorry to hear that. Which room is the noise coming from?",
+          "ko": "불편을 드려 죄송합니다. 소음이 몇 호에서 나고 있나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "I'm in 708 and I believe it's 710. It's been going on for over an hour.",
+          "ko": "저는 708호인데 710호인 것 같아요. 한 시간 넘게 계속되고 있어요."
+        },
+        {
+          "speaker": "프런트",
+          "en": "We'll contact them right away and ask them to keep it down.",
+          "ko": "바로 연락해서 조용히 해달라고 부탁드리겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "The guests next door are extremely loud.",
           "ko": "옆방이 너무 시끄럽다는 표현. 'extremely'는 '매우, 극도로'라는 뜻으로 불편함의 강도를 강조함.",
           "alternatives": [
-            { "en": "The room next to mine is too noisy.", "ko": "비슷한 의미로, 'noisy'를 사용한 표현." },
-            { "en": "I can hear everything from the next room.", "ko": "방음이 안 되어 옆방 소리가 다 들린다는 표현." }
+            {
+              "en": "The room next to mine is too noisy.",
+              "ko": "비슷한 의미로, 'noisy'를 사용한 표현."
+            },
+            {
+              "en": "I can hear everything from the next room.",
+              "ko": "방음이 안 되어 옆방 소리가 다 들린다는 표현."
+            }
           ]
         },
         {
           "en": "I'd like to report a noise complaint.",
           "ko": "소음 민원을 공식적으로 넣겠다는 표현. 'report a complaint'는 불만을 접수한다는 뜻.",
           "alternatives": [
-            { "en": "I need to complain about the noise.", "ko": "좀 더 직접적인 표현이지만 다소 강경한 뉘앙스." },
-            { "en": "Could you do something about the noise next door?", "ko": "간접적으로 조치를 요청하는 부드러운 표현." }
+            {
+              "en": "I need to complain about the noise.",
+              "ko": "좀 더 직접적인 표현이지만 다소 강경한 뉘앙스."
+            },
+            {
+              "en": "Could you do something about the noise next door?",
+              "ko": "간접적으로 조치를 요청하는 부드러운 표현."
+            }
           ]
         },
         {
           "en": "Ask them to keep it down.",
           "ko": "'keep it down'은 소리를 낮추다, 조용히 하다는 관용 표현. 직원이 다른 손님에게 조용히 해달라고 부탁할 때 씀.",
           "alternatives": [
-            { "en": "Ask them to be quieter.", "ko": "같은 의미의 더 직관적인 표현." },
-            { "en": "Tell them to lower their voices.", "ko": "목소리를 낮춰달라는 표현." }
+            {
+              "en": "Ask them to be quieter.",
+              "ko": "같은 의미의 더 직관적인 표현."
+            },
+            {
+              "en": "Tell them to lower their voices.",
+              "ko": "목소리를 낮춰달라는 표현."
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch11_d07",
       "title": "룸서비스 주문하기",
       "lines": [
-        { "speaker": "나", "en": "Hello, I'd like to order room service, please.", "ko": "안녕하세요, 룸서비스를 주문하고 싶어요." },
-        { "speaker": "직원", "en": "Of course. May I have your room number?", "ko": "물론이죠. 방 번호를 알려주시겠어요?" },
-        { "speaker": "나", "en": "It's room 305. I'd like a club sandwich and a pot of coffee.", "ko": "305호입니다. 클럽 샌드위치 하나와 커피 한 포트 주세요." },
-        { "speaker": "직원", "en": "That'll be about 25 minutes. Shall we add the charge to your room bill?", "ko": "25분 정도 걸립니다. 방 계산서에 추가해 드릴까요?" }
+        {
+          "speaker": "나",
+          "en": "Hello, I'd like to order room service, please.",
+          "ko": "안녕하세요, 룸서비스를 주문하고 싶어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Of course. May I have your room number?",
+          "ko": "물론이죠. 방 번호를 알려주시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "It's room 305. I'd like a club sandwich and a pot of coffee.",
+          "ko": "305호입니다. 클럽 샌드위치 하나와 커피 한 포트 주세요."
+        },
+        {
+          "speaker": "직원",
+          "en": "That'll be about 25 minutes. Shall we add the charge to your room bill?",
+          "ko": "25분 정도 걸립니다. 방 계산서에 추가해 드릴까요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'd like to order room service.",
           "ko": "룸서비스를 주문하겠다는 표현. 'room service'는 객실로 음식을 배달해 주는 호텔 서비스.",
           "alternatives": [
-            { "en": "Can I get room service?", "ko": "좀 더 캐주얼한 요청 표현." },
-            { "en": "I'd like to place a room service order.", "ko": "'place an order'는 주문을 하다는 격식 있는 표현." }
+            {
+              "en": "Can I get room service?",
+              "ko": "좀 더 캐주얼한 요청 표현."
+            },
+            {
+              "en": "I'd like to place a room service order.",
+              "ko": "'place an order'는 주문을 하다는 격식 있는 표현."
+            }
           ]
         },
         {
           "en": "a pot of coffee",
           "ko": "커피 한 포트를 주문할 때 쓰는 표현. 'a cup of coffee'는 한 잔, 'a pot'은 여러 잔 분량의 포트를 의미.",
           "alternatives": [
-            { "en": "a cup of coffee", "ko": "커피 한 잔. 한 명이 마실 분량." },
-            { "en": "two cups of coffee", "ko": "커피 두 잔. 인원 수에 맞게 조절 가능." }
+            {
+              "en": "a cup of coffee",
+              "ko": "커피 한 잔. 한 명이 마실 분량."
+            },
+            {
+              "en": "two cups of coffee",
+              "ko": "커피 두 잔. 인원 수에 맞게 조절 가능."
+            }
           ]
         },
         {
           "en": "add the charge to your room bill",
           "ko": "비용을 객실 계산서에 추가하다는 표현. 체크아웃 시 한꺼번에 결제하는 방식.",
           "alternatives": [
-            { "en": "charge it to my room", "ko": "방 계산서에 청구해 달라는 간단한 표현." },
-            { "en": "put it on my tab", "ko": "호텔 외 레스토랑·바 등에서도 쓰이는 후불 계산 표현." }
+            {
+              "en": "charge it to my room",
+              "ko": "방 계산서에 청구해 달라는 간단한 표현."
+            },
+            {
+              "en": "put it on my tab",
+              "ko": "호텔 외 레스토랑·바 등에서도 쓰이는 후불 계산 표현."
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch11_d08",
       "title": "모닝콜 요청하기",
       "lines": [
-        { "speaker": "나", "en": "Hi, could I arrange a wake-up call for tomorrow morning?", "ko": "안녕하세요, 내일 아침 모닝콜을 부탁드릴 수 있을까요?" },
-        { "speaker": "프런트", "en": "Of course. What time would you like your wake-up call?", "ko": "물론이죠. 몇 시에 모닝콜을 드릴까요?" },
-        { "speaker": "나", "en": "At 6:30 AM, please. I have an early flight to catch.", "ko": "오전 6시 30분으로 해주세요. 이른 비행기를 타야 해서요." },
-        { "speaker": "프런트", "en": "Noted. Wake-up call at 6:30 AM for room 204. Have a good night.", "ko": "확인했습니다. 204호 오전 6시 30분 모닝콜이요. 좋은 밤 되세요." }
+        {
+          "speaker": "나",
+          "en": "Hi, could I arrange a wake-up call for tomorrow morning?",
+          "ko": "안녕하세요, 내일 아침 모닝콜을 부탁드릴 수 있을까요?"
+        },
+        {
+          "speaker": "프런트",
+          "en": "Of course. What time would you like your wake-up call?",
+          "ko": "물론이죠. 몇 시에 모닝콜을 드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "At 6:30 AM, please. I have an early flight to catch.",
+          "ko": "오전 6시 30분으로 해주세요. 이른 비행기를 타야 해서요."
+        },
+        {
+          "speaker": "프런트",
+          "en": "Noted. Wake-up call at 6:30 AM for room 204. Have a good night.",
+          "ko": "확인했습니다. 204호 오전 6시 30분 모닝콜이요. 좋은 밤 되세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Could I arrange a wake-up call?",
           "ko": "모닝콜을 요청하는 가장 자연스러운 표현. 'wake-up call'은 지정 시간에 프런트에서 전화로 깨워주는 서비스.",
           "alternatives": [
-            { "en": "Can I have a wake-up call at 6:30?", "ko": "시간을 바로 붙여서 한 번에 요청하는 간결한 표현." },
-            { "en": "I'd like a wake-up call tomorrow morning.", "ko": "'I'd like ~'을 사용한 정중한 요청 표현." }
+            {
+              "en": "Can I have a wake-up call at 6:30?",
+              "ko": "시간을 바로 붙여서 한 번에 요청하는 간결한 표현."
+            },
+            {
+              "en": "I'd like a wake-up call tomorrow morning.",
+              "ko": "'I'd like ~'을 사용한 정중한 요청 표현."
+            }
           ]
         },
         {
           "en": "I have an early flight to catch.",
           "ko": "이른 비행기가 있어 일찍 일어나야 한다는 이유 설명. 'catch a flight'은 비행기를 타다는 뜻.",
           "alternatives": [
-            { "en": "My flight is at 8 AM.", "ko": "비행기 시간을 직접 알려주는 표현." },
-            { "en": "I need to check out early.", "ko": "조기 체크아웃을 해야 한다는 맥락 설명." }
+            {
+              "en": "My flight is at 8 AM.",
+              "ko": "비행기 시간을 직접 알려주는 표현."
+            },
+            {
+              "en": "I need to check out early.",
+              "ko": "조기 체크아웃을 해야 한다는 맥락 설명."
+            }
           ]
         },
         {
           "en": "Noted.",
           "ko": "직원이 요청 사항을 확인했다는 표현. 'I'll make a note of it'의 줄임으로, 메모했다/확인했다는 뜻.",
           "alternatives": [
-            { "en": "Got it.", "ko": "캐주얼하게 알아들었다는 표현." },
-            { "en": "I've made a note of that.", "ko": "메모했다는 좀 더 명시적인 표현." }
+            {
+              "en": "Got it.",
+              "ko": "캐주얼하게 알아들었다는 표현."
+            },
+            {
+              "en": "I've made a note of that.",
+              "ko": "메모했다는 좀 더 명시적인 표현."
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch11_d09",
       "title": "미니바 이용 문의하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, could you tell me how the minibar works? Is it complimentary?", "ko": "실례합니다, 미니바는 어떻게 이용하는 건가요? 무료인가요?" },
-        { "speaker": "직원", "en": "The minibar items are charged to your room. The price list is on the card inside the fridge door.", "ko": "미니바 품목은 객실 계산서에 청구됩니다. 냉장고 문 안쪽에 가격표가 있어요." },
-        { "speaker": "나", "en": "I see. What if I use something by accident?", "ko": "알겠습니다. 실수로 뭔가 사용했을 경우엔 어떻게 되나요?" },
-        { "speaker": "직원", "en": "Just let us know and we can remove it from your bill if it was a mistake.", "ko": "저희에게 알려주시면 실수인 경우 청구서에서 삭제해 드릴 수 있습니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, could you tell me how the minibar works? Is it complimentary?",
+          "ko": "실례합니다, 미니바는 어떻게 이용하는 건가요? 무료인가요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "The minibar items are charged to your room. The price list is on the card inside the fridge door.",
+          "ko": "미니바 품목은 객실 계산서에 청구됩니다. 냉장고 문 안쪽에 가격표가 있어요."
+        },
+        {
+          "speaker": "나",
+          "en": "I see. What if I use something by accident?",
+          "ko": "알겠습니다. 실수로 뭔가 사용했을 경우엔 어떻게 되나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Just let us know and we can remove it from your bill if it was a mistake.",
+          "ko": "저희에게 알려주시면 실수인 경우 청구서에서 삭제해 드릴 수 있습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is it complimentary?",
           "ko": "무료인지 묻는 호텔 표현. 'complimentary'는 '무료 제공의'라는 뜻으로 'free'보다 격식 있는 표현.",
           "alternatives": [
-            { "en": "Is it free of charge?", "ko": "'free of charge'는 '무료'를 나타내는 또 다른 표현." },
-            { "en": "Is there an extra charge for that?", "ko": "추가 요금이 있는지 묻는 표현." }
+            {
+              "en": "Is it free of charge?",
+              "ko": "'free of charge'는 '무료'를 나타내는 또 다른 표현."
+            },
+            {
+              "en": "Is there an extra charge for that?",
+              "ko": "추가 요금이 있는지 묻는 표현."
+            }
           ]
         },
         {
           "en": "charged to your room",
           "ko": "객실 계산서에 청구된다는 표현. 호텔에서 소비한 금액을 체크아웃 시 한꺼번에 내는 방식.",
           "alternatives": [
-            { "en": "added to your room bill", "ko": "방 청구서에 추가된다는 같은 뜻의 표현." },
-            { "en": "billed to your account", "ko": "계정에 청구된다는 더 격식 있는 표현." }
+            {
+              "en": "added to your room bill",
+              "ko": "방 청구서에 추가된다는 같은 뜻의 표현."
+            },
+            {
+              "en": "billed to your account",
+              "ko": "계정에 청구된다는 더 격식 있는 표현."
+            }
           ]
         },
         {
           "en": "remove it from your bill",
           "ko": "청구서에서 해당 항목을 삭제하다는 표현. 실수로 사용했을 때 취소 요청할 수 있음.",
           "alternatives": [
-            { "en": "take it off your bill", "ko": "같은 의미의 더 구어적인 표현." },
-            { "en": "credit it back to your account", "ko": "환불 개념으로 계정에 다시 적립해 준다는 표현." }
+            {
+              "en": "take it off your bill",
+              "ko": "같은 의미의 더 구어적인 표현."
+            },
+            {
+              "en": "credit it back to your account",
+              "ko": "환불 개념으로 계정에 다시 적립해 준다는 표현."
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch11_d10",
       "title": "방 변경 요청하기",
       "lines": [
-        { "speaker": "나", "en": "Hi, I'd like to change my room if possible. There are several issues I can't resolve.", "ko": "안녕하세요, 가능하다면 방을 바꾸고 싶어요. 해결되지 않는 문제들이 여러 개 있어서요." },
-        { "speaker": "프런트", "en": "I'm sorry to hear that. Could you tell me what the issues are?", "ko": "그러셨군요. 어떤 문제들이 있으신지 말씀해 주시겠어요?" },
-        { "speaker": "나", "en": "The heating isn't working and it's also very noisy from the street. I haven't been able to sleep.", "ko": "난방이 안 되고 도로 소음도 너무 심해요. 잠을 자지 못했어요." },
-        { "speaker": "프런트", "en": "I completely understand. Let me check if we have a quieter room available on a higher floor.", "ko": "충분히 이해합니다. 더 높은 층에 더 조용한 방이 있는지 확인해 보겠습니다." }
+        {
+          "speaker": "나",
+          "en": "Hi, I'd like to change my room if possible. There are several issues I can't resolve.",
+          "ko": "안녕하세요, 가능하다면 방을 바꾸고 싶어요. 해결되지 않는 문제들이 여러 개 있어서요."
+        },
+        {
+          "speaker": "프런트",
+          "en": "I'm sorry to hear that. Could you tell me what the issues are?",
+          "ko": "그러셨군요. 어떤 문제들이 있으신지 말씀해 주시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "The heating isn't working and it's also very noisy from the street. I haven't been able to sleep.",
+          "ko": "난방이 안 되고 도로 소음도 너무 심해요. 잠을 자지 못했어요."
+        },
+        {
+          "speaker": "프런트",
+          "en": "I completely understand. Let me check if we have a quieter room available on a higher floor.",
+          "ko": "충분히 이해합니다. 더 높은 층에 더 조용한 방이 있는지 확인해 보겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'd like to change my room.",
           "ko": "방을 바꿔달라는 가장 직접적이고 정중한 요청 표현. 'switch rooms'로도 표현 가능.",
           "alternatives": [
-            { "en": "Could I switch to a different room?", "ko": "'switch'는 바꾸다는 뜻으로 방 변경 요청에 자연스럽게 쓰임." },
-            { "en": "Is there any chance I could be moved to another room?", "ko": "가능성을 물어보며 부드럽게 요청하는 표현." }
+            {
+              "en": "Could I switch to a different room?",
+              "ko": "'switch'는 바꾸다는 뜻으로 방 변경 요청에 자연스럽게 쓰임."
+            },
+            {
+              "en": "Is there any chance I could be moved to another room?",
+              "ko": "가능성을 물어보며 부드럽게 요청하는 표현."
+            }
           ]
         },
         {
           "en": "The heating isn't working.",
           "ko": "난방이 작동하지 않는다는 표현. 'The air conditioning isn't working'과 같은 패턴으로 냉난방 고장을 신고할 때 활용.",
           "alternatives": [
-            { "en": "There's no heat in the room.", "ko": "방에 난방이 전혀 없다는 직접적인 표현." },
-            { "en": "The heater doesn't seem to be working.", "ko": "'seem to'를 사용해 좀 더 부드럽게 문제를 제기하는 표현." }
+            {
+              "en": "There's no heat in the room.",
+              "ko": "방에 난방이 전혀 없다는 직접적인 표현."
+            },
+            {
+              "en": "The heater doesn't seem to be working.",
+              "ko": "'seem to'를 사용해 좀 더 부드럽게 문제를 제기하는 표현."
+            }
           ]
         },
         {
           "en": "I haven't been able to sleep.",
           "ko": "잠을 전혀 자지 못했다는 현재완료 표현. 상황이 얼마나 심각한지 강조하는 데 효과적.",
           "alternatives": [
-            { "en": "I couldn't sleep at all last night.", "ko": "어젯밤에 전혀 못 잤다는 과거형 표현." },
-            { "en": "The noise has been keeping me up.", "ko": "소음 때문에 잠을 못 이루고 있다는 표현. 'keep someone up'은 잠 못 자게 하다는 뜻." }
+            {
+              "en": "I couldn't sleep at all last night.",
+              "ko": "어젯밤에 전혀 못 잤다는 과거형 표현."
+            },
+            {
+              "en": "The noise has been keeping me up.",
+              "ko": "소음 때문에 잠을 못 이루고 있다는 표현. 'keep someone up'은 잠 못 자게 하다는 뜻."
+            }
           ]
         }
       ]
@@ -525,6 +865,1473 @@
           "question": "'keep it down'은 볼륨이나 소리를 높여달라고 요청하는 표현이다.",
           "answerIndex": 1,
           "explanation": "아닙니다. 'keep it down'은 소리를 낮추다, 조용히 하다는 뜻의 관용 표현입니다. 소음 항의 시 직원이 다른 손님에게 조용히 해달라고 부탁할 때 씁니다. 반대 의미는 'turn it up'입니다."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch11_set02_001",
+          "type": "multiple_choice",
+          "question": "호텔 프런트에 수건을 더 보내달라고 정중히 요청하는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Can you send up some more towels?",
+            "Bring towels to my room.",
+            "I need towels, do it now.",
+            "Where do I get extra towels?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you send up some more towels?'은 수건을 객실로 올려달라는 정중한 요청 표현입니다. 'send up'은 호텔에서 물건을 객실로 올려보낸다는 관용 표현입니다. 나머지는 명령형이거나 뉘앙스가 무례합니다."
+        },
+        {
+          "id": "se_ch11_set02_002",
+          "type": "multiple_choice",
+          "question": "호텔에서 오늘 청소를 원하지 않는다고 말할 때 정중한 표현은?",
+          "options": [
+            "Don't clean my room today.",
+            "Please skip my room today.",
+            "No cleaning allowed today.",
+            "Tell housekeeping to stay away."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Please skip my room today.'는 'skip'(건너뛰다)을 활용해 청소를 원하지 않음을 부드럽게 표현합니다. 'Don't ~'도 가능하지만 'Please skip'이 더 공손한 뉘앙스입니다."
+        },
+        {
+          "id": "se_ch11_set02_003",
+          "type": "multiple_choice",
+          "question": "에어컨이 켜지는데 찬바람이 나오지 않는다고 설명할 때 알맞은 표현은?",
+          "options": [
+            "The air conditioning is too loud.",
+            "It only blows warm air.",
+            "The AC needs to be replaced.",
+            "The air conditioning turned off itself."
+          ],
+          "answerIndex": 1,
+          "explanation": "'It only blows warm air.'는 에어컨이 작동은 하지만 따뜻한 바람만 나온다는 상황을 설명하는 표현입니다. 'blows'는 바람이 나온다는 뜻으로 에어컨 고장 설명에 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch11_set02_004",
+          "type": "multiple_choice",
+          "question": "온수가 나오지 않아 10분째 기다렸다고 말할 때 적절한 영어 표현은?",
+          "options": [
+            "I've been running it for ten minutes.",
+            "I waited ten minutes for the shower.",
+            "Ten minutes ago the water was cold.",
+            "I ran the hot water before ten minutes."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I've been running it for ten minutes.'은 물을 10분째 틀어두고 있다는 현재완료 진행형 표현입니다. 'running water'는 수도꼭지를 열어 물을 흐르게 한다는 뜻입니다."
+        },
+        {
+          "id": "se_ch11_set02_005",
+          "type": "multiple_choice",
+          "question": "와이파이 연결이 불안정하다고 표현할 때 알맞은 문장은?",
+          "options": [
+            "I can't get a stable Wi-Fi connection.",
+            "The Wi-Fi password is wrong.",
+            "My phone doesn't support Wi-Fi.",
+            "The Wi-Fi signal is too strong."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I can't get a stable Wi-Fi connection.'은 안정적인 와이파이 연결을 유지하지 못한다는 표현입니다. 'stable'은 안정적이라는 뜻으로 연결 품질 문제를 설명할 때 유용합니다."
+        },
+        {
+          "id": "se_ch11_set02_006",
+          "type": "multiple_choice",
+          "question": "소음이 옆방에서 한 시간 넘게 계속되고 있다고 말할 때 적절한 표현은?",
+          "options": [
+            "It's been going on for over an hour.",
+            "The noise started one hour later.",
+            "I've been noisy for an hour.",
+            "The noise will continue for an hour."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's been going on for over an hour.'는 소음이 한 시간 이상 지속되고 있다는 현재완료 진행형 표현입니다. 'go on'은 계속되다는 뜻입니다."
+        },
+        {
+          "id": "se_ch11_set02_007",
+          "type": "multiple_choice",
+          "question": "룸서비스로 주문한 음식값을 체크아웃 때 방 계산서에 합산해 달라고 할 때 쓰는 표현은?",
+          "options": [
+            "Put it on my tab.",
+            "I'll pay separately.",
+            "Charge it to my credit card now.",
+            "Give me the receipt later."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Put it on my tab.'은 후불로 계산서에 올려달라는 표현으로 호텔·레스토랑에서 모두 쓰입니다. 'tab'은 외상 계산서를 의미합니다."
+        },
+        {
+          "id": "se_ch11_set02_008",
+          "type": "multiple_choice",
+          "question": "내일 아침 모닝콜을 예약하는 방법을 묻는 가장 정중한 표현은?",
+          "options": [
+            "Could I arrange a wake-up call for tomorrow morning?",
+            "Call me in the morning.",
+            "Wake me up tomorrow.",
+            "Set an alarm for my room."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could I arrange a wake-up call for tomorrow morning?'은 모닝콜을 요청하는 정중한 표현입니다. 'arrange'는 준비·예약하다는 뜻이고, 'wake-up call'이 영어권 표준 표현입니다."
+        },
+        {
+          "id": "se_ch11_set02_009",
+          "type": "multiple_choice",
+          "question": "미니바 품목을 실수로 사용했을 때 청구서에서 삭제해 달라는 표현은?",
+          "options": [
+            "Please remove it from my bill.",
+            "I want a discount on my minibar.",
+            "Delete my entire bill.",
+            "Don't charge me for anything."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please remove it from my bill.'은 청구서에서 해당 항목을 삭제해 달라는 표현입니다. 'remove from bill'은 실수로 사용한 항목을 취소 요청할 때 쓰는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch11_set02_010",
+          "type": "multiple_choice",
+          "question": "난방이 작동하지 않아 방을 바꾸고 싶을 때 문제를 설명하는 가장 적절한 표현은?",
+          "options": [
+            "The heating isn't working.",
+            "The heating is making a loud noise.",
+            "The heater is too warm.",
+            "I don't know how to use the heater."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The heating isn't working.'은 난방 시스템이 작동하지 않는다는 표현입니다. 'isn't working'은 모든 시설 고장 신고에 응용할 수 있는 패턴입니다."
+        },
+        {
+          "id": "se_ch11_set02_011",
+          "type": "ox",
+          "question": "'housekeeping'은 호텔에서 객실 청소 서비스를 담당하는 부서를 뜻하며, 'room cleaning'보다 호텔다운 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'housekeeping'은 객실 청소 및 관리를 담당하는 부서로, 호텔 업계에서 표준으로 사용하는 표현입니다. 'room cleaning'은 일반적으로 이해되지만 호텔 용어로는 housekeeping이 더 자연스럽습니다."
+        },
+        {
+          "id": "se_ch11_set02_012",
+          "type": "ox",
+          "question": "호텔에서 직원이 요청 사항을 확인했다고 할 때 'Noted.'와 'Got it.'은 같은 의미이지만, 'Noted.'가 더 격식 있는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Noted.'는 '확인했습니다, 메모했습니다'의 격식 있는 표현이고, 'Got it.'은 같은 의미이지만 더 캐주얼한 표현입니다. 두 표현 모두 맞는 뜻이지만 'Noted.'가 더 공식적인 뉘앙스를 가집니다."
+        },
+        {
+          "id": "se_ch11_set02_013",
+          "type": "ox",
+          "question": "호텔에서 룸서비스 커피를 'a cup of coffee'로 주문하면 한 잔, 'a pot of coffee'로 주문하면 여러 잔 분량의 포트가 온다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'a cup of coffee'는 한 잔, 'a pot of coffee'는 여러 잔을 담을 수 있는 포트 단위를 의미합니다. 여러 명이 마시거나 한 번에 많은 양을 원할 때는 'a pot'으로 주문합니다."
+        },
+        {
+          "id": "se_ch11_set02_014",
+          "type": "ox",
+          "question": "'The Wi-Fi keeps dropping.'에서 'keeps dropping'은 와이파이가 단 한 번 끊겼다는 과거 사실을 표현한다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'keeps + -ing'은 어떤 행동이 반복적으로 계속된다는 표현입니다. 따라서 'keeps dropping'은 와이파이가 반복적으로 계속 끊기고 있다는 의미입니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch11_set03_001",
+          "type": "multiple_choice",
+          "question": "호텔 직원에게 욕실 매트도 함께 보내달라고 덧붙일 때 자연스러운 표현은?",
+          "options": [
+            "And a bathmat if you have one.",
+            "Also send bathroom carpet.",
+            "Give me the floor mat too.",
+            "Include a shower rug please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'And a bathmat if you have one.'은 욕실 매트도 있으면 함께 보내달라는 자연스러운 추가 요청 표현입니다. 'bathmat'이 표준 어휘이며 'if you have one'으로 강요하지 않는 부드러운 뉘앙스를 냅니다."
+        },
+        {
+          "id": "se_ch11_set03_002",
+          "type": "multiple_choice",
+          "question": "방해 금지 표시판을 영어로 줄여서 부르는 표현은?",
+          "options": [
+            "DNT sign",
+            "DND sign",
+            "NDE sign",
+            "DNN sign"
+          ],
+          "answerIndex": 1,
+          "explanation": "'DND sign'은 'Do Not Disturb'의 약자입니다. 방 문손잡이에 거는 팻말로 청소나 방문을 원하지 않을 때 걸어둡니다. 호텔 직원들 사이에서도 DND로 통용됩니다."
+        },
+        {
+          "id": "se_ch11_set03_003",
+          "type": "multiple_choice",
+          "question": "에어컨 고장을 신고할 때 정확한 원인을 모를 경우 쓸 수 있는 표현은?",
+          "options": [
+            "There's something wrong with the air conditioner.",
+            "The air conditioner was broken yesterday.",
+            "I think someone broke the air conditioner.",
+            "The air conditioner is making a cold noise."
+          ],
+          "answerIndex": 0,
+          "explanation": "'There's something wrong with the air conditioner.'은 문제가 있다고 알리는 표현으로, 원인을 정확히 모를 때 유용합니다. 'something wrong with ~'은 '~에 뭔가 문제가 있다'는 뜻입니다."
+        },
+        {
+          "id": "se_ch11_set03_004",
+          "type": "multiple_choice",
+          "question": "온수 문제를 수리 부서에 보고하겠다는 직원의 말로 가장 적절한 표현은?",
+          "options": [
+            "I'll report it to maintenance.",
+            "I'll call the manager right now.",
+            "I'll fix it myself.",
+            "I'll write a note about it."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll report it to maintenance.'는 시설 관리 부서에 신고하겠다는 표현입니다. 'maintenance'는 호텔의 시설 유지·수리 담당 부서를 가리킵니다."
+        },
+        {
+          "id": "se_ch11_set03_005",
+          "type": "multiple_choice",
+          "question": "직원이 와이파이 복구 후 다시 연결해 보라고 안내할 때 쓰는 표현은?",
+          "options": [
+            "It should be back up shortly.",
+            "The Wi-Fi is fixed now.",
+            "Restart your phone once more.",
+            "Please wait for a long time."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It should be back up shortly.'는 서비스가 곧 복구될 것이라는 표현입니다. 'back up'은 시스템이나 서비스가 다시 정상화된다는 의미입니다."
+        },
+        {
+          "id": "se_ch11_set03_006",
+          "type": "multiple_choice",
+          "question": "소음 민원을 공식적으로 접수하겠다는 표현으로 가장 적절한 것은?",
+          "options": [
+            "I'd like to report a noise complaint.",
+            "I am very angry about the noise.",
+            "Can you hear that noise?",
+            "There is music from somewhere."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like to report a noise complaint.'는 소음 문제를 공식적으로 접수하는 표현입니다. 'report a complaint'는 불만을 프런트에 접수한다는 격식 있는 표현입니다."
+        },
+        {
+          "id": "se_ch11_set03_007",
+          "type": "multiple_choice",
+          "question": "룸서비스 주문 시 방 번호를 묻는 직원의 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "May I have your room number?",
+            "What is your address?",
+            "Tell me which floor you're on.",
+            "Where is your room located?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'May I have your room number?'는 룸서비스 처리를 위해 방 번호를 정중하게 묻는 표현입니다. 'May I have ~?'는 정보를 요청할 때 쓰는 격식 있는 표현입니다."
+        },
+        {
+          "id": "se_ch11_set03_008",
+          "type": "multiple_choice",
+          "question": "이른 비행기가 있어 일찍 일어나야 한다는 이유를 설명할 때 알맞은 표현은?",
+          "options": [
+            "I have an early flight to catch.",
+            "My airplane leaves early.",
+            "I must go to the airport soon.",
+            "The plane won't wait for me."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I have an early flight to catch.'는 이른 비행기를 타야 한다는 표현입니다. 'catch a flight'는 비행기를 타다는 관용 표현으로 영어권에서 일반적으로 사용됩니다."
+        },
+        {
+          "id": "se_ch11_set03_009",
+          "type": "multiple_choice",
+          "question": "미니바 이용 금액이 방 계산서에 청구된다고 설명할 때 알맞은 표현은?",
+          "options": [
+            "Minibar items are charged to your room.",
+            "You pay for the minibar at the door.",
+            "The minibar is always free.",
+            "Minibar charges appear on checkout day only."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Minibar items are charged to your room.'는 미니바 품목이 객실 계산서에 청구된다는 표현입니다. 'charged to your room'은 비용이 방 계산서에 추가된다는 뜻입니다."
+        },
+        {
+          "id": "se_ch11_set03_010",
+          "type": "multiple_choice",
+          "question": "도로 소음이 심해 방을 바꿔달라고 요청할 때 쓸 수 있는 표현은?",
+          "options": [
+            "Could I switch to a different room?",
+            "I want to move to a better hotel.",
+            "Can you fix the road noise?",
+            "Please close the windows for me."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could I switch to a different room?'는 방 변경을 정중하게 요청하는 표현입니다. 'switch'는 바꾸다는 뜻으로 방 변경 요청에 자연스럽게 쓰입니다."
+        },
+        {
+          "id": "se_ch11_set03_011",
+          "type": "ox",
+          "question": "'right away'는 '즉시, 바로'라는 뜻으로 'immediately'보다 더 격식 있는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'right away'는 구어적이고 친근한 뉘앙스의 즉시 표현이고, 'immediately'가 더 격식 있는 표현입니다. 호텔 직원이 '바로 해드리겠습니다'라고 할 때는 두 표현 모두 쓰이지만 'immediately'가 더 공식적입니다."
+        },
+        {
+          "id": "se_ch11_set03_012",
+          "type": "ox",
+          "question": "'keep it down'은 소리나 볼륨을 낮추라는 뜻으로, 소음 항의 시 직원이 다른 손님에게 조용히 해달라고 부탁할 때 쓸 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'keep it down'은 소리를 낮추다, 조용히 하다는 관용 표현입니다. 소음 항의를 받은 직원이 해당 손님에게 'Please keep it down.'이라고 부탁하는 상황에서 자연스럽게 쓰입니다."
+        },
+        {
+          "id": "se_ch11_set03_013",
+          "type": "ox",
+          "question": "호텔에서 'complimentary'는 '칭찬의'라는 뜻이므로, 'Is it complimentary?'는 서비스 품질을 물어보는 질문이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 호텔 서비스 맥락에서 'complimentary'는 '무료 제공의'라는 뜻입니다. 'Is it complimentary?'는 해당 서비스나 품목이 무료인지 묻는 표현으로, 'Is it free of charge?'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch11_set03_014",
+          "type": "ox",
+          "question": "'I haven't been able to sleep.'은 잠을 자지 못했다는 상태를 강조하는 현재완료 표현으로, 문제의 심각성을 전달하는 데 효과적이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'I haven't been able to sleep.'은 현재완료 표현으로, 지금까지 계속 잠을 못 자고 있는 상황을 강조합니다. 방 변경 요청 시 상황의 심각성을 직원에게 전달하는 데 효과적입니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch11_set04_001",
+          "type": "multiple_choice",
+          "question": "수건이 거의 다 떨어져 간다고 상황을 설명하며 자연스럽게 요청을 유도하는 표현은?",
+          "options": [
+            "We're running low on towels.",
+            "All towels are gone.",
+            "My towels are very old.",
+            "I need new towels urgently."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We're running low on towels.'은 수건이 거의 다 떨어져 간다는 상황 설명으로 자연스럽게 추가 요청을 유도하는 표현입니다. 'running low on ~'는 ~이 얼마 남지 않았다는 뜻입니다."
+        },
+        {
+          "id": "se_ch11_set04_002",
+          "type": "multiple_choice",
+          "question": "청소 서비스를 내일로 미뤄달라고 할 때 정중한 표현은?",
+          "options": [
+            "I'd prefer no housekeeping service today.",
+            "Cancel all cleaning for my room.",
+            "The cleaners shouldn't come here.",
+            "Stop the housekeeping schedule."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd prefer no housekeeping service today.'는 오늘 청소를 원하지 않음을 'I'd prefer ~'를 사용해 정중하게 표현합니다. 'prefer'는 ~을 더 선호한다는 의미로 거절을 부드럽게 전달합니다."
+        },
+        {
+          "id": "se_ch11_set04_003",
+          "type": "multiple_choice",
+          "question": "에어컨이 완전히 고장났다고 표현할 때 쓸 수 있는 짧은 표현은?",
+          "options": [
+            "The AC is broken.",
+            "The AC is off.",
+            "The AC is unplugged.",
+            "The AC has no power."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The AC is broken.'은 에어컨이 완전히 고장난 상태를 나타내는 표현입니다. 'AC'는 air conditioning의 약자이며 'broken'은 물리적으로 고장났다는 의미입니다."
+        },
+        {
+          "id": "se_ch11_set04_004",
+          "type": "multiple_choice",
+          "question": "찬물만 나온다는 결과 중심의 표현으로 알맞은 것은?",
+          "options": [
+            "I only get cold water.",
+            "The water is not hot enough.",
+            "The heater broke the water.",
+            "Hot water takes too long."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I only get cold water.'는 온수 없이 찬물만 나온다는 결과를 직접 표현합니다. 'only get'은 그것만 얻는다는 뜻으로 상황을 간결하게 전달합니다."
+        },
+        {
+          "id": "se_ch11_set04_005",
+          "type": "multiple_choice",
+          "question": "와이파이 문제 해결을 위해 기기를 재부팅했다고 말하는 표현은?",
+          "options": [
+            "I already tried rebooting it.",
+            "I turned off the router.",
+            "The device needs an update.",
+            "I called the IT department."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I already tried rebooting it.'는 기기를 이미 재부팅해 봤다는 표현입니다. 'reboot'은 기기를 재시작하는 기술적 표현이며, 'already tried'로 이미 조치를 취했음을 알립니다."
+        },
+        {
+          "id": "se_ch11_set04_006",
+          "type": "multiple_choice",
+          "question": "옆방의 소음이 다 들릴 정도로 방음이 안 된다고 표현할 때 알맞은 문장은?",
+          "options": [
+            "I can hear everything from the next room.",
+            "The next room is too dark.",
+            "My walls are made of thin material.",
+            "The room beside mine has loud guests."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I can hear everything from the next room.'은 옆방 소리가 다 들린다는 표현으로 방음이 안 된다는 상황을 효과적으로 전달합니다. 'hear everything'으로 심각성을 강조합니다."
+        },
+        {
+          "id": "se_ch11_set04_007",
+          "type": "multiple_choice",
+          "question": "룸서비스로 클럽 샌드위치와 커피를 주문할 때 자연스러운 표현은?",
+          "options": [
+            "I'd like a club sandwich and a pot of coffee.",
+            "Order me a club sandwich.",
+            "Bring me food and drinks.",
+            "A sandwich please, and coffee too."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like a club sandwich and a pot of coffee.'는 'I'd like ~' 패턴을 사용해 메뉴를 정중하게 주문하는 표현입니다. 'a pot of coffee'는 한 포트 분량의 커피를 의미합니다."
+        },
+        {
+          "id": "se_ch11_set04_008",
+          "type": "multiple_choice",
+          "question": "모닝콜 요청을 받은 직원이 확인했다는 뜻을 격식 있게 표현하는 말은?",
+          "options": [
+            "I've made a note of that.",
+            "I understand your request.",
+            "Your alarm is set.",
+            "I'll tell the next shift."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I've made a note of that.'는 요청 사항을 메모했다는 격식 있는 확인 표현입니다. 'make a note of ~'는 무언가를 기록해 두다는 뜻으로, 'Noted.'의 긴 형태입니다."
+        },
+        {
+          "id": "se_ch11_set04_009",
+          "type": "multiple_choice",
+          "question": "미니바 가격을 확인하려면 어디를 보면 되는지 직원이 안내하는 표현은?",
+          "options": [
+            "The price list is on the card inside the fridge door.",
+            "Check the price list in the bathroom.",
+            "The prices are posted on the TV screen.",
+            "Ask the concierge for pricing information."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The price list is on the card inside the fridge door.'는 미니바 가격표가 냉장고 문 안쪽에 있다고 안내하는 표현입니다. 실제 많은 호텔에서 이 방식을 사용합니다."
+        },
+        {
+          "id": "se_ch11_set04_010",
+          "type": "multiple_choice",
+          "question": "더 조용한 방이 있는지 알아봐 달라고 할 때 자연스러운 요청 표현은?",
+          "options": [
+            "Is there any chance I could be moved to another room?",
+            "Move my luggage to a new room.",
+            "Can you fix the noisy pipes?",
+            "I demand a quieter room immediately."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there any chance I could be moved to another room?'는 가능성을 물어보며 부드럽게 방 변경을 요청하는 표현입니다. 'any chance'로 강요하지 않는 공손한 뉘앙스를 냅니다."
+        },
+        {
+          "id": "se_ch11_set04_011",
+          "type": "ox",
+          "question": "'Do Not Disturb sign'은 방 안에서 청소를 원하지 않거나 방해받고 싶지 않을 때 문손잡이에 거는 팻말이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Do Not Disturb sign'(DND sign)은 객실 문손잡이에 걸어 하우스키핑이나 다른 방문을 원하지 않음을 표시하는 팻말입니다. 전 세계 호텔에서 통용됩니다."
+        },
+        {
+          "id": "se_ch11_set04_012",
+          "type": "ox",
+          "question": "호텔에서 'Apologies for the inconvenience.'는 'Sorry for the trouble.'보다 더 격식 있는 사과 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Apologies for the inconvenience.'는 격식 있는 사과 표현으로 공식적인 상황에 적합합니다. 'Sorry for the trouble.'은 더 일상적이고 가벼운 사과 표현입니다."
+        },
+        {
+          "id": "se_ch11_set04_013",
+          "type": "ox",
+          "question": "모닝콜을 'morning call'로 요청하면 영어권 호텔에서도 표준 표현으로 통용된다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'morning call'은 한국·일본식 영어(콩글리시)입니다. 영어권 호텔에서 표준으로 사용되는 표현은 'wake-up call'입니다. 해외 호텔에서는 반드시 'wake-up call'을 사용해야 합니다."
+        },
+        {
+          "id": "se_ch11_set04_014",
+          "type": "ox",
+          "question": "'I'd like to change my room.'에서 'I'd like to ~'는 명령형보다 정중한 요청 표현으로, 호텔 직원과의 대화에서 권장된다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'I'd like to ~'는 'I would like to ~'의 축약형으로, 'I want ~'나 'Give me ~'와 같은 직접 요구 표현보다 훨씬 공손한 뉘앙스입니다. 호텔 서비스 요청 시 'I'd like to ~'를 사용하는 것을 권장합니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch11_set05_001",
+          "type": "multiple_choice",
+          "question": "수건을 객실로 올려보낸다는 호텔 관용 표현이 포함된 문장은?",
+          "options": [
+            "We'll send those up right away.",
+            "We'll deliver them to the lobby.",
+            "Please come down to collect them.",
+            "We'll mail them to your room."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We'll send those up right away.'의 'send up'은 물건을 객실로 올려보낸다는 호텔 관용 표현입니다. 엘리베이터를 타고 올라가는 이미지에서 'up'을 씁니다."
+        },
+        {
+          "id": "se_ch11_set05_002",
+          "type": "multiple_choice",
+          "question": "청소를 오전 11시경에 해달라고 시간을 지정할 때 알맞은 표현은?",
+          "options": [
+            "Around 11 in the morning would be perfect.",
+            "Do the cleaning before noon.",
+            "11 o'clock is when I want cleaning.",
+            "Clean my room at exactly 11 AM."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Around 11 in the morning would be perfect.'는 'around'로 시간을 유연하게 지정하는 정중한 표현입니다. 'would be perfect'는 그 시간이 좋겠다는 부드러운 선호 표현입니다."
+        },
+        {
+          "id": "se_ch11_set05_003",
+          "type": "multiple_choice",
+          "question": "에어컨이 작동하지 않아 방이 무덥고 답답하다고 표현할 때 쓸 수 있는 단어는?",
+          "options": [
+            "stuffy",
+            "freezing",
+            "windy",
+            "humid"
+          ],
+          "answerIndex": 0,
+          "explanation": "'stuffy'는 공기가 잘 통하지 않아 무덥고 답답한 상태를 나타냅니다. 에어컨이 고장나 환기가 안 될 때 방 상태를 표현하기에 적합합니다. 'freezing'은 너무 추운 것, 'windy'는 바람이 많이 부는 것을 뜻합니다."
+        },
+        {
+          "id": "se_ch11_set05_004",
+          "type": "multiple_choice",
+          "question": "온수 문제가 바로 점검될 것이라는 직원의 표현으로 자연스러운 것은?",
+          "options": [
+            "We'll have it looked at right away.",
+            "We'll check the water tomorrow.",
+            "Someone will come next week.",
+            "We'll think about the water issue."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We'll have it looked at right away.'는 즉시 점검하게 하겠다는 표현입니다. 'have it looked at'은 누군가에게 점검을 맡긴다는 사역 표현으로 서비스 업계에서 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch11_set05_005",
+          "type": "multiple_choice",
+          "question": "와이파이 비밀번호를 다시 입력해도 연결이 안 된다고 말할 때 알맞은 표현은?",
+          "options": [
+            "I've re-entered the password and it still doesn't work.",
+            "I forgot the Wi-Fi password.",
+            "My password is incorrect.",
+            "The password changed automatically."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I've re-entered the password and it still doesn't work.'는 비밀번호를 다시 입력해도 연결이 안 된다는 표현입니다. 're-entered'는 다시 입력했다는 뜻으로 이미 기본 해결을 시도했음을 알립니다."
+        },
+        {
+          "id": "se_ch11_set05_006",
+          "type": "multiple_choice",
+          "question": "소음이 너무 시끄러워 조치를 부드럽게 요청하는 표현은?",
+          "options": [
+            "Could you do something about the noise next door?",
+            "Tell those people to be quiet!",
+            "I want you to kick them out.",
+            "Call the police about the noise."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you do something about the noise next door?'는 소음 문제에 대한 조치를 간접적으로 부탁하는 부드러운 표현입니다. 'could you do something about ~'은 어떤 문제에 대해 해결을 요청하는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch11_set05_007",
+          "type": "multiple_choice",
+          "question": "룸서비스를 주문하는 격식 있는 표현은?",
+          "options": [
+            "I'd like to place a room service order.",
+            "Bring food to my room.",
+            "Room service! Now!",
+            "Order for room 305."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like to place a room service order.'는 'place an order'라는 격식 있는 표현을 사용한 룸서비스 주문 방식입니다. 'I'd like to ~'로 정중하게 시작하는 것이 자연스럽습니다."
+        },
+        {
+          "id": "se_ch11_set05_008",
+          "type": "multiple_choice",
+          "question": "모닝콜 요청 시 시간을 한 번에 포함해서 말하는 간결한 표현은?",
+          "options": [
+            "Can I have a wake-up call at 6:30?",
+            "Wake me at six thirty in the morning.",
+            "Please call my room at dawn.",
+            "I'd like to be awakened early."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I have a wake-up call at 6:30?'는 시간을 포함해 모닝콜을 간결하게 요청하는 표현입니다. 'Can I have ~?'는 서비스를 요청할 때 자연스럽게 쓸 수 있는 표현입니다."
+        },
+        {
+          "id": "se_ch11_set05_009",
+          "type": "multiple_choice",
+          "question": "미니바 품목이 무료인지 묻는 또 다른 표현으로 가장 적절한 것은?",
+          "options": [
+            "Is there an extra charge for that?",
+            "Is the minibar expensive?",
+            "Do I need to buy minibar items?",
+            "Can I have the minibar for free?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there an extra charge for that?'는 추가 요금이 있는지 묻는 표현으로 미니바 유료 여부를 확인할 때 쓸 수 있습니다. 'extra charge'는 추가 비용을 의미합니다."
+        },
+        {
+          "id": "se_ch11_set05_010",
+          "type": "multiple_choice",
+          "question": "소음과 난방 문제로 잠을 못 이루고 있다고 표현할 때 알맞은 문장은?",
+          "options": [
+            "The noise has been keeping me up.",
+            "I always sleep with noise.",
+            "The noise woke me up once.",
+            "I slept badly because of the cold."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The noise has been keeping me up.'는 소음 때문에 잠을 못 이루고 있다는 현재완료 진행 표현입니다. 'keep someone up'은 잠을 자지 못하게 하다는 관용 표현입니다."
+        },
+        {
+          "id": "se_ch11_set05_011",
+          "type": "ox",
+          "question": "호텔 객실에서 수건을 올려달라고 할 때 'send up'과 'delivered to my room'은 비슷한 의미로 혼용할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'send up'은 호텔 관용 표현으로 물건을 객실로 올려보낸다는 뜻이고, 'delivered to my room'도 객실 배달이라는 같은 의미로 혼용 가능합니다."
+        },
+        {
+          "id": "se_ch11_set05_012",
+          "type": "ox",
+          "question": "'running low on towels'에서 'running low'는 수건이 넘쳐난다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'running low on ~'는 어떤 것이 거의 다 떨어져 간다는 표현입니다. 따라서 'running low on towels'는 수건이 거의 다 없어진다는 뜻입니다."
+        },
+        {
+          "id": "se_ch11_set05_013",
+          "type": "ox",
+          "question": "호텔 시설 고장 신고 시 'isn't working' 패턴은 에어컨뿐만 아니라 난방, 온수 등 다양한 시설에 응용할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'isn't working'은 작동하지 않는다는 뜻으로 'The air conditioning isn't working.', 'The heating isn't working.', 'The hot water isn't working.' 등 다양한 시설 고장 신고에 응용할 수 있는 패턴입니다."
+        },
+        {
+          "id": "se_ch11_set05_014",
+          "type": "ox",
+          "question": "'charge it to my room'과 'add the charge to your room bill'은 호텔에서 체크아웃 때 한꺼번에 정산하겠다는 같은 의미의 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 두 표현 모두 비용을 객실 계산서에 추가해 체크아웃 시 한꺼번에 결제하는 방식을 나타냅니다. 'charge it to my room'이 더 간결한 구어적 표현이고, 'add the charge to your room bill'이 좀 더 설명적인 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch11_set06_001",
+          "type": "multiple_choice",
+          "question": "방 번호를 명시해서 수건을 보내달라고 요청할 때 자연스러운 표현은?",
+          "options": [
+            "Could you bring some towels up to room 412?",
+            "Deliver towels to floor 4.",
+            "Room 412 needs more towels.",
+            "Put towels in front of room 412."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you bring some towels up to room 412?'는 방 번호를 명시해 더 정확하게 수건을 요청하는 표현입니다. 'bring up to ~'는 특정 장소로 가져다 달라는 뜻입니다."
+        },
+        {
+          "id": "se_ch11_set06_002",
+          "type": "multiple_choice",
+          "question": "'housekeeping service'를 청소 서비스 맥락에서 가장 잘 설명한 표현은?",
+          "options": [
+            "객실 청소 및 정리를 담당하는 호텔 서비스",
+            "호텔 로비와 공용 구역 청소 서비스",
+            "고객의 짐을 운반하는 서비스",
+            "호텔 내 레스토랑 서비스"
+          ],
+          "answerIndex": 0,
+          "explanation": "'housekeeping service'는 투숙 중 객실 청소, 수건 교체, 침구 정리 등을 담당하는 호텔 서비스입니다. 로비 청소나 짐 운반과는 다른 서비스입니다."
+        },
+        {
+          "id": "se_ch11_set06_003",
+          "type": "multiple_choice",
+          "question": "에어컨이 시원하지 않다는 결과를 표현하는 가장 자연스러운 문장은?",
+          "options": [
+            "It's not cooling down.",
+            "The AC doesn't turn on.",
+            "The AC is making noise.",
+            "It's cooling too much."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's not cooling down.'은 온도가 낮아지지 않는다, 즉 냉방이 되지 않는다는 결과 중심의 표현입니다. 에어컨은 켜져 있지만 시원해지지 않는 상황을 설명할 때 씁니다."
+        },
+        {
+          "id": "se_ch11_set06_004",
+          "type": "multiple_choice",
+          "question": "온수가 나오지 않아 샤워를 할 수 없다고 말할 때 가장 직접적인 표현은?",
+          "options": [
+            "There's no hot water and I can't take a shower.",
+            "The shower is very cold today.",
+            "I prefer cold showers actually.",
+            "The bathroom is out of order."
+          ],
+          "answerIndex": 0,
+          "explanation": "'There's no hot water and I can't take a shower.'는 온수 부재와 그로 인한 불편(샤워 불가)을 직접적으로 연결해 설명하는 표현입니다. 문제와 결과를 함께 전달해 상황의 불편함을 강조합니다."
+        },
+        {
+          "id": "se_ch11_set06_005",
+          "type": "multiple_choice",
+          "question": "와이파이 문제로 직원이 층 공유기를 재설정해 주겠다고 할 때 쓰는 표현은?",
+          "options": [
+            "Let me reset the router for your floor.",
+            "Let me replace your device.",
+            "I'll upgrade the Wi-Fi plan.",
+            "Let me check the password for you."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me reset the router for your floor.'는 해당 층의 공유기를 재설정하겠다는 직원의 표현입니다. 'reset the router'는 공유기를 재설정한다는 뜻으로 와이파이 문제 해결 시 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch11_set06_006",
+          "type": "multiple_choice",
+          "question": "소음이 어느 방에서 나는지 물어보는 직원의 표현으로 가장 적절한 것은?",
+          "options": [
+            "Which room is the noise coming from?",
+            "Who is making that noise?",
+            "How loud is the noise exactly?",
+            "Did the guests tell you they were noisy?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Which room is the noise coming from?'는 소음의 출처를 확인하는 직원의 표현입니다. 'coming from'은 소리가 어디서 나는지를 묻는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch11_set06_007",
+          "type": "multiple_choice",
+          "question": "룸서비스 배달에 약 25분 걸린다고 안내하는 표현은?",
+          "options": [
+            "That'll be about 25 minutes.",
+            "Your order arrives in exactly 25 minutes.",
+            "We need 25 minutes minimum.",
+            "Delivery takes at least half an hour."
+          ],
+          "answerIndex": 0,
+          "explanation": "'That'll be about 25 minutes.'는 'about'으로 대략적인 소요 시간을 안내하는 자연스러운 표현입니다. 'That'll be ~'는 직원이 소요 시간이나 금액을 안내할 때 자주 씁니다."
+        },
+        {
+          "id": "se_ch11_set06_008",
+          "type": "multiple_choice",
+          "question": "모닝콜을 내일 아침으로 부탁드린다는 표현 중 'I'd like ~'를 사용한 것은?",
+          "options": [
+            "I'd like a wake-up call tomorrow morning.",
+            "Wake me up early tomorrow.",
+            "Set a call for 6 AM please.",
+            "Tomorrow I need to wake up early."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like a wake-up call tomorrow morning.'은 'I'd like ~'를 사용한 정중한 모닝콜 요청 표현입니다. 'I'd like'는 'I would like'의 축약형으로 공손한 요청 시 사용합니다."
+        },
+        {
+          "id": "se_ch11_set06_009",
+          "type": "multiple_choice",
+          "question": "미니바 청구 항목을 청구서에서 삭제하는 또 다른 표현은?",
+          "options": [
+            "Take it off my bill.",
+            "Remove it from the minibar.",
+            "Cancel the entire bill.",
+            "I don't want to pay for anything."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Take it off my bill.'은 'remove it from my bill'과 같은 의미의 더 구어적인 표현입니다. 'take off'는 무언가를 제거한다는 뜻으로, 청구서에서 항목을 삭제할 때 씁니다."
+        },
+        {
+          "id": "se_ch11_set06_010",
+          "type": "multiple_choice",
+          "question": "여러 문제가 해결되지 않아 방을 바꾸고 싶다고 말할 때 쓸 수 있는 표현은?",
+          "options": [
+            "There are several issues I can't resolve.",
+            "My room has one small problem.",
+            "I just don't like my room.",
+            "The hotel is not what I expected."
+          ],
+          "answerIndex": 0,
+          "explanation": "'There are several issues I can't resolve.'는 해결할 수 없는 여러 문제가 있다는 표현으로 방 변경을 요청하는 이유를 설명할 때 적합합니다. 'resolve'는 문제를 해결하다는 뜻입니다."
+        },
+        {
+          "id": "se_ch11_set06_011",
+          "type": "ox",
+          "question": "호텔에서 'maintenance'는 객실 청소를 담당하는 부서이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'maintenance'는 시설 유지·수리를 담당하는 부서입니다. 객실 청소를 담당하는 부서는 'housekeeping'입니다. 에어컨·온수 등 시설 고장 문제는 maintenance에 신고합니다."
+        },
+        {
+          "id": "se_ch11_set06_012",
+          "type": "ox",
+          "question": "호텔에서 'catch a flight'은 비행기를 타다는 뜻의 관용 표현으로, 모닝콜 요청 시 이유 설명에 사용할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'catch a flight'은 비행기를 타다는 뜻의 영어 관용 표현입니다. 이른 비행기를 타야 해 모닝콜이 필요하다고 설명할 때 'I have an early flight to catch.'처럼 자연스럽게 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch11_set06_013",
+          "type": "ox",
+          "question": "'The room next to mine is too noisy.'와 'The guests next door are extremely loud.'는 옆방이 시끄럽다는 같은 의미의 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 두 표현 모두 옆방에서 나는 소음이 심하다는 의미입니다. 'next to mine'과 'next door'는 모두 바로 옆 객실을 가리키고, 'noisy'와 'loud'는 시끄럽다는 같은 의미입니다."
+        },
+        {
+          "id": "se_ch11_set06_014",
+          "type": "ox",
+          "question": "호텔에서 'billed to your account'는 'charged to your room'보다 더 구어적인 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'billed to your account'는 더 격식 있는 공식적인 표현이고, 'charged to your room'이 호텔에서 일상적으로 쓰이는 구어적 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch11_set07_001",
+          "type": "multiple_choice",
+          "question": "수건 추가 요청 시 'Give me towels'와 비교했을 때 'Could I get some extra towels?'의 특징은?",
+          "options": [
+            "명령형 대신 의문 형식으로 정중한 요청을 표현한다.",
+            "명령형으로 빠르게 요청할 수 있어 효율적이다.",
+            "수건의 수량을 정확히 지정할 수 있다.",
+            "직원이 더 빠르게 응답하게 만드는 표현이다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could I get ~?'는 의문 형식으로 정중하게 요청하는 표현입니다. 'Give me ~'처럼 명령형은 무례하게 들릴 수 있어 서비스 요청 시에는 'Could I get ~?'나 'Can you ~?' 같은 의문 형식을 사용하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch11_set07_002",
+          "type": "multiple_choice",
+          "question": "청소를 건너뛰어 달라고 할 때 'Please skip ~' 보다 더 정중한 표현은?",
+          "options": [
+            "I'd prefer no housekeeping service today.",
+            "Do not clean my room.",
+            "Skip the cleaning, please.",
+            "No cleaning is necessary."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd prefer no housekeeping service today.'는 'I'd prefer ~'로 선호를 부드럽게 표현하는 더 정중한 방식입니다. 'prefer'는 강하게 거절하는 것이 아니라 원하지 않음을 간접적으로 전달합니다."
+        },
+        {
+          "id": "se_ch11_set07_003",
+          "type": "multiple_choice",
+          "question": "에어컨이 작동하지 않는다는 것을 직원에게 신고하는 표현으로 적합한 것은?",
+          "options": [
+            "The air conditioning isn't working at all.",
+            "Please turn on the air conditioning.",
+            "The air conditioning is too loud.",
+            "I can't find the air conditioning remote."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The air conditioning isn't working at all.'은 에어컨이 전혀 작동하지 않는다는 고장 신고 표현입니다. 'at all'은 '전혀'라는 뜻으로 문제의 심각성을 강조합니다."
+        },
+        {
+          "id": "se_ch11_set07_004",
+          "type": "multiple_choice",
+          "question": "온수 문제가 해결되면 다시 연락해 주겠다는 직원의 표현은?",
+          "options": [
+            "I'll report it to maintenance and call you back.",
+            "I'll send someone up to check.",
+            "I'll fix it immediately.",
+            "I'll replace the water heater."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll report it to maintenance and call you back.'는 관리팀에 보고하고 다시 연락하겠다는 직원의 표현입니다. 'call you back'은 다시 전화하겠다는 뜻입니다."
+        },
+        {
+          "id": "se_ch11_set07_005",
+          "type": "multiple_choice",
+          "question": "와이파이 재연결을 시도해 달라고 잠시 후에 안내하는 표현은?",
+          "options": [
+            "Please try reconnecting in a few minutes.",
+            "Please restart your computer.",
+            "The Wi-Fi will work tomorrow.",
+            "Call the IT department directly."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please try reconnecting in a few minutes.'는 잠시 후 와이파이 재연결을 시도해 달라는 직원의 안내입니다. 'in a few minutes'는 몇 분 후를 의미합니다."
+        },
+        {
+          "id": "se_ch11_set07_006",
+          "type": "multiple_choice",
+          "question": "소음 항의 후 직원이 해당 손님에게 조용히 해달라고 부탁하겠다는 표현은?",
+          "options": [
+            "We'll ask them to keep it down.",
+            "We'll ask them to leave immediately.",
+            "We'll move you to another floor.",
+            "We'll give them a warning letter."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We'll ask them to keep it down.'은 소음을 낮춰달라고 부탁하겠다는 직원의 표현입니다. 'keep it down'은 소리를 낮추다, 조용히 하다는 관용 표현입니다."
+        },
+        {
+          "id": "se_ch11_set07_007",
+          "type": "multiple_choice",
+          "question": "룸서비스를 시킬 수 있는지 캐주얼하게 묻는 표현은?",
+          "options": [
+            "Can I get room service?",
+            "Is room service available tonight?",
+            "Do you deliver food to rooms?",
+            "What time does room service start?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get room service?'는 룸서비스 이용 가능 여부를 캐주얼하게 묻는 표현입니다. 'Can I get ~?'는 일상 회화에서 서비스나 물건을 요청·문의할 때 자주 쓰이는 표현입니다."
+        },
+        {
+          "id": "se_ch11_set07_008",
+          "type": "multiple_choice",
+          "question": "모닝콜 확인 후 직원이 좋은 밤을 보내라는 인사를 건넬 때 쓰는 표현은?",
+          "options": [
+            "Have a good night.",
+            "Good luck tomorrow.",
+            "Sleep tight.",
+            "Sweet dreams."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Have a good night.'는 호텔 프런트 직원이 손님에게 건네는 공손한 밤 인사입니다. 'Sleep tight'나 'Sweet dreams'는 더 친밀한 관계에서 쓰이는 표현으로 호텔 직원이 손님에게 쓰기엔 다소 격식에 맞지 않습니다."
+        },
+        {
+          "id": "se_ch11_set07_009",
+          "type": "multiple_choice",
+          "question": "미니바를 처음 이용해 어떻게 사용하는지 물어보는 자연스러운 표현은?",
+          "options": [
+            "Could you tell me how the minibar works?",
+            "What is a minibar?",
+            "Is the minibar open 24 hours?",
+            "Where is the minibar located?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you tell me how the minibar works?'는 미니바 이용 방법을 정중하게 묻는 표현입니다. 'how ~ works'는 무언가의 작동 방식이나 이용 방법을 묻는 자연스러운 구조입니다."
+        },
+        {
+          "id": "se_ch11_set07_010",
+          "type": "multiple_choice",
+          "question": "더 높은 층에 조용한 방이 있는지 확인해 보겠다는 직원의 표현은?",
+          "options": [
+            "Let me check if we have a quieter room available on a higher floor.",
+            "I'll move you to the top floor.",
+            "We don't have any quiet rooms.",
+            "Let me check the room price for you."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me check if we have a quieter room available on a higher floor.'는 높은 층에 더 조용한 방이 있는지 확인해 보겠다는 직원의 표현입니다. 'Let me check if ~'는 확인해 보겠다는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch11_set07_011",
+          "type": "ox",
+          "question": "호텔에서 'skip my room'은 청소를 건너뛴다는 뜻으로, 'Please don't clean my room today.'와 같은 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Please skip my room today.'와 'Please don't clean my room today.'는 오늘 청소를 원하지 않는다는 같은 의미입니다. 'skip'은 '건너뛰다'는 뜻입니다."
+        },
+        {
+          "id": "se_ch11_set07_012",
+          "type": "ox",
+          "question": "룸서비스 주문 시 'a pot of coffee'는 커피 한 잔을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'a pot of coffee'는 여러 잔을 담을 수 있는 포트 단위의 커피를 의미합니다. 커피 한 잔은 'a cup of coffee'라고 합니다."
+        },
+        {
+          "id": "se_ch11_set07_013",
+          "type": "ox",
+          "question": "에어컨 문제 신고 시 'It only blows warm air.'는 에어컨에서 찬바람이 나오지 않는다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'only blows warm air'는 따뜻한 바람만 나온다는 의미로, 냉방이 되지 않는 상황을 설명합니다. 'blow'는 바람이 나온다는 표현입니다."
+        },
+        {
+          "id": "se_ch11_set07_014",
+          "type": "ox",
+          "question": "'I'd like to change my room.'에서 'change my room'은 방을 청소해 달라는 요청이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'change my room'은 현재 배정된 방을 다른 방으로 바꿔달라는 요청입니다. 청소를 요청할 때는 'housekeeping service' 또는 'clean my room'을 씁니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch11_set08_001",
+          "type": "multiple_choice",
+          "question": "수건이 객실로 배달된다고 표현할 때 'sent up'과 같은 의미로 쓸 수 있는 표현은?",
+          "options": [
+            "delivered to my room",
+            "picked up from the front desk",
+            "dropped off at the lobby",
+            "left at the door downstairs"
+          ],
+          "answerIndex": 0,
+          "explanation": "'delivered to my room'은 수건을 객실로 배달해 준다는 표현으로, 'sent up to my room'과 같은 의미입니다. 'delivered'는 배달·전달의 느낌을 주며 'sent up'과 혼용 가능합니다."
+        },
+        {
+          "id": "se_ch11_set08_002",
+          "type": "multiple_choice",
+          "question": "청소 예약을 내일로 미뤄달라는 손님의 요청에 직원이 동의를 표현하는 말은?",
+          "options": [
+            "Understood.",
+            "No problem at all.",
+            "That's fine.",
+            "Shall we do it now instead?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Understood.'는 손님의 요청을 이해하고 수락했다는 격식 있는 표현입니다. 'I understand'의 축약형으로 직원이 지시나 요청을 확인할 때 씁니다."
+        },
+        {
+          "id": "se_ch11_set08_003",
+          "type": "multiple_choice",
+          "question": "에어컨 수리를 위해 기술자를 보내겠다는 직원의 표현은?",
+          "options": [
+            "I'll send a technician up right away.",
+            "I'll call an engineer tomorrow.",
+            "I'll fix the AC myself.",
+            "I'll bring you a fan."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll send a technician up right away.'는 기술자를 즉시 올려보내겠다는 표현입니다. 'technician'은 기술자를 의미하며 'right away'는 즉시라는 뜻입니다."
+        },
+        {
+          "id": "se_ch11_set08_004",
+          "type": "multiple_choice",
+          "question": "수도꼭지를 열어 물을 흐르게 한다는 뜻으로 'running water'와 비슷한 표현은?",
+          "options": [
+            "having the tap on",
+            "opening the drain",
+            "turning on the heater",
+            "starting the boiler"
+          ],
+          "answerIndex": 0,
+          "explanation": "'having the tap on'은 수도꼭지를 열어 물을 틀어 놓은 상태를 의미합니다. 'I've had the tap on for ten minutes.'는 수도를 10분째 틀어두고 있다는 의미로 'running it'과 같은 뜻입니다."
+        },
+        {
+          "id": "se_ch11_set08_005",
+          "type": "multiple_choice",
+          "question": "와이파이를 모두 해봐도 연결이 안 된다며 강하게 해결을 요청할 때 쓸 수 있는 표현은?",
+          "options": [
+            "I've tried everything I can think of.",
+            "I don't know what to do.",
+            "Maybe I'll just use mobile data.",
+            "The Wi-Fi never works here."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I've tried everything I can think of.'는 할 수 있는 건 다 해봤다는 표현으로, 더 강하게 도움을 요청하는 뉘앙스입니다. 직원에게 이미 최선을 다했음을 알릴 때 효과적입니다."
+        },
+        {
+          "id": "se_ch11_set08_006",
+          "type": "multiple_choice",
+          "question": "소음이 직접적으로 옆방에서 난다고 표현할 때 'next door'의 의미는?",
+          "options": [
+            "바로 옆에 있는 방",
+            "아래층 방",
+            "위층 방",
+            "복도 끝 방"
+          ],
+          "answerIndex": 0,
+          "explanation": "'next door'는 바로 옆에 있는 방이나 건물을 의미합니다. 'The guests next door'는 바로 옆방 손님을 가리킵니다."
+        },
+        {
+          "id": "se_ch11_set08_007",
+          "type": "multiple_choice",
+          "question": "룸서비스 음식값을 나중에 방 계산서와 함께 결제하는 방식을 가리키는 표현은?",
+          "options": [
+            "charge it to your room",
+            "pay in advance",
+            "settle with cash only",
+            "use a separate card"
+          ],
+          "answerIndex": 0,
+          "explanation": "'charge it to your room'은 비용을 객실 계산서에 청구해 체크아웃 시 한꺼번에 정산하는 방식을 말합니다. 호텔에서 룸서비스, 미니바 등 추가 서비스 이용 후 결제 방식으로 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch11_set08_008",
+          "type": "multiple_choice",
+          "question": "오전 6시 30분 모닝콜을 204호로 예약했다는 사실을 직원이 확인하며 말하는 표현은?",
+          "options": [
+            "Wake-up call at 6:30 AM for room 204.",
+            "I'll call room 204 at 6:30 PM.",
+            "Room 204 wake-up is at 7 AM.",
+            "Your call is scheduled for 6 AM."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Wake-up call at 6:30 AM for room 204.'는 모닝콜 내용을 확인하며 정리하는 직원의 표현입니다. 시간(6:30 AM)과 방 번호(room 204)를 명시해 오해가 없도록 합니다."
+        },
+        {
+          "id": "se_ch11_set08_009",
+          "type": "multiple_choice",
+          "question": "미니바 항목의 환불을 계정에 적립해 준다는 표현은?",
+          "options": [
+            "credit it back to your account",
+            "add it to your next bill",
+            "give you a voucher instead",
+            "deduct it from your deposit"
+          ],
+          "answerIndex": 0,
+          "explanation": "'credit it back to your account'는 환불 개념으로 해당 금액을 계정에 다시 적립해 준다는 표현입니다. 'credit back'은 반환·환급을 의미합니다."
+        },
+        {
+          "id": "se_ch11_set08_010",
+          "type": "multiple_choice",
+          "question": "도로 소음 때문에 잠을 전혀 자지 못했다고 말하는 과거형 표현은?",
+          "options": [
+            "I couldn't sleep at all last night.",
+            "I didn't want to sleep last night.",
+            "The noise made me sleep early.",
+            "I slept but heard the noise."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I couldn't sleep at all last night.'는 어젯밤에 전혀 잠을 못 잤다는 과거형 표현입니다. 'couldn't sleep at all'은 수면이 전혀 불가능했다는 의미를 강조합니다."
+        },
+        {
+          "id": "se_ch11_set08_011",
+          "type": "ox",
+          "question": "호텔에서 'technician'은 객실 청소 직원을 가리킨다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'technician'은 기술자를 의미합니다. 에어컨·배관 등 시설 수리를 위해 보내는 전문 기술 인력입니다. 객실 청소 직원은 'housekeeping staff' 또는 'housekeeper'라고 합니다."
+        },
+        {
+          "id": "se_ch11_set08_012",
+          "type": "ox",
+          "question": "'in a few minutes'는 몇 분 후를 의미하며, 직원이 와이파이 복구 후 재연결을 안내할 때 쓸 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'in a few minutes'는 잠시 후, 몇 분 내에라는 뜻입니다. 'Please try reconnecting in a few minutes.'처럼 서비스 복구 후 재시도를 안내하는 상황에서 자연스럽게 사용됩니다."
+        },
+        {
+          "id": "se_ch11_set08_013",
+          "type": "ox",
+          "question": "'I'd like to report a noise complaint.'에서 'report a complaint'는 불만을 공식적으로 접수한다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'report a complaint'는 불만 사항을 공식적으로 프런트에 접수하는 표현입니다. 단순히 불편함을 표현하는 것보다 더 공식적인 뉘앙스가 있습니다."
+        },
+        {
+          "id": "se_ch11_set08_014",
+          "type": "ox",
+          "question": "미니바 음료를 실수로 사용한 경우, 호텔 직원에게 알리면 청구서에서 삭제해 줄 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 많은 호텔에서 미니바 품목을 실수로 사용했을 경우 직원에게 알리면 청구서에서 삭제해 주는 서비스를 제공합니다. 'We can remove it from your bill if it was a mistake.'라는 표현처럼 호텔 정책으로 안내됩니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch11_set09_001",
+          "type": "multiple_choice",
+          "question": "수건을 세 장 더 달라고 구체적으로 말할 때 자연스러운 표현은?",
+          "options": [
+            "Three more, please.",
+            "Give me three towels.",
+            "I want exactly three towels.",
+            "Towels, three pieces."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Three more, please.'는 수량과 'please'만으로 간결하고 정중하게 요청하는 표현입니다. 앞서 수건을 요청하는 맥락이 있다면 이 표현으로 수량을 명확히 전달할 수 있습니다."
+        },
+        {
+          "id": "se_ch11_set09_002",
+          "type": "multiple_choice",
+          "question": "청소 예약을 내일 오전으로 바꿔달라는 손님의 요청에 직원이 제안하는 표현은?",
+          "options": [
+            "Shall we schedule housekeeping for tomorrow instead?",
+            "Let me reschedule your checkout.",
+            "Tomorrow is too late for housekeeping.",
+            "We'll do it first thing in the morning."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Shall we schedule housekeeping for tomorrow instead?'는 청소를 내일로 미루는 것을 직원이 제안하는 표현입니다. 'Shall we ~?'는 제안할 때 쓰는 격식 있는 표현입니다."
+        },
+        {
+          "id": "se_ch11_set09_003",
+          "type": "multiple_choice",
+          "question": "에어컨이 켜지는지, 아니면 켜져도 시원하지 않은지를 직원이 확인할 때 쓰는 표현은?",
+          "options": [
+            "Is it not turning on, or is it on but not cooling?",
+            "Is the AC remote missing?",
+            "Did you set the temperature correctly?",
+            "Is the AC making a noise?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is it not turning on, or is it on but not cooling?'는 두 가지 고장 유형(켜지지 않음 / 켜져도 냉방 안 됨)을 구분해 확인하는 직원의 표현입니다. 문제를 정확히 파악하기 위한 질문입니다."
+        },
+        {
+          "id": "se_ch11_set09_004",
+          "type": "multiple_choice",
+          "question": "온수 문제로 즉시 보고하겠다는 직원의 표현으로 가장 적절한 것은?",
+          "options": [
+            "I'll report it to maintenance immediately.",
+            "I'll send you a new shower.",
+            "I'll have the water turned off.",
+            "I'll call the plumber next week."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll report it to maintenance immediately.'는 수리 담당 부서에 즉시 보고하겠다는 표현입니다. 'immediately'는 격식 있는 즉시 표현으로 손님에게 신속 처리를 약속하는 뉘앙스입니다."
+        },
+        {
+          "id": "se_ch11_set09_005",
+          "type": "multiple_choice",
+          "question": "와이파이를 두 번 재시작했다고 말하는 표현은?",
+          "options": [
+            "I've restarted it twice.",
+            "I restarted my phone two times ago.",
+            "I tried restarting once.",
+            "The restart didn't work twice."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I've restarted it twice.'는 기기를 두 번 재시작했다는 현재완료 표현입니다. 현재완료를 사용해 이미 두 번의 시도를 했음을 직원에게 전달합니다."
+        },
+        {
+          "id": "se_ch11_set09_006",
+          "type": "multiple_choice",
+          "question": "소음을 낮춰달라고 다른 손님에게 요청하는 또 다른 표현은?",
+          "options": [
+            "Ask them to be quieter.",
+            "Tell them to go to bed.",
+            "Move them to another floor.",
+            "Inform them about checkout time."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Ask them to be quieter.'는 소리를 낮춰달라는 직관적인 표현입니다. 'keep it down'과 같은 의미로, 직원이 다른 손님에게 조용히 해달라고 부탁할 때 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch11_set09_007",
+          "type": "multiple_choice",
+          "question": "룸서비스를 주문할 때 'I'd like to order ~' 외에 쓸 수 있는 표현은?",
+          "options": [
+            "Can I get room service?",
+            "Food, please.",
+            "Send something to eat.",
+            "Room 305 wants food."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get room service?'는 룸서비스 이용 가능 여부를 캐주얼하게 묻거나 주문을 시작할 때 쓰는 표현입니다. 'I'd like to order ~'보다 가벼운 뉘앙스이지만 자연스럽게 쓰입니다."
+        },
+        {
+          "id": "se_ch11_set09_008",
+          "type": "multiple_choice",
+          "question": "비행기 시간을 직접 알려주며 모닝콜 필요성을 설명하는 표현은?",
+          "options": [
+            "My flight is at 8 AM.",
+            "I have to be at the airport.",
+            "I'm taking the first flight tomorrow.",
+            "I need to wake up for a flight."
+          ],
+          "answerIndex": 0,
+          "explanation": "'My flight is at 8 AM.'은 비행기 출발 시간을 직접 알려주며 모닝콜이 필요한 이유를 설명하는 표현입니다. 구체적인 시간을 언급해 상황을 더 명확하게 전달합니다."
+        },
+        {
+          "id": "se_ch11_set09_009",
+          "type": "multiple_choice",
+          "question": "미니바가 무료인지 묻는 표현 중 'free of charge'를 사용한 것은?",
+          "options": [
+            "Is it free of charge?",
+            "Is the minibar complimentary?",
+            "Do I pay for the minibar?",
+            "Is the minibar included in my room rate?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is it free of charge?'는 'free of charge'(무료)를 사용해 미니바 이용료가 없는지 묻는 표현입니다. 'complimentary'와 같은 의미이지만 더 직접적인 표현입니다."
+        },
+        {
+          "id": "se_ch11_set09_010",
+          "type": "multiple_choice",
+          "question": "방을 바꾸고 싶다고 요청할 때 'I'd like to change my room.' 외에 쓸 수 있는 대안 표현은?",
+          "options": [
+            "Could I switch to a different room?",
+            "I need a better hotel.",
+            "Can you renovate my room?",
+            "Upgrade my room for free."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could I switch to a different room?'는 방 변경을 정중하게 요청하는 또 다른 표현입니다. 'switch'는 바꾸다는 뜻으로 방 변경 요청에 자연스럽게 쓰입니다."
+        },
+        {
+          "id": "se_ch11_set09_011",
+          "type": "ox",
+          "question": "에어컨 'isn't working'과 'is broken'은 둘 다 고장 신고에 쓸 수 있지만, 'is broken'이 더 완전한 고장 상태를 나타낸다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'isn't working'은 현재 작동하지 않는다는 상태를, 'is broken'은 물리적으로 파손·고장된 상태를 더 강하게 나타냅니다. 두 표현 모두 고장 신고에 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch11_set09_012",
+          "type": "ox",
+          "question": "'I've been running it for ten minutes.'에서 현재완료 진행형을 쓴 이유는 물을 틀어놓고 10분째 기다리는 상황이 지금도 계속되고 있음을 강조하기 때문이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 현재완료 진행형 'have been + -ing'은 과거에 시작해 현재까지 계속되는 행동을 나타냅니다. 'I've been running it for ten minutes.'는 10분째 계속 물을 틀어두고 있다는 상황을 효과적으로 표현합니다."
+        },
+        {
+          "id": "se_ch11_set09_013",
+          "type": "ox",
+          "question": "호텔에서 'concierge'는 룸서비스나 청소를 직접 담당하는 부서이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'concierge'는 호텔 안내 서비스 부서로, 관광 정보, 예약 대행, 교통 안내 등을 담당합니다. 룸서비스는 'room service' 부서, 청소는 'housekeeping'이 담당합니다."
+        },
+        {
+          "id": "se_ch11_set09_014",
+          "type": "ox",
+          "question": "'The noise has been keeping me up.'에서 'keep someone up'은 잠을 못 자게 한다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'keep someone up'은 누군가를 밤새 깨어 있게 만든다, 잠을 못 자게 한다는 뜻의 관용 표현입니다. 소음이나 걱정 등으로 수면을 방해하는 상황을 설명할 때 씁니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch11_set10_001",
+          "type": "multiple_choice",
+          "question": "호텔 직원이 물건을 즉시 올려보내겠다고 답할 때 'right away'와 비슷한 뜻의 표현은?",
+          "options": [
+            "in just a moment",
+            "as soon as possible",
+            "later today",
+            "within the hour"
+          ],
+          "answerIndex": 0,
+          "explanation": "'in just a moment'은 '잠시 후 바로'라는 표현으로 'right away'(즉시)와 비슷한 뉘앙스입니다. 'right away'보다 조금 더 부드럽게 빠른 처리를 약속하는 표현입니다."
+        },
+        {
+          "id": "se_ch11_set10_002",
+          "type": "multiple_choice",
+          "question": "오늘 청소 서비스가 필요 없고 내일로 연기해 달라고 할 때 'I'd prefer ~'를 사용한 표현은?",
+          "options": [
+            "I'd prefer no housekeeping service today.",
+            "I'd rather have cleaning tonight.",
+            "I prefer to clean my room myself.",
+            "I'd like housekeeping right now."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd prefer no housekeeping service today.'는 오늘 청소 서비스를 원하지 않는다는 표현을 'prefer'로 부드럽게 전달합니다. 'prefer'는 어떤 것을 더 선호한다는 의미로 거절을 완화합니다."
+        },
+        {
+          "id": "se_ch11_set10_003",
+          "type": "multiple_choice",
+          "question": "에어컨 고장을 신고할 때 'broken'과 'isn't working' 외에 쓸 수 있는 표현은?",
+          "options": [
+            "There's something wrong with the air conditioner.",
+            "The air conditioner needs cleaning.",
+            "The AC filter is dirty.",
+            "I think I broke the AC."
+          ],
+          "answerIndex": 0,
+          "explanation": "'There's something wrong with the air conditioner.'은 문제가 있다고 알리는 표현으로, 정확한 원인을 모를 때도 사용할 수 있습니다. 'something wrong with ~'는 어떤 것에 문제가 있다는 뜻입니다."
+        },
+        {
+          "id": "se_ch11_set10_004",
+          "type": "multiple_choice",
+          "question": "10분째 온수가 안 나와 수리 담당자를 불러달라는 상황에서 가장 적절한 두 표현의 조합은?",
+          "options": [
+            "There's no hot water. / I'll report it to maintenance.",
+            "The shower is noisy. / I'll fix it myself.",
+            "The cold water is fine. / Please check the pipes.",
+            "I need hot water. / The heater is too hot."
+          ],
+          "answerIndex": 0,
+          "explanation": "'There's no hot water.'는 온수 부재 신고 표현이고, 'I'll report it to maintenance.'는 직원이 수리 담당 부서에 보고하겠다는 표현입니다. 두 표현이 온수 문제 대화에서 자연스럽게 이어집니다."
+        },
+        {
+          "id": "se_ch11_set10_005",
+          "type": "multiple_choice",
+          "question": "와이파이 서비스가 곧 복구될 것이라는 표현에서 'back up'의 의미는?",
+          "options": [
+            "서비스가 다시 정상 작동된다",
+            "데이터를 백업한다",
+            "라우터를 뒤로 이동한다",
+            "연결 속도가 빨라진다"
+          ],
+          "answerIndex": 0,
+          "explanation": "'back up'은 시스템이나 서비스가 다시 정상화된다는 뜻입니다. 'It should be back up shortly.'는 서비스가 곧 다시 복구될 것이라는 의미입니다. 'back up a file'(파일 백업)의 'back up'과는 다른 용법입니다."
+        },
+        {
+          "id": "se_ch11_set10_006",
+          "type": "multiple_choice",
+          "question": "소음 항의 시 더 직접적으로 불만을 표현하는 표현은?",
+          "options": [
+            "I need to complain about the noise.",
+            "Could you lower the volume?",
+            "There might be some noise next door.",
+            "I think the guests are a bit loud."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need to complain about the noise.'는 소음에 대해 직접 불만을 표현하는 표현으로, 'I'd like to report a noise complaint.'보다 더 직접적이고 강경한 뉘앙스입니다."
+        },
+        {
+          "id": "se_ch11_set10_007",
+          "type": "multiple_choice",
+          "question": "룸서비스 주문 금액을 체크아웃 계산서와 합산하는 방식의 영어 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Shall we add the charge to your room bill?",
+            "Do you want to pay by card?",
+            "Should we send you an invoice?",
+            "Will you settle this at the bar?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Shall we add the charge to your room bill?'은 직원이 비용을 방 계산서에 추가할지 묻는 표현입니다. 'add the charge to your room bill'은 체크아웃 시 합산 결제를 제안하는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch11_set10_008",
+          "type": "multiple_choice",
+          "question": "조기 체크아웃을 위해 일찍 일어나야 한다고 설명할 때 쓸 수 있는 표현은?",
+          "options": [
+            "I need to check out early.",
+            "My checkout is at noon.",
+            "I want to extend my stay.",
+            "I'll leave whenever I want."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need to check out early.'는 조기 체크아웃을 해야 한다는 표현으로, 모닝콜 요청 시 이유 설명으로 사용할 수 있습니다. 'check out'은 호텔에서 퇴실하는 것을 의미합니다."
+        },
+        {
+          "id": "se_ch11_set10_009",
+          "type": "multiple_choice",
+          "question": "미니바 항목의 가격을 어디서 확인할 수 있는지 묻는 손님과 답하는 직원의 대화에서 직원의 표현은?",
+          "options": [
+            "The price list is inside the fridge door.",
+            "The prices are in the menu book.",
+            "Check the TV channel for pricing.",
+            "Ask the concierge for a price list."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The price list is inside the fridge door.'는 냉장고 문 안쪽에 가격표가 있다고 안내하는 표현입니다. 많은 호텔에서 미니바 냉장고 문 안쪽에 가격표를 부착해 놓습니다."
+        },
+        {
+          "id": "se_ch11_set10_010",
+          "type": "multiple_choice",
+          "question": "난방이 안 되고 도로 소음이 심하다는 두 가지 문제를 동시에 설명할 때 쓸 수 있는 표현은?",
+          "options": [
+            "The heating isn't working and it's very noisy from the street.",
+            "My room is too cold and I can't find the heater.",
+            "There's noise outside and the window won't close.",
+            "The street is loud only at night and the heater makes noise."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The heating isn't working and it's very noisy from the street.'는 난방 고장과 도로 소음이라는 두 가지 문제를 하나의 문장으로 설명하는 표현입니다. 'and'로 두 문제를 연결해 방 변경 요청의 이유를 명확히 합니다."
+        },
+        {
+          "id": "se_ch11_set10_011",
+          "type": "ox",
+          "question": "호텔에서 'front desk'는 프런트 데스크, 즉 안내·접수 데스크를 뜻하며 housekeeping과 같은 부서이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'front desk'는 호텔 로비의 접수 및 안내를 담당하는 부서이고, 'housekeeping'은 객실 청소를 담당하는 별도의 부서입니다. 두 부서는 역할이 다릅니다."
+        },
+        {
+          "id": "se_ch11_set10_012",
+          "type": "ox",
+          "question": "'I'd like to change my room.'과 'Could I switch to a different room?'은 모두 방 변경을 요청하는 표현으로 사용할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 두 표현 모두 방 변경을 정중하게 요청하는 표현으로 사용할 수 있습니다. 'I'd like to change ~'는 원하는 것을 직접 말하는 방식이고, 'Could I switch ~?'는 가능한지 물어보는 방식입니다."
+        },
+        {
+          "id": "se_ch11_set10_013",
+          "type": "ox",
+          "question": "'Apologies for the inconvenience.'는 직원이 아닌 손님이 직원에게 불편을 드렸을 때 사용하는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'Apologies for the inconvenience.'는 주로 직원이나 호텔 측이 손님에게 불편을 드려 죄송하다고 사과할 때 사용하는 격식 있는 표현입니다. 손님이 직원에게 쓰는 표현이 아닙니다."
+        },
+        {
+          "id": "se_ch11_set10_014",
+          "type": "ox",
+          "question": "'The Wi-Fi keeps disconnecting.'과 'The Wi-Fi keeps dropping.'은 와이파이 연결이 반복적으로 끊긴다는 같은 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'keeps dropping'과 'keeps disconnecting' 모두 와이파이 연결이 반복적으로 끊기는 상황을 표현합니다. 'drop'과 'disconnect'는 연결이 끊기다는 같은 의미로 혼용 가능합니다."
         }
       ]
     }

@@ -7,34 +7,68 @@
       "id": "ch32_d01",
       "title": "입장권·1일 패스 구매하기",
       "lines": [
-        { "speaker": "나", "en": "Hi, I'd like two adult tickets and one child ticket for today, please.", "ko": "안녕하세요, 오늘 어른 두 장과 어린이 한 장 주세요." },
-        { "speaker": "직원", "en": "Sure! For the child, is she under three? Under-threes get in free.", "ko": "네! 아이가 세 살 미만인가요? 세 살 미만은 무료 입장이에요." },
-        { "speaker": "나", "en": "She's four, so she'll need a child ticket.", "ko": "네 살이라 어린이 티켓이 필요하겠네요." },
-        { "speaker": "직원", "en": "That's €185 in total. Will you be paying by card?", "ko": "총 185유로입니다. 카드로 결제하시겠어요?" }
+        {
+          "speaker": "나",
+          "en": "Hi, I'd like two adult tickets and one child ticket for today, please.",
+          "ko": "안녕하세요, 오늘 어른 두 장과 어린이 한 장 주세요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Sure! For the child, is she under three? Under-threes get in free.",
+          "ko": "네! 아이가 세 살 미만인가요? 세 살 미만은 무료 입장이에요."
+        },
+        {
+          "speaker": "나",
+          "en": "She's four, so she'll need a child ticket.",
+          "ko": "네 살이라 어린이 티켓이 필요하겠네요."
+        },
+        {
+          "speaker": "직원",
+          "en": "That's €185 in total. Will you be paying by card?",
+          "ko": "총 185유로입니다. 카드로 결제하시겠어요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'd like two adult tickets and one child ticket.",
           "ko": "입장권을 살 때 가장 기본적인 표현. 'I want ~'보다 'I'd like ~'가 더 공손하게 들림. 어른은 adult, 어린이는 child 또는 junior로 말하면 됨.",
           "alternatives": [
-            { "en": "Can I get a one-day pass for two adults?", "ko": "1일 패스를 요청하는 자연스러운 표현. 'one-day pass'는 1일권을 뜻함." },
-            { "en": "Two adult tickets, please.", "ko": "가장 간결하게 티켓 수량만 말하는 방식." }
+            {
+              "en": "Can I get a one-day pass for two adults?",
+              "ko": "1일 패스를 요청하는 자연스러운 표현. 'one-day pass'는 1일권을 뜻함."
+            },
+            {
+              "en": "Two adult tickets, please.",
+              "ko": "가장 간결하게 티켓 수량만 말하는 방식."
+            }
           ]
         },
         {
           "en": "Under-threes get in free.",
           "ko": "'Under-three(s)'는 세 살 미만을 뜻함. 'three and under'라고도 말함. 놀이공원마다 무료 입장 연령 기준이 다르므로 확인이 필요함.",
           "alternatives": [
-            { "en": "Children under three are admitted free.", "ko": "더 격식 있는 표현으로 안내문이나 공식 안내에 자주 등장함." },
-            { "en": "Kids aged two and below don't need a ticket.", "ko": "'two and below(두 살 이하)'로 나이 기준을 표현하는 방식." }
+            {
+              "en": "Children under three are admitted free.",
+              "ko": "더 격식 있는 표현으로 안내문이나 공식 안내에 자주 등장함."
+            },
+            {
+              "en": "Kids aged two and below don't need a ticket.",
+              "ko": "'two and below(두 살 이하)'로 나이 기준을 표현하는 방식."
+            }
           ]
         },
         {
           "en": "Will you be paying by card?",
           "ko": "카드로 결제할지 묻는 직원의 표현. 'by card(카드로)', 'in cash(현금으로)', 'by contactless(비접촉식으로)'처럼 결제 수단을 전치사 by/in으로 구분함.",
           "alternatives": [
-            { "en": "Cash or card?", "ko": "가장 짧고 흔하게 쓰는 결제 수단 확인 표현." },
-            { "en": "How would you like to pay?", "ko": "결제 방법을 묻는 가장 일반적인 오픈 질문 형태." }
+            {
+              "en": "Cash or card?",
+              "ko": "가장 짧고 흔하게 쓰는 결제 수단 확인 표현."
+            },
+            {
+              "en": "How would you like to pay?",
+              "ko": "결제 방법을 묻는 가장 일반적인 오픈 질문 형태."
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch32_d02",
       "title": "놀이기구 키 제한 확인하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, is there a height requirement for this ride?", "ko": "실례합니다, 이 놀이기구에 키 제한이 있나요?" },
-        { "speaker": "직원", "en": "Yes, riders must be at least 102 centimeters tall.", "ko": "네, 탑승자는 최소 102센티미터 이상이어야 합니다." },
-        { "speaker": "나", "en": "My son is about 98 centimeters. Can he still ride?", "ko": "아들이 약 98센티미터인데요. 그래도 탈 수 있나요?" },
-        { "speaker": "직원", "en": "I'm afraid not. He'll need to be 102 cm to ride safely.", "ko": "죄송하지만 안전하게 타려면 102센티미터여야 합니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, is there a height requirement for this ride?",
+          "ko": "실례합니다, 이 놀이기구에 키 제한이 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, riders must be at least 102 centimeters tall.",
+          "ko": "네, 탑승자는 최소 102센티미터 이상이어야 합니다."
+        },
+        {
+          "speaker": "나",
+          "en": "My son is about 98 centimeters. Can he still ride?",
+          "ko": "아들이 약 98센티미터인데요. 그래도 탈 수 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "I'm afraid not. He'll need to be 102 cm to ride safely.",
+          "ko": "죄송하지만 안전하게 타려면 102센티미터여야 합니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is there a height requirement for this ride?",
           "ko": "'height requirement'는 탑승 가능한 최소 키 조건을 뜻하는 핵심 단어. '키 제한'이라고 직역해 'height limit'이라고 하기 쉽지만, 실제로는 'height requirement' 또는 'minimum height'가 더 정확한 표현임.",
           "alternatives": [
-            { "en": "What is the minimum height for this ride?", "ko": "'minimum height(최소 키)'로 직접 묻는 방법. 숫자를 바로 알 수 있어 실용적임." },
-            { "en": "Does my child need to be a certain height?", "ko": "아이가 키 기준을 만족해야 하는지 부드럽게 확인하는 표현." }
+            {
+              "en": "What is the minimum height for this ride?",
+              "ko": "'minimum height(최소 키)'로 직접 묻는 방법. 숫자를 바로 알 수 있어 실용적임."
+            },
+            {
+              "en": "Does my child need to be a certain height?",
+              "ko": "아이가 키 기준을 만족해야 하는지 부드럽게 확인하는 표현."
+            }
           ]
         },
         {
           "en": "Riders must be at least 102 centimeters tall.",
           "ko": "'at least(최소)'는 그 수치 이상을 의미함. 'at most'는 반대로 '최대'를 뜻함. 놀이기구 안내판에 'Must be this tall to ride'처럼 그림으로 표시하기도 함.",
           "alternatives": [
-            { "en": "The minimum height is 102 cm.", "ko": "가장 간단하게 최소 키를 명시하는 표현." },
-            { "en": "You have to be at least 102 cm to get on.", "ko": "'get on(탑승하다)'을 사용해 탑승 가능 조건을 설명하는 방식." }
+            {
+              "en": "The minimum height is 102 cm.",
+              "ko": "가장 간단하게 최소 키를 명시하는 표현."
+            },
+            {
+              "en": "You have to be at least 102 cm to get on.",
+              "ko": "'get on(탑승하다)'을 사용해 탑승 가능 조건을 설명하는 방식."
+            }
           ]
         },
         {
           "en": "I'm afraid not.",
           "ko": "부정적인 소식을 전할 때 쓰는 정중한 표현. 단순히 'No.'라고 하는 것보다 훨씬 부드럽게 거절하거나 불가함을 알릴 수 있음. 'I'm afraid so.'는 반대로 '유감이지만 그렇습니다'라는 뜻.",
           "alternatives": [
-            { "en": "Unfortunately, no.", "ko": "안타깝게도 안 된다는 표현. 유감스러운 상황을 전달할 때 적합." },
-            { "en": "I'm sorry, but he doesn't meet the requirement.", "ko": "조건을 충족하지 못한다고 구체적으로 설명하는 표현." }
+            {
+              "en": "Unfortunately, no.",
+              "ko": "안타깝게도 안 된다는 표현. 유감스러운 상황을 전달할 때 적합."
+            },
+            {
+              "en": "I'm sorry, but he doesn't meet the requirement.",
+              "ko": "조건을 충족하지 못한다고 구체적으로 설명하는 표현."
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch32_d03",
       "title": "패스트패스·놀이기구 시간 예약하기",
       "lines": [
-        { "speaker": "나", "en": "How do I use the Lightning Lane for this attraction?", "ko": "이 어트랙션 라이트닝 레인은 어떻게 사용하나요?" },
-        { "speaker": "직원", "en": "You can book a ride time through the app. Select the ride and choose a one-hour window.", "ko": "앱에서 놀이기구 시간을 예약하시면 됩니다. 원하는 1시간 슬롯을 선택하세요." },
-        { "speaker": "나", "en": "Can I book a fast pass right now for the 3 o'clock slot?", "ko": "지금 3시 슬롯으로 패스트패스를 예약할 수 있나요?" },
-        { "speaker": "직원", "en": "Yes, the 3:00–4:00 slot is still available. I'll add it to your pass.", "ko": "네, 3시~4시 슬롯이 아직 있습니다. 패스에 추가해 드리겠습니다." }
+        {
+          "speaker": "나",
+          "en": "How do I use the Lightning Lane for this attraction?",
+          "ko": "이 어트랙션 라이트닝 레인은 어떻게 사용하나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "You can book a ride time through the app. Select the ride and choose a one-hour window.",
+          "ko": "앱에서 놀이기구 시간을 예약하시면 됩니다. 원하는 1시간 슬롯을 선택하세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Can I book a fast pass right now for the 3 o'clock slot?",
+          "ko": "지금 3시 슬롯으로 패스트패스를 예약할 수 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, the 3:00–4:00 slot is still available. I'll add it to your pass.",
+          "ko": "네, 3시~4시 슬롯이 아직 있습니다. 패스에 추가해 드리겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "How do I use the Lightning Lane for this attraction?",
           "ko": "패스트패스 계열 서비스는 공원마다 이름이 다름. 디즈니는 'Lightning Lane', 유니버설은 'Express Pass', 유로파 파크는 'Fast Lane'이라고 함. 총칭해서 'fast pass'라고 물어도 대부분 이해함.",
           "alternatives": [
-            { "en": "How does the fast pass work here?", "ko": "패스트패스 이용 방법을 가장 간단하게 묻는 표현." },
-            { "en": "Can I reserve a ride time in advance?", "ko": "사전에 시간을 예약할 수 있는지 묻는 표현. 'reserve(예약하다)'와 'in advance(미리)'가 핵심." }
+            {
+              "en": "How does the fast pass work here?",
+              "ko": "패스트패스 이용 방법을 가장 간단하게 묻는 표현."
+            },
+            {
+              "en": "Can I reserve a ride time in advance?",
+              "ko": "사전에 시간을 예약할 수 있는지 묻는 표현. 'reserve(예약하다)'와 'in advance(미리)'가 핵심."
+            }
           ]
         },
         {
           "en": "You can book a ride time through the app.",
           "ko": "'book(예약하다)'과 'reserve'는 둘 다 예약을 뜻하지만, 시간대·슬롯 예약에는 'book a time slot'이 더 자연스러움. 최근 많은 공원이 공식 앱으로만 예약 가능하게 바뀌고 있으므로 앱 설치를 미리 해두는 것이 좋음.",
           "alternatives": [
-            { "en": "Use the app to reserve your entry window.", "ko": "입장 시간대를 예약하라는 표현. 'entry window'는 지정된 입장 시간 구간을 뜻함." },
-            { "en": "Download the park app and select a time slot.", "ko": "앱을 다운받아 시간 슬롯을 선택하라는 구체적인 안내." }
+            {
+              "en": "Use the app to reserve your entry window.",
+              "ko": "입장 시간대를 예약하라는 표현. 'entry window'는 지정된 입장 시간 구간을 뜻함."
+            },
+            {
+              "en": "Download the park app and select a time slot.",
+              "ko": "앱을 다운받아 시간 슬롯을 선택하라는 구체적인 안내."
+            }
           ]
         },
         {
           "en": "The 3:00–4:00 slot is still available.",
           "ko": "'slot'은 정해진 시간 구간을 뜻함. 'still available(아직 이용 가능한)'은 자리나 시간이 남아있다는 표현. 반대로 다 찼을 때는 'fully booked' 또는 'sold out'이라고 함.",
           "alternatives": [
-            { "en": "That time window is open.", "ko": "해당 시간대가 열려 있다(예약 가능하다)는 표현." },
-            { "en": "There are still spots for the 3 o'clock session.", "ko": "'spots(자리)'를 써서 잔여 자리가 있음을 표현하는 방식." }
+            {
+              "en": "That time window is open.",
+              "ko": "해당 시간대가 열려 있다(예약 가능하다)는 표현."
+            },
+            {
+              "en": "There are still spots for the 3 o'clock session.",
+              "ko": "'spots(자리)'를 써서 잔여 자리가 있음을 표현하는 방식."
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch32_d04",
       "title": "유모차 대여하기",
       "lines": [
-        { "speaker": "나", "en": "Hi, I'd like to rent a stroller for the day, please.", "ko": "안녕하세요, 오늘 하루 유모차를 빌리고 싶어요." },
-        { "speaker": "직원", "en": "Of course. We have single and double strollers. Which would you like?", "ko": "물론이죠. 1인용과 2인용이 있습니다. 어떤 것으로 하시겠어요?" },
-        { "speaker": "나", "en": "A single stroller, please. How much is it?", "ko": "1인용으로 주세요. 얼마인가요?" },
-        { "speaker": "직원", "en": "It's €15 for the day. I'll need a credit card as a deposit.", "ko": "하루에 15유로입니다. 보증금으로 신용카드가 필요합니다." }
+        {
+          "speaker": "나",
+          "en": "Hi, I'd like to rent a stroller for the day, please.",
+          "ko": "안녕하세요, 오늘 하루 유모차를 빌리고 싶어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Of course. We have single and double strollers. Which would you like?",
+          "ko": "물론이죠. 1인용과 2인용이 있습니다. 어떤 것으로 하시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "A single stroller, please. How much is it?",
+          "ko": "1인용으로 주세요. 얼마인가요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "It's €15 for the day. I'll need a credit card as a deposit.",
+          "ko": "하루에 15유로입니다. 보증금으로 신용카드가 필요합니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'd like to rent a stroller for the day.",
           "ko": "'stroller'는 미국식 영어이고 영국식은 'pushchair' 또는 'buggy'라고 함. 유럽 공원에서는 둘 다 통하지만 'stroller'가 가장 무난함. 'for the day'는 '하루 동안'이라는 뜻.",
           "alternatives": [
-            { "en": "Can I hire a pushchair?", "ko": "영국식 표현으로 'hire(빌리다)'와 'pushchair(유모차)'를 사용한 버전." },
-            { "en": "Do you have strollers for rent?", "ko": "대여 가능한 유모차가 있는지 먼저 확인하는 표현." }
+            {
+              "en": "Can I hire a pushchair?",
+              "ko": "영국식 표현으로 'hire(빌리다)'와 'pushchair(유모차)'를 사용한 버전."
+            },
+            {
+              "en": "Do you have strollers for rent?",
+              "ko": "대여 가능한 유모차가 있는지 먼저 확인하는 표현."
+            }
           ]
         },
         {
           "en": "We have single and double strollers.",
           "ko": "'single stroller'는 1인용, 'double stroller'는 아이 두 명이 탈 수 있는 2인용을 뜻함. 어린 아이가 두 명 있는 경우 'double'이 필요한지 미리 확인하는 것이 좋음.",
           "alternatives": [
-            { "en": "We offer both single and twin buggies.", "ko": "영국식으로 'twin buggy'를 쓴 2인용 유모차 안내 표현." },
-            { "en": "There are one-seater and two-seater options.", "ko": "'one-seater', 'two-seater'로 표현하는 직관적인 설명 방식." }
+            {
+              "en": "We offer both single and twin buggies.",
+              "ko": "영국식으로 'twin buggy'를 쓴 2인용 유모차 안내 표현."
+            },
+            {
+              "en": "There are one-seater and two-seater options.",
+              "ko": "'one-seater', 'two-seater'로 표현하는 직관적인 설명 방식."
+            }
           ]
         },
         {
           "en": "I'll need a credit card as a deposit.",
           "ko": "'deposit(보증금)'은 물건을 반납하면 돌려받는 금액. 분실·훼손 시 청구될 수 있음. 유모차 대여 시 보증금 또는 신용카드 정보를 요구하는 경우가 많으므로 준비해두는 것이 좋음.",
           "alternatives": [
-            { "en": "There's a refundable deposit of €20.", "ko": "'refundable(환불 가능한)'이라는 단어로 보증금이 반환된다는 것을 명확히 함." },
-            { "en": "We'll hold your card for the deposit.", "ko": "카드를 보증금 담보로 잡아두겠다는 표현." }
+            {
+              "en": "There's a refundable deposit of €20.",
+              "ko": "'refundable(환불 가능한)'이라는 단어로 보증금이 반환된다는 것을 명확히 함."
+            },
+            {
+              "en": "We'll hold your card for the deposit.",
+              "ko": "카드를 보증금 담보로 잡아두겠다는 표현."
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch32_d05",
       "title": "미아 보호소·만남의 장소 확인하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, where is the lost children's meeting point?", "ko": "실례합니다, 미아 보호소가 어디에 있나요?" },
-        { "speaker": "직원", "en": "It's at the Main Street Guest Services, near the park entrance.", "ko": "공원 입구 근처 메인 스트리트 게스트 서비스에 있습니다." },
-        { "speaker": "나", "en": "I want to show my daughter where to go if she gets lost.", "ko": "딸아이가 길을 잃으면 어디로 가야 하는지 알려주고 싶어서요." },
-        { "speaker": "직원", "en": "Good idea. She can also ask any cast member for help.", "ko": "좋은 생각이에요. 직원(캐스트 멤버)에게 도움을 요청해도 됩니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, where is the lost children's meeting point?",
+          "ko": "실례합니다, 미아 보호소가 어디에 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "It's at the Main Street Guest Services, near the park entrance.",
+          "ko": "공원 입구 근처 메인 스트리트 게스트 서비스에 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "I want to show my daughter where to go if she gets lost.",
+          "ko": "딸아이가 길을 잃으면 어디로 가야 하는지 알려주고 싶어서요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Good idea. She can also ask any cast member for help.",
+          "ko": "좋은 생각이에요. 직원(캐스트 멤버)에게 도움을 요청해도 됩니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Where is the lost children's meeting point?",
           "ko": "'lost children's meeting point(미아 만남의 장소)'는 놀이공원에서 아이를 잃어버렸을 때 찾아가는 곳. 'lost child center', 'family services', 'Guest Services'라고도 부름. 입장 전에 위치를 미리 확인해두는 것이 중요함.",
           "alternatives": [
-            { "en": "Where do I go if my child goes missing?", "ko": "아이를 잃어버렸을 때 어디로 가야 하는지 직접 묻는 표현." },
-            { "en": "Is there a lost and found for children?", "ko": "어린이 미아 보호 공간을 분실물 센터와 연결해 묻는 표현." }
+            {
+              "en": "Where do I go if my child goes missing?",
+              "ko": "아이를 잃어버렸을 때 어디로 가야 하는지 직접 묻는 표현."
+            },
+            {
+              "en": "Is there a lost and found for children?",
+              "ko": "어린이 미아 보호 공간을 분실물 센터와 연결해 묻는 표현."
+            }
           ]
         },
         {
           "en": "If she gets lost.",
           "ko": "'get lost'는 '길을 잃다'라는 뜻. 'be lost'도 같은 의미이지만 'get lost'가 더 동적인 상황(길을 잃게 되다)에 어울림. 'Don't get lost!(길 잃지 마!)'처럼 주의 표현으로도 자주 씀.",
           "alternatives": [
-            { "en": "If she loses her way.", "ko": "길을 잃는 상황을 'lose one's way'로 표현하는 방식." },
-            { "en": "In case she gets separated from us.", "ko": "'get separated(일행과 떨어지다)'라는 표현으로 미아 상황을 설명." }
+            {
+              "en": "If she loses her way.",
+              "ko": "길을 잃는 상황을 'lose one's way'로 표현하는 방식."
+            },
+            {
+              "en": "In case she gets separated from us.",
+              "ko": "'get separated(일행과 떨어지다)'라는 표현으로 미아 상황을 설명."
+            }
           ]
         },
         {
           "en": "She can ask any cast member for help.",
           "ko": "디즈니에서는 직원을 'cast member(캐스트 멤버)'라고 부름. 다른 공원은 'team member', 'staff', 'crew'라고 부르기도 함. 어린이에게 '직원 유니폼을 입은 어른에게 도움을 요청해'라고 미리 알려두면 좋음.",
           "alternatives": [
-            { "en": "She can approach any park employee.", "ko": "'park employee(공원 직원)'라는 일반적인 표현으로 안내하는 방식." },
-            { "en": "Any staff member can help her find you.", "ko": "직원이 부모를 찾아줄 수 있다는 방향으로 안심시키는 표현." }
+            {
+              "en": "She can approach any park employee.",
+              "ko": "'park employee(공원 직원)'라는 일반적인 표현으로 안내하는 방식."
+            },
+            {
+              "en": "Any staff member can help her find you.",
+              "ko": "직원이 부모를 찾아줄 수 있다는 방향으로 안심시키는 표현."
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch32_d06",
       "title": "줄 대기시간 묻기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, how long is the wait for this ride?", "ko": "실례합니다, 이 놀이기구 대기시간이 얼마나 되나요?" },
-        { "speaker": "직원", "en": "The current wait time is about 45 minutes from this point.", "ko": "현재 이 지점부터 대기시간은 약 45분입니다." },
-        { "speaker": "나", "en": "That's quite long. Is there a shorter wait time later in the day?", "ko": "꽤 길군요. 오늘 나중에 대기 시간이 더 짧아질까요?" },
-        { "speaker": "직원", "en": "Usually after the parade, around 6 PM, the queues get shorter.", "ko": "보통 퍼레이드 이후 오후 6시쯤 줄이 짧아집니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, how long is the wait for this ride?",
+          "ko": "실례합니다, 이 놀이기구 대기시간이 얼마나 되나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "The current wait time is about 45 minutes from this point.",
+          "ko": "현재 이 지점부터 대기시간은 약 45분입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "That's quite long. Is there a shorter wait time later in the day?",
+          "ko": "꽤 길군요. 오늘 나중에 대기 시간이 더 짧아질까요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Usually after the parade, around 6 PM, the queues get shorter.",
+          "ko": "보통 퍼레이드 이후 오후 6시쯤 줄이 짧아집니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "How long is the wait for this ride?",
           "ko": "대기시간을 묻는 가장 자연스러운 표현. 'wait time(대기시간)'은 공원 안내판이나 앱에도 그대로 쓰임. 'How long do I have to wait?'와 같은 의미이지만 더 간결한 형태.",
           "alternatives": [
-            { "en": "What's the current wait time?", "ko": "현재 대기시간을 앱이나 직원에게 간단히 묻는 표현." },
-            { "en": "How long is the queue from here?", "ko": "영국식으로 'queue(줄)'를 사용하고 현 위치부터의 대기시간을 묻는 표현." }
+            {
+              "en": "What's the current wait time?",
+              "ko": "현재 대기시간을 앱이나 직원에게 간단히 묻는 표현."
+            },
+            {
+              "en": "How long is the queue from here?",
+              "ko": "영국식으로 'queue(줄)'를 사용하고 현 위치부터의 대기시간을 묻는 표현."
+            }
           ]
         },
         {
           "en": "The current wait time is about 45 minutes from this point.",
           "ko": "'from this point(이 지점부터)'는 줄의 어디에서부터 시간을 재는지 기준을 알려줌. 공원 입구에 'Wait time 45 min from here'처럼 표지판이 세워진 경우가 많음.",
           "alternatives": [
-            { "en": "You're looking at about a 45-minute wait.", "ko": "미국식으로 자연스럽게 대기시간을 알려주는 표현. 'You're looking at ~'는 '~를 예상하면 된다'는 뜻." },
-            { "en": "It's roughly a 45-minute queue.", "ko": "영국식으로 'queue'를 사용해 대기줄 시간을 알려주는 방식." }
+            {
+              "en": "You're looking at about a 45-minute wait.",
+              "ko": "미국식으로 자연스럽게 대기시간을 알려주는 표현. 'You're looking at ~'는 '~를 예상하면 된다'는 뜻."
+            },
+            {
+              "en": "It's roughly a 45-minute queue.",
+              "ko": "영국식으로 'queue'를 사용해 대기줄 시간을 알려주는 방식."
+            }
           ]
         },
         {
           "en": "The queues get shorter after the parade.",
           "ko": "'queue(큐)'는 영국식 영어로 줄을 뜻하며 유럽 공원에서 자주 사용됨. 미국에서는 주로 'line'이라고 함. 퍼레이드·쇼 시간대에 관람객이 분산되므로 놀이기구 줄이 짧아지는 경향이 있음.",
           "alternatives": [
-            { "en": "The lines thin out around dinnertime.", "ko": "저녁시간대에 줄이 줄어든다는 표현. 'thin out'은 '(사람이) 줄다'는 뜻." },
-            { "en": "Crowds are lighter in the evening.", "ko": "저녁에 관람객이 줄어든다는 표현. 'lighter'는 '더 적은'이라는 뜻으로 혼잡도에 사용됨." }
+            {
+              "en": "The lines thin out around dinnertime.",
+              "ko": "저녁시간대에 줄이 줄어든다는 표현. 'thin out'은 '(사람이) 줄다'는 뜻."
+            },
+            {
+              "en": "Crowds are lighter in the evening.",
+              "ko": "저녁에 관람객이 줄어든다는 표현. 'lighter'는 '더 적은'이라는 뜻으로 혼잡도에 사용됨."
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch32_d07",
       "title": "놀이기구 사진 서비스 (포토패스) 구매하기",
       "lines": [
-        { "speaker": "나", "en": "We saw a photo of us on the ride screen. How do we get it?", "ko": "놀이기구 스크린에 우리 사진이 있었어요. 어떻게 받을 수 있나요?" },
-        { "speaker": "직원", "en": "You can purchase the ride photo here, or link it to your Memory Maker pass.", "ko": "여기서 사진을 구매하시거나 메모리 메이커 패스에 연결하시면 됩니다." },
-        { "speaker": "나", "en": "We already have the Photo Pass. Can you link the photo to it?", "ko": "포토패스가 이미 있어요. 그 사진을 연결해 주시겠어요?" },
-        { "speaker": "직원", "en": "Of course! Just show me your PhotoPass card or scan the app barcode.", "ko": "물론이죠! 포토패스 카드를 보여주시거나 앱 바코드를 스캔해 주세요." }
+        {
+          "speaker": "나",
+          "en": "We saw a photo of us on the ride screen. How do we get it?",
+          "ko": "놀이기구 스크린에 우리 사진이 있었어요. 어떻게 받을 수 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "You can purchase the ride photo here, or link it to your Memory Maker pass.",
+          "ko": "여기서 사진을 구매하시거나 메모리 메이커 패스에 연결하시면 됩니다."
+        },
+        {
+          "speaker": "나",
+          "en": "We already have the Photo Pass. Can you link the photo to it?",
+          "ko": "포토패스가 이미 있어요. 그 사진을 연결해 주시겠어요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Of course! Just show me your PhotoPass card or scan the app barcode.",
+          "ko": "물론이죠! 포토패스 카드를 보여주시거나 앱 바코드를 스캔해 주세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "How do we get the ride photo?",
           "ko": "'ride photo'는 놀이기구 탑승 중 자동으로 찍히는 사진. 디즈니에서는 'PhotoPass' 또는 'Memory Maker'라고 함. 사진 구매 여부와 가격을 미리 알아두면 당황하지 않음.",
           "alternatives": [
-            { "en": "Can we buy the on-ride photo?", "ko": "탑승 사진을 살 수 있는지 묻는 직접적인 표현." },
-            { "en": "Where do we pick up our ride photo?", "ko": "사진을 어디서 받는지 묻는 표현. 'pick up'은 '받아오다'라는 뜻." }
+            {
+              "en": "Can we buy the on-ride photo?",
+              "ko": "탑승 사진을 살 수 있는지 묻는 직접적인 표현."
+            },
+            {
+              "en": "Where do we pick up our ride photo?",
+              "ko": "사진을 어디서 받는지 묻는 표현. 'pick up'은 '받아오다'라는 뜻."
+            }
           ]
         },
         {
           "en": "You can purchase the ride photo here.",
           "ko": "'purchase'는 'buy'의 격식 있는 표현으로 안내문이나 직원이 자주 사용함. 놀이기구 출구 근처에 사진 판매 키오스크나 직원이 있는 경우가 많음.",
           "alternatives": [
-            { "en": "Photos are available for purchase at the exit.", "ko": "출구에서 사진을 구매할 수 있다는 안내 표현." },
-            { "en": "You can buy individual prints or a digital copy.", "ko": "인쇄본이나 디지털 파일 중 선택할 수 있다는 표현." }
+            {
+              "en": "Photos are available for purchase at the exit.",
+              "ko": "출구에서 사진을 구매할 수 있다는 안내 표현."
+            },
+            {
+              "en": "You can buy individual prints or a digital copy.",
+              "ko": "인쇄본이나 디지털 파일 중 선택할 수 있다는 표현."
+            }
           ]
         },
         {
           "en": "Link the photo to my Photo Pass.",
           "ko": "'link A to B'는 A를 B에 연결하다는 뜻. 포토패스나 앱에 사진을 연결하면 나중에 다운받거나 인쇄할 수 있음. 'add to'도 비슷한 의미로 쓰임.",
           "alternatives": [
-            { "en": "Can you add it to my PhotoPass account?", "ko": "포토패스 계정에 추가해달라는 표현." },
-            { "en": "Scan my QR code to connect the photo.", "ko": "QR코드 스캔으로 사진을 연결해달라는 실용적인 표현." }
+            {
+              "en": "Can you add it to my PhotoPass account?",
+              "ko": "포토패스 계정에 추가해달라는 표현."
+            },
+            {
+              "en": "Scan my QR code to connect the photo.",
+              "ko": "QR코드 스캔으로 사진을 연결해달라는 실용적인 표현."
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch32_d08",
       "title": "식당·간식 가판대 위치 찾기",
       "lines": [
-        { "speaker": "나", "en": "My kids are hungry. Is there a restaurant or snack stand nearby?", "ko": "아이들이 배고파요. 근처에 식당이나 간식 가판대가 있나요?" },
-        { "speaker": "직원", "en": "Sure! There's a quick-service restaurant right around the corner, and a snack cart by the carousel.", "ko": "네! 바로 코너를 돌면 퀵서비스 식당이 있고, 회전목마 옆에 스낵 카트가 있어요." },
-        { "speaker": "나", "en": "Does the restaurant have a kids' meal option?", "ko": "식당에 어린이 식사 메뉴가 있나요?" },
-        { "speaker": "직원", "en": "Yes, they have a kids' combo with a sandwich, fruit, and juice.", "ko": "네, 샌드위치·과일·주스로 구성된 어린이 세트가 있습니다." }
+        {
+          "speaker": "나",
+          "en": "My kids are hungry. Is there a restaurant or snack stand nearby?",
+          "ko": "아이들이 배고파요. 근처에 식당이나 간식 가판대가 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Sure! There's a quick-service restaurant right around the corner, and a snack cart by the carousel.",
+          "ko": "네! 바로 코너를 돌면 퀵서비스 식당이 있고, 회전목마 옆에 스낵 카트가 있어요."
+        },
+        {
+          "speaker": "나",
+          "en": "Does the restaurant have a kids' meal option?",
+          "ko": "식당에 어린이 식사 메뉴가 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, they have a kids' combo with a sandwich, fruit, and juice.",
+          "ko": "네, 샌드위치·과일·주스로 구성된 어린이 세트가 있습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is there a restaurant or snack stand nearby?",
           "ko": "'snack stand' 또는 'snack cart'는 이동식 간식 가판대를 뜻함. 'nearby'는 '근처에'라는 뜻으로 'close by', 'around here'와 같은 의미. 큰 공원에서는 앱 지도에 식당 위치가 표시됨.",
           "alternatives": [
-            { "en": "Where can I find something to eat around here?", "ko": "주변에 먹을 곳이 어디 있는지 묻는 자연스러운 표현." },
-            { "en": "Is there a food area close to here?", "ko": "'food area(푸드 존)'를 기준으로 위치를 묻는 표현." }
+            {
+              "en": "Where can I find something to eat around here?",
+              "ko": "주변에 먹을 곳이 어디 있는지 묻는 자연스러운 표현."
+            },
+            {
+              "en": "Is there a food area close to here?",
+              "ko": "'food area(푸드 존)'를 기준으로 위치를 묻는 표현."
+            }
           ]
         },
         {
           "en": "There's a quick-service restaurant right around the corner.",
           "ko": "'quick-service restaurant'는 주문 후 빠르게 받는 패스트푸드 형태의 식당. 테이블 서비스가 없어 줄 대기 후 직접 가져가는 방식. 공원 식당은 보통 'quick-service'와 'table-service(예약제 레스토랑)'로 나뉨.",
           "alternatives": [
-            { "en": "There's a food court just past the next attraction.", "ko": "다음 어트랙션 지나면 푸드코트가 있다는 위치 안내 표현." },
-            { "en": "The nearest café is a two-minute walk.", "ko": "도보 거리로 위치를 알려주는 실용적인 안내 표현." }
+            {
+              "en": "There's a food court just past the next attraction.",
+              "ko": "다음 어트랙션 지나면 푸드코트가 있다는 위치 안내 표현."
+            },
+            {
+              "en": "The nearest café is a two-minute walk.",
+              "ko": "도보 거리로 위치를 알려주는 실용적인 안내 표현."
+            }
           ]
         },
         {
           "en": "Does the restaurant have a kids' meal option?",
           "ko": "'kids' meal' 또는 'children's menu'는 어린이용 식사를 뜻함. 영국에서는 'children's meal', 미국에서는 'kids' meal'이 더 일반적임. 양이 적고 가격도 저렴하며 음료를 포함하는 경우가 많음.",
           "alternatives": [
-            { "en": "Is there a children's menu?", "ko": "어린이 메뉴가 있는지 묻는 영국식 표현." },
-            { "en": "Do you have smaller portions for kids?", "ko": "아이용 소량 메뉴가 있는지 묻는 표현. 'portion(양, 1인분)'이 핵심 단어." }
+            {
+              "en": "Is there a children's menu?",
+              "ko": "어린이 메뉴가 있는지 묻는 영국식 표현."
+            },
+            {
+              "en": "Do you have smaller portions for kids?",
+              "ko": "아이용 소량 메뉴가 있는지 묻는 표현. 'portion(양, 1인분)'이 핵심 단어."
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch32_d09",
       "title": "퍼레이드 시간 확인하기",
       "lines": [
-        { "speaker": "나", "en": "What time does the parade start today?", "ko": "오늘 퍼레이드는 몇 시에 시작하나요?" },
-        { "speaker": "직원", "en": "The main parade is at 3 PM, and there's a second showing at 6 PM.", "ko": "메인 퍼레이드는 오후 3시이고, 6시에 두 번째 공연이 있습니다." },
-        { "speaker": "나", "en": "Where is the best place to watch with young children?", "ko": "어린 아이들과 보기 좋은 자리가 어디인가요?" },
-        { "speaker": "직원", "en": "I'd recommend Main Street. Arrive about 30 minutes early to get a good spot.", "ko": "메인 스트리트를 추천합니다. 좋은 자리 잡으려면 30분 전에 오세요." }
+        {
+          "speaker": "나",
+          "en": "What time does the parade start today?",
+          "ko": "오늘 퍼레이드는 몇 시에 시작하나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "The main parade is at 3 PM, and there's a second showing at 6 PM.",
+          "ko": "메인 퍼레이드는 오후 3시이고, 6시에 두 번째 공연이 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Where is the best place to watch with young children?",
+          "ko": "어린 아이들과 보기 좋은 자리가 어디인가요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "I'd recommend Main Street. Arrive about 30 minutes early to get a good spot.",
+          "ko": "메인 스트리트를 추천합니다. 좋은 자리 잡으려면 30분 전에 오세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "What time does the parade start?",
           "ko": "퍼레이드나 쇼 시간을 묻는 기본 표현. 'What time does ~ start?'는 행사 시작 시간을 묻는 만능 패턴으로 공연, 불꽃놀이, 퍼레이드 모두에 사용 가능함.",
           "alternatives": [
-            { "en": "When is the next parade?", "ko": "다음 퍼레이드가 언제인지 묻는 간결한 표현." },
-            { "en": "At what time does the daytime show begin?", "ko": "낮 공연 시작 시간을 더 구체적으로 묻는 표현." }
+            {
+              "en": "When is the next parade?",
+              "ko": "다음 퍼레이드가 언제인지 묻는 간결한 표현."
+            },
+            {
+              "en": "At what time does the daytime show begin?",
+              "ko": "낮 공연 시작 시간을 더 구체적으로 묻는 표현."
+            }
           ]
         },
         {
           "en": "There's a second showing at 6 PM.",
           "ko": "'showing'은 공연·상영 횟수를 셀 때 사용. 같은 퍼레이드가 하루에 두 번 있을 때 'two showings'라고 표현함. 'performance'나 'show'와 같은 의미로 혼용됨.",
           "alternatives": [
-            { "en": "There's an evening performance at 6.", "ko": "저녁 공연이 6시에 있다는 표현으로 'performance'를 사용한 버전." },
-            { "en": "It runs twice — once at 3 and again at 6.", "ko": "두 번 진행된다는 것을 'runs twice'로 표현하는 방식." }
+            {
+              "en": "There's an evening performance at 6.",
+              "ko": "저녁 공연이 6시에 있다는 표현으로 'performance'를 사용한 버전."
+            },
+            {
+              "en": "It runs twice — once at 3 and again at 6.",
+              "ko": "두 번 진행된다는 것을 'runs twice'로 표현하는 방식."
+            }
           ]
         },
         {
           "en": "Arrive about 30 minutes early to get a good spot.",
           "ko": "'get a good spot'은 '좋은 자리를 잡다'라는 뜻. 'spot'은 장소·자리를 뜻하는 구어 표현. 관람 명당을 확보하려면 미리 가야 한다는 실용적인 팁을 담은 표현.",
           "alternatives": [
-            { "en": "Get there early to secure a front-row view.", "ko": "맨 앞자리를 확보하려면 일찍 가야 한다는 표현." },
-            { "en": "Come 20–30 minutes before the show for a good position.", "ko": "몇 분 전에 와야 좋은 위치를 잡을 수 있는지 구체적으로 안내하는 표현." }
+            {
+              "en": "Get there early to secure a front-row view.",
+              "ko": "맨 앞자리를 확보하려면 일찍 가야 한다는 표현."
+            },
+            {
+              "en": "Come 20–30 minutes before the show for a good position.",
+              "ko": "몇 분 전에 와야 좋은 위치를 잡을 수 있는지 구체적으로 안내하는 표현."
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch32_d10",
       "title": "분실물 센터 이용하기",
       "lines": [
-        { "speaker": "나", "en": "I think I left my son's backpack on the Big Thunder ride. Is there a lost and found?", "ko": "빅썬더 놀이기구에 아들 배낭을 두고 내린 것 같아요. 분실물 센터가 있나요?" },
-        { "speaker": "직원", "en": "Yes, our Lost and Found is at Guest Services near the main entrance.", "ko": "네, 분실물 센터는 메인 입구 근처 게스트 서비스에 있습니다." },
-        { "speaker": "나", "en": "Can you check if it's been handed in already?", "ko": "이미 맡겨진 것인지 확인해 주시겠어요?" },
-        { "speaker": "직원", "en": "Let me radio the ride crew right now. Can you describe the bag?", "ko": "지금 바로 놀이기구 직원에게 무전해 보겠습니다. 가방 특징을 말씀해 주시겠어요?" }
+        {
+          "speaker": "나",
+          "en": "I think I left my son's backpack on the Big Thunder ride. Is there a lost and found?",
+          "ko": "빅썬더 놀이기구에 아들 배낭을 두고 내린 것 같아요. 분실물 센터가 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, our Lost and Found is at Guest Services near the main entrance.",
+          "ko": "네, 분실물 센터는 메인 입구 근처 게스트 서비스에 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Can you check if it's been handed in already?",
+          "ko": "이미 맡겨진 것인지 확인해 주시겠어요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Let me radio the ride crew right now. Can you describe the bag?",
+          "ko": "지금 바로 놀이기구 직원에게 무전해 보겠습니다. 가방 특징을 말씀해 주시겠어요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is there a lost and found?",
           "ko": "'lost and found'는 미국식으로 분실물 보관소를 뜻함. 영국에서는 'lost property'라고 함. 공항, 기차역, 놀이공원 어디서든 통하는 표현이므로 꼭 기억해두자.",
           "alternatives": [
-            { "en": "Where is the lost property office?", "ko": "영국식으로 분실물 센터 위치를 묻는 표현." },
-            { "en": "I lost something on the ride. Who should I talk to?", "ko": "놀이기구에서 잃어버렸을 때 누구에게 연락해야 하는지 묻는 실용적인 표현." }
+            {
+              "en": "Where is the lost property office?",
+              "ko": "영국식으로 분실물 센터 위치를 묻는 표현."
+            },
+            {
+              "en": "I lost something on the ride. Who should I talk to?",
+              "ko": "놀이기구에서 잃어버렸을 때 누구에게 연락해야 하는지 묻는 실용적인 표현."
+            }
           ]
         },
         {
           "en": "Can you check if it's been handed in?",
           "ko": "'hand in'은 분실된 물건을 누군가가 주워 맡겼다는 뜻. 'turn in'도 같은 의미. 누군가 이미 맡겨뒀을 수 있으므로 분실물 센터에 가기 전에 직원에게 먼저 확인 요청을 할 수 있음.",
           "alternatives": [
-            { "en": "Has anyone turned in a blue backpack?", "ko": "파란 배낭을 맡긴 사람이 있는지 구체적으로 묻는 표현." },
-            { "en": "Could you see if it's been found yet?", "ko": "물건이 발견됐는지 아직 확인이 안 됐을 때 묻는 표현." }
+            {
+              "en": "Has anyone turned in a blue backpack?",
+              "ko": "파란 배낭을 맡긴 사람이 있는지 구체적으로 묻는 표현."
+            },
+            {
+              "en": "Could you see if it's been found yet?",
+              "ko": "물건이 발견됐는지 아직 확인이 안 됐을 때 묻는 표현."
+            }
           ]
         },
         {
           "en": "Let me radio the ride crew.",
           "ko": "'radio'는 명사뿐 아니라 '무전하다'는 동사로도 쓰임. 공원 직원들이 무선 통신기로 서로 연락하는 상황에서 사용. 'I'll call the team at the ride.'와 같은 의미.",
           "alternatives": [
-            { "en": "I'll contact the team at the attraction.", "ko": "해당 어트랙션 팀에 연락해보겠다는 표현." },
-            { "en": "Let me check with the ride operators.", "ko": "놀이기구 운영 직원에게 확인해보겠다는 표현." }
+            {
+              "en": "I'll contact the team at the attraction.",
+              "ko": "해당 어트랙션 팀에 연락해보겠다는 표현."
+            },
+            {
+              "en": "Let me check with the ride operators.",
+              "ko": "놀이기구 운영 직원에게 확인해보겠다는 표현."
+            }
           ]
         }
       ]
@@ -525,6 +865,1473 @@
           "question": "'hand in'은 분실된 물건을 누군가가 주워서 직원에게 맡겼다는 의미로 쓰인다.",
           "answerIndex": 0,
           "explanation": "참입니다. 'hand in' 또는 'turn in'은 물건을 주워 담당 기관이나 직원에게 맡기는 행동을 뜻합니다. 'Has it been handed in?'은 누군가 그 물건을 맡겼는지 확인하는 표현으로, 분실물을 찾을 때 유용하게 쓸 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch32_set02_001",
+          "type": "multiple_choice",
+          "question": "놀이기구 탑승을 위한 최소 키 조건을 영어로 올바르게 표현한 것은?",
+          "options": [
+            "minimum height",
+            "height limit",
+            "size rule",
+            "body standard"
+          ],
+          "answerIndex": 0,
+          "explanation": "'minimum height'는 탑승 가능한 최소 키 기준을 가리키는 정확한 표현입니다. 'height requirement'와 같은 의미로 안내판에도 자주 사용됩니다. 'height limit'는 최대 키 제한으로 오해될 수 있고, 나머지는 실제로 쓰이지 않는 표현입니다."
+        },
+        {
+          "id": "se_ch32_set02_002",
+          "type": "multiple_choice",
+          "question": "키 120cm인 아이가 탑승하려는 놀이기구에 'Riders must be at least 120 cm tall.'이라는 안내가 있다면?",
+          "options": [
+            "탑승할 수 있다.",
+            "탑승할 수 없다.",
+            "보호자 동반 시에만 탑승 가능하다.",
+            "직원에게 허가를 받아야 한다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'at least 120 cm'는 '최소 120cm 이상'을 의미합니다. 120cm인 아이는 정확히 기준에 맞으므로 탑승 가능합니다. 'at least'는 해당 수치를 포함한 그 이상을 뜻합니다."
+        },
+        {
+          "id": "se_ch32_set02_003",
+          "type": "multiple_choice",
+          "question": "현재 대기시간을 가장 간단하게 묻는 표현은?",
+          "options": [
+            "What's the current wait time?",
+            "How much does waiting cost?",
+            "Is there a wait for riding?",
+            "When does this ride open?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What's the current wait time?'은 현재 대기시간을 간결하게 묻는 표현입니다. 앱이나 직원에게 바로 사용할 수 있는 표준 표현으로, 나머지 선택지들은 대기시간을 직접적으로 묻지 않습니다."
+        },
+        {
+          "id": "se_ch32_set02_004",
+          "type": "multiple_choice",
+          "question": "유모차 대여 가능 여부를 먼저 확인하려면 어떻게 말하면 되나요?",
+          "options": [
+            "Do you have strollers for rent?",
+            "I want to buy a stroller.",
+            "Can I borrow your baby cart?",
+            "Rent a stroller for me, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you have strollers for rent?'는 대여 가능한 유모차가 있는지 먼저 확인하는 표현입니다. 'for rent'는 '대여용'을 뜻합니다. 'buy'는 구매, 'borrow'는 무료로 빌리는 것을 의미하며, 마지막 선택지는 명령문으로 부자연스럽습니다."
+        },
+        {
+          "id": "se_ch32_set02_005",
+          "type": "multiple_choice",
+          "question": "아이가 길을 잃었을 경우 어디로 가야 하는지 직접 묻는 표현은?",
+          "options": [
+            "Where do I go if my child goes missing?",
+            "Can you find my lost child?",
+            "Is there a children's hospital nearby?",
+            "Call the police for my child."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where do I go if my child goes missing?'는 아이를 잃어버렸을 때 어디로 가야 하는지 직접 묻는 표현입니다. 'go missing'은 '사라지다, 행방불명이 되다'는 뜻입니다. 나머지 선택지들은 상황에 맞지 않거나 부적절합니다."
+        },
+        {
+          "id": "se_ch32_set02_006",
+          "type": "multiple_choice",
+          "question": "패스트패스 서비스 이용 방법을 묻는 가장 간단한 표현은?",
+          "options": [
+            "How does the fast pass work here?",
+            "Where can I buy a fast ticket?",
+            "When is the fast pass open?",
+            "Do I need a fast pass card?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How does the fast pass work here?'는 해당 공원의 패스트패스 이용 방법을 간단하게 묻는 표현입니다. 명칭이 공원마다 달라도 'fast pass'라고 하면 대부분 이해합니다."
+        },
+        {
+          "id": "se_ch32_set02_007",
+          "type": "multiple_choice",
+          "question": "영국 영어에서 분실물 센터를 부르는 표현은?",
+          "options": [
+            "lost property",
+            "lost and found",
+            "missing items",
+            "found goods center"
+          ],
+          "answerIndex": 0,
+          "explanation": "'lost property'는 영국식 영어에서 분실물 센터를 뜻합니다. 미국에서는 'lost and found'라고 합니다. 여행지에 따라 적절한 표현을 사용하면 더 자연스럽게 의사소통할 수 있습니다."
+        },
+        {
+          "id": "se_ch32_set02_008",
+          "type": "multiple_choice",
+          "question": "'I'm afraid so.'의 정확한 의미는?",
+          "options": [
+            "유감이지만 그렇습니다.",
+            "유감이지만 그렇지 않습니다.",
+            "저는 무서워서 모르겠습니다.",
+            "아마도 그럴 것 같습니다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm afraid so.'는 나쁜 소식을 부드럽게 확인해줄 때 쓰는 표현으로 '유감이지만 그렇습니다'라는 의미입니다. 반대로 'I'm afraid not.'은 '유감이지만 그렇지 않습니다'라는 뜻입니다."
+        },
+        {
+          "id": "se_ch32_set02_009",
+          "type": "multiple_choice",
+          "question": "퍼레이드 시작 시간을 묻는 가장 자연스러운 표현은?",
+          "options": [
+            "What time does the parade start?",
+            "When does parade begin today time?",
+            "At what hour is the parade?",
+            "How long is the parade starting?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What time does the parade start?'는 퍼레이드 시작 시간을 묻는 표준 표현입니다. 'What time does ~ start?'는 행사 시작 시간을 묻는 만능 패턴입니다. 나머지 선택지들은 문법적으로 어색합니다."
+        },
+        {
+          "id": "se_ch32_set02_010",
+          "type": "multiple_choice",
+          "question": "놀이기구 탑승 사진을 어디서 받는지 묻는 표현은?",
+          "options": [
+            "Where do we pick up our ride photo?",
+            "How much is the ride picture?",
+            "Can I take a photo on the ride?",
+            "Is there a camera on this ride?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where do we pick up our ride photo?'는 자동 촬영된 탑승 사진을 어디서 받는지 묻는 표현입니다. 'pick up'은 '받아오다, 수령하다'는 뜻입니다."
+        },
+        {
+          "id": "se_ch32_set02_011",
+          "type": "ox",
+          "question": "디즈니의 빠른 탑승 서비스는 'Lightning Lane'이라고 불린다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 디즈니는 패스트패스 계열 서비스를 'Lightning Lane'이라고 부릅니다. 유니버설은 'Express Pass', 유로파 파크는 'Fast Lane'이라는 명칭을 사용합니다."
+        },
+        {
+          "id": "se_ch32_set02_012",
+          "type": "ox",
+          "question": "'double stroller'는 어른과 아이가 함께 타는 유모차를 뜻한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'double stroller'는 아이 두 명이 탈 수 있는 2인용 유모차를 뜻합니다. 어른이 타는 것이 아니라, 두 아이를 동시에 태울 수 있는 유모차입니다."
+        },
+        {
+          "id": "se_ch32_set02_013",
+          "type": "ox",
+          "question": "퍼레이드 시간대에는 퍼레이드 관람객이 분산되어 놀이기구 줄이 짧아지는 경향이 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 퍼레이드·쇼 시간대에 관람객이 퍼레이드를 보러 이동하면서 놀이기구 대기 줄이 짧아지는 경향이 있습니다. 이를 전략적으로 이용하면 대기 시간을 줄일 수 있습니다."
+        },
+        {
+          "id": "se_ch32_set02_014",
+          "type": "ox",
+          "question": "'hand in'과 'turn in'은 분실물 센터에 물건을 맡기는 행동을 뜻하는 동의어이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'hand in'과 'turn in' 모두 물건을 주워서 담당자나 기관에 맡기는 행동을 뜻합니다. 'Has it been handed in?'과 'Has it been turned in?'은 같은 의미로 사용됩니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch32_set03_001",
+          "type": "multiple_choice",
+          "question": "놀이기구 안내판에 'Must be this tall to ride'라고 쓰여 있다면, 이것이 나타내는 것은?",
+          "options": [
+            "탑승 가능한 최소 키 기준",
+            "탑승 가능한 최대 키 기준",
+            "탑승 시 나이 제한",
+            "탑승 시 몸무게 제한"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Must be this tall to ride'는 탑승 가능한 최소 키 기준을 그림과 함께 표시하는 안내문입니다. 이는 'height requirement' 또는 'minimum height'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch32_set03_002",
+          "type": "multiple_choice",
+          "question": "아이의 키가 기준보다 미달일 때 직원이 쓰는 정중한 거절 표현은?",
+          "options": [
+            "I'm afraid not.",
+            "No way.",
+            "That's impossible.",
+            "You can't go in."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm afraid not.'은 부정적인 소식을 전할 때 쓰는 정중한 표현으로, 단순히 'No.'라고 하는 것보다 훨씬 부드럽게 거절하거나 불가함을 알릴 수 있습니다."
+        },
+        {
+          "id": "se_ch32_set03_003",
+          "type": "multiple_choice",
+          "question": "현재 위치에서부터 대기줄 시간을 알려줄 때 쓰는 표현은?",
+          "options": [
+            "The current wait time is about 45 minutes from this point.",
+            "The ride takes about 45 minutes.",
+            "You should arrive 45 minutes early.",
+            "We close in 45 minutes."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The current wait time is about 45 minutes from this point.'는 현재 서 있는 위치에서부터 탑승까지의 대기시간을 알려주는 표현입니다. 'from this point'가 기준점을 명확히 합니다."
+        },
+        {
+          "id": "se_ch32_set03_004",
+          "type": "multiple_choice",
+          "question": "유모차 영국식 표현으로 올바른 것은?",
+          "options": [
+            "pushchair",
+            "stroller",
+            "baby walker",
+            "infant cart"
+          ],
+          "answerIndex": 0,
+          "explanation": "'pushchair'는 영국식 영어로 유모차를 뜻합니다. 'buggy'도 같은 의미로 쓰입니다. 미국에서는 'stroller'가 일반적이며, 'baby walker'는 아이가 걸음을 연습하는 보행기를 가리킵니다."
+        },
+        {
+          "id": "se_ch32_set03_005",
+          "type": "multiple_choice",
+          "question": "아이가 일행과 떨어지는 상황을 표현할 때 쓰는 표현은?",
+          "options": [
+            "In case she gets separated from us.",
+            "If she runs away from us.",
+            "When she decides to leave.",
+            "After she gets tired."
+          ],
+          "answerIndex": 0,
+          "explanation": "'get separated'는 '일행과 떨어지다'는 표현으로, 의도치 않게 무리에서 분리되는 상황을 자연스럽게 표현합니다. 미아 상황을 설명할 때 적합한 표현입니다."
+        },
+        {
+          "id": "se_ch32_set03_006",
+          "type": "multiple_choice",
+          "question": "패스트패스의 특정 시간 슬롯이 아직 예약 가능할 때 사용하는 표현은?",
+          "options": [
+            "The 3:00–4:00 slot is still available.",
+            "The 3 o'clock ride is open now.",
+            "There is a 3 PM fast pass today.",
+            "Book at 3 o'clock is possible."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The 3:00–4:00 slot is still available.'은 해당 시간 슬롯이 아직 예약 가능하다는 표현입니다. 'still available'은 '아직 이용 가능한'을 뜻하고, 다 찼을 때는 'fully booked' 또는 'sold out'이라고 합니다."
+        },
+        {
+          "id": "se_ch32_set03_007",
+          "type": "multiple_choice",
+          "question": "분실물이 이미 직원에게 접수됐는지 확인할 때 사용하는 표현은?",
+          "options": [
+            "Can you check if it's been handed in?",
+            "Did someone steal my bag?",
+            "Have you seen a blue bag?",
+            "Is my bag in the trash?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you check if it's been handed in?'은 누군가가 이미 물건을 주워서 직원에게 맡겼는지 확인해달라는 표현입니다. 'hand in'은 주운 물건을 담당자에게 맡기는 행위를 뜻합니다."
+        },
+        {
+          "id": "se_ch32_set03_008",
+          "type": "multiple_choice",
+          "question": "유모차 대여 시 요구되는 'deposit'의 의미는?",
+          "options": [
+            "반납 시 돌려받는 보증금",
+            "대여 요금",
+            "취소 수수료",
+            "추가 서비스 비용"
+          ],
+          "answerIndex": 0,
+          "explanation": "'deposit'은 물건을 빌릴 때 담보로 맡기는 보증금으로, 물건을 온전히 반납하면 돌려받습니다. 'refundable deposit'이라고 하면 환불 가능한 보증금임을 명확히 합니다."
+        },
+        {
+          "id": "se_ch32_set03_009",
+          "type": "multiple_choice",
+          "question": "퍼레이드에서 좋은 자리를 잡으려면 얼마나 일찍 가야 한다고 안내하나요?",
+          "options": [
+            "약 30분 전",
+            "약 5분 전",
+            "정확히 퍼레이드 시작 시간에",
+            "퍼레이드가 시작된 후"
+          ],
+          "answerIndex": 0,
+          "explanation": "대화에서 'Arrive about 30 minutes early to get a good spot.'이라고 안내했습니다. 좋은 자리를 잡으려면 퍼레이드 시작 약 30분 전에 도착하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch32_set03_010",
+          "type": "multiple_choice",
+          "question": "세 살 미만 아이의 무료 입장을 영어로 표현한 것은?",
+          "options": [
+            "Under-threes get in free.",
+            "Three-year-olds are free.",
+            "Children don't need tickets.",
+            "Toddlers get a discount."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Under-threes get in free.'는 세 살 미만 아이는 무료입장이라는 표현입니다. 'under-three(s)'는 '세 살 미만'을 뜻하며, 'three and under'라고도 합니다."
+        },
+        {
+          "id": "se_ch32_set03_011",
+          "type": "ox",
+          "question": "'quick-service restaurant'는 테이블 서비스가 없는 패스트푸드 형태의 식당을 가리킨다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'quick-service restaurant'는 주문 후 빠르게 받는 패스트푸드 형태로, 직접 줄을 서서 주문하고 가져가는 방식입니다. 예약이 필요한 'table-service restaurant'와 구분됩니다."
+        },
+        {
+          "id": "se_ch32_set03_012",
+          "type": "ox",
+          "question": "디즈니랜드에서 직원을 공식적으로 부르는 명칭은 'staff member'이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 디즈니랜드에서는 직원을 공식적으로 'cast member(캐스트 멤버)'라고 부릅니다. 'staff member'는 일반적인 표현이지만 디즈니의 공식 명칭은 아닙니다."
+        },
+        {
+          "id": "se_ch32_set03_013",
+          "type": "ox",
+          "question": "'get lost'는 '길을 잃다'는 뜻으로 'be lost'와 같은 의미이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'get lost'와 'be lost' 모두 '길을 잃다'는 뜻입니다. 다만 'get lost'는 길을 잃게 되는 동적인 상황을, 'be lost'는 이미 길을 잃은 상태를 강조하는 경향이 있습니다."
+        },
+        {
+          "id": "se_ch32_set03_014",
+          "type": "ox",
+          "question": "놀이기구 사진을 포토패스 계정에 연결할 때 'link'를 사용한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'link A to B'는 A를 B에 연결한다는 표현으로, 탑승 사진을 포토패스 계정에 연결할 때 자연스럽게 사용됩니다. 'add to'도 비슷한 의미로 쓰입니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch32_set04_001",
+          "type": "multiple_choice",
+          "question": "아이가 놀이기구를 탈 수 있는지 키를 기준으로 물어볼 때 적절한 표현은?",
+          "options": [
+            "Does my child need to be a certain height?",
+            "How old must my child be to ride?",
+            "What weight does my child need?",
+            "Can small children ride this?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Does my child need to be a certain height?'는 아이가 특정 키 기준을 만족해야 하는지 부드럽게 확인하는 표현입니다. 'certain height'가 '특정 키 조건'을 의미합니다."
+        },
+        {
+          "id": "se_ch32_set04_002",
+          "type": "multiple_choice",
+          "question": "놀이기구 키 기준을 가장 간단하게 안내하는 표현은?",
+          "options": [
+            "The minimum height is 102 cm.",
+            "You must be bigger than 102 cm.",
+            "102 cm is the height limit.",
+            "Children under 102 cm are welcome."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The minimum height is 102 cm.'는 최소 키를 가장 간단하고 명확하게 명시하는 표현입니다. 'minimum'은 '최소'를 뜻하며 'at least 102 cm'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch32_set04_003",
+          "type": "multiple_choice",
+          "question": "대기줄이 저녁에 줄어든다는 것을 표현할 때 쓰는 말은?",
+          "options": [
+            "The lines thin out around dinnertime.",
+            "The ride stops in the evening.",
+            "Fewer people come in the morning.",
+            "The park gets busier at night."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The lines thin out around dinnertime.'은 저녁 식사 시간대에 줄이 줄어든다는 표현입니다. 'thin out'은 '(사람이나 물건이) 줄어들다, 희박해지다'는 뜻입니다."
+        },
+        {
+          "id": "se_ch32_set04_004",
+          "type": "multiple_choice",
+          "question": "유모차를 하루 동안 빌린다고 말할 때 'for the day'의 의미는?",
+          "options": [
+            "하루 동안",
+            "낮 시간 동안만",
+            "오늘 이후로",
+            "며칠 동안"
+          ],
+          "answerIndex": 0,
+          "explanation": "'for the day'는 '하루 동안'을 의미합니다. 'I'd like to rent a stroller for the day.'는 하루치 유모차 대여를 요청하는 표현입니다."
+        },
+        {
+          "id": "se_ch32_set04_005",
+          "type": "multiple_choice",
+          "question": "미아 보호소를 나타내는 또 다른 표현은?",
+          "options": [
+            "Guest Services",
+            "Park Security",
+            "First Aid Station",
+            "Information Desk"
+          ],
+          "answerIndex": 0,
+          "explanation": "많은 놀이공원에서 미아 보호소는 'Guest Services'에 위치하거나 같은 기능을 합니다. 'lost child center', 'family services'도 같은 곳을 가리킵니다."
+        },
+        {
+          "id": "se_ch32_set04_006",
+          "type": "multiple_choice",
+          "question": "패스트패스 예약을 위해 사전에 시간을 예약할 수 있는지 묻는 표현은?",
+          "options": [
+            "Can I reserve a ride time in advance?",
+            "How long does the fast pass last?",
+            "What is the price of a fast pass?",
+            "Where can I use the fast pass?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I reserve a ride time in advance?'는 미리 탑승 시간을 예약할 수 있는지 묻는 표현입니다. 'reserve(예약하다)'와 'in advance(미리)'가 핵심 표현입니다."
+        },
+        {
+          "id": "se_ch32_set04_007",
+          "type": "multiple_choice",
+          "question": "놀이기구에 두고 온 물건을 찾기 위해 직원에게 연락을 요청하는 표현은?",
+          "options": [
+            "Let me radio the ride crew.",
+            "Call the manager for me.",
+            "Contact the main office.",
+            "Check the security footage."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me radio the ride crew.'는 직원이 무전으로 놀이기구 팀에 연락하겠다는 표현입니다. 'radio'가 동사로 '무전하다'는 의미로 쓰였습니다."
+        },
+        {
+          "id": "se_ch32_set04_008",
+          "type": "multiple_choice",
+          "question": "어린이 식사 메뉴가 있는지 물을 때 영국식 표현은?",
+          "options": [
+            "Is there a children's menu?",
+            "Do you have a kids' meal?",
+            "Can children order here?",
+            "What do kids eat here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a children's menu?'는 어린이 메뉴가 있는지 묻는 영국식 표현입니다. 미국에서는 'kids' meal'이 더 일반적으로 쓰입니다."
+        },
+        {
+          "id": "se_ch32_set04_009",
+          "type": "multiple_choice",
+          "question": "퍼레이드 관람 시 좋은 자리를 확보하는 것을 표현하는 말은?",
+          "options": [
+            "get a good spot",
+            "find a good seat",
+            "reserve a view place",
+            "book a parade position"
+          ],
+          "answerIndex": 0,
+          "explanation": "'get a good spot'은 퍼레이드나 공연에서 '좋은 자리를 잡다'는 관용 표현입니다. 'spot'은 특정 장소나 위치를 뜻하는 구어적 표현입니다."
+        },
+        {
+          "id": "se_ch32_set04_010",
+          "type": "multiple_choice",
+          "question": "디즈니에서 포토패스 서비스의 공식 명칭은?",
+          "options": [
+            "Memory Maker",
+            "PhotoCard",
+            "Ride Snapshot",
+            "Digital Memories"
+          ],
+          "answerIndex": 0,
+          "explanation": "디즈니에서는 포토패스 서비스를 'Memory Maker' 또는 'PhotoPass'라고 합니다. 'Memory Maker'는 모든 사진을 무제한 저장할 수 있는 패키지 서비스입니다."
+        },
+        {
+          "id": "se_ch32_set04_011",
+          "type": "ox",
+          "question": "세 살 이하 아이는 놀이공원 입장이 무료인 경우가 많다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 많은 놀이공원에서 세 살 미만 또는 두 살 이하 아이는 무료입장이 가능합니다. 다만 공원마다 기준이 다르므로 사전에 확인하는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch32_set04_012",
+          "type": "ox",
+          "question": "'stroller'는 영국 영어에서도 유모차를 뜻하는 일반적인 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'stroller'는 미국식 영어 표현입니다. 영국에서는 주로 'pushchair' 또는 'buggy'를 사용합니다. 영국인에게 'stroller'는 다소 낯선 표현일 수 있습니다."
+        },
+        {
+          "id": "se_ch32_set04_013",
+          "type": "ox",
+          "question": "패스트패스 예약은 현재 공원의 공식 앱으로만 가능한 경우가 많아지고 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 최근 많은 놀이공원들이 패스트패스 예약을 공식 앱을 통해서만 가능하도록 변경하고 있습니다. 방문 전 앱을 미리 설치하고 계정을 만들어두는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch32_set04_014",
+          "type": "ox",
+          "question": "놀이공원 대기줄을 영국 영어에서는 'line'이라고 한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 영국에서는 대기줄을 'queue'라고 합니다. 'line'은 미국식 영어 표현입니다. 유럽 공원에서는 'queue'가 더 자주 사용됩니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch32_set05_001",
+          "type": "multiple_choice",
+          "question": "'height requirement'와 가장 유사한 의미로 쓰이는 표현은?",
+          "options": [
+            "minimum height to ride",
+            "maximum height allowed",
+            "average rider height",
+            "recommended height"
+          ],
+          "answerIndex": 0,
+          "explanation": "'minimum height to ride'는 탑승 가능한 최소 키를 뜻하며 'height requirement'와 같은 의미입니다. 'maximum height'는 반대로 최대 키를 뜻하고, 나머지는 탑승 조건을 나타내지 않습니다."
+        },
+        {
+          "id": "se_ch32_set05_002",
+          "type": "multiple_choice",
+          "question": "키가 부족해 탑승이 불가능하다고 안내할 때 정중한 표현은?",
+          "options": [
+            "I'm sorry, but he doesn't meet the requirement.",
+            "Your child is too short.",
+            "He can't ride. Next please.",
+            "That child is not qualified."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm sorry, but he doesn't meet the requirement.'는 아이가 조건을 충족하지 못한다는 것을 정중하게 전달하는 표현입니다. 'meet the requirement'는 '조건을 충족하다'는 표현입니다."
+        },
+        {
+          "id": "se_ch32_set05_003",
+          "type": "multiple_choice",
+          "question": "미국식으로 대기시간을 자연스럽게 알려주는 표현은?",
+          "options": [
+            "You're looking at about a 45-minute wait.",
+            "Wait for 45 minutes please.",
+            "The queue is 45 minutes long.",
+            "Standing time is 45 minutes."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You're looking at about a 45-minute wait.'는 미국식으로 자연스럽게 대기시간을 알려주는 표현입니다. 'You're looking at ~'는 '~를 예상하면 된다'는 뜻입니다."
+        },
+        {
+          "id": "se_ch32_set05_004",
+          "type": "multiple_choice",
+          "question": "유모차를 유료로 빌릴 때 적절한 동사는?",
+          "options": [
+            "rent",
+            "borrow",
+            "steal",
+            "lend"
+          ],
+          "answerIndex": 0,
+          "explanation": "'rent'는 대가를 지불하고 빌린다는 뜻으로 유모차나 자전거 같은 유료 대여에 적합합니다. 'borrow'는 보통 대가 없이 빌리는 것을 의미하고, 'lend'는 빌려주는 쪽의 행위입니다."
+        },
+        {
+          "id": "se_ch32_set05_005",
+          "type": "multiple_choice",
+          "question": "미아 보호소에서 아이에게 가르쳐줄 수 있는 행동은?",
+          "options": [
+            "직원(cast member)에게 도움을 요청한다.",
+            "혼자 입구로 나간다.",
+            "다른 아이들에게 도움을 요청한다.",
+            "그 자리에서 큰 소리로 운다."
+          ],
+          "answerIndex": 0,
+          "explanation": "대화에서 'She can also ask any cast member for help.'라고 안내했습니다. 아이에게 직원 유니폼을 입은 어른에게 도움을 요청하라고 미리 알려두는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch32_set05_006",
+          "type": "multiple_choice",
+          "question": "앱에서 놀이기구 탑승 시간 슬롯을 예약하라는 안내는?",
+          "options": [
+            "Download the park app and select a time slot.",
+            "Buy a fast pass at the entrance.",
+            "Call ahead to reserve your ride.",
+            "Show up early to get a fast pass."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Download the park app and select a time slot.'는 공원 앱을 다운받아 시간 슬롯을 선택하라는 구체적인 안내입니다. 최근 많은 공원이 앱으로만 패스트패스 예약이 가능합니다."
+        },
+        {
+          "id": "se_ch32_set05_007",
+          "type": "multiple_choice",
+          "question": "분실물 센터 직원이 무전으로 놀이기구 팀에 연락하겠다고 할 때 표현은?",
+          "options": [
+            "I'll contact the team at the attraction.",
+            "I'll call the police right away.",
+            "Let's go to the ride together.",
+            "You should wait at the entrance."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll contact the team at the attraction.'는 해당 어트랙션 팀에 연락하겠다는 표현입니다. 'attraction'은 놀이기구나 어트랙션을 가리킵니다."
+        },
+        {
+          "id": "se_ch32_set05_008",
+          "type": "multiple_choice",
+          "question": "스낵 가판대를 영어로 무엇이라고 하나요?",
+          "options": [
+            "snack stand",
+            "food table",
+            "snack shop",
+            "candy desk"
+          ],
+          "answerIndex": 0,
+          "explanation": "'snack stand' 또는 'snack cart'는 이동식 간식 가판대를 뜻합니다. 'stand'는 '가판대, 판매대'를 의미하며, 공원이나 거리에서 음식을 파는 곳을 가리킵니다."
+        },
+        {
+          "id": "se_ch32_set05_009",
+          "type": "multiple_choice",
+          "question": "저녁 공연 시간이 6시라는 표현은?",
+          "options": [
+            "There's an evening performance at 6.",
+            "The night show opens at 6.",
+            "Evening parade starts at six PM time.",
+            "Performance evening is at hour six."
+          ],
+          "answerIndex": 0,
+          "explanation": "'There's an evening performance at 6.'는 저녁 6시에 공연이 있다는 자연스러운 표현입니다. 'performance'는 공연을 뜻하며, 'showing'과 같은 의미로 사용됩니다."
+        },
+        {
+          "id": "se_ch32_set05_010",
+          "type": "multiple_choice",
+          "question": "탑승 사진을 포토패스에 추가해달라는 표현은?",
+          "options": [
+            "Can you add it to my PhotoPass account?",
+            "Please save my ride picture.",
+            "Transfer the photo to my phone.",
+            "Print this photo for me."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you add it to my PhotoPass account?'는 탑승 사진을 포토패스 계정에 추가해달라는 표현입니다. 포토패스 계정에 연결하면 나중에 다운받거나 인쇄할 수 있습니다."
+        },
+        {
+          "id": "se_ch32_set05_011",
+          "type": "ox",
+          "question": "유모차 대여 시 'deposit'은 대여료와는 별도로 반납 시 돌려받는 금액이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'deposit(보증금)'은 물건을 온전히 반납하면 돌려받는 금액으로, 대여료와는 별도입니다. 분실이나 훼손 시에는 보증금이 청구될 수 있습니다."
+        },
+        {
+          "id": "se_ch32_set05_012",
+          "type": "ox",
+          "question": "놀이공원에서 'queue'는 미국 영어로 대기줄을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'queue'는 영국 영어로 대기줄을 의미합니다. 미국에서는 'line'이라고 합니다. 유럽 공원에서는 'queue'가 더 일반적으로 쓰입니다."
+        },
+        {
+          "id": "se_ch32_set05_013",
+          "type": "ox",
+          "question": "입장권 구매 시 'I'd like ~'는 'I want ~'보다 더 공손한 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'I'd like ~'는 'I would like ~'의 줄임말로, 직접적인 'I want ~'보다 더 정중하고 공손한 표현입니다. 서비스를 요청할 때는 'I'd like ~'를 사용하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch32_set05_014",
+          "type": "ox",
+          "question": "퍼레이드 공연 횟수를 표현할 때 'showing'과 'performance'는 같은 의미로 사용된다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'showing'과 'performance' 모두 공연·상영 횟수를 셀 때 사용할 수 있으며, 같은 의미로 혼용됩니다. 예를 들어 'two showings'와 'two performances' 모두 두 번의 공연을 뜻합니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch32_set06_001",
+          "type": "multiple_choice",
+          "question": "놀이기구 안내 표지판의 'You have to be at least 102 cm to get on.'에서 'get on'의 의미는?",
+          "options": [
+            "탑승하다",
+            "줄을 서다",
+            "키를 재다",
+            "예약하다"
+          ],
+          "answerIndex": 0,
+          "explanation": "'get on'은 '탑승하다'는 뜻입니다. 'get on a bus/ride'처럼 교통수단이나 놀이기구에 올라타는 행위를 표현합니다. 'You have to be at least 102 cm to get on.'은 탑승하려면 최소 102cm여야 한다는 뜻입니다."
+        },
+        {
+          "id": "se_ch32_set06_002",
+          "type": "multiple_choice",
+          "question": "'at least 102 cm'에서 'at least'의 반대 표현은?",
+          "options": [
+            "at most",
+            "at best",
+            "at first",
+            "at least"
+          ],
+          "answerIndex": 0,
+          "explanation": "'at least'는 '최소(이상)'를 뜻하고, 반대로 'at most'는 '최대(이하)'를 뜻합니다. 예를 들어 'at most 150 cm'라면 150cm 이하를 의미합니다."
+        },
+        {
+          "id": "se_ch32_set06_003",
+          "type": "multiple_choice",
+          "question": "영국식으로 대기줄 시간을 알려주는 표현은?",
+          "options": [
+            "It's roughly a 45-minute queue.",
+            "You'll wait for 45 minutes.",
+            "The line is 45 minutes.",
+            "Expect a 45-minute wait period."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's roughly a 45-minute queue.'는 영국식으로 'queue'를 사용해 대기줄 시간을 알려주는 표현입니다. 'roughly'는 '대략, 약'이라는 의미입니다."
+        },
+        {
+          "id": "se_ch32_set06_004",
+          "type": "multiple_choice",
+          "question": "영국식 유모차 대여 표현은?",
+          "options": [
+            "Can I hire a pushchair?",
+            "Can I rent a stroller?",
+            "I need a baby carriage.",
+            "Give me a pram please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I hire a pushchair?'는 영국식 표현으로 'hire(빌리다)'와 'pushchair(유모차)'를 사용합니다. 영국에서는 'rent' 대신 'hire'를 주로 씁니다."
+        },
+        {
+          "id": "se_ch32_set06_005",
+          "type": "multiple_choice",
+          "question": "어린이 미아 보호 공간을 분실물 센터와 연결해 묻는 표현은?",
+          "options": [
+            "Is there a lost and found for children?",
+            "Where is the children's hospital?",
+            "Can you find missing children?",
+            "Do you have a daycare center?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a lost and found for children?'는 어린이 미아 보호 공간을 분실물 센터와 연결해 묻는 표현입니다. 많은 공원에서 미아 보호와 분실물 서비스를 같은 장소에서 운영합니다."
+        },
+        {
+          "id": "se_ch32_set06_006",
+          "type": "multiple_choice",
+          "question": "패스트패스 예약 시 지정된 시간 구간을 뜻하는 단어는?",
+          "options": [
+            "time slot",
+            "schedule",
+            "booking",
+            "reservation"
+          ],
+          "answerIndex": 0,
+          "explanation": "'time slot'은 정해진 시간 구간을 뜻합니다. 패스트패스 예약 시 특정 1시간 슬롯을 선택하는 방식을 'book a time slot'이라고 표현합니다."
+        },
+        {
+          "id": "se_ch32_set06_007",
+          "type": "multiple_choice",
+          "question": "분실물이 이미 발견됐는지 아직 모를 때 확인하는 표현은?",
+          "options": [
+            "Could you see if it's been found yet?",
+            "Was my bag stolen?",
+            "Did someone take my backpack?",
+            "Check the security camera please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you see if it's been found yet?'는 물건이 아직 발견됐는지 확인을 요청하는 표현입니다. 'been found'는 현재완료 수동태로 '발견된 상태'를 나타냅니다."
+        },
+        {
+          "id": "se_ch32_set06_008",
+          "type": "multiple_choice",
+          "question": "신용카드로 결제하겠냐고 묻는 가장 간단한 표현은?",
+          "options": [
+            "Cash or card?",
+            "How do you pay?",
+            "Will you use credit?",
+            "Do you have a card?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Cash or card?'는 결제 수단을 묻는 가장 짧고 흔한 표현입니다. 'by cash(현금으로)' 또는 'by card(카드로)'를 확인하는 방식입니다."
+        },
+        {
+          "id": "se_ch32_set06_009",
+          "type": "multiple_choice",
+          "question": "퍼레이드 관람 명당을 확보하기 위한 조언을 표현하면?",
+          "options": [
+            "Get there early to secure a front-row view.",
+            "Come whenever you want.",
+            "Arrive after the show starts.",
+            "Stand anywhere you like."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Get there early to secure a front-row view.'는 맨 앞자리를 확보하려면 일찍 가야 한다는 표현입니다. 'secure'는 '확보하다, 차지하다'는 뜻입니다."
+        },
+        {
+          "id": "se_ch32_set06_010",
+          "type": "multiple_choice",
+          "question": "탑승 사진을 산다는 표현으로 적절한 것은?",
+          "options": [
+            "Can we buy the on-ride photo?",
+            "We want the ride picture.",
+            "Give us the photo from the ride.",
+            "Show us our ride image."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can we buy the on-ride photo?'는 탑승 중 자동 촬영된 사진을 살 수 있는지 묻는 직접적인 표현입니다. 'on-ride photo'는 '탑승 사진'을 뜻합니다."
+        },
+        {
+          "id": "se_ch32_set06_011",
+          "type": "ox",
+          "question": "유모차 대여 시 보증금(deposit)을 신용카드로 제공하면 분실 시 청구될 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 유모차 대여 시 보증금이나 신용카드 정보를 요구하는 경우가 많습니다. 유모차를 분실하거나 훼손하면 보증금에서 비용이 청구될 수 있으므로 주의해야 합니다."
+        },
+        {
+          "id": "se_ch32_set06_012",
+          "type": "ox",
+          "question": "입장권 구매 시 어린이를 'junior'라고도 부를 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 입장권을 구매할 때 어린이를 'child' 또는 'junior'라고 부를 수 있습니다. 공원이나 시설에 따라 다른 표현을 사용할 수 있으므로 안내를 잘 읽는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch32_set06_013",
+          "type": "ox",
+          "question": "퍼레이드 뒤에는 관람객이 분산되어 놀이기구 대기 줄이 길어진다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 퍼레이드 후에는 오히려 줄이 짧아지는 경향이 있습니다. 대화에서 'Usually after the parade, around 6 PM, the queues get shorter.'라고 안내했습니다. 퍼레이드 시간에 관람객이 집중되면 놀이기구 줄이 상대적으로 줄어듭니다."
+        },
+        {
+          "id": "se_ch32_set06_014",
+          "type": "ox",
+          "question": "놀이기구 탑승 후 출구 근처에서 탑승 사진을 구매할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 대부분의 놀이기구에서 탑승 사진은 출구 근처의 키오스크나 직원을 통해 구매할 수 있습니다. 포토패스가 있다면 사진을 계정에 연결할 수도 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch32_set07_001",
+          "type": "multiple_choice",
+          "question": "놀이기구 키 조건을 영어로 물을 때 가장 직접적인 표현은?",
+          "options": [
+            "What is the minimum height for this ride?",
+            "How tall is this ride?",
+            "What age limit is there?",
+            "Does this ride have rules?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What is the minimum height for this ride?'는 최소 키 조건을 직접 묻는 표현으로, 숫자를 바로 알 수 있어 실용적입니다. 'minimum height'가 핵심 표현입니다."
+        },
+        {
+          "id": "se_ch32_set07_002",
+          "type": "multiple_choice",
+          "question": "키 97cm인 아이가 'Riders must be at least 100 cm tall.'이라는 안내가 있는 놀이기구를 타려 하면?",
+          "options": [
+            "탑승할 수 없다.",
+            "탑승할 수 있다.",
+            "보호자와 함께 탑승 가능하다.",
+            "별도 허가 필요하다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'at least 100 cm'는 최소 100cm를 의미하므로, 97cm인 아이는 기준을 충족하지 못해 탑승할 수 없습니다. 안전을 위해 키 기준은 엄격하게 적용됩니다."
+        },
+        {
+          "id": "se_ch32_set07_003",
+          "type": "multiple_choice",
+          "question": "퍼레이드 이후 저녁에 줄이 줄어든다는 것을 표현하는 말은?",
+          "options": [
+            "Crowds are lighter in the evening.",
+            "The park closes in the evening.",
+            "Fewer rides run at night.",
+            "Evening has more attractions."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Crowds are lighter in the evening.'는 저녁에 관람객이 줄어든다는 표현입니다. 'lighter'는 여기서 '더 적은, 덜 혼잡한'이라는 의미입니다."
+        },
+        {
+          "id": "se_ch32_set07_004",
+          "type": "multiple_choice",
+          "question": "유모차 2인용을 영어로 무엇이라고 하나요?",
+          "options": [
+            "double stroller",
+            "twin stroller",
+            "two-person stroller",
+            "family stroller"
+          ],
+          "answerIndex": 0,
+          "explanation": "'double stroller'는 아이 두 명이 탈 수 있는 2인용 유모차를 뜻합니다. 영국식으로는 'twin buggy'라고도 합니다. 1인용은 'single stroller'입니다."
+        },
+        {
+          "id": "se_ch32_set07_005",
+          "type": "multiple_choice",
+          "question": "디즈니랜드에서 미아 보호소는 어디에 위치하나요?",
+          "options": [
+            "Main Street Guest Services",
+            "Ride entrance",
+            "Food court",
+            "Park exit only"
+          ],
+          "answerIndex": 0,
+          "explanation": "대화에서 'It's at the Main Street Guest Services, near the park entrance.'라고 안내했습니다. 미아 보호소는 공원 입구 근처 메인 스트리트 게스트 서비스에 있습니다."
+        },
+        {
+          "id": "se_ch32_set07_006",
+          "type": "multiple_choice",
+          "question": "패스트패스의 탑승 시간 구간이 모두 예약됐을 때 사용하는 표현은?",
+          "options": [
+            "fully booked",
+            "all done",
+            "no more times",
+            "time closed"
+          ],
+          "answerIndex": 0,
+          "explanation": "'fully booked'는 예약이 모두 차서 더 이상 예약이 불가능하다는 표현입니다. 'sold out'도 같은 의미로 쓰입니다. 반대로 자리가 있을 때는 'still available'이라고 합니다."
+        },
+        {
+          "id": "se_ch32_set07_007",
+          "type": "multiple_choice",
+          "question": "놀이기구에서 물건을 잃어버렸을 때 누구에게 연락해야 하는지 묻는 표현은?",
+          "options": [
+            "I lost something on the ride. Who should I talk to?",
+            "I dropped my bag. Help me.",
+            "My things are gone from the ride.",
+            "Find my lost item please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I lost something on the ride. Who should I talk to?'는 놀이기구에서 잃어버렸을 때 담당자를 확인하는 실용적인 표현입니다. 'on the ride'는 '놀이기구에서'라는 뜻입니다."
+        },
+        {
+          "id": "se_ch32_set07_008",
+          "type": "multiple_choice",
+          "question": "아이 몫으로 소량의 음식을 제공하는지 묻는 표현은?",
+          "options": [
+            "Do you have smaller portions for kids?",
+            "Are kids' meals available?",
+            "Can children eat here?",
+            "Is there baby food here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you have smaller portions for kids?'는 아이용 소량 메뉴가 있는지 묻는 표현입니다. 'portion'은 '1인분, 음식의 양'을 뜻하며, 'smaller portions'는 작은 양을 의미합니다."
+        },
+        {
+          "id": "se_ch32_set07_009",
+          "type": "multiple_choice",
+          "question": "퍼레이드 공연이 두 번 진행될 때 이를 표현하는 말은?",
+          "options": [
+            "It runs twice — once at 3 and again at 6.",
+            "The parade shows two types.",
+            "Two separate parades happen daily.",
+            "The show is split into two."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It runs twice — once at 3 and again at 6.'는 퍼레이드가 두 번 진행된다는 것을 'runs twice'로 자연스럽게 표현하는 방식입니다."
+        },
+        {
+          "id": "se_ch32_set07_010",
+          "type": "multiple_choice",
+          "question": "포토패스 카드나 앱 바코드로 사진을 연결하는 방법은?",
+          "options": [
+            "Show me your PhotoPass card or scan the app barcode.",
+            "Email us your photo request.",
+            "Print the card and bring it back.",
+            "Log into the website later."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Show me your PhotoPass card or scan the app barcode.'는 포토패스 카드를 보여주거나 앱 바코드를 스캔하는 방법으로 사진을 연결하는 안내입니다."
+        },
+        {
+          "id": "se_ch32_set07_011",
+          "type": "ox",
+          "question": "결제 방법을 물을 때 'by card'는 카드로 결제를 뜻하고, 'in cash'는 현금 결제를 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 결제 수단 표현에서 'by card'는 카드 결제, 'in cash'는 현금 결제를 나타냅니다. 전치사 'by'와 'in'을 사용해 결제 방식을 구분합니다."
+        },
+        {
+          "id": "se_ch32_set07_012",
+          "type": "ox",
+          "question": "놀이기구에서 자동 촬영된 사진을 'ride photo'라고 한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'ride photo' 또는 'on-ride photo'는 놀이기구 탑승 중 자동으로 찍히는 사진을 뜻합니다. 출구 근처의 키오스크에서 확인하고 구매하거나 포토패스에 연결할 수 있습니다."
+        },
+        {
+          "id": "se_ch32_set07_013",
+          "type": "ox",
+          "question": "유니버설 스튜디오의 패스트패스 서비스 명칭은 'Lightning Lane'이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Lightning Lane'은 디즈니의 빠른 탑승 서비스 명칭입니다. 유니버설에서는 'Express Pass'라는 이름을 사용합니다. 각 공원마다 명칭이 다르지만 'fast pass'라고 통칭해도 대부분 이해합니다."
+        },
+        {
+          "id": "se_ch32_set07_014",
+          "type": "ox",
+          "question": "퍼레이드 좋은 자리 확보를 위해 30분 전 도착이 권장된다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 대화에서 'Arrive about 30 minutes early to get a good spot.'이라고 안내했습니다. 좋은 관람 자리를 잡으려면 퍼레이드 시작 약 30분 전에 도착하는 것이 좋습니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch32_set08_001",
+          "type": "multiple_choice",
+          "question": "'height requirement'를 가장 올바르게 설명한 것은?",
+          "options": [
+            "탑승 가능한 최소 키 조건",
+            "탑승자의 평균 키",
+            "놀이기구의 실제 높이",
+            "탑승자의 최대 키 제한"
+          ],
+          "answerIndex": 0,
+          "explanation": "'height requirement'는 안전을 위해 설정된 탑승 가능한 최소 키 조건을 의미합니다. 이 조건을 충족하지 못하면 탑승이 거부될 수 있습니다."
+        },
+        {
+          "id": "se_ch32_set08_002",
+          "type": "multiple_choice",
+          "question": "직원이 키 기준을 충족하지 못했다고 할 때 쓰는 표현은?",
+          "options": [
+            "He doesn't meet the requirement.",
+            "He failed the height test.",
+            "His height is wrong.",
+            "He is too little."
+          ],
+          "answerIndex": 0,
+          "explanation": "'He doesn't meet the requirement.'는 조건을 충족하지 못했다는 공식적이고 정중한 표현입니다. 'meet the requirement'는 '조건/기준을 충족하다'는 중요한 관용 표현입니다."
+        },
+        {
+          "id": "se_ch32_set08_003",
+          "type": "multiple_choice",
+          "question": "대기줄이 45분이라고 알려주는 미국식 구어 표현은?",
+          "options": [
+            "You're looking at about a 45-minute wait.",
+            "The wait is exactly 45 minutes.",
+            "Please stand in line for 45 minutes.",
+            "Approximately 45 minutes remain."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You're looking at about a 45-minute wait.'는 미국식 구어로 대기시간을 자연스럽게 알려주는 표현입니다. 'You're looking at ~'는 '~를 예상하면 된다, ~정도 된다'는 의미입니다."
+        },
+        {
+          "id": "se_ch32_set08_004",
+          "type": "multiple_choice",
+          "question": "유모차 대여 시 가장 먼저 확인해야 할 내용은?",
+          "options": [
+            "1인용인지 2인용인지",
+            "유모차 색상",
+            "제조사 브랜드",
+            "최신 모델 여부"
+          ],
+          "answerIndex": 0,
+          "explanation": "아이가 한 명인지 두 명인지에 따라 'single stroller(1인용)'와 'double stroller(2인용)'를 선택해야 합니다. 대화에서도 직원이 'Which would you like?'라고 물어봤습니다."
+        },
+        {
+          "id": "se_ch32_set08_005",
+          "type": "multiple_choice",
+          "question": "아이가 미아가 됐을 때 찾아갈 곳으로 알려줄 수 있는 장소는?",
+          "options": [
+            "Main Street Guest Services",
+            "The nearest snack stand",
+            "The entrance gate",
+            "The biggest ride"
+          ],
+          "answerIndex": 0,
+          "explanation": "대화에서 미아 보호소가 'Main Street Guest Services, near the park entrance'에 있다고 알려줬습니다. 방문 전 아이에게 이 장소를 미리 알려두는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch32_set08_006",
+          "type": "multiple_choice",
+          "question": "패스트패스의 탑승 시간 창(시간대)을 뜻하는 표현은?",
+          "options": [
+            "entry window",
+            "fast time",
+            "ride window",
+            "pass time"
+          ],
+          "answerIndex": 0,
+          "explanation": "'entry window'는 패스트패스에서 지정된 입장 시간 구간을 뜻합니다. 예를 들어 '3:00~4:00 entry window'는 그 시간대에 입장이 가능하다는 의미입니다."
+        },
+        {
+          "id": "se_ch32_set08_007",
+          "type": "multiple_choice",
+          "question": "분실물 센터를 영국식으로 묻는 표현은?",
+          "options": [
+            "Where is the lost property office?",
+            "Is there a lost and found?",
+            "Do you have a missing items desk?",
+            "Can you find lost items?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where is the lost property office?'는 영국식 영어로 분실물 센터 위치를 묻는 표현입니다. 미국에서는 'lost and found'라고 하지만, 영국에서는 'lost property'가 표준 표현입니다."
+        },
+        {
+          "id": "se_ch32_set08_008",
+          "type": "multiple_choice",
+          "question": "결제 방법을 가장 일반적으로 묻는 열린 표현은?",
+          "options": [
+            "How would you like to pay?",
+            "Cash or card?",
+            "Will you be paying by card?",
+            "Do you have money?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How would you like to pay?'는 결제 방법을 묻는 가장 일반적인 오픈 질문 형태로, 특정 결제 방법을 가정하지 않습니다. 'Cash or card?'보다 더 포괄적인 질문입니다."
+        },
+        {
+          "id": "se_ch32_set08_009",
+          "type": "multiple_choice",
+          "question": "퍼레이드 다음 공연 시각을 묻는 간결한 표현은?",
+          "options": [
+            "When is the next parade?",
+            "What is the parade schedule?",
+            "How many parades are there?",
+            "Tell me about the parade."
+          ],
+          "answerIndex": 0,
+          "explanation": "'When is the next parade?'는 다음 퍼레이드가 언제인지 묻는 간결한 표현입니다. 'What time does the parade start?'보다 짧게 사용할 수 있습니다."
+        },
+        {
+          "id": "se_ch32_set08_010",
+          "type": "multiple_choice",
+          "question": "탑승 사진 구매처를 설명하는 공식적인 표현은?",
+          "options": [
+            "Photos are available for purchase at the exit.",
+            "Buy your pictures at the shop.",
+            "Get your photo from the screen.",
+            "Ask the staff for your photo."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Photos are available for purchase at the exit.'는 출구에서 사진을 구매할 수 있다는 공식적인 안내 표현입니다. 'available for purchase'는 '구매 가능한'을 뜻합니다."
+        },
+        {
+          "id": "se_ch32_set08_011",
+          "type": "ox",
+          "question": "어린이 입장이 무료인 연령 기준은 놀이공원마다 동일하다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 놀이공원마다 무료 입장 연령 기준이 다릅니다. 예를 들어 어떤 곳은 세 살 미만, 다른 곳은 두 살 이하가 무료일 수 있습니다. 방문 전 해당 공원의 규정을 확인해야 합니다."
+        },
+        {
+          "id": "se_ch32_set08_012",
+          "type": "ox",
+          "question": "'radio'는 명사뿐 아니라 동사로도 쓰여 '무전하다'는 의미를 갖는다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'radio'는 명사로는 '무선통신기, 라디오'를 뜻하지만, 동사로도 쓰여 '무전으로 연락하다'는 의미를 갖습니다. 'Let me radio the ride crew.'는 무전으로 놀이기구 팀에 연락하겠다는 뜻입니다."
+        },
+        {
+          "id": "se_ch32_set08_013",
+          "type": "ox",
+          "question": "'Memory Maker'는 유니버설 스튜디오의 포토패스 서비스 명칭이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Memory Maker'는 디즈니의 포토패스 패키지 서비스 명칭입니다. 유니버설에는 별도의 포토 서비스가 있지만 'Memory Maker'라는 명칭은 사용하지 않습니다."
+        },
+        {
+          "id": "se_ch32_set08_014",
+          "type": "ox",
+          "question": "퍼레이드 위치로 메인 스트리트(Main Street)가 어린이와 함께 관람하기 좋은 곳으로 추천된다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 대화에서 'I'd recommend Main Street.'라고 안내했습니다. 어린이와 함께 퍼레이드를 관람하기에 메인 스트리트가 좋은 위치로 추천됩니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch32_set09_001",
+          "type": "multiple_choice",
+          "question": "놀이기구 키 제한에 관해 가장 일반적으로 쓰이는 표현 두 가지를 올바르게 연결한 것은?",
+          "options": [
+            "height requirement / minimum height",
+            "height limit / age restriction",
+            "size check / body measurement",
+            "ride rule / height standard"
+          ],
+          "answerIndex": 0,
+          "explanation": "'height requirement'와 'minimum height'는 모두 탑승 가능한 최소 키 조건을 나타내는 표현입니다. 안내판이나 직원 안내에서 두 표현이 혼용됩니다."
+        },
+        {
+          "id": "se_ch32_set09_002",
+          "type": "multiple_choice",
+          "question": "키가 기준에 못 미친다고 알려줄 때 'at least'를 사용해 표현하면?",
+          "options": [
+            "He needs to be at least 102 cm to ride safely.",
+            "He must be at most 102 cm.",
+            "He should be around 102 cm.",
+            "He has to be exactly 102 cm."
+          ],
+          "answerIndex": 0,
+          "explanation": "'at least 102 cm'는 최소 102cm 이상이어야 한다는 의미입니다. 대화에서 직원이 'He'll need to be 102 cm to ride safely.'라고 안내했습니다."
+        },
+        {
+          "id": "se_ch32_set09_003",
+          "type": "multiple_choice",
+          "question": "대기줄을 미국에서는 무엇이라고 부르나요?",
+          "options": [
+            "line",
+            "queue",
+            "row",
+            "file"
+          ],
+          "answerIndex": 0,
+          "explanation": "미국에서는 대기줄을 'line'이라고 합니다. 영국에서는 'queue'라고 하며, 유럽 공원에서는 'queue'가 더 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch32_set09_004",
+          "type": "multiple_choice",
+          "question": "유모차 보증금이 환불 가능하다는 것을 명확히 하는 표현은?",
+          "options": [
+            "There's a refundable deposit of €20.",
+            "The deposit is €20 extra.",
+            "Pay €20 for the stroller.",
+            "Deposit €20 to keep the stroller."
+          ],
+          "answerIndex": 0,
+          "explanation": "'There's a refundable deposit of €20.'는 20유로의 환불 가능한 보증금이 있다는 표현입니다. 'refundable'이 보증금이 반환된다는 것을 명확히 합니다."
+        },
+        {
+          "id": "se_ch32_set09_005",
+          "type": "multiple_choice",
+          "question": "미아가 됐을 때 아이에게 가르쳐줄 수 있는 표현은?",
+          "options": [
+            "Ask any park employee for help.",
+            "Go back to the car.",
+            "Call mom on the phone.",
+            "Stay by the ride you came from."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Ask any park employee for help.'는 공원 직원에게 도움을 요청하라는 표현입니다. 직원 유니폼을 입은 어른에게 도움을 요청하도록 미리 아이에게 알려두는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch32_set09_006",
+          "type": "multiple_choice",
+          "question": "패스트패스 시간 슬롯에 아직 자리가 있을 때 표현은?",
+          "options": [
+            "There are still spots for the 3 o'clock session.",
+            "The 3 PM fast pass is sold out.",
+            "Book before 3 PM only.",
+            "The 3 o'clock slot is closed."
+          ],
+          "answerIndex": 0,
+          "explanation": "'There are still spots for the 3 o'clock session.'는 3시 세션에 아직 자리가 남아 있다는 표현입니다. 'spots'는 '잔여 자리'를 뜻합니다."
+        },
+        {
+          "id": "se_ch32_set09_007",
+          "type": "multiple_choice",
+          "question": "분실된 물건을 누군가가 주워서 직원에게 맡기는 행위를 뜻하는 표현은?",
+          "options": [
+            "turn in",
+            "pick up",
+            "give away",
+            "throw away"
+          ],
+          "answerIndex": 0,
+          "explanation": "'turn in'은 물건을 주워서 담당자에게 맡기는 행위를 뜻합니다. 'hand in'과 같은 의미입니다. 'Has it been turned in?'은 누군가 그 물건을 맡겼는지 확인하는 표현입니다."
+        },
+        {
+          "id": "se_ch32_set09_008",
+          "type": "multiple_choice",
+          "question": "빠른 서비스 식당(패스트푸드형)을 공원에서 부르는 명칭은?",
+          "options": [
+            "quick-service restaurant",
+            "table-service restaurant",
+            "buffet restaurant",
+            "reservation restaurant"
+          ],
+          "answerIndex": 0,
+          "explanation": "'quick-service restaurant'는 주문 후 빠르게 음식을 받는 패스트푸드형 식당을 뜻합니다. 예약이 필요한 고급 식당은 'table-service restaurant'라고 구분합니다."
+        },
+        {
+          "id": "se_ch32_set09_009",
+          "type": "multiple_choice",
+          "question": "퍼레이드 낮 공연 시작 시간을 구체적으로 묻는 표현은?",
+          "options": [
+            "At what time does the daytime show begin?",
+            "When does the night show start?",
+            "How long is the daytime parade?",
+            "Where does the parade begin?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'At what time does the daytime show begin?'는 낮 공연이 몇 시에 시작하는지 구체적으로 묻는 표현입니다. 'daytime show'는 낮에 진행되는 공연을 뜻합니다."
+        },
+        {
+          "id": "se_ch32_set09_010",
+          "type": "multiple_choice",
+          "question": "탑승 사진 구매 외에도 어떤 방법으로 사진을 받을 수 있나요?",
+          "options": [
+            "포토패스 계정에 연결한다.",
+            "이메일로 전송을 요청한다.",
+            "직접 카메라로 촬영한다.",
+            "나중에 홈페이지에서 다운로드한다."
+          ],
+          "answerIndex": 0,
+          "explanation": "대화에서 'You can purchase the ride photo here, or link it to your Memory Maker pass.'라고 안내했습니다. 포토패스나 메모리 메이커 패스에 연결하면 이후에 다운받거나 인쇄할 수 있습니다."
+        },
+        {
+          "id": "se_ch32_set09_011",
+          "type": "ox",
+          "question": "세 살 미만은 놀이공원 입장이 대부분 무료이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 많은 놀이공원에서 세 살 미만 아이는 무료입장이 가능합니다. 다만 공원마다 기준이 다르므로 방문 전 홈페이지나 앱에서 확인하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch32_set09_012",
+          "type": "ox",
+          "question": "'book a time slot'에서 'slot'은 정해진 시간 구간을 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'slot'은 특정하게 배정된 시간 구간을 뜻합니다. 'time slot'은 패스트패스 예약에서 선택하는 1시간 단위의 탑승 가능 시간대를 나타냅니다."
+        },
+        {
+          "id": "se_ch32_set09_013",
+          "type": "ox",
+          "question": "모든 놀이기구에는 반드시 키 제한(height requirement)이 있다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 모든 놀이기구에 키 제한이 있는 것은 아닙니다. 빠르거나 격렬한 어트랙션에만 안전을 위해 최소 키 기준이 설정됩니다. 비교적 순한 놀이기구나 어린이 전용 놀이기구는 키 제한이 없는 경우가 많습니다."
+        },
+        {
+          "id": "se_ch32_set09_014",
+          "type": "ox",
+          "question": "'lost child center'와 'Guest Services'는 놀이공원에서 같은 장소 또는 같은 기능을 하는 경우가 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 많은 놀이공원에서 미아 보호소는 'Guest Services' 안에 위치하거나 같은 장소에서 운영됩니다. 두 기능이 통합되어 운영되는 경우가 많습니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch32_set10_001",
+          "type": "multiple_choice",
+          "question": "놀이기구 탑승 조건을 물을 때 'height'가 포함된 올바른 표현은?",
+          "options": [
+            "Is there a height requirement for this ride?",
+            "Is there a height preference for this ride?",
+            "Does this ride have a height suggestion?",
+            "Is height important for this ride?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a height requirement for this ride?'는 놀이기구의 키 제한을 묻는 정확한 표현입니다. 'requirement'는 '요건, 조건'을 뜻하며, 'preference'나 'suggestion'은 의미가 다릅니다."
+        },
+        {
+          "id": "se_ch32_set10_002",
+          "type": "multiple_choice",
+          "question": "키 기준이 102cm인 놀이기구에 105cm 아이가 타려고 할 때 직원의 반응은?",
+          "options": [
+            "탑승 가능하다고 안내한다.",
+            "탑승이 안 된다고 안내한다.",
+            "보호자 서명을 요구한다.",
+            "다른 놀이기구를 추천한다."
+          ],
+          "answerIndex": 0,
+          "explanation": "키 기준이 102cm일 때 105cm인 아이는 조건을 충족하므로 탑승 가능합니다. 'minimum height'는 그 이상이면 모두 가능하다는 뜻입니다."
+        },
+        {
+          "id": "se_ch32_set10_003",
+          "type": "multiple_choice",
+          "question": "대기줄 시작 지점에 세워진 안내판에 흔히 쓰이는 표현은?",
+          "options": [
+            "Wait time 45 min from here",
+            "45 minutes total ride time",
+            "Queue closes in 45 minutes",
+            "45 people are in line"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Wait time 45 min from here'는 대기줄 시작 지점에서 탑승까지의 예상 대기시간을 표시하는 일반적인 안내판 표현입니다. 'from here'가 기준점을 나타냅니다."
+        },
+        {
+          "id": "se_ch32_set10_004",
+          "type": "multiple_choice",
+          "question": "보증금으로 신용카드를 맡아두겠다는 표현은?",
+          "options": [
+            "We'll hold your card for the deposit.",
+            "We'll charge your card the deposit.",
+            "Your card is our deposit.",
+            "Leave your card as payment."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We'll hold your card for the deposit.'는 보증금 담보로 카드를 잡아두겠다는 표현입니다. 'hold'는 '담보로 맡아두다'는 의미입니다."
+        },
+        {
+          "id": "se_ch32_set10_005",
+          "type": "multiple_choice",
+          "question": "직원이 아이에게 도움을 줄 수 있다는 표현으로 적절한 것은?",
+          "options": [
+            "Any staff member can help her find you.",
+            "She can find staff if needed.",
+            "A staff member will find her.",
+            "Staff are available for adults only."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Any staff member can help her find you.'는 직원이 아이가 부모를 찾도록 도와줄 수 있다는 표현으로, 보호자를 안심시키는 표현입니다."
+        },
+        {
+          "id": "se_ch32_set10_006",
+          "type": "multiple_choice",
+          "question": "현재 예약 가능한 패스트패스 시간대를 묻는 상황에서 직원이 앱 사용을 안내할 때?",
+          "options": [
+            "Use the app to reserve your entry window.",
+            "Ask at the ride entrance.",
+            "Check the park map.",
+            "Come back later to book."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Use the app to reserve your entry window.'는 앱으로 입장 시간대를 예약하라는 안내입니다. 'entry window'는 지정된 입장 가능 시간 구간을 뜻합니다."
+        },
+        {
+          "id": "se_ch32_set10_007",
+          "type": "multiple_choice",
+          "question": "분실물 확인을 위해 탑승 팀에 연락하겠다는 표현은?",
+          "options": [
+            "Let me check with the ride operators.",
+            "I'll check the lost and found.",
+            "You should go to security.",
+            "Wait here while I search."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me check with the ride operators.'는 놀이기구 운영 직원에게 확인해보겠다는 표현입니다. 'ride operators'는 놀이기구를 운영하는 직원들을 가리킵니다."
+        },
+        {
+          "id": "se_ch32_set10_008",
+          "type": "multiple_choice",
+          "question": "공원에서 식당을 찾을 때 앱을 활용하는 방법으로 안내하면?",
+          "options": [
+            "Check the app map for restaurant locations.",
+            "Ask any guest for directions.",
+            "Follow the food smell.",
+            "Look for the biggest building."
+          ],
+          "answerIndex": 0,
+          "explanation": "큰 공원에서는 앱 지도에 식당 위치가 표시됩니다. 'Check the app map for restaurant locations.'는 앱으로 식당 위치를 확인하라는 실용적인 안내입니다."
+        },
+        {
+          "id": "se_ch32_set10_009",
+          "type": "multiple_choice",
+          "question": "퍼레이드 전 좋은 자리를 확보하기 위해 얼마나 일찍 도착해야 하는지 안내하는 표현은?",
+          "options": [
+            "Come 20–30 minutes before the show for a good position.",
+            "Arrive 5 minutes early for a seat.",
+            "Get there an hour before to be safe.",
+            "Come exactly when the show starts."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Come 20–30 minutes before the show for a good position.'는 좋은 위치를 잡으려면 20~30분 전에 도착해야 한다는 구체적인 안내입니다."
+        },
+        {
+          "id": "se_ch32_set10_010",
+          "type": "multiple_choice",
+          "question": "포토패스에 QR코드를 활용해 사진을 연결하는 표현은?",
+          "options": [
+            "Scan my QR code to connect the photo.",
+            "Show the photo to the staff.",
+            "Print the QR code at home.",
+            "Download the photo to USB."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Scan my QR code to connect the photo.'는 QR코드 스캔으로 탑승 사진을 포토패스에 연결해달라는 실용적인 표현입니다."
+        },
+        {
+          "id": "se_ch32_set10_011",
+          "type": "ox",
+          "question": "'table-service restaurant'는 예약 없이 이용하는 패스트푸드형 식당이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'table-service restaurant'는 예약이 필요한 정식 레스토랑입니다. 예약 없이 줄을 서서 이용하는 패스트푸드형은 'quick-service restaurant'라고 합니다."
+        },
+        {
+          "id": "se_ch32_set10_012",
+          "type": "ox",
+          "question": "영국식에서는 대여(유료)를 'hire'라는 동사로 표현한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 영국에서는 차, 유모차 등을 유료로 빌릴 때 'hire'를 사용합니다. 미국에서는 같은 의미로 'rent'를 씁니다. 영국 공원에서는 'Can I hire a pushchair?'가 더 자연스럽습니다."
+        },
+        {
+          "id": "se_ch32_set10_013",
+          "type": "ox",
+          "question": "'kids' meal'은 어린이용 식사를 뜻하며 미국 영어에서 더 일반적이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'kids' meal'은 미국에서 일반적으로 사용하는 어린이용 식사 표현입니다. 영국에서는 'children's meal' 또는 'children's menu'가 더 자연스럽습니다."
+        },
+        {
+          "id": "se_ch32_set10_014",
+          "type": "ox",
+          "question": "퍼레이드 관람 시 자리 잡기와 식사 시간이 겹치는 저녁에 놀이기구 줄도 함께 길어진다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 저녁 퍼레이드 전후로 관람객이 퍼레이드 위치로 이동하기 때문에 오히려 놀이기구 대기줄이 짧아지는 경향이 있습니다. 이를 전략적으로 이용하면 인기 어트랙션을 더 빨리 탈 수 있습니다."
         }
       ]
     }

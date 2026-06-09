@@ -7,34 +7,68 @@
       "id": "ch02_d01",
       "title": "Could you로 정중히 부탁하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me. Could you take a photo of us?", "ko": "실례합니다. 저희 사진을 찍어 주실 수 있을까요?" },
-        { "speaker": "행인", "en": "Of course! Say cheese!", "ko": "물론이죠! 치즈 하세요!" },
-        { "speaker": "나", "en": "Thank you so much. That's very kind of you.", "ko": "정말 감사합니다. 정말 친절하시네요." },
-        { "speaker": "행인", "en": "No problem at all. Enjoy your trip!", "ko": "천만에요. 즐거운 여행 되세요!" }
+        {
+          "speaker": "나",
+          "en": "Excuse me. Could you take a photo of us?",
+          "ko": "실례합니다. 저희 사진을 찍어 주실 수 있을까요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Of course! Say cheese!",
+          "ko": "물론이죠! 치즈 하세요!"
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you so much. That's very kind of you.",
+          "ko": "정말 감사합니다. 정말 친절하시네요."
+        },
+        {
+          "speaker": "행인",
+          "en": "No problem at all. Enjoy your trip!",
+          "ko": "천만에요. 즐거운 여행 되세요!"
+        }
       ],
       "keyExpressions": [
         {
           "en": "Could you take a photo of us?",
           "ko": "저희 사진 찍어 주실 수 있을까요? — 'Could you~?'는 'Can you~?'보다 정중한 표현. 명령형 'Take a photo!'는 무례하게 들릴 수 있어요.",
           "alternatives": [
-            { "en": "Would you mind taking a photo of us?", "ko": "사진 찍어 주시겠어요? (더 정중한 표현)" },
-            { "en": "Can you take a picture for us?", "ko": "사진 한 장 찍어 주실 수 있나요? (격식이 덜함)" }
+            {
+              "en": "Would you mind taking a photo of us?",
+              "ko": "사진 찍어 주시겠어요? (더 정중한 표현)"
+            },
+            {
+              "en": "Can you take a picture for us?",
+              "ko": "사진 한 장 찍어 주실 수 있나요? (격식이 덜함)"
+            }
           ]
         },
         {
           "en": "That's very kind of you.",
           "ko": "정말 친절하시네요. — 단순 'Thank you'보다 감사의 마음을 더 따뜻하게 전달하는 표현.",
           "alternatives": [
-            { "en": "You're so nice.", "ko": "정말 좋은 분이시네요." },
-            { "en": "I really appreciate it.", "ko": "진심으로 감사드립니다." }
+            {
+              "en": "You're so nice.",
+              "ko": "정말 좋은 분이시네요."
+            },
+            {
+              "en": "I really appreciate it.",
+              "ko": "진심으로 감사드립니다."
+            }
           ]
         },
         {
           "en": "No problem at all.",
           "ko": "'You're welcome'의 자연스러운 대체 표현. 'Not at all.'도 같은 뜻이에요.",
           "alternatives": [
-            { "en": "You're welcome.", "ko": "천만에요. (가장 기본적인 감사 응대)" },
-            { "en": "Happy to help!", "ko": "기꺼이요! (밝고 친근한 표현)" }
+            {
+              "en": "You're welcome.",
+              "ko": "천만에요. (가장 기본적인 감사 응대)"
+            },
+            {
+              "en": "Happy to help!",
+              "ko": "기꺼이요! (밝고 친근한 표현)"
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch02_d02",
       "title": "Excuse me로 말 걸기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, could you tell me where the nearest subway station is?", "ko": "실례합니다, 가장 가까운 지하철역이 어디인지 알려 주실 수 있을까요?" },
-        { "speaker": "행인", "en": "Sure! It's just two blocks down that way.", "ko": "물론이죠! 저쪽으로 두 블록만 가시면 돼요." },
-        { "speaker": "나", "en": "Thank you so much!", "ko": "정말 감사합니다!" },
-        { "speaker": "행인", "en": "No worries. Have a good one!", "ko": "별말씀을요. 좋은 하루 되세요!" }
+        {
+          "speaker": "나",
+          "en": "Excuse me, could you tell me where the nearest subway station is?",
+          "ko": "실례합니다, 가장 가까운 지하철역이 어디인지 알려 주실 수 있을까요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Sure! It's just two blocks down that way.",
+          "ko": "물론이죠! 저쪽으로 두 블록만 가시면 돼요."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you so much!",
+          "ko": "정말 감사합니다!"
+        },
+        {
+          "speaker": "행인",
+          "en": "No worries. Have a good one!",
+          "ko": "별말씀을요. 좋은 하루 되세요!"
+        }
       ],
       "keyExpressions": [
         {
           "en": "Excuse me,",
           "ko": "실례합니다 — 낯선 사람에게 말을 걸 때 쓰는 기본 표현. 'Hey!'나 'Hey you!'는 매우 무례하게 들려요.",
           "alternatives": [
-            { "en": "Pardon me,", "ko": "실례합니다 (미국 남부·격식체에서 자주 쓰임)" },
-            { "en": "Sorry to bother you,", "ko": "방해해서 죄송한데요, (더 조심스러운 느낌)" }
+            {
+              "en": "Pardon me,",
+              "ko": "실례합니다 (미국 남부·격식체에서 자주 쓰임)"
+            },
+            {
+              "en": "Sorry to bother you,",
+              "ko": "방해해서 죄송한데요, (더 조심스러운 느낌)"
+            }
           ]
         },
         {
           "en": "Could you tell me where ~ is?",
           "ko": "~이 어디 있는지 알려 주시겠어요? — 'Where is ~?'보다 훨씬 정중한 간접 의문문 형식.",
           "alternatives": [
-            { "en": "Do you know where ~ is?", "ko": "~이 어디 있는지 아세요? (일상적 표현)" },
-            { "en": "Can you point me to ~?", "ko": "~가 어디인지 알려 주시겠어요? (방향을 묻는 구어체)" }
+            {
+              "en": "Do you know where ~ is?",
+              "ko": "~이 어디 있는지 아세요? (일상적 표현)"
+            },
+            {
+              "en": "Can you point me to ~?",
+              "ko": "~가 어디인지 알려 주시겠어요? (방향을 묻는 구어체)"
+            }
           ]
         },
         {
           "en": "Have a good one!",
           "ko": "좋은 하루 되세요! — 'Have a nice day!'와 같은 의미의 구어체 표현.",
           "alternatives": [
-            { "en": "Have a great day!", "ko": "좋은 하루 보내세요!" },
-            { "en": "Take care!", "ko": "잘 가세요! / 조심히 가세요!" }
+            {
+              "en": "Have a great day!",
+              "ko": "좋은 하루 보내세요!"
+            },
+            {
+              "en": "Take care!",
+              "ko": "잘 가세요! / 조심히 가세요!"
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch02_d03",
       "title": "감사 표현과 응대",
       "lines": [
-        { "speaker": "나", "en": "Here is your order. Thank you for your patience.", "ko": "주문하신 음식 나왔습니다. 기다려 주셔서 감사합니다." },
-        { "speaker": "직원", "en": "You're very welcome. Enjoy your meal!", "ko": "천만에요. 맛있게 드세요!" },
-        { "speaker": "나", "en": "Thank you. Everything looks delicious!", "ko": "감사합니다. 다 맛있어 보이네요!" },
-        { "speaker": "직원", "en": "I'm glad to hear that. Let me know if you need anything.", "ko": "그렇게 말씀해 주시니 기쁘네요. 필요한 것 있으면 말씀해 주세요." }
+        {
+          "speaker": "나",
+          "en": "Here is your order. Thank you for your patience.",
+          "ko": "주문하신 음식 나왔습니다. 기다려 주셔서 감사합니다."
+        },
+        {
+          "speaker": "직원",
+          "en": "You're very welcome. Enjoy your meal!",
+          "ko": "천만에요. 맛있게 드세요!"
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you. Everything looks delicious!",
+          "ko": "감사합니다. 다 맛있어 보이네요!"
+        },
+        {
+          "speaker": "직원",
+          "en": "I'm glad to hear that. Let me know if you need anything.",
+          "ko": "그렇게 말씀해 주시니 기쁘네요. 필요한 것 있으면 말씀해 주세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "You're very welcome.",
           "ko": "천만에요 — 'Thank you'에 대한 가장 기본적인 응대. 'very'를 붙이면 더 진심 어린 느낌.",
           "alternatives": [
-            { "en": "Of course!", "ko": "물론이죠! (가볍고 친근한 응대)" },
-            { "en": "My pleasure.", "ko": "제가 기쁩니다. (격식 있고 따뜻한 표현)" }
+            {
+              "en": "Of course!",
+              "ko": "물론이죠! (가볍고 친근한 응대)"
+            },
+            {
+              "en": "My pleasure.",
+              "ko": "제가 기쁩니다. (격식 있고 따뜻한 표현)"
+            }
           ]
         },
         {
           "en": "Enjoy your meal!",
           "ko": "맛있게 드세요! — 식사 전에 쓰는 표현. 프랑스어 'Bon appétit'도 영어권에서 자주 사용해요.",
           "alternatives": [
-            { "en": "Bon appétit!", "ko": "맛있게 드세요! (프랑스어 표현, 영어권에서도 통함)" },
-            { "en": "Hope you enjoy it!", "ko": "맛있게 드시길 바랍니다!" }
+            {
+              "en": "Bon appétit!",
+              "ko": "맛있게 드세요! (프랑스어 표현, 영어권에서도 통함)"
+            },
+            {
+              "en": "Hope you enjoy it!",
+              "ko": "맛있게 드시길 바랍니다!"
+            }
           ]
         },
         {
           "en": "Let me know if you need anything.",
           "ko": "필요한 것 있으면 말씀해 주세요 — 직원이 자주 쓰는 친절한 마무리 표현.",
           "alternatives": [
-            { "en": "Just give me a shout if you need help.", "ko": "도움 필요하면 불러 주세요. (구어체)" },
-            { "en": "Feel free to ask if you have any questions.", "ko": "궁금한 점 있으면 편하게 물어보세요." }
+            {
+              "en": "Just give me a shout if you need help.",
+              "ko": "도움 필요하면 불러 주세요. (구어체)"
+            },
+            {
+              "en": "Feel free to ask if you have any questions.",
+              "ko": "궁금한 점 있으면 편하게 물어보세요."
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch02_d04",
       "title": "사과하기",
       "lines": [
-        { "speaker": "나", "en": "Oh, I'm so sorry! I accidentally spilled my drink.", "ko": "아, 정말 죄송합니다! 실수로 음료를 쏟았어요." },
-        { "speaker": "직원", "en": "No worries, it happens. Let me clean that up for you.", "ko": "괜찮아요, 그럴 수 있죠. 제가 바로 닦아 드릴게요." },
-        { "speaker": "나", "en": "I'm really sorry about that. Is there anything I can do?", "ko": "정말 죄송해요. 제가 뭔가 도울 일이 있을까요?" },
-        { "speaker": "직원", "en": "Not at all, please don't worry about it.", "ko": "천만에요, 걱정하지 마세요." }
+        {
+          "speaker": "나",
+          "en": "Oh, I'm so sorry! I accidentally spilled my drink.",
+          "ko": "아, 정말 죄송합니다! 실수로 음료를 쏟았어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "No worries, it happens. Let me clean that up for you.",
+          "ko": "괜찮아요, 그럴 수 있죠. 제가 바로 닦아 드릴게요."
+        },
+        {
+          "speaker": "나",
+          "en": "I'm really sorry about that. Is there anything I can do?",
+          "ko": "정말 죄송해요. 제가 뭔가 도울 일이 있을까요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Not at all, please don't worry about it.",
+          "ko": "천만에요, 걱정하지 마세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'm so sorry!",
           "ko": "정말 죄송합니다! — 'Sorry'만 쓰는 것보다 'I'm sorry'가 더 진정성 있게 들려요. 'so'를 붙이면 강조.",
           "alternatives": [
-            { "en": "I apologize.", "ko": "사과드립니다. (더 격식 있는 표현)" },
-            { "en": "My apologies.", "ko": "죄송합니다. (격식체, 비즈니스 상황에도 적합)" }
+            {
+              "en": "I apologize.",
+              "ko": "사과드립니다. (더 격식 있는 표현)"
+            },
+            {
+              "en": "My apologies.",
+              "ko": "죄송합니다. (격식체, 비즈니스 상황에도 적합)"
+            }
           ]
         },
         {
           "en": "It happens.",
           "ko": "그럴 수 있죠 — 상대방의 실수를 너그럽게 넘길 때 쓰는 위로 표현. 'Don't worry about it.'과 함께 자주 쓰여요.",
           "alternatives": [
-            { "en": "Don't worry about it.", "ko": "걱정하지 마세요." },
-            { "en": "These things happen.", "ko": "이런 일은 생기기 마련이에요." }
+            {
+              "en": "Don't worry about it.",
+              "ko": "걱정하지 마세요."
+            },
+            {
+              "en": "These things happen.",
+              "ko": "이런 일은 생기기 마련이에요."
+            }
           ]
         },
         {
           "en": "Is there anything I can do?",
           "ko": "제가 뭔가 도울 일이 있을까요? — 사과 후 책임지려는 의지를 보이는 표현.",
           "alternatives": [
-            { "en": "Can I help somehow?", "ko": "어떻게든 도울 수 있을까요?" },
-            { "en": "How can I make it up to you?", "ko": "어떻게 보상해 드릴 수 있을까요?" }
+            {
+              "en": "Can I help somehow?",
+              "ko": "어떻게든 도울 수 있을까요?"
+            },
+            {
+              "en": "How can I make it up to you?",
+              "ko": "어떻게 보상해 드릴 수 있을까요?"
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch02_d05",
       "title": "사람 사이 지나가기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, could I get through, please?", "ko": "실례합니다, 지나갈 수 있을까요?" },
-        { "speaker": "행인", "en": "Oh, of course! Sorry about that.", "ko": "아, 물론이죠! 죄송해요." },
-        { "speaker": "나", "en": "Thank you, sorry to bother you.", "ko": "감사합니다, 방해해서 죄송해요." },
-        { "speaker": "행인", "en": "No problem, go ahead!", "ko": "괜찮아요, 지나가세요!" }
+        {
+          "speaker": "나",
+          "en": "Excuse me, could I get through, please?",
+          "ko": "실례합니다, 지나갈 수 있을까요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Oh, of course! Sorry about that.",
+          "ko": "아, 물론이죠! 죄송해요."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you, sorry to bother you.",
+          "ko": "감사합니다, 방해해서 죄송해요."
+        },
+        {
+          "speaker": "행인",
+          "en": "No problem, go ahead!",
+          "ko": "괜찮아요, 지나가세요!"
+        }
       ],
       "keyExpressions": [
         {
           "en": "Excuse me, could I get through?",
           "ko": "실례합니다, 지나갈게요 — 'Excuse me, coming through!'라고 짧게 말하기도 해요. 붐비는 곳에서 필수 표현.",
           "alternatives": [
-            { "en": "Excuse me, coming through!", "ko": "실례합니다, 지나갑니다! (이동 중에 쓰는 간결한 표현)" },
-            { "en": "Pardon me, may I get by?", "ko": "실례합니다, 지나가도 될까요? (격식체)" }
+            {
+              "en": "Excuse me, coming through!",
+              "ko": "실례합니다, 지나갑니다! (이동 중에 쓰는 간결한 표현)"
+            },
+            {
+              "en": "Pardon me, may I get by?",
+              "ko": "실례합니다, 지나가도 될까요? (격식체)"
+            }
           ]
         },
         {
           "en": "Sorry about that.",
           "ko": "죄송해요 — 자신의 실수나 불편을 끼친 상황에 쓰는 가벼운 사과. 'Sorry for that.'은 어색해요.",
           "alternatives": [
-            { "en": "My bad.", "ko": "제 실수예요. (매우 구어체·비격식)" },
-            { "en": "I'm sorry for the inconvenience.", "ko": "불편을 드려 죄송합니다. (격식체)" }
+            {
+              "en": "My bad.",
+              "ko": "제 실수예요. (매우 구어체·비격식)"
+            },
+            {
+              "en": "I'm sorry for the inconvenience.",
+              "ko": "불편을 드려 죄송합니다. (격식체)"
+            }
           ]
         },
         {
           "en": "Go ahead!",
           "ko": "먼저 지나가세요! / 어서 하세요! — 상황에 따라 '먼저 하세요', '계속하세요' 등 다양한 의미로 쓰여요.",
           "alternatives": [
-            { "en": "After you!", "ko": "먼저 지나가세요! (상대방을 배려하는 표현)" },
-            { "en": "Please, go right ahead.", "ko": "네, 어서 지나가세요. (더 격식 있는 표현)" }
+            {
+              "en": "After you!",
+              "ko": "먼저 지나가세요! (상대방을 배려하는 표현)"
+            },
+            {
+              "en": "Please, go right ahead.",
+              "ko": "네, 어서 지나가세요. (더 격식 있는 표현)"
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch02_d06",
       "title": "기다려달라 정중히 부탁하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, I'm not quite ready to order yet.", "ko": "실례합니다, 아직 주문할 준비가 안 됐어요." },
-        { "speaker": "직원", "en": "Of course, take your time. I'll come back in a moment.", "ko": "물론이죠, 천천히 하세요. 잠시 후 다시 올게요." },
-        { "speaker": "나", "en": "Thank you, I'll be ready in just a minute.", "ko": "감사합니다, 금방 준비할게요." },
-        { "speaker": "직원", "en": "No rush at all. Just wave me over when you're ready.", "ko": "전혀 서두르지 않아도 됩니다. 준비되시면 불러 주세요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, I'm not quite ready to order yet.",
+          "ko": "실례합니다, 아직 주문할 준비가 안 됐어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Of course, take your time. I'll come back in a moment.",
+          "ko": "물론이죠, 천천히 하세요. 잠시 후 다시 올게요."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you, I'll be ready in just a minute.",
+          "ko": "감사합니다, 금방 준비할게요."
+        },
+        {
+          "speaker": "직원",
+          "en": "No rush at all. Just wave me over when you're ready.",
+          "ko": "전혀 서두르지 않아도 됩니다. 준비되시면 불러 주세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Take your time.",
           "ko": "천천히 하세요 — 상대방을 재촉하지 않겠다는 배려의 표현. 반대로 내가 시간이 필요할 때는 'I need a moment.'",
           "alternatives": [
-            { "en": "There's no rush.", "ko": "서두르지 않아도 돼요." },
-            { "en": "Whenever you're ready.", "ko": "준비되실 때 언제든지요." }
+            {
+              "en": "There's no rush.",
+              "ko": "서두르지 않아도 돼요."
+            },
+            {
+              "en": "Whenever you're ready.",
+              "ko": "준비되실 때 언제든지요."
+            }
           ]
         },
         {
           "en": "I'll come back in a moment.",
           "ko": "잠시 후 다시 올게요 — 직원이 자리를 비울 때 쓰는 표현. 'in a moment' = 곧, 잠시 후.",
           "alternatives": [
-            { "en": "I'll check back with you shortly.", "ko": "곧 다시 확인하러 올게요." },
-            { "en": "I'll give you a few more minutes.", "ko": "몇 분 더 드릴게요." }
+            {
+              "en": "I'll check back with you shortly.",
+              "ko": "곧 다시 확인하러 올게요."
+            },
+            {
+              "en": "I'll give you a few more minutes.",
+              "ko": "몇 분 더 드릴게요."
+            }
           ]
         },
         {
           "en": "Just wave me over when you're ready.",
           "ko": "준비되시면 손 흔들어 불러 주세요 — 'wave over'는 손짓으로 부르는 동작을 표현. 매우 자연스러운 서비스 표현.",
           "alternatives": [
-            { "en": "Just flag me down when you're ready.", "ko": "준비되시면 손 들어 불러 주세요." },
-            { "en": "Let me know when you're ready to order.", "ko": "주문 준비되시면 알려 주세요." }
+            {
+              "en": "Just flag me down when you're ready.",
+              "ko": "준비되시면 손 들어 불러 주세요."
+            },
+            {
+              "en": "Let me know when you're ready to order.",
+              "ko": "주문 준비되시면 알려 주세요."
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch02_d07",
       "title": "정중하게 거절하기",
       "lines": [
-        { "speaker": "점원", "en": "Would you like to try our new dessert today?", "ko": "오늘 저희 새 디저트 한번 드셔 보시겠어요?" },
-        { "speaker": "나", "en": "No, thank you. I'm okay for now.", "ko": "괜찮습니다. 지금은 됐어요." },
-        { "speaker": "점원", "en": "Alright, would you like anything else?", "ko": "알겠습니다. 다른 필요한 것 있으신가요?" },
-        { "speaker": "나", "en": "I'm all set, thanks. Just the check, please.", "ko": "다 됐어요, 감사합니다. 계산서만 주세요." }
+        {
+          "speaker": "점원",
+          "en": "Would you like to try our new dessert today?",
+          "ko": "오늘 저희 새 디저트 한번 드셔 보시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "No, thank you. I'm okay for now.",
+          "ko": "괜찮습니다. 지금은 됐어요."
+        },
+        {
+          "speaker": "점원",
+          "en": "Alright, would you like anything else?",
+          "ko": "알겠습니다. 다른 필요한 것 있으신가요?"
+        },
+        {
+          "speaker": "나",
+          "en": "I'm all set, thanks. Just the check, please.",
+          "ko": "다 됐어요, 감사합니다. 계산서만 주세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "No, thank you.",
           "ko": "괜찮습니다 — 가장 정중한 거절 표현. 'No.'만 단독으로 쓰면 무뚝뚝하게 들릴 수 있어요.",
           "alternatives": [
-            { "en": "I'm okay, thanks.", "ko": "저는 괜찮아요, 감사합니다." },
-            { "en": "I'll pass, thanks.", "ko": "저는 됐어요, 감사합니다. (구어체)" }
+            {
+              "en": "I'm okay, thanks.",
+              "ko": "저는 괜찮아요, 감사합니다."
+            },
+            {
+              "en": "I'll pass, thanks.",
+              "ko": "저는 됐어요, 감사합니다. (구어체)"
+            }
           ]
         },
         {
           "en": "I'm all set.",
           "ko": "다 됐어요 / 충분해요 — '이미 필요한 건 다 있다'는 표현. 'I'm good.'과 같은 의미로도 자주 쓰여요.",
           "alternatives": [
-            { "en": "I'm good, thanks.", "ko": "저는 됐어요, 감사합니다." },
-            { "en": "That'll be all, thank you.", "ko": "그게 다예요, 감사합니다." }
+            {
+              "en": "I'm good, thanks.",
+              "ko": "저는 됐어요, 감사합니다."
+            },
+            {
+              "en": "That'll be all, thank you.",
+              "ko": "그게 다예요, 감사합니다."
+            }
           ]
         },
         {
           "en": "Just the check, please.",
           "ko": "계산서만 주세요 — 'check'는 미국식, 'bill'은 영국식 표현. 둘 다 통해요.",
           "alternatives": [
-            { "en": "Could I have the bill, please?", "ko": "계산서 주시겠어요? (영국식, 더 정중한 표현)" },
-            { "en": "Can we pay now?", "ko": "지금 계산할 수 있을까요?" }
+            {
+              "en": "Could I have the bill, please?",
+              "ko": "계산서 주시겠어요? (영국식, 더 정중한 표현)"
+            },
+            {
+              "en": "Can we pay now?",
+              "ko": "지금 계산할 수 있을까요?"
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch02_d08",
       "title": "도움 제안에 응하기",
       "lines": [
-        { "speaker": "직원", "en": "Hi there! Do you need any help finding something?", "ko": "안녕하세요! 뭔가 찾으시는 게 있으세요?" },
-        { "speaker": "나", "en": "Yes, please! I'm looking for sunscreen.", "ko": "네, 부탁드려요! 선크림을 찾고 있어요." },
-        { "speaker": "직원", "en": "Sure, follow me. It's in aisle five.", "ko": "물론이죠, 따라오세요. 5번 통로에 있어요." },
-        { "speaker": "나", "en": "Thank you so much. That was very helpful.", "ko": "정말 감사합니다. 많은 도움이 됐어요." }
+        {
+          "speaker": "직원",
+          "en": "Hi there! Do you need any help finding something?",
+          "ko": "안녕하세요! 뭔가 찾으시는 게 있으세요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Yes, please! I'm looking for sunscreen.",
+          "ko": "네, 부탁드려요! 선크림을 찾고 있어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Sure, follow me. It's in aisle five.",
+          "ko": "물론이죠, 따라오세요. 5번 통로에 있어요."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you so much. That was very helpful.",
+          "ko": "정말 감사합니다. 많은 도움이 됐어요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Yes, please!",
           "ko": "네, 부탁드려요! — 도움 제안을 받아들이는 자연스러운 표현. 단순히 'Yes.'보다 훨씬 친근하고 감사함이 담겨 있어요.",
           "alternatives": [
-            { "en": "That would be great!", "ko": "그러면 정말 좋겠어요!" },
-            { "en": "I'd appreciate that.", "ko": "그렇게 해주시면 감사하겠습니다." }
+            {
+              "en": "That would be great!",
+              "ko": "그러면 정말 좋겠어요!"
+            },
+            {
+              "en": "I'd appreciate that.",
+              "ko": "그렇게 해주시면 감사하겠습니다."
+            }
           ]
         },
         {
           "en": "Do you need any help?",
           "ko": "도움이 필요하세요? — 도움을 제안할 때 쓰는 기본 표현. 반대로 도움을 청할 때는 'Could you help me?'",
           "alternatives": [
-            { "en": "Can I help you with anything?", "ko": "뭔가 도와드릴까요?" },
-            { "en": "Is there anything I can assist you with?", "ko": "도움드릴 것이 있을까요? (격식체)" }
+            {
+              "en": "Can I help you with anything?",
+              "ko": "뭔가 도와드릴까요?"
+            },
+            {
+              "en": "Is there anything I can assist you with?",
+              "ko": "도움드릴 것이 있을까요? (격식체)"
+            }
           ]
         },
         {
           "en": "That was very helpful.",
           "ko": "많은 도움이 됐어요 — 도움을 받은 후 감사를 전하는 자연스러운 표현. 'helpful'은 사람에게도, 정보에도 쓸 수 있어요.",
           "alternatives": [
-            { "en": "You've been a great help.", "ko": "정말 많은 도움이 됐어요." },
-            { "en": "I couldn't have done it without you.", "ko": "당신 없이는 못 했을 거예요. (강한 감사 표현)" }
+            {
+              "en": "You've been a great help.",
+              "ko": "정말 많은 도움이 됐어요."
+            },
+            {
+              "en": "I couldn't have done it without you.",
+              "ko": "당신 없이는 못 했을 거예요. (강한 감사 표현)"
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch02_d09",
       "title": "양해 구하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, do you mind if I sit here?", "ko": "실례합니다, 여기 앉아도 될까요?" },
-        { "speaker": "행인", "en": "Not at all, go ahead.", "ko": "전혀요, 앉으세요." },
-        { "speaker": "나", "en": "Thank you. Do you mind if I charge my phone here?", "ko": "감사합니다. 여기서 핸드폰 충전해도 될까요?" },
-        { "speaker": "행인", "en": "Sure, be my guest.", "ko": "물론이죠, 편히 쓰세요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, do you mind if I sit here?",
+          "ko": "실례합니다, 여기 앉아도 될까요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Not at all, go ahead.",
+          "ko": "전혀요, 앉으세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you. Do you mind if I charge my phone here?",
+          "ko": "감사합니다. 여기서 핸드폰 충전해도 될까요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Sure, be my guest.",
+          "ko": "물론이죠, 편히 쓰세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Do you mind if I~?",
           "ko": "~해도 될까요? — 주의: 'No'나 'Not at all'이 허락의 의미예요. 'Do you mind?'에 'Yes'라고 하면 '싫다'는 뜻!",
           "alternatives": [
-            { "en": "Is it okay if I~?", "ko": "~해도 괜찮을까요? (더 직접적인 표현)" },
-            { "en": "Would it be alright if I~?", "ko": "~해도 괜찮겠습니까? (격식체)" }
+            {
+              "en": "Is it okay if I~?",
+              "ko": "~해도 괜찮을까요? (더 직접적인 표현)"
+            },
+            {
+              "en": "Would it be alright if I~?",
+              "ko": "~해도 괜찮겠습니까? (격식체)"
+            }
           ]
         },
         {
           "en": "Not at all.",
           "ko": "전혀요 / 괜찮아요 — 'Do you mind?'에 대한 허락의 대답. 'Yes, go ahead.'처럼 들릴 수 있어 초보자들이 자주 혼동해요.",
           "alternatives": [
-            { "en": "Go ahead.", "ko": "어서 하세요. (직접적인 허락)" },
-            { "en": "Of course not.", "ko": "물론 괜찮죠. (부정문으로 허락)" }
+            {
+              "en": "Go ahead.",
+              "ko": "어서 하세요. (직접적인 허락)"
+            },
+            {
+              "en": "Of course not.",
+              "ko": "물론 괜찮죠. (부정문으로 허락)"
+            }
           ]
         },
         {
           "en": "Be my guest.",
           "ko": "편히 쓰세요 / 어서 하세요 — '내 손님처럼 편하게'라는 뜻의 관용 표현. 허락할 때 흔히 쓰여요.",
           "alternatives": [
-            { "en": "Help yourself.", "ko": "마음껏 하세요. / 편히 드세요." },
-            { "en": "Feel free.", "ko": "편하게 하세요." }
+            {
+              "en": "Help yourself.",
+              "ko": "마음껏 하세요. / 편히 드세요."
+            },
+            {
+              "en": "Feel free.",
+              "ko": "편하게 하세요."
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch02_d10",
       "title": "감사·칭찬 확장 표현",
       "lines": [
-        { "speaker": "직원", "en": "Here's your room key. Let me know if you need anything during your stay.", "ko": "객실 키 드립니다. 투숙 중 필요한 것 있으면 알려 주세요." },
-        { "speaker": "나", "en": "That's very kind of you. I really appreciate your help.", "ko": "정말 친절하시네요. 도움에 진심으로 감사드립니다." },
-        { "speaker": "직원", "en": "My pleasure. We hope you enjoy your stay with us.", "ko": "제가 기쁩니다. 저희와 함께 즐거운 시간 되시길 바랍니다." },
-        { "speaker": "나", "en": "Thank you for everything. Everyone here has been wonderful.", "ko": "모든 것에 감사드립니다. 여기 모든 분들이 정말 훌륭하셨어요." }
+        {
+          "speaker": "직원",
+          "en": "Here's your room key. Let me know if you need anything during your stay.",
+          "ko": "객실 키 드립니다. 투숙 중 필요한 것 있으면 알려 주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "That's very kind of you. I really appreciate your help.",
+          "ko": "정말 친절하시네요. 도움에 진심으로 감사드립니다."
+        },
+        {
+          "speaker": "직원",
+          "en": "My pleasure. We hope you enjoy your stay with us.",
+          "ko": "제가 기쁩니다. 저희와 함께 즐거운 시간 되시길 바랍니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you for everything. Everyone here has been wonderful.",
+          "ko": "모든 것에 감사드립니다. 여기 모든 분들이 정말 훌륭하셨어요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I really appreciate your help.",
           "ko": "도움에 진심으로 감사드립니다 — 'appreciate'는 감사를 더 깊이 표현하는 동사. 'I appreciate it.'은 일상에서도 자주 써요.",
           "alternatives": [
-            { "en": "I'm truly grateful.", "ko": "진심으로 감사합니다. (더 감동적인 표현)" },
-            { "en": "Thank you from the bottom of my heart.", "ko": "진심으로(마음 깊이) 감사드립니다." }
+            {
+              "en": "I'm truly grateful.",
+              "ko": "진심으로 감사합니다. (더 감동적인 표현)"
+            },
+            {
+              "en": "Thank you from the bottom of my heart.",
+              "ko": "진심으로(마음 깊이) 감사드립니다."
+            }
           ]
         },
         {
           "en": "My pleasure.",
           "ko": "제가 기쁩니다 / 천만에요 — 'You're welcome'보다 더 따뜻하고 격식 있는 응대. 호텔·고급 레스토랑에서 자주 들을 수 있어요.",
           "alternatives": [
-            { "en": "It was my pleasure.", "ko": "제가 기뻤습니다. (과거형으로도 자연스러움)" },
-            { "en": "Anytime!", "ko": "언제든지요! (친근하고 가벼운 응대)" }
+            {
+              "en": "It was my pleasure.",
+              "ko": "제가 기뻤습니다. (과거형으로도 자연스러움)"
+            },
+            {
+              "en": "Anytime!",
+              "ko": "언제든지요! (친근하고 가벼운 응대)"
+            }
           ]
         },
         {
           "en": "Everyone here has been wonderful.",
           "ko": "여기 모든 분들이 정말 훌륭하셨어요 — 호텔이나 레스토랑에서 직원들을 칭찬할 때 쓰면 매우 좋은 인상을 줘요.",
           "alternatives": [
-            { "en": "You've all been so welcoming.", "ko": "모두들 정말 친절하게 맞아주셨어요." },
-            { "en": "The service here is excellent.", "ko": "이곳 서비스가 정말 훌륭해요." }
+            {
+              "en": "You've all been so welcoming.",
+              "ko": "모두들 정말 친절하게 맞아주셨어요."
+            },
+            {
+              "en": "The service here is excellent.",
+              "ko": "이곳 서비스가 정말 훌륭해요."
+            }
           ]
         }
       ]
@@ -372,7 +712,12 @@
           "id": "se_ch02_set01_001",
           "type": "multiple_choice",
           "question": "낯선 사람에게 정중하게 말을 걸 때 가장 적절한 표현은?",
-          "options": ["Hey you!", "Excuse me,", "Listen up!", "Hello there, stranger!"],
+          "options": [
+            "Hey you!",
+            "Excuse me,",
+            "Listen up!",
+            "Hello there, stranger!"
+          ],
           "answerIndex": 1,
           "explanation": "'Excuse me'는 낯선 사람에게 말을 거는 기본 표현입니다. 'Hey you!'는 매우 무례하게 들릴 수 있어요."
         },
@@ -380,7 +725,12 @@
           "id": "se_ch02_set01_002",
           "type": "multiple_choice",
           "question": "'Could you take a photo of us?'에서 'Could you'를 쓰는 이유는?",
-          "options": ["'Can you'보다 정중하기 때문에", "과거 시제를 나타내기 때문에", "의무를 표현하기 때문에", "명령하는 표현이기 때문에"],
+          "options": [
+            "'Can you'보다 정중하기 때문에",
+            "과거 시제를 나타내기 때문에",
+            "의무를 표현하기 때문에",
+            "명령하는 표현이기 때문에"
+          ],
           "answerIndex": 0,
           "explanation": "'Could you~?'는 'Can you~?'의 정중한 형태입니다. 부탁할 때는 'Could you~?'를 쓰면 훨씬 공손하게 들려요."
         },
@@ -388,7 +738,12 @@
           "id": "se_ch02_set01_003",
           "type": "multiple_choice",
           "question": "식당 직원에게 거절할 때 가장 정중한 표현은?",
-          "options": ["No.", "I don't want it.", "No, thank you.", "Stop asking."],
+          "options": [
+            "No.",
+            "I don't want it.",
+            "No, thank you.",
+            "Stop asking."
+          ],
           "answerIndex": 2,
           "explanation": "'No, thank you.'는 가장 정중한 거절 표현입니다. 'No.'만 단독으로 쓰면 무뚝뚝하게 들릴 수 있어요."
         },
@@ -396,7 +751,12 @@
           "id": "se_ch02_set01_004",
           "type": "multiple_choice",
           "question": "식당에서 계산서를 부탁할 때 쓸 수 있는 표현은?",
-          "options": ["Give me the check.", "Just the check, please.", "I want to pay.", "Money now."],
+          "options": [
+            "Give me the check.",
+            "Just the check, please.",
+            "I want to pay.",
+            "Money now."
+          ],
           "answerIndex": 1,
           "explanation": "'Just the check, please.'가 가장 자연스럽습니다. 미국에서는 'check', 영국에서는 'bill'을 더 많이 써요."
         },
@@ -404,7 +764,12 @@
           "id": "se_ch02_set01_005",
           "type": "multiple_choice",
           "question": "'Do you mind if I sit here?'에 'Not at all.'로 대답하면 무슨 의미인가?",
-          "options": ["앉으면 안 된다", "앉아도 된다", "모르겠다", "다른 자리를 찾으라는 뜻"],
+          "options": [
+            "앉으면 안 된다",
+            "앉아도 된다",
+            "모르겠다",
+            "다른 자리를 찾으라는 뜻"
+          ],
           "answerIndex": 1,
           "explanation": "'Do you mind~?'에 'Not at all.'은 '전혀 상관없어요' = 허락의 의미입니다. 초보자들이 'Not at all'을 거절로 오해하는 경우가 있어요."
         },
@@ -412,7 +777,12 @@
           "id": "se_ch02_set01_006",
           "type": "multiple_choice",
           "question": "'Thank you'에 대한 응대로 가장 격식 있고 따뜻한 표현은?",
-          "options": ["Yeah.", "Sure.", "My pleasure.", "Whatever."],
+          "options": [
+            "Yeah.",
+            "Sure.",
+            "My pleasure.",
+            "Whatever."
+          ],
           "answerIndex": 2,
           "explanation": "'My pleasure.'는 'You're welcome.'보다 더 따뜻하고 격식 있는 응대 표현입니다. 호텔이나 고급 서비스업에서 자주 들을 수 있어요."
         },
@@ -420,7 +790,12 @@
           "id": "se_ch02_set01_007",
           "type": "multiple_choice",
           "question": "붐비는 곳에서 사람들 사이를 지나갈 때 쓸 수 있는 표현은?",
-          "options": ["Move it!", "Get out of my way.", "Excuse me, coming through!", "Step aside!"],
+          "options": [
+            "Move it!",
+            "Get out of my way.",
+            "Excuse me, coming through!",
+            "Step aside!"
+          ],
           "answerIndex": 2,
           "explanation": "'Excuse me, coming through!'는 붐비는 곳에서 지나갈 때 쓰는 정중한 표현입니다. 나머지 표현들은 무례하게 들릴 수 있어요."
         },
@@ -428,7 +803,12 @@
           "id": "se_ch02_set01_008",
           "type": "multiple_choice",
           "question": "도움을 제안받았을 때 감사히 수락하는 표현으로 가장 자연스러운 것은?",
-          "options": ["Yes.", "Yes, please!", "OK fine.", "If you must."],
+          "options": [
+            "Yes.",
+            "Yes, please!",
+            "OK fine.",
+            "If you must."
+          ],
           "answerIndex": 1,
           "explanation": "'Yes, please!'는 도움 제안을 기꺼이 받아들이는 친근하고 자연스러운 표현입니다. 단순한 'Yes.'보다 감사함이 담겨 있어요."
         },
@@ -436,7 +816,12 @@
           "id": "se_ch02_set01_009",
           "type": "multiple_choice",
           "question": "직원이 주문을 받으러 왔는데 아직 준비가 안 됐을 때 쓸 표현은?",
-          "options": ["Go away.", "Come back later.", "I'm not quite ready to order yet.", "Wait."],
+          "options": [
+            "Go away.",
+            "Come back later.",
+            "I'm not quite ready to order yet.",
+            "Wait."
+          ],
           "answerIndex": 2,
           "explanation": "'I'm not quite ready to order yet.'이 가장 정중한 표현입니다. 'quite'를 넣으면 더 부드러운 느낌을 줘요."
         },
@@ -444,7 +829,12 @@
           "id": "se_ch02_set01_010",
           "type": "multiple_choice",
           "question": "상대방의 실수를 너그럽게 받아들일 때 쓰는 표현은?",
-          "options": ["It's not okay.", "You should be careful.", "It happens.", "I'm very upset."],
+          "options": [
+            "It's not okay.",
+            "You should be careful.",
+            "It happens.",
+            "I'm very upset."
+          ],
           "answerIndex": 2,
           "explanation": "'It happens.' 또는 'These things happen.'은 실수를 너그럽게 넘길 때 쓰는 위로 표현입니다. 'Don't worry about it.'과 함께 자주 쓰여요."
         },
@@ -475,6 +865,1473 @@
           "question": "'Could you~?'는 'Can you~?'보다 덜 정중한 표현이다.",
           "answerIndex": 1,
           "explanation": "거짓입니다. 'Could you~?'는 'Can you~?'보다 더 정중한 표현입니다. 낯선 사람에게 부탁할 때는 'Could you~?'를 쓰는 것이 좋아요."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch02_set02_001",
+          "type": "multiple_choice",
+          "question": "'Could you take a photo of us?'에서 'Could you' 대신 쓸 수 있는 더 정중한 표현은?",
+          "options": [
+            "Can you take a photo?",
+            "Take a photo!",
+            "Would you mind taking a photo of us?",
+            "You should take a photo."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Would you mind ~ing?'는 'Could you~?'보다 더 정중한 부탁 표현입니다. 명령형이나 'Can you~?'는 덜 격식 있어요."
+        },
+        {
+          "id": "se_ch02_set02_002",
+          "type": "multiple_choice",
+          "question": "처음 만나는 사람에게 말을 걸기 전에 쓰는 가장 기본적인 표현은?",
+          "options": [
+            "Hey!",
+            "Excuse me,",
+            "Listen!",
+            "You there,"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Excuse me'는 낯선 사람에게 정중하게 말을 거는 기본 표현입니다. 'Hey!'나 'You there'는 무례하게 들릴 수 있어요."
+        },
+        {
+          "id": "se_ch02_set02_003",
+          "type": "multiple_choice",
+          "question": "식당에서 디저트 제안을 정중하게 거절할 때 가장 적절한 표현은?",
+          "options": [
+            "I don't want it.",
+            "No, thank you.",
+            "Stop it.",
+            "Not interested."
+          ],
+          "answerIndex": 1,
+          "explanation": "'No, thank you.'는 제안을 정중하게 거절하는 가장 자연스러운 표현입니다. 'No.'만 단독으로 쓰면 거칠게 들릴 수 있어요."
+        },
+        {
+          "id": "se_ch02_set02_004",
+          "type": "multiple_choice",
+          "question": "'Thank you so much. That's very kind of you.'에서 'That's very kind of you'의 의미는?",
+          "options": [
+            "당신은 매우 친절한 사람이군요",
+            "감사합니다",
+            "별말씀을요",
+            "도움이 필요해요"
+          ],
+          "answerIndex": 0,
+          "explanation": "'That's very kind of you.'는 '정말 친절하시네요'라는 뜻으로, 단순한 'Thank you'보다 감사함을 더 따뜻하게 전달하는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set02_005",
+          "type": "multiple_choice",
+          "question": "'Do you mind if I charge my phone here?'에 'Not at all.'이라고 하면 어떤 의미인가?",
+          "options": [
+            "충전하면 안 된다",
+            "충전해도 된다",
+            "잘 모르겠다",
+            "다른 곳에서 하라"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do you mind~?'에 'Not at all.'은 '전혀 상관없어요'라는 뜻으로 허락을 의미합니다. 'Yes'라고 하면 오히려 거절이 됩니다."
+        },
+        {
+          "id": "se_ch02_set02_006",
+          "type": "multiple_choice",
+          "question": "호텔이나 고급 식당에서 감사 인사에 대한 응대로 가장 격식 있는 표현은?",
+          "options": [
+            "No problem.",
+            "My pleasure.",
+            "Whatever.",
+            "Sure."
+          ],
+          "answerIndex": 1,
+          "explanation": "'My pleasure.'는 호텔이나 고급 서비스 상황에서 자주 쓰이는 격식 있고 따뜻한 감사 응대 표현입니다."
+        },
+        {
+          "id": "se_ch02_set02_007",
+          "type": "multiple_choice",
+          "question": "지하철역 위치를 정중하게 물어볼 때 가장 자연스러운 표현은?",
+          "options": [
+            "Where is the subway station?",
+            "Subway station, where?",
+            "Could you tell me where the subway station is?",
+            "Tell me the subway station."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Could you tell me where ~ is?'는 직접 질문인 'Where is ~?'보다 훨씬 정중한 간접 의문문 형식입니다."
+        },
+        {
+          "id": "se_ch02_set02_008",
+          "type": "multiple_choice",
+          "question": "상대방이 실수로 음료를 쏟았을 때 너그럽게 위로하는 표현은?",
+          "options": [
+            "That's terrible!",
+            "It happens.",
+            "You should be careful.",
+            "I'm angry."
+          ],
+          "answerIndex": 1,
+          "explanation": "'It happens.'는 실수를 너그럽게 넘길 때 쓰는 표현으로 'These things happen.'과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch02_set02_009",
+          "type": "multiple_choice",
+          "question": "'I'm all set, thanks.'의 의미로 올바른 것은?",
+          "options": [
+            "다 준비됐어요 / 더 필요한 건 없어요",
+            "도움이 필요해요",
+            "다시 주문할게요",
+            "잠깐만요"
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm all set.'은 '이미 필요한 건 다 있어요 / 다 됐어요'라는 의미로, 더 이상 필요한 것이 없음을 나타냅니다."
+        },
+        {
+          "id": "se_ch02_set02_010",
+          "type": "multiple_choice",
+          "question": "도움을 제안받았을 때 기꺼이 수락하는 가장 자연스러운 표현은?",
+          "options": [
+            "OK.",
+            "Yes, please!",
+            "Maybe.",
+            "I suppose."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Yes, please!'는 제안을 기꺼이 받아들이는 친근하고 자연스러운 표현입니다. 단순 'OK.'보다 훨씬 긍정적인 느낌을 줘요."
+        },
+        {
+          "id": "se_ch02_set02_011",
+          "type": "ox",
+          "question": "'No problem at all.'은 감사 인사에 대한 응대로 쓸 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'No problem at all.'은 'You're welcome.'의 자연스러운 대체 표현으로, 감사 인사에 대한 응대로 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch02_set02_012",
+          "type": "ox",
+          "question": "'Take your time.'은 상대방을 재촉하는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Take your time.'은 '천천히 하세요'라는 뜻으로, 상대방을 재촉하지 않고 배려하는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set02_013",
+          "type": "ox",
+          "question": "'I'm so sorry!'에서 'so'를 붙이면 사과의 강도가 강해진다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'so'는 강조 부사로, 'I'm sorry.'보다 'I'm so sorry!'가 더 깊은 사과의 마음을 전달합니다."
+        },
+        {
+          "id": "se_ch02_set02_014",
+          "type": "ox",
+          "question": "'Excuse me'와 'Pardon me'는 전혀 다른 상황에서만 쓰이는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Excuse me'와 'Pardon me' 둘 다 낯선 사람에게 말을 걸거나 양해를 구할 때 비슷하게 쓸 수 있습니다. 'Pardon me'는 좀 더 격식체로 쓰이는 경향이 있어요."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch02_set03_001",
+          "type": "multiple_choice",
+          "question": "붐비는 버스 안에서 지나가려 할 때 가장 적절한 표현은?",
+          "options": [
+            "Get out of the way!",
+            "Move!",
+            "Excuse me, coming through!",
+            "Step aside now!"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Excuse me, coming through!'는 붐비는 장소에서 정중하게 지나갈 때 쓰는 표현입니다. 나머지는 무례하게 들려요."
+        },
+        {
+          "id": "se_ch02_set03_002",
+          "type": "multiple_choice",
+          "question": "식당에서 계산서를 요청하는 영국식 표현은?",
+          "options": [
+            "Can I get the check?",
+            "Give me the receipt.",
+            "Could I have the bill, please?",
+            "I want to pay now."
+          ],
+          "answerIndex": 2,
+          "explanation": "영국에서는 식당 계산서를 'bill'이라고 합니다. 'Could I have the bill, please?'가 영국식 정중한 표현입니다."
+        },
+        {
+          "id": "se_ch02_set03_003",
+          "type": "multiple_choice",
+          "question": "직원이 준비됐을 때 알려달라고 말할 때 쓸 수 있는 표현은?",
+          "options": [
+            "Tell me when.",
+            "Just wave me over when you're ready.",
+            "Hurry up.",
+            "Call me."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Just wave me over when you're ready.'는 직원이 손님에게 준비됐을 때 손짓으로 불러달라고 요청하는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch02_set03_004",
+          "type": "multiple_choice",
+          "question": "'I really appreciate your help.'에서 'appreciate'의 의미는?",
+          "options": [
+            "필요로 하다",
+            "감사히 여기다",
+            "평가하다",
+            "이해하다"
+          ],
+          "answerIndex": 1,
+          "explanation": "'appreciate'는 '감사히 여기다'라는 뜻으로, 단순한 'thank'보다 더 깊은 감사의 마음을 표현합니다."
+        },
+        {
+          "id": "se_ch02_set03_005",
+          "type": "multiple_choice",
+          "question": "'Be my guest.'의 의미로 올바른 것은?",
+          "options": [
+            "내 손님이 되어 주세요",
+            "편히 하세요 / 어서 하세요",
+            "나가 주세요",
+            "잠깐 기다려 주세요"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Be my guest.'는 '편히 하세요 / 어서 하세요'라는 관용 표현으로, 상대방의 요청이나 행동을 허락할 때 씁니다."
+        },
+        {
+          "id": "se_ch02_set03_006",
+          "type": "multiple_choice",
+          "question": "'Have a good one!'의 의미로 가장 정확한 것은?",
+          "options": [
+            "좋은 것 가져가세요!",
+            "좋은 하루 되세요!",
+            "하나만 가지세요!",
+            "좋은 선택이에요!"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Have a good one!'은 'Have a nice day!'와 같은 의미의 구어체 표현으로 '좋은 하루 되세요!'라는 인사말입니다."
+        },
+        {
+          "id": "se_ch02_set03_007",
+          "type": "multiple_choice",
+          "question": "사과 후 책임을 지려는 의지를 보이는 표현으로 가장 적절한 것은?",
+          "options": [
+            "I don't know.",
+            "It wasn't my fault.",
+            "Is there anything I can do?",
+            "Let's forget about it."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Is there anything I can do?'는 사과 후 도움을 제안하며 책임지려는 마음을 보이는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set03_008",
+          "type": "multiple_choice",
+          "question": "도움을 받고 나서 감사를 표현하는 말로 가장 적절한 것은?",
+          "options": [
+            "That was very helpful.",
+            "That was unnecessary.",
+            "I knew you'd do that.",
+            "Never mind."
+          ],
+          "answerIndex": 0,
+          "explanation": "'That was very helpful.'은 도움을 받은 후 감사함을 전하는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch02_set03_009",
+          "type": "multiple_choice",
+          "question": "양해를 구할 때 'Do you mind if I~?' 대신 쓸 수 있는 표현은?",
+          "options": [
+            "Am I allowed to~?",
+            "Is it okay if I~?",
+            "Should I~?",
+            "Must I~?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is it okay if I~?'는 'Do you mind if I~?'의 더 직접적인 대체 표현으로, 양해를 구할 때 자연스럽게 쓸 수 있어요."
+        },
+        {
+          "id": "se_ch02_set03_010",
+          "type": "multiple_choice",
+          "question": "'Let me know if you need anything.'의 의미는?",
+          "options": [
+            "지금 바로 주문해 주세요",
+            "필요한 것 있으면 알려 주세요",
+            "더 주문하지 마세요",
+            "잠시 후 다시 올게요"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Let me know if you need anything.'는 직원이 손님에게 필요한 것이 있으면 알려달라고 하는 친절한 마무리 표현입니다."
+        },
+        {
+          "id": "se_ch02_set03_011",
+          "type": "ox",
+          "question": "'Could you~?'와 'Can you~?'는 의미는 같지만 'Could you~?'가 더 정중한 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Could you~?'는 'Can you~?'와 같은 의미이지만 더 정중한 형태로, 낯선 사람에게 부탁할 때 특히 유용합니다."
+        },
+        {
+          "id": "se_ch02_set03_012",
+          "type": "ox",
+          "question": "'Enjoy your meal!'은 식사를 마친 후에 쓰는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Enjoy your meal!'은 식사를 시작하기 전에 '맛있게 드세요!'라고 말하는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set03_013",
+          "type": "ox",
+          "question": "'No worries.'는 감사 인사에 대한 응대로 쓸 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'No worries.'는 'You're welcome.'과 유사하게, 감사 인사에 대한 편안하고 친근한 응대 표현으로 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch02_set03_014",
+          "type": "ox",
+          "question": "'I'm all set.'은 '아직 준비가 덜 됐다'는 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'I'm all set.'은 '다 됐어요 / 충분해요'라는 뜻으로, 필요한 것이 다 갖춰져 있음을 나타내는 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch02_set04_001",
+          "type": "multiple_choice",
+          "question": "식당 직원에게 주문 전에 잠깐 기다려달라고 정중히 부탁하는 표현은?",
+          "options": [
+            "Wait here.",
+            "I'm not quite ready to order yet.",
+            "Come back later.",
+            "Don't bother me."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'm not quite ready to order yet.'은 아직 주문 준비가 안 됐음을 정중하게 알리는 표현입니다. 'quite'가 더 부드러운 뉘앙스를 더해줍니다."
+        },
+        {
+          "id": "se_ch02_set04_002",
+          "type": "multiple_choice",
+          "question": "모르는 사람에게 말을 걸 때 'Hey!'보다 'Excuse me'를 쓰는 이유는?",
+          "options": [
+            "'Hey!'가 너무 길기 때문에",
+            "'Excuse me'가 더 정중하기 때문에",
+            "'Hey!'는 밤에만 쓰기 때문에",
+            "'Excuse me'가 더 빠르기 때문에"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Excuse me'는 낯선 사람에게 정중하게 말을 거는 표현입니다. 'Hey!'나 'Hey you!'는 무례하게 들릴 수 있어요."
+        },
+        {
+          "id": "se_ch02_set04_003",
+          "type": "multiple_choice",
+          "question": "'You're very welcome.'에서 'very'를 붙이는 이유는?",
+          "options": [
+            "문법적으로 필수이기 때문에",
+            "더 진심 어린 느낌을 주기 때문에",
+            "미국 영어에서만 쓰이기 때문에",
+            "공식 문서에서만 쓰이기 때문에"
+          ],
+          "answerIndex": 1,
+          "explanation": "'very'를 붙이면 더 진심 어린 느낌을 줍니다. 'You're welcome.'도 맞지만 'You're very welcome.'이 더 따뜻한 응대로 들려요."
+        },
+        {
+          "id": "se_ch02_set04_004",
+          "type": "multiple_choice",
+          "question": "허락을 구할 때 'Do you mind if I~?' 문장에 대해 상대방이 'Yes'라고 하면 무슨 뜻인가?",
+          "options": [
+            "허락한다",
+            "거절한다 (싫다)",
+            "잘 모르겠다",
+            "다시 물어보라"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do you mind if I~?'에 'Yes'라고 하면 '마음에 걸린다 = 싫다'는 의미입니다. 허락은 'Not at all.', 'No, go ahead.' 등으로 표현합니다."
+        },
+        {
+          "id": "se_ch02_set04_005",
+          "type": "multiple_choice",
+          "question": "'Sorry about that.'과 가장 유사한 표현은?",
+          "options": [
+            "I appreciate it.",
+            "My bad.",
+            "Thank you.",
+            "No worries."
+          ],
+          "answerIndex": 1,
+          "explanation": "'My bad.'는 'Sorry about that.'과 유사하게 '제 실수예요'라는 가벼운 사과 표현입니다. 다만 매우 구어적이에요."
+        },
+        {
+          "id": "se_ch02_set04_006",
+          "type": "multiple_choice",
+          "question": "'Take your time.'과 비슷한 의미의 표현은?",
+          "options": [
+            "Hurry up!",
+            "There's no rush.",
+            "You're late.",
+            "Be quick!"
+          ],
+          "answerIndex": 1,
+          "explanation": "'There's no rush.'는 '서두르지 않아도 돼요'라는 뜻으로 'Take your time.'과 같은 배려의 의미를 담고 있어요."
+        },
+        {
+          "id": "se_ch02_set04_007",
+          "type": "multiple_choice",
+          "question": "사람이 많은 곳에서 지나가며 양해를 구할 때 쓸 수 있는 간결한 표현은?",
+          "options": [
+            "Move away!",
+            "Excuse me, coming through!",
+            "Watch out!",
+            "Out of my way!"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Excuse me, coming through!'는 붐비는 곳에서 지나갈 때 쓰는 정중하고 간결한 표현입니다. 나머지 표현들은 무례하게 들려요."
+        },
+        {
+          "id": "se_ch02_set04_008",
+          "type": "multiple_choice",
+          "question": "상대방에게 도움이 필요한지 물어볼 때 쓰는 가장 자연스러운 표현은?",
+          "options": [
+            "Do you need any help?",
+            "What do you want?",
+            "Can you manage?",
+            "Are you lost?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you need any help?'는 도움을 제안하는 가장 자연스럽고 친근한 표현입니다."
+        },
+        {
+          "id": "se_ch02_set04_009",
+          "type": "multiple_choice",
+          "question": "'No problem at all.'과 같은 의미의 표현은?",
+          "options": [
+            "Not at all.",
+            "No, I can't.",
+            "That's a problem.",
+            "I don't mind."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Not at all.'은 'No problem at all.'과 같은 의미로 감사나 사과에 대한 응대로 쓸 수 있어요."
+        },
+        {
+          "id": "se_ch02_set04_010",
+          "type": "multiple_choice",
+          "question": "호텔에서 체크인할 때 직원이 '투숙 중 필요한 게 있으면 알려주세요'라고 하면 어떤 표현인가?",
+          "options": [
+            "I'll come back in a moment.",
+            "Let me know if you need anything during your stay.",
+            "Take your time.",
+            "Wave me over."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Let me know if you need anything during your stay.'는 직원이 손님에게 투숙 기간 중 필요한 것이 있으면 알려달라는 친절한 표현입니다."
+        },
+        {
+          "id": "se_ch02_set04_011",
+          "type": "ox",
+          "question": "'Go ahead.'는 상대방에게 먼저 행동하도록 허락하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Go ahead.'는 '어서 하세요 / 먼저 하세요'라는 의미로, 상대방에게 행동을 허락하거나 순서를 양보할 때 씁니다."
+        },
+        {
+          "id": "se_ch02_set04_012",
+          "type": "ox",
+          "question": "'I appreciate it.'은 'Thank you.'보다 감사의 깊이가 더 얕은 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'appreciate'는 감사를 더 깊이 표현하는 동사로, 'I appreciate it.'은 'Thank you.'보다 더 진심 어린 감사를 나타냅니다."
+        },
+        {
+          "id": "se_ch02_set04_013",
+          "type": "ox",
+          "question": "식당 계산서를 'check' 또는 'bill'이라고 하는데, 어느 쪽을 써도 영어권에서 대체로 통한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 미국에서는 'check', 영국에서는 'bill'을 주로 쓰지만, 두 표현 모두 영어권 어디서든 통합니다."
+        },
+        {
+          "id": "se_ch02_set04_014",
+          "type": "ox",
+          "question": "'Sorry about that.'에서 'Sorry for that.'으로 바꿔도 자연스럽다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Sorry about that.'은 자연스럽지만 'Sorry for that.'은 어색한 표현입니다. 'sorry'와 함께는 'about'을 쓰는 것이 올바른 표현이에요."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch02_set05_001",
+          "type": "multiple_choice",
+          "question": "'Would you mind taking a photo of us?'의 'Would you mind ~ing' 형식은 어떤 의미인가?",
+          "options": [
+            "~하는 것을 꺼려하지 않겠어요? (부탁)",
+            "~하는 것을 좋아하나요?",
+            "~했나요?",
+            "~해야 합니까?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Would you mind ~ing?'는 '~해 주시겠어요?'라는 매우 정중한 부탁 표현입니다. 직역하면 '~하는 것을 꺼려하지 않겠어요?'의 뜻입니다."
+        },
+        {
+          "id": "se_ch02_set05_002",
+          "type": "multiple_choice",
+          "question": "낯선 사람에게 'Excuse me' 대신 쓸 수 있는 격식체 표현은?",
+          "options": [
+            "Hey!",
+            "Pardon me,",
+            "Hello friend,",
+            "Listen up,"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Pardon me'는 'Excuse me'의 격식체 대체 표현으로, 특히 미국 남부나 격식 있는 상황에서 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch02_set05_003",
+          "type": "multiple_choice",
+          "question": "'I'm so sorry! I accidentally spilled my drink.'에서 'accidentally'의 의미는?",
+          "options": [
+            "일부러",
+            "실수로",
+            "자주",
+            "천천히"
+          ],
+          "answerIndex": 1,
+          "explanation": "'accidentally'는 '실수로, 우연히'라는 뜻입니다. 의도치 않은 실수임을 강조할 때 사용해요."
+        },
+        {
+          "id": "se_ch02_set05_004",
+          "type": "multiple_choice",
+          "question": "식당에서 자리를 양보받았을 때 '어서 앉으세요'라고 할 때 쓰는 표현은?",
+          "options": [
+            "Come in.",
+            "After you!",
+            "Go away.",
+            "Not at all."
+          ],
+          "answerIndex": 1,
+          "explanation": "'After you!'는 '먼저 하세요 / 먼저 지나가세요'라는 뜻으로 상대방을 배려하는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set05_005",
+          "type": "multiple_choice",
+          "question": "'I'll come back in a moment.'에서 'in a moment'의 의미는?",
+          "options": [
+            "한 시간 후에",
+            "내일",
+            "잠시 후에 / 곧",
+            "나중에 언제가는"
+          ],
+          "answerIndex": 2,
+          "explanation": "'in a moment'는 '잠시 후에 / 곧'이라는 뜻입니다. 직원이 자리를 잠깐 비울 때 자주 쓰는 표현이에요."
+        },
+        {
+          "id": "se_ch02_set05_006",
+          "type": "multiple_choice",
+          "question": "감사를 전할 때 'Thank you.'보다 더 강한 표현을 고르세요.",
+          "options": [
+            "Thanks.",
+            "I really appreciate it.",
+            "OK thanks.",
+            "Yeah."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I really appreciate it.'은 'Thank you.'보다 더 깊은 감사를 표현하는 방식입니다. 'appreciate'가 진정성 있는 감사의 느낌을 줍니다."
+        },
+        {
+          "id": "se_ch02_set05_007",
+          "type": "multiple_choice",
+          "question": "'No, thank you.'의 대체 표현으로 적절한 것은?",
+          "options": [
+            "I'll pass, thanks.",
+            "Absolutely not.",
+            "I refuse.",
+            "No way."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll pass, thanks.'는 'No, thank you.'와 유사하게 제안을 정중하게 거절하는 구어체 표현입니다."
+        },
+        {
+          "id": "se_ch02_set05_008",
+          "type": "multiple_choice",
+          "question": "'Everyone here has been wonderful.'은 어느 상황에서 쓰기 적절한가?",
+          "options": [
+            "식당에서 음식이 맛없을 때",
+            "호텔 체크아웃 시 직원들을 칭찬할 때",
+            "길을 잃었을 때",
+            "물건을 잃어버렸을 때"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Everyone here has been wonderful.'은 호텔이나 레스토랑에서 직원들을 칭찬할 때 매우 좋은 인상을 주는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set05_009",
+          "type": "multiple_choice",
+          "question": "'Could I get through, please?'는 어떤 상황에서 쓰는가?",
+          "options": [
+            "전화를 연결할 때",
+            "사람들 사이를 지나가려 할 때",
+            "음식을 주문할 때",
+            "방 열쇠를 요청할 때"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Could I get through, please?'는 사람들이 막혀 있을 때 지나가기 위해 양해를 구하는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set05_010",
+          "type": "multiple_choice",
+          "question": "'Help yourself.'와 'Feel free.' 두 표현의 공통 의미는?",
+          "options": [
+            "도움이 필요하세요?",
+            "마음껏 / 편하게 하세요",
+            "도와드릴게요",
+            "잠깐 기다리세요"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Help yourself.'와 'Feel free.' 모두 상대방이 편하게 무언가를 하도록 허락하는 표현으로 '마음껏 / 편하게 하세요'의 의미입니다."
+        },
+        {
+          "id": "se_ch02_set05_011",
+          "type": "ox",
+          "question": "'wave me over'는 손짓으로 불러달라는 의미이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'wave over'는 손을 흔들어 누군가를 부르는 동작을 표현합니다. 'Just wave me over when you're ready.'는 '준비됐을 때 손 흔들어 불러 주세요'라는 뜻입니다."
+        },
+        {
+          "id": "se_ch02_set05_012",
+          "type": "ox",
+          "question": "'My pleasure.'는 감사 인사를 받았을 때만 쓸 수 있고, 칭찬에 대한 응대로는 쓸 수 없다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'My pleasure.'는 감사 인사뿐 아니라 다양한 긍정적인 상호작용에서 따뜻한 응대로 활용할 수 있습니다."
+        },
+        {
+          "id": "se_ch02_set05_013",
+          "type": "ox",
+          "question": "'That's very kind of you.'는 상대방의 친절에 감사를 표하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'That's very kind of you.'는 '정말 친절하시네요'라는 뜻으로, 상대방의 친절한 행동에 감사함을 전하는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set05_014",
+          "type": "ox",
+          "question": "'Sorry to bother you'는 상대방에게 방해가 되어 미안하다는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Sorry to bother you'는 '방해해서 죄송해요'라는 뜻으로, 상대방에게 말을 걸거나 부탁할 때 조심스럽게 양해를 구하는 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch02_set06_001",
+          "type": "multiple_choice",
+          "question": "전철역 위치를 물을 때 'Where is the station?'보다 더 정중한 표현은?",
+          "options": [
+            "Station! Where?",
+            "Can you tell me where the station is?",
+            "Do you know where the station is?",
+            "Could you tell me where the nearest station is?"
+          ],
+          "answerIndex": 3,
+          "explanation": "'Could you tell me where ~ is?'는 간접 의문문 형식으로 직접 질문보다 훨씬 정중한 표현입니다."
+        },
+        {
+          "id": "se_ch02_set06_002",
+          "type": "multiple_choice",
+          "question": "직원의 친절한 도움에 감사를 표하며 'You've been a great help.'이라고 할 때 의미는?",
+          "options": [
+            "당신은 항상 그렇게 하죠",
+            "정말 많은 도움이 됐어요",
+            "도움이 필요해요",
+            "그 정도면 됐어요"
+          ],
+          "answerIndex": 1,
+          "explanation": "'You've been a great help.'는 '정말 많은 도움이 됐어요'라는 뜻으로 도움에 감사를 전하는 따뜻한 표현입니다."
+        },
+        {
+          "id": "se_ch02_set06_003",
+          "type": "multiple_choice",
+          "question": "'I'm okay for now.'는 어떤 상황에서 쓰나요?",
+          "options": [
+            "도움이 필요하다고 할 때",
+            "제안을 정중히 거절할 때",
+            "기다려달라고 부탁할 때",
+            "감사함을 표할 때"
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'm okay for now.'는 '지금은 됐어요'라는 의미로, 제안을 정중하게 거절할 때 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set06_004",
+          "type": "multiple_choice",
+          "question": "식사 전에 쓰는 표현 'Enjoy your meal!'의 프랑스어 대체 표현은?",
+          "options": [
+            "Bon voyage!",
+            "Merci!",
+            "Bon appétit!",
+            "Au revoir!"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Bon appétit!'는 '맛있게 드세요!'라는 프랑스어 표현으로, 영어권에서도 널리 사용됩니다."
+        },
+        {
+          "id": "se_ch02_set06_005",
+          "type": "multiple_choice",
+          "question": "'Not at all, go ahead.'에서 'Not at all'의 의미는?",
+          "options": [
+            "절대 안 돼요",
+            "전혀 상관없어요 (허락)",
+            "잘 모르겠어요",
+            "나중에 하세요"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Not at all'은 '전혀 상관없어요'라는 뜻으로 'Do you mind~?' 같은 양해 요청에 대한 허락의 대답입니다."
+        },
+        {
+          "id": "se_ch02_set06_006",
+          "type": "multiple_choice",
+          "question": "실수로 누군가에게 불편을 끼쳤을 때 쓸 수 있는 격식체 사과 표현은?",
+          "options": [
+            "My bad.",
+            "Oops.",
+            "I'm sorry for the inconvenience.",
+            "Whatever."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I'm sorry for the inconvenience.'는 격식 있는 사과 표현으로, 'My bad.'보다 공식적이고 정중한 뉘앙스를 가집니다."
+        },
+        {
+          "id": "se_ch02_set06_007",
+          "type": "multiple_choice",
+          "question": "'I'll be ready in just a minute.'은 어떤 의미인가?",
+          "options": [
+            "1분 이상 기다려 주세요",
+            "지금 바로 할게요",
+            "금방 준비할게요",
+            "아직 준비가 안 됐어요"
+          ],
+          "answerIndex": 2,
+          "explanation": "'I'll be ready in just a minute.'는 '금방 준비할게요'라는 뜻으로, 잠시만 기다려달라는 의미를 담고 있습니다."
+        },
+        {
+          "id": "se_ch02_set06_008",
+          "type": "multiple_choice",
+          "question": "상대방이 먼저 지나가도록 배려할 때 쓰는 표현은?",
+          "options": [
+            "Go away!",
+            "After you!",
+            "Move it!",
+            "Hurry up!"
+          ],
+          "answerIndex": 1,
+          "explanation": "'After you!'는 '먼저 지나가세요!'라는 뜻으로, 상대방을 배려하는 매너 있는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set06_009",
+          "type": "multiple_choice",
+          "question": "'I'd appreciate that.'은 어떤 상황에서 쓰나요?",
+          "options": [
+            "제안을 거절할 때",
+            "도움 제안을 감사히 수락할 때",
+            "길을 물을 때",
+            "계산서를 요청할 때"
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'd appreciate that.'는 '그렇게 해주시면 감사하겠습니다'라는 뜻으로, 도움 제안을 감사히 수락할 때 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set06_010",
+          "type": "multiple_choice",
+          "question": "'These things happen.'의 의미로 가장 정확한 것은?",
+          "options": [
+            "이런 일은 절대 없어야 해",
+            "이런 일은 생기기 마련이에요",
+            "이게 마지막이에요",
+            "다음엔 조심하세요"
+          ],
+          "answerIndex": 1,
+          "explanation": "'These things happen.'은 '이런 일은 생기기 마련이에요'라는 뜻으로, 상대방의 실수를 너그럽게 이해하는 위로 표현입니다."
+        },
+        {
+          "id": "se_ch02_set06_011",
+          "type": "ox",
+          "question": "'I'm okay for now.'는 제안을 정중하게 거절하는 표현으로 쓸 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'I'm okay for now.'는 '지금은 됐어요'라는 의미로, 제안을 정중하게 거절하는 데 쓸 수 있어요."
+        },
+        {
+          "id": "se_ch02_set06_012",
+          "type": "ox",
+          "question": "'Just the check, please.'에서 'check'는 수표를 의미한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 식당에서 'check'는 계산서를 의미합니다. 'Just the check, please.'는 '계산서만 주세요'라는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set06_013",
+          "type": "ox",
+          "question": "'Have a good one!'은 'Have a nice day!'와 같은 의미의 구어체 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Have a good one!'은 'Have a nice day!'와 같이 '좋은 하루 되세요!'라는 의미의 구어체 인사 표현입니다."
+        },
+        {
+          "id": "se_ch02_set06_014",
+          "type": "ox",
+          "question": "'I apologize.'는 'I'm sorry.'보다 덜 격식 있는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'I apologize.'는 'I'm sorry.'보다 더 격식 있는 사과 표현입니다. 공식적인 상황이나 비즈니스 상황에서 더 많이 쓰입니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch02_set07_001",
+          "type": "multiple_choice",
+          "question": "누군가의 도움이 매우 유용했을 때 'That was very helpful.' 대신 쓸 수 있는 강한 감사 표현은?",
+          "options": [
+            "That was okay.",
+            "I couldn't have done it without you.",
+            "Sure, whatever.",
+            "That'll do."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I couldn't have done it without you.'는 '당신 없이는 못 했을 거예요'라는 뜻으로 강한 감사를 표현합니다."
+        },
+        {
+          "id": "se_ch02_set07_002",
+          "type": "multiple_choice",
+          "question": "매우 조심스럽게 낯선 사람에게 말을 걸 때 쓸 수 있는 표현은?",
+          "options": [
+            "Hey you!",
+            "Sorry to bother you,",
+            "Listen,",
+            "Attention!"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Sorry to bother you,'는 '방해해서 죄송한데요,'라는 뜻으로, 'Excuse me'보다 더 조심스러운 느낌을 주는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set07_003",
+          "type": "multiple_choice",
+          "question": "'I'm not quite ready to order yet.'에서 'quite'의 역할은?",
+          "options": [
+            "시제를 바꿔 준다",
+            "문장을 더 부드럽게 만든다",
+            "부정의 강도를 높인다",
+            "격식을 낮춘다"
+          ],
+          "answerIndex": 1,
+          "explanation": "'quite'는 부드러운 뉘앙스를 더해 표현을 더 완곡하게 만들어 줍니다. '완전히 준비된 건 아니에요'의 느낌으로 더 공손하게 들려요."
+        },
+        {
+          "id": "se_ch02_set07_004",
+          "type": "multiple_choice",
+          "question": "상대방의 친절에 감사하면서 '진심으로 감사드립니다'라고 할 때 쓸 수 있는 표현은?",
+          "options": [
+            "I'm truly grateful.",
+            "That's nice.",
+            "OK, good.",
+            "I understand."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm truly grateful.'은 '진심으로 감사합니다'라는 표현으로 단순한 'Thank you'보다 훨씬 감동적인 감사를 전합니다."
+        },
+        {
+          "id": "se_ch02_set07_005",
+          "type": "multiple_choice",
+          "question": "'My apologies.'는 어느 상황에서 가장 적합한가?",
+          "options": [
+            "가벼운 일상 대화",
+            "격식 있는 사과나 비즈니스 상황",
+            "친구와의 대화",
+            "식사 주문 시"
+          ],
+          "answerIndex": 1,
+          "explanation": "'My apologies.'는 격식 있는 사과 표현으로, 비즈니스나 공식적 상황에서 쓰기 적합합니다. 일상적 대화에서는 'I'm sorry.'나 'Sorry about that.'이 더 자연스러워요."
+        },
+        {
+          "id": "se_ch02_set07_006",
+          "type": "multiple_choice",
+          "question": "'Could you tell me where the nearest subway station is?'에서 간접 의문문의 어순은?",
+          "options": [
+            "where is the nearest subway station",
+            "where the nearest subway station is",
+            "the nearest subway station where is",
+            "is where the nearest subway station"
+          ],
+          "answerIndex": 1,
+          "explanation": "간접 의문문에서는 어순이 '의문사 + 주어 + 동사'로 바뀝니다. 즉 'where the nearest subway station is'가 올바른 어순입니다."
+        },
+        {
+          "id": "se_ch02_set07_007",
+          "type": "multiple_choice",
+          "question": "직원이 잠시 자리를 비우겠다고 할 때 쓸 수 있는 표현은?",
+          "options": [
+            "I'm leaving.",
+            "I'll come back in a moment.",
+            "See you tomorrow.",
+            "Goodbye."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'll come back in a moment.'는 직원이 잠시 자리를 비울 때 쓰는 표현으로 'in a moment'는 '곧, 잠시 후'를 뜻합니다."
+        },
+        {
+          "id": "se_ch02_set07_008",
+          "type": "multiple_choice",
+          "question": "누군가 'Do you need any help?'라고 제안했을 때 'I'd appreciate that.'의 의미는?",
+          "options": [
+            "필요 없어요",
+            "그렇게 해주시면 감사하겠습니다",
+            "잘 모르겠어요",
+            "나중에 부탁할게요"
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'd appreciate that.'은 제안을 감사히 수락하는 표현으로 '그렇게 해주시면 감사하겠습니다'라는 의미입니다."
+        },
+        {
+          "id": "se_ch02_set07_009",
+          "type": "multiple_choice",
+          "question": "지나가도 되는지 양해를 구하는 가장 정중한 표현은?",
+          "options": [
+            "Move!",
+            "Excuse me, could I get through, please?",
+            "Get out!",
+            "Coming!"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Excuse me, could I get through, please?'는 지나가기 위해 정중하게 양해를 구하는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set07_010",
+          "type": "multiple_choice",
+          "question": "'Feel free to ask if you have any questions.'의 의미는?",
+          "options": [
+            "질문을 삼가 주세요",
+            "질문이 있으면 편하게 물어보세요",
+            "질문은 나중에 해 주세요",
+            "질문이 있으면 문서로 보내주세요"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Feel free to ask if you have any questions.'는 '질문이 있으면 편하게 물어보세요'라는 친절한 안내 표현입니다."
+        },
+        {
+          "id": "se_ch02_set07_011",
+          "type": "ox",
+          "question": "'Anytime!'은 감사 인사에 대한 가볍고 친근한 응대 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Anytime!'은 '언제든지요!'라는 뜻으로, 감사 인사에 대한 친근하고 가벼운 응대 표현입니다."
+        },
+        {
+          "id": "se_ch02_set07_012",
+          "type": "ox",
+          "question": "'Can you point me to the subway station?'은 목적지의 방향을 묻는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Can you point me to ~?'는 '~가 어디인지 알려 주시겠어요?'라는 뜻으로 방향이나 위치를 묻는 구어체 표현입니다."
+        },
+        {
+          "id": "se_ch02_set07_013",
+          "type": "ox",
+          "question": "'It happens.'는 상대방의 실수에 화가 났음을 표현하는 말이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'It happens.'는 '그럴 수 있죠'라는 위로의 표현으로, 상대방의 실수를 너그럽게 이해하고 넘길 때 씁니다."
+        },
+        {
+          "id": "se_ch02_set07_014",
+          "type": "ox",
+          "question": "'Of course!'는 요청이나 부탁에 快히 응할 때 쓸 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Of course!'는 '물론이죠!'라는 뜻으로, 누군가의 요청이나 부탁에 흔쾌히 응하는 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch02_set08_001",
+          "type": "multiple_choice",
+          "question": "상점 직원이 '뭔가 도와드릴까요?'라고 제안할 때 쓸 수 있는 표현은?",
+          "options": [
+            "Can I help you with anything?",
+            "What do you want?",
+            "Go and look yourself.",
+            "This is not my job."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I help you with anything?'은 '뭔가 도와드릴까요?'라는 자연스러운 도움 제안 표현입니다."
+        },
+        {
+          "id": "se_ch02_set08_002",
+          "type": "multiple_choice",
+          "question": "'Thank you from the bottom of my heart.'의 의미는?",
+          "options": [
+            "간략하게 감사해요",
+            "진심으로 (마음 깊이) 감사드립니다",
+            "그냥 감사해요",
+            "별로 감사하지 않아요"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Thank you from the bottom of my heart.'는 '진심으로(마음 깊이) 감사드립니다'라는 매우 감동적인 감사 표현입니다."
+        },
+        {
+          "id": "se_ch02_set08_003",
+          "type": "multiple_choice",
+          "question": "'Whenever you're ready.'의 의미는?",
+          "options": [
+            "지금 당장 해 주세요",
+            "준비되실 때 언제든지요",
+            "빨리 준비하세요",
+            "이미 준비됐나요?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Whenever you're ready.'는 '준비되실 때 언제든지요'라는 뜻으로, 상대방을 재촉하지 않고 배려하는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set08_004",
+          "type": "multiple_choice",
+          "question": "사과할 때 'I'm sorry.'보다 더 격식 있고 진지한 표현은?",
+          "options": [
+            "Oops, sorry.",
+            "My bad.",
+            "I apologize.",
+            "Sorry!"
+          ],
+          "answerIndex": 2,
+          "explanation": "'I apologize.'는 'I'm sorry.'보다 더 격식 있는 사과 표현으로, 공식적인 자리나 비즈니스 상황에서 쓰기 적합합니다."
+        },
+        {
+          "id": "se_ch02_set08_005",
+          "type": "multiple_choice",
+          "question": "식당에서 '다 됐어요, 감사합니다. 계산서만 주세요.'라고 말하면?",
+          "options": [
+            "I'm finished, more please.",
+            "I'm all set, thanks. Just the check, please.",
+            "I want to order more.",
+            "Everything was bad."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'm all set, thanks. Just the check, please.'가 '다 됐어요, 감사합니다. 계산서만 주세요'에 해당하는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch02_set08_006",
+          "type": "multiple_choice",
+          "question": "'I'll give you a few more minutes.'는 어느 상황에서 쓰나요?",
+          "options": [
+            "손님에게 주문을 서두르라고 할 때",
+            "직원이 손님에게 더 시간을 줄 때",
+            "주문을 취소할 때",
+            "음식이 나왔을 때"
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'll give you a few more minutes.'는 직원이 아직 주문 준비가 안 된 손님에게 '몇 분 더 드릴게요'라고 배려하는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set08_007",
+          "type": "multiple_choice",
+          "question": "'You've all been so welcoming.'은 어떤 감정을 표현하는가?",
+          "options": [
+            "불만족",
+            "직원들의 친절한 환대에 대한 감사",
+            "추가 주문 요청",
+            "떠나겠다는 의사"
+          ],
+          "answerIndex": 1,
+          "explanation": "'You've all been so welcoming.'은 '모두들 정말 친절하게 맞아주셨어요'라는 뜻으로, 직원들의 환대와 친절에 감사하는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set08_008",
+          "type": "multiple_choice",
+          "question": "낯선 사람에게 방향을 물을 때 정중하게 시작하는 표현으로 가장 적절한 것은?",
+          "options": [
+            "You! Tell me!",
+            "Excuse me, do you know where ~ is?",
+            "Hey, where is ~?",
+            "Tell me, where is ~?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Excuse me, do you know where ~ is?'는 낯선 사람에게 방향을 정중하게 물을 때 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch02_set08_009",
+          "type": "multiple_choice",
+          "question": "허락을 구하는 표현 'Would it be alright if I~?'는 어느 정도의 격식 수준인가?",
+          "options": [
+            "매우 구어적",
+            "격식체",
+            "비격식 친근체",
+            "명령체"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Would it be alright if I~?'는 격식체 양해 표현으로, 'Is it okay if I~?'보다 더 공식적이고 정중한 느낌을 줍니다."
+        },
+        {
+          "id": "se_ch02_set08_010",
+          "type": "multiple_choice",
+          "question": "식당에서 주문하면서 계산서를 영국식으로 요청하면?",
+          "options": [
+            "Just the check.",
+            "Could I have the bill, please?",
+            "Pay now!",
+            "Receipt please."
+          ],
+          "answerIndex": 1,
+          "explanation": "영국에서는 식당 계산서를 'bill'이라고 합니다. 'Could I have the bill, please?'가 영국식 정중한 계산서 요청 표현입니다."
+        },
+        {
+          "id": "se_ch02_set08_011",
+          "type": "ox",
+          "question": "'Do you mind if I~?'에서 상대방이 'Of course not.'이라고 하면 허락하는 것이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Of course not.'은 '물론 괜찮죠'라는 뜻의 허락 표현입니다. 부정문으로 허락을 나타내는 방식입니다."
+        },
+        {
+          "id": "se_ch02_set08_012",
+          "type": "ox",
+          "question": "'Enjoy your meal!'은 식사가 끝난 후에 쓰는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Enjoy your meal!'은 음식이 나왔을 때 '맛있게 드세요!'라고 하는 표현으로, 식사를 시작하기 전에 씁니다."
+        },
+        {
+          "id": "se_ch02_set08_013",
+          "type": "ox",
+          "question": "'Just give me a shout if you need help.'는 구어적인 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'give me a shout'는 '불러 주세요'라는 뜻의 구어체 표현입니다. 격식 있는 자리보다 친근한 상황에서 더 자연스럽게 쓰입니다."
+        },
+        {
+          "id": "se_ch02_set08_014",
+          "type": "ox",
+          "question": "'I'm good.'은 'I'm all set.'과 비슷한 의미로 '충분하다 / 됐다'는 뜻으로도 쓰인다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'I'm good.'은 상황에 따라 '괜찮아요 / 충분해요'의 의미로 'I'm all set.'과 유사하게 쓸 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch02_set09_001",
+          "type": "multiple_choice",
+          "question": "'I'm glad to hear that.'의 의미로 가장 적절한 것은?",
+          "options": [
+            "그 말을 들으니 기쁘네요",
+            "그 말이 이해가 안 돼요",
+            "더 말씀해 주세요",
+            "안타깝네요"
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm glad to hear that.'는 '그렇게 말씀해 주시니 기쁘네요'라는 뜻으로, 긍정적인 피드백을 받았을 때 기쁨을 표현하는 말입니다."
+        },
+        {
+          "id": "se_ch02_set09_002",
+          "type": "multiple_choice",
+          "question": "상대방에게 핸드폰 충전을 부탁하기 위해 양해를 구하는 표현은?",
+          "options": [
+            "Let me charge my phone.",
+            "Do you mind if I charge my phone here?",
+            "I need to charge.",
+            "Phone charge, please."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do you mind if I charge my phone here?'는 양해를 구하는 정중한 표현입니다."
+        },
+        {
+          "id": "se_ch02_set09_003",
+          "type": "multiple_choice",
+          "question": "'No rush at all.'의 의미는?",
+          "options": [
+            "매우 서둘러 주세요",
+            "전혀 서두르지 않아도 됩니다",
+            "지금 당장 해 주세요",
+            "다음에 하세요"
+          ],
+          "answerIndex": 1,
+          "explanation": "'No rush at all.'은 '전혀 서두르지 않아도 됩니다'라는 배려의 표현으로, 'Take your time.'과 유사한 의미입니다."
+        },
+        {
+          "id": "se_ch02_set09_004",
+          "type": "multiple_choice",
+          "question": "도움이 됐다고 감사할 때 'That was very helpful.' 대신 쓸 수 있는 표현은?",
+          "options": [
+            "You've been a great help.",
+            "That was pointless.",
+            "I didn't need help.",
+            "You interrupted me."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You've been a great help.'는 '정말 많은 도움이 됐어요'라는 의미로 'That was very helpful.'의 자연스러운 대체 표현입니다."
+        },
+        {
+          "id": "se_ch02_set09_005",
+          "type": "multiple_choice",
+          "question": "'I'll check back with you shortly.'는 어떤 상황에서 쓰나요?",
+          "options": [
+            "손님이 직원을 부를 때",
+            "직원이 곧 다시 확인하러 오겠다고 할 때",
+            "주문을 취소할 때",
+            "음식 재료를 확인할 때"
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'll check back with you shortly.'는 '곧 다시 확인하러 올게요'라는 뜻으로, 직원이 손님 곁을 잠시 떠나면서 곧 돌아오겠다고 알릴 때 씁니다."
+        },
+        {
+          "id": "se_ch02_set09_006",
+          "type": "multiple_choice",
+          "question": "사진 촬영을 부탁하는 표현 중 가장 덜 격식 있는 것은?",
+          "options": [
+            "Would you mind taking a photo of us?",
+            "Could you take a photo of us?",
+            "Can you take a picture for us?",
+            "I request a photograph."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Can you take a picture for us?'는 격식이 가장 낮은 부탁 표현입니다. 'Could you~?'와 'Would you mind~?'는 더 정중한 형태입니다."
+        },
+        {
+          "id": "se_ch02_set09_007",
+          "type": "multiple_choice",
+          "question": "호텔 직원이 '저희와 함께 즐거운 시간 되시길 바랍니다'라고 하면 어떤 표현인가?",
+          "options": [
+            "Have a good one!",
+            "We hope you enjoy your stay with us.",
+            "Let me know if you need anything.",
+            "Thank you for your patience."
+          ],
+          "answerIndex": 1,
+          "explanation": "'We hope you enjoy your stay with us.'는 호텔 직원이 손님에게 즐거운 투숙을 바라는 인사 표현입니다."
+        },
+        {
+          "id": "se_ch02_set09_008",
+          "type": "multiple_choice",
+          "question": "'How can I make it up to you?'는 어떤 상황에서 쓰나요?",
+          "options": [
+            "감사를 전할 때",
+            "사과 후 보상을 제안할 때",
+            "길을 물을 때",
+            "주문할 때"
+          ],
+          "answerIndex": 1,
+          "explanation": "'How can I make it up to you?'는 '어떻게 보상해 드릴 수 있을까요?'라는 뜻으로, 사과 후 잘못을 만회하려는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set09_009",
+          "type": "multiple_choice",
+          "question": "'Two blocks down that way.'에서 'blocks'는 무엇을 의미하나?",
+          "options": [
+            "건물 층수",
+            "도시의 블록 (구역 단위)",
+            "거리 km",
+            "버스 정류장"
+          ],
+          "answerIndex": 1,
+          "explanation": "영어권에서 'block'은 도시의 한 구역 단위입니다. 'Two blocks down'은 두 블록 아래로 내려가라는 방향 안내입니다."
+        },
+        {
+          "id": "se_ch02_set09_010",
+          "type": "multiple_choice",
+          "question": "정중하게 거절할 때 'No, thank you.' 대신 가장 비슷한 느낌의 표현은?",
+          "options": [
+            "Absolutely not.",
+            "I'm okay, thanks.",
+            "Leave me alone.",
+            "I don't want it."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'm okay, thanks.'는 'No, thank you.'처럼 제안을 정중하게 거절하는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch02_set09_011",
+          "type": "ox",
+          "question": "'Of course!'는 부탁이나 요청을 흔쾌히 수락할 때 쓸 수 있는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Of course!'는 '물론이죠!'라는 뜻으로 누군가의 부탁이나 요청을 기꺼이 받아들일 때 자주 씁니다."
+        },
+        {
+          "id": "se_ch02_set09_012",
+          "type": "ox",
+          "question": "'Do you mind if I~?'에 대해 'Yes, go ahead.'라고 하면 허락이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Do you mind~?'에 'Yes'는 '신경 쓰인다 = 싫다'는 의미입니다. 허락할 때는 'No', 'Not at all', 'Go ahead' 등을 씁니다."
+        },
+        {
+          "id": "se_ch02_set09_013",
+          "type": "ox",
+          "question": "'I'm sorry.'보다 'I'm so sorry.'가 사과의 진정성이 더 강하게 느껴진다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'so'는 강조 부사로, 'I'm so sorry.'는 'I'm sorry.'보다 더 강한 사과의 마음을 전달합니다."
+        },
+        {
+          "id": "se_ch02_set09_014",
+          "type": "ox",
+          "question": "'Don't worry about it.'은 상대방의 실수를 너그럽게 넘길 때 쓰는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Don't worry about it.'은 '걱정하지 마세요'라는 뜻으로, 상대방의 실수를 너그럽게 넘길 때 위로의 말로 자주 씁니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch02_set10_001",
+          "type": "multiple_choice",
+          "question": "상대방을 재촉하지 않겠다는 배려를 나타내는 표현으로 적절한 것은?",
+          "options": [
+            "Hurry up, please.",
+            "Take your time.",
+            "Can you be faster?",
+            "I'm waiting."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Take your time.'는 '천천히 하세요'라는 뜻으로 상대방을 재촉하지 않고 기다리겠다는 배려의 표현입니다."
+        },
+        {
+          "id": "se_ch02_set10_002",
+          "type": "multiple_choice",
+          "question": "누군가 자리를 내어줄 때 '감사합니다, 방해해서 미안해요'라고 말하면?",
+          "options": [
+            "Thanks, but I don't need help.",
+            "Thank you, sorry to bother you.",
+            "Sorry, I need to leave.",
+            "Thanks, you're too kind."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Thank you, sorry to bother you.'는 '감사합니다, 방해해서 죄송해요'라는 뜻으로, 상대방에게 도움을 받은 후 사과와 감사를 함께 전하는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set10_003",
+          "type": "multiple_choice",
+          "question": "'The service here is excellent.'는 어떤 의미인가?",
+          "options": [
+            "이곳 서비스가 별로예요",
+            "이곳 서비스가 정말 훌륭해요",
+            "서비스 담당자가 없어요",
+            "서비스에 문제가 있어요"
+          ],
+          "answerIndex": 1,
+          "explanation": "'The service here is excellent.'는 '이곳 서비스가 정말 훌륭해요'라는 칭찬 표현으로, 호텔이나 식당에서 직원을 칭찬할 때 쓸 수 있어요."
+        },
+        {
+          "id": "se_ch02_set10_004",
+          "type": "multiple_choice",
+          "question": "'Happy to help!'는 어느 상황에서 가장 적합한가?",
+          "options": [
+            "도움을 요청할 때",
+            "도움 제안에 대한 밝고 친근한 응대",
+            "도움을 거절할 때",
+            "처음 만날 때 인사"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Happy to help!'는 '기꺼이요!'라는 뜻으로, 감사 인사에 대한 밝고 친근한 응대 표현으로 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch02_set10_005",
+          "type": "multiple_choice",
+          "question": "'Is there anything I can assist you with?'는 어떤 표현의 격식체 버전인가?",
+          "options": [
+            "Thank you for your help.",
+            "Do you need any help?",
+            "Go ahead.",
+            "Let me know."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is there anything I can assist you with?'는 'Do you need any help?'의 격식체 버전으로, 도움을 제안하는 공식적이고 정중한 표현입니다."
+        },
+        {
+          "id": "se_ch02_set10_006",
+          "type": "multiple_choice",
+          "question": "상대방의 좋은 마음씨에 감사할 때 'Thank you' 뒤에 자연스럽게 이어붙일 수 있는 표현은?",
+          "options": [
+            "That's strange.",
+            "That's very kind of you.",
+            "Whatever.",
+            "I don't think so."
+          ],
+          "answerIndex": 1,
+          "explanation": "'That's very kind of you.'는 '정말 친절하시네요'라는 뜻으로 'Thank you' 뒤에 자연스럽게 이어쓸 수 있는 감사 표현입니다."
+        },
+        {
+          "id": "se_ch02_set10_007",
+          "type": "multiple_choice",
+          "question": "사진을 찍어달라고 부탁한 후 도움에 감사하며 '정말 친절하시네요'라고 말하면?",
+          "options": [
+            "You're so nice.",
+            "That's too bad.",
+            "I'm disappointed.",
+            "I need more help."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You're so nice.'는 '정말 좋은 분이시네요'라는 뜻으로 'That's very kind of you.'와 유사하게 상대방의 친절에 감사할 때 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch02_set10_008",
+          "type": "multiple_choice",
+          "question": "'I need a moment.'는 어떤 상황에서 쓰나요?",
+          "options": [
+            "도움이 필요 없을 때",
+            "잠깐 시간이 필요하다고 알릴 때",
+            "빨리 해달라고 부탁할 때",
+            "무언가를 주문할 때"
+          ],
+          "answerIndex": 1,
+          "explanation": "'I need a moment.'는 '잠깐만요 / 시간이 좀 필요해요'라는 뜻으로, 잠시 시간이 필요함을 알릴 때 씁니다."
+        },
+        {
+          "id": "se_ch02_set10_009",
+          "type": "multiple_choice",
+          "question": "'I'm good, thanks.'와 같은 의미의 표현을 고르세요.",
+          "options": [
+            "I need more.",
+            "I'm all set, thanks.",
+            "Can I have more?",
+            "I'm not ready."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'm all set, thanks.'와 'I'm good, thanks.'는 모두 '충분해요 / 다 됐어요'라는 비슷한 의미입니다."
+        },
+        {
+          "id": "se_ch02_set10_010",
+          "type": "multiple_choice",
+          "question": "'I'm really sorry about that. Is there anything I can do?'의 상황은?",
+          "options": [
+            "감사를 전할 때",
+            "실수 후 책임지려 할 때",
+            "주문할 때",
+            "방향을 물을 때"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is there anything I can do?'는 실수나 잘못 후 도움을 자처하며 책임지려는 의지를 보이는 표현입니다."
+        },
+        {
+          "id": "se_ch02_set10_011",
+          "type": "ox",
+          "question": "'Pardon me'는 'Excuse me'보다 더 격식 있는 표현으로 쓰이는 경향이 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Pardon me'는 'Excuse me'와 같은 용도로 쓰이지만 더 격식 있는 느낌을 줍니다. 특히 미국 남부나 격식 있는 상황에서 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch02_set10_012",
+          "type": "ox",
+          "question": "'Could I have the bill, please?'에서 'bill'은 영국식 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 식당 계산서를 영국에서는 'bill', 미국에서는 'check'라고 합니다. 'bill'은 영국식 영어 표현입니다."
+        },
+        {
+          "id": "se_ch02_set10_013",
+          "type": "ox",
+          "question": "'Be my guest.'는 직역하면 '내 손님이 되어 주세요'이지만 실제로는 거절의 의미로 쓰인다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Be my guest.'는 직역은 '내 손님처럼 편하게'이지만, 실제로는 '편히 하세요 / 어서 하세요'라는 허락의 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch02_set10_014",
+          "type": "ox",
+          "question": "'It was my pleasure.'는 'My pleasure.'의 과거형으로도 자연스럽게 쓸 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'It was my pleasure.'는 'My pleasure.'의 과거형으로, 도움이나 서비스를 제공한 후 감사 인사에 대한 응대로 자연스럽게 쓸 수 있습니다."
         }
       ]
     }

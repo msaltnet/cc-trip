@@ -7,34 +7,68 @@
       "id": "ch26_d01",
       "title": "영수증 가져와 환불 요청하기",
       "lines": [
-        { "speaker": "나", "en": "Hi, I'd like a refund for this, please. I have the receipt.", "ko": "안녕하세요, 이것을 환불하고 싶습니다. 영수증 있어요." },
-        { "speaker": "점원", "en": "Of course. May I see the receipt?", "ko": "물론이죠. 영수증 좀 보여주시겠어요?" },
-        { "speaker": "나", "en": "Here you go. I purchased it two days ago.", "ko": "여기 있습니다. 이틀 전에 구매했어요." },
-        { "speaker": "점원", "en": "No problem. I'll process your refund right away.", "ko": "문제 없습니다. 바로 환불 처리해 드리겠습니다." }
+        {
+          "speaker": "나",
+          "en": "Hi, I'd like a refund for this, please. I have the receipt.",
+          "ko": "안녕하세요, 이것을 환불하고 싶습니다. 영수증 있어요."
+        },
+        {
+          "speaker": "점원",
+          "en": "Of course. May I see the receipt?",
+          "ko": "물론이죠. 영수증 좀 보여주시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Here you go. I purchased it two days ago.",
+          "ko": "여기 있습니다. 이틀 전에 구매했어요."
+        },
+        {
+          "speaker": "점원",
+          "en": "No problem. I'll process your refund right away.",
+          "ko": "문제 없습니다. 바로 환불 처리해 드리겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'd like a refund.",
           "ko": "환불을 요청하는 가장 정중한 표현. 'Give me a refund!'처럼 명령형은 무례하게 들리므로 'I'd like ~'나 'I'd like to request ~' 형태를 사용하자. 'I want a refund'도 가능하지만 I'd like이 더 공손하다.",
           "alternatives": [
-            { "en": "I'd like to return this for a refund.", "ko": "'return'을 명시해 반품+환불임을 명확히 전달하는 표현." },
-            { "en": "Can I get a refund on this?", "ko": "캐주얼하지만 자연스럽게 환불을 요청하는 표현." }
+            {
+              "en": "I'd like to return this for a refund.",
+              "ko": "'return'을 명시해 반품+환불임을 명확히 전달하는 표현."
+            },
+            {
+              "en": "Can I get a refund on this?",
+              "ko": "캐주얼하지만 자연스럽게 환불을 요청하는 표현."
+            }
           ]
         },
         {
           "en": "I have the receipt.",
           "ko": "영수증을 소지하고 있다고 먼저 알려주면 절차가 빨라짐. receipt의 p는 묵음이므로 '리시트'가 아닌 '리씨트'에 가깝게 발음함에 주의.",
           "alternatives": [
-            { "en": "Here's my receipt.", "ko": "영수증을 건네면서 쓰는 자연스러운 표현." },
-            { "en": "I have proof of purchase.", "ko": "영수증뿐 아니라 구매 확인 이메일 등을 포함하는 더 넓은 표현." }
+            {
+              "en": "Here's my receipt.",
+              "ko": "영수증을 건네면서 쓰는 자연스러운 표현."
+            },
+            {
+              "en": "I have proof of purchase.",
+              "ko": "영수증뿐 아니라 구매 확인 이메일 등을 포함하는 더 넓은 표현."
+            }
           ]
         },
         {
           "en": "I'll process your refund right away.",
           "ko": "직원이 환불을 처리하겠다고 말할 때 쓰는 표현. 'process'는 '처리하다'는 뜻. 'right away'는 '즉시'를 의미하므로 이 말을 들으면 잠시 기다리면 됨.",
           "alternatives": [
-            { "en": "I'll take care of that for you.", "ko": "처리해드리겠다는 뜻의 친절한 표현." },
-            { "en": "Let me get that sorted out for you.", "ko": "해결해드리겠다는 뜻의 영국식 표현." }
+            {
+              "en": "I'll take care of that for you.",
+              "ko": "처리해드리겠다는 뜻의 친절한 표현."
+            },
+            {
+              "en": "Let me get that sorted out for you.",
+              "ko": "해결해드리겠다는 뜻의 영국식 표현."
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch26_d02",
       "title": "사이즈 안 맞아 교환 요청하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, I bought this shirt yesterday but it's too small. Can I exchange it for a larger size?", "ko": "실례합니다, 어제 이 셔츠를 샀는데 너무 작아요. 더 큰 사이즈로 교환할 수 있나요?" },
-        { "speaker": "점원", "en": "Sure, do you want a medium or a large?", "ko": "물론이죠, 미디엄으로 드릴까요, 라지로 드릴까요?" },
-        { "speaker": "나", "en": "A large, please. I still have the tags on.", "ko": "라지로 주세요. 태그도 아직 달려 있어요." },
-        { "speaker": "점원", "en": "Perfect. Let me check if we have it in stock.", "ko": "좋습니다. 재고가 있는지 확인해 드릴게요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, I bought this shirt yesterday but it's too small. Can I exchange it for a larger size?",
+          "ko": "실례합니다, 어제 이 셔츠를 샀는데 너무 작아요. 더 큰 사이즈로 교환할 수 있나요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "Sure, do you want a medium or a large?",
+          "ko": "물론이죠, 미디엄으로 드릴까요, 라지로 드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "A large, please. I still have the tags on.",
+          "ko": "라지로 주세요. 태그도 아직 달려 있어요."
+        },
+        {
+          "speaker": "점원",
+          "en": "Perfect. Let me check if we have it in stock.",
+          "ko": "좋습니다. 재고가 있는지 확인해 드릴게요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Can I exchange it for a larger size?",
           "ko": "교환을 요청하는 핵심 표현. 'exchange A for B'는 'A를 B로 교환하다'라는 뜻. 'return'은 반품을, 'exchange'는 교환을 의미하므로 구분해서 사용하자.",
           "alternatives": [
-            { "en": "I'd like to swap this for the next size up.", "ko": "'swap'을 사용한 캐주얼한 교환 요청. 'next size up'은 한 단계 큰 사이즈를 뜻함." },
-            { "en": "Can I get this in a bigger size?", "ko": "더 큰 사이즈가 있는지 확인하며 교환을 요청하는 표현." }
+            {
+              "en": "I'd like to swap this for the next size up.",
+              "ko": "'swap'을 사용한 캐주얼한 교환 요청. 'next size up'은 한 단계 큰 사이즈를 뜻함."
+            },
+            {
+              "en": "Can I get this in a bigger size?",
+              "ko": "더 큰 사이즈가 있는지 확인하며 교환을 요청하는 표현."
+            }
           ]
         },
         {
           "en": "I still have the tags on.",
           "ko": "가격표나 상품 태그가 아직 달려 있다는 뜻. 교환·환불 시 태그가 달려 있고 미착용 상태임을 먼저 알려주면 거부될 가능성이 줄어든다.",
           "alternatives": [
-            { "en": "The tags are still attached.", "ko": "태그가 여전히 부착되어 있다는 같은 의미의 표현." },
-            { "en": "It's unworn and still has the label on.", "ko": "미착용 상태임도 함께 강조하는 표현." }
+            {
+              "en": "The tags are still attached.",
+              "ko": "태그가 여전히 부착되어 있다는 같은 의미의 표현."
+            },
+            {
+              "en": "It's unworn and still has the label on.",
+              "ko": "미착용 상태임도 함께 강조하는 표현."
+            }
           ]
         },
         {
           "en": "Let me check if we have it in stock.",
           "ko": "재고를 확인해보겠다는 직원의 표현. 'in stock'은 '재고가 있는' 상태. 이 말을 들으면 직원이 잠시 자리를 비울 수 있으므로 기다리면 된다.",
           "alternatives": [
-            { "en": "I'll see if we have your size.", "ko": "원하는 사이즈가 있는지 확인해보겠다는 간결한 표현." },
-            { "en": "Let me look in the back for you.", "ko": "창고(매장 뒤)에서 찾아보겠다는 표현." }
+            {
+              "en": "I'll see if we have your size.",
+              "ko": "원하는 사이즈가 있는지 확인해보겠다는 간결한 표현."
+            },
+            {
+              "en": "Let me look in the back for you.",
+              "ko": "창고(매장 뒤)에서 찾아보겠다는 표현."
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch26_d03",
       "title": "하자 발견 후 환불 요청하기",
       "lines": [
-        { "speaker": "나", "en": "Hi, I bought this bag two days ago and it's defective — the zipper is broken.", "ko": "안녕하세요, 이틀 전에 이 가방을 샀는데 하자가 있어요 — 지퍼가 고장 났어요." },
-        { "speaker": "점원", "en": "I'm sorry to hear that. May I take a look?", "ko": "그것 참 죄송하네요. 제가 한번 볼 수 있을까요?" },
-        { "speaker": "나", "en": "Of course. You can see it's clearly damaged.", "ko": "물론이죠. 분명히 손상되어 있는 게 보이실 거예요." },
-        { "speaker": "점원", "en": "You're right, that is a defect. We'll give you a full refund.", "ko": "맞습니다, 이건 하자네요. 전액 환불해 드리겠습니다." }
+        {
+          "speaker": "나",
+          "en": "Hi, I bought this bag two days ago and it's defective — the zipper is broken.",
+          "ko": "안녕하세요, 이틀 전에 이 가방을 샀는데 하자가 있어요 — 지퍼가 고장 났어요."
+        },
+        {
+          "speaker": "점원",
+          "en": "I'm sorry to hear that. May I take a look?",
+          "ko": "그것 참 죄송하네요. 제가 한번 볼 수 있을까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Of course. You can see it's clearly damaged.",
+          "ko": "물론이죠. 분명히 손상되어 있는 게 보이실 거예요."
+        },
+        {
+          "speaker": "점원",
+          "en": "You're right, that is a defect. We'll give you a full refund.",
+          "ko": "맞습니다, 이건 하자네요. 전액 환불해 드리겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "It's defective.",
           "ko": "상품에 하자가 있다는 핵심 표현. 'defective'는 '결함이 있는'이라는 형용사. 'It's broken'(부러졌다), 'It's damaged'(손상됐다)보다 공식적인 하자 클레임에서 더 강하게 쓰이는 단어.",
           "alternatives": [
-            { "en": "There's a defect in this.", "ko": "명사 'defect'를 사용해 하자를 지적하는 표현." },
-            { "en": "It's broken / It doesn't work.", "ko": "일상적으로 고장났거나 작동하지 않는다고 표현할 때 쓰는 말." }
+            {
+              "en": "There's a defect in this.",
+              "ko": "명사 'defect'를 사용해 하자를 지적하는 표현."
+            },
+            {
+              "en": "It's broken / It doesn't work.",
+              "ko": "일상적으로 고장났거나 작동하지 않는다고 표현할 때 쓰는 말."
+            }
           ]
         },
         {
           "en": "You can see it's clearly damaged.",
           "ko": "손상이 명백하다고 강조하는 표현. 'clearly'를 붙이면 하자가 분명하다는 점을 강조해 환불 거부를 방지하는 효과가 있음.",
           "alternatives": [
-            { "en": "As you can see, it's damaged.", "ko": "'As you can see'로 시작해 직원이 직접 확인하도록 유도하는 표현." },
-            { "en": "This is obviously faulty.", "ko": "'faulty'(결함 있는)를 사용한 다소 강한 어조의 표현." }
+            {
+              "en": "As you can see, it's damaged.",
+              "ko": "'As you can see'로 시작해 직원이 직접 확인하도록 유도하는 표현."
+            },
+            {
+              "en": "This is obviously faulty.",
+              "ko": "'faulty'(결함 있는)를 사용한 다소 강한 어조의 표현."
+            }
           ]
         },
         {
           "en": "We'll give you a full refund.",
           "ko": "'full refund'는 전액 환불을 의미. 'partial refund'는 일부 환불. 하자 상품의 경우 전액 환불이 원칙인 경우가 많으니 'full refund'를 명시해 요구하는 것이 좋음.",
           "alternatives": [
-            { "en": "We'll refund you in full.", "ko": "전액 환불해드리겠다는 같은 뜻의 표현." },
-            { "en": "You're entitled to a full refund.", "ko": "전액 환불을 받을 권리가 있다는 소비자 권리를 명시하는 표현." }
+            {
+              "en": "We'll refund you in full.",
+              "ko": "전액 환불해드리겠다는 같은 뜻의 표현."
+            },
+            {
+              "en": "You're entitled to a full refund.",
+              "ko": "전액 환불을 받을 권리가 있다는 소비자 권리를 명시하는 표현."
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch26_d04",
       "title": "다른 색상으로 교환 요청하기",
       "lines": [
-        { "speaker": "나", "en": "I'd like to exchange this scarf for a different color, please.", "ko": "이 스카프를 다른 색으로 교환하고 싶어요." },
-        { "speaker": "점원", "en": "Which color are you looking for?", "ko": "어떤 색을 원하세요?" },
-        { "speaker": "나", "en": "Do you have this in navy or dark green?", "ko": "네이비나 다크그린 있나요?" },
-        { "speaker": "점원", "en": "We have it in navy. Let me grab one for you.", "ko": "네이비는 있어요. 가져다 드릴게요." }
+        {
+          "speaker": "나",
+          "en": "I'd like to exchange this scarf for a different color, please.",
+          "ko": "이 스카프를 다른 색으로 교환하고 싶어요."
+        },
+        {
+          "speaker": "점원",
+          "en": "Which color are you looking for?",
+          "ko": "어떤 색을 원하세요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Do you have this in navy or dark green?",
+          "ko": "네이비나 다크그린 있나요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "We have it in navy. Let me grab one for you.",
+          "ko": "네이비는 있어요. 가져다 드릴게요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'd like to exchange this for a different color.",
           "ko": "색상 교환 요청 시 쓰는 표현. 'exchange A for B' 구조를 그대로 활용. 색상을 특정하고 싶으면 'a different color' 대신 'the navy one'처럼 말하면 됨.",
           "alternatives": [
-            { "en": "Can I get this in a different color?", "ko": "다른 색상이 있는지 물으며 교환 의사를 전달하는 표현." },
-            { "en": "Do you have this in other colors?", "ko": "어떤 색상들이 있는지 먼저 확인하는 표현." }
+            {
+              "en": "Can I get this in a different color?",
+              "ko": "다른 색상이 있는지 물으며 교환 의사를 전달하는 표현."
+            },
+            {
+              "en": "Do you have this in other colors?",
+              "ko": "어떤 색상들이 있는지 먼저 확인하는 표현."
+            }
           ]
         },
         {
           "en": "Do you have this in navy?",
           "ko": "특정 색상이 있는지 확인하는 표현. 'Do you have this in [색상/사이즈]?'는 매장에서 매우 자주 쓰이는 패턴이므로 색상이나 사이즈만 바꿔 다양하게 활용 가능.",
           "alternatives": [
-            { "en": "Is this available in navy?", "ko": "이 제품이 네이비 색상으로 나오는지 묻는 표현." },
-            { "en": "What colors do you have this in?", "ko": "가능한 색상 전체를 물어보는 표현." }
+            {
+              "en": "Is this available in navy?",
+              "ko": "이 제품이 네이비 색상으로 나오는지 묻는 표현."
+            },
+            {
+              "en": "What colors do you have this in?",
+              "ko": "가능한 색상 전체를 물어보는 표현."
+            }
           ]
         },
         {
           "en": "Let me grab one for you.",
           "ko": "'grab'은 '가져오다'라는 뜻의 캐주얼한 표현. 직원이 상품을 가지러 갈 때 자주 씀. 'Let me get one for you'와 같은 의미.",
           "alternatives": [
-            { "en": "I'll get that for you.", "ko": "가져다 드리겠다는 표준적인 표현." },
-            { "en": "I'll be right back with it.", "ko": "잠깐 다녀오겠다는 의미로 자리를 비울 때 쓰는 표현." }
+            {
+              "en": "I'll get that for you.",
+              "ko": "가져다 드리겠다는 표준적인 표현."
+            },
+            {
+              "en": "I'll be right back with it.",
+              "ko": "잠깐 다녀오겠다는 의미로 자리를 비울 때 쓰는 표현."
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch26_d05",
       "title": "카드 원복으로 환불 확인하기",
       "lines": [
-        { "speaker": "점원", "en": "Your refund has been approved. Would you like it back on your card?", "ko": "환불이 승인됐습니다. 카드로 돌려드릴까요?" },
-        { "speaker": "나", "en": "Yes, please refund it to my card.", "ko": "네, 카드로 환불해 주세요." },
-        { "speaker": "점원", "en": "It may take three to five business days to appear.", "ko": "영업일 기준 3~5일 후에 반영될 수 있습니다." },
-        { "speaker": "나", "en": "That's fine. Will I receive a confirmation email?", "ko": "괜찮습니다. 확인 이메일을 받을 수 있나요?" }
+        {
+          "speaker": "점원",
+          "en": "Your refund has been approved. Would you like it back on your card?",
+          "ko": "환불이 승인됐습니다. 카드로 돌려드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Yes, please refund it to my card.",
+          "ko": "네, 카드로 환불해 주세요."
+        },
+        {
+          "speaker": "점원",
+          "en": "It may take three to five business days to appear.",
+          "ko": "영업일 기준 3~5일 후에 반영될 수 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "That's fine. Will I receive a confirmation email?",
+          "ko": "괜찮습니다. 확인 이메일을 받을 수 있나요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "Please refund it to my card.",
           "ko": "카드 원복을 요청하는 표현. 'refund to my card'는 결제 카드로 돌려달라는 의미. 현금으로 받거나 매장 크레딧으로 받을 수도 있으니 원하는 방식을 명확히 말하는 것이 좋음.",
           "alternatives": [
-            { "en": "Can I get it back on my credit card?", "ko": "신용카드로 환불해달라고 구체적으로 요청하는 표현." },
-            { "en": "I'd like the refund credited back to my card.", "ko": "카드 원복을 더 격식 있게 요청하는 표현." }
+            {
+              "en": "Can I get it back on my credit card?",
+              "ko": "신용카드로 환불해달라고 구체적으로 요청하는 표현."
+            },
+            {
+              "en": "I'd like the refund credited back to my card.",
+              "ko": "카드 원복을 더 격식 있게 요청하는 표현."
+            }
           ]
         },
         {
           "en": "It may take three to five business days.",
           "ko": "'business days'는 '영업일'로, 주말과 공휴일을 제외한 평일만 포함. 카드 환불은 통상 3~5 business days가 소요됨을 알고 있으면 추후 확인할 때 유용함.",
           "alternatives": [
-            { "en": "It should show up within a week.", "ko": "일주일 이내로 반영될 것이라는 더 일반적인 표현." },
-            { "en": "Allow up to five working days.", "ko": "영업일 기준 최대 5일을 허용해달라는 표현." }
+            {
+              "en": "It should show up within a week.",
+              "ko": "일주일 이내로 반영될 것이라는 더 일반적인 표현."
+            },
+            {
+              "en": "Allow up to five working days.",
+              "ko": "영업일 기준 최대 5일을 허용해달라는 표현."
+            }
           ]
         },
         {
           "en": "Will I receive a confirmation email?",
           "ko": "환불 처리 후 확인 이메일을 요청하는 표현. 영수증이나 확인 이메일을 받아두면 환불이 반영되지 않을 때 증거로 활용할 수 있음.",
           "alternatives": [
-            { "en": "Can I get a receipt for the refund?", "ko": "환불 영수증을 달라는 표현." },
-            { "en": "Can you send me proof of the refund?", "ko": "환불 증빙 자료를 요청하는 표현." }
+            {
+              "en": "Can I get a receipt for the refund?",
+              "ko": "환불 영수증을 달라는 표현."
+            },
+            {
+              "en": "Can you send me proof of the refund?",
+              "ko": "환불 증빙 자료를 요청하는 표현."
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch26_d06",
       "title": "교환 가능 기간 확인하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, what is the exchange policy? Is there a time limit?", "ko": "실례합니다, 교환 정책이 어떻게 되나요? 기간 제한이 있나요?" },
-        { "speaker": "점원", "en": "You can exchange items within 30 days of purchase.", "ko": "구매일로부터 30일 이내에 교환하실 수 있습니다." },
-        { "speaker": "나", "en": "I bought this 10 days ago, so I'm still within the period.", "ko": "10일 전에 샀으니까 아직 기간 내에 있네요." },
-        { "speaker": "점원", "en": "That's correct. You'll just need your receipt.", "ko": "맞습니다. 영수증만 있으면 됩니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, what is the exchange policy? Is there a time limit?",
+          "ko": "실례합니다, 교환 정책이 어떻게 되나요? 기간 제한이 있나요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "You can exchange items within 30 days of purchase.",
+          "ko": "구매일로부터 30일 이내에 교환하실 수 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "I bought this 10 days ago, so I'm still within the period.",
+          "ko": "10일 전에 샀으니까 아직 기간 내에 있네요."
+        },
+        {
+          "speaker": "점원",
+          "en": "That's correct. You'll just need your receipt.",
+          "ko": "맞습니다. 영수증만 있으면 됩니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "What is the exchange policy?",
           "ko": "교환 정책을 묻는 표현. 'return policy'(반품 정책), 'refund policy'(환불 정책)도 같은 패턴으로 사용 가능. 매장마다 정책이 다르므로 구매 전에 미리 물어보는 것이 좋음.",
           "alternatives": [
-            { "en": "What's your return and exchange policy?", "ko": "반품과 교환 정책을 함께 묻는 표현." },
-            { "en": "How long do I have to exchange this?", "ko": "교환 가능 기간을 직접 묻는 표현." }
+            {
+              "en": "What's your return and exchange policy?",
+              "ko": "반품과 교환 정책을 함께 묻는 표현."
+            },
+            {
+              "en": "How long do I have to exchange this?",
+              "ko": "교환 가능 기간을 직접 묻는 표현."
+            }
           ]
         },
         {
           "en": "Within 30 days of purchase.",
           "ko": "'within'은 '이내에'라는 뜻. 'within 30 days of purchase'는 '구매일로부터 30일 이내'를 의미. 'of purchase'가 없으면 기준일이 불분명하므로 함께 쓰는 것이 명확함.",
           "alternatives": [
-            { "en": "Up to 30 days from the date of purchase.", "ko": "구매일로부터 최대 30일이라는 같은 의미의 표현." },
-            { "en": "For 30 days after you bought it.", "ko": "구매 후 30일 동안이라는 캐주얼한 표현." }
+            {
+              "en": "Up to 30 days from the date of purchase.",
+              "ko": "구매일로부터 최대 30일이라는 같은 의미의 표현."
+            },
+            {
+              "en": "For 30 days after you bought it.",
+              "ko": "구매 후 30일 동안이라는 캐주얼한 표현."
+            }
           ]
         },
         {
           "en": "I'm still within the period.",
           "ko": "아직 교환·환불 가능 기간 내에 있다는 표현. 'within the period'는 '기간 내에'라는 뜻. 'still'을 붙이면 '아직 해당됨'을 강조하는 효과가 있음.",
           "alternatives": [
-            { "en": "I'm still within the return window.", "ko": "'return window'는 반품 가능 기간을 뜻하는 비즈니스 용어." },
-            { "en": "I'm within the 30-day limit.", "ko": "30일 기간 내에 있다는 구체적인 표현." }
+            {
+              "en": "I'm still within the return window.",
+              "ko": "'return window'는 반품 가능 기간을 뜻하는 비즈니스 용어."
+            },
+            {
+              "en": "I'm within the 30-day limit.",
+              "ko": "30일 기간 내에 있다는 구체적인 표현."
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch26_d07",
       "title": "영수증 없이 환불 시도하기",
       "lines": [
-        { "speaker": "나", "en": "Hi, I'd like to return this jacket, but I don't have the receipt.", "ko": "안녕하세요, 이 재킷을 반품하고 싶은데 영수증이 없어요." },
-        { "speaker": "점원", "en": "Without a receipt, we can only offer store credit.", "ko": "영수증 없이는 매장 크레딧만 제공해 드릴 수 있습니다." },
-        { "speaker": "나", "en": "I understand. What is store credit exactly?", "ko": "알겠습니다. 매장 크레딧이 정확히 뭔가요?" },
-        { "speaker": "점원", "en": "It's like a voucher you can use to shop here in the future.", "ko": "나중에 이 매장에서 쇼핑할 때 사용할 수 있는 상품권 같은 거예요." }
+        {
+          "speaker": "나",
+          "en": "Hi, I'd like to return this jacket, but I don't have the receipt.",
+          "ko": "안녕하세요, 이 재킷을 반품하고 싶은데 영수증이 없어요."
+        },
+        {
+          "speaker": "점원",
+          "en": "Without a receipt, we can only offer store credit.",
+          "ko": "영수증 없이는 매장 크레딧만 제공해 드릴 수 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "I understand. What is store credit exactly?",
+          "ko": "알겠습니다. 매장 크레딧이 정확히 뭔가요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "It's like a voucher you can use to shop here in the future.",
+          "ko": "나중에 이 매장에서 쇼핑할 때 사용할 수 있는 상품권 같은 거예요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I don't have the receipt.",
           "ko": "영수증이 없다고 말하는 표현. 영수증 없이는 환불이 거절되거나 매장 크레딧으로만 처리될 수 있음. 신용카드 내역서나 주문 확인 이메일이 대체 증빙이 될 수 있으므로 'I have my card statement instead.'라고 제안해볼 수 있음.",
           "alternatives": [
-            { "en": "I seem to have lost my receipt.", "ko": "영수증을 잃어버린 것 같다는 상황을 설명하는 표현." },
-            { "en": "I didn't keep the receipt.", "ko": "영수증을 보관하지 않았다고 솔직하게 말하는 표현." }
+            {
+              "en": "I seem to have lost my receipt.",
+              "ko": "영수증을 잃어버린 것 같다는 상황을 설명하는 표현."
+            },
+            {
+              "en": "I didn't keep the receipt.",
+              "ko": "영수증을 보관하지 않았다고 솔직하게 말하는 표현."
+            }
           ]
         },
         {
           "en": "We can only offer store credit.",
           "ko": "'store credit'은 해당 매장에서만 쓸 수 있는 포인트나 바우처 형태의 크레딧. 현금 환불은 아니지만 같은 금액만큼 다음 구매 시 쓸 수 있음. 'only'가 붙으면 다른 방법이 없다는 뜻이므로 고집하면 매니저를 요청할 수 있음.",
           "alternatives": [
-            { "en": "We can give you a store voucher.", "ko": "매장 바우처를 제공하겠다는 같은 의미의 표현." },
-            { "en": "The best we can do is a credit note.", "ko": "최선으로 할 수 있는 것이 크레딧 노트라는 표현." }
+            {
+              "en": "We can give you a store voucher.",
+              "ko": "매장 바우처를 제공하겠다는 같은 의미의 표현."
+            },
+            {
+              "en": "The best we can do is a credit note.",
+              "ko": "최선으로 할 수 있는 것이 크레딧 노트라는 표현."
+            }
           ]
         },
         {
           "en": "What is store credit exactly?",
           "ko": "'exactly'를 붙이면 '정확히 어떤 건가요?'라는 뜻으로 명확한 설명을 요구하는 표현. 낯선 제도나 용어가 나왔을 때 당황하지 않고 질문하는 좋은 패턴.",
           "alternatives": [
-            { "en": "Can you explain how store credit works?", "ko": "매장 크레딧이 어떻게 작동하는지 설명해달라는 표현." },
-            { "en": "Is that the same as a gift card?", "ko": "기프트카드와 같은 것인지 비교해 이해를 확인하는 표현." }
+            {
+              "en": "Can you explain how store credit works?",
+              "ko": "매장 크레딧이 어떻게 작동하는지 설명해달라는 표현."
+            },
+            {
+              "en": "Is that the same as a gift card?",
+              "ko": "기프트카드와 같은 것인지 비교해 이해를 확인하는 표현."
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch26_d08",
       "title": "가격표·태그 미착용 확인하기",
       "lines": [
-        { "speaker": "나", "en": "I'd like to exchange this. The tags are still on and I haven't worn it.", "ko": "이걸 교환하고 싶어요. 태그도 그대로고 착용하지 않았어요." },
-        { "speaker": "점원", "en": "Great, that makes it easier. Do you have your receipt?", "ko": "좋습니다, 그러면 더 쉽겠네요. 영수증 있으신가요?" },
-        { "speaker": "나", "en": "Yes, here it is. The tag is still attached as you can see.", "ko": "네, 여기 있습니다. 보시다시피 태그가 아직 달려 있어요." },
-        { "speaker": "점원", "en": "Perfect. Everything looks good. What would you like to exchange it for?", "ko": "완벽합니다. 다 괜찮아 보이네요. 무엇으로 교환하시겠어요?" }
+        {
+          "speaker": "나",
+          "en": "I'd like to exchange this. The tags are still on and I haven't worn it.",
+          "ko": "이걸 교환하고 싶어요. 태그도 그대로고 착용하지 않았어요."
+        },
+        {
+          "speaker": "점원",
+          "en": "Great, that makes it easier. Do you have your receipt?",
+          "ko": "좋습니다, 그러면 더 쉽겠네요. 영수증 있으신가요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Yes, here it is. The tag is still attached as you can see.",
+          "ko": "네, 여기 있습니다. 보시다시피 태그가 아직 달려 있어요."
+        },
+        {
+          "speaker": "점원",
+          "en": "Perfect. Everything looks good. What would you like to exchange it for?",
+          "ko": "완벽합니다. 다 괜찮아 보이네요. 무엇으로 교환하시겠어요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "The tags are still on.",
           "ko": "상품 태그(가격표 포함)가 아직 달려 있다는 표현. 'tags on'은 '태그가 붙어 있는' 상태. 많은 매장이 교환·환불 시 태그가 달려 있어야 한다는 조건을 두므로 먼저 강조하면 유리함.",
           "alternatives": [
-            { "en": "The price tag is still attached.", "ko": "가격 태그가 아직 붙어 있다고 구체적으로 말하는 표현." },
-            { "en": "It still has all its tags.", "ko": "모든 태그가 그대로라는 표현." }
+            {
+              "en": "The price tag is still attached.",
+              "ko": "가격 태그가 아직 붙어 있다고 구체적으로 말하는 표현."
+            },
+            {
+              "en": "It still has all its tags.",
+              "ko": "모든 태그가 그대로라는 표현."
+            }
           ]
         },
         {
           "en": "I haven't worn it.",
           "ko": "아직 착용하지 않았다는 표현. 'worn'은 'wear'의 과거분사. 현재완료 부정을 써서 구매 이후 지금까지 미착용 상태임을 나타냄. 'It's brand new'(완전 새것)라고 강조해도 됨.",
           "alternatives": [
-            { "en": "It's unused.", "ko": "사용하지 않았다는 간결한 표현." },
-            { "en": "It's in its original condition.", "ko": "원래 상태 그대로라는 표현으로 환불 조건을 충족함을 알림." }
+            {
+              "en": "It's unused.",
+              "ko": "사용하지 않았다는 간결한 표현."
+            },
+            {
+              "en": "It's in its original condition.",
+              "ko": "원래 상태 그대로라는 표현으로 환불 조건을 충족함을 알림."
+            }
           ]
         },
         {
           "en": "As you can see.",
           "ko": "'보시다시피'라는 뜻으로 상대방이 직접 확인할 수 있는 상황임을 강조하는 표현. 하자나 태그 상태 등 눈으로 확인 가능한 사실을 언급할 때 앞에 붙이면 설득력이 높아짐.",
           "alternatives": [
-            { "en": "You can see for yourself.", "ko": "직접 확인해보세요라는 의미로 더 강하게 강조하는 표현." },
-            { "en": "As you can tell.", "ko": "'as you can see'와 유사하게 쓰이는 표현." }
+            {
+              "en": "You can see for yourself.",
+              "ko": "직접 확인해보세요라는 의미로 더 강하게 강조하는 표현."
+            },
+            {
+              "en": "As you can tell.",
+              "ko": "'as you can see'와 유사하게 쓰이는 표현."
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch26_d09",
       "title": "매니저 요청하기",
       "lines": [
-        { "speaker": "나", "en": "I'm not satisfied with this solution. Can I speak to the manager, please?", "ko": "이 해결 방법이 만족스럽지 않아요. 매니저와 얘기할 수 있을까요?" },
-        { "speaker": "점원", "en": "Of course, one moment please.", "ko": "물론이죠, 잠시만 기다려 주세요." },
-        { "speaker": "매니저", "en": "Hello, I'm the manager. How can I help you?", "ko": "안녕하세요, 저는 매니저입니다. 어떻게 도와드릴까요?" },
-        { "speaker": "나", "en": "Thank you. I'd like to explain my situation and find a fair solution.", "ko": "감사합니다. 제 상황을 설명하고 공정한 해결책을 찾고 싶어요." }
+        {
+          "speaker": "나",
+          "en": "I'm not satisfied with this solution. Can I speak to the manager, please?",
+          "ko": "이 해결 방법이 만족스럽지 않아요. 매니저와 얘기할 수 있을까요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "Of course, one moment please.",
+          "ko": "물론이죠, 잠시만 기다려 주세요."
+        },
+        {
+          "speaker": "매니저",
+          "en": "Hello, I'm the manager. How can I help you?",
+          "ko": "안녕하세요, 저는 매니저입니다. 어떻게 도와드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you. I'd like to explain my situation and find a fair solution.",
+          "ko": "감사합니다. 제 상황을 설명하고 공정한 해결책을 찾고 싶어요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Can I speak to the manager, please?",
           "ko": "매니저와 직접 대화를 요청하는 표현. 직원 선에서 해결이 안 될 때 쓰는 방법. 'please'를 꼭 붙여 공손한 요청임을 유지하자. 화가 난 상태에서도 정중함을 잃지 않는 것이 결과적으로 유리함.",
           "alternatives": [
-            { "en": "Could I speak with the store manager?", "ko": "'Could I ~?'로 더 공손하게 매니저를 요청하는 표현." },
-            { "en": "I'd like to speak to someone in charge.", "ko": "담당자와 얘기하고 싶다는 표현으로 매니저 외 책임자에게도 적용 가능." }
+            {
+              "en": "Could I speak with the store manager?",
+              "ko": "'Could I ~?'로 더 공손하게 매니저를 요청하는 표현."
+            },
+            {
+              "en": "I'd like to speak to someone in charge.",
+              "ko": "담당자와 얘기하고 싶다는 표현으로 매니저 외 책임자에게도 적용 가능."
+            }
           ]
         },
         {
           "en": "I'm not satisfied with this solution.",
           "ko": "현재 제시된 해결책에 만족하지 못한다는 정중하지만 단호한 표현. 'I'm unhappy with ~'나 'This isn't acceptable'보다 직접적 항의 없이 문제를 제기하는 세련된 방법.",
           "alternatives": [
-            { "en": "I'm afraid this doesn't work for me.", "ko": "'I'm afraid'로 시작해 더 부드럽게 거절하는 표현." },
-            { "en": "I don't think this is a fair resolution.", "ko": "공정한 해결이 아니라고 명확히 지적하는 표현." }
+            {
+              "en": "I'm afraid this doesn't work for me.",
+              "ko": "'I'm afraid'로 시작해 더 부드럽게 거절하는 표현."
+            },
+            {
+              "en": "I don't think this is a fair resolution.",
+              "ko": "공정한 해결이 아니라고 명확히 지적하는 표현."
+            }
           ]
         },
         {
           "en": "I'd like to find a fair solution.",
           "ko": "공정한 해결책을 찾고 싶다는 표현. 감정적으로 싸우는 게 아니라 합리적인 해결을 원한다는 태도를 보여줌. 매니저나 상급자에게 이렇게 말하면 협조적인 분위기를 만드는 데 도움이 됨.",
           "alternatives": [
-            { "en": "I just want a reasonable solution.", "ko": "합리적인 해결을 원한다는 표현." },
-            { "en": "I'd like this resolved properly.", "ko": "제대로 해결되기를 바란다는 표현." }
+            {
+              "en": "I just want a reasonable solution.",
+              "ko": "합리적인 해결을 원한다는 표현."
+            },
+            {
+              "en": "I'd like this resolved properly.",
+              "ko": "제대로 해결되기를 바란다는 표현."
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch26_d10",
       "title": "정중하지만 단호하게 항의하기",
       "lines": [
-        { "speaker": "나", "en": "I understand your policy, but this item was defective when I bought it. I believe I'm entitled to a full refund.", "ko": "정책은 이해합니다만, 이 상품은 구매 당시부터 하자가 있었습니다. 전액 환불을 받을 권리가 있다고 생각합니다." },
-        { "speaker": "매니저", "en": "I understand your concern. Let me review your case.", "ko": "걱정되시는 점 이해합니다. 고객님 사례를 검토해 보겠습니다." },
-        { "speaker": "나", "en": "Thank you. I've been a loyal customer and I trust you'll handle this fairly.", "ko": "감사합니다. 저는 단골 고객이고 공정하게 처리해 주실 거라 믿습니다." },
-        { "speaker": "매니저", "en": "Absolutely. We'll make sure you leave satisfied.", "ko": "물론입니다. 만족하고 가실 수 있도록 하겠습니다." }
+        {
+          "speaker": "나",
+          "en": "I understand your policy, but this item was defective when I bought it. I believe I'm entitled to a full refund.",
+          "ko": "정책은 이해합니다만, 이 상품은 구매 당시부터 하자가 있었습니다. 전액 환불을 받을 권리가 있다고 생각합니다."
+        },
+        {
+          "speaker": "매니저",
+          "en": "I understand your concern. Let me review your case.",
+          "ko": "걱정되시는 점 이해합니다. 고객님 사례를 검토해 보겠습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you. I've been a loyal customer and I trust you'll handle this fairly.",
+          "ko": "감사합니다. 저는 단골 고객이고 공정하게 처리해 주실 거라 믿습니다."
+        },
+        {
+          "speaker": "매니저",
+          "en": "Absolutely. We'll make sure you leave satisfied.",
+          "ko": "물론입니다. 만족하고 가실 수 있도록 하겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I believe I'm entitled to a full refund.",
           "ko": "'be entitled to ~'는 '~을 받을 권리가 있다'는 표현. 소비자 권리를 주장할 때 매우 강력하고 공식적인 표현. 'I believe'를 앞에 붙이면 단호하면서도 다소 부드럽게 주장하는 효과가 있음.",
           "alternatives": [
-            { "en": "I have the right to a full refund.", "ko": "전액 환불받을 권리가 있다고 직접적으로 말하는 표현." },
-            { "en": "Under your policy, I should receive a full refund.", "ko": "매장 정책을 근거로 환불을 요구하는 표현." }
+            {
+              "en": "I have the right to a full refund.",
+              "ko": "전액 환불받을 권리가 있다고 직접적으로 말하는 표현."
+            },
+            {
+              "en": "Under your policy, I should receive a full refund.",
+              "ko": "매장 정책을 근거로 환불을 요구하는 표현."
+            }
           ]
         },
         {
           "en": "I understand your policy, but —",
           "ko": "정책을 이해한다고 인정하면서도 반론을 제기하는 패턴. 'I understand ~ but ~' 구조는 상대방의 입장을 존중하면서 자신의 입장을 관철하는 효과적인 방법. 무조건 반박하는 것보다 협조적인 인상을 줌.",
           "alternatives": [
-            { "en": "I appreciate your position, however —", "ko": "상대방의 입장을 인정하면서 반론을 시작하는 더 격식 있는 표현." },
-            { "en": "I see what you're saying, but —", "ko": "무슨 말인지는 알겠지만이라고 시작하는 표현." }
+            {
+              "en": "I appreciate your position, however —",
+              "ko": "상대방의 입장을 인정하면서 반론을 시작하는 더 격식 있는 표현."
+            },
+            {
+              "en": "I see what you're saying, but —",
+              "ko": "무슨 말인지는 알겠지만이라고 시작하는 표현."
+            }
           ]
         },
         {
           "en": "We'll make sure you leave satisfied.",
           "ko": "만족하고 가실 수 있도록 하겠다는 서비스 표현. 매니저나 상급자가 문제를 해결하겠다는 의지를 표현할 때 자주 씀. 이 말을 들으면 구체적으로 어떻게 해결할 건지 물어봐도 됨.",
           "alternatives": [
-            { "en": "We want to make this right for you.", "ko": "고객을 위해 바로잡겠다는 의지를 표현하는 말." },
-            { "en": "We'll do our best to resolve this for you.", "ko": "최선을 다해 해결해드리겠다는 표현." }
+            {
+              "en": "We want to make this right for you.",
+              "ko": "고객을 위해 바로잡겠다는 의지를 표현하는 말."
+            },
+            {
+              "en": "We'll do our best to resolve this for you.",
+              "ko": "최선을 다해 해결해드리겠다는 표현."
+            }
           ]
         }
       ]
@@ -525,6 +865,1473 @@
           "question": "'within 30 days of purchase'는 구매일로부터 30일 이내를 의미한다.",
           "answerIndex": 0,
           "explanation": "참입니다. 'within'은 '이내에', 'of purchase'는 '구매 시점으로부터'를 뜻합니다. 구매일 당일을 1일로 볼지, 그 다음 날부터 셀지는 매장마다 다를 수 있으므로 구매 시 정확한 기준을 확인하는 것이 좋습니다."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch26_set02_001",
+          "type": "multiple_choice",
+          "question": "쇼핑 후 환불을 요청할 때 가장 공손하고 자연스러운 영어 표현은?",
+          "options": [
+            "I'd like to return this for a refund.",
+            "Money back, please.",
+            "Refund me this item.",
+            "I want my money back now."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like to return this for a refund.'는 'return'(반품)과 'refund'(환불)을 함께 써서 의도를 명확히 전달하는 정중한 표현입니다. 나머지는 명령조이거나 문법적으로 어색합니다."
+        },
+        {
+          "id": "se_ch26_set02_002",
+          "type": "multiple_choice",
+          "question": "산 재킷이 너무 커서 더 작은 사이즈로 교환하고 싶을 때 쓰는 표현은?",
+          "options": [
+            "Can I exchange this for a smaller size?",
+            "I want smaller size instead.",
+            "Please change to small.",
+            "Give me a small one."
+          ],
+          "answerIndex": 0,
+          "explanation": "'exchange A for B' 구조를 사용한 'Can I exchange this for a smaller size?'가 교환 요청의 표준 표현입니다. 나머지는 어색하거나 무례하게 들립니다."
+        },
+        {
+          "id": "se_ch26_set02_003",
+          "type": "multiple_choice",
+          "question": "구매한 신발의 밑창이 처음부터 벗겨져 있었습니다. 영어로 가장 정확하게 표현하면?",
+          "options": [
+            "This shoe is defective — the sole is already coming off.",
+            "This shoe is broken a little.",
+            "The shoe has problem.",
+            "My shoe is not correct."
+          ],
+          "answerIndex": 0,
+          "explanation": "'defective'(결함 있는)를 쓰고 구체적인 하자 내용을 덧붙이는 것이 가장 정확한 표현입니다. 'broken a little'은 막연하고, 나머지는 문법 오류가 있습니다."
+        },
+        {
+          "id": "se_ch26_set02_004",
+          "type": "multiple_choice",
+          "question": "환불을 직불카드로 돌려받고 싶을 때 가장 자연스러운 표현은?",
+          "options": [
+            "Can I get it back on my debit card?",
+            "Debit card return please.",
+            "Put the refund to debit.",
+            "I want card money back."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get it back on my card?'는 카드 원복을 요청하는 자연스러운 표현입니다. 카드 종류를 명시하려면 'debit card' 또는 'credit card'를 쓰면 됩니다. 나머지는 어색하거나 비문입니다."
+        },
+        {
+          "id": "se_ch26_set02_005",
+          "type": "multiple_choice",
+          "question": "직원이 'Without a receipt, we can only offer store credit.'이라고 했을 때 가장 적절한 대응은?",
+          "options": [
+            "Can you explain how store credit works?",
+            "I refuse! Give cash!",
+            "No store credit. Cash only.",
+            "Call the police."
+          ],
+          "answerIndex": 0,
+          "explanation": "store credit이 낯설 때는 'Can you explain how store credit works?'처럼 차분하게 설명을 요청하는 것이 가장 적절합니다. 감정적으로 대응하는 것은 상황을 악화시킬 수 있습니다."
+        },
+        {
+          "id": "se_ch26_set02_006",
+          "type": "multiple_choice",
+          "question": "매장의 교환 정책을 미리 확인하고 싶을 때 쓰는 표현은?",
+          "options": [
+            "What's your return and exchange policy?",
+            "Can I exchange anything anytime?",
+            "How is the exchange?",
+            "Tell me exchange rule."
+          ],
+          "answerIndex": 0,
+          "explanation": "'What's your return and exchange policy?'는 반품과 교환 정책을 함께 묻는 명확하고 자연스러운 표현입니다. 나머지는 모두 어색하거나 의미가 불분명합니다."
+        },
+        {
+          "id": "se_ch26_set02_007",
+          "type": "multiple_choice",
+          "question": "직원이 도움이 안 되어 매니저를 더 공손하게 요청하는 표현은?",
+          "options": [
+            "Could I speak with the store manager?",
+            "Manager! Come here!",
+            "I need your boss.",
+            "Go get your manager."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could I speak with the store manager?'는 'Could I ~?'를 써서 가장 공손하게 매니저를 요청하는 표현입니다. 나머지는 명령형이거나 비격식 표현으로 무례하게 들릴 수 있습니다."
+        },
+        {
+          "id": "se_ch26_set02_008",
+          "type": "multiple_choice",
+          "question": "'I believe I'm entitled to a full refund.'를 한국어로 가장 정확하게 옮기면?",
+          "options": [
+            "저는 전액 환불을 받을 권리가 있다고 생각합니다.",
+            "저는 전액 환불을 원합니다.",
+            "저는 환불을 기대하고 있습니다.",
+            "저는 환불을 해달라고 요구합니다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'be entitled to'는 '~을 받을 권리가 있다'는 의미로, 단순한 바람(want)이나 요구(demand)가 아닌 권리를 주장하는 표현입니다. 'I believe'는 단호하지만 부드러운 주장을 나타냅니다."
+        },
+        {
+          "id": "se_ch26_set02_009",
+          "type": "multiple_choice",
+          "question": "교환을 요청하면서 상품이 아직 새것임을 강조하는 표현은?",
+          "options": [
+            "It's unused and still has all its tags.",
+            "I bought this yesterday.",
+            "It looks almost new.",
+            "The item is okay."
+          ],
+          "answerIndex": 0,
+          "explanation": "'unused'(미사용)와 'still has all its tags'(태그가 모두 달려 있음)를 함께 말하면 상품이 교환·환불 조건을 갖추고 있음을 가장 효과적으로 전달할 수 있습니다."
+        },
+        {
+          "id": "se_ch26_set02_010",
+          "type": "multiple_choice",
+          "question": "카드 환불이 며칠 안에 반영되는지 확인할 때 쓰는 표현은?",
+          "options": [
+            "How many business days will it take to appear on my card?",
+            "When will money come to card?",
+            "How fast is the refund?",
+            "Will the refund be today?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How many business days will it take to appear on my card?'는 영업일 기준으로 카드에 반영되는 기간을 묻는 표준 표현입니다. 'appear on my card'는 카드 내역에 나타나다라는 의미입니다."
+        },
+        {
+          "id": "se_ch26_set02_011",
+          "type": "ox",
+          "question": "'receipt'의 p는 묵음이므로 '리씨트'에 가깝게 발음해야 한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'receipt'의 철자에는 p가 있지만 발음되지 않습니다. '리씨트' 또는 '리시트'에 가깝게 발음하며, '리셉트'처럼 p 소리를 내면 원어민이 알아듣기 어려울 수 있습니다."
+        },
+        {
+          "id": "se_ch26_set02_012",
+          "type": "ox",
+          "question": "'store credit'은 현금으로 환전해서 사용할 수 있다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. store credit은 해당 매장 내에서만 사용 가능한 포인트나 바우처 형태로, 현금으로 환전할 수 없습니다. 현금 환불을 원한다면 매니저에게 요청하거나 다른 방법을 협의해야 합니다."
+        },
+        {
+          "id": "se_ch26_set02_013",
+          "type": "ox",
+          "question": "'full refund'는 전액 환불을 의미하고, 'partial refund'는 일부 환불을 의미한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'full'은 '전체', 'partial'은 '일부'를 뜻하므로, 하자 상품이나 정당한 환불 사유가 있을 때는 'I'd like a full refund.'라고 명시하는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch26_set02_014",
+          "type": "ox",
+          "question": "'I understand your policy, but —' 구조는 상대방 입장을 무시하고 자신의 주장만 내세우는 무례한 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'I understand ~ but ~' 구조는 상대방의 입장을 인정하면서 동시에 자신의 반론을 제기하는 효과적이고 정중한 방법입니다. 무조건적인 반박보다 협조적인 인상을 주어 협상에 유리합니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch26_set03_001",
+          "type": "multiple_choice",
+          "question": "영수증을 보여주며 환불 요청을 시작할 때 쓰는 자연스러운 표현은?",
+          "options": [
+            "Hi, I'd like a refund. Here's my receipt.",
+            "Refund! Here receipt.",
+            "I bring receipt for money back.",
+            "Receipt here. Refund please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like a refund.'로 의사를 밝히고 'Here's my receipt.'로 영수증을 건네는 순서가 자연스럽습니다. 나머지는 모두 어색하거나 비문입니다."
+        },
+        {
+          "id": "se_ch26_set03_002",
+          "type": "multiple_choice",
+          "question": "구매한 바지가 너무 길어 더 짧은 것으로 교환하고 싶습니다. 올바른 표현은?",
+          "options": [
+            "I'd like to swap this for a shorter length.",
+            "Change trousers to shorter.",
+            "I want short pants.",
+            "These pants are too long, exchange!"
+          ],
+          "answerIndex": 0,
+          "explanation": "'swap A for B'는 'exchange A for B'의 캐주얼한 버전으로 자연스러운 교환 요청입니다. 'shorter length'는 더 짧은 기장을 의미합니다. 나머지는 문법 오류 또는 명령조입니다."
+        },
+        {
+          "id": "se_ch26_set03_003",
+          "type": "multiple_choice",
+          "question": "하자 상품을 설명할 때 손상이 명백하다는 점을 강조하는 표현은?",
+          "options": [
+            "As you can see, it's clearly damaged.",
+            "This is a little bit damaged maybe.",
+            "I think there is damage.",
+            "The damage is somewhere here."
+          ],
+          "answerIndex": 0,
+          "explanation": "'As you can see'(보시다시피)로 시작해 'clearly damaged'(명백히 손상됨)를 강조하면 하자 주장이 더 설득력 있게 전달됩니다. 나머지는 확신 없는 표현이거나 모호합니다."
+        },
+        {
+          "id": "se_ch26_set03_004",
+          "type": "multiple_choice",
+          "question": "환불 처리 후 증빙을 받고 싶을 때 쓰는 표현은?",
+          "options": [
+            "Can I get a receipt for the refund?",
+            "Write down the refund.",
+            "Give me paper for refund.",
+            "I need refund paper now."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get a receipt for the refund?'는 환불 영수증을 요청하는 명확하고 자연스러운 표현입니다. 나머지는 어색하거나 의미가 불분명한 표현입니다."
+        },
+        {
+          "id": "se_ch26_set03_005",
+          "type": "multiple_choice",
+          "question": "매장에서 구매 가능 기간을 설명할 때 직원이 쓸 법한 표현은?",
+          "options": [
+            "You can exchange items within 30 days of purchase.",
+            "You can exchange until 30 days.",
+            "30 days is the exchange.",
+            "Exchange is for 30 day."
+          ],
+          "answerIndex": 0,
+          "explanation": "'within 30 days of purchase'는 '구매일로부터 30일 이내'를 의미하는 표준 표현입니다. 'within'과 'of purchase'를 함께 써야 기준일이 명확해집니다. 나머지는 문법 오류입니다."
+        },
+        {
+          "id": "se_ch26_set03_006",
+          "type": "multiple_choice",
+          "question": "아직 교환 기간 내에 있다고 확인할 때 쓰는 표현은?",
+          "options": [
+            "I'm still within the return window.",
+            "I am in the exchange time.",
+            "My time is still okay.",
+            "I still have exchange chance."
+          ],
+          "answerIndex": 0,
+          "explanation": "'return window'는 반품·교환 가능 기간을 뜻하는 비즈니스 용어로, 'within the return window'는 그 기간 내에 있다는 표현입니다. 나머지는 어색하거나 비문입니다."
+        },
+        {
+          "id": "se_ch26_set03_007",
+          "type": "multiple_choice",
+          "question": "직원 선에서 해결이 안 될 때 책임자와 이야기하고 싶다는 표현은?",
+          "options": [
+            "I'd like to speak to someone in charge.",
+            "Bring me your boss!",
+            "I want the highest person.",
+            "Where is top manager?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like to speak to someone in charge.'는 매니저뿐 아니라 책임자 전반에게 적용할 수 있는 정중한 표현입니다. 'in charge'는 '담당하는, 책임 있는'이라는 뜻입니다. 나머지는 무례하거나 어색합니다."
+        },
+        {
+          "id": "se_ch26_set03_008",
+          "type": "multiple_choice",
+          "question": "매니저에게 합리적인 해결을 요청할 때 쓰는 표현은?",
+          "options": [
+            "I just want a reasonable solution.",
+            "Fix this problem now!",
+            "I demand you solve this.",
+            "This must be solved today."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I just want a reasonable solution.'은 감정적인 충돌 없이 합리적인 해결을 원한다는 입장을 전달하는 표현입니다. 매니저와의 협상에서 협조적인 인상을 주어 더 좋은 결과를 얻을 수 있습니다."
+        },
+        {
+          "id": "se_ch26_set03_009",
+          "type": "multiple_choice",
+          "question": "교환 시 상품 태그가 달려 있음을 다르게 표현하면?",
+          "options": [
+            "The price tag is still attached.",
+            "The tag is broken.",
+            "No tag on this item.",
+            "I removed the tag already."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The price tag is still attached.'는 가격 태그가 아직 부착되어 있다는 구체적인 표현입니다. 'The tags are still on.'과 같은 의미로 교환·환불 조건을 충족함을 강조합니다."
+        },
+        {
+          "id": "se_ch26_set03_010",
+          "type": "multiple_choice",
+          "question": "직원이 창고에서 원하는 상품을 찾아보겠다고 할 때 쓰는 표현은?",
+          "options": [
+            "Let me look in the back for you.",
+            "I will go to find.",
+            "Wait, I check the storage.",
+            "I go warehouse now."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me look in the back for you.'는 창고(매장 뒤 재고 공간)에서 찾아보겠다는 자연스러운 표현입니다. 'in the back'은 '(매장) 뒤쪽에, 창고에'를 의미합니다."
+        },
+        {
+          "id": "se_ch26_set03_011",
+          "type": "ox",
+          "question": "'I haven't worn it.'에서 'worn'은 'wear'의 과거분사이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'wear-wore-worn'으로 불규칙 변화하며, 현재완료 부정 'I haven't worn it.'은 구매 이후 지금까지 착용하지 않았다는 상태를 나타냅니다. 교환·환불 시 미착용을 강조하는 표현입니다."
+        },
+        {
+          "id": "se_ch26_set03_012",
+          "type": "ox",
+          "question": "매장에 화가 많이 났을 때는 목소리를 높이고 명령형으로 말하는 것이 환불을 빨리 받는 방법이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 화를 내거나 명령조로 말하면 직원이 방어적으로 반응하고 협상이 어려워집니다. 'I'm not satisfied with this solution.'처럼 정중하지만 단호하게 말하고 매니저를 요청하는 것이 더 효과적입니다."
+        },
+        {
+          "id": "se_ch26_set03_013",
+          "type": "ox",
+          "question": "'business days'와 'calendar days'는 같은 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'business days'는 주말과 공휴일을 제외한 영업일이고, 'calendar days'는 주말 포함 모든 달력 날짜입니다. 3~5 business days는 실제로는 약 1주일이 될 수 있으므로 구분이 중요합니다."
+        },
+        {
+          "id": "se_ch26_set03_014",
+          "type": "ox",
+          "question": "'Can I get this in a bigger size?'는 더 큰 사이즈로의 교환을 요청하는 자연스러운 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Can I get this in [사이즈/색상]?'는 매장에서 특정 사이즈나 색상이 있는지 물으며 교환 의사를 전달하는 자연스러운 패턴입니다. 'a bigger size' 대신 'a medium', 'navy' 등으로 바꿔 활용할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch26_set04_001",
+          "type": "multiple_choice",
+          "question": "구매 이틀 후 환불을 요청하며 시작할 때 가장 적절한 표현은?",
+          "options": [
+            "I purchased this two days ago and I'd like a refund.",
+            "Two days ago, refund this.",
+            "I buy this two days, want refund.",
+            "Refund, I bought two days."
+          ],
+          "answerIndex": 0,
+          "explanation": "구매 시점을 먼저 밝히고 환불 의사를 'I'd like a refund'로 정중하게 전달하는 것이 가장 자연스럽습니다. 나머지는 어순 오류 또는 비문입니다."
+        },
+        {
+          "id": "se_ch26_set04_002",
+          "type": "multiple_choice",
+          "question": "구매한 니트의 색상이 마음에 들지 않아 다른 색으로 바꾸고 싶을 때 쓰는 표현은?",
+          "options": [
+            "Can I get this in a different color?",
+            "I don't like this color, change it.",
+            "Different color, exchange please.",
+            "Give this in other color."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get this in a different color?'는 색상 교환 의사를 자연스럽게 전달하는 표현입니다. 'Can I get this in ~?'는 사이즈나 색상을 바꿔 활용할 수 있는 유용한 패턴입니다."
+        },
+        {
+          "id": "se_ch26_set04_003",
+          "type": "multiple_choice",
+          "question": "'There's a defect in this product.'에서 'defect'의 품사와 의미는?",
+          "options": [
+            "명사, 결함·하자",
+            "동사, 결함을 발견하다",
+            "형용사, 결함 있는",
+            "부사, 명백히"
+          ],
+          "answerIndex": 0,
+          "explanation": "이 문장에서 'defect'는 명사로 '결함, 하자'를 의미합니다. 형용사형은 'defective'이고, 동사로 'defect'는 '망명하다'라는 전혀 다른 뜻이 됩니다. 클레임 시에는 명사 또는 형용사 형태 모두 사용 가능합니다."
+        },
+        {
+          "id": "se_ch26_set04_004",
+          "type": "multiple_choice",
+          "question": "카드 환불 반영 시점을 확인하는 이메일을 요청할 때 쓰는 표현은?",
+          "options": [
+            "Will I receive a confirmation email?",
+            "Email me the refund.",
+            "Send email about money back.",
+            "I want email for this."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Will I receive a confirmation email?'은 환불 확인 이메일을 받을 수 있는지 정중하게 묻는 표현입니다. 이메일을 받아두면 환불이 반영되지 않을 때 증거로 활용할 수 있습니다."
+        },
+        {
+          "id": "se_ch26_set04_005",
+          "type": "multiple_choice",
+          "question": "영수증 없이 반품하러 갔을 때 가장 적절하게 상황을 설명하는 표현은?",
+          "options": [
+            "I seem to have lost my receipt.",
+            "I have no receipt.",
+            "Receipt is gone.",
+            "I lost receipt somewhere."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I seem to have lost my receipt.'는 영수증을 분실한 상황을 부드럽게 설명하는 표현입니다. 'seem to have'를 쓰면 단정적이지 않고 더 공손한 인상을 줍니다."
+        },
+        {
+          "id": "se_ch26_set04_006",
+          "type": "multiple_choice",
+          "question": "교환 정책의 기간 제한을 물어보는 또 다른 자연스러운 표현은?",
+          "options": [
+            "Is there a time limit for exchanges?",
+            "What time can I exchange?",
+            "When is exchange allowed?",
+            "Exchange has deadline?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a time limit for exchanges?'는 교환에 기간 제한이 있는지 직접 묻는 자연스러운 표현입니다. 'time limit'은 '시간 제한, 기한'을 의미합니다. 나머지는 어색하거나 비문입니다."
+        },
+        {
+          "id": "se_ch26_set04_007",
+          "type": "multiple_choice",
+          "question": "직원이 재고를 확인해보겠다고 할 때 자주 쓰는 표현은?",
+          "options": [
+            "Let me check if we have it in stock.",
+            "I will check the stock.",
+            "I look for your size.",
+            "I find it for you."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me check if we have it in stock.'은 재고가 있는지 확인해보겠다는 자연스러운 직원 표현입니다. 'in stock'은 '재고가 있는' 상태를 의미합니다. 'Let me ~' 구조는 자연스러운 제안 표현입니다."
+        },
+        {
+          "id": "se_ch26_set04_008",
+          "type": "multiple_choice",
+          "question": "매니저가 만족하고 가실 수 있도록 하겠다고 말할 때 쓰는 표현은?",
+          "options": [
+            "We'll make sure you leave satisfied.",
+            "You will be satisfied.",
+            "We guarantee you happy.",
+            "You will leave happy we promise."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We'll make sure you leave satisfied.'는 고객이 만족한 채로 매장을 떠날 수 있도록 하겠다는 의지를 표현하는 서비스 표현입니다. 'make sure ~' 구조는 '반드시 ~하다'를 의미합니다."
+        },
+        {
+          "id": "se_ch26_set04_009",
+          "type": "multiple_choice",
+          "question": "'I understand your policy, but this item was defective when I bought it.'에서 이 패턴이 효과적인 이유는?",
+          "options": [
+            "상대방 입장을 인정하면서 동시에 자신의 주장을 관철하기 때문",
+            "정책을 완전히 무시하기 때문",
+            "상대방을 비난하기 때문",
+            "감정적으로 강하게 호소하기 때문"
+          ],
+          "answerIndex": 0,
+          "explanation": "'I understand ~ but ~' 패턴은 상대방의 입장(정책)을 인정하면서 자신의 반론(하자 있는 상품)을 제기하는 구조입니다. 무조건적인 반박보다 협조적인 인상을 주어 협상에서 더 효과적입니다."
+        },
+        {
+          "id": "se_ch26_set04_010",
+          "type": "multiple_choice",
+          "question": "직원이 내 상황을 검토하겠다고 할 때 자연스러운 표현은?",
+          "options": [
+            "Let me review your case.",
+            "I will read your case.",
+            "Let me see your problem file.",
+            "I check your situation document."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me review your case.'는 고객의 사례를 검토해보겠다는 자연스러운 표현입니다. 'review'는 '검토하다', 'case'는 '사례, 건'을 의미합니다. 매니저나 담당자가 자주 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch26_set04_011",
+          "type": "ox",
+          "question": "'I'd like to return this for a refund.'와 'I'd like a refund.'는 같은 의미이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 둘 다 상품을 반품하고 환불을 받고 싶다는 의미입니다. 첫 번째는 'return'(반품)을 명시해 의도를 더 명확하게 전달하고, 두 번째는 더 간결한 표현입니다."
+        },
+        {
+          "id": "se_ch26_set04_012",
+          "type": "ox",
+          "question": "교환 요청 시 태그가 달려 있고 미착용 상태임을 먼저 알려주면 교환 거부 가능성이 줄어든다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 많은 매장이 교환·환불 조건으로 태그 부착과 미착용 상태를 요구합니다. 'The tags are still on.'과 'I haven't worn it.'을 미리 언급하면 직원의 거부를 예방하는 효과가 있습니다."
+        },
+        {
+          "id": "se_ch26_set04_013",
+          "type": "ox",
+          "question": "'Let me grab one for you.'에서 'grab'은 '가져오다'라는 뜻의 격식 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'grab'은 '가져오다'라는 뜻이지만 캐주얼(비격식) 표현입니다. 격식체로는 'Let me get one for you.' 또는 'I'll fetch one for you.'를 사용합니다. 매장 직원들이 친근하게 자주 씁니다."
+        },
+        {
+          "id": "se_ch26_set04_014",
+          "type": "ox",
+          "question": "'proof of purchase'는 영수증만을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'proof of purchase'는 구매를 증명하는 자료 전체를 포함하며, 영수증뿐 아니라 신용카드 명세서, 주문 확인 이메일, 배송 확인서 등도 포함됩니다. 영수증을 잃어버렸을 때 대안으로 활용할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch26_set05_001",
+          "type": "multiple_choice",
+          "question": "다음 중 환불 요청 표현으로 가장 어색한 것은?",
+          "options": [
+            "Refund me immediately!",
+            "I'd like a refund, please.",
+            "Can I get a refund on this?",
+            "I'd like to return this for a refund."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Refund me immediately!'는 명령형으로 매우 무례하게 들리는 표현입니다. 'I'd like a refund', 'Can I get a refund', 'I'd like to return this for a refund'은 모두 자연스럽고 정중한 환불 요청 표현입니다."
+        },
+        {
+          "id": "se_ch26_set05_002",
+          "type": "multiple_choice",
+          "question": "같은 상품의 다른 색상이 있는지 확인하는 표현은?",
+          "options": [
+            "Do you have this in other colors?",
+            "What color is other?",
+            "Other color this?",
+            "Colors for this item?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you have this in other colors?'는 현재 고른 상품의 다른 색상 옵션이 있는지 묻는 자연스러운 표현입니다. 'Do you have this in ~?'는 색상, 사이즈 모두에 활용되는 유용한 패턴입니다."
+        },
+        {
+          "id": "se_ch26_set05_003",
+          "type": "multiple_choice",
+          "question": "'This is obviously faulty.'에서 'faulty'의 의미는?",
+          "options": [
+            "결함이 있는, 불량인",
+            "비싼",
+            "오래된",
+            "작동하는"
+          ],
+          "answerIndex": 0,
+          "explanation": "'faulty'는 '결함이 있는, 불량인'이라는 뜻으로 'defective'와 유사한 의미입니다. 'obviously'(명백히)와 함께 쓰면 하자를 강하게 주장하는 효과가 있습니다."
+        },
+        {
+          "id": "se_ch26_set05_004",
+          "type": "multiple_choice",
+          "question": "카드 환불이 일주일 내로 반영될 것이라고 알려줄 때 쓰는 표현은?",
+          "options": [
+            "It should show up within a week.",
+            "It will come in 7 day.",
+            "Within week you see money.",
+            "One week money come to card."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It should show up within a week.'는 일주일 이내로 카드 내역에 나타날 것이라는 표현입니다. 'show up'은 '나타나다'라는 구어체 표현입니다. 나머지는 문법 오류가 있습니다."
+        },
+        {
+          "id": "se_ch26_set05_005",
+          "type": "multiple_choice",
+          "question": "매장 크레딧이 기프트카드와 같은 것인지 확인하는 표현은?",
+          "options": [
+            "Is store credit the same as a gift card?",
+            "Store credit equal gift card?",
+            "Gift card and store credit same?",
+            "Are gift cards store credit?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is store credit the same as a gift card?'는 두 개념을 비교해 이해를 확인하는 자연스러운 표현입니다. 낯선 용어를 이미 아는 개념과 비교하는 방법은 대화에서 매우 유용한 전략입니다."
+        },
+        {
+          "id": "se_ch26_set05_006",
+          "type": "multiple_choice",
+          "question": "구매일로부터 최대 30일까지 교환이 가능하다고 설명할 때 쓰는 표현은?",
+          "options": [
+            "Up to 30 days from the date of purchase.",
+            "Until 30 days after buy.",
+            "30 days maximum from purchase date.",
+            "Maximum 30 days of buy date."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Up to 30 days from the date of purchase.'는 구매일로부터 최대 30일이라는 표준 표현입니다. 'up to'는 '최대 ~까지', 'from the date of purchase'는 '구매일로부터'를 의미합니다."
+        },
+        {
+          "id": "se_ch26_set05_007",
+          "type": "multiple_choice",
+          "question": "현재 해결책이 공정하지 않다고 정중하게 표현하면?",
+          "options": [
+            "I don't think this is a fair resolution.",
+            "This is unfair! I am angry!",
+            "You are wrong!",
+            "This solution is bad."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I don't think this is a fair resolution.'은 공정하지 않다고 명확히 지적하되 감정적이지 않게 표현하는 방법입니다. 매니저에게 추가 협상을 요청하는 발판이 될 수 있습니다."
+        },
+        {
+          "id": "se_ch26_set05_008",
+          "type": "multiple_choice",
+          "question": "하자 상품에 대해 전액 환불을 받을 권리가 있다고 직접적으로 말하는 표현은?",
+          "options": [
+            "I have the right to a full refund.",
+            "I want a full refund.",
+            "Please give full refund.",
+            "Full refund is what I need."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I have the right to a full refund.'는 소비자 권리를 직접적으로 주장하는 강한 표현입니다. 'have the right to'는 '~에 대한 권리가 있다'는 뜻으로 'be entitled to'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch26_set05_009",
+          "type": "multiple_choice",
+          "question": "네이비 색상의 제품이 있는지 확인하는 표현은?",
+          "options": [
+            "Is this available in navy?",
+            "Navy is available?",
+            "Have navy color?",
+            "Do you sell navy?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is this available in navy?'는 해당 제품이 네이비 색상으로 나오는지 묻는 자연스러운 표현입니다. 'available in [색상/사이즈]' 패턴은 'Do you have this in ~?'와 함께 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch26_set05_010",
+          "type": "multiple_choice",
+          "question": "'I'll process your refund right away.'에서 'process'의 의미는?",
+          "options": [
+            "처리하다",
+            "확인하다",
+            "취소하다",
+            "계산하다"
+          ],
+          "answerIndex": 0,
+          "explanation": "'process'는 '처리하다'라는 뜻으로, 'process your refund'는 '환불을 처리해드리다'를 의미합니다. 'right away'는 '즉시'를 뜻하므로 이 말을 들으면 잠시 기다리면 됩니다."
+        },
+        {
+          "id": "se_ch26_set05_011",
+          "type": "ox",
+          "question": "'Can I exchange this for a larger size?'에서 'exchange A for B'는 'A를 B로 교환하다'라는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'exchange A for B'는 'A를 B로 교환하다'라는 구조입니다. 예: 'exchange this shirt for a larger size'는 '이 셔츠를 더 큰 사이즈로 교환하다'를 의미합니다."
+        },
+        {
+          "id": "se_ch26_set05_012",
+          "type": "ox",
+          "question": "영수증 없이도 어떤 매장에서든 현금 환불을 받을 수 있다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 영수증이 없으면 많은 매장에서 현금 환불 대신 store credit만 제공하거나 환불 자체를 거절할 수 있습니다. 매장마다 정책이 다르므로 영수증은 반드시 보관하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch26_set05_013",
+          "type": "ox",
+          "question": "'It's in its original condition.'은 상품이 원래 상태 그대로임을 나타내며 교환·환불 조건 충족을 암시한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'original condition'은 '원래의 상태'를 의미하며, 미착용·미사용 상태임을 표현합니다. 교환·환불 조건으로 원래 상태를 요구하는 매장에서 효과적인 표현입니다."
+        },
+        {
+          "id": "se_ch26_set05_014",
+          "type": "ox",
+          "question": "'I'm afraid this doesn't work for me.'는 현재 제안을 부드럽게 거절하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'I'm afraid'는 거절이나 부정적인 말을 시작할 때 쓰는 완충 표현으로, 'this doesn't work for me'(이 방법은 저에게 맞지 않습니다)와 함께 정중하게 제안을 거절할 때 씁니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch26_set06_001",
+          "type": "multiple_choice",
+          "question": "영수증을 제시하면서 환불을 요청하는 표현으로 가장 올바른 것은?",
+          "options": [
+            "I have proof of purchase — here's my receipt.",
+            "I got receipt, want money.",
+            "Receipt here, refund now.",
+            "This is receipt, give money back."
+          ],
+          "answerIndex": 0,
+          "explanation": "'proof of purchase'는 구매 증빙을 뜻하며 영수증을 건네며 설명하는 자연스러운 표현입니다. 나머지는 어순이 이상하거나 명령조입니다."
+        },
+        {
+          "id": "se_ch26_set06_002",
+          "type": "multiple_choice",
+          "question": "산 티셔츠를 한 사이즈 위로 교환하고 싶을 때 캐주얼하게 표현하면?",
+          "options": [
+            "I'd like to swap this for the next size up.",
+            "Give me bigger size t-shirt.",
+            "Change this t-shirt size up.",
+            "Bigger size please, t-shirt."
+          ],
+          "answerIndex": 0,
+          "explanation": "'swap A for B'는 'exchange A for B'의 캐주얼한 표현이고, 'next size up'은 '한 단계 큰 사이즈'를 의미합니다. 자연스러운 구어체 교환 요청입니다."
+        },
+        {
+          "id": "se_ch26_set06_003",
+          "type": "multiple_choice",
+          "question": "구매한 상품의 하자를 표현하는 방법 중 가장 약한(덜 공식적인) 표현은?",
+          "options": [
+            "It doesn't work properly.",
+            "It's defective.",
+            "There's a defect in this product.",
+            "This is obviously faulty."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It doesn't work properly.'는 제대로 작동하지 않는다는 일상적인 표현으로 가장 덜 공식적입니다. 'defective', 'defect', 'faulty'는 공식적인 하자 클레임에 더 적합한 표현들입니다."
+        },
+        {
+          "id": "se_ch26_set06_004",
+          "type": "multiple_choice",
+          "question": "카드 환불 시 영업일 기준 5일까지 허용해달라고 안내할 때 쓰는 표현은?",
+          "options": [
+            "Allow up to five working days.",
+            "Wait five days for card.",
+            "Five working days maximum.",
+            "Your card gets money after five days."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Allow up to five working days.'는 영업일 기준 최대 5일을 허용해달라는 표현입니다. 'allow'는 '허용하다', 'working days'는 'business days'와 같이 영업일을 의미합니다."
+        },
+        {
+          "id": "se_ch26_set06_005",
+          "type": "multiple_choice",
+          "question": "영수증 없이 반품했더니 store credit을 제안받았습니다. 어떻게 활용하는지 묻는 표현은?",
+          "options": [
+            "Can you explain how store credit works?",
+            "How to use store credit?",
+            "Store credit explanation please.",
+            "What do I do with store credit?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you explain how store credit works?'는 매장 크레딧의 작동 방식을 정중하게 설명해달라는 표현입니다. 'how ~ works'는 '~이 어떻게 작동하는지'를 묻는 유용한 패턴입니다."
+        },
+        {
+          "id": "se_ch26_set06_006",
+          "type": "multiple_choice",
+          "question": "30일 교환 기간 내에 있다고 말할 때 또 다른 자연스러운 표현은?",
+          "options": [
+            "I'm within the 30-day limit.",
+            "I am before 30 days.",
+            "30 days not over yet.",
+            "I still have 30 days left maybe."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm within the 30-day limit.'는 30일 기간 제한 내에 있다고 구체적으로 말하는 표현입니다. '30-day limit'처럼 숫자-단어-명사 형태로 기간을 명시하는 것이 명확합니다."
+        },
+        {
+          "id": "se_ch26_set06_007",
+          "type": "multiple_choice",
+          "question": "직원에게 매니저를 연결해달라는 정중한 표현은?",
+          "options": [
+            "Could you get the manager for me?",
+            "Manager! Come!",
+            "I want manager here now.",
+            "You get manager, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you get the manager for me?'는 매니저를 불러달라고 공손하게 요청하는 표현입니다. 'Could you ~?'는 'Can you ~?'보다 더 격식 있고 공손한 요청 방식입니다."
+        },
+        {
+          "id": "se_ch26_set06_008",
+          "type": "multiple_choice",
+          "question": "매니저에게 자신의 상황을 설명하고 싶다고 할 때 쓰는 표현은?",
+          "options": [
+            "I'd like to explain my situation.",
+            "Let me tell the problem.",
+            "I want to say my problem.",
+            "Listen to my situation."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like to explain my situation.'은 자신의 상황을 설명하고 싶다는 정중한 표현입니다. 매니저에게 처음 말을 꺼낼 때 사용하면 차분하고 협조적인 인상을 줍니다."
+        },
+        {
+          "id": "se_ch26_set06_009",
+          "type": "multiple_choice",
+          "question": "매장 정책을 근거로 전액 환불을 요구하는 표현은?",
+          "options": [
+            "Under your policy, I should receive a full refund.",
+            "Your policy says full refund.",
+            "Policy gives me full refund.",
+            "I refund based on policy."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Under your policy, I should receive a full refund.'는 매장의 정책 자체를 근거로 환불을 주장하는 강력한 표현입니다. 'under ~'는 '~의 규정 아래, ~에 따르면'을 의미합니다."
+        },
+        {
+          "id": "se_ch26_set06_010",
+          "type": "multiple_choice",
+          "question": "다음 중 직원이 고객 문제를 해결해주겠다고 말할 때 가장 자연스러운 표현은?",
+          "options": [
+            "I'll take care of that for you.",
+            "I will do it.",
+            "Problem solved.",
+            "That will be fixed."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll take care of that for you.'는 처리해드리겠다는 친절하고 자연스러운 표현입니다. 'take care of'는 '처리하다, 다루다'라는 의미로 매장 직원이 자주 사용합니다."
+        },
+        {
+          "id": "se_ch26_set06_011",
+          "type": "ox",
+          "question": "'I'd like to swap this for the next size up.'에서 'next size up'은 현재 사이즈보다 한 단계 큰 사이즈를 의미한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'next size up'은 '다음 사이즈 위', 즉 현재보다 한 단계 큰 사이즈를 의미합니다. 반대로 'next size down'은 한 단계 작은 사이즈입니다."
+        },
+        {
+          "id": "se_ch26_set06_012",
+          "type": "ox",
+          "question": "'return'과 'exchange'는 같은 절차로 처리된다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'return'(반품)은 상품을 돌려주고 돈을 돌려받는 것이고, 'exchange'(교환)는 상품을 돌려주고 다른 상품을 받는 것입니다. 원하는 것을 정확히 말해야 올바른 처리를 받을 수 있습니다."
+        },
+        {
+          "id": "se_ch26_set06_013",
+          "type": "ox",
+          "question": "'Can I speak to the manager, please?'는 협상이 잘 안 될 때 사용할 수 있는 정중한 요청이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 직원 선에서 해결이 어려울 때 'Can I speak to the manager, please?'처럼 매니저를 요청하는 것은 소비자의 정당한 권리입니다. 'please'를 꼭 붙여 공손함을 유지하는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch26_set06_014",
+          "type": "ox",
+          "question": "'What is store credit exactly?'에서 'exactly'는 강조의 역할을 하며 더 자세한 설명을 요청하는 효과가 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'exactly'는 '정확히'라는 뜻으로 단순히 묻는 것보다 더 명확한 설명을 요구하는 뉘앙스를 더합니다. 낯선 용어를 이해하고 싶을 때 이 패턴을 활용하면 효과적입니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch26_set07_001",
+          "type": "multiple_choice",
+          "question": "구매 사흘 후 상품을 반품하며 환불을 요청할 때 쓰는 표현은?",
+          "options": [
+            "I bought this three days ago and I'd like to return it for a refund.",
+            "Three days ago I buy this, refund.",
+            "I want refund, bought three days.",
+            "This three days old, refund please."
+          ],
+          "answerIndex": 0,
+          "explanation": "구매 시점을 먼저 밝히고 'return'과 'refund'를 명시하는 것이 가장 명확하고 자연스러운 표현입니다. 나머지는 어순 오류나 시제 오류가 있습니다."
+        },
+        {
+          "id": "se_ch26_set07_002",
+          "type": "multiple_choice",
+          "question": "다음 중 교환을 요청하는 자연스러운 표현이 아닌 것은?",
+          "options": [
+            "I need to exchange this now!",
+            "Can I exchange this for a larger size?",
+            "I'd like to swap this for the next size up.",
+            "Could I get this in a different size?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need to exchange this now!'는 명령조로 무례하게 들리는 표현입니다. 나머지 세 가지는 모두 정중하고 자연스러운 교환 요청 표현입니다."
+        },
+        {
+          "id": "se_ch26_set07_003",
+          "type": "multiple_choice",
+          "question": "구매한 전자제품이 처음부터 켜지지 않을 때 가장 적절한 하자 표현은?",
+          "options": [
+            "It's defective — it doesn't turn on at all.",
+            "This electronic is bad.",
+            "Not working electronic.",
+            "This product is no good."
+          ],
+          "answerIndex": 0,
+          "explanation": "'defective'(결함 있는)를 사용하고 구체적인 증상('doesn't turn on at all')을 추가하면 하자를 명확하게 설명할 수 있습니다. 나머지는 모두 어색하거나 막연한 표현입니다."
+        },
+        {
+          "id": "se_ch26_set07_004",
+          "type": "multiple_choice",
+          "question": "환불 증빙 자료를 요청할 때 쓰는 표현은?",
+          "options": [
+            "Can you send me proof of the refund?",
+            "I want refund paper sent.",
+            "Email me proof refund.",
+            "Send document for refund."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you send me proof of the refund?'는 환불이 처리됐다는 증빙 자료를 보내달라는 자연스러운 요청입니다. 'proof of ~'는 '~의 증거, 증빙'을 의미합니다."
+        },
+        {
+          "id": "se_ch26_set07_005",
+          "type": "multiple_choice",
+          "question": "영수증 대신 신용카드 명세서를 대안 증빙으로 제시할 때 쓰는 표현은?",
+          "options": [
+            "I have my card statement instead.",
+            "I show credit card.",
+            "My card is proof.",
+            "Card statement as receipt?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'I have my card statement instead.'는 영수증 대신 카드 명세서가 있다고 제안하는 표현입니다. 'card statement'는 카드 사용 내역서를 의미하며 구매 증빙으로 활용할 수 있습니다."
+        },
+        {
+          "id": "se_ch26_set07_006",
+          "type": "multiple_choice",
+          "question": "구매 후 10일이 지났는데 아직 교환 기간 내에 있다고 확인하는 표현은?",
+          "options": [
+            "I bought this 10 days ago, so I'm still within the period.",
+            "10 days, I can still exchange.",
+            "I am 10 days inside the limit.",
+            "Still within, 10 days bought."
+          ],
+          "answerIndex": 0,
+          "explanation": "구매 시점과 현재 상태를 자연스럽게 연결하는 'I bought this 10 days ago, so I'm still within the period.'가 가장 명확하고 자연스러운 표현입니다. 나머지는 어색하거나 비문입니다."
+        },
+        {
+          "id": "se_ch26_set07_007",
+          "type": "multiple_choice",
+          "question": "직원에게 정중하게 매니저를 요청할 때 쓸 수 있는 표현은?",
+          "options": [
+            "Could I speak with someone in charge, please?",
+            "Manager is necessary.",
+            "Get the person in charge!",
+            "I demand to see the manager."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could I speak with someone in charge, please?'는 책임자와 대화를 요청하는 가장 공손한 표현입니다. 'Could I ~?'와 'please'를 함께 쓰면 더욱 정중한 인상을 줍니다."
+        },
+        {
+          "id": "se_ch26_set07_008",
+          "type": "multiple_choice",
+          "question": "'We want to make this right for you.'에서 'make this right'의 의미는?",
+          "options": [
+            "이 상황을 바로잡다, 제대로 처리해주다",
+            "올바른 상품을 가져오다",
+            "환불을 즉시 처리하다",
+            "새 상품으로 교환하다"
+          ],
+          "answerIndex": 0,
+          "explanation": "'make this right'은 '이 상황을 바로잡다, 잘못된 것을 고치다'라는 표현입니다. 직원이나 매니저가 고객의 문제를 해결하겠다는 의지를 표현할 때 쓰는 말입니다."
+        },
+        {
+          "id": "se_ch26_set07_009",
+          "type": "multiple_choice",
+          "question": "구매 당시 이미 하자가 있었다고 강조하는 표현은?",
+          "options": [
+            "This item was defective when I bought it.",
+            "The item became defective.",
+            "This was broken by accident.",
+            "I damaged this item."
+          ],
+          "answerIndex": 0,
+          "explanation": "'This item was defective when I bought it.'는 구매 시점부터 이미 하자가 있었다는 점을 강조합니다. 'when I bought it'을 추가하면 고객 과실이 아님을 명확히 할 수 있습니다."
+        },
+        {
+          "id": "se_ch26_set07_010",
+          "type": "multiple_choice",
+          "question": "단골 고객임을 어필하며 공정한 처리를 부탁할 때 쓰는 표현은?",
+          "options": [
+            "I've been a loyal customer and I trust you'll handle this fairly.",
+            "I always shop here, so refund me.",
+            "I am regular customer, give refund.",
+            "Loyal customer needs refund."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I've been a loyal customer'는 단골 고객임을 정중하게 표현하고, 'I trust you'll handle this fairly'는 공정한 처리에 대한 기대를 표현합니다. 감정적 소구 없이 신뢰를 표현하는 효과적인 방법입니다."
+        },
+        {
+          "id": "se_ch26_set07_011",
+          "type": "ox",
+          "question": "'Let me check if we have it in stock.'에서 'in stock'은 '품절된' 상태를 의미한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'in stock'은 '재고가 있는' 상태를 의미합니다. 반대로 '품절된' 상태는 'out of stock'입니다. 직원이 이 표현을 쓰면 재고 여부를 확인해보겠다는 의미입니다."
+        },
+        {
+          "id": "se_ch26_set07_012",
+          "type": "ox",
+          "question": "'I'm not satisfied with this solution.'은 제시된 해결책에 만족하지 않는다는 정중한 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'not satisfied with ~'는 직접적인 항의보다 정중하게 불만을 표현하는 방법으로, 매니저 요청이나 재협상의 발판이 됩니다. 화를 내지 않고도 입장을 분명히 전달할 수 있습니다."
+        },
+        {
+          "id": "se_ch26_set07_013",
+          "type": "ox",
+          "question": "'I'd like to find a fair solution.'은 싸우는 것이 아니라 합리적인 해결을 원한다는 태도를 보여주는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'fair solution'(공정한 해결책)을 원한다고 말하면 감정적이지 않고 이성적으로 문제를 해결하려는 태도를 보여줍니다. 매니저와의 협상에서 협조적인 분위기를 만드는 데 효과적입니다."
+        },
+        {
+          "id": "se_ch26_set07_014",
+          "type": "ox",
+          "question": "'I'd like a refund.'에서 'I'd like'은 'I would like'의 줄임말로 공손한 요청 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'I'd like'은 'I would like'의 축약형으로 'I want'보다 더 공손한 표현입니다. 쇼핑이나 식당, 서비스 요청 상황에서 가장 많이 쓰이는 표현 중 하나입니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch26_set08_001",
+          "type": "multiple_choice",
+          "question": "다음 중 환불을 요청하는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Can I get a refund on this?",
+            "This needs a refund.",
+            "Refund is wanted.",
+            "I am requesting the refund."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get a refund on this?'는 캐주얼하지만 자연스러운 환불 요청 표현입니다. 'on this'는 '이것에 대해'를 의미합니다. 나머지는 어색하거나 자연스럽지 않은 표현입니다."
+        },
+        {
+          "id": "se_ch26_set08_002",
+          "type": "multiple_choice",
+          "question": "매장에서 신발의 원하는 사이즈를 확인할 때 쓰는 표현은?",
+          "options": [
+            "Do you have this in a size 8?",
+            "Size 8 exists here?",
+            "I want size 8 shoe.",
+            "Is size 8 available buy?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you have this in a size 8?'는 'Do you have this in ~?'의 패턴을 사이즈에 적용한 자연스러운 표현입니다. 색상 대신 사이즈 번호를 넣어 바로 활용할 수 있습니다."
+        },
+        {
+          "id": "se_ch26_set08_003",
+          "type": "multiple_choice",
+          "question": "'You're right, that is a defect.'에서 직원이 인정하는 것은 무엇인가?",
+          "options": [
+            "상품에 하자(결함)가 있다는 것",
+            "고객이 상품을 파손했다는 것",
+            "상품 가격이 잘못됐다는 것",
+            "교환 정책이 바뀌었다는 것"
+          ],
+          "answerIndex": 0,
+          "explanation": "'that is a defect'는 '그것은 하자(결함)이다'라는 뜻으로, 직원이 상품에 결함이 있다는 고객의 주장이 맞다고 인정하는 표현입니다. 이 다음에는 보통 환불이나 교환 처리로 이어집니다."
+        },
+        {
+          "id": "se_ch26_set08_004",
+          "type": "multiple_choice",
+          "question": "카드 환불이 언제 반영되는지 확인할 때 쓰는 표현은?",
+          "options": [
+            "How long does it take for the refund to appear on my card?",
+            "When will refund come to card?",
+            "Refund appear when in card?",
+            "How fast refund to my card?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How long does it take for ~ to appear on my card?'는 카드에 반영되기까지 얼마나 걸리는지 묻는 자연스러운 표현입니다. 'appear on my card'는 카드 내역에 나타나다는 표현입니다."
+        },
+        {
+          "id": "se_ch26_set08_005",
+          "type": "multiple_choice",
+          "question": "영수증을 보관하지 않았다고 솔직하게 말하는 표현은?",
+          "options": [
+            "I didn't keep the receipt.",
+            "I have no receipt here.",
+            "Receipt is not with me.",
+            "I forget my receipt."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I didn't keep the receipt.'는 영수증을 보관하지 않았다는 것을 솔직하게 말하는 표현입니다. 'keep'은 '보관하다, 간직하다'라는 뜻입니다. 'I forgot my receipt.'는 '영수증을 가져오는 것을 잊었다'는 다른 뉘앙스가 됩니다."
+        },
+        {
+          "id": "se_ch26_set08_006",
+          "type": "multiple_choice",
+          "question": "반품·교환 정책 전반을 물어보는 표현은?",
+          "options": [
+            "What's your return and exchange policy?",
+            "What is exchange here?",
+            "Tell me policy please.",
+            "How do you do returns?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What's your return and exchange policy?'는 반품과 교환 정책을 함께 묻는 가장 명확한 표현입니다. 'policy'는 '정책'을 의미하며, 매장마다 다를 수 있으므로 구매 전에 미리 확인하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch26_set08_007",
+          "type": "multiple_choice",
+          "question": "상품이 원래 상태임을 나타내는 표현으로 적절하지 않은 것은?",
+          "options": [
+            "I've been wearing this every day.",
+            "It's in its original condition.",
+            "The tags are still on.",
+            "I haven't worn it."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I've been wearing this every day.'는 매일 착용해왔다는 뜻으로, 교환·환불 조건을 갖추지 못했음을 드러내는 표현입니다. 나머지 세 가지는 모두 미착용·원상태임을 나타내는 표현입니다."
+        },
+        {
+          "id": "se_ch26_set08_008",
+          "type": "multiple_choice",
+          "question": "'I'd like this resolved properly.'에서 'resolved'의 의미는?",
+          "options": [
+            "해결된",
+            "반품된",
+            "교환된",
+            "환불된"
+          ],
+          "answerIndex": 0,
+          "explanation": "'resolve'는 '해결하다'라는 뜻으로, 'resolved'는 그 과거분사형입니다. 'I'd like this resolved properly.'는 '이것이 제대로 해결되기를 바란다'는 의미로 매니저에게 사용하기 좋은 표현입니다."
+        },
+        {
+          "id": "se_ch26_set08_009",
+          "type": "multiple_choice",
+          "question": "직원이 마음에 드는 상품을 가져다주겠다고 할 때 쓰는 표현은?",
+          "options": [
+            "I'll be right back with it.",
+            "I will come back.",
+            "Wait here for item.",
+            "I bring for you soon."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll be right back with it.'는 상품을 들고 곧 돌아오겠다는 표현입니다. 'right back'은 '바로, 금방'을 의미합니다. 나머지는 어색하거나 목적어가 빠진 표현입니다."
+        },
+        {
+          "id": "se_ch26_set08_010",
+          "type": "multiple_choice",
+          "question": "'I appreciate your position, however —'에서 이 표현의 기능은?",
+          "options": [
+            "상대방 입장을 인정하면서 반론을 시작한다.",
+            "상대방을 칭찬하며 대화를 끝낸다.",
+            "상대방의 말에 완전히 동의한다.",
+            "매니저를 요청하기 전에 인사한다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I appreciate your position'으로 상대방 입장을 인정하고, 'however'로 반론을 시작하는 구조입니다. 'I understand your policy, but ~'과 같은 기능으로, 격식 있게 반론을 제기하는 표현입니다."
+        },
+        {
+          "id": "se_ch26_set08_011",
+          "type": "ox",
+          "question": "'The best we can do is a credit note.'는 직원이 최선의 방법으로 크레딧 노트를 제안하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'credit note'는 store credit과 유사한 개념으로, 매장에서 사용 가능한 바우처·크레딧 형태의 보상입니다. 'the best we can do'는 '우리가 할 수 있는 최선'이라는 뜻으로 제한된 옵션을 설명하는 표현입니다."
+        },
+        {
+          "id": "se_ch26_set08_012",
+          "type": "ox",
+          "question": "'I've been a loyal customer.'에서 현재완료 시제를 사용한 이유는 과거부터 지금까지 꾸준히 단골 고객이었음을 나타내기 위해서다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 현재완료(have been)는 과거에 시작된 상태가 현재까지 지속됨을 나타냅니다. 'I've been a loyal customer'는 오랫동안 단골이었다는 의미로, 단순 과거(I was)보다 더 강조되는 효과가 있습니다."
+        },
+        {
+          "id": "se_ch26_set08_013",
+          "type": "ox",
+          "question": "'within'과 'up to'는 기간을 표현할 때 같은 의미로 쓸 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'within 30 days'와 'up to 30 days'는 둘 다 '30일 이내'를 의미하며 교환 가능 기간을 설명할 때 같은 뜻으로 사용됩니다. 단, 'up to'는 최대치를 강조하는 뉘앙스가 조금 더 있습니다."
+        },
+        {
+          "id": "se_ch26_set08_014",
+          "type": "ox",
+          "question": "영수증 없이도 신용카드 명세서를 구매 증빙(proof of purchase)으로 활용할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 신용카드 명세서(card statement)는 구매일시와 금액을 증명할 수 있어 많은 매장에서 영수증 대체 증빙으로 인정합니다. 영수증을 잃어버렸을 때 'I have my card statement instead.'라고 제안해볼 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch26_set09_001",
+          "type": "multiple_choice",
+          "question": "환불이 승인됐다는 직원의 말은?",
+          "options": [
+            "Your refund has been approved.",
+            "We approve the refund.",
+            "Refund is accepted now.",
+            "Your money is approved."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Your refund has been approved.'는 현재완료 수동태를 써서 환불이 승인됐다는 공식적인 표현입니다. 나머지는 어색하거나 부자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch26_set09_002",
+          "type": "multiple_choice",
+          "question": "교환 요청 시 구매한 상품에 아직 모든 태그가 달려 있다는 표현은?",
+          "options": [
+            "It still has all its tags.",
+            "All tags are here.",
+            "Tags not removed.",
+            "I kept the tags on it."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It still has all its tags.'는 모든 태그가 그대로 달려 있다는 간결하고 자연스러운 표현입니다. 'still'은 '아직도'를 강조합니다. 나머지는 어색하거나 비문입니다."
+        },
+        {
+          "id": "se_ch26_set09_003",
+          "type": "multiple_choice",
+          "question": "상품 하자를 가장 강하게 표현하는 것은?",
+          "options": [
+            "This is obviously faulty.",
+            "I think this is damaged.",
+            "The product seems broken.",
+            "This item is not perfect."
+          ],
+          "answerIndex": 0,
+          "explanation": "'obviously faulty'는 '명백히 불량'이라는 강한 표현입니다. 나머지는 확신 없는 표현(I think, seems)이거나 막연한 표현(not perfect)으로 하자 주장의 강도가 약합니다."
+        },
+        {
+          "id": "se_ch26_set09_004",
+          "type": "multiple_choice",
+          "question": "카드 환불을 요청하는 가장 격식 있는 표현은?",
+          "options": [
+            "I'd like the refund credited back to my card.",
+            "Card refund please.",
+            "Put it back on card.",
+            "Return to my card."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like the refund credited back to my card.'는 'credited back to'를 써서 카드 원복을 가장 격식 있게 요청하는 표현입니다. 'credit back'은 '(계좌·카드에) 다시 입금하다'를 의미합니다."
+        },
+        {
+          "id": "se_ch26_set09_005",
+          "type": "multiple_choice",
+          "question": "'store credit'을 가장 잘 설명한 것은?",
+          "options": [
+            "해당 매장에서만 사용 가능한 포인트나 바우처",
+            "어느 매장에서나 사용 가능한 현금",
+            "신용카드 포인트",
+            "은행 계좌로 돌아오는 현금"
+          ],
+          "answerIndex": 0,
+          "explanation": "store credit은 해당 매장에서만 사용 가능한 포인트나 바우처 형태의 크레딧입니다. 현금이나 다른 매장에서는 사용할 수 없으며, 'like a voucher you can use to shop here'처럼 설명됩니다."
+        },
+        {
+          "id": "se_ch26_set09_006",
+          "type": "multiple_choice",
+          "question": "'How long do I have to exchange this?'와 가장 유사한 의미의 표현은?",
+          "options": [
+            "What is the exchange deadline?",
+            "When does the exchange start?",
+            "Where can I exchange this?",
+            "Who handles exchanges?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How long do I have to exchange this?'는 교환 가능 기간을 묻는 표현으로, 'exchange deadline'(교환 마감일)을 묻는 'What is the exchange deadline?'과 가장 유사한 의미입니다."
+        },
+        {
+          "id": "se_ch26_set09_007",
+          "type": "multiple_choice",
+          "question": "매니저에게 처음 상황을 설명할 때 가장 적절한 표현은?",
+          "options": [
+            "I'd like to explain my situation and find a fair solution.",
+            "Listen, this is unfair!",
+            "Your staff is rude and unhelpful.",
+            "I want a full refund right now."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like to explain my situation and find a fair solution.'은 상황 설명과 공정한 해결을 동시에 요청하는 정중하고 효과적인 표현입니다. 감정적으로 시작하는 나머지 표현들보다 협상에 유리합니다."
+        },
+        {
+          "id": "se_ch26_set09_008",
+          "type": "multiple_choice",
+          "question": "직원이 'One moment please.'라고 했을 때 다음에 할 행동으로 가장 적절한 것은?",
+          "options": [
+            "직원이 돌아올 때까지 기다린다.",
+            "더 크게 불만을 표현한다.",
+            "즉시 다른 직원을 찾아간다.",
+            "매장을 나간다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'One moment please.'는 '잠시만 기다려 주세요'라는 뜻입니다. 직원이 매니저를 데려오거나 재고를 확인하러 간 것이므로 차분하게 기다리는 것이 적절합니다."
+        },
+        {
+          "id": "se_ch26_set09_009",
+          "type": "multiple_choice",
+          "question": "'I see what you're saying, but —'의 기능은?",
+          "options": [
+            "상대방의 말을 이해하면서 반론을 시작한다.",
+            "상대방의 말에 완전히 동의한다.",
+            "상대방이 말한 내용을 모른다고 표현한다.",
+            "매니저에게 escalate를 요청한다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I see what you're saying'은 '무슨 말인지 이해합니다'라는 뜻이고, 'but'으로 이어지면 반론을 시작합니다. 'I understand ~ but ~' 패턴과 같은 기능으로 상대방을 존중하면서 자신의 주장을 관철하는 기술입니다."
+        },
+        {
+          "id": "se_ch26_set09_010",
+          "type": "multiple_choice",
+          "question": "매장 영업일 기준으로 최대 5일이 소요된다고 알려줄 때 쓰는 표현은?",
+          "options": [
+            "It may take up to five business days.",
+            "Five days maximum for refund.",
+            "Refund takes five day business.",
+            "Up to five days, business."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It may take up to five business days.'는 영업일 기준 최대 5일이 소요될 수 있다는 자연스러운 표현입니다. 'up to'는 '최대 ~까지', 'business days'는 '영업일'을 의미합니다."
+        },
+        {
+          "id": "se_ch26_set09_011",
+          "type": "ox",
+          "question": "'I'd like to return this jacket, but I don't have the receipt.'에서 'return'은 '반품하다'라는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 이 문장에서 'return'은 상품을 매장에 돌려주는 '반품'을 의미합니다. 'refund'(환불)와 함께 사용될 때 'return for a refund'는 반품 후 환불을 받는다는 의미가 됩니다."
+        },
+        {
+          "id": "se_ch26_set09_012",
+          "type": "ox",
+          "question": "하자 있는 상품을 반품할 때는 'defective'나 'faulty' 같은 단어를 쓰면 단순한 설명보다 더 강하게 클레임을 전달할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'defective'(결함 있는), 'faulty'(불량인), 'defect'(하자)는 공식적인 제품 결함을 나타내는 단어로, 'broken'이나 'not working'보다 강하고 공식적인 하자 클레임에 더 적합합니다."
+        },
+        {
+          "id": "se_ch26_set09_013",
+          "type": "ox",
+          "question": "'of purchase'를 뺀 'within 30 days'만으로도 기준일이 명확하게 전달된다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'within 30 days'만으로는 30일의 기준일(언제부터 계산하는지)이 불명확합니다. 'within 30 days of purchase'처럼 'of purchase'(구매 시점으로부터)를 추가해야 기준일이 명확해집니다."
+        },
+        {
+          "id": "se_ch26_set09_014",
+          "type": "ox",
+          "question": "'Great, that makes it easier.'는 직원이 교환 절차가 간단할 것 같다며 긍정적으로 반응하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 고객이 태그도 달려 있고 미착용 상태임을 알렸을 때 직원이 'Great, that makes it easier.'(좋아요, 그러면 더 쉽겠네요)라고 응답하는 것은 교환 처리가 수월할 것이라는 긍정적인 반응입니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch26_set10_001",
+          "type": "multiple_choice",
+          "question": "다음 중 환불 요청 상황에서 'I'd like a refund.'와 바꿔 쓸 수 있는 표현은?",
+          "options": [
+            "I'd like to return this for a refund.",
+            "I would exchange this.",
+            "Refund! Now!",
+            "This item is wrong."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like to return this for a refund.'는 반품 + 환불 의사를 모두 포함하는 표현으로 'I'd like a refund.'와 같은 목적으로 사용할 수 있습니다. 나머지는 교환을 뜻하거나 무례하거나 의미가 다릅니다."
+        },
+        {
+          "id": "se_ch26_set10_002",
+          "type": "multiple_choice",
+          "question": "구매한 원피스를 같은 스타일의 더 작은 사이즈로 교환하고 싶을 때 쓰는 표현은?",
+          "options": [
+            "I'd like to exchange this dress for a smaller size.",
+            "I want small size dress.",
+            "Exchange dress to small please.",
+            "Can you make this dress smaller?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'exchange A for B' 구조를 사용한 'I'd like to exchange this dress for a smaller size.'가 가장 정확하고 자연스러운 교환 요청입니다. 'Can you make this dress smaller?'는 수선 요청으로 오해될 수 있습니다."
+        },
+        {
+          "id": "se_ch26_set10_003",
+          "type": "multiple_choice",
+          "question": "'May I take a look?'는 어떤 상황에서 직원이 쓰는 표현인가?",
+          "options": [
+            "고객이 신고한 하자 상품을 직접 확인하고 싶을 때",
+            "고객에게 영수증을 보여달라고 할 때",
+            "재고를 창고에서 찾아올 때",
+            "매니저를 부르러 갈 때"
+          ],
+          "answerIndex": 0,
+          "explanation": "'May I take a look?'는 '제가 한번 봐도 될까요?'라는 뜻으로, 고객이 하자를 신고했을 때 직원이 상품을 직접 확인하고 싶다고 할 때 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch26_set10_004",
+          "type": "multiple_choice",
+          "question": "카드로 환불받고 싶다고 확인할 때 쓰는 표현은?",
+          "options": [
+            "Yes, please refund it to my card.",
+            "Card, please.",
+            "Refund card yes.",
+            "To card refund, yes."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Yes, please refund it to my card.'는 직원이 카드로 돌려줄지 물었을 때 동의하며 카드 환불을 확인하는 자연스러운 응답입니다. 'refund it to my card'는 카드 원복을 요청하는 표준 표현입니다."
+        },
+        {
+          "id": "se_ch26_set10_005",
+          "type": "multiple_choice",
+          "question": "영수증 없이 반품했을 때 직원이 제안할 수 있는 대안으로 적절한 것은?",
+          "options": [
+            "We can give you a store voucher.",
+            "You get cash back without receipt.",
+            "No receipt means no return.",
+            "We offer you a discount."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We can give you a store voucher.'는 store credit과 같은 의미의 매장 바우처를 제안하는 표현입니다. 영수증 없이는 현금 환불 대신 바우처나 store credit이 일반적인 대안입니다."
+        },
+        {
+          "id": "se_ch26_set10_006",
+          "type": "multiple_choice",
+          "question": "반품 정책의 기간을 영어로 'return window'라고 부를 때 이와 같은 뜻을 가진 표현은?",
+          "options": [
+            "The period during which returns are allowed",
+            "The window through which customers enter",
+            "The waiting time for a refund",
+            "The time it takes to process an exchange"
+          ],
+          "answerIndex": 0,
+          "explanation": "'return window'는 '반품이 허용되는 기간'을 의미합니다. 직역하면 창문이지만 비즈니스 용어로 '~할 수 있는 시간적 기회, 기간'을 의미합니다. 'I'm still within the return window.'처럼 사용합니다."
+        },
+        {
+          "id": "se_ch26_set10_007",
+          "type": "multiple_choice",
+          "question": "상품에 하자가 있어 전액 환불을 받을 권리가 있다고 주장할 때 가장 강력한 표현은?",
+          "options": [
+            "I believe I'm entitled to a full refund under consumer protection law.",
+            "I want full refund.",
+            "Refund all money please.",
+            "Give full money back."
+          ],
+          "answerIndex": 0,
+          "explanation": "'entitled to a full refund'(전액 환불받을 권리가 있다)에 'under consumer protection law'(소비자 보호법에 따라)를 덧붙이면 법적 근거까지 제시하는 가장 강력한 주장이 됩니다."
+        },
+        {
+          "id": "se_ch26_set10_008",
+          "type": "multiple_choice",
+          "question": "매니저가 '확실히 만족하고 가실 수 있도록 하겠다'는 뜻으로 쓰는 또 다른 표현은?",
+          "options": [
+            "We'll do our best to resolve this for you.",
+            "You will be satisfied.",
+            "We hope you are happy.",
+            "Come back anytime."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We'll do our best to resolve this for you.'는 최선을 다해 해결해드리겠다는 의지를 담은 표현으로, 'We'll make sure you leave satisfied.'와 같은 의미로 사용됩니다."
+        },
+        {
+          "id": "se_ch26_set10_009",
+          "type": "multiple_choice",
+          "question": "'I'm afraid this doesn't work for me.'와 'I'm not satisfied with this solution.'의 공통된 기능은?",
+          "options": [
+            "제시된 해결책을 정중하게 거절한다.",
+            "매니저에게 불만을 신고한다.",
+            "추가 할인을 요청한다.",
+            "환불 영수증을 요청한다."
+          ],
+          "answerIndex": 0,
+          "explanation": "두 표현 모두 현재 제시된 해결책이 만족스럽지 않다는 것을 정중하게 표현하는 방법입니다. 두 표현 다음에는 보통 매니저 요청이나 추가 협상으로 이어집니다."
+        },
+        {
+          "id": "se_ch26_set10_010",
+          "type": "multiple_choice",
+          "question": "네이비 스카프를 가져오겠다는 직원의 캐주얼한 표현은?",
+          "options": [
+            "Let me grab the navy one for you.",
+            "I will get navy scarf now.",
+            "Navy scarf coming for you.",
+            "I bring navy color scarf."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me grab ~ for you.'는 상품을 가져다주겠다는 캐주얼하고 자연스러운 표현입니다. 'grab'은 '가져오다'의 구어체이며, 특정 상품을 지칭할 때는 'the navy one'처럼 'the ~ one' 형태를 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch26_set10_011",
+          "type": "ox",
+          "question": "'You're entitled to a full refund.'는 고객이 전액 환불을 받을 권리가 있다는 것을 직원이나 매니저가 인정하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 고객이 'I'm entitled to a full refund.'라고 주장하면, 직원이나 매니저가 이를 인정할 때 'You're entitled to a full refund.'라고 합니다. 같은 구조를 주체를 바꿔 사용한 것입니다."
+        },
+        {
+          "id": "se_ch26_set10_012",
+          "type": "ox",
+          "question": "'I'll process your refund right away.'에서 'right away'는 '즉시, 바로'를 의미한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'right away'는 '즉시, 바로'를 의미하는 표현으로 'immediately'와 같은 뜻입니다. 이 말을 들으면 환불 처리가 바로 시작된다는 것을 알 수 있으므로 잠시 기다리면 됩니다."
+        },
+        {
+          "id": "se_ch26_set10_013",
+          "type": "ox",
+          "question": "'as you can see'와 'as you can tell'은 상황을 강조할 때 같은 의미로 쓸 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'as you can see'(보시다시피)와 'as you can tell'(아시다시피, 보시면 알 수 있듯이)은 둘 다 상대방이 직접 확인할 수 있는 상황에서 사실을 강조할 때 같은 의미로 사용됩니다."
+        },
+        {
+          "id": "se_ch26_set10_014",
+          "type": "ox",
+          "question": "'Of course. May I see the receipt?'에서 'May I'는 'Can I'보다 더 격식 있는 요청 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'May I ~?'는 'Can I ~?'보다 더 격식 있고 정중한 요청 표현입니다. 매장 직원이 영수증이나 상품을 확인하고 싶을 때 'May I see ~?'를 쓰면 더 프로페셔널한 인상을 줍니다."
         }
       ]
     }

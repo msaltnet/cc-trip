@@ -7,34 +7,68 @@
       "id": "ch14_d01",
       "title": "~로 가는 길 묻기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, how do I get to the city hall?", "ko": "실례합니다, 시청에 어떻게 가나요?" },
-        { "speaker": "행인", "en": "Go straight down this street and turn left at the traffic light.", "ko": "이 길을 따라 직진하시다가 신호등에서 왼쪽으로 꺾으세요." },
-        { "speaker": "나", "en": "Turn left at the traffic light. Got it, thank you!", "ko": "신호등에서 왼쪽이요. 알겠습니다, 감사합니다!" },
-        { "speaker": "행인", "en": "You're welcome. It's about a five-minute walk.", "ko": "천만에요. 걸어서 5분 정도 됩니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, how do I get to the city hall?",
+          "ko": "실례합니다, 시청에 어떻게 가나요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Go straight down this street and turn left at the traffic light.",
+          "ko": "이 길을 따라 직진하시다가 신호등에서 왼쪽으로 꺾으세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Turn left at the traffic light. Got it, thank you!",
+          "ko": "신호등에서 왼쪽이요. 알겠습니다, 감사합니다!"
+        },
+        {
+          "speaker": "행인",
+          "en": "You're welcome. It's about a five-minute walk.",
+          "ko": "천만에요. 걸어서 5분 정도 됩니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "How do I get to ~?",
           "ko": "목적지까지 가는 방법 전체를 묻는 표현. 'Where is ~?'가 위치만 묻는 반면, 'How do I get to ~?'는 이동 방법과 경로까지 포함해 묻는다.",
           "alternatives": [
-            { "en": "Can you tell me the way to ~?", "ko": "~까지 가는 길을 알려달라는 정중한 표현." },
-            { "en": "Which way is it to ~?", "ko": "어느 방향으로 가야 하는지 묻는 표현." }
+            {
+              "en": "Can you tell me the way to ~?",
+              "ko": "~까지 가는 길을 알려달라는 정중한 표현."
+            },
+            {
+              "en": "Which way is it to ~?",
+              "ko": "어느 방향으로 가야 하는지 묻는 표현."
+            }
           ]
         },
         {
           "en": "Go straight down this street.",
           "ko": "이 길을 따라 직진하라는 안내. 'Go straight'만으로도 충분하지만 'down this street'을 붙이면 어느 길로 가야 할지 더 명확해진다.",
           "alternatives": [
-            { "en": "Keep going straight.", "ko": "계속 직진하라는 표현으로 방향을 유지하라는 뜻." },
-            { "en": "Walk straight ahead.", "ko": "앞으로 곧장 걸어가라는 표현." }
+            {
+              "en": "Keep going straight.",
+              "ko": "계속 직진하라는 표현으로 방향을 유지하라는 뜻."
+            },
+            {
+              "en": "Walk straight ahead.",
+              "ko": "앞으로 곧장 걸어가라는 표현."
+            }
           ]
         },
         {
           "en": "Turn left at the traffic light.",
           "ko": "신호등에서 왼쪽으로 꺾으라는 방향 안내. 'at the traffic light'처럼 지점을 함께 말해주면 언제 꺾어야 할지 훨씬 알기 쉽다.",
           "alternatives": [
-            { "en": "Make a left at the lights.", "ko": "신호등에서 좌회전하라는 캐주얼한 표현. 미국에서 자주 쓰임." },
-            { "en": "Take a left turn at the intersection.", "ko": "교차로에서 왼쪽으로 돌라는 표현." }
+            {
+              "en": "Make a left at the lights.",
+              "ko": "신호등에서 좌회전하라는 캐주얼한 표현. 미국에서 자주 쓰임."
+            },
+            {
+              "en": "Take a left turn at the intersection.",
+              "ko": "교차로에서 왼쪽으로 돌라는 표현."
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch14_d02",
       "title": "여기서 먼지 묻기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, is the train station far from here?", "ko": "실례합니다, 기차역이 여기서 먼가요?" },
-        { "speaker": "행인", "en": "Not too far. It's about a ten-minute walk.", "ko": "그리 멀지 않아요. 걸어서 약 10분 정도입니다." },
-        { "speaker": "나", "en": "Only ten minutes? That's not bad at all.", "ko": "10분밖에요? 그리 나쁘지 않네요." },
-        { "speaker": "행인", "en": "Right. Head that way and follow the signs.", "ko": "맞아요. 저쪽 방향으로 가서 표지판을 따라가세요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, is the train station far from here?",
+          "ko": "실례합니다, 기차역이 여기서 먼가요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Not too far. It's about a ten-minute walk.",
+          "ko": "그리 멀지 않아요. 걸어서 약 10분 정도입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Only ten minutes? That's not bad at all.",
+          "ko": "10분밖에요? 그리 나쁘지 않네요."
+        },
+        {
+          "speaker": "행인",
+          "en": "Right. Head that way and follow the signs.",
+          "ko": "맞아요. 저쪽 방향으로 가서 표지판을 따라가세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is it far from here?",
           "ko": "목적지가 현재 위치에서 먼지 묻는 표현. 'far'는 거리상 멀다는 뜻. 'free(무료)', 'fast(빠른)'와 헷갈리지 않도록 주의.",
           "alternatives": [
-            { "en": "Is it a long way from here?", "ko": "같은 뜻으로 거리가 멀지 물어보는 표현." },
-            { "en": "How far is it from here?", "ko": "얼마나 멀지 구체적인 거리를 묻는 표현." }
+            {
+              "en": "Is it a long way from here?",
+              "ko": "같은 뜻으로 거리가 멀지 물어보는 표현."
+            },
+            {
+              "en": "How far is it from here?",
+              "ko": "얼마나 멀지 구체적인 거리를 묻는 표현."
+            }
           ]
         },
         {
           "en": "Not too far.",
           "ko": "너무 멀지 않다는 안심시키는 표현. 'It's close.'보다 현실적이며 가깝긴 하지만 꽤 걸릴 수도 있다는 뉘앙스를 담고 있다.",
           "alternatives": [
-            { "en": "It's close by.", "ko": "꽤 가깝다는 표현." },
-            { "en": "It's just around the corner.", "ko": "바로 코앞에 있다는 표현으로 매우 가까울 때 씀." }
+            {
+              "en": "It's close by.",
+              "ko": "꽤 가깝다는 표현."
+            },
+            {
+              "en": "It's just around the corner.",
+              "ko": "바로 코앞에 있다는 표현으로 매우 가까울 때 씀."
+            }
           ]
         },
         {
           "en": "Follow the signs.",
           "ko": "표지판을 따라가라는 안내. 여행 중 방향을 유지하는 데 매우 유용한 표현. 'signs'는 도로 표지판, 화살표 표지판 모두를 포함한다.",
           "alternatives": [
-            { "en": "Just follow the arrows.", "ko": "화살표를 따라가라는 더 구체적인 표현." },
-            { "en": "Look out for the signs.", "ko": "표지판을 잘 봐두라는 표현." }
+            {
+              "en": "Just follow the arrows.",
+              "ko": "화살표를 따라가라는 더 구체적인 표현."
+            },
+            {
+              "en": "Look out for the signs.",
+              "ko": "표지판을 잘 봐두라는 표현."
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch14_d03",
       "title": "걸어갈 수 있는지 묻기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, is the old town within walking distance?", "ko": "실례합니다, 구시가지가 걸어갈 수 있는 거리인가요?" },
-        { "speaker": "행인", "en": "Yes, it's walkable. About fifteen minutes on foot.", "ko": "네, 걸어갈 수 있어요. 걸어서 약 15분이에요." },
-        { "speaker": "나", "en": "Great! I'll walk then. Is it a pleasant walk?", "ko": "좋아요! 그러면 걸어가겠습니다. 걷기 좋은 길인가요?" },
-        { "speaker": "행인", "en": "Very much so. You'll pass a nice park along the way.", "ko": "아주 좋아요. 가다 보면 멋진 공원도 지나게 됩니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, is the old town within walking distance?",
+          "ko": "실례합니다, 구시가지가 걸어갈 수 있는 거리인가요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Yes, it's walkable. About fifteen minutes on foot.",
+          "ko": "네, 걸어갈 수 있어요. 걸어서 약 15분이에요."
+        },
+        {
+          "speaker": "나",
+          "en": "Great! I'll walk then. Is it a pleasant walk?",
+          "ko": "좋아요! 그러면 걸어가겠습니다. 걷기 좋은 길인가요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Very much so. You'll pass a nice park along the way.",
+          "ko": "아주 좋아요. 가다 보면 멋진 공원도 지나게 됩니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is it within walking distance?",
           "ko": "걸어갈 수 있는 거리인지 묻는 표현. 'within walking distance'는 도보로 이동 가능한 거리라는 의미이며, 버스나 택시가 필요한지 판단할 때 유용하다.",
           "alternatives": [
-            { "en": "Can I walk there?", "ko": "거기까지 걸어갈 수 있냐는 더 간단한 표현." },
-            { "en": "Is it close enough to walk?", "ko": "걸어갈 만큼 가까운지 묻는 표현." }
+            {
+              "en": "Can I walk there?",
+              "ko": "거기까지 걸어갈 수 있냐는 더 간단한 표현."
+            },
+            {
+              "en": "Is it close enough to walk?",
+              "ko": "걸어갈 만큼 가까운지 묻는 표현."
+            }
           ]
         },
         {
           "en": "It's walkable.",
           "ko": "걸어갈 수 있다는 표현. '-able'을 붙여 '~할 수 있는'이라는 뜻을 만듦. 'walkable distance'처럼 형용사로도 쓰인다.",
           "alternatives": [
-            { "en": "You can walk there.", "ko": "걸어갈 수 있다는 직접적인 표현." },
-            { "en": "It's an easy walk.", "ko": "걸어가기 어렵지 않다는 표현." }
+            {
+              "en": "You can walk there.",
+              "ko": "걸어갈 수 있다는 직접적인 표현."
+            },
+            {
+              "en": "It's an easy walk.",
+              "ko": "걸어가기 어렵지 않다는 표현."
+            }
           ]
         },
         {
           "en": "On foot.",
           "ko": "걸어서라는 의미. 'by foot'보다 'on foot'이 더 표준적인 표현이며, 교통수단을 묻는 맥락에서 자주 등장한다.",
           "alternatives": [
-            { "en": "By walking.", "ko": "걸어서라는 뜻의 다른 표현이지만 'on foot'이 더 자연스럽다." },
-            { "en": "If you walk.", "ko": "걸어서 간다면이라는 조건절 형태의 표현." }
+            {
+              "en": "By walking.",
+              "ko": "걸어서라는 뜻의 다른 표현이지만 'on foot'이 더 자연스럽다."
+            },
+            {
+              "en": "If you walk.",
+              "ko": "걸어서 간다면이라는 조건절 형태의 표현."
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch14_d04",
       "title": "지도에서 위치 보여달라고 하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, could you show me on the map where we are?", "ko": "실례합니다, 지도에서 지금 우리가 어디 있는지 보여주시겠어요?" },
-        { "speaker": "행인", "en": "Sure! We're right here, and the cathedral is here.", "ko": "물론이죠! 우리는 바로 여기 있고, 대성당은 여기 있어요." },
-        { "speaker": "나", "en": "Ah, I see. So I should head north?", "ko": "아, 알겠어요. 그러면 북쪽으로 가야 하는군요?" },
-        { "speaker": "행인", "en": "Exactly. Just walk up this road for three blocks.", "ko": "정확해요. 이 길을 따라 세 블록만 올라가세요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, could you show me on the map where we are?",
+          "ko": "실례합니다, 지도에서 지금 우리가 어디 있는지 보여주시겠어요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Sure! We're right here, and the cathedral is here.",
+          "ko": "물론이죠! 우리는 바로 여기 있고, 대성당은 여기 있어요."
+        },
+        {
+          "speaker": "나",
+          "en": "Ah, I see. So I should head north?",
+          "ko": "아, 알겠어요. 그러면 북쪽으로 가야 하는군요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Exactly. Just walk up this road for three blocks.",
+          "ko": "정확해요. 이 길을 따라 세 블록만 올라가세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Could you show me on the map?",
           "ko": "지도에서 직접 위치를 보여달라는 요청. 말로 설명을 이해하기 어려울 때 매우 유용하며, 스마트폰 지도를 꺼내서 물어보면 더 효과적이다.",
           "alternatives": [
-            { "en": "Can you point it out on the map?", "ko": "지도에서 가리켜달라는 조금 더 구체적인 표현." },
-            { "en": "Could you mark it on the map for me?", "ko": "지도에 표시해달라는 요청." }
+            {
+              "en": "Can you point it out on the map?",
+              "ko": "지도에서 가리켜달라는 조금 더 구체적인 표현."
+            },
+            {
+              "en": "Could you mark it on the map for me?",
+              "ko": "지도에 표시해달라는 요청."
+            }
           ]
         },
         {
           "en": "We're right here.",
           "ko": "우리가 바로 여기 있다는 표현. 'right'은 강조 부사로 '바로'라는 뜻을 추가한다. 지도에서 현재 위치를 가리킬 때 자주 사용된다.",
           "alternatives": [
-            { "en": "This is where we are.", "ko": "우리가 있는 곳이 여기라는 표현." },
-            { "en": "You are here.", "ko": "당신이 있는 곳이 여기라는 지도 앱에서도 자주 보이는 표현." }
+            {
+              "en": "This is where we are.",
+              "ko": "우리가 있는 곳이 여기라는 표현."
+            },
+            {
+              "en": "You are here.",
+              "ko": "당신이 있는 곳이 여기라는 지도 앱에서도 자주 보이는 표현."
+            }
           ]
         },
         {
           "en": "Walk up this road.",
           "ko": "'Walk up'은 위쪽 방향으로, 또는 길을 따라 올라가다는 표현. 지형상 오르막길이 아니어도 지도상 북쪽이나 특정 방향으로 가라는 의미로 쓰인다.",
           "alternatives": [
-            { "en": "Head up this street.", "ko": "이 길을 따라 (위쪽으로) 가라는 표현." },
-            { "en": "Continue along this road.", "ko": "이 도로를 따라 계속 가라는 표현." }
+            {
+              "en": "Head up this street.",
+              "ko": "이 길을 따라 (위쪽으로) 가라는 표현."
+            },
+            {
+              "en": "Continue along this road.",
+              "ko": "이 도로를 따라 계속 가라는 표현."
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch14_d05",
       "title": "가장 가까운 역 묻기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, where is the nearest metro station?", "ko": "실례합니다, 가장 가까운 지하철역이 어디 있나요?" },
-        { "speaker": "행인", "en": "The closest one is Central Station, two blocks from here.", "ko": "가장 가까운 곳은 센트럴역인데, 여기서 두 블록 거리예요." },
-        { "speaker": "나", "en": "Two blocks — which direction should I go?", "ko": "두 블록이요 — 어느 방향으로 가야 하나요?" },
-        { "speaker": "행인", "en": "Turn right at the corner and walk straight. You can't miss it.", "ko": "모퉁이에서 오른쪽으로 꺾어 직진하세요. 금방 찾을 수 있을 거예요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, where is the nearest metro station?",
+          "ko": "실례합니다, 가장 가까운 지하철역이 어디 있나요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "The closest one is Central Station, two blocks from here.",
+          "ko": "가장 가까운 곳은 센트럴역인데, 여기서 두 블록 거리예요."
+        },
+        {
+          "speaker": "나",
+          "en": "Two blocks — which direction should I go?",
+          "ko": "두 블록이요 — 어느 방향으로 가야 하나요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Turn right at the corner and walk straight. You can't miss it.",
+          "ko": "모퉁이에서 오른쪽으로 꺾어 직진하세요. 금방 찾을 수 있을 거예요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Where is the nearest ~?",
           "ko": "가장 가까운 ~이 어디 있냐는 표현. 'closest'과 'nearest'은 같은 뜻이며 자유롭게 바꿔 쓸 수 있다. 역, 약국, 편의점 등 다양한 장소에 활용 가능.",
           "alternatives": [
-            { "en": "Where can I find the closest ~?", "ko": "가장 가까운 ~을 어디서 찾을 수 있냐는 표현." },
-            { "en": "Is there a ~ nearby?", "ko": "근처에 ~이 있냐는 더 간단한 표현." }
+            {
+              "en": "Where can I find the closest ~?",
+              "ko": "가장 가까운 ~을 어디서 찾을 수 있냐는 표현."
+            },
+            {
+              "en": "Is there a ~ nearby?",
+              "ko": "근처에 ~이 있냐는 더 간단한 표현."
+            }
           ]
         },
         {
           "en": "Two blocks from here.",
           "ko": "여기서 두 블록 거리라는 표현. 'block'은 건물들이 모인 한 구역 단위를 뜻하며 미국·캐나다 도시에서 거리를 나타낼 때 흔히 쓰인다.",
           "alternatives": [
-            { "en": "A couple of blocks away.", "ko": "몇 블록 거리라는 비슷한 표현." },
-            { "en": "About two blocks down.", "ko": "약 두 블록 아래(앞)에 있다는 표현." }
+            {
+              "en": "A couple of blocks away.",
+              "ko": "몇 블록 거리라는 비슷한 표현."
+            },
+            {
+              "en": "About two blocks down.",
+              "ko": "약 두 블록 아래(앞)에 있다는 표현."
+            }
           ]
         },
         {
           "en": "You can't miss it.",
           "ko": "쉽게 찾을 수 있다는 뜻으로 자주 쓰이는 표현. 직역하면 '놓칠 수가 없다'이지만 실제로는 '눈에 잘 띄어요/금방 찾을 거예요'라는 의미이다.",
           "alternatives": [
-            { "en": "It's hard to miss.", "ko": "같은 뜻으로 놓치기 어려운 곳이라는 표현." },
-            { "en": "It's very easy to spot.", "ko": "쉽게 눈에 띈다는 표현." }
+            {
+              "en": "It's hard to miss.",
+              "ko": "같은 뜻으로 놓치기 어려운 곳이라는 표현."
+            },
+            {
+              "en": "It's very easy to spot.",
+              "ko": "쉽게 눈에 띈다는 표현."
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch14_d06",
       "title": "좌우 직진 안내 듣기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, could you tell me how to get to the art museum?", "ko": "실례합니다, 미술관까지 어떻게 가는지 알려주시겠어요?" },
-        { "speaker": "행인", "en": "Go straight for two blocks, then turn right. After that, turn left at the pharmacy.", "ko": "두 블록 직진한 다음 오른쪽으로 꺾으세요. 그다음 약국에서 왼쪽으로 꺾으세요." },
-        { "speaker": "나", "en": "So straight, then right, then left at the pharmacy?", "ko": "그러니까 직진, 오른쪽, 그다음 약국에서 왼쪽이요?" },
-        { "speaker": "행인", "en": "That's correct. The museum will be on your left.", "ko": "맞습니다. 미술관은 왼편에 있을 거예요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, could you tell me how to get to the art museum?",
+          "ko": "실례합니다, 미술관까지 어떻게 가는지 알려주시겠어요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Go straight for two blocks, then turn right. After that, turn left at the pharmacy.",
+          "ko": "두 블록 직진한 다음 오른쪽으로 꺾으세요. 그다음 약국에서 왼쪽으로 꺾으세요."
+        },
+        {
+          "speaker": "나",
+          "en": "So straight, then right, then left at the pharmacy?",
+          "ko": "그러니까 직진, 오른쪽, 그다음 약국에서 왼쪽이요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "That's correct. The museum will be on your left.",
+          "ko": "맞습니다. 미술관은 왼편에 있을 거예요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Turn right.",
           "ko": "오른쪽으로 꺾으라는 방향 안내. 'Turn left(왼쪽)', 'Go straight(직진)'와 함께 반드시 알아야 할 세 가지 기본 방향 표현. 'right'과 'left'는 순간 혼동하기 쉬우므로 주의.",
           "alternatives": [
-            { "en": "Make a right.", "ko": "우회전하라는 미국식 캐주얼 표현." },
-            { "en": "Take a right turn.", "ko": "우회전하라는 좀 더 명확한 표현." }
+            {
+              "en": "Make a right.",
+              "ko": "우회전하라는 미국식 캐주얼 표현."
+            },
+            {
+              "en": "Take a right turn.",
+              "ko": "우회전하라는 좀 더 명확한 표현."
+            }
           ]
         },
         {
           "en": "The museum will be on your left.",
           "ko": "목적지가 왼편에 있을 거라는 표현. 'on your left/right'은 본인이 걷는 방향 기준으로 왼쪽/오른쪽을 말하는 것으로, 길 안내에서 매우 자주 사용된다.",
           "alternatives": [
-            { "en": "It's on the left side.", "ko": "왼쪽에 있다는 표현." },
-            { "en": "Look to your left and you'll see it.", "ko": "왼쪽을 보면 보일 거라는 표현." }
+            {
+              "en": "It's on the left side.",
+              "ko": "왼쪽에 있다는 표현."
+            },
+            {
+              "en": "Look to your left and you'll see it.",
+              "ko": "왼쪽을 보면 보일 거라는 표현."
+            }
           ]
         },
         {
           "en": "That's correct.",
           "ko": "상대방이 이해한 내용을 확인해줄 때 쓰는 표현. 'Yes'보다 더 명확하게 맞다고 확인해주는 느낌을 준다. 'That's right', 'Exactly'도 같은 상황에 쓰인다.",
           "alternatives": [
-            { "en": "That's right.", "ko": "맞다고 확인해주는 가장 흔한 표현." },
-            { "en": "Exactly.", "ko": "정확하다는 강한 긍정 표현." }
+            {
+              "en": "That's right.",
+              "ko": "맞다고 확인해주는 가장 흔한 표현."
+            },
+            {
+              "en": "Exactly.",
+              "ko": "정확하다는 강한 긍정 표현."
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch14_d07",
       "title": "길 건너편 안내 듣기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, where is the post office?", "ko": "실례합니다, 우체국이 어디 있나요?" },
-        { "speaker": "행인", "en": "It's right across from the supermarket, on the other side of the road.", "ko": "슈퍼마켓 바로 맞은편이에요, 도로 반대편이죠." },
-        { "speaker": "나", "en": "Across from the supermarket — I can see that from here!", "ko": "슈퍼마켓 맞은편이요 — 여기서 보이네요!" },
-        { "speaker": "행인", "en": "Yes, just cross the street and you'll be there.", "ko": "네, 그냥 길만 건너면 돼요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, where is the post office?",
+          "ko": "실례합니다, 우체국이 어디 있나요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "It's right across from the supermarket, on the other side of the road.",
+          "ko": "슈퍼마켓 바로 맞은편이에요, 도로 반대편이죠."
+        },
+        {
+          "speaker": "나",
+          "en": "Across from the supermarket — I can see that from here!",
+          "ko": "슈퍼마켓 맞은편이요 — 여기서 보이네요!"
+        },
+        {
+          "speaker": "행인",
+          "en": "Yes, just cross the street and you'll be there.",
+          "ko": "네, 그냥 길만 건너면 돼요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "It's across from ~.",
           "ko": "~의 맞은편에 있다는 표현. 도로나 광장을 사이에 두고 반대편에 위치할 때 사용한다. 'opposite ~'도 같은 뜻이며, 'next to(옆에)'와 혼동하지 않도록 주의.",
           "alternatives": [
-            { "en": "It's opposite the ~.", "ko": "~의 맞은편에 있다는 표현으로 영국식에서 더 자주 쓰임." },
-            { "en": "It faces the ~.", "ko": "~을 바라보고 있다는 표현으로 건물 방향을 설명할 때 씀." }
+            {
+              "en": "It's opposite the ~.",
+              "ko": "~의 맞은편에 있다는 표현으로 영국식에서 더 자주 쓰임."
+            },
+            {
+              "en": "It faces the ~.",
+              "ko": "~을 바라보고 있다는 표현으로 건물 방향을 설명할 때 씀."
+            }
           ]
         },
         {
           "en": "On the other side of the road.",
           "ko": "도로 반대편이라는 표현. 길을 건너야 할 때 자주 나오는 표현으로, 'across from'과 함께 위치를 더 명확하게 설명한다.",
           "alternatives": [
-            { "en": "On the opposite side.", "ko": "반대편에 있다는 간단한 표현." },
-            { "en": "Across the street.", "ko": "길 건너편이라는 표현." }
+            {
+              "en": "On the opposite side.",
+              "ko": "반대편에 있다는 간단한 표현."
+            },
+            {
+              "en": "Across the street.",
+              "ko": "길 건너편이라는 표현."
+            }
           ]
         },
         {
           "en": "Just cross the street.",
           "ko": "그냥 길만 건너면 된다는 표현. 'just'는 '단지, 그냥'이라는 뜻으로 동작이 간단하다는 것을 강조한다. 목적지가 매우 가까울 때 안심시키는 표현이다.",
           "alternatives": [
-            { "en": "All you need to do is cross the road.", "ko": "길만 건너면 된다는 더 풀어쓴 표현." },
-            { "en": "Head across the street.", "ko": "길 건너편으로 향하라는 표현." }
+            {
+              "en": "All you need to do is cross the road.",
+              "ko": "길만 건너면 된다는 더 풀어쓴 표현."
+            },
+            {
+              "en": "Head across the street.",
+              "ko": "길 건너편으로 향하라는 표현."
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch14_d08",
       "title": "몇 번째 모퉁이/블록 안내 듣기",
       "lines": [
-        { "speaker": "나", "en": "How do I get to the bookstore from here?", "ko": "여기서 서점까지 어떻게 가나요?" },
-        { "speaker": "행인", "en": "Go straight and take the second street on your right.", "ko": "직진하다가 오른쪽 두 번째 길로 들어가세요." },
-        { "speaker": "나", "en": "The second street on the right — is it far from there?", "ko": "오른쪽 두 번째 길이요 — 거기서 멀지 않나요?" },
-        { "speaker": "행인", "en": "No, it's two blocks down. You'll see it on the corner.", "ko": "아니요, 두 블록만 내려가면 돼요. 모퉁이에서 보일 거예요." }
+        {
+          "speaker": "나",
+          "en": "How do I get to the bookstore from here?",
+          "ko": "여기서 서점까지 어떻게 가나요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Go straight and take the second street on your right.",
+          "ko": "직진하다가 오른쪽 두 번째 길로 들어가세요."
+        },
+        {
+          "speaker": "나",
+          "en": "The second street on the right — is it far from there?",
+          "ko": "오른쪽 두 번째 길이요 — 거기서 멀지 않나요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "No, it's two blocks down. You'll see it on the corner.",
+          "ko": "아니요, 두 블록만 내려가면 돼요. 모퉁이에서 보일 거예요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Take the second street on your right.",
           "ko": "오른쪽 두 번째 길로 가라는 안내. 교차로나 분기점이 여러 개일 때 몇 번째인지 함께 말해주는 중요한 표현. 'first', 'second', 'third' 순서를 기억해두자.",
           "alternatives": [
-            { "en": "Turn right at the second intersection.", "ko": "두 번째 교차로에서 우회전하라는 표현." },
-            { "en": "It's the second turn on the right.", "ko": "오른쪽으로 두 번째 꺾는 곳이라는 표현." }
+            {
+              "en": "Turn right at the second intersection.",
+              "ko": "두 번째 교차로에서 우회전하라는 표현."
+            },
+            {
+              "en": "It's the second turn on the right.",
+              "ko": "오른쪽으로 두 번째 꺾는 곳이라는 표현."
+            }
           ]
         },
         {
           "en": "Two blocks down.",
           "ko": "두 블록 아래/앞에 있다는 표현. 'down'은 여기서 길 방향을 따라 앞으로 간다는 의미이다. 'up'도 같은 맥락으로 쓰이며 지도상 방향에 따라 구분된다.",
           "alternatives": [
-            { "en": "About two blocks from here.", "ko": "여기서 약 두 블록 거리라는 표현." },
-            { "en": "A couple of blocks further.", "ko": "조금 더 가서 두 블록이라는 표현." }
+            {
+              "en": "About two blocks from here.",
+              "ko": "여기서 약 두 블록 거리라는 표현."
+            },
+            {
+              "en": "A couple of blocks further.",
+              "ko": "조금 더 가서 두 블록이라는 표현."
+            }
           ]
         },
         {
           "en": "On the corner.",
           "ko": "모퉁이/코너에 있다는 표현. 'on the corner of A and B'처럼 두 도로명을 함께 쓰면 더 정확한 위치를 나타낼 수 있다.",
           "alternatives": [
-            { "en": "At the corner.", "ko": "'on the corner'와 같은 뜻으로 모퉁이에 있다는 표현." },
-            { "en": "Right at the intersection.", "ko": "바로 교차로에 있다는 표현." }
+            {
+              "en": "At the corner.",
+              "ko": "'on the corner'와 같은 뜻으로 모퉁이에 있다는 표현."
+            },
+            {
+              "en": "Right at the intersection.",
+              "ko": "바로 교차로에 있다는 표현."
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch14_d09",
       "title": "길 잃었을 때 여기가 어디인지 묻기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, I'm totally lost. Can you tell me where I am?", "ko": "실례합니다, 길을 완전히 잃었어요. 여기가 어딘지 알려주시겠어요?" },
-        { "speaker": "행인", "en": "Oh no! You're on King Street, near the central park.", "ko": "이런! 킹 스트리트예요, 중앙 공원 근처고요." },
-        { "speaker": "나", "en": "King Street — could you show me on my phone map?", "ko": "킹 스트리트요 — 제 휴대폰 지도에서 보여주시겠어요?" },
-        { "speaker": "행인", "en": "Of course. Look, we're right here on the map.", "ko": "물론이죠. 보세요, 지도에서 우리가 바로 여기 있어요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, I'm totally lost. Can you tell me where I am?",
+          "ko": "실례합니다, 길을 완전히 잃었어요. 여기가 어딘지 알려주시겠어요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Oh no! You're on King Street, near the central park.",
+          "ko": "이런! 킹 스트리트예요, 중앙 공원 근처고요."
+        },
+        {
+          "speaker": "나",
+          "en": "King Street — could you show me on my phone map?",
+          "ko": "킹 스트리트요 — 제 휴대폰 지도에서 보여주시겠어요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Of course. Look, we're right here on the map.",
+          "ko": "물론이죠. 보세요, 지도에서 우리가 바로 여기 있어요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'm totally lost.",
           "ko": "완전히 길을 잃었다는 표현. 'lost'만으로도 충분하지만 'totally'를 더하면 얼마나 방향을 잃었는지 강조된다. 낯선 곳에서 도움을 구할 때 적극적으로 쓸 수 있는 표현.",
           "alternatives": [
-            { "en": "I've lost my way.", "ko": "길을 잃었다는 정중한 표현." },
-            { "en": "I'm not sure where I am.", "ko": "지금 어디 있는지 모르겠다는 표현." }
+            {
+              "en": "I've lost my way.",
+              "ko": "길을 잃었다는 정중한 표현."
+            },
+            {
+              "en": "I'm not sure where I am.",
+              "ko": "지금 어디 있는지 모르겠다는 표현."
+            }
           ]
         },
         {
           "en": "Can you tell me where I am?",
           "ko": "현재 위치를 알려달라는 표현. 'Where am I?'보다 더 공손한 형태이다. 지도를 꺼내서 물어보면 상대방이 더 쉽게 도와줄 수 있다.",
           "alternatives": [
-            { "en": "Where am I right now?", "ko": "지금 내가 어디 있냐는 더 직접적인 표현." },
-            { "en": "Can you help me find my location?", "ko": "현재 위치를 찾는 데 도움을 달라는 표현." }
+            {
+              "en": "Where am I right now?",
+              "ko": "지금 내가 어디 있냐는 더 직접적인 표현."
+            },
+            {
+              "en": "Can you help me find my location?",
+              "ko": "현재 위치를 찾는 데 도움을 달라는 표현."
+            }
           ]
         },
         {
           "en": "Could you show me on my phone map?",
           "ko": "자신의 스마트폰 지도에서 보여달라는 요청. 스마트폰을 내밀면서 이 표현을 쓰면 말이 잘 안 통해도 효과적으로 소통할 수 있다.",
           "alternatives": [
-            { "en": "Can you point to it on my map?", "ko": "지도에서 가리켜달라는 표현." },
-            { "en": "Could you show me on this app?", "ko": "이 앱에서 보여달라는 표현." }
+            {
+              "en": "Can you point to it on my map?",
+              "ko": "지도에서 가리켜달라는 표현."
+            },
+            {
+              "en": "Could you show me on this app?",
+              "ko": "이 앱에서 보여달라는 표현."
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch14_d10",
       "title": "랜드마크 기준으로 위치 확인하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, is the hotel next to the church?", "ko": "실례합니다, 그 호텔이 교회 옆에 있나요?" },
-        { "speaker": "행인", "en": "Yes, it's right next to the old church on the main square.", "ko": "네, 메인 광장에 있는 오래된 교회 바로 옆이에요." },
-        { "speaker": "나", "en": "Perfect, I know where the main square is. Thank you!", "ko": "잘 됐네요, 메인 광장이 어딘지 알아요. 감사합니다!" },
-        { "speaker": "행인", "en": "Glad I could help. You'll see the church spire from a distance.", "ko": "도움이 됐다니 기쁘네요. 멀리서도 교회 첨탑이 보일 거예요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, is the hotel next to the church?",
+          "ko": "실례합니다, 그 호텔이 교회 옆에 있나요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Yes, it's right next to the old church on the main square.",
+          "ko": "네, 메인 광장에 있는 오래된 교회 바로 옆이에요."
+        },
+        {
+          "speaker": "나",
+          "en": "Perfect, I know where the main square is. Thank you!",
+          "ko": "잘 됐네요, 메인 광장이 어딘지 알아요. 감사합니다!"
+        },
+        {
+          "speaker": "행인",
+          "en": "Glad I could help. You'll see the church spire from a distance.",
+          "ko": "도움이 됐다니 기쁘네요. 멀리서도 교회 첨탑이 보일 거예요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "It's next to ~.",
           "ko": "~의 바로 옆에 있다는 표현. 'across from(맞은편)'과 혼동하기 쉬운 표현으로, 'next to'는 나란히 붙어 있는 경우에 사용한다.",
           "alternatives": [
-            { "en": "It's right beside ~.", "ko": "~의 바로 옆에 있다는 표현으로 'next to'보다 강조하는 느낌." },
-            { "en": "It's adjacent to ~.", "ko": "~에 인접해 있다는 더 격식 있는 표현." }
+            {
+              "en": "It's right beside ~.",
+              "ko": "~의 바로 옆에 있다는 표현으로 'next to'보다 강조하는 느낌."
+            },
+            {
+              "en": "It's adjacent to ~.",
+              "ko": "~에 인접해 있다는 더 격식 있는 표현."
+            }
           ]
         },
         {
           "en": "Next to the old church on the main square.",
           "ko": "랜드마크를 기준으로 위치를 설명하는 방식. 교회, 광장, 탑 같은 눈에 띄는 건물을 기준점으로 사용하면 위치를 훨씬 쉽게 전달할 수 있다.",
           "alternatives": [
-            { "en": "By the fountain in the town square.", "ko": "광장 분수대 옆이라는 랜드마크 기준 표현." },
-            { "en": "Near the big clock tower.", "ko": "큰 시계탑 근처라는 랜드마크 기준 표현." }
+            {
+              "en": "By the fountain in the town square.",
+              "ko": "광장 분수대 옆이라는 랜드마크 기준 표현."
+            },
+            {
+              "en": "Near the big clock tower.",
+              "ko": "큰 시계탑 근처라는 랜드마크 기준 표현."
+            }
           ]
         },
         {
           "en": "You'll see it from a distance.",
           "ko": "멀리서도 보인다는 표현. 큰 건물이나 탑, 첨탑처럼 눈에 잘 띄는 랜드마크를 설명할 때 쓴다. 'from a distance'는 '멀리서'라는 뜻이다.",
           "alternatives": [
-            { "en": "It's hard to miss.", "ko": "놓치기 어려울 정도로 눈에 잘 띈다는 표현." },
-            { "en": "You can spot it from far away.", "ko": "멀리서도 발견할 수 있다는 표현." }
+            {
+              "en": "It's hard to miss.",
+              "ko": "놓치기 어려울 정도로 눈에 잘 띈다는 표현."
+            },
+            {
+              "en": "You can spot it from far away.",
+              "ko": "멀리서도 발견할 수 있다는 표현."
+            }
           ]
         }
       ]
@@ -525,6 +865,1473 @@
           "question": "'The museum will be on your left.'에서 'on your left'는 걷는 방향 기준으로 왼쪽에 있다는 뜻이다.",
           "answerIndex": 0,
           "explanation": "참입니다. 'on your left/right'는 안내받는 사람이 걷고 있는 방향을 기준으로 왼쪽/오른쪽을 나타냅니다. 지도의 동서남북 방향과 달리 이동 방향 기준이므로 헷갈리지 않도록 주의해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch14_set02_001",
+          "type": "multiple_choice",
+          "question": "시청까지 가는 경로 전체를 물어볼 때 가장 적절한 표현은?",
+          "options": [
+            "Can you tell me the way to the city hall?",
+            "Is the city hall open today?",
+            "What is the city hall made of?",
+            "How big is the city hall?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you tell me the way to ~?'는 'How do I get to ~?'와 같이 목적지까지 가는 경로를 묻는 표현입니다. 나머지는 영업 여부, 재질, 크기를 묻는 전혀 다른 질문입니다."
+        },
+        {
+          "id": "se_ch14_set02_002",
+          "type": "multiple_choice",
+          "question": "걸어갈 수 있는 거리인지 더 간단하게 묻는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Can I walk there?",
+            "Can I swim there?",
+            "Is walking allowed?",
+            "Do you walk often?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I walk there?'는 'Is it within walking distance?'보다 간단하게 걸어갈 수 있는지 묻는 표현입니다. 나머지는 수영, 보행 허가, 개인 습관을 묻는 엉뚱한 표현들입니다."
+        },
+        {
+          "id": "se_ch14_set02_003",
+          "type": "multiple_choice",
+          "question": "'It's opposite the bank.'에서 'opposite'의 의미로 올바른 것은?",
+          "options": [
+            "은행 맞은편",
+            "은행 뒤쪽",
+            "은행 안쪽",
+            "은행 근처"
+          ],
+          "answerIndex": 0,
+          "explanation": "'opposite'은 'across from'과 같은 뜻으로, 도로나 공간을 사이에 두고 반대편에 있다는 의미입니다. 영국식 영어에서 특히 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch14_set02_004",
+          "type": "multiple_choice",
+          "question": "지도에서 특정 위치를 가리켜달라고 할 때 맞는 표현은?",
+          "options": [
+            "Can you point it out on the map?",
+            "Can you erase the map?",
+            "Can you fold the map?",
+            "Can you buy me a map?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you point it out on the map?'은 지도에서 위치를 손가락으로 가리켜달라는 요청입니다. 지도를 지우거나, 접거나, 사달라는 요청은 길 묻기 상황에 맞지 않습니다."
+        },
+        {
+          "id": "se_ch14_set02_005",
+          "type": "multiple_choice",
+          "question": "가장 가까운 지하철역을 다른 방식으로 물어보는 표현으로 알맞은 것은?",
+          "options": [
+            "Is there a metro station nearby?",
+            "Why is the metro station here?",
+            "Who built the metro station?",
+            "When was the metro station built?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a ~ nearby?'는 근처에 ~이 있냐고 묻는 표현으로 'Where is the nearest ~?'의 간단한 대안 표현입니다. 나머지는 위치와 무관한 이유·사람·시간을 묻는 질문입니다."
+        },
+        {
+          "id": "se_ch14_set02_006",
+          "type": "multiple_choice",
+          "question": "오른쪽 세 번째 길로 들어가라고 안내할 때 올바른 표현은?",
+          "options": [
+            "Take the third street on your right.",
+            "Take the right on your third street.",
+            "Go the third and turn right.",
+            "Third right street, take it."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Take the third street on your right.'는 오른쪽에 나오는 세 번째 길로 가라는 표현입니다. 'Take the [순서] street on your [방향]'이 올바른 구조입니다."
+        },
+        {
+          "id": "se_ch14_set02_007",
+          "type": "multiple_choice",
+          "question": "길 안내를 듣고 '제가 이해한 게 맞나요?'를 확인할 때 상대방이 '맞아요'라고 할 때 쓰는 표현은?",
+          "options": [
+            "That's correct.",
+            "That's incorrect.",
+            "I'm not sure.",
+            "Maybe not."
+          ],
+          "answerIndex": 0,
+          "explanation": "'That's correct.'는 상대방의 이해가 맞다고 확인해주는 표현입니다. 'That's right.', 'Exactly.'도 같은 상황에 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch14_set02_008",
+          "type": "multiple_choice",
+          "question": "'The station is two blocks from here.'와 같은 의미의 표현은?",
+          "options": [
+            "The station is a couple of blocks away.",
+            "The station is two minutes away.",
+            "The station is two turns away.",
+            "The station is two floors up."
+          ],
+          "answerIndex": 0,
+          "explanation": "'a couple of blocks away'는 'two blocks from here'와 같이 두 블록 거리라는 뜻입니다. 분, 방향 전환, 층수는 블록과 다른 거리 단위입니다."
+        },
+        {
+          "id": "se_ch14_set02_009",
+          "type": "multiple_choice",
+          "question": "미술관이 왼편에 있다는 안내로 알맞은 표현은?",
+          "options": [
+            "The art museum will be on your left.",
+            "The art museum will be on your right.",
+            "The art museum is above you.",
+            "The art museum is behind you."
+          ],
+          "answerIndex": 0,
+          "explanation": "'on your left'는 걷는 방향 기준으로 왼편에 있다는 표현입니다. 길 안내에서 'on your left/right'는 이동 방향을 기준으로 하기 때문에 정확히 구분해야 합니다."
+        },
+        {
+          "id": "se_ch14_set02_010",
+          "type": "multiple_choice",
+          "question": "랜드마크를 기준으로 호텔 위치를 설명할 때 자연스러운 표현은?",
+          "options": [
+            "The hotel is right next to the old church.",
+            "The hotel is very old next to the church.",
+            "The old church is inside the hotel.",
+            "Next the hotel the church is old."
+          ],
+          "answerIndex": 0,
+          "explanation": "'right next to'는 바로 옆에 있다는 표현입니다. 랜드마크(교회)를 기준점으로 삼아 목적지(호텔)의 위치를 설명하는 자연스러운 방식입니다."
+        },
+        {
+          "id": "se_ch14_set02_011",
+          "type": "ox",
+          "question": "'Not too far.'는 '너무 멀지 않다'는 의미로 가깝긴 하지만 꽤 걸릴 수도 있다는 뉘앙스를 담고 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Not too far.'는 'It's close.'보다 현실적인 표현으로, 걸어갈 만하지만 아주 가깝지는 않을 수도 있다는 뉘앙스를 담고 있어 안심시키면서도 솔직한 표현입니다."
+        },
+        {
+          "id": "se_ch14_set02_012",
+          "type": "ox",
+          "question": "'Follow the signs.'에서 'signs'는 도로 표지판과 화살표 표지판 모두를 포함한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'signs'는 도로 표지판, 방향 화살표, 안내판 등 다양한 종류의 표지를 모두 포함하는 단어입니다. 여행 중 방향을 잃지 않기 위한 유용한 표현입니다."
+        },
+        {
+          "id": "se_ch14_set02_013",
+          "type": "ox",
+          "question": "'You can't miss it.'은 그 장소를 지나쳐서는 안 된다는 경고 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'You can't miss it.'은 경고가 아니라 '눈에 잘 띄어서 쉽게 찾을 거예요'라고 안심시키는 표현입니다. 직역하면 '놓칠 수 없다'이지만 실제 의미는 '금방 보일 거예요'입니다."
+        },
+        {
+          "id": "se_ch14_set02_014",
+          "type": "ox",
+          "question": "'on foot'은 걸어서라는 의미로 'by foot'보다 더 표준적인 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'on foot'이 'by foot'보다 훨씬 더 자연스럽고 표준적인 표현입니다. 교통수단을 나타낼 때 'by bus', 'by train'처럼 'by'를 쓰지만, 걸어서는 'on foot'이 관용 표현으로 굳어져 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch14_set03_001",
+          "type": "multiple_choice",
+          "question": "어느 방향으로 가야 하는지 묻는 표현으로 가장 적절한 것은?",
+          "options": [
+            "Which way is it to the station?",
+            "Who is at the station?",
+            "What time does the station close?",
+            "Why is the station here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Which way is it to ~?'는 어느 방향으로 가야 하는지 묻는 표현입니다. 'How do I get to ~?'의 대안 표현으로 방향을 중심으로 묻습니다."
+        },
+        {
+          "id": "se_ch14_set03_002",
+          "type": "multiple_choice",
+          "question": "'It's just around the corner.'가 뜻하는 것은?",
+          "options": [
+            "바로 코앞에 있어요.",
+            "모퉁이를 돌면 아직 멀어요.",
+            "모퉁이가 어디 있는지 몰라요.",
+            "코너를 돌 수 없어요."
+          ],
+          "answerIndex": 0,
+          "explanation": "'just around the corner'는 바로 코앞, 아주 가까이에 있다는 관용 표현입니다. 'Not too far.'보다 더 가까울 때 사용하며 매우 안심시키는 표현입니다."
+        },
+        {
+          "id": "se_ch14_set03_003",
+          "type": "multiple_choice",
+          "question": "길 건너편에 있다는 표현으로 'across from'과 바꿔 쓸 수 있는 것은?",
+          "options": [
+            "opposite",
+            "next to",
+            "behind",
+            "above"
+          ],
+          "answerIndex": 0,
+          "explanation": "'opposite'는 'across from'과 같이 맞은편에 있다는 뜻입니다. 특히 영국식 영어에서 자주 쓰입니다. 'next to'는 옆, 'behind'는 뒤, 'above'는 위를 나타냅니다."
+        },
+        {
+          "id": "se_ch14_set03_004",
+          "type": "multiple_choice",
+          "question": "스마트폰 지도에서 현재 위치를 보여달라고 할 때 가장 알맞은 표현은?",
+          "options": [
+            "Could you show me on my phone map?",
+            "Could you take my phone?",
+            "Could you call someone on my phone?",
+            "Could you charge my phone?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you show me on my phone map?'는 스마트폰 지도에서 위치를 보여달라는 표현입니다. 스마트폰을 내밀면서 사용하면 언어 장벽이 있어도 효과적으로 소통할 수 있습니다."
+        },
+        {
+          "id": "se_ch14_set03_005",
+          "type": "multiple_choice",
+          "question": "신호등에서 오른쪽으로 꺾으라는 안내의 미국식 캐주얼 표현은?",
+          "options": [
+            "Make a right at the lights.",
+            "Make a right at the stop sign.",
+            "Make a left at the lights.",
+            "Make a U-turn at the lights."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Make a right at the lights.'는 신호등(the lights)에서 우회전하라는 미국식 캐주얼 표현입니다. 'Turn right at the traffic light.'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch14_set03_006",
+          "type": "multiple_choice",
+          "question": "길 안내에서 'Walk straight ahead.'의 뜻은?",
+          "options": [
+            "앞으로 곧장 걸어가세요.",
+            "뒤로 돌아서 걸어가세요.",
+            "천천히 걸어가세요.",
+            "멈추세요."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Walk straight ahead.'는 앞으로 곧장 걸어가라는 표현입니다. 'Go straight'나 'Keep going straight'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch14_set03_007",
+          "type": "multiple_choice",
+          "question": "'I'm totally lost.'와 비슷한 의미의 표현은?",
+          "options": [
+            "I've lost my way.",
+            "I've lost my wallet.",
+            "I'm totally tired.",
+            "I lost the game."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I've lost my way.'는 'I'm totally lost.'와 같이 길을 잃었다는 의미의 정중한 표현입니다. 나머지는 지갑 분실, 피로, 게임 패배를 나타내는 전혀 다른 표현들입니다."
+        },
+        {
+          "id": "se_ch14_set03_008",
+          "type": "multiple_choice",
+          "question": "두 블록을 다르게 표현한 것으로 가장 알맞은 것은?",
+          "options": [
+            "About two blocks down.",
+            "About two minutes down.",
+            "About two turns away.",
+            "About two streets over."
+          ],
+          "answerIndex": 0,
+          "explanation": "'About two blocks down.'은 약 두 블록 거리라는 표현입니다. 'down'은 길을 따라 앞으로 나아간다는 의미이며, 'two blocks from here'와 같은 뜻입니다."
+        },
+        {
+          "id": "se_ch14_set03_009",
+          "type": "multiple_choice",
+          "question": "멀리서도 잘 보인다는 표현으로 가장 적절한 것은?",
+          "options": [
+            "You can spot it from far away.",
+            "You can hear it from far away.",
+            "You cannot find it.",
+            "It is hidden far away."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You can spot it from far away.'는 멀리서도 발견할 수 있다는 표현으로 'You'll see it from a distance.'와 같은 의미입니다. 큰 랜드마크를 설명할 때 유용합니다."
+        },
+        {
+          "id": "se_ch14_set03_010",
+          "type": "multiple_choice",
+          "question": "이 길을 따라 직진하라는 표현으로 가장 알맞은 것은?",
+          "options": [
+            "Go straight down this street.",
+            "Go left down this street.",
+            "Go back up this street.",
+            "Stop at this street."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Go straight down this street.'는 이 길을 따라 직진하라는 안내입니다. 'down'은 방향 전환 없이 길을 따라 계속 나아가라는 의미를 강조합니다."
+        },
+        {
+          "id": "se_ch14_set03_011",
+          "type": "ox",
+          "question": "'block'은 미국·캐나다 도시에서 건물들이 모인 구역 단위를 뜻하며 거리 측정에 사용된다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'block'은 도시 계획상 건물과 도로로 구획된 구역 단위입니다. 미국과 캐나다에서 일상적인 거리 표현으로 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch14_set03_012",
+          "type": "ox",
+          "question": "'nearest'와 'closest'는 서로 다른 뜻으로, 혼용해서 쓸 수 없다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'nearest'와 'closest'는 모두 '가장 가까운'이라는 같은 뜻이며 자유롭게 바꿔 쓸 수 있습니다. 'Where is the nearest pharmacy?'와 'Where is the closest pharmacy?'는 동일한 표현입니다."
+        },
+        {
+          "id": "se_ch14_set03_013",
+          "type": "ox",
+          "question": "'Keep going straight.'는 계속 직진하라는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Keep going straight.'는 방향을 바꾸지 말고 계속 직진하라는 표현입니다. 'Go straight'와 같은 의미이며 'keep -ing'를 사용해 계속하다는 뉘앙스가 추가됩니다."
+        },
+        {
+          "id": "se_ch14_set03_014",
+          "type": "ox",
+          "question": "'It's on your left.'와 'It's on your right.'는 같은 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'on your left'는 걷는 방향 기준 왼쪽, 'on your right'는 오른쪽을 뜻합니다. 길 안내에서 left(왼쪽)와 right(오른쪽)는 완전히 반대 방향이므로 절대 혼동하면 안 됩니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch14_set04_001",
+          "type": "multiple_choice",
+          "question": "미술관까지 어떻게 가는지 알려달라고 정중하게 부탁할 때 알맞은 표현은?",
+          "options": [
+            "Could you tell me how to get to the art museum?",
+            "Could you build me a route to the art museum?",
+            "Could you drive me to the art museum?",
+            "Could you describe the art museum?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you tell me how to get to ~?'는 목적지까지 가는 방법을 정중하게 부탁하는 표현입니다. 운전해달라거나, 루트를 만들어달라거나, 설명해달라는 것은 다른 의미입니다."
+        },
+        {
+          "id": "se_ch14_set04_002",
+          "type": "multiple_choice",
+          "question": "걷기에 어렵지 않다는 의미의 표현으로 가장 알맞은 것은?",
+          "options": [
+            "It's an easy walk.",
+            "It's a hard walk.",
+            "It's an impossible walk.",
+            "It's a dangerous walk."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's an easy walk.'는 걸어가기 어렵지 않다는 표현으로 'It's walkable.'과 비슷한 의미입니다. 상대방을 안심시킬 때 유용합니다."
+        },
+        {
+          "id": "se_ch14_set04_003",
+          "type": "multiple_choice",
+          "question": "우체국이 슈퍼마켓 맞은편에 있다고 할 때 올바른 표현은?",
+          "options": [
+            "The post office is across from the supermarket.",
+            "The post office is next to the supermarket.",
+            "The post office is behind the supermarket.",
+            "The post office is inside the supermarket."
+          ],
+          "answerIndex": 0,
+          "explanation": "'across from'은 도로를 사이에 두고 반대편에 있다는 표현입니다. 'next to'는 옆, 'behind'는 뒤, 'inside'는 안쪽을 나타내므로 맥락에 따라 구분해야 합니다."
+        },
+        {
+          "id": "se_ch14_set04_004",
+          "type": "multiple_choice",
+          "question": "지도에 위치를 표시해달라고 할 때 알맞은 표현은?",
+          "options": [
+            "Could you mark it on the map for me?",
+            "Could you tear the map for me?",
+            "Could you translate the map for me?",
+            "Could you memorize the map for me?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you mark it on the map for me?'는 지도에 위치를 표시해달라는 요청입니다. 지도를 찢거나, 번역하거나, 외워달라는 것은 상황에 맞지 않는 요청입니다."
+        },
+        {
+          "id": "se_ch14_set04_005",
+          "type": "multiple_choice",
+          "question": "기차역이 여기서 얼마나 멀리 있는지 구체적으로 묻는 표현은?",
+          "options": [
+            "How far is it from here?",
+            "Is it far from here?",
+            "Is it very far?",
+            "How close is it?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How far is it from here?'는 구체적인 거리를 묻는 표현입니다. 'Is it far?'는 단순히 먼지 여부만 묻고, 'How close is it?'는 가까운 정도를 묻는 표현으로 방향이 다릅니다."
+        },
+        {
+          "id": "se_ch14_set04_006",
+          "type": "multiple_choice",
+          "question": "두 블록 직진 후 오른쪽으로 꺾으라는 안내 중 틀린 표현은?",
+          "options": [
+            "Go straight for two blocks and take a left.",
+            "Go straight for two blocks, then turn right.",
+            "Go straight for two blocks and make a right.",
+            "Walk two blocks and turn right."
+          ],
+          "answerIndex": 0,
+          "explanation": "'take a left'는 왼쪽으로 꺾으라는 뜻입니다. 두 블록 직진 후 오른쪽으로 꺾는 안내라면 'turn right', 'make a right'을 사용해야 합니다. 나머지 세 표현은 모두 오른쪽 방향입니다."
+        },
+        {
+          "id": "se_ch14_set04_007",
+          "type": "multiple_choice",
+          "question": "'I'm not sure where I am.'과 가장 비슷한 의미의 표현은?",
+          "options": [
+            "I'm totally lost.",
+            "I'm totally fine.",
+            "I know where I am.",
+            "I'm almost there."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm not sure where I am.'과 'I'm totally lost.'는 모두 현재 위치를 모르고 길을 잃었다는 의미입니다. 전자가 조금 더 정중한 표현이고, 후자는 더 직접적입니다."
+        },
+        {
+          "id": "se_ch14_set04_008",
+          "type": "multiple_choice",
+          "question": "모퉁이에서 보일 거라는 안내 표현으로 알맞은 것은?",
+          "options": [
+            "You'll see it on the corner.",
+            "You'll see it on the roof.",
+            "You'll see it underground.",
+            "You'll see it in the sky."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You'll see it on the corner.'는 모퉁이에서 보일 거라는 안내입니다. 'on the corner'는 건물이나 장소가 교차로 코너에 위치한다는 표현입니다."
+        },
+        {
+          "id": "se_ch14_set04_009",
+          "type": "multiple_choice",
+          "question": "교회 옆에 있는 호텔의 위치를 물어볼 때 알맞은 표현은?",
+          "options": [
+            "Is the hotel next to the church?",
+            "Is the hotel inside the church?",
+            "Is the church next to the hotel?",
+            "Is the hotel far from the church?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is the hotel next to the church?'는 호텔이 교회 옆에 있는지 묻는 올바른 표현입니다. 'next to'는 나란히 붙어 있는 위치 관계를 나타냅니다."
+        },
+        {
+          "id": "se_ch14_set04_010",
+          "type": "multiple_choice",
+          "question": "이 길을 따라 세 블록만 올라가라는 안내의 올바른 표현은?",
+          "options": [
+            "Walk up this road for three blocks.",
+            "Walk down three blocks and stop.",
+            "Walk back three blocks on this road.",
+            "Turn around three times on this road."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Walk up this road for three blocks.'는 이 길을 따라 세 블록 올라가라는 표현입니다. 'walk up'은 길을 따라 위쪽 또는 특정 방향으로 나아가라는 의미입니다."
+        },
+        {
+          "id": "se_ch14_set04_011",
+          "type": "ox",
+          "question": "'Cross the street.'와 'Go across the street.'는 길을 건너라는 같은 의미이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 두 표현 모두 길을 건너라는 의미입니다. 'Just cross the street.'처럼 'just'를 붙이면 간단하고 안심시키는 뉘앙스가 추가됩니다."
+        },
+        {
+          "id": "se_ch14_set04_012",
+          "type": "ox",
+          "question": "'Walk up this road.'는 반드시 오르막길을 올라가라는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Walk up this road.'는 지형상 오르막이 아니어도 지도상 특정 방향(보통 위쪽 또는 앞)으로 길을 따라 가라는 표현입니다. 'up'이 항상 물리적 오르막을 의미하지는 않습니다."
+        },
+        {
+          "id": "se_ch14_set04_013",
+          "type": "ox",
+          "question": "'It's close by.'는 꽤 가깝다는 표현으로 'Not too far.'보다 더 가까운 거리를 암시한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'It's close by.'는 매우 가깝다는 표현으로 'Not too far.'보다 더 가까운 뉘앙스를 담고 있습니다. 'just around the corner'가 가장 가깝고, 그 다음이 'close by', 그 다음이 'not too far' 순입니다."
+        },
+        {
+          "id": "se_ch14_set04_014",
+          "type": "ox",
+          "question": "'Head that way and follow the signs.'에서 'signs'는 노래 가사나 문학적 신호를 의미한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 여기서 'signs'는 도로 표지판, 방향 안내판, 화살표 표지판 등을 의미합니다. 길 안내 맥락에서 'signs'는 항상 교통 및 방향 표지판을 가리킵니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch14_set05_001",
+          "type": "multiple_choice",
+          "question": "호텔까지 가는 길을 공손하게 물어보는 또 다른 방법은?",
+          "options": [
+            "Can you tell me the way to the hotel?",
+            "Can you build the hotel?",
+            "Can you reserve the hotel?",
+            "Can you describe the hotel?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you tell me the way to ~?'는 목적지까지 가는 길을 알려달라는 정중한 표현으로 'How do I get to ~?'의 대안 표현입니다."
+        },
+        {
+          "id": "se_ch14_set05_002",
+          "type": "multiple_choice",
+          "question": "걷기에 충분할 만큼 가까운지 묻는 표현으로 알맞은 것은?",
+          "options": [
+            "Is it close enough to walk?",
+            "Is it fast enough to walk?",
+            "Is it safe enough to walk?",
+            "Is it worth walking?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is it close enough to walk?'는 걸어갈 만큼 충분히 가까운지 묻는 표현입니다. 'Is it within walking distance?'의 대안 표현으로 자연스럽게 사용됩니다."
+        },
+        {
+          "id": "se_ch14_set05_003",
+          "type": "multiple_choice",
+          "question": "길 안내에서 'on the other side of the road'의 정확한 의미는?",
+          "options": [
+            "도로 반대편",
+            "도로 끝",
+            "도로 위",
+            "도로 아래"
+          ],
+          "answerIndex": 0,
+          "explanation": "'on the other side of the road'는 도로의 반대편을 뜻합니다. 길을 건너야 하는 상황에서 사용되며 'across from'과 함께 위치를 더 명확하게 설명합니다."
+        },
+        {
+          "id": "se_ch14_set05_004",
+          "type": "multiple_choice",
+          "question": "현재 위치를 찾는 데 도움을 달라고 할 때 표현은?",
+          "options": [
+            "Can you help me find my location?",
+            "Can you find my phone?",
+            "Can you help me find my keys?",
+            "Can you help me find a restaurant?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you help me find my location?'은 현재 자신의 위치를 파악하는 데 도움을 달라는 표현입니다. 길을 잃었을 때 'I'm totally lost.'와 함께 사용하면 효과적입니다."
+        },
+        {
+          "id": "se_ch14_set05_005",
+          "type": "multiple_choice",
+          "question": "가장 가까운 약국이 어디 있냐고 물을 때 'nearest' 대신 쓸 수 있는 단어는?",
+          "options": [
+            "closest",
+            "farthest",
+            "biggest",
+            "oldest"
+          ],
+          "answerIndex": 0,
+          "explanation": "'closest'는 'nearest'와 완전히 같은 뜻인 '가장 가까운'입니다. 'farthest'는 가장 먼, 'biggest'는 가장 큰, 'oldest'는 가장 오래된 이라는 전혀 다른 의미입니다."
+        },
+        {
+          "id": "se_ch14_set05_006",
+          "type": "multiple_choice",
+          "question": "두 번째 교차로에서 우회전하라는 표현으로 올바른 것은?",
+          "options": [
+            "Turn right at the second intersection.",
+            "Turn left at the second intersection.",
+            "Turn right at the first intersection.",
+            "Go straight at the second intersection."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Turn right at the second intersection.'는 두 번째 교차로에서 우회전하라는 표현입니다. 'Take the second street on your right.'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch14_set05_007",
+          "type": "multiple_choice",
+          "question": "'We're right here.'에서 'right'의 역할은?",
+          "options": [
+            "강조 부사로 '바로'라는 뜻을 더한다.",
+            "방향을 나타내는 '오른쪽'을 뜻한다.",
+            "올바른(correct)이라는 형용사이다.",
+            "권리(right)를 나타내는 명사이다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We're right here.'에서 'right'는 강조 부사로 '바로 여기에'라는 뜻을 더합니다. 방향이나 올바름, 권리를 나타내는 다른 뜻이 아닙니다."
+        },
+        {
+          "id": "se_ch14_set05_008",
+          "type": "multiple_choice",
+          "question": "길 안내를 마치면서 목적지가 쉽게 보일 거라고 할 때 쓰는 표현은?",
+          "options": [
+            "It's hard to miss.",
+            "It's easy to miss.",
+            "It's impossible to find.",
+            "It's difficult to see."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's hard to miss.'는 놓치기 어려울 정도로 눈에 잘 띈다는 표현으로 'You can't miss it.'과 같은 의미입니다. 목적지가 잘 보인다고 안심시킬 때 사용합니다."
+        },
+        {
+          "id": "se_ch14_set05_009",
+          "type": "multiple_choice",
+          "question": "'The bookstore is on the corner of Main Street and Oak Avenue.'에서 위치를 가장 올바르게 설명한 것은?",
+          "options": [
+            "서점은 메인 스트리트와 오크 애비뉴가 만나는 모퉁이에 있다.",
+            "서점은 메인 스트리트 끝에 있다.",
+            "서점은 오크 애비뉴 중간에 있다.",
+            "서점은 두 거리 사이 어딘가에 있다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'on the corner of A and B'는 A와 B 두 도로가 만나는 교차로 코너에 있다는 표현입니다. 두 도로명을 함께 쓰면 정확한 위치를 나타낼 수 있습니다."
+        },
+        {
+          "id": "se_ch14_set05_010",
+          "type": "multiple_choice",
+          "question": "이 길을 따라 계속 앞으로 가라는 표현으로 가장 적절한 것은?",
+          "options": [
+            "Continue along this road.",
+            "Stop along this road.",
+            "Turn back along this road.",
+            "Cross this road."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Continue along this road.'는 이 도로를 따라 계속 가라는 표현입니다. 'Walk up this road', 'Head up this street'과 같이 계속 앞으로 진행하라는 안내입니다."
+        },
+        {
+          "id": "se_ch14_set05_011",
+          "type": "ox",
+          "question": "'Is it a long way from here?'와 'Is it far from here?'는 같은 의미이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 두 표현 모두 목적지가 현재 위치에서 먼지 묻는 표현입니다. 'a long way'와 'far'는 같은 의미로 자유롭게 바꿔 사용할 수 있습니다."
+        },
+        {
+          "id": "se_ch14_set05_012",
+          "type": "ox",
+          "question": "'next to'는 도로를 사이에 두고 반대편에 있다는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'next to'는 나란히 붙어 있는 옆을 뜻합니다. 도로를 사이에 두고 반대편에 있을 때는 'across from'이나 'opposite'를 사용합니다."
+        },
+        {
+          "id": "se_ch14_set05_013",
+          "type": "ox",
+          "question": "'Head that way.'는 저쪽 방향으로 가라는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Head that way.'는 저쪽 방향을 향해 가라는 표현입니다. 'head'는 동사로 특정 방향으로 향한다는 뜻이며 길 안내에서 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch14_set05_014",
+          "type": "ox",
+          "question": "'about a ten-minute walk'와 'about ten minutes on foot'은 서로 다른 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 두 표현 모두 걸어서 약 10분 거리라는 같은 의미입니다. 'a ten-minute walk'는 10분짜리 걷기, 'ten minutes on foot'은 걸어서 10분이라는 뜻으로 동의어 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch14_set06_001",
+          "type": "multiple_choice",
+          "question": "공항까지 가는 방향을 묻는 표현으로 가장 적절한 것은?",
+          "options": [
+            "Which way is it to the airport?",
+            "When does the airport open?",
+            "Which airport is the cheapest?",
+            "Who works at the airport?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Which way is it to ~?'는 어느 방향으로 가야 하는지 묻는 표현입니다. 나머지는 영업시간, 가격, 직원을 묻는 전혀 다른 질문입니다."
+        },
+        {
+          "id": "se_ch14_set06_002",
+          "type": "multiple_choice",
+          "question": "목적지까지 걸어갈 수 있다는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "You can walk there.",
+            "You must run there.",
+            "You cannot walk there.",
+            "You should fly there."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You can walk there.'는 걸어갈 수 있다는 직접적인 표현입니다. 'It's walkable.'과 같은 의미이며 상대방을 안심시킬 때 사용합니다."
+        },
+        {
+          "id": "se_ch14_set06_003",
+          "type": "multiple_choice",
+          "question": "길 건너편으로 향하라는 표현으로 가장 알맞은 것은?",
+          "options": [
+            "Head across the street.",
+            "Head down the street.",
+            "Head back the street.",
+            "Head along the street."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Head across the street.'는 길 건너편으로 향하라는 표현입니다. 'Just cross the street.'와 같은 의미로 목적지가 도로 반대편에 있을 때 사용합니다."
+        },
+        {
+          "id": "se_ch14_set06_004",
+          "type": "multiple_choice",
+          "question": "지도에서 현재 위치를 설명하는 표현으로 올바른 것은?",
+          "options": [
+            "This is where we are.",
+            "This is where we were.",
+            "This is where we will be.",
+            "This is where they are."
+          ],
+          "answerIndex": 0,
+          "explanation": "'This is where we are.'는 우리가 현재 있는 위치가 여기라는 표현입니다. 'We're right here.'와 같은 의미로 지도에서 현재 위치를 가리킬 때 사용합니다."
+        },
+        {
+          "id": "se_ch14_set06_005",
+          "type": "multiple_choice",
+          "question": "가장 가까운 편의점을 어디서 찾을 수 있냐고 묻는 표현은?",
+          "options": [
+            "Where can I find the closest convenience store?",
+            "What can I find at the convenience store?",
+            "Why is the convenience store here?",
+            "When does the convenience store open?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where can I find the closest ~?'는 가장 가까운 ~을 어디서 찾을 수 있냐는 표현입니다. 'Where is the nearest ~?'의 자연스러운 대안 표현입니다."
+        },
+        {
+          "id": "se_ch14_set06_006",
+          "type": "multiple_choice",
+          "question": "왼쪽으로 꺾으라는 표현 중 교차로를 명시한 것은?",
+          "options": [
+            "Take a left turn at the intersection.",
+            "Take a left turn at the pharmacy.",
+            "Make a left at the lights.",
+            "Turn left at the next block."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Take a left turn at the intersection.'은 교차로(intersection)에서 왼쪽으로 돌라는 표현입니다. 'intersection'은 두 도로가 만나는 교차점을 가리킵니다."
+        },
+        {
+          "id": "se_ch14_set06_007",
+          "type": "multiple_choice",
+          "question": "현재 위치를 직접적으로 물어보는 표현으로 가장 알맞은 것은?",
+          "options": [
+            "Where am I right now?",
+            "What am I doing right now?",
+            "Who am I right now?",
+            "Why am I here right now?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where am I right now?'는 현재 자신이 어디 있는지 직접 묻는 표현입니다. 'Can you tell me where I am?'보다 더 간결하고 직접적인 형태입니다."
+        },
+        {
+          "id": "se_ch14_set06_008",
+          "type": "multiple_choice",
+          "question": "조금 더 가서 두 블록이라는 표현으로 알맞은 것은?",
+          "options": [
+            "A couple of blocks further.",
+            "A couple of minutes further.",
+            "A couple of turns further.",
+            "A couple of floors further."
+          ],
+          "answerIndex": 0,
+          "explanation": "'A couple of blocks further.'는 조금 더 가서 두 블록이라는 뜻입니다. 'further'는 더 나아가라는 의미를 더해 조금 더 가야 한다는 뉘앙스를 줍니다."
+        },
+        {
+          "id": "se_ch14_set06_009",
+          "type": "multiple_choice",
+          "question": "큰 시계탑 근처에 있다는 위치 표현으로 알맞은 것은?",
+          "options": [
+            "It's near the big clock tower.",
+            "It's made of a big clock tower.",
+            "It's inside the big clock tower.",
+            "It's replacing the big clock tower."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's near the big clock tower.'는 큰 시계탑 근처에 있다는 랜드마크 기준 위치 표현입니다. 눈에 잘 띄는 건물을 기준점으로 삼으면 위치를 더 쉽게 전달할 수 있습니다."
+        },
+        {
+          "id": "se_ch14_set06_010",
+          "type": "multiple_choice",
+          "question": "'Keep going straight.'와 가장 비슷한 의미의 표현은?",
+          "options": [
+            "Walk straight ahead.",
+            "Turn slightly left.",
+            "Slow down and stop.",
+            "Make a U-turn."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Walk straight ahead.'는 앞으로 곧장 가라는 표현으로 'Keep going straight.'와 같은 의미입니다. 두 표현 모두 방향을 바꾸지 말고 계속 직진하라는 뜻입니다."
+        },
+        {
+          "id": "se_ch14_set06_011",
+          "type": "ox",
+          "question": "'I'm totally lost.'에서 'totally'를 빼도 길을 잃었다는 의미가 전달된다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'I'm lost.'만으로도 길을 잃었다는 의미가 충분히 전달됩니다. 'totally'는 강조 부사로 얼마나 완전히 방향을 잃었는지를 더 강조할 뿐입니다."
+        },
+        {
+          "id": "se_ch14_set06_012",
+          "type": "ox",
+          "question": "'on the corner'와 'at the corner'는 뜻이 다르다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'on the corner'와 'at the corner'는 모두 모퉁이에 있다는 같은 의미입니다. 두 전치사 모두 위치를 나타내는 데 사용되며 자유롭게 바꿔 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch14_set06_013",
+          "type": "ox",
+          "question": "'Go straight for two blocks, then turn right.'에서 방향은 총 두 번 바뀐다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 이 안내에서 방향은 한 번만 바뀝니다. 직진(straight) 후 오른쪽(right)으로 꺾는 것은 한 번의 방향 전환입니다."
+        },
+        {
+          "id": "se_ch14_set06_014",
+          "type": "ox",
+          "question": "'It's about a five-minute walk.'는 걸어서 약 5분 거리라는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'about a [시간]-minute walk'는 걸어서 약 [시간]분 거리라는 표현입니다. 'about'는 대략이라는 의미를 더해 정확한 수치가 아닐 수 있음을 나타냅니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch14_set07_001",
+          "type": "multiple_choice",
+          "question": "목적지까지 가는 방법을 묻는 세 표현 중 나머지 둘과 성격이 다른 하나는?",
+          "options": [
+            "Where is the station?",
+            "How do I get to the station?",
+            "Can you tell me the way to the station?",
+            "Which way is it to the station?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where is the station?'은 위치만 묻는 표현이고, 나머지 세 표현은 모두 경로와 방법을 포함해 묻는 표현입니다. 'How do I get to ~?', 'Can you tell me the way to ~?', 'Which way is it to ~?'는 모두 경로 안내를 요청합니다."
+        },
+        {
+          "id": "se_ch14_set07_002",
+          "type": "multiple_choice",
+          "question": "걸어서 15분이라는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "About fifteen minutes on foot.",
+            "About fifteen minutes by car.",
+            "About fifteen minutes by bike.",
+            "About fifteen minutes by train."
+          ],
+          "answerIndex": 0,
+          "explanation": "'on foot'은 걸어서라는 표현입니다. 'by car'는 차로, 'by bike'는 자전거로, 'by train'은 기차로 각각 다른 교통수단을 나타냅니다."
+        },
+        {
+          "id": "se_ch14_set07_003",
+          "type": "multiple_choice",
+          "question": "'All you need to do is cross the road.'를 간단히 말하면?",
+          "options": [
+            "Just cross the street.",
+            "You need to cross many roads.",
+            "You don't need to cross the road.",
+            "Crossing the road is difficult."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Just cross the street.'는 'All you need to do is cross the road.'를 훨씬 간단히 표현한 것입니다. 'just'가 '그냥, 단지'라는 뜻으로 동작이 매우 간단함을 강조합니다."
+        },
+        {
+          "id": "se_ch14_set07_004",
+          "type": "multiple_choice",
+          "question": "스마트폰 앱에서 위치를 보여달라고 요청하는 표현은?",
+          "options": [
+            "Could you show me on this app?",
+            "Could you download this app?",
+            "Could you delete this app?",
+            "Could you pay for this app?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you show me on this app?'는 이 앱(지도 앱)에서 위치를 보여달라는 요청입니다. 스마트폰을 내밀면서 사용하면 언어 장벽이 있어도 효과적으로 소통할 수 있습니다."
+        },
+        {
+          "id": "se_ch14_set07_005",
+          "type": "multiple_choice",
+          "question": "가장 가까운 병원의 위치를 묻는 표현으로 올바른 것은?",
+          "options": [
+            "Where is the nearest hospital?",
+            "What is the nearest hospital?",
+            "How good is the nearest hospital?",
+            "Why is there a hospital nearby?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where is the nearest ~?'는 가장 가까운 ~의 위치를 묻는 표현입니다. 'What is'는 정체, 'How good is'는 평가, 'Why is there'는 이유를 묻는 다른 질문입니다."
+        },
+        {
+          "id": "se_ch14_set07_006",
+          "type": "multiple_choice",
+          "question": "서점이 오른쪽 두 번째 길의 모퉁이에 있다는 안내로 올바른 것은?",
+          "options": [
+            "The bookstore is on the corner, two blocks down on the right.",
+            "The bookstore is on the corner, two blocks up on the left.",
+            "The bookstore is in the middle, two blocks on the right.",
+            "The bookstore is at the end, two streets on the right."
+          ],
+          "answerIndex": 0,
+          "explanation": "오른쪽으로 두 블록 내려가면 모퉁이에 서점이 있다는 안내입니다. 'on the corner'는 모퉁이에, 'two blocks down'은 두 블록 앞으로, 'on the right'은 오른편에 있다는 위치 정보를 결합한 표현입니다."
+        },
+        {
+          "id": "se_ch14_set07_007",
+          "type": "multiple_choice",
+          "question": "킹 스트리트에 있으며 중앙 공원 근처라는 표현으로 올바른 것은?",
+          "options": [
+            "You're on King Street, near the central park.",
+            "You're on King Street, far from the central park.",
+            "You're off King Street, near the central park.",
+            "You're at King Street, inside the central park."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You're on King Street, near the central park.'는 킹 스트리트에 있으며 중앙 공원 근처에 있다는 표현입니다. 도로명 앞에는 'on'을 사용하고 'near'는 근처를 나타냅니다."
+        },
+        {
+          "id": "se_ch14_set07_008",
+          "type": "multiple_choice",
+          "question": "'You'll pass a nice park along the way.'의 의미는?",
+          "options": [
+            "가는 길에 멋진 공원을 지나게 됩니다.",
+            "공원에서 잠깐 쉬어야 합니다.",
+            "공원이 목적지입니다.",
+            "공원을 피해서 가야 합니다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'pass'는 지나가다는 뜻이고 'along the way'는 가는 도중에라는 표현입니다. 즉, 목적지로 가는 도중에 공원 옆을 지나게 된다는 안내입니다."
+        },
+        {
+          "id": "se_ch14_set07_009",
+          "type": "multiple_choice",
+          "question": "교차로 바로 모퉁이에 있다는 표현은?",
+          "options": [
+            "Right at the intersection.",
+            "Far from the intersection.",
+            "Behind the intersection.",
+            "Under the intersection."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Right at the intersection.'은 교차로 바로 그 자리에 있다는 표현입니다. 'right'이 강조 부사로 쓰여 '바로'라는 의미를 더합니다."
+        },
+        {
+          "id": "se_ch14_set07_010",
+          "type": "multiple_choice",
+          "question": "광장 분수대 옆에 있다는 랜드마크 기준 위치 표현으로 알맞은 것은?",
+          "options": [
+            "It's by the fountain in the town square.",
+            "It's in the fountain in the town square.",
+            "It's above the fountain in the town square.",
+            "It's replacing the fountain in the town square."
+          ],
+          "answerIndex": 0,
+          "explanation": "'by the fountain'은 분수대 옆에 있다는 표현입니다. 'in the town square'는 광장 안에 있다는 위치를 더 구체화해줍니다. 이처럼 눈에 띄는 랜드마크를 기준으로 위치를 설명하면 효과적입니다."
+        },
+        {
+          "id": "se_ch14_set07_011",
+          "type": "ox",
+          "question": "'It's right beside ~.'는 'It's next to ~.'보다 더 강조하는 느낌의 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'right beside'는 'next to'보다 더 강조하는 표현입니다. 'right'가 강조 부사로 쓰여 '바로 옆에'라는 뉘앙스를 강하게 전달합니다."
+        },
+        {
+          "id": "se_ch14_set07_012",
+          "type": "ox",
+          "question": "'Take a right turn.'은 좌회전하라는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Take a right turn.'은 우회전하라는 표현입니다. 좌회전은 'Take a left turn.' 또는 'Turn left.'를 사용합니다."
+        },
+        {
+          "id": "se_ch14_set07_013",
+          "type": "ox",
+          "question": "'You are here.'는 지도 앱이나 안내판에서 현재 위치를 나타내는 표현으로 자주 쓰인다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'You are here.'는 지도 앱, 쇼핑몰 안내판, 관광 지도 등에서 현재 위치를 나타내는 아이콘이나 문구로 매우 자주 사용되는 표현입니다."
+        },
+        {
+          "id": "se_ch14_set07_014",
+          "type": "ox",
+          "question": "'Go straight'와 'Make a U-turn'은 같은 방향을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Go straight'는 앞으로 직진하라는 표현이고, 'Make a U-turn'은 180도 돌아서 반대 방향으로 가라는 표현입니다. 두 표현은 완전히 반대 방향입니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch14_set08_001",
+          "type": "multiple_choice",
+          "question": "박물관까지 가는 방법을 묻는 표현으로 'How do I get to ~?' 외에 알맞은 것은?",
+          "options": [
+            "Can you direct me to the museum?",
+            "Can you build me a route?",
+            "Can you drive me there?",
+            "Is the museum worth visiting?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you direct me to ~?'는 목적지로 안내해달라는 표현으로 길 묻기 상황에서 자연스럽게 사용됩니다. 나머지는 루트 제작, 운전 요청, 방문 가치 질문으로 다른 의미입니다."
+        },
+        {
+          "id": "se_ch14_set08_002",
+          "type": "multiple_choice",
+          "question": "'It's walkable.'과 같은 의미의 표현으로 가장 알맞은 것은?",
+          "options": [
+            "You can walk there.",
+            "You should not walk there.",
+            "Walking is prohibited.",
+            "It's too far to walk."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You can walk there.'는 'It's walkable.'과 같이 걸어갈 수 있다는 표현입니다. 둘 다 상대방에게 도보 이동이 가능하다고 알려줍니다."
+        },
+        {
+          "id": "se_ch14_set08_003",
+          "type": "multiple_choice",
+          "question": "길 건너편에 있다는 표현으로 'across from'과 다른 뜻을 가진 것은?",
+          "options": [
+            "next to",
+            "opposite",
+            "on the other side of the road",
+            "across the street"
+          ],
+          "answerIndex": 0,
+          "explanation": "'next to'는 나란히 붙어 있는 옆을 뜻하며 맞은편과는 다릅니다. 'opposite', 'on the other side of the road', 'across the street'은 모두 'across from'과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch14_set08_004",
+          "type": "multiple_choice",
+          "question": "지도에서 위치를 가리켜달라는 좀 더 구체적인 표현은?",
+          "options": [
+            "Can you point it out on the map?",
+            "Can you read the map aloud?",
+            "Can you translate the map?",
+            "Can you print the map?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you point it out on the map?'는 지도에서 손가락으로 특정 위치를 가리켜달라는 구체적인 요청입니다. 'Could you show me on the map?'보다 더 구체적인 동작을 요청합니다."
+        },
+        {
+          "id": "se_ch14_set08_005",
+          "type": "multiple_choice",
+          "question": "센트럴역이 여기서 두 블록 거리라고 할 때 올바른 표현은?",
+          "options": [
+            "Central Station is two blocks from here.",
+            "Central Station is two miles from here.",
+            "Central Station is two hours from here.",
+            "Central Station is two floors from here."
+          ],
+          "answerIndex": 0,
+          "explanation": "'two blocks from here'는 여기서 두 블록 거리라는 표현입니다. 마일, 시간, 층수는 블록과 다른 거리 또는 시간 단위입니다."
+        },
+        {
+          "id": "se_ch14_set08_006",
+          "type": "multiple_choice",
+          "question": "약국에서 왼쪽으로 꺾으라는 표현으로 알맞은 것은?",
+          "options": [
+            "Turn left at the pharmacy.",
+            "Turn right at the pharmacy.",
+            "Go straight past the pharmacy.",
+            "Stop at the pharmacy."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Turn left at the pharmacy.'는 약국에서 왼쪽으로 꺾으라는 표현입니다. 랜드마크(약국)와 방향(왼쪽)을 함께 제시해 언제, 어느 방향으로 꺾어야 할지 명확히 알려줍니다."
+        },
+        {
+          "id": "se_ch14_set08_007",
+          "type": "multiple_choice",
+          "question": "길을 잃어 현재 위치를 파악하려 할 때 알맞은 표현은?",
+          "options": [
+            "I'm not sure where I am.",
+            "I'm not sure what I want.",
+            "I'm not sure why I'm here.",
+            "I'm not sure who you are."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm not sure where I am.'은 현재 자신이 어디 있는지 모르겠다는 표현으로 길을 잃었을 때 사용합니다. 'I'm totally lost.'보다 좀 더 정중한 표현입니다."
+        },
+        {
+          "id": "se_ch14_set08_008",
+          "type": "multiple_choice",
+          "question": "'Go straight for two blocks, then turn right. After that, turn left at the pharmacy.'에서 방향 전환은 몇 번?",
+          "options": [
+            "두 번 (우회전 한 번, 좌회전 한 번)",
+            "한 번 (우회전만)",
+            "세 번 (직진, 우회전, 좌회전)",
+            "두 번 (좌회전 두 번)"
+          ],
+          "answerIndex": 0,
+          "explanation": "이 안내에서 방향 전환은 두 번입니다. 두 블록 직진 후 오른쪽(우회전 1번), 그 다음 약국에서 왼쪽(좌회전 1번)으로 꺾습니다. 직진은 방향 전환이 아닙니다."
+        },
+        {
+          "id": "se_ch14_set08_009",
+          "type": "multiple_choice",
+          "question": "'It's adjacent to the library.'의 뜻으로 가장 올바른 것은?",
+          "options": [
+            "도서관에 인접해 있어요.",
+            "도서관 맞은편에 있어요.",
+            "도서관 안에 있어요.",
+            "도서관에서 멀리 있어요."
+          ],
+          "answerIndex": 0,
+          "explanation": "'adjacent to'는 인접해 있다는 격식 있는 표현으로 'next to'와 같은 의미입니다. 맞은편은 'across from/opposite', 안쪽은 'inside/in', 멀리는 'far from'을 씁니다."
+        },
+        {
+          "id": "se_ch14_set08_010",
+          "type": "multiple_choice",
+          "question": "표지판을 더 구체적으로 따라가라는 표현으로 알맞은 것은?",
+          "options": [
+            "Just follow the arrows.",
+            "Just follow the people.",
+            "Just follow the noise.",
+            "Just follow your feelings."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Just follow the arrows.'는 화살표를 따라가라는 구체적인 표현입니다. 'Follow the signs.'보다 더 구체적으로 화살표 표지판을 언급합니다."
+        },
+        {
+          "id": "se_ch14_set08_011",
+          "type": "ox",
+          "question": "'Excuse me'는 길을 물을 때 대화를 시작하는 공손한 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Excuse me'는 모르는 사람에게 말을 걸 때 사용하는 공손한 표현으로, 길을 묻거나 도움을 요청하기 전에 반드시 사용하면 좋습니다."
+        },
+        {
+          "id": "se_ch14_set08_012",
+          "type": "ox",
+          "question": "'Make a right.'는 'Turn right.'와 달리 공식적인 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Make a right.'는 'Turn right.'의 캐주얼한(비공식) 표현입니다. 미국에서 일상 대화에서 자주 쓰이는 비격식 표현입니다."
+        },
+        {
+          "id": "se_ch14_set08_013",
+          "type": "ox",
+          "question": "'from a distance'는 멀리서라는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'from a distance'는 멀리서라는 뜻입니다. 'You'll see it from a distance.'는 멀리서도 보일 거라는 표현으로 눈에 잘 띄는 랜드마크를 설명할 때 씁니다."
+        },
+        {
+          "id": "se_ch14_set08_014",
+          "type": "ox",
+          "question": "'It's very easy to spot.'은 목적지를 찾기 어렵다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'easy to spot'은 쉽게 눈에 띈다는 뜻으로 목적지를 찾기 쉽다는 표현입니다. 'You can't miss it.', 'It's hard to miss.'와 같은 의미입니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch14_set09_001",
+          "type": "multiple_choice",
+          "question": "경찰서까지 가는 경로를 묻는 표현으로 알맞은 것은?",
+          "options": [
+            "How do I get to the police station?",
+            "When does the police station close?",
+            "How old is the police station?",
+            "Who works at the police station?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How do I get to ~?'는 목적지까지 가는 경로와 방법을 묻는 핵심 표현입니다. 나머지는 폐관 시간, 나이, 직원을 묻는 전혀 다른 질문입니다."
+        },
+        {
+          "id": "se_ch14_set09_002",
+          "type": "multiple_choice",
+          "question": "'Is it within walking distance?'에 대한 긍정적인 대답으로 알맞은 것은?",
+          "options": [
+            "Yes, it's walkable.",
+            "No, it's very far.",
+            "I don't know.",
+            "You need a taxi."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Yes, it's walkable.'은 걸어갈 수 있다고 긍정적으로 대답하는 표현입니다. 'walkable'은 '걸어갈 수 있는'이라는 형용사입니다."
+        },
+        {
+          "id": "se_ch14_set09_003",
+          "type": "multiple_choice",
+          "question": "반대편에 있다는 표현 중 영국식 영어에서 더 자주 쓰이는 것은?",
+          "options": [
+            "It's opposite the ~.",
+            "It's across from the ~.",
+            "It's next to the ~.",
+            "It's behind the ~."
+          ],
+          "answerIndex": 0,
+          "explanation": "'opposite'는 맞은편을 뜻하는 단어로 'across from'과 같은 의미이지만 영국식 영어에서 더 자주 사용됩니다. 미국식에서는 'across from'이 더 일반적입니다."
+        },
+        {
+          "id": "se_ch14_set09_004",
+          "type": "multiple_choice",
+          "question": "지도에서 현재 위치를 설명할 때 'right'의 역할이 같은 문장은?",
+          "options": [
+            "We're right here on the map.",
+            "Turn right at the corner.",
+            "You're on the right track.",
+            "That's right, thank you."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We're right here.'에서 'right'는 강조 부사입니다. 'We're right here on the map.'도 같은 용법입니다. 'Turn right'의 right는 방향, 'on the right track'의 right는 올바른, 'That's right'의 right는 확인 표현입니다."
+        },
+        {
+          "id": "se_ch14_set09_005",
+          "type": "multiple_choice",
+          "question": "가장 가까운 ATM을 어디서 찾을 수 있냐는 표현으로 알맞은 것은?",
+          "options": [
+            "Where can I find the closest ATM?",
+            "What can I do at the closest ATM?",
+            "How much money is in the ATM?",
+            "When is the ATM available?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where can I find the closest ATM?'는 가장 가까운 ATM의 위치를 묻는 표현입니다. 나머지는 기능, 금액, 이용 시간을 묻는 다른 질문입니다."
+        },
+        {
+          "id": "se_ch14_set09_006",
+          "type": "multiple_choice",
+          "question": "오른쪽에 보이는 두 번째 도로로 들어가라는 안내 표현의 구조는?",
+          "options": [
+            "Take the [순서] street on your [방향].",
+            "Take your [방향] on the [순서] street.",
+            "On your [방향], take the [순서].",
+            "The [순서] on your [방향] street, take."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Take the [순서] street on your [방향].'이 올바른 구조입니다. 예: 'Take the second street on your right.' 순서(second)가 street 앞에 오고, on your [방향]이 뒤에 옵니다."
+        },
+        {
+          "id": "se_ch14_set09_007",
+          "type": "multiple_choice",
+          "question": "'I've lost my way.'와 가장 비슷한 표현은?",
+          "options": [
+            "I'm totally lost.",
+            "I've lost my wallet.",
+            "I'm on the right track.",
+            "I know exactly where I am."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I've lost my way.'와 'I'm totally lost.'는 모두 길을 잃었다는 의미입니다. 전자는 좀 더 정중하고 격식 있는 표현이며, 후자는 더 직접적이고 강조된 표현입니다."
+        },
+        {
+          "id": "se_ch14_set09_008",
+          "type": "multiple_choice",
+          "question": "'Look out for the signs.'가 뜻하는 것은?",
+          "options": [
+            "표지판을 잘 봐두세요.",
+            "표지판을 치우세요.",
+            "표지판을 만들어두세요.",
+            "표지판 없이 가세요."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Look out for ~'는 ~을 잘 살펴보라는 표현입니다. 'Look out for the signs.'는 표지판을 주의 깊게 봐두라는 뜻으로 길을 찾을 때 유용한 안내입니다."
+        },
+        {
+          "id": "se_ch14_set09_009",
+          "type": "multiple_choice",
+          "question": "교회 첨탑이 멀리서도 보일 거라는 안내로 알맞은 것은?",
+          "options": [
+            "You'll see the church spire from a distance.",
+            "You'll hear the church spire from a distance.",
+            "The church spire is invisible.",
+            "The church spire is underground."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You'll see the church spire from a distance.'는 멀리서도 교회 첨탑이 보일 거라는 표현입니다. 'from a distance'는 멀리서라는 뜻으로 눈에 잘 띄는 랜드마크를 설명할 때 사용됩니다."
+        },
+        {
+          "id": "se_ch14_set09_010",
+          "type": "multiple_choice",
+          "question": "길 안내를 이해했다고 확인할 때 상대방이 쓰는 표현 중 'That's correct.'와 같은 의미가 아닌 것은?",
+          "options": [
+            "I'm not sure.",
+            "That's right.",
+            "Exactly.",
+            "Yes, that's it."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm not sure.'는 확신이 없다는 표현으로 'That's correct.'와 반대의 의미입니다. 'That's right.', 'Exactly.', 'Yes, that's it.'는 모두 맞다고 확인해주는 표현들입니다."
+        },
+        {
+          "id": "se_ch14_set09_011",
+          "type": "ox",
+          "question": "'Glad I could help.'는 도움이 됐다니 기쁘다는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Glad I could help.'는 도움이 됐다니 기쁘다는 표현으로 'You're welcome.'의 다른 방식입니다. 길 안내 후 감사 인사를 받았을 때 사용할 수 있습니다."
+        },
+        {
+          "id": "se_ch14_set09_012",
+          "type": "ox",
+          "question": "'two blocks down'에서 'down'은 항상 남쪽 방향을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'two blocks down'에서 'down'은 길을 따라 앞으로 나아간다는 의미이지 반드시 남쪽 방향을 뜻하지는 않습니다. 방향과 무관하게 현재 서 있는 길을 따라 계속 가라는 의미입니다."
+        },
+        {
+          "id": "se_ch14_set09_013",
+          "type": "ox",
+          "question": "'Is it far from here?'에서 'far'는 'free'나 'fast'와 발음이 비슷해 주의가 필요하다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'far(먼)', 'free(무료)', 'fast(빠른)'는 발음이 비슷할 수 있어 헷갈릴 수 있습니다. 특히 영어가 모국어가 아닌 사람들이 말할 때 혼동될 수 있으므로 문맥을 잘 파악해야 합니다."
+        },
+        {
+          "id": "se_ch14_set09_014",
+          "type": "ox",
+          "question": "'You're welcome.'과 'Glad I could help.'는 감사 인사에 대한 응답으로 모두 사용 가능하다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 두 표현 모두 감사 인사에 대한 응답으로 사용됩니다. 'You're welcome.'은 가장 일반적인 표현이고, 'Glad I could help.'는 도움이 됐다는 뿌듯함을 담은 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch14_set10_001",
+          "type": "multiple_choice",
+          "question": "'How do I get to ~?'와 의미가 가장 가까운 것은?",
+          "options": [
+            "Which way is it to the museum?",
+            "Where is the museum located?",
+            "What time does the museum open?",
+            "Is the museum free?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Which way is it to ~?'는 어느 방향으로 가야 하는지 묻는 표현으로 'How do I get to ~?'와 가장 가깝습니다. 'Where is ~?'는 위치만 묻고, 나머지는 개관 시간과 가격을 묻습니다."
+        },
+        {
+          "id": "se_ch14_set10_002",
+          "type": "multiple_choice",
+          "question": "걸어서 갈 수 있다는 의미인 '-able' 형태의 표현은?",
+          "options": [
+            "walkable",
+            "runnable",
+            "driveable",
+            "flyable"
+          ],
+          "answerIndex": 0,
+          "explanation": "'walkable'은 'walk + -able'로 걸어갈 수 있다는 표현입니다. 'It's walkable.'처럼 형용사로 사용되며 'It's within walking distance.'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch14_set10_003",
+          "type": "multiple_choice",
+          "question": "'It faces the park.'에서 'faces'가 의미하는 위치 관계는?",
+          "options": [
+            "공원을 바라보고 있다.",
+            "공원 뒤에 있다.",
+            "공원 안에 있다.",
+            "공원 위에 있다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It faces ~.'는 ~을 바라보고 있다는 표현으로 건물이 특정 방향이나 장소를 향하고 있다는 위치 관계를 나타냅니다. 'across from'과 비슷한 의미로 쓰일 수 있습니다."
+        },
+        {
+          "id": "se_ch14_set10_004",
+          "type": "multiple_choice",
+          "question": "지도에서 현재 위치를 보여달라는 가장 정중한 표현은?",
+          "options": [
+            "Could you show me on the map where we are?",
+            "Show me the map now.",
+            "Give me your map.",
+            "What does this map show?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you show me on the map where we are?'는 지도에서 현재 위치를 보여달라는 정중한 요청입니다. 'Could you'를 사용해 부드럽고 예의 바른 톤을 유지합니다."
+        },
+        {
+          "id": "se_ch14_set10_005",
+          "type": "multiple_choice",
+          "question": "근처에 카페가 있냐고 묻는 간단한 표현으로 알맞은 것은?",
+          "options": [
+            "Is there a café nearby?",
+            "Where can I find the farthest café?",
+            "What is in the café?",
+            "Is the café good?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a ~ nearby?'는 근처에 ~이 있냐고 묻는 간단한 위치 질문입니다. 'Where is the nearest ~?'보다 더 간단한 표현으로 자유롭게 바꿔 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch14_set10_006",
+          "type": "multiple_choice",
+          "question": "오른쪽 두 번째 길로 들어가라는 표현 중 올바른 것은?",
+          "options": [
+            "It's the second turn on the right.",
+            "It's the second turn on the left.",
+            "It's the first turn on the right.",
+            "It's the third turn on the right."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's the second turn on the right.'는 오른쪽으로 두 번째 꺾는 곳이라는 표현으로 'Take the second street on your right.'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch14_set10_007",
+          "type": "multiple_choice",
+          "question": "현재 킹 스트리트에 있다고 알려줄 때의 표현으로 알맞은 것은?",
+          "options": [
+            "You're on King Street.",
+            "You're in King Street.",
+            "You're at King Street.",
+            "You're by King Street."
+          ],
+          "answerIndex": 0,
+          "explanation": "도로명 앞에는 전치사 'on'을 사용합니다. 'You're on King Street.'처럼 'on + 도로명'이 올바른 표현입니다. 'in'은 건물 안, 'at'은 특정 지점, 'by'는 근처를 나타냅니다."
+        },
+        {
+          "id": "se_ch14_set10_008",
+          "type": "multiple_choice",
+          "question": "미술관이 왼편에 있을 거라는 안내 후 상대방이 이해한 내용을 확인해줄 때 쓰는 표현은?",
+          "options": [
+            "Exactly.",
+            "Absolutely not.",
+            "I don't think so.",
+            "Maybe."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Exactly.'는 정확하다는 강한 긍정 표현으로 'That's correct.', 'That's right.'와 같은 의미입니다. 상대방의 이해가 맞다고 확실히 확인해줄 때 사용합니다."
+        },
+        {
+          "id": "se_ch14_set10_009",
+          "type": "multiple_choice",
+          "question": "건물이 두 도로의 교차로 모퉁이에 있다는 표현으로 가장 정확한 것은?",
+          "options": [
+            "It's on the corner of First Street and Park Avenue.",
+            "It's in the corner of First Street and Park Avenue.",
+            "It's at the end of First Street and Park Avenue.",
+            "It's between First Street and Park Avenue."
+          ],
+          "answerIndex": 0,
+          "explanation": "'on the corner of A and B'가 두 도로가 만나는 모퉁이에 있다는 표현입니다. 'in the corner'는 실내 모서리에, 'at the end of'는 도로 끝에, 'between'은 두 곳 사이에 있다는 다른 표현입니다."
+        },
+        {
+          "id": "se_ch14_set10_010",
+          "type": "multiple_choice",
+          "question": "'You'll see the city hall from a distance.'와 같은 의미의 표현은?",
+          "options": [
+            "The city hall is easy to spot.",
+            "The city hall is hard to find.",
+            "The city hall is hidden.",
+            "The city hall is underground."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You'll see it from a distance.'는 멀리서도 보인다는 뜻으로 눈에 잘 띈다는 표현입니다. 'The city hall is easy to spot.'도 같은 의미로 쉽게 발견할 수 있다는 표현입니다."
+        },
+        {
+          "id": "se_ch14_set10_011",
+          "type": "ox",
+          "question": "'Turn left at the traffic light.'에서 'traffic light'는 신호등을 의미한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'traffic light'는 신호등을 뜻합니다. 영국 영어에서는 'traffic lights'(복수), 미국 영어에서는 'traffic light'(단수) 또는 'the lights'라고 표현합니다."
+        },
+        {
+          "id": "se_ch14_set10_012",
+          "type": "ox",
+          "question": "'It's adjacent to ~.'는 'It's next to ~.'보다 격식이 낮은 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'adjacent to'는 'next to'보다 더 격식 있는(formal) 표현입니다. 일상 대화에서는 'next to'가 더 자연스럽고, 공식 문서나 격식 있는 상황에서는 'adjacent to'를 사용합니다."
+        },
+        {
+          "id": "se_ch14_set10_013",
+          "type": "ox",
+          "question": "'Can you point to it on my map?'는 지도에서 위치를 가리켜달라는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Can you point to it on my map?'는 자신의 지도에서 위치를 손가락으로 가리켜달라는 표현입니다. 스마트폰 지도를 내밀면서 사용하면 특히 효과적입니다."
+        },
+        {
+          "id": "se_ch14_set10_014",
+          "type": "ox",
+          "question": "'It's a long way from here.'는 목적지가 가깝다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'It's a long way from here.'는 여기서 멀다는 표현입니다. 반대로 가깝다고 할 때는 'It's not far.', 'It's close by.', 'It's just around the corner.' 등을 사용합니다."
         }
       ]
     }

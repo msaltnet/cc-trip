@@ -7,34 +7,68 @@
       "id": "ch37_d01",
       "title": "접수·진료 예약하기",
       "lines": [
-        { "speaker": "나", "en": "Hello, I'd like to see a doctor, please.", "ko": "안녕하세요, 진료를 받고 싶습니다." },
-        { "speaker": "접수", "en": "Do you have an appointment?", "ko": "예약이 있으신가요?" },
-        { "speaker": "나", "en": "No, I'm a walk-in patient. Is that okay?", "ko": "아니요, 예약 없이 왔습니다. 괜찮을까요?" },
-        { "speaker": "접수", "en": "That's fine. Please fill out this form.", "ko": "괜찮습니다. 이 양식을 작성해 주세요." }
+        {
+          "speaker": "나",
+          "en": "Hello, I'd like to see a doctor, please.",
+          "ko": "안녕하세요, 진료를 받고 싶습니다."
+        },
+        {
+          "speaker": "접수",
+          "en": "Do you have an appointment?",
+          "ko": "예약이 있으신가요?"
+        },
+        {
+          "speaker": "나",
+          "en": "No, I'm a walk-in patient. Is that okay?",
+          "ko": "아니요, 예약 없이 왔습니다. 괜찮을까요?"
+        },
+        {
+          "speaker": "접수",
+          "en": "That's fine. Please fill out this form.",
+          "ko": "괜찮습니다. 이 양식을 작성해 주세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'd like to see a doctor.",
           "ko": "진료를 받고 싶다는 가장 자연스러운 표현. 'I want a doctor.'보다 훨씬 공손하게 들리며, 해외 병원 접수 창구에서 가장 먼저 쓰는 문장.",
           "alternatives": [
-            { "en": "I need to see a doctor.", "ko": "더 긴급한 뉘앙스로 증상이 심각할 때 적합." },
-            { "en": "Can I make an appointment?", "ko": "즉시 진료보다 예약을 잡으려 할 때 쓰는 표현." }
+            {
+              "en": "I need to see a doctor.",
+              "ko": "더 긴급한 뉘앙스로 증상이 심각할 때 적합."
+            },
+            {
+              "en": "Can I make an appointment?",
+              "ko": "즉시 진료보다 예약을 잡으려 할 때 쓰는 표현."
+            }
           ]
         },
         {
           "en": "I'm a walk-in patient.",
           "ko": "예약 없이 방문한 환자를 walk-in patient라고 함. 'without an appointment'라고 풀어 말해도 됨. 병원에 따라 walk-in은 대기 시간이 길 수 있음.",
           "alternatives": [
-            { "en": "I don't have an appointment.", "ko": "예약이 없다는 뜻을 직접 표현하는 방법." },
-            { "en": "Is it possible to be seen today without a booking?", "ko": "예약 없이 당일 진료가 가능한지 정중하게 묻는 표현." }
+            {
+              "en": "I don't have an appointment.",
+              "ko": "예약이 없다는 뜻을 직접 표현하는 방법."
+            },
+            {
+              "en": "Is it possible to be seen today without a booking?",
+              "ko": "예약 없이 당일 진료가 가능한지 정중하게 묻는 표현."
+            }
           ]
         },
         {
           "en": "Please fill out this form.",
           "ko": "접수 직원이 서류 작성을 요청할 때 쓰는 표현. fill out = 양식을 빈칸 없이 채우다. 'fill in this form'도 같은 뜻으로 자주 쓰임.",
           "alternatives": [
-            { "en": "Could you complete this paperwork?", "ko": "조금 더 격식 있는 서류 작성 요청 표현." },
-            { "en": "Please sign and date here.", "ko": "서명과 날짜 기입을 요청하는 부분 지시 표현." }
+            {
+              "en": "Could you complete this paperwork?",
+              "ko": "조금 더 격식 있는 서류 작성 요청 표현."
+            },
+            {
+              "en": "Please sign and date here.",
+              "ko": "서명과 날짜 기입을 요청하는 부분 지시 표현."
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch37_d02",
       "title": "증상 설명하기 — 열·목 통증",
       "lines": [
-        { "speaker": "의사", "en": "What seems to be the problem today?", "ko": "오늘 어디가 불편하신가요?" },
-        { "speaker": "나", "en": "I have a fever and a sore throat.", "ko": "열이 나고 목이 아픕니다." },
-        { "speaker": "의사", "en": "Any other symptoms — cough or runny nose?", "ko": "기침이나 콧물 같은 다른 증상도 있나요?" },
-        { "speaker": "나", "en": "Yes, I've had a mild cough as well.", "ko": "네, 가벼운 기침도 있습니다." }
+        {
+          "speaker": "의사",
+          "en": "What seems to be the problem today?",
+          "ko": "오늘 어디가 불편하신가요?"
+        },
+        {
+          "speaker": "나",
+          "en": "I have a fever and a sore throat.",
+          "ko": "열이 나고 목이 아픕니다."
+        },
+        {
+          "speaker": "의사",
+          "en": "Any other symptoms — cough or runny nose?",
+          "ko": "기침이나 콧물 같은 다른 증상도 있나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Yes, I've had a mild cough as well.",
+          "ko": "네, 가벼운 기침도 있습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I have a fever.",
           "ko": "열이 있다는 의료 표현의 정석. 'I am hot.'은 더위를 느끼는 것이고, 'I have a temperature.'도 같은 뜻이지만 'I have a fever.'가 가장 표준적.",
           "alternatives": [
-            { "en": "I have a temperature.", "ko": "'I have a fever.'와 같은 의미로 영국 영어에서 더 자주 쓰임." },
-            { "en": "My temperature is elevated.", "ko": "체온이 높다는 뜻의 더 격식 있는 표현." }
+            {
+              "en": "I have a temperature.",
+              "ko": "'I have a fever.'와 같은 의미로 영국 영어에서 더 자주 쓰임."
+            },
+            {
+              "en": "My temperature is elevated.",
+              "ko": "체온이 높다는 뜻의 더 격식 있는 표현."
+            }
           ]
         },
         {
           "en": "I have a sore throat.",
           "ko": "목이 아프다는 표현. 'My throat hurts.'도 통하지만 'sore throat'이 의료 용어로 더 정확함. 목이 부어있다면 'swollen throat'이라고 추가할 수 있음.",
           "alternatives": [
-            { "en": "My throat is sore.", "ko": "sore throat을 형용사 구문으로 풀어쓴 표현으로 같은 뜻." },
-            { "en": "My throat hurts when I swallow.", "ko": "삼킬 때 아프다는 구체적인 증상 묘사 표현." }
+            {
+              "en": "My throat is sore.",
+              "ko": "sore throat을 형용사 구문으로 풀어쓴 표현으로 같은 뜻."
+            },
+            {
+              "en": "My throat hurts when I swallow.",
+              "ko": "삼킬 때 아프다는 구체적인 증상 묘사 표현."
+            }
           ]
         },
         {
           "en": "What seems to be the problem?",
           "ko": "의사·간호사가 진료 첫 마디로 자주 쓰는 표현. 직역하면 '어떤 문제가 있는 것 같나요?'이지만 실제로는 '어디가 아프세요?'라는 뜻.",
           "alternatives": [
-            { "en": "What brings you in today?", "ko": "오늘 오게 된 이유를 묻는 또 다른 흔한 표현." },
-            { "en": "How can I help you today?", "ko": "더 일반적인 서비스 표현이지만 의료 현장에서도 자주 쓰임." }
+            {
+              "en": "What brings you in today?",
+              "ko": "오늘 오게 된 이유를 묻는 또 다른 흔한 표현."
+            },
+            {
+              "en": "How can I help you today?",
+              "ko": "더 일반적인 서비스 표현이지만 의료 현장에서도 자주 쓰임."
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch37_d03",
       "title": "증상이 시작된 시점 말하기",
       "lines": [
-        { "speaker": "의사", "en": "How long have you been feeling this way?", "ko": "이런 증상이 얼마나 됐나요?" },
-        { "speaker": "나", "en": "Since yesterday evening. It started suddenly.", "ko": "어제 저녁부터요. 갑자기 시작됐어요." },
-        { "speaker": "의사", "en": "Have you taken any medication for it?", "ko": "약을 드신 것이 있나요?" },
-        { "speaker": "나", "en": "I took some ibuprofen this morning.", "ko": "오늘 아침에 이부프로펜을 먹었습니다." }
+        {
+          "speaker": "의사",
+          "en": "How long have you been feeling this way?",
+          "ko": "이런 증상이 얼마나 됐나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Since yesterday evening. It started suddenly.",
+          "ko": "어제 저녁부터요. 갑자기 시작됐어요."
+        },
+        {
+          "speaker": "의사",
+          "en": "Have you taken any medication for it?",
+          "ko": "약을 드신 것이 있나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "I took some ibuprofen this morning.",
+          "ko": "오늘 아침에 이부프로펜을 먹었습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Since yesterday evening.",
           "ko": "증상 시작 시점을 말할 때 'since + 시점'을 사용. 'I've had this since yesterday.'처럼 현재완료와 함께 쓰는 것이 가장 자연스러움. 'For two days.'처럼 기간으로도 말할 수 있음.",
           "alternatives": [
-            { "en": "For about two days.", "ko": "시작 시점 대신 기간으로 표현하는 방법. 'about'으로 대략적인 기간을 나타냄." },
-            { "en": "It started this morning.", "ko": "오늘 아침에 시작됐다는 더 구체적인 시점 표현." }
+            {
+              "en": "For about two days.",
+              "ko": "시작 시점 대신 기간으로 표현하는 방법. 'about'으로 대략적인 기간을 나타냄."
+            },
+            {
+              "en": "It started this morning.",
+              "ko": "오늘 아침에 시작됐다는 더 구체적인 시점 표현."
+            }
           ]
         },
         {
           "en": "It started suddenly.",
           "ko": "증상이 갑자기 시작됐다는 표현. 반대로 서서히 시작됐다면 'It came on gradually.'라고 말함. 증상의 양상을 설명하면 의사가 더 정확하게 진단하는 데 도움이 됨.",
           "alternatives": [
-            { "en": "It came on gradually.", "ko": "증상이 서서히 나타났다는 표현으로 'suddenly'의 반대." },
-            { "en": "I woke up with it.", "ko": "아침에 일어났을 때 증상이 있었다는 표현." }
+            {
+              "en": "It came on gradually.",
+              "ko": "증상이 서서히 나타났다는 표현으로 'suddenly'의 반대."
+            },
+            {
+              "en": "I woke up with it.",
+              "ko": "아침에 일어났을 때 증상이 있었다는 표현."
+            }
           ]
         },
         {
           "en": "Have you taken any medication?",
           "ko": "의사가 복용 약을 확인할 때 쓰는 표현. 자가 복용 약(OTC)이나 처방약을 모두 포함함. 복용 약이 없으면 'Nothing so far.'라고 답하면 됨.",
           "alternatives": [
-            { "en": "Are you on any medications?", "ko": "현재 복용 중인 약이 있는지 묻는 표현." },
-            { "en": "Have you tried anything for it?", "ko": "어떤 조치를 취해봤는지 넓게 묻는 표현." }
+            {
+              "en": "Are you on any medications?",
+              "ko": "현재 복용 중인 약이 있는지 묻는 표현."
+            },
+            {
+              "en": "Have you tried anything for it?",
+              "ko": "어떤 조치를 취해봤는지 넓게 묻는 표현."
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch37_d04",
       "title": "통증 위치와 정도 표현하기",
       "lines": [
-        { "speaker": "의사", "en": "Can you show me where it hurts?", "ko": "어디가 아픈지 가리켜 주시겠어요?" },
-        { "speaker": "나", "en": "It hurts here, on my right side.", "ko": "여기, 오른쪽이 아픕니다." },
-        { "speaker": "의사", "en": "On a scale of one to ten, how bad is the pain?", "ko": "1에서 10 사이로 통증 정도를 말씀해 주시겠어요?" },
-        { "speaker": "나", "en": "I'd say about a six. It's quite sharp.", "ko": "6 정도요. 꽤 날카로운 통증입니다." }
+        {
+          "speaker": "의사",
+          "en": "Can you show me where it hurts?",
+          "ko": "어디가 아픈지 가리켜 주시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "It hurts here, on my right side.",
+          "ko": "여기, 오른쪽이 아픕니다."
+        },
+        {
+          "speaker": "의사",
+          "en": "On a scale of one to ten, how bad is the pain?",
+          "ko": "1에서 10 사이로 통증 정도를 말씀해 주시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "I'd say about a six. It's quite sharp.",
+          "ko": "6 정도요. 꽤 날카로운 통증입니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "It hurts here.",
           "ko": "아픈 부위를 가리키며 쓰는 핵심 표현. 말과 함께 손으로 부위를 짚으면 의사소통이 훨씬 쉬워짐. 'here' 대신 'in my stomach', 'in my chest' 등 신체 부위로 대체 가능.",
           "alternatives": [
-            { "en": "The pain is here.", "ko": "'It hurts here.'와 같은 뜻의 명사 구문 표현." },
-            { "en": "I have pain in my lower back.", "ko": "통증 부위를 신체 명칭으로 구체적으로 표현하는 방법." }
+            {
+              "en": "The pain is here.",
+              "ko": "'It hurts here.'와 같은 뜻의 명사 구문 표현."
+            },
+            {
+              "en": "I have pain in my lower back.",
+              "ko": "통증 부위를 신체 명칭으로 구체적으로 표현하는 방법."
+            }
           ]
         },
         {
           "en": "On a scale of one to ten, how bad is the pain?",
           "ko": "해외 병원에서 통증 강도를 숫자로 표현하도록 요청하는 표준 질문. 1이 통증 없음, 10이 최악의 통증. 이 척도를 VAS(Visual Analogue Scale) 또는 pain scale이라고 함.",
           "alternatives": [
-            { "en": "How severe is your pain?", "ko": "통증이 얼마나 심한지 물어보는 더 간단한 표현." },
-            { "en": "Is it a dull ache or sharp pain?", "ko": "통증의 성질(둔한/날카로운)을 구분해 묻는 표현." }
+            {
+              "en": "How severe is your pain?",
+              "ko": "통증이 얼마나 심한지 물어보는 더 간단한 표현."
+            },
+            {
+              "en": "Is it a dull ache or sharp pain?",
+              "ko": "통증의 성질(둔한/날카로운)을 구분해 묻는 표현."
+            }
           ]
         },
         {
           "en": "It's quite sharp.",
           "ko": "날카로운 통증을 표현하는 단어 'sharp'. 반대로 묵직한 통증은 'dull ache', 쑤시는 통증은 'throbbing', 타는 듯한 통증은 'burning'이라고 함. 정확한 단어를 쓰면 진단에 도움이 됨.",
           "alternatives": [
-            { "en": "It's a dull, constant ache.", "ko": "묵직하고 지속적인 통증을 묘사하는 표현." },
-            { "en": "It's throbbing.", "ko": "심장이 뛰듯 욱신거리는 통증을 나타내는 표현." }
+            {
+              "en": "It's a dull, constant ache.",
+              "ko": "묵직하고 지속적인 통증을 묘사하는 표현."
+            },
+            {
+              "en": "It's throbbing.",
+              "ko": "심장이 뛰듯 욱신거리는 통증을 나타내는 표현."
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch37_d05",
       "title": "아이 환자 데려가기",
       "lines": [
-        { "speaker": "나", "en": "My daughter is sick. She has a rash on her arms.", "ko": "딸이 아픕니다. 팔에 발진이 났어요." },
-        { "speaker": "간호사", "en": "How old is she?", "ko": "몇 살인가요?" },
-        { "speaker": "나", "en": "She's five years old.", "ko": "다섯 살입니다." },
-        { "speaker": "간호사", "en": "Does she have any known allergies?", "ko": "알려진 알레르기가 있나요?" }
+        {
+          "speaker": "나",
+          "en": "My daughter is sick. She has a rash on her arms.",
+          "ko": "딸이 아픕니다. 팔에 발진이 났어요."
+        },
+        {
+          "speaker": "간호사",
+          "en": "How old is she?",
+          "ko": "몇 살인가요?"
+        },
+        {
+          "speaker": "나",
+          "en": "She's five years old.",
+          "ko": "다섯 살입니다."
+        },
+        {
+          "speaker": "간호사",
+          "en": "Does she have any known allergies?",
+          "ko": "알려진 알레르기가 있나요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "My daughter is sick.",
           "ko": "아이가 아프다고 알리는 표현. 아들은 'My son is sick.' 아기는 'My baby is sick.' 증상도 함께 말하면 접수 속도가 빨라짐.",
           "alternatives": [
-            { "en": "My son isn't feeling well.", "ko": "아들이 몸이 좋지 않다는 조금 더 부드러운 표현." },
-            { "en": "My child has a high fever.", "ko": "아이에게 고열이 있다는 긴급한 증상 표현." }
+            {
+              "en": "My son isn't feeling well.",
+              "ko": "아들이 몸이 좋지 않다는 조금 더 부드러운 표현."
+            },
+            {
+              "en": "My child has a high fever.",
+              "ko": "아이에게 고열이 있다는 긴급한 증상 표현."
+            }
           ]
         },
         {
           "en": "She has a rash on her arms.",
           "ko": "발진(rash)은 여행 중 아이에게 흔한 증상. 'on her arms'처럼 부위를 함께 말하면 도움이 됨. 두드러기는 hives, 벌레 물린 자국은 insect bites라고 함.",
           "alternatives": [
-            { "en": "She broke out in a rash.", "ko": "발진이 생겼다는 표현으로 'broke out'은 갑자기 나타났다는 뉘앙스." },
-            { "en": "She has hives all over her body.", "ko": "온몸에 두드러기가 났다는 표현." }
+            {
+              "en": "She broke out in a rash.",
+              "ko": "발진이 생겼다는 표현으로 'broke out'은 갑자기 나타났다는 뉘앙스."
+            },
+            {
+              "en": "She has hives all over her body.",
+              "ko": "온몸에 두드러기가 났다는 표현."
+            }
           ]
         },
         {
           "en": "Does she have any known allergies?",
           "ko": "의료진이 알레르기 병력을 확인할 때 쓰는 표현. 'known'은 이미 알고 있는이라는 뜻. 알레르기가 없으면 'None that we know of.'라고 답하면 됨.",
           "alternatives": [
-            { "en": "Is she allergic to anything?", "ko": "알레르기 여부를 더 간단하게 묻는 표현." },
-            { "en": "Does she have any medical conditions?", "ko": "알레르기를 포함한 기저질환 전반을 묻는 표현." }
+            {
+              "en": "Is she allergic to anything?",
+              "ko": "알레르기 여부를 더 간단하게 묻는 표현."
+            },
+            {
+              "en": "Does she have any medical conditions?",
+              "ko": "알레르기를 포함한 기저질환 전반을 묻는 표현."
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch37_d06",
       "title": "알레르기·기저질환 알리기",
       "lines": [
-        { "speaker": "의사", "en": "Are you allergic to any medications?", "ko": "약물 알레르기가 있으신가요?" },
-        { "speaker": "나", "en": "Yes, I'm allergic to penicillin.", "ko": "네, 페니실린에 알레르기가 있습니다." },
-        { "speaker": "의사", "en": "Do you have any other medical conditions?", "ko": "다른 기저질환은 있으신가요?" },
-        { "speaker": "나", "en": "I have high blood pressure and I take medication for it.", "ko": "고혈압이 있어서 약을 복용 중입니다." }
+        {
+          "speaker": "의사",
+          "en": "Are you allergic to any medications?",
+          "ko": "약물 알레르기가 있으신가요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Yes, I'm allergic to penicillin.",
+          "ko": "네, 페니실린에 알레르기가 있습니다."
+        },
+        {
+          "speaker": "의사",
+          "en": "Do you have any other medical conditions?",
+          "ko": "다른 기저질환은 있으신가요?"
+        },
+        {
+          "speaker": "나",
+          "en": "I have high blood pressure and I take medication for it.",
+          "ko": "고혈압이 있어서 약을 복용 중입니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'm allergic to penicillin.",
           "ko": "알레르기를 알릴 때 'I'm allergic to + 물질'이 기본 패턴. 페니실린은 항생제의 일종으로 여행 중 알레르기가 있다면 반드시 의사에게 알려야 함. 아스피린은 aspirin, 설파제는 sulfa drugs.",
           "alternatives": [
-            { "en": "I have a penicillin allergy.", "ko": "명사 표현으로 바꾼 같은 뜻의 문장." },
-            { "en": "Penicillin gives me a severe reaction.", "ko": "페니실린에 심한 반응이 있다는 더 구체적인 표현." }
+            {
+              "en": "I have a penicillin allergy.",
+              "ko": "명사 표현으로 바꾼 같은 뜻의 문장."
+            },
+            {
+              "en": "Penicillin gives me a severe reaction.",
+              "ko": "페니실린에 심한 반응이 있다는 더 구체적인 표현."
+            }
           ]
         },
         {
           "en": "I have high blood pressure.",
           "ko": "고혈압은 high blood pressure 또는 hypertension. 당뇨는 diabetes, 천식은 asthma. 해외 의료진에게 기저질환을 정확히 알려야 안전한 치료를 받을 수 있음.",
           "alternatives": [
-            { "en": "I'm diabetic.", "ko": "당뇨가 있다는 표현으로 형용사 diabetic을 사용." },
-            { "en": "I have asthma.", "ko": "천식이 있다는 표현." }
+            {
+              "en": "I'm diabetic.",
+              "ko": "당뇨가 있다는 표현으로 형용사 diabetic을 사용."
+            },
+            {
+              "en": "I have asthma.",
+              "ko": "천식이 있다는 표현."
+            }
           ]
         },
         {
           "en": "I take medication for it.",
           "ko": "해당 질환으로 약을 복용 중이라는 표현. 구체적인 약 이름을 말하기 어려우면 '약 봉투를 보여주면서' 'This is the medication I'm on.'이라고 하면 됨.",
           "alternatives": [
-            { "en": "I'm on medication for that.", "ko": "'be on medication'은 약을 복용 중이라는 관용 표현." },
-            { "en": "I brought my prescription with me.", "ko": "처방전을 가져왔다는 표현으로 복용약 확인에 유용." }
+            {
+              "en": "I'm on medication for that.",
+              "ko": "'be on medication'은 약을 복용 중이라는 관용 표현."
+            },
+            {
+              "en": "I brought my prescription with me.",
+              "ko": "처방전을 가져왔다는 표현으로 복용약 확인에 유용."
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch37_d07",
       "title": "진료·검사 안내 듣기",
       "lines": [
-        { "speaker": "의사", "en": "I'll examine you now. Please lie down.", "ko": "지금 진찰하겠습니다. 누우세요." },
-        { "speaker": "나", "en": "Of course. Should I take off my shirt?", "ko": "알겠습니다. 셔츠를 벗을까요?" },
-        { "speaker": "의사", "en": "Yes, please. I'd also like to run a blood test.", "ko": "네, 부탁드립니다. 혈액 검사도 하고 싶습니다." },
-        { "speaker": "나", "en": "Okay. How long will the results take?", "ko": "알겠습니다. 결과가 나오는 데 얼마나 걸리나요?" }
+        {
+          "speaker": "의사",
+          "en": "I'll examine you now. Please lie down.",
+          "ko": "지금 진찰하겠습니다. 누우세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Of course. Should I take off my shirt?",
+          "ko": "알겠습니다. 셔츠를 벗을까요?"
+        },
+        {
+          "speaker": "의사",
+          "en": "Yes, please. I'd also like to run a blood test.",
+          "ko": "네, 부탁드립니다. 혈액 검사도 하고 싶습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Okay. How long will the results take?",
+          "ko": "알겠습니다. 결과가 나오는 데 얼마나 걸리나요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'll examine you.",
           "ko": "의사가 진찰하겠다고 말하는 표현. examine = 몸을 살펴보다, check up도 비슷하게 쓰임. 진찰 중 아프면 'That hurts.'라고 즉시 알리면 됨.",
           "alternatives": [
-            { "en": "Let me check you over.", "ko": "전반적으로 진찰하겠다는 구어체 표현." },
-            { "en": "I need to take a look.", "ko": "살펴보겠다는 더 비공식적인 표현." }
+            {
+              "en": "Let me check you over.",
+              "ko": "전반적으로 진찰하겠다는 구어체 표현."
+            },
+            {
+              "en": "I need to take a look.",
+              "ko": "살펴보겠다는 더 비공식적인 표현."
+            }
           ]
         },
         {
           "en": "I'd like to run a blood test.",
           "ko": "혈액 검사를 하겠다는 표현. 'run a test'는 검사를 실시하다는 뜻. 소변 검사는 urine test, X레이는 X-ray, CT 스캔은 CT scan이라고 함.",
           "alternatives": [
-            { "en": "We need to take some blood.", "ko": "채혈이 필요하다는 직접적인 표현." },
-            { "en": "I'd like to order some tests.", "ko": "여러 검사를 주문하겠다는 표현으로 order = 검사를 처방하다." }
+            {
+              "en": "We need to take some blood.",
+              "ko": "채혈이 필요하다는 직접적인 표현."
+            },
+            {
+              "en": "I'd like to order some tests.",
+              "ko": "여러 검사를 주문하겠다는 표현으로 order = 검사를 처방하다."
+            }
           ]
         },
         {
           "en": "How long will the results take?",
           "ko": "검사 결과가 나오는 데 걸리는 시간을 묻는 표현. 'When will I get the results?'도 같은 뜻. 여행 일정이 있으므로 미리 확인하는 것이 중요.",
           "alternatives": [
-            { "en": "When will I get the results?", "ko": "결과를 언제 받을 수 있는지 묻는 표현." },
-            { "en": "Can I get the results today?", "ko": "당일 결과 수령이 가능한지 묻는 표현." }
+            {
+              "en": "When will I get the results?",
+              "ko": "결과를 언제 받을 수 있는지 묻는 표현."
+            },
+            {
+              "en": "Can I get the results today?",
+              "ko": "당일 결과 수령이 가능한지 묻는 표현."
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch37_d08",
       "title": "처방전 받기",
       "lines": [
-        { "speaker": "의사", "en": "I'm going to prescribe you some antibiotics.", "ko": "항생제를 처방해 드리겠습니다." },
-        { "speaker": "나", "en": "Can I have a written prescription, please?", "ko": "처방전을 종이로 주실 수 있나요?" },
-        { "speaker": "의사", "en": "Of course. Take one tablet three times a day with food.", "ko": "물론이죠. 식후에 하루 세 번 한 정씩 드세요." },
-        { "speaker": "나", "en": "Should I finish the full course even if I feel better?", "ko": "나아지더라도 끝까지 다 먹어야 하나요?" }
+        {
+          "speaker": "의사",
+          "en": "I'm going to prescribe you some antibiotics.",
+          "ko": "항생제를 처방해 드리겠습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Can I have a written prescription, please?",
+          "ko": "처방전을 종이로 주실 수 있나요?"
+        },
+        {
+          "speaker": "의사",
+          "en": "Of course. Take one tablet three times a day with food.",
+          "ko": "물론이죠. 식후에 하루 세 번 한 정씩 드세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Should I finish the full course even if I feel better?",
+          "ko": "나아지더라도 끝까지 다 먹어야 하나요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "Can I have a written prescription?",
           "ko": "처방전(prescription)을 종이로 달라는 요청. 여행자는 처방전을 받아야 약국에서 약을 살 수 있고, 여행자 보험 청구 시 서류로도 활용할 수 있음.",
           "alternatives": [
-            { "en": "Could you write me a prescription?", "ko": "처방전을 써달라는 정중한 요청 표현." },
-            { "en": "I'll need a prescription to get this at a pharmacy.", "ko": "약국에서 약을 사려면 처방전이 필요하다는 상황 설명." }
+            {
+              "en": "Could you write me a prescription?",
+              "ko": "처방전을 써달라는 정중한 요청 표현."
+            },
+            {
+              "en": "I'll need a prescription to get this at a pharmacy.",
+              "ko": "약국에서 약을 사려면 처방전이 필요하다는 상황 설명."
+            }
           ]
         },
         {
           "en": "I'm going to prescribe you some antibiotics.",
           "ko": "항생제(antibiotics)를 처방한다는 표현. prescribe = 처방하다. 진통제는 painkillers, 해열제는 fever reducer 또는 antipyretic, 항히스타민제는 antihistamine.",
           "alternatives": [
-            { "en": "I'll give you a prescription for antibiotics.", "ko": "처방전을 주겠다는 같은 의미의 표현." },
-            { "en": "You need a course of antibiotics.", "ko": "항생제 치료가 필요하다는 말로, course = 치료 기간 동안의 복용량." }
+            {
+              "en": "I'll give you a prescription for antibiotics.",
+              "ko": "처방전을 주겠다는 같은 의미의 표현."
+            },
+            {
+              "en": "You need a course of antibiotics.",
+              "ko": "항생제 치료가 필요하다는 말로, course = 치료 기간 동안의 복용량."
+            }
           ]
         },
         {
           "en": "Take one tablet three times a day with food.",
           "ko": "복약 지도의 기본 패턴: Take + 용량 + 빈도 + 조건. 'with food'는 식후에, 'on an empty stomach'은 공복에, 'at bedtime'은 취침 전. 반드시 확인하고 메모해두자.",
           "alternatives": [
-            { "en": "Take two capsules twice daily.", "ko": "하루 두 번 캡슐 두 알씩 복용하라는 지시 표현." },
-            { "en": "Take it as needed for pain.", "ko": "통증이 있을 때 필요에 따라 복용하라는 표현." }
+            {
+              "en": "Take two capsules twice daily.",
+              "ko": "하루 두 번 캡슐 두 알씩 복용하라는 지시 표현."
+            },
+            {
+              "en": "Take it as needed for pain.",
+              "ko": "통증이 있을 때 필요에 따라 복용하라는 표현."
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch37_d09",
       "title": "진단서·보험 서류 요청하기",
       "lines": [
-        { "speaker": "나", "en": "I need a medical certificate for my travel insurance claim.", "ko": "여행자보험 청구를 위해 진단서가 필요합니다." },
-        { "speaker": "의사", "en": "I can provide that. What details does your insurance require?", "ko": "발급해 드릴 수 있습니다. 보험사에서 요구하는 내용이 무엇인가요?" },
-        { "speaker": "나", "en": "They need the diagnosis and the dates of treatment.", "ko": "진단명과 치료 날짜가 필요합니다." },
-        { "speaker": "의사", "en": "No problem. I'll have it ready before you leave.", "ko": "문제없습니다. 가시기 전에 준비해 드리겠습니다." }
+        {
+          "speaker": "나",
+          "en": "I need a medical certificate for my travel insurance claim.",
+          "ko": "여행자보험 청구를 위해 진단서가 필요합니다."
+        },
+        {
+          "speaker": "의사",
+          "en": "I can provide that. What details does your insurance require?",
+          "ko": "발급해 드릴 수 있습니다. 보험사에서 요구하는 내용이 무엇인가요?"
+        },
+        {
+          "speaker": "나",
+          "en": "They need the diagnosis and the dates of treatment.",
+          "ko": "진단명과 치료 날짜가 필요합니다."
+        },
+        {
+          "speaker": "의사",
+          "en": "No problem. I'll have it ready before you leave.",
+          "ko": "문제없습니다. 가시기 전에 준비해 드리겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I need a medical certificate for my travel insurance claim.",
           "ko": "여행자보험 청구를 위한 진단서를 요청하는 핵심 문장. medical certificate = 진단서. 보험 청구 시 이 서류가 없으면 보험금을 받기 어려울 수 있으니 반드시 요청해야 함.",
           "alternatives": [
-            { "en": "Can I get a doctor's note for insurance purposes?", "ko": "보험 목적으로 의사 소견서를 요청하는 표현." },
-            { "en": "I'd like documentation of my diagnosis.", "ko": "진단 내용을 서면으로 달라는 표현." }
+            {
+              "en": "Can I get a doctor's note for insurance purposes?",
+              "ko": "보험 목적으로 의사 소견서를 요청하는 표현."
+            },
+            {
+              "en": "I'd like documentation of my diagnosis.",
+              "ko": "진단 내용을 서면으로 달라는 표현."
+            }
           ]
         },
         {
           "en": "They need the diagnosis and the dates of treatment.",
           "ko": "보험사가 요구하는 내용을 구체적으로 설명하는 표현. diagnosis = 진단명, dates of treatment = 치료 날짜. 보험사마다 요구하는 서류가 다르므로 미리 확인해두는 것이 좋음.",
           "alternatives": [
-            { "en": "The insurance company requires a detailed report.", "ko": "보험사가 상세 보고서를 요구한다는 표현." },
-            { "en": "They need proof of my visit and treatment.", "ko": "방문 및 치료 사실 증명이 필요하다는 표현." }
+            {
+              "en": "The insurance company requires a detailed report.",
+              "ko": "보험사가 상세 보고서를 요구한다는 표현."
+            },
+            {
+              "en": "They need proof of my visit and treatment.",
+              "ko": "방문 및 치료 사실 증명이 필요하다는 표현."
+            }
           ]
         },
         {
           "en": "I'll have it ready before you leave.",
           "ko": "떠나기 전에 준비해주겠다는 의사의 말. 서류 발급에 시간이 걸릴 수 있으므로 퇴원 전에 미리 요청하는 것이 중요. 추후 우편으로 받아야 하는 경우 이메일 주소를 알려주면 됨.",
           "alternatives": [
-            { "en": "We'll get that sorted for you.", "ko": "처리해 드리겠다는 영국식 구어체 표현." },
-            { "en": "Can you come back in an hour to collect it?", "ko": "한 시간 후에 수령하러 오라는 안내 표현." }
+            {
+              "en": "We'll get that sorted for you.",
+              "ko": "처리해 드리겠다는 영국식 구어체 표현."
+            },
+            {
+              "en": "Can you come back in an hour to collect it?",
+              "ko": "한 시간 후에 수령하러 오라는 안내 표현."
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch37_d10",
       "title": "비용 확인·결제하기",
       "lines": [
-        { "speaker": "나", "en": "How much will this cost?", "ko": "비용이 얼마인가요?" },
-        { "speaker": "접수", "en": "The consultation fee is eighty dollars.", "ko": "진료비는 80달러입니다." },
-        { "speaker": "나", "en": "Do you accept credit cards?", "ko": "신용카드로 결제할 수 있나요?" },
-        { "speaker": "접수", "en": "Yes, we accept all major cards. Would you like a receipt?", "ko": "네, 모든 주요 카드를 받습니다. 영수증이 필요하신가요?" }
+        {
+          "speaker": "나",
+          "en": "How much will this cost?",
+          "ko": "비용이 얼마인가요?"
+        },
+        {
+          "speaker": "접수",
+          "en": "The consultation fee is eighty dollars.",
+          "ko": "진료비는 80달러입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Do you accept credit cards?",
+          "ko": "신용카드로 결제할 수 있나요?"
+        },
+        {
+          "speaker": "접수",
+          "en": "Yes, we accept all major cards. Would you like a receipt?",
+          "ko": "네, 모든 주요 카드를 받습니다. 영수증이 필요하신가요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "How much will this cost?",
           "ko": "진료 전 또는 후에 비용을 확인하는 표현. 해외 의료비는 매우 비쌀 수 있으므로 치료 전에 미리 확인하는 습관이 중요. 여행자보험이 있다면 보험사 연락처를 가지고 있어야 함.",
           "alternatives": [
-            { "en": "What's the total charge?", "ko": "총 청구 금액을 묻는 표현." },
-            { "en": "Can I get an itemized bill?", "ko": "항목별로 나뉜 청구서를 요청하는 표현. 보험 청구 시 필요할 수 있음." }
+            {
+              "en": "What's the total charge?",
+              "ko": "총 청구 금액을 묻는 표현."
+            },
+            {
+              "en": "Can I get an itemized bill?",
+              "ko": "항목별로 나뉜 청구서를 요청하는 표현. 보험 청구 시 필요할 수 있음."
+            }
           ]
         },
         {
           "en": "Do you accept credit cards?",
           "ko": "신용카드 결제 가능 여부를 묻는 표현. 해외 병원에서 현금만 받는 경우도 있으므로 미리 확인해야 함. 'Do you take cards?'로 짧게 물어볼 수도 있음.",
           "alternatives": [
-            { "en": "Can I pay by card?", "ko": "카드로 결제할 수 있는지 더 간단하게 묻는 표현." },
-            { "en": "Is cash only?", "ko": "현금만 받는지 확인하는 표현." }
+            {
+              "en": "Can I pay by card?",
+              "ko": "카드로 결제할 수 있는지 더 간단하게 묻는 표현."
+            },
+            {
+              "en": "Is cash only?",
+              "ko": "현금만 받는지 확인하는 표현."
+            }
           ]
         },
         {
           "en": "Would you like a receipt?",
           "ko": "영수증(receipt)이 필요한지 묻는 표현. 여행자보험 청구를 위해 반드시 영수증을 받아야 함. 'Could I have a receipt, please?'라고 먼저 요청하는 것도 좋음.",
           "alternatives": [
-            { "en": "Could I have a receipt, please?", "ko": "영수증을 달라고 먼저 요청하는 표현." },
-            { "en": "I'll need a receipt for insurance.", "ko": "보험 목적으로 영수증이 필요하다는 이유를 밝히는 표현." }
+            {
+              "en": "Could I have a receipt, please?",
+              "ko": "영수증을 달라고 먼저 요청하는 표현."
+            },
+            {
+              "en": "I'll need a receipt for insurance.",
+              "ko": "보험 목적으로 영수증이 필요하다는 이유를 밝히는 표현."
+            }
           ]
         }
       ]
@@ -525,6 +865,1473 @@
           "question": "'walk-in patient'는 사전에 예약을 하고 방문한 환자를 가리키는 말이다.",
           "answerIndex": 1,
           "explanation": "아닙니다. 'walk-in patient'는 예약 없이 방문한 환자를 가리킵니다. 반대로 예약을 하고 방문한 환자는 'scheduled patient' 또는 'patient with an appointment'라고 합니다. walk-in은 그냥 걸어 들어온다는 뜻입니다."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch37_set02_001",
+          "type": "multiple_choice",
+          "question": "예약 없이 병원에 방문한 경우, 접수 창구에서 자신을 어떻게 소개해야 할까요?",
+          "options": [
+            "I have a booking for today.",
+            "I'm a walk-in patient.",
+            "I reserved a slot online.",
+            "I have an appointment at noon."
+          ],
+          "answerIndex": 1,
+          "explanation": "'walk-in patient'는 예약 없이 방문한 환자를 가리키는 표현입니다. 나머지 표현들은 모두 예약이 있는 경우에 해당하므로 틀렸습니다."
+        },
+        {
+          "id": "se_ch37_set02_002",
+          "type": "multiple_choice",
+          "question": "의사에게 목이 아프다고 말할 때 가장 정확한 의료 표현은?",
+          "options": [
+            "My neck is painful.",
+            "I have a sore throat.",
+            "My voice hurts.",
+            "I feel rough in the mouth."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I have a sore throat.'이 목 통증을 나타내는 정확한 의료 표현입니다. 'My neck is painful.'은 목(경부) 통증에 가깝고, 'My voice hurts.'는 비표준 표현이며, 'I feel rough in the mouth.'는 의료 영어로 적절하지 않습니다."
+        },
+        {
+          "id": "se_ch37_set02_003",
+          "type": "multiple_choice",
+          "question": "증상이 오늘 아침에 갑자기 시작됐다고 말할 때 가장 자연스러운 표현은?",
+          "options": [
+            "It started suddenly this morning.",
+            "I was sudden sick this morning.",
+            "The sudden was this morning.",
+            "Morning was when I sudden feel."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It started suddenly this morning.'은 문법적으로 올바르고 자연스러운 표현입니다. 나머지는 모두 문법적으로 틀린 표현입니다."
+        },
+        {
+          "id": "se_ch37_set02_004",
+          "type": "multiple_choice",
+          "question": "의사에게 왼쪽 옆구리가 아프다고 말할 때 적절한 표현은?",
+          "options": [
+            "I have pain in my left side.",
+            "My left hurts the body.",
+            "Pain is at left.",
+            "The left place is ill."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I have pain in my left side.'는 아픈 부위를 신체 명칭으로 명확하게 표현하는 방법입니다. 나머지 표현들은 어색하거나 문법적으로 틀렸습니다."
+        },
+        {
+          "id": "se_ch37_set02_005",
+          "type": "multiple_choice",
+          "question": "통증의 성질을 묻는 의사의 질문에서, 욱신거리는 통증을 나타내는 영어 단어는?",
+          "options": [
+            "burning",
+            "sharp",
+            "throbbing",
+            "dull"
+          ],
+          "answerIndex": 2,
+          "explanation": "'throbbing'은 심장이 뛰듯 욱신거리는 통증을 나타냅니다. 'burning'은 타는 듯한 통증, 'sharp'는 날카로운 통증, 'dull'은 묵직한 통증을 의미합니다."
+        },
+        {
+          "id": "se_ch37_set02_006",
+          "type": "multiple_choice",
+          "question": "고혈압이 있다고 의사에게 알릴 때 올바른 표현은?",
+          "options": [
+            "My blood is very high.",
+            "I have high blood pressure.",
+            "My pressure blood is high.",
+            "High blood is my condition."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I have high blood pressure.'는 고혈압을 나타내는 표준 의료 표현입니다. 'hypertension'도 같은 의미로 쓰입니다. 나머지는 문법적으로 틀렸거나 비표준 표현입니다."
+        },
+        {
+          "id": "se_ch37_set02_007",
+          "type": "multiple_choice",
+          "question": "의사가 혈액 검사 외에 소변 검사를 권했습니다. 영어로 소변 검사는?",
+          "options": [
+            "blood test",
+            "urine test",
+            "X-ray",
+            "CT scan"
+          ],
+          "answerIndex": 1,
+          "explanation": "소변 검사는 'urine test'입니다. 'blood test'는 혈액 검사, 'X-ray'는 방사선 검사, 'CT scan'은 컴퓨터 단층촬영입니다."
+        },
+        {
+          "id": "se_ch37_set02_008",
+          "type": "multiple_choice",
+          "question": "의사가 항생제를 처방하겠다고 말했습니다. 'I'm going to prescribe you some antibiotics.'에서 'prescribe'의 뜻은?",
+          "options": [
+            "설명하다",
+            "거절하다",
+            "처방하다",
+            "주문하다"
+          ],
+          "answerIndex": 2,
+          "explanation": "'prescribe'는 '처방하다'라는 뜻의 의료 동사입니다. 처방전은 'prescription'이라고 합니다."
+        },
+        {
+          "id": "se_ch37_set02_009",
+          "type": "multiple_choice",
+          "question": "보험 청구에 필요한 서류로 '방문 및 치료 사실 증명'을 요청할 때 적절한 표현은?",
+          "options": [
+            "I need proof of my visit and treatment.",
+            "Give me a hospital paper.",
+            "Write something about my sickness.",
+            "I want a stamp from the doctor."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need proof of my visit and treatment.'는 방문과 치료 사실을 증명하는 서류를 정확하게 요청하는 표현입니다. 나머지 표현들은 너무 모호하거나 비전문적입니다."
+        },
+        {
+          "id": "se_ch37_set02_010",
+          "type": "multiple_choice",
+          "question": "병원에서 항목별로 나뉜 청구서를 요청할 때 쓰는 표현은?",
+          "options": [
+            "Can I get an itemized bill?",
+            "Show me all the costs.",
+            "List everything I paid.",
+            "Give me my money details."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get an itemized bill?'은 항목별로 나뉜 청구서를 요청하는 정확한 표현입니다. 보험 청구 시 필요한 경우가 많습니다. 나머지 표현들은 어색하거나 비전문적입니다."
+        },
+        {
+          "id": "se_ch37_set02_011",
+          "type": "ox",
+          "question": "'I have a temperature.'는 'I have a fever.'와 같은 의미로 쓰일 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'I have a temperature.'는 체온이 높다는 뜻으로 'I have a fever.'와 같은 의미입니다. 특히 영국 영어에서 자주 쓰이는 표현입니다."
+        },
+        {
+          "id": "se_ch37_set02_012",
+          "type": "ox",
+          "question": "해외 병원에서 처방전(prescription) 없이도 항생제를 자유롭게 구입할 수 있다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 해외 대부분의 나라에서 항생제는 전문의약품이므로 의사의 처방전 없이는 약국에서 구입할 수 없습니다. 반드시 진찰 후 처방전을 받아야 합니다."
+        },
+        {
+          "id": "se_ch37_set02_013",
+          "type": "ox",
+          "question": "복약 지도에서 'with food'는 공복에 복용하라는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'with food'는 음식과 함께, 즉 식후 또는 식사 중에 복용하라는 뜻입니다. 공복에 복용하라는 표현은 'on an empty stomach'입니다."
+        },
+        {
+          "id": "se_ch37_set02_014",
+          "type": "ox",
+          "question": "해외 병원 결제 시 영수증(receipt)은 여행자보험 청구에 필요한 서류 중 하나이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 여행자보험 청구 시 영수증(receipt)은 치료 비용을 증명하는 중요한 서류입니다. 반드시 결제 후 영수증을 받아두어야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch37_set03_001",
+          "type": "multiple_choice",
+          "question": "접수 창구에서 더 긴급하게 진료가 필요하다는 뉘앙스로 말하려면 어떤 표현이 적합한가요?",
+          "options": [
+            "I'd like to see a doctor.",
+            "I need to see a doctor.",
+            "Can I make an appointment?",
+            "I want to wait for a doctor."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I need to see a doctor.'는 'I'd like to see a doctor.'보다 더 긴급한 뉘앙스를 줍니다. 'Can I make an appointment?'는 예약을 잡으려는 표현이고, 나머지는 덜 적합합니다."
+        },
+        {
+          "id": "se_ch37_set03_002",
+          "type": "multiple_choice",
+          "question": "의사에게 '기침도 있습니다'라고 말할 때 올바른 표현은?",
+          "options": [
+            "I have a cough.",
+            "My cough is coming.",
+            "Cough is in my throat.",
+            "I feel coughing all day."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I have a cough.'는 기침이 있다는 표준 표현입니다. 'I've been coughing.'도 자연스러운 표현입니다. 나머지는 문법적으로 틀리거나 어색합니다."
+        },
+        {
+          "id": "se_ch37_set03_003",
+          "type": "multiple_choice",
+          "question": "증상이 이틀 정도 됐다고 말할 때 적절한 표현은?",
+          "options": [
+            "For about two days.",
+            "Two days since.",
+            "Since two days.",
+            "About two days before."
+          ],
+          "answerIndex": 0,
+          "explanation": "'For about two days.'는 기간을 표현하는 정확한 방법입니다. 'since'는 특정 시점 앞에 와야 하므로 'since two days'는 틀렸습니다. 'about'은 대략의 기간을 나타냅니다."
+        },
+        {
+          "id": "se_ch37_set03_004",
+          "type": "multiple_choice",
+          "question": "의사가 'Can you show me where it hurts?'라고 묻고 있습니다. 이 질문의 의미는?",
+          "options": [
+            "통증이 언제부터 시작됐는지 묻는 것",
+            "통증의 강도를 숫자로 표현해 달라는 것",
+            "아픈 부위를 가리켜 달라는 것",
+            "통증 치료 방법을 선택해 달라는 것"
+          ],
+          "answerIndex": 2,
+          "explanation": "'show me where it hurts'는 아픈 부위를 직접 보여주거나 가리켜 달라는 요청입니다. 말과 함께 손으로 부위를 짚으면 의사소통이 훨씬 쉬워집니다."
+        },
+        {
+          "id": "se_ch37_set03_005",
+          "type": "multiple_choice",
+          "question": "아이에게 발진이 났을 때 의사에게 알리는 표현으로 적절한 것은?",
+          "options": [
+            "My child has red spots.",
+            "She has a rash on her arms.",
+            "My daughter's skin is dirty.",
+            "The child shows color changes."
+          ],
+          "answerIndex": 1,
+          "explanation": "'She has a rash on her arms.'는 발진(rash)과 발진 부위(arms)를 명확하게 표현하는 의료적 표현입니다. 'red spots'도 이해는 되지만 'rash'가 더 정확한 의료 용어입니다."
+        },
+        {
+          "id": "se_ch37_set03_006",
+          "type": "multiple_choice",
+          "question": "현재 복용 중인 약이 있는지 의사가 확인할 때 쓰는 표현은?",
+          "options": [
+            "Did you eat medicine?",
+            "Are you on any medications?",
+            "Do you buy pills?",
+            "Have you pills right now?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Are you on any medications?'는 현재 복용 중인 약을 확인하는 표준 의료 표현입니다. 'be on medication'은 약을 복용 중이라는 관용 표현입니다. 나머지는 문법적으로 틀렸거나 비표준 표현입니다."
+        },
+        {
+          "id": "se_ch37_set03_007",
+          "type": "multiple_choice",
+          "question": "처방전을 받아야 약국에서 약을 살 수 있다는 상황을 설명하는 표현은?",
+          "options": [
+            "I'll need a prescription to get this at a pharmacy.",
+            "The pharmacy must give me the medicine.",
+            "Pharmacies always have all medicines.",
+            "I can buy medicine without doctor's notes."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll need a prescription to get this at a pharmacy.'는 약국에서 약을 사려면 처방전이 필요하다는 상황을 명확하게 설명하는 표현입니다. 해외 여행 중 처방약이 필요할 때 의사에게 처방전을 요청할 때 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch37_set03_008",
+          "type": "multiple_choice",
+          "question": "보험사가 상세 보고서를 요구한다고 의사에게 알릴 때 적절한 표현은?",
+          "options": [
+            "The insurance company requires a detailed report.",
+            "My insurance needs a paper.",
+            "Write more things for my insurance.",
+            "Insurance wants more details, I think."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The insurance company requires a detailed report.'는 보험사의 요구 사항을 정확하게 전달하는 표현입니다. 나머지 표현들은 너무 모호하거나 비전문적입니다."
+        },
+        {
+          "id": "se_ch37_set03_009",
+          "type": "multiple_choice",
+          "question": "병원 진료비가 얼마인지 묻는 가장 적절한 표현은?",
+          "options": [
+            "What is the money for this?",
+            "How much is the doctor?",
+            "How much will this cost?",
+            "Tell me the number of dollars."
+          ],
+          "answerIndex": 2,
+          "explanation": "'How much will this cost?'는 비용을 확인하는 자연스러운 표현입니다. 'What's the total charge?'도 같은 뜻으로 쓸 수 있습니다. 나머지 표현들은 어색하거나 문법적으로 부자연스럽습니다."
+        },
+        {
+          "id": "se_ch37_set03_010",
+          "type": "multiple_choice",
+          "question": "의사가 진찰하겠다고 말했습니다. 'I'll examine you.'에서 'examine'의 의미는?",
+          "options": [
+            "수술하다",
+            "진찰하다",
+            "약을 처방하다",
+            "입원시키다"
+          ],
+          "answerIndex": 1,
+          "explanation": "'examine'은 '진찰하다, 검사하다'라는 의미입니다. 의사가 환자의 몸 상태를 직접 살펴보는 행위를 뜻합니다."
+        },
+        {
+          "id": "se_ch37_set03_011",
+          "type": "ox",
+          "question": "'walk-in patient'는 예약 없이 병원에 방문한 환자를 의미한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'walk-in patient'는 예약(appointment) 없이 걸어서 방문한 환자를 뜻합니다. 병원에 따라 대기 시간이 길 수 있습니다."
+        },
+        {
+          "id": "se_ch37_set03_012",
+          "type": "ox",
+          "question": "통증 강도를 표현할 때 pain scale에서 10은 통증이 전혀 없음을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. Pain scale(VAS)에서 1(또는 0)은 통증 없음, 10은 가장 심한 통증을 의미합니다. 'On a scale of one to ten'은 해외 병원에서 통증 강도를 표현하는 표준 방식입니다."
+        },
+        {
+          "id": "se_ch37_set03_013",
+          "type": "ox",
+          "question": "'I'm allergic to penicillin.'과 'I have a penicillin allergy.'는 같은 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 두 표현 모두 페니실린 알레르기가 있다는 뜻입니다. 동사 구문(I'm allergic to)과 명사 구문(I have a ~ allergy) 두 가지 방식으로 표현할 수 있습니다."
+        },
+        {
+          "id": "se_ch37_set03_014",
+          "type": "ox",
+          "question": "의사에게 처방전(prescription)을 요청할 때 여행자보험 청구에 사용할 수 있다는 말을 덧붙이는 것이 도움이 된다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 처방전은 여행자보험 청구 시 치료 사실과 비용을 증명하는 서류로 활용됩니다. 의사에게 용도를 미리 설명하면 필요한 내용이 포함된 서류를 받는 데 도움이 됩니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch37_set04_001",
+          "type": "multiple_choice",
+          "question": "병원 접수 양식을 작성해 달라는 접수 직원의 말로 올바른 표현은?",
+          "options": [
+            "Please fill out this form.",
+            "Please fill this form in you.",
+            "Do the paper writing here.",
+            "Complete the form over there somewhere."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please fill out this form.'은 양식 작성을 요청하는 표준 표현입니다. 'fill out' 또는 'fill in'이 모두 쓰입니다. 나머지는 문법적으로 틀리거나 어색합니다."
+        },
+        {
+          "id": "se_ch37_set04_002",
+          "type": "multiple_choice",
+          "question": "콧물이 나온다고 의사에게 말할 때 적절한 표현은?",
+          "options": [
+            "My nose is crying.",
+            "I have a runny nose.",
+            "Nose water is coming out.",
+            "My nose makes too much wet."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I have a runny nose.'는 콧물이 나온다는 표준 의료 표현입니다. 나머지 표현들은 문법적으로 틀리거나 의료 영어로 적절하지 않습니다."
+        },
+        {
+          "id": "se_ch37_set04_003",
+          "type": "multiple_choice",
+          "question": "증상이 갑자기 시작된 것이 아니라 서서히 나타났다고 말하려면?",
+          "options": [
+            "It came on gradually.",
+            "It started suddenly.",
+            "It happened all at once.",
+            "It came fast and quick."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It came on gradually.'는 증상이 서서히 나타났다는 표현으로 'suddenly'의 반대입니다. 증상의 양상을 설명하면 의사가 더 정확하게 진단하는 데 도움이 됩니다."
+        },
+        {
+          "id": "se_ch37_set04_004",
+          "type": "multiple_choice",
+          "question": "묵직하고 지속적인 통증을 표현하는 영어 표현은?",
+          "options": [
+            "It's quite sharp.",
+            "It's throbbing.",
+            "It's a dull, constant ache.",
+            "It's very burning."
+          ],
+          "answerIndex": 2,
+          "explanation": "'It's a dull, constant ache.'는 묵직하고 지속적인 통증을 묘사하는 표현입니다. 'dull ache'는 예리하지 않고 둔한 통증을 의미합니다."
+        },
+        {
+          "id": "se_ch37_set04_005",
+          "type": "multiple_choice",
+          "question": "아이의 알레르기 여부를 간단하게 묻는 표현은?",
+          "options": [
+            "Does your child eat anything bad?",
+            "Is she allergic to anything?",
+            "What foods does she avoid?",
+            "Can she take all medicines?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is she allergic to anything?'은 알레르기 여부를 간단하게 묻는 표현입니다. 'Does she have any known allergies?'보다 좀 더 간결한 방식입니다."
+        },
+        {
+          "id": "se_ch37_set04_006",
+          "type": "multiple_choice",
+          "question": "당뇨가 있다고 의사에게 알릴 때 사용하는 표현은?",
+          "options": [
+            "I have sweet blood.",
+            "My sugar levels are high sometimes.",
+            "I'm diabetic.",
+            "I have sugar problems."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I'm diabetic.'은 당뇨가 있다는 간결하고 정확한 의료 표현입니다. 'I have diabetes.'도 같은 뜻으로 쓸 수 있습니다. 나머지 표현들은 의료 영어로 적절하지 않습니다."
+        },
+        {
+          "id": "se_ch37_set04_007",
+          "type": "multiple_choice",
+          "question": "X레이 검사가 필요하다고 의사가 말했습니다. 검사 결과를 당일에 받을 수 있는지 묻는 표현은?",
+          "options": [
+            "Can I get the results today?",
+            "When do you make the X-ray?",
+            "How long does X-ray take to do?",
+            "Will the result be very fast?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get the results today?'는 당일 결과 수령이 가능한지 묻는 자연스러운 표현입니다. 여행 일정이 있는 경우 미리 확인하는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch37_set04_008",
+          "type": "multiple_choice",
+          "question": "'Take two capsules twice daily.'라는 복약 지도에 맞는 복용 방법은?",
+          "options": [
+            "하루 한 번 캡슐 두 개",
+            "하루 두 번 캡슐 두 개씩",
+            "하루 두 번 캡슐 한 개씩",
+            "이틀마다 캡슐 두 개"
+          ],
+          "answerIndex": 1,
+          "explanation": "'twice daily'는 하루 두 번, 'two capsules'는 두 캡슐을 의미합니다. 따라서 하루 두 번 캡슐 두 개씩 복용하는 것이 올바른 해석입니다."
+        },
+        {
+          "id": "se_ch37_set04_009",
+          "type": "multiple_choice",
+          "question": "진단서에 포함되어야 할 내용으로 의사에게 요청할 때 적절한 표현은?",
+          "options": [
+            "They need the diagnosis and the dates of treatment.",
+            "Give me papers with my sickness information.",
+            "Write what I have and when.",
+            "I want my health report document."
+          ],
+          "answerIndex": 0,
+          "explanation": "'They need the diagnosis and the dates of treatment.'는 보험사가 요구하는 내용을 구체적으로 설명하는 표현입니다. 'diagnosis'(진단명)와 'dates of treatment'(치료 날짜)는 보험 청구에 필요한 핵심 정보입니다."
+        },
+        {
+          "id": "se_ch37_set04_010",
+          "type": "multiple_choice",
+          "question": "카드 결제가 가능한지 더 간단하게 묻는 표현은?",
+          "options": [
+            "Do you accept credit cards?",
+            "Can I pay by card?",
+            "Is cash only required here?",
+            "Can I use foreign currency?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Can I pay by card?'는 카드 결제 가능 여부를 간단하게 묻는 표현입니다. 'Do you accept credit cards?'보다 짧고 구어체적입니다."
+        },
+        {
+          "id": "se_ch37_set04_011",
+          "type": "ox",
+          "question": "해외 병원에서 '예약 없이 당일 진료가 가능한지' 묻고 싶을 때 'Is it possible to be seen today without a booking?'이라고 말할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Is it possible to be seen today without a booking?'은 예약 없이 당일 진료가 가능한지 정중하게 묻는 표현입니다. 'without a booking'은 'without an appointment'와 같은 뜻입니다."
+        },
+        {
+          "id": "se_ch37_set04_012",
+          "type": "ox",
+          "question": "'I have a mild cough.'는 기침이 심하다는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'mild'는 '가벼운, 심하지 않은'이라는 뜻입니다. 'I have a mild cough.'는 '가벼운 기침이 있습니다'라는 표현입니다. 기침이 심하면 'a severe cough' 또는 'a bad cough'라고 말합니다."
+        },
+        {
+          "id": "se_ch37_set04_013",
+          "type": "ox",
+          "question": "'I'm on medication for that.'는 특정 질환으로 약을 복용 중이라는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'be on medication'은 약을 복용 중이라는 관용 표현입니다. 'I take medication for it.'과 같은 의미로, 기저질환이 있어 약을 복용하고 있을 때 의사에게 알리는 표현입니다."
+        },
+        {
+          "id": "se_ch37_set04_014",
+          "type": "ox",
+          "question": "해외 병원에서 진료 서류 발급은 퇴원 후에만 요청할 수 있다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 진단서나 보험 서류는 진료 중에도 미리 요청할 수 있습니다. 오히려 퇴원 전에 미리 요청하는 것이 중요합니다. 서류 발급에 시간이 걸릴 수 있기 때문입니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch37_set05_001",
+          "type": "multiple_choice",
+          "question": "진료를 예약하려는 것이 아니라 지금 당장 진료를 받고 싶을 때 적합한 표현은?",
+          "options": [
+            "Can I make an appointment?",
+            "I'd like to see a doctor.",
+            "I want to schedule a visit.",
+            "When is the next available slot?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'd like to see a doctor.'는 지금 진료를 받고 싶다는 의사를 나타내는 표현입니다. 'Can I make an appointment?'와 'When is the next available slot?'은 예약을 잡으려는 표현으로 의미가 다릅니다."
+        },
+        {
+          "id": "se_ch37_set05_002",
+          "type": "multiple_choice",
+          "question": "의사가 오늘 불편한 증상이 무엇인지 물었습니다. 'What seems to be the problem today?'와 같은 의미의 표현은?",
+          "options": [
+            "Do you have an appointment?",
+            "What brings you in today?",
+            "How long have you been sick?",
+            "Have you been here before?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'What brings you in today?'는 오늘 방문하게 된 이유(증상)를 묻는 표현으로 'What seems to be the problem today?'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch37_set05_003",
+          "type": "multiple_choice",
+          "question": "어제저녁부터 증상이 시작됐다고 말할 때 'since'를 이용한 올바른 표현은?",
+          "options": [
+            "I've had this since yesterday evening.",
+            "I have this since yesterday evening.",
+            "I had this since yesterday evening.",
+            "I been sick since yesterday evening."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I've had this since yesterday evening.'은 현재완료 시제를 사용하여 과거부터 현재까지 지속되는 증상을 표현하는 올바른 방법입니다. 'since'는 현재완료와 함께 사용합니다."
+        },
+        {
+          "id": "se_ch37_set05_004",
+          "type": "multiple_choice",
+          "question": "검사 결과가 나오는 데 얼마나 걸리는지 묻는 표현은?",
+          "options": [
+            "How soon can you check me?",
+            "How long will the results take?",
+            "When can I start treatment?",
+            "How many tests do I need?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'How long will the results take?'는 검사 결과가 나오는 데 걸리는 시간을 묻는 자연스러운 표현입니다. 여행 일정이 있는 경우 미리 확인하는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch37_set05_005",
+          "type": "multiple_choice",
+          "question": "아들이 몸이 좋지 않다는 것을 부드럽게 표현하는 방법은?",
+          "options": [
+            "My son has a disease.",
+            "My son is very sick.",
+            "My son isn't feeling well.",
+            "My son needs emergency care."
+          ],
+          "answerIndex": 2,
+          "explanation": "'My son isn't feeling well.'은 아들이 몸이 좋지 않다는 것을 부드럽고 자연스럽게 표현하는 방법입니다. 'My son is sick.'보다 완곡한 표현입니다."
+        },
+        {
+          "id": "se_ch37_set05_006",
+          "type": "multiple_choice",
+          "question": "페니실린에 심한 반응이 있다는 것을 더 구체적으로 표현할 때 알맞은 문장은?",
+          "options": [
+            "I don't like penicillin.",
+            "Penicillin makes me feel bad.",
+            "Penicillin gives me a severe reaction.",
+            "I can't have penicillin medicine."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Penicillin gives me a severe reaction.'은 페니실린에 심한 알레르기 반응이 있다는 것을 구체적으로 표현합니다. 의료진이 알레르기의 심각성을 이해하는 데 도움이 됩니다."
+        },
+        {
+          "id": "se_ch37_set05_007",
+          "type": "multiple_choice",
+          "question": "혈액 검사를 위해 채혈이 필요하다는 의사의 말로 자연스러운 표현은?",
+          "options": [
+            "I need your blood test.",
+            "We need to take some blood.",
+            "We will cut you for blood.",
+            "Give me blood now please."
+          ],
+          "answerIndex": 1,
+          "explanation": "'We need to take some blood.'는 채혈이 필요하다는 직접적이면서도 자연스러운 의료 표현입니다. 'take blood'는 채혈하다는 뜻의 관용 표현입니다."
+        },
+        {
+          "id": "se_ch37_set05_008",
+          "type": "multiple_choice",
+          "question": "처방전을 쓸 수 있는지 정중하게 요청하는 표현은?",
+          "options": [
+            "Could you write me a prescription?",
+            "Write me a prescription please.",
+            "Give prescription to me.",
+            "I order a prescription now."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you write me a prescription?'은 처방전을 써달라는 정중한 요청 표현입니다. 'Could you'를 사용하면 더 공손한 느낌을 줍니다."
+        },
+        {
+          "id": "se_ch37_set05_009",
+          "type": "multiple_choice",
+          "question": "보험 목적으로 의사 소견서를 요청할 때 적절한 표현은?",
+          "options": [
+            "Can I get a doctor's note for insurance purposes?",
+            "I want to write about my insurance.",
+            "Please write my insurance paper.",
+            "Give me a note for my doctor."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get a doctor's note for insurance purposes?'는 보험 목적으로 의사 소견서를 요청하는 표현입니다. 'doctor's note'는 의사 소견서, 'for insurance purposes'는 보험 목적으로라는 의미입니다."
+        },
+        {
+          "id": "se_ch37_set05_010",
+          "type": "multiple_choice",
+          "question": "결제 후 영수증이 필요하다고 먼저 요청하는 표현은?",
+          "options": [
+            "Could I have a receipt, please?",
+            "Do you give receipts here?",
+            "Print my receipt for me.",
+            "I want to see the bill."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could I have a receipt, please?'는 영수증을 달라고 먼저 요청하는 정중한 표현입니다. 여행자보험 청구를 위해 반드시 영수증을 받아두어야 합니다."
+        },
+        {
+          "id": "se_ch37_set05_011",
+          "type": "ox",
+          "question": "삼킬 때 목이 아프다는 것을 'My throat hurts when I swallow.'라고 표현할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'My throat hurts when I swallow.'는 삼킬 때 목이 아프다는 구체적인 증상 묘사 표현입니다. 'sore throat'보다 구체적인 상황을 전달할 수 있습니다."
+        },
+        {
+          "id": "se_ch37_set05_012",
+          "type": "ox",
+          "question": "해외 병원 접수 직원이 'Please fill out this form.'이라고 하면 진료실로 바로 들어가야 한다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'Please fill out this form.'은 양식(form)을 작성해 달라는 요청입니다. 접수 과정에서 환자 정보를 기록하는 서류를 작성하라는 뜻이지, 진료실에 들어가라는 말이 아닙니다."
+        },
+        {
+          "id": "se_ch37_set05_013",
+          "type": "ox",
+          "question": "'I'd like to order some tests.'에서 'order'는 '검사를 처방하다'라는 의미로 사용됩니다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 의료 맥락에서 'order'는 '검사를 처방하다, 지시하다'는 의미로 쓰입니다. 'I'd like to order some tests.'는 여러 검사를 처방하겠다는 의사의 표현입니다."
+        },
+        {
+          "id": "se_ch37_set05_014",
+          "type": "ox",
+          "question": "아이에게 두드러기가 났을 때 'hives'라는 단어를 사용할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'hives'는 두드러기를 가리키는 의료 용어입니다. 'rash'는 발진 전반을 의미하고, 'hives'는 알레르기 반응으로 인한 두드러기를 구체적으로 나타냅니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch37_set06_001",
+          "type": "multiple_choice",
+          "question": "병원 접수 창구에서 조금 더 격식 있게 서류 작성을 요청할 때 쓸 수 있는 표현은?",
+          "options": [
+            "Please fill out this form.",
+            "Could you complete this paperwork?",
+            "Do the forms over there.",
+            "Sign everything on this table."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Could you complete this paperwork?'는 서류 작성을 조금 더 격식 있게 요청하는 표현입니다. 'complete'는 빈칸 없이 완성한다는 뉘앙스이고, 'paperwork'는 서류 작업 전반을 의미합니다."
+        },
+        {
+          "id": "se_ch37_set06_002",
+          "type": "multiple_choice",
+          "question": "의사에게 증상을 설명할 때 '열이 나고 목이 아픕니다'를 한 문장으로 표현하면?",
+          "options": [
+            "I am sick and tired.",
+            "I have a fever and a sore throat.",
+            "My head hurts and I feel sick.",
+            "I have cold and throat pain."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I have a fever and a sore throat.'는 열과 목 통증 두 가지 증상을 한 문장에 자연스럽게 담은 표현입니다. 'and'로 두 증상을 연결합니다."
+        },
+        {
+          "id": "se_ch37_set06_003",
+          "type": "multiple_choice",
+          "question": "약을 아직 먹지 않았다고 말할 때 자연스러운 표현은?",
+          "options": [
+            "I don't take medicine.",
+            "No medicine was for me.",
+            "Nothing so far.",
+            "I didn't want medicine."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Nothing so far.'는 아직 아무것도 복용하지 않았다는 간결하고 자연스러운 표현입니다. 의사가 복용 약을 확인할 때 복용 약이 없으면 이렇게 답하면 됩니다."
+        },
+        {
+          "id": "se_ch37_set06_004",
+          "type": "multiple_choice",
+          "question": "의사에게 통증의 성질을 설명할 때 타는 듯한 통증을 나타내는 표현은?",
+          "options": [
+            "dull ache",
+            "sharp pain",
+            "throbbing",
+            "burning"
+          ],
+          "answerIndex": 3,
+          "explanation": "'burning'은 타는 듯한 통증을 나타냅니다. 'dull ache'는 묵직한 통증, 'sharp'는 날카로운 통증, 'throbbing'은 욱신거리는 통증을 의미합니다."
+        },
+        {
+          "id": "se_ch37_set06_005",
+          "type": "multiple_choice",
+          "question": "아이에게 고열이 있다는 긴급한 상황을 표현할 때 적합한 문장은?",
+          "options": [
+            "My child has a little fever.",
+            "My child has a high fever.",
+            "My child feels slightly warm.",
+            "My child is not completely well."
+          ],
+          "answerIndex": 1,
+          "explanation": "'My child has a high fever.'는 아이에게 고열이 있다는 긴급한 상황을 전달하는 표현입니다. 'high fever'는 고열을 의미합니다."
+        },
+        {
+          "id": "se_ch37_set06_006",
+          "type": "multiple_choice",
+          "question": "천식이 있다고 의사에게 알릴 때 올바른 표현은?",
+          "options": [
+            "I can't breathe sometimes.",
+            "My lungs are weak.",
+            "I have asthma.",
+            "I have breathing problems always."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I have asthma.'는 천식이 있다는 표준 의료 표현입니다. 천식의 의학 용어는 asthma이며, 기저질환을 알릴 때 정확한 병명을 사용하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch37_set06_007",
+          "type": "multiple_choice",
+          "question": "진찰을 위해 환자에게 누우라고 할 때 의사의 표현은?",
+          "options": [
+            "Please sit down over there.",
+            "Please lie down.",
+            "Stand up and face me.",
+            "Wait outside please."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Please lie down.'은 환자에게 눕도록 지시하는 표현입니다. 신체 검진을 위해 의사가 자주 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch37_set06_008",
+          "type": "multiple_choice",
+          "question": "항생제 치료 과정(course)을 나아져도 끝까지 완료해야 하는지 물을 때 적절한 표현은?",
+          "options": [
+            "Can I stop the medicine when I feel okay?",
+            "Should I finish the full course even if I feel better?",
+            "Do I need to take more if I am still sick?",
+            "When can I stop taking the antibiotics?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Should I finish the full course even if I feel better?'는 증상이 나아지더라도 항생제를 끝까지 복용해야 하는지 묻는 정확한 표현입니다. 항생제는 임의로 중단하면 내성이 생길 수 있어 중요한 질문입니다."
+        },
+        {
+          "id": "se_ch37_set06_009",
+          "type": "multiple_choice",
+          "question": "진단서에 포함된 진단명을 영어로 무엇이라고 하나요?",
+          "options": [
+            "prescription",
+            "receipt",
+            "diagnosis",
+            "certificate"
+          ],
+          "answerIndex": 2,
+          "explanation": "'diagnosis'는 진단 또는 진단명을 의미하는 의료 용어입니다. 'prescription'은 처방전, 'receipt'는 영수증, 'certificate'는 증명서를 의미합니다."
+        },
+        {
+          "id": "se_ch37_set06_010",
+          "type": "multiple_choice",
+          "question": "총 청구 금액을 묻는 표현으로 적합한 것은?",
+          "options": [
+            "What's the total charge?",
+            "How many is this?",
+            "Tell me my hospital price.",
+            "What do I owe you today?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What's the total charge?'는 총 청구 금액을 묻는 자연스러운 표현입니다. 'How much will this cost?'와 함께 병원 결제 상황에서 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch37_set06_011",
+          "type": "ox",
+          "question": "'My temperature is elevated.'는 체온이 높다는 격식 있는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'My temperature is elevated.'는 체온이 높다는 뜻의 격식 있는 표현입니다. 'I have a fever.'나 'I have a temperature.'보다 더 공식적인 의료 용어에 가깝습니다."
+        },
+        {
+          "id": "se_ch37_set06_012",
+          "type": "ox",
+          "question": "'I woke up with it.'는 증상이 오후에 시작됐다는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'I woke up with it.'는 아침에 일어났을 때 이미 증상이 있었다는 표현입니다. 즉, 증상이 아침부터 시작됐음을 나타내는 말입니다."
+        },
+        {
+          "id": "se_ch37_set06_013",
+          "type": "ox",
+          "question": "처방전을 가져왔다는 것을 'I brought my prescription with me.'라고 표현할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'I brought my prescription with me.'는 처방전을 가져왔다는 표현으로, 의사에게 복용 중인 약을 확인시켜줄 때 유용합니다."
+        },
+        {
+          "id": "se_ch37_set06_014",
+          "type": "ox",
+          "question": "해외 병원에서 카드 결제만 가능하고 현금은 받지 않는 경우도 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 해외 병원마다 결제 방식이 다릅니다. 카드만 받거나 현금만 받는 곳도 있으므로 결제 전에 'Do you accept credit cards?'나 'Is cash only?'로 미리 확인하는 것이 좋습니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch37_set07_001",
+          "type": "multiple_choice",
+          "question": "병원에서 진료 예약이 있는지 접수 직원이 물을 때 쓰는 표현은?",
+          "options": [
+            "Are you a new patient?",
+            "Do you have an appointment?",
+            "What is your insurance?",
+            "Have you been here before?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do you have an appointment?'는 진료 예약 여부를 확인하는 표준 표현입니다. 대부분의 병원에서 접수 시 첫 번째로 묻는 질문 중 하나입니다."
+        },
+        {
+          "id": "se_ch37_set07_002",
+          "type": "multiple_choice",
+          "question": "의사에게 '열이 있습니다'라고 영국식 영어로 말하는 표현은?",
+          "options": [
+            "I have a fever.",
+            "I am burning up.",
+            "I have a temperature.",
+            "My body feels hot."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I have a temperature.'는 'I have a fever.'와 같은 의미로, 특히 영국 영어에서 자주 쓰이는 표현입니다. 두 표현 모두 표준 의료 표현으로 사용됩니다."
+        },
+        {
+          "id": "se_ch37_set07_003",
+          "type": "multiple_choice",
+          "question": "의사가 이부프로펜을 오늘 아침에 복용했는지 물었습니다. 이부프로펜은 어떤 종류의 약인가요?",
+          "options": [
+            "항생제(antibiotic)",
+            "항히스타민제(antihistamine)",
+            "진통소염제(OTC pain reliever)",
+            "처방 수면제"
+          ],
+          "answerIndex": 2,
+          "explanation": "이부프로펜(ibuprofen)은 처방 없이 구입할 수 있는 OTC 진통소염제입니다. 항생제가 아니며, 열과 통증을 줄이는 데 사용됩니다. 병원에서 자가 복용 약을 확인할 때 이런 약 이름을 말해야 합니다."
+        },
+        {
+          "id": "se_ch37_set07_004",
+          "type": "multiple_choice",
+          "question": "통증이 오른쪽에 있다고 말하는 적절한 표현은?",
+          "options": [
+            "It hurts here, on my right side.",
+            "The right is hurting me.",
+            "Pain is in right body.",
+            "Right side my pain is here."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It hurts here, on my right side.'는 아픈 부위와 방향을 함께 표현하는 자연스러운 문장입니다. 말하면서 손으로 부위를 짚으면 더욱 명확합니다."
+        },
+        {
+          "id": "se_ch37_set07_005",
+          "type": "multiple_choice",
+          "question": "아이에게 온몸에 두드러기가 났다고 말하는 표현은?",
+          "options": [
+            "She has red marks on her face.",
+            "She has hives all over her body.",
+            "She has rashes in one spot.",
+            "She broke her skin all over."
+          ],
+          "answerIndex": 1,
+          "explanation": "'She has hives all over her body.'는 온몸에 두드러기가 났다는 표현입니다. 'hives'는 두드러기, 'all over her body'는 온몸에라는 뜻입니다."
+        },
+        {
+          "id": "se_ch37_set07_006",
+          "type": "multiple_choice",
+          "question": "설파제(sulfa drugs)에 알레르기가 있다고 말할 때 알맞은 표현은?",
+          "options": [
+            "I cannot use sulfa drugs.",
+            "Sulfa drugs are bad for me.",
+            "I'm allergic to sulfa drugs.",
+            "I don't take sulfa drugs ever."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I'm allergic to sulfa drugs.'는 설파제 알레르기를 알리는 정확한 표현입니다. 알레르기를 알릴 때는 'I'm allergic to + 물질'의 패턴을 사용합니다."
+        },
+        {
+          "id": "se_ch37_set07_007",
+          "type": "multiple_choice",
+          "question": "의사가 진찰 중 '살펴보겠다'는 뜻으로 비공식적으로 말할 때 쓰는 표현은?",
+          "options": [
+            "I'll examine you now.",
+            "Let me check you over.",
+            "I need to run tests on you.",
+            "I'll write my findings down."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Let me check you over.'는 전반적으로 진찰하겠다는 구어체 표현입니다. 'I'll examine you.'보다 덜 격식적인 표현으로 일반 진료실에서 자주 들을 수 있습니다."
+        },
+        {
+          "id": "se_ch37_set07_008",
+          "type": "multiple_choice",
+          "question": "항생제를 처방받았습니다. 'You need a course of antibiotics.'에서 'course'의 의미는?",
+          "options": [
+            "약의 종류",
+            "치료 기간 동안의 복용량",
+            "항생제의 강도",
+            "약 복용 횟수"
+          ],
+          "answerIndex": 1,
+          "explanation": "'course'는 치료 기간 동안의 복용량, 즉 정해진 기간 동안 모두 복용해야 하는 항생제의 양을 의미합니다. 항생제는 증상이 나아져도 'course'를 다 채워야 효과적입니다."
+        },
+        {
+          "id": "se_ch37_set07_009",
+          "type": "multiple_choice",
+          "question": "진단서 발급에 시간이 걸린다고 했을 때, 나중에 이메일로 받으려면 어떻게 해야 하나요?",
+          "options": [
+            "전화번호를 남긴다",
+            "이메일 주소를 알려준다",
+            "다음 날 재방문한다",
+            "팩스 번호를 제공한다"
+          ],
+          "answerIndex": 1,
+          "explanation": "진단서를 이메일로 받으려면 이메일 주소를 알려주면 됩니다. 해외 병원에서 서류 발급에 시간이 걸리는 경우 이메일로 추후 전달받는 방법을 활용할 수 있습니다."
+        },
+        {
+          "id": "se_ch37_set07_010",
+          "type": "multiple_choice",
+          "question": "결제 시 현금만 받는지 확인하는 표현은?",
+          "options": [
+            "Do you have change?",
+            "Is cash only?",
+            "Can I use a foreign card?",
+            "Where is the ATM?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is cash only?'는 현금만 받는지 확인하는 간결한 표현입니다. 해외 병원 중에는 현금만 받는 곳도 있으므로 결제 전에 미리 확인하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch37_set07_011",
+          "type": "ox",
+          "question": "'sore throat'과 'headache'는 같은 증상을 가리키는 말이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'sore throat'은 목 통증(인후통)을, 'headache'는 두통을 의미합니다. 두 단어는 서로 다른 신체 부위의 증상을 나타냅니다."
+        },
+        {
+          "id": "se_ch37_set07_012",
+          "type": "ox",
+          "question": "의약품 복용 지도에서 'at bedtime'은 취침 전에 복용하라는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'at bedtime'은 취침 전에 복용하라는 복약 지도 표현입니다. 'with food'(식후), 'on an empty stomach'(공복), 'at bedtime'(취침 전)은 자주 쓰이는 복약 지시어입니다."
+        },
+        {
+          "id": "se_ch37_set07_013",
+          "type": "ox",
+          "question": "'I need a medical certificate for my travel insurance claim.'에서 'medical certificate'는 처방전을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'medical certificate'는 진단서를 의미합니다. 처방전은 'prescription'이라고 합니다. 진단서는 진료 사실과 진단 내용을 공식적으로 증명하는 문서로, 보험 청구에 필요합니다."
+        },
+        {
+          "id": "se_ch37_set07_014",
+          "type": "ox",
+          "question": "아스피린 알레르기가 있다면 'I'm allergic to aspirin.'이라고 말하면 된다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'I'm allergic to aspirin.'은 아스피린 알레르기를 알리는 올바른 표현입니다. 'I'm allergic to + 물질'의 패턴으로 다양한 알레르기를 표현할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch37_set08_001",
+          "type": "multiple_choice",
+          "question": "예약 없이 당일 진료를 받는 것이 가능한지 물을 때 가장 정중한 표현은?",
+          "options": [
+            "Can you see me now?",
+            "I want treatment today.",
+            "Is it possible to be seen today without a booking?",
+            "Take me to a doctor immediately."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Is it possible to be seen today without a booking?'은 예약 없이 당일 진료가 가능한지 정중하게 묻는 표현입니다. 'be seen'은 의사에게 진료를 받는다는 뜻의 수동 표현입니다."
+        },
+        {
+          "id": "se_ch37_set08_002",
+          "type": "multiple_choice",
+          "question": "의사에게 '목이 삼킬 때 아픕니다'라고 구체적으로 설명하는 표현은?",
+          "options": [
+            "I have a sore throat.",
+            "My throat swells a lot.",
+            "My throat hurts when I swallow.",
+            "I can't talk because of my throat."
+          ],
+          "answerIndex": 2,
+          "explanation": "'My throat hurts when I swallow.'는 삼킬 때 목이 아프다는 구체적인 증상 표현입니다. 단순히 'I have a sore throat.'보다 더 구체적인 상황을 전달합니다."
+        },
+        {
+          "id": "se_ch37_set08_003",
+          "type": "multiple_choice",
+          "question": "증상 시작 시점을 'since'를 써서 말하려면 어떤 시제와 함께 써야 하나요?",
+          "options": [
+            "단순 과거(simple past)",
+            "현재 시제(simple present)",
+            "현재완료(present perfect)",
+            "과거완료(past perfect)"
+          ],
+          "answerIndex": 2,
+          "explanation": "'since + 시점'은 현재완료(have/has + 과거분사)와 함께 사용합니다. 예: 'I've had this since yesterday.' since는 과거의 특정 시점부터 지금까지 지속됨을 나타낼 때 씁니다."
+        },
+        {
+          "id": "se_ch37_set08_004",
+          "type": "multiple_choice",
+          "question": "통증의 강도를 묻는 질문에서 통증이 없는 상태를 나타내는 숫자는?",
+          "options": [
+            "10",
+            "7",
+            "5",
+            "1"
+          ],
+          "answerIndex": 3,
+          "explanation": "Pain scale에서 1(또는 0)은 통증이 없는 상태를 의미합니다. 10은 경험할 수 있는 가장 극심한 통증을 나타냅니다. 'On a scale of one to ten'은 통증 강도를 표준화하여 묻는 방식입니다."
+        },
+        {
+          "id": "se_ch37_set08_005",
+          "type": "multiple_choice",
+          "question": "아이의 알레르기를 포함한 기저질환 전반을 묻는 표현은?",
+          "options": [
+            "Is she allergic to anything?",
+            "Does she have any known allergies?",
+            "Does she have any medical conditions?",
+            "What medicines does she take?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Does she have any medical conditions?'는 알레르기를 포함한 기저질환 전반을 묻는 표현입니다. 'medical conditions'는 의학적 상태, 즉 진단받은 질환들을 포괄적으로 의미합니다."
+        },
+        {
+          "id": "se_ch37_set08_006",
+          "type": "multiple_choice",
+          "question": "현재 복용 중인 약 이름을 모를 때 의사에게 확인시켜 주는 방법으로 적절한 것은?",
+          "options": [
+            "I cannot remember the name.",
+            "The medicine is in my bag.",
+            "This is the medication I'm on. (약 봉투를 보여주면서)",
+            "I take pills daily."
+          ],
+          "answerIndex": 2,
+          "explanation": "약 이름을 모를 때는 약 봉투를 보여주며 'This is the medication I'm on.'이라고 하면 됩니다. 실제 약이나 처방전을 직접 보여주는 것이 가장 확실한 방법입니다."
+        },
+        {
+          "id": "se_ch37_set08_007",
+          "type": "multiple_choice",
+          "question": "의사에게 검사 결과를 언제 받을 수 있는지 물을 때 쓰는 또 다른 표현은?",
+          "options": [
+            "How long will the results take?",
+            "When will I get the results?",
+            "Can I leave now?",
+            "When do I come back?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'When will I get the results?'는 검사 결과를 언제 받을 수 있는지 묻는 표현으로 'How long will the results take?'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch37_set08_008",
+          "type": "multiple_choice",
+          "question": "의사가 처방전을 주겠다는 말로 'I'll give you a prescription for antibiotics.'를 들었습니다. 여기서 'prescription'은 무엇인가요?",
+          "options": [
+            "진단서",
+            "영수증",
+            "처방전",
+            "보험 양식"
+          ],
+          "answerIndex": 2,
+          "explanation": "'prescription'은 처방전을 의미합니다. 의사가 작성하는 약 처방 문서로, 약국에서 이것을 제시해야 처방약을 받을 수 있습니다."
+        },
+        {
+          "id": "se_ch37_set08_009",
+          "type": "multiple_choice",
+          "question": "진단서 발급을 영국식 구어체로 '처리해 드리겠다'라고 말할 때 쓰는 표현은?",
+          "options": [
+            "I'll have it ready before you leave.",
+            "We'll get that sorted for you.",
+            "We'll prepare your document now.",
+            "I will make your paper quickly."
+          ],
+          "answerIndex": 1,
+          "explanation": "'We'll get that sorted for you.'는 '처리해 드리겠다'는 뜻의 영국식 구어체 표현입니다. 'get sorted'는 문제나 업무를 해결한다는 뜻으로 영국 영어에서 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch37_set08_010",
+          "type": "multiple_choice",
+          "question": "병원 결제 후 보험 목적으로 영수증이 필요하다고 말하는 표현은?",
+          "options": [
+            "I'll need a receipt for insurance.",
+            "I need papers from you.",
+            "Can you write my insurance?",
+            "Give me cost information."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll need a receipt for insurance.'는 보험 목적으로 영수증이 필요하다는 이유를 밝히는 표현입니다. 이유를 설명하면 영수증 발급 요청이 더 명확하게 전달됩니다."
+        },
+        {
+          "id": "se_ch37_set08_011",
+          "type": "ox",
+          "question": "'Do you accept credit cards?'는 신용카드 결제 가능 여부를 묻는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Do you accept credit cards?'는 신용카드를 받는지 묻는 표준 표현입니다. 'Do you take cards?'로 짧게 물어볼 수도 있습니다."
+        },
+        {
+          "id": "se_ch37_set08_012",
+          "type": "ox",
+          "question": "통증을 표현하는 단어로 'sharp'는 타는 듯한 통증을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'sharp'는 날카로운 통증을 의미합니다. 타는 듯한 통증은 'burning'이라고 합니다. 통증 표현: sharp(날카로운), dull(묵직한), throbbing(욱신거리는), burning(타는 듯한)."
+        },
+        {
+          "id": "se_ch37_set08_013",
+          "type": "ox",
+          "question": "해외 병원에서 발진이 난 경우 'rash'라는 단어로 증상을 표현할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'rash'는 피부 발진을 의미하는 의료 용어입니다. 'She has a rash on her arms.'처럼 부위와 함께 말하면 의료진이 더 정확하게 증상을 파악할 수 있습니다."
+        },
+        {
+          "id": "se_ch37_set08_014",
+          "type": "ox",
+          "question": "병원 진료비를 사전에 확인하는 것은 해외 여행자보험이 있어도 불필요한 일이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 해외 의료비는 매우 비쌀 수 있으므로 치료 전에 미리 비용을 확인하는 것이 중요합니다. 여행자보험이 있더라도 보험 적용 범위를 확인하고 사전에 비용을 파악해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch37_set09_001",
+          "type": "multiple_choice",
+          "question": "의사에게 '서명과 날짜를 여기에 기입해 주세요'라고 할 때 쓰는 표현은?",
+          "options": [
+            "Please fill out this form.",
+            "Please sign and date here.",
+            "Complete the paperwork first.",
+            "Write your details on the form."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Please sign and date here.'는 서명과 날짜 기입을 요청하는 표현입니다. 병원 서류에 서명할 때 직원이 쓰는 표현으로 자주 들을 수 있습니다."
+        },
+        {
+          "id": "se_ch37_set09_002",
+          "type": "multiple_choice",
+          "question": "의사가 'Any other symptoms?'라고 물었을 때, 콧물도 있다면 어떻게 답하나요?",
+          "options": [
+            "Yes, I also have a runny nose.",
+            "Yes, I cough sometimes.",
+            "My throat hurts more now.",
+            "I feel very tired today."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Yes, I also have a runny nose.'는 추가 증상으로 콧물이 있다고 말하는 자연스러운 표현입니다. 'also'를 써서 이미 말한 증상에 추가하고 있음을 나타냅니다."
+        },
+        {
+          "id": "se_ch37_set09_003",
+          "type": "multiple_choice",
+          "question": "의사에게 '언제부터 이런 증상이 있었나요?'라고 묻는 가장 표준적인 표현은?",
+          "options": [
+            "When did you start feeling bad?",
+            "How long have you been feeling this way?",
+            "How many days have you been sick?",
+            "When did the symptoms begin exactly?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'How long have you been feeling this way?'는 증상이 얼마나 됐는지 묻는 표준 의료 표현입니다. 현재완료 진행 시제(have been feeling)를 사용하여 지속적인 상태를 묻습니다."
+        },
+        {
+          "id": "se_ch37_set09_004",
+          "type": "multiple_choice",
+          "question": "등 아래쪽이 아프다고 표현하는 적절한 방법은?",
+          "options": [
+            "It hurts back and down.",
+            "I have pain in my lower back.",
+            "My back is hurting the lower.",
+            "The lower body is aching bad."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I have pain in my lower back.'는 허리(등 아래쪽) 통증을 표현하는 자연스러운 방법입니다. 'lower back'은 요통을 나타낼 때 사용하는 정확한 표현입니다."
+        },
+        {
+          "id": "se_ch37_set09_005",
+          "type": "multiple_choice",
+          "question": "발진이 갑자기 생겼다는 것을 강조하는 표현은?",
+          "options": [
+            "She has a rash on her arms.",
+            "She broke out in a rash.",
+            "She developed skin problems.",
+            "She has itchy skin lately."
+          ],
+          "answerIndex": 1,
+          "explanation": "'She broke out in a rash.'는 발진이 갑자기 나타났다는 뉘앙스의 표현입니다. 'break out'은 피부 트러블이나 발진이 갑자기 나타났다는 뜻으로 사용됩니다."
+        },
+        {
+          "id": "se_ch37_set09_006",
+          "type": "multiple_choice",
+          "question": "고혈압의 의학 용어는?",
+          "options": [
+            "diabetes",
+            "asthma",
+            "hypertension",
+            "hypotension"
+          ],
+          "answerIndex": 2,
+          "explanation": "'hypertension'은 고혈압의 의학 용어입니다. 'diabetes'는 당뇨, 'asthma'는 천식, 'hypotension'은 저혈압을 의미합니다."
+        },
+        {
+          "id": "se_ch37_set09_007",
+          "type": "multiple_choice",
+          "question": "의사가 CT 스캔 검사를 권했습니다. 이 검사를 영어로 무엇이라고 하나요?",
+          "options": [
+            "blood test",
+            "urine test",
+            "CT scan",
+            "X-ray"
+          ],
+          "answerIndex": 2,
+          "explanation": "'CT scan'은 컴퓨터 단층촬영을 의미합니다. 'blood test'는 혈액 검사, 'urine test'는 소변 검사, 'X-ray'는 방사선 검사입니다."
+        },
+        {
+          "id": "se_ch37_set09_008",
+          "type": "multiple_choice",
+          "question": "복약 지도에서 'on an empty stomach'은 언제 복용하라는 뜻인가요?",
+          "options": [
+            "식후에",
+            "취침 전에",
+            "공복에",
+            "필요할 때마다"
+          ],
+          "answerIndex": 2,
+          "explanation": "'on an empty stomach'은 공복에, 즉 음식을 먹지 않은 상태에서 복용하라는 뜻입니다. 'with food'(식후)의 반대 표현입니다."
+        },
+        {
+          "id": "se_ch37_set09_009",
+          "type": "multiple_choice",
+          "question": "진단서를 받으러 한 시간 후에 다시 오라는 안내 표현은?",
+          "options": [
+            "I'll have it ready before you leave.",
+            "We'll get that sorted for you.",
+            "Can you come back in an hour to collect it?",
+            "Your document will be mailed to you."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Can you come back in an hour to collect it?'는 한 시간 후에 서류를 수령하러 오라는 안내 표현입니다. 서류 발급에 시간이 필요할 때 병원 직원이 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch37_set09_010",
+          "type": "multiple_choice",
+          "question": "해외 병원 결제 시 'Would you like a receipt?'에 영수증이 필요하다고 답하는 표현은?",
+          "options": [
+            "No, I don't need it.",
+            "Yes, please. I'll need it for insurance.",
+            "Maybe later, thank you.",
+            "Please give me two copies."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Yes, please. I'll need it for insurance.'는 보험 목적으로 영수증이 필요하다고 자연스럽게 답하는 표현입니다. 이유를 함께 밝히면 영수증 처리가 더 원활해집니다."
+        },
+        {
+          "id": "se_ch37_set09_011",
+          "type": "ox",
+          "question": "'run a test'는 의료 맥락에서 '검사를 실시하다'라는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 의료 영어에서 'run a test'는 검사를 실시하다는 뜻입니다. 'run'은 여기서 '수행하다, 진행하다'의 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch37_set09_012",
+          "type": "ox",
+          "question": "항생제 알레르기가 없다면 'None that we know of.'라고 답할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'None that we know of.'는 알려진 알레르기가 없다는 표현입니다. 특히 아이의 경우 부모가 알고 있는 알레르기가 없을 때 쓸 수 있는 자연스러운 답변입니다."
+        },
+        {
+          "id": "se_ch37_set09_013",
+          "type": "ox",
+          "question": "해외 병원에서 항생제를 처방받았다면 증상이 나아지는 즉시 복용을 중단하는 것이 바람직하다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 항생제는 증상이 나아져도 의사가 처방한 전체 기간(full course)을 완료해야 합니다. 임의로 중단하면 내성균이 생길 수 있어 위험합니다. 'Should I finish the full course even if I feel better?'라고 확인하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch37_set09_014",
+          "type": "ox",
+          "question": "'I need to see a doctor.'는 'I'd like to see a doctor.'보다 더 긴급한 뉘앙스를 가진다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'I need to see a doctor.'는 필요하다는 뉘앙스가 강해 더 긴급한 느낌을 줍니다. 'I'd like to see a doctor.'는 원한다는 의미로 좀 더 공손하고 덜 긴급한 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch37_set10_001",
+          "type": "multiple_choice",
+          "question": "병원에서 예약 없이 당일 진료가 가능한지 간단하게 묻는 표현은?",
+          "options": [
+            "I don't have an appointment.",
+            "Can I make an appointment?",
+            "I'm a walk-in patient. Is that okay?",
+            "Please put me in the schedule."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I'm a walk-in patient. Is that okay?'는 예약 없이 왔다는 사실을 밝히고 진료가 가능한지 묻는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch37_set10_002",
+          "type": "multiple_choice",
+          "question": "의사에게 목이 부어있다는 정보를 추가할 때 쓰는 표현은?",
+          "options": [
+            "My throat is big.",
+            "My throat is swollen.",
+            "My throat grows.",
+            "I have a large throat."
+          ],
+          "answerIndex": 1,
+          "explanation": "'My throat is swollen.'은 목이 부어있다는 의료 표현입니다. 'swollen'은 부어오른 상태를 나타내는 형용사입니다. 'I have a sore throat.'에 추가 정보로 말할 수 있습니다."
+        },
+        {
+          "id": "se_ch37_set10_003",
+          "type": "multiple_choice",
+          "question": "증상 시작 시점을 기간으로 표현할 때 '대략'이라는 의미를 더하는 단어는?",
+          "options": [
+            "very",
+            "quite",
+            "about",
+            "really"
+          ],
+          "answerIndex": 2,
+          "explanation": "'about'은 기간 앞에 붙여 대략적인 기간을 나타냅니다. 예: 'For about two days.'(이틀 정도). 정확한 기간을 모를 때 'about'을 사용합니다."
+        },
+        {
+          "id": "se_ch37_set10_004",
+          "type": "multiple_choice",
+          "question": "통증 강도가 6이라고 답하면서 '꽤 날카로운 통증'이라고 설명할 때 어울리는 표현은?",
+          "options": [
+            "It's about a six. It's quite sharp.",
+            "I feel a six. The pain is burning.",
+            "About six. It's very dull.",
+            "Six out of ten. It throbs all the time."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's about a six. It's quite sharp.'는 통증 강도와 성질을 함께 표현하는 자연스러운 방법입니다. 'I'd say about a six.'처럼 'I'd say'를 앞에 붙이기도 합니다."
+        },
+        {
+          "id": "se_ch37_set10_005",
+          "type": "multiple_choice",
+          "question": "아이 환자를 데려왔을 때 '딸이 아픕니다'라는 표현과 함께 말할 수 있는 증상 표현은?",
+          "options": [
+            "She has a rash on her arms.",
+            "My daughter wants a doctor.",
+            "The child is not good today.",
+            "She needs to see someone."
+          ],
+          "answerIndex": 0,
+          "explanation": "'She has a rash on her arms.'는 딸의 증상을 구체적으로 설명하는 표현입니다. 증상과 부위를 함께 말하면 접수 속도가 빨라지고 의료진이 더 빨리 파악할 수 있습니다."
+        },
+        {
+          "id": "se_ch37_set10_006",
+          "type": "multiple_choice",
+          "question": "약을 복용 중이라는 사실을 의사에게 알리는 방법으로 적절한 것은?",
+          "options": [
+            "I eat pills every day.",
+            "I take medication for it.",
+            "Medicine is part of my life.",
+            "I buy drugs regularly."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I take medication for it.'는 해당 질환으로 약을 복용 중이라는 자연스러운 표현입니다. 'I'm on medication for that.'도 같은 의미입니다."
+        },
+        {
+          "id": "se_ch37_set10_007",
+          "type": "multiple_choice",
+          "question": "의사가 살펴보겠다고 할 때 'I need to take a look.'의 의미는?",
+          "options": [
+            "검사 결과를 살펴보겠다는 뜻",
+            "수술이 필요하다는 뜻",
+            "직접 진찰하겠다는 뜻",
+            "처방전을 작성하겠다는 뜻"
+          ],
+          "answerIndex": 2,
+          "explanation": "'I need to take a look.'는 의사가 환자를 직접 진찰하겠다는 비공식적 표현입니다. 'take a look'는 살펴보다는 뜻으로, 'examine'보다 일상적인 표현입니다."
+        },
+        {
+          "id": "se_ch37_set10_008",
+          "type": "multiple_choice",
+          "question": "복약 지도에서 '통증이 있을 때 필요에 따라 복용하라'는 표현은?",
+          "options": [
+            "Take it three times a day.",
+            "Take it on an empty stomach.",
+            "Take it as needed for pain.",
+            "Take it at bedtime only."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Take it as needed for pain.'는 통증이 있을 때 필요에 따라 복용하라는 복약 지도 표현입니다. 정해진 시간이 아닌 필요에 따라 복용하는 약에 사용됩니다."
+        },
+        {
+          "id": "se_ch37_set10_009",
+          "type": "multiple_choice",
+          "question": "여행자보험 청구 시 '진단 내용을 서면으로 달라'고 요청하는 표현은?",
+          "options": [
+            "I need a medical certificate.",
+            "I'd like documentation of my diagnosis.",
+            "Please write what I have.",
+            "Give me the diagnosis paper."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'd like documentation of my diagnosis.'는 진단 내용을 서면으로 달라는 표현입니다. 'documentation'은 공식적인 서류나 문서를 의미하며, 보험 청구 시 필요한 경우에 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch37_set10_010",
+          "type": "multiple_choice",
+          "question": "병원 결제 시 'The consultation fee is eighty dollars.'를 들었습니다. 'consultation fee'의 뜻은?",
+          "options": [
+            "검사비",
+            "진료비(상담비)",
+            "처방약 비용",
+            "입원비"
+          ],
+          "answerIndex": 1,
+          "explanation": "'consultation fee'는 의사와의 진료(상담) 비용, 즉 진료비를 의미합니다. 검사비나 약값은 별도로 청구될 수 있습니다."
+        },
+        {
+          "id": "se_ch37_set10_011",
+          "type": "ox",
+          "question": "'What seems to be the problem?'은 의사나 간호사가 진료 첫 마디로 자주 사용하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'What seems to be the problem?'은 해외 의료 현장에서 의사·간호사가 진료를 시작할 때 자주 쓰는 표현입니다. 실제 의미는 '어디가 아프세요?'입니다."
+        },
+        {
+          "id": "se_ch37_set10_012",
+          "type": "ox",
+          "question": "'insect bites'는 두드러기를 가리키는 의료 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'insect bites'는 벌레 물린 자국을 의미합니다. 두드러기는 'hives', 발진은 'rash'라고 합니다. 비슷해 보이지만 원인과 증상이 다를 수 있어 구분이 중요합니다."
+        },
+        {
+          "id": "se_ch37_set10_013",
+          "type": "ox",
+          "question": "해외 병원에서 진단서를 요청할 때 보험사가 요구하는 내용(진단명, 치료 날짜 등)을 미리 파악해 두면 도움이 된다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 보험사마다 요구하는 서류가 다를 수 있으므로 진단서 요청 전에 보험사가 필요로 하는 항목을 미리 확인해두는 것이 좋습니다. 진단명(diagnosis)과 치료 날짜(dates of treatment)는 기본적으로 포함되어야 합니다."
+        },
+        {
+          "id": "se_ch37_set10_014",
+          "type": "ox",
+          "question": "해외 병원에서 고혈압이 있다고 말할 때 'hypertension'과 'high blood pressure' 두 표현 모두 사용할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'hypertension'은 고혈압의 의학 용어이고, 'high blood pressure'는 일상 언어 표현입니다. 두 표현 모두 의료 현장에서 통용됩니다."
         }
       ]
     }

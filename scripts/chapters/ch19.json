@@ -7,34 +7,68 @@
       "id": "ch19_d01",
       "title": "자리 있나요? (몇 명인지 말하기)",
       "lines": [
-        { "speaker": "나", "en": "Hi, do you have a table for two?", "ko": "안녕하세요, 두 명 자리 있나요?" },
-        { "speaker": "종업원", "en": "Of course! Right this way, please.", "ko": "물론이죠! 이쪽으로 오세요." },
-        { "speaker": "나", "en": "Can we sit by the window?", "ko": "창가 자리에 앉을 수 있을까요?" },
-        { "speaker": "종업원", "en": "Sure, that table over there is free.", "ko": "물론이죠, 저기 저 테이블이 비어 있습니다." }
+        {
+          "speaker": "나",
+          "en": "Hi, do you have a table for two?",
+          "ko": "안녕하세요, 두 명 자리 있나요?"
+        },
+        {
+          "speaker": "종업원",
+          "en": "Of course! Right this way, please.",
+          "ko": "물론이죠! 이쪽으로 오세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Can we sit by the window?",
+          "ko": "창가 자리에 앉을 수 있을까요?"
+        },
+        {
+          "speaker": "종업원",
+          "en": "Sure, that table over there is free.",
+          "ko": "물론이죠, 저기 저 테이블이 비어 있습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "A table for two, please.",
           "ko": "2명 자리를 요청하는 가장 간결한 표현. 'A table for + 인원수' 패턴으로 쓰며, 'two people' 없이 숫자만 써도 충분함. 'Two people table'처럼 직역하면 부자연스럽다.",
           "alternatives": [
-            { "en": "We're a party of two.", "ko": "일행이 두 명이라는 표현. 레스토랑 예약 맥락에서 자주 씀." },
-            { "en": "Do you have a table for two available?", "ko": "자리가 비어 있는지 확인을 포함한 정중한 요청." }
+            {
+              "en": "We're a party of two.",
+              "ko": "일행이 두 명이라는 표현. 레스토랑 예약 맥락에서 자주 씀."
+            },
+            {
+              "en": "Do you have a table for two available?",
+              "ko": "자리가 비어 있는지 확인을 포함한 정중한 요청."
+            }
           ]
         },
         {
           "en": "Right this way, please.",
           "ko": "종업원이 손님을 자리로 안내할 때 쓰는 표현. '이쪽으로 따라오세요'라는 뜻으로, 들으면 뒤를 따라가면 됨.",
           "alternatives": [
-            { "en": "Follow me, please.", "ko": "저를 따라오세요 — 더 간단한 안내 표현." },
-            { "en": "This way, please.", "ko": "'Right this way'에서 right을 생략한 짧은 버전." }
+            {
+              "en": "Follow me, please.",
+              "ko": "저를 따라오세요 — 더 간단한 안내 표현."
+            },
+            {
+              "en": "This way, please.",
+              "ko": "'Right this way'에서 right을 생략한 짧은 버전."
+            }
           ]
         },
         {
           "en": "Can we sit by the window?",
           "ko": "특정 자리를 요청할 때 쓰는 표현. 'by the window(창가)', 'outside(테라스)', 'in the corner(구석)' 등으로 바꿔 쓸 수 있음.",
           "alternatives": [
-            { "en": "Could we have a window seat?", "ko": "창가 자리를 정중하게 요청하는 표현." },
-            { "en": "Do you have an outdoor table?", "ko": "야외 자리를 요청하는 표현." }
+            {
+              "en": "Could we have a window seat?",
+              "ko": "창가 자리를 정중하게 요청하는 표현."
+            },
+            {
+              "en": "Do you have an outdoor table?",
+              "ko": "야외 자리를 요청하는 표현."
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch19_d02",
       "title": "메뉴 주세요",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, could we see the menu, please?", "ko": "실례합니다, 메뉴판 주시겠어요?" },
-        { "speaker": "종업원", "en": "Here you go. Can I get you anything to drink while you look?", "ko": "여기 있습니다. 보시는 동안 음료라도 드릴까요?" },
-        { "speaker": "나", "en": "Just water for now, thank you.", "ko": "일단 물만 주세요, 감사합니다." },
-        { "speaker": "종업원", "en": "Of course. Take your time.", "ko": "물론이죠. 천천히 보세요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, could we see the menu, please?",
+          "ko": "실례합니다, 메뉴판 주시겠어요?"
+        },
+        {
+          "speaker": "종업원",
+          "en": "Here you go. Can I get you anything to drink while you look?",
+          "ko": "여기 있습니다. 보시는 동안 음료라도 드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Just water for now, thank you.",
+          "ko": "일단 물만 주세요, 감사합니다."
+        },
+        {
+          "speaker": "종업원",
+          "en": "Of course. Take your time.",
+          "ko": "물론이죠. 천천히 보세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Could we see the menu, please?",
           "ko": "메뉴판을 달라는 정중한 요청. 'Give me the menu'처럼 직접적인 명령형은 무례하게 들릴 수 있으므로 Could you / Can I 형태를 쓰는 것이 좋음.",
           "alternatives": [
-            { "en": "Can I have a look at the menu?", "ko": "메뉴를 봐도 되냐고 묻는 캐주얼한 표현." },
-            { "en": "May I see the menu?", "ko": "May I를 쓴 더 격식 있는 요청." }
+            {
+              "en": "Can I have a look at the menu?",
+              "ko": "메뉴를 봐도 되냐고 묻는 캐주얼한 표현."
+            },
+            {
+              "en": "May I see the menu?",
+              "ko": "May I를 쓴 더 격식 있는 요청."
+            }
           ]
         },
         {
           "en": "Here you go.",
           "ko": "물건을 건네줄 때 쓰는 표현. 직역하면 어색하지만 '여기 있습니다'라는 뜻. 종업원이 메뉴나 음식을 가져다줄 때 자주 씀.",
           "alternatives": [
-            { "en": "Here it is.", "ko": "Here you go와 같은 상황에서 쓸 수 있는 표현." },
-            { "en": "There you go.", "ko": "조금 더 캐주얼한 버전으로 의미는 동일." }
+            {
+              "en": "Here it is.",
+              "ko": "Here you go와 같은 상황에서 쓸 수 있는 표현."
+            },
+            {
+              "en": "There you go.",
+              "ko": "조금 더 캐주얼한 버전으로 의미는 동일."
+            }
           ]
         },
         {
           "en": "Take your time.",
           "ko": "서두르지 말고 천천히 보라는 배려의 표현. 'Just let me know when you're ready'도 같은 맥락에서 쓰임. 종업원이 자주 쓰므로 들으면 여유 있게 메뉴를 보면 됨.",
           "alternatives": [
-            { "en": "No rush.", "ko": "서두를 필요 없다는 캐주얼한 표현." },
-            { "en": "Whenever you're ready.", "ko": "준비됐을 때 알려달라는 뜻으로 메뉴를 보는 동안 기다리겠다는 의미." }
+            {
+              "en": "No rush.",
+              "ko": "서두를 필요 없다는 캐주얼한 표현."
+            },
+            {
+              "en": "Whenever you're ready.",
+              "ko": "준비됐을 때 알려달라는 뜻으로 메뉴를 보는 동안 기다리겠다는 의미."
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch19_d03",
       "title": "추천 요청하기",
       "lines": [
-        { "speaker": "나", "en": "What do you recommend here?", "ko": "여기서 뭘 추천하시나요?" },
-        { "speaker": "종업원", "en": "Our grilled salmon is very popular. It comes with seasonal vegetables.", "ko": "구운 연어가 아주 인기 있어요. 제철 채소가 곁들여집니다." },
-        { "speaker": "나", "en": "That sounds great. Is it spicy?", "ko": "좋아 보이네요. 맵나요?" },
-        { "speaker": "종업원", "en": "Not at all. It's mild and very flavorful.", "ko": "전혀요. 맵지 않고 아주 맛있습니다." }
+        {
+          "speaker": "나",
+          "en": "What do you recommend here?",
+          "ko": "여기서 뭘 추천하시나요?"
+        },
+        {
+          "speaker": "종업원",
+          "en": "Our grilled salmon is very popular. It comes with seasonal vegetables.",
+          "ko": "구운 연어가 아주 인기 있어요. 제철 채소가 곁들여집니다."
+        },
+        {
+          "speaker": "나",
+          "en": "That sounds great. Is it spicy?",
+          "ko": "좋아 보이네요. 맵나요?"
+        },
+        {
+          "speaker": "종업원",
+          "en": "Not at all. It's mild and very flavorful.",
+          "ko": "전혀요. 맵지 않고 아주 맛있습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "What do you recommend?",
           "ko": "추천 메뉴를 묻는 가장 자연스러운 표현. 'What is good here?'도 같은 의미지만 'recommend'를 쓰면 더 자연스러운 영어로 들림. 여행지 레스토랑에서 현지 특선을 알아볼 때 유용.",
           "alternatives": [
-            { "en": "What's popular here?", "ko": "인기 메뉴가 뭐냐고 묻는 표현. recommend와 비슷한 의미." },
-            { "en": "What's the house specialty?", "ko": "이 식당의 대표 메뉴가 뭐냐고 묻는 표현." }
+            {
+              "en": "What's popular here?",
+              "ko": "인기 메뉴가 뭐냐고 묻는 표현. recommend와 비슷한 의미."
+            },
+            {
+              "en": "What's the house specialty?",
+              "ko": "이 식당의 대표 메뉴가 뭐냐고 묻는 표현."
+            }
           ]
         },
         {
           "en": "That sounds great.",
           "ko": "상대방의 말을 듣고 '좋겠다, 그거 괜찮겠다'라고 반응하는 표현. 음식 설명을 들은 뒤 긍정적으로 반응할 때 자주 씀. 'That sounds delicious.'로 더 구체적으로 표현하기도 함.",
           "alternatives": [
-            { "en": "That sounds delicious.", "ko": "맛있겠다는 더 구체적인 긍정 반응." },
-            { "en": "I'll give that a try.", "ko": "그걸 한번 먹어보겠다는 표현으로 주문 의사를 내비침." }
+            {
+              "en": "That sounds delicious.",
+              "ko": "맛있겠다는 더 구체적인 긍정 반응."
+            },
+            {
+              "en": "I'll give that a try.",
+              "ko": "그걸 한번 먹어보겠다는 표현으로 주문 의사를 내비침."
+            }
           ]
         },
         {
           "en": "Is it spicy?",
           "ko": "매운 음식에 익숙하지 않은 사람이 미리 확인하는 표현. 알레르기나 재료가 걱정될 때 'Does it contain nuts?' 등으로 변형해 쓸 수 있음.",
           "alternatives": [
-            { "en": "How spicy is it?", "ko": "얼마나 매운지 정도를 묻는 표현." },
-            { "en": "Does it come with any heat?", "ko": "매운 맛이 있는지 더 완곡하게 묻는 표현." }
+            {
+              "en": "How spicy is it?",
+              "ko": "얼마나 매운지 정도를 묻는 표현."
+            },
+            {
+              "en": "Does it come with any heat?",
+              "ko": "매운 맛이 있는지 더 완곡하게 묻는 표현."
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch19_d04",
       "title": "주문하기 (I'll have ~)",
       "lines": [
-        { "speaker": "종업원", "en": "Are you ready to order?", "ko": "주문하시겠어요?" },
-        { "speaker": "나", "en": "Yes, I'll have the pasta, please.", "ko": "네, 파스타로 주세요." },
-        { "speaker": "종업원", "en": "Excellent choice. And for your friend?", "ko": "좋은 선택이세요. 같이 오신 분은요?" },
-        { "speaker": "나", "en": "She'll have the Caesar salad, thank you.", "ko": "저 분은 시저 샐러드 주세요, 감사합니다." }
+        {
+          "speaker": "종업원",
+          "en": "Are you ready to order?",
+          "ko": "주문하시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Yes, I'll have the pasta, please.",
+          "ko": "네, 파스타로 주세요."
+        },
+        {
+          "speaker": "종업원",
+          "en": "Excellent choice. And for your friend?",
+          "ko": "좋은 선택이세요. 같이 오신 분은요?"
+        },
+        {
+          "speaker": "나",
+          "en": "She'll have the Caesar salad, thank you.",
+          "ko": "저 분은 시저 샐러드 주세요, 감사합니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'll have the pasta, please.",
           "ko": "주문할 때 가장 자연스러운 표현. 'I want pasta'는 문법적으로 맞지만 레스토랑에서는 'I'll have ~'가 훨씬 자연스럽게 들림. 메뉴 이름 앞에 'the'를 붙이는 것이 일반적.",
           "alternatives": [
-            { "en": "I'd like the pasta, please.", "ko": "I'll have와 같은 의미지만 I'd like는 조금 더 격식 있고 정중한 표현." },
-            { "en": "Can I get the pasta?", "ko": "캐주얼한 식당에서 자주 쓰이는 표현." }
+            {
+              "en": "I'd like the pasta, please.",
+              "ko": "I'll have와 같은 의미지만 I'd like는 조금 더 격식 있고 정중한 표현."
+            },
+            {
+              "en": "Can I get the pasta?",
+              "ko": "캐주얼한 식당에서 자주 쓰이는 표현."
+            }
           ]
         },
         {
           "en": "Are you ready to order?",
           "ko": "종업원이 주문을 받으러 왔을 때 쓰는 표현. '주문하시겠어요?'라는 뜻. 아직 결정하지 못했다면 'Not yet, give us a few more minutes.'라고 답하면 됨.",
           "alternatives": [
-            { "en": "May I take your order?", "ko": "조금 더 격식 있는 주문 요청 표현." },
-            { "en": "What can I get for you?", "ko": "캐주얼한 식당에서 종업원이 자주 쓰는 표현." }
+            {
+              "en": "May I take your order?",
+              "ko": "조금 더 격식 있는 주문 요청 표현."
+            },
+            {
+              "en": "What can I get for you?",
+              "ko": "캐주얼한 식당에서 종업원이 자주 쓰는 표현."
+            }
           ]
         },
         {
           "en": "Excellent choice.",
           "ko": "종업원이 손님의 주문을 받고 긍정적으로 반응하는 표현. 항상 진심은 아니지만 서비스 표현으로 자주 씀. 비슷하게 'Great choice.' / 'Good choice.'도 쓰임.",
           "alternatives": [
-            { "en": "Great choice!", "ko": "Excellent choice와 같은 의미의 더 캐주얼한 표현." },
-            { "en": "That's a popular one.", "ko": "많이들 시키는 메뉴라는 뜻으로 선택을 긍정하는 반응." }
+            {
+              "en": "Great choice!",
+              "ko": "Excellent choice와 같은 의미의 더 캐주얼한 표현."
+            },
+            {
+              "en": "That's a popular one.",
+              "ko": "많이들 시키는 메뉴라는 뜻으로 선택을 긍정하는 반응."
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch19_d05",
       "title": "스테이크 굽기 정도 말하기",
       "lines": [
-        { "speaker": "종업원", "en": "How would you like your steak cooked?", "ko": "스테이크를 어떻게 익혀 드릴까요?" },
-        { "speaker": "나", "en": "Medium, please.", "ko": "미디엄으로 주세요." },
-        { "speaker": "종업원", "en": "Perfect. Any sauce with that?", "ko": "알겠습니다. 소스는 어떤 걸로 드릴까요?" },
-        { "speaker": "나", "en": "Just the pepper sauce, please.", "ko": "페퍼 소스만 주세요." }
+        {
+          "speaker": "종업원",
+          "en": "How would you like your steak cooked?",
+          "ko": "스테이크를 어떻게 익혀 드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Medium, please.",
+          "ko": "미디엄으로 주세요."
+        },
+        {
+          "speaker": "종업원",
+          "en": "Perfect. Any sauce with that?",
+          "ko": "알겠습니다. 소스는 어떤 걸로 드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Just the pepper sauce, please.",
+          "ko": "페퍼 소스만 주세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "How would you like your steak cooked?",
           "ko": "굽기 정도를 묻는 표준 질문. 답변은 rare(레어·속까지 빨간), medium rare(미디엄레어·절반쯤 빨간), medium(미디엄·분홍빛), medium well(미디엄웰), well done(완전히 익힘) 중 선택.",
           "alternatives": [
-            { "en": "How do you like your steak?", "ko": "굽기를 묻는 더 짧은 버전. 의미는 동일." },
-            { "en": "What temperature would you like?", "ko": "굽기 정도를 temperature로 표현한 방식." }
+            {
+              "en": "How do you like your steak?",
+              "ko": "굽기를 묻는 더 짧은 버전. 의미는 동일."
+            },
+            {
+              "en": "What temperature would you like?",
+              "ko": "굽기 정도를 temperature로 표현한 방식."
+            }
           ]
         },
         {
           "en": "Medium, please.",
           "ko": "스테이크 굽기 중 가장 많이 선택하는 미디엄. 겉은 익고 속은 분홍빛이 남은 상태. 'Medium rare'는 속에 빨간 기가 더 남고, 'well done'은 완전히 익힌 것. 한국 발음 '미디엄'과 동일.",
           "alternatives": [
-            { "en": "Medium rare, please.", "ko": "속에 빨간 기가 남은 미디엄레어 요청. 서양에서 선호하는 굽기." },
-            { "en": "Well done, please.", "ko": "완전히 익힌 웰던 요청. 가장 익힌 상태." }
+            {
+              "en": "Medium rare, please.",
+              "ko": "속에 빨간 기가 남은 미디엄레어 요청. 서양에서 선호하는 굽기."
+            },
+            {
+              "en": "Well done, please.",
+              "ko": "완전히 익힌 웰던 요청. 가장 익힌 상태."
+            }
           ]
         },
         {
           "en": "Any sauce with that?",
           "ko": "소스를 곁들일지 묻는 표현. 'with that'은 '그것과 함께'라는 뜻으로 추가 사항을 물을 때 자주 씀. 'Any sides with that?'이라고 하면 사이드 메뉴를 묻는 것.",
           "alternatives": [
-            { "en": "Would you like any sauce?", "ko": "소스를 원하는지 정중하게 묻는 표현." },
-            { "en": "What sauce would you like?", "ko": "어떤 소스를 원하는지 바로 묻는 표현." }
+            {
+              "en": "Would you like any sauce?",
+              "ko": "소스를 원하는지 정중하게 묻는 표현."
+            },
+            {
+              "en": "What sauce would you like?",
+              "ko": "어떤 소스를 원하는지 바로 묻는 표현."
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch19_d06",
       "title": "음료 주문하기",
       "lines": [
-        { "speaker": "종업원", "en": "What would you like to drink?", "ko": "음료는 무엇으로 드릴까요?" },
-        { "speaker": "나", "en": "I'll have a glass of orange juice, please.", "ko": "오렌지 주스 한 잔 주세요." },
-        { "speaker": "종업원", "en": "Fresh squeezed or bottled?", "ko": "생과일 주스로 드릴까요, 병에 든 걸로 드릴까요?" },
-        { "speaker": "나", "en": "Fresh squeezed, please.", "ko": "생과일 주스로 주세요." }
+        {
+          "speaker": "종업원",
+          "en": "What would you like to drink?",
+          "ko": "음료는 무엇으로 드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "I'll have a glass of orange juice, please.",
+          "ko": "오렌지 주스 한 잔 주세요."
+        },
+        {
+          "speaker": "종업원",
+          "en": "Fresh squeezed or bottled?",
+          "ko": "생과일 주스로 드릴까요, 병에 든 걸로 드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Fresh squeezed, please.",
+          "ko": "생과일 주스로 주세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "What would you like to drink?",
           "ko": "음료 주문을 받을 때 쓰는 표준 표현. 'What would you like ~?'는 종업원이 주문을 받을 때 가장 많이 쓰는 패턴으로 잘 익혀두면 대화를 이해하기 쉬움.",
           "alternatives": [
-            { "en": "Can I get you something to drink?", "ko": "음료를 드릴까요?라는 제안 형식의 표현." },
-            { "en": "What are you having to drink?", "ko": "음료로 뭘 드실 거냐고 묻는 캐주얼한 표현." }
+            {
+              "en": "Can I get you something to drink?",
+              "ko": "음료를 드릴까요?라는 제안 형식의 표현."
+            },
+            {
+              "en": "What are you having to drink?",
+              "ko": "음료로 뭘 드실 거냐고 묻는 캐주얼한 표현."
+            }
           ]
         },
         {
           "en": "I'll have a glass of orange juice.",
           "ko": "'a glass of ~'는 '~한 잔'이라는 표현. 음료 주문 시 자주 쓰임. 'a cup of coffee(커피 한 잔)', 'a bottle of water(물 한 병)'처럼 용기에 따라 바꿔 씀.",
           "alternatives": [
-            { "en": "Can I get a Coke?", "ko": "콜라를 달라는 캐주얼한 요청." },
-            { "en": "I'd like a glass of red wine, please.", "ko": "레드 와인 한 잔을 정중하게 요청하는 표현." }
+            {
+              "en": "Can I get a Coke?",
+              "ko": "콜라를 달라는 캐주얼한 요청."
+            },
+            {
+              "en": "I'd like a glass of red wine, please.",
+              "ko": "레드 와인 한 잔을 정중하게 요청하는 표현."
+            }
           ]
         },
         {
           "en": "Fresh squeezed or bottled?",
           "ko": "생과일 착즙인지 병에 든 것인지 구분해서 묻는 표현. 메뉴에 따라 가격 차이가 크므로 모르면 'What's the difference in price?'라고 물어볼 수 있음.",
           "alternatives": [
-            { "en": "Is that freshly made?", "ko": "지금 만든 것인지 확인하는 표현." },
-            { "en": "What juices do you have?", "ko": "어떤 주스가 있는지 선택지를 먼저 묻는 표현." }
+            {
+              "en": "Is that freshly made?",
+              "ko": "지금 만든 것인지 확인하는 표현."
+            },
+            {
+              "en": "What juices do you have?",
+              "ko": "어떤 주스가 있는지 선택지를 먼저 묻는 표현."
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch19_d07",
       "title": "재료 빼달라고 요청하기 (이거 빼주세요)",
       "lines": [
-        { "speaker": "나", "en": "Can I have the burger without onions, please?", "ko": "버거에서 양파 빼주실 수 있나요?" },
-        { "speaker": "종업원", "en": "Of course, no onions. Any other changes?", "ko": "물론이죠, 양파 빼드릴게요. 다른 변경 사항은요?" },
-        { "speaker": "나", "en": "Could you put the dressing on the side?", "ko": "드레싱은 따로 주시겠어요?" },
-        { "speaker": "종업원", "en": "Sure, dressing on the side. Got it.", "ko": "알겠습니다, 드레싱 따로 드릴게요. 확인했습니다." }
+        {
+          "speaker": "나",
+          "en": "Can I have the burger without onions, please?",
+          "ko": "버거에서 양파 빼주실 수 있나요?"
+        },
+        {
+          "speaker": "종업원",
+          "en": "Of course, no onions. Any other changes?",
+          "ko": "물론이죠, 양파 빼드릴게요. 다른 변경 사항은요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Could you put the dressing on the side?",
+          "ko": "드레싱은 따로 주시겠어요?"
+        },
+        {
+          "speaker": "종업원",
+          "en": "Sure, dressing on the side. Got it.",
+          "ko": "알겠습니다, 드레싱 따로 드릴게요. 확인했습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Can I have it without onions?",
           "ko": "'without + 재료'는 해당 재료를 빼달라는 표현. 'no onions please'처럼 'no + 재료'도 같은 의미로 쓰임. 알레르기나 기호에 따라 자유롭게 변형해서 쓸 수 있음.",
           "alternatives": [
-            { "en": "No onions, please.", "ko": "'without'을 쓰지 않고 'no + 재료'로 간단하게 빼달라는 표현." },
-            { "en": "Could you leave out the onions?", "ko": "'leave out'은 빼다·제외하다라는 의미로 자연스러운 표현." }
+            {
+              "en": "No onions, please.",
+              "ko": "'without'을 쓰지 않고 'no + 재료'로 간단하게 빼달라는 표현."
+            },
+            {
+              "en": "Could you leave out the onions?",
+              "ko": "'leave out'은 빼다·제외하다라는 의미로 자연스러운 표현."
+            }
           ]
         },
         {
           "en": "Could you put the dressing on the side?",
           "ko": "'on the side'는 음식과 따로, 별도로 달라는 표현. 소스·드레싱을 음식에 뿌리지 말고 따로 담아달라고 할 때 씀. 직역하면 '옆에 두다'지만 '따로 주세요'라는 관용적 의미.",
           "alternatives": [
-            { "en": "Dressing on the side, please.", "ko": "더 간결하게 드레싱을 따로 달라는 표현." },
-            { "en": "Can I have the sauce separately?", "ko": "소스를 따로 달라는 표현." }
+            {
+              "en": "Dressing on the side, please.",
+              "ko": "더 간결하게 드레싱을 따로 달라는 표현."
+            },
+            {
+              "en": "Can I have the sauce separately?",
+              "ko": "소스를 따로 달라는 표현."
+            }
           ]
         },
         {
           "en": "Got it.",
           "ko": "주문이나 요청을 확인했다는 종업원의 반응. '알겠습니다, 확인했습니다'라는 뜻. 손님 입장에서도 설명을 들은 후 이해했음을 표현할 때 씀.",
           "alternatives": [
-            { "en": "Noted.", "ko": "메모했습니다·확인했습니다라는 뜻의 더 격식 있는 표현." },
-            { "en": "I'll make a note of that.", "ko": "그 내용을 기록해두겠다는 종업원의 확인 표현." }
+            {
+              "en": "Noted.",
+              "ko": "메모했습니다·확인했습니다라는 뜻의 더 격식 있는 표현."
+            },
+            {
+              "en": "I'll make a note of that.",
+              "ko": "그 내용을 기록해두겠다는 종업원의 확인 표현."
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch19_d08",
       "title": "추가 주문하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, could we order some more bread?", "ko": "실례합니다, 빵을 좀 더 주문할 수 있을까요?" },
-        { "speaker": "종업원", "en": "Of course! I'll bring that right out.", "ko": "물론이죠! 바로 가져다드리겠습니다." },
-        { "speaker": "나", "en": "And could I get another glass of water?", "ko": "그리고 물 한 잔 더 주시겠어요?" },
-        { "speaker": "종업원", "en": "Absolutely, I'll be right back.", "ko": "물론이죠, 바로 돌아오겠습니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, could we order some more bread?",
+          "ko": "실례합니다, 빵을 좀 더 주문할 수 있을까요?"
+        },
+        {
+          "speaker": "종업원",
+          "en": "Of course! I'll bring that right out.",
+          "ko": "물론이죠! 바로 가져다드리겠습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "And could I get another glass of water?",
+          "ko": "그리고 물 한 잔 더 주시겠어요?"
+        },
+        {
+          "speaker": "종업원",
+          "en": "Absolutely, I'll be right back.",
+          "ko": "물론이죠, 바로 돌아오겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Could we order some more bread?",
           "ko": "추가 주문을 요청하는 정중한 표현. 'some more'은 '좀 더'라는 뜻. 'Can I get more bread?'처럼 짧게 말해도 되지만 Could를 쓰면 더 정중하게 들림.",
           "alternatives": [
-            { "en": "Can we get more bread, please?", "ko": "추가 빵을 달라는 캐주얼하고 간결한 요청." },
-            { "en": "We'd like to order more bread.", "ko": "추가 주문 의사를 정중하게 밝히는 표현." }
+            {
+              "en": "Can we get more bread, please?",
+              "ko": "추가 빵을 달라는 캐주얼하고 간결한 요청."
+            },
+            {
+              "en": "We'd like to order more bread.",
+              "ko": "추가 주문 의사를 정중하게 밝히는 표현."
+            }
           ]
         },
         {
           "en": "I'll bring that right out.",
           "ko": "종업원이 바로 가져다주겠다고 말할 때 쓰는 표현. 'right out'은 '바로, 즉시'라는 뜻. 들으면 잠시 기다리면 됨. 비슷하게 'I'll be right with you(곧 도와드릴게요)'도 자주 쓰임.",
           "alternatives": [
-            { "en": "Coming right up!", "ko": "바로 가져다드리겠습니다라는 활기찬 표현." },
-            { "en": "I'll get that for you now.", "ko": "지금 바로 가져다드리겠다는 표현." }
+            {
+              "en": "Coming right up!",
+              "ko": "바로 가져다드리겠습니다라는 활기찬 표현."
+            },
+            {
+              "en": "I'll get that for you now.",
+              "ko": "지금 바로 가져다드리겠다는 표현."
+            }
           ]
         },
         {
           "en": "I'll be right back.",
           "ko": "바로 돌아오겠다는 표현. 'right back'은 '바로 돌아와서'라는 뜻. 종업원이 주문을 넣으러 가거나 뭔가 가지러 갈 때 자주 씀. 잠시 기다리면 된다는 뜻.",
           "alternatives": [
-            { "en": "Just a moment.", "ko": "잠깐만요, 바로 돌아올게요라는 짧은 표현." },
-            { "en": "One second.", "ko": "잠깐이라는 의미의 매우 캐주얼한 표현." }
+            {
+              "en": "Just a moment.",
+              "ko": "잠깐만요, 바로 돌아올게요라는 짧은 표현."
+            },
+            {
+              "en": "One second.",
+              "ko": "잠깐이라는 의미의 매우 캐주얼한 표현."
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch19_d09",
       "title": "물 요청 (수돗물 vs 생수)",
       "lines": [
-        { "speaker": "나", "en": "Could I get some water, please?", "ko": "물 좀 주시겠어요?" },
-        { "speaker": "종업원", "en": "Still or sparkling?", "ko": "일반 물로 드릴까요, 탄산수로 드릴까요?" },
-        { "speaker": "나", "en": "Just tap water is fine, thank you.", "ko": "수돗물도 괜찮아요, 감사합니다." },
-        { "speaker": "종업원", "en": "No problem, I'll get that for you.", "ko": "알겠습니다, 바로 가져다드릴게요." }
+        {
+          "speaker": "나",
+          "en": "Could I get some water, please?",
+          "ko": "물 좀 주시겠어요?"
+        },
+        {
+          "speaker": "종업원",
+          "en": "Still or sparkling?",
+          "ko": "일반 물로 드릴까요, 탄산수로 드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Just tap water is fine, thank you.",
+          "ko": "수돗물도 괜찮아요, 감사합니다."
+        },
+        {
+          "speaker": "종업원",
+          "en": "No problem, I'll get that for you.",
+          "ko": "알겠습니다, 바로 가져다드릴게요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Just tap water is fine.",
           "ko": "수돗물을 달라는 표현. 'tap water'는 수돗물로 대부분 무료. 'bottled water'는 병에 든 생수로 보통 유료. 유럽 식당에서 'water, please'라고만 하면 bottled water를 주고 돈을 청구할 수 있으므로 무료 수돗물을 원할 때는 반드시 'tap water'를 명시해야 함.",
           "alternatives": [
-            { "en": "Tap water, please.", "ko": "수돗물을 달라는 간결한 표현." },
-            { "en": "Can I have a glass of tap water?", "ko": "수돗물 한 잔을 정중하게 요청하는 표현." }
+            {
+              "en": "Tap water, please.",
+              "ko": "수돗물을 달라는 간결한 표현."
+            },
+            {
+              "en": "Can I have a glass of tap water?",
+              "ko": "수돗물 한 잔을 정중하게 요청하는 표현."
+            }
           ]
         },
         {
           "en": "Still or sparkling?",
           "ko": "물의 종류를 묻는 표현. 'still water'는 탄산 없는 일반 물, 'sparkling water'는 탄산수. 유럽 식당에서 자주 묻는 질문으로 둘 다 bottled water이면 유료일 수 있음.",
           "alternatives": [
-            { "en": "Still water or sparkling?", "ko": "Still or sparkling?의 더 풀어쓴 버전." },
-            { "en": "Flat or fizzy?", "ko": "탄산 있는 것과 없는 것을 구분하는 영국식 표현." }
+            {
+              "en": "Still water or sparkling?",
+              "ko": "Still or sparkling?의 더 풀어쓴 버전."
+            },
+            {
+              "en": "Flat or fizzy?",
+              "ko": "탄산 있는 것과 없는 것을 구분하는 영국식 표현."
+            }
           ]
         },
         {
           "en": "No problem.",
           "ko": "요청에 흔쾌히 응할 때 쓰는 표현. '문제없습니다, 괜찮습니다'라는 뜻. 'Sure', 'Of course'와 비슷한 맥락이지만 'No problem'은 불편을 끼쳤을 때 사과에도 답할 수 있어 더 폭넓게 쓰임.",
           "alternatives": [
-            { "en": "Sure thing.", "ko": "물론이죠라는 캐주얼한 긍정 표현." },
-            { "en": "Not at all.", "ko": "전혀 괜찮다는 뜻의 표현. 'Do you mind ~?'에 대한 답으로도 씀." }
+            {
+              "en": "Sure thing.",
+              "ko": "물론이죠라는 캐주얼한 긍정 표현."
+            },
+            {
+              "en": "Not at all.",
+              "ko": "전혀 괜찮다는 뜻의 표현. 'Do you mind ~?'에 대한 답으로도 씀."
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch19_d10",
       "title": "잠시 후에 주문하겠다고 말하기",
       "lines": [
-        { "speaker": "종업원", "en": "Are you ready to order?", "ko": "주문하시겠어요?" },
-        { "speaker": "나", "en": "Could we have a few more minutes, please?", "ko": "잠시만 더 시간을 주시겠어요?" },
-        { "speaker": "종업원", "en": "Of course, take your time. I'll come back shortly.", "ko": "물론이죠, 천천히 보세요. 잠시 후에 다시 오겠습니다." },
-        { "speaker": "나", "en": "Thank you. We'll be ready in a moment.", "ko": "감사합니다. 곧 결정할게요." }
+        {
+          "speaker": "종업원",
+          "en": "Are you ready to order?",
+          "ko": "주문하시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Could we have a few more minutes, please?",
+          "ko": "잠시만 더 시간을 주시겠어요?"
+        },
+        {
+          "speaker": "종업원",
+          "en": "Of course, take your time. I'll come back shortly.",
+          "ko": "물론이죠, 천천히 보세요. 잠시 후에 다시 오겠습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you. We'll be ready in a moment.",
+          "ko": "감사합니다. 곧 결정할게요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Could we have a few more minutes?",
           "ko": "아직 결정하지 못했을 때 시간을 더 달라는 표현. 'a few more minutes'는 '몇 분 더'라는 뜻. 'We're not ready yet'이라고 해도 되지만 Could we를 쓰면 더 정중함.",
           "alternatives": [
-            { "en": "We need a few more minutes.", "ko": "좀 더 결정에 시간이 필요하다는 직접적인 표현." },
-            { "en": "Can we have a bit longer?", "ko": "조금 더 시간을 달라는 캐주얼한 표현." }
+            {
+              "en": "We need a few more minutes.",
+              "ko": "좀 더 결정에 시간이 필요하다는 직접적인 표현."
+            },
+            {
+              "en": "Can we have a bit longer?",
+              "ko": "조금 더 시간을 달라는 캐주얼한 표현."
+            }
           ]
         },
         {
           "en": "I'll come back shortly.",
           "ko": "종업원이 잠시 후에 다시 오겠다고 말하는 표현. 'shortly'는 '곧, 잠시 후에'라는 뜻. 들으면 메뉴를 계속 보면서 기다리면 됨.",
           "alternatives": [
-            { "en": "I'll check back in a few minutes.", "ko": "몇 분 후에 다시 확인하러 오겠다는 표현." },
-            { "en": "Just wave me down when you're ready.", "ko": "준비되면 손을 들어 불러달라는 표현." }
+            {
+              "en": "I'll check back in a few minutes.",
+              "ko": "몇 분 후에 다시 확인하러 오겠다는 표현."
+            },
+            {
+              "en": "Just wave me down when you're ready.",
+              "ko": "준비되면 손을 들어 불러달라는 표현."
+            }
           ]
         },
         {
           "en": "We'll be ready in a moment.",
           "ko": "곧 결정하겠다는 표현. 'in a moment'는 '곧, 잠시 후에'라는 뜻으로 'in a minute', 'in a sec'와 비슷하게 쓰임. 종업원을 잠시 기다리게 할 때 예의 바르게 쓸 수 있는 표현.",
           "alternatives": [
-            { "en": "Just give us one more minute.", "ko": "1분만 더 달라는 간결한 요청." },
-            { "en": "We're almost ready.", "ko": "거의 다 결정했다는 표현으로 곧 주문할 수 있음을 알림." }
+            {
+              "en": "Just give us one more minute.",
+              "ko": "1분만 더 달라는 간결한 요청."
+            },
+            {
+              "en": "We're almost ready.",
+              "ko": "거의 다 결정했다는 표현으로 곧 주문할 수 있음을 알림."
+            }
           ]
         }
       ]
@@ -525,6 +865,1473 @@
           "question": "스테이크 굽기에서 'well done'은 속이 빨간 상태를 말한다.",
           "answerIndex": 1,
           "explanation": "틀렸습니다. 'Well done'은 완전히 익힌 상태입니다. 속이 빨간 것은 'rare', 속에 빨간 기가 남은 것은 'medium rare', 분홍빛이 남은 것은 'medium'입니다. 'Well done'은 가장 많이 익힌 상태입니다."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch19_set02_001",
+          "type": "multiple_choice",
+          "question": "레스토랑에 입장해서 두 명이 앉을 자리가 있는지 묻는 자연스러운 표현은?",
+          "options": [
+            "Do you have a table for two?",
+            "Do you have two chairs free?",
+            "Is there a table number two?",
+            "Can you seat two persons here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you have a table for two?'는 2명 자리를 묻는 자연스러운 표현입니다. 'A table for + 인원수' 패턴이 식당에서 표준적으로 쓰입니다. 나머지는 어색한 영어입니다."
+        },
+        {
+          "id": "se_ch19_set02_002",
+          "type": "multiple_choice",
+          "question": "종업원이 창가 자리가 비어 있다고 말할 때 쓰는 표현은?",
+          "options": [
+            "That table over there is occupied.",
+            "The window seat is taken.",
+            "That table over there is free.",
+            "There is no seat by the window."
+          ],
+          "answerIndex": 2,
+          "explanation": "'That table over there is free.'는 저기 테이블이 비어 있다는 표현입니다. 'free'는 이 맥락에서 '비어 있는'이라는 뜻으로, 'available'과 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch19_set02_003",
+          "type": "multiple_choice",
+          "question": "메뉴를 보는 동안 종업원이 음료를 권유하는 표현으로 자연스러운 것은?",
+          "options": [
+            "Can I get you anything to drink while you look?",
+            "Do you want drinks now?",
+            "Have you decided on drinks?",
+            "Should I bring beverage for you?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get you anything to drink while you look?'은 메뉴를 보는 동안 음료를 드릴까요라는 자연스러운 제안 표현입니다. 나머지는 어색한 영어이거나 자연스럽지 않습니다."
+        },
+        {
+          "id": "se_ch19_set02_004",
+          "type": "multiple_choice",
+          "question": "주문을 받을 때 종업원이 쓰는 가장 자연스러운 표현은?",
+          "options": [
+            "Have you finished looking?",
+            "Are you ready to order?",
+            "Do you know what you want?",
+            "Tell me what you need."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Are you ready to order?'는 주문을 받을 준비가 됐는지 묻는 종업원의 표준 표현입니다. 나머지는 다소 어색하거나 비격식적입니다."
+        },
+        {
+          "id": "se_ch19_set02_005",
+          "type": "multiple_choice",
+          "question": "스테이크를 완전히 익혀달라고 요청할 때 쓰는 표현은?",
+          "options": [
+            "Rare, please.",
+            "Medium, please.",
+            "Medium rare, please.",
+            "Well done, please."
+          ],
+          "answerIndex": 3,
+          "explanation": "'Well done'은 스테이크를 완전히 익힌 상태를 말합니다. 'Rare'는 속까지 빨간 상태, 'medium rare'는 속에 빨간 기가 남은 상태, 'medium'은 속이 분홍빛인 상태입니다."
+        },
+        {
+          "id": "se_ch19_set02_006",
+          "type": "multiple_choice",
+          "question": "추천 메뉴가 맵지 않다고 종업원이 답할 때 쓰는 표현은?",
+          "options": [
+            "It's too spicy for most people.",
+            "Not at all. It's mild and very flavorful.",
+            "It has a bit of spice in it.",
+            "Yes, it's quite hot."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Not at all. It's mild and very flavorful.'는 전혀 맵지 않고 맛있다는 종업원의 자연스러운 답변입니다. 'Not at all'은 부정적인 질문에 '전혀 그렇지 않습니다'라고 강조하는 표현입니다."
+        },
+        {
+          "id": "se_ch19_set02_007",
+          "type": "multiple_choice",
+          "question": "수돗물을 달라고 요청할 때 가장 명확한 표현은?",
+          "options": [
+            "Mineral water, please.",
+            "Sparkling water, please.",
+            "Tap water, please.",
+            "Bottled water, please."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Tap water'는 수돗물을 뜻하며 대부분의 식당에서 무료입니다. 'Mineral water', 'sparkling water', 'bottled water'는 모두 병에 든 유료 음료이므로 무료 물을 원할 때는 'tap water'를 명시해야 합니다."
+        },
+        {
+          "id": "se_ch19_set02_008",
+          "type": "multiple_choice",
+          "question": "소스를 음식에 넣지 말고 따로 달라고 할 때 쓰는 표현은?",
+          "options": [
+            "No sauce please.",
+            "Put the sauce aside.",
+            "Can I have the sauce separately?",
+            "Remove the sauce from the dish."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Can I have the sauce separately?'는 소스를 따로 달라는 자연스러운 표현입니다. 'on the side'와 동일한 의미입니다. 'No sauce'는 소스 자체를 원하지 않는다는 뜻이 되어 의미가 다릅니다."
+        },
+        {
+          "id": "se_ch19_set02_009",
+          "type": "multiple_choice",
+          "question": "추가로 빵을 더 달라고 요청할 때 가장 정중한 표현은?",
+          "options": [
+            "More bread!",
+            "We need more bread.",
+            "Bread again, please.",
+            "Could we order some more bread?"
+          ],
+          "answerIndex": 3,
+          "explanation": "'Could we order some more bread?'는 추가 주문을 정중하게 요청하는 표현입니다. 'Could'를 써서 정중함을 높였습니다. 'More bread!'는 명령처럼 들리고 'We need'도 다소 직접적입니다."
+        },
+        {
+          "id": "se_ch19_set02_010",
+          "type": "multiple_choice",
+          "question": "'A glass of orange juice'에서 'a glass of'의 역할은?",
+          "options": [
+            "주스의 종류를 지정한다",
+            "오렌지 주스의 양(한 잔)을 나타낸다",
+            "유리컵인지 종이컵인지 구분한다",
+            "주스가 신선한지 여부를 표현한다"
+          ],
+          "answerIndex": 1,
+          "explanation": "'A glass of ~'는 '~한 잔'이라는 단위 표현입니다. 음료의 양을 나타낼 때 씁니다. 'a cup of coffee(커피 한 잔)', 'a bottle of water(물 한 병)'처럼 용기 종류에 따라 바꿔 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch19_set02_011",
+          "type": "ox",
+          "question": "'Right this way, please.'는 종업원이 손님을 자리로 안내할 때 쓰는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Right this way, please.'는 '이쪽으로 오세요'라는 뜻으로, 종업원이 손님을 테이블로 안내할 때 쓰는 표준 표현입니다."
+        },
+        {
+          "id": "se_ch19_set02_012",
+          "type": "ox",
+          "question": "'Still water'는 탄산이 들어간 물을 말한다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Still water'는 탄산이 없는 일반 물입니다. 탄산이 들어간 물은 'sparkling water'입니다. 유럽 식당에서 물 종류를 물어볼 때 자주 나오는 표현입니다."
+        },
+        {
+          "id": "se_ch19_set02_013",
+          "type": "ox",
+          "question": "'Take your time.'은 종업원이 손님에게 서두르지 말고 천천히 보라고 배려하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Take your time.'은 '천천히 하세요, 서두르지 마세요'라는 배려의 표현입니다. 메뉴를 보는 동안 종업원이 자주 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch19_set02_014",
+          "type": "ox",
+          "question": "'Excellent choice.'는 손님이 주문한 메뉴를 비판하는 종업원의 표현이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Excellent choice.'는 손님의 주문을 긍정적으로 반응하는 서비스 표현입니다. '좋은 선택이세요'라는 뜻으로 항상 진심은 아니지만 손님을 편안하게 해주는 관례적인 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch19_set03_001",
+          "type": "multiple_choice",
+          "question": "일행이 두 명이라고 말하는 또 다른 자연스러운 표현은?",
+          "options": [
+            "We are two humans.",
+            "We're a party of two.",
+            "Our group has two members.",
+            "Two persons came here."
+          ],
+          "answerIndex": 1,
+          "explanation": "'We're a party of two.'는 일행이 두 명이라는 자연스러운 표현입니다. 'a party of + 인원수'는 레스토랑이나 예약 상황에서 자주 쓰는 패턴입니다."
+        },
+        {
+          "id": "se_ch19_set03_002",
+          "type": "multiple_choice",
+          "question": "식당에서 메뉴판을 달라고 정중하게 요청할 때 가장 자연스러운 표현은?",
+          "options": [
+            "Give me the menu.",
+            "I need the menu.",
+            "Could we see the menu, please?",
+            "Bring us the menu."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Could we see the menu, please?'는 메뉴판을 달라는 정중한 요청입니다. 'Give me' 또는 'Bring us'와 같은 명령형은 무례하게 들릴 수 있어 'Could'나 'Can'을 써서 정중하게 표현하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch19_set03_003",
+          "type": "multiple_choice",
+          "question": "이 식당의 대표 메뉴를 묻는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "What's your most expensive dish?",
+            "What food is famous here?",
+            "What's the house specialty?",
+            "Which dish is the biggest?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'What's the house specialty?'는 식당의 대표 메뉴 또는 특선 요리를 묻는 자연스러운 표현입니다. 'recommend'와 비슷한 맥락에서 사용할 수 있습니다."
+        },
+        {
+          "id": "se_ch19_set03_004",
+          "type": "multiple_choice",
+          "question": "종업원의 음식 설명을 듣고 긍정적으로 반응할 때 쓰는 표현은?",
+          "options": [
+            "Not bad, I suppose.",
+            "I'm not sure about that.",
+            "That sounds delicious.",
+            "Let me think about it."
+          ],
+          "answerIndex": 2,
+          "explanation": "'That sounds delicious.'는 음식 설명을 듣고 '맛있겠다'라고 긍정적으로 반응하는 표현입니다. 'That sounds great.'와 같은 맥락으로 쓰이며 더 구체적인 감탄 표현입니다."
+        },
+        {
+          "id": "se_ch19_set03_005",
+          "type": "multiple_choice",
+          "question": "시저 샐러드를 친구 대신 주문할 때 자연스러운 표현은?",
+          "options": [
+            "My friend orders Caesar salad.",
+            "She'll have the Caesar salad, thank you.",
+            "Caesar salad for my friend over there.",
+            "Give Caesar salad to her."
+          ],
+          "answerIndex": 1,
+          "explanation": "'She'll have the Caesar salad, thank you.'는 동행을 대신해 주문하는 자연스러운 표현입니다. 'I'll have ~' 패턴과 같이 'She'll have ~' / 'He'll have ~'로 응용할 수 있습니다."
+        },
+        {
+          "id": "se_ch19_set03_006",
+          "type": "multiple_choice",
+          "question": "스테이크 굽기 정도를 나타낼 때 'medium rare'는 어느 정도의 익힘 상태인가?",
+          "options": [
+            "완전히 익혀 붉은 기가 전혀 없는 상태",
+            "속까지 전부 빨간 날 상태",
+            "겉은 익었지만 속에 빨간 기가 남아 있는 상태",
+            "반반 섞인 완전히 익힌 상태"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Medium rare'는 겉은 익었지만 속에 빨간 기가 남아 있는 상태입니다. 서양에서 선호하는 굽기 중 하나로, 'rare(속까지 빨간)', 'medium(분홍빛)', 'well done(완전히 익힘)' 사이에 위치합니다."
+        },
+        {
+          "id": "se_ch19_set03_007",
+          "type": "multiple_choice",
+          "question": "탄산수를 달라고 요청할 때 쓰는 표현은?",
+          "options": [
+            "Tap water, please.",
+            "Sparkling water, please.",
+            "Still water, please.",
+            "Flat water, please."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Sparkling water'는 탄산수를 말합니다. 'Still water'와 'flat water'는 탄산이 없는 일반 물을 뜻하고, 'tap water'는 수돗물입니다. 탄산수를 원할 때는 'sparkling'이라고 명시해야 합니다."
+        },
+        {
+          "id": "se_ch19_set03_008",
+          "type": "multiple_choice",
+          "question": "양파를 빼달라고 요청하는 또 다른 자연스러운 표현은?",
+          "options": [
+            "I am allergic to onions.",
+            "Could you leave out the onions?",
+            "Take away the onions.",
+            "Onions are not in the menu, right?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Could you leave out the onions?'는 양파를 빼달라는 정중한 표현입니다. 'leave out'은 '빼다·제외하다'라는 의미입니다. 'without + 재료' 패턴과 함께 알아두면 유용합니다."
+        },
+        {
+          "id": "se_ch19_set03_009",
+          "type": "multiple_choice",
+          "question": "종업원이 주문을 확인하고 바로 가져다주겠다고 말할 때 쓰는 표현은?",
+          "options": [
+            "I'll be right back.",
+            "I'll bring that right out.",
+            "Coming right in.",
+            "I'll deliver that soon."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'll bring that right out.'은 주문한 것을 바로 가져다주겠다는 표현입니다. 'right out'은 '바로, 즉시'라는 뜻입니다. 'I'll be right back'은 돌아오겠다는 의미로 약간 다른 상황에서 씁니다."
+        },
+        {
+          "id": "se_ch19_set03_010",
+          "type": "multiple_choice",
+          "question": "아직 주문을 결정하지 못했을 때 종업원에게 시간을 더 달라는 표현은?",
+          "options": [
+            "We need a few more minutes.",
+            "We are not hungry yet.",
+            "We haven't looked at the menu.",
+            "Please wait outside."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We need a few more minutes.'는 결정에 시간이 더 필요하다는 직접적인 표현입니다. 'Could we have a few more minutes?'처럼 'Could'를 쓰면 더 정중하게 들리지만 이 표현도 자연스럽게 통용됩니다."
+        },
+        {
+          "id": "se_ch19_set03_011",
+          "type": "ox",
+          "question": "'I'll have the pasta, please.'는 레스토랑에서 주문할 때 가장 자연스러운 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'I'll have ~'는 레스토랑에서 주문할 때 가장 자연스러운 패턴입니다. 'I want ~'는 문법적으로는 맞지만 식당 상황에서는 'I'll have ~' 또는 'I'd like ~'가 더 자연스럽습니다."
+        },
+        {
+          "id": "se_ch19_set03_012",
+          "type": "ox",
+          "question": "'Dressing on the side'는 드레싱을 많이 달라는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Dressing on the side'는 드레싱을 음식에 뿌리지 말고 따로 담아달라는 표현입니다. 'on the side'는 '옆에, 따로'라는 관용적 표현입니다."
+        },
+        {
+          "id": "se_ch19_set03_013",
+          "type": "ox",
+          "question": "'What do you recommend?'는 식당에서 추천 메뉴를 묻는 자연스러운 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'What do you recommend?'는 추천 메뉴를 묻는 가장 자연스럽고 많이 쓰이는 표현입니다. 'What is good here?'도 비슷하지만 'recommend'를 쓴 표현이 더 자연스럽습니다."
+        },
+        {
+          "id": "se_ch19_set03_014",
+          "type": "ox",
+          "question": "'Could we have a few more minutes?'는 주문을 취소하겠다고 말하는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Could we have a few more minutes?'는 메뉴를 아직 결정하지 못해 시간을 더 달라는 정중한 요청입니다. 주문 취소는 'I'd like to cancel my order.'로 표현합니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch19_set04_001",
+          "type": "multiple_choice",
+          "question": "창가 자리에 앉고 싶다고 요청할 때 가장 자연스러운 표현은?",
+          "options": [
+            "Window side sit, please.",
+            "I want the window area.",
+            "Could we have a window seat?",
+            "Put us near the glass."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Could we have a window seat?'는 창가 자리를 정중하게 요청하는 표현입니다. 'by the window'나 'window seat'처럼 창가를 지정해서 요청할 수 있습니다."
+        },
+        {
+          "id": "se_ch19_set04_002",
+          "type": "multiple_choice",
+          "question": "종업원이 물건을 건네줄 때 쓰는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Take this.",
+            "Here you go.",
+            "Here is the thing.",
+            "This is for you now."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Here you go.'는 물건을 건네줄 때 쓰는 표현으로 '여기 있습니다'라는 뜻입니다. 종업원이 메뉴나 음식을 가져다줄 때 자주 씁니다. 'There you go.'도 같은 의미입니다."
+        },
+        {
+          "id": "se_ch19_set04_003",
+          "type": "multiple_choice",
+          "question": "인기 메뉴가 무엇인지 물어볼 때 자연스러운 표현은?",
+          "options": [
+            "What's the most sold menu?",
+            "Which dish gets ordered?",
+            "What's popular here?",
+            "What food is everyone eating?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'What's popular here?'는 인기 메뉴를 묻는 자연스러운 표현입니다. 'What do you recommend?'와 비슷한 맥락에서 사용됩니다."
+        },
+        {
+          "id": "se_ch19_set04_004",
+          "type": "multiple_choice",
+          "question": "음식이 맵지 않냐고 확인하는 표현은?",
+          "options": [
+            "Is it very hot temperature?",
+            "Does it taste sweet?",
+            "Is it spicy?",
+            "Is there a lot of pepper?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Is it spicy?'는 음식이 매운지 확인하는 표준 표현입니다. 'spicy'는 맵다는 의미로 자주 쓰입니다. 얼마나 매운지 정도를 물을 때는 'How spicy is it?'을 씁니다."
+        },
+        {
+          "id": "se_ch19_set04_005",
+          "type": "multiple_choice",
+          "question": "'I'd like the pasta, please.'와 'I'll have the pasta, please.'의 차이는?",
+          "options": [
+            "'I'd like'는 잘못된 표현이다",
+            "'I'll have'는 격식 있는 레스토랑에서만 쓴다",
+            "'I'd like'가 더 격식 있고 정중한 표현이다",
+            "두 표현은 완전히 다른 의미이다"
+          ],
+          "answerIndex": 2,
+          "explanation": "'I'd like ~'는 'I'll have ~'보다 조금 더 격식 있고 정중한 표현입니다. 두 표현 모두 주문할 때 자연스럽게 쓸 수 있으며 의미는 같습니다."
+        },
+        {
+          "id": "se_ch19_set04_006",
+          "type": "multiple_choice",
+          "question": "소스를 원하는지 추가 사항을 묻는 종업원의 표현은?",
+          "options": [
+            "Do you need sauce today?",
+            "Any sauce with that?",
+            "What about your sauce preference?",
+            "Are you allergic to sauce?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Any sauce with that?'은 소스를 곁들일지 묻는 자연스러운 표현입니다. 'with that'은 '그것과 함께'라는 뜻으로, 추가 사항을 물을 때 자주 씁니다."
+        },
+        {
+          "id": "se_ch19_set04_007",
+          "type": "multiple_choice",
+          "question": "일단 물만 마시겠다고 할 때 쓰는 표현은?",
+          "options": [
+            "Only water is fine.",
+            "Just water for now, thank you.",
+            "I want only water, nothing more.",
+            "Water is the only drink I know."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Just water for now, thank you.'는 지금은 물만 마시겠다는 자연스러운 표현입니다. 'for now'는 '지금은, 일단은'이라는 뜻으로 추후에 더 주문할 수도 있음을 내포합니다."
+        },
+        {
+          "id": "se_ch19_set04_008",
+          "type": "multiple_choice",
+          "question": "생과일 주스인지 병에 든 주스인지를 물을 때 종업원이 쓰는 표현은?",
+          "options": [
+            "Natural or chemical?",
+            "Farm or factory?",
+            "Fresh squeezed or bottled?",
+            "Real or fake?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Fresh squeezed or bottled?'은 생과일 착즙인지 병에 든 것인지 구분해서 묻는 표현입니다. 가격 차이가 있을 수 있으므로 모르면 'What's the difference in price?'라고 물어볼 수 있습니다."
+        },
+        {
+          "id": "se_ch19_set04_009",
+          "type": "multiple_choice",
+          "question": "물 한 잔 더 달라고 요청할 때 자연스러운 표현은?",
+          "options": [
+            "I need another water.",
+            "Give me more water.",
+            "Could I get another glass of water?",
+            "Water refill for me."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Could I get another glass of water?'는 물 한 잔 더 달라는 정중한 표현입니다. 'Could I get ~'는 요청할 때 정중함을 더해주는 패턴입니다."
+        },
+        {
+          "id": "se_ch19_set04_010",
+          "type": "multiple_choice",
+          "question": "종업원이 잠시 후에 다시 오겠다고 할 때 쓰는 표현은?",
+          "options": [
+            "I'll come back in an hour.",
+            "I'll check back in a few minutes.",
+            "Someone else will come.",
+            "Wait for my return."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'll check back in a few minutes.'는 몇 분 후에 다시 확인하러 오겠다는 종업원의 자연스러운 표현입니다. 'I'll come back shortly.'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch19_set04_011",
+          "type": "ox",
+          "question": "'Are you ready to order?'는 종업원이 주문을 받으러 왔을 때 쓰는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Are you ready to order?'는 '주문하시겠어요?'라는 뜻의 종업원 표현입니다. 아직 결정 못 했다면 'Not yet, give us a few more minutes.'라고 답하면 됩니다."
+        },
+        {
+          "id": "se_ch19_set04_012",
+          "type": "ox",
+          "question": "'I'll be right back.'는 종업원이 주문을 받지 않겠다고 거절하는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'I'll be right back.'는 '바로 돌아오겠습니다'라는 뜻으로, 종업원이 주문을 넣으러 가거나 뭔가 가지러 갈 때 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch19_set04_013",
+          "type": "ox",
+          "question": "'Can I have it without onions?'의 'without'은 재료를 빼달라는 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'without + 재료'는 해당 재료를 빼달라는 표현입니다. 'no + 재료(No onions, please.)'도 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch19_set04_014",
+          "type": "ox",
+          "question": "'We'll be ready in a moment.'는 주문할 준비가 전혀 안 됐다는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'We'll be ready in a moment.'는 '곧 결정하겠습니다'라는 표현으로, 주문이 거의 다 됐음을 알리는 말입니다. 'in a moment'는 '곧, 잠시 후에'라는 뜻입니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch19_set05_001",
+          "type": "multiple_choice",
+          "question": "3명이 앉을 자리를 요청할 때 자연스러운 표현은?",
+          "options": [
+            "Table for three people, please.",
+            "A table for three, please.",
+            "We need three seats immediately.",
+            "Can you give us three chairs?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'A table for three, please.'는 3명 자리를 요청하는 표준 표현입니다. 'A table for + 인원수'는 자리 요청의 기본 패턴으로, 숫자만 바꿔 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch19_set05_002",
+          "type": "multiple_choice",
+          "question": "메뉴를 좀 더 격식 있게 요청하는 표현은?",
+          "options": [
+            "Menu, please.",
+            "Can I look at the menu?",
+            "May I see the menu?",
+            "Show me the food list."
+          ],
+          "answerIndex": 2,
+          "explanation": "'May I see the menu?'는 'May I'를 써서 더 격식 있게 메뉴를 요청하는 표현입니다. 'Can I'보다 'May I'가 더 정중한 표현으로 격식 있는 레스토랑에서 어울립니다."
+        },
+        {
+          "id": "se_ch19_set05_003",
+          "type": "multiple_choice",
+          "question": "구운 연어 메뉴가 인기 있다고 종업원이 소개할 때 자연스러운 표현은?",
+          "options": [
+            "The grilled salmon is very expensive.",
+            "Our grilled salmon is very popular.",
+            "The grilled salmon is just okay.",
+            "Salmon is the only thing we serve."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Our grilled salmon is very popular.'는 구운 연어가 매우 인기 있다고 소개하는 자연스러운 표현입니다. 종업원이 추천을 설명할 때 'popular(인기 있는)'를 자주 사용합니다."
+        },
+        {
+          "id": "se_ch19_set05_004",
+          "type": "multiple_choice",
+          "question": "주문할 때 더 캐주얼한 식당에서 자주 쓰는 표현은?",
+          "options": [
+            "I demand the pasta.",
+            "I'll have the pasta, please.",
+            "Can I get the pasta?",
+            "Pasta is what I choose."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Can I get the pasta?'는 캐주얼한 식당에서 주문할 때 자주 쓰이는 표현입니다. 'I'll have ~'나 'I'd like ~'보다 더 구어체적인 표현입니다."
+        },
+        {
+          "id": "se_ch19_set05_005",
+          "type": "multiple_choice",
+          "question": "스테이크 굽기를 물을 때 종업원이 쓸 수 있는 또 다른 표현은?",
+          "options": [
+            "How hot is hot enough?",
+            "How do you like your steak?",
+            "What type of beef is this?",
+            "Should we cook it at all?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'How do you like your steak?'은 'How would you like your steak cooked?'의 짧은 버전입니다. 스테이크 굽기를 묻는 의미로 같은 상황에서 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch19_set05_006",
+          "type": "multiple_choice",
+          "question": "드레싱을 따로 달라는 가장 간결한 표현은?",
+          "options": [
+            "No dressing at all.",
+            "Extra dressing, please.",
+            "Dressing on the side, please.",
+            "Please remove the dressing."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Dressing on the side, please.'는 드레싱을 따로 달라는 간결한 표현입니다. 'on the side'는 음식과 분리해서 달라는 관용 표현입니다. 'No dressing'은 드레싱이 필요 없다는 뜻입니다."
+        },
+        {
+          "id": "se_ch19_set05_007",
+          "type": "multiple_choice",
+          "question": "종업원의 'Still or sparkling?' 질문에 일반 물(탄산 없음)로 답하려면?",
+          "options": [
+            "Sparkling, please.",
+            "Fizzy, please.",
+            "Still, please.",
+            "Normal, please."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Still, please.'는 탄산이 없는 일반 물을 원한다는 답변입니다. 'Still water'는 탄산이 없는 물, 'sparkling water'는 탄산수입니다."
+        },
+        {
+          "id": "se_ch19_set05_008",
+          "type": "multiple_choice",
+          "question": "종업원의 요청 확인 표현 'Got it.'의 의미는?",
+          "options": [
+            "해당 재료가 있다는 뜻",
+            "주문이나 요청을 확인했다는 뜻",
+            "주문을 받지 못했다는 뜻",
+            "음식이 나왔다는 뜻"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Got it.'는 주문이나 요청을 이해하고 확인했다는 표현으로 '알겠습니다, 확인했습니다'라는 뜻입니다. 종업원이 손님의 요청을 받아들였을 때 씁니다."
+        },
+        {
+          "id": "se_ch19_set05_009",
+          "type": "multiple_choice",
+          "question": "물 주문을 받은 종업원이 흔쾌히 수락할 때 쓰는 표현은?",
+          "options": [
+            "No problem.",
+            "I don't think so.",
+            "That's difficult.",
+            "Maybe later."
+          ],
+          "answerIndex": 0,
+          "explanation": "'No problem.'은 요청에 흔쾌히 응할 때 쓰는 표현으로 '문제없습니다, 괜찮습니다'라는 뜻입니다. 'Sure', 'Of course'와 비슷한 맥락에서 씁니다."
+        },
+        {
+          "id": "se_ch19_set05_010",
+          "type": "multiple_choice",
+          "question": "'We'll be ready in a moment.'에서 'in a moment'와 같은 의미로 쓸 수 있는 표현은?",
+          "options": [
+            "in a day",
+            "in a while",
+            "in a minute",
+            "in a week"
+          ],
+          "answerIndex": 2,
+          "explanation": "'in a moment'은 '곧, 잠시 후에'라는 뜻으로 'in a minute', 'in a sec'와 비슷하게 쓰입니다. 짧은 대기 시간을 나타낼 때 씁니다."
+        },
+        {
+          "id": "se_ch19_set05_011",
+          "type": "ox",
+          "question": "식당에서 'I want pasta'는 'I'll have the pasta, please.'보다 더 무례하게 들릴 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'I want ~'는 문법적으로는 맞지만 레스토랑에서 직접적으로 원하는 걸 요구하는 뉘앙스가 있어 'I'll have ~' 또는 'I'd like ~'에 비해 덜 정중하게 들릴 수 있습니다."
+        },
+        {
+          "id": "se_ch19_set05_012",
+          "type": "ox",
+          "question": "'Fresh squeezed or bottled?'은 음료가 뜨거운지 차가운지를 묻는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Fresh squeezed or bottled?'은 생과일 착즙인지 병에 든 것인지를 묻는 표현입니다. 온도가 아니라 제조 방식의 차이를 물어보는 것입니다."
+        },
+        {
+          "id": "se_ch19_set05_013",
+          "type": "ox",
+          "question": "'Could we order some more bread?'에서 'some more'는 '좀 더'라는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'some more'는 '좀 더, 더 많은'이라는 뜻입니다. 추가 주문이나 보충을 요청할 때 'some more + 명사' 패턴으로 씁니다."
+        },
+        {
+          "id": "se_ch19_set05_014",
+          "type": "ox",
+          "question": "'What's the house specialty?'는 식당의 대표 메뉴를 묻는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'house specialty'는 식당의 특선 요리 또는 대표 메뉴를 뜻합니다. 'What do you recommend?'와 비슷한 맥락에서 사용할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch19_set06_001",
+          "type": "multiple_choice",
+          "question": "식당에서 예약 없이 두 명이 들어가며 자리를 요청하는 가장 적합한 표현은?",
+          "options": [
+            "Two people, sit down now.",
+            "We are two, find us a table.",
+            "A table for two, please.",
+            "Make room for two, please."
+          ],
+          "answerIndex": 2,
+          "explanation": "'A table for two, please.'는 2명 자리를 요청하는 가장 자연스럽고 표준적인 표현입니다. 짧고 명확하며 정중한 패턴으로 전 세계 영어권 식당에서 통용됩니다."
+        },
+        {
+          "id": "se_ch19_set06_002",
+          "type": "multiple_choice",
+          "question": "종업원이 손님을 안내할 때 'Right this way, please.'의 더 간단한 버전은?",
+          "options": [
+            "Come here.",
+            "Follow this way.",
+            "This way, please.",
+            "Move to the table."
+          ],
+          "answerIndex": 2,
+          "explanation": "'This way, please.'는 'Right this way, please.'에서 'right'을 생략한 짧은 버전입니다. 같은 의미로 쓰이며, 'right'이 있으면 더 강조된 느낌을 줍니다."
+        },
+        {
+          "id": "se_ch19_set06_003",
+          "type": "multiple_choice",
+          "question": "서두르지 말라고 할 때 쓸 수 있는 캐주얼한 표현은?",
+          "options": [
+            "Hurry up.",
+            "No rush.",
+            "Take your time carefully.",
+            "Speed is not important."
+          ],
+          "answerIndex": 1,
+          "explanation": "'No rush.'는 '서두를 필요 없다'는 캐주얼한 표현으로 'Take your time.'과 같은 의미입니다. 종업원이 손님에게 메뉴를 천천히 보라고 배려할 때 씁니다."
+        },
+        {
+          "id": "se_ch19_set06_004",
+          "type": "multiple_choice",
+          "question": "음식이 얼마나 매운지 정도를 묻는 표현은?",
+          "options": [
+            "Is there spice in it?",
+            "Does it have any flavor?",
+            "How spicy is it?",
+            "Can you handle the spice?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'How spicy is it?'는 얼마나 매운지 정도를 묻는 표현입니다. 'Is it spicy?'가 매운지 여부만 묻는다면, 'How spicy is it?'은 매운 정도를 물어봅니다."
+        },
+        {
+          "id": "se_ch19_set06_005",
+          "type": "multiple_choice",
+          "question": "종업원의 주문 확인 표현 'May I take your order?'는 어떤 상황에서 쓰이는가?",
+          "options": [
+            "음식을 가져갈 때",
+            "주문을 받을 때",
+            "계산을 요청할 때",
+            "식당을 나갈 때"
+          ],
+          "answerIndex": 1,
+          "explanation": "'May I take your order?'는 종업원이 주문을 받을 때 쓰는 격식 있는 표현입니다. 'Are you ready to order?'와 같은 상황에서 쓰이지만 더 격식 있게 들립니다."
+        },
+        {
+          "id": "se_ch19_set06_006",
+          "type": "multiple_choice",
+          "question": "오렌지 주스 한 잔을 정중하게 주문하는 표현은?",
+          "options": [
+            "Orange juice, one cup.",
+            "Bring me orange juice.",
+            "I'll have a glass of orange juice, please.",
+            "Orange juice for me right now."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I'll have a glass of orange juice, please.'는 음료를 주문하는 자연스러운 표현입니다. 'a glass of ~'는 '~한 잔'이라는 단위 표현입니다."
+        },
+        {
+          "id": "se_ch19_set06_007",
+          "type": "multiple_choice",
+          "question": "버거 주문 시 양파를 간단하게 빼달라고 하는 표현은?",
+          "options": [
+            "No onions, please.",
+            "Onion-free, please.",
+            "Without onion order.",
+            "Take out the onion item."
+          ],
+          "answerIndex": 0,
+          "explanation": "'No onions, please.'는 'Can I have it without onions?'와 같은 의미로, 양파를 빼달라는 간결한 표현입니다. 'no + 재료'는 해당 재료를 원하지 않는다는 뜻입니다."
+        },
+        {
+          "id": "se_ch19_set06_008",
+          "type": "multiple_choice",
+          "question": "추가 빵 주문에 종업원이 바로 가져다주겠다고 할 때 쓰는 표현은?",
+          "options": [
+            "Coming right up!",
+            "I'll bring it tomorrow.",
+            "It will arrive eventually.",
+            "Bread is almost ready."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Coming right up!'는 바로 가져다드리겠습니다는 활기찬 표현입니다. 'I'll bring that right out.'과 같은 의미로 종업원이 즉시 처리해주겠다는 뜻입니다."
+        },
+        {
+          "id": "se_ch19_set06_009",
+          "type": "multiple_choice",
+          "question": "결정이 거의 다 됐다고 알릴 때 쓰는 표현은?",
+          "options": [
+            "We are still deciding.",
+            "Give us more time.",
+            "We're almost ready.",
+            "We can't decide today."
+          ],
+          "answerIndex": 2,
+          "explanation": "'We're almost ready.'는 거의 다 결정했다는 표현으로, 곧 주문할 수 있음을 종업원에게 알리는 말입니다. 'We'll be ready in a moment.'와 비슷한 맥락입니다."
+        },
+        {
+          "id": "se_ch19_set06_010",
+          "type": "multiple_choice",
+          "question": "종업원이 주문을 더 격식 있게 확인하는 표현은?",
+          "options": [
+            "Got it.",
+            "Understood.",
+            "Noted.",
+            "Fine."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Noted.'는 '메모했습니다, 확인했습니다'라는 뜻의 격식 있는 확인 표현입니다. 'Got it.'보다 더 공식적인 뉘앙스를 갖습니다."
+        },
+        {
+          "id": "se_ch19_set06_011",
+          "type": "ox",
+          "question": "스테이크를 'rare'로 주문하면 완전히 익힌 상태로 나온다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Rare'는 속까지 빨간 덜 익힌 상태입니다. 완전히 익힌 상태는 'well done'입니다. 굽기 순서는 rare → medium rare → medium → medium well → well done입니다."
+        },
+        {
+          "id": "se_ch19_set06_012",
+          "type": "ox",
+          "question": "'Could we have a window seat?'는 창가 자리를 요청하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Could we have a window seat?'는 창가 자리를 정중하게 요청하는 표현입니다. 'Can we sit by the window?'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch19_set06_013",
+          "type": "ox",
+          "question": "'Here you go.'는 물건을 빼앗을 때 쓰는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Here you go.'는 물건을 건네줄 때 쓰는 표현으로 '여기 있습니다'라는 뜻입니다. 종업원이 메뉴나 음식을 가져다줄 때 자주 씁니다."
+        },
+        {
+          "id": "se_ch19_set06_014",
+          "type": "ox",
+          "question": "'No rush.'와 'Take your time.'은 모두 서두르지 말라는 비슷한 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'No rush.'와 'Take your time.'은 모두 '서두르지 마세요, 천천히 하세요'라는 같은 의미의 표현입니다. 'No rush.'가 더 캐주얼한 버전입니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch19_set07_001",
+          "type": "multiple_choice",
+          "question": "'We're a party of four.'는 몇 명이 방문했다는 뜻인가?",
+          "options": [
+            "2명",
+            "3명",
+            "4명",
+            "5명"
+          ],
+          "answerIndex": 2,
+          "explanation": "'a party of four'는 일행이 4명이라는 뜻입니다. 'a party of + 인원수'는 레스토랑에서 일행 수를 알릴 때 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch19_set07_002",
+          "type": "multiple_choice",
+          "question": "'Can I have a look at the menu?'는 어떤 상황에서 쓰는 표현인가?",
+          "options": [
+            "음식을 주문할 때",
+            "메뉴판을 보고 싶을 때",
+            "음식의 가격을 물어볼 때",
+            "계산서를 요청할 때"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Can I have a look at the menu?'는 메뉴판을 봐도 되냐고 묻는 캐주얼한 표현입니다. 'Could we see the menu, please?'와 같은 상황에서 쓰이며 더 구어적인 표현입니다."
+        },
+        {
+          "id": "se_ch19_set07_003",
+          "type": "multiple_choice",
+          "question": "추천 메뉴에 대한 설명을 듣고 한번 먹어보겠다는 표현은?",
+          "options": [
+            "That sounds terrible.",
+            "I'll give that a try.",
+            "I'll skip that.",
+            "Maybe some other time."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'll give that a try.'는 그걸 한번 먹어보겠다는 표현으로 주문 의사를 내비치는 말입니다. 'That sounds great.'와 같은 맥락에서 쓰입니다."
+        },
+        {
+          "id": "se_ch19_set07_004",
+          "type": "multiple_choice",
+          "question": "종업원이 손님의 주문을 받고 긍정적으로 반응하는 표현 중 캐주얼한 것은?",
+          "options": [
+            "That's a terrible choice.",
+            "Why did you choose that?",
+            "Great choice!",
+            "I've never heard of that."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Great choice!'는 손님의 주문을 긍정적으로 반응하는 캐주얼한 서비스 표현입니다. 'Excellent choice.'의 덜 격식 있는 버전으로 의미는 같습니다."
+        },
+        {
+          "id": "se_ch19_set07_005",
+          "type": "multiple_choice",
+          "question": "스테이크 굽기를 물을 때 쓸 수 있는 또 다른 표현은?",
+          "options": [
+            "What temperature would you like?",
+            "How long should I cook it?",
+            "Do you want it on a plate?",
+            "How much does the steak cost?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What temperature would you like?'는 스테이크 굽기 정도를 temperature(온도)로 표현한 방식입니다. 'How would you like your steak cooked?'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch19_set07_006",
+          "type": "multiple_choice",
+          "question": "음료 주문 시 '레드 와인 한 잔'을 정중하게 주문하는 표현은?",
+          "options": [
+            "Red wine please, one.",
+            "I'd like a glass of red wine, please.",
+            "Give me a red wine.",
+            "Red wine drinking now."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'd like a glass of red wine, please.'는 레드 와인 한 잔을 정중하게 주문하는 표현입니다. 'a glass of ~'는 한 잔을 나타내는 단위 표현입니다."
+        },
+        {
+          "id": "se_ch19_set07_007",
+          "type": "multiple_choice",
+          "question": "식당에서 물을 요청했을 때 종업원이 묻는 'Still or sparkling?'의 의미는?",
+          "options": [
+            "차가운 물인지 따뜻한 물인지 묻는 것",
+            "탄산이 없는 물인지 탄산수인지 묻는 것",
+            "유리잔인지 컵인지 묻는 것",
+            "병물인지 수돗물인지 묻는 것"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Still or sparkling?'은 탄산이 없는 일반 물인지 탄산수인지 구분해서 묻는 표현입니다. 온도나 용기와는 관계없이 탄산 유무를 기준으로 합니다."
+        },
+        {
+          "id": "se_ch19_set07_008",
+          "type": "multiple_choice",
+          "question": "주문한 요청 사항을 종업원이 확인했다고 말할 때 쓰는 표현 중 격식 있는 것은?",
+          "options": [
+            "Got it.",
+            "Okay.",
+            "I'll make a note of that.",
+            "Sure."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I'll make a note of that.'는 그 내용을 기록해두겠다는 종업원의 격식 있는 확인 표현입니다. 'Got it.'나 'Noted.'보다 더 명시적으로 기록하겠다는 의사를 전달합니다."
+        },
+        {
+          "id": "se_ch19_set07_009",
+          "type": "multiple_choice",
+          "question": "물을 한 잔 달라는 간결하고 정중한 표현은?",
+          "options": [
+            "Water!",
+            "Some water would be nice, I think.",
+            "Could I get some water, please?",
+            "I would very much like water if possible."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Could I get some water, please?'는 물을 달라는 간결하고 정중한 표현입니다. 'Could I get ~'는 요청할 때 쓰는 자연스러운 패턴입니다."
+        },
+        {
+          "id": "se_ch19_set07_010",
+          "type": "multiple_choice",
+          "question": "준비되면 손을 들어 불러달라는 종업원의 표현은?",
+          "options": [
+            "I'll stand by your table.",
+            "Just wave me down when you're ready.",
+            "Scream when you need me.",
+            "I'll be watching you."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Just wave me down when you're ready.'는 준비됐을 때 손을 흔들어 불러달라는 종업원의 표현입니다. 메뉴를 보는 동안 기다려주겠다는 배려의 표현입니다."
+        },
+        {
+          "id": "se_ch19_set07_011",
+          "type": "ox",
+          "question": "'Medium rare' 스테이크는 'well done'보다 더 많이 익힌 상태이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Well done'이 가장 많이 익힌 상태입니다. 굽기 순서는 rare → medium rare → medium → medium well → well done 순서로 점점 더 익힙니다."
+        },
+        {
+          "id": "se_ch19_set07_012",
+          "type": "ox",
+          "question": "'Could we have a few more minutes?'와 'We need a few more minutes.'는 비슷한 의미의 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 두 표현 모두 메뉴 결정에 시간이 더 필요하다는 뜻입니다. 다만 'Could we have ~'가 'Could'를 사용하여 더 정중한 표현입니다."
+        },
+        {
+          "id": "se_ch19_set07_013",
+          "type": "ox",
+          "question": "'I'll come back shortly.'에서 'shortly'는 '며칠 후에'라는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'shortly'는 '곧, 잠시 후에'라는 뜻으로 짧은 시간 내에 돌아오겠다는 의미입니다. 'soon'과 비슷한 의미입니다."
+        },
+        {
+          "id": "se_ch19_set07_014",
+          "type": "ox",
+          "question": "유럽 식당에서 'water, please'라고만 하면 유료 병물이 나올 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 유럽 식당에서는 'water'라고만 하면 유료 병물(bottled water)을 줄 수 있습니다. 무료 수돗물을 원하면 반드시 'tap water'라고 명시해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch19_set08_001",
+          "type": "multiple_choice",
+          "question": "야외 자리를 요청할 때 쓸 수 있는 표현은?",
+          "options": [
+            "Can we sit outside?",
+            "Do you have an outdoor table?",
+            "We want the open air.",
+            "Put us in the garden."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do you have an outdoor table?'는 야외 자리가 있는지 묻는 자연스러운 표현입니다. 창가, 야외, 구석 자리 등을 요청할 때 자리 유형을 명시해서 물어볼 수 있습니다."
+        },
+        {
+          "id": "se_ch19_set08_002",
+          "type": "multiple_choice",
+          "question": "종업원이 메뉴를 전달할 때 쓰는 'Here you go.'의 동의어 표현은?",
+          "options": [
+            "Over there.",
+            "There you go.",
+            "Here it comes.",
+            "Take a look."
+          ],
+          "answerIndex": 1,
+          "explanation": "'There you go.'는 'Here you go.'의 동의어로 같은 상황에서 쓸 수 있습니다. 조금 더 캐주얼한 버전이며 의미는 동일합니다."
+        },
+        {
+          "id": "se_ch19_set08_003",
+          "type": "multiple_choice",
+          "question": "'What can I get for you?'는 어떤 상황에서 쓰이는 종업원의 표현인가?",
+          "options": [
+            "손님에게 계산을 요청할 때",
+            "캐주얼한 식당에서 주문을 받을 때",
+            "음식이 다 떨어졌다고 알릴 때",
+            "예약을 확인할 때"
+          ],
+          "answerIndex": 1,
+          "explanation": "'What can I get for you?'는 캐주얼한 식당에서 종업원이 주문을 받을 때 쓰는 표현입니다. 'Are you ready to order?'보다 더 캐주얼하게 들립니다."
+        },
+        {
+          "id": "se_ch19_set08_004",
+          "type": "multiple_choice",
+          "question": "음식 알레르기 때문에 특정 재료 유무를 확인하는 표현의 패턴은?",
+          "options": [
+            "Do you have ~ in this?",
+            "Does it contain ~?",
+            "Is there a ~ inside?",
+            "Can I see the ~ ingredient?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Does it contain ~?'는 특정 재료가 포함됐는지 확인하는 자연스러운 표현입니다. 예: 'Does it contain nuts?(견과류가 들어 있나요?)'. 알레르기나 식이 제한을 확인할 때 유용합니다."
+        },
+        {
+          "id": "se_ch19_set08_005",
+          "type": "multiple_choice",
+          "question": "스테이크를 속까지 완전히 빨간 상태로 주문하려면?",
+          "options": [
+            "Well done, please.",
+            "Medium rare, please.",
+            "Rare, please.",
+            "Medium, please."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Rare'는 스테이크 속까지 빨간 덜 익힌 상태입니다. 굽기 순서: rare(속까지 빨간) → medium rare(속에 빨간 기) → medium(분홍빛) → well done(완전히 익힘)."
+        },
+        {
+          "id": "se_ch19_set08_006",
+          "type": "multiple_choice",
+          "question": "'I'd like a glass of red wine, please.'에서 'I'd like'는 무엇의 축약형인가?",
+          "options": [
+            "I did like",
+            "I would like",
+            "I should like",
+            "I could like"
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'd like'는 'I would like'의 축약형입니다. 원하는 것을 정중하게 표현할 때 씁니다. 'I'll have ~'와 비슷한 의미이지만 'I'd like ~'가 조금 더 격식 있습니다."
+        },
+        {
+          "id": "se_ch19_set08_007",
+          "type": "multiple_choice",
+          "question": "물 요청 시 종업원의 'Still or sparkling?'에 'Flat or fizzy?'는 어떤 영어 방언 표현인가?",
+          "options": [
+            "미국식 영어",
+            "호주식 영어",
+            "영국식 영어",
+            "캐나다식 영어"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Flat or fizzy?'는 탄산 없는 물과 탄산수를 구분하는 영국식 표현입니다. 'flat'은 탄산이 없는, 'fizzy'는 탄산이 있는 음료를 뜻하는 영국 구어 표현입니다."
+        },
+        {
+          "id": "se_ch19_set08_008",
+          "type": "multiple_choice",
+          "question": "추가 주문할 것이 있다고 종업원을 부를 때 시작하는 자연스러운 표현은?",
+          "options": [
+            "Hey you!",
+            "Come here!",
+            "Excuse me!",
+            "Employee!"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Excuse me!'는 종업원을 정중하게 부를 때 쓰는 표현입니다. 'Hey!' 또는 이름 대신 'Excuse me'를 쓰면 훨씬 정중하게 들립니다."
+        },
+        {
+          "id": "se_ch19_set08_009",
+          "type": "multiple_choice",
+          "question": "'I'll be right back.'에서 'right'의 역할은?",
+          "options": [
+            "오른쪽으로 가겠다는 방향 표현",
+            "바로, 즉시라는 의미를 강조",
+            "맞다는 뜻의 확인 표현",
+            "권리를 주장하는 표현"
+          ],
+          "answerIndex": 1,
+          "explanation": "'right'은 여기서 '바로, 즉시'라는 의미를 강조하는 부사입니다. 'right back'은 '바로 돌아와서'라는 뜻입니다. 'right away', 'right now'에서 같은 용법으로 쓰입니다."
+        },
+        {
+          "id": "se_ch19_set08_010",
+          "type": "multiple_choice",
+          "question": "코카콜라를 주문하는 캐주얼한 표현은?",
+          "options": [
+            "I want a Coca-Cola beverage.",
+            "Provide me with a Coke.",
+            "Can I get a Coke?",
+            "A carbonated drink, please."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Can I get a Coke?'는 콜라를 주문하는 캐주얼한 표현입니다. 'Can I get ~'는 음료나 음식을 주문하는 구어적 패턴으로 자주 씁니다."
+        },
+        {
+          "id": "se_ch19_set08_011",
+          "type": "ox",
+          "question": "'Not yet, give us a few more minutes.'는 주문할 준비가 됐다는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Not yet, give us a few more minutes.'는 아직 준비가 안 됐으니 시간을 더 달라는 표현입니다. 종업원이 'Are you ready to order?'라고 물었을 때 쓸 수 있는 답변입니다."
+        },
+        {
+          "id": "se_ch19_set08_012",
+          "type": "ox",
+          "question": "'On the side'는 소스나 드레싱을 음식에 얹지 말고 따로 달라는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'on the side'는 음식과 분리해서 별도로 달라는 관용 표현입니다. 소스, 드레싱, 사이드 메뉴 등을 따로 받고 싶을 때 씁니다."
+        },
+        {
+          "id": "se_ch19_set08_013",
+          "type": "ox",
+          "question": "'What's popular here?'는 'What do you recommend?'와 비슷한 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'What's popular here?'는 인기 있는 메뉴가 뭔지 묻는 표현으로 'What do you recommend?'와 같은 목적으로 사용됩니다."
+        },
+        {
+          "id": "se_ch19_set08_014",
+          "type": "ox",
+          "question": "'Whenever you're ready.'는 종업원이 손님에게 지금 당장 주문해달라고 압박하는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Whenever you're ready.'는 준비됐을 때 알려달라는 뜻으로 메뉴를 보는 동안 기다리겠다는 배려의 표현입니다. 압박하는 것이 아니라 여유를 주는 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch19_set09_001",
+          "type": "multiple_choice",
+          "question": "식당 입장 시 두 명이라는 것을 알리는 표현으로 올바른 것은?",
+          "options": [
+            "Do you have a table for two available?",
+            "Two seats for us, hurry.",
+            "Table, two, please.",
+            "We require seating for a pair."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you have a table for two available?'는 자리가 비어 있는지 확인을 포함한 정중한 요청입니다. 'A table for two, please.'보다 조금 더 정중한 표현입니다."
+        },
+        {
+          "id": "se_ch19_set09_002",
+          "type": "multiple_choice",
+          "question": "종업원이 잠시 기다리면 결정할 수 있다고 말하는 표현은?",
+          "options": [
+            "Just give us one more minute.",
+            "We don't know yet.",
+            "Stop coming back.",
+            "Please leave us alone."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Just give us one more minute.'는 1분만 더 달라는 간결한 요청입니다. 'We'll be ready in a moment.'와 같은 상황에서 쓸 수 있는 표현입니다."
+        },
+        {
+          "id": "se_ch19_set09_003",
+          "type": "multiple_choice",
+          "question": "메뉴를 아직 결정 못 해서 잠깐 기다려달라고 할 때 쓸 수 있는 표현은?",
+          "options": [
+            "Can we have a bit longer?",
+            "We don't want to order.",
+            "The menu is confusing.",
+            "Do you have any other menus?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can we have a bit longer?'는 조금 더 시간을 달라는 캐주얼한 표현입니다. 'Could we have a few more minutes?'와 비슷한 뜻입니다."
+        },
+        {
+          "id": "se_ch19_set09_004",
+          "type": "multiple_choice",
+          "question": "음식 주문 시 'I'd like ~' 표현의 특징은?",
+          "options": [
+            "명령형이라 무례하게 들린다",
+            "'I'll have ~'보다 더 격식 있고 정중하다",
+            "캐주얼한 식당에서만 쓰인다",
+            "음료에만 사용할 수 있다"
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'd like ~'는 'I'll have ~'보다 조금 더 격식 있고 정중한 주문 표현입니다. 두 표현 모두 식당에서 자연스럽게 쓸 수 있지만 격식 있는 자리에서는 'I'd like'가 더 어울립니다."
+        },
+        {
+          "id": "se_ch19_set09_005",
+          "type": "multiple_choice",
+          "question": "스테이크 굽기 중 가장 많이 익힌 순서대로 나열한 것은?",
+          "options": [
+            "rare → medium → well done",
+            "well done → medium → rare",
+            "medium rare → rare → well done",
+            "well done → rare → medium"
+          ],
+          "answerIndex": 0,
+          "explanation": "스테이크 굽기 순서는 rare(가장 덜 익힘) → medium rare → medium → medium well → well done(가장 많이 익힘)입니다. 'rare'가 가장 덜 익고 'well done'이 가장 많이 익힌 상태입니다."
+        },
+        {
+          "id": "se_ch19_set09_006",
+          "type": "multiple_choice",
+          "question": "음료 주문 시 '커피 한 잔'을 영어로 표현하면?",
+          "options": [
+            "one coffee glass",
+            "a cup of coffee",
+            "coffee one, please",
+            "a piece of coffee"
+          ],
+          "answerIndex": 1,
+          "explanation": "'a cup of coffee'는 '커피 한 잔'을 뜻합니다. 'a glass of ~(음료)', 'a cup of ~(커피·차)', 'a bottle of ~(병)' 처럼 용기에 따라 단위 표현을 바꿔 씁니다."
+        },
+        {
+          "id": "se_ch19_set09_007",
+          "type": "multiple_choice",
+          "question": "재료를 빼달라는 요청에 종업원이 확인하는 말 'Got it.'와 비슷한 표현은?",
+          "options": [
+            "I disagree.",
+            "I understand.",
+            "That's impossible.",
+            "I'll check."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I understand.'는 'Got it.'와 비슷하게 요청 사항을 이해했다는 확인 표현입니다. 'Noted.', 'I'll make a note of that.'도 같은 맥락에서 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch19_set09_008",
+          "type": "multiple_choice",
+          "question": "추가 음식이나 음료를 주문하기 전 종업원의 주의를 끌 때 쓰는 표현은?",
+          "options": [
+            "Attention please!",
+            "Can you hear me?",
+            "Excuse me, could we order some more?",
+            "Order time!"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Excuse me, could we order some more?'는 종업원을 정중하게 부르며 추가 주문을 요청하는 표현입니다. 'Excuse me'로 시작하면 정중하게 주의를 끌 수 있습니다."
+        },
+        {
+          "id": "se_ch19_set09_009",
+          "type": "multiple_choice",
+          "question": "'No problem.'의 비슷한 표현으로 흔쾌히 응할 때 쓰는 것은?",
+          "options": [
+            "Sure thing.",
+            "Maybe not.",
+            "I'll try.",
+            "Perhaps."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Sure thing.'은 '물론이죠'라는 캐주얼한 긍정 표현으로 'No problem.'과 비슷한 맥락에서 씁니다. 'Of course', 'Absolutely'도 비슷한 의미입니다."
+        },
+        {
+          "id": "se_ch19_set09_010",
+          "type": "multiple_choice",
+          "question": "식당 메뉴 추천을 받아 먹어보기로 했을 때 주문 의사를 표현하는 말은?",
+          "options": [
+            "That doesn't sound good.",
+            "I'll skip that.",
+            "I'll give that a try.",
+            "Not interested."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I'll give that a try.'는 추천 메뉴를 한번 먹어보겠다는 표현으로 주문 의사를 내비치는 말입니다. 'That sounds great. I'll have that.'과 같은 흐름에서 씁니다."
+        },
+        {
+          "id": "se_ch19_set09_011",
+          "type": "ox",
+          "question": "'Tap water'는 유럽 식당에서 일반적으로 무료이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Tap water'는 수돗물로 유럽 식당에서 대부분 무료로 제공됩니다. 반면 'bottled water'나 'mineral water'는 유료입니다."
+        },
+        {
+          "id": "se_ch19_set09_012",
+          "type": "ox",
+          "question": "'Coming right up!'는 주문을 거절하는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Coming right up!'는 '바로 가져다드리겠습니다'라는 활기찬 표현으로 주문을 기꺼이 처리하겠다는 뜻입니다."
+        },
+        {
+          "id": "se_ch19_set09_013",
+          "type": "ox",
+          "question": "'How would you like your steak cooked?'는 스테이크를 어디서 먹고 싶은지 장소를 묻는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'How would you like your steak cooked?'는 스테이크의 굽기 정도를 묻는 표현입니다. 장소가 아니라 익힘 정도(rare, medium, well done 등)를 묻는 질문입니다."
+        },
+        {
+          "id": "se_ch19_set09_014",
+          "type": "ox",
+          "question": "'I'll check back in a few minutes.'는 종업원이 잠시 후 다시 오겠다는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'I'll check back in a few minutes.'는 몇 분 후에 다시 확인하러 오겠다는 종업원의 표현입니다. 'I'll come back shortly.'와 같은 의미입니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch19_set10_001",
+          "type": "multiple_choice",
+          "question": "'A table for two, please.'에서 'for two'를 'for five'로 바꾸면 몇 명이 앉을 자리를 요청하는 것인가?",
+          "options": [
+            "2명",
+            "3명",
+            "4명",
+            "5명"
+          ],
+          "answerIndex": 3,
+          "explanation": "'A table for five, please.'는 5명이 앉을 자리를 요청하는 표현입니다. 'A table for + 인원수' 패턴에서 숫자만 바꾸면 됩니다."
+        },
+        {
+          "id": "se_ch19_set10_002",
+          "type": "multiple_choice",
+          "question": "종업원을 따라 자리로 이동하는 상황에서 'Follow me, please.'와 같은 의미의 표현은?",
+          "options": [
+            "Wait here, please.",
+            "Right this way, please.",
+            "Stand up, please.",
+            "Look over there."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Right this way, please.'와 'Follow me, please.'는 모두 종업원이 손님을 자리로 안내할 때 쓰는 표현입니다. '이쪽으로 따라오세요'라는 같은 의미입니다."
+        },
+        {
+          "id": "se_ch19_set10_003",
+          "type": "multiple_choice",
+          "question": "구석 자리를 요청할 때 자연스러운 표현은?",
+          "options": [
+            "We want the dark place.",
+            "Can we sit in the corner?",
+            "Give us a hidden table.",
+            "We prefer the back of the room."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Can we sit in the corner?'는 구석 자리에 앉고 싶다는 자연스러운 요청입니다. 'by the window(창가)', 'outside(야외)', 'in the corner(구석)' 등으로 원하는 자리 유형을 명시할 수 있습니다."
+        },
+        {
+          "id": "se_ch19_set10_004",
+          "type": "multiple_choice",
+          "question": "음식 주문 시 'Can I get the pasta?'는 어떤 상황에 어울리는가?",
+          "options": [
+            "격식 있는 고급 레스토랑",
+            "캐주얼한 식당",
+            "패스트푸드점 드라이브 스루",
+            "테이크아웃 주문"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Can I get the pasta?'는 캐주얼한 식당에서 자주 쓰이는 표현입니다. 격식 있는 레스토랑에서는 'I'll have ~' 또는 'I'd like ~'가 더 적합합니다."
+        },
+        {
+          "id": "se_ch19_set10_005",
+          "type": "multiple_choice",
+          "question": "스테이크 굽기에서 'medium'은 어떤 상태인가?",
+          "options": [
+            "속까지 완전히 빨간 상태",
+            "완전히 익혀 붉은 기가 없는 상태",
+            "속이 분홍빛이 남은 상태",
+            "겉만 살짝 익은 상태"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Medium'은 스테이크 속이 분홍빛이 남은 상태입니다. 'rare'는 속까지 빨간 상태, 'medium rare'는 빨간 기가 남은 상태, 'well done'은 완전히 익힌 상태입니다."
+        },
+        {
+          "id": "se_ch19_set10_006",
+          "type": "multiple_choice",
+          "question": "종업원이 주문을 받으러 왔을 때 더 캐주얼하게 말하는 표현은?",
+          "options": [
+            "May I take your order?",
+            "Are you ready to order?",
+            "What can I get for you?",
+            "Have you decided on everything?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'What can I get for you?'는 캐주얼한 식당에서 종업원이 주문을 받을 때 쓰는 표현입니다. 세 표현 중 가장 캐주얼하며, 'May I take your order?'가 가장 격식 있습니다."
+        },
+        {
+          "id": "se_ch19_set10_007",
+          "type": "multiple_choice",
+          "question": "드레싱을 음식에 뿌리지 않고 따로 담아달라는 요청의 핵심 영어 표현은?",
+          "options": [
+            "dressing inside",
+            "dressing on top",
+            "dressing on the side",
+            "dressing mixed in"
+          ],
+          "answerIndex": 2,
+          "explanation": "'dressing on the side'는 드레싱을 음식과 따로 담아달라는 표현입니다. 'on the side'는 음식과 분리해서 제공해 달라는 관용적 표현입니다."
+        },
+        {
+          "id": "se_ch19_set10_008",
+          "type": "multiple_choice",
+          "question": "종업원이 주문을 처리하고 곧 가져다주겠다고 할 때 쓰는 표현은?",
+          "options": [
+            "I'll get that for you now.",
+            "It'll be ready in an hour.",
+            "We're out of that.",
+            "Someone else will bring it."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll get that for you now.'는 지금 바로 가져다드리겠다는 표현입니다. 'Coming right up!', 'I'll bring that right out.'과 같은 맥락에서 씁니다."
+        },
+        {
+          "id": "se_ch19_set10_009",
+          "type": "multiple_choice",
+          "question": "'Just a moment.'는 종업원이 잠깐 기다려달라고 할 때 쓰는 표현이다. 비슷한 표현은?",
+          "options": [
+            "A long time.",
+            "One second.",
+            "Come back tomorrow.",
+            "Wait forever."
+          ],
+          "answerIndex": 1,
+          "explanation": "'One second.'는 'Just a moment.'와 비슷하게 잠깐만이라는 의미의 매우 캐주얼한 표현입니다. 종업원이 뭔가를 가지러 잠시 자리를 비울 때 씁니다."
+        },
+        {
+          "id": "se_ch19_set10_010",
+          "type": "multiple_choice",
+          "question": "음료가 생과일인지 병에 든 것인지 모를 때 가격 차이를 묻는 표현은?",
+          "options": [
+            "Is it expensive?",
+            "What's the difference in price?",
+            "Which one is bigger?",
+            "How many calories are in it?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'What's the difference in price?'는 가격 차이가 얼마인지 묻는 자연스러운 표현입니다. 생과일 주스와 병 주스처럼 옵션 간 가격이 다를 수 있을 때 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch19_set10_011",
+          "type": "ox",
+          "question": "'A table for two'의 패턴에서 숫자를 바꾸면 다양한 인원수의 자리를 요청할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'A table for + 인원수' 패턴으로 자리를 요청할 수 있습니다. 'A table for two(2명)', 'A table for three(3명)', 'A table for six(6명)' 등으로 활용합니다."
+        },
+        {
+          "id": "se_ch19_set10_012",
+          "type": "ox",
+          "question": "'Well done' 스테이크는 'rare' 스테이크보다 덜 익힌 상태이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Well done'은 가장 많이 익힌 상태이고 'rare'는 가장 덜 익힌 상태입니다. 굽기 순서: rare → medium rare → medium → medium well → well done."
+        },
+        {
+          "id": "se_ch19_set10_013",
+          "type": "ox",
+          "question": "'Not at all.'은 'Is it spicy?'에 대해 전혀 맵지 않다는 뜻으로 쓸 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Not at all.'은 부정적인 질문에 '전혀 그렇지 않습니다'라는 강한 부정 표현입니다. 'Is it spicy?'에 대한 답으로 전혀 맵지 않다고 할 때 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch19_set10_014",
+          "type": "ox",
+          "question": "'Of course! I'll bring that right out.'는 종업원이 요청을 거절하는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Of course! I'll bring that right out.'는 물론이죠, 바로 가져다드리겠습니다라는 의미로 요청을 기꺼이 수락하는 표현입니다."
         }
       ]
     }

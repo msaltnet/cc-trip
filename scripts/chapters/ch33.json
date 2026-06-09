@@ -7,34 +7,68 @@
       "id": "ch33_d01",
       "title": "예약 확인하기",
       "lines": [
-        { "speaker": "나", "en": "Hi, I'd like to confirm my booking for the city tour tomorrow.", "ko": "안녕하세요, 내일 시티 투어 예약을 확인하고 싶어요." },
-        { "speaker": "직원", "en": "Sure! Could I have your name and booking reference, please?", "ko": "물론이죠! 성함과 예약 번호를 알려 주시겠어요?" },
-        { "speaker": "나", "en": "My name is Kim Junho and the reference number is TC8821.", "ko": "제 이름은 김준호이고 예약 번호는 TC8821입니다." },
-        { "speaker": "직원", "en": "Got it! Your booking is confirmed for tomorrow at 9 a.m. You're all set.", "ko": "확인했습니다! 내일 오전 9시 예약이 확정되어 있네요. 다 준비됐습니다." }
+        {
+          "speaker": "나",
+          "en": "Hi, I'd like to confirm my booking for the city tour tomorrow.",
+          "ko": "안녕하세요, 내일 시티 투어 예약을 확인하고 싶어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Sure! Could I have your name and booking reference, please?",
+          "ko": "물론이죠! 성함과 예약 번호를 알려 주시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "My name is Kim Junho and the reference number is TC8821.",
+          "ko": "제 이름은 김준호이고 예약 번호는 TC8821입니다."
+        },
+        {
+          "speaker": "직원",
+          "en": "Got it! Your booking is confirmed for tomorrow at 9 a.m. You're all set.",
+          "ko": "확인했습니다! 내일 오전 9시 예약이 확정되어 있네요. 다 준비됐습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'd like to confirm my booking.",
           "ko": "예약을 확인하고 싶습니다 — 'confirm'은 이미 된 예약이 유효한지 체크하는 것. 'make a booking'(예약하다)과 혼동하지 마세요.",
           "alternatives": [
-            { "en": "I want to check my reservation.", "ko": "예약 사항을 확인하고 싶어요. (더 구어체)" },
-            { "en": "Could you verify my booking?", "ko": "제 예약을 확인해 주시겠어요? (정중한 요청)" }
+            {
+              "en": "I want to check my reservation.",
+              "ko": "예약 사항을 확인하고 싶어요. (더 구어체)"
+            },
+            {
+              "en": "Could you verify my booking?",
+              "ko": "제 예약을 확인해 주시겠어요? (정중한 요청)"
+            }
           ]
         },
         {
           "en": "booking reference",
           "ko": "예약 번호 — 'booking reference', 'confirmation number', 'reservation number' 모두 같은 의미로 쓰입니다.",
           "alternatives": [
-            { "en": "confirmation number", "ko": "예약 확인 번호 (이메일에서 가장 흔하게 보이는 표현)" },
-            { "en": "reservation number", "ko": "예약 번호 (호텔·항공에서도 자주 씀)" }
+            {
+              "en": "confirmation number",
+              "ko": "예약 확인 번호 (이메일에서 가장 흔하게 보이는 표현)"
+            },
+            {
+              "en": "reservation number",
+              "ko": "예약 번호 (호텔·항공에서도 자주 씀)"
+            }
           ]
         },
         {
           "en": "You're all set.",
           "ko": "다 준비됐습니다 / 문제없어요 — 직원이 모든 게 확인됐을 때 쓰는 표현. 'You're good to go.'와 같은 의미예요.",
           "alternatives": [
-            { "en": "Everything is in order.", "ko": "모든 것이 정상적으로 처리되어 있습니다. (격식체)" },
-            { "en": "You're good to go.", "ko": "준비 완료입니다. (구어체)" }
+            {
+              "en": "Everything is in order.",
+              "ko": "모든 것이 정상적으로 처리되어 있습니다. (격식체)"
+            },
+            {
+              "en": "You're good to go.",
+              "ko": "준비 완료입니다. (구어체)"
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch33_d02",
       "title": "바우처 제시하기",
       "lines": [
-        { "speaker": "나", "en": "Here's my voucher. I booked online through GetYourGuide.", "ko": "여기 제 바우처입니다. 겟유어가이드를 통해 온라인으로 예약했어요." },
-        { "speaker": "직원", "en": "Thank you. Let me scan the QR code. One moment, please.", "ko": "감사합니다. QR 코드를 스캔할게요. 잠시만요." },
-        { "speaker": "나", "en": "Is a printed version required, or is a mobile voucher okay?", "ko": "인쇄본이 필요한가요, 아니면 모바일 바우처도 괜찮나요?" },
-        { "speaker": "직원", "en": "A mobile voucher is perfectly fine. You're all checked in!", "ko": "모바일 바우처도 전혀 문제없어요. 체크인 완료입니다!" }
+        {
+          "speaker": "나",
+          "en": "Here's my voucher. I booked online through GetYourGuide.",
+          "ko": "여기 제 바우처입니다. 겟유어가이드를 통해 온라인으로 예약했어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Thank you. Let me scan the QR code. One moment, please.",
+          "ko": "감사합니다. QR 코드를 스캔할게요. 잠시만요."
+        },
+        {
+          "speaker": "나",
+          "en": "Is a printed version required, or is a mobile voucher okay?",
+          "ko": "인쇄본이 필요한가요, 아니면 모바일 바우처도 괜찮나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "A mobile voucher is perfectly fine. You're all checked in!",
+          "ko": "모바일 바우처도 전혀 문제없어요. 체크인 완료입니다!"
+        }
       ],
       "keyExpressions": [
         {
           "en": "Here's my voucher.",
           "ko": "여기 제 바우처입니다 — 'voucher'는 온라인 예약 시 받는 확인 문서. 'confirmation'이라고도 해요.",
           "alternatives": [
-            { "en": "Here's my confirmation.", "ko": "여기 제 예약 확인서입니다." },
-            { "en": "I have my booking confirmation here.", "ko": "예약 확인서를 가지고 왔어요." }
+            {
+              "en": "Here's my confirmation.",
+              "ko": "여기 제 예약 확인서입니다."
+            },
+            {
+              "en": "I have my booking confirmation here.",
+              "ko": "예약 확인서를 가지고 왔어요."
+            }
           ]
         },
         {
           "en": "I booked online through ~.",
           "ko": "~를 통해 온라인으로 예약했어요 — 예약 경로를 설명할 때 유용한 표현. 'through'는 '~를 통해'.",
           "alternatives": [
-            { "en": "I made a reservation via ~.", "ko": "~를 통해 예약했습니다." },
-            { "en": "I purchased this tour on ~.", "ko": "~에서 이 투어를 구매했어요." }
+            {
+              "en": "I made a reservation via ~.",
+              "ko": "~를 통해 예약했습니다."
+            },
+            {
+              "en": "I purchased this tour on ~.",
+              "ko": "~에서 이 투어를 구매했어요."
+            }
           ]
         },
         {
           "en": "Is a mobile voucher okay?",
           "ko": "모바일 바우처도 괜찮나요? — 인쇄 여부를 확인하는 실용적인 질문. 많은 곳에서 모바일도 허용해요.",
           "alternatives": [
-            { "en": "Do I need a printed copy?", "ko": "인쇄본이 필요한가요?" },
-            { "en": "Can I show it on my phone?", "ko": "핸드폰으로 보여드려도 되나요?" }
+            {
+              "en": "Do I need a printed copy?",
+              "ko": "인쇄본이 필요한가요?"
+            },
+            {
+              "en": "Can I show it on my phone?",
+              "ko": "핸드폰으로 보여드려도 되나요?"
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch33_d03",
       "title": "시간 변경 요청하기",
       "lines": [
-        { "speaker": "나", "en": "I'd like to reschedule my tour. Is it possible to switch to the afternoon slot?", "ko": "투어 일정을 변경하고 싶어요. 오후 시간대로 바꾸는 게 가능할까요?" },
-        { "speaker": "직원", "en": "Let me check availability. When would you prefer?", "ko": "가능 여부를 확인해 볼게요. 언제가 좋으세요?" },
-        { "speaker": "나", "en": "If possible, the 2 p.m. slot on the same day.", "ko": "가능하다면 같은 날 오후 2시 시간대로요." },
-        { "speaker": "직원", "en": "That slot is available. I'll move your booking to 2 p.m. at no extra charge.", "ko": "그 시간대 자리가 있네요. 추가 요금 없이 오후 2시로 변경해 드릴게요." }
+        {
+          "speaker": "나",
+          "en": "I'd like to reschedule my tour. Is it possible to switch to the afternoon slot?",
+          "ko": "투어 일정을 변경하고 싶어요. 오후 시간대로 바꾸는 게 가능할까요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Let me check availability. When would you prefer?",
+          "ko": "가능 여부를 확인해 볼게요. 언제가 좋으세요?"
+        },
+        {
+          "speaker": "나",
+          "en": "If possible, the 2 p.m. slot on the same day.",
+          "ko": "가능하다면 같은 날 오후 2시 시간대로요."
+        },
+        {
+          "speaker": "직원",
+          "en": "That slot is available. I'll move your booking to 2 p.m. at no extra charge.",
+          "ko": "그 시간대 자리가 있네요. 추가 요금 없이 오후 2시로 변경해 드릴게요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'd like to reschedule my tour.",
           "ko": "투어 일정을 변경하고 싶어요 — 'reschedule'은 기존 예약을 다른 시간으로 옮기는 것. 'cancel'(취소)과 구별하세요.",
           "alternatives": [
-            { "en": "Can I change my booking to a different time?", "ko": "다른 시간으로 예약을 변경할 수 있을까요?" },
-            { "en": "I need to move my reservation.", "ko": "예약을 옮겨야 할 것 같아요." }
+            {
+              "en": "Can I change my booking to a different time?",
+              "ko": "다른 시간으로 예약을 변경할 수 있을까요?"
+            },
+            {
+              "en": "I need to move my reservation.",
+              "ko": "예약을 옮겨야 할 것 같아요."
+            }
           ]
         },
         {
           "en": "Is it possible to switch to the afternoon slot?",
           "ko": "오후 시간대로 바꾸는 게 가능할까요? — 'slot'은 특정 시간대. 'time slot'이라고도 해요.",
           "alternatives": [
-            { "en": "Are there any afternoon openings?", "ko": "오후에 자리가 있나요?" },
-            { "en": "Can I move to a later time?", "ko": "더 늦은 시간으로 옮길 수 있을까요?" }
+            {
+              "en": "Are there any afternoon openings?",
+              "ko": "오후에 자리가 있나요?"
+            },
+            {
+              "en": "Can I move to a later time?",
+              "ko": "더 늦은 시간으로 옮길 수 있을까요?"
+            }
           ]
         },
         {
           "en": "at no extra charge",
           "ko": "추가 요금 없이 — 변경 수수료가 없다는 뜻. 반대로 수수료가 있으면 'There's a rescheduling fee of ~'.",
           "alternatives": [
-            { "en": "free of charge", "ko": "무료로 (추가 비용 없이)" },
-            { "en": "without any additional fee", "ko": "추가 요금 없이 (격식체)" }
+            {
+              "en": "free of charge",
+              "ko": "무료로 (추가 비용 없이)"
+            },
+            {
+              "en": "without any additional fee",
+              "ko": "추가 요금 없이 (격식체)"
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch33_d04",
       "title": "취소 및 환불 정책 문의",
       "lines": [
-        { "speaker": "나", "en": "What is your cancellation policy for this tour?", "ko": "이 투어의 취소 정책이 어떻게 되나요?" },
-        { "speaker": "직원", "en": "You can cancel free of charge up to 24 hours before the start time.", "ko": "시작 시간 24시간 전까지는 무료로 취소하실 수 있어요." },
-        { "speaker": "나", "en": "What happens if I cancel less than 24 hours in advance?", "ko": "24시간 이내에 취소하면 어떻게 되나요?" },
-        { "speaker": "직원", "en": "In that case, the booking is non-refundable. No refund will be issued.", "ko": "그 경우에는 환불이 불가합니다. 환불이 되지 않아요." }
+        {
+          "speaker": "나",
+          "en": "What is your cancellation policy for this tour?",
+          "ko": "이 투어의 취소 정책이 어떻게 되나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "You can cancel free of charge up to 24 hours before the start time.",
+          "ko": "시작 시간 24시간 전까지는 무료로 취소하실 수 있어요."
+        },
+        {
+          "speaker": "나",
+          "en": "What happens if I cancel less than 24 hours in advance?",
+          "ko": "24시간 이내에 취소하면 어떻게 되나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "In that case, the booking is non-refundable. No refund will be issued.",
+          "ko": "그 경우에는 환불이 불가합니다. 환불이 되지 않아요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "What is your cancellation policy?",
           "ko": "취소 정책이 어떻게 되나요? — 투어나 공연 예약 시 꼭 확인해야 할 표현. 환불 조건을 미리 알 수 있어요.",
           "alternatives": [
-            { "en": "Can you explain the refund policy?", "ko": "환불 정책을 설명해 주시겠어요?" },
-            { "en": "Are there any cancellation fees?", "ko": "취소 수수료가 있나요?" }
+            {
+              "en": "Can you explain the refund policy?",
+              "ko": "환불 정책을 설명해 주시겠어요?"
+            },
+            {
+              "en": "Are there any cancellation fees?",
+              "ko": "취소 수수료가 있나요?"
+            }
           ]
         },
         {
           "en": "cancel free of charge up to 24 hours before",
           "ko": "24시간 전까지 무료 취소 — 'free of charge'는 '무료로'. 'up to'는 '~까지(기한)'를 나타내요.",
           "alternatives": [
-            { "en": "cancel at no cost within 24 hours' notice", "ko": "24시간 전에 고지하면 무료 취소 가능" },
-            { "en": "get a full refund if cancelled 24 hours ahead", "ko": "24시간 전 취소 시 전액 환불" }
+            {
+              "en": "cancel at no cost within 24 hours' notice",
+              "ko": "24시간 전에 고지하면 무료 취소 가능"
+            },
+            {
+              "en": "get a full refund if cancelled 24 hours ahead",
+              "ko": "24시간 전 취소 시 전액 환불"
+            }
           ]
         },
         {
           "en": "non-refundable",
           "ko": "환불 불가 — 예약 조건에서 자주 보이는 단어. 'No refund will be issued.'와 같은 의미예요.",
           "alternatives": [
-            { "en": "no refund will be issued", "ko": "환불이 이루어지지 않습니다." },
-            { "en": "the fee is not refundable", "ko": "요금을 환불받을 수 없습니다." }
+            {
+              "en": "no refund will be issued",
+              "ko": "환불이 이루어지지 않습니다."
+            },
+            {
+              "en": "the fee is not refundable",
+              "ko": "요금을 환불받을 수 없습니다."
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch33_d05",
       "title": "날씨로 인한 투어 취소",
       "lines": [
-        { "speaker": "직원", "en": "I'm sorry to inform you that today's boat tour has been cancelled due to bad weather.", "ko": "죄송합니다만, 오늘 보트 투어가 날씨로 인해 취소되었습니다." },
-        { "speaker": "나", "en": "Oh no. Will I receive a full refund?", "ko": "이런. 전액 환불을 받을 수 있나요?" },
-        { "speaker": "직원", "en": "Yes, since the cancellation is on our end, you'll receive a full refund within 5 business days.", "ko": "네, 취소가 저희 측에서 이루어진 것이므로 영업일 기준 5일 이내에 전액 환불해 드립니다." },
-        { "speaker": "나", "en": "Thank you. Is there an option to reschedule instead?", "ko": "감사합니다. 대신 일정을 변경하는 옵션도 있나요?" }
+        {
+          "speaker": "직원",
+          "en": "I'm sorry to inform you that today's boat tour has been cancelled due to bad weather.",
+          "ko": "죄송합니다만, 오늘 보트 투어가 날씨로 인해 취소되었습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Oh no. Will I receive a full refund?",
+          "ko": "이런. 전액 환불을 받을 수 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, since the cancellation is on our end, you'll receive a full refund within 5 business days.",
+          "ko": "네, 취소가 저희 측에서 이루어진 것이므로 영업일 기준 5일 이내에 전액 환불해 드립니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you. Is there an option to reschedule instead?",
+          "ko": "감사합니다. 대신 일정을 변경하는 옵션도 있나요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "cancelled due to bad weather",
           "ko": "날씨로 인해 취소됨 — 'due to'는 '~로 인해'. 'because of bad weather'와 같은 의미지만 더 격식체예요.",
           "alternatives": [
-            { "en": "called off because of weather conditions", "ko": "기상 조건으로 인해 취소됨" },
-            { "en": "cancelled on account of weather", "ko": "날씨 때문에 취소됨" }
+            {
+              "en": "called off because of weather conditions",
+              "ko": "기상 조건으로 인해 취소됨"
+            },
+            {
+              "en": "cancelled on account of weather",
+              "ko": "날씨 때문에 취소됨"
+            }
           ]
         },
         {
           "en": "Will I receive a full refund?",
           "ko": "전액 환불을 받을 수 있나요? — 'full refund'는 전액 환불. 일부 환불은 'partial refund'.",
           "alternatives": [
-            { "en": "Am I eligible for a full refund?", "ko": "전액 환불 자격이 되나요?" },
-            { "en": "Can I get my money back?", "ko": "돈을 돌려받을 수 있나요? (구어체)" }
+            {
+              "en": "Am I eligible for a full refund?",
+              "ko": "전액 환불 자격이 되나요?"
+            },
+            {
+              "en": "Can I get my money back?",
+              "ko": "돈을 돌려받을 수 있나요? (구어체)"
+            }
           ]
         },
         {
           "en": "the cancellation is on our end",
           "ko": "취소가 저희 측에서 이루어진 것 — 'on our end'는 '우리 쪽에서'. 'on your end'는 '고객 측에서'.",
           "alternatives": [
-            { "en": "we initiated the cancellation", "ko": "저희가 취소를 진행한 것이므로" },
-            { "en": "it was cancelled by our company", "ko": "저희 회사에서 취소한 것이므로" }
+            {
+              "en": "we initiated the cancellation",
+              "ko": "저희가 취소를 진행한 것이므로"
+            },
+            {
+              "en": "it was cancelled by our company",
+              "ko": "저희 회사에서 취소한 것이므로"
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch33_d06",
       "title": "환불 방법 확인",
       "lines": [
-        { "speaker": "나", "en": "I'd like to cancel my reservation and get a refund. How does that work?", "ko": "예약을 취소하고 환불을 받고 싶어요. 어떻게 진행되나요?" },
-        { "speaker": "직원", "en": "You'll receive a partial refund of 50% since you're cancelling within 48 hours.", "ko": "48시간 이내 취소이기 때문에 50% 부분 환불을 받으시게 됩니다." },
-        { "speaker": "나", "en": "Will the refund go back to my original payment method?", "ko": "환불이 원래 결제 수단으로 돌아가나요?" },
-        { "speaker": "직원", "en": "Yes, it will be credited back to your card within 7 to 10 business days.", "ko": "네, 영업일 기준 7~10일 이내에 카드로 다시 입금됩니다." }
+        {
+          "speaker": "나",
+          "en": "I'd like to cancel my reservation and get a refund. How does that work?",
+          "ko": "예약을 취소하고 환불을 받고 싶어요. 어떻게 진행되나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "You'll receive a partial refund of 50% since you're cancelling within 48 hours.",
+          "ko": "48시간 이내 취소이기 때문에 50% 부분 환불을 받으시게 됩니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Will the refund go back to my original payment method?",
+          "ko": "환불이 원래 결제 수단으로 돌아가나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, it will be credited back to your card within 7 to 10 business days.",
+          "ko": "네, 영업일 기준 7~10일 이내에 카드로 다시 입금됩니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "partial refund",
           "ko": "부분 환불 — 전액 환불('full refund')과 달리 일부만 돌려받는 것. 취소 시점에 따라 달라지는 경우가 많아요.",
           "alternatives": [
-            { "en": "50% refund", "ko": "50% 환불" },
-            { "en": "a refund of half the booking price", "ko": "예약 금액의 절반 환불" }
+            {
+              "en": "50% refund",
+              "ko": "50% 환불"
+            },
+            {
+              "en": "a refund of half the booking price",
+              "ko": "예약 금액의 절반 환불"
+            }
           ]
         },
         {
           "en": "Will the refund go back to my original payment method?",
           "ko": "환불이 원래 결제 수단으로 돌아가나요? — 카드·PayPal 등 처음 결제 방법으로 환불되는지 확인하는 표현.",
           "alternatives": [
-            { "en": "Will it be refunded to my credit card?", "ko": "신용카드로 환불되나요?" },
-            { "en": "How will I receive the refund?", "ko": "환불은 어떻게 받게 되나요?" }
+            {
+              "en": "Will it be refunded to my credit card?",
+              "ko": "신용카드로 환불되나요?"
+            },
+            {
+              "en": "How will I receive the refund?",
+              "ko": "환불은 어떻게 받게 되나요?"
+            }
           ]
         },
         {
           "en": "credited back to your card",
           "ko": "카드로 다시 입금됩니다 — 'credit back'은 환불 금액을 다시 카드에 넣어주는 것. 'charged'(청구)의 반대 개념이에요.",
           "alternatives": [
-            { "en": "returned to your card", "ko": "카드로 반환됩니다" },
-            { "en": "refunded to your payment card", "ko": "결제 카드로 환불됩니다" }
+            {
+              "en": "returned to your card",
+              "ko": "카드로 반환됩니다"
+            },
+            {
+              "en": "refunded to your payment card",
+              "ko": "결제 카드로 환불됩니다"
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch33_d07",
       "title": "노쇼 후 재예약 문의",
       "lines": [
-        { "speaker": "나", "en": "I'm sorry — I missed the tour this morning. Is it possible to rebook?", "ko": "죄송합니다, 오늘 오전 투어를 놓쳤어요. 재예약이 가능할까요?" },
-        { "speaker": "직원", "en": "Unfortunately, no-shows are typically non-refundable and cannot be rebooked.", "ko": "죄송하지만, 노쇼의 경우 보통 환불 및 재예약이 불가능합니다." },
-        { "speaker": "나", "en": "I understand. Is there any exception if I pay a rebooking fee?", "ko": "알겠습니다. 재예약 수수료를 내면 예외가 될 수 있나요?" },
-        { "speaker": "직원", "en": "Let me check with a manager. Please hold on for a moment.", "ko": "매니저에게 확인해 볼게요. 잠시만 기다려 주세요." }
+        {
+          "speaker": "나",
+          "en": "I'm sorry — I missed the tour this morning. Is it possible to rebook?",
+          "ko": "죄송합니다, 오늘 오전 투어를 놓쳤어요. 재예약이 가능할까요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Unfortunately, no-shows are typically non-refundable and cannot be rebooked.",
+          "ko": "죄송하지만, 노쇼의 경우 보통 환불 및 재예약이 불가능합니다."
+        },
+        {
+          "speaker": "나",
+          "en": "I understand. Is there any exception if I pay a rebooking fee?",
+          "ko": "알겠습니다. 재예약 수수료를 내면 예외가 될 수 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Let me check with a manager. Please hold on for a moment.",
+          "ko": "매니저에게 확인해 볼게요. 잠시만 기다려 주세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I missed the tour.",
           "ko": "투어를 놓쳤어요 — 'miss'는 시간에 늦거나 잊어서 참여하지 못한 것. 'I didn't show up.'보다 부드러운 표현.",
           "alternatives": [
-            { "en": "I wasn't able to make it.", "ko": "참석하지 못했어요." },
-            { "en": "I didn't show up for the tour.", "ko": "투어에 나타나지 못했어요." }
+            {
+              "en": "I wasn't able to make it.",
+              "ko": "참석하지 못했어요."
+            },
+            {
+              "en": "I didn't show up for the tour.",
+              "ko": "투어에 나타나지 못했어요."
+            }
           ]
         },
         {
           "en": "no-show",
           "ko": "노쇼 — 예약했지만 나타나지 않는 것. 항공·투어·공연 모두에서 쓰이는 업계 용어예요.",
           "alternatives": [
-            { "en": "missed booking", "ko": "놓친 예약" },
-            { "en": "failure to appear", "ko": "미출석 (격식체)" }
+            {
+              "en": "missed booking",
+              "ko": "놓친 예약"
+            },
+            {
+              "en": "failure to appear",
+              "ko": "미출석 (격식체)"
+            }
           ]
         },
         {
           "en": "Is there any exception?",
           "ko": "예외가 될 수 있나요? — 원칙을 벗어난 특별 처리를 부탁할 때 쓰는 표현. 너무 강하게 요구하지 않는 정중한 방식.",
           "alternatives": [
-            { "en": "Can you make an exception for me?", "ko": "저를 위해 예외를 적용해 주실 수 있나요?" },
-            { "en": "Is there anything you can do for me?", "ko": "해주실 수 있는 게 있을까요?" }
+            {
+              "en": "Can you make an exception for me?",
+              "ko": "저를 위해 예외를 적용해 주실 수 있나요?"
+            },
+            {
+              "en": "Is there anything you can do for me?",
+              "ko": "해주실 수 있는 게 있을까요?"
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch33_d08",
       "title": "대체 일정 제안 받기",
       "lines": [
-        { "speaker": "직원", "en": "Since today's tour is full, we can offer you an alternative date — how about this Saturday?", "ko": "오늘 투어가 마감되어 대체 날짜를 제안드릴 수 있어요. 이번 토요일은 어떠세요?" },
-        { "speaker": "나", "en": "Saturday works for me. Will my current ticket still be valid?", "ko": "토요일 괜찮아요. 현재 티켓이 계속 유효한가요?" },
-        { "speaker": "직원", "en": "Yes, your ticket will be transferred to the Saturday tour at no additional cost.", "ko": "네, 추가 비용 없이 토요일 투어로 티켓이 이전됩니다." },
-        { "speaker": "나", "en": "That's great. Please go ahead and make the change.", "ko": "좋아요. 변경해 주세요." }
+        {
+          "speaker": "직원",
+          "en": "Since today's tour is full, we can offer you an alternative date — how about this Saturday?",
+          "ko": "오늘 투어가 마감되어 대체 날짜를 제안드릴 수 있어요. 이번 토요일은 어떠세요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Saturday works for me. Will my current ticket still be valid?",
+          "ko": "토요일 괜찮아요. 현재 티켓이 계속 유효한가요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, your ticket will be transferred to the Saturday tour at no additional cost.",
+          "ko": "네, 추가 비용 없이 토요일 투어로 티켓이 이전됩니다."
+        },
+        {
+          "speaker": "나",
+          "en": "That's great. Please go ahead and make the change.",
+          "ko": "좋아요. 변경해 주세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "We can offer you an alternative date.",
           "ko": "대체 날짜를 제안드릴 수 있어요 — 'alternative'는 '대안이 되는'. 오퍼(제안)를 받아들이거나 거절할 수 있어요.",
           "alternatives": [
-            { "en": "We have another available date.", "ko": "다른 가능한 날짜가 있어요." },
-            { "en": "Would you consider a different date?", "ko": "다른 날짜를 고려해 보시겠어요?" }
+            {
+              "en": "We have another available date.",
+              "ko": "다른 가능한 날짜가 있어요."
+            },
+            {
+              "en": "Would you consider a different date?",
+              "ko": "다른 날짜를 고려해 보시겠어요?"
+            }
           ]
         },
         {
           "en": "Will my current ticket still be valid?",
           "ko": "현재 티켓이 계속 유효한가요? — 날짜를 바꿀 때 기존 티켓을 그대로 쓸 수 있는지 확인하는 표현.",
           "alternatives": [
-            { "en": "Can I use the same ticket for the new date?", "ko": "새 날짜에 같은 티켓을 쓸 수 있나요?" },
-            { "en": "Does my ticket carry over?", "ko": "티켓이 이월되나요?" }
+            {
+              "en": "Can I use the same ticket for the new date?",
+              "ko": "새 날짜에 같은 티켓을 쓸 수 있나요?"
+            },
+            {
+              "en": "Does my ticket carry over?",
+              "ko": "티켓이 이월되나요?"
+            }
           ]
         },
         {
           "en": "Please go ahead and make the change.",
           "ko": "변경해 주세요 — 직원에게 처리를 맡길 때 쓰는 표현. 'go ahead and ~'는 '어서 ~해 주세요'라는 자연스러운 허락·요청.",
           "alternatives": [
-            { "en": "Please process the change.", "ko": "변경 처리를 해주세요." },
-            { "en": "That sounds good. Please update my booking.", "ko": "좋아요. 예약을 업데이트해 주세요." }
+            {
+              "en": "Please process the change.",
+              "ko": "변경 처리를 해주세요."
+            },
+            {
+              "en": "That sounds good. Please update my booking.",
+              "ko": "좋아요. 예약을 업데이트해 주세요."
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch33_d09",
       "title": "인원 변경 요청하기",
       "lines": [
-        { "speaker": "나", "en": "I'd like to add one more person to my booking. Is that possible?", "ko": "예약에 한 명을 추가하고 싶어요. 가능할까요?" },
-        { "speaker": "직원", "en": "Let me check. We do have one spot left on that tour.", "ko": "확인해 볼게요. 그 투어에 자리가 하나 남아 있네요." },
-        { "speaker": "나", "en": "Perfect. Can I pay the extra person's fee right now?", "ko": "잘됐네요. 추가 인원 요금을 지금 바로 낼 수 있을까요?" },
-        { "speaker": "직원", "en": "Of course. The fee for one additional person is $45. How would you like to pay?", "ko": "물론이죠. 추가 1인 요금은 45달러입니다. 어떻게 결제하시겠어요?" }
+        {
+          "speaker": "나",
+          "en": "I'd like to add one more person to my booking. Is that possible?",
+          "ko": "예약에 한 명을 추가하고 싶어요. 가능할까요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Let me check. We do have one spot left on that tour.",
+          "ko": "확인해 볼게요. 그 투어에 자리가 하나 남아 있네요."
+        },
+        {
+          "speaker": "나",
+          "en": "Perfect. Can I pay the extra person's fee right now?",
+          "ko": "잘됐네요. 추가 인원 요금을 지금 바로 낼 수 있을까요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Of course. The fee for one additional person is $45. How would you like to pay?",
+          "ko": "물론이죠. 추가 1인 요금은 45달러입니다. 어떻게 결제하시겠어요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'd like to add one more person to my booking.",
           "ko": "예약에 한 명을 추가하고 싶어요 — 'add ~ to my booking'은 예약 인원을 늘릴 때 쓰는 핵심 표현.",
           "alternatives": [
-            { "en": "Can I include one more guest?", "ko": "게스트 한 명을 추가할 수 있을까요?" },
-            { "en": "We'd like to add another person to our group.", "ko": "저희 그룹에 한 명을 더 추가하고 싶어요." }
+            {
+              "en": "Can I include one more guest?",
+              "ko": "게스트 한 명을 추가할 수 있을까요?"
+            },
+            {
+              "en": "We'd like to add another person to our group.",
+              "ko": "저희 그룹에 한 명을 더 추가하고 싶어요."
+            }
           ]
         },
         {
           "en": "We have one spot left.",
           "ko": "자리가 하나 남아 있어요 — 'spot'은 자리·좌석. 'seat', 'opening'도 같은 의미로 쓰여요.",
           "alternatives": [
-            { "en": "There's one seat available.", "ko": "좌석이 하나 남아 있어요." },
-            { "en": "We have room for one more.", "ko": "한 명 더 수용 가능해요." }
+            {
+              "en": "There's one seat available.",
+              "ko": "좌석이 하나 남아 있어요."
+            },
+            {
+              "en": "We have room for one more.",
+              "ko": "한 명 더 수용 가능해요."
+            }
           ]
         },
         {
           "en": "the extra person's fee",
           "ko": "추가 인원 요금 — 'extra person' 또는 'additional person'이라고 해요. 1인 추가 금액을 물어볼 때 유용해요.",
           "alternatives": [
-            { "en": "the additional guest charge", "ko": "추가 게스트 요금" },
-            { "en": "the per-person rate for one more", "ko": "1인 추가 요금" }
+            {
+              "en": "the additional guest charge",
+              "ko": "추가 게스트 요금"
+            },
+            {
+              "en": "the per-person rate for one more",
+              "ko": "1인 추가 요금"
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch33_d10",
       "title": "연락처·픽업 장소 확인",
       "lines": [
-        { "speaker": "나", "en": "Could you confirm the pickup location and time for tomorrow's tour?", "ko": "내일 투어 픽업 장소와 시간을 확인해 주시겠어요?" },
-        { "speaker": "직원", "en": "Sure! Pickup is at the main entrance of Central Hotel at 8:30 a.m.", "ko": "물론이죠! 픽업은 내일 오전 8시 30분에 센트럴 호텔 정문입니다." },
-        { "speaker": "나", "en": "What number should I call if I can't find the driver?", "ko": "기사를 찾지 못하면 어떤 번호로 전화해야 하나요?" },
-        { "speaker": "직원", "en": "Please call our guide hotline at 010-1234-5678. They're available from 7 a.m.", "ko": "오전 7시부터 운영되는 가이드 직통 번호 010-1234-5678로 전화하세요." }
+        {
+          "speaker": "나",
+          "en": "Could you confirm the pickup location and time for tomorrow's tour?",
+          "ko": "내일 투어 픽업 장소와 시간을 확인해 주시겠어요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Sure! Pickup is at the main entrance of Central Hotel at 8:30 a.m.",
+          "ko": "물론이죠! 픽업은 내일 오전 8시 30분에 센트럴 호텔 정문입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "What number should I call if I can't find the driver?",
+          "ko": "기사를 찾지 못하면 어떤 번호로 전화해야 하나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Please call our guide hotline at 010-1234-5678. They're available from 7 a.m.",
+          "ko": "오전 7시부터 운영되는 가이드 직통 번호 010-1234-5678로 전화하세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Could you confirm the pickup location?",
           "ko": "픽업 장소를 확인해 주시겠어요? — 투어 당일 이동 기점이 되는 픽업 장소는 반드시 미리 확인해야 해요.",
           "alternatives": [
-            { "en": "Where exactly is the pickup point?", "ko": "픽업 포인트가 정확히 어디인가요?" },
-            { "en": "Can you tell me where to meet the guide?", "ko": "가이드를 어디서 만나면 되나요?" }
+            {
+              "en": "Where exactly is the pickup point?",
+              "ko": "픽업 포인트가 정확히 어디인가요?"
+            },
+            {
+              "en": "Can you tell me where to meet the guide?",
+              "ko": "가이드를 어디서 만나면 되나요?"
+            }
           ]
         },
         {
           "en": "Pickup is at the main entrance of ~.",
           "ko": "픽업은 ~의 정문입니다 — 'main entrance'는 정문·메인 입구. 'lobby', 'front door'도 비슷하게 쓰여요.",
           "alternatives": [
-            { "en": "Meet us in front of the hotel.", "ko": "호텔 앞에서 만나세요." },
-            { "en": "The driver will wait at the hotel lobby.", "ko": "기사가 호텔 로비에서 기다릴 거예요." }
+            {
+              "en": "Meet us in front of the hotel.",
+              "ko": "호텔 앞에서 만나세요."
+            },
+            {
+              "en": "The driver will wait at the hotel lobby.",
+              "ko": "기사가 호텔 로비에서 기다릴 거예요."
+            }
           ]
         },
         {
           "en": "What number should I call if I can't find the driver?",
           "ko": "기사를 못 찾으면 어떤 번호로 전화하나요? — 투어 당일 긴급 상황을 대비한 실용적인 질문이에요.",
           "alternatives": [
-            { "en": "Is there a contact number for the guide?", "ko": "가이드 연락처가 있나요?" },
-            { "en": "Who should I contact on the day of the tour?", "ko": "투어 당일 누구에게 연락해야 하나요?" }
+            {
+              "en": "Is there a contact number for the guide?",
+              "ko": "가이드 연락처가 있나요?"
+            },
+            {
+              "en": "Who should I contact on the day of the tour?",
+              "ko": "투어 당일 누구에게 연락해야 하나요?"
+            }
           ]
         }
       ]
@@ -525,6 +865,1473 @@
           "question": "'booking reference'와 'confirmation number'는 완전히 다른 의미로 절대 혼용할 수 없다.",
           "answerIndex": 1,
           "explanation": "거짓입니다. 'booking reference', 'confirmation number', 'reservation number'는 모두 같은 예약 번호를 가리키며 혼용할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch33_set02_001",
+          "type": "multiple_choice",
+          "question": "공연 예약이 제대로 되어 있는지 확인하려 할 때 가장 적절한 표현은?",
+          "options": [
+            "I'd like to confirm my reservation.",
+            "I want to make a new reservation.",
+            "Please cancel my reservation.",
+            "I need to pay for my reservation."
+          ],
+          "answerIndex": 0,
+          "explanation": "'confirm my reservation'은 이미 된 예약이 유효한지 확인하는 표현입니다. 'make a new reservation'은 새로 예약하는 것이에요."
+        },
+        {
+          "id": "se_ch33_set02_002",
+          "type": "multiple_choice",
+          "question": "예약 시 받는 확인 번호를 가리키는 표현이 아닌 것은?",
+          "options": [
+            "confirmation number",
+            "booking reference",
+            "reservation number",
+            "invoice number"
+          ],
+          "answerIndex": 3,
+          "explanation": "'invoice number'는 청구서 번호입니다. 'confirmation number', 'booking reference', 'reservation number'는 모두 같은 예약 번호를 의미해요."
+        },
+        {
+          "id": "se_ch33_set02_003",
+          "type": "multiple_choice",
+          "question": "투어 날짜를 다른 날로 바꾸고 싶을 때 적절한 표현은?",
+          "options": [
+            "I need to cancel my tour entirely.",
+            "I'd like to reschedule to a different date.",
+            "I want a refund for the tour.",
+            "Can I book an extra slot?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'reschedule to a different date'는 날짜를 변경하는 것입니다. 'cancel'은 완전 취소, 'refund'는 환불 요청이에요."
+        },
+        {
+          "id": "se_ch33_set02_004",
+          "type": "multiple_choice",
+          "question": "취소 수수료가 없는지 물어볼 때 적절한 표현은?",
+          "options": [
+            "Are there any cancellation fees?",
+            "How do I make a cancellation?",
+            "Is the tour available to cancel online?",
+            "Do you cancel tours often?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Are there any cancellation fees?'는 취소 수수료 유무를 묻는 표현입니다. 취소 정책을 확인할 때 유용해요."
+        },
+        {
+          "id": "se_ch33_set02_005",
+          "type": "multiple_choice",
+          "question": "운영사가 투어를 취소했을 때 전액 환불 자격이 있는지 묻는 표현은?",
+          "options": [
+            "Can I get a credit for next time?",
+            "Am I eligible for a full refund?",
+            "Will you offer a discount on rebooking?",
+            "Is the partial refund automatic?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Am I eligible for a full refund?'는 전액 환불 자격이 있는지 정중하게 묻는 표현입니다. 운영사 측 취소 시 사용할 수 있어요."
+        },
+        {
+          "id": "se_ch33_set02_006",
+          "type": "multiple_choice",
+          "question": "환불이 원래 결제 수단으로 처리되는지 확인하는 표현은?",
+          "options": [
+            "Will the refund go back to my original payment method?",
+            "Can I receive the refund in cash?",
+            "Is there a refund voucher?",
+            "Will you deduct the cancellation fee first?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'refund go back to my original payment method'는 원래 결제 수단으로 환불됨을 확인하는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set02_007",
+          "type": "multiple_choice",
+          "question": "노쇼(no-show)란 무엇을 의미하나요?",
+          "options": [
+            "투어 도중에 조기 퇴장하는 것",
+            "예약을 하고도 나타나지 않는 것",
+            "투어를 24시간 전에 취소하는 것",
+            "예약을 다른 사람에게 양도하는 것"
+          ],
+          "answerIndex": 1,
+          "explanation": "'no-show'는 예약을 하고도 아무 연락 없이 나타나지 않는 것입니다. 보통 환불 및 재예약이 불가합니다."
+        },
+        {
+          "id": "se_ch33_set02_008",
+          "type": "multiple_choice",
+          "question": "그룹 예약에 두 명을 추가하고 싶을 때 적절한 표현은?",
+          "options": [
+            "We'd like to add two more people to our booking.",
+            "We want to remove two people from our group.",
+            "Can we split the booking in half?",
+            "Please transfer two seats to another group."
+          ],
+          "answerIndex": 0,
+          "explanation": "'add two more people to our booking'은 예약 인원을 두 명 늘리는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set02_009",
+          "type": "multiple_choice",
+          "question": "픽업 시간을 확인할 때 자연스러운 표현은?",
+          "options": [
+            "What time is the tour starting?",
+            "Could you confirm the pickup time for tomorrow?",
+            "Where is the bus station?",
+            "When does the guide arrive at the hotel?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'confirm the pickup time'은 픽업 시간을 다시 확인하는 표현입니다. 투어 전날에 꼭 확인해 두세요."
+        },
+        {
+          "id": "se_ch33_set02_010",
+          "type": "multiple_choice",
+          "question": "'You're good to go.'와 같은 의미의 표현은?",
+          "options": [
+            "You need to wait.",
+            "Your booking is cancelled.",
+            "You're all set.",
+            "You're on the waitlist."
+          ],
+          "answerIndex": 2,
+          "explanation": "'You're all set.'과 'You're good to go.'는 모두 '준비 완료, 문제없어요'라는 의미입니다."
+        },
+        {
+          "id": "se_ch33_set02_011",
+          "type": "ox",
+          "question": "'booking reference'와 'reservation number'는 서로 다른 것을 의미하므로 혼용할 수 없다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'booking reference', 'reservation number', 'confirmation number'는 모두 같은 예약 번호를 뜻하며 혼용이 가능합니다."
+        },
+        {
+          "id": "se_ch33_set02_012",
+          "type": "ox",
+          "question": "모바일 바우처는 대부분의 투어에서 인쇄본과 동일하게 인정된다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 많은 투어 운영사에서 모바일 바우처를 인쇄본과 동일하게 허용합니다. 'A mobile voucher is perfectly fine.'처럼 확인해 주는 경우가 많아요."
+        },
+        {
+          "id": "se_ch33_set02_013",
+          "type": "ox",
+          "question": "48시간 이내에 취소하면 항상 전액 환불을 받을 수 있다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 48시간 이내 취소 시 부분 환불(partial refund)만 가능한 경우도 많습니다. 취소 정책은 업체마다 다릅니다."
+        },
+        {
+          "id": "se_ch33_set02_014",
+          "type": "ox",
+          "question": "'at no extra charge'는 추가 요금이 없다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'at no extra charge'는 '추가 요금 없이'라는 뜻으로, 'free of charge', 'without any additional fee'와 같은 의미입니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch33_set03_001",
+          "type": "multiple_choice",
+          "question": "여행사 카운터에서 내 투어 예약 내역을 확인해 달라고 부탁하는 표현은?",
+          "options": [
+            "Could you verify my booking, please?",
+            "Can I book another tour?",
+            "I'd like to pay for the tour now.",
+            "Please change my tour date."
+          ],
+          "answerIndex": 0,
+          "explanation": "'verify my booking'은 예약 내역을 확인해 달라는 정중한 표현입니다. 'make a booking'은 새 예약, 'change'는 변경이에요."
+        },
+        {
+          "id": "se_ch33_set03_002",
+          "type": "multiple_choice",
+          "question": "직원에게 예약 번호를 제공할 때 쓰는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "My confirmation number is AB4455.",
+            "I have a number called AB4455.",
+            "The number for booking is AB4455.",
+            "AB4455 is my personal ID."
+          ],
+          "answerIndex": 0,
+          "explanation": "'My confirmation number is ~'는 예약 번호를 알려줄 때 가장 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch33_set03_003",
+          "type": "multiple_choice",
+          "question": "오후 시간대로 예약을 바꿀 수 있는지 묻는 표현은?",
+          "options": [
+            "Can I move to a later time slot?",
+            "Can I cancel and rebook for this afternoon?",
+            "Is the morning tour still available?",
+            "I'd like to add an afternoon ticket."
+          ],
+          "answerIndex": 0,
+          "explanation": "'move to a later time slot'은 더 늦은 시간대로 이동하는 표현입니다. 'slot'은 특정 시간대를 의미해요."
+        },
+        {
+          "id": "se_ch33_set03_004",
+          "type": "multiple_choice",
+          "question": "투어 시작 24시간 이내 취소 시 어떤 환불 조건이 일반적인가요?",
+          "options": [
+            "전액 환불(full refund)",
+            "환불 불가(non-refundable)",
+            "부분 환불(partial refund)",
+            "바우처로 대체 환불"
+          ],
+          "answerIndex": 1,
+          "explanation": "많은 투어에서 시작 24시간 이내 취소는 'non-refundable(환불 불가)' 조건이 적용됩니다."
+        },
+        {
+          "id": "se_ch33_set03_005",
+          "type": "multiple_choice",
+          "question": "날씨로 인한 투어 취소 시 다시 예약하는 옵션이 있는지 묻는 표현은?",
+          "options": [
+            "Is there an option to reschedule instead?",
+            "Will the tour run in the rain?",
+            "Can I get a weather forecast?",
+            "I'd like to complain about the weather policy."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there an option to reschedule instead?'는 취소 대신 일정을 변경하는 선택지가 있는지 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set03_006",
+          "type": "multiple_choice",
+          "question": "환불이 카드에 입금된다는 뜻의 표현은?",
+          "options": [
+            "The amount will be charged to your card.",
+            "The refund will be credited back to your card.",
+            "We'll send you a check in the mail.",
+            "Your card will be billed again."
+          ],
+          "answerIndex": 1,
+          "explanation": "'credited back to your card'는 환불 금액이 카드에 다시 입금된다는 표현입니다. 'charged'와 'billed'는 결제(청구)를 의미해요."
+        },
+        {
+          "id": "se_ch33_set03_007",
+          "type": "multiple_choice",
+          "question": "노쇼의 일반적인 처리 방침은 무엇인가요?",
+          "options": [
+            "전액 환불 가능",
+            "자동 재예약 처리",
+            "환불 불가 및 재예약 불가",
+            "50% 부분 환불"
+          ],
+          "answerIndex": 2,
+          "explanation": "노쇼(no-show)는 일반적으로 환불 불가(non-refundable)이며 재예약도 불가합니다."
+        },
+        {
+          "id": "se_ch33_set03_008",
+          "type": "multiple_choice",
+          "question": "오늘 투어가 마감됐을 때 직원이 대체 날짜를 제안하는 표현은?",
+          "options": [
+            "We can offer you an alternative date.",
+            "Your booking has been confirmed.",
+            "The tour is fully booked for the whole week.",
+            "We cannot help you at this time."
+          ],
+          "answerIndex": 0,
+          "explanation": "'offer you an alternative date'는 대체 날짜를 제안하는 표현입니다. 투어가 마감됐을 때 직원이 자주 사용해요."
+        },
+        {
+          "id": "se_ch33_set03_009",
+          "type": "multiple_choice",
+          "question": "기사를 찾지 못할 경우 연락할 번호를 묻는 표현은?",
+          "options": [
+            "What's the tour office address?",
+            "What number should I call if I can't find the driver?",
+            "How do I contact the hotel concierge?",
+            "Where do I buy the tour ticket?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'What number should I call if I can't find the driver?'는 픽업 기사를 못 찾을 경우를 대비해 연락처를 확인하는 실용적인 표현입니다."
+        },
+        {
+          "id": "se_ch33_set03_010",
+          "type": "multiple_choice",
+          "question": "겟유어가이드를 통해 예약했다고 설명하는 가장 자연스러운 표현은?",
+          "options": [
+            "I booked online through GetYourGuide.",
+            "I purchased my tour from a travel agent.",
+            "GetYourGuide sent me here.",
+            "I found GetYourGuide online."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I booked online through ~'는 특정 플랫폼을 통해 온라인 예약했다고 설명하는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set03_011",
+          "type": "ox",
+          "question": "'non-refundable'은 일부 환불이 가능하다는 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'non-refundable'은 '환불 불가'를 뜻합니다. 일부 환불은 'partial refund'라고 합니다."
+        },
+        {
+          "id": "se_ch33_set03_012",
+          "type": "ox",
+          "question": "운영사 측에서 투어를 취소한 경우, 'the cancellation is on our end'라는 표현을 쓸 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'on our end'는 '우리 측에서'를 뜻하며, 운영사가 취소한 상황임을 설명할 때 사용합니다."
+        },
+        {
+          "id": "se_ch33_set03_013",
+          "type": "ox",
+          "question": "'reschedule'과 'cancel'은 같은 의미로 사용될 수 있다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'reschedule'은 다른 시간으로 변경하는 것이고, 'cancel'은 완전히 취소하는 것입니다. 두 표현은 분명히 구별됩니다."
+        },
+        {
+          "id": "se_ch33_set03_014",
+          "type": "ox",
+          "question": "투어 날짜 변경 시 추가 요금이 발생하지 않을 경우 'at no extra charge'라고 표현할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'at no extra charge'는 추가 요금 없이라는 뜻이며, 날짜 변경 수수료가 없음을 나타낼 때 사용됩니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch33_set04_001",
+          "type": "multiple_choice",
+          "question": "전화로 내일 투어 예약 사항을 확인하고 싶을 때 쓰는 표현은?",
+          "options": [
+            "I want to check my reservation for tomorrow.",
+            "I'd like to book a tour for tomorrow.",
+            "Can I change my tour to tomorrow?",
+            "I need to buy a ticket for tomorrow."
+          ],
+          "answerIndex": 0,
+          "explanation": "'check my reservation'은 이미 된 예약을 확인하는 표현입니다. 'book a tour'는 새 예약이에요."
+        },
+        {
+          "id": "se_ch33_set04_002",
+          "type": "multiple_choice",
+          "question": "스마트폰 화면에 저장된 예약 확인서를 직원에게 보여줄 때 말하는 표현은?",
+          "options": [
+            "Here is my booking confirmation.",
+            "Can I see your voucher?",
+            "I lost my booking confirmation.",
+            "My phone has the tour schedule."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Here is my booking confirmation.'은 예약 확인서를 제시하는 표현입니다. 'voucher'와 'booking confirmation'은 같은 의미로 쓰여요."
+        },
+        {
+          "id": "se_ch33_set04_003",
+          "type": "multiple_choice",
+          "question": "같은 날 오후 투어로 옮기고 싶을 때 물어보는 표현은?",
+          "options": [
+            "Are there any afternoon openings on the same day?",
+            "Can I join the morning tour twice?",
+            "Is there an extra fee for the afternoon tour?",
+            "How long is the afternoon tour?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'any afternoon openings'는 오후 시간대에 자리가 있는지 묻는 표현입니다. 'openings'는 자리·빈자리를 의미해요."
+        },
+        {
+          "id": "se_ch33_set04_004",
+          "type": "multiple_choice",
+          "question": "환불 정책을 설명해 달라고 요청하는 표현은?",
+          "options": [
+            "Can you explain the refund policy?",
+            "Do you have a cancellation fee?",
+            "Is the tour refundable by default?",
+            "Will you automatically refund me?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you explain the refund policy?'는 환불 정책의 세부 내용을 설명해 달라고 요청하는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set04_005",
+          "type": "multiple_choice",
+          "question": "악천후로 취소된 투어에서 전액 환불이 언제까지 들어오는지 묻는 표현은?",
+          "options": [
+            "How long does it take to process the full refund?",
+            "What is the weather forecast for tomorrow?",
+            "Can I choose a different tour instead?",
+            "How do I get a partial refund?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How long does it take to process the full refund?'는 환불 처리 기간을 묻는 실용적인 표현입니다."
+        },
+        {
+          "id": "se_ch33_set04_006",
+          "type": "multiple_choice",
+          "question": "48시간 이내 취소 시 50% 환불을 받는 상황을 설명하는 표현은?",
+          "options": [
+            "You'll receive a partial refund of 50%.",
+            "You'll receive a full refund of 50%.",
+            "You'll get a non-refundable credit.",
+            "Your refund has been processed in full."
+          ],
+          "answerIndex": 0,
+          "explanation": "'partial refund of 50%'는 50% 부분 환불을 의미합니다. 'full refund'는 전액 환불이에요."
+        },
+        {
+          "id": "se_ch33_set04_007",
+          "type": "multiple_choice",
+          "question": "노쇼 후 재예약 수수료를 내고 예외 처리가 가능한지 묻는 표현은?",
+          "options": [
+            "Is there any exception if I pay a rebooking fee?",
+            "Can I get a free rebooking after a no-show?",
+            "Will you waive the no-show fee for me?",
+            "Am I automatically rebooked after a no-show?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there any exception if I pay a rebooking fee?'는 수수료를 내고 예외 처리를 받을 수 있는지 정중하게 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set04_008",
+          "type": "multiple_choice",
+          "question": "날짜 변경 후 기존 티켓이 새 날짜에도 유효한지 확인하는 표현은?",
+          "options": [
+            "Can I use the same ticket for the new date?",
+            "Do I need to buy a new ticket?",
+            "Will the new ticket cost more?",
+            "Can I get a refund for the old ticket?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I use the same ticket for the new date?'는 기존 티켓이 새 날짜에도 유효한지 확인하는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set04_009",
+          "type": "multiple_choice",
+          "question": "투어 당일 가이드 연락처를 미리 확인해 두는 표현은?",
+          "options": [
+            "Is there a contact number for the guide?",
+            "Does the guide speak Korean?",
+            "What does the guide look like?",
+            "When does the guide go off duty?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a contact number for the guide?'는 가이드 연락처를 미리 확인해 두는 실용적인 표현입니다."
+        },
+        {
+          "id": "se_ch33_set04_010",
+          "type": "multiple_choice",
+          "question": "'Please go ahead and make the change.'에서 'go ahead'의 의미는?",
+          "options": [
+            "앞으로 걸어가세요",
+            "어서 ~해 주세요 (처리를 맡기는 허락·요청)",
+            "잠시만요",
+            "먼저 확인해 주세요"
+          ],
+          "answerIndex": 1,
+          "explanation": "'go ahead and ~'는 '어서 ~해 주세요'라는 뜻으로, 상대방에게 처리를 맡길 때 쓰는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch33_set04_011",
+          "type": "ox",
+          "question": "'credited back to your card'는 카드에서 금액이 빠져나간다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'credited back to your card'는 환불 금액이 카드에 다시 입금된다는 뜻입니다. 'charged'가 빠져나가는 것을 의미해요."
+        },
+        {
+          "id": "se_ch33_set04_012",
+          "type": "ox",
+          "question": "투어 예약 변경을 '재예약 수수료 없이' 처리해 주겠다는 말은 'at no extra charge'로 표현할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'at no extra charge'는 추가 요금 없이라는 의미이며, 수수료 없이 변경해 준다는 맥락에서 사용됩니다."
+        },
+        {
+          "id": "se_ch33_set04_013",
+          "type": "ox",
+          "question": "예약 인원을 늘리려면 'I'd like to remove one more person from my booking.'이라고 하면 된다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 인원을 늘리려면 'add'를 써야 합니다. 'I'd like to add one more person to my booking.'이 올바른 표현입니다."
+        },
+        {
+          "id": "se_ch33_set04_014",
+          "type": "ox",
+          "question": "전액 환불은 'full refund', 부분 환불은 'partial refund'라고 한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'full refund'는 전액 환불, 'partial refund'는 부분 환불을 의미합니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch33_set05_001",
+          "type": "multiple_choice",
+          "question": "투어 예약을 직접 확인하고 싶을 때 가장 격식 있는 요청 표현은?",
+          "options": [
+            "I need to check if my booking exists.",
+            "Could you verify my reservation, please?",
+            "Tell me if I'm booked.",
+            "Is my name on the list?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Could you verify my reservation, please?'는 'Could you ~?'를 사용한 격식 있는 확인 요청 표현입니다."
+        },
+        {
+          "id": "se_ch33_set05_002",
+          "type": "multiple_choice",
+          "question": "핸드폰으로 바우처를 보여줘도 되는지 물어보는 표현은?",
+          "options": [
+            "Can I show it on my phone?",
+            "Do I need to print the voucher?",
+            "Is the QR code required?",
+            "Can I email the voucher later?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I show it on my phone?'는 모바일로 바우처를 보여줘도 되는지 확인하는 구어체 표현입니다."
+        },
+        {
+          "id": "se_ch33_set05_003",
+          "type": "multiple_choice",
+          "question": "같은 날 오전 9시 대신 오후 2시로 예약을 옮길 때 쓰는 표현은?",
+          "options": [
+            "I'd like to move my booking to the 2 p.m. slot.",
+            "Can I add the 2 p.m. tour to my booking?",
+            "I'll cancel 9 a.m. and book 2 p.m. separately.",
+            "Is the 2 p.m. tour cheaper than the 9 a.m. tour?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'move my booking to the 2 p.m. slot'은 예약을 오후 2시 시간대로 옮기는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set05_004",
+          "type": "multiple_choice",
+          "question": "무료 취소 가능한 기한을 물어볼 때 적절한 표현은?",
+          "options": [
+            "How far in advance can I cancel for free?",
+            "Do you charge extra for late cancellations?",
+            "Can I cancel without any reason?",
+            "Is cancellation available 24/7?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How far in advance can I cancel for free?'는 얼마나 미리 취소해야 무료인지 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set05_005",
+          "type": "multiple_choice",
+          "question": "운영사가 취소한 경우 환불은 어떻게 받을 수 있나요?라고 묻는 표현은?",
+          "options": [
+            "How do I get a refund since you cancelled the tour?",
+            "Why did you cancel the tour?",
+            "Can I get a replacement tour?",
+            "Is the refund taxable?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How do I get a refund since you cancelled the tour?'는 운영사 측 취소로 인한 환불 방법을 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set05_006",
+          "type": "multiple_choice",
+          "question": "영업일 기준 7~10일 이내 카드 환불을 설명하는 표현은?",
+          "options": [
+            "It will be credited to your card within 7 to 10 business days.",
+            "You'll get cash back within one week.",
+            "The refund will arrive by post in 7 to 10 days.",
+            "We'll process your refund within 24 hours."
+          ],
+          "answerIndex": 0,
+          "explanation": "'within 7 to 10 business days'는 영업일 기준 7~10일 이내를 뜻합니다. 'business days'는 영업일(주말·공휴일 제외)이에요."
+        },
+        {
+          "id": "se_ch33_set05_007",
+          "type": "multiple_choice",
+          "question": "노쇼 후 매니저에게 예외 처리를 확인해 달라고 할 때 직원이 쓰는 표현은?",
+          "options": [
+            "Let me check with a manager.",
+            "I'll approve the exception myself.",
+            "You need to call the manager directly.",
+            "The manager is unavailable right now."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me check with a manager.'는 담당 매니저에게 확인해 보겠다는 표현으로, 직원이 권한 밖의 사항을 처리할 때 씁니다."
+        },
+        {
+          "id": "se_ch33_set05_008",
+          "type": "multiple_choice",
+          "question": "토요일 대체 투어에 기존 티켓을 이전할 수 있다는 설명 표현은?",
+          "options": [
+            "Your ticket will be transferred to the Saturday tour.",
+            "You need a new ticket for Saturday.",
+            "The Saturday tour requires an upgrade fee.",
+            "Your ticket expires if you don't use it today."
+          ],
+          "answerIndex": 0,
+          "explanation": "'transferred to the Saturday tour'는 티켓이 토요일 투어로 이전된다는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set05_009",
+          "type": "multiple_choice",
+          "question": "투어에 자리가 하나 남아 있다는 직원의 말로 적절한 것은?",
+          "options": [
+            "We have one spot left on that tour.",
+            "The tour is fully booked.",
+            "There are no seats available.",
+            "We can't add any more guests."
+          ],
+          "answerIndex": 0,
+          "explanation": "'one spot left'는 자리가 하나 남아 있다는 표현입니다. 'spot', 'seat', 'opening' 모두 자리를 의미해요."
+        },
+        {
+          "id": "se_ch33_set05_010",
+          "type": "multiple_choice",
+          "question": "픽업 장소가 호텔 정문임을 알리는 표현은?",
+          "options": [
+            "Pickup is at the main entrance of the hotel.",
+            "Please meet us at the hotel restaurant.",
+            "The driver will be at the hotel parking lot.",
+            "We'll pick you up from your room."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Pickup is at the main entrance of ~'는 픽업 장소가 정문임을 알리는 표현입니다. 'main entrance'는 정문·메인 입구예요."
+        },
+        {
+          "id": "se_ch33_set05_011",
+          "type": "ox",
+          "question": "투어를 놓쳤을 때 'I missed the tour.'보다 'I didn't show up.'이 더 정중한 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'I missed the tour.'가 더 부드럽고 덜 직접적인 표현입니다. 'I didn't show up.'은 더 솔직하고 덜 완곡한 표현이에요."
+        },
+        {
+          "id": "se_ch33_set05_012",
+          "type": "ox",
+          "question": "'full refund within 5 business days'는 영업일 기준 5일 이내 전액 환불을 의미한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'full refund'는 전액 환불, 'within 5 business days'는 영업일 기준 5일 이내를 의미합니다."
+        },
+        {
+          "id": "se_ch33_set05_013",
+          "type": "ox",
+          "question": "'Does my ticket carry over?'는 기존 티켓이 새 날짜에 유효한지 묻는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'carry over'는 이월되다는 뜻으로, 티켓이 다음 날짜로 넘어가는지 확인하는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set05_014",
+          "type": "ox",
+          "question": "'I'd like to add one more person to my booking.'에서 'add'는 인원을 줄이는 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'add'는 추가한다는 의미입니다. 인원을 줄이려면 'remove'를 사용해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch33_set06_001",
+          "type": "multiple_choice",
+          "question": "투어 예약 번호를 요청하는 직원의 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Could I have your booking reference, please?",
+            "Can I see your passport number?",
+            "What is your tour preference?",
+            "Do you have a map?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'booking reference'는 예약 번호를 의미합니다. 직원이 예약 확인 시 이름과 함께 자주 요청하는 정보입니다."
+        },
+        {
+          "id": "se_ch33_set06_002",
+          "type": "multiple_choice",
+          "question": "온라인 플랫폼을 통해 투어를 구매했다고 설명하는 표현은?",
+          "options": [
+            "I purchased this tour on Viator.",
+            "I got this tour from a friend.",
+            "The hotel booked this tour for me.",
+            "I found the tour on a pamphlet."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I purchased this tour on ~'은 특정 플랫폼에서 투어를 구매했다고 설명하는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set06_003",
+          "type": "multiple_choice",
+          "question": "오후에 빈 시간대가 있는지 묻는 표현은?",
+          "options": [
+            "Are there any afternoon openings?",
+            "Is the afternoon tour sold out?",
+            "Can I join two tours in one day?",
+            "What time does the last tour start?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'any afternoon openings'는 오후에 예약 가능한 자리가 있는지 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set06_004",
+          "type": "multiple_choice",
+          "question": "24시간 전까지 전액 환불이 가능한 조건을 설명하는 표현은?",
+          "options": [
+            "Get a full refund if cancelled 24 hours ahead.",
+            "Pay a fee to cancel 24 hours before.",
+            "The ticket is non-refundable after booking.",
+            "Cancellation is only allowed 48 hours before."
+          ],
+          "answerIndex": 0,
+          "explanation": "'get a full refund if cancelled 24 hours ahead'는 24시간 전 취소 시 전액 환불을 받을 수 있다는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set06_005",
+          "type": "multiple_choice",
+          "question": "'on our end'의 의미로 가장 적절한 것은?",
+          "options": [
+            "고객 측에서",
+            "우리 측에서",
+            "제3자 측에서",
+            "양쪽 모두에서"
+          ],
+          "answerIndex": 1,
+          "explanation": "'on our end'는 '우리 측에서'를 의미합니다. 'on your end'는 '고객 측에서'를 뜻해요."
+        },
+        {
+          "id": "se_ch33_set06_006",
+          "type": "multiple_choice",
+          "question": "환불이 결제 카드로 반환된다는 표현은?",
+          "options": [
+            "The refund will be returned to your payment card.",
+            "You'll receive the refund by bank transfer.",
+            "We'll send a check to your billing address.",
+            "The refund will be added to your loyalty points."
+          ],
+          "answerIndex": 0,
+          "explanation": "'returned to your payment card'는 환불 금액이 결제 카드로 반환된다는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set06_007",
+          "type": "multiple_choice",
+          "question": "노쇼 상황에서 매니저가 예외를 적용해 줄 수 있는지 요청하는 표현은?",
+          "options": [
+            "Can you make an exception for me?",
+            "Please refund my booking immediately.",
+            "I demand a rebook without any fee.",
+            "Call the manager right now."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you make an exception for me?'는 규칙을 벗어난 특별 처리를 정중하게 요청하는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set06_008",
+          "type": "multiple_choice",
+          "question": "대체 투어 날짜를 수락하며 예약 처리를 부탁하는 표현은?",
+          "options": [
+            "That sounds good. Please update my booking.",
+            "I'll think about it and get back to you.",
+            "I'd rather have a full refund.",
+            "Can you offer a cheaper date instead?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please update my booking.'은 대체 날짜를 수락하고 변경 처리를 부탁하는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch33_set06_009",
+          "type": "multiple_choice",
+          "question": "추가 1인 요금을 지금 결제할 수 있는지 묻는 표현은?",
+          "options": [
+            "Can I pay the extra person's fee right now?",
+            "Can I pay the full group fee in advance?",
+            "Will you bill me later for the extra person?",
+            "Is the extra person's fee included?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'the extra person's fee'는 추가 인원 요금을 의미합니다. 'right now'는 지금 바로 결제하고 싶다는 뜻이에요."
+        },
+        {
+          "id": "se_ch33_set06_010",
+          "type": "multiple_choice",
+          "question": "픽업 장소에 대한 정보를 요약 요청하는 표현은?",
+          "options": [
+            "Where exactly is the pickup point?",
+            "Is there a shuttle bus from the airport?",
+            "How far is the pickup point from downtown?",
+            "Can the driver come to my hotel room?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where exactly is the pickup point?'는 픽업 포인트의 정확한 위치를 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set06_011",
+          "type": "ox",
+          "question": "QR 코드 바우처는 반드시 인쇄본이어야만 한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 많은 투어에서 모바일 화면의 QR 코드를 스캔하는 방식으로 체크인이 가능합니다."
+        },
+        {
+          "id": "se_ch33_set06_012",
+          "type": "ox",
+          "question": "'We have one spot left.'에서 'spot'은 이 문맥에서 '자리'를 의미한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'spot'은 자리·공간을 의미하며, 'seat'이나 'opening'과 같은 의미로 사용됩니다."
+        },
+        {
+          "id": "se_ch33_set06_013",
+          "type": "ox",
+          "question": "'cancel free of charge up to 24 hours before'는 24시간 이후에도 무료 취소가 가능하다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'up to 24 hours before'는 시작 24시간 전까지만 무료 취소가 가능하다는 의미입니다. 그 이후에는 수수료가 발생합니다."
+        },
+        {
+          "id": "se_ch33_set06_014",
+          "type": "ox",
+          "question": "예약 변경 처리를 부탁할 때 'Please process the change.'라고 표현할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Please process the change.'는 변경 처리를 요청하는 격식체 표현입니다. 'Please go ahead and make the change.'와 같은 의미예요."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch33_set07_001",
+          "type": "multiple_choice",
+          "question": "이메일로 받은 예약 번호를 영어로 무엇이라 부르나요?",
+          "options": [
+            "serial number",
+            "confirmation number",
+            "product code",
+            "membership ID"
+          ],
+          "answerIndex": 1,
+          "explanation": "이메일로 받은 예약 번호는 'confirmation number'라고 합니다. 'booking reference', 'reservation number'와 동일한 의미예요."
+        },
+        {
+          "id": "se_ch33_set07_002",
+          "type": "multiple_choice",
+          "question": "바우처를 제시하는 가장 일반적인 표현은?",
+          "options": [
+            "Here's my voucher.",
+            "Take my voucher.",
+            "I have a paper here.",
+            "Look at my ticket, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Here's my voucher.'는 바우처를 제시할 때 가장 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch33_set07_003",
+          "type": "multiple_choice",
+          "question": "예약을 다른 날짜로 옮겨야 할 것 같다고 말할 때 쓰는 표현은?",
+          "options": [
+            "I need to move my reservation.",
+            "I want to delete my reservation.",
+            "I'd like two reservations.",
+            "My reservation was moved already."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need to move my reservation.'은 예약을 옮겨야 할 것 같다는 표현입니다. 'reschedule'과 같은 의미예요."
+        },
+        {
+          "id": "se_ch33_set07_004",
+          "type": "multiple_choice",
+          "question": "'non-refundable' 조건에서 취소하면 어떻게 되나요?",
+          "options": [
+            "전액 환불을 받는다.",
+            "50% 환불을 받는다.",
+            "크레딧으로 환불받는다.",
+            "환불을 받지 못한다."
+          ],
+          "answerIndex": 3,
+          "explanation": "'non-refundable'은 환불이 전혀 되지 않는 조건입니다. 'No refund will be issued.'와 같은 의미예요."
+        },
+        {
+          "id": "se_ch33_set07_005",
+          "type": "multiple_choice",
+          "question": "날씨 때문에 투어가 취소됐음을 알리는 표현은?",
+          "options": [
+            "The tour has been cancelled due to bad weather.",
+            "The tour is delayed because of heavy traffic.",
+            "The tour guide called in sick today.",
+            "The venue is closed for renovation."
+          ],
+          "answerIndex": 0,
+          "explanation": "'cancelled due to bad weather'는 날씨로 인해 취소됐다는 표현입니다. 'due to'는 '~로 인해'를 뜻해요."
+        },
+        {
+          "id": "se_ch33_set07_006",
+          "type": "multiple_choice",
+          "question": "환불 방법을 물어볼 때 가장 직접적인 표현은?",
+          "options": [
+            "How will I receive the refund?",
+            "Is the refund mandatory?",
+            "Can I donate my refund?",
+            "Do you process refunds on weekends?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How will I receive the refund?'는 환불을 어떻게 받게 되는지 직접적으로 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set07_007",
+          "type": "multiple_choice",
+          "question": "노쇼는 일반적으로 어떤 처리가 되나요?",
+          "options": [
+            "자동으로 다음 투어로 이전된다.",
+            "50% 환불이 처리된다.",
+            "환불 불가이며 재예약도 불가하다.",
+            "크레딧으로 돌려받는다."
+          ],
+          "answerIndex": 2,
+          "explanation": "노쇼는 일반적으로 'non-refundable'이며 재예약도 불가합니다. 예외를 원하면 매니저에게 별도로 요청해야 해요."
+        },
+        {
+          "id": "se_ch33_set07_008",
+          "type": "multiple_choice",
+          "question": "오늘 투어가 다 찼다는 직원의 표현으로 자연스러운 것은?",
+          "options": [
+            "Today's tour is full.",
+            "Today's tour is over.",
+            "Today's tour is cancelled.",
+            "Today's tour is delayed."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Today's tour is full.'은 오늘 투어가 만석이라는 표현입니다. 'fully booked'와 같은 의미예요."
+        },
+        {
+          "id": "se_ch33_set07_009",
+          "type": "multiple_choice",
+          "question": "추가 인원 요금은 'per-person rate for one more' 외에 어떻게 표현할 수 있나요?",
+          "options": [
+            "the additional guest charge",
+            "the group discount fee",
+            "the extra booking surcharge",
+            "the total booking fee"
+          ],
+          "answerIndex": 0,
+          "explanation": "'the additional guest charge'는 추가 게스트 요금을 의미합니다. 'per-person rate for one more'와 같은 의미예요."
+        },
+        {
+          "id": "se_ch33_set07_010",
+          "type": "multiple_choice",
+          "question": "픽업 기사에 대한 연락처가 있는지 투어 전날 확인하는 표현은?",
+          "options": [
+            "Who should I contact on the day of the tour?",
+            "Can I cancel the pickup?",
+            "Does the driver speak Korean?",
+            "Is the pickup included in the price?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Who should I contact on the day of the tour?'는 투어 당일 연락 담당자를 미리 확인하는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set07_011",
+          "type": "ox",
+          "question": "취소 정책 확인 표현인 'What is your cancellation policy?'는 투어 예약 시 꼭 확인해야 하는 중요한 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 취소 정책은 환불 조건을 미리 확인할 수 있는 중요한 정보입니다."
+        },
+        {
+          "id": "se_ch33_set07_012",
+          "type": "ox",
+          "question": "'I booked online through ~'에서 'through'는 '~에도 불구하고'라는 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'through'는 이 문맥에서 '~를 통해'를 의미합니다. '~에도 불구하고'는 'despite' 또는 'in spite of'입니다."
+        },
+        {
+          "id": "se_ch33_set07_013",
+          "type": "ox",
+          "question": "환불이 영업일 기준으로 처리될 때 'business days'라는 표현을 사용한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'business days'는 주말과 공휴일을 제외한 영업일을 의미합니다."
+        },
+        {
+          "id": "se_ch33_set07_014",
+          "type": "ox",
+          "question": "'Is there any exception?'은 규칙을 무시하라는 강요 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Is there any exception?'은 원칙 밖의 특별 처리를 정중하게 물어보는 표현입니다. 강요가 아닌 완곡한 요청이에요."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch33_set08_001",
+          "type": "multiple_choice",
+          "question": "시티 투어 예약이 내일로 확정되었음을 알리는 직원 표현은?",
+          "options": [
+            "Your booking is confirmed for tomorrow.",
+            "Your booking has been cancelled for tomorrow.",
+            "Your booking is pending for tomorrow.",
+            "Your booking was moved to next week."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Your booking is confirmed for tomorrow.'는 내일로 예약이 확정됐다는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set08_002",
+          "type": "multiple_choice",
+          "question": "모바일 바우처로 체크인이 완료됐다는 표현은?",
+          "options": [
+            "You're all checked in!",
+            "Your booking is still pending.",
+            "Please show a printed voucher.",
+            "Your QR code is invalid."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You're all checked in!'은 체크인이 완료됐다는 표현입니다. 모바일 바우처를 스캔한 후 직원이 사용하는 표현이에요."
+        },
+        {
+          "id": "se_ch33_set08_003",
+          "type": "multiple_choice",
+          "question": "예약을 다른 시간으로 변경할 수 있냐고 물어보는 표현은?",
+          "options": [
+            "Can I change my booking to a different time?",
+            "Can I add more people to my booking?",
+            "Can I get a refund for my booking?",
+            "Can I use someone else's booking?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I change my booking to a different time?'는 예약을 다른 시간대로 변경할 수 있는지 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set08_004",
+          "type": "multiple_choice",
+          "question": "취소 후 환불이 가능한 최대 기한을 묻는 표현은?",
+          "options": [
+            "Up to when can I cancel and still get a refund?",
+            "When is the latest I can book?",
+            "What's the earliest date I can cancel?",
+            "Is there a fee to modify my booking?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Up to when can I cancel and still get a refund?'는 환불이 가능한 취소 기한을 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set08_005",
+          "type": "multiple_choice",
+          "question": "운영사 측에서 취소를 진행했다는 표현은?",
+          "options": [
+            "We initiated the cancellation.",
+            "The customer cancelled the booking.",
+            "The cancellation was mutual.",
+            "The system auto-cancelled the booking."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We initiated the cancellation.'은 운영사가 취소를 진행했다는 표현입니다. 'on our end'와 같은 의미예요."
+        },
+        {
+          "id": "se_ch33_set08_006",
+          "type": "multiple_choice",
+          "question": "신용카드로 환불받을 수 있는지 묻는 표현은?",
+          "options": [
+            "Will it be refunded to my credit card?",
+            "Can I get the refund in store credit?",
+            "Is cash refund possible?",
+            "Can I exchange it for a different tour?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Will it be refunded to my credit card?'는 신용카드로 환불을 받을 수 있는지 확인하는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set08_007",
+          "type": "multiple_choice",
+          "question": "투어를 놓쳤다는 부드러운 표현은?",
+          "options": [
+            "I wasn't able to make it.",
+            "I forgot about the tour.",
+            "I chose not to come.",
+            "The tour was too early for me."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I wasn't able to make it.'는 참석하지 못했음을 부드럽게 표현하는 방법입니다. 'I missed the tour.'와 같은 의미예요."
+        },
+        {
+          "id": "se_ch33_set08_008",
+          "type": "multiple_choice",
+          "question": "대체 날짜를 고려해 보겠냐고 제안하는 직원 표현은?",
+          "options": [
+            "Would you consider a different date?",
+            "You must take the alternative date.",
+            "There are no other available dates.",
+            "Can you refund and rebook yourself?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Would you consider a different date?'는 다른 날짜를 고려해 보겠냐고 정중하게 제안하는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set08_009",
+          "type": "multiple_choice",
+          "question": "예약에 게스트 한 명을 포함시킬 수 있냐고 묻는 표현은?",
+          "options": [
+            "Can I include one more guest?",
+            "Can I exclude one person from the booking?",
+            "Can I transfer a guest's booking?",
+            "Can I book a private tour for one?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I include one more guest?'는 게스트 한 명을 추가할 수 있는지 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set08_010",
+          "type": "multiple_choice",
+          "question": "픽업 장소에서 가이드를 어디서 만나면 되는지 묻는 표현은?",
+          "options": [
+            "Can you tell me where to meet the guide?",
+            "What time does the guide finish work?",
+            "Is the guide certified?",
+            "Does the guide provide equipment?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you tell me where to meet the guide?'는 가이드를 어디서 만나야 하는지 확인하는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set08_011",
+          "type": "ox",
+          "question": "'voucher'는 온라인 예약 시 받는 확인 문서로, 'confirmation'이라고도 한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'voucher'와 'booking confirmation'은 같은 의미로 사용됩니다. 온라인 예약 시 발급받는 확인 문서입니다."
+        },
+        {
+          "id": "se_ch33_set08_012",
+          "type": "ox",
+          "question": "예약 확인 요청 시 'confirm'과 'make a booking'은 같은 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'confirm'은 이미 된 예약이 유효한지 확인하는 것이고, 'make a booking'은 새로 예약하는 것입니다."
+        },
+        {
+          "id": "se_ch33_set08_013",
+          "type": "ox",
+          "question": "취소 시점이 24시간 전이면 무조건 전액 환불이 보장된다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 환불 조건은 투어마다 다릅니다. 반드시 해당 투어의 취소 정책('cancellation policy')을 확인해야 합니다."
+        },
+        {
+          "id": "se_ch33_set08_014",
+          "type": "ox",
+          "question": "'the cancellation is on our end'에서 'on our end'는 '우리 측에서'라는 의미이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'on our end'는 '우리 측에서'를 뜻합니다. 반대로 'on your end'는 '고객 측에서'를 의미해요."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch33_set09_001",
+          "type": "multiple_choice",
+          "question": "직원에게 성함과 예약 번호를 제공하며 예약을 확인해 달라고 할 때 쓰는 표현은?",
+          "options": [
+            "My name is Lee Jisu and my booking reference is AB1234.",
+            "I want to make a booking under the name Lee Jisu.",
+            "My reference number is AB1234, please cancel it.",
+            "I have a new booking for Lee Jisu."
+          ],
+          "answerIndex": 0,
+          "explanation": "'My name is ~ and my booking reference is ~'는 예약 확인을 위해 이름과 예약 번호를 제공하는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set09_002",
+          "type": "multiple_choice",
+          "question": "QR 코드를 스캔하겠다는 직원의 표현으로 자연스러운 것은?",
+          "options": [
+            "Let me scan the QR code.",
+            "Please send me the QR code.",
+            "Your QR code is expired.",
+            "The QR code is not required."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me scan the QR code.'는 QR 코드를 스캔하겠다는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch33_set09_003",
+          "type": "multiple_choice",
+          "question": "특정 시간대 자리를 확인하는 방법을 알아보겠다는 직원의 표현은?",
+          "options": [
+            "Let me check availability.",
+            "I'll cancel your current booking.",
+            "That time slot is fully booked.",
+            "We don't have afternoon tours."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me check availability.'는 자리 또는 가능 여부를 확인해 보겠다는 직원의 표현입니다."
+        },
+        {
+          "id": "se_ch33_set09_004",
+          "type": "multiple_choice",
+          "question": "취소 정책을 설명하는 표현 중 '24시간 전까지 고지하면 무료 취소 가능'을 의미하는 것은?",
+          "options": [
+            "Cancel at no cost within 24 hours' notice.",
+            "Cancel within 24 hours to pay a fee.",
+            "Non-refundable if cancelled 24 hours before.",
+            "Free cancellation is not available."
+          ],
+          "answerIndex": 0,
+          "explanation": "'cancel at no cost within 24 hours' notice'는 24시간 전에 고지하면 무료로 취소할 수 있다는 뜻입니다."
+        },
+        {
+          "id": "se_ch33_set09_005",
+          "type": "multiple_choice",
+          "question": "돈을 돌려받을 수 있냐고 구어체로 묻는 표현은?",
+          "options": [
+            "Can I get my money back?",
+            "Am I eligible for a refund?",
+            "Will the refund be processed automatically?",
+            "How much of my money can I get back?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get my money back?'는 환불을 받을 수 있는지 구어체로 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set09_006",
+          "type": "multiple_choice",
+          "question": "부분 환불 50%를 설명할 때 'partial refund' 외에 쓸 수 있는 표현은?",
+          "options": [
+            "a refund of half the booking price",
+            "full compensation",
+            "a total reimbursement",
+            "a complete credit"
+          ],
+          "answerIndex": 0,
+          "explanation": "'a refund of half the booking price'는 예약 금액의 절반 환불을 의미합니다. '50% refund'와도 같은 의미예요."
+        },
+        {
+          "id": "se_ch33_set09_007",
+          "type": "multiple_choice",
+          "question": "잠시 기다려 달라고 요청하는 직원 표현은?",
+          "options": [
+            "Please hold on for a moment.",
+            "Please leave and come back later.",
+            "You'll have to wait for an hour.",
+            "I can't help you right now."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please hold on for a moment.'는 잠시 기다려 달라는 정중한 표현입니다. 'One moment, please.'와 같은 의미예요."
+        },
+        {
+          "id": "se_ch33_set09_008",
+          "type": "multiple_choice",
+          "question": "티켓이 이월되는지 묻는 구어체 표현은?",
+          "options": [
+            "Does my ticket carry over?",
+            "Can I resell my ticket?",
+            "Will my ticket be upgraded?",
+            "Is my ticket refundable?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Does my ticket carry over?'는 티켓이 다음 날짜로 이월되는지 묻는 구어체 표현입니다."
+        },
+        {
+          "id": "se_ch33_set09_009",
+          "type": "multiple_choice",
+          "question": "투어 그룹에 한 명 더 수용 가능하다는 직원 표현은?",
+          "options": [
+            "We have room for one more.",
+            "The group is already too large.",
+            "There are no more seats available.",
+            "We can only accommodate groups of five."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We have room for one more.'는 한 명 더 수용 가능하다는 표현입니다. 'one spot left'와 같은 의미예요."
+        },
+        {
+          "id": "se_ch33_set09_010",
+          "type": "multiple_choice",
+          "question": "투어 당일 오전 7시부터 가이드 전화가 가능하다는 설명 표현은?",
+          "options": [
+            "They're available from 7 a.m.",
+            "The guide starts at 9 a.m.",
+            "Call after the tour ends.",
+            "The hotline is available 24 hours."
+          ],
+          "answerIndex": 0,
+          "explanation": "'They're available from 7 a.m.'는 오전 7시부터 연락 가능하다는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set09_011",
+          "type": "ox",
+          "question": "'I purchased this tour on ~'에서 'on'은 특정 플랫폼에서 구매했다는 것을 나타낸다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'purchased on ~'은 특정 플랫폼(앱, 웹사이트 등)에서 구매했다는 의미입니다."
+        },
+        {
+          "id": "se_ch33_set09_012",
+          "type": "ox",
+          "question": "날씨로 인한 투어 취소 시 고객은 전액 환불 대신 재예약만 선택할 수 있다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 날씨로 인한 운영사 측 취소 시 전액 환불과 재예약 모두 선택 가능한 경우가 많습니다."
+        },
+        {
+          "id": "se_ch33_set09_013",
+          "type": "ox",
+          "question": "'spot', 'seat', 'opening'은 모두 '자리'를 의미하는 표현으로 사용될 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'spot', 'seat', 'opening' 모두 투어나 공연에서 '자리'를 의미하는 단어로 혼용 가능합니다."
+        },
+        {
+          "id": "se_ch33_set09_014",
+          "type": "ox",
+          "question": "'I need to move my reservation.'에서 'move'는 예약을 완전히 취소한다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'move my reservation'은 예약을 다른 날짜나 시간으로 이동하는 것입니다. 완전 취소는 'cancel my reservation'이에요."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch33_set10_001",
+          "type": "multiple_choice",
+          "question": "예약 확인서가 있다고 말하는 표현으로 자연스러운 것은?",
+          "options": [
+            "I have my booking confirmation here.",
+            "I lost my booking confirmation.",
+            "I need a new booking confirmation.",
+            "My booking confirmation was wrong."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I have my booking confirmation here.'는 예약 확인서를 지참했음을 알리는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set10_002",
+          "type": "multiple_choice",
+          "question": "예약을 다른 경로로 진행했을 때 'through'를 사용한 올바른 표현은?",
+          "options": [
+            "I made a reservation via Klook.",
+            "I booked via Klook, not through.",
+            "Klook made the reservation for me.",
+            "Klook booked it on my behalf."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I made a reservation via ~'는 특정 경로를 통해 예약했다는 표현입니다. 'via'와 'through'는 같은 의미로 사용돼요."
+        },
+        {
+          "id": "se_ch33_set10_003",
+          "type": "multiple_choice",
+          "question": "더 늦은 시간으로 옮길 수 있냐고 묻는 표현은?",
+          "options": [
+            "Can I move to a later time?",
+            "Can I skip the tour today?",
+            "Can I book an earlier time?",
+            "Can I take two tours today?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I move to a later time?'는 더 늦은 시간대로 변경할 수 있는지 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set10_004",
+          "type": "multiple_choice",
+          "question": "환불 불가 조건과 같은 의미의 표현은?",
+          "options": [
+            "No refund will be issued.",
+            "A full refund will be issued.",
+            "A partial refund will be issued.",
+            "Refunds are processed within 3 days."
+          ],
+          "answerIndex": 0,
+          "explanation": "'No refund will be issued.'는 환불이 불가하다는 뜻으로 'non-refundable'과 동일한 의미입니다."
+        },
+        {
+          "id": "se_ch33_set10_005",
+          "type": "multiple_choice",
+          "question": "'called off because of weather conditions'와 같은 의미의 표현은?",
+          "options": [
+            "cancelled due to bad weather",
+            "delayed because of rain",
+            "rescheduled for better weather",
+            "paused for weather monitoring"
+          ],
+          "answerIndex": 0,
+          "explanation": "'called off because of weather conditions'와 'cancelled due to bad weather'는 모두 날씨로 인한 취소를 뜻합니다."
+        },
+        {
+          "id": "se_ch33_set10_006",
+          "type": "multiple_choice",
+          "question": "환불 금액이 결제 카드로 반환되는 영업일 기준 기간을 말하는 표현은?",
+          "options": [
+            "within 7 to 10 business days",
+            "within 7 to 10 calendar days",
+            "within 7 to 10 working hours",
+            "within 7 to 10 months"
+          ],
+          "answerIndex": 0,
+          "explanation": "'within 7 to 10 business days'는 영업일 기준 7~10일 이내를 의미합니다. 'calendar days'는 달력 기준 일수예요."
+        },
+        {
+          "id": "se_ch33_set10_007",
+          "type": "multiple_choice",
+          "question": "노쇼 상황에서 직원이 할 수 있는 조치를 묻는 표현은?",
+          "options": [
+            "Is there anything you can do for me?",
+            "I demand a full refund for my no-show.",
+            "I'll dispute this charge with my bank.",
+            "Cancel all future bookings for me."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there anything you can do for me?'는 직원에게 가능한 조치를 묻는 부드러운 표현입니다."
+        },
+        {
+          "id": "se_ch33_set10_008",
+          "type": "multiple_choice",
+          "question": "날짜 변경 시 추가 비용 없이 티켓이 이전된다는 직원의 표현은?",
+          "options": [
+            "Your ticket will be transferred at no additional cost.",
+            "You'll need to buy a new ticket for the new date.",
+            "There's a transfer fee of $10.",
+            "Old tickets are not valid for new dates."
+          ],
+          "answerIndex": 0,
+          "explanation": "'transferred at no additional cost'는 추가 비용 없이 티켓이 이전된다는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set10_009",
+          "type": "multiple_choice",
+          "question": "추가 인원 1명의 요금이 45달러라고 직원이 안내하는 표현은?",
+          "options": [
+            "The fee for one additional person is $45.",
+            "The total booking fee is $45.",
+            "Your booking has been upgraded for $45.",
+            "A discount of $45 will be applied."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The fee for one additional person is $45.'는 1인 추가 요금을 안내하는 표현입니다."
+        },
+        {
+          "id": "se_ch33_set10_010",
+          "type": "multiple_choice",
+          "question": "호텔 로비에서 기사가 기다릴 것이라는 픽업 안내 표현은?",
+          "options": [
+            "The driver will wait at the hotel lobby.",
+            "The driver will meet you at the airport.",
+            "Please walk to the nearest bus stop.",
+            "The driver will call you when ready."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The driver will wait at the hotel lobby.'는 픽업 기사가 호텔 로비에서 대기한다는 안내 표현입니다."
+        },
+        {
+          "id": "se_ch33_set10_011",
+          "type": "ox",
+          "question": "'Everything is in order.'는 모든 것이 정상적으로 처리되어 있다는 격식체 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Everything is in order.'는 'You're all set.'의 격식체 표현으로, 모든 것이 정상적으로 처리되어 있음을 의미합니다."
+        },
+        {
+          "id": "se_ch33_set10_012",
+          "type": "ox",
+          "question": "'due to'는 'because of'보다 더 구어체 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'due to'는 'because of'보다 더 격식체 표현입니다. 공문서나 공식 안내문에서 더 자주 사용돼요."
+        },
+        {
+          "id": "se_ch33_set10_013",
+          "type": "ox",
+          "question": "예약 인원을 줄이고 싶을 때 'I'd like to remove one person from my booking.'이라고 말할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'remove ~ from my booking'은 예약 인원을 줄이는 표현입니다. 'add'의 반대예요."
+        },
+        {
+          "id": "se_ch33_set10_014",
+          "type": "ox",
+          "question": "투어 픽업 장소는 항상 호텔 로비이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 픽업 장소는 투어마다 다를 수 있습니다. 호텔 정문, 특정 랜드마크 등 다양한 장소가 지정될 수 있으므로 반드시 확인해야 합니다."
         }
       ]
     }

@@ -867,6 +867,1473 @@
           "explanation": "맞습니다. 영국식 'the fifth of March'와 미국식 'March fifth'는 모두 3월 5일을 의미합니다. 표현 순서만 다를 뿐 같은 날짜입니다."
         }
       ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch03_set02_001",
+          "type": "multiple_choice",
+          "question": "계산대에서 직원이 'That comes to forty-two twenty-five.'라고 했을 때 올바른 금액은?",
+          "options": [
+            "$42.25",
+            "$42.05",
+            "$4.225",
+            "$422.50"
+          ],
+          "answerIndex": 0,
+          "explanation": "'forty-two twenty-five'는 $42.25를 뜻합니다. 영어에서 금액을 읽을 때 정수 부분과 센트 부분을 각각 숫자로 읽습니다."
+        },
+        {
+          "id": "se_ch03_set02_002",
+          "type": "multiple_choice",
+          "question": "직원이 'The total is eight hundred and sixty euros.'라고 했다. 금액은?",
+          "options": [
+            "€86",
+            "€806",
+            "€860",
+            "€8,600"
+          ],
+          "answerIndex": 2,
+          "explanation": "'eight hundred and sixty'는 860입니다. 'eight hundred'(800)에 'sixty'(60)를 더한 값입니다."
+        },
+        {
+          "id": "se_ch03_set02_003",
+          "type": "multiple_choice",
+          "question": "'quarter past two'는 몇 시 몇 분인가?",
+          "options": [
+            "1시 45분",
+            "2시 15분",
+            "2시 30분",
+            "2시 45분"
+          ],
+          "answerIndex": 1,
+          "explanation": "'quarter past + 시'는 해당 시각의 15분을 의미합니다. 'quarter past two'는 2시 15분입니다."
+        },
+        {
+          "id": "se_ch03_set02_004",
+          "type": "multiple_choice",
+          "question": "'quarter to three'는 몇 시 몇 분인가?",
+          "options": [
+            "2시 15분",
+            "2시 30분",
+            "2시 45분",
+            "3시 15분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'quarter to + 시'는 해당 시각 15분 전입니다. 'quarter to three'는 3시 15분 전, 즉 2시 45분입니다."
+        },
+        {
+          "id": "se_ch03_set02_005",
+          "type": "multiple_choice",
+          "question": "미국식 영어에서 'October twenty-first'는 어떤 날짜인가?",
+          "options": [
+            "10월 21일",
+            "10월 12일",
+            "21월 10일",
+            "12월 10일"
+          ],
+          "answerIndex": 0,
+          "explanation": "미국식 날짜 표현은 '월 + 서수' 순서입니다. 'October twenty-first'는 10월 21일입니다."
+        },
+        {
+          "id": "se_ch03_set02_006",
+          "type": "multiple_choice",
+          "question": "호텔 직원이 'Your room is five zero three.'라고 했다. 객실 번호는?",
+          "options": [
+            "53호",
+            "530호",
+            "503호",
+            "5003호"
+          ],
+          "answerIndex": 2,
+          "explanation": "방 번호는 한 자리씩 읽습니다. 'five zero three'는 503호입니다. 'zero'는 숫자 0을 나타냅니다."
+        },
+        {
+          "id": "se_ch03_set02_007",
+          "type": "multiple_choice",
+          "question": "직원이 'The PIN is double-three, nine, one.'이라고 했다. PIN 번호는?",
+          "options": [
+            "3-9-1",
+            "3-3-9-1",
+            "2-3-9-1",
+            "3-3-3-9-1"
+          ],
+          "answerIndex": 1,
+          "explanation": "'double-three'는 3이 두 번 연속됨을 뜻합니다. 따라서 PIN은 3, 3, 9, 1 즉 3391입니다."
+        },
+        {
+          "id": "se_ch03_set02_008",
+          "type": "multiple_choice",
+          "question": "시장에서 'half a dozen apples, please.'라고 주문하면 사과 몇 개를 받나?",
+          "options": [
+            "3개",
+            "6개",
+            "12개",
+            "18개"
+          ],
+          "answerIndex": 1,
+          "explanation": "'half a dozen'은 12의 절반인 6개입니다. 'a dozen'은 12개, 'a dozen and a half'는 18개입니다."
+        },
+        {
+          "id": "se_ch03_set02_009",
+          "type": "multiple_choice",
+          "question": "직원이 'We're open Tuesday through Sunday.'라고 했다. 이 가게가 문을 닫는 날은?",
+          "options": [
+            "화요일",
+            "일요일",
+            "월요일",
+            "금요일"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Tuesday through Sunday'는 화요일부터 일요일까지 영업한다는 뜻입니다. 언급되지 않은 월요일(Monday)이 휴무입니다."
+        },
+        {
+          "id": "se_ch03_set02_010",
+          "type": "multiple_choice",
+          "question": "직원이 'It takes about thirty minutes by bus.'라고 했다. 소요 시간은?",
+          "options": [
+            "약 13분",
+            "약 20분",
+            "약 30분",
+            "약 45분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'It takes about thirty minutes.'는 약 30분 걸린다는 뜻입니다. 소요 시간 표현의 핵심 구조는 'It takes + 시간'입니다."
+        },
+        {
+          "id": "se_ch03_set02_011",
+          "type": "ox",
+          "question": "영국식 건물 표기에서 '1st floor'는 한국의 1층(가장 아래 층)에 해당한다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 영국식 '1st floor'는 한국의 2층에 해당합니다. 한국의 1층은 영국식으로 'ground floor'입니다."
+        },
+        {
+          "id": "se_ch03_set02_012",
+          "type": "ox",
+          "question": "영어에서 'half past six'은 6시 30분을 의미한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'half past + 시'는 해당 시각의 30분입니다. 'half past six'은 6시 30분입니다."
+        },
+        {
+          "id": "se_ch03_set02_013",
+          "type": "ox",
+          "question": "영어에서 'triple-two'는 숫자 2가 세 번 연속된 222를 의미한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 같은 숫자가 세 번 연속되면 'triple + 숫자'로 표현합니다. 'triple-two'는 222입니다."
+        },
+        {
+          "id": "se_ch03_set02_014",
+          "type": "ox",
+          "question": "영국식 날짜 표현 'the tenth of November'는 미국식으로 'November tenth'와 다른 날짜다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 두 표현 모두 11월 10일을 의미합니다. 영국식은 '일 + of + 월', 미국식은 '월 + 일(서수)' 순서이지만 가리키는 날짜는 동일합니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch03_set03_001",
+          "type": "multiple_choice",
+          "question": "계산대에서 직원이 'Your total is nineteen ninety-nine.'라고 했다. 금액은?",
+          "options": [
+            "$19.09",
+            "$19.99",
+            "$199.90",
+            "$1,999"
+          ],
+          "answerIndex": 1,
+          "explanation": "'nineteen ninety-nine'은 $19.99입니다. 정수 'nineteen'(19)과 센트 'ninety-nine'(99)을 각각 읽는 방식입니다."
+        },
+        {
+          "id": "se_ch03_set03_002",
+          "type": "multiple_choice",
+          "question": "직원이 'That's two thousand three hundred euros.'라고 했다. 금액은?",
+          "options": [
+            "€230",
+            "€2,030",
+            "€2,300",
+            "€23,000"
+          ],
+          "answerIndex": 2,
+          "explanation": "'two thousand three hundred'은 2,300입니다. 'two thousand'(2,000)에 'three hundred'(300)를 더한 값입니다."
+        },
+        {
+          "id": "se_ch03_set03_003",
+          "type": "multiple_choice",
+          "question": "'half past seven'은 몇 시 몇 분인가?",
+          "options": [
+            "6시 30분",
+            "7시 15분",
+            "7시 30분",
+            "7시 45분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'half past + 시'는 해당 시각의 30분입니다. 'half past seven'은 7시 30분입니다."
+        },
+        {
+          "id": "se_ch03_set03_004",
+          "type": "multiple_choice",
+          "question": "'quarter to eight'은 몇 시 몇 분인가?",
+          "options": [
+            "7시 15분",
+            "7시 30분",
+            "7시 45분",
+            "8시 15분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'quarter to + 시'는 해당 시각 15분 전입니다. 'quarter to eight'은 8시 15분 전, 즉 7시 45분입니다."
+        },
+        {
+          "id": "se_ch03_set03_005",
+          "type": "multiple_choice",
+          "question": "영국식 영어에서 'the twenty-second of August'는 어떤 날짜인가?",
+          "options": [
+            "2월 22일",
+            "8월 22일",
+            "8월 2일",
+            "22월 8일"
+          ],
+          "answerIndex": 1,
+          "explanation": "영국식 날짜는 '일 + of + 월' 순서입니다. 'the twenty-second of August'는 8월 22일입니다."
+        },
+        {
+          "id": "se_ch03_set03_006",
+          "type": "multiple_choice",
+          "question": "호텔 직원이 'You're in room eight two one.'이라고 했다. 객실 번호는?",
+          "options": [
+            "82호",
+            "812호",
+            "821호",
+            "8021호"
+          ],
+          "answerIndex": 2,
+          "explanation": "방 번호는 한 자리씩 읽습니다. 'eight two one'은 821호입니다."
+        },
+        {
+          "id": "se_ch03_set03_007",
+          "type": "multiple_choice",
+          "question": "직원이 'The locker code is seven, double-six, two.'라고 했다. 번호는?",
+          "options": [
+            "7-6-2",
+            "7-6-6-2",
+            "7-2-6-2",
+            "7-7-6-6-2"
+          ],
+          "answerIndex": 1,
+          "explanation": "'double-six'는 6이 두 번 반복됩니다. 따라서 번호는 7, 6, 6, 2 즉 7662입니다."
+        },
+        {
+          "id": "se_ch03_set03_008",
+          "type": "multiple_choice",
+          "question": "마켓에서 'Could I get two dozen cookies?'라고 주문하면 쿠키 몇 개인가?",
+          "options": [
+            "12개",
+            "20개",
+            "24개",
+            "36개"
+          ],
+          "answerIndex": 2,
+          "explanation": "'a dozen'은 12개이므로 'two dozen'은 24개입니다. 'dozen'은 12 단위로 계산합니다."
+        },
+        {
+          "id": "se_ch03_set03_009",
+          "type": "multiple_choice",
+          "question": "직원이 'We're open from ten to eight, Wednesday through Monday.'라고 했다. 이 가게가 문을 닫는 날은?",
+          "options": [
+            "수요일",
+            "금요일",
+            "화요일",
+            "월요일"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Wednesday through Monday'는 수요일부터 월요일까지 영업한다는 뜻입니다. 화요일(Tuesday)이 언급되지 않아 휴무입니다."
+        },
+        {
+          "id": "se_ch03_set03_010",
+          "type": "multiple_choice",
+          "question": "직원이 'It's about a forty-five-minute drive.'라고 했다. 소요 시간은?",
+          "options": [
+            "약 14분",
+            "약 30분",
+            "약 45분",
+            "약 60분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'a forty-five-minute drive'는 차로 약 45분 걸린다는 뜻입니다. 'It takes about forty-five minutes by car.'와 동일한 의미입니다."
+        },
+        {
+          "id": "se_ch03_set03_011",
+          "type": "ox",
+          "question": "미국식 건물 표기에서 '1st floor'는 한국의 1층(가장 아래 층)에 해당한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 미국식 '1st floor'는 한국의 1층과 동일합니다. 영국식 'ground floor'와도 같은 층입니다."
+        },
+        {
+          "id": "se_ch03_set03_012",
+          "type": "ox",
+          "question": "영어에서 'quarter past nine'은 9시 45분을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'quarter past nine'은 9시 15분입니다. 9시 45분은 'quarter to ten'입니다."
+        },
+        {
+          "id": "se_ch03_set03_013",
+          "type": "ox",
+          "question": "영어에서 'half a kilo'는 500g을 의미한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'half a kilo'는 'half a kilogram'의 줄임으로 500g입니다. 유럽 시장에서 자주 쓰이는 단위입니다."
+        },
+        {
+          "id": "se_ch03_set03_014",
+          "type": "ox",
+          "question": "영어에서 'Did you say twelve fifty or one thousand two fifty?'는 숫자를 확인하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Did you say...?'는 잘못 들었을 수 있는 숫자를 확인하는 직접적인 표현입니다. 여러 선택지를 제시해 오해를 줄입니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch03_set04_001",
+          "type": "multiple_choice",
+          "question": "직원이 'That'll be sixty-five dollars even.'이라고 했다. 금액은?",
+          "options": [
+            "$6.50",
+            "$65.00",
+            "$65.10",
+            "$650"
+          ],
+          "answerIndex": 1,
+          "explanation": "'sixty-five dollars even'은 정확히 $65.00입니다. 'even'은 센트 없이 딱 떨어지는 금액임을 강조합니다."
+        },
+        {
+          "id": "se_ch03_set04_002",
+          "type": "multiple_choice",
+          "question": "직원이 'Your bill comes to five hundred and seventy-five pounds.'라고 했다. 금액은?",
+          "options": [
+            "£57.50",
+            "£505",
+            "£570",
+            "£575"
+          ],
+          "answerIndex": 3,
+          "explanation": "'five hundred and seventy-five'는 575입니다. 'five hundred'(500)에 'seventy-five'(75)를 더한 값입니다."
+        },
+        {
+          "id": "se_ch03_set04_003",
+          "type": "multiple_choice",
+          "question": "'half past eleven'은 몇 시 몇 분인가?",
+          "options": [
+            "10시 30분",
+            "11시 15분",
+            "11시 30분",
+            "11시 45분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'half past + 시'는 해당 시각의 30분입니다. 'half past eleven'은 11시 30분입니다."
+        },
+        {
+          "id": "se_ch03_set04_004",
+          "type": "multiple_choice",
+          "question": "'quarter to twelve'는 몇 시 몇 분인가?",
+          "options": [
+            "11시 15분",
+            "11시 30분",
+            "11시 45분",
+            "12시 15분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'quarter to + 시'는 해당 시각 15분 전입니다. 'quarter to twelve'는 12시 15분 전, 즉 11시 45분입니다."
+        },
+        {
+          "id": "se_ch03_set04_005",
+          "type": "multiple_choice",
+          "question": "미국식 영어에서 'March fifteenth'는 어떤 날짜인가?",
+          "options": [
+            "5월 13일",
+            "3월 15일",
+            "15월 3일",
+            "13월 5일"
+          ],
+          "answerIndex": 1,
+          "explanation": "미국식 날짜는 '월 + 서수' 순서입니다. 'March fifteenth'는 3월 15일입니다."
+        },
+        {
+          "id": "se_ch03_set04_006",
+          "type": "multiple_choice",
+          "question": "호텔 직원이 'Room seven zero nine is yours.'라고 했다. 객실 번호는?",
+          "options": [
+            "79호",
+            "709호",
+            "790호",
+            "7009호"
+          ],
+          "answerIndex": 1,
+          "explanation": "'seven zero nine'은 숫자를 한 자리씩 읽은 것으로 709호입니다. 'zero'는 0을 나타냅니다."
+        },
+        {
+          "id": "se_ch03_set04_007",
+          "type": "multiple_choice",
+          "question": "직원이 'The passcode is five, double-eight, zero.'라고 했다. 번호는?",
+          "options": [
+            "5-8-0",
+            "5-8-8-0",
+            "5-2-8-0",
+            "5-8-8-8-0"
+          ],
+          "answerIndex": 1,
+          "explanation": "'double-eight'는 8이 두 번 연속됩니다. 번호는 5, 8, 8, 0 즉 5880입니다."
+        },
+        {
+          "id": "se_ch03_set04_008",
+          "type": "multiple_choice",
+          "question": "식품 코너에서 'I'd like a dozen and a half oranges.'라고 하면 오렌지 몇 개인가?",
+          "options": [
+            "6개",
+            "12개",
+            "18개",
+            "24개"
+          ],
+          "answerIndex": 2,
+          "explanation": "'a dozen and a half'는 12 + 6 = 18개입니다. 'a dozen'(12)에 'a half dozen'(6)을 더한 값입니다."
+        },
+        {
+          "id": "se_ch03_set04_009",
+          "type": "multiple_choice",
+          "question": "직원이 'We close at nine, seven days a week.'라고 했다. 이 가게가 쉬는 날은?",
+          "options": [
+            "월요일",
+            "일요일",
+            "토요일",
+            "쉬는 날이 없다"
+          ],
+          "answerIndex": 3,
+          "explanation": "'seven days a week'은 일주일 내내 영업한다는 뜻입니다. 따라서 쉬는 날이 없습니다."
+        },
+        {
+          "id": "se_ch03_set04_010",
+          "type": "multiple_choice",
+          "question": "직원이 'The walk takes roughly ten minutes.'라고 했다. 소요 시간은?",
+          "options": [
+            "약 5분",
+            "약 10분",
+            "약 20분",
+            "약 30분"
+          ],
+          "answerIndex": 1,
+          "explanation": "'roughly ten minutes'는 대략 10분을 의미합니다. 'roughly'는 'about', 'around'와 같이 대략적인 시간을 나타냅니다."
+        },
+        {
+          "id": "se_ch03_set04_011",
+          "type": "ox",
+          "question": "영국식 건물 표기에서 '2nd floor'는 한국의 3층에 해당한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 영국식은 ground floor(1층), 1st floor(2층), 2nd floor(3층) 순서입니다. 영국 2nd floor는 한국의 3층과 같습니다."
+        },
+        {
+          "id": "se_ch03_set04_012",
+          "type": "ox",
+          "question": "영어에서 'half past midnight'은 자정 30분, 즉 0시 30분을 의미한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'midnight'은 자정(0시)이므로 'half past midnight'은 0시 30분, 즉 밤 12시 30분입니다."
+        },
+        {
+          "id": "se_ch03_set04_013",
+          "type": "ox",
+          "question": "영어에서 'Monday through Friday'는 월요일부터 금요일까지를 뜻하며 토요일은 포함되지 않는다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'through'는 양 끝 포함이므로 'Monday through Friday'는 월~금요일(5일)을 의미합니다. 토요일은 포함되지 않습니다."
+        },
+        {
+          "id": "se_ch03_set04_014",
+          "type": "ox",
+          "question": "거스름돈이 적을 때 'Shouldn't the change be more?'라고 묻는 것은 부자연스러운 영어 표현이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Shouldn't the change be more?'는 거스름돈이 부족할 때 쓰는 자연스러운 영어 표현입니다. 계산 오류를 부드럽게 지적할 때 사용합니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch03_set05_001",
+          "type": "multiple_choice",
+          "question": "직원이 'The price is twelve dollars and seventy-five cents.'라고 했다. 금액은?",
+          "options": [
+            "$12.07",
+            "$12.57",
+            "$12.75",
+            "$127.50"
+          ],
+          "answerIndex": 2,
+          "explanation": "'twelve dollars and seventy-five cents'는 $12.75입니다. 달러와 센트를 각각 명시한 격식체 표현입니다."
+        },
+        {
+          "id": "se_ch03_set05_002",
+          "type": "multiple_choice",
+          "question": "직원이 'That's one thousand and fifty euros.'라고 했다. 금액은?",
+          "options": [
+            "€105",
+            "€150",
+            "€1,050",
+            "€10,050"
+          ],
+          "answerIndex": 2,
+          "explanation": "'one thousand and fifty'는 1,050입니다. 영국식 영어에서는 thousand 뒤에도 'and'를 붙일 수 있습니다."
+        },
+        {
+          "id": "se_ch03_set05_003",
+          "type": "multiple_choice",
+          "question": "'half past one'은 몇 시 몇 분인가?",
+          "options": [
+            "1시 15분",
+            "1시 30분",
+            "1시 45분",
+            "2시 30분"
+          ],
+          "answerIndex": 1,
+          "explanation": "'half past + 시'는 해당 시각의 30분입니다. 'half past one'은 1시 30분입니다."
+        },
+        {
+          "id": "se_ch03_set05_004",
+          "type": "multiple_choice",
+          "question": "'quarter past six'은 몇 시 몇 분인가?",
+          "options": [
+            "5시 45분",
+            "6시 15분",
+            "6시 30분",
+            "6시 45분"
+          ],
+          "answerIndex": 1,
+          "explanation": "'quarter past + 시'는 해당 시각의 15분입니다. 'quarter past six'은 6시 15분입니다."
+        },
+        {
+          "id": "se_ch03_set05_005",
+          "type": "multiple_choice",
+          "question": "영국식 영어에서 'the first of January'는 어떤 날짜인가?",
+          "options": [
+            "1월 1일",
+            "1월 11일",
+            "11월 1일",
+            "11월 11일"
+          ],
+          "answerIndex": 0,
+          "explanation": "'the first of January'는 1월 1일입니다. 영국식은 '서수 + of + 월' 구조입니다."
+        },
+        {
+          "id": "se_ch03_set05_006",
+          "type": "multiple_choice",
+          "question": "호텔 직원이 'Room three one four is available.'이라고 했다. 객실 번호는?",
+          "options": [
+            "34호",
+            "304호",
+            "314호",
+            "3014호"
+          ],
+          "answerIndex": 2,
+          "explanation": "'three one four'는 숫자를 한 자리씩 읽은 것으로 314호입니다."
+        },
+        {
+          "id": "se_ch03_set05_007",
+          "type": "multiple_choice",
+          "question": "직원이 'The code is double-nine, one, five.'라고 했다. 번호는?",
+          "options": [
+            "9-1-5",
+            "2-9-1-5",
+            "9-9-1-5",
+            "9-9-9-1-5"
+          ],
+          "answerIndex": 2,
+          "explanation": "'double-nine'은 9가 두 번 연속됩니다. 번호는 9, 9, 1, 5 즉 9915입니다."
+        },
+        {
+          "id": "se_ch03_set05_008",
+          "type": "multiple_choice",
+          "question": "빵집에서 'I'll take half a dozen croissants.'라고 하면 크루아상 몇 개를 사는가?",
+          "options": [
+            "3개",
+            "5개",
+            "6개",
+            "12개"
+          ],
+          "answerIndex": 2,
+          "explanation": "'half a dozen'은 12의 절반인 6개입니다. 'a dozen'은 12개입니다."
+        },
+        {
+          "id": "se_ch03_set05_009",
+          "type": "multiple_choice",
+          "question": "직원이 'The museum is open daily except Mondays.'라고 했다. 이 박물관이 문을 닫는 날은?",
+          "options": [
+            "일요일",
+            "월요일",
+            "화요일",
+            "토요일"
+          ],
+          "answerIndex": 1,
+          "explanation": "'except Mondays'는 월요일을 제외한다는 뜻입니다. 나머지 요일은 매일 운영합니다."
+        },
+        {
+          "id": "se_ch03_set05_010",
+          "type": "multiple_choice",
+          "question": "직원이 'Traffic can double the journey time.'이라고 했을 때 교통 체증 시 소요 시간은?",
+          "options": [
+            "원래 시간의 절반",
+            "원래 시간과 동일",
+            "원래 시간의 두 배",
+            "원래 시간보다 10분 더"
+          ],
+          "answerIndex": 2,
+          "explanation": "'double'이 동사로 쓰여 '두 배가 되다'는 의미입니다. 교통 체증 시 이동 시간이 원래의 두 배가 될 수 있다는 뜻입니다."
+        },
+        {
+          "id": "se_ch03_set05_011",
+          "type": "ox",
+          "question": "영어에서 가격을 말할 때 'thirty-seven fifty'는 $37.50을 의미한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'thirty-seven fifty'는 $37.50입니다. 일상 대화에서는 'dollars'와 'cents'를 생략하고 숫자만 읽습니다."
+        },
+        {
+          "id": "se_ch03_set05_012",
+          "type": "ox",
+          "question": "영어에서 'half past noon'은 정오 30분, 즉 12시 30분을 의미한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'noon'은 정오(12시)이므로 'half past noon'은 12시 30분입니다."
+        },
+        {
+          "id": "se_ch03_set05_013",
+          "type": "ox",
+          "question": "영어에서 'a dozen and a half'는 24개를 의미한다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'a dozen and a half'는 12 + 6 = 18개입니다. 24개는 'two dozen'입니다."
+        },
+        {
+          "id": "se_ch03_set05_014",
+          "type": "ox",
+          "question": "영어에서 'Your change is four euros fifty.'에서 'fifty'는 50센트를 의미한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'four euros fifty'는 4유로 50센트입니다. 'fifty'는 소수점 이하 단위인 50센트를 의미합니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch03_set06_001",
+          "type": "multiple_choice",
+          "question": "직원이 'That's eighty-nine ninety-five.'라고 했을 때 금액은?",
+          "options": [
+            "$8.95",
+            "$89.05",
+            "$89.95",
+            "$899.50"
+          ],
+          "answerIndex": 2,
+          "explanation": "'eighty-nine ninety-five'는 $89.95입니다. 'eighty-nine'이 달러, 'ninety-five'가 센트 부분입니다."
+        },
+        {
+          "id": "se_ch03_set06_002",
+          "type": "multiple_choice",
+          "question": "직원이 'The fare is three thousand four hundred yen.'이라고 했다. 금액은?",
+          "options": [
+            "¥340",
+            "¥3,040",
+            "¥3,400",
+            "¥34,000"
+          ],
+          "answerIndex": 2,
+          "explanation": "'three thousand four hundred'는 3,400입니다. 'three thousand'(3,000)에 'four hundred'(400)를 더한 값입니다."
+        },
+        {
+          "id": "se_ch03_set06_003",
+          "type": "multiple_choice",
+          "question": "투어 가이드가 'Meet at half past ten, please.'라고 했다. 집합 시간은?",
+          "options": [
+            "10시 15분",
+            "10시 30분",
+            "10시 45분",
+            "10시 50분"
+          ],
+          "answerIndex": 1,
+          "explanation": "'half past ten'은 10시 30분입니다. 'half past + 시'는 항상 해당 시각의 30분을 의미합니다."
+        },
+        {
+          "id": "se_ch03_set06_004",
+          "type": "multiple_choice",
+          "question": "직원이 'The shop closes at quarter to nine.'라고 했다. 폐점 시간은?",
+          "options": [
+            "8시 15분",
+            "8시 30분",
+            "8시 45분",
+            "9시 15분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'quarter to nine'은 9시 15분 전, 즉 8시 45분입니다. 'quarter to + 시'는 해당 시각 15분 전입니다."
+        },
+        {
+          "id": "se_ch03_set06_005",
+          "type": "multiple_choice",
+          "question": "미국식 영어로 '12월 25일'을 올바르게 표현한 것은?",
+          "options": [
+            "the twenty-fifth of December",
+            "December twenty-fifth",
+            "twenty-fifth December",
+            "25th of the December"
+          ],
+          "answerIndex": 1,
+          "explanation": "미국식 날짜 표현은 '월 + 서수(일)' 순서입니다. 'December twenty-fifth'가 정답입니다. 'the twenty-fifth of December'는 영국식 표현입니다."
+        },
+        {
+          "id": "se_ch03_set06_006",
+          "type": "multiple_choice",
+          "question": "직원이 'Your suite number is nine zero six.'라고 했다. 객실 번호는?",
+          "options": [
+            "96호",
+            "906호",
+            "960호",
+            "9006호"
+          ],
+          "answerIndex": 1,
+          "explanation": "'nine zero six'는 숫자를 한 자리씩 읽은 것으로 906호입니다. 중간의 'zero'는 0을 나타냅니다."
+        },
+        {
+          "id": "se_ch03_set06_007",
+          "type": "multiple_choice",
+          "question": "직원이 'The alarm code is one, double-zero, seven.'이라고 했다. 코드는?",
+          "options": [
+            "1-0-7",
+            "1-0-0-7",
+            "1-2-0-7",
+            "1-0-0-0-7"
+          ],
+          "answerIndex": 1,
+          "explanation": "'double-zero'는 0이 두 번 연속됩니다. 코드는 1, 0, 0, 7 즉 1007입니다."
+        },
+        {
+          "id": "se_ch03_set06_008",
+          "type": "multiple_choice",
+          "question": "정육점에서 'half a kilo of beef, please.'라고 주문하면 몇 그램인가?",
+          "options": [
+            "100g",
+            "250g",
+            "500g",
+            "1,000g"
+          ],
+          "answerIndex": 2,
+          "explanation": "'half a kilo'는 1킬로그램의 절반인 500g입니다. 'half a kilogram'의 줄임 표현입니다."
+        },
+        {
+          "id": "se_ch03_set06_009",
+          "type": "multiple_choice",
+          "question": "직원이 'We're open from eight a.m. to ten p.m., Monday to Saturday.'라고 했다. 일요일 영업 여부는?",
+          "options": [
+            "8시에 문을 열고 10시에 닫는다",
+            "일요일도 같은 시간 영업한다",
+            "일요일은 영업하지 않는다",
+            "일요일은 오전에만 영업한다"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Monday to Saturday'는 월~토 영업을 의미합니다. 일요일(Sunday)이 언급되지 않으므로 일요일은 영업하지 않습니다."
+        },
+        {
+          "id": "se_ch03_set06_010",
+          "type": "multiple_choice",
+          "question": "직원이 'By train, it's roughly an hour and a half.'라고 했다. 기차 소요 시간은?",
+          "options": [
+            "약 45분",
+            "약 1시간",
+            "약 1시간 30분",
+            "약 2시간"
+          ],
+          "answerIndex": 2,
+          "explanation": "'an hour and a half'는 1시간 30분입니다. 'an hour'(60분)에 'a half'(30분)를 더한 값입니다."
+        },
+        {
+          "id": "se_ch03_set06_011",
+          "type": "ox",
+          "question": "영어에서 소수점 금액 표현 시 'thirty-seven point fifty'는 'thirty-seven fifty'보다 일상 계산대에서 더 자주 쓰인다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 일상 계산대에서는 'thirty-seven fifty'처럼 소수점(point) 없이 읽는 것이 훨씬 자연스럽습니다. 'thirty-seven point fifty'는 드묾니다."
+        },
+        {
+          "id": "se_ch03_set06_012",
+          "type": "ox",
+          "question": "영어에서 'quarter to seven'은 6시 45분을 의미한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'quarter to seven'은 7시 15분 전, 즉 6시 45분입니다. 'quarter to + 시'는 항상 해당 시각 15분 전입니다."
+        },
+        {
+          "id": "se_ch03_set06_013",
+          "type": "ox",
+          "question": "영어에서 'the total comes to...'는 합계 금액을 알려주는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'The total comes to...'는 직원이 최종 결제 금액을 알려줄 때 쓰는 표현입니다. 'Your total is...'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch03_set06_014",
+          "type": "ox",
+          "question": "영어에서 'Could you write that down?'은 숫자를 확인하는 최후 수단으로 쓸 수 있는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 숫자를 듣고도 이해하기 어려울 때 'Could you write that down?'이라고 요청하면 적어서 보여주므로 확인에 효과적입니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch03_set07_001",
+          "type": "multiple_choice",
+          "question": "직원이 'The ticket costs twenty-four fifty.'라고 했다. 티켓 가격은?",
+          "options": [
+            "$2.45",
+            "$24.05",
+            "$24.50",
+            "$245"
+          ],
+          "answerIndex": 2,
+          "explanation": "'twenty-four fifty'는 $24.50입니다. 달러 금액 표현에서 소수점 이하는 숫자 두 개로 읽습니다."
+        },
+        {
+          "id": "se_ch03_set07_002",
+          "type": "multiple_choice",
+          "question": "직원이 'The total is four hundred and fifteen dollars.'라고 했다. 금액은?",
+          "options": [
+            "$45",
+            "$415",
+            "$4,015",
+            "$4,150"
+          ],
+          "answerIndex": 1,
+          "explanation": "'four hundred and fifteen'은 415입니다. 'four hundred'(400)에 'fifteen'(15)을 더한 값입니다."
+        },
+        {
+          "id": "se_ch03_set07_003",
+          "type": "multiple_choice",
+          "question": "가이드가 'The tour departs at half past nine.'이라고 했다. 출발 시간은?",
+          "options": [
+            "9시 15분",
+            "9시 30분",
+            "9시 45분",
+            "10시 30분"
+          ],
+          "answerIndex": 1,
+          "explanation": "'half past nine'은 9시 30분입니다. 'half past + 시'는 항상 해당 시각의 30분입니다."
+        },
+        {
+          "id": "se_ch03_set07_004",
+          "type": "multiple_choice",
+          "question": "직원이 'The last bus is at quarter to eleven.'이라고 했다. 막차 시간은?",
+          "options": [
+            "10시 15분",
+            "10시 30분",
+            "10시 45분",
+            "11시 15분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'quarter to eleven'은 11시 15분 전, 즉 10시 45분입니다."
+        },
+        {
+          "id": "se_ch03_set07_005",
+          "type": "multiple_choice",
+          "question": "영국식 영어에서 'the sixteenth of September'는 어떤 날짜인가?",
+          "options": [
+            "6월 9일",
+            "9월 6일",
+            "9월 16일",
+            "16월 9일"
+          ],
+          "answerIndex": 2,
+          "explanation": "영국식 날짜는 '서수(일) + of + 월' 순서입니다. 'the sixteenth of September'는 9월 16일입니다."
+        },
+        {
+          "id": "se_ch03_set07_006",
+          "type": "multiple_choice",
+          "question": "호텔 직원이 'You're booked into room two zero eight.'이라고 했다. 객실 번호는?",
+          "options": [
+            "28호",
+            "208호",
+            "280호",
+            "2008호"
+          ],
+          "answerIndex": 1,
+          "explanation": "'two zero eight'는 한 자리씩 읽은 208호입니다. 'zero'는 0을 나타냅니다."
+        },
+        {
+          "id": "se_ch03_set07_007",
+          "type": "multiple_choice",
+          "question": "직원이 'Your reference number is double-five, three, double-one.'이라고 했다. 번호는?",
+          "options": [
+            "5-3-1",
+            "5-5-3-1-1",
+            "5-5-3-1",
+            "2-5-3-2-1"
+          ],
+          "answerIndex": 1,
+          "explanation": "'double-five'는 55, 'double-one'은 11을 뜻합니다. 번호는 5, 5, 3, 1, 1 즉 55311입니다."
+        },
+        {
+          "id": "se_ch03_set07_008",
+          "type": "multiple_choice",
+          "question": "치즈 코너에서 직원이 'I'll give you two hundred grams.'라고 했다. 양은?",
+          "options": [
+            "0.2kg",
+            "0.5kg",
+            "1kg",
+            "2kg"
+          ],
+          "answerIndex": 0,
+          "explanation": "'two hundred grams'는 200g으로 0.2kg입니다. 그램과 킬로그램 환산 시 1kg = 1,000g임을 기억하세요."
+        },
+        {
+          "id": "se_ch03_set07_009",
+          "type": "multiple_choice",
+          "question": "직원이 'We're open weekdays only.'라고 했다. 이 가게가 문을 닫는 날은?",
+          "options": [
+            "월요일과 금요일",
+            "수요일",
+            "토요일과 일요일",
+            "쉬는 날이 없다"
+          ],
+          "answerIndex": 2,
+          "explanation": "'weekdays'는 월~금요일(평일)을 의미합니다. 따라서 토요일(Saturday)과 일요일(Sunday)은 휴무입니다."
+        },
+        {
+          "id": "se_ch03_set07_010",
+          "type": "multiple_choice",
+          "question": "직원이 'By ferry it's around two hours.'라고 했다. 페리 소요 시간은?",
+          "options": [
+            "약 20분",
+            "약 1시간",
+            "약 2시간",
+            "약 3시간"
+          ],
+          "answerIndex": 2,
+          "explanation": "'around two hours'는 약 2시간을 의미합니다. 'around'는 'about', 'roughly'와 같이 대략적인 시간을 나타냅니다."
+        },
+        {
+          "id": "se_ch03_set07_011",
+          "type": "ox",
+          "question": "영어에서 'Here you go.'와 'Here you are.'는 물건을 건네줄 때 같은 의미로 쓰인다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Here you go.'와 'Here you are.' 모두 돈이나 물건을 건넬 때 쓰는 표현으로 동일한 의미입니다."
+        },
+        {
+          "id": "se_ch03_set07_012",
+          "type": "ox",
+          "question": "영어에서 'half past two'는 2시 20분을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'half past two'는 2시 30분입니다. 2시 20분은 'twenty past two' 또는 'two twenty'라고 합니다."
+        },
+        {
+          "id": "se_ch03_set07_013",
+          "type": "ox",
+          "question": "영어에서 '1,250'을 'twelve hundred and fifty'로 읽는 것은 비격식이지만 틀린 표현이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'twelve hundred and fifty'는 1,250의 비격식 표현이지만 영어에서 일반적으로 허용됩니다. 1,100~1,900 범위 숫자에서 흔히 쓰입니다."
+        },
+        {
+          "id": "se_ch03_set07_014",
+          "type": "ox",
+          "question": "영어에서 'Which floor is the gym on?'은 건물 내 특정 시설의 층수를 묻는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Which floor is ... on?'은 건물 내 특정 공간이나 시설이 몇 층에 있는지 묻는 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch03_set08_001",
+          "type": "multiple_choice",
+          "question": "직원이 'The deposit is fifty-five dollars.'라고 했다. 보증금은?",
+          "options": [
+            "$5.50",
+            "$55.00",
+            "$55.50",
+            "$550"
+          ],
+          "answerIndex": 1,
+          "explanation": "'fifty-five dollars'는 $55입니다. 'fifty-five'는 55이며 소수점 없이 딱 떨어지는 금액입니다."
+        },
+        {
+          "id": "se_ch03_set08_002",
+          "type": "multiple_choice",
+          "question": "직원이 'It costs nine hundred and ninety-nine euros.'라고 했다. 금액은?",
+          "options": [
+            "€99",
+            "€909",
+            "€990",
+            "€999"
+          ],
+          "answerIndex": 3,
+          "explanation": "'nine hundred and ninety-nine'는 999입니다. 'nine hundred'(900)에 'ninety-nine'(99)을 더한 값입니다."
+        },
+        {
+          "id": "se_ch03_set08_003",
+          "type": "multiple_choice",
+          "question": "직원이 'Check-in is from half past two.'라고 했다. 체크인 시작 시간은?",
+          "options": [
+            "2시 15분",
+            "2시 30분",
+            "2시 45분",
+            "3시 30분"
+          ],
+          "answerIndex": 1,
+          "explanation": "'half past two'는 2시 30분입니다. 체크인은 2시 30분부터 가능합니다."
+        },
+        {
+          "id": "se_ch03_set08_004",
+          "type": "multiple_choice",
+          "question": "직원이 'Checkout must be done by quarter to twelve.'라고 했다. 체크아웃 마감 시간은?",
+          "options": [
+            "11시 15분",
+            "11시 30분",
+            "11시 45분",
+            "12시 15분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'quarter to twelve'는 12시 15분 전, 즉 11시 45분입니다. 체크아웃은 11시 45분까지 해야 합니다."
+        },
+        {
+          "id": "se_ch03_set08_005",
+          "type": "multiple_choice",
+          "question": "영국식 영어로 '4월 30일'을 올바르게 표현한 것은?",
+          "options": [
+            "April thirtieth",
+            "the thirtieth of April",
+            "thirty April",
+            "April the thirty"
+          ],
+          "answerIndex": 1,
+          "explanation": "영국식 날짜 표현은 'the + 서수(일) + of + 월' 구조입니다. 'the thirtieth of April'이 4월 30일의 영국식 표현입니다."
+        },
+        {
+          "id": "se_ch03_set08_006",
+          "type": "multiple_choice",
+          "question": "호텔 직원이 'Deluxe rooms are on floor six zero one.'이라고 했다. 층 번호는?",
+          "options": [
+            "16층",
+            "61층",
+            "601층",
+            "6층 1호"
+          ],
+          "answerIndex": 2,
+          "explanation": "이 문장에서 'six zero one'은 한 자리씩 읽은 601로, 601층(또는 601호 구역)을 의미합니다. 문맥상 층수 번호로 봐야 합니다."
+        },
+        {
+          "id": "se_ch03_set08_007",
+          "type": "multiple_choice",
+          "question": "직원이 'The safe combination is three, double-seven, four.'라고 했다. 금고 번호는?",
+          "options": [
+            "3-7-4",
+            "3-7-7-4",
+            "3-2-7-4",
+            "3-7-7-7-4"
+          ],
+          "answerIndex": 1,
+          "explanation": "'double-seven'은 7이 두 번 연속됩니다. 번호는 3, 7, 7, 4 즉 3774입니다."
+        },
+        {
+          "id": "se_ch03_set08_008",
+          "type": "multiple_choice",
+          "question": "마켓에서 직원이 'That's a kilo of strawberries.'라고 했다. 양은?",
+          "options": [
+            "100g",
+            "500g",
+            "1,000g",
+            "2,000g"
+          ],
+          "answerIndex": 2,
+          "explanation": "'a kilo'는 1킬로그램으로 1,000g입니다. 'half a kilo'는 500g, 'two kilos'는 2,000g입니다."
+        },
+        {
+          "id": "se_ch03_set08_009",
+          "type": "multiple_choice",
+          "question": "직원이 'The gallery is open every day from nine to five.'라고 했다. 이 갤러리가 문을 닫는 날은?",
+          "options": [
+            "월요일",
+            "일요일",
+            "토요일",
+            "쉬는 날이 없다"
+          ],
+          "answerIndex": 3,
+          "explanation": "'every day'는 매일을 의미합니다. 따라서 이 갤러리는 쉬는 날 없이 매일 9시부터 5시까지 운영합니다."
+        },
+        {
+          "id": "se_ch03_set08_010",
+          "type": "multiple_choice",
+          "question": "직원이 'The metro takes about twelve minutes.'라고 했다. 지하철 소요 시간은?",
+          "options": [
+            "약 2분",
+            "약 12분",
+            "약 20분",
+            "약 21분"
+          ],
+          "answerIndex": 1,
+          "explanation": "'about twelve minutes'는 약 12분을 의미합니다. 'twelve'(12)와 'twenty'(20)는 발음이 비슷하니 주의하세요."
+        },
+        {
+          "id": "se_ch03_set08_011",
+          "type": "ox",
+          "question": "영어에서 'You're right.'는 상대방의 지적을 인정할 때 쓰는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'You're right.'는 상대방의 말이 맞다고 인정할 때 쓰는 표현입니다. 계산 오류 등을 지적받았을 때 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch03_set08_012",
+          "type": "ox",
+          "question": "영어에서 'quarter past four'는 4시 45분을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'quarter past four'는 4시 15분입니다. 4시 45분은 'quarter to five'입니다."
+        },
+        {
+          "id": "se_ch03_set08_013",
+          "type": "ox",
+          "question": "영어에서 방 번호나 전화번호를 읽을 때 '0'은 보통 'zero' 또는 'oh'로 읽는다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 방 번호나 전화번호에서 0은 'zero' 또는 'oh'로 읽습니다. 예: '302'는 'three oh two' 또는 'three zero two'."
+        },
+        {
+          "id": "se_ch03_set08_014",
+          "type": "ox",
+          "question": "영어에서 'I think I'm owed more change.'는 거스름돈이 부족할 때 쓸 수 있는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'I think I'm owed more change.'는 거스름돈이 더 있어야 한다고 생각할 때 쓰는 자연스러운 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch03_set09_001",
+          "type": "multiple_choice",
+          "question": "직원이 'The entrance fee is sixteen seventy-five.'라고 했다. 입장료는?",
+          "options": [
+            "$1.675",
+            "$16.07",
+            "$16.75",
+            "$167.50"
+          ],
+          "answerIndex": 2,
+          "explanation": "'sixteen seventy-five'는 $16.75입니다. 정수 'sixteen'(16)과 센트 'seventy-five'(75)를 각각 읽는 방식입니다."
+        },
+        {
+          "id": "se_ch03_set09_002",
+          "type": "multiple_choice",
+          "question": "직원이 'The package costs one thousand eight hundred and twenty dollars.'라고 했다. 금액은?",
+          "options": [
+            "$182",
+            "$1,082",
+            "$1,820",
+            "$1,802"
+          ],
+          "answerIndex": 2,
+          "explanation": "'one thousand eight hundred and twenty'는 1,820입니다. 'one thousand'(1,000) + 'eight hundred'(800) + 'twenty'(20) = 1,820입니다."
+        },
+        {
+          "id": "se_ch03_set09_003",
+          "type": "multiple_choice",
+          "question": "안내원이 'The show begins at half past eight.'이라고 했다. 시작 시간은?",
+          "options": [
+            "8시 15분",
+            "8시 30분",
+            "8시 45분",
+            "9시 30분"
+          ],
+          "answerIndex": 1,
+          "explanation": "'half past eight'은 8시 30분입니다."
+        },
+        {
+          "id": "se_ch03_set09_004",
+          "type": "multiple_choice",
+          "question": "직원이 'The pharmacy closes at quarter to seven.'이라고 했다. 약국 폐점 시간은?",
+          "options": [
+            "6시 15분",
+            "6시 30분",
+            "6시 45분",
+            "7시 15분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'quarter to seven'은 7시 15분 전, 즉 6시 45분입니다."
+        },
+        {
+          "id": "se_ch03_set09_005",
+          "type": "multiple_choice",
+          "question": "미국식 영어로 'June second'는 어떤 날짜인가?",
+          "options": [
+            "2월 6일",
+            "6월 2일",
+            "6월 22일",
+            "2월 16일"
+          ],
+          "answerIndex": 1,
+          "explanation": "미국식 날짜는 '월 + 서수(일)' 순서입니다. 'June second'는 6월 2일입니다."
+        },
+        {
+          "id": "se_ch03_set09_006",
+          "type": "multiple_choice",
+          "question": "호텔 직원이 'Room six one three is ready for you.'라고 했다. 객실 번호는?",
+          "options": [
+            "63호",
+            "613호",
+            "631호",
+            "6013호"
+          ],
+          "answerIndex": 1,
+          "explanation": "'six one three'는 한 자리씩 읽은 613호입니다."
+        },
+        {
+          "id": "se_ch03_set09_007",
+          "type": "multiple_choice",
+          "question": "직원이 'The membership number is double-two, eight, double-zero.'라고 했다. 번호는?",
+          "options": [
+            "2-8-0",
+            "2-2-8-0-0",
+            "2-2-8-0",
+            "2-8-0-0"
+          ],
+          "answerIndex": 1,
+          "explanation": "'double-two'는 22, 'double-zero'는 00을 뜻합니다. 번호는 2, 2, 8, 0, 0 즉 22800입니다."
+        },
+        {
+          "id": "se_ch03_set09_008",
+          "type": "multiple_choice",
+          "question": "시장에서 'Would you like a dozen and a half tomatoes?'라고 하면 토마토 몇 개인가?",
+          "options": [
+            "6개",
+            "12개",
+            "18개",
+            "24개"
+          ],
+          "answerIndex": 2,
+          "explanation": "'a dozen and a half'는 12 + 6 = 18개입니다."
+        },
+        {
+          "id": "se_ch03_set09_009",
+          "type": "multiple_choice",
+          "question": "직원이 'We're closed on public holidays.'라고 했다. 이 표현이 의미하는 것은?",
+          "options": [
+            "평일에 문을 닫는다",
+            "주말에 문을 닫는다",
+            "공휴일에 문을 닫는다",
+            "매일 문을 닫는다"
+          ],
+          "answerIndex": 2,
+          "explanation": "'public holidays'는 공휴일을 의미합니다. 이 가게는 공휴일에 문을 닫는다는 뜻입니다."
+        },
+        {
+          "id": "se_ch03_set09_010",
+          "type": "multiple_choice",
+          "question": "직원이 'rush hour can make it longer'라고 했을 때 의미는?",
+          "options": [
+            "러시아워에는 이동 시간이 더 길어질 수 있다",
+            "러시아워에는 더 빨리 갈 수 있다",
+            "러시아워에는 버스가 더 자주 온다",
+            "러시아워에는 택시를 이용해야 한다"
+          ],
+          "answerIndex": 0,
+          "explanation": "'rush hour can make it longer'는 러시아워(출퇴근 시간대)에 이동 시간이 더 길어질 수 있다는 뜻입니다."
+        },
+        {
+          "id": "se_ch03_set09_011",
+          "type": "ox",
+          "question": "영어에서 'There you go.'는 물건을 건네줄 때 쓸 수 있는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'There you go.'는 좀 더 캐주얼한 표현으로 물건을 건넬 때 씁니다. 'Here you go.', 'Here you are.'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch03_set09_012",
+          "type": "ox",
+          "question": "영어에서 'half past ten'은 10시 30분이 아니라 10시 50분을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'half past ten'은 10시 30분입니다. 'half'는 30분을 뜻하고, 'past'는 해당 시각을 지났음을 나타냅니다."
+        },
+        {
+          "id": "se_ch03_set09_013",
+          "type": "ox",
+          "question": "영어에서 층수를 물을 때 'What floor is the pool on?'은 올바른 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'What floor is ... on?'은 건물 내 특정 시설의 층수를 묻는 자연스러운 영어 표현입니다."
+        },
+        {
+          "id": "se_ch03_set09_014",
+          "type": "ox",
+          "question": "영어에서 'That works for me.'는 일정이나 조건이 맞다고 동의할 때 쓰는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'That works for me.'는 제안된 시간이나 조건이 자신에게 맞는다고 동의할 때 쓰는 구어 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch03_set10_001",
+          "type": "multiple_choice",
+          "question": "직원이 'Your refund will be twenty-eight dollars and forty cents.'라고 했다. 환불 금액은?",
+          "options": [
+            "$2.84",
+            "$28.04",
+            "$28.40",
+            "$284"
+          ],
+          "answerIndex": 2,
+          "explanation": "'twenty-eight dollars and forty cents'는 $28.40입니다. 달러와 센트를 각각 명확히 표현한 격식체입니다."
+        },
+        {
+          "id": "se_ch03_set10_002",
+          "type": "multiple_choice",
+          "question": "직원이 'That comes to twelve hundred and thirty euros.'라고 했다. 금액은?",
+          "options": [
+            "€123",
+            "€1,023",
+            "€1,230",
+            "€12,030"
+          ],
+          "answerIndex": 2,
+          "explanation": "'twelve hundred and thirty'는 1,230입니다. 1,200을 'twelve hundred'로 읽는 비격식 표현에 'thirty'(30)를 더한 값입니다."
+        },
+        {
+          "id": "se_ch03_set10_003",
+          "type": "multiple_choice",
+          "question": "직원이 'Dinner service starts at half past six.'이라고 했다. 디너 시작 시간은?",
+          "options": [
+            "6시 15분",
+            "6시 30분",
+            "6시 45분",
+            "7시 30분"
+          ],
+          "answerIndex": 1,
+          "explanation": "'half past six'은 6시 30분입니다."
+        },
+        {
+          "id": "se_ch03_set10_004",
+          "type": "multiple_choice",
+          "question": "직원이 'The pool closes at quarter to ten.'이라고 했다. 수영장 폐장 시간은?",
+          "options": [
+            "9시 15분",
+            "9시 30분",
+            "9시 45분",
+            "10시 15분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'quarter to ten'은 10시 15분 전, 즉 9시 45분입니다."
+        },
+        {
+          "id": "se_ch03_set10_005",
+          "type": "multiple_choice",
+          "question": "영국식 영어에서 'the fourteenth of February'는 어떤 날짜인가?",
+          "options": [
+            "2월 4일",
+            "2월 14일",
+            "4월 14일",
+            "14월 2일"
+          ],
+          "answerIndex": 1,
+          "explanation": "영국식 날짜는 '서수(일) + of + 월' 순서입니다. 'the fourteenth of February'는 2월 14일(발렌타인데이)입니다."
+        },
+        {
+          "id": "se_ch03_set10_006",
+          "type": "multiple_choice",
+          "question": "호텔 직원이 'Room one zero five is on this floor.'라고 했다. 객실 번호는?",
+          "options": [
+            "15호",
+            "105호",
+            "150호",
+            "1005호"
+          ],
+          "answerIndex": 1,
+          "explanation": "'one zero five'는 한 자리씩 읽은 105호입니다. 'zero'는 0을 나타냅니다."
+        },
+        {
+          "id": "se_ch03_set10_007",
+          "type": "multiple_choice",
+          "question": "직원이 'The gate number is double-three, eight.'라고 했다. 게이트 번호는?",
+          "options": [
+            "3-8",
+            "3-3-8",
+            "2-3-8",
+            "3-3-3-8"
+          ],
+          "answerIndex": 1,
+          "explanation": "'double-three'는 3이 두 번 연속됩니다. 게이트 번호는 3, 3, 8 즉 338입니다."
+        },
+        {
+          "id": "se_ch03_set10_008",
+          "type": "multiple_choice",
+          "question": "마켓에서 'I'll have three hundred grams of ham.'이라고 했다. 구매 양은?",
+          "options": [
+            "0.1kg",
+            "0.3kg",
+            "0.5kg",
+            "3kg"
+          ],
+          "answerIndex": 1,
+          "explanation": "'three hundred grams'는 300g으로 0.3kg입니다."
+        },
+        {
+          "id": "se_ch03_set10_009",
+          "type": "multiple_choice",
+          "question": "직원이 'We're open from nine to five, Monday through Friday.'라고 했다. 주말 영업 여부는?",
+          "options": [
+            "토요일과 일요일 모두 영업",
+            "토요일만 영업",
+            "일요일만 영업",
+            "주말에는 영업하지 않음"
+          ],
+          "answerIndex": 3,
+          "explanation": "'Monday through Friday'는 월~금요일(평일)만 영업한다는 뜻입니다. 토요일(Saturday)과 일요일(Sunday) 모두 휴무입니다."
+        },
+        {
+          "id": "se_ch03_set10_010",
+          "type": "multiple_choice",
+          "question": "직원이 'It depends on traffic, but usually around twenty-five minutes.'라고 했다. 보통 소요 시간은?",
+          "options": [
+            "약 12분",
+            "약 20분",
+            "약 25분",
+            "약 35분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'usually around twenty-five minutes'는 보통 약 25분을 의미합니다. 'around'는 대략적인 시간을 나타냅니다."
+        },
+        {
+          "id": "se_ch03_set10_011",
+          "type": "ox",
+          "question": "영어에서 'How much was that?'는 가격을 못 들었을 때 되묻는 자연스러운 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'How much was that?'는 금액을 못 들었을 때 되묻는 가장 자연스러운 표현 중 하나입니다."
+        },
+        {
+          "id": "se_ch03_set10_012",
+          "type": "ox",
+          "question": "영어에서 'quarter to one'은 오전 12시 45분 또는 오후 12시 45분을 의미한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'quarter to one'은 1시 15분 전, 즉 12시 45분을 의미합니다. 오전(AM)인지 오후(PM)인지는 문맥으로 판단합니다."
+        },
+        {
+          "id": "se_ch03_set10_013",
+          "type": "ox",
+          "question": "영어에서 'open from nine to six'에서 'from ... to ...'는 시간 범위를 나타내며 양 끝을 포함한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'from A to B'는 A부터 B까지 양 끝을 포함한 범위를 의미합니다. 'open from nine to six'는 9시부터 6시까지 영업함을 뜻합니다."
+        },
+        {
+          "id": "se_ch03_set10_014",
+          "type": "ox",
+          "question": "영어에서 가격을 물을 때 'Could you repeat the price?'는 부적절한 표현이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Could you repeat the price?'는 가격을 다시 말해달라는 정중하고 자연스러운 표현입니다."
+        }
+      ]
     }
   ]
 }

@@ -7,34 +7,68 @@
       "id": "ch38_d01",
       "title": "아이가 안 보여요",
       "lines": [
-        { "speaker": "나", "en": "Excuse me! My child is missing. I can't find my son!", "ko": "실례합니다! 아이를 잃어버렸어요. 아들을 찾을 수가 없어요!" },
-        { "speaker": "직원", "en": "Please stay calm. When did you last see him?", "ko": "진정하세요. 마지막으로 언제 보셨나요?" },
-        { "speaker": "나", "en": "About five minutes ago, near the toy section.", "ko": "약 5분 전, 장난감 코너 근처에서요." },
-        { "speaker": "직원", "en": "Okay, I'll alert my colleagues right away. Please stay here.", "ko": "알겠습니다. 바로 동료들에게 알리겠습니다. 여기 계세요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me! My child is missing. I can't find my son!",
+          "ko": "실례합니다! 아이를 잃어버렸어요. 아들을 찾을 수가 없어요!"
+        },
+        {
+          "speaker": "직원",
+          "en": "Please stay calm. When did you last see him?",
+          "ko": "진정하세요. 마지막으로 언제 보셨나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "About five minutes ago, near the toy section.",
+          "ko": "약 5분 전, 장난감 코너 근처에서요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Okay, I'll alert my colleagues right away. Please stay here.",
+          "ko": "알겠습니다. 바로 동료들에게 알리겠습니다. 여기 계세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "My child is missing.",
           "ko": "아이 실종을 알리는 핵심 표현. 'I lost my child'도 쓸 수 있지만 'is missing'이 현재 상태를 더 긴박하게 전달함. 직원에게 이 말부터 해야 즉각적인 대응을 끌어낼 수 있음.",
           "alternatives": [
-            { "en": "I can't find my child.", "ko": "아이를 찾지 못하겠다는 표현. 뜻은 같지만 missing보다 조금 덜 긴박하게 들릴 수 있음." },
-            { "en": "I've lost my son / daughter.", "ko": "아들/딸을 잃어버렸다는 표현. son 또는 daughter로 성별을 명확히 전달할 때 유용." }
+            {
+              "en": "I can't find my child.",
+              "ko": "아이를 찾지 못하겠다는 표현. 뜻은 같지만 missing보다 조금 덜 긴박하게 들릴 수 있음."
+            },
+            {
+              "en": "I've lost my son / daughter.",
+              "ko": "아들/딸을 잃어버렸다는 표현. son 또는 daughter로 성별을 명확히 전달할 때 유용."
+            }
           ]
         },
         {
           "en": "I can't find my son.",
           "ko": "'find'를 쓴 표현으로 현재 찾는 중임을 강조. son(아들), daughter(딸), child(아이), kid(아이·구어체) 중 상황에 맞게 골라 쓰자.",
           "alternatives": [
-            { "en": "I can't find my daughter.", "ko": "아들 대신 딸을 잃어버렸을 때 사용." },
-            { "en": "I've been looking for my child for five minutes.", "ko": "얼마나 찾고 있었는지 시간 정보를 추가해 상황의 긴박함을 전달하는 표현." }
+            {
+              "en": "I can't find my daughter.",
+              "ko": "아들 대신 딸을 잃어버렸을 때 사용."
+            },
+            {
+              "en": "I've been looking for my child for five minutes.",
+              "ko": "얼마나 찾고 있었는지 시간 정보를 추가해 상황의 긴박함을 전달하는 표현."
+            }
           ]
         },
         {
           "en": "About five minutes ago.",
           "ko": "마지막으로 본 시간을 알려주는 표현. 'about'을 붙여 대략적인 시간임을 나타냄. 직원이 CCTV 시간대를 특정하는 데 중요한 정보가 됨.",
           "alternatives": [
-            { "en": "Just a few minutes ago.", "ko": "몇 분 전이라는 더 모호하지만 빠르게 쓸 수 있는 표현." },
-            { "en": "Around ten minutes ago.", "ko": "시간을 바꿔 쓸 수 있는 패턴. around도 about과 마찬가지로 '약 ~'의 의미." }
+            {
+              "en": "Just a few minutes ago.",
+              "ko": "몇 분 전이라는 더 모호하지만 빠르게 쓸 수 있는 표현."
+            },
+            {
+              "en": "Around ten minutes ago.",
+              "ko": "시간을 바꿔 쓸 수 있는 패턴. around도 about과 마찬가지로 '약 ~'의 의미."
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch38_d02",
       "title": "인상착의 설명하기",
       "lines": [
-        { "speaker": "직원", "en": "Can you describe what your child looks like?", "ko": "아이가 어떻게 생겼는지 설명해 주시겠어요?" },
-        { "speaker": "나", "en": "He's six years old and wearing a red jacket and blue jeans.", "ko": "여섯 살이고 빨간 재킷에 청바지를 입고 있어요." },
-        { "speaker": "직원", "en": "How tall is he, roughly?", "ko": "대략 키가 어떻게 되나요?" },
-        { "speaker": "나", "en": "He's about 115 centimeters tall, with short black hair.", "ko": "키는 약 115센티미터이고 짧은 검은 머리예요." }
+        {
+          "speaker": "직원",
+          "en": "Can you describe what your child looks like?",
+          "ko": "아이가 어떻게 생겼는지 설명해 주시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "He's six years old and wearing a red jacket and blue jeans.",
+          "ko": "여섯 살이고 빨간 재킷에 청바지를 입고 있어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "How tall is he, roughly?",
+          "ko": "대략 키가 어떻게 되나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "He's about 115 centimeters tall, with short black hair.",
+          "ko": "키는 약 115센티미터이고 짧은 검은 머리예요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "He's wearing a red jacket.",
           "ko": "현재 입고 있는 옷을 설명할 때는 반드시 'is wearing'을 사용. 'wear'만 쓰면 습관적으로 입는다는 뜻이 됨. 색깔+의류 순서로 말하면 전달이 빠름.",
           "alternatives": [
-            { "en": "She has on a pink dress.", "ko": "'have on'도 입고 있다는 뜻의 구어 표현. 딸의 옷차림을 설명할 때 활용." },
-            { "en": "He's dressed in a blue shirt and grey pants.", "ko": "'dressed in ~'으로 전체 복장을 한 번에 설명하는 표현." }
+            {
+              "en": "She has on a pink dress.",
+              "ko": "'have on'도 입고 있다는 뜻의 구어 표현. 딸의 옷차림을 설명할 때 활용."
+            },
+            {
+              "en": "He's dressed in a blue shirt and grey pants.",
+              "ko": "'dressed in ~'으로 전체 복장을 한 번에 설명하는 표현."
+            }
           ]
         },
         {
           "en": "He's six years old.",
           "ko": "나이를 말할 때 'He is six.' 또는 'He is six years old.' 둘 다 자연스러움. 직원이 또래 아이를 식별하는 데 나이 정보는 매우 중요함.",
           "alternatives": [
-            { "en": "She just turned four.", "ko": "막 ~살이 됐다는 표현. 나이를 더 구체적으로 전달하고 싶을 때." },
-            { "en": "He's about seven, but small for his age.", "ko": "나이에 비해 작다는 추가 정보를 줄 때 유용한 표현." }
+            {
+              "en": "She just turned four.",
+              "ko": "막 ~살이 됐다는 표현. 나이를 더 구체적으로 전달하고 싶을 때."
+            },
+            {
+              "en": "He's about seven, but small for his age.",
+              "ko": "나이에 비해 작다는 추가 정보를 줄 때 유용한 표현."
+            }
           ]
         },
         {
           "en": "Short black hair.",
           "ko": "헤어스타일을 묘사할 때는 길이(short/long/medium) + 색깔(black/blonde/brown) + hair 순서로 말함. 특징적인 헤어스타일이 있다면 꼭 언급하자.",
           "alternatives": [
-            { "en": "Long curly blonde hair.", "ko": "긴 금발 곱슬머리를 묘사하는 표현. 순서는 길이+스타일+색깔+hair." },
-            { "en": "She's wearing her hair in a ponytail.", "ko": "머리 스타일(포니테일)을 설명하는 더 구체적인 표현." }
+            {
+              "en": "Long curly blonde hair.",
+              "ko": "긴 금발 곱슬머리를 묘사하는 표현. 순서는 길이+스타일+색깔+hair."
+            },
+            {
+              "en": "She's wearing her hair in a ponytail.",
+              "ko": "머리 스타일(포니테일)을 설명하는 더 구체적인 표현."
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch38_d03",
       "title": "마지막으로 본 장소 알려주기",
       "lines": [
-        { "speaker": "직원", "en": "Where exactly did you last see your child?", "ko": "아이를 마지막으로 본 곳이 정확히 어디인가요?" },
-        { "speaker": "나", "en": "I last saw her near the main entrance, by the souvenir shop.", "ko": "기념품 가게 옆 정문 근처에서 마지막으로 봤어요." },
-        { "speaker": "직원", "en": "And where were you at that time?", "ko": "그때 부모님은 어디 계셨나요?" },
-        { "speaker": "나", "en": "I was right next to her. She disappeared when I turned around.", "ko": "바로 옆에 있었어요. 제가 돌아서는 순간 사라졌어요." }
+        {
+          "speaker": "직원",
+          "en": "Where exactly did you last see your child?",
+          "ko": "아이를 마지막으로 본 곳이 정확히 어디인가요?"
+        },
+        {
+          "speaker": "나",
+          "en": "I last saw her near the main entrance, by the souvenir shop.",
+          "ko": "기념품 가게 옆 정문 근처에서 마지막으로 봤어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "And where were you at that time?",
+          "ko": "그때 부모님은 어디 계셨나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "I was right next to her. She disappeared when I turned around.",
+          "ko": "바로 옆에 있었어요. 제가 돌아서는 순간 사라졌어요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I last saw her near the entrance.",
           "ko": "'I last saw ~'은 마지막으로 본 시점/장소를 설명하는 매우 유용한 패턴. 경찰이나 직원이 반드시 묻는 질문이므로 이 문형을 미리 익혀두자.",
           "alternatives": [
-            { "en": "The last time I saw him was at the food court.", "ko": "마지막으로 본 장소를 다른 어순으로 표현. 문장이 조금 더 명확함." },
-            { "en": "He was right here five minutes ago.", "ko": "장소 대신 '바로 여기'와 시간을 결합한 표현." }
+            {
+              "en": "The last time I saw him was at the food court.",
+              "ko": "마지막으로 본 장소를 다른 어순으로 표현. 문장이 조금 더 명확함."
+            },
+            {
+              "en": "He was right here five minutes ago.",
+              "ko": "장소 대신 '바로 여기'와 시간을 결합한 표현."
+            }
           ]
         },
         {
           "en": "She disappeared when I turned around.",
           "ko": "언제 사라졌는지 동작과 함께 설명하는 표현. 'when I ~'을 사용해 사라진 순간의 상황을 전달함. 직원이 상황을 파악하는 데 중요한 맥락을 제공.",
           "alternatives": [
-            { "en": "He wandered off while I was paying.", "ko": "계산하는 동안 아이가 돌아다니다 사라진 상황을 설명하는 표현." },
-            { "en": "I only looked away for a second.", "ko": "잠깐 눈을 돌린 사이 사라졌다는 표현. 부모 입장에서 자주 쓰는 말." }
+            {
+              "en": "He wandered off while I was paying.",
+              "ko": "계산하는 동안 아이가 돌아다니다 사라진 상황을 설명하는 표현."
+            },
+            {
+              "en": "I only looked away for a second.",
+              "ko": "잠깐 눈을 돌린 사이 사라졌다는 표현. 부모 입장에서 자주 쓰는 말."
+            }
           ]
         },
         {
           "en": "By the souvenir shop.",
           "ko": "'by'는 '~옆에, ~근처에'라는 뜻으로 위치를 설명할 때 자주 씀. near보다 약간 더 가까이 붙어 있는 느낌. 주변 랜드마크와 함께 쓰면 더 정확한 위치 파악이 가능.",
           "alternatives": [
-            { "en": "Near the information desk.", "ko": "안내 데스크 근처라는 표현. 건물 내 주요 지점을 기준으로 위치를 설명할 때 유용." },
-            { "en": "Right outside the restroom.", "ko": "화장실 바로 밖이라는 표현. 구체적인 장소 기준으로 위치를 설명하는 패턴." }
+            {
+              "en": "Near the information desk.",
+              "ko": "안내 데스크 근처라는 표현. 건물 내 주요 지점을 기준으로 위치를 설명할 때 유용."
+            },
+            {
+              "en": "Right outside the restroom.",
+              "ko": "화장실 바로 밖이라는 표현. 구체적인 장소 기준으로 위치를 설명하는 패턴."
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch38_d04",
       "title": "안내방송 요청하기",
       "lines": [
-        { "speaker": "나", "en": "Could you make an announcement over the PA system?", "ko": "안내방송을 해주실 수 있나요?" },
-        { "speaker": "직원", "en": "Of course. What would you like us to say?", "ko": "물론이죠. 어떤 내용을 방송할까요?" },
-        { "speaker": "나", "en": "Please say that a six-year-old boy named Minjun is missing and his parents are at the information desk.", "ko": "6살 민준이라는 아이가 실종되었으며 부모가 안내 데스크에 있다고 해주세요." },
-        { "speaker": "직원", "en": "Understood. We'll broadcast it immediately.", "ko": "알겠습니다. 즉시 방송하겠습니다." }
+        {
+          "speaker": "나",
+          "en": "Could you make an announcement over the PA system?",
+          "ko": "안내방송을 해주실 수 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Of course. What would you like us to say?",
+          "ko": "물론이죠. 어떤 내용을 방송할까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Please say that a six-year-old boy named Minjun is missing and his parents are at the information desk.",
+          "ko": "6살 민준이라는 아이가 실종되었으며 부모가 안내 데스크에 있다고 해주세요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Understood. We'll broadcast it immediately.",
+          "ko": "알겠습니다. 즉시 방송하겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Could you make an announcement?",
           "ko": "안내방송을 요청하는 핵심 표현. 'over the PA system(공내 방송)'을 덧붙이면 더 명확함. 'PA'는 Public Address의 약자. 쇼핑몰·테마파크·공항 등 어디서나 쓸 수 있음.",
           "alternatives": [
-            { "en": "Can you broadcast a missing child alert?", "ko": "미아 방송을 직접 언급하는 더 구체적인 요청." },
-            { "en": "Please use the intercom to call for my child.", "ko": "intercom(구내 방송)을 사용해달라는 표현. 소규모 매장에서 사용하기 적합." }
+            {
+              "en": "Can you broadcast a missing child alert?",
+              "ko": "미아 방송을 직접 언급하는 더 구체적인 요청."
+            },
+            {
+              "en": "Please use the intercom to call for my child.",
+              "ko": "intercom(구내 방송)을 사용해달라는 표현. 소규모 매장에서 사용하기 적합."
+            }
           ]
         },
         {
           "en": "A six-year-old boy named Minjun is missing.",
           "ko": "방송 내용을 전달할 때 나이+성별+이름+missing 순서로 말하면 명확함. 'named ~'는 '~라는 이름의'라는 뜻. 아이 이름과 특징을 미리 정리해두면 당황하지 않고 전달할 수 있음.",
           "alternatives": [
-            { "en": "My daughter, age four, named Soyeon, is lost.", "ko": "딸의 경우를 예시로 든 표현. 'is lost'도 'is missing'과 같은 뜻으로 쓸 수 있음." },
-            { "en": "We're looking for a child named Junho, about seven years old.", "ko": "'we're looking for'를 사용해 찾고 있다는 상황을 전달하는 표현." }
+            {
+              "en": "My daughter, age four, named Soyeon, is lost.",
+              "ko": "딸의 경우를 예시로 든 표현. 'is lost'도 'is missing'과 같은 뜻으로 쓸 수 있음."
+            },
+            {
+              "en": "We're looking for a child named Junho, about seven years old.",
+              "ko": "'we're looking for'를 사용해 찾고 있다는 상황을 전달하는 표현."
+            }
           ]
         },
         {
           "en": "His parents are at the information desk.",
           "ko": "아이가 방송을 들었을 때 어디로 와야 하는지 알 수 있도록 부모 위치를 반드시 알려줘야 함. 'information desk' 대신 실제 집합 장소를 말하면 됨.",
           "alternatives": [
-            { "en": "Please ask the child to go to the main entrance.", "ko": "아이에게 정문으로 오라고 안내하는 내용을 방송에 포함시키는 표현." },
-            { "en": "The mother is waiting near the customer service counter.", "ko": "아버지 대신 어머니가 기다리는 경우의 표현. 위치를 구체적으로 알려줌." }
+            {
+              "en": "Please ask the child to go to the main entrance.",
+              "ko": "아이에게 정문으로 오라고 안내하는 내용을 방송에 포함시키는 표현."
+            },
+            {
+              "en": "The mother is waiting near the customer service counter.",
+              "ko": "아버지 대신 어머니가 기다리는 경우의 표현. 위치를 구체적으로 알려줌."
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch38_d05",
       "title": "집합 장소 정하기",
       "lines": [
-        { "speaker": "나", "en": "If we get separated, where should we meet?", "ko": "우리가 헤어지면 어디서 만나야 할까요?" },
-        { "speaker": "직원", "en": "Our meeting point for lost children is right here at the information desk.", "ko": "미아를 위한 집합 장소는 바로 여기 안내 데스크입니다." },
-        { "speaker": "나", "en": "Good. And if I find him first, should I bring him here?", "ko": "좋아요. 제가 먼저 찾으면 여기로 데려와야 하나요?" },
-        { "speaker": "직원", "en": "Yes, please bring him to us, or call this number right away.", "ko": "네, 저희에게 데려오시거나 이 번호로 바로 연락 주세요." }
+        {
+          "speaker": "나",
+          "en": "If we get separated, where should we meet?",
+          "ko": "우리가 헤어지면 어디서 만나야 할까요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Our meeting point for lost children is right here at the information desk.",
+          "ko": "미아를 위한 집합 장소는 바로 여기 안내 데스크입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Good. And if I find him first, should I bring him here?",
+          "ko": "좋아요. 제가 먼저 찾으면 여기로 데려와야 하나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, please bring him to us, or call this number right away.",
+          "ko": "네, 저희에게 데려오시거나 이 번호로 바로 연락 주세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Where is the meeting point?",
           "ko": "집합 장소를 묻는 핵심 표현. 'meeting point'는 약속된 만남의 장소를 뜻하며 테마파크·쇼핑몰 등에서 공식적으로 사용하는 용어. 'rendezvous point'도 같은 뜻이지만 더 격식체.",
           "alternatives": [
-            { "en": "Where should we go if we get separated?", "ko": "헤어지면 어디로 가야 하는지 묻는 더 구체적인 표현." },
-            { "en": "Is there a designated spot for lost children?", "ko": "미아를 위한 지정 장소가 있는지 묻는 표현." }
+            {
+              "en": "Where should we go if we get separated?",
+              "ko": "헤어지면 어디로 가야 하는지 묻는 더 구체적인 표현."
+            },
+            {
+              "en": "Is there a designated spot for lost children?",
+              "ko": "미아를 위한 지정 장소가 있는지 묻는 표현."
+            }
           ]
         },
         {
           "en": "If we get separated.",
           "ko": "'get separated'는 서로 헤어지게 되다는 표현. 여행 중 가족에게 미리 집합 장소를 정할 때 쓰기 좋은 표현. 'in case we get separated'라고 하면 '혹시 헤어지게 될 경우를 대비해'라는 뜻이 됨.",
           "alternatives": [
-            { "en": "In case we lose each other.", "ko": "서로를 잃어버릴 경우를 대비해라는 표현. 'lose each other'는 서로 헤어지다는 뜻." },
-            { "en": "If you can't find me.", "ko": "아이에게 직접 '나를 찾을 수 없으면'이라고 알려주는 상황에서 쓰는 표현." }
+            {
+              "en": "In case we lose each other.",
+              "ko": "서로를 잃어버릴 경우를 대비해라는 표현. 'lose each other'는 서로 헤어지다는 뜻."
+            },
+            {
+              "en": "If you can't find me.",
+              "ko": "아이에게 직접 '나를 찾을 수 없으면'이라고 알려주는 상황에서 쓰는 표현."
+            }
           ]
         },
         {
           "en": "The meeting point is at the information desk.",
           "ko": "집합 장소를 알려줄 때 쓰는 표현. 'at the information desk(안내 데스크에서)', 'at the main gate(정문에서)', 'at the entrance(입구에서)' 등으로 위치를 구체화함.",
           "alternatives": [
-            { "en": "Let's meet at the main entrance if we get split up.", "ko": "혹시 헤어지면 정문에서 만나자는 표현. 여행 전 가족에게 미리 공유할 때 유용." },
-            { "en": "Our lost-child station is near the food court.", "ko": "미아 지원 스테이션 위치를 알려주는 표현. 대형 테마파크에서 자주 사용." }
+            {
+              "en": "Let's meet at the main entrance if we get split up.",
+              "ko": "혹시 헤어지면 정문에서 만나자는 표현. 여행 전 가족에게 미리 공유할 때 유용."
+            },
+            {
+              "en": "Our lost-child station is near the food court.",
+              "ko": "미아 지원 스테이션 위치를 알려주는 표현. 대형 테마파크에서 자주 사용."
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch38_d06",
       "title": "경비·직원에게 도움 요청하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, are you a security guard? I need your help urgently.", "ko": "실례합니다, 경비원이신가요? 급하게 도움이 필요합니다." },
-        { "speaker": "경비", "en": "Yes, what's the matter?", "ko": "네, 무슨 일이세요?" },
-        { "speaker": "나", "en": "My daughter is missing. She's four years old with pigtails and a yellow coat.", "ko": "딸아이를 잃어버렸어요. 네 살이고 양갈래 머리에 노란 코트를 입고 있어요." },
-        { "speaker": "경비", "en": "I'll radio the other guards. Please come with me to the security office.", "ko": "다른 경비원들에게 무전하겠습니다. 경비실로 함께 오시겠어요?" }
+        {
+          "speaker": "나",
+          "en": "Excuse me, are you a security guard? I need your help urgently.",
+          "ko": "실례합니다, 경비원이신가요? 급하게 도움이 필요합니다."
+        },
+        {
+          "speaker": "경비",
+          "en": "Yes, what's the matter?",
+          "ko": "네, 무슨 일이세요?"
+        },
+        {
+          "speaker": "나",
+          "en": "My daughter is missing. She's four years old with pigtails and a yellow coat.",
+          "ko": "딸아이를 잃어버렸어요. 네 살이고 양갈래 머리에 노란 코트를 입고 있어요."
+        },
+        {
+          "speaker": "경비",
+          "en": "I'll radio the other guards. Please come with me to the security office.",
+          "ko": "다른 경비원들에게 무전하겠습니다. 경비실로 함께 오시겠어요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "I need your help urgently.",
           "ko": "긴급하게 도움을 요청하는 표현. 'urgently'를 붙여 상황의 긴박함을 강조함. 'I need help!'만 외쳐도 되지만 urgently를 추가하면 즉각적인 반응을 이끌어낼 수 있음.",
           "alternatives": [
-            { "en": "Please help me — it's an emergency.", "ko": "비상 상황임을 직접 밝히며 도움을 요청하는 표현." },
-            { "en": "Can you help me? My child is missing.", "ko": "도움을 구하며 바로 상황을 설명하는 간결한 표현." }
+            {
+              "en": "Please help me — it's an emergency.",
+              "ko": "비상 상황임을 직접 밝히며 도움을 요청하는 표현."
+            },
+            {
+              "en": "Can you help me? My child is missing.",
+              "ko": "도움을 구하며 바로 상황을 설명하는 간결한 표현."
+            }
           ]
         },
         {
           "en": "Are you a security guard?",
           "ko": "경비원인지 확인하는 표현. 유니폼을 입지 않은 경우 확인이 필요할 때 씀. 'security guard', 'security officer', 'staff member' 모두 직원을 부를 때 쓸 수 있음.",
           "alternatives": [
-            { "en": "Excuse me, do you work here?", "ko": "이곳 직원인지 확인하는 가장 간단한 표현." },
-            { "en": "Can I speak to a manager or security?", "ko": "관리자나 경비원과 이야기하고 싶다고 요청하는 표현." }
+            {
+              "en": "Excuse me, do you work here?",
+              "ko": "이곳 직원인지 확인하는 가장 간단한 표현."
+            },
+            {
+              "en": "Can I speak to a manager or security?",
+              "ko": "관리자나 경비원과 이야기하고 싶다고 요청하는 표현."
+            }
           ]
         },
         {
           "en": "She's wearing pigtails and a yellow coat.",
           "ko": "'pigtails'는 양갈래로 묶은 헤어스타일을 의미. 헤어스타일과 옷을 함께 설명하면 식별이 훨씬 빠름. 인상착의를 설명할 때는 가장 눈에 띄는 특징부터 말하자.",
           "alternatives": [
-            { "en": "He has a distinctive Spider-Man backpack.", "ko": "눈에 잘 띄는 가방이나 소품을 언급하는 표현. 색깔이 독특한 소지품은 식별에 큰 도움이 됨." },
-            { "en": "She's small with curly hair and a pink hat.", "ko": "체형과 헤어, 모자를 함께 묘사하는 표현." }
+            {
+              "en": "He has a distinctive Spider-Man backpack.",
+              "ko": "눈에 잘 띄는 가방이나 소품을 언급하는 표현. 색깔이 독특한 소지품은 식별에 큰 도움이 됨."
+            },
+            {
+              "en": "She's small with curly hair and a pink hat.",
+              "ko": "체형과 헤어, 모자를 함께 묘사하는 표현."
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch38_d07",
       "title": "아이에게 가르칠 말",
       "lines": [
-        { "speaker": "나", "en": "Can you teach my son what to say if he gets lost?", "ko": "아이가 길을 잃으면 뭐라고 해야 하는지 가르쳐 주시겠어요?" },
-        { "speaker": "직원", "en": "Of course. Tell him to say: 'I'm lost. Where is the help desk?'", "ko": "물론이죠. '저는 길을 잃었어요. 안내 데스크가 어디에 있나요?'라고 말하도록 가르쳐 주세요." },
-        { "speaker": "나", "en": "And should he look for a staff member?", "ko": "직원을 찾아야 하나요?" },
-        { "speaker": "직원", "en": "Yes, tell him to find someone in a uniform and say those words.", "ko": "네, 유니폼을 입은 사람을 찾아서 그 말을 하라고 알려주세요." }
+        {
+          "speaker": "나",
+          "en": "Can you teach my son what to say if he gets lost?",
+          "ko": "아이가 길을 잃으면 뭐라고 해야 하는지 가르쳐 주시겠어요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Of course. Tell him to say: 'I'm lost. Where is the help desk?'",
+          "ko": "물론이죠. '저는 길을 잃었어요. 안내 데스크가 어디에 있나요?'라고 말하도록 가르쳐 주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "And should he look for a staff member?",
+          "ko": "직원을 찾아야 하나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, tell him to find someone in a uniform and say those words.",
+          "ko": "네, 유니폼을 입은 사람을 찾아서 그 말을 하라고 알려주세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'm lost.",
           "ko": "아이가 스스로 길을 잃었다고 알릴 수 있는 가장 간단한 표현. 여행 전 아이에게 이 문장만큼은 반드시 가르쳐두자. 'I can't find my mom/dad.'와 함께 쓰면 더 효과적.",
           "alternatives": [
-            { "en": "I can't find my mom.", "ko": "엄마를 찾지 못하겠다는 표현. 아이가 부모 역할을 명확히 할 수 있음." },
-            { "en": "I need help. I'm separated from my family.", "ko": "가족과 헤어졌다는 것을 알리며 도움을 요청하는 표현. 좀 더 나이 든 아이에게 가르칠 수 있음." }
+            {
+              "en": "I can't find my mom.",
+              "ko": "엄마를 찾지 못하겠다는 표현. 아이가 부모 역할을 명확히 할 수 있음."
+            },
+            {
+              "en": "I need help. I'm separated from my family.",
+              "ko": "가족과 헤어졌다는 것을 알리며 도움을 요청하는 표현. 좀 더 나이 든 아이에게 가르칠 수 있음."
+            }
           ]
         },
         {
           "en": "Where is the help desk?",
           "ko": "도움을 받을 수 있는 장소를 묻는 표현. 'help desk', 'information desk', 'customer service'는 모두 도움을 요청할 수 있는 장소를 뜻함. 어린 아이에게 가장 짧고 기억하기 쉬운 표현을 가르치자.",
           "alternatives": [
-            { "en": "Can you help me find my parents?", "ko": "부모를 찾아달라고 직접 요청하는 표현. 조금 더 나이 든 아이에게 적합." },
-            { "en": "Please take me to the information desk.", "ko": "안내 데스크로 데려가달라는 표현. 아이가 혼자 이동하기 어려울 때 유용." }
+            {
+              "en": "Can you help me find my parents?",
+              "ko": "부모를 찾아달라고 직접 요청하는 표현. 조금 더 나이 든 아이에게 적합."
+            },
+            {
+              "en": "Please take me to the information desk.",
+              "ko": "안내 데스크로 데려가달라는 표현. 아이가 혼자 이동하기 어려울 때 유용."
+            }
           ]
         },
         {
           "en": "Find someone in a uniform.",
           "ko": "아이에게 유니폼 입은 직원을 찾으라고 가르칠 때 쓰는 표현. 낯선 사람 대신 직원에게 도움을 구하도록 미리 교육해두는 것이 안전함.",
           "alternatives": [
-            { "en": "Look for a police officer or a store employee.", "ko": "경찰관이나 직원을 찾으라는 더 구체적인 표현." },
-            { "en": "Go to the nearest shop and ask the person behind the counter.", "ko": "계산대 뒤에 있는 직원에게 가라는 더 상세한 안전 지침." }
+            {
+              "en": "Look for a police officer or a store employee.",
+              "ko": "경찰관이나 직원을 찾으라는 더 구체적인 표현."
+            },
+            {
+              "en": "Go to the nearest shop and ask the person behind the counter.",
+              "ko": "계산대 뒤에 있는 직원에게 가라는 더 상세한 안전 지침."
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch38_d08",
       "title": "연락처 카드 활용하기",
       "lines": [
-        { "speaker": "나", "en": "I have a card with my phone number for my child to show if she gets lost.", "ko": "아이가 길을 잃으면 보여줄 수 있도록 제 전화번호가 적힌 카드가 있어요." },
-        { "speaker": "직원", "en": "That's very smart. Does the child have it with her?", "ko": "정말 좋은 방법이네요. 아이가 지금 갖고 있나요?" },
-        { "speaker": "나", "en": "Yes, it's in her jacket pocket. It says 'Please call my mom' in English.", "ko": "네, 재킷 주머니에 있어요. '엄마에게 전화해 주세요'라고 영어로 적혀 있어요." },
-        { "speaker": "직원", "en": "Good. If anyone finds her, they'll know exactly what to do.", "ko": "잘됐네요. 누군가 아이를 발견하면 어떻게 해야 할지 바로 알 수 있겠네요." }
+        {
+          "speaker": "나",
+          "en": "I have a card with my phone number for my child to show if she gets lost.",
+          "ko": "아이가 길을 잃으면 보여줄 수 있도록 제 전화번호가 적힌 카드가 있어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "That's very smart. Does the child have it with her?",
+          "ko": "정말 좋은 방법이네요. 아이가 지금 갖고 있나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Yes, it's in her jacket pocket. It says 'Please call my mom' in English.",
+          "ko": "네, 재킷 주머니에 있어요. '엄마에게 전화해 주세요'라고 영어로 적혀 있어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Good. If anyone finds her, they'll know exactly what to do.",
+          "ko": "잘됐네요. 누군가 아이를 발견하면 어떻게 해야 할지 바로 알 수 있겠네요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "A card with my phone number.",
           "ko": "전화번호가 적힌 카드. 영어권 여행 시 'Please call this number if found'라고 영어로 적은 카드를 아이 주머니에 넣어두면 매우 효과적. 부모 이름과 숙소 정보도 함께 적으면 더 좋음.",
           "alternatives": [
-            { "en": "A note with my contact information.", "ko": "연락처가 적힌 쪽지라는 표현. card 대신 note를 써도 의미는 동일." },
-            { "en": "An ID bracelet with our hotel address.", "ko": "호텔 주소가 적힌 ID 팔찌라는 표현. 소지품보다 몸에 차는 방식을 활용하는 대안." }
+            {
+              "en": "A note with my contact information.",
+              "ko": "연락처가 적힌 쪽지라는 표현. card 대신 note를 써도 의미는 동일."
+            },
+            {
+              "en": "An ID bracelet with our hotel address.",
+              "ko": "호텔 주소가 적힌 ID 팔찌라는 표현. 소지품보다 몸에 차는 방식을 활용하는 대안."
+            }
           ]
         },
         {
           "en": "Please call my mom.",
           "ko": "카드에 적을 수 있는 가장 간단한 영어 문구. 'Please call this number'나 'Please help me find my parents'도 효과적. 전화번호는 국제 전화 형식(+82-10-...)으로 적어두자.",
           "alternatives": [
-            { "en": "Please call my dad at this number.", "ko": "아빠 전화번호로 연락해달라는 문구. 부모 중 더 연락 가능한 사람의 번호를 적자." },
-            { "en": "This child is lost. Please call: +82-10-XXXX-XXXX.", "ko": "카드에 적기 좋은 완전한 문구. 번호 앞에 국가 코드를 붙이는 것이 중요." }
+            {
+              "en": "Please call my dad at this number.",
+              "ko": "아빠 전화번호로 연락해달라는 문구. 부모 중 더 연락 가능한 사람의 번호를 적자."
+            },
+            {
+              "en": "This child is lost. Please call: +82-10-XXXX-XXXX.",
+              "ko": "카드에 적기 좋은 완전한 문구. 번호 앞에 국가 코드를 붙이는 것이 중요."
+            }
           ]
         },
         {
           "en": "It's in her jacket pocket.",
           "ko": "물건의 위치를 설명할 때 'in the ~ pocket'을 사용. 직원이 아이를 발견했을 때 카드를 찾는 위치를 알려주는 데 유용한 표현.",
           "alternatives": [
-            { "en": "It's tucked into his shoe.", "ko": "신발 안에 넣어뒀다는 표현. 잃어버리기 어려운 위치에 보관하는 방법." },
-            { "en": "She's wearing a wristband with my number on it.", "ko": "번호가 적힌 손목밴드를 차고 있다는 표현. 실용적인 대안 방법." }
+            {
+              "en": "It's tucked into his shoe.",
+              "ko": "신발 안에 넣어뒀다는 표현. 잃어버리기 어려운 위치에 보관하는 방법."
+            },
+            {
+              "en": "She's wearing a wristband with my number on it.",
+              "ko": "번호가 적힌 손목밴드를 차고 있다는 표현. 실용적인 대안 방법."
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch38_d09",
       "title": "아이 발견 알림",
       "lines": [
-        { "speaker": "직원", "en": "Excuse me, we found her! She's safe at the information desk.", "ko": "실례합니다, 아이를 찾았습니다! 안내 데스크에서 안전하게 있습니다." },
-        { "speaker": "나", "en": "Oh, thank goodness! We found her!", "ko": "오, 정말 다행이에요! 찾았어요!" },
-        { "speaker": "직원", "en": "She's fine. A staff member found her near the restrooms.", "ko": "아이는 괜찮아요. 직원이 화장실 근처에서 발견했습니다." },
-        { "speaker": "나", "en": "I'm so relieved. Is she okay? Is she crying?", "ko": "정말 안심이에요. 괜찮은가요? 울고 있나요?" }
+        {
+          "speaker": "직원",
+          "en": "Excuse me, we found her! She's safe at the information desk.",
+          "ko": "실례합니다, 아이를 찾았습니다! 안내 데스크에서 안전하게 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Oh, thank goodness! We found her!",
+          "ko": "오, 정말 다행이에요! 찾았어요!"
+        },
+        {
+          "speaker": "직원",
+          "en": "She's fine. A staff member found her near the restrooms.",
+          "ko": "아이는 괜찮아요. 직원이 화장실 근처에서 발견했습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "I'm so relieved. Is she okay? Is she crying?",
+          "ko": "정말 안심이에요. 괜찮은가요? 울고 있나요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "We found her!",
           "ko": "아이를 찾았다는 기쁜 소식을 전할 때 쓰는 표현. 'found'는 find의 과거형. 반대로 부모에게 알릴 때 직원도 이 표현을 씀. 'She's been found!'는 수동태 형식의 같은 의미.",
           "alternatives": [
-            { "en": "He's been located!", "ko": "locate(위치를 파악하다)를 사용한 표현. 더 격식체로 공식 방송에서 쓰일 수 있음." },
-            { "en": "Your son has been found safe and sound.", "ko": "'safe and sound'는 '무사히, 안전하게'라는 표현으로 안심시키는 뉘앙스 추가." }
+            {
+              "en": "He's been located!",
+              "ko": "locate(위치를 파악하다)를 사용한 표현. 더 격식체로 공식 방송에서 쓰일 수 있음."
+            },
+            {
+              "en": "Your son has been found safe and sound.",
+              "ko": "'safe and sound'는 '무사히, 안전하게'라는 표현으로 안심시키는 뉘앙스 추가."
+            }
           ]
         },
         {
           "en": "Thank goodness!",
           "ko": "안도와 감사의 감탄사. 'Thank God!'과 비슷하지만 'Thank goodness!'가 더 중립적이고 광범위하게 쓰임. 극도의 안도감을 표현할 때 자연스럽게 나오는 표현.",
           "alternatives": [
-            { "en": "What a relief!", "ko": "정말 다행이다, 안도된다는 표현. 한국어 '휴~'에 해당하는 감탄사." },
-            { "en": "Oh, I'm so relieved!", "ko": "안도감을 더 직접적으로 표현하는 방법." }
+            {
+              "en": "What a relief!",
+              "ko": "정말 다행이다, 안도된다는 표현. 한국어 '휴~'에 해당하는 감탄사."
+            },
+            {
+              "en": "Oh, I'm so relieved!",
+              "ko": "안도감을 더 직접적으로 표현하는 방법."
+            }
           ]
         },
         {
           "en": "She's safe.",
           "ko": "아이가 안전하다는 것을 알릴 때 쓰는 간단하고 명확한 표현. 'safe and sound(무사히)', 'unharmed(다치지 않은)', 'okay(괜찮은)' 등으로도 표현 가능.",
           "alternatives": [
-            { "en": "He's doing fine.", "ko": "잘 있다, 괜찮다는 표현. 걱정하는 부모를 안심시킬 때 자주 씀." },
-            { "en": "She's a little shaken but physically okay.", "ko": "다소 놀랐지만 신체적으로는 이상 없다는 더 구체적인 표현." }
+            {
+              "en": "He's doing fine.",
+              "ko": "잘 있다, 괜찮다는 표현. 걱정하는 부모를 안심시킬 때 자주 씀."
+            },
+            {
+              "en": "She's a little shaken but physically okay.",
+              "ko": "다소 놀랐지만 신체적으로는 이상 없다는 더 구체적인 표현."
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch38_d10",
       "title": "감사 인사 전하기",
       "lines": [
-        { "speaker": "나", "en": "Thank you so much for all your help. I'm incredibly grateful.", "ko": "도와주셔서 정말 감사합니다. 정말 고마워요." },
-        { "speaker": "직원", "en": "We're just glad she's safe. That's what we're here for.", "ko": "아이가 안전해서 저희도 기뻐요. 그러려고 있는 거죠." },
-        { "speaker": "나", "en": "You and your team were so efficient. You found her within minutes.", "ko": "직원분들 모두 정말 빠르게 움직여 주셨어요. 몇 분 만에 찾아주셨잖아요." },
-        { "speaker": "직원", "en": "Happy to help. Please make sure to set a meeting point before entering next time.", "ko": "도움이 돼서 기뻐요. 다음번에는 입장 전에 집합 장소를 미리 정해두시기 바랍니다." }
+        {
+          "speaker": "나",
+          "en": "Thank you so much for all your help. I'm incredibly grateful.",
+          "ko": "도와주셔서 정말 감사합니다. 정말 고마워요."
+        },
+        {
+          "speaker": "직원",
+          "en": "We're just glad she's safe. That's what we're here for.",
+          "ko": "아이가 안전해서 저희도 기뻐요. 그러려고 있는 거죠."
+        },
+        {
+          "speaker": "나",
+          "en": "You and your team were so efficient. You found her within minutes.",
+          "ko": "직원분들 모두 정말 빠르게 움직여 주셨어요. 몇 분 만에 찾아주셨잖아요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Happy to help. Please make sure to set a meeting point before entering next time.",
+          "ko": "도움이 돼서 기뻐요. 다음번에는 입장 전에 집합 장소를 미리 정해두시기 바랍니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'm incredibly grateful.",
           "ko": "'grateful'은 고마움을 느끼는 감사의 형용사. 'thankful'과 비슷하지만 'grateful'이 더 깊은 감사를 나타냄. 'incredibly(믿을 수 없을 정도로)'를 붙여 강조할 수 있음.",
           "alternatives": [
-            { "en": "I can't thank you enough.", "ko": "아무리 감사해도 부족하다는 표현. 진심 어린 감사를 전할 때 매우 자연스러운 표현." },
-            { "en": "You have no idea how much this means to me.", "ko": "이것이 나에게 얼마나 큰 의미인지 모를 거라는 감사의 표현." }
+            {
+              "en": "I can't thank you enough.",
+              "ko": "아무리 감사해도 부족하다는 표현. 진심 어린 감사를 전할 때 매우 자연스러운 표현."
+            },
+            {
+              "en": "You have no idea how much this means to me.",
+              "ko": "이것이 나에게 얼마나 큰 의미인지 모를 거라는 감사의 표현."
+            }
           ]
         },
         {
           "en": "That's what we're here for.",
           "ko": "직원이 자주 쓰는 표현으로 '그러려고 여기 있는 거예요'라는 뜻. 도움을 베풀었을 때 겸손하게 응대하는 전형적인 서비스 표현. 감사를 받을 때 자연스럽게 쓸 수 있음.",
           "alternatives": [
-            { "en": "It's our pleasure.", "ko": "저희도 기쁘다는 서비스 표현. 'My pleasure.'보다 팀 전체를 포함하는 뉘앙스." },
-            { "en": "We're glad we could help.", "ko": "도울 수 있어서 기쁘다는 표현. 상대방의 안도감에 공감하는 뉘앙스가 담김." }
+            {
+              "en": "It's our pleasure.",
+              "ko": "저희도 기쁘다는 서비스 표현. 'My pleasure.'보다 팀 전체를 포함하는 뉘앙스."
+            },
+            {
+              "en": "We're glad we could help.",
+              "ko": "도울 수 있어서 기쁘다는 표현. 상대방의 안도감에 공감하는 뉘앙스가 담김."
+            }
           ]
         },
         {
           "en": "Please make sure to set a meeting point.",
           "ko": "향후 예방을 위한 조언. 'make sure to ~'는 반드시 ~하세요라는 강한 권유. 여행 전 아이와 함께 집합 장소를 미리 약속해두는 것이 미아 사고를 예방하는 가장 효과적인 방법.",
           "alternatives": [
-            { "en": "It's a good idea to agree on a meeting spot beforehand.", "ko": "미리 집합 장소를 정해두는 것이 좋다는 조언을 부드럽게 전하는 표현." },
-            { "en": "Consider giving your child a contact card.", "ko": "연락처 카드를 아이에게 줄 것을 제안하는 표현. 미아 예방 팁으로 유용." }
+            {
+              "en": "It's a good idea to agree on a meeting spot beforehand.",
+              "ko": "미리 집합 장소를 정해두는 것이 좋다는 조언을 부드럽게 전하는 표현."
+            },
+            {
+              "en": "Consider giving your child a contact card.",
+              "ko": "연락처 카드를 아이에게 줄 것을 제안하는 표현. 미아 예방 팁으로 유용."
+            }
           ]
         }
       ]
@@ -525,6 +865,1473 @@
           "question": "'Thank goodness!'는 안도나 감사의 감탄사로 쓸 수 있다.",
           "answerIndex": 0,
           "explanation": "참입니다. 'Thank goodness!'는 극도의 안도감이나 다행스러움을 표현하는 감탄사입니다. 아이를 찾았을 때처럼 긴장이 풀리는 순간 자연스럽게 나오는 표현으로, 'What a relief!'나 'I'm so relieved!'와 함께 자주 쓰입니다."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch38_set02_001",
+          "type": "multiple_choice",
+          "question": "아이를 잃어버렸을 때 직원에게 상황을 즉각 알리는 가장 효과적인 표현은?",
+          "options": [
+            "My child is missing!",
+            "I cannot see my child right now.",
+            "Have you noticed a small kid around here?",
+            "My child went somewhere a moment ago."
+          ],
+          "answerIndex": 0,
+          "explanation": "'My child is missing!'은 현재 아이가 없어진 상태를 가장 긴박하게 전달합니다. 나머지 표현들은 상황을 설명하지만 즉각적인 미아 대응을 끌어내기 어렵습니다."
+        },
+        {
+          "id": "se_ch38_set02_002",
+          "type": "multiple_choice",
+          "question": "아이가 현재 파란 재킷을 입고 있다고 설명하려 할 때 올바른 표현은?",
+          "options": [
+            "She's wearing a blue jacket.",
+            "She wears a blue jacket.",
+            "She is blue jacket.",
+            "She has a blue jacket wearing."
+          ],
+          "answerIndex": 0,
+          "explanation": "현재 입고 있는 상태를 나타낼 때는 'is wearing'을 사용합니다. 'wears'는 습관적으로 입는다는 뜻이라 실종 신고 상황에 적합하지 않습니다."
+        },
+        {
+          "id": "se_ch38_set02_003",
+          "type": "multiple_choice",
+          "question": "아이를 마지막으로 본 시간을 알릴 때 가장 자연스러운 표현은?",
+          "options": [
+            "About ten minutes ago.",
+            "Ten minutes before now.",
+            "Since ten minutes.",
+            "Ten minutes past."
+          ],
+          "answerIndex": 0,
+          "explanation": "'About ten minutes ago'는 대략적인 과거 시점을 나타내는 표준 표현입니다. 'about'은 '약, 대략'의 의미로 정확한 시간을 모를 때 유용합니다."
+        },
+        {
+          "id": "se_ch38_set02_004",
+          "type": "multiple_choice",
+          "question": "안내방송을 요청할 때 'PA system'이 뜻하는 것은?",
+          "options": [
+            "공내 방송 시스템 (Public Address System)",
+            "개인 알림 시스템 (Personal Alert System)",
+            "경찰 안내 시스템 (Police Announcement System)",
+            "자동 방송 시스템 (Programmed Announcement System)"
+          ],
+          "answerIndex": 0,
+          "explanation": "'PA'는 Public Address의 약자로 쇼핑몰·테마파크·공항 등에서 쓰이는 공내 방송 시스템을 말합니다. 'Could you make an announcement over the PA system?'처럼 활용합니다."
+        },
+        {
+          "id": "se_ch38_set02_005",
+          "type": "multiple_choice",
+          "question": "가족과 헤어질 경우를 대비해 집합 장소를 미리 정할 때 쓸 수 있는 표현은?",
+          "options": [
+            "If we get separated, where should we meet?",
+            "When we lose, where is meeting?",
+            "Where do we go if lost children?",
+            "What is the place for losing each other?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'If we get separated'는 '혹시 헤어지게 되면'이라는 조건절로, 사전에 집합 장소를 정하는 상황에서 가장 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch38_set02_006",
+          "type": "multiple_choice",
+          "question": "아이에게 길을 잃었을 때 유니폼 입은 직원을 찾으라고 가르치는 표현으로 올바른 것은?",
+          "options": [
+            "Find someone in a uniform.",
+            "Search for uniform person.",
+            "Look the uniform people.",
+            "Find a person wears uniform."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Find someone in a uniform.'은 '유니폼을 입은 사람을 찾으라'는 명확한 지시 표현입니다. 낯선 사람 대신 직원에게 도움을 구하도록 아이에게 미리 가르쳐두는 것이 안전합니다."
+        },
+        {
+          "id": "se_ch38_set02_007",
+          "type": "multiple_choice",
+          "question": "아이 연락처 카드에 쓸 수 있는 가장 적절한 영어 문구는?",
+          "options": [
+            "Please call my mom at this number.",
+            "Call number for my mom please do.",
+            "My mom number, please calling.",
+            "Phone to my mom if you find me."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please call my mom at this number.'는 아이를 발견한 사람이 즉시 행동할 수 있도록 안내하는 명확한 문구입니다. 국제 전화 형식(+82-10-...)으로 번호를 함께 적어두면 더욱 효과적입니다."
+        },
+        {
+          "id": "se_ch38_set02_008",
+          "type": "multiple_choice",
+          "question": "아이를 찾았다는 소식을 들었을 때 안도감을 표현하는 자연스러운 말은?",
+          "options": [
+            "Thank goodness! What a relief!",
+            "Good. I knew it.",
+            "Okay, that is fine.",
+            "I expected this to happen."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Thank goodness!'와 'What a relief!'는 극도의 안도감을 표현하는 감탄사입니다. 아이를 찾았을 때처럼 긴장이 풀리는 순간 자연스럽게 나오는 표현입니다."
+        },
+        {
+          "id": "se_ch38_set02_009",
+          "type": "multiple_choice",
+          "question": "경비원에게 긴급하게 도움을 요청하는 표현으로 가장 적절한 것은?",
+          "options": [
+            "I need your help urgently.",
+            "Help me if you have time.",
+            "Could you maybe help?",
+            "Assistance would be nice."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need your help urgently.'에서 'urgently'는 상황의 긴박함을 강조합니다. 미아 상황에서는 즉각적인 대응이 필요하므로 urgency를 명확히 전달해야 합니다."
+        },
+        {
+          "id": "se_ch38_set02_010",
+          "type": "multiple_choice",
+          "question": "'She disappeared when I turned around.'에서 'when I turned around'의 의미는?",
+          "options": [
+            "내가 돌아서는 순간",
+            "내가 돌아온 후에",
+            "내가 돌아서기 전에",
+            "내가 돌아서지 않았을 때"
+          ],
+          "answerIndex": 0,
+          "explanation": "'when I turned around'는 '내가 돌아서는 그 순간에'라는 뜻으로, 아이가 사라진 정확한 시점을 설명합니다. 직원이 상황을 파악하는 데 중요한 맥락을 제공하는 표현입니다."
+        },
+        {
+          "id": "se_ch38_set02_011",
+          "type": "ox",
+          "question": "'He wears a blue jacket.'은 아이가 지금 파란 재킷을 입고 있다는 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'He wears a blue jacket.'은 습관적으로 파란 재킷을 입는다는 뜻입니다. 지금 입고 있는 상태를 말하려면 'He's wearing a blue jacket.'처럼 현재진행형을 써야 합니다."
+        },
+        {
+          "id": "se_ch38_set02_012",
+          "type": "ox",
+          "question": "'meeting point'는 미아 상황에서 가족이 다시 만나기로 약속한 집합 장소를 의미한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'meeting point'는 약속된 만남의 장소를 뜻하는 공식 용어로, 테마파크·쇼핑몰 등에서 직원이 바로 이해하는 표현입니다."
+        },
+        {
+          "id": "se_ch38_set02_013",
+          "type": "ox",
+          "question": "아이 주머니에 부모 전화번호가 적힌 카드를 넣어두는 것은 미아 예방에 효과적인 방법이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Please call my mom'과 같은 문구와 국제 전화번호를 적은 카드를 아이 주머니에 넣어두면, 아이를 발견한 사람이 즉시 부모에게 연락할 수 있어 매우 효과적입니다."
+        },
+        {
+          "id": "se_ch38_set02_014",
+          "type": "ox",
+          "question": "'I can't thank you enough.'는 감사함을 표현하기 어렵다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'I can't thank you enough.'는 '아무리 감사해도 모자라다'는 뜻으로 극도의 감사를 표현하는 관용 표현입니다. 직역과 실제 의미가 다른 관용구입니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch38_set03_001",
+          "type": "multiple_choice",
+          "question": "쇼핑몰에서 아들이 보이지 않아 직원에게 도움을 요청하려 합니다. 가장 적절한 첫 마디는?",
+          "options": [
+            "I can't find my son!",
+            "My son is not with me.",
+            "I think my son walked away.",
+            "My son might be somewhere."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I can't find my son!'은 현재 찾고 있는 긴박한 상황을 전달합니다. 나머지 표현들은 상황을 설명하지만 즉각적인 도움을 유도하기에는 덜 긴박합니다."
+        },
+        {
+          "id": "se_ch38_set03_002",
+          "type": "multiple_choice",
+          "question": "아들이 여덟 살이라고 설명하는 올바른 영어 표현은?",
+          "options": [
+            "He's eight years old.",
+            "He has eight years.",
+            "His age is eight years old.",
+            "He is aged of eight."
+          ],
+          "answerIndex": 0,
+          "explanation": "'He's eight years old.' 또는 'He is eight.'이 가장 자연스러운 나이 표현입니다. 'He has eight years.'는 영어에서 틀린 표현이며, 나머지도 어색합니다."
+        },
+        {
+          "id": "se_ch38_set03_003",
+          "type": "multiple_choice",
+          "question": "아이를 마지막으로 본 장소를 설명하는 올바른 표현은?",
+          "options": [
+            "The last time I saw him was at the food court.",
+            "I last see him at the food court.",
+            "Him was last at food court by me.",
+            "Last I was seeing him food court."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The last time I saw him was at ~'는 마지막으로 본 장소를 명확하게 전달하는 올바른 구조입니다. 'saw'는 see의 과거형으로 과거 사실을 나타냅니다."
+        },
+        {
+          "id": "se_ch38_set03_004",
+          "type": "multiple_choice",
+          "question": "안내방송에 포함할 내용을 전달할 때 아이 이름을 소개하는 올바른 표현은?",
+          "options": [
+            "A seven-year-old girl named Soyeon is missing.",
+            "A girl Soyeon who is seven she is missing.",
+            "Soyeon, seven years old, she is the missing girl.",
+            "Missing girl: Soyeon, her age is seven."
+          ],
+          "answerIndex": 0,
+          "explanation": "'named ~'는 '~라는 이름의'라는 의미로, 나이+성별+이름+missing 순서로 말하는 것이 방송 내용을 전달할 때 가장 명확합니다."
+        },
+        {
+          "id": "se_ch38_set03_005",
+          "type": "multiple_choice",
+          "question": "집합 장소를 물을 때 'rendezvous point'와 같은 의미로 쓸 수 있는 표현은?",
+          "options": [
+            "meeting point",
+            "gathering time",
+            "reunion station",
+            "assembly hour"
+          ],
+          "answerIndex": 0,
+          "explanation": "'meeting point'와 'rendezvous point'는 둘 다 집합 장소를 의미합니다. 다만 'rendezvous'는 더 격식체이며, 일반 상황에서는 'meeting point'가 더 자연스럽게 쓰입니다."
+        },
+        {
+          "id": "se_ch38_set03_006",
+          "type": "multiple_choice",
+          "question": "아이에게 길을 잃었을 때 부모를 찾아달라고 요청하도록 가르칠 표현은?",
+          "options": [
+            "Can you help me find my parents?",
+            "Help find parents for me please.",
+            "I want my parents to be found.",
+            "My parents are somewhere, help."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you help me find my parents?'는 도움을 요청하며 목적을 명확히 전달하는 자연스러운 표현입니다. 아이가 직원에게 바로 말할 수 있도록 미리 연습시켜두면 좋습니다."
+        },
+        {
+          "id": "se_ch38_set03_007",
+          "type": "multiple_choice",
+          "question": "경비원에게 경비원인지 확인하는 가장 자연스러운 표현은?",
+          "options": [
+            "Excuse me, do you work here?",
+            "Are you a worker of security?",
+            "Do you have security job?",
+            "Is your job the guard?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Excuse me, do you work here?'는 유니폼을 입지 않은 경우에도 직원 여부를 확인하는 가장 간단하고 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch38_set03_008",
+          "type": "multiple_choice",
+          "question": "아이를 발견했다고 부모에게 알릴 때 'safe and sound'의 의미는?",
+          "options": [
+            "무사히, 안전하게",
+            "조용하고 안전하게",
+            "다치지 않았지만 울고 있는",
+            "발견되었으나 확인 중인"
+          ],
+          "answerIndex": 0,
+          "explanation": "'safe and sound'는 '무사히, 아무 탈 없이'라는 관용 표현입니다. 'Your son has been found safe and sound.'처럼 사용하면 부모를 즉시 안심시킬 수 있습니다."
+        },
+        {
+          "id": "se_ch38_set03_009",
+          "type": "multiple_choice",
+          "question": "감사 표현 중 '도와드릴 수 있어서 기쁘다'는 뜻의 직원 응대 표현으로 자연스러운 것은?",
+          "options": [
+            "We're glad we could help.",
+            "We are happy you asked us.",
+            "It was our work to do this.",
+            "Thank you for letting us help."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We're glad we could help.'는 도움을 줄 수 있어 기쁘다는 서비스 표현으로, 상대방의 안도감에 공감하는 뉘앙스를 담고 있습니다."
+        },
+        {
+          "id": "se_ch38_set03_010",
+          "type": "multiple_choice",
+          "question": "'He wandered off while I was paying.'에서 'wander off'의 의미는?",
+          "options": [
+            "돌아다니다 멀어지다",
+            "갑자기 달려가다",
+            "사람들 사이로 숨다",
+            "도움을 요청하러 가다"
+          ],
+          "answerIndex": 0,
+          "explanation": "'wander off'는 '어슬렁거리며 멀어지다'라는 뜻으로, 아이가 특별한 이유 없이 서서히 멀어진 상황을 묘사합니다. 계산하는 동안 주의가 분산된 사이 발생하는 전형적인 미아 상황입니다."
+        },
+        {
+          "id": "se_ch38_set03_011",
+          "type": "ox",
+          "question": "아이의 인상착의를 설명할 때 'with'는 추가 특징을 연결하는 전치사로 쓰인다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'He's 110cm tall, with short brown hair.'처럼 'with'는 '~을 가진, ~의'라는 뜻으로 외모 특징을 추가 연결하는 전치사로 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch38_set03_012",
+          "type": "ox",
+          "question": "'pigtails'는 하나로 묶은 포니테일 헤어스타일을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'pigtails'는 양쪽으로 나누어 묶은 양갈래 헤어스타일을 의미합니다. 하나로 묶은 스타일은 'ponytail'이라고 합니다."
+        },
+        {
+          "id": "se_ch38_set03_013",
+          "type": "ox",
+          "question": "미아 방송에서 부모의 위치를 알려주면 아이가 어디로 가야 할지 알 수 있어 도움이 된다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'His parents are at the information desk.'처럼 부모의 위치를 방송에 포함시켜야 아이가 방송을 들었을 때 어디로 가야 하는지 알 수 있습니다."
+        },
+        {
+          "id": "se_ch38_set03_014",
+          "type": "ox",
+          "question": "'Please make sure to set a meeting point.'에서 'make sure to'는 가벼운 제안을 나타낸다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'make sure to ~'는 '반드시 ~하세요'라는 강한 권유나 당부를 나타냅니다. 가벼운 제안을 할 때는 'It might be a good idea to ~'나 'You could ~' 등을 사용합니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch38_set04_001",
+          "type": "multiple_choice",
+          "question": "테마파크에서 딸을 잃어버렸을 때 직원에게 가장 긴박하게 전달되는 표현은?",
+          "options": [
+            "My daughter is missing!",
+            "I've lost track of my daughter.",
+            "My daughter is not beside me.",
+            "I'm looking around for my daughter."
+          ],
+          "answerIndex": 0,
+          "explanation": "'My daughter is missing!'은 'missing'이라는 단어가 현재 상태의 긴박함을 직접 전달합니다. 나머지는 상황을 설명하지만 즉각적인 미아 대응 절차를 시작시키기 어렵습니다."
+        },
+        {
+          "id": "se_ch38_set04_002",
+          "type": "multiple_choice",
+          "question": "아이가 노란 모자를 쓰고 있다고 설명하려 할 때 올바른 표현은?",
+          "options": [
+            "She's wearing a yellow hat.",
+            "She wears yellow hat.",
+            "She has yellow hat on.",
+            "She is with yellow hat."
+          ],
+          "answerIndex": 0,
+          "explanation": "'She's wearing a yellow hat.'이 현재 착용 상태를 나타내는 올바른 표현입니다. 'has ~ on'도 가능하지만 'has yellow hat on'처럼 관사 없이 쓰면 어색합니다."
+        },
+        {
+          "id": "se_ch38_set04_003",
+          "type": "multiple_choice",
+          "question": "'I last saw him near the toy section.'에서 'near'와 바꿔 쓸 수 있는 표현은?",
+          "options": [
+            "by",
+            "at",
+            "on",
+            "into"
+          ],
+          "answerIndex": 0,
+          "explanation": "'by'는 '~옆에, ~근처에'라는 뜻으로 'near'와 비슷하게 쓸 수 있습니다. 다만 'by'는 'near'보다 조금 더 가까이 붙어 있는 느낌을 줍니다."
+        },
+        {
+          "id": "se_ch38_set04_004",
+          "type": "multiple_choice",
+          "question": "안내방송을 요청하는 또 다른 표현으로 자연스러운 것은?",
+          "options": [
+            "Can you broadcast a missing child alert?",
+            "Please do a broadcast for missing.",
+            "Make announcement of my missing child.",
+            "Broadcast now about lost child."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you broadcast a missing child alert?'는 미아 방송을 직접 언급하는 구체적인 요청 표현입니다. 문법적으로도 자연스럽고 직원이 바로 이해할 수 있습니다."
+        },
+        {
+          "id": "se_ch38_set04_005",
+          "type": "multiple_choice",
+          "question": "혹시 헤어질 경우를 대비해 집합 장소를 정하자고 제안하는 표현으로 적절한 것은?",
+          "options": [
+            "Let's meet at the main entrance if we get split up.",
+            "We should go to entrance when we lose.",
+            "Main entrance is where we meet if missing.",
+            "Split up and go to the entrance."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let's meet at the main entrance if we get split up.'는 'get split up(헤어지다)'을 사용한 자연스러운 사전 약속 표현입니다. 여행 전 가족에게 미리 공유하기에 적합합니다."
+        },
+        {
+          "id": "se_ch38_set04_006",
+          "type": "multiple_choice",
+          "question": "아이에게 길을 잃었을 때 안내 데스크로 데려다달라고 요청하도록 가르칠 표현은?",
+          "options": [
+            "Please take me to the information desk.",
+            "Take me information desk please.",
+            "I need going to information desk.",
+            "Bring me to desk of information."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please take me to the information desk.'는 '안내 데스크로 데려다주세요'라는 명확한 요청입니다. 아이가 혼자 이동하기 어려울 때 직원에게 할 수 있는 유용한 표현입니다."
+        },
+        {
+          "id": "se_ch38_set04_007",
+          "type": "multiple_choice",
+          "question": "아이 연락처 카드에 적기 좋은 완전한 영어 문구는?",
+          "options": [
+            "This child is lost. Please call: +82-10-XXXX-XXXX.",
+            "Lost child. Number: call mom.",
+            "Child needs parent. Phone below.",
+            "Please find parents. Number here."
+          ],
+          "answerIndex": 0,
+          "explanation": "'This child is lost. Please call: +82-10-XXXX-XXXX.'는 상황 설명과 행동 지시, 국제 전화번호까지 포함한 완전한 카드 문구입니다. 국가 코드(+82)를 포함하는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch38_set04_008",
+          "type": "multiple_choice",
+          "question": "직원이 아이를 찾았다고 알릴 때 'He's been located!'에서 'locate'의 의미는?",
+          "options": [
+            "위치를 파악하다",
+            "구출하다",
+            "확인하다",
+            "안전하게 보호하다"
+          ],
+          "answerIndex": 0,
+          "explanation": "'locate'는 '위치를 파악하다, 찾아내다'라는 뜻입니다. 'He's been located!'는 수동태로 '그의 위치가 파악됐다, 찾았다'는 공식적인 표현입니다."
+        },
+        {
+          "id": "se_ch38_set04_009",
+          "type": "multiple_choice",
+          "question": "직원의 도움에 감사를 전하며 '당신 팀이 정말 효율적으로 움직였어요'라고 말하려면?",
+          "options": [
+            "You and your team were so efficient.",
+            "Your team did very good efficient.",
+            "You team worked efficiency very much.",
+            "The team of yours was much efficient."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You and your team were so efficient.'는 팀 전체의 빠른 대응에 감사를 전하는 자연스러운 표현입니다. 'efficient(효율적인)'는 빠르고 능숙하게 일을 처리한다는 의미입니다."
+        },
+        {
+          "id": "se_ch38_set04_010",
+          "type": "multiple_choice",
+          "question": "경비원에게 딸의 인상착의를 설명할 때 'She has on a pink dress.'에서 'has on'의 의미는?",
+          "options": [
+            "입고 있다",
+            "가지고 있다",
+            "들고 있다",
+            "들어가려 하다"
+          ],
+          "answerIndex": 0,
+          "explanation": "'have on'은 '입고 있다, 착용하고 있다'는 뜻의 구어 표현입니다. 'She's wearing a pink dress.'와 같은 의미로 딸의 옷차림을 설명할 때 활용할 수 있습니다."
+        },
+        {
+          "id": "se_ch38_set04_011",
+          "type": "ox",
+          "question": "'I've lost my son.'은 'My son is missing.'과 같은 의미로 쓸 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'I've lost my son.'과 'My son is missing.' 모두 아이를 잃어버린 상황을 전달합니다. 다만 'is missing'이 현재 상태를 더 긴박하게 전달하여 즉각적인 대응을 끌어내기에 더 효과적입니다."
+        },
+        {
+          "id": "se_ch38_set04_012",
+          "type": "ox",
+          "question": "헤어스타일을 묘사할 때 'long curly blonde hair'는 올바른 순서이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 헤어스타일 묘사 순서는 길이(long) + 스타일(curly) + 색깔(blonde) + hair입니다. 'long curly blonde hair'는 이 순서를 따른 올바른 표현입니다."
+        },
+        {
+          "id": "se_ch38_set04_013",
+          "type": "ox",
+          "question": "'That's what we're here for.'는 직원이 도움을 사양할 때 쓰는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'That's what we're here for.'는 '그러려고 여기 있는 거예요'라는 뜻으로 감사를 받았을 때 겸손하게 응대하는 서비스 표현입니다. 도움을 사양하는 표현이 아닙니다."
+        },
+        {
+          "id": "se_ch38_set04_014",
+          "type": "ox",
+          "question": "아이에게 길을 잃으면 낯선 어른보다 유니폼을 입은 직원에게 도움을 요청하도록 가르치는 것이 더 안전하다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 유니폼을 입은 직원은 신원이 확인된 사람이므로 낯선 어른보다 안전하게 도움을 요청할 수 있습니다. 'Find someone in a uniform.'을 미리 가르쳐두는 것이 좋습니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch38_set05_001",
+          "type": "multiple_choice",
+          "question": "공항에서 아이를 잃어버렸을 때 사용할 수 있는 표현으로 'missing'을 쓴 올바른 문장은?",
+          "options": [
+            "My child is missing. Please help!",
+            "My child is missed. Please help!",
+            "My child was missing. Please help!",
+            "My child has missed. Please help!"
+          ],
+          "answerIndex": 0,
+          "explanation": "현재 아이가 없어진 상태이므로 'is missing'(현재 상태)을 씁니다. 'was missing'은 과거에 잃어버렸다가 이미 찾은 경우, 'is missed'는 그리워한다는 의미로 다릅니다."
+        },
+        {
+          "id": "se_ch38_set05_002",
+          "type": "multiple_choice",
+          "question": "아이의 복장을 한 번에 설명할 때 'dressed in ~'을 사용한 올바른 표현은?",
+          "options": [
+            "He's dressed in a blue shirt and grey pants.",
+            "He dressed in blue shirt grey pants.",
+            "He is dress in blue shirt and grey pants.",
+            "He's dressing blue shirt and grey pants."
+          ],
+          "answerIndex": 0,
+          "explanation": "'be dressed in ~'은 '~을 입고 있다'는 뜻으로 전체 복장을 한 번에 설명할 때 씁니다. 현재 상태이므로 'is dressed in'이 올바릅니다."
+        },
+        {
+          "id": "se_ch38_set05_003",
+          "type": "multiple_choice",
+          "question": "'I only looked away for a second.'의 의미로 가장 적절한 것은?",
+          "options": [
+            "잠깐 눈을 돌린 사이에 아이가 사라졌다.",
+            "1초 동안만 아이를 보지 않았다.",
+            "한 번만 돌아봤을 뿐인데 아이가 없었다.",
+            "잠시 다른 방향을 쳐다봤다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I only looked away for a second.'는 '잠깐(1초 정도) 눈을 돌린 사이'라는 의미로, 아이가 사라진 상황을 설명할 때 부모 입장에서 자주 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch38_set05_004",
+          "type": "multiple_choice",
+          "question": "방송 요청 시 '미아 방송을 해달라'고 더 구체적으로 표현하는 방법은?",
+          "options": [
+            "Could you make a missing child announcement?",
+            "Announce missing child please.",
+            "Do a broadcast of missing child.",
+            "Please announce about lost child now."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you make a missing child announcement?'는 미아 방송임을 명확히 하는 표현입니다. 'Could you'로 시작해 정중하게 요청하는 형식도 갖추고 있습니다."
+        },
+        {
+          "id": "se_ch38_set05_005",
+          "type": "multiple_choice",
+          "question": "'Is there a designated spot for lost children?'의 의미는?",
+          "options": [
+            "미아를 위한 지정 장소가 있나요?",
+            "길을 잃은 아이들이 가는 특별한 장소가 있나요?",
+            "아이들이 다치는 위험 구역이 있나요?",
+            "미아 신고 센터가 따로 있나요?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'designated spot for lost children'은 미아를 위해 지정된 장소를 묻는 표현입니다. 보기 ①과 ②는 의미가 비슷하나 ①이 원문을 더 정확히 반영합니다. 'designated'는 '지정된, 공식적으로 정해진'을 의미합니다."
+        },
+        {
+          "id": "se_ch38_set05_006",
+          "type": "multiple_choice",
+          "question": "아이에게 길을 잃으면 '저 경찰관이나 직원을 찾으세요'라고 가르칠 때 올바른 표현은?",
+          "options": [
+            "Look for a police officer or a store employee.",
+            "Find police or store working person.",
+            "Search police and employee of store.",
+            "Look police officer and store staff person."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Look for a police officer or a store employee.'는 문법적으로 완전하고 자연스러운 표현입니다. 경찰관(police officer)과 직원(store employee) 두 가지 선택지를 제시합니다."
+        },
+        {
+          "id": "se_ch38_set05_007",
+          "type": "multiple_choice",
+          "question": "아이 연락처 카드에 'Please call my dad at this number.'라고 적었을 때 전제 조건은?",
+          "options": [
+            "아빠가 더 연락하기 쉬운 상황일 때",
+            "엄마가 없는 경우",
+            "아이가 아빠를 더 좋아하는 경우",
+            "아빠 번호가 더 짧은 경우"
+          ],
+          "answerIndex": 0,
+          "explanation": "카드에는 부모 중 더 연락하기 쉬운 사람의 번호를 적어야 합니다. 아빠 번호가 적혔다면 여행 중 아빠가 더 연락 가능한 상황이기 때문입니다."
+        },
+        {
+          "id": "se_ch38_set05_008",
+          "type": "multiple_choice",
+          "question": "'Your son has been found safe and sound.'에서 'safe and sound'와 바꿔 쓸 수 있는 표현은?",
+          "options": [
+            "unharmed",
+            "silent and safe",
+            "quietly safe",
+            "safely quiet"
+          ],
+          "answerIndex": 0,
+          "explanation": "'safe and sound'는 '무사히, 아무 탈 없이'라는 관용 표현으로 'unharmed(다치지 않은)'와 바꿔 쓸 수 있습니다. 'silent'나 'quiet'는 관계없는 표현입니다."
+        },
+        {
+          "id": "se_ch38_set05_009",
+          "type": "multiple_choice",
+          "question": "직원이 '다음번에는 입장 전에 집합 장소를 미리 정해두세요'라고 조언할 때 쓰는 표현은?",
+          "options": [
+            "Please make sure to set a meeting point before entering next time.",
+            "Next time you should set meeting point before.",
+            "Before enter next time, setting meeting point.",
+            "Make meeting point before next time enter."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please make sure to set a meeting point before entering next time.'는 'make sure to ~(반드시 ~하세요)'를 사용한 강한 권유 표현입니다. 향후 미아 사고를 예방하기 위한 조언입니다."
+        },
+        {
+          "id": "se_ch38_set05_010",
+          "type": "multiple_choice",
+          "question": "'I'm incredibly grateful.'에서 'incredibly'의 역할은?",
+          "options": [
+            "감사함을 더욱 강조하는 부사",
+            "감사함의 이유를 설명하는 접속사",
+            "감사함의 시점을 나타내는 부사",
+            "감사함의 대상을 나타내는 전치사"
+          ],
+          "answerIndex": 0,
+          "explanation": "'incredibly'는 '믿을 수 없을 정도로'라는 뜻의 부사로 형용사 'grateful'을 강조합니다. 감사함의 정도가 매우 크다는 것을 표현할 때 씁니다."
+        },
+        {
+          "id": "se_ch38_set05_011",
+          "type": "ox",
+          "question": "'I can't find my child.'는 'My child is missing.'보다 상황의 긴박함을 더 잘 전달한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'My child is missing.'이 'is missing'이라는 상태 표현으로 긴박함을 더 직접적으로 전달합니다. 'I can't find my child.'도 의미는 통하지만 즉각적인 미아 대응을 끌어내기에 덜 효과적입니다."
+        },
+        {
+          "id": "se_ch38_set05_012",
+          "type": "ox",
+          "question": "'in case we get separated'는 '혹시 헤어지게 될 경우를 대비해'라는 의미이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'in case ~'는 '~할 경우를 대비해'라는 예방적 표현입니다. 'If we get separated'는 단순 조건절인 반면, 'in case we get separated'는 미리 대비한다는 뉘앙스를 담고 있습니다."
+        },
+        {
+          "id": "se_ch38_set05_013",
+          "type": "ox",
+          "question": "아이 연락처 카드의 전화번호는 국내 형식(010-XXXX-XXXX)으로 적어두면 해외에서도 충분히 활용할 수 있다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 해외에서는 국제 전화 형식(+82-10-XXXX-XXXX)으로 적어야 현지인이 연락할 수 있습니다. 국내 형식(010-...)은 해외에서 전화 연결이 되지 않습니다."
+        },
+        {
+          "id": "se_ch38_set05_014",
+          "type": "ox",
+          "question": "'She's a little shaken but physically okay.'는 아이가 놀랐지만 다친 곳은 없다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'shaken'은 '충격을 받아 떨리는'이라는 의미로 심리적으로 놀란 상태를 말합니다. 'physically okay'는 신체적으로는 이상이 없다는 뜻입니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch38_set06_001",
+          "type": "multiple_choice",
+          "question": "직원을 만나자마자 상황을 가장 빠르게 전달하는 표현으로 올바른 것은?",
+          "options": [
+            "Excuse me! I've lost my daughter!",
+            "Sorry to bother you, but my daughter might be somewhere.",
+            "I was wondering if you've seen a girl around here.",
+            "Could you help me look for my daughter when you have time?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Excuse me! I've lost my daughter!'는 상황을 즉각 전달하며 'I've lost ~(잃어버렸다)'가 완료된 상황의 긴박함을 전합니다. 나머지 표현들은 지나치게 완곡해 즉각 대응을 끌어내기 어렵습니다."
+        },
+        {
+          "id": "se_ch38_set06_002",
+          "type": "multiple_choice",
+          "question": "아이의 나이를 설명할 때 '막 네 살이 됐다'는 표현으로 올바른 것은?",
+          "options": [
+            "She just turned four.",
+            "She is just becoming four.",
+            "She becomes four just now.",
+            "She has just four years."
+          ],
+          "answerIndex": 0,
+          "explanation": "'She just turned four.'는 '막 네 살이 됐다'는 표현으로 'turn (나이)'가 '~살이 되다'를 의미합니다. 나이에 대한 보다 구체적인 정보를 전달할 때 유용합니다."
+        },
+        {
+          "id": "se_ch38_set06_003",
+          "type": "multiple_choice",
+          "question": "아이를 마지막으로 본 장소를 설명할 때 'near the information desk'를 사용한 올바른 문장은?",
+          "options": [
+            "I last saw him near the information desk.",
+            "He was last seen near the information desk by I.",
+            "Near the information desk I was last seeing him.",
+            "Him near information desk I last saw."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I last saw him near the information desk.'는 'I last saw ~' 패턴을 올바르게 활용한 문장입니다. 주어+last+saw+목적어+위치 순서가 자연스럽습니다."
+        },
+        {
+          "id": "se_ch38_set06_004",
+          "type": "multiple_choice",
+          "question": "구내 방송 시스템을 이용해달라는 요청으로 소규모 매장에 적합한 표현은?",
+          "options": [
+            "Please use the intercom to call for my child.",
+            "Use the big speaker please.",
+            "Broadcast over your system now.",
+            "Please use your radio for my child."
+          ],
+          "answerIndex": 0,
+          "explanation": "'intercom'은 건물 내 구내 방송 시스템으로 소규모 매장에서 적합한 표현입니다. 'PA system'은 대형 시설에서, 'intercom'은 소규모 매장에서 자주 씁니다."
+        },
+        {
+          "id": "se_ch38_set06_005",
+          "type": "multiple_choice",
+          "question": "집합 장소를 물을 때 'Where should we go if we get separated?'와 같은 의미의 표현은?",
+          "options": [
+            "Where is the meeting point?",
+            "Where do lost people meet?",
+            "What is the losing place?",
+            "Where is the found area?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where is the meeting point?'는 집합 장소를 직접 묻는 표현으로 같은 의미입니다. 'meeting point'는 미아 상황이나 집합 약속 장소를 물을 때 사용하는 공식 용어입니다."
+        },
+        {
+          "id": "se_ch38_set06_006",
+          "type": "multiple_choice",
+          "question": "아이에게 '나를 찾지 못하겠으면'이라고 가르칠 때 쓸 수 있는 표현은?",
+          "options": [
+            "If you can't find me.",
+            "If you are losing me.",
+            "When I am not finding you.",
+            "If you missed finding me."
+          ],
+          "answerIndex": 0,
+          "explanation": "'If you can't find me.'는 '나를 찾지 못하겠으면'이라는 조건절로 아이의 입장에서 부모를 찾지 못할 때를 가르칠 때 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch38_set06_007",
+          "type": "multiple_choice",
+          "question": "연락처 카드에 대한 대화에서 'That's very smart.'의 의미는?",
+          "options": [
+            "정말 좋은 방법이네요.",
+            "매우 영리한 아이군요.",
+            "카드에 잘 적었네요.",
+            "그건 매우 어려운 일이에요."
+          ],
+          "answerIndex": 0,
+          "explanation": "여기서 'smart'는 사람의 지능이 아니라 아이디어나 방법이 '영리하다, 훌륭하다'는 뜻입니다. 연락처 카드를 준비한 것에 대해 칭찬하는 표현입니다."
+        },
+        {
+          "id": "se_ch38_set06_008",
+          "type": "multiple_choice",
+          "question": "아이를 찾았다는 소식에 '정말 안심돼요'라고 말할 때 가장 자연스러운 표현은?",
+          "options": [
+            "I'm so relieved.",
+            "I feel very less worry.",
+            "My worry has gone.",
+            "I am no more worried."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm so relieved.'는 '정말 안심이 된다'는 뜻의 자연스러운 표현입니다. 'relieved'는 걱정이나 긴장이 풀렸을 때 느끼는 안도감을 표현합니다."
+        },
+        {
+          "id": "se_ch38_set06_009",
+          "type": "multiple_choice",
+          "question": "'She's been found!'에서 'has been found'가 쓰인 이유는?",
+          "options": [
+            "발견이 완료된 현재 결과 상태를 나타내는 현재완료 수동태",
+            "지금 막 발견되고 있는 중이라는 현재진행 수동태",
+            "과거에 발견됐다가 다시 사라진 상황",
+            "곧 발견될 것이라는 미래 수동태"
+          ],
+          "answerIndex": 0,
+          "explanation": "'has been found'는 현재완료 수동태로 '찾혔다(발견이 완료되어 현재 찾은 상태)'를 나타냅니다. 직원이 부모에게 공식적으로 알릴 때 쓸 수 있는 표현입니다."
+        },
+        {
+          "id": "se_ch38_set06_010",
+          "type": "multiple_choice",
+          "question": "경비원에게 '관리자나 경비원과 이야기하고 싶다'고 요청하는 표현은?",
+          "options": [
+            "Can I speak to a manager or security?",
+            "I want manager or security talking.",
+            "Bring me manager or security please.",
+            "I need speaking to manager or security."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I speak to a manager or security?'는 관리자나 경비원에게 연결해달라고 요청하는 자연스러운 표현입니다. 직원이 바로 적절한 사람을 연결해줄 수 있습니다."
+        },
+        {
+          "id": "se_ch38_set06_011",
+          "type": "ox",
+          "question": "'I'm lost.'만으로도 아이가 길을 잃었음을 직원에게 충분히 전달할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'I'm lost.'는 길을 잃었다는 상태를 직접 전달하는 간결한 표현입니다. 다만 'Where is the help desk?'나 'Can you help me find my parents?'를 함께 쓰면 더 효과적입니다."
+        },
+        {
+          "id": "se_ch38_set06_012",
+          "type": "ox",
+          "question": "아이에게 'I need help. I'm separated from my family.'를 가르치는 것은 어린아이보다 나이가 든 아이에게 더 적합하다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'I need help. I'm separated from my family.'는 문장이 길고 'separated'라는 어휘가 있어 어린아이가 외우기 어렵습니다. 어린아이에게는 'I'm lost.'처럼 짧고 기억하기 쉬운 표현이 더 적합합니다."
+        },
+        {
+          "id": "se_ch38_set06_013",
+          "type": "ox",
+          "question": "'By the souvenir shop'에서 'by'는 'near'보다 더 멀리 떨어진 위치를 나타낸다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'by'는 'near'보다 오히려 더 가까이 붙어 있는 느낌을 줍니다. 'by the shop'은 가게 바로 옆을, 'near the shop'은 가게 근처를 뜻합니다."
+        },
+        {
+          "id": "se_ch38_set06_014",
+          "type": "ox",
+          "question": "'I'm incredibly grateful.'에서 'grateful'은 'thankful'보다 더 깊은 감사를 나타낸다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'grateful'과 'thankful'은 비슷하지만, 'grateful'이 더 깊고 진심 어린 감사를 나타낸다는 것이 일반적인 용법입니다. 특히 큰 도움을 받았을 때 'grateful'을 쓰는 것이 더 적합합니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch38_set07_001",
+          "type": "multiple_choice",
+          "question": "직원이 'Please stay calm.'이라고 했을 때 올바른 반응과 다음 행동은?",
+          "options": [
+            "진정하고 마지막으로 아이를 본 시간과 장소를 말한다.",
+            "더 큰 소리로 아이 이름을 부른다.",
+            "즉시 혼자 아이를 찾아 이동한다.",
+            "경찰에게 직접 연락부터 한다."
+          ],
+          "answerIndex": 0,
+          "explanation": "직원이 진정하라고 한 후에는 마지막으로 아이를 본 시간, 장소, 인상착의 등을 차분하게 전달해야 합니다. 이 정보가 빠른 수색에 가장 중요합니다."
+        },
+        {
+          "id": "se_ch38_set07_002",
+          "type": "multiple_choice",
+          "question": "아이의 외모를 묘사할 때 'He's about seven, but small for his age.'의 의미는?",
+          "options": [
+            "일곱 살 정도지만 나이에 비해 키가 작다.",
+            "일곱 살인데 체중이 많이 나간다.",
+            "일곱 살이지만 나이보다 성숙해 보인다.",
+            "일곱 살이지만 작게 말한다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'small for his age'는 '나이에 비해 작다'는 의미입니다. 직원이 또래 아이들 중 해당 아이를 식별하는 데 이런 추가 정보가 도움이 됩니다."
+        },
+        {
+          "id": "se_ch38_set07_003",
+          "type": "multiple_choice",
+          "question": "아이가 사라진 상황을 설명할 때 'He was right here five minutes ago.'에서 강조되는 정보는?",
+          "options": [
+            "장소와 시간 두 가지를 동시에 전달",
+            "아이의 인상착의",
+            "아이의 이름과 나이",
+            "마지막으로 본 방향"
+          ],
+          "answerIndex": 0,
+          "explanation": "'right here(바로 여기)'와 'five minutes ago(5분 전)'로 장소와 시간 두 가지를 동시에 전달합니다. 이 정보로 직원이 수색 범위를 좁힐 수 있습니다."
+        },
+        {
+          "id": "se_ch38_set07_004",
+          "type": "multiple_choice",
+          "question": "방송 내용 중 부모 위치를 전달할 때 '어머니가 고객 서비스 카운터 근처에서 기다리고 있다'는 표현은?",
+          "options": [
+            "The mother is waiting near the customer service counter.",
+            "Mother waiting near customer service.",
+            "The mom is at customer service waiting there.",
+            "Near customer service, mother waits."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The mother is waiting near the customer service counter.'는 완전한 문장으로 부모의 위치를 명확하게 전달합니다. 방송에서 아이가 어디로 가야 할지 알 수 있도록 위치를 구체적으로 말해야 합니다."
+        },
+        {
+          "id": "se_ch38_set07_005",
+          "type": "multiple_choice",
+          "question": "'In case we lose each other.'에서 'lose each other'의 의미는?",
+          "options": [
+            "서로 헤어지다",
+            "서로를 잃어버리고 슬퍼하다",
+            "서로를 찾지 못하게 되다",
+            "서로 연락이 끊기다"
+          ],
+          "answerIndex": 0,
+          "explanation": "'lose each other'는 '서로 헤어지다'라는 표현으로 'get separated'와 같은 의미입니다. 여행 중 가족이 흩어질 경우를 대비할 때 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch38_set07_006",
+          "type": "multiple_choice",
+          "question": "아이가 길을 잃었을 때 가장 짧고 기억하기 쉬운 표현으로 적합한 것은?",
+          "options": [
+            "I'm lost.",
+            "I have been separated from my accompanying guardians.",
+            "I am unable to locate my parental figures.",
+            "I require assistance in reuniting with my family members."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm lost.'는 두 단어로 상황을 즉각 전달하는 가장 간결한 표현입니다. 어린아이일수록 짧고 기억하기 쉬운 표현을 가르쳐야 합니다."
+        },
+        {
+          "id": "se_ch38_set07_007",
+          "type": "multiple_choice",
+          "question": "연락처 카드에 대해 'It's in her jacket pocket.'과 같은 의미로 쓸 수 있는 표현은?",
+          "options": [
+            "She's wearing a wristband with my number on it.",
+            "The card is inside her bag.",
+            "My number is written on her shirt.",
+            "She keeps the card at home."
+          ],
+          "answerIndex": 0,
+          "explanation": "손목밴드는 주머니 카드처럼 아이가 몸에 항상 지니는 방법입니다. 'wristband with my number on it'은 번호가 적힌 손목밴드로, 잃어버리기 어렵다는 장점이 있습니다."
+        },
+        {
+          "id": "se_ch38_set07_008",
+          "type": "multiple_choice",
+          "question": "아이 발견 소식을 전하며 '직원이 화장실 근처에서 발견했다'고 할 때 올바른 표현은?",
+          "options": [
+            "A staff member found her near the restrooms.",
+            "Staff member found her the restrooms.",
+            "She was found near restroom by a staff.",
+            "Near the restrooms, staff found she."
+          ],
+          "answerIndex": 0,
+          "explanation": "'A staff member found her near the restrooms.'는 주어(A staff member)+동사(found)+목적어(her)+위치(near the restrooms)의 자연스러운 어순입니다."
+        },
+        {
+          "id": "se_ch38_set07_009",
+          "type": "multiple_choice",
+          "question": "'It's our pleasure.'는 어떤 상황에서 쓰는 표현인가?",
+          "options": [
+            "감사를 받았을 때 겸손하게 응대하는 서비스 표현",
+            "도움을 거절할 때 쓰는 정중한 표현",
+            "처음 만났을 때 하는 인사 표현",
+            "실수를 사과할 때 쓰는 표현"
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's our pleasure.'는 '저희도 기뻐요, 천만에요'라는 뜻으로 감사 인사를 받았을 때 팀을 포함해 겸손하게 응대하는 서비스 표현입니다."
+        },
+        {
+          "id": "se_ch38_set07_010",
+          "type": "multiple_choice",
+          "question": "경비원에게 '비상 상황임을 알리며 도움을 요청하는' 표현은?",
+          "options": [
+            "Please help me — it's an emergency.",
+            "Help is needed by me urgently.",
+            "An emergency I have, please help.",
+            "This is emergency, I need helping."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please help me — it's an emergency.'는 비상 상황임을 직접 밝히며 즉각적인 도움을 요청하는 표현입니다. 'emergency(비상)'라는 단어가 즉각적인 대응을 유도합니다."
+        },
+        {
+          "id": "se_ch38_set07_011",
+          "type": "ox",
+          "question": "'He's about 115 centimeters tall, with short black hair.'에서 'about'을 빼면 정확한 키라는 의미가 된다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'about'은 '약, 대략'의 의미로 정확하지 않은 수치임을 나타냅니다. 'about'을 빼고 'He's 115 centimeters tall'이라고 하면 정확한 키라는 의미가 됩니다."
+        },
+        {
+          "id": "se_ch38_set07_012",
+          "type": "ox",
+          "question": "'help desk', 'information desk', 'customer service'는 모두 아이가 도움을 요청할 수 있는 장소를 가리킨다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 세 가지 모두 직원에게 도움을 받을 수 있는 장소를 뜻합니다. 어린아이에게는 이 중 가장 기억하기 쉬운 표현을 골라 가르치면 됩니다."
+        },
+        {
+          "id": "se_ch38_set07_013",
+          "type": "ox",
+          "question": "'We'll broadcast it immediately.'에서 'immediately'는 '서서히'라는 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'immediately'는 '즉시, 바로'라는 의미입니다. '서서히'는 'gradually'입니다. 'We'll broadcast it immediately.'는 '즉시 방송하겠습니다'라는 뜻입니다."
+        },
+        {
+          "id": "se_ch38_set07_014",
+          "type": "ox",
+          "question": "아이의 특징적인 가방이나 소품(예: Spider-Man 백팩)도 인상착의 설명에 포함시키면 식별에 도움이 된다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'He has a distinctive Spider-Man backpack.'처럼 눈에 잘 띄는 소품을 언급하면 직원이 아이를 훨씬 빠르게 식별할 수 있습니다. 색이 독특하거나 유명 캐릭터가 그려진 소품은 특히 유용합니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch38_set08_001",
+          "type": "multiple_choice",
+          "question": "아이를 잃어버렸을 때 직원의 동료들에게 알리겠다는 말로 직원이 쓸 표현은?",
+          "options": [
+            "I'll alert my colleagues right away.",
+            "I'll call my friends immediately.",
+            "I'll tell my boss about this.",
+            "I'll inform the customers."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll alert my colleagues right away.'는 직원이 동료들에게 즉시 알리겠다고 말하는 표현입니다. 'alert'는 '경보를 발하다, 주의를 주다'는 뜻으로 긴박한 상황에 적합합니다."
+        },
+        {
+          "id": "se_ch38_set08_002",
+          "type": "multiple_choice",
+          "question": "아이가 곱슬 금발 머리에 분홍 모자를 쓰고 있다고 설명하는 올바른 표현은?",
+          "options": [
+            "She's small with curly blonde hair and a pink hat.",
+            "She has curly blonde hair pink hat small.",
+            "She is wearing curly blonde and pink hat.",
+            "Small girl, curly blonde hair, hat pink."
+          ],
+          "answerIndex": 0,
+          "explanation": "'She's small with curly blonde hair and a pink hat.'는 체형, 헤어, 모자를 자연스럽게 연결한 표현입니다. 'with'로 추가 특징을 연결하는 패턴입니다."
+        },
+        {
+          "id": "se_ch38_set08_003",
+          "type": "multiple_choice",
+          "question": "'Near the information desk.'에서 'near'와 비슷한 의미의 표현은?",
+          "options": [
+            "Close to the information desk.",
+            "At the information desk.",
+            "On the information desk.",
+            "Inside the information desk."
+          ],
+          "answerIndex": 0,
+          "explanation": "'close to'는 'near'와 같이 '~에 가까이'라는 의미입니다. 'at'은 특정 지점을, 'on'은 표면 위를, 'inside'는 내부를 나타내므로 다릅니다."
+        },
+        {
+          "id": "se_ch38_set08_004",
+          "type": "multiple_choice",
+          "question": "아이 이름이 준호이고 일곱 살 정도라고 방송 내용을 전달할 때 올바른 표현은?",
+          "options": [
+            "We're looking for a child named Junho, about seven years old.",
+            "Looking child Junho, he is seven years.",
+            "Find child: name Junho, seven years.",
+            "Junho is the child missing, aged seven."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We're looking for a child named Junho, about seven years old.'는 'we're looking for'로 찾고 있다는 상황을 전달하며, 이름과 나이를 자연스럽게 포함한 표현입니다."
+        },
+        {
+          "id": "se_ch38_set08_005",
+          "type": "multiple_choice",
+          "question": "'Our lost-child station is near the food court.'의 의미는?",
+          "options": [
+            "미아 지원 스테이션이 푸드코트 근처에 있다.",
+            "분실물 센터가 푸드코트 안에 있다.",
+            "아이들 놀이터가 푸드코트 근처에 있다.",
+            "고객 서비스 센터가 푸드코트와 멀다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'lost-child station'은 미아를 위한 지원 스테이션을 의미합니다. 대형 테마파크나 쇼핑몰에서 사용하는 표현으로, 집합 장소를 알려줄 때 활용할 수 있습니다."
+        },
+        {
+          "id": "se_ch38_set08_006",
+          "type": "multiple_choice",
+          "question": "아이에게 '안내 데스크에 가는 것을 도와달라고 요청하라'고 가르칠 때 올바른 표현은?",
+          "options": [
+            "Please take me to the information desk.",
+            "Go to information desk with me.",
+            "Information desk, please take.",
+            "I want going information desk."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please take me to the information desk.'는 '안내 데스크로 데려가주세요'라는 완전하고 자연스러운 표현입니다. 아이가 혼자 이동하기 어려울 때 직원에게 할 수 있습니다."
+        },
+        {
+          "id": "se_ch38_set08_007",
+          "type": "multiple_choice",
+          "question": "'An ID bracelet with our hotel address'가 유용한 이유는?",
+          "options": [
+            "잃어버리기 어렵고 숙소 정보까지 제공할 수 있어서",
+            "아이의 개인 정보를 보호해서",
+            "모든 언어로 번역되어 있어서",
+            "GPS 기능이 내장되어 있어서"
+          ],
+          "answerIndex": 0,
+          "explanation": "ID 팔찌는 주머니 카드보다 잃어버리기 어렵고, 호텔 주소를 포함해 발견한 사람이 아이를 어디로 데려가야 하는지 알 수 있습니다."
+        },
+        {
+          "id": "se_ch38_set08_008",
+          "type": "multiple_choice",
+          "question": "아이를 찾았을 때 'What a relief!'와 같은 감정을 표현하는 다른 말은?",
+          "options": [
+            "Oh, I'm so relieved!",
+            "Oh, I expected this.",
+            "Well, that was fast.",
+            "Okay, thank you."
+          ],
+          "answerIndex": 0,
+          "explanation": "'What a relief!'와 'Oh, I'm so relieved!'는 둘 다 안도감을 표현하는 말입니다. 아이를 찾았을 때처럼 긴장이 한꺼번에 풀리는 순간에 자연스럽게 나오는 표현입니다."
+        },
+        {
+          "id": "se_ch38_set08_009",
+          "type": "multiple_choice",
+          "question": "'You have no idea how much this means to me.'의 의미는?",
+          "options": [
+            "이것이 나에게 얼마나 큰 의미인지 당신은 모를 거예요.",
+            "당신은 이것이 무슨 의미인지 설명할 수 없어요.",
+            "나는 이것의 의미를 잘 모르겠어요.",
+            "이것이 나에게 아무 의미가 없어요."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You have no idea how much this means to me.'는 '이것이 나에게 얼마나 중요한지/고마운지 당신은 상상도 못할 거예요'라는 뜻의 진심 어린 감사 표현입니다."
+        },
+        {
+          "id": "se_ch38_set08_010",
+          "type": "multiple_choice",
+          "question": "경비실(security office)로 같이 오라는 경비원의 말로 자연스러운 것은?",
+          "options": [
+            "Please come with me to the security office.",
+            "Come following me to security office.",
+            "Go to security office with me now.",
+            "Let's going to the security office."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please come with me to the security office.'는 'Please come with me'로 정중하게 이동을 요청하는 자연스러운 표현입니다. 경비원이 부모를 안내할 때 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch38_set08_011",
+          "type": "ox",
+          "question": "미아 상황에서 직원에게 아이의 나이를 알려주는 것은 또래 아이를 식별하는 데 도움이 된다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 나이 정보는 직원이 비슷한 또래의 아이들 중 해당 아이를 식별하는 데 중요한 정보입니다. 나이에 비해 작거나 크다는 추가 정보도 함께 주면 더 효과적입니다."
+        },
+        {
+          "id": "se_ch38_set08_012",
+          "type": "ox",
+          "question": "'I'll radio the other guards.'에서 'radio'는 명사가 아닌 동사로 사용되었다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'radio'가 동사로 쓰이면 '무전으로 연락하다'는 의미입니다. 경비원이 동료들에게 무전을 보내는 상황에서 자연스럽게 쓰이는 표현입니다."
+        },
+        {
+          "id": "se_ch38_set08_013",
+          "type": "ox",
+          "question": "'I'm so relieved. Is she okay? Is she crying?'에서 부모는 아이가 안전하다는 것을 이미 알고 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. '안심이 된다(I'm so relieved)'고 했으므로 아이가 발견되었다는 것을 알고 있지만, 추가로 아이의 상태를 확인하기 위해 질문하는 상황입니다."
+        },
+        {
+          "id": "se_ch38_set08_014",
+          "type": "ox",
+          "question": "'Please say that a six-year-old boy named Minjun is missing.'에서 'named'는 '민준이라는 이름의'라는 의미로 쓰였다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'named ~'는 '~라는 이름의'라는 의미로 사람이나 사물을 소개할 때 씁니다. 'a boy named Minjun'은 '민준이라는 이름의 남자아이'를 뜻합니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch38_set09_001",
+          "type": "multiple_choice",
+          "question": "아이를 잃어버렸을 때 직원이 'Please stay here.'라고 한 이유로 가장 적절한 것은?",
+          "options": [
+            "부모가 한 곳에 있어야 아이가 돌아왔을 때 찾기 쉽기 때문에",
+            "다른 손님들에게 방해가 되지 않으려고",
+            "직원이 혼자 빠르게 찾기 위해서",
+            "부모가 너무 큰 소리를 내서"
+          ],
+          "answerIndex": 0,
+          "explanation": "직원이 'Please stay here.'라고 하는 이유는 부모가 한 곳에 대기해야 아이가 혼자 돌아오거나 다른 직원이 데려왔을 때 부모를 바로 찾을 수 있기 때문입니다."
+        },
+        {
+          "id": "se_ch38_set09_002",
+          "type": "multiple_choice",
+          "question": "아들이 일곱 살인데 나이에 비해 키가 크다고 설명하려면?",
+          "options": [
+            "He's about seven, but tall for his age.",
+            "He's seven, so he is very tall.",
+            "He's tall because he is seven.",
+            "He's seven years and tall."
+          ],
+          "answerIndex": 0,
+          "explanation": "'tall for his age'는 '나이에 비해 키가 크다'는 표현입니다. 반대로 작은 경우는 'small for his age'를 씁니다. 이런 추가 정보가 직원이 아이를 식별하는 데 도움이 됩니다."
+        },
+        {
+          "id": "se_ch38_set09_003",
+          "type": "multiple_choice",
+          "question": "'Right outside the restroom.'에서 'right'의 역할은?",
+          "options": [
+            "위치를 강조하는 부사('바로')",
+            "방향을 나타내는 부사('오른쪽으로')",
+            "올바른이라는 뜻의 형용사",
+            "권리를 나타내는 명사"
+          ],
+          "answerIndex": 0,
+          "explanation": "여기서 'right'는 '바로, 딱'이라는 강조 부사입니다. 'right outside'는 '바로 밖에'라는 뜻으로 위치를 강조합니다. 'right here(바로 여기)', 'right now(바로 지금)'처럼 씁니다."
+        },
+        {
+          "id": "se_ch38_set09_004",
+          "type": "multiple_choice",
+          "question": "'Please ask the child to go to the main entrance.'를 방송 내용에 포함시키는 이유는?",
+          "options": [
+            "아이가 방송을 듣고 어디로 가야 할지 알게 하기 위해",
+            "아이가 혼자 달리지 못하게 하기 위해",
+            "다른 손님들에게 주의를 주기 위해",
+            "부모가 움직이지 않아도 되도록"
+          ],
+          "answerIndex": 0,
+          "explanation": "방송에 아이에 대한 지시를 포함시키면 아이가 방송을 듣고 어디로 가야 할지 스스로 알 수 있습니다. 부모 위치와 함께 아이가 취해야 할 행동을 안내하는 것이 효과적입니다."
+        },
+        {
+          "id": "se_ch38_set09_005",
+          "type": "multiple_choice",
+          "question": "'It's a good idea to agree on a meeting spot beforehand.'에서 'beforehand'의 의미는?",
+          "options": [
+            "미리, 사전에",
+            "나중에, 추후에",
+            "즉시, 바로",
+            "함께, 같이"
+          ],
+          "answerIndex": 0,
+          "explanation": "'beforehand'는 '미리, 사전에'라는 의미의 부사입니다. 미아 사고를 예방하기 위해 입장 전에 미리 집합 장소를 정해두는 것이 좋다는 조언에서 쓰입니다."
+        },
+        {
+          "id": "se_ch38_set09_006",
+          "type": "multiple_choice",
+          "question": "아이에게 가르쳐야 할 표현 중 'I need help. I'm separated from my family.'에서 'separated'의 의미는?",
+          "options": [
+            "헤어진, 분리된",
+            "길을 잃은",
+            "다친",
+            "무서운"
+          ],
+          "answerIndex": 0,
+          "explanation": "'separated'는 '헤어진, 분리된'이라는 의미입니다. 'I'm separated from my family.'는 '가족과 헤어졌다'는 뜻으로, 나이가 좀 있는 아이에게 가르칠 수 있는 표현입니다."
+        },
+        {
+          "id": "se_ch38_set09_007",
+          "type": "multiple_choice",
+          "question": "연락처 카드를 아이 신발 안에 넣어두는 방법의 장점은?",
+          "options": [
+            "잃어버리기 어려운 위치에 보관할 수 있다.",
+            "카드가 더 잘 보인다.",
+            "직원이 더 빨리 발견할 수 있다.",
+            "아이가 카드를 더 잘 기억할 수 있다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's tucked into his shoe.'처럼 신발 안에 넣으면 아이가 카드를 잃어버리기 어렵습니다. 주머니에서 빠질 수 있는 카드보다 안전한 보관 방법입니다."
+        },
+        {
+          "id": "se_ch38_set09_008",
+          "type": "multiple_choice",
+          "question": "아이를 찾았을 때 '아이가 다소 놀랐지만 신체적으로는 이상 없다'고 전달하는 표현은?",
+          "options": [
+            "She's a little shaken but physically okay.",
+            "She is a bit scared but she is fine.",
+            "She shaken little but okay physical.",
+            "She's small shaken and physically okay."
+          ],
+          "answerIndex": 0,
+          "explanation": "'She's a little shaken but physically okay.'는 'shaken(심리적으로 놀란, 충격 받은)'과 'physically okay(신체적으로 이상 없는)'를 대조하는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch38_set09_009",
+          "type": "multiple_choice",
+          "question": "감사 표현 중 'I can't thank you enough.'의 직역과 실제 의미를 바르게 연결한 것은?",
+          "options": [
+            "직역: 당신에게 충분히 감사할 수 없다 / 실제: 너무너무 감사하다",
+            "직역: 감사가 부족하다 / 실제: 더 감사해야 한다",
+            "직역: 감사를 표현하기 어렵다 / 실제: 어색해서 감사하기 힘들다",
+            "직역: 충분히 감사했다 / 실제: 이제 그만 감사해도 된다"
+          ],
+          "answerIndex": 0,
+          "explanation": "영어 관용 표현은 직역과 실제 의미가 다를 수 있습니다. 'I can't thank you enough.'는 직역하면 부정의 뉘앙스이지만 실제로는 극도의 감사를 표현하는 관용구입니다."
+        },
+        {
+          "id": "se_ch38_set09_010",
+          "type": "multiple_choice",
+          "question": "경비원이 '무전으로 다른 경비원들에게 알리겠다'고 할 때 쓰는 표현은?",
+          "options": [
+            "I'll radio the other guards.",
+            "I'll call the other guards.",
+            "I'll text the other guards.",
+            "I'll email the other guards."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll radio the other guards.'에서 'radio'가 동사로 쓰여 '무전으로 연락하다'를 의미합니다. 경비원들은 무전기(walkie-talkie/radio)를 사용하므로 이 표현이 가장 자연스럽습니다."
+        },
+        {
+          "id": "se_ch38_set09_011",
+          "type": "ox",
+          "question": "직원에게 'I need your help urgently.'라고 말할 때 'urgently'를 빼도 의미는 동일하다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'urgently'를 빼면 긴박함이 줄어듭니다. 미아 상황에서는 urgency를 명확히 전달해야 즉각적인 대응을 끌어낼 수 있습니다. 'urgently'가 상황의 심각성을 강조합니다."
+        },
+        {
+          "id": "se_ch38_set09_012",
+          "type": "ox",
+          "question": "'He's been located!'는 아이의 위치가 파악됐다는 의미이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'locate'는 '위치를 파악하다'는 뜻이고, 'He's been located!'는 현재완료 수동태로 '그의 위치가 파악됐다, 찾았다'는 공식적인 표현입니다."
+        },
+        {
+          "id": "se_ch38_set09_013",
+          "type": "ox",
+          "question": "미아 방송을 요청할 때 'over the PA system'을 붙이면 어디서 방송을 원하는지 더 명확하게 전달된다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'over the PA system'은 공내 방송 시스템을 통해 방송해달라는 요청을 명확히 합니다. 직원이 'PA system'이라는 표현을 바로 이해할 수 있어 즉각적인 대응이 가능합니다."
+        },
+        {
+          "id": "se_ch38_set09_014",
+          "type": "ox",
+          "question": "'Please call this number if found'는 아이 연락처 카드에 적기 적합한 영어 문구이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Please call this number if found'는 '발견하면 이 번호로 전화해주세요'라는 의미로 카드에 적기 좋은 간결한 문구입니다. 전화번호와 함께 적어두면 효과적입니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch38_set10_001",
+          "type": "multiple_choice",
+          "question": "아이를 잃어버린 상황에서 'missing'과 'lost'의 차이로 올바른 설명은?",
+          "options": [
+            "둘 다 쓸 수 있으나 'missing'이 현재 상태를 더 긴박하게 전달한다.",
+            "'missing'은 영구적으로 사라진 것이고 'lost'는 잠시 사라진 것이다.",
+            "'lost'만 공식 표현이고 'missing'은 구어체이다.",
+            "'missing'은 사람에게만, 'lost'는 물건에만 쓸 수 있다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'My child is missing.'과 'I lost my child.' 모두 쓸 수 있습니다. 다만 'is missing'이 현재 진행 중인 상태를 더 긴박하게 전달하여 직원의 즉각적인 대응을 끌어내기에 더 효과적입니다."
+        },
+        {
+          "id": "se_ch38_set10_002",
+          "type": "multiple_choice",
+          "question": "아이가 현재 스파이더맨 백팩을 메고 있다고 설명하는 올바른 표현은?",
+          "options": [
+            "He has a distinctive Spider-Man backpack.",
+            "He is wearing Spider-Man backpack.",
+            "He carries Spider-Man backpack currently.",
+            "He has Spider-Man backpack on his back now."
+          ],
+          "answerIndex": 0,
+          "explanation": "'He has a distinctive Spider-Man backpack.'는 눈에 띄는 특징적인 소품을 설명하는 자연스러운 표현입니다. 'distinctive(특징적인)'를 추가하면 식별이 쉽다는 점을 강조합니다."
+        },
+        {
+          "id": "se_ch38_set10_003",
+          "type": "multiple_choice",
+          "question": "'I was right next to her.'에서 부모가 강조하고 싶은 것은?",
+          "options": [
+            "아이 바로 옆에 있었는데도 사라졌다는 점",
+            "아이 오른쪽에 서 있었다는 방향",
+            "아이와 함께 걷고 있었다는 점",
+            "아이를 계속 지켜보고 있었다는 점"
+          ],
+          "answerIndex": 0,
+          "explanation": "'right next to'는 '바로 옆에'라는 표현으로, 잠깐 눈을 돌린 사이에도 사라질 수 있다는 상황의 긴박함을 강조합니다. 부모의 과실이 없었음을 설명하는 맥락입니다."
+        },
+        {
+          "id": "se_ch38_set10_004",
+          "type": "multiple_choice",
+          "question": "방송 중 'Parents are waiting at the information desk.'를 포함해야 하는 이유는?",
+          "options": [
+            "아이가 방송을 들으면 부모를 찾아 안내 데스크로 갈 수 있어서",
+            "다른 부모들에게 정보를 주기 위해서",
+            "직원들에게 부모 위치를 알리기 위해서",
+            "경비원들이 부모를 찾을 수 있게 하기 위해서"
+          ],
+          "answerIndex": 0,
+          "explanation": "방송을 아이가 들을 수 있으므로 부모의 위치를 포함시켜 아이가 어디로 가야 할지 알도록 하는 것이 가장 중요한 이유입니다."
+        },
+        {
+          "id": "se_ch38_set10_005",
+          "type": "multiple_choice",
+          "question": "'In case we get separated'와 'If we get separated'의 차이는?",
+          "options": [
+            "'in case'는 미리 대비한다는 뉘앙스, 'if'는 단순 조건",
+            "'in case'는 이미 헤어진 상황, 'if'는 아직 헤어지지 않은 상황",
+            "'in case'는 확실한 일, 'if'는 불확실한 일",
+            "두 표현은 완전히 동일한 의미이다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'in case we get separated'는 '혹시 헤어지게 될 것을 대비해서'라는 예방적 의미가 강하고, 'if we get separated'는 단순히 '헤어지면'이라는 조건절입니다."
+        },
+        {
+          "id": "se_ch38_set10_006",
+          "type": "multiple_choice",
+          "question": "아이에게 '계산대 뒤에 있는 직원에게 가라'고 가르칠 때 올바른 표현은?",
+          "options": [
+            "Go to the nearest shop and ask the person behind the counter.",
+            "Go to shop and find person at back counter.",
+            "Ask the counter back shop person.",
+            "Find the person in back of counter."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Go to the nearest shop and ask the person behind the counter.'는 '가장 가까운 가게에 가서 계산대 뒤 직원에게 물어보라'는 구체적인 지침입니다. 'behind the counter'가 계산대 뒤쪽을 의미합니다."
+        },
+        {
+          "id": "se_ch38_set10_007",
+          "type": "multiple_choice",
+          "question": "'A note with my contact information.'에서 'contact information'의 의미는?",
+          "options": [
+            "연락처 정보 (전화번호, 주소 등)",
+            "아이 정보 (이름, 나이 등)",
+            "여행 정보 (일정, 목적지 등)",
+            "신분증 정보 (여권 번호 등)"
+          ],
+          "answerIndex": 0,
+          "explanation": "'contact information'은 전화번호, 이메일, 주소 등 연락을 위한 정보를 의미합니다. 아이 연락처 카드에 부모의 contact information을 적어두면 효과적입니다."
+        },
+        {
+          "id": "se_ch38_set10_008",
+          "type": "multiple_choice",
+          "question": "아이 발견 소식을 들은 후 아이 상태를 확인하는 질문으로 자연스러운 것은?",
+          "options": [
+            "Is she okay? Is she crying?",
+            "What is the status of my child?",
+            "How is the condition of her?",
+            "Tell me about her health situation."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is she okay? Is she crying?'는 아이의 상태를 즉각 확인하는 자연스러운 표현입니다. 간결하고 직접적으로 아이의 신체적·심리적 상태를 파악하려는 부모의 반응입니다."
+        },
+        {
+          "id": "se_ch38_set10_009",
+          "type": "multiple_choice",
+          "question": "'Consider giving your child a contact card.'는 어떤 상황에서 쓰는 표현인가?",
+          "options": [
+            "미아 사고 후 예방을 위한 조언을 부드럽게 전할 때",
+            "아이가 카드를 잃어버렸을 때",
+            "연락처 카드가 무엇인지 설명할 때",
+            "카드 제작을 의뢰할 때"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Consider giving your child a contact card.'는 '연락처 카드를 아이에게 줄 것을 고려해보세요'라는 부드러운 제안입니다. 미아 사고 후 직원이 예방 조언을 전할 때 쓰기 좋은 표현입니다."
+        },
+        {
+          "id": "se_ch38_set10_010",
+          "type": "multiple_choice",
+          "question": "'We're just glad she's safe. That's what we're here for.'에서 직원이 전하고자 하는 메시지는?",
+          "options": [
+            "도움을 주는 것이 우리의 역할이며, 아이가 안전해서 우리도 기쁘다.",
+            "감사 인사는 필요 없으며 그냥 가도 된다.",
+            "이런 일이 다시 일어나지 않도록 조심하라.",
+            "우리는 이 일이 매우 힘들었다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We're glad she's safe'는 아이의 안전에 함께 기뻐하는 표현이고, 'That's what we're here for.'는 '그러려고 여기 있는 거예요'로 도움이 자신들의 역할임을 겸손하게 표현합니다."
+        },
+        {
+          "id": "se_ch38_set10_011",
+          "type": "ox",
+          "question": "'She disappeared when I turned around.'와 'I only looked away for a second.'는 모두 부모가 잠깐 주의를 돌린 사이 아이가 사라진 상황을 설명한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 두 표현 모두 부모가 잠깐 다른 곳을 보거나 돌아선 순간 아이가 사라진 상황을 나타냅니다. 직원에게 상황을 설명할 때 쓸 수 있는 유사한 표현들입니다."
+        },
+        {
+          "id": "se_ch38_set10_012",
+          "type": "ox",
+          "question": "'She's wearing her hair in a ponytail.'은 'She has short black hair.'보다 구체적인 헤어스타일 묘사이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'She's wearing her hair in a ponytail.'은 머리 스타일(포니테일)을 명확히 표현합니다. 'short black hair'는 길이와 색깔만 말하지만, 포니테일처럼 구체적인 스타일 정보는 더 효과적인 식별에 도움이 됩니다."
+        },
+        {
+          "id": "se_ch38_set10_013",
+          "type": "ox",
+          "question": "'Understood. We'll broadcast it immediately.'에서 'Understood'는 직원이 방송 내용을 이해했다는 확인 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Understood.'는 '알겠습니다, 이해했습니다'라는 확인 표현입니다. 'I understand.' 또는 'Got it.'과 같은 의미로, 직원이 방송 내용을 파악했음을 부모에게 알리는 표현입니다."
+        },
+        {
+          "id": "se_ch38_set10_014",
+          "type": "ox",
+          "question": "미아 예방을 위해 여행 전 아이와 집합 장소를 미리 약속해두는 것은 효과적인 방법이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Please make sure to set a meeting point before entering next time.'처럼 직원도 권유하는 방법입니다. 집합 장소를 미리 정해두면 헤어지더라도 아이 스스로 찾아올 수 있어 미아 사고를 예방하는 가장 효과적인 방법 중 하나입니다."
         }
       ]
     }

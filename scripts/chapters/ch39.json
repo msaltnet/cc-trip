@@ -7,34 +7,68 @@
       "id": "ch39_d01",
       "title": "지갑 도난 신고하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, I'd like to report a theft. My wallet was stolen.", "ko": "실례합니다, 도난 신고를 하고 싶습니다. 지갑을 도둑맞았습니다." },
-        { "speaker": "경찰", "en": "I'm sorry to hear that. When did this happen?", "ko": "유감입니다. 언제 발생했나요?" },
-        { "speaker": "나", "en": "About an hour ago, at the main square.", "ko": "약 한 시간 전, 중앙 광장에서요." },
-        { "speaker": "경찰", "en": "Okay. Please come inside and we'll fill out a report.", "ko": "알겠습니다. 안으로 들어오시면 신고서를 작성하겠습니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, I'd like to report a theft. My wallet was stolen.",
+          "ko": "실례합니다, 도난 신고를 하고 싶습니다. 지갑을 도둑맞았습니다."
+        },
+        {
+          "speaker": "경찰",
+          "en": "I'm sorry to hear that. When did this happen?",
+          "ko": "유감입니다. 언제 발생했나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "About an hour ago, at the main square.",
+          "ko": "약 한 시간 전, 중앙 광장에서요."
+        },
+        {
+          "speaker": "경찰",
+          "en": "Okay. Please come inside and we'll fill out a report.",
+          "ko": "알겠습니다. 안으로 들어오시면 신고서를 작성하겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "My wallet was stolen.",
           "ko": "지갑을 도난당했다는 수동태 표현. 'I lost my wallet'(잃어버렸다)과는 다르게 타인이 훔쳤다는 의미를 명확히 전달함. 경찰 신고 시 반드시 구별해야 함.",
           "alternatives": [
-            { "en": "Someone stole my wallet.", "ko": "누군가 지갑을 훔쳤다는 능동태 표현으로 의미는 동일." },
-            { "en": "My wallet has been stolen.", "ko": "현재완료 수동태로 도난 상태가 지금까지 이어짐을 강조." }
+            {
+              "en": "Someone stole my wallet.",
+              "ko": "누군가 지갑을 훔쳤다는 능동태 표현으로 의미는 동일."
+            },
+            {
+              "en": "My wallet has been stolen.",
+              "ko": "현재완료 수동태로 도난 상태가 지금까지 이어짐을 강조."
+            }
           ]
         },
         {
           "en": "I'd like to report a theft.",
           "ko": "도난을 신고하겠다는 공식적이고 정중한 표현. 경찰서에서 첫마디로 사용하기 적합. 'theft'는 절도, 'robbery'는 폭력 동반 강도와 구별됨.",
           "alternatives": [
-            { "en": "I need to report a crime.", "ko": "범죄 신고를 해야 한다는 보다 일반적인 표현." },
-            { "en": "I want to file a theft report.", "ko": "도난 신고서를 제출하겠다는 표현으로 서류 작업을 전제함." }
+            {
+              "en": "I need to report a crime.",
+              "ko": "범죄 신고를 해야 한다는 보다 일반적인 표현."
+            },
+            {
+              "en": "I want to file a theft report.",
+              "ko": "도난 신고서를 제출하겠다는 표현으로 서류 작업을 전제함."
+            }
           ]
         },
         {
           "en": "About an hour ago.",
           "ko": "사건 발생 시각을 대략적으로 알릴 때 쓰는 표현. 'About'을 붙이면 정확하지 않아도 자연스럽게 말할 수 있음. 경찰 신고 시 시간과 장소는 최대한 구체적으로 제공하는 것이 좋음.",
           "alternatives": [
-            { "en": "Around noon.", "ko": "정오 무렵이라는 시간대 표현." },
-            { "en": "This morning, around ten o'clock.", "ko": "오전 10시경이라고 더 구체적으로 알리는 표현." }
+            {
+              "en": "Around noon.",
+              "ko": "정오 무렵이라는 시간대 표현."
+            },
+            {
+              "en": "This morning, around ten o'clock.",
+              "ko": "오전 10시경이라고 더 구체적으로 알리는 표현."
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch39_d02",
       "title": "여권 분실 신고하기",
       "lines": [
-        { "speaker": "나", "en": "I lost my passport. I think I left it on the bus.", "ko": "여권을 잃어버렸습니다. 버스에 두고 내린 것 같아요." },
-        { "speaker": "경찰", "en": "Do you remember the bus number or route?", "ko": "버스 번호나 노선을 기억하시나요?" },
-        { "speaker": "나", "en": "It was the number 12 bus heading downtown.", "ko": "시내 방향 12번 버스였습니다." },
-        { "speaker": "경찰", "en": "We'll contact the transit authority. You should also report this officially.", "ko": "교통 당국에 연락해 보겠습니다. 공식적으로도 신고하셔야 합니다." }
+        {
+          "speaker": "나",
+          "en": "I lost my passport. I think I left it on the bus.",
+          "ko": "여권을 잃어버렸습니다. 버스에 두고 내린 것 같아요."
+        },
+        {
+          "speaker": "경찰",
+          "en": "Do you remember the bus number or route?",
+          "ko": "버스 번호나 노선을 기억하시나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "It was the number 12 bus heading downtown.",
+          "ko": "시내 방향 12번 버스였습니다."
+        },
+        {
+          "speaker": "경찰",
+          "en": "We'll contact the transit authority. You should also report this officially.",
+          "ko": "교통 당국에 연락해 보겠습니다. 공식적으로도 신고하셔야 합니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I lost my passport.",
           "ko": "여권을 분실했다는 가장 직접적인 표현. 'My passport was stolen'은 도난, 'I lost my passport'는 스스로 잃어버린 경우에 사용. 상황에 맞게 구별해야 함.",
           "alternatives": [
-            { "en": "My passport is missing.", "ko": "여권이 없어진 상태를 묘사하는 표현으로 도난과 분실 모두 해당 가능." },
-            { "en": "I can't find my passport anywhere.", "ko": "아무리 찾아도 없다는 뜻으로 찾고 있는 과정을 강조." }
+            {
+              "en": "My passport is missing.",
+              "ko": "여권이 없어진 상태를 묘사하는 표현으로 도난과 분실 모두 해당 가능."
+            },
+            {
+              "en": "I can't find my passport anywhere.",
+              "ko": "아무리 찾아도 없다는 뜻으로 찾고 있는 과정을 강조."
+            }
           ]
         },
         {
           "en": "I think I left it on the bus.",
           "ko": "'I left it ~'은 어딘가에 두고 왔다는 표현. 'I lost it'과 달리 어디에 두고 왔는지 짐작할 때 씀. 분실 장소를 알고 있으면 회수 가능성이 높아짐.",
           "alternatives": [
-            { "en": "I may have left it at the restaurant.", "ko": "식당에 두고 왔을 수도 있다는 불확실한 추측 표현." },
-            { "en": "I believe I left it in the taxi.", "ko": "택시에 두고 왔다고 생각한다는 표현." }
+            {
+              "en": "I may have left it at the restaurant.",
+              "ko": "식당에 두고 왔을 수도 있다는 불확실한 추측 표현."
+            },
+            {
+              "en": "I believe I left it in the taxi.",
+              "ko": "택시에 두고 왔다고 생각한다는 표현."
+            }
           ]
         },
         {
           "en": "You should also report this officially.",
           "ko": "공식 신고도 해야 한다는 경찰의 권고. 'officially'는 공식적으로라는 뜻으로 분실 신고서(police report) 작성을 의미함. 여권 재발급에 필수적인 절차임.",
           "alternatives": [
-            { "en": "Please file an official report as well.", "ko": "공식 신고서도 제출하라는 안내 표현." },
-            { "en": "Please file a lost property report as well.", "ko": "분실물 신고서도 제출하라는 표현. 여권 분실 신고에 적합한 문서 용어." }
+            {
+              "en": "Please file an official report as well.",
+              "ko": "공식 신고서도 제출하라는 안내 표현."
+            },
+            {
+              "en": "Please file a lost property report as well.",
+              "ko": "분실물 신고서도 제출하라는 표현. 여권 분실 신고에 적합한 문서 용어."
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch39_d03",
       "title": "경찰서 위치 묻기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, where is the nearest police station?", "ko": "실례합니다, 가장 가까운 경찰서가 어디 있나요?" },
-        { "speaker": "행인", "en": "It's about two blocks from here. Turn left at the corner.", "ko": "여기서 두 블록 정도예요. 모퉁이에서 왼쪽으로 도세요." },
-        { "speaker": "나", "en": "Thank you. Is it open at this hour?", "ko": "감사합니다. 지금 시간에 열려 있나요?" },
-        { "speaker": "행인", "en": "Yes, police stations are open twenty-four hours.", "ko": "네, 경찰서는 24시간 운영합니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, where is the nearest police station?",
+          "ko": "실례합니다, 가장 가까운 경찰서가 어디 있나요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "It's about two blocks from here. Turn left at the corner.",
+          "ko": "여기서 두 블록 정도예요. 모퉁이에서 왼쪽으로 도세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you. Is it open at this hour?",
+          "ko": "감사합니다. 지금 시간에 열려 있나요?"
+        },
+        {
+          "speaker": "행인",
+          "en": "Yes, police stations are open twenty-four hours.",
+          "ko": "네, 경찰서는 24시간 운영합니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Where is the nearest police station?",
           "ko": "가장 가까운 경찰서를 찾는 표현. 'nearest'를 붙이면 가장 가까운 곳을 의미. 단순히 'police station'이라고 해도 통하지만 'nearest'를 추가하면 더 명확함.",
           "alternatives": [
-            { "en": "Where is the police station?", "ko": "가장 기본적인 경찰서 위치 질문 표현." },
-            { "en": "Can you tell me how to get to the police station?", "ko": "경찰서 가는 방법을 더 공손하게 요청하는 표현." }
+            {
+              "en": "Where is the police station?",
+              "ko": "가장 기본적인 경찰서 위치 질문 표현."
+            },
+            {
+              "en": "Can you tell me how to get to the police station?",
+              "ko": "경찰서 가는 방법을 더 공손하게 요청하는 표현."
+            }
           ]
         },
         {
           "en": "Two blocks from here.",
           "ko": "블록(block) 단위로 거리를 표현하는 방법. 미국, 캐나다 등에서 자주 사용. 한 블록은 도시 구역 하나를 의미하며 보통 걸어서 1~2분 거리.",
           "alternatives": [
-            { "en": "Just around the corner.", "ko": "모퉁이 바로 너머에 있다는 표현으로 매우 가깝다는 의미." },
-            { "en": "About a five-minute walk.", "ko": "걸어서 5분 거리라는 시간 단위 표현." }
+            {
+              "en": "Just around the corner.",
+              "ko": "모퉁이 바로 너머에 있다는 표현으로 매우 가깝다는 의미."
+            },
+            {
+              "en": "About a five-minute walk.",
+              "ko": "걸어서 5분 거리라는 시간 단위 표현."
+            }
           ]
         },
         {
           "en": "Police stations are open twenty-four hours.",
           "ko": "경찰서는 24시간 운영함을 알려주는 표현. 긴급 상황에서는 언제든 방문 가능하므로 알아두면 안심이 됨. '24/7'이라는 표현도 같은 의미로 자주 쓰임.",
           "alternatives": [
-            { "en": "It's open around the clock.", "ko": "24시간 내내 열려 있다는 표현으로 'around the clock'은 하루 종일이라는 의미." },
-            { "en": "They're open twenty-four seven.", "ko": "'24/7'을 말로 표현한 것으로 연중무휴 24시간을 의미." }
+            {
+              "en": "It's open around the clock.",
+              "ko": "24시간 내내 열려 있다는 표현으로 'around the clock'은 하루 종일이라는 의미."
+            },
+            {
+              "en": "They're open twenty-four seven.",
+              "ko": "'24/7'을 말로 표현한 것으로 연중무휴 24시간을 의미."
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch39_d04",
       "title": "경찰 신고서 작성하기",
       "lines": [
-        { "speaker": "경찰", "en": "Please fill out this form with details of what happened.", "ko": "이 양식에 발생한 일의 세부 내용을 작성해 주세요." },
-        { "speaker": "나", "en": "Sure. Do I need to write my passport number here?", "ko": "네. 여기에 여권 번호도 써야 하나요?" },
-        { "speaker": "경찰", "en": "Yes, and your contact number in case we have questions.", "ko": "네, 그리고 문의가 생길 경우를 위해 연락처도 적어주세요." },
-        { "speaker": "나", "en": "Okay. How long will it take to get a copy of the report?", "ko": "알겠습니다. 신고서 사본을 받는 데 얼마나 걸리나요?" }
+        {
+          "speaker": "경찰",
+          "en": "Please fill out this form with details of what happened.",
+          "ko": "이 양식에 발생한 일의 세부 내용을 작성해 주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Sure. Do I need to write my passport number here?",
+          "ko": "네. 여기에 여권 번호도 써야 하나요?"
+        },
+        {
+          "speaker": "경찰",
+          "en": "Yes, and your contact number in case we have questions.",
+          "ko": "네, 그리고 문의가 생길 경우를 위해 연락처도 적어주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Okay. How long will it take to get a copy of the report?",
+          "ko": "알겠습니다. 신고서 사본을 받는 데 얼마나 걸리나요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "Please fill out this form.",
           "ko": "양식을 작성해달라는 표현. 'fill out'은 빈칸을 채우다는 뜻으로 서류 작성 시 가장 많이 쓰임. 'fill in'도 같은 의미로 사용 가능.",
           "alternatives": [
-            { "en": "Please complete this form.", "ko": "양식을 완성해달라는 표현으로 fill out과 같은 의미." },
-            { "en": "You need to fill in the blanks here.", "ko": "여기 빈칸을 채워야 한다는 더 구체적인 표현." }
+            {
+              "en": "Please complete this form.",
+              "ko": "양식을 완성해달라는 표현으로 fill out과 같은 의미."
+            },
+            {
+              "en": "You need to fill in the blanks here.",
+              "ko": "여기 빈칸을 채워야 한다는 더 구체적인 표현."
+            }
           ]
         },
         {
           "en": "How long will it take to get a copy of the report?",
           "ko": "신고서 사본을 받는 데 걸리는 시간을 묻는 표현. 'a copy of the report'는 신고서의 복사본. 보험 청구나 대사관 제출을 위해 반드시 필요하므로 꼭 요청해야 함.",
           "alternatives": [
-            { "en": "Can I get a copy of the police report today?", "ko": "오늘 경찰 신고서 사본을 받을 수 있는지 묻는 표현." },
-            { "en": "When will the report be ready?", "ko": "신고서가 언제 준비되는지 묻는 간단한 표현." }
+            {
+              "en": "Can I get a copy of the police report today?",
+              "ko": "오늘 경찰 신고서 사본을 받을 수 있는지 묻는 표현."
+            },
+            {
+              "en": "When will the report be ready?",
+              "ko": "신고서가 언제 준비되는지 묻는 간단한 표현."
+            }
           ]
         },
         {
           "en": "In case we have questions.",
           "ko": "'In case'는 '혹시 ~할 경우를 대비해서'라는 조건 표현. 경찰이 추가로 연락할 상황에 대비해 연락처를 요청하는 맥락에서 쓰임.",
           "alternatives": [
-            { "en": "In case we need to follow up.", "ko": "추가 확인이 필요할 경우를 대비해서라는 표현." },
-            { "en": "Just in case.", "ko": "만약을 대비해서라는 간결한 표현." }
+            {
+              "en": "In case we need to follow up.",
+              "ko": "추가 확인이 필요할 경우를 대비해서라는 표현."
+            },
+            {
+              "en": "Just in case.",
+              "ko": "만약을 대비해서라는 간결한 표현."
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch39_d05",
       "title": "도난 경위 설명하기",
       "lines": [
-        { "speaker": "경찰", "en": "Can you describe what happened exactly?", "ko": "정확히 어떤 일이 있었는지 설명해 주시겠어요?" },
-        { "speaker": "나", "en": "Someone took my bag on the subway. I didn't notice until I got off.", "ko": "지하철에서 누군가 제 가방을 가져갔습니다. 내릴 때까지 몰랐어요." },
-        { "speaker": "경찰", "en": "Did you see the person? Can you describe them?", "ko": "그 사람을 보셨나요? 어떻게 생겼는지 묘사해 주실 수 있나요?" },
-        { "speaker": "나", "en": "I'm not sure. It was very crowded. They were wearing a red jacket.", "ko": "잘 모르겠어요. 매우 붐볐습니다. 빨간 재킷을 입고 있었어요." }
+        {
+          "speaker": "경찰",
+          "en": "Can you describe what happened exactly?",
+          "ko": "정확히 어떤 일이 있었는지 설명해 주시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Someone took my bag on the subway. I didn't notice until I got off.",
+          "ko": "지하철에서 누군가 제 가방을 가져갔습니다. 내릴 때까지 몰랐어요."
+        },
+        {
+          "speaker": "경찰",
+          "en": "Did you see the person? Can you describe them?",
+          "ko": "그 사람을 보셨나요? 어떻게 생겼는지 묘사해 주실 수 있나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "I'm not sure. It was very crowded. They were wearing a red jacket.",
+          "ko": "잘 모르겠어요. 매우 붐볐습니다. 빨간 재킷을 입고 있었어요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Someone took my bag on the subway.",
           "ko": "지하철에서 가방을 도둑맞았다는 표현. 'Someone took ~'은 누군가 가져갔다는 뜻으로 도난 경위를 설명하는 자연스러운 방식. 'My bag was stolen on the subway'라고 수동태로 말해도 됨.",
           "alternatives": [
-            { "en": "My bag was stolen on the subway.", "ko": "같은 상황을 수동태로 표현한 방식." },
-            { "en": "I was pickpocketed on the train.", "ko": "소매치기를 당했다는 표현으로 'pickpocketed'는 지갑이나 물건을 몰래 훔쳐갔다는 의미." }
+            {
+              "en": "My bag was stolen on the subway.",
+              "ko": "같은 상황을 수동태로 표현한 방식."
+            },
+            {
+              "en": "I was pickpocketed on the train.",
+              "ko": "소매치기를 당했다는 표현으로 'pickpocketed'는 지갑이나 물건을 몰래 훔쳐갔다는 의미."
+            }
           ]
         },
         {
           "en": "I didn't notice until I got off.",
           "ko": "내릴 때까지 몰랐다는 표현. 'didn't notice until ~'은 '~할 때까지 알아채지 못했다'는 구조. 도난 사실을 뒤늦게 알게 된 상황을 설명할 때 유용.",
           "alternatives": [
-            { "en": "I only realized it was gone at the next stop.", "ko": "다음 정거장에서야 없어진 걸 깨달았다는 표현." },
-            { "en": "I didn't realize my bag was missing until later.", "ko": "나중에서야 가방이 없어진 걸 알았다는 표현." }
+            {
+              "en": "I only realized it was gone at the next stop.",
+              "ko": "다음 정거장에서야 없어진 걸 깨달았다는 표현."
+            },
+            {
+              "en": "I didn't realize my bag was missing until later.",
+              "ko": "나중에서야 가방이 없어진 걸 알았다는 표현."
+            }
           ]
         },
         {
           "en": "It was very crowded.",
           "ko": "매우 붐볐다는 상황 설명 표현. 도난이 발생하기 쉬운 환경을 묘사할 때 유용. 'packed'나 'jammed'도 같은 의미로 쓸 수 있음.",
           "alternatives": [
-            { "en": "The train was packed.", "ko": "기차가 가득 찼다는 표현으로 사람이 매우 많았음을 강조." },
-            { "en": "There were a lot of people around.", "ko": "주변에 사람이 많았다는 표현." }
+            {
+              "en": "The train was packed.",
+              "ko": "기차가 가득 찼다는 표현으로 사람이 매우 많았음을 강조."
+            },
+            {
+              "en": "There were a lot of people around.",
+              "ko": "주변에 사람이 많았다는 표현."
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch39_d06",
       "title": "대사관에 연락하기",
       "lines": [
-        { "speaker": "나", "en": "I need to contact the Korean embassy. My passport was stolen.", "ko": "한국 대사관에 연락해야 합니다. 여권을 도둑맞았습니다." },
-        { "speaker": "경찰", "en": "Of course. Here is the embassy's phone number and address.", "ko": "물론입니다. 여기 대사관 전화번호와 주소입니다." },
-        { "speaker": "나", "en": "Thank you. Do I need to bring the police report to the embassy?", "ko": "감사합니다. 대사관에 경찰 신고서를 가져가야 하나요?" },
-        { "speaker": "경찰", "en": "Yes, you'll need the police report and two passport photos.", "ko": "네, 경찰 신고서와 여권용 사진 두 장이 필요합니다." }
+        {
+          "speaker": "나",
+          "en": "I need to contact the Korean embassy. My passport was stolen.",
+          "ko": "한국 대사관에 연락해야 합니다. 여권을 도둑맞았습니다."
+        },
+        {
+          "speaker": "경찰",
+          "en": "Of course. Here is the embassy's phone number and address.",
+          "ko": "물론입니다. 여기 대사관 전화번호와 주소입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you. Do I need to bring the police report to the embassy?",
+          "ko": "감사합니다. 대사관에 경찰 신고서를 가져가야 하나요?"
+        },
+        {
+          "speaker": "경찰",
+          "en": "Yes, you'll need the police report and two passport photos.",
+          "ko": "네, 경찰 신고서와 여권용 사진 두 장이 필요합니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I need to contact the Korean embassy.",
           "ko": "한국 대사관에 연락해야 한다는 표현. 여권 도난 또는 분실 시 반드시 대사관에 연락해야 재발급 절차를 시작할 수 있음. 'embassy'는 대사관, 'consulate'는 영사관.",
           "alternatives": [
-            { "en": "Where is the Korean embassy?", "ko": "한국 대사관의 위치를 묻는 표현." },
-            { "en": "Can you help me get in touch with my embassy?", "ko": "대사관 연락을 도와달라는 요청 표현." }
+            {
+              "en": "Where is the Korean embassy?",
+              "ko": "한국 대사관의 위치를 묻는 표현."
+            },
+            {
+              "en": "Can you help me get in touch with my embassy?",
+              "ko": "대사관 연락을 도와달라는 요청 표현."
+            }
           ]
         },
         {
           "en": "Do I need to bring the police report?",
           "ko": "경찰 신고서를 지참해야 하는지 묻는 표현. 'police report'는 경찰이 발급하는 공식 신고서로 도난·분실 증명에 사용됨. 대사관, 보험사 모두 이를 요구하므로 반드시 수령해야 함.",
           "alternatives": [
-            { "en": "What documents do I need to bring?", "ko": "어떤 서류를 지참해야 하는지 포괄적으로 묻는 표현." },
-            { "en": "Is the police report required for the embassy?", "ko": "대사관 방문에 경찰 신고서가 필요한지 확인하는 표현." }
+            {
+              "en": "What documents do I need to bring?",
+              "ko": "어떤 서류를 지참해야 하는지 포괄적으로 묻는 표현."
+            },
+            {
+              "en": "Is the police report required for the embassy?",
+              "ko": "대사관 방문에 경찰 신고서가 필요한지 확인하는 표현."
+            }
           ]
         },
         {
           "en": "Two passport photos.",
           "ko": "여권용 사진 두 장이라는 표현. 'passport photo'는 여권에 사용되는 규격 사진을 의미. 긴급 여행증명서 발급 시에도 동일하게 필요한 경우가 많음.",
           "alternatives": [
-            { "en": "A couple of ID photos.", "ko": "신분증용 사진 두 장이라는 표현으로 passport photo와 같은 맥락." },
-            { "en": "Two photos in passport size.", "ko": "여권 사이즈의 사진 두 장이라는 풀어서 설명한 표현." }
+            {
+              "en": "A couple of ID photos.",
+              "ko": "신분증용 사진 두 장이라는 표현으로 passport photo와 같은 맥락."
+            },
+            {
+              "en": "Two photos in passport size.",
+              "ko": "여권 사이즈의 사진 두 장이라는 풀어서 설명한 표현."
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch39_d07",
       "title": "분실 카드 정지 요청하기",
       "lines": [
-        { "speaker": "나", "en": "I need to cancel my credit card. It was in my stolen wallet.", "ko": "신용카드를 정지시켜야 합니다. 도난당한 지갑 안에 있었거든요." },
-        { "speaker": "직원", "en": "I understand. Can you verify your name and card number?", "ko": "알겠습니다. 성함과 카드 번호를 확인해 주시겠어요?" },
-        { "speaker": "나", "en": "My name is Kim Jiyeon, but I don't remember the full number.", "ko": "이름은 김지연인데, 전체 번호는 기억이 안 납니다." },
-        { "speaker": "직원", "en": "That's okay. We can verify with your date of birth instead.", "ko": "괜찮습니다. 대신 생년월일로 확인할 수 있습니다." }
+        {
+          "speaker": "나",
+          "en": "I need to cancel my credit card. It was in my stolen wallet.",
+          "ko": "신용카드를 정지시켜야 합니다. 도난당한 지갑 안에 있었거든요."
+        },
+        {
+          "speaker": "직원",
+          "en": "I understand. Can you verify your name and card number?",
+          "ko": "알겠습니다. 성함과 카드 번호를 확인해 주시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "My name is Kim Jiyeon, but I don't remember the full number.",
+          "ko": "이름은 김지연인데, 전체 번호는 기억이 안 납니다."
+        },
+        {
+          "speaker": "직원",
+          "en": "That's okay. We can verify with your date of birth instead.",
+          "ko": "괜찮습니다. 대신 생년월일로 확인할 수 있습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I need to cancel my credit card.",
           "ko": "신용카드를 취소·정지해달라는 표현. 'cancel'은 카드를 완전히 취소하는 것. 'block'이나 'freeze'는 일시적으로 사용을 막는 것. 도난 상황에서는 'cancel' 또는 'block'이 모두 통용됨.",
           "alternatives": [
-            { "en": "I need to block my card immediately.", "ko": "카드를 즉시 차단해달라는 긴급한 표현." },
-            { "en": "Please freeze my account.", "ko": "계좌를 동결해달라는 표현으로 은행 거래 전체를 막을 때 씀." }
+            {
+              "en": "I need to block my card immediately.",
+              "ko": "카드를 즉시 차단해달라는 긴급한 표현."
+            },
+            {
+              "en": "Please freeze my account.",
+              "ko": "계좌를 동결해달라는 표현으로 은행 거래 전체를 막을 때 씀."
+            }
           ]
         },
         {
           "en": "Can you verify my name and card number?",
           "ko": "이름과 카드 번호를 확인해달라는 표현. 'verify'는 진위를 확인하다는 뜻. 카드사나 은행에 전화할 때 본인 인증 절차로 자주 요청받는 표현.",
           "alternatives": [
-            { "en": "I need to confirm my identity.", "ko": "본인 확인이 필요하다는 표현." },
-            { "en": "How can I verify my account?", "ko": "계좌 확인 방법을 묻는 표현." }
+            {
+              "en": "I need to confirm my identity.",
+              "ko": "본인 확인이 필요하다는 표현."
+            },
+            {
+              "en": "How can I verify my account?",
+              "ko": "계좌 확인 방법을 묻는 표현."
+            }
           ]
         },
         {
           "en": "We can verify with your date of birth instead.",
           "ko": "생년월일로 대신 확인할 수 있다는 표현. 'instead'는 대신에라는 의미. 카드 번호를 모를 때 생년월일, 주소 등 다른 정보로 본인 인증이 가능한 경우가 많음.",
           "alternatives": [
-            { "en": "We can use your billing address to verify.", "ko": "청구지 주소로 본인 확인을 대신할 수 있다는 표현." },
-            { "en": "Your social security number will work too.", "ko": "주민등록번호(사회보장번호)로도 가능하다는 표현." }
+            {
+              "en": "We can use your billing address to verify.",
+              "ko": "청구지 주소로 본인 확인을 대신할 수 있다는 표현."
+            },
+            {
+              "en": "Your social security number will work too.",
+              "ko": "주민등록번호(사회보장번호)로도 가능하다는 표현."
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch39_d08",
       "title": "분실물센터에 문의하기",
       "lines": [
-        { "speaker": "나", "en": "Is this the lost and found? I'm looking for my bag.", "ko": "여기가 분실물센터인가요? 가방을 찾고 있습니다." },
-        { "speaker": "직원", "en": "Yes, it is. Can you describe the bag for me?", "ko": "네, 맞습니다. 가방을 묘사해 주시겠어요?" },
-        { "speaker": "나", "en": "It's a black backpack with a red zipper, and my initials are on it.", "ko": "빨간 지퍼가 달린 검은 배낭이고, 제 이니셜이 새겨져 있습니다." },
-        { "speaker": "직원", "en": "Let me check. We did receive a black backpack this morning.", "ko": "확인해 볼게요. 오늘 아침에 검은 배낭이 들어온 게 있네요." }
+        {
+          "speaker": "나",
+          "en": "Is this the lost and found? I'm looking for my bag.",
+          "ko": "여기가 분실물센터인가요? 가방을 찾고 있습니다."
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, it is. Can you describe the bag for me?",
+          "ko": "네, 맞습니다. 가방을 묘사해 주시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "It's a black backpack with a red zipper, and my initials are on it.",
+          "ko": "빨간 지퍼가 달린 검은 배낭이고, 제 이니셜이 새겨져 있습니다."
+        },
+        {
+          "speaker": "직원",
+          "en": "Let me check. We did receive a black backpack this morning.",
+          "ko": "확인해 볼게요. 오늘 아침에 검은 배낭이 들어온 게 있네요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is this the lost and found?",
           "ko": "분실물센터가 맞는지 확인하는 표현. 'lost and found'는 잃어버린 물건을 보관하는 분실물 센터를 의미. 공항, 지하철역, 호텔 등 어디서나 사용 가능.",
           "alternatives": [
-            { "en": "Where is the lost and found office?", "ko": "분실물 센터의 위치를 묻는 표현." },
-            { "en": "I'd like to check if my bag was turned in.", "ko": "내 가방이 분실물로 신고됐는지 확인하고 싶다는 표현." }
+            {
+              "en": "Where is the lost and found office?",
+              "ko": "분실물 센터의 위치를 묻는 표현."
+            },
+            {
+              "en": "I'd like to check if my bag was turned in.",
+              "ko": "내 가방이 분실물로 신고됐는지 확인하고 싶다는 표현."
+            }
           ]
         },
         {
           "en": "Can you describe the bag for me?",
           "ko": "가방을 묘사해달라는 요청. 'describe'는 특징을 설명하다는 뜻. 분실물을 찾을 때는 색깔, 크기, 모양, 특징 등을 구체적으로 말해야 함.",
           "alternatives": [
-            { "en": "What does it look like?", "ko": "어떻게 생겼는지 묻는 캐주얼한 표현." },
-            { "en": "What color and size is it?", "ko": "색깔과 크기를 구체적으로 묻는 표현." }
+            {
+              "en": "What does it look like?",
+              "ko": "어떻게 생겼는지 묻는 캐주얼한 표현."
+            },
+            {
+              "en": "What color and size is it?",
+              "ko": "색깔과 크기를 구체적으로 묻는 표현."
+            }
           ]
         },
         {
           "en": "My initials are on it.",
           "ko": "이니셜이 새겨져 있다는 표현. 'initials'는 이름의 첫 글자로 소지품에 표시해두면 분실물 확인에 매우 유용함. 'monogram'도 비슷한 의미로 쓰임.",
           "alternatives": [
-            { "en": "It has my name tag on it.", "ko": "이름표가 붙어 있다는 표현." },
-            { "en": "There's a keychain with my name on the zipper.", "ko": "지퍼에 이름이 새겨진 열쇠고리가 달려 있다는 표현." }
+            {
+              "en": "It has my name tag on it.",
+              "ko": "이름표가 붙어 있다는 표현."
+            },
+            {
+              "en": "There's a keychain with my name on the zipper.",
+              "ko": "지퍼에 이름이 새겨진 열쇠고리가 달려 있다는 표현."
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch39_d09",
       "title": "보험 청구용 도난 증명서 요청하기",
       "lines": [
-        { "speaker": "나", "en": "I need a copy of the police report for my travel insurance claim.", "ko": "여행자 보험 청구를 위해 경찰 신고서 사본이 필요합니다." },
-        { "speaker": "경찰", "en": "Certainly. It will be ready in about thirty minutes.", "ko": "물론입니다. 약 30분 후에 준비될 것입니다." },
-        { "speaker": "나", "en": "Does it need to be stamped or certified officially?", "ko": "공식 도장이나 인증이 필요한가요?" },
-        { "speaker": "경찰", "en": "Yes, it will have our official stamp. That should be sufficient.", "ko": "네, 저희 공식 도장이 찍힐 겁니다. 그것으로 충분할 것입니다." }
+        {
+          "speaker": "나",
+          "en": "I need a copy of the police report for my travel insurance claim.",
+          "ko": "여행자 보험 청구를 위해 경찰 신고서 사본이 필요합니다."
+        },
+        {
+          "speaker": "경찰",
+          "en": "Certainly. It will be ready in about thirty minutes.",
+          "ko": "물론입니다. 약 30분 후에 준비될 것입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Does it need to be stamped or certified officially?",
+          "ko": "공식 도장이나 인증이 필요한가요?"
+        },
+        {
+          "speaker": "경찰",
+          "en": "Yes, it will have our official stamp. That should be sufficient.",
+          "ko": "네, 저희 공식 도장이 찍힐 겁니다. 그것으로 충분할 것입니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I need a copy of the police report for my insurance claim.",
           "ko": "보험 청구를 위해 경찰 신고서 사본이 필요하다는 표현. 'insurance claim'은 보험 청구. 여행자 보험으로 도난 피해를 보상받으려면 반드시 경찰 신고서가 필요함.",
           "alternatives": [
-            { "en": "Can I get an official copy of the report?", "ko": "공식 신고서 사본을 받을 수 있는지 요청하는 표현." },
-            { "en": "I need documentation for my insurance.", "ko": "보험을 위한 증빙 서류가 필요하다는 포괄적인 표현." }
+            {
+              "en": "Can I get an official copy of the report?",
+              "ko": "공식 신고서 사본을 받을 수 있는지 요청하는 표현."
+            },
+            {
+              "en": "I need documentation for my insurance.",
+              "ko": "보험을 위한 증빙 서류가 필요하다는 포괄적인 표현."
+            }
           ]
         },
         {
           "en": "Does it need to be stamped or certified?",
           "ko": "도장이나 공증이 필요한지 묻는 표현. 'stamped'는 도장이 찍혔다는 뜻, 'certified'는 공식 인증을 받았다는 뜻. 보험사마다 요구 사항이 다를 수 있으므로 확인이 필요.",
           "alternatives": [
-            { "en": "Does this document need to be notarized?", "ko": "이 서류가 공증이 필요한지 묻는 표현. 'notarized'는 공증받은이라는 뜻." },
-            { "en": "Is an official stamp required?", "ko": "공식 도장이 필요한지 묻는 표현." }
+            {
+              "en": "Does this document need to be notarized?",
+              "ko": "이 서류가 공증이 필요한지 묻는 표현. 'notarized'는 공증받은이라는 뜻."
+            },
+            {
+              "en": "Is an official stamp required?",
+              "ko": "공식 도장이 필요한지 묻는 표현."
+            }
           ]
         },
         {
           "en": "That should be sufficient.",
           "ko": "그것으로 충분할 것이라는 표현. 'sufficient'는 충분한이라는 뜻. 경찰이 발급한 공식 도장이 찍힌 신고서면 보험사에 제출하기에 충분함을 알려주는 표현.",
           "alternatives": [
-            { "en": "That will do.", "ko": "그것으로 충분하다는 캐주얼한 표현." },
-            { "en": "That should be enough for your purposes.", "ko": "목적에 맞게 충분할 것이라는 표현." }
+            {
+              "en": "That will do.",
+              "ko": "그것으로 충분하다는 캐주얼한 표현."
+            },
+            {
+              "en": "That should be enough for your purposes.",
+              "ko": "목적에 맞게 충분할 것이라는 표현."
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch39_d10",
       "title": "긴급 여행증명서 발급 안내받기",
       "lines": [
-        { "speaker": "나", "en": "My passport was stolen and I have a flight tomorrow. What should I do?", "ko": "여권을 도둑맞았는데 내일 비행기가 있습니다. 어떻게 해야 하나요?" },
-        { "speaker": "직원", "en": "You'll need to apply for an emergency travel document at the embassy.", "ko": "대사관에서 긴급 여행증명서를 신청해야 합니다." },
-        { "speaker": "나", "en": "How long does it take to get an emergency travel document?", "ko": "긴급 여행증명서를 받는 데 얼마나 걸리나요?" },
-        { "speaker": "직원", "en": "Usually same day if you arrive early with all required documents.", "ko": "필요한 서류를 모두 갖추고 일찍 오시면 보통 당일에 받을 수 있습니다." }
+        {
+          "speaker": "나",
+          "en": "My passport was stolen and I have a flight tomorrow. What should I do?",
+          "ko": "여권을 도둑맞았는데 내일 비행기가 있습니다. 어떻게 해야 하나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "You'll need to apply for an emergency travel document at the embassy.",
+          "ko": "대사관에서 긴급 여행증명서를 신청해야 합니다."
+        },
+        {
+          "speaker": "나",
+          "en": "How long does it take to get an emergency travel document?",
+          "ko": "긴급 여행증명서를 받는 데 얼마나 걸리나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Usually same day if you arrive early with all required documents.",
+          "ko": "필요한 서류를 모두 갖추고 일찍 오시면 보통 당일에 받을 수 있습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I need to apply for an emergency travel document.",
           "ko": "긴급 여행증명서를 신청해야 한다는 표현. 'emergency travel document'는 여권을 분실하거나 도난당했을 때 귀국을 위해 임시로 발급받는 서류. 반드시 한국 대사관이나 영사관에서 발급받아야 함.",
           "alternatives": [
-            { "en": "I need an emergency passport.", "ko": "긴급 여권이 필요하다는 표현으로 임시 여권을 의미." },
-            { "en": "Can the embassy issue a temporary travel document?", "ko": "대사관에서 임시 여행 서류를 발급할 수 있는지 묻는 표현." }
+            {
+              "en": "I need an emergency passport.",
+              "ko": "긴급 여권이 필요하다는 표현으로 임시 여권을 의미."
+            },
+            {
+              "en": "Can the embassy issue a temporary travel document?",
+              "ko": "대사관에서 임시 여행 서류를 발급할 수 있는지 묻는 표현."
+            }
           ]
         },
         {
           "en": "How long does it take to get an emergency travel document?",
           "ko": "긴급 여행증명서 발급 시간을 묻는 표현. 'How long does it take to ~?'는 '~하는 데 얼마나 걸리나요?'라는 소요 시간 질문 패턴. 비행 일정이 촉박할 때 반드시 확인해야 함.",
           "alternatives": [
-            { "en": "How soon can I get it?", "ko": "얼마나 빨리 받을 수 있는지 묻는 간결한 표현." },
-            { "en": "Is same-day processing possible?", "ko": "당일 처리가 가능한지 묻는 표현." }
+            {
+              "en": "How soon can I get it?",
+              "ko": "얼마나 빨리 받을 수 있는지 묻는 간결한 표현."
+            },
+            {
+              "en": "Is same-day processing possible?",
+              "ko": "당일 처리가 가능한지 묻는 표현."
+            }
           ]
         },
         {
           "en": "If you arrive early with all required documents.",
           "ko": "필요 서류를 모두 갖추고 일찍 오면이라는 조건 표현. 'required documents'는 필수 서류로 경찰 신고서, 여권용 사진, 신분증 사본 등을 의미. 긴급 상황일수록 서류 준비가 중요함.",
           "alternatives": [
-            { "en": "As long as you have all the paperwork ready.", "ko": "서류 준비가 모두 됐다면이라는 조건 표현." },
-            { "en": "Provided you submit everything before noon.", "ko": "정오 전에 모두 제출한다면이라는 시간 조건 표현." }
+            {
+              "en": "As long as you have all the paperwork ready.",
+              "ko": "서류 준비가 모두 됐다면이라는 조건 표현."
+            },
+            {
+              "en": "Provided you submit everything before noon.",
+              "ko": "정오 전에 모두 제출한다면이라는 시간 조건 표현."
+            }
           ]
         }
       ]
@@ -525,6 +865,1473 @@
           "question": "여권을 분실한 경우 'embassy'(대사관)가 아닌 'tourist office'(관광안내소)를 방문해야 한다.",
           "answerIndex": 1,
           "explanation": "거짓입니다. 여권 분실 또는 도난 시에는 한국 대사관(embassy) 또는 영사관(consulate)을 방문해야 합니다. 관광안내소(tourist office)는 여행 정보를 제공하는 곳으로 여권 재발급 업무를 처리하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch39_set02_001",
+          "type": "multiple_choice",
+          "question": "가방을 도둑맞았다고 경찰에 신고할 때 가장 정확한 표현은?",
+          "options": [
+            "I misplaced my bag.",
+            "My bag was stolen.",
+            "I dropped my bag somewhere.",
+            "My bag is somewhere around here."
+          ],
+          "answerIndex": 1,
+          "explanation": "'My bag was stolen.'은 수동태로 타인이 훔쳐갔음을 명확히 전달합니다. 'I misplaced my bag.'이나 'I dropped my bag.'은 도난이 아닌 분실·실수 상황을 나타냅니다. 도난 신고 시 수동태 표현을 사용해야 합니다."
+        },
+        {
+          "id": "se_ch39_set02_002",
+          "type": "multiple_choice",
+          "question": "경찰서에서 처음 상황을 알릴 때 어울리는 첫마디는?",
+          "options": [
+            "I need to report a crime.",
+            "I want to buy something.",
+            "I have a question about directions.",
+            "I need a taxi, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need to report a crime.'은 경찰서에서 범죄 피해를 신고하겠다는 표현입니다. 나머지 표현들은 경찰 신고와 무관한 요청입니다."
+        },
+        {
+          "id": "se_ch39_set02_003",
+          "type": "multiple_choice",
+          "question": "여권이 없어졌다고 알릴 때 적절한 표현은?",
+          "options": [
+            "My passport is expired.",
+            "I forgot to bring my passport.",
+            "My passport is missing.",
+            "My passport is at the hotel safe."
+          ],
+          "answerIndex": 2,
+          "explanation": "'My passport is missing.'은 여권이 없어진 상태를 나타내는 표현입니다. 도난과 분실 모두에 해당할 수 있어 경찰 신고 시 활용하기 좋습니다. 'expired'는 만료, 'forgot'은 실수로 두고 왔다는 의미입니다."
+        },
+        {
+          "id": "se_ch39_set02_004",
+          "type": "multiple_choice",
+          "question": "버스에 여권을 두고 내렸다고 생각될 때 쓰는 표현은?",
+          "options": [
+            "Someone stole my passport on the bus.",
+            "I left my passport on the bus.",
+            "My passport fell out on the bus.",
+            "I gave my passport to the bus driver."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I left my passport on the bus.'는 버스에 두고 내렸다는 표현입니다. 'left'는 어딘가에 놓고 왔다는 의미로, 어디에 뒀는지 짐작할 때 씁니다. 'Someone stole'은 도난 표현으로 상황이 다릅니다."
+        },
+        {
+          "id": "se_ch39_set02_005",
+          "type": "multiple_choice",
+          "question": "분실물센터를 영어로 무엇이라고 하는가?",
+          "options": [
+            "Baggage claim",
+            "Customer service",
+            "Lost and found",
+            "Information desk"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Lost and found'는 분실물을 보관하고 찾아주는 분실물센터를 뜻합니다. 공항, 지하철역, 호텔 등 다양한 장소에서 볼 수 있습니다. 'Baggage claim'은 수하물 수취소입니다."
+        },
+        {
+          "id": "se_ch39_set02_006",
+          "type": "multiple_choice",
+          "question": "도난당한 신용카드를 즉시 막아달라고 할 때 알맞은 표현은?",
+          "options": [
+            "Please update my card information.",
+            "I'd like to apply for a new card.",
+            "I need to block my card immediately.",
+            "Can you extend my card's expiry date?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'I need to block my card immediately.'는 카드를 즉시 차단해달라는 긴급 표현입니다. 'block'은 일시적 사용 정지, 'cancel'은 완전 해지를 뜻합니다. 도난 상황에서는 'block' 또는 'cancel' 모두 사용 가능합니다."
+        },
+        {
+          "id": "se_ch39_set02_007",
+          "type": "multiple_choice",
+          "question": "대사관에 경찰 신고서를 제출해야 하는지 물을 때 적절한 표현은?",
+          "options": [
+            "Do I need to bring the police report to the embassy?",
+            "Can the embassy call the police for me?",
+            "Does the embassy have a lost and found?",
+            "Will the embassy pay for my stolen items?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do I need to bring the police report to the embassy?'는 경찰 신고서를 대사관에 가져가야 하는지 확인하는 표현입니다. 여권 재발급 절차에서 경찰 신고서는 필수 서류이므로 반드시 확인해야 합니다."
+        },
+        {
+          "id": "se_ch39_set02_008",
+          "type": "multiple_choice",
+          "question": "보험 청구를 위한 증빙 서류가 필요하다고 말할 때 알맞은 표현은?",
+          "options": [
+            "I need documentation for my insurance.",
+            "I want the insurance company to find my items.",
+            "Can the police file my insurance claim?",
+            "I'd like to pay my insurance premium."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need documentation for my insurance.'는 보험을 위한 증빙 서류가 필요하다는 포괄적인 표현입니다. 도난 피해 보상을 위해 경찰 신고서 등 공식 서류를 보험사에 제출해야 합니다."
+        },
+        {
+          "id": "se_ch39_set02_009",
+          "type": "multiple_choice",
+          "question": "긴급 여행증명서를 신청해야 한다고 말할 때 적절한 표현은?",
+          "options": [
+            "I need to apply for a tourist visa.",
+            "I need to apply for an emergency travel document.",
+            "I'd like to extend my passport.",
+            "I need to renew my driver's license."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I need to apply for an emergency travel document.'는 여권 분실·도난 후 귀국을 위해 임시 여행 서류를 신청하겠다는 표현입니다. 한국 대사관 또는 영사관에서 발급받을 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set02_010",
+          "type": "multiple_choice",
+          "question": "경찰 신고서 양식 작성을 요청받았을 때의 표현으로 알맞은 것은?",
+          "options": [
+            "Please sign the document only.",
+            "Please read this carefully.",
+            "Please complete this form.",
+            "Please pay the processing fee."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Please complete this form.'은 양식을 빠짐없이 작성해달라는 표현으로, 'fill out this form'과 같은 의미입니다. 경찰서나 대사관에서 서류 작성을 요청할 때 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch39_set02_011",
+          "type": "ox",
+          "question": "'Someone stole my wallet.'은 도난을 능동태로 표현한 문장으로 경찰 신고 시 사용할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Someone stole my wallet.'은 누군가 지갑을 훔쳐갔다는 능동태 표현입니다. 'My wallet was stolen.'이라는 수동태와 의미가 동일하며, 두 표현 모두 경찰 신고 시 적절하게 사용할 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set02_012",
+          "type": "ox",
+          "question": "경찰서는 24시간 운영하지 않으므로 낮에만 방문해야 한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 경찰서는 24시간 운영합니다. 'Police stations are open twenty-four hours.' 또는 'They're open 24/7.'이라는 표현처럼 긴급 상황에서는 언제든지 방문할 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set02_013",
+          "type": "ox",
+          "question": "긴급 여행증명서는 필요한 서류를 모두 갖추면 당일 발급이 가능한 경우도 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Usually same day if you arrive early with all required documents.'라는 표현처럼, 필요 서류를 모두 준비하고 일찍 방문하면 당일 발급도 가능합니다. 비행 일정이 촉박할 때 미리 확인하는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch39_set02_014",
+          "type": "ox",
+          "question": "'I left my passport on the bus.'는 여권을 버스에서 도난당했다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'I left my passport on the bus.'는 여권을 버스에 두고 내렸다는 분실 표현입니다. 도난 표현은 'My passport was stolen on the bus.' 또는 'Someone stole my passport on the bus.'가 적절합니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch39_set03_001",
+          "type": "multiple_choice",
+          "question": "지갑을 소매치기당했다고 경찰에 신고할 때 적절한 표현은?",
+          "options": [
+            "I left my wallet at the store.",
+            "My wallet was stolen.",
+            "I can't remember where I put my wallet.",
+            "My wallet is at the lost and found."
+          ],
+          "answerIndex": 1,
+          "explanation": "'My wallet was stolen.'은 수동태 표현으로 타인이 훔쳐갔음을 나타냅니다. 'I left my wallet'은 두고 왔다는 분실, 'I can't remember'는 기억이 안 난다는 뜻으로 도난 신고에는 적합하지 않습니다."
+        },
+        {
+          "id": "se_ch39_set03_002",
+          "type": "multiple_choice",
+          "question": "여권을 찾을 수 없다고 말할 때 자연스러운 표현은?",
+          "options": [
+            "My passport is in my pocket.",
+            "I can't find my passport anywhere.",
+            "My passport was given to someone.",
+            "I sold my passport by mistake."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I can't find my passport anywhere.'는 아무리 찾아도 없다는 뜻으로 분실 상황을 자연스럽게 표현합니다. 찾고 있는 과정을 강조하는 표현으로 경찰이나 분실물센터에서 사용하기 적합합니다."
+        },
+        {
+          "id": "se_ch39_set03_003",
+          "type": "multiple_choice",
+          "question": "절도 피해를 공식적으로 신고하겠다는 표현으로 알맞은 것은?",
+          "options": [
+            "I want to file a theft report.",
+            "I need to speak to the hotel manager.",
+            "I'd like to complain about the service.",
+            "I want to contact my travel agent."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I want to file a theft report.'는 도난 신고서를 제출하겠다는 공식 표현입니다. 'file a report'는 신고서를 제출하다는 의미로, 경찰서에서 서류 작업을 전제한 표현입니다."
+        },
+        {
+          "id": "se_ch39_set03_004",
+          "type": "multiple_choice",
+          "question": "지하철이 매우 붐볐던 상황을 설명할 때 알맞은 표현은?",
+          "options": [
+            "The train was empty.",
+            "The train was delayed.",
+            "The train was packed.",
+            "The train was out of service."
+          ],
+          "answerIndex": 2,
+          "explanation": "'The train was packed.'는 기차가 사람으로 가득 찼다는 표현입니다. 도난 상황에서 붐볐다는 맥락을 설명할 때 사용합니다. 'very crowded'나 'jammed'도 같은 의미로 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set03_005",
+          "type": "multiple_choice",
+          "question": "도난 사실을 내릴 때까지 몰랐다고 말할 때 적절한 표현은?",
+          "options": [
+            "I noticed my bag was gone right away.",
+            "I didn't notice until I got off.",
+            "I saw someone take my bag.",
+            "I reported the theft immediately."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I didn't notice until I got off.'는 내릴 때까지 도난 사실을 알아채지 못했다는 표현입니다. 'didn't notice until ~'은 '~할 때까지 알아채지 못했다'는 구조로 뒤늦게 알게 된 상황에 씁니다."
+        },
+        {
+          "id": "se_ch39_set03_006",
+          "type": "multiple_choice",
+          "question": "대사관에 여권 재발급을 문의하러 가야 할 때 알맞은 표현은?",
+          "options": [
+            "I need to visit the tourist information center.",
+            "I need to go to the airport lost and found.",
+            "I need to contact the Korean embassy.",
+            "I need to go to the city hall."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I need to contact the Korean embassy.'는 여권 분실·도난 후 재발급을 위해 대사관에 연락해야 한다는 표현입니다. 관광안내소나 시청은 이 업무를 처리하지 않습니다."
+        },
+        {
+          "id": "se_ch39_set03_007",
+          "type": "multiple_choice",
+          "question": "가방 분실 후 분실물센터에서 가방 특징을 설명해달라는 말은?",
+          "options": [
+            "Can you describe the bag for me?",
+            "Can you pay for the lost bag?",
+            "Can you bring your bag here?",
+            "Can you wait for the bag to arrive?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you describe the bag for me?'는 가방의 특징을 묘사해달라는 요청입니다. 분실물센터에서 소지품을 찾을 때 직원이 색깔, 크기, 특이사항 등을 물어볼 때 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch39_set03_008",
+          "type": "multiple_choice",
+          "question": "신용카드 번호를 모를 때 생년월일로 대신 확인한다는 표현은?",
+          "options": [
+            "We can verify with your date of birth instead.",
+            "We need your card number to proceed.",
+            "We can't help without your card number.",
+            "We will send a new card to your address."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We can verify with your date of birth instead.'는 카드 번호를 모를 때 생년월일로 본인 인증을 대신할 수 있다는 표현입니다. 'instead'는 대신에라는 의미로, 다른 정보로 확인 가능함을 알려줍니다."
+        },
+        {
+          "id": "se_ch39_set03_009",
+          "type": "multiple_choice",
+          "question": "경찰 신고서에 공식 도장이 찍힌다는 표현으로 알맞은 것은?",
+          "options": [
+            "The report will have our official stamp.",
+            "The report will be sent to your email.",
+            "The report does not require any signature.",
+            "The report will be ready in two weeks."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The report will have our official stamp.'는 신고서에 공식 도장이 찍힌다는 표현입니다. 공식 도장이 찍힌 경찰 신고서는 보험사나 대사관에 제출하기에 충분한 증빙 자료가 됩니다."
+        },
+        {
+          "id": "se_ch39_set03_010",
+          "type": "multiple_choice",
+          "question": "당일 처리가 가능한지 물을 때 간결한 표현은?",
+          "options": [
+            "Can you help me right now?",
+            "Is same-day processing possible?",
+            "When does your office open?",
+            "How much does it cost?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is same-day processing possible?'는 당일 처리가 가능한지 묻는 표현입니다. 비행 일정이 촉박할 때 긴급 여행증명서나 신고서를 당일에 받을 수 있는지 확인할 때 씁니다."
+        },
+        {
+          "id": "se_ch39_set03_011",
+          "type": "ox",
+          "question": "여권을 분실했을 때 'I lost my passport.'와 'My passport was stolen.'은 같은 상황을 나타낸다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'I lost my passport.'는 스스로 잃어버린 분실 상황, 'My passport was stolen.'은 타인이 훔쳐간 도난 상황을 나타냅니다. 경찰 신고 시 상황에 맞게 두 표현을 정확히 구별해야 합니다."
+        },
+        {
+          "id": "se_ch39_set03_012",
+          "type": "ox",
+          "question": "분실물센터(lost and found)는 공항, 지하철역, 호텔 등 다양한 장소에 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'lost and found'는 공항, 지하철역, 호텔, 쇼핑몰 등 다양한 공공장소에서 운영됩니다. 분실물을 신고하거나 찾을 때 해당 장소의 분실물센터를 방문하면 됩니다."
+        },
+        {
+          "id": "se_ch39_set03_013",
+          "type": "ox",
+          "question": "보험 청구 시 경찰 신고서(police report)는 필요하지 않다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 여행자 보험으로 도난 피해를 보상받으려면 경찰 신고서가 필요합니다. 보험사는 피해 사실을 공식 서류로 확인하므로, 반드시 경찰서에서 신고서 사본을 받아 두어야 합니다."
+        },
+        {
+          "id": "se_ch39_set03_014",
+          "type": "ox",
+          "question": "여권 사진(passport photo)은 긴급 여행증명서 발급 시에도 필요할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Two passport photos.'처럼 여권용 사진은 긴급 여행증명서 발급 및 여권 재발급 시 모두 필요한 경우가 많습니다. 해외 여행 시 여권용 사진을 여분으로 챙겨두면 유용합니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch39_set04_001",
+          "type": "multiple_choice",
+          "question": "경찰서에서 도난 신고를 시작할 때 쓸 수 있는 표현은?",
+          "options": [
+            "I'd like to report a theft.",
+            "I need to report a traffic accident.",
+            "I want to report a fire.",
+            "I need to speak to a lawyer."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like to report a theft.'는 절도 피해를 경찰에 공식 신고하겠다는 표현입니다. 'theft'는 절도를 의미하며, 경찰서에서 첫마디로 사용하기 적합합니다."
+        },
+        {
+          "id": "se_ch39_set04_002",
+          "type": "multiple_choice",
+          "question": "여권을 잃어버렸다고 경찰에 신고할 때 알맞은 표현은?",
+          "options": [
+            "I forgot to renew my passport.",
+            "I lost my passport.",
+            "My passport is at home.",
+            "I don't have a passport."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I lost my passport.'는 여권 분실을 가장 직접적으로 표현하는 방식입니다. 경찰 신고와 분실물 신고 시 모두 사용 가능합니다. 'forgot to renew'는 갱신을 깜빡했다는 다른 상황입니다."
+        },
+        {
+          "id": "se_ch39_set04_003",
+          "type": "multiple_choice",
+          "question": "사건 발생 시각을 대략적으로 알릴 때 적절한 표현은?",
+          "options": [
+            "It happened exactly at 3:00 PM.",
+            "About an hour ago.",
+            "I don't know when it happened.",
+            "It happened last year."
+          ],
+          "answerIndex": 1,
+          "explanation": "'About an hour ago.'는 약 한 시간 전이라는 대략적인 시간 표현입니다. 'About'을 붙이면 정확하지 않아도 자연스럽게 말할 수 있으며, 경찰 신고 시 유용합니다."
+        },
+        {
+          "id": "se_ch39_set04_004",
+          "type": "multiple_choice",
+          "question": "경찰이 신고서 양식을 작성해달라고 요청할 때의 표현은?",
+          "options": [
+            "Please fill out this form.",
+            "Please read this form aloud.",
+            "Please destroy this form.",
+            "Please translate this form."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please fill out this form.'은 양식의 빈칸을 채워달라는 요청입니다. 'fill out'은 서류를 작성하다는 의미로, 경찰서나 대사관에서 가장 자주 쓰이는 표현입니다."
+        },
+        {
+          "id": "se_ch39_set04_005",
+          "type": "multiple_choice",
+          "question": "지하철에서 소매치기당했다고 말하는 표현은?",
+          "options": [
+            "I was pickpocketed on the train.",
+            "I lost my wallet on the train platform.",
+            "My bag was left behind on the train.",
+            "I dropped my wallet while getting on the train."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I was pickpocketed on the train.'은 지하철에서 소매치기를 당했다는 표현입니다. 'pickpocketed'는 지갑이나 물건을 몰래 훔쳐갔다는 구체적인 의미를 담고 있습니다."
+        },
+        {
+          "id": "se_ch39_set04_006",
+          "type": "multiple_choice",
+          "question": "대사관에 방문 시 필요한 서류를 확인할 때 적절한 표현은?",
+          "options": [
+            "What documents do I need to bring?",
+            "Can the embassy give me money?",
+            "Does the embassy have a hotel nearby?",
+            "Will the embassy reimburse my losses?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What documents do I need to bring?'는 어떤 서류를 지참해야 하는지 포괄적으로 묻는 표현입니다. 여권 분실 후 대사관 방문 시 경찰 신고서, 여권용 사진 등 필요한 서류를 미리 확인해야 합니다."
+        },
+        {
+          "id": "se_ch39_set04_007",
+          "type": "multiple_choice",
+          "question": "분실한 가방이 분실물로 신고됐는지 확인하고 싶을 때 쓸 표현은?",
+          "options": [
+            "I'd like to check if my bag was turned in.",
+            "I want to buy a new bag here.",
+            "Can you deliver my bag to my hotel?",
+            "I need to report my bag as stolen."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like to check if my bag was turned in.'은 내 가방이 분실물로 신고됐는지 확인하고 싶다는 표현입니다. 'turned in'은 분실물 센터에 맡겨졌다는 의미입니다."
+        },
+        {
+          "id": "se_ch39_set04_008",
+          "type": "multiple_choice",
+          "question": "신용카드를 완전히 취소하겠다는 표현은?",
+          "options": [
+            "I need to cancel my credit card.",
+            "I'd like to increase my credit limit.",
+            "I want to use my card overseas.",
+            "I need to activate my new card."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need to cancel my credit card.'는 신용카드를 완전히 취소·정지해달라는 표현입니다. 'cancel'은 카드를 완전히 해지하는 것이고, 'block'이나 'freeze'는 일시적 중지를 의미합니다."
+        },
+        {
+          "id": "se_ch39_set04_009",
+          "type": "multiple_choice",
+          "question": "경찰 신고서 도장 또는 공증 여부를 물을 때 적절한 표현은?",
+          "options": [
+            "Does it need to be stamped or certified?",
+            "Does the report need to be translated?",
+            "Should I mail the report to the embassy?",
+            "Can I get a digital copy only?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Does it need to be stamped or certified?'는 신고서에 도장이나 공증이 필요한지 확인하는 표현입니다. 보험사마다 요구 사항이 다를 수 있으므로 경찰서에서 미리 확인하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch39_set04_010",
+          "type": "multiple_choice",
+          "question": "긴급 여행증명서가 얼마나 빨리 발급될 수 있는지 물을 때 쓰는 표현은?",
+          "options": [
+            "How much does an emergency travel document cost?",
+            "How soon can I get it?",
+            "Where is the emergency travel document office?",
+            "Who can apply for an emergency travel document?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'How soon can I get it?'는 얼마나 빨리 받을 수 있는지 묻는 간결한 표현입니다. 비행 일정이 촉박할 때 긴급 여행증명서를 신속하게 받을 수 있는지 확인할 때 씁니다."
+        },
+        {
+          "id": "se_ch39_set04_011",
+          "type": "ox",
+          "question": "'I'd like to report a theft.'에서 'theft'는 폭력을 동반한 강도를 의미한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'theft'는 절도(폭력 없이 물건을 훔치는 행위)를 의미합니다. 폭력을 동반한 강도는 'robbery'라고 합니다. 경찰 신고 시 상황에 맞는 정확한 단어를 사용하는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch39_set04_012",
+          "type": "ox",
+          "question": "경찰 신고서 사본은 보험 청구뿐 아니라 대사관 방문 시에도 필요하다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 경찰 신고서(police report)는 보험 청구뿐 아니라 여권 재발급을 위한 대사관 방문 시에도 필요한 필수 서류입니다. 반드시 사본을 여러 장 받아 두는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch39_set04_013",
+          "type": "ox",
+          "question": "'Please fill out this form.'에서 'fill out'은 서류를 제출하다는 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'fill out'은 양식의 빈칸을 채워 작성하다는 의미입니다. 서류를 제출하다는 'submit' 또는 'hand in'을 사용합니다. 'fill in'도 'fill out'과 같은 의미로 작성하다를 나타냅니다."
+        },
+        {
+          "id": "se_ch39_set04_014",
+          "type": "ox",
+          "question": "긴급 여행증명서 신청 시 여권용 사진(passport photos)이 필요할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 긴급 여행증명서 발급 시 경찰 신고서와 함께 여권용 사진도 필요한 경우가 많습니다. 해외 여행 시 여권용 사진을 여분으로 지참하면 비상 상황에 유용합니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch39_set05_001",
+          "type": "multiple_choice",
+          "question": "여권 도난 신고를 위해 한국 대사관에 연락해야 한다고 표현할 때 알맞은 것은?",
+          "options": [
+            "Can you help me get in touch with my embassy?",
+            "I want to visit the Korean consulate for a visa.",
+            "I need to call the Korean tourist board.",
+            "I'd like to contact the Korean airline office."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you help me get in touch with my embassy?'는 대사관 연락을 도와달라는 요청 표현입니다. 여권 도난 시 대사관이 여권 재발급 절차를 담당하므로 반드시 연락해야 합니다."
+        },
+        {
+          "id": "se_ch39_set05_002",
+          "type": "multiple_choice",
+          "question": "여권 분실 시 대사관에서 발급받는 임시 서류를 무엇이라고 하는가?",
+          "options": [
+            "Emergency travel document",
+            "Travel insurance certificate",
+            "Visa on arrival",
+            "Re-entry permit"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Emergency travel document'는 여권 분실·도난 시 대사관에서 귀국을 위해 임시로 발급해 주는 서류입니다. 정식 여권이 아닌 임시 여행 증명서로 긴급 귀국 시 사용됩니다."
+        },
+        {
+          "id": "se_ch39_set05_003",
+          "type": "multiple_choice",
+          "question": "경찰 신고서 사본을 받는 데 얼마나 걸리는지 물을 때 알맞은 표현은?",
+          "options": [
+            "How long will it take to get a copy of the report?",
+            "Can I print the report myself?",
+            "Do I need to pay for the report?",
+            "Will the report be sent to my email?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How long will it take to get a copy of the report?'는 신고서 사본을 받는 데 걸리는 시간을 묻는 표현입니다. 보험 청구나 대사관 제출을 위해 반드시 필요하므로 꼭 요청해야 합니다."
+        },
+        {
+          "id": "se_ch39_set05_004",
+          "type": "multiple_choice",
+          "question": "분실물센터에서 가방 특징 설명을 요청받을 때 물어볼 수 있는 질문은?",
+          "options": [
+            "What color and size is it?",
+            "How much did the bag cost?",
+            "When did you buy the bag?",
+            "What brand is the bag?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What color and size is it?'는 분실물센터 직원이 가방의 색깔과 크기를 구체적으로 확인하기 위해 물어보는 표현입니다. 분실물을 찾을 때 특징을 구체적으로 말해야 합니다."
+        },
+        {
+          "id": "se_ch39_set05_005",
+          "type": "multiple_choice",
+          "question": "이름표가 붙어 있다고 분실물 특징을 설명할 때 알맞은 표현은?",
+          "options": [
+            "It has my name tag on it.",
+            "It has a special lock on it.",
+            "It has wheels on the bottom.",
+            "It has a broken handle."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It has my name tag on it.'은 이름표가 붙어 있다는 표현으로 분실물 확인에 매우 유용합니다. 이니셜이나 이름표를 소지품에 표시해두면 분실물 회수 가능성이 높아집니다."
+        },
+        {
+          "id": "se_ch39_set05_006",
+          "type": "multiple_choice",
+          "question": "카드사에 카드 번호 대신 청구지 주소로 본인 확인을 대신할 때 쓰는 표현은?",
+          "options": [
+            "We can use your billing address to verify.",
+            "We need your PIN number to verify.",
+            "We'll send a code to your phone.",
+            "We require a photo ID to verify."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We can use your billing address to verify.'는 청구지 주소로 본인 확인을 대신할 수 있다는 표현입니다. 카드 번호를 모를 때 생년월일, 청구지 주소 등 다른 정보로 인증할 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set05_007",
+          "type": "multiple_choice",
+          "question": "추가 확인이 필요할 경우를 대비해 연락처를 남겨달라는 경찰의 말은?",
+          "options": [
+            "Leave your contact number in case we need to follow up.",
+            "Please pay the fine before you leave.",
+            "Come back tomorrow with your documents.",
+            "Sign this paper and you're free to go."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Leave your contact number in case we need to follow up.'는 추가 확인이 필요할 경우를 대비해 연락처를 남겨달라는 표현입니다. 'in case'는 혹시 ~할 경우를 대비해서라는 조건 표현입니다."
+        },
+        {
+          "id": "se_ch39_set05_008",
+          "type": "multiple_choice",
+          "question": "경찰 신고서가 보험사 제출에 충분하다는 말을 표현할 때 알맞은 것은?",
+          "options": [
+            "That should be sufficient.",
+            "That is not enough.",
+            "You need additional documents.",
+            "We cannot help you with insurance."
+          ],
+          "answerIndex": 0,
+          "explanation": "'That should be sufficient.'는 그것으로 충분할 것이라는 표현입니다. 'sufficient'는 충분하다는 뜻으로, 공식 도장이 찍힌 경찰 신고서면 보험사나 대사관 제출에 충분하다는 의미를 전달합니다."
+        },
+        {
+          "id": "se_ch39_set05_009",
+          "type": "multiple_choice",
+          "question": "가방 도난 사실을 나중에야 알았다고 말할 때 적절한 표현은?",
+          "options": [
+            "I didn't realize my bag was missing until later.",
+            "I immediately noticed my bag was gone.",
+            "I watched someone take my bag.",
+            "I found my bag before leaving."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I didn't realize my bag was missing until later.'는 나중에서야 가방이 없어진 걸 알았다는 표현입니다. 도난 사실을 뒤늦게 알게 되는 상황을 설명할 때 자연스럽게 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set05_010",
+          "type": "multiple_choice",
+          "question": "모든 서류를 갖추고 일찍 오면 당일 발급 가능하다는 조건 표현은?",
+          "options": [
+            "As long as you have all the paperwork ready.",
+            "Only if you come next week.",
+            "Even without any documents.",
+            "After you pay a large fee."
+          ],
+          "answerIndex": 0,
+          "explanation": "'As long as you have all the paperwork ready.'는 서류 준비가 모두 됐다면이라는 조건 표현입니다. 긴급 여행증명서 당일 발급의 조건을 알려줄 때 사용합니다."
+        },
+        {
+          "id": "se_ch39_set05_011",
+          "type": "ox",
+          "question": "'robbery'(강도)와 'theft'(절도)는 영어에서 같은 의미로 사용된다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'theft'는 폭력 없이 물건을 훔치는 절도를 의미하고, 'robbery'는 폭력 또는 협박을 동반하는 강도를 의미합니다. 경찰 신고 시 상황에 맞는 단어를 구별하여 사용해야 합니다."
+        },
+        {
+          "id": "se_ch39_set05_012",
+          "type": "ox",
+          "question": "카드를 'cancel'하면 일시적 사용 정지가 되며 나중에 다시 사용할 수 있다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'cancel'은 카드를 완전히 해지하는 것입니다. 일시적 사용 정지는 'block' 또는 'freeze'를 사용합니다. 도난 상황에서는 상황에 따라 완전 해지(cancel) 또는 임시 차단(block)을 선택할 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set05_013",
+          "type": "ox",
+          "question": "경찰서는 'around the clock', 즉 24시간 내내 운영된다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'around the clock'은 하루 24시간 내내라는 표현입니다. 경찰서는 24시간 운영하므로 긴급 상황에서는 언제든지 방문하여 신고할 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set05_014",
+          "type": "ox",
+          "question": "여권 재발급을 위해 'embassy'(대사관)가 아닌 'consulate'(영사관)에만 방문해야 한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 여권 재발급이나 긴급 여행증명서 발급은 대사관(embassy)과 영사관(consulate) 모두에서 처리 가능합니다. 가까운 공관을 방문하거나 연락하면 됩니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch39_set06_001",
+          "type": "multiple_choice",
+          "question": "도난 피해를 경찰에 신고할 때 가장 공식적인 표현은?",
+          "options": [
+            "I want to file a theft report.",
+            "I need to talk to someone.",
+            "Can someone help me with a problem?",
+            "I lost something important."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I want to file a theft report.'는 도난 신고서를 공식적으로 제출하겠다는 표현입니다. 'file a report'는 신고서를 접수하다는 의미로, 경찰서에서 도난 피해를 정식으로 신고할 때 씁니다."
+        },
+        {
+          "id": "se_ch39_set06_002",
+          "type": "multiple_choice",
+          "question": "식당에 물건을 두고 왔을 수도 있다고 추측할 때 알맞은 표현은?",
+          "options": [
+            "I may have left it at the restaurant.",
+            "I definitely left it at the restaurant.",
+            "Someone took it from the restaurant.",
+            "I put it in the restaurant safe."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I may have left it at the restaurant.'는 식당에 두고 왔을 수도 있다는 불확실한 추측 표현입니다. 'may have'는 과거의 가능성을 나타내며, 어디에 뒀는지 확실하지 않을 때 씁니다."
+        },
+        {
+          "id": "se_ch39_set06_003",
+          "type": "multiple_choice",
+          "question": "경찰관에게 정확히 어떤 일이 있었는지 설명해달라는 요청은?",
+          "options": [
+            "Can you describe what happened exactly?",
+            "Can you translate this for me?",
+            "Can you write the report for me?",
+            "Can you find the thief for me?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you describe what happened exactly?'는 정확히 어떤 일이 있었는지 설명해달라는 요청입니다. 도난 경위를 파악하기 위해 경찰관이 피해자에게 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch39_set06_004",
+          "type": "multiple_choice",
+          "question": "가장 가까운 경찰서를 찾는 표현은?",
+          "options": [
+            "Where is the nearest police station?",
+            "Where is the nearest hospital?",
+            "Where is the nearest embassy?",
+            "Where is the nearest ATM?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where is the nearest police station?'는 가장 가까운 경찰서의 위치를 묻는 표현입니다. 'nearest'를 붙이면 가장 가까운 곳을 의미하며, 긴급 상황에서 경찰서를 찾을 때 사용합니다."
+        },
+        {
+          "id": "se_ch39_set06_005",
+          "type": "multiple_choice",
+          "question": "도난 신고 후 경찰서 안으로 들어오라는 안내를 받을 때 경찰이 할 수 있는 말은?",
+          "options": [
+            "Please come inside and we'll fill out a report.",
+            "Please wait outside until we call you.",
+            "Please return tomorrow morning.",
+            "Please call us later for an appointment."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please come inside and we'll fill out a report.'는 안으로 들어오면 신고서를 작성하겠다는 표현입니다. 경찰서에서 피해자를 안내하며 공식 신고 절차를 시작할 때 쓰는 말입니다."
+        },
+        {
+          "id": "se_ch39_set06_006",
+          "type": "multiple_choice",
+          "question": "택시에 물건을 두고 내렸다고 생각할 때 쓰는 표현은?",
+          "options": [
+            "I believe I left it in the taxi.",
+            "The taxi driver stole my item.",
+            "I threw it away in the taxi.",
+            "I lost it before getting in the taxi."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I believe I left it in the taxi.'는 택시에 두고 내렸다고 생각한다는 표현입니다. 'I believe'는 그렇게 생각한다는 완곡한 표현으로 확실하지 않을 때 사용합니다."
+        },
+        {
+          "id": "se_ch39_set06_007",
+          "type": "multiple_choice",
+          "question": "카드를 완전히 해지하지 않고 일시적으로 사용을 중지하려 할 때 표현은?",
+          "options": [
+            "Please freeze my account.",
+            "Please delete my account.",
+            "Please close my account permanently.",
+            "Please transfer my balance to another account."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please freeze my account.'는 계좌나 카드를 일시적으로 동결해달라는 표현입니다. 'freeze'는 완전 해지가 아닌 임시 사용 중지로, 도난 후 즉각적인 조치로 사용할 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set06_008",
+          "type": "multiple_choice",
+          "question": "경찰 신고서 공식 사본을 받을 수 있는지 요청하는 표현은?",
+          "options": [
+            "Can I get an official copy of the report?",
+            "Can you email the report to my insurance?",
+            "Can you send the report to the embassy directly?",
+            "Can you write a new report for me?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get an official copy of the report?'는 공식 신고서 사본을 받을 수 있는지 요청하는 표현입니다. 보험 청구나 대사관 제출을 위해 반드시 공식 사본이 필요합니다."
+        },
+        {
+          "id": "se_ch39_set06_009",
+          "type": "multiple_choice",
+          "question": "서류 준비가 다 됐다면 당일 처리 가능하다는 표현은?",
+          "options": [
+            "Provided you submit everything before noon.",
+            "Only if you come back next week.",
+            "After we contact your embassy first.",
+            "As long as you pay the processing fee."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Provided you submit everything before noon.'는 정오 전에 모두 제출한다면이라는 시간 조건 표현입니다. 긴급 여행증명서 당일 발급의 조건을 알려줄 때 사용합니다."
+        },
+        {
+          "id": "se_ch39_set06_010",
+          "type": "multiple_choice",
+          "question": "여권 분실 공식 신고도 해야 한다는 경찰의 권고 표현은?",
+          "options": [
+            "You should also report this officially.",
+            "You don't need to report this officially.",
+            "You can report this online only.",
+            "You should go home and wait."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You should also report this officially.'는 공식 신고도 해야 한다는 경찰의 권고 표현입니다. 여권 분실 시 분실물 신고 외에도 공식 경찰 신고서(police report) 작성이 재발급 절차에 필수적입니다."
+        },
+        {
+          "id": "se_ch39_set06_011",
+          "type": "ox",
+          "question": "여권 분실 시 'tourist office'(관광안내소)에서 여권 재발급을 처리해 준다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 여권 재발급은 한국 대사관(embassy) 또는 영사관(consulate)에서 처리합니다. 관광안내소(tourist office)는 여행 정보를 제공하는 곳으로 여권 관련 업무를 담당하지 않습니다."
+        },
+        {
+          "id": "se_ch39_set06_012",
+          "type": "ox",
+          "question": "'How long does it take to get an emergency travel document?'는 발급 소요 시간을 묻는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'How long does it take to ~?'는 소요 시간을 묻는 패턴으로, 긴급 여행증명서 발급 시간을 확인할 때 씁니다. 비행 일정이 촉박할 때 반드시 확인해야 할 질문입니다."
+        },
+        {
+          "id": "se_ch39_set06_013",
+          "type": "ox",
+          "question": "'I may have left it at the restaurant.'는 식당에 물건을 확실히 두고 왔다는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'I may have left it'는 두고 왔을 수도 있다는 불확실한 추측 표현입니다. 확실히 두고 왔다고 말하려면 'I left it at the restaurant.'처럼 'may have' 없이 표현합니다."
+        },
+        {
+          "id": "se_ch39_set06_014",
+          "type": "ox",
+          "question": "도난 경위 설명 시 범인의 외모(인상착의)를 묘사하는 것이 경찰 수사에 도움이 된다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 경찰이 'Can you describe them?'이라고 물어보듯이 범인의 외모나 인상착의를 설명하는 것은 수사에 중요한 정보가 됩니다. 예를 들어 'They were wearing a red jacket.'처럼 구체적으로 묘사해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch39_set07_001",
+          "type": "multiple_choice",
+          "question": "여권이 없어진 상태를 표현할 때 도난과 분실 모두를 포함할 수 있는 표현은?",
+          "options": [
+            "My passport is missing.",
+            "My passport was stolen.",
+            "I forgot my passport at home.",
+            "My passport is expired."
+          ],
+          "answerIndex": 0,
+          "explanation": "'My passport is missing.'은 여권이 없어진 상태를 나타내는 표현으로 도난과 분실 두 경우 모두에 해당할 수 있습니다. 경위가 불분명할 때 사용하기 적합합니다."
+        },
+        {
+          "id": "se_ch39_set07_002",
+          "type": "multiple_choice",
+          "question": "가방을 도둑맞았다는 것을 수동태로 표현한 것은?",
+          "options": [
+            "My bag was stolen on the subway.",
+            "Someone lost my bag on the subway.",
+            "I forgot my bag on the subway.",
+            "My bag fell off on the subway."
+          ],
+          "answerIndex": 0,
+          "explanation": "'My bag was stolen on the subway.'는 지하철에서 가방을 도난당했다는 수동태 표현입니다. 'Someone took my bag on the subway.'라는 능동태 표현과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch39_set07_003",
+          "type": "multiple_choice",
+          "question": "경찰서에 가는 방법을 공손하게 물을 때 적절한 표현은?",
+          "options": [
+            "Can you tell me how to get to the police station?",
+            "Where's the police?",
+            "Take me to the police station.",
+            "I need the police address."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you tell me how to get to the police station?'은 경찰서 가는 방법을 공손하게 요청하는 표현입니다. 길을 물어볼 때 가장 정중한 방식으로 현지인에게 묻기 좋습니다."
+        },
+        {
+          "id": "se_ch39_set07_004",
+          "type": "multiple_choice",
+          "question": "연락처를 남겨야 하는 이유를 설명할 때 알맞은 표현은?",
+          "options": [
+            "In case we need to follow up.",
+            "So that you can pay the fine later.",
+            "Because we don't believe your story.",
+            "So you can contact us about other crimes."
+          ],
+          "answerIndex": 0,
+          "explanation": "'In case we need to follow up.'는 추가 확인이 필요할 경우를 대비해서라는 표현입니다. 경찰이 신고인에게 연락처를 요청하는 이유를 설명할 때 씁니다."
+        },
+        {
+          "id": "se_ch39_set07_005",
+          "type": "multiple_choice",
+          "question": "배낭의 특징을 설명할 때 이니셜이 새겨져 있다는 표현은?",
+          "options": [
+            "My initials are on it.",
+            "My phone number is on it.",
+            "My photo is on it.",
+            "My flight ticket is inside it."
+          ],
+          "answerIndex": 0,
+          "explanation": "'My initials are on it.'은 이니셜이 새겨져 있다는 표현입니다. 'initials'는 이름의 첫 글자를 의미하며, 분실물을 확인하는 데 유용한 특징으로 묘사할 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set07_006",
+          "type": "multiple_choice",
+          "question": "사건 발생 시각을 말할 때 정오 무렵이라는 표현은?",
+          "options": [
+            "Around noon.",
+            "In the evening.",
+            "Very early in the morning.",
+            "Late at night."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Around noon.'은 정오 무렵이라는 시간대 표현입니다. 정확한 시간을 모를 때 'around'를 붙여 대략적인 시간을 알릴 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set07_007",
+          "type": "multiple_choice",
+          "question": "긴급 여행증명서 신청 장소로 알맞은 곳은?",
+          "options": [
+            "The Korean embassy or consulate",
+            "The local tourist office",
+            "The nearest airport",
+            "The city police headquarters"
+          ],
+          "answerIndex": 0,
+          "explanation": "긴급 여행증명서는 한국 대사관(Korean embassy) 또는 영사관(consulate)에서 신청해야 합니다. 경찰서나 관광안내소에서는 여권 관련 서류를 발급하지 않습니다."
+        },
+        {
+          "id": "se_ch39_set07_008",
+          "type": "multiple_choice",
+          "question": "신고서가 언제 준비되는지 묻는 간단한 표현은?",
+          "options": [
+            "When will the report be ready?",
+            "How much does the report cost?",
+            "Who will write the report?",
+            "Where do I pick up the report?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'When will the report be ready?'는 신고서가 언제 준비되는지 묻는 간결한 표현입니다. 보험 청구나 대사관 방문을 위해 신고서가 필요한 시점을 확인할 때 씁니다."
+        },
+        {
+          "id": "se_ch39_set07_009",
+          "type": "multiple_choice",
+          "question": "본인 인증 방법을 물을 때 쓸 수 있는 표현은?",
+          "options": [
+            "How can I verify my account?",
+            "How can I open a new account?",
+            "How can I transfer money abroad?",
+            "How can I check my balance?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How can I verify my account?'는 계좌 확인 방법을 묻는 표현입니다. 카드사나 은행에 연락할 때 본인 인증 방법을 묻는 데 사용합니다."
+        },
+        {
+          "id": "se_ch39_set07_010",
+          "type": "multiple_choice",
+          "question": "여권용 사진을 설명하는 다른 방식의 표현은?",
+          "options": [
+            "Two photos in passport size.",
+            "Two large portrait photos.",
+            "Two printed photos with background.",
+            "Two digital photos on a USB."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Two photos in passport size.'는 여권 사이즈의 사진 두 장이라는 표현입니다. 'passport photo'를 풀어서 설명하는 방식으로 대사관이나 공식 기관에서 사용합니다."
+        },
+        {
+          "id": "se_ch39_set07_011",
+          "type": "ox",
+          "question": "'I need to cancel my credit card.'에서 'cancel'은 카드를 일시적으로 정지하는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'cancel'은 카드를 완전히 해지하는 것입니다. 일시적 정지는 'block' 또는 'freeze'를 사용합니다. 도난 상황에서는 신속하게 'block' 또는 'cancel'을 요청하는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch39_set07_012",
+          "type": "ox",
+          "question": "경찰 신고서에 연락처를 남기는 이유는 추후 경찰의 후속 질문에 대응하기 위해서이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'In case we have questions.' 또는 'In case we need to follow up.'처럼, 경찰은 추가 확인이 필요할 때 연락하기 위해 피해자의 연락처를 요청합니다."
+        },
+        {
+          "id": "se_ch39_set07_013",
+          "type": "ox",
+          "question": "공식 도장이 찍힌 경찰 신고서(police report)는 보험 청구에 사용할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'It will have our official stamp. That should be sufficient.'처럼 공식 도장이 찍힌 경찰 신고서는 보험사에 제출하기에 충분한 증빙 자료로 인정됩니다."
+        },
+        {
+          "id": "se_ch39_set07_014",
+          "type": "ox",
+          "question": "'I was pickpocketed.'는 누군가 나의 물건을 몰래 훔쳐갔다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'pickpocketed'는 소매치기당했다는 표현으로, 누군가 몰래 지갑이나 물건을 훔쳐갔다는 의미입니다. 'Someone took my wallet.'이나 'My wallet was stolen.'과 비슷한 상황을 나타냅니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch39_set08_001",
+          "type": "multiple_choice",
+          "question": "경찰에게 도난 피해를 신고할 때 가장 공식적인 첫 문장으로 알맞은 것은?",
+          "options": [
+            "I need to report a crime.",
+            "I want to complain about something.",
+            "Can you help me find my stuff?",
+            "I have a problem and need advice."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need to report a crime.'은 범죄 피해를 신고해야 한다는 보다 일반적인 공식 표현입니다. 경찰서에서 상황을 신속하게 알릴 때 효과적으로 사용할 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set08_002",
+          "type": "multiple_choice",
+          "question": "여권이 여기저기 찾아봐도 없다고 말할 때 적절한 표현은?",
+          "options": [
+            "I can't find my passport anywhere.",
+            "My passport is probably at home.",
+            "I think my passport is in my hotel room.",
+            "My passport might be in my suitcase."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I can't find my passport anywhere.'는 아무리 찾아도 없다는 분실 상황을 강조하는 표현입니다. 분실물 신고나 경찰 신고 시 상황을 명확하게 전달합니다."
+        },
+        {
+          "id": "se_ch39_set08_003",
+          "type": "multiple_choice",
+          "question": "지하철 다음 정거장에서야 가방이 없어진 걸 알았다는 표현은?",
+          "options": [
+            "I only realized it was gone at the next stop.",
+            "I noticed my bag was missing right away.",
+            "I reported the theft at the next stop.",
+            "I found my bag at the next stop."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I only realized it was gone at the next stop.'는 다음 정거장에서야 물건이 없어진 걸 깨달았다는 표현입니다. 도난 사실을 뒤늦게 알게 된 상황을 설명할 때 씁니다."
+        },
+        {
+          "id": "se_ch39_set08_004",
+          "type": "multiple_choice",
+          "question": "경찰서가 걸어서 5분 거리라는 표현은?",
+          "options": [
+            "About a five-minute walk.",
+            "It's around the corner.",
+            "It's two blocks from here.",
+            "It's on the next street."
+          ],
+          "answerIndex": 0,
+          "explanation": "'About a five-minute walk.'는 걸어서 약 5분 거리라는 시간 단위 표현입니다. 길을 알려줄 때 블록 대신 이동 시간으로 거리를 나타낼 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set08_005",
+          "type": "multiple_choice",
+          "question": "대사관 방문 시 경찰 신고서가 필수인지 확인하는 표현은?",
+          "options": [
+            "Is the police report required for the embassy?",
+            "Can the embassy issue a police report?",
+            "Does the embassy accept cash instead of documents?",
+            "Can I visit the embassy without any documents?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is the police report required for the embassy?'는 경찰 신고서가 대사관 방문에 필요한지 확인하는 표현입니다. 여권 재발급 절차에서 경찰 신고서는 거의 항상 필수 서류입니다."
+        },
+        {
+          "id": "se_ch39_set08_006",
+          "type": "multiple_choice",
+          "question": "도난 신고 후 경찰 신고서를 받아야 하는 이유로 가장 적합한 것은?",
+          "options": [
+            "For insurance claims and embassy visits",
+            "To show to other travelers",
+            "To get a police escort",
+            "To claim a reward from the police"
+          ],
+          "answerIndex": 0,
+          "explanation": "경찰 신고서(police report)는 여행자 보험 청구(insurance claims)와 여권 재발급을 위한 대사관 방문(embassy visits) 모두에 필요한 필수 서류입니다."
+        },
+        {
+          "id": "se_ch39_set08_007",
+          "type": "multiple_choice",
+          "question": "분실물 확인을 위해 직원이 묻는 표현은?",
+          "options": [
+            "What does it look like?",
+            "How much is it worth?",
+            "When did you buy it?",
+            "Where did you purchase it?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What does it look like?'는 어떻게 생겼는지 묻는 캐주얼한 표현입니다. 분실물센터 직원이 물건의 특징을 파악하기 위해 사용하는 가장 자연스러운 질문 중 하나입니다."
+        },
+        {
+          "id": "se_ch39_set08_008",
+          "type": "multiple_choice",
+          "question": "대사관에 긴급 임시 여권을 발급해 줄 수 있는지 묻는 표현은?",
+          "options": [
+            "Can the embassy issue a temporary travel document?",
+            "Can the embassy replace my stolen items?",
+            "Can the embassy buy me a flight ticket?",
+            "Can the embassy contact my family?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can the embassy issue a temporary travel document?'는 대사관에서 임시 여행 서류를 발급할 수 있는지 묻는 표현입니다. 여권 분실·도난 시 귀국을 위한 긴급 서류를 대사관에서 발급받을 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set08_009",
+          "type": "multiple_choice",
+          "question": "경찰 신고서에 공식 인증이 필요한지 물을 때 알맞은 표현은?",
+          "options": [
+            "Does this document need to be notarized?",
+            "Does this document expire?",
+            "Can I get this document translated?",
+            "Do I need to keep the original?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Does this document need to be notarized?'는 서류에 공증이 필요한지 묻는 표현입니다. 'notarized'는 공증받은이라는 뜻으로, 보험사나 기관에 따라 공증된 서류를 요구하기도 합니다."
+        },
+        {
+          "id": "se_ch39_set08_010",
+          "type": "multiple_choice",
+          "question": "경찰 신고서가 약 30분 후 준비된다는 표현은?",
+          "options": [
+            "It will be ready in about thirty minutes.",
+            "It will be ready next week.",
+            "It will take several hours.",
+            "It will be mailed to you."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It will be ready in about thirty minutes.'는 약 30분 후에 준비될 것이라는 표현입니다. 경찰서에서 신고서 발급 시간을 안내할 때 씁니다."
+        },
+        {
+          "id": "se_ch39_set08_011",
+          "type": "ox",
+          "question": "경찰서는 24시간 운영하므로 밤에 도난 피해를 당해도 신고할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 경찰서는 24시간 운영합니다. 'Police stations are open twenty-four hours.' 또는 'It's open around the clock.'처럼 긴급 상황에서는 언제든지 방문하여 신고할 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set08_012",
+          "type": "ox",
+          "question": "'fill out'과 'fill in'은 서류 작성을 의미하는 동의어로 쓸 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'fill out'과 'fill in'은 모두 양식의 빈칸을 채워 작성하다는 뜻으로 같은 의미입니다. 'Please fill out this form.'과 'Please fill in the blanks.'처럼 상황에 따라 사용합니다."
+        },
+        {
+          "id": "se_ch39_set08_013",
+          "type": "ox",
+          "question": "긴급 여행증명서는 정식 여권과 동일한 효력을 가진다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 긴급 여행증명서(emergency travel document)는 정식 여권이 아닌 임시 여행 증명서입니다. 귀국 또는 특정 긴급 상황을 위해 사용되며, 일반 여행 목적으로는 제한이 있습니다."
+        },
+        {
+          "id": "se_ch39_set08_014",
+          "type": "ox",
+          "question": "분실물 신고 시 소지품의 이니셜이나 이름표를 알려주면 회수에 도움이 된다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'My initials are on it.' 또는 'It has my name tag on it.'처럼 이니셜이나 이름표는 분실물을 식별하는 데 매우 유용한 정보입니다. 여행 전 소지품에 표시해두면 좋습니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch39_set09_001",
+          "type": "multiple_choice",
+          "question": "지갑을 현재완료 수동태로 도난당했다고 표현하는 것은?",
+          "options": [
+            "My wallet has been stolen.",
+            "My wallet is stolen.",
+            "My wallet was lost.",
+            "I have lost my wallet."
+          ],
+          "answerIndex": 0,
+          "explanation": "'My wallet has been stolen.'은 현재완료 수동태로 도난 상태가 지금까지 이어짐을 강조하는 표현입니다. 'My wallet was stolen.'(과거 수동태)과 함께 경찰 신고 시 사용할 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set09_002",
+          "type": "multiple_choice",
+          "question": "경찰서 위치를 가장 기본적으로 묻는 표현은?",
+          "options": [
+            "Where is the police station?",
+            "What is the police station address?",
+            "Is there a police station near here?",
+            "How do I get to the police station?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where is the police station?'은 경찰서 위치를 묻는 가장 기본적인 표현입니다. 긴급 상황에서 간결하고 빠르게 쓸 수 있는 질문입니다."
+        },
+        {
+          "id": "se_ch39_set09_003",
+          "type": "multiple_choice",
+          "question": "경찰 신고서의 개요를 알려달라는 요청을 포함해 어떤 서류가 필요한지 묻는 표현은?",
+          "options": [
+            "What documents do I need to bring?",
+            "Can I skip the police report?",
+            "Is the police report optional?",
+            "Can you describe the report contents?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What documents do I need to bring?'는 어떤 서류를 지참해야 하는지 포괄적으로 묻는 표현입니다. 여권 재발급이나 보험 청구 등 다양한 상황에서 필요한 서류 목록을 확인할 때 유용합니다."
+        },
+        {
+          "id": "se_ch39_set09_004",
+          "type": "multiple_choice",
+          "question": "분실 사실을 공식 신고서로도 접수해달라는 경찰의 안내 표현은?",
+          "options": [
+            "Please file a lost property report as well.",
+            "Please go home and call us.",
+            "Please search the area first.",
+            "Please contact the hotel security."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please file a lost property report as well.'는 분실물 신고서도 제출해달라는 안내 표현입니다. 여권 분실 신고에 적합한 공식 용어를 담고 있습니다."
+        },
+        {
+          "id": "se_ch39_set09_005",
+          "type": "multiple_choice",
+          "question": "도난 지갑 안에 신용카드가 있었다고 설명할 때 알맞은 표현은?",
+          "options": [
+            "My credit card was in my stolen wallet.",
+            "I forgot my credit card in my wallet.",
+            "My credit card fell out of my wallet.",
+            "I gave my credit card to someone."
+          ],
+          "answerIndex": 0,
+          "explanation": "'My credit card was in my stolen wallet.'은 도난당한 지갑 안에 신용카드가 있었다는 표현입니다. 카드사에 분실 신고를 할 때 카드가 도난된 경위를 설명할 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set09_006",
+          "type": "multiple_choice",
+          "question": "보험 청구가 가능한지 확인하기 위해 경찰 신고서 사본이 필요하다는 표현은?",
+          "options": [
+            "I need a copy of the police report for my travel insurance claim.",
+            "I need the police to pay for my lost items.",
+            "I want the police to contact my insurance.",
+            "I need insurance for my travel documents."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need a copy of the police report for my travel insurance claim.'은 여행자 보험 청구를 위해 경찰 신고서 사본이 필요하다는 표현입니다. 'insurance claim'은 보험 청구를 의미합니다."
+        },
+        {
+          "id": "se_ch39_set09_007",
+          "type": "multiple_choice",
+          "question": "긴급 여행증명서 발급까지의 소요 시간이 당일임을 알릴 때의 표현은?",
+          "options": [
+            "Usually same day if you arrive early with all required documents.",
+            "It usually takes two to three business days.",
+            "Same day is not possible for foreign nationals.",
+            "It depends on the embassy's schedule only."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Usually same day if you arrive early with all required documents.'는 필요 서류를 모두 갖추고 일찍 방문하면 보통 당일 발급이 가능하다는 표현입니다. 비행 일정이 촉박할 때 중요한 정보입니다."
+        },
+        {
+          "id": "se_ch39_set09_008",
+          "type": "multiple_choice",
+          "question": "경찰이 공식 도장이 찍힌다고 안심시킬 때 그것으로 충분하다는 표현은?",
+          "options": [
+            "That should be enough for your purposes.",
+            "That might not be acceptable.",
+            "You'll need more documents.",
+            "That is only valid at this police station."
+          ],
+          "answerIndex": 0,
+          "explanation": "'That should be enough for your purposes.'는 목적에 맞게 충분할 것이라는 표현입니다. 공식 도장이 찍힌 신고서를 보험사나 대사관에 제출하기에 충분하다는 뜻을 전달합니다."
+        },
+        {
+          "id": "se_ch39_set09_009",
+          "type": "multiple_choice",
+          "question": "카드사에서 본인 확인이 필요하다고 할 때 쓰는 표현은?",
+          "options": [
+            "I need to confirm my identity.",
+            "I need to create a new password.",
+            "I need to transfer funds urgently.",
+            "I need to add a new card."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need to confirm my identity.'는 본인 확인이 필요하다는 표현입니다. 카드 분실 신고 시 카드사에서 본인 인증 절차를 요구할 때 사용합니다."
+        },
+        {
+          "id": "se_ch39_set09_010",
+          "type": "multiple_choice",
+          "question": "빨간 재킷을 입고 있었다고 범인 외모를 묘사하는 표현은?",
+          "options": [
+            "They were wearing a red jacket.",
+            "They were carrying a red bag.",
+            "They had red hair.",
+            "They were driving a red car."
+          ],
+          "answerIndex": 0,
+          "explanation": "'They were wearing a red jacket.'는 빨간 재킷을 입고 있었다는 인상착의 묘사 표현입니다. 경찰이 범인 특징을 물어볼 때 입고 있던 옷을 설명하는 것이 유용합니다."
+        },
+        {
+          "id": "se_ch39_set09_011",
+          "type": "ox",
+          "question": "'My wallet has been stolen.'과 'My wallet was stolen.'은 모두 도난을 표현하는 수동태 문장이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 두 표현 모두 지갑이 도난당했다는 수동태 표현입니다. 'was stolen'은 단순 과거, 'has been stolen'은 현재완료로 도난 상태가 지금도 이어짐을 강조합니다."
+        },
+        {
+          "id": "se_ch39_set09_012",
+          "type": "ox",
+          "question": "분실물센터에서 소지품 특징을 설명할 때 색상과 크기만 알면 충분하다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 색상과 크기 외에도 이니셜, 이름표, 독특한 특징 등을 최대한 구체적으로 설명할수록 분실물을 찾을 가능성이 높아집니다. 특이한 열쇠고리나 스티커 등도 중요한 특징이 될 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set09_013",
+          "type": "ox",
+          "question": "'In case'는 '혹시 ~할 경우를 대비해서'라는 의미의 조건 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'In case'는 '혹시 ~할 경우를 대비해서'라는 조건 표현입니다. 'In case we have questions.'처럼 경찰이 추가 연락이 필요할 경우를 대비해 연락처를 요청할 때 씁니다."
+        },
+        {
+          "id": "se_ch39_set09_014",
+          "type": "ox",
+          "question": "카드 번호를 모르더라도 생년월일이나 청구지 주소 등으로 본인 인증이 가능하다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 카드 분실 신고 시 카드 번호를 모를 경우, 생년월일이나 청구지 주소 등 다른 정보로 본인 인증을 대신할 수 있습니다. 카드사마다 다를 수 있으므로 확인이 필요합니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch39_set10_001",
+          "type": "multiple_choice",
+          "question": "도난 피해를 당했을 때 경찰에 신고하는 가장 기본적인 표현은?",
+          "options": [
+            "My wallet was stolen.",
+            "I want to find my wallet.",
+            "My wallet is very important.",
+            "I need a new wallet."
+          ],
+          "answerIndex": 0,
+          "explanation": "'My wallet was stolen.'은 경찰에 지갑 도난을 신고할 때 가장 기본적이고 명확한 표현입니다. 수동태로 타인이 훔쳐갔음을 직접적으로 전달합니다."
+        },
+        {
+          "id": "se_ch39_set10_002",
+          "type": "multiple_choice",
+          "question": "여권 분실을 경찰에 신고하는 가장 직접적인 표현은?",
+          "options": [
+            "I lost my passport.",
+            "I need a new passport.",
+            "My passport is at the embassy.",
+            "I forgot to pack my passport."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I lost my passport.'는 여권 분실을 가장 직접적으로 신고하는 표현입니다. 스스로 잃어버린 경우에 사용하며, 도난인 경우에는 'My passport was stolen.'을 씁니다."
+        },
+        {
+          "id": "se_ch39_set10_003",
+          "type": "multiple_choice",
+          "question": "경찰서를 모퉁이 바로 너머에 있다고 알려줄 때의 표현은?",
+          "options": [
+            "Just around the corner.",
+            "About two blocks away.",
+            "A five-minute walk from here.",
+            "On the other side of town."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Just around the corner.'는 모퉁이 바로 너머에 있다는 표현으로 매우 가깝다는 의미입니다. 길을 안내할 때 가장 간결하게 가까운 거리를 표현합니다."
+        },
+        {
+          "id": "se_ch39_set10_004",
+          "type": "multiple_choice",
+          "question": "경찰 신고서 작성 시 연락처도 적어달라는 요청은?",
+          "options": [
+            "Please write your contact number as well.",
+            "Please write your passport number only.",
+            "Please write your home address in Korea.",
+            "Please write your travel insurance number."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please write your contact number as well.'는 연락처도 적어달라는 표현입니다. 경찰이 추가 질문이 있을 경우 연락하기 위해 피해자의 연락처를 양식에 기재하도록 요청합니다."
+        },
+        {
+          "id": "se_ch39_set10_005",
+          "type": "multiple_choice",
+          "question": "분실물센터에서 배낭이 들어왔다고 확인해줄 때의 표현은?",
+          "options": [
+            "We did receive a black backpack this morning.",
+            "We don't have any backpacks here.",
+            "We may find your backpack tomorrow.",
+            "We sent your backpack to the police."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We did receive a black backpack this morning.'은 오늘 아침 검은 배낭이 들어왔음을 확인하는 표현입니다. 'did receive'는 강조 용법으로 실제로 접수되었음을 명확하게 전달합니다."
+        },
+        {
+          "id": "se_ch39_set10_006",
+          "type": "multiple_choice",
+          "question": "여권용 사진을 'passport photo' 외 다른 표현으로 말하면?",
+          "options": [
+            "A couple of ID photos.",
+            "A few headshot photos.",
+            "Two large photos.",
+            "Some printed photos."
+          ],
+          "answerIndex": 0,
+          "explanation": "'A couple of ID photos.'는 신분증용 사진 두 장이라는 표현으로 여권용 사진과 같은 맥락에서 사용합니다. 대사관 방문이나 긴급 여행증명서 신청 시 필요한 사진을 의미합니다."
+        },
+        {
+          "id": "se_ch39_set10_007",
+          "type": "multiple_choice",
+          "question": "도난 신고 후 경찰서 안으로 들어가서 신고서를 작성하라는 안내를 받을 때 경찰의 표현은?",
+          "options": [
+            "Please come inside and we'll fill out a report.",
+            "Please wait outside and we'll call you.",
+            "Please return tomorrow morning.",
+            "Please submit your complaint online."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please come inside and we'll fill out a report.'는 경찰서 안으로 들어오면 신고서를 작성하겠다는 안내 표현입니다. 신고 접수를 시작하며 피해자를 안내하는 공식 표현입니다."
+        },
+        {
+          "id": "se_ch39_set10_008",
+          "type": "multiple_choice",
+          "question": "긴급 상황에서 신속하게 카드를 차단해달라는 표현은?",
+          "options": [
+            "I need to block my card immediately.",
+            "I want to apply for a replacement card.",
+            "I need to check my card balance.",
+            "I want to increase my spending limit."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need to block my card immediately.'는 카드를 즉시 차단해달라는 긴급 요청입니다. 'immediately'를 붙여 상황의 긴급성을 강조할 수 있습니다."
+        },
+        {
+          "id": "se_ch39_set10_009",
+          "type": "multiple_choice",
+          "question": "신고서에 공식 도장이 필요한지 확인하는 표현은?",
+          "options": [
+            "Is an official stamp required?",
+            "Do I need to sign the report?",
+            "Can I take a photo of the report?",
+            "Do I need to translate the report?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is an official stamp required?'는 공식 도장이 필요한지 묻는 표현입니다. 보험사나 대사관마다 요구 사항이 다를 수 있으므로 경찰서에서 미리 확인하는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch39_set10_010",
+          "type": "multiple_choice",
+          "question": "여권 도난 신고 후 교통 당국에 연락해보겠다는 경찰의 말은?",
+          "options": [
+            "We'll contact the transit authority.",
+            "We'll contact the embassy for you.",
+            "We'll contact your insurance company.",
+            "We'll contact the hotel manager."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We'll contact the transit authority.'는 교통 당국에 연락해보겠다는 경찰의 표현입니다. 버스나 지하철에 분실물이 있을 경우 경찰이 교통 당국에 연락하여 확인합니다."
+        },
+        {
+          "id": "se_ch39_set10_011",
+          "type": "ox",
+          "question": "'I'd like to report a theft.'는 경찰서에서 도난 신고를 시작할 때 적합한 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'I'd like to report a theft.'는 도난 피해를 경찰에 공식 신고하겠다는 정중한 표현입니다. 경찰서에서 첫마디로 사용하기에 가장 적합한 표현 중 하나입니다."
+        },
+        {
+          "id": "se_ch39_set10_012",
+          "type": "ox",
+          "question": "여권 분실 후 경찰에 신고할 필요 없이 대사관에 바로 가면 된다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 여권 분실 시 경찰 신고서(police report)가 대사관에서의 재발급 또는 긴급 여행증명서 발급 시 필요합니다. 경찰 신고를 먼저 하고 신고서 사본을 받아 대사관을 방문해야 합니다."
+        },
+        {
+          "id": "se_ch39_set10_013",
+          "type": "ox",
+          "question": "'Two passport photos.'는 여권 재발급이나 긴급 여행증명서 신청 시 필요한 서류 중 하나이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 여권용 사진(passport photos)은 대사관에서 여권 재발급이나 긴급 여행증명서를 신청할 때 거의 항상 요구하는 서류입니다. 여행 전 여분으로 지참해두면 좋습니다."
+        },
+        {
+          "id": "se_ch39_set10_014",
+          "type": "ox",
+          "question": "'lost and found'를 통해 잃어버린 물건을 찾을 가능성이 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'lost and found'는 분실물을 보관하고 찾아주는 분실물센터입니다. 버스, 지하철, 공항 등에서 물건을 잃어버렸을 때 해당 기관의 분실물센터에 문의하면 찾을 가능성이 있습니다."
         }
       ]
     }
