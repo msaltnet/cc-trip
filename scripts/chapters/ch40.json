@@ -1,7 +1,532 @@
 {
   "id": "ch40",
   "title": "긴급 도움 요청",
-  "summary": "경찰·구급차 호출, 긴급번호, 위치 알리기",
-  "dialogues": [],
-  "sets": []
+  "summary": "경찰·구급차 호출, 긴급번호 112, 위치 알리기, 응급실 찾기 등 해외 여행 중 긴급 상황에서 살아남는 핵심 영어 표현",
+  "dialogues": [
+    {
+      "id": "ch40_d01",
+      "title": "경찰 불러주세요",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me! Please call the police!", "ko": "실례합니다! 경찰을 불러주세요!" },
+        { "speaker": "행인", "en": "What happened? Are you okay?", "ko": "무슨 일이에요? 괜찮으세요?" },
+        { "speaker": "나", "en": "Someone stole my bag. I need the police now!", "ko": "누군가 제 가방을 훔쳐 갔어요. 지금 당장 경찰이 필요해요!" },
+        { "speaker": "행인", "en": "I'm calling them right now. Stay here.", "ko": "지금 바로 전화할게요. 여기 있으세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Please call the police!",
+          "ko": "경찰을 불러달라는 긴급 요청. 'Call police!'처럼 관사를 빼면 어색하므로 반드시 'the police'라고 해야 함. police는 항상 복수 취급.",
+          "alternatives": [
+            { "en": "We need the police here!", "ko": "경찰이 필요하다고 강조하는 표현." },
+            { "en": "Can you call 112 for me?", "ko": "유럽 긴급번호를 직접 언급하며 전화를 부탁하는 표현." }
+          ]
+        },
+        {
+          "en": "Someone stole my bag.",
+          "ko": "도난 신고 시 필수 표현. 'Someone took ~'도 쓸 수 있지만 'stole'이 절도라는 의미를 더 명확히 전달함. 가방 대신 지갑(wallet)이나 핸드폰(phone)으로 바꿔 쓸 수 있음.",
+          "alternatives": [
+            { "en": "My wallet was stolen.", "ko": "수동태로 피해 물품을 주어로 삼은 표현. 더 간결함." },
+            { "en": "I've been robbed!", "ko": "강도 피해를 당했다는 강한 표현. 폭력이 수반된 경우에 적합." }
+          ]
+        },
+        {
+          "en": "Stay here.",
+          "ko": "여기서 기다리라는 간단한 지시. 긴급 상황에서 행인이나 직원이 자주 쓰는 표현. 'Don't move.'와 비슷한 의미로 안전을 위해 자리를 지켜달라는 뜻.",
+          "alternatives": [
+            { "en": "Don't go anywhere.", "ko": "어디도 가지 말라는 강조 표현." },
+            { "en": "Wait right here for me.", "ko": "내가 돌아올 때까지 여기서 기다려달라는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch40_d02",
+      "title": "구급차를 불러주세요",
+      "lines": [
+        { "speaker": "나", "en": "Help! Call an ambulance, please!", "ko": "도와주세요! 구급차를 불러주세요!" },
+        { "speaker": "행인", "en": "Oh no! What happened?", "ko": "이런! 무슨 일이에요?" },
+        { "speaker": "나", "en": "This person collapsed. They need an ambulance right away!", "ko": "이 분이 쓰러졌어요. 지금 당장 구급차가 필요해요!" },
+        { "speaker": "행인", "en": "I'm dialing 112 now! Don't move them.", "ko": "지금 112에 전화할게요! 옮기지 마세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Call an ambulance!",
+          "ko": "구급차를 부르라는 긴급 지시. 'an ambulance'에서 'an'을 빠뜨리지 말 것. 발음 주의: 'AM-byoo-lents'로 첫 음절 강세. 영국에서는 'ambulance'를 부르지만 미국에서는 '911'을 누르라고 하기도 함.",
+          "alternatives": [
+            { "en": "We need an ambulance immediately!", "ko": "즉시 구급차가 필요하다는 더 긴급한 표현." },
+            { "en": "Call emergency services!", "ko": "구급차뿐 아니라 모든 긴급 서비스를 요청하는 포괄적 표현." }
+          ]
+        },
+        {
+          "en": "This person collapsed.",
+          "ko": "누군가 쓰러졌다는 상황 설명. 'collapsed'는 갑자기 쓰러지거나 의식을 잃었을 때 사용. 'fainted(기절했다)'나 'fell down(넘어졌다)'과 구분해서 쓸 것.",
+          "alternatives": [
+            { "en": "He/She has fainted.", "ko": "기절했다는 표현. collapsed보다 가벼운 상황에 씀." },
+            { "en": "This person is unconscious.", "ko": "의식이 없다는 더 의학적인 표현." }
+          ]
+        },
+        {
+          "en": "Don't move them.",
+          "ko": "부상자를 옮기지 말라는 중요한 지시. 척추·목 부상이 의심될 때 함부로 옮기면 위험할 수 있음. 'them'은 성별 불명일 때 단수로도 쓸 수 있는 현대 영어 용법.",
+          "alternatives": [
+            { "en": "Keep them still.", "ko": "환자를 움직이지 않게 유지하라는 표현." },
+            { "en": "Don't move him/her.", "ko": "성별을 알 경우 him/her로 바꿔 쓸 수 있음." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch40_d03",
+      "title": "여기 다친 사람이 있어요",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me! Someone is injured over here!", "ko": "실례합니다! 여기 다친 사람이 있어요!" },
+        { "speaker": "행인", "en": "Where? How badly are they hurt?", "ko": "어디요? 얼마나 심하게 다쳤나요?" },
+        { "speaker": "나", "en": "She fell on the stairs and can't get up.", "ko": "계단에서 넘어졌는데 일어나질 못하고 있어요." },
+        { "speaker": "행인", "en": "I'll call for help right now.", "ko": "지금 바로 도움을 요청할게요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Someone is injured!",
+          "ko": "부상자가 있다고 알리는 표현. 'hurt'와 'injured' 둘 다 쓸 수 있지만 'injured'가 더 공식적이고 의료적인 뉘앙스를 가짐. 응급상황을 신고할 때는 'injured'를 선호함.",
+          "alternatives": [
+            { "en": "There's someone hurt here!", "ko": "'hurt'를 쓴 더 캐주얼한 표현. 일상 대화에서 자주 쓰임." },
+            { "en": "Someone needs medical attention!", "ko": "의료 지원이 필요하다는 표현으로 긴급성을 강조함." }
+          ]
+        },
+        {
+          "en": "She fell on the stairs.",
+          "ko": "낙상 상황을 설명하는 표현. 'fell on'(~에서 넘어지다)과 'fell down'(넘어지다)의 차이에 주의. 'on the stairs'는 계단 위에서 넘어진 것을 의미함.",
+          "alternatives": [
+            { "en": "He tripped and fell.", "ko": "발이 걸려 넘어졌다는 표현. 'trip'은 발이 걸리다라는 뜻." },
+            { "en": "She had a fall.", "ko": "낙상 사고를 표현하는 영국식 관용구." }
+          ]
+        },
+        {
+          "en": "I'll call for help.",
+          "ko": "도움을 요청하겠다는 표현. 'call for help'는 도움을 구하다, 요청하다는 의미. 'call help'라고 하면 어색하므로 'for'를 꼭 붙일 것.",
+          "alternatives": [
+            { "en": "I'll get help.", "ko": "도움을 구해오겠다는 더 간결한 표현." },
+            { "en": "I'll find someone to assist.", "ko": "도울 사람을 찾겠다는 구체적인 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch40_d04",
+      "title": "불이야! 대피해야 해요",
+      "lines": [
+        { "speaker": "나", "en": "Fire! Everyone get out now!", "ko": "불이야! 모두 지금 당장 나가세요!" },
+        { "speaker": "행인", "en": "Where is it? Where's the fire?", "ko": "어디서요? 어디 불이 났어요?" },
+        { "speaker": "나", "en": "On the second floor! We need to evacuate immediately!", "ko": "2층이요! 즉시 대피해야 해요!" },
+        { "speaker": "행인", "en": "I'll pull the fire alarm! Everyone out!", "ko": "화재경보기를 당길게요! 모두 나가세요!" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Fire!",
+          "ko": "화재를 알리는 가장 강력한 한 단어. 'There's a fire!'보다 짧고 즉각적으로 주의를 끎. 공공장소에서 크게 외쳐야 할 상황에 사용. 소화기 사용법도 'PASS'(Pull, Aim, Squeeze, Sweep)로 외워두면 유용.",
+          "alternatives": [
+            { "en": "There's a fire!", "ko": "화재가 있다는 좀 더 정보가 담긴 표현." },
+            { "en": "Fire! Call 112!", "ko": "화재 경고와 함께 즉시 신고를 촉구하는 표현." }
+          ]
+        },
+        {
+          "en": "We need to evacuate!",
+          "ko": "대피해야 한다는 긴급 표현. 'evacuate'는 건물 등에서 안전하게 대피하다라는 뜻. 'exit(나가다)'보다 공식적이고 위급한 상황에 적합. 화재 훈련이나 실제 상황 모두에서 쓰임.",
+          "alternatives": [
+            { "en": "Everyone get out now!", "ko": "즉시 나가라는 직접적이고 강한 지시." },
+            { "en": "Leave the building immediately!", "ko": "건물을 즉시 떠나라는 공식적인 지시." }
+          ]
+        },
+        {
+          "en": "I'll pull the fire alarm.",
+          "ko": "화재경보기를 작동시키겠다는 표현. 'pull the alarm'이라고 줄여 쓰기도 함. 유럽 건물에서는 'break glass'(유리를 깨다)라고 표시된 경보기도 있음. 무고 경보는 범법이므로 실제 화재 시에만 사용.",
+          "alternatives": [
+            { "en": "I'll set off the fire alarm.", "ko": "화재경보기를 작동시키다라는 표현의 다른 방식." },
+            { "en": "I'll trigger the alarm.", "ko": "경보를 발동시키다라는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch40_d05",
+      "title": "긴급번호는 112예요",
+      "lines": [
+        { "speaker": "나", "en": "What's the emergency number here in Europe?", "ko": "유럽에서 긴급번호가 몇 번인가요?" },
+        { "speaker": "행인", "en": "It's 112. That works in all EU countries.", "ko": "112예요. 모든 EU 국가에서 사용 가능해요." },
+        { "speaker": "나", "en": "So 112 for police, ambulance, and fire?", "ko": "그러면 경찰, 구급차, 화재 모두 112인가요?" },
+        { "speaker": "행인", "en": "Yes, exactly. They'll connect you to the right service.", "ko": "네, 맞아요. 담당 서비스로 연결해줄 거예요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "112 works in all EU countries.",
+          "ko": "유럽 공통 긴급번호 112에 대한 핵심 정보. 미국·캐나다 911, 영국 999와 달리 유럽 대부분의 나라에서 112가 작동함. 심지어 핸드폰 배터리가 없거나 잠긴 상태에서도 걸 수 있는 경우가 많음.",
+          "alternatives": [
+            { "en": "Call 112 in an emergency.", "ko": "긴급 상황에서 112에 전화하라는 직접적 표현." },
+            { "en": "112 is the EU emergency number.", "ko": "EU 공통 긴급번호임을 알려주는 표현." }
+          ]
+        },
+        {
+          "en": "What's the emergency number?",
+          "ko": "긴급번호를 묻는 표현. 'emergency number'는 긴급전화번호를 뜻함. 여행 전 방문국의 긴급번호를 미리 확인하는 것이 중요. 유럽은 112, 미국·캐나다는 911, 한국은 119(소방·구급), 112(경찰).",
+          "alternatives": [
+            { "en": "What number do I call for emergencies?", "ko": "긴급 상황에 어느 번호로 전화해야 하는지 묻는 표현." },
+            { "en": "Is 112 the number for police here?", "ko": "112가 경찰 연락처인지 확인하는 표현." }
+          ]
+        },
+        {
+          "en": "They'll connect you to the right service.",
+          "ko": "112 교환원이 경찰·소방·구급 중 적절한 서비스로 연결해준다는 설명. 'connect you to ~'는 ~로 연결하다라는 표현. 112 신고 시 영어로도 응대 가능한 경우가 많으므로 당황하지 말 것.",
+          "alternatives": [
+            { "en": "They'll transfer your call.", "ko": "전화를 담당 부서로 돌려준다는 표현." },
+            { "en": "They'll direct you to the right department.", "ko": "적절한 부서로 안내해준다는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch40_d06",
+      "title": "내 위치 알리기",
+      "lines": [
+        { "speaker": "교환원", "en": "112, what is your emergency?", "ko": "112입니다, 무슨 일이신가요?" },
+        { "speaker": "나", "en": "I need help. I'm in front of the Central Station.", "ko": "도움이 필요해요. 중앙역 앞에 있어요." },
+        { "speaker": "교환원", "en": "Can you be more specific? What street are you on?", "ko": "더 구체적으로 말씀해 주시겠어요? 어느 거리에 계세요?" },
+        { "speaker": "나", "en": "I'm at the corner of Main Street and Park Avenue.", "ko": "메인 스트리트와 파크 애비뉴 코너에 있어요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I'm in front of the Central Station.",
+          "ko": "위치를 알릴 때 쓰는 기본 표현. 'in front of ~'는 ~앞에라는 뜻. 건물 이름이나 랜드마크를 언급하면 구조대가 더 빨리 찾을 수 있음. 주소를 모를 때는 주변 랜드마크를 설명하자.",
+          "alternatives": [
+            { "en": "I'm near the main square.", "ko": "중심 광장 근처라는 표현. 'near'는 ~가까이를 뜻함." },
+            { "en": "I'm at [street name].", "ko": "거리 이름을 직접 언급하는 가장 명확한 위치 표현." }
+          ]
+        },
+        {
+          "en": "I'm at the corner of Main Street and Park Avenue.",
+          "ko": "두 도로의 교차점을 알리는 표현. 'at the corner of A and B'는 A와 B의 코너에 있다는 뜻. 위치를 특정하는 가장 정확한 방법 중 하나. 'intersection'(교차로)이라고도 표현할 수 있음.",
+          "alternatives": [
+            { "en": "I'm at the intersection of ~ and ~.", "ko": "교차로에 있다는 더 공식적인 표현." },
+            { "en": "I'm between ~ and ~.", "ko": "두 건물이나 장소 사이에 있다는 표현." }
+          ]
+        },
+        {
+          "en": "112, what is your emergency?",
+          "ko": "112 신고를 받을 때 교환원이 하는 첫 마디. 'what is your emergency?'는 어떤 긴급 상황인지 묻는 표준 질문. 당황하지 말고 '경찰(police)', '구급차(ambulance)', '화재(fire)' 중 하나를 먼저 말하면 됨.",
+          "alternatives": [
+            { "en": "Emergency services, how can I help?", "ko": "긴급 서비스 연결 시 들을 수 있는 또 다른 첫 마디." },
+            { "en": "What service do you require?", "ko": "어떤 서비스가 필요한지 묻는 공식적인 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch40_d07",
+      "title": "도와주세요!",
+      "lines": [
+        { "speaker": "나", "en": "Help! I need help, please!", "ko": "도와주세요! 도움이 필요해요!" },
+        { "speaker": "행인", "en": "What's wrong? Are you in danger?", "ko": "무슨 일이에요? 위험한 상황이에요?" },
+        { "speaker": "나", "en": "It's an emergency! Please help me!", "ko": "긴급 상황이에요! 제발 도와주세요!" },
+        { "speaker": "행인", "en": "Okay, I'm here. Tell me what happened.", "ko": "알겠어요, 제가 있어요. 무슨 일인지 말해보세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Help!",
+          "ko": "도움을 요청하는 가장 짧고 강한 한 단어. 크게 외칠수록 더 많은 사람이 반응함. 'Help me!'라고 하면 더 직접적. 소리를 지르기 힘든 상황에서는 손을 흔들거나 눈에 띄는 행동을 함께 할 것.",
+          "alternatives": [
+            { "en": "Help me, please!", "ko": "please를 추가해 더 간절함을 표현한 버전." },
+            { "en": "Someone help me!", "ko": "주변의 누군가에게 도움을 호소하는 표현." }
+          ]
+        },
+        {
+          "en": "It's an emergency!",
+          "ko": "긴급 상황임을 선언하는 핵심 표현. 'an emergency'에서 관사 'an'을 빠뜨리지 말 것. 전화나 대화 초반에 이 말을 먼저 하면 상대방이 즉시 경계 수준을 높임.",
+          "alternatives": [
+            { "en": "This is an emergency!", "ko": "강조형으로 더 공식적인 느낌을 주는 표현." },
+            { "en": "I need urgent help!", "ko": "긴급한 도움이 필요하다는 표현. urgent는 긴급한이라는 뜻." }
+          ]
+        },
+        {
+          "en": "Tell me what happened.",
+          "ko": "상황을 설명해달라는 요청. 행인이나 구조대원이 상황 파악을 위해 쓰는 표현. 이 말을 들으면 침착하게 육하원칙으로 설명하는 것이 좋음. 'What happened?'만 물을 때도 있음.",
+          "alternatives": [
+            { "en": "What happened?", "ko": "무슨 일이 있었는지 묻는 가장 간단한 표현." },
+            { "en": "Can you explain what's going on?", "ko": "상황을 설명해달라는 더 완곡한 요청." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch40_d08",
+      "title": "영어 하는 사람 있어요?",
+      "lines": [
+        { "speaker": "나", "en": "Does anyone here speak English? It's urgent!", "ko": "여기 영어 하시는 분 계세요? 급한 상황이에요!" },
+        { "speaker": "행인", "en": "I speak a little. What do you need?", "ko": "조금 해요. 무엇이 필요하세요?" },
+        { "speaker": "나", "en": "My friend is hurt. We need to call for help.", "ko": "친구가 다쳤어요. 도움을 요청해야 해요." },
+        { "speaker": "행인", "en": "I'll help you call. Don't worry.", "ko": "전화하는 거 도와드릴게요. 걱정 마세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Does anyone here speak English?",
+          "ko": "주변에 영어 가능자를 찾는 표현. 'It's urgent!'를 덧붙이면 단순 질문이 아닌 긴급 상황임을 강조할 수 있음. 유럽에서는 영어 구사자를 찾기 쉬운 경우가 많지만 지역에 따라 다를 수 있음.",
+          "alternatives": [
+            { "en": "Is there anyone who speaks English?", "ko": "영어 구사자가 있는지 묻는 또 다른 표현." },
+            { "en": "Can anyone speak English here?", "ko": "더 직접적으로 영어 가능 여부를 묻는 표현." }
+          ]
+        },
+        {
+          "en": "It's urgent!",
+          "ko": "긴급하다는 뜻의 형용사 urgent를 활용한 표현. 'It's an emergency!'와 비슷하지만 더 짧음. 상황의 심각성을 강조하는 단어로 의료, 경찰, 도움 요청 등 다양한 상황에서 활용 가능.",
+          "alternatives": [
+            { "en": "It's really important.", "ko": "정말 중요한 상황이라는 완곡한 표현." },
+            { "en": "It's an emergency.", "ko": "긴급 상황이라는 더 강한 표현." }
+          ]
+        },
+        {
+          "en": "Don't worry.",
+          "ko": "걱정하지 말라고 안심시키는 표현. 도움을 주는 사람이 상대방을 진정시킬 때 자주 씀. 'Everything will be okay.'나 'It's going to be alright.'도 비슷한 맥락에서 쓰임.",
+          "alternatives": [
+            { "en": "It's going to be okay.", "ko": "괜찮아질 거라고 안심시키는 표현." },
+            { "en": "We'll get through this.", "ko": "함께 이 상황을 극복할 수 있다는 격려 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch40_d09",
+      "title": "응급실이 어디예요?",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, where is the emergency room?", "ko": "실례합니다, 응급실이 어디인가요?" },
+        { "speaker": "행인", "en": "Do you mean A&E? It's in the main hospital two blocks away.", "ko": "A&E 말씀하시는 건가요? 두 블록 떨어진 종합병원에 있어요." },
+        { "speaker": "나", "en": "How do I get there quickly?", "ko": "어떻게 빨리 갈 수 있어요?" },
+        { "speaker": "행인", "en": "Turn right and you'll see the signs for the hospital.", "ko": "오른쪽으로 돌면 병원 표지판이 보일 거예요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Where is the emergency room?",
+          "ko": "응급실 위치를 묻는 표현. 미국에서는 'ER' 또는 'emergency room', 영국에서는 'A&E'(Accident and Emergency)라고 함. 유럽 여행 시 두 표현 모두 알아두는 것이 좋음.",
+          "alternatives": [
+            { "en": "Where is the A&E department?", "ko": "영국식 표현으로 응급실을 A&E라고 함." },
+            { "en": "I need to find the nearest hospital.", "ko": "가장 가까운 병원을 찾아야 한다는 표현." }
+          ]
+        },
+        {
+          "en": "A&E stands for Accident and Emergency.",
+          "ko": "A&E는 Accident and Emergency의 약자로 영국식 응급실. 미국식 ER(Emergency Room)과 같은 개념. 유럽 대부분의 영어권 국가에서 A&E라는 표현을 씀. 표지판에서 A&E 또는 Emergency라고 표기됨.",
+          "alternatives": [
+            { "en": "The ER is the emergency room.", "ko": "ER은 미국식으로 응급실을 뜻하는 약어." },
+            { "en": "Look for the 'Emergency' sign.", "ko": "응급실을 찾을 때는 Emergency 표지판을 따라가라는 조언." }
+          ]
+        },
+        {
+          "en": "How do I get there quickly?",
+          "ko": "빨리 가는 방법을 묻는 표현. 'quickly'를 강조해 시간이 급하다는 것을 전달. 'as fast as possible(가능한 빨리)'을 붙이면 더 긴박함을 표현할 수 있음.",
+          "alternatives": [
+            { "en": "What's the fastest way to get there?", "ko": "가장 빠른 방법을 묻는 표현." },
+            { "en": "Can I walk or should I take a taxi?", "ko": "걸어가야 할지 택시를 타야 할지 묻는 실용적인 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch40_d10",
+      "title": "진정하고 상황 설명하기",
+      "lines": [
+        { "speaker": "구급대원", "en": "Stay calm and tell me exactly what happened.", "ko": "진정하시고 정확히 무슨 일이 있었는지 말씀해 주세요." },
+        { "speaker": "나", "en": "My travel companion suddenly felt dizzy and collapsed.", "ko": "동행인이 갑자기 어지럽다고 하더니 쓰러졌어요." },
+        { "speaker": "구급대원", "en": "How long ago? Is she breathing?", "ko": "얼마나 됐어요? 숨은 쉬고 있나요?" },
+        { "speaker": "나", "en": "About five minutes ago. Yes, she's breathing but not responding.", "ko": "약 5분 전이요. 네, 숨은 쉬는데 반응이 없어요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Stay calm.",
+          "ko": "진정하라는 가장 기본적인 표현. 'calm down'과 비슷하지만 'stay calm'이 더 지속적인 침착함을 유지하라는 뉘앙스. 구급대원이나 경찰이 자주 쓰는 표현으로 상대방을 안심시키는 역할을 함.",
+          "alternatives": [
+            { "en": "Calm down.", "ko": "진정하라는 표현. 상황이 더 급할 때 쓰이는 경향." },
+            { "en": "Take a deep breath.", "ko": "심호흡을 하라는 표현으로 진정시킬 때 함께 쓰임." }
+          ]
+        },
+        {
+          "en": "She suddenly felt dizzy and collapsed.",
+          "ko": "갑자기 어지러워서 쓰러졌다는 상황 설명. 'suddenly(갑자기)', 'felt dizzy(어지러웠다)', 'collapsed(쓰러졌다)'라는 세 핵심 단어를 기억할 것. 증상 설명 시 순서대로 말하면 구급대원이 이해하기 쉬움.",
+          "alternatives": [
+            { "en": "He lost consciousness suddenly.", "ko": "갑자기 의식을 잃었다는 표현." },
+            { "en": "She passed out without warning.", "ko": "경고 없이 갑자기 정신을 잃었다는 표현." }
+          ]
+        },
+        {
+          "en": "She's breathing but not responding.",
+          "ko": "호흡은 하지만 반응이 없다는 의학적으로 중요한 상황 설명. 구급대원에게 이 두 가지 정보(호흡 여부, 반응 여부)는 매우 중요함. 'responding'은 말이나 자극에 반응한다는 의미.",
+          "alternatives": [
+            { "en": "She's unconscious but breathing.", "ko": "의식은 없지만 숨은 쉬고 있다는 표현." },
+            { "en": "He's not breathing.", "ko": "호흡이 없다는 가장 긴박한 상황의 표현. CPR이 필요한 상황." }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch40_set01_001",
+          "type": "multiple_choice",
+          "question": "누군가 갑자기 쓰러졌습니다. 주변 사람에게 구급차를 불러달라고 하는 가장 적절한 표현은?",
+          "options": [
+            "Call an ambulance!",
+            "Call a hospital!",
+            "Get a doctor!",
+            "Bring a nurse!"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Call an ambulance!'는 구급차를 요청하는 가장 명확하고 표준적인 표현입니다. 'Call a hospital!'은 병원에 전화하라는 뜻으로 의미가 다르고, 'Get a doctor!'는 의사를 데려오라는 뜻으로 구급차 요청이 아닙니다."
+        },
+        {
+          "id": "se_ch40_set01_002",
+          "type": "multiple_choice",
+          "question": "유럽 여행 중 응급 상황이 생겼습니다. 경찰, 소방, 구급 모두에 연결되는 유럽 공통 긴급번호는?",
+          "options": [
+            "112",
+            "911",
+            "999",
+            "119"
+          ],
+          "answerIndex": 0,
+          "explanation": "유럽 공통 긴급번호는 112입니다. 911은 미국·캐나다, 999는 영국에서 쓰이는 긴급번호이며, 119는 한국의 소방·구급 번호입니다. 유럽 여행 시 112 하나만 기억해도 모든 긴급 서비스에 연결될 수 있습니다."
+        },
+        {
+          "id": "se_ch40_set01_003",
+          "type": "multiple_choice",
+          "question": "긴급 상황에서 주변 사람에게 도움을 요청할 때 가장 즉각적이고 효과적인 외침은?",
+          "options": [
+            "Help!",
+            "Please!",
+            "Excuse me!",
+            "Wait!"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Help!'는 도움을 요청하는 가장 강력하고 보편적으로 인식되는 긴급 표현입니다. 'Please!'나 'Excuse me!'만으로는 긴급 상황임을 전달하기 어렵고, 'Wait!'은 기다려달라는 표현으로 도움 요청과 다릅니다."
+        },
+        {
+          "id": "se_ch40_set01_004",
+          "type": "multiple_choice",
+          "question": "112에 전화했을 때 교환원이 'What is your emergency?'라고 물었습니다. 이 질문의 뜻은?",
+          "options": [
+            "어떤 긴급 상황인지 알려주세요.",
+            "전화번호가 무엇인가요?",
+            "어느 나라에서 오셨나요?",
+            "지금 몇 시인가요?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What is your emergency?'는 어떤 긴급 상황인지를 묻는 112 교환원의 표준 첫 질문입니다. 이 질문을 들으면 경찰(police), 구급차(ambulance), 화재(fire) 중 어떤 서비스가 필요한지 먼저 말한 뒤 상황을 설명하면 됩니다."
+        },
+        {
+          "id": "se_ch40_set01_005",
+          "type": "multiple_choice",
+          "question": "부상자가 있다고 신고할 때 가장 의료적이고 공식적인 표현은?",
+          "options": [
+            "Someone is injured.",
+            "Someone is broken.",
+            "Someone is damaged.",
+            "Someone is failed."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Someone is injured.'는 누군가 부상을 입었다는 올바른 표현입니다. 'hurt'도 쓸 수 있지만 'injured'가 더 공식적이고 의료적인 뉘앙스를 가집니다. 'broken', 'damaged', 'failed'는 사람에게 사용하는 부상 표현이 아닙니다."
+        },
+        {
+          "id": "se_ch40_set01_006",
+          "type": "multiple_choice",
+          "question": "영국의 응급실을 나타내는 약어는?",
+          "options": [
+            "A&E",
+            "ER",
+            "ICU",
+            "GP"
+          ],
+          "answerIndex": 0,
+          "explanation": "영국에서 응급실은 A&E(Accident and Emergency)라고 합니다. ER(Emergency Room)은 미국식 표현이고, ICU는 중환자실(Intensive Care Unit), GP는 일반 가정의(General Practitioner)입니다. 영국·아일랜드 등 여행 시 A&E 표지판을 찾으면 됩니다."
+        },
+        {
+          "id": "se_ch40_set01_007",
+          "type": "multiple_choice",
+          "question": "112 신고 시 위치를 알릴 때 가장 정확한 표현은?",
+          "options": [
+            "I'm at the corner of Main Street and Park Avenue.",
+            "I'm in a place.",
+            "I'm somewhere nearby.",
+            "I'm not sure where I am."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm at the corner of A and B.'는 두 도로의 교차점을 명확히 알려주는 가장 유용한 위치 표현입니다. 긴급 신고 시 정확한 위치 정보가 생사를 가를 수 있으므로 주소, 랜드마크, 도로명을 최대한 구체적으로 말해야 합니다."
+        },
+        {
+          "id": "se_ch40_set01_008",
+          "type": "multiple_choice",
+          "question": "화재 발생 시 가장 먼저 크게 외쳐야 할 표현은?",
+          "options": [
+            "Fire!",
+            "Hot!",
+            "Burn!",
+            "Smoke!"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Fire!'는 화재를 알리는 가장 강력하고 보편적으로 인식되는 경고 표현입니다. 'Hot!'은 뜨겁다는 느낌을 나타내고, 'Burn!'이나 'Smoke!'만으로는 화재 경고로 즉각 인식되지 않을 수 있습니다."
+        },
+        {
+          "id": "se_ch40_set01_009",
+          "type": "multiple_choice",
+          "question": "구급대원이 'Stay calm and tell me what happened.'라고 했을 때, 가장 적절한 대응은?",
+          "options": [
+            "침착하게 상황을 순서대로 설명한다.",
+            "아무 말 없이 고개만 끄덕인다.",
+            "한국어로 빠르게 설명한다.",
+            "전화를 끊고 다시 건다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Stay calm and tell me what happened.'는 진정하고 상황을 설명해달라는 구급대원의 요청입니다. 이 상황에서는 침착하게 언제, 어떻게, 어떤 증상인지를 영어로 차례대로 설명하는 것이 가장 적절한 대응입니다."
+        },
+        {
+          "id": "se_ch40_set01_010",
+          "type": "multiple_choice",
+          "question": "긴급 상황임을 상대방에게 알리는 가장 직접적인 표현은?",
+          "options": [
+            "It's an emergency!",
+            "It's a problem.",
+            "It's not good.",
+            "It's a little difficult."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's an emergency!'는 긴급 상황임을 선언하는 가장 효과적인 표현입니다. 'It's a problem.'이나 'It's not good.'은 긴박감이 부족하며, 'It's a little difficult.'는 일반적인 어려움을 나타내는 표현으로 긴급 상황 표현으로는 부적절합니다."
+        },
+        {
+          "id": "se_ch40_set01_011",
+          "type": "ox",
+          "question": "유럽 공통 긴급전화는 112다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 112는 경찰, 소방, 구급을 포함한 유럽 공통 긴급번호입니다. EU 회원국 전체에서 사용 가능하며 심지어 배터리가 없거나 잠긴 휴대폰에서도 걸 수 있는 경우가 많습니다. 미국은 911, 영국은 999도 별도로 사용합니다."
+        },
+        {
+          "id": "se_ch40_set01_012",
+          "type": "ox",
+          "question": "영국에서 응급실은 'ER'이라고 부른다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 영국에서 응급실은 'A&E'(Accident and Emergency)라고 합니다. 'ER'(Emergency Room)은 미국식 표현입니다. 영국 병원의 표지판에서는 'A&E' 또는 'Emergency' 라고 표기됩니다."
+        },
+        {
+          "id": "se_ch40_set01_013",
+          "type": "ox",
+          "question": "'Call the police!'에서 'police' 앞에 관사 'the'를 붙이는 것이 올바르다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 영어에서 'police'는 항상 'the police'처럼 정관사 'the'와 함께 씁니다. 또한 police는 단수처럼 보이지만 복수 취급을 합니다(예: The police are coming). 'Call police!'처럼 관사를 빼면 어색한 영어가 됩니다."
+        },
+        {
+          "id": "se_ch40_set01_014",
+          "type": "ox",
+          "question": "부상자를 발견했을 때 'Don't move them.'은 환자를 함부로 옮기지 말라는 중요한 안전 지시다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 부상자, 특히 척추나 목 부상이 의심되는 경우 함부로 움직이면 상태가 악화될 수 있습니다. 'Don't move them.'은 전문 구조대가 올 때까지 환자를 그 자리에 두라는 중요한 응급처치 원칙입니다."
+        }
+      ]
+    }
+  ]
 }

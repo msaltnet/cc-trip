@@ -1,7 +1,532 @@
 {
   "id": "ch35",
   "title": "환전·ATM·카드·DCC",
-  "summary": "환율·수수료, ATM 출금, 현지통화 결제(DCC 거절)",
-  "dialogues": [],
-  "sets": []
+  "summary": "환전소에서 환율·수수료 확인, ATM 위치·출금 한도, 카드 결제 가능 여부, DCC 거절(현지 통화 결제), 카드 거절 대처, 분할 결제·잔돈 요청까지",
+  "dialogues": [
+    {
+      "id": "ch35_d01",
+      "title": "환전소 위치 묻기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, where can I exchange money?", "ko": "실례합니다, 환전을 어디서 할 수 있나요?" },
+        { "speaker": "직원", "en": "There's a currency exchange office just past the main entrance, on your left.", "ko": "정문을 지나 왼쪽에 환전소가 있습니다." },
+        { "speaker": "나", "en": "Is it open now?", "ko": "지금 열려 있나요?" },
+        { "speaker": "직원", "en": "Yes, it's open until six o'clock.", "ko": "네, 오후 여섯 시까지 영업합니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Where can I exchange money?",
+          "ko": "환전소 위치를 묻는 가장 표준적인 표현. 'Where is a bank?'보다 환전 목적이 명확히 전달됨. 공항·호텔·쇼핑몰에서 두루 쓸 수 있음.",
+          "alternatives": [
+            { "en": "Is there a currency exchange nearby?", "ko": "근처에 환전 창구가 있는지 확인하는 표현." },
+            { "en": "Where's the nearest foreign exchange?", "ko": "가장 가까운 환전소를 묻는 표현. foreign exchange = 외환 거래소." }
+          ]
+        },
+        {
+          "en": "Currency exchange office",
+          "ko": "환전소를 뜻하는 공식 명칭. 유럽에서는 'bureau de change'라는 표현도 흔히 보임. 공항 안내판에서 자주 등장하므로 알아두면 편리함.",
+          "alternatives": [
+            { "en": "Bureau de change", "ko": "유럽(특히 영국·프랑스)에서 흔히 쓰이는 환전소 명칭." },
+            { "en": "Money exchange", "ko": "간판에 많이 쓰이는 간략한 표현." }
+          ]
+        },
+        {
+          "en": "Is it open now?",
+          "ko": "영업 중인지 확인하는 간단한 표현. 'Are you open?'도 같은 의미로 자주 쓰임. 영업시간이 궁금하면 'What are your hours?'를 추가로 물어볼 수 있음.",
+          "alternatives": [
+            { "en": "Are you still open?", "ko": "아직 영업 중인지 확인하는 표현으로 'still'이 '아직'의 뉘앙스를 더함." },
+            { "en": "What time do you close?", "ko": "영업 종료 시간을 직접 묻는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch35_d02",
+      "title": "환율과 수수료 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "What's the exchange rate for euros today?", "ko": "오늘 유로 환율이 어떻게 되나요?" },
+        { "speaker": "은행원", "en": "It's one euro to one point one US dollars.", "ko": "1유로에 1.1달러입니다." },
+        { "speaker": "나", "en": "Is there a commission?", "ko": "수수료가 있나요?" },
+        { "speaker": "은행원", "en": "We charge two percent commission on all exchanges.", "ko": "모든 환전에 2퍼센트 수수료가 붙습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "What's the exchange rate?",
+          "ko": "환율을 묻는 핵심 표현. 'for euros'처럼 통화명을 붙이면 더 정확하게 질문할 수 있음. 환율(exchange rate)과 수수료(commission/fee)는 별개로 물어봐야 함.",
+          "alternatives": [
+            { "en": "What rate are you offering today?", "ko": "오늘 적용 환율이 얼마인지 묻는 표현." },
+            { "en": "How much is one euro in dollars?", "ko": "두 통화 간 환율을 직접 묻는 방식." }
+          ]
+        },
+        {
+          "en": "Is there a commission?",
+          "ko": "수수료 유무를 묻는 표현. commission = 환전 수수료. 'fee'도 같은 의미로 쓰임. 'No commission'이라고 쓰인 환전소가 실제로는 환율 자체에 마진을 얹는 경우도 있으므로 주의.",
+          "alternatives": [
+            { "en": "Is there a fee for this?", "ko": "수수료가 있는지 묻는 더 일반적인 표현." },
+            { "en": "How much do you charge?", "ko": "수수료가 얼마인지 직접 묻는 표현." }
+          ]
+        },
+        {
+          "en": "We charge two percent.",
+          "ko": "퍼센트 수수료를 설명하는 직원 표현. 고정 수수료일 경우 'a flat fee of three euros'처럼 말함. 환전 전에 반드시 확인해야 손해를 피할 수 있음.",
+          "alternatives": [
+            { "en": "There's a flat fee of three euros.", "ko": "정액 수수료를 안내할 때 쓰는 표현." },
+            { "en": "No commission, but the rate already includes our margin.", "ko": "수수료는 없지만 환율에 마진이 포함돼 있다고 설명하는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch35_d03",
+      "title": "소액권으로 바꿔달라고 하기",
+      "lines": [
+        { "speaker": "나", "en": "I'd like to exchange two hundred euros, please.", "ko": "200유로를 환전하고 싶습니다." },
+        { "speaker": "은행원", "en": "Sure. Any preference for the denominations?", "ko": "네. 권종 선호가 있으신가요?" },
+        { "speaker": "나", "en": "Could I have it in smaller bills? Mostly twenties and tens.", "ko": "소액권으로 주시겠어요? 20유로와 10유로로 주시면 좋겠습니다." },
+        { "speaker": "은행원", "en": "Of course. Here you go.", "ko": "물론이죠. 여기 있습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Could I have it in smaller bills?",
+          "ko": "소액권으로 달라는 요청. bills = 지폐(미국식). 영국식으로는 notes를 씀. 'smaller denominations'이라고 해도 됨. 시장이나 소규모 상점에서는 큰 지폐를 거절하는 경우가 많으므로 유용한 표현.",
+          "alternatives": [
+            { "en": "Could I have smaller denominations?", "ko": "소액권을 요청하는 더 격식 있는 표현." },
+            { "en": "Can you break this into smaller notes?", "ko": "큰 지폐를 소액권으로 분할해달라는 표현." }
+          ]
+        },
+        {
+          "en": "Denominations",
+          "ko": "지폐·동전의 권종(액면가)을 뜻하는 단어. 환전이나 은행에서 자주 등장하는 어휘로 알아두면 편리함. 'What denominations do you have?'처럼 사용.",
+          "alternatives": [
+            { "en": "Bills / Notes", "ko": "지폐를 뜻하는 단어. 미국에서는 bills, 영국·호주에서는 notes를 주로 씀." },
+            { "en": "Coins", "ko": "동전. 'Can I have some coins as well?'처럼 동전 포함을 요청할 때 씀." }
+          ]
+        },
+        {
+          "en": "Mostly twenties and tens.",
+          "ko": "권종을 구체적으로 지정하는 표현. 숫자만으로 액면가를 나타내는 자연스러운 방식. '10유로 지폐 = ten-euro note', '20유로 지폐 = twenty-euro note'.",
+          "alternatives": [
+            { "en": "Mainly in twenty-euro notes.", "ko": "주로 20유로권으로 달라는 표현." },
+            { "en": "A mix of tens and twenties, please.", "ko": "10유로와 20유로를 섞어달라는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch35_d04",
+      "title": "ATM 위치 묻기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, is there an ATM nearby?", "ko": "실례합니다, 근처에 ATM이 있나요?" },
+        { "speaker": "직원", "en": "Yes, there's one right outside the entrance, next to the pharmacy.", "ko": "네, 입구 바로 밖에 약국 옆에 있습니다." },
+        { "speaker": "나", "en": "Does it accept foreign cards?", "ko": "외국 카드도 되나요?" },
+        { "speaker": "직원", "en": "Yes, it accepts Visa and Mastercard.", "ko": "네, 비자와 마스터카드를 사용할 수 있습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Is there an ATM nearby?",
+          "ko": "근처에 ATM이 있는지 묻는 표현. 'Where is the ATM?'보다 유연한 질문. 해외에서 ATM은 'cashpoint'(영국식) 또는 'cash machine'이라고도 불림.",
+          "alternatives": [
+            { "en": "Where's the nearest ATM?", "ko": "가장 가까운 ATM 위치를 묻는 표현." },
+            { "en": "Is there a cashpoint around here?", "ko": "영국식 표현으로 ATM을 cashpoint라고 부름." }
+          ]
+        },
+        {
+          "en": "Does it accept foreign cards?",
+          "ko": "외국 카드 사용 가능 여부를 묻는 표현. 해외 카드가 모든 ATM에서 되지 않을 수 있으므로 사전에 확인하는 것이 좋음. 'international cards'라는 표현도 자주 쓰임.",
+          "alternatives": [
+            { "en": "Can I use my international card here?", "ko": "해외 발급 카드를 쓸 수 있는지 묻는 표현." },
+            { "en": "Will it work with a Visa card?", "ko": "비자 카드가 사용 가능한지 직접 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Next to the pharmacy.",
+          "ko": "위치를 설명할 때 자주 쓰이는 표현. 'next to'(~옆에), 'across from'(~맞은편에), 'past'(~지나서), 'on your left/right'(왼쪽/오른쪽에) 등을 알아두면 길 찾기에 도움이 됨.",
+          "alternatives": [
+            { "en": "Right outside the entrance.", "ko": "입구 바로 밖에 있다는 표현." },
+            { "en": "On the ground floor, near the exit.", "ko": "층과 위치를 함께 설명하는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch35_d05",
+      "title": "ATM 출금 한도 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "I tried to withdraw five hundred euros but the machine declined.", "ko": "500유로를 출금하려 했는데 ATM이 거절했어요." },
+        { "speaker": "은행원", "en": "Our ATMs have a daily withdrawal limit of three hundred euros.", "ko": "저희 ATM의 1일 출금 한도는 300유로입니다." },
+        { "speaker": "나", "en": "I see. Can I make two separate withdrawals?", "ko": "그렇군요. 두 번으로 나눠서 출금할 수 있나요?" },
+        { "speaker": "은행원", "en": "Yes, but the daily limit applies across all transactions.", "ko": "네, 가능하지만 1일 한도는 모든 거래에 적용됩니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Daily withdrawal limit",
+          "ko": "1일 출금 한도를 뜻하는 표현. ATM 화면이나 은행 안내에 자주 등장. 한도는 ATM 운영 은행과 내 카드 발급 은행 양쪽 모두의 제한을 받을 수 있음.",
+          "alternatives": [
+            { "en": "Maximum withdrawal amount", "ko": "최대 출금 가능 금액을 뜻하는 표현." },
+            { "en": "Withdrawal cap", "ko": "출금 상한선을 뜻하는 약간 더 구어적인 표현." }
+          ]
+        },
+        {
+          "en": "The machine declined.",
+          "ko": "ATM 또는 단말기가 거래를 거절했다는 표현. 'declined' = 거절됨. 카드 자체 문제인지 ATM 한도 문제인지 구분해서 확인해야 함.",
+          "alternatives": [
+            { "en": "The transaction was rejected.", "ko": "거래가 거절됐다는 공식적인 표현." },
+            { "en": "It said 'transaction declined' on the screen.", "ko": "화면에 거절 메시지가 떴다고 설명하는 방식." }
+          ]
+        },
+        {
+          "en": "Can I make two separate withdrawals?",
+          "ko": "두 번으로 나눠서 출금할 수 있는지 묻는 표현. 한도 초과 시 분할 출금을 시도할 때 유용. 단, 1일 한도는 모든 거래 합산이므로 결국 한도 이상은 출금 불가.",
+          "alternatives": [
+            { "en": "Can I withdraw in two transactions?", "ko": "두 번의 거래로 나눠 출금하겠다는 표현." },
+            { "en": "Is there a way to get more cash today?", "ko": "오늘 더 많은 현금을 찾을 방법이 있는지 묻는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch35_d06",
+      "title": "카드 결제 가능 여부 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Can I pay by card?", "ko": "카드로 결제할 수 있나요?" },
+        { "speaker": "직원", "en": "Yes, we accept credit and debit cards.", "ko": "네, 신용카드와 체크카드 모두 받습니다." },
+        { "speaker": "나", "en": "Do you take Visa?", "ko": "비자도 되나요?" },
+        { "speaker": "직원", "en": "Yes, Visa, Mastercard, and American Express.", "ko": "네, 비자, 마스터카드, 아메리칸 익스프레스 모두 됩니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Can I pay by card?",
+          "ko": "카드 결제 가능 여부를 묻는 가장 간결한 표현. 'by card'는 결제 수단을 나타내는 전치사 표현. 'pay with a card'도 자연스럽게 통함.",
+          "alternatives": [
+            { "en": "Do you accept cards?", "ko": "카드를 받는지 묻는 또 다른 자연스러운 표현." },
+            { "en": "Is card payment okay?", "ko": "카드 결제가 가능한지 가볍게 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Credit and debit cards",
+          "ko": "신용카드(credit card)와 체크카드(debit card)의 구분. 한국의 '신용카드'는 credit card, '체크카드'는 debit card에 해당. 해외에서는 두 종류 모두 쓸 수 있는 곳이 많음.",
+          "alternatives": [
+            { "en": "Contactless payment", "ko": "비접촉 결제(카드·폰을 단말기에 탭하는 방식). 유럽에서 매우 보편화됨." },
+            { "en": "Tap to pay", "ko": "단말기에 카드나 스마트폰을 가져다 대는 방식으로 결제하는 표현." }
+          ]
+        },
+        {
+          "en": "Do you take Visa?",
+          "ko": "특정 카드 브랜드 사용 가능 여부를 묻는 표현. 'take'를 '받다'의 의미로 사용. 'Do you accept Visa?'와 같은 뜻이며 더 구어적인 표현.",
+          "alternatives": [
+            { "en": "Do you accept Visa?", "ko": "'take' 대신 'accept'를 쓴 더 격식 있는 표현." },
+            { "en": "Is Visa okay here?", "ko": "비자 카드가 되는지 캐주얼하게 묻는 방식." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch35_d07",
+      "title": "DCC 거절 — 현지 통화로 결제하기",
+      "lines": [
+        { "speaker": "직원", "en": "Would you like to pay in euros or in Korean won?", "ko": "유로로 결제하시겠어요, 한국 원화로 결제하시겠어요?" },
+        { "speaker": "나", "en": "In euros, please. I'd like to pay in local currency.", "ko": "유로로 해주세요. 현지 통화로 결제하겠습니다." },
+        { "speaker": "직원", "en": "Of course. I'll process it in euros.", "ko": "알겠습니다. 유로로 처리해 드리겠습니다." },
+        { "speaker": "나", "en": "Thank you. I always prefer to pay in the local currency.", "ko": "감사합니다. 저는 항상 현지 통화로 결제하는 것을 선호합니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I'd like to pay in local currency.",
+          "ko": "DCC(Dynamic Currency Conversion)를 거절하고 현지 통화로 결제하겠다는 핵심 표현. DCC로 원화 결제를 선택하면 가맹점 환율이 적용돼 카드사 환율보다 불리해지는 경우가 많으므로 항상 현지 통화를 선택하자.",
+          "alternatives": [
+            { "en": "In local currency, please.", "ko": "가장 짧고 명확하게 현지 통화를 요청하는 표현." },
+            { "en": "Please charge me in euros, not won.", "ko": "원화 DCC를 거절하고 유로로 결제해달라고 명시적으로 요청하는 표현." }
+          ]
+        },
+        {
+          "en": "DCC (Dynamic Currency Conversion)",
+          "ko": "해외 결제 시 단말기가 자국 통화로 결제할지 묻는 서비스. 겉으로는 편리해 보이지만 불리한 환율이 적용돼 손해를 볼 수 있음. 단말기에서 '원화로 결제' 또는 'KRW' 옵션이 뜨면 반드시 거절할 것.",
+          "alternatives": [
+            { "en": "Pay in home currency", "ko": "자국 통화로 결제하는 옵션 = DCC. 선택하면 손해." },
+            { "en": "Pay in local currency", "ko": "현지 통화로 결제하는 옵션 = DCC 거절. 항상 이쪽을 선택해야 유리함." }
+          ]
+        },
+        {
+          "en": "I'll process it in euros.",
+          "ko": "직원이 유로로 처리하겠다고 확인하는 표현. 'process'는 결제를 처리하다는 의미. 단말기에서 직접 통화를 선택해야 하는 경우도 있으므로 화면을 직접 확인하는 것이 안전함.",
+          "alternatives": [
+            { "en": "I'll run it in local currency.", "ko": "현지 통화로 결제를 진행하겠다는 표현. 'run'은 카드를 긁다·결제하다의 구어적 표현." },
+            { "en": "I'll charge you in euros.", "ko": "유로로 청구하겠다고 확인하는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch35_d08",
+      "title": "카드 거절됐을 때 대처하기",
+      "lines": [
+        { "speaker": "직원", "en": "I'm sorry, your card has been declined.", "ko": "죄송합니다, 카드가 거절됐습니다." },
+        { "speaker": "나", "en": "Oh no. Can I try a different card?", "ko": "이런. 다른 카드로 해봐도 될까요?" },
+        { "speaker": "직원", "en": "Of course, go ahead.", "ko": "물론이죠, 해보세요." },
+        { "speaker": "나", "en": "Thank you. I'll also call my bank to check what happened.", "ko": "감사합니다. 무슨 일인지 은행에도 전화해볼게요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Your card has been declined.",
+          "ko": "카드가 거절됐다는 직원의 안내 표현. 'declined'는 카드 거절의 표준 표현으로 단말기 화면·직원 모두 이 단어를 씀. 이유는 여러 가지(한도 초과, 해외 결제 차단, 네트워크 오류 등)일 수 있음.",
+          "alternatives": [
+            { "en": "The transaction didn't go through.", "ko": "결제가 처리되지 않았다는 표현." },
+            { "en": "It says 'declined' on the terminal.", "ko": "단말기에 거절 메시지가 떴다고 설명하는 방식." }
+          ]
+        },
+        {
+          "en": "Can I try a different card?",
+          "ko": "다른 카드로 결제를 시도해보겠다는 표현. 해외 여행 시 카드 여러 장을 갖고 다니면 한 장이 거절됐을 때 대비할 수 있음. 'another card'도 같은 의미.",
+          "alternatives": [
+            { "en": "Can I pay with a different card?", "ko": "다른 카드로 결제하겠다는 표현." },
+            { "en": "I have another card I'd like to try.", "ko": "다른 카드를 써보고 싶다고 말하는 표현." }
+          ]
+        },
+        {
+          "en": "I'll call my bank to check.",
+          "ko": "은행에 전화해 확인하겠다는 표현. 카드가 거절됐을 때 가장 먼저 할 일은 카드사에 연락해 해외 결제 차단 여부를 확인하는 것. 요즘은 앱으로도 즉시 확인·해제 가능.",
+          "alternatives": [
+            { "en": "I need to contact my bank.", "ko": "은행에 연락해야겠다는 표현." },
+            { "en": "Let me check my banking app.", "ko": "은행 앱을 확인해보겠다는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch35_d09",
+      "title": "카드 두 장으로 분할 결제하기",
+      "lines": [
+        { "speaker": "나", "en": "Could I split the payment between two cards?", "ko": "두 장의 카드로 나눠서 결제할 수 있을까요?" },
+        { "speaker": "직원", "en": "Yes, we can do that. How much would you like on each card?", "ko": "네, 가능합니다. 각 카드에 얼마씩 결제하시겠어요?" },
+        { "speaker": "나", "en": "Fifty euros on the first card and the rest on the second.", "ko": "첫 번째 카드에 50유로, 나머지는 두 번째 카드로 해주세요." },
+        { "speaker": "직원", "en": "Understood. I'll run the first card for fifty euros now.", "ko": "알겠습니다. 지금 첫 번째 카드로 50유로 결제하겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Could I split the payment between two cards?",
+          "ko": "두 장의 카드로 분할 결제를 요청하는 표현. 'split'는 나누다는 뜻. 일부 소규모 상점은 분할 결제를 지원하지 않을 수 있으므로 먼저 가능 여부를 물어보는 것이 좋음.",
+          "alternatives": [
+            { "en": "Can I pay with two different cards?", "ko": "두 장의 카드로 나눠 결제할 수 있는지 묻는 표현." },
+            { "en": "I'd like to put half on each card.", "ko": "각 카드에 절반씩 결제하겠다는 표현." }
+          ]
+        },
+        {
+          "en": "The rest on the second card.",
+          "ko": "나머지 금액을 두 번째 카드로 결제하겠다는 표현. 'the rest' = 나머지. 'the remainder'라고도 할 수 있음. 정확한 금액을 지정하거나 나머지 전부를 맡기는 방식 모두 가능.",
+          "alternatives": [
+            { "en": "The remaining amount on the other card.", "ko": "나머지 금액을 다른 카드로 결제하는 표현." },
+            { "en": "And the balance on this card.", "ko": "잔여 금액을 이 카드로 결제하겠다는 표현." }
+          ]
+        },
+        {
+          "en": "I'll run the first card.",
+          "ko": "카드를 처리(결제)하겠다는 직원의 표현. 'run a card' = 카드를 긁다·결제를 처리하다. 영어 원어민 서비스 직원들이 일상적으로 쓰는 표현이므로 알아두면 이해하기 쉬움.",
+          "alternatives": [
+            { "en": "I'll charge the first card now.", "ko": "첫 번째 카드로 청구하겠다는 표현." },
+            { "en": "I'll process the first payment.", "ko": "첫 번째 결제를 처리하겠다는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch35_d10",
+      "title": "잔돈 받기",
+      "lines": [
+        { "speaker": "나", "en": "Here's fifty euros for a thirty-two euro bill.", "ko": "32유로짜리 계산서에 50유로 드립니다." },
+        { "speaker": "직원", "en": "That's eighteen euros change. Here you are.", "ko": "거스름돈 18유로입니다. 여기 있습니다." },
+        { "speaker": "나", "en": "I'm sorry, I think the change is wrong — I should get eighteen euros.", "ko": "죄송한데, 거스름돈이 틀린 것 같아요 — 18유로를 받아야 할 것 같습니다." },
+        { "speaker": "직원", "en": "You're right, I apologize. Let me correct that.", "ko": "맞습니다, 죄송합니다. 바로 수정해 드리겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Change",
+          "ko": "거스름돈을 뜻하는 단어. '잔돈'은 영어로 change, small change, coins 등으로 표현. 계산 시 영수증을 확인하고 잔돈이 맞는지 직접 확인하는 습관이 중요함.",
+          "alternatives": [
+            { "en": "Keep the change.", "ko": "거스름돈을 팁으로 주겠다는 표현. 팁 문화가 있는 나라에서 식당·택시 등에서 자주 씀." },
+            { "en": "Do I get change back?", "ko": "거스름돈을 돌려받는지 확인하는 표현." }
+          ]
+        },
+        {
+          "en": "I think the change is wrong.",
+          "ko": "거스름돈이 틀렸다고 지적하는 표현. 'I think'를 앞에 붙이면 단정하지 않고 부드럽게 의문을 제기할 수 있어 분쟁 없이 해결하기 좋음. 직접 계산해서 확인한 뒤 말하는 것이 좋음.",
+          "alternatives": [
+            { "en": "I'm sorry, but I think you've given me the wrong change.", "ko": "조금 더 공손하게 잔돈 오류를 지적하는 표현." },
+            { "en": "Could you check the change again?", "ko": "거스름돈을 다시 확인해달라고 요청하는 표현." }
+          ]
+        },
+        {
+          "en": "Let me correct that.",
+          "ko": "직원이 실수를 바로잡겠다고 할 때 쓰는 표현. 'correct'를 동사로 쓴 경우. 'Let me fix that.' 또는 'I'll sort that out.'도 같은 상황에 쓰임.",
+          "alternatives": [
+            { "en": "Let me fix that right away.", "ko": "즉시 바로잡겠다는 표현. 'right away' = 즉시." },
+            { "en": "I'm sorry for the mistake.", "ko": "실수에 대해 사과하는 표현." }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch35_set01_001",
+          "type": "multiple_choice",
+          "question": "환전소 위치를 물을 때 가장 적절한 표현은?",
+          "options": [
+            "Where can I exchange money?",
+            "Where is the bank?",
+            "Can I get some cash here?",
+            "What is the currency?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where can I exchange money?'는 환전소 위치를 묻는 가장 표준적인 표현입니다. 'Where is the bank?'는 은행 위치를 묻는 것이고, 'Can I get some cash here?'는 ATM 등을 포함한 더 넓은 질문이며, 'What is the currency?'는 통화 종류를 묻는 말입니다."
+        },
+        {
+          "id": "se_ch35_set01_002",
+          "type": "multiple_choice",
+          "question": "환전소에서 현재 환율을 물을 때 알맞은 표현은?",
+          "options": [
+            "Is there a commission?",
+            "What's the exchange rate?",
+            "How much is the fee?",
+            "Do you accept euros?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'What's the exchange rate?'는 현재 환율을 묻는 핵심 표현입니다. 'Is there a commission?'과 'How much is the fee?'는 수수료를 묻는 표현이고, 'Do you accept euros?'는 유로를 받는지 묻는 것입니다. 환율과 수수료는 별개이므로 구분해서 물어봐야 합니다."
+        },
+        {
+          "id": "se_ch35_set01_003",
+          "type": "multiple_choice",
+          "question": "환전소에서 수수료가 있는지 물을 때 알맞은 표현은?",
+          "options": [
+            "What's the exchange rate today?",
+            "Can I pay in cash?",
+            "Is there a commission?",
+            "How much can I exchange?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Is there a commission?'은 환전 수수료 유무를 묻는 표현입니다. commission = 수수료. 'What's the exchange rate today?'는 환율을 묻는 표현이고, 'Can I pay in cash?'는 현금 결제 가능 여부를 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch35_set01_004",
+          "type": "multiple_choice",
+          "question": "환전 시 소액권(작은 지폐)으로 달라고 할 때 알맞은 표현은?",
+          "options": [
+            "Give me large bills only.",
+            "Could I have it in smaller bills?",
+            "Can you exchange my coins?",
+            "I need exact change."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Could I have it in smaller bills?'는 소액권으로 달라는 요청입니다. bills = 지폐(미국식), notes = 지폐(영국식). 'Give me large bills only.'는 반대로 고액권을 요청하는 말이고, 나머지는 다른 상황에 쓰이는 표현입니다."
+        },
+        {
+          "id": "se_ch35_set01_005",
+          "type": "multiple_choice",
+          "question": "근처에 ATM이 있는지 물을 때 알맞은 표현은?",
+          "options": [
+            "Where is the nearest bank branch?",
+            "Can I withdraw here?",
+            "Is there an ATM nearby?",
+            "Do you have a cash register?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Is there an ATM nearby?'는 근처에 ATM이 있는지 묻는 자연스러운 표현입니다. 'Where is the nearest bank branch?'는 은행 지점을 찾는 표현이고, 'Can I withdraw here?'는 이곳에서 출금할 수 있는지 묻는 것이며, 'Do you have a cash register?'는 계산대가 있는지 묻는 전혀 다른 표현입니다."
+        },
+        {
+          "id": "se_ch35_set01_006",
+          "type": "multiple_choice",
+          "question": "카드 단말기에서 원화(KRW)로 결제할지 유로(EUR)로 결제할지 물어볼 때, DCC를 거절하고 현지 통화로 결제하겠다는 올바른 표현은?",
+          "options": [
+            "In home currency, please.",
+            "Korean won, please.",
+            "Charge me in KRW.",
+            "In local currency, please."
+          ],
+          "answerIndex": 3,
+          "explanation": "'In local currency, please.'는 현지 통화(방문 국가의 통화, 예: 유럽에서는 유로)로 결제하겠다는 표현으로 DCC를 거절할 때 씁니다. 'In home currency'·'Korean won'·'KRW'를 선택하면 DCC가 적용돼 불리한 환율이 사용됩니다. 항상 local currency를 선택해야 유리합니다."
+        },
+        {
+          "id": "se_ch35_set01_007",
+          "type": "multiple_choice",
+          "question": "직원이 'Your card has been declined.'이라고 했습니다. 이 말의 뜻은?",
+          "options": [
+            "카드 한도가 초과되어 추가 결제가 불가능합니다.",
+            "카드가 거절됐습니다.",
+            "카드 정보를 다시 입력해 주세요.",
+            "카드 결제는 받지 않습니다."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Your card has been declined.'은 '카드가 거절됐습니다'라는 뜻입니다. declined = 거절됨. 원인은 한도 초과, 해외 결제 차단, 네트워크 오류 등 다양할 수 있으며, 다른 카드를 시도하거나 카드사에 연락해 확인해야 합니다."
+        },
+        {
+          "id": "se_ch35_set01_008",
+          "type": "multiple_choice",
+          "question": "두 장의 카드로 나눠서 결제하고 싶을 때 알맞은 표현은?",
+          "options": [
+            "Can I use two different cashiers?",
+            "Could I split the payment between two cards?",
+            "I'd like to pay half in cash.",
+            "Can I get a receipt for each item?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Could I split the payment between two cards?'는 두 장의 카드로 분할 결제를 요청하는 표현입니다. 'split the payment'는 결제 금액을 나누는 것을 뜻합니다. 나머지 선택지는 다른 상황에 해당하는 표현들입니다."
+        },
+        {
+          "id": "se_ch35_set01_009",
+          "type": "multiple_choice",
+          "question": "거스름돈이 잘못 됐을 때 정중하게 지적하는 표현은?",
+          "options": [
+            "You are wrong about the change.",
+            "I think the change is wrong.",
+            "Give me the right change now.",
+            "My change is missing."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I think the change is wrong.'은 'I think'를 앞에 붙여 단정하지 않고 부드럽게 거스름돈 오류를 지적하는 표현입니다. 'You are wrong.'은 직접적으로 상대를 지적해 분쟁을 일으킬 수 있고, 'Give me the right change now.'는 명령형이라 무례하게 들립니다."
+        },
+        {
+          "id": "se_ch35_set01_010",
+          "type": "multiple_choice",
+          "question": "ATM에서 출금이 거절됐을 때 직원에게 상황을 설명하는 가장 자연스러운 표현은?",
+          "options": [
+            "The ATM ate my card.",
+            "I tried to withdraw money but the machine declined.",
+            "The ATM is broken.",
+            "My card does not work anywhere."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I tried to withdraw money but the machine declined.'은 출금 시도 후 ATM이 거절했다는 상황을 명확히 설명하는 표현입니다. 'The ATM ate my card.'는 카드가 회수됐을 때 쓰는 표현이고, 'The ATM is broken.'은 기기 고장을 말하는 것으로 출금 거절과는 다릅니다."
+        },
+        {
+          "id": "se_ch35_set01_011",
+          "type": "ox",
+          "question": "해외 카드 결제 시 단말기에서 '원화(KRW)로 결제'를 선택하면 카드사 환율보다 불리한 환율이 적용되어 손해를 볼 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. DCC(Dynamic Currency Conversion)로 원화 결제를 선택하면 가맹점 또는 결제 서비스 업체의 환율이 적용되며, 이 환율은 카드사 환율보다 불리한 경우가 많습니다. 항상 현지 통화(local currency)로 결제하는 것이 유리합니다."
+        },
+        {
+          "id": "se_ch35_set01_012",
+          "type": "ox",
+          "question": "'Is there a commission?'과 'What's the exchange rate?'는 같은 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'Is there a commission?'은 환전 수수료가 있는지 묻는 표현이고, 'What's the exchange rate?'는 현재 환율이 얼마인지 묻는 표현입니다. 수수료와 환율은 별개이므로 환전소에서 두 가지를 각각 확인해야 합니다."
+        },
+        {
+          "id": "se_ch35_set01_013",
+          "type": "ox",
+          "question": "카드 단말기에서 'In local currency, please.'라고 하면 DCC를 거절하고 현지 통화로 결제하는 것이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. DCC(Dynamic Currency Conversion)는 자국 통화(예: 원화)로 환산해 결제하는 옵션으로 보통 불리한 환율이 적용됩니다. 'In local currency, please.'라고 하면 DCC를 거절하고 방문 국가의 통화(예: 유로)로 결제하는 것이라 대체로 더 유리합니다."
+        },
+        {
+          "id": "se_ch35_set01_014",
+          "type": "ox",
+          "question": "카드가 거절됐을 때 'Can I try a different card?'라고 하면 다른 카드로 결제를 시도할 수 있는지 묻는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Can I try a different card?'는 다른 카드로 결제를 시도해 봐도 되는지 묻는 자연스러운 표현입니다. 카드가 거절됐을 때 다른 카드를 제시하거나 현금으로 결제하는 방법을 찾을 수 있습니다."
+        }
+      ]
+    }
+  ]
 }
