@@ -296,7 +296,7 @@
       "title": "가이드 동반 투어 신청하기",
       "lines": [
         { "speaker": "나", "en": "Is a guided tour available in English?", "ko": "영어로 진행되는 가이드 투어가 있나요?" },
-        { "speaker": "직원", "en": "Yes, we have English tours every hour on the half hour.", "ko": "네, 매 시간 30분마다 영어 투어가 있습니다." },
+        { "speaker": "직원", "en": "Yes, we have English tours every hour on the half hour.", "ko": "네, 매 시간 30분에 영어 투어가 있습니다." },
         { "speaker": "나", "en": "How long does the tour last?", "ko": "투어는 얼마나 걸리나요?" },
         { "speaker": "직원", "en": "About an hour and a half. You can book here at the desk.", "ko": "약 1시간 30분입니다. 여기 데스크에서 예약하시면 됩니다." }
       ],

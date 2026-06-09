@@ -70,7 +70,7 @@
           "ko": "공식 신고도 해야 한다는 경찰의 권고. 'officially'는 공식적으로라는 뜻으로 분실 신고서(police report) 작성을 의미함. 여권 재발급에 필수적인 절차임.",
           "alternatives": [
             { "en": "Please file an official report as well.", "ko": "공식 신고서도 제출하라는 안내 표현." },
-            { "en": "We recommend filing a missing person report.", "ko": "분실 신고 보고서 작성을 권고하는 표현." }
+            { "en": "Please file a lost property report as well.", "ko": "분실물 신고서도 제출하라는 표현. 여권 분실 신고에 적합한 문서 용어." }
           ]
         }
       ]

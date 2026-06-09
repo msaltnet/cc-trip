@@ -332,7 +332,7 @@
       "title": "잔돈 받기",
       "lines": [
         { "speaker": "나", "en": "Here's fifty euros for a thirty-two euro bill.", "ko": "32유로짜리 계산서에 50유로 드립니다." },
-        { "speaker": "직원", "en": "That's eighteen euros change. Here you are.", "ko": "거스름돈 18유로입니다. 여기 있습니다." },
+        { "speaker": "직원", "en": "That's sixteen euros change. Here you are.", "ko": "거스름돈 16유로입니다. 여기 있습니다." },
         { "speaker": "나", "en": "I'm sorry, I think the change is wrong — I should get eighteen euros.", "ko": "죄송한데, 거스름돈이 틀린 것 같아요 — 18유로를 받아야 할 것 같습니다." },
         { "speaker": "직원", "en": "You're right, I apologize. Let me correct that.", "ko": "맞습니다, 죄송합니다. 바로 수정해 드리겠습니다." }
       ],

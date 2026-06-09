@@ -418,7 +418,7 @@
             "Can I use a wheelchair?"
           ],
           "answerIndex": 0,
-          "explanation": "'rent a stroller'는 유모차를 대여한다는 올바른 표현입니다. 'borrow'는 무료로 빌릴 때 사용하고 유료 대여에는 'rent'가 적절합니다. 'baby car'는 영어 표현이 아니며, 'wheelchair'는 휠체어를 뜻합니다."
+          "explanation": "'rent a stroller'는 유모차를 대여한다는 올바른 표현입니다. 'rent'는 대가를 지불하고 빌린다는 뜻이고, 'borrow'는 반납을 전제로 빌린다는 뜻입니다(무료를 의미하지는 않음). 유모차 대여처럼 유료로 빌릴 때는 'rent'가 적절합니다. 'baby car'는 영어 표현이 아니며, 'wheelchair'는 휠체어를 뜻합니다."
         },
         {
           "id": "se_ch32_set01_005",

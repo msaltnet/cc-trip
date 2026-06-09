@@ -402,10 +402,10 @@
             "Cloakroom",
             "Stockroom",
             "Showroom",
-            "Checkroom"
+            "Locker room"
           ],
           "answerIndex": 0,
-          "explanation": "'Cloakroom'은 박물관·극장 등에서 외투나 짐을 맡아주는 보관소를 가리킵니다. 미국에서는 'coat check'라고도 합니다. 'Stockroom'은 창고, 'Showroom'은 전시실을 뜻합니다."
+          "explanation": "'Cloakroom'은 박물관·극장 등에서 외투나 짐을 맡아주는 보관소를 가리킵니다. 미국에서는 'coat check'라고도 합니다. 'Stockroom'은 창고, 'Showroom'은 전시실, 'Locker room'은 (운동시설 등의) 탈의실을 뜻합니다."
         },
         {
           "id": "se_ch30_set01_004",

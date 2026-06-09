@@ -2003,7 +2003,7 @@
             },
             {
               "en": "Tuesday",
-              "ko": "화요일 — 요일 순서: Monday·화 Tuesday·수 Wednesday·목 Thursday·금 Friday·토 Saturday·일 Sunday.",
+              "ko": "화요일 — 요일 순서: Monday·월 Tuesday·화 Wednesday·수 Thursday·목 Friday·금 Saturday·토 Sunday·일.",
               "alternatives": [
                 {
                   "en": "on Tuesday",
@@ -26118,10 +26118,10 @@
                 "Cloakroom",
                 "Stockroom",
                 "Showroom",
-                "Checkroom"
+                "Locker room"
               ],
               "answerIndex": 0,
-              "explanation": "'Cloakroom'은 박물관·극장 등에서 외투나 짐을 맡아주는 보관소를 가리킵니다. 미국에서는 'coat check'라고도 합니다. 'Stockroom'은 창고, 'Showroom'은 전시실을 뜻합니다."
+              "explanation": "'Cloakroom'은 박물관·극장 등에서 외투나 짐을 맡아주는 보관소를 가리킵니다. 미국에서는 'coat check'라고도 합니다. 'Stockroom'은 창고, 'Showroom'은 전시실, 'Locker room'은 (운동시설 등의) 탈의실을 뜻합니다."
             },
             {
               "id": "se_ch30_set01_004",
@@ -26823,7 +26823,7 @@
             {
               "speaker": "직원",
               "en": "Yes, we have English tours every hour on the half hour.",
-              "ko": "네, 매 시간 30분마다 영어 투어가 있습니다."
+              "ko": "네, 매 시간 30분에 영어 투어가 있습니다."
             },
             {
               "speaker": "나",
@@ -27878,7 +27878,7 @@
                 "Can I use a wheelchair?"
               ],
               "answerIndex": 0,
-              "explanation": "'rent a stroller'는 유모차를 대여한다는 올바른 표현입니다. 'borrow'는 무료로 빌릴 때 사용하고 유료 대여에는 'rent'가 적절합니다. 'baby car'는 영어 표현이 아니며, 'wheelchair'는 휠체어를 뜻합니다."
+              "explanation": "'rent a stroller'는 유모차를 대여한다는 올바른 표현입니다. 'rent'는 대가를 지불하고 빌린다는 뜻이고, 'borrow'는 반납을 전제로 빌린다는 뜻입니다(무료를 의미하지는 않음). 유모차 대여처럼 유료로 빌릴 때는 'rent'가 적절합니다. 'baby car'는 영어 표현이 아니며, 'wheelchair'는 휠체어를 뜻합니다."
             },
             {
               "id": "se_ch32_set01_005",
@@ -30380,8 +30380,8 @@
             },
             {
               "speaker": "직원",
-              "en": "That's eighteen euros change. Here you are.",
-              "ko": "거스름돈 18유로입니다. 여기 있습니다."
+              "en": "That's sixteen euros change. Here you are.",
+              "ko": "거스름돈 16유로입니다. 여기 있습니다."
             },
             {
               "speaker": "나",
@@ -33360,8 +33360,8 @@
                   "ko": "공식 신고서도 제출하라는 안내 표현."
                 },
                 {
-                  "en": "We recommend filing a missing person report.",
-                  "ko": "분실 신고 보고서 작성을 권고하는 표현."
+                  "en": "Please file a lost property report as well.",
+                  "ko": "분실물 신고서도 제출하라는 표현. 여권 분실 신고에 적합한 문서 용어."
                 }
               ]
             }
