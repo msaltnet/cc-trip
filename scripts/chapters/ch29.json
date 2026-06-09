@@ -1,7 +1,538 @@
 {
   "id": "ch29",
   "title": "관광지·티켓 구매",
-  "summary": "입장권·가족권·할인, 줄서기, 운영시간",
-  "dialogues": [],
-  "sets": []
+  "summary": "입장권 가격 확인부터 가족·할인권 요청, 사전 예약 QR 제시, 줄서기, 운영시간, 오디오 가이드, 시티패스, 재입장, 마지막 입장 시간까지 관광지 매표소에서 꼭 필요한 생존 표현",
+  "dialogues": [
+    {
+      "id": "ch29_d01",
+      "title": "입장권 가격 묻기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, how much is admission?", "ko": "실례합니다, 입장료가 얼마인가요?" },
+        { "speaker": "직원", "en": "It's fifteen dollars for adults.", "ko": "어른은 15달러입니다." },
+        { "speaker": "나", "en": "And is there a separate fee for the exhibition inside?", "ko": "내부 전시는 별도 요금이 있나요?" },
+        { "speaker": "직원", "en": "No, it's all included in the admission price.", "ko": "아니요, 입장료에 모두 포함되어 있습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "How much is admission?",
+          "ko": "입장료를 묻는 가장 간단한 표현. 'How much is the entrance fee?'와 같은 뜻. 'admission'은 '입장(료)'을 뜻하며 미술관·박물관·공원 등 어디서나 통용됨.",
+          "alternatives": [
+            { "en": "What's the entrance fee?", "ko": "entrance fee(입장료)를 사용한 동일 의미의 표현." },
+            { "en": "How much does it cost to get in?", "ko": "더 일상적인 표현으로 캐주얼한 상황에 잘 어울림." }
+          ]
+        },
+        {
+          "en": "Is there a separate fee?",
+          "ko": "추가 요금이 별도로 있는지 확인하는 표현. 관광지 내 특별 전시나 어트랙션이 있을 때 사용. 'extra fee', 'additional charge'도 같은 뜻.",
+          "alternatives": [
+            { "en": "Is there an extra charge?", "ko": "별도 요금이 있냐는 동일 의미의 표현." },
+            { "en": "Does that include everything?", "ko": "모든 것이 포함된 가격인지 확인하는 표현." }
+          ]
+        },
+        {
+          "en": "It's all included.",
+          "ko": "모두 포함되어 있다는 표현. 직원이 자주 쓰는 말로, 'included in the price'나 'all-inclusive'도 같은 뜻. 반대는 'sold separately(별도 판매)'.",
+          "alternatives": [
+            { "en": "Everything is covered.", "ko": "모든 것이 포함됐다는 표현으로 covered가 '포함된'의 뜻으로 쓰임." },
+            { "en": "There's no extra charge.", "ko": "추가 요금이 없다는 직접적인 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch29_d02",
+      "title": "가족권·단체 할인 묻기",
+      "lines": [
+        { "speaker": "나", "en": "Is there a family ticket available?", "ko": "가족 입장권이 있나요?" },
+        { "speaker": "직원", "en": "Yes, a family ticket covers two adults and up to three children.", "ko": "네, 가족권은 어른 2명과 어린이 최대 3명까지 포함됩니다." },
+        { "speaker": "나", "en": "Two adults and one child, please.", "ko": "어른 둘, 어린이 하나로 주세요." },
+        { "speaker": "직원", "en": "That comes to twenty-eight dollars in total.", "ko": "총 28달러입니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Is there a family ticket?",
+          "ko": "가족 전용 입장권이 있는지 확인하는 표현. 유럽·북미 관광지에서는 family ticket이 성인권 2장+아동권을 묶은 할인 패키지인 경우가 많아 꼭 확인하는 것이 좋음.",
+          "alternatives": [
+            { "en": "Do you have a family pass?", "ko": "pass를 사용한 동일 의미의 표현." },
+            { "en": "Is there a group discount?", "ko": "단체 할인이 있냐는 더 넓은 범위의 질문." }
+          ]
+        },
+        {
+          "en": "Two adults and one child, please.",
+          "ko": "인원과 구분을 명확히 말하는 티켓 구매 핵심 표현. 어른/어린이를 구분해야 요금 차이를 정확히 적용받을 수 있음. 숫자 뒤에 adult(s)/child(ren)를 붙이는 패턴을 익히자.",
+          "alternatives": [
+            { "en": "Three tickets — two adults and one child.", "ko": "총 매수를 먼저 말하고 구분을 설명하는 방식." },
+            { "en": "One adult ticket and two children's tickets, please.", "ko": "'ticket' 단어를 각각 붙여 더 명확하게 표현하는 방식." }
+          ]
+        },
+        {
+          "en": "That comes to ~.",
+          "ko": "계산 결과로 합계가 ~가 된다는 뜻. 직원이 총액을 알려줄 때 자주 쓰는 표현. 'That'll be ~'나 'Your total is ~'도 같은 상황에 쓰임.",
+          "alternatives": [
+            { "en": "Your total is ~.", "ko": "총 금액을 알려주는 가장 명확한 표현." },
+            { "en": "That'll be ~.", "ko": "~가 되겠습니다, 라는 뜻의 캐주얼한 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch29_d03",
+      "title": "아동·학생 요금 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Is there a discount for children?", "ko": "어린이 할인이 있나요?" },
+        { "speaker": "직원", "en": "Yes, children under twelve pay half price, and under six are free.", "ko": "네, 12세 미만은 반값이고 6세 미만은 무료입니다." },
+        { "speaker": "나", "en": "My son is five years old. So he gets in free?", "ko": "제 아들이 다섯 살인데요, 그럼 무료인가요?" },
+        { "speaker": "직원", "en": "That's right, under six is completely free of charge.", "ko": "맞습니다, 6세 미만은 완전 무료입니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Is there a discount for children?",
+          "ko": "어린이 할인이 있는지 물어보는 표현. 유럽 관광지는 나이 기준이 다양하므로 구체적인 나이 제한도 함께 확인하는 것이 좋음. 학생 할인은 'Is there a student discount?'",
+          "alternatives": [
+            { "en": "Do children get a reduced rate?", "ko": "어린이 할인 요금이 있냐는 동일 의미의 표현." },
+            { "en": "Is there a student discount?", "ko": "학생 할인이 있냐고 물을 때 쓰는 표현." }
+          ]
+        },
+        {
+          "en": "Under six are free.",
+          "ko": "6세 미만은 무료라는 표현. 'under'는 '~미만'을 뜻하므로 나이·기준 표현에서 자주 등장. 'free of charge'는 '무료'를 강조하는 표현으로 단순한 'free'보다 격식 있게 들림.",
+          "alternatives": [
+            { "en": "Children under six enter for free.", "ko": "under를 사용해 나이 기준을 명확히 하는 표현." },
+            { "en": "It's free for kids under six.", "ko": "더 캐주얼하게 표현한 방식." }
+          ]
+        },
+        {
+          "en": "He gets in free.",
+          "ko": "'get in'은 '입장하다'라는 구동사. 'He gets in free'는 '그는 무료로 입장한다'는 뜻. 티켓을 따로 살 필요가 없음을 확인할 때 유용한 표현.",
+          "alternatives": [
+            { "en": "He doesn't need a ticket.", "ko": "티켓이 필요 없다는 직접적인 표현." },
+            { "en": "Admission is free for him.", "ko": "그에게는 입장이 무료라는 뜻의 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch29_d04",
+      "title": "사전 예약 QR코드 제시하기",
+      "lines": [
+        { "speaker": "나", "en": "Hi, I booked online. Here's my QR code.", "ko": "안녕하세요, 온라인으로 예약했습니다. QR코드 여기 있습니다." },
+        { "speaker": "직원", "en": "Perfect, let me scan that for you.", "ko": "좋습니다, 스캔해 드리겠습니다." },
+        { "speaker": "나", "en": "It's a booking for two adults at two o'clock.", "ko": "오후 2시 어른 2명 예약입니다." },
+        { "speaker": "직원", "en": "Got it. You're all set — enjoy your visit!", "ko": "확인했습니다. 모두 준비됐습니다 — 즐거운 관람 되세요!" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I booked online.",
+          "ko": "온라인으로 예약했다는 표현. 'book'은 예약하다는 뜻의 동사로 'reserve'와 같은 뜻. 사전 예약 후 현장에서 QR코드·바우처를 제시할 때 이 문장으로 시작하면 자연스러움.",
+          "alternatives": [
+            { "en": "I made a reservation online.", "ko": "'reservation'을 사용한 좀 더 격식 있는 표현." },
+            { "en": "I have a booking — here's my confirmation.", "ko": "예약 확인서를 함께 제시하는 상황에서 쓰는 표현." }
+          ]
+        },
+        {
+          "en": "Here's my QR code.",
+          "ko": "QR코드를 제시하며 하는 말. 'Here's ~'는 '여기 ~가 있습니다'라는 뜻으로 뭔가를 건네거나 보여줄 때 사용. 모바일 바우처·이메일 확인서도 같은 패턴으로 제시할 수 있음.",
+          "alternatives": [
+            { "en": "Here's my confirmation email.", "ko": "예약 확인 이메일을 보여주며 말하는 표현." },
+            { "en": "I have my voucher here.", "ko": "바우처를 가지고 있다고 말하는 표현." }
+          ]
+        },
+        {
+          "en": "You're all set.",
+          "ko": "모든 준비가 됐다, 이제 가도 된다는 뜻으로 직원이 처리를 완료했을 때 자주 쓰는 표현. 'You're good to go.'와 같은 뜻. 들었을 때 입장을 시작해도 된다는 신호임.",
+          "alternatives": [
+            { "en": "You're good to go.", "ko": "이제 가도 된다는 캐주얼한 표현으로 같은 뜻." },
+            { "en": "Everything's confirmed.", "ko": "모든 것이 확인됐다는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch29_d05",
+      "title": "티켓 줄 위치 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, where is the line for tickets?", "ko": "실례합니다, 티켓 구매 줄은 어디인가요?" },
+        { "speaker": "직원", "en": "The ticket line is around the corner, on the left.", "ko": "티켓 줄은 모퉁이를 돌아 왼쪽에 있습니다." },
+        { "speaker": "나", "en": "Is there a separate queue for online bookings?", "ko": "온라인 예약자를 위한 별도 줄이 있나요?" },
+        { "speaker": "직원", "en": "Yes, online bookings can skip the line through that entrance.", "ko": "네, 온라인 예약은 저 입구를 통해 줄을 건너뛸 수 있습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Where is the line for tickets?",
+          "ko": "티켓 구매 줄이 어디 있냐는 표현. 'line'은 미국식, 'queue'는 영국식 표현으로 둘 다 '줄'을 뜻함. 관광지에서 줄이 여러 개일 때 잘못 서는 것을 방지하기 위해 꼭 확인하자.",
+          "alternatives": [
+            { "en": "Is this the right queue for tickets?", "ko": "지금 서 있는 줄이 티켓 줄이 맞는지 확인하는 표현." },
+            { "en": "Where do I queue for admission?", "ko": "입장을 위해 줄을 서야 하는 곳을 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Is there a separate queue for online bookings?",
+          "ko": "사전 예약자 전용 줄이 있냐는 표현. 인기 관광지에서는 온라인 예약자가 현장 구매 줄을 건너뛸 수 있는 경우가 많으므로 꼭 확인하자. 'skip-the-line'이라는 표현도 자주 쓰임.",
+          "alternatives": [
+            { "en": "Can I skip the line with my booking?", "ko": "예약으로 줄을 건너뛸 수 있냐는 직접적인 질문." },
+            { "en": "Is there a fast-track entrance?", "ko": "빠른 입장 전용 입구가 있냐는 표현." }
+          ]
+        },
+        {
+          "en": "Skip the line.",
+          "ko": "줄을 건너뛴다는 표현. 사전 예약·프리미엄 티켓의 혜택으로 긴 대기 줄을 피할 수 있을 때 자주 등장하는 표현. 'skip-the-line ticket'은 줄 없이 바로 입장 가능한 티켓.",
+          "alternatives": [
+            { "en": "Bypass the queue.", "ko": "줄을 우회하다는 뜻의 영국식 표현." },
+            { "en": "Use the fast-track entrance.", "ko": "빠른 입장 전용 입구를 이용하라는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch29_d06",
+      "title": "운영시간 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "What time does this place open and close?", "ko": "이곳은 몇 시에 열고 닫나요?" },
+        { "speaker": "직원", "en": "We're open from nine in the morning until six in the evening.", "ko": "오전 9시부터 오후 6시까지 운영합니다." },
+        { "speaker": "나", "en": "Is it open on Sundays too?", "ko": "일요일에도 여나요?" },
+        { "speaker": "직원", "en": "Yes, but we close one hour earlier on Sundays.", "ko": "네, 하지만 일요일은 1시간 일찍 닫습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "What time does it open and close?",
+          "ko": "개관 시간과 폐관 시간을 한 번에 묻는 효율적인 표현. 'What are your opening hours?'도 같은 뜻. 성수기·비수기·요일별로 시간이 다를 수 있으므로 꼭 확인하자.",
+          "alternatives": [
+            { "en": "What are your opening hours?", "ko": "운영 시간 전체를 묻는 일반적인 표현." },
+            { "en": "What time do you close today?", "ko": "오늘 특정 폐관 시간만 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Is it open on Sundays?",
+          "ko": "특정 요일 운영 여부를 확인하는 표현. 유럽의 박물관·관광지는 월요일이나 특정 공휴일에 휴관하는 경우가 많으므로 방문 전 꼭 확인이 필요함.",
+          "alternatives": [
+            { "en": "Are you closed on Mondays?", "ko": "월요일에 휴관하냐고 묻는 표현." },
+            { "en": "Do you open every day?", "ko": "매일 운영하는지 확인하는 표현." }
+          ]
+        },
+        {
+          "en": "We close one hour earlier.",
+          "ko": "1시간 일찍 닫는다는 표현. 직원이 평소보다 일찍 문을 닫는 날을 설명할 때 쓰는 표현. 'earlier'는 '더 이른'이라는 뜻으로 비교 표현에 자주 쓰임.",
+          "alternatives": [
+            { "en": "We have reduced hours on Sundays.", "ko": "일요일은 단축 운영을 한다는 표현." },
+            { "en": "We close at five instead of six.", "ko": "구체적인 시간을 들어 설명하는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch29_d07",
+      "title": "오디오 가이드 포함 여부 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Is an audio guide included with the ticket?", "ko": "입장권에 오디오 가이드가 포함되어 있나요?" },
+        { "speaker": "직원", "en": "No, the audio guide is rented separately for five dollars.", "ko": "아니요, 오디오 가이드는 5달러에 별도로 대여할 수 있습니다." },
+        { "speaker": "나", "en": "Does it come with a map of the museum?", "ko": "박물관 지도도 함께 제공되나요?" },
+        { "speaker": "직원", "en": "Yes, the map is free at the entrance.", "ko": "네, 지도는 입구에서 무료로 받으실 수 있습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Is an audio guide included?",
+          "ko": "오디오 가이드가 포함되어 있냐는 표현. 'included'는 티켓 가격 안에 들어있다는 뜻. 별도 구매가 필요한지 미리 확인하면 예산 계획에 도움이 됨.",
+          "alternatives": [
+            { "en": "Does the ticket come with an audio guide?", "ko": "티켓에 오디오 가이드가 딸려오냐는 표현." },
+            { "en": "Is the audio guide free?", "ko": "오디오 가이드가 무료냐고 직접 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Rented separately.",
+          "ko": "별도로 대여한다는 표현. 'separately'는 '따로, 별도로'라는 뜻. 티켓 가격에 포함되지 않은 서비스를 설명할 때 직원이 자주 쓰는 단어.",
+          "alternatives": [
+            { "en": "It's not included in the ticket price.", "ko": "티켓 가격에 포함되지 않는다는 직접적인 표현." },
+            { "en": "There's an extra charge for that.", "ko": "별도 요금이 있다는 표현." }
+          ]
+        },
+        {
+          "en": "Does it come with a map?",
+          "ko": "지도가 함께 제공되냐는 표현. 'come with'는 '~와 함께 온다, 포함된다'는 뜻으로 여러 상황에서 유용하게 쓰임. 'Is a map included?'와 같은 의미.",
+          "alternatives": [
+            { "en": "Is a map included?", "ko": "지도가 포함되어 있냐는 간단한 표현." },
+            { "en": "Can I get a map of the venue?", "ko": "시설 지도를 받을 수 있냐고 묻는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch29_d08",
+      "title": "시티패스로 입장하기",
+      "lines": [
+        { "speaker": "나", "en": "Can I use a city pass to get in?", "ko": "시티패스로 입장할 수 있나요?" },
+        { "speaker": "직원", "en": "Yes, we accept the city pass. May I see it?", "ko": "네, 시티패스를 받습니다. 보여주시겠어요?" },
+        { "speaker": "나", "en": "Here it is. Does the pass include the special exhibition too?", "ko": "여기 있습니다. 패스에 특별 전시도 포함되나요?" },
+        { "speaker": "직원", "en": "The pass covers the main attraction, but the special exhibition costs extra.", "ko": "패스는 주요 시설은 포함되지만 특별 전시는 추가 요금이 있습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Can I use a city pass to get in?",
+          "ko": "시티패스로 입장이 가능한지 묻는 표현. 도시 투어 패스(예: 파리 패스, 뉴욕 시티패스)는 여러 관광지를 묶어 할인하는 카드로, 해당 관광지에서 인정되는지 미리 확인해야 함.",
+          "alternatives": [
+            { "en": "Is the city pass accepted here?", "ko": "이곳에서 시티패스가 인정되냐는 표현." },
+            { "en": "Do you accept tourist passes?", "ko": "관광 패스를 받냐는 더 넓은 표현." }
+          ]
+        },
+        {
+          "en": "May I see it?",
+          "ko": "보여달라는 정중한 요청. 직원이 티켓·패스·신분증을 확인할 때 쓰는 표현. 'Can I see it?'보다 'May I see it?'이 더 격식 있게 들림.",
+          "alternatives": [
+            { "en": "Can I check your pass?", "ko": "패스를 확인해도 되겠냐는 표현." },
+            { "en": "Could you show me your pass, please?", "ko": "패스를 보여달라는 좀 더 정중한 요청." }
+          ]
+        },
+        {
+          "en": "The pass covers the main attraction.",
+          "ko": "'cover'는 '포함하다, 해당되다'는 뜻으로 패스나 보험이 무엇을 포함하는지 설명할 때 자주 쓰임. 'main attraction'은 주요 볼거리·메인 시설을 뜻함.",
+          "alternatives": [
+            { "en": "The pass includes the main areas.", "ko": "패스가 주요 구역을 포함한다는 표현." },
+            { "en": "General admission is included in the pass.", "ko": "일반 입장은 패스에 포함된다는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch29_d09",
+      "title": "재입장 가능 여부 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "If I go out for lunch, can I re-enter with the same ticket?", "ko": "점심을 먹으러 나갔다 오면 같은 티켓으로 다시 들어올 수 있나요?" },
+        { "speaker": "직원", "en": "Yes, re-entry is allowed on the same day.", "ko": "네, 당일 재입장이 가능합니다." },
+        { "speaker": "나", "en": "Do I need to get my hand stamped or anything?", "ko": "손에 도장을 찍거나 뭔가 필요한가요?" },
+        { "speaker": "직원", "en": "Just keep your ticket and show it at the entrance when you come back.", "ko": "티켓을 가지고 계시다가 돌아오실 때 입구에서 보여주시면 됩니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Can I re-enter with the same ticket?",
+          "ko": "같은 티켓으로 재입장이 가능하냐는 표현. 're-enter'는 '다시 들어오다'라는 뜻. 넓은 관광지나 하루 종일 방문할 경우 외출 후 재입장 가능 여부를 미리 확인하는 것이 중요함.",
+          "alternatives": [
+            { "en": "Is re-entry allowed?", "ko": "재입장이 허용되냐는 간단한 표현." },
+            { "en": "Can I come back in after leaving?", "ko": "나갔다가 다시 들어올 수 있냐는 표현." }
+          ]
+        },
+        {
+          "en": "Re-entry is allowed on the same day.",
+          "ko": "당일 재입장이 가능하다는 직원의 답변 패턴. 'on the same day'는 '당일에'라는 뜻. 반대 표현은 'Re-entry is not permitted(재입장 불가)'.",
+          "alternatives": [
+            { "en": "You can come and go as you like.", "ko": "자유롭게 드나들 수 있다는 표현." },
+            { "en": "Your ticket is valid for the whole day.", "ko": "티켓이 하루 종일 유효하다는 표현." }
+          ]
+        },
+        {
+          "en": "Do I need to get my hand stamped?",
+          "ko": "재입장을 위해 손에 스탬프를 받아야 하냐는 표현. 공원·페스티벌 등에서는 재입장을 위해 손목·손에 도장을 찍어주는 경우가 많아 실용적인 표현임.",
+          "alternatives": [
+            { "en": "Should I get a stamp for re-entry?", "ko": "재입장 스탬프가 필요하냐는 표현." },
+            { "en": "Is there any process for leaving and coming back?", "ko": "외출 후 재입장 절차가 있냐는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch29_d10",
+      "title": "마지막 입장 시간 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "What's the last entry time today?", "ko": "오늘 마지막 입장 시간이 몇 시인가요?" },
+        { "speaker": "직원", "en": "Last entry is at five-thirty. We close at six.", "ko": "마지막 입장은 5시 30분이고 6시에 문을 닫습니다." },
+        { "speaker": "나", "en": "Is that enough time to see the main highlights?", "ko": "주요 볼거리를 보기에 충분한 시간인가요?" },
+        { "speaker": "직원", "en": "It's a bit tight, but you can see the most important areas.", "ko": "좀 빠듯하지만 가장 중요한 구역들은 볼 수 있습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "What's the last entry time?",
+          "ko": "마지막 입장 시간을 묻는 핵심 표현. 관광지는 폐관 시간보다 30분~1시간 전에 입장을 마감하는 경우가 많음. 'last entry'와 'closing time'을 구분해서 이해해야 함.",
+          "alternatives": [
+            { "en": "What time is last admission?", "ko": "마지막 입장 시간을 묻는 같은 뜻의 표현. admission을 사용함." },
+            { "en": "When do you stop letting people in?", "ko": "더 일상적으로 입장을 언제까지 받냐고 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Last entry is at ~.",
+          "ko": "마지막 입장 시간이 ~시라는 직원의 안내 표현. 'last entry'는 마지막으로 입장할 수 있는 시간. 이 표현을 들으면 그 전에 입장해야 한다는 의미임.",
+          "alternatives": [
+            { "en": "Last admission is at ~.", "ko": "같은 뜻으로 admission을 사용한 표현." },
+            { "en": "You must enter before ~.", "ko": "~시 이전에 입장해야 한다는 직접적인 표현." }
+          ]
+        },
+        {
+          "en": "It's a bit tight.",
+          "ko": "시간이 좀 빠듯하다는 표현. 'tight'는 여기서 '촉박한, 빠듯한'이라는 뜻으로 시간·예산 등이 여유롭지 않을 때 씀. 'a bit'을 붙이면 '조금 빠듯하다'는 부드러운 뉘앙스.",
+          "alternatives": [
+            { "en": "You'll need to move quickly.", "ko": "빨리 움직여야 할 것이라는 표현." },
+            { "en": "You won't have much time.", "ko": "시간이 많지 않을 것이라는 표현." }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch29_set01_001",
+          "type": "multiple_choice",
+          "question": "매표소에서 입장료를 물어볼 때 가장 자연스러운 표현은?",
+          "options": [
+            "How much is admission?",
+            "What is the price for enter?",
+            "How much for ticket?",
+            "What does it cost the entry?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How much is admission?'은 입장료를 묻는 표준 표현입니다. 'What is the price for enter?'와 'How much for ticket?'은 문법적으로 어색하고, 'What does it cost the entry?'는 잘못된 어순입니다."
+        },
+        {
+          "id": "se_ch29_set01_002",
+          "type": "multiple_choice",
+          "question": "가족 전용 입장권이 있는지 확인하는 가장 자연스러운 표현은?",
+          "options": [
+            "Do you have a family discount?",
+            "Is there a family ticket?",
+            "Can we get a family price?",
+            "Do you sell family cards?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is there a family ticket?'은 가족 전용 입장권을 묻는 가장 자연스러운 표현입니다. 'family discount'는 할인율을 뜻하고, 'family price'나 'family cards'는 덜 일반적인 표현입니다."
+        },
+        {
+          "id": "se_ch29_set01_003",
+          "type": "multiple_choice",
+          "question": "어른 2명, 어린이 1명 티켓을 살 때 가장 정확한 표현은?",
+          "options": [
+            "Three people, please.",
+            "Two and one, please.",
+            "Two adults and one child, please.",
+            "Adult two, child one."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Two adults and one child, please.'는 어른과 어린이를 명확히 구분하는 표현으로, 요금 차이가 있을 때 정확한 금액을 안내받을 수 있습니다. 'Three people'은 구분이 안 되고, 나머지 표현들은 어색합니다."
+        },
+        {
+          "id": "se_ch29_set01_004",
+          "type": "multiple_choice",
+          "question": "온라인으로 예약한 후 현장에서 QR코드를 제시할 때 첫마디로 가장 알맞은 표현은?",
+          "options": [
+            "I reserved a table online.",
+            "I booked online. Here's my QR code.",
+            "I have an internet reservation.",
+            "Online ticket, please check."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I booked online. Here's my QR code.'는 온라인 예약 사실을 알리고 QR코드를 제시하는 가장 자연스러운 표현입니다. 'reserved a table'은 식당 예약에 쓰는 표현이고, 나머지는 어색합니다."
+        },
+        {
+          "id": "se_ch29_set01_005",
+          "type": "multiple_choice",
+          "question": "사전 예약자가 긴 대기 줄을 건너뛸 수 있다는 표현은?",
+          "options": [
+            "You can jump the queue.",
+            "You can avoid the line.",
+            "You can skip the line.",
+            "You can miss the queue."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Skip the line'은 줄을 건너뛴다는 뜻으로 관광지·공연장 등에서 사전 예약 혜택을 설명할 때 공식적으로 쓰이는 표현입니다. 'jump the queue'는 새치기라는 부정적 뉘앙스가 있고, 나머지는 어색합니다."
+        },
+        {
+          "id": "se_ch29_set01_006",
+          "type": "multiple_choice",
+          "question": "오디오 가이드가 입장권 가격에 포함되어 있냐고 묻는 자연스러운 표현은?",
+          "options": [
+            "Is the audio guide free?",
+            "Is an audio guide included with the ticket?",
+            "Does the ticket have an audio guide?",
+            "Audio guide — is it inside the price?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is an audio guide included with the ticket?'은 오디오 가이드가 티켓 가격에 포함되는지 묻는 표준 표현입니다. 'Is it free?'는 포함 여부가 아닌 무료 여부만 물어보는 것이고, 나머지는 어색합니다."
+        },
+        {
+          "id": "se_ch29_set01_007",
+          "type": "multiple_choice",
+          "question": "시티패스로 입장이 가능한지 확인하는 표현은?",
+          "options": [
+            "Can I use a city pass to get in?",
+            "Do you accept my city card?",
+            "Is city pass valid here?",
+            "Can I enter with a tourist coupon?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I use a city pass to get in?'은 시티패스로 입장 가능한지 묻는 가장 자연스러운 표현입니다. 'Do you accept my city card?'는 의미는 비슷하지만 덜 일반적이고, 'Is city pass valid here?'는 관사가 빠진 비문입니다."
+        },
+        {
+          "id": "se_ch29_set01_008",
+          "type": "multiple_choice",
+          "question": "외출 후 같은 티켓으로 다시 입장할 수 있냐고 묻는 표현은?",
+          "options": [
+            "Can I come back in later?",
+            "Can I re-enter with the same ticket?",
+            "Is the ticket reusable?",
+            "Can I return and enter again?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Can I re-enter with the same ticket?'은 같은 티켓으로 재입장 가능 여부를 묻는 가장 명확한 표현입니다. 'come back in later'는 재입장 여부를 확인하는 맥락이 약하고, 'reusable'은 티켓에 잘 쓰이지 않습니다."
+        },
+        {
+          "id": "se_ch29_set01_009",
+          "type": "multiple_choice",
+          "question": "관광지의 마지막 입장 시간을 묻는 표현은?",
+          "options": [
+            "What time do you close?",
+            "When is your last hour?",
+            "What's the last entry time?",
+            "What time is the final ticket?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'What's the last entry time?'은 마지막 입장 시간을 묻는 표준 표현입니다. 'What time do you close?'는 폐관 시간을 묻는 표현으로, 관광지는 폐관 시간과 마지막 입장 시간이 다를 수 있으므로 구분이 중요합니다."
+        },
+        {
+          "id": "se_ch29_set01_010",
+          "type": "multiple_choice",
+          "question": "직원이 처리를 완료하고 '이제 가셔도 됩니다'라고 할 때 쓰는 표현은?",
+          "options": [
+            "You may proceed.",
+            "You are finished.",
+            "You're all set.",
+            "You can leave now."
+          ],
+          "answerIndex": 2,
+          "explanation": "'You're all set.'은 '모든 준비가 됐습니다, 이제 가셔도 됩니다'라는 뜻으로 직원이 처리를 완료했을 때 자주 쓰는 표현입니다. 'You can leave now'는 '떠나도 된다'는 뉘앙스가 되어 어색합니다."
+        },
+        {
+          "id": "se_ch29_set01_011",
+          "type": "multiple_choice",
+          "question": "6세 미만 어린이는 입장이 무료라고 할 때 빈칸에 알맞은 표현은? 'Children ___ are free.'",
+          "options": [
+            "below six",
+            "under six",
+            "less than six",
+            "shorter than six"
+          ],
+          "answerIndex": 1,
+          "explanation": "나이를 기준으로 '~미만'을 표현할 때는 'under'를 사용합니다. 'Children under six are free.'가 표준 표현입니다. 'below'도 가능하지만 나이 표현에서는 'under'가 훨씬 더 자연스럽고 일반적입니다."
+        },
+        {
+          "id": "se_ch29_set01_012",
+          "type": "ox",
+          "question": "'last entry'와 'closing time'은 항상 같은 시간을 가리킨다.",
+          "answerIndex": 1,
+          "explanation": "틀립니다. 'last entry(마지막 입장)'는 'closing time(폐관 시간)'보다 보통 30분~1시간 일찍 마감됩니다. 예를 들어 폐관이 6시라면 마지막 입장은 5시 30분일 수 있으므로, 방문 전 두 가지를 모두 확인하는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch29_set01_013",
+          "type": "ox",
+          "question": "'Is there a family ticket?'은 가족 전용 할인 입장권이 있는지 묻는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'family ticket'은 어른과 어린이를 묶어 할인하는 가족 전용 입장권을 뜻합니다. 유럽과 북미 관광지에서 흔히 운영하며 개별 구매보다 저렴한 경우가 많아 꼭 확인하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch29_set01_014",
+          "type": "ox",
+          "question": "'skip the line'은 새치기(무단으로 줄을 끼어드는 것)를 의미한다.",
+          "answerIndex": 1,
+          "explanation": "틀립니다. 관광지 맥락에서 'skip the line'은 사전 예약이나 프리미엄 티켓 구매자에게 주어지는 합법적인 빠른 입장 혜택을 뜻합니다. 무단으로 줄에 끼어드는 새치기는 'cut in line' 또는 'jump the queue'라고 표현합니다."
+        }
+      ]
+    }
+  ]
 }
