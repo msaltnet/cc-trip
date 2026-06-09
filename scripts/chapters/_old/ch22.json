@@ -1,0 +1,138 @@
+{
+  "id": "ch22",
+  "title": "마트·장보기",
+  "summary": "가격 확인, 상품 위치 묻기, 직접 무게 달기, 셀프 계산대 이용",
+  "sections": [
+    {
+      "heading": "가격과 위치 확인하기",
+      "body": "상품 가격을 물을 때는 'How much is this?'라고 하면 됩니다. 찾는 상품의 위치를 모를 때는 'Where is the milk?'처럼 'Where is the + 상품명?'으로 직원에게 물어보세요."
+    },
+    {
+      "heading": "봉투와 무게 달기",
+      "body": "계산대에서 봉투가 필요하면 'Do you have a bag?'이라고 묻습니다. 유럽 마트에서는 채소·과일 코너에서 직접 무게를 달아 가격표를 붙여야 하는 경우가 있습니다. 이럴 때는 'Do I weigh this myself?'라고 확인하세요."
+    },
+    {
+      "heading": "결제 방법과 셀프 계산대",
+      "body": "카드 결제 가능 여부는 'Do you take cards?'로 확인합니다. 유럽 대형 마트에는 셀프 계산대(self-checkout)가 많아 직접 바코드를 스캔하고 결제할 수 있습니다."
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch22_set01_001",
+          "type": "multiple_choice",
+          "question": "마트에서 상품 가격을 물어볼 때 자연스러운 표현은?",
+          "options": [
+            "How much is this?",
+            "What price is here?",
+            "Tell me the cost.",
+            "Is it cheap?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How much is this?'는 가격을 묻는 가장 자연스러운 표현입니다. 'What price is here?'는 어색한 영어이고, 'Is it cheap?'은 가격을 직접 묻지 않습니다."
+        },
+        {
+          "id": "se_ch22_set01_002",
+          "type": "multiple_choice",
+          "question": "마트에서 우유가 어디 있는지 직원에게 묻는 표현은?",
+          "options": [
+            "Do you have milk here?",
+            "Where is the milk?",
+            "Can I find some milk?",
+            "Give me milk, please."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Where is the milk?'는 상품의 위치를 묻는 가장 직접적인 표현입니다. 'Do you have milk here?'는 재고 여부를 묻는 표현으로 위치를 묻는 것과는 다릅니다."
+        },
+        {
+          "id": "se_ch22_set01_003",
+          "type": "multiple_choice",
+          "question": "계산대에서 봉투를 받을 수 있는지 물을 때 알맞은 표현은?",
+          "options": [
+            "Do you have a bag?",
+            "Can I buy a bag?",
+            "Where are the bags?",
+            "Is a bag free?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you have a bag?'은 봉투를 받을 수 있는지 묻는 자연스러운 표현입니다. 유럽 마트에서는 봉투가 유료인 경우가 많으므로 미리 물어보는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch22_set01_004",
+          "type": "multiple_choice",
+          "question": "채소나 과일을 직접 저울에 달아야 하는지 확인하는 표현은?",
+          "options": [
+            "Is this item heavy?",
+            "Do I weigh this myself?",
+            "Can you weigh this for me?",
+            "How heavy is this?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do I weigh this myself?'는 직접 저울에 달아야 하는지 확인하는 표현입니다. 유럽 마트에서는 채소·과일 코너에 셀프 저울이 있어 직접 무게를 달고 가격 스티커를 출력해야 하는 곳이 많습니다."
+        },
+        {
+          "id": "se_ch22_set01_005",
+          "type": "multiple_choice",
+          "question": "'Self-checkout'이 뜻하는 것은?",
+          "options": [
+            "직원이 짐을 챙겨주는 서비스",
+            "호텔에서 혼자 체크아웃하는 것",
+            "고객이 직접 바코드를 스캔하고 결제하는 계산대",
+            "온라인으로 미리 주문하는 서비스"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Self-checkout'은 고객이 직접 바코드를 스캔하고 결제하는 무인 계산대입니다. 유럽 대형 마트에서 흔히 볼 수 있으며, 줄을 서지 않아도 됩니다."
+        },
+        {
+          "id": "se_ch22_set01_006",
+          "type": "multiple_choice",
+          "question": "마트 계산대에서 카드로 결제할 수 있는지 확인하는 표현은?",
+          "options": [
+            "Can I pay in dollars?",
+            "Do you take cards?",
+            "Is credit allowed?",
+            "Can I swipe my card?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do you take cards?'는 카드 결제를 받는지 묻는 간단하고 자연스러운 표현입니다. 'Can I pay by card?'도 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch22_set01_007",
+          "type": "multiple_choice",
+          "question": "마트에서 특정 상품의 위치를 물을 때 가장 적절한 표현 구조는?",
+          "options": [
+            "Find the + 상품명, please.",
+            "Where is the + 상품명?",
+            "Do you sell + 상품명?",
+            "Can you get me the + 상품명?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Where is the + 상품명?'은 상품의 위치를 묻는 가장 자연스러운 패턴입니다. 예: 'Where is the bread?', 'Where is the cheese?'"
+        },
+        {
+          "id": "se_ch22_set01_008",
+          "type": "ox",
+          "question": "유럽 마트에서는 채소·과일을 직접 저울에 달아 가격표를 붙여야 하는 경우가 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 유럽 대형 마트 채소·과일 코너에는 셀프 저울(scale)이 있어 직접 무게를 달고 바코드 스티커를 뽑아 상품에 붙인 뒤 계산대로 가야 합니다."
+        },
+        {
+          "id": "se_ch22_set01_009",
+          "type": "ox",
+          "question": "'Do you have a bag?'은 마트에서 봉투를 구할 수 있는지 물어보는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 유럽 마트에서는 봉투가 유료인 경우가 많아 계산대에서 이 표현으로 봉투 여부를 확인한 뒤 구매합니다."
+        },
+        {
+          "id": "se_ch22_set01_010",
+          "type": "ox",
+          "question": "'How much is this?'는 상품 가격을 물어볼 때 쓸 수 없는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'How much is this?'는 상품 가격을 묻는 가장 기본적이고 자연스러운 표현입니다. 마트뿐 아니라 어디서나 가격을 물을 때 쓸 수 있습니다."
+        }
+      ]
+    }
+  ]
+}

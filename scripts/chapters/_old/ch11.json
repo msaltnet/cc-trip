@@ -1,0 +1,138 @@
+{
+  "id": "ch11",
+  "title": "호텔 체크인",
+  "summary": "예약 확인, 여권 제출, 아침 식사·와이파이·체크아웃 시간 확인",
+  "sections": [
+    {
+      "heading": "예약 확인하기",
+      "body": "프런트에 도착하면 'I have a reservation under [name].'이라고 말해 예약을 확인합니다. 성(last name)으로 예약한 경우가 많으니 'under Kim'처럼 이름을 함께 말해 주세요. 여권을 요청받으면 'Here is my passport.'라고 건네면 됩니다."
+    },
+    {
+      "heading": "방 형태 요청하기",
+      "body": "1인용 침대 두 개가 있는 방이 필요할 때는 'We'd like a room with two beds.'라고 요청하세요. 더블베드(큰 침대 1개) 방은 'double room', 1인용 침대 두 개인 방은 'twin room'이라고 합니다. 구체적으로 말할수록 원하는 방을 얻기 쉽습니다."
+    },
+    {
+      "heading": "부대사항 확인하기",
+      "body": "조식 포함 여부는 'Is breakfast included?'로 확인하세요. 와이파이 비밀번호가 필요하면 'What's the Wi-Fi password?'라고 물어보면 됩니다. 체크아웃 시간을 알고 싶을 때는 'What time is check-out?'이라고 묻습니다."
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch11_set01_001",
+          "type": "multiple_choice",
+          "question": "호텔 프런트에서 예약이 되어 있다고 알릴 때 알맞은 표현은?",
+          "options": [
+            "I have a reservation under Kim.",
+            "I want to make a reservation.",
+            "Do you have a room available?",
+            "I'd like to cancel my booking."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I have a reservation under [name].'은 해당 이름으로 예약이 되어 있음을 알리는 표현입니다. 'make a reservation'은 새로 예약할 때, 'cancel'은 예약 취소 시 사용합니다."
+        },
+        {
+          "id": "se_ch11_set01_002",
+          "type": "multiple_choice",
+          "question": "체크인 시 직원이 여권을 요청했습니다. 여권을 건네며 하는 가장 자연스러운 표현은?",
+          "options": [
+            "Here is my boarding pass.",
+            "Here is my passport.",
+            "Here is my credit card.",
+            "Here is my travel insurance."
+          ],
+          "answerIndex": 1,
+          "explanation": "여권을 건넬 때는 'Here is my passport.'라고 합니다. 탑승권(boarding pass)이나 신용카드와 혼동하지 마세요."
+        },
+        {
+          "id": "se_ch11_set01_003",
+          "type": "multiple_choice",
+          "question": "1인용 침대 두 개가 있는 방을 요청할 때 가장 정확한 표현은?",
+          "options": [
+            "We'd like a double room.",
+            "We'd like a single room.",
+            "We'd like a room with two beds.",
+            "We'd like a suite."
+          ],
+          "answerIndex": 2,
+          "explanation": "'We'd like a room with two beds.'는 침대 두 개가 있는 방을 요청하는 표현입니다. 'double room'은 대형 침대 1개짜리 방, 'suite'는 스위트룸을 뜻합니다."
+        },
+        {
+          "id": "se_ch11_set01_004",
+          "type": "multiple_choice",
+          "question": "조식이 숙박 요금에 포함되어 있는지 확인할 때 쓰는 표현은?",
+          "options": [
+            "Where is the restaurant?",
+            "What time is breakfast?",
+            "Can I order breakfast now?",
+            "Is breakfast included?"
+          ],
+          "answerIndex": 3,
+          "explanation": "'Is breakfast included?'는 조식이 요금에 포함되었는지를 묻는 표현입니다. 'What time is breakfast?'는 조식 운영 시간을 묻는 질문으로 의미가 다릅니다."
+        },
+        {
+          "id": "se_ch11_set01_005",
+          "type": "multiple_choice",
+          "question": "객실 와이파이 비밀번호를 물어볼 때 가장 자연스러운 표현은?",
+          "options": [
+            "Do you have internet here?",
+            "Where is the router?",
+            "What's the Wi-Fi password?",
+            "Can I use your computer?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'What's the Wi-Fi password?'는 와이파이 비밀번호를 묻는 직접적인 표현입니다. 'Do you have internet?'은 인터넷 제공 여부만 묻는 것으로 비밀번호는 알 수 없습니다."
+        },
+        {
+          "id": "se_ch11_set01_006",
+          "type": "multiple_choice",
+          "question": "체크아웃 시간을 물을 때 올바른 표현은?",
+          "options": [
+            "What time is check-out?",
+            "What time is check-in?",
+            "When does the hotel open?",
+            "How long can I stay?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What time is check-out?'은 체크아웃 시간을 묻는 표현입니다. 'check-in'은 입실, 'check-out'은 퇴실을 가리킵니다."
+        },
+        {
+          "id": "se_ch11_set01_007",
+          "type": "multiple_choice",
+          "question": "'I have a reservation.'에서 'reservation'의 뜻은?",
+          "options": [
+            "불만",
+            "취소",
+            "예약",
+            "요청"
+          ],
+          "answerIndex": 2,
+          "explanation": "'reservation'은 '예약'을 뜻합니다. 호텔·레스토랑·교통편 예약 모두에 쓸 수 있는 단어입니다."
+        },
+        {
+          "id": "se_ch11_set01_008",
+          "type": "ox",
+          "question": "'I have a reservation under Park.'는 Park이라는 이름으로 예약이 되어 있다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'under [name]'은 해당 이름으로 예약이 등록되어 있음을 뜻합니다. 예약자 이름을 프런트 직원에게 알릴 때 사용합니다."
+        },
+        {
+          "id": "se_ch11_set01_009",
+          "type": "ox",
+          "question": "호텔에서 'double room'은 반드시 1인용 침대 두 개가 있는 방을 뜻한다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'double room'은 보통 큰 침대(double bed) 하나가 있는 방입니다. 1인용 침대 두 개가 있는 방은 'twin room'이라고 합니다."
+        },
+        {
+          "id": "se_ch11_set01_010",
+          "type": "ox",
+          "question": "'What's the Wi-Fi password?'는 와이파이 연결 여부를 묻는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'What's the Wi-Fi password?'는 와이파이 비밀번호를 묻는 표현입니다. 와이파이 사용 가능 여부를 묻고 싶다면 'Do you have Wi-Fi?'라고 합니다."
+        }
+      ]
+    }
+  ]
+}

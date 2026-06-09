@@ -1,0 +1,138 @@
+{
+  "id": "ch12",
+  "title": "호텔 시설·요청",
+  "summary": "객실 편의 요청, 청소·냉방 문제 신고, 룸서비스·모닝콜 이용",
+  "sections": [
+    {
+      "heading": "객실 용품 추가 요청하기",
+      "body": "수건이 부족하면 'Could I get more towels?'라고 말하세요. 'Could I get …?'는 '~를 주실 수 있을까요?'라는 정중한 요청 표현입니다. 필요한 물건을 직접 부탁하거나 직원을 보내달라고 할 때는 'Could you send someone up?'이라고 하면 됩니다."
+    },
+    {
+      "heading": "객실 문제 신고하기",
+      "body": "방이 청소되지 않았을 때는 'The room hasn't been cleaned.'라고 말하세요. 에어컨이 고장났으면 'The air conditioning isn't working.'이라고 알려주면 됩니다. 이처럼 'The [시설] isn't working.' 패턴으로 다양한 고장을 신고할 수 있습니다."
+    },
+    {
+      "heading": "모닝콜·룸서비스 이용하기",
+      "body": "아침에 모닝콜이 필요하면 'Can I have a wake-up call at 7?'이라고 프런트에 요청하세요. 방에서 식사를 원할 때는 'room service'라고 말하거나 'I'd like to order room service.'라고 하면 됩니다."
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch12_set01_001",
+          "type": "multiple_choice",
+          "question": "수건을 더 달라고 정중하게 요청할 때 알맞은 표현은?",
+          "options": [
+            "Could I get more towels?",
+            "I need towels now.",
+            "Give me some towels.",
+            "Where are the towels?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could I get more towels?'는 수건을 추가로 요청하는 정중한 표현입니다. 'Give me'는 다소 명령조로 들릴 수 있어 서비스 요청 시에는 'Could I get …?'을 권장합니다."
+        },
+        {
+          "id": "se_ch12_set01_002",
+          "type": "multiple_choice",
+          "question": "방이 청소되지 않았다고 프런트에 알릴 때 적절한 표현은?",
+          "options": [
+            "The room is too small.",
+            "The room hasn't been cleaned.",
+            "The room is not available.",
+            "The room is very noisy."
+          ],
+          "answerIndex": 1,
+          "explanation": "'The room hasn't been cleaned.'은 객실 청소가 되어 있지 않다고 신고하는 표현입니다. 'available'은 이용 가능 여부, 'noisy'는 소음 문제를 가리킵니다."
+        },
+        {
+          "id": "se_ch12_set01_003",
+          "type": "multiple_choice",
+          "question": "에어컨이 작동하지 않는다고 신고할 때 올바른 표현은?",
+          "options": [
+            "The air conditioning isn't working.",
+            "The air conditioning is too cold.",
+            "Can you turn on the air conditioning?",
+            "The air conditioning is very loud."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The air conditioning isn't working.'은 에어컨이 고장나서 작동하지 않는다는 뜻입니다. 'too cold'는 너무 춥다는 것이고, 'turn on'은 켜달라는 요청입니다."
+        },
+        {
+          "id": "se_ch12_set01_004",
+          "type": "multiple_choice",
+          "question": "아침 7시에 모닝콜을 요청할 때 적절한 표현은?",
+          "options": [
+            "Can I have a wake-up call at 7?",
+            "Can I wake up at 7?",
+            "Please ring my phone at 7.",
+            "Set my alarm for 7."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I have a wake-up call at 7?'는 호텔에서 모닝콜을 요청하는 표준 표현입니다. 'wake-up call'은 지정 시간에 전화로 깨워주는 서비스를 뜻합니다."
+        },
+        {
+          "id": "se_ch12_set01_005",
+          "type": "multiple_choice",
+          "question": "호텔 방에서 식사를 주문하는 서비스를 뜻하는 영어 표현은?",
+          "options": [
+            "hotel buffet",
+            "room service",
+            "table service",
+            "front desk order"
+          ],
+          "answerIndex": 1,
+          "explanation": "'room service'는 객실로 음식을 배달해 주는 호텔 서비스입니다. 'buffet'는 뷔페, 'table service'는 레스토랑 테이블 서비스입니다."
+        },
+        {
+          "id": "se_ch12_set01_006",
+          "type": "multiple_choice",
+          "question": "직원을 객실로 보내달라고 요청할 때 알맞은 표현은?",
+          "options": [
+            "Could you come here?",
+            "Please visit my room.",
+            "Could you send someone up?",
+            "Send me a staff member."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Could you send someone up?'은 직원을 방으로 보내달라고 정중하게 요청하는 표현입니다. 호텔은 보통 여러 층에 걸쳐 있어 'up'(위층으로 올라오다)을 사용합니다."
+        },
+        {
+          "id": "se_ch12_set01_007",
+          "type": "multiple_choice",
+          "question": "'The heater isn't working.'은 어떤 상황을 설명하는 표현인가요?",
+          "options": [
+            "히터가 너무 뜨겁다",
+            "히터가 작동하지 않는다",
+            "히터를 켜달라고 요청한다",
+            "히터 소리가 너무 크다"
+          ],
+          "answerIndex": 1,
+          "explanation": "'isn't working'은 '작동하지 않는다'는 뜻입니다. 'The [시설] isn't working.' 패턴으로 다양한 시설 고장을 신고할 수 있습니다."
+        },
+        {
+          "id": "se_ch12_set01_008",
+          "type": "ox",
+          "question": "'Could I get more towels?'에서 'Could I get …?'은 무언가를 정중하게 요청하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Could I get …?'은 '~를 주실 수 있을까요?'라는 정중한 요청 표현입니다. 호텔 직원에게 편의용품을 요청할 때 자주 사용합니다."
+        },
+        {
+          "id": "se_ch12_set01_009",
+          "type": "ox",
+          "question": "'The room hasn't been cleaned.'은 현재 시제로 방이 지금 청소 중이라는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'hasn't been cleaned'는 현재완료 수동태로 '청소가 되어 있지 않다(아직 청소가 안 됐다)'는 뜻입니다. 청소 중임을 표현하려면 'is being cleaned'라고 해야 합니다."
+        },
+        {
+          "id": "se_ch12_set01_010",
+          "type": "ox",
+          "question": "'wake-up call'은 지정한 시간에 전화로 깨워주는 호텔 서비스를 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'wake-up call'은 모닝콜이라고도 하며, 호텔에서 프런트가 지정 시간에 객실 전화로 전화를 걸어 손님을 깨워주는 서비스입니다."
+        }
+      ]
+    }
+  ]
+}

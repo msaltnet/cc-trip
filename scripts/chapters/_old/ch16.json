@@ -1,0 +1,138 @@
+{
+  "id": "ch16",
+  "title": "지하철·버스 타기",
+  "summary": "노선 확인, 환승, 하차 지점 묻기",
+  "sections": [
+    {
+      "heading": "티켓·교통 카드 구매하기",
+      "body": "'Where can I buy a metro card?'는 지하철 카드(교통카드)를 어디서 살 수 있는지 묻는 표현입니다. 유럽 대도시에서는 Oyster, Navigo 같은 충전식 교통카드를 많이 씁니다. 어느 노선이 원하는 목적지로 가는지 확인하려면 'Which line goes to ...?'라고 물어보세요."
+    },
+    {
+      "heading": "환승과 정거장 수 확인하기",
+      "body": "환승이 필요한지 알아보려면 'Do I need to transfer?'라고 물어보세요. 버스가 원하는 장소에 서는지 확인할 때는 'Does this bus stop at ...?'이라고 합니다. 몇 정거장을 가야 하는지는 'How many stops is it?'으로 물어볼 수 있습니다."
+    },
+    {
+      "heading": "어디서 내려야 할지 확인하기",
+      "body": "목적지에서 내려야 할 정거장이 어디인지 확인하고 싶으면 'Where do I get off?'라고 물어보세요. 옆에 앉은 승객이나 기사에게 물어볼 수 있습니다. 스마트폰 지도앱에서 실시간으로 정거장을 확인하는 것도 좋은 방법입니다."
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch16_set01_001",
+          "type": "multiple_choice",
+          "question": "지하철 교통카드를 어디서 구매할 수 있는지 물을 때 알맞은 표현은?",
+          "options": [
+            "Where can I buy a metro card?",
+            "Where can I charge my metro card?",
+            "Where can I find a bus pass?",
+            "Where can I buy a train ticket?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where can I buy a metro card?'는 지하철 교통카드를 어디서 살 수 있는지 묻는 표현입니다. 'charge'는 카드 충전, 'train ticket'은 기차표를 가리키므로 다릅니다."
+        },
+        {
+          "id": "se_ch16_set01_002",
+          "type": "multiple_choice",
+          "question": "에펠탑(Eiffel Tower)으로 가는 지하철 노선을 물을 때 알맞은 표현은?",
+          "options": [
+            "Where is the Eiffel Tower station?",
+            "Which line goes to the Eiffel Tower?",
+            "How far is the Eiffel Tower?",
+            "What time does the metro leave?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Which line goes to the Eiffel Tower?'는 에펠탑으로 가는 지하철 노선이 몇 호선인지 묻는 표현입니다. 'Which line'은 노선을 특정하는 핵심 표현입니다."
+        },
+        {
+          "id": "se_ch16_set01_003",
+          "type": "multiple_choice",
+          "question": "목적지에 가려면 환승이 필요한지 물을 때 적절한 표현은?",
+          "options": [
+            "Do I need to get off here?",
+            "Do I need to buy another ticket?",
+            "Do I need to transfer?",
+            "Do I need to change my seat?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Do I need to transfer?'는 환승이 필요한지 묻는 표현입니다. 'transfer'는 다른 노선으로 갈아탄다는 뜻입니다. 'change my seat'는 좌석 변경이므로 다릅니다."
+        },
+        {
+          "id": "se_ch16_set01_004",
+          "type": "multiple_choice",
+          "question": "이 버스가 시청(City Hall)에 정차하는지 확인하는 표현은?",
+          "options": [
+            "Does this bus pass City Hall?",
+            "Does this bus stop at City Hall?",
+            "Does this bus go around City Hall?",
+            "Does this bus start at City Hall?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Does this bus stop at City Hall?'는 이 버스가 시청에 정차하는지 묻는 표현입니다. 'stop at'은 특정 장소에 서다는 의미입니다. 'pass'는 지나치기만 하는 뉘앙스가 강합니다."
+        },
+        {
+          "id": "se_ch16_set01_005",
+          "type": "multiple_choice",
+          "question": "목적지까지 몇 정거장인지 물을 때 알맞은 표현은?",
+          "options": [
+            "How many lines is it?",
+            "How many minutes is it?",
+            "How many stops is it?",
+            "How many transfers is it?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'How many stops is it?'는 목적지까지 정거장이 몇 개인지 묻는 표현입니다. 'stops'는 정거장 수를 뜻합니다. 소요 시간은 'How many minutes', 노선 수는 'How many lines'로 달리 물어봅니다."
+        },
+        {
+          "id": "se_ch16_set01_006",
+          "type": "multiple_choice",
+          "question": "어느 정거장에서 내려야 하는지 물을 때 올바른 표현은?",
+          "options": [
+            "Where do I get on?",
+            "Where do I get off?",
+            "Where do I transfer?",
+            "Where do I wait?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Where do I get off?'는 어디서 내려야 하는지 묻는 표현입니다. 'get off'는 버스나 지하철에서 내린다는 뜻이고, 'get on'은 타는 것입니다."
+        },
+        {
+          "id": "se_ch16_set01_007",
+          "type": "multiple_choice",
+          "question": "유럽 도시에서 지하철이나 버스를 이용할 때 교통카드를 흔히 가리키는 표현은?",
+          "options": [
+            "metro card",
+            "credit card",
+            "loyalty card",
+            "boarding pass"
+          ],
+          "answerIndex": 0,
+          "explanation": "'metro card'는 지하철·버스 등 대중교통에서 사용하는 충전식 교통카드를 가리킵니다. 유럽 일부 도시에서는 'travel card'라고도 부르지만, 이 챕터에서는 'metro card'를 기본 표현으로 사용합니다. 'boarding pass'는 항공 탑승권이고, 'credit card'와 'loyalty card'는 교통카드가 아닙니다."
+        },
+        {
+          "id": "se_ch16_set01_008",
+          "type": "ox",
+          "question": "'Do I need to transfer?'는 환승이 필요한지 묻는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'transfer'는 다른 노선으로 갈아타는 것을 의미합니다. 목적지에 따라 노선 환승이 필요할 수 있으므로 미리 확인하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch16_set01_009",
+          "type": "ox",
+          "question": "'Where do I get off?'와 'Where do I get on?'은 같은 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'get off'는 내리는 것, 'get on'은 타는 것입니다. 두 표현은 반대 동작을 나타냅니다."
+        },
+        {
+          "id": "se_ch16_set01_010",
+          "type": "ox",
+          "question": "'Does this bus stop at ...?'는 이 버스가 특정 장소에 정차하는지 확인하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'stop at'은 특정 정류장 또는 장소에 정차한다는 의미입니다. 탑승 전 목적지 방향의 버스인지 확인할 때 유용합니다."
+        }
+      ]
+    }
+  ]
+}
