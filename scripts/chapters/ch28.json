@@ -1,0 +1,532 @@
+{
+  "id": "ch28",
+  "title": "면세·택스리펀",
+  "summary": "상점에서 택스리펀 양식 받기, 공항 세관 도장, 환급 창구 위치 확인, 현금/카드 환급 선택, 수수료 확인까지 택스리펀 전 과정을 영어로 처리하는 법",
+  "dialogues": [
+    {
+      "id": "ch28_d01",
+      "title": "택스리펀 되나요",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, do you offer tax-free shopping?", "ko": "실례합니다, 여기 택스리펀 되나요?" },
+        { "speaker": "직원", "en": "Yes, we do. You need to spend at least €75.", "ko": "네, 됩니다. 최소 75유로 이상 구매하셔야 해요." },
+        { "speaker": "나", "en": "My total is €90, so I qualify, right?", "ko": "제 합계가 90유로인데, 해당되는 거 맞죠?" },
+        { "speaker": "직원", "en": "That's right. I'll prepare the tax-free form for you.", "ko": "맞습니다. 택스리펀 양식 준비해 드릴게요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do you offer tax-free shopping?",
+          "ko": "택스리펀 서비스가 있는지 묻는 표현. 'tax refund'와 'tax-free'는 같은 의미로 쓰이지만, 상점에서는 'tax-free shopping'이라는 표현이 더 일반적.",
+          "alternatives": [
+            { "en": "Can I get a tax refund here?", "ko": "여기서 택스리펀을 받을 수 있냐고 직접 묻는 표현." },
+            { "en": "Is this store tax-free eligible?", "ko": "이 상점이 택스리펀 대상인지 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Do I qualify?",
+          "ko": "자격이 되는지 확인하는 표현. qualify는 '자격 요건을 충족하다'는 뜻으로, 최소 구매 금액이나 조건을 만족하는지 물을 때 씀.",
+          "alternatives": [
+            { "en": "Am I eligible for a refund?", "ko": "환급 자격이 있는지 묻는 표현. eligible은 '자격이 있는'이라는 뜻." },
+            { "en": "Does this amount count?", "ko": "이 금액이 해당되는지 묻는 캐주얼한 표현." }
+          ]
+        },
+        {
+          "en": "I'll prepare the form for you.",
+          "ko": "직원이 양식을 준비해주겠다고 말하는 표현. 'prepare'는 미리 준비하다는 뜻으로, 직원이 서류를 챙겨주겠다는 친절한 응대 표현.",
+          "alternatives": [
+            { "en": "I'll get the paperwork ready.", "ko": "서류를 준비하겠다는 표현. paperwork는 서류 일반을 뜻함." },
+            { "en": "Let me fill out the form for you.", "ko": "양식을 작성해 드리겠다는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch28_d02",
+      "title": "최소 구매액 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "What's the minimum purchase for a tax refund?", "ko": "택스리펀을 받으려면 최소 구매 금액이 얼마인가요?" },
+        { "speaker": "직원", "en": "The minimum is €100 per receipt.", "ko": "영수증 한 장당 최소 100유로입니다." },
+        { "speaker": "나", "en": "Can I combine receipts from different visits?", "ko": "다른 날 방문한 영수증을 합칠 수 있나요?" },
+        { "speaker": "직원", "en": "No, it has to be on a single receipt.", "ko": "아니요, 한 영수증에서만 가능합니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "What's the minimum purchase?",
+          "ko": "최소 구매 금액을 묻는 표현. minimum purchase는 택스리펀 신청에 필요한 최저 구매 금액을 뜻하며, 나라와 상점마다 다름.",
+          "alternatives": [
+            { "en": "How much do I need to spend?", "ko": "얼마나 써야 하는지 묻는 캐주얼한 표현." },
+            { "en": "Is there a minimum spend for tax refund?", "ko": "택스리펀을 위한 최소 지출이 있냐고 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Per receipt.",
+          "ko": "영수증 한 장 기준이라는 뜻. per는 '~당, ~마다'라는 뜻으로, per receipt는 영수증 한 장에 해당 금액을 써야 한다는 의미.",
+          "alternatives": [
+            { "en": "Per transaction.", "ko": "거래 한 건 기준이라는 표현. transaction은 결제 행위를 뜻함." },
+            { "en": "In a single purchase.", "ko": "단일 구매 내에서라는 표현." }
+          ]
+        },
+        {
+          "en": "Can I combine receipts?",
+          "ko": "여러 영수증을 합산할 수 있는지 묻는 표현. combine은 '합치다, 결합하다'는 뜻으로, 여러 번 구매한 것을 하나로 묶어 처리할 수 있는지 확인할 때 씀.",
+          "alternatives": [
+            { "en": "Can I add them together?", "ko": "합산할 수 있냐고 묻는 캐주얼한 표현." },
+            { "en": "Can multiple receipts count as one?", "ko": "여러 영수증을 하나로 처리할 수 있냐고 묻는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch28_d03",
+      "title": "택스리펀 양식 작성하기",
+      "lines": [
+        { "speaker": "직원", "en": "Please fill out this form with your name and passport number.", "ko": "이 양식에 성함과 여권 번호를 기재해 주세요." },
+        { "speaker": "나", "en": "Do I write my home address here too?", "ko": "여기에 집 주소도 써야 하나요?" },
+        { "speaker": "직원", "en": "Yes, please write your address in your home country.", "ko": "네, 본국 주소를 적어 주세요." },
+        { "speaker": "나", "en": "Got it. Should I print or write in cursive?", "ko": "알겠습니다. 대문자로 써야 하나요, 필기체로 써도 되나요?" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Please fill out this form.",
+          "ko": "양식을 작성해달라는 요청. fill out은 빈칸을 채워 양식을 완성하다는 뜻. fill in도 같은 의미로 쓰임.",
+          "alternatives": [
+            { "en": "Please complete this form.", "ko": "양식을 작성하다는 더 격식 있는 표현." },
+            { "en": "Could you fill in your details here?", "ko": "여기에 정보를 기입해달라는 표현." }
+          ]
+        },
+        {
+          "en": "Your home country address.",
+          "ko": "본국 주소를 뜻하는 표현. tax refund는 해외 거주자에게 주어지므로 거주 국가의 주소를 기재해야 함. home country는 자국, 모국을 뜻함.",
+          "alternatives": [
+            { "en": "Your address back home.", "ko": "본국 주소라는 캐주얼한 표현." },
+            { "en": "Your permanent address.", "ko": "상시 거주 주소를 뜻하는 표현." }
+          ]
+        },
+        {
+          "en": "Should I print or write in cursive?",
+          "ko": "대문자로 써야 하는지 필기체로 써도 되는지 묻는 표현. print는 활자체(대문자 또는 블록체)로 쓰는 것을 뜻하며, 공식 서류에서는 보통 print로 요청함.",
+          "alternatives": [
+            { "en": "Should I write in block letters?", "ko": "블록체(대문자)로 써야 하냐고 묻는 표현." },
+            { "en": "Does it need to be in capitals?", "ko": "대문자로 써야 하냐고 묻는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch28_d04",
+      "title": "여권 제시하기",
+      "lines": [
+        { "speaker": "직원", "en": "May I see your passport, please?", "ko": "여권 좀 보여주시겠어요?" },
+        { "speaker": "나", "en": "Here it is. Do you need a copy, too?", "ko": "여기 있습니다. 사본도 필요하신가요?" },
+        { "speaker": "직원", "en": "No, just the original is fine. I'll note down your details.", "ko": "아니요, 원본만 괜찮습니다. 정보를 적어드릴게요." },
+        { "speaker": "나", "en": "Okay. Does my passport need to be valid for a certain period?", "ko": "알겠습니다. 여권 유효기간이 일정 기간 남아야 하나요?" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "May I see your passport?",
+          "ko": "여권을 보여달라는 정중한 요청. May I see ~?는 가장 공손한 요청 형태로 직원이 자주 사용. 'Can I see ~?'보다 격식 있게 들림.",
+          "alternatives": [
+            { "en": "Could I check your passport?", "ko": "여권을 확인해도 되냐고 묻는 표현." },
+            { "en": "I'll need to see some ID.", "ko": "신분증을 봐야 한다는 표현. ID는 여권, 신분증 등을 포함함." }
+          ]
+        },
+        {
+          "en": "The original is fine.",
+          "ko": "원본만 있으면 된다는 표현. original은 원본을 뜻하며 copy(사본)과 반대 개념. 서류 처리 시 자주 나오는 표현.",
+          "alternatives": [
+            { "en": "Just the passport itself is enough.", "ko": "여권 자체만 있으면 충분하다는 표현." },
+            { "en": "No copy needed.", "ko": "사본은 필요 없다는 간결한 표현." }
+          ]
+        },
+        {
+          "en": "Does my passport need to be valid for a certain period?",
+          "ko": "여권 유효기간 조건을 묻는 표현. valid는 '유효한'이라는 뜻으로, 여권·비자·신분증 등이 아직 효력이 있는 상태를 말함.",
+          "alternatives": [
+            { "en": "How long does my passport need to be valid?", "ko": "여권이 얼마나 남아 있어야 하냐고 묻는 표현." },
+            { "en": "Is there a validity requirement?", "ko": "유효기간 요건이 있냐고 묻는 격식 있는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch28_d05",
+      "title": "세관 도장 받기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, where can I get a customs stamp?", "ko": "실례합니다, 세관 도장은 어디서 받을 수 있나요?" },
+        { "speaker": "세관원", "en": "At the customs desk, before you go through security.", "ko": "보안 검색대를 통과하기 전에 세관 창구에서 받으시면 됩니다." },
+        { "speaker": "나", "en": "Do I need to show the goods as well?", "ko": "물건도 같이 보여드려야 하나요?" },
+        { "speaker": "세관원", "en": "Yes, please have your purchases and receipts ready.", "ko": "네, 구매 물건과 영수증을 준비해 두세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Where can I get a customs stamp?",
+          "ko": "세관 도장을 받는 곳을 묻는 표현. customs stamp는 택스리펀 처리에 필수적인 세관 확인 도장으로, 없으면 환급 창구에서 환급을 받을 수 없음.",
+          "alternatives": [
+            { "en": "Where is the customs office?", "ko": "세관 사무소의 위치를 묻는 표현." },
+            { "en": "I need my documents stamped. Where do I go?", "ko": "서류에 도장을 받아야 한다며 어디 가야 하냐고 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Before you go through security.",
+          "ko": "보안 검색대 통과 전에라는 표현. security는 공항 보안 검색대를 뜻하며, 세관 도장은 반드시 보안 검색 전에 받아야 함. 순서가 중요.",
+          "alternatives": [
+            { "en": "Before check-in.", "ko": "체크인 전에라는 표현. 나라마다 절차가 다를 수 있음." },
+            { "en": "Prior to boarding.", "ko": "탑승 전에라는 격식 있는 표현." }
+          ]
+        },
+        {
+          "en": "Have your purchases ready.",
+          "ko": "구매 물건을 준비해두라는 표현. have ~ ready는 '~를 준비된 상태로 갖고 있다'는 뜻. 세관에서는 구매한 물건을 실제로 확인하는 경우가 많음.",
+          "alternatives": [
+            { "en": "Bring the items with you.", "ko": "물건을 가지고 오라는 표현." },
+            { "en": "Keep the goods unsealed for inspection.", "ko": "검사를 위해 물건을 개봉하지 말고 두라는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch28_d06",
+      "title": "환급 창구 위치 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Where is the tax refund desk?", "ko": "택스리펀 창구가 어디 있나요?" },
+        { "speaker": "직원", "en": "It's near Gate 12, past the duty-free shops.", "ko": "12번 게이트 근처, 면세점을 지나면 있어요." },
+        { "speaker": "나", "en": "Is there also a self-service kiosk?", "ko": "셀프서비스 키오스크도 있나요?" },
+        { "speaker": "직원", "en": "Yes, there are kiosks right after passport control.", "ko": "네, 출입국 심사대 바로 이후에 키오스크가 있어요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Where is the tax refund desk?",
+          "ko": "환급 창구 위치를 묻는 표현. refund desk는 택스리펀 서류를 처리하고 현금 또는 카드로 환급해주는 창구. refund counter나 refund office도 같은 의미.",
+          "alternatives": [
+            { "en": "Where is the VAT refund counter?", "ko": "VAT 환급 창구가 어디냐고 묻는 표현. VAT는 부가가치세." },
+            { "en": "Is there a tax refund office here?", "ko": "택스리펀 사무소가 있냐고 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Past the duty-free shops.",
+          "ko": "면세점을 지나서라는 표현. past는 '~을 지나서'라는 뜻의 전치사로 위치 설명에 자주 쓰임. duty-free는 관세·소비세가 없는 면세를 뜻하며 tax-free와는 다른 개념.",
+          "alternatives": [
+            { "en": "Beyond the duty-free area.", "ko": "면세 구역을 지나서라는 표현." },
+            { "en": "After the shopping zone.", "ko": "쇼핑 구역 이후라는 표현." }
+          ]
+        },
+        {
+          "en": "Self-service kiosk.",
+          "ko": "셀프서비스 키오스크를 뜻하는 표현. 일부 공항에서는 줄 서지 않고 기계에서 직접 환급 신청을 처리할 수 있으며, 유럽의 Global Blue나 Planet 서비스가 대표적.",
+          "alternatives": [
+            { "en": "Automated refund machine.", "ko": "자동 환급 기계라는 표현." },
+            { "en": "Tax refund kiosk.", "ko": "택스리펀 전용 키오스크라는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch28_d07",
+      "title": "현금 또는 카드 환급 선택하기",
+      "lines": [
+        { "speaker": "직원", "en": "Would you like your refund in cash or back to your card?", "ko": "환급을 현금으로 받으시겠어요, 아니면 카드로 돌려드릴까요?" },
+        { "speaker": "나", "en": "What currency would the cash be in?", "ko": "현금은 어느 통화로 나오나요?" },
+        { "speaker": "직원", "en": "Euros, or we can convert to Korean won at today's rate.", "ko": "유로로 드리거나, 오늘 환율로 한국 원화로 환전해 드릴 수 있어요." },
+        { "speaker": "나", "en": "I'll take cash in euros, please.", "ko": "유로 현금으로 받겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Would you like your refund in cash or back to your card?",
+          "ko": "현금 환급과 카드 환급 중 선택을 묻는 표현. 카드 환급은 'back to your card'라고 표현하며, 처리 기간이 며칠 걸릴 수 있음. 현금은 즉시 받을 수 있음.",
+          "alternatives": [
+            { "en": "Cash refund or credit card refund?", "ko": "현금 환급인지 카드 환급인지 묻는 간결한 표현." },
+            { "en": "How would you like to receive your refund?", "ko": "환급을 어떻게 받을지 묻는 개방형 질문." }
+          ]
+        },
+        {
+          "en": "What currency would the cash be in?",
+          "ko": "현금이 어느 통화인지 묻는 표현. 유럽에서는 기본적으로 유로로 환급하지만, 일부 서비스는 자국 통화로도 제공함. currency는 통화를 뜻함.",
+          "alternatives": [
+            { "en": "Will it be in euros?", "ko": "유로로 나오냐고 확인하는 표현." },
+            { "en": "Can I get it in my local currency?", "ko": "자국 통화로 받을 수 있냐고 묻는 표현." }
+          ]
+        },
+        {
+          "en": "I'll take cash in euros.",
+          "ko": "유로 현금으로 받겠다고 선택하는 표현. 'I'll take ~'는 '~로 하겠습니다'라는 결정 표현으로 음식 주문이나 서비스 선택 시 두루 사용됨.",
+          "alternatives": [
+            { "en": "Cash, please.", "ko": "현금으로 달라는 간결한 표현." },
+            { "en": "I'd prefer cash.", "ko": "현금을 선호한다는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch28_d08",
+      "title": "포장 미개봉 확인하기",
+      "lines": [
+        { "speaker": "세관원", "en": "Have these items been opened or used?", "ko": "이 물건들, 개봉하거나 사용하셨나요?" },
+        { "speaker": "나", "en": "No, they're all still sealed in the original packaging.", "ko": "아니요, 모두 원래 포장 그대로 밀봉되어 있습니다." },
+        { "speaker": "세관원", "en": "Good. You cannot use the items before you leave the country.", "ko": "좋습니다. 출국 전에 물건을 사용하시면 안 됩니다." },
+        { "speaker": "나", "en": "Understood. I'll keep them packed until I get home.", "ko": "알겠습니다. 집에 돌아갈 때까지 포장을 유지하겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "They're all still sealed.",
+          "ko": "모두 밀봉 상태라는 표현. sealed는 '봉인된, 밀봉된'의 뜻으로 포장이 뜯기지 않은 상태를 말함. 택스리펀을 받으려면 출국 전까지 미개봉 상태를 유지해야 함.",
+          "alternatives": [
+            { "en": "Still in the original packaging.", "ko": "원래 포장 그대로라는 표현." },
+            { "en": "Unopened and unused.", "ko": "개봉도 사용도 안 했다는 표현." }
+          ]
+        },
+        {
+          "en": "You cannot use the items before leaving.",
+          "ko": "출국 전에 물건을 사용하면 안 된다는 규정 설명. tax refund는 해외로 반출하는 물건에 대해 부가세를 돌려주는 것이므로 출국 전 사용은 자격 박탈 사유가 됨.",
+          "alternatives": [
+            { "en": "The goods must remain unused.", "ko": "물건은 미사용 상태여야 한다는 표현." },
+            { "en": "Keep them as-is until you exit.", "ko": "출국할 때까지 그 상태로 두라는 표현." }
+          ]
+        },
+        {
+          "en": "I'll keep them packed.",
+          "ko": "포장을 유지하겠다는 표현. keep ~ packed는 '포장된 상태를 유지하다'는 뜻. 세관 검사에서 포장을 뜯지 않은 상태임을 확인받는 것이 중요함.",
+          "alternatives": [
+            { "en": "I won't open them.", "ko": "열지 않겠다는 간결한 표현." },
+            { "en": "I'll leave them sealed.", "ko": "밀봉 상태로 두겠다는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch28_d09",
+      "title": "공항 마감 시간 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Is there a deadline for submitting the tax refund form?", "ko": "택스리펀 양식 제출 마감 시간이 있나요?" },
+        { "speaker": "직원", "en": "Yes, you must do it before check-in, not after.", "ko": "네, 체크인 전에 처리하셔야 해요, 이후에는 안 됩니다." },
+        { "speaker": "나", "en": "Can I do it after going through security?", "ko": "보안 검색대 통과 후에 할 수 있나요?" },
+        { "speaker": "직원", "en": "Only if the refund desk is airside. Most are landside.", "ko": "환급 창구가 출국장 안에 있는 경우만요. 대부분은 출국 전 구역에 있어요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Is there a deadline for submitting the form?",
+          "ko": "마감 시간이 있냐고 묻는 표현. deadline은 기한이나 마감을 뜻하며, 택스리펀은 공항 절차 중 가장 시간이 많이 걸리므로 미리 확인해야 함.",
+          "alternatives": [
+            { "en": "By when do I need to hand this in?", "ko": "언제까지 제출해야 하냐고 묻는 표현." },
+            { "en": "What's the cutoff time?", "ko": "마감 시각이 언제냐고 묻는 표현. cutoff는 차단 시점, 마감을 뜻함." }
+          ]
+        },
+        {
+          "en": "Before check-in, not after.",
+          "ko": "체크인 전에, 이후에는 안 된다는 표현. 택스리펀은 대부분 체크인 전에 처리해야 하며, 짐을 먼저 붙이면 세관 검사를 위해 다시 꺼낼 수 없으므로 주의.",
+          "alternatives": [
+            { "en": "Before you drop off your luggage.", "ko": "짐을 맡기기 전에라는 표현." },
+            { "en": "Prior to baggage check-in.", "ko": "수하물 체크인 전에라는 격식 있는 표현." }
+          ]
+        },
+        {
+          "en": "Airside vs. landside.",
+          "ko": "출국장 안(airside)과 출국 전 구역(landside)을 구분하는 표현. airside는 보안 검색과 출입국 심사를 통과한 구역, landside는 그 바깥 공개 구역을 뜻함.",
+          "alternatives": [
+            { "en": "After passport control.", "ko": "출입국 심사 이후 구역이라는 표현." },
+            { "en": "Inside the departure lounge.", "ko": "출발 라운지 내부라는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch28_d10",
+      "title": "수수료 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Is there a handling fee for the refund?", "ko": "환급 처리 수수료가 있나요?" },
+        { "speaker": "직원", "en": "Yes, there's a small processing fee of about 3 euros.", "ko": "네, 약 3유로의 소액 처리 수수료가 있습니다." },
+        { "speaker": "나", "en": "So what will my actual refund amount be?", "ko": "그러면 실제로 받는 환급액이 얼마인가요?" },
+        { "speaker": "직원", "en": "Your VAT was €22, minus the fee, so you'll receive about €19.", "ko": "부가세가 22유로였으니, 수수료를 빼면 약 19유로를 받으십니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Is there a handling fee?",
+          "ko": "취급 수수료가 있냐고 묻는 표현. handling fee는 서비스 처리 비용으로, 택스리펀 대행 업체(Global Blue 등)에서 환급액 일부를 수수료로 공제함.",
+          "alternatives": [
+            { "en": "Are there any charges for this?", "ko": "수수료가 있냐고 묻는 표현." },
+            { "en": "Will I be charged a fee?", "ko": "수수료가 부과되냐고 묻는 표현." }
+          ]
+        },
+        {
+          "en": "A small processing fee.",
+          "ko": "소액의 처리 수수료라는 표현. processing fee는 행정 처리 비용을 뜻하며, 환급 서비스마다 다름. small을 붙여 금액이 크지 않음을 암시.",
+          "alternatives": [
+            { "en": "A service charge.", "ko": "서비스 요금이라는 표현. 수수료를 service charge로도 표현함." },
+            { "en": "An administrative fee.", "ko": "행정 수수료라는 격식 있는 표현." }
+          ]
+        },
+        {
+          "en": "What will my actual refund amount be?",
+          "ko": "실제 환급액이 얼마인지 묻는 표현. actual은 '실제의'라는 뜻으로, 수수료를 공제한 뒤 실수령액을 확인할 때 씀.",
+          "alternatives": [
+            { "en": "How much will I actually get back?", "ko": "실제로 얼마를 돌려받냐고 묻는 캐주얼한 표현." },
+            { "en": "What's the net refund after fees?", "ko": "수수료 공제 후 순 환급액이 얼마냐고 묻는 표현." }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch28_set01_001",
+          "type": "multiple_choice",
+          "question": "상점에서 택스리펀 서비스가 있는지 물어볼 때 가장 자연스러운 표현은?",
+          "options": [
+            "Do you offer tax-free shopping?",
+            "Can I get a free tax?",
+            "Do you have VAT money?",
+            "Is there a tax discount here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you offer tax-free shopping?'은 면세 쇼핑 서비스를 제공하는지 묻는 표준 표현입니다. 'free tax'는 없는 표현이고, 'VAT money'나 'tax discount'도 택스리펀 맥락에서 어색한 표현입니다."
+        },
+        {
+          "id": "se_ch28_set01_002",
+          "type": "multiple_choice",
+          "question": "택스리펀 신청을 위한 최소 구매 금액을 묻는 표현으로 알맞은 것은?",
+          "options": [
+            "What's the minimum purchase for a tax refund?",
+            "How cheap is the tax refund?",
+            "What is the cheapest item for refund?",
+            "How much is the tax?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'minimum purchase'는 택스리펀을 신청하기 위한 최저 구매 금액을 뜻하는 핵심 표현입니다. 나머지는 맥락에 맞지 않거나 잘못된 의미를 전달하는 표현입니다."
+        },
+        {
+          "id": "se_ch28_set01_003",
+          "type": "multiple_choice",
+          "question": "공항에서 세관 도장을 받을 수 있는 곳을 물어볼 때 알맞은 표현은?",
+          "options": [
+            "Where is the information desk?",
+            "Where can I get a customs stamp?",
+            "Where is the baggage claim?",
+            "Where do I get a boarding pass stamp?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'customs stamp'는 세관 도장을 뜻하는 표현으로, 택스리펀 신청에 필수적입니다. 'boarding pass stamp'는 탑승권 도장으로 다른 것이고, 나머지 선택지는 전혀 다른 장소를 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch28_set01_004",
+          "type": "multiple_choice",
+          "question": "환급 창구 위치를 묻는 표현으로 가장 알맞은 것은?",
+          "options": [
+            "Where is the check-in counter?",
+            "Where is the lost and found?",
+            "Where is the tax refund desk?",
+            "Where is the currency exchange?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'tax refund desk'는 택스리펀 환급 창구를 뜻합니다. 'check-in counter'는 체크인 카운터, 'lost and found'는 분실물 센터, 'currency exchange'는 환전소로 모두 다른 장소입니다."
+        },
+        {
+          "id": "se_ch28_set01_005",
+          "type": "multiple_choice",
+          "question": "세관원이 물건 개봉 여부를 물었을 때 '모두 원래 포장 그대로 밀봉되어 있습니다'라는 뜻의 표현은?",
+          "options": [
+            "They are all open.",
+            "I already used them.",
+            "They are all still sealed in the original packaging.",
+            "I removed the packaging."
+          ],
+          "answerIndex": 2,
+          "explanation": "'sealed in the original packaging'은 원래 포장 상태로 밀봉되어 있다는 표현입니다. 택스리펀을 받으려면 출국 전까지 물건이 미개봉 상태여야 합니다."
+        },
+        {
+          "id": "se_ch28_set01_006",
+          "type": "multiple_choice",
+          "question": "택스리펀 환급을 현금과 카드 중 선택하라는 질문에 '현금으로 받겠습니다'라는 표현으로 알맞은 것은?",
+          "options": [
+            "I'd like it on my card.",
+            "I'll take cash, please.",
+            "Send it to my bank.",
+            "Give me a check."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'll take cash'는 현금으로 받겠다고 선택하는 자연스러운 표현입니다. 'I'd like it on my card'는 카드 환급을 선택하는 표현이고, 'check'는 수표로 일반 여행자에게는 해당되지 않습니다."
+        },
+        {
+          "id": "se_ch28_set01_007",
+          "type": "multiple_choice",
+          "question": "직원이 'You must do it before check-in.'이라고 했습니다. 이 말의 의미는?",
+          "options": [
+            "체크인 후에 처리하면 된다.",
+            "보안 검색대 이후에 해야 한다.",
+            "체크인 전에 처리해야 한다.",
+            "비행기 안에서 해도 된다."
+          ],
+          "answerIndex": 2,
+          "explanation": "'before check-in'은 '체크인 전에'라는 뜻입니다. 택스리펀은 짐을 붙이기 전에 처리해야 세관 검사 시 물건을 직접 보여줄 수 있습니다."
+        },
+        {
+          "id": "se_ch28_set01_008",
+          "type": "multiple_choice",
+          "question": "택스리펀 수수료를 묻는 표현으로 가장 알맞은 것은?",
+          "options": [
+            "Is there a handling fee for the refund?",
+            "How much is the tax I owe?",
+            "Do I need to pay more tax?",
+            "What is the total price including VAT?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'handling fee'는 택스리펀 처리 수수료를 뜻합니다. 나머지 표현들은 수수료가 아닌 세금 납부나 가격 확인에 관한 표현으로 맥락이 맞지 않습니다."
+        },
+        {
+          "id": "se_ch28_set01_009",
+          "type": "multiple_choice",
+          "question": "'VAT'가 뜻하는 것은?",
+          "options": [
+            "Value Added Tax (부가가치세)",
+            "Very Affordable Travel (저가 여행)",
+            "Verified Airport Terminal (공항 인증)",
+            "Visa Application Tax (비자 신청세)"
+          ],
+          "answerIndex": 0,
+          "explanation": "VAT는 Value Added Tax의 약자로 부가가치세를 뜻합니다. 유럽 등에서 상품 구매 시 부과되며, 비EU 거주자는 일정 금액 이상 구매 시 출국 시 이를 환급받을 수 있습니다."
+        },
+        {
+          "id": "se_ch28_set01_010",
+          "type": "multiple_choice",
+          "question": "택스리펀 절차를 올바른 순서로 나열한 것은?",
+          "options": [
+            "환급 창구 → 세관 도장 → 상점에서 양식",
+            "상점에서 양식 → 세관 도장 → 환급 창구",
+            "세관 도장 → 상점에서 양식 → 환급 창구",
+            "상점에서 양식 → 환급 창구 → 세관 도장"
+          ],
+          "answerIndex": 1,
+          "explanation": "올바른 순서는 '상점에서 tax-free form 받기 → 공항 세관에서 도장 받기 → 환급 창구에서 환급 신청'입니다. 세관 도장 없이는 환급 창구에서 환급을 받을 수 없습니다."
+        },
+        {
+          "id": "se_ch28_set01_011",
+          "type": "ox",
+          "question": "택스리펀(tax refund)과 면세(duty-free)는 완전히 같은 의미이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 택스리펀(tax refund)은 일반 상점에서 구매한 물건에 포함된 부가세(VAT)를 출국 시 돌려받는 것이고, 면세(duty-free)는 공항 면세점에서 세금 없이 물건을 구매하는 것으로 서로 다른 제도입니다."
+        },
+        {
+          "id": "se_ch28_set01_012",
+          "type": "ox",
+          "question": "유럽에서 택스리펀을 받으려면 공항에서 세관 도장(customs stamp)을 받아야 한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 유럽에서 택스리펀을 받으려면 출국 시 공항 세관에서 구매 서류와 물건을 확인받고 도장을 받아야 합니다. 도장이 없으면 환급 창구에서 환급을 받을 수 없습니다."
+        },
+        {
+          "id": "se_ch28_set01_013",
+          "type": "ox",
+          "question": "택스리펀을 받으려는 물건을 출국 전에 사용하거나 개봉하면 환급 자격을 잃을 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 택스리펀은 해외로 반출되는 미사용 물건에 대한 부가세 환급이므로, 출국 전 사용하거나 포장을 뜯으면 세관에서 환급 자격을 인정받지 못할 수 있습니다."
+        },
+        {
+          "id": "se_ch28_set01_014",
+          "type": "ox",
+          "question": "택스리펀 환급은 반드시 현금으로만 받을 수 있다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 택스리펀 환급은 현금(cash) 또는 신용카드(credit card)로 받을 수 있습니다. 현금은 즉시 수령 가능하고, 카드 환급은 처리까지 며칠이 소요될 수 있습니다."
+        }
+      ]
+    }
+  ]
+}

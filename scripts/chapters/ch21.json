@@ -1,0 +1,532 @@
+{
+  "id": "ch21",
+  "title": "결제·팁·요청",
+  "summary": "식사 후 계산서 요청, 팁 포함 여부 확인, 카드·분할·현금 결제, 영수증·금액 오류, 추가 요청, 포장, 서비스 만족 표현까지",
+  "dialogues": [
+    {
+      "id": "ch21_d01",
+      "title": "계산서 요청하기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, could we get the check, please?", "ko": "실례합니다, 계산서를 가져다 주시겠어요?" },
+        { "speaker": "종업원", "en": "Of course, I'll bring it right over.", "ko": "물론이죠, 바로 가져다 드리겠습니다." },
+        { "speaker": "나", "en": "No rush, whenever you're ready.", "ko": "서두르지 않으셔도 돼요, 준비되실 때요." },
+        { "speaker": "종업원", "en": "Here you go. Take your time.", "ko": "여기 있습니다. 천천히 보세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Could we get the check, please?",
+          "ko": "계산서를 요청하는 표현. 미국식은 'check', 영국식은 'bill'을 사용. 유럽 식당은 먼저 계산서를 가져오지 않으므로 직접 요청해야 함.",
+          "alternatives": [
+            { "en": "The bill, please.", "ko": "영국·유럽에서 더 자주 쓰이는 계산서 요청 표현." },
+            { "en": "Can we pay now, please?", "ko": "계산하고 싶다는 의사를 직접 표현하는 방식." }
+          ]
+        },
+        {
+          "en": "I'll bring it right over.",
+          "ko": "'right over'는 '곧바로 이쪽으로'라는 뜻으로 즉시 가져오겠다는 표현. 'right away'와 비슷하지만 방향 뉘앙스가 있음.",
+          "alternatives": [
+            { "en": "I'll get that for you right away.", "ko": "바로 처리해 드리겠다는 표현. right away는 즉시라는 뜻." },
+            { "en": "Coming right up!", "ko": "주문이나 요청에 즉각 응할 때 쓰는 활기찬 표현." }
+          ]
+        },
+        {
+          "en": "No rush.",
+          "ko": "서두르지 않아도 된다는 표현. 상대방에게 시간 압박을 주지 않을 때 유용한 배려 표현. 'Take your time'과 비슷한 뜻.",
+          "alternatives": [
+            { "en": "Whenever you're ready.", "ko": "준비됐을 때 언제든이라는 여유 있는 표현." },
+            { "en": "There's no hurry.", "ko": "서두를 필요 없다는 의미의 조금 더 격식 있는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch21_d02",
+      "title": "팁 포함 여부 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, is service included in the bill?", "ko": "실례합니다, 계산서에 서비스 요금이 포함되어 있나요?" },
+        { "speaker": "종업원", "en": "Yes, there's a 12.5% service charge already included.", "ko": "네, 이미 12.5% 서비스 요금이 포함되어 있습니다." },
+        { "speaker": "나", "en": "Oh, I see. So I don't need to leave extra?", "ko": "아, 그렇군요. 그러면 추가로 팁을 드리지 않아도 되는 건가요?" },
+        { "speaker": "종업원", "en": "That's entirely up to you, but it's not expected.", "ko": "전적으로 고객님 마음에 달려 있지만, 기대하진 않습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Is service included?",
+          "ko": "서비스 요금(팁)이 계산서에 이미 포함되어 있는지 확인하는 표현. 유럽 식당은 서비스 차지가 포함된 경우가 많아 이중으로 팁을 낼 필요가 없을 수 있음.",
+          "alternatives": [
+            { "en": "Is the tip already included?", "ko": "팁이 이미 포함되었는지 더 직접적으로 묻는 표현." },
+            { "en": "Does this include a service charge?", "ko": "서비스 차지 포함 여부를 확인하는 표현." }
+          ]
+        },
+        {
+          "en": "There's a 12.5% service charge already included.",
+          "ko": "서비스 요금이 이미 청구되어 있다는 직원 답변. 영국 레스토랑에서 흔히 볼 수 있으며, 이미 포함된 경우 추가 팁은 선택 사항.",
+          "alternatives": [
+            { "en": "Service is included in your bill.", "ko": "서비스 요금이 계산서에 포함되어 있다는 간결한 표현." },
+            { "en": "The service charge is already on the bill.", "ko": "서비스 차지가 계산서에 이미 있다는 확인 표현." }
+          ]
+        },
+        {
+          "en": "That's entirely up to you.",
+          "ko": "전적으로 당신에게 달려 있다는 표현. 강요하지 않고 선택권을 존중하는 뉘앙스. 팁 문화에서 자주 듣게 되는 표현.",
+          "alternatives": [
+            { "en": "It's your choice.", "ko": "당신의 선택이라는 더 짧은 표현." },
+            { "en": "It's completely optional.", "ko": "완전히 선택 사항이라는 의미의 격식 있는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch21_d03",
+      "title": "카드로 결제하기",
+      "lines": [
+        { "speaker": "나", "en": "Can I pay by card?", "ko": "카드로 결제할 수 있나요?" },
+        { "speaker": "종업원", "en": "Yes, we accept all major credit and debit cards.", "ko": "네, 모든 주요 신용카드와 직불카드를 받습니다." },
+        { "speaker": "나", "en": "Great. Here's my card.", "ko": "좋아요. 여기 제 카드입니다." },
+        { "speaker": "종업원", "en": "Could you tap your card on the reader, please?", "ko": "카드를 단말기에 탭해 주시겠어요?" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Can I pay by card?",
+          "ko": "카드 결제 가능 여부를 확인하는 표현. 유럽 소규모 식당은 현금만 받는 경우도 있으므로 미리 확인하는 것이 좋음. 'by card'가 핵심 표현.",
+          "alternatives": [
+            { "en": "Do you accept credit cards?", "ko": "신용카드를 받는지 직접 묻는 표현." },
+            { "en": "Can I use my card here?", "ko": "카드를 쓸 수 있는지 확인하는 캐주얼한 표현." }
+          ]
+        },
+        {
+          "en": "We accept all major credit and debit cards.",
+          "ko": "주요 카드 모두 받는다는 직원 답변. 'major'는 Visa, Mastercard, Amex 등 대형 브랜드를 의미. debit card는 직불카드로 체크카드와 유사함.",
+          "alternatives": [
+            { "en": "Card is fine.", "ko": "카드 결제 가능하다는 가장 간단한 확인 표현." },
+            { "en": "Yes, we take card payments.", "ko": "카드 결제를 받는다는 자연스러운 표현." }
+          ]
+        },
+        {
+          "en": "Could you tap your card on the reader?",
+          "ko": "비접촉 결제를 요청하는 표현. 'tap'은 카드를 단말기에 가볍게 터치하는 행위. 요즘 유럽에서는 비접촉(contactless) 결제가 일반적.",
+          "alternatives": [
+            { "en": "Please insert or tap your card.", "ko": "삽입 또는 탭 방식 중 선택하라는 표현." },
+            { "en": "Just tap your card here.", "ko": "단말기를 가리키며 탭해달라는 캐주얼한 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch21_d04",
+      "title": "따로 계산하기",
+      "lines": [
+        { "speaker": "나", "en": "Could we have separate checks, please?", "ko": "따로따로 계산서를 받을 수 있을까요?" },
+        { "speaker": "종업원", "en": "Of course. How many separate bills would you like?", "ko": "물론이죠. 계산서를 몇 개로 나눠 드릴까요?" },
+        { "speaker": "나", "en": "Three separate ones, please. One per person.", "ko": "3개로요, 부탁드립니다. 한 명당 하나씩이요." },
+        { "speaker": "종업원", "en": "No problem at all. I'll sort that out for you.", "ko": "전혀 문제 없습니다. 처리해 드리겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Could we have separate checks?",
+          "ko": "각자 계산을 원할 때 쓰는 표현. 미국식은 'checks', 영국식은 'bills'. 'split the bill'은 총액을 나누는 것이고, 'separate checks'는 아예 따로 계산서를 받는 것.",
+          "alternatives": [
+            { "en": "Can we split the bill?", "ko": "총액을 나눠 낼 때 쓰는 표현. 각자 계산서가 아닌 금액 분담의 뉘앙스." },
+            { "en": "We'd like to pay separately.", "ko": "따로 결제하고 싶다는 직접적인 표현." }
+          ]
+        },
+        {
+          "en": "One per person.",
+          "ko": "'per'는 ~당, ~마다를 뜻하는 전치사. 'one per person'은 한 명당 하나씩이라는 명확한 분배 표현. 숫자와 함께 쓰면 매우 유용함.",
+          "alternatives": [
+            { "en": "One for each of us.", "ko": "우리 각자 하나씩이라는 표현." },
+            { "en": "Each person pays for themselves.", "ko": "각자 자신의 것을 낸다는 명확한 설명." }
+          ]
+        },
+        {
+          "en": "I'll sort that out for you.",
+          "ko": "'sort out'은 문제나 상황을 처리·해결하다는 영국식 표현. 직원이 요청을 처리하겠다고 할 때 자주 들을 수 있음.",
+          "alternatives": [
+            { "en": "I'll take care of that.", "ko": "처리해 드리겠다는 미국식 표현." },
+            { "en": "Leave it to me.", "ko": "저한테 맡겨달라는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch21_d05",
+      "title": "현금으로 결제하고 잔돈 받기",
+      "lines": [
+        { "speaker": "나", "en": "I'd like to pay in cash. Here's fifty euros.", "ko": "현금으로 내고 싶어요. 50유로 여기 있습니다." },
+        { "speaker": "종업원", "en": "Your total is forty-two euros, so here's eight euros change.", "ko": "총액은 42유로이니, 거스름돈 8유로 여기 있습니다." },
+        { "speaker": "나", "en": "Thank you. You can keep the change.", "ko": "감사합니다. 잔돈은 그냥 가지세요." },
+        { "speaker": "종업원", "en": "That's very kind of you. Thank you so much!", "ko": "정말 친절하시네요. 정말 감사합니다!" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I'd like to pay in cash.",
+          "ko": "현금으로 결제하겠다는 표현. 'pay in cash'가 핵심 표현. 'pay with cash'도 같은 뜻으로 쓰임.",
+          "alternatives": [
+            { "en": "I'll pay cash.", "ko": "현금으로 낸다는 더 간결한 표현." },
+            { "en": "Do you take cash?", "ko": "현금을 받는지 먼저 확인하는 표현." }
+          ]
+        },
+        {
+          "en": "Here's your change.",
+          "ko": "거스름돈을 건넬 때 쓰는 표현. 'change'는 잔돈·거스름돈을 의미. 금액을 앞에 붙여 'Here's eight euros change'처럼 말하는 게 자연스러움.",
+          "alternatives": [
+            { "en": "Your change is eight euros.", "ko": "거스름돈이 얼마인지 명확히 밝히는 표현." },
+            { "en": "And here's the change.", "ko": "잔돈을 건네며 쓰는 간단한 표현." }
+          ]
+        },
+        {
+          "en": "You can keep the change.",
+          "ko": "잔돈을 팁으로 주겠다는 표현. 식당이나 택시에서 팁을 줄 때 자주 쓰이는 자연스러운 표현. 직접 '팁'이라고 말하지 않아도 의미가 통함.",
+          "alternatives": [
+            { "en": "Keep the change.", "ko": "같은 뜻의 더 짧은 표현으로 일상에서 자주 쓰임." },
+            { "en": "That's for you.", "ko": "잔돈이나 팁을 건네며 '이건 당신 것'이라는 뜻으로 쓰는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch21_d06",
+      "title": "영수증 요청하기",
+      "lines": [
+        { "speaker": "나", "en": "Could I get a receipt, please?", "ko": "영수증을 받을 수 있을까요?" },
+        { "speaker": "종업원", "en": "Sure! Would you like a printed receipt or an email one?", "ko": "물론이죠! 종이 영수증을 드릴까요, 이메일로 보내드릴까요?" },
+        { "speaker": "나", "en": "A printed one, please.", "ko": "종이로 부탁드려요." },
+        { "speaker": "종업원", "en": "Here you go. Have a lovely evening!", "ko": "여기 있습니다. 즐거운 저녁 보내세요!" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Could I get a receipt, please?",
+          "ko": "영수증을 요청하는 표현. 'receipt'는 결제 후 받는 영수증이고, 'bill/check'는 결제 전 계산서. 두 단어를 혼동하지 않도록 주의.",
+          "alternatives": [
+            { "en": "Can I have a receipt?", "ko": "영수증을 달라는 더 짧고 캐주얼한 표현." },
+            { "en": "May I have proof of payment?", "ko": "결제 증빙을 달라는 더 격식 있는 표현." }
+          ]
+        },
+        {
+          "en": "A printed receipt.",
+          "ko": "종이 영수증을 뜻하는 표현. 요즘은 이메일이나 디지털 영수증도 흔하므로 원하는 형식을 말해두면 편리함.",
+          "alternatives": [
+            { "en": "A paper receipt, please.", "ko": "종이 영수증을 달라는 같은 의미의 표현." },
+            { "en": "Just email it to me.", "ko": "이메일로 보내달라는 표현." }
+          ]
+        },
+        {
+          "en": "Have a lovely evening!",
+          "ko": "헤어질 때 좋은 저녁을 보내라고 인사하는 표현. 식당 직원이 자주 쓰는 배웅 표현으로 'Have a great night!'과 비슷한 뜻.",
+          "alternatives": [
+            { "en": "Have a great night!", "ko": "즐거운 밤 보내라는 좋은 저녁 인사 표현." },
+            { "en": "Enjoy the rest of your evening!", "ko": "남은 저녁을 즐기라는 따뜻한 배웅 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch21_d07",
+      "title": "금액 오류 지적하기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, I think there might be a mistake on the bill.", "ko": "실례합니다, 계산서에 오류가 있는 것 같아요." },
+        { "speaker": "종업원", "en": "Oh, I'm sorry to hear that. What seems to be the problem?", "ko": "아, 죄송합니다. 어떤 문제가 있는 건가요?" },
+        { "speaker": "나", "en": "We only ordered two desserts, but we've been charged for three.", "ko": "저희는 디저트를 두 개만 주문했는데, 세 개로 청구되었어요." },
+        { "speaker": "종업원", "en": "I apologize for that. Let me correct it right away.", "ko": "죄송합니다. 바로 수정해 드리겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I think there might be a mistake on the bill.",
+          "ko": "계산서 오류를 정중하게 지적하는 표현. 'there might be'처럼 불확실한 표현을 쓰면 단정하지 않으면서도 문제를 제기할 수 있어 좋음.",
+          "alternatives": [
+            { "en": "I think there's an error on my bill.", "ko": "오류가 있는 것 같다는 직접적인 표현." },
+            { "en": "Something doesn't look right on the check.", "ko": "계산서에 뭔가 이상한 것 같다는 부드러운 표현." }
+          ]
+        },
+        {
+          "en": "We've been charged for three.",
+          "ko": "'be charged for'는 ~에 대해 청구되었다는 수동태 표현. 직접적으로 금액 오류를 설명할 때 매우 유용한 패턴.",
+          "alternatives": [
+            { "en": "We were billed for three.", "ko": "세 개로 청구됐다는 같은 의미의 표현." },
+            { "en": "The bill shows three, but we only had two.", "ko": "계산서와 실제 주문의 불일치를 설명하는 표현." }
+          ]
+        },
+        {
+          "en": "Let me correct it right away.",
+          "ko": "바로 수정하겠다는 직원의 응대 표현. 'right away'는 즉시를 뜻함. 'Let me ~'는 내가 ~하겠다는 주도적인 표현.",
+          "alternatives": [
+            { "en": "I'll fix that immediately.", "ko": "즉시 수정하겠다는 표현." },
+            { "en": "I'll bring you an updated bill.", "ko": "수정된 계산서를 가져오겠다는 구체적인 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch21_d08",
+      "title": "냅킨과 물 추가 요청하기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, could we have some more napkins?", "ko": "실례합니다, 냅킨을 좀 더 주시겠어요?" },
+        { "speaker": "종업원", "en": "Of course! And can I get you anything else?", "ko": "물론이죠! 다른 것도 필요하신 게 있나요?" },
+        { "speaker": "나", "en": "Could we get some more water as well, please?", "ko": "물도 좀 더 주시겠어요?" },
+        { "speaker": "종업원", "en": "Still or sparkling?", "ko": "탄산 없는 것과 탄산 있는 것 중 어느 것으로 드릴까요?" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Could we have some more napkins?",
+          "ko": "냅킨 추가를 정중하게 요청하는 표현. 'Could we have ~?'는 'Give me ~'보다 훨씬 정중한 요청 방식. 'some more'은 추가로 더 달라는 의미.",
+          "alternatives": [
+            { "en": "May we have extra napkins?", "ko": "추가 냅킨을 달라는 더 격식 있는 표현." },
+            { "en": "Can I get more napkins, please?", "ko": "나 혼자 추가 냅킨을 요청하는 캐주얼한 표현." }
+          ]
+        },
+        {
+          "en": "Could we get some more water as well?",
+          "ko": "'as well'은 '~도, 또한'을 뜻하는 표현으로 앞서 요청한 것에 추가로 더 달라고 할 때 유용. 'too'와 같은 뜻이지만 문장 끝보다는 중간에 더 자연스럽게 쓰임.",
+          "alternatives": [
+            { "en": "And some water too, please?", "ko": "'too'를 사용한 같은 의미의 표현." },
+            { "en": "Could we also get a refill on the water?", "ko": "물 리필을 요청하는 구체적인 표현." }
+          ]
+        },
+        {
+          "en": "Still or sparkling?",
+          "ko": "물 종류를 묻는 표현. 'still water'는 탄산 없는 일반 물, 'sparkling water'는 탄산수. 유럽 식당에서는 물을 주문할 때 반드시 종류를 물어봄.",
+          "alternatives": [
+            { "en": "Sparkling or still?", "ko": "어순을 바꾼 같은 의미의 물 종류 확인 질문." },
+            { "en": "Would you like still or sparkling water?", "ko": "물의 종류를 풀어서 묻는 더 친절한 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch21_d09",
+      "title": "남은 음식 포장해 가기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, could I get this to go, please?", "ko": "실례합니다, 이걸 포장해 갈 수 있을까요?" },
+        { "speaker": "종업원", "en": "Of course! Would you like a box for that?", "ko": "물론이죠! 박스에 넣어 드릴까요?" },
+        { "speaker": "나", "en": "Yes, please. It's too good to waste.", "ko": "네, 부탁드려요. 너무 맛있어서 버리기 아깝네요." },
+        { "speaker": "종업원", "en": "I'll wrap that up for you right away.", "ko": "바로 포장해 드리겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Could I get this to go?",
+          "ko": "남은 음식을 포장해 달라는 표현. 'to go'는 미국식 표현으로 포장 또는 테이크아웃을 의미. 영국에서는 'take away'를 씀. 두 표현 모두 통함.",
+          "alternatives": [
+            { "en": "Can I have a doggy bag?", "ko": "남은 음식을 싸주는 봉투를 요청하는 미국식 표현. 유럽에서는 다소 생소할 수 있음." },
+            { "en": "Could you wrap this up for me?", "ko": "포장해달라는 직접적인 표현." }
+          ]
+        },
+        {
+          "en": "Would you like a box for that?",
+          "ko": "포장 박스가 필요한지 묻는 직원 표현. 'Would you like ~?'는 제안이나 권유를 할 때 쓰는 정중한 표현.",
+          "alternatives": [
+            { "en": "Shall I put that in a container?", "ko": "용기에 담아줄까요라는 격식 있는 표현." },
+            { "en": "Do you need a takeaway box?", "ko": "포장 박스가 필요한지 묻는 영국식 표현." }
+          ]
+        },
+        {
+          "en": "I'll wrap that up for you.",
+          "ko": "'wrap up'은 포장하다·마무리하다는 뜻. 음식을 포장하거나 무언가를 감쌀 때 쓰는 표현. 'right away'를 붙이면 즉시 하겠다는 뉘앙스 추가.",
+          "alternatives": [
+            { "en": "I'll pack that up for you.", "ko": "짐을 싸듯 포장해준다는 같은 의미의 표현." },
+            { "en": "I'll get a box for you.", "ko": "박스를 가져다 주겠다는 더 간단한 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch21_d10",
+      "title": "서비스 칭찬하고 팁 남기기",
+      "lines": [
+        { "speaker": "나", "en": "Everything was wonderful. We really enjoyed the meal.", "ko": "모든 것이 훌륭했어요. 식사가 정말 즐거웠습니다." },
+        { "speaker": "종업원", "en": "Thank you so much! That's lovely to hear.", "ko": "정말 감사합니다! 그런 말씀을 들으니 기쁘네요." },
+        { "speaker": "나", "en": "Please keep this — it's for you.", "ko": "이건 가지세요, 당신을 위한 거예요." },
+        { "speaker": "종업원", "en": "That's very generous of you. Thank you so much!", "ko": "정말 감사합니다. 너무 감사드려요!" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Everything was wonderful.",
+          "ko": "전반적인 만족을 표현하는 간결하고 강한 칭찬. 음식, 서비스, 분위기 모두 훌륭했다는 의미를 한 문장에 담을 수 있음.",
+          "alternatives": [
+            { "en": "The food and service were excellent.", "ko": "음식과 서비스를 구체적으로 칭찬하는 표현." },
+            { "en": "We had a fantastic evening.", "ko": "전체적인 경험을 긍정적으로 평가하는 표현." }
+          ]
+        },
+        {
+          "en": "That's lovely to hear.",
+          "ko": "좋은 말을 들어서 기쁘다는 직원의 감사 표현. 영국식 영어에서 자주 쓰이며, 'lovely'는 영국에서 매우 자주 쓰이는 칭찬·감사 단어.",
+          "alternatives": [
+            { "en": "I'm so glad you enjoyed it.", "ko": "즐기셨다니 기쁘다는 미국·영국 공통 표현." },
+            { "en": "It's always nice to hear that.", "ko": "그런 말을 들으면 늘 좋다는 따뜻한 표현." }
+          ]
+        },
+        {
+          "en": "Please keep this — it's for you.",
+          "ko": "팁을 주는 가장 자연스러운 방법. 직접 '팁'이라고 말하지 않아도 상대방이 바로 이해하는 표현. 'You can keep the change.'와 함께 팁 관련 핵심 표현.",
+          "alternatives": [
+            { "en": "This is for you — thank you for the great service.", "ko": "서비스에 감사하며 팁을 주는 표현." },
+            { "en": "Keep the change, please.", "ko": "거스름돈을 팁으로 주는 표현." }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch21_set01_001",
+          "type": "multiple_choice",
+          "question": "식사 후 계산서를 요청하는 가장 자연스러운 표현은?",
+          "options": [
+            "Check, please.",
+            "Menu, please.",
+            "Order, please.",
+            "Food, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Check, please.'는 식당에서 계산서를 요청하는 가장 일반적인 미국식 표현입니다. 영국·유럽에서는 'The bill, please.'도 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch21_set01_002",
+          "type": "multiple_choice",
+          "question": "계산서에 팁(서비스 요금)이 포함되어 있는지 확인하는 표현은?",
+          "options": [
+            "Is tax refundable?",
+            "Is service included?",
+            "Is water complimentary?",
+            "Is dessert included?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is service included?'는 서비스 차지(팁)가 계산서에 이미 포함되어 있는지 묻는 표현입니다. 유럽 식당에서는 서비스 요금이 포함된 경우가 많으므로 이중 지불을 막기 위해 미리 확인하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch21_set01_003",
+          "type": "multiple_choice",
+          "question": "일행과 함께 각자 결제하고 싶을 때 쓰는 표현은?",
+          "options": [
+            "Can we combine the bill?",
+            "Can we double the bill?",
+            "Can we split the bill?",
+            "Can we skip the bill?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Can we split the bill?'은 계산서를 나눠서 각자 결제하겠다는 표현입니다. 'combine'은 합친다는 반대 의미이고, 'skip'은 건너뛰다는 뜻으로 오해를 일으킬 수 있습니다."
+        },
+        {
+          "id": "se_ch21_set01_004",
+          "type": "multiple_choice",
+          "question": "카드로 결제할 수 있는지 확인하는 표현은?",
+          "options": [
+            "Can I pay by card?",
+            "Can I borrow a card?",
+            "Do you sell gift cards?",
+            "Do you need my card number?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I pay by card?'는 신용카드나 직불카드로 결제 가능 여부를 묻는 표현입니다. 'pay by card'가 핵심 표현이며, 'pay with card'도 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch21_set01_005",
+          "type": "multiple_choice",
+          "question": "식당에서 남은 음식을 포장해 달라고 할 때 쓰는 표현은?",
+          "options": [
+            "Can I freeze this?",
+            "Can you reheat this?",
+            "Could I get this to go?",
+            "Should I wrap this myself?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Could I get this to go?'는 남은 음식을 포장해 달라는 미국식 표현입니다. 영국에서는 'Can I take this away?'나 'Could you wrap this up?'을 더 자주 씁니다."
+        },
+        {
+          "id": "se_ch21_set01_006",
+          "type": "multiple_choice",
+          "question": "계산서에 금액 오류가 있는 것 같을 때 가장 정중하게 지적하는 표현은?",
+          "options": [
+            "This bill is wrong!",
+            "You made a mistake!",
+            "I think there might be a mistake on the bill.",
+            "Calculate again, please."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I think there might be a mistake on the bill.'은 'might be'로 불확실성을 표현해 단정 짓지 않으면서 오류를 정중하게 지적하는 표현입니다. 단정적인 표현보다 상대방을 배려하는 뉘앙스가 있습니다."
+        },
+        {
+          "id": "se_ch21_set01_007",
+          "type": "multiple_choice",
+          "question": "현금을 내고 잔돈을 팁으로 주겠다고 할 때 쓰는 표현은?",
+          "options": [
+            "Give me my change.",
+            "Keep the change.",
+            "Where is my change?",
+            "Exchange this for me."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Keep the change.'는 잔돈을 그냥 가지라, 즉 팁으로 주겠다는 의미의 자연스러운 표현입니다. 'You can keep the change.'도 같은 뜻으로 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch21_set01_008",
+          "type": "multiple_choice",
+          "question": "식당에서 냅킨을 더 달라고 정중하게 요청하는 표현은?",
+          "options": [
+            "Napkin! More!",
+            "Give me napkins.",
+            "Napkins now, please.",
+            "Could we have some more napkins?"
+          ],
+          "answerIndex": 3,
+          "explanation": "'Could we have some more napkins?'는 'Could we ~?' 형식을 사용한 가장 정중한 요청 표현입니다. 명령형이나 단어를 나열하는 표현은 무례하게 들릴 수 있습니다."
+        },
+        {
+          "id": "se_ch21_set01_009",
+          "type": "multiple_choice",
+          "question": "유럽 식당에서 물을 주문할 때 직원이 'Still or sparkling?'이라고 물었습니다. 이 뜻은?",
+          "options": [
+            "차갑게 드릴지 상온으로 드릴지 묻는 것이다.",
+            "탄산수와 일반 물 중 어느 것을 원하는지 묻는 것이다.",
+            "병물과 수돗물 중 어느 것을 원하는지 묻는 것이다.",
+            "물을 한 잔 드릴지 두 잔 드릴지 묻는 것이다."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Still water'는 탄산이 없는 일반 물이고, 'sparkling water'는 탄산수입니다. 유럽 식당에서는 물을 주문할 때 반드시 종류를 선택해야 하는 경우가 많습니다."
+        },
+        {
+          "id": "se_ch21_set01_010",
+          "type": "multiple_choice",
+          "question": "결제 후 영수증을 요청하는 표현으로 알맞은 것은?",
+          "options": [
+            "Could I get a receipt, please?",
+            "Could I get the menu again?",
+            "Can I see the check?",
+            "Bring me the bill."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could I get a receipt, please?'는 결제 후 영수증을 요청하는 표현입니다. 'receipt'는 결제 후 받는 영수증이고, 'bill/check'는 결제 전 계산서임을 구분하는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch21_set01_011",
+          "type": "ox",
+          "question": "유럽 식당에서는 'Is service included?'라고 확인하지 않아도 팁이 절대 포함되지 않으므로 항상 추가로 팁을 내야 한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 유럽 많은 식당에서는 계산서에 서비스 차지(service charge)가 이미 포함된 경우가 있습니다. 'Is service included?'로 먼저 확인한 후 추가 팁 여부를 결정하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch21_set01_012",
+          "type": "ox",
+          "question": "'Check, please.'와 'The bill, please.'는 모두 식당에서 계산서를 요청하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 두 표현 모두 계산서를 요청하는 표현입니다. 'Check'는 미국식, 'bill'은 영국·유럽식 표현이지만 두 지역 모두에서 통합니다."
+        },
+        {
+          "id": "se_ch21_set01_013",
+          "type": "ox",
+          "question": "'Can we split the bill?'은 각자 따로 계산서를 받는 것과 완전히 같은 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Split the bill'은 총액을 나눠 내는 것이고, 'separate checks/bills'는 각자 따로 계산서를 받는 것입니다. 전자는 금액 분담이고 후자는 계산서 자체를 나누는 것이라 다른 상황에서 쓰입니다."
+        },
+        {
+          "id": "se_ch21_set01_014",
+          "type": "ox",
+          "question": "영국 식당에서 포장을 원할 때 'to go'보다 'take away'가 더 자연스러운 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'To go'는 미국식 영어 표현이고, 'take away'는 영국식 영어 표현입니다. 영국에서는 'take away'가 더 자연스럽게 통하지만, 'to go'도 이해는 됩니다."
+        }
+      ]
+    }
+  ]
+}

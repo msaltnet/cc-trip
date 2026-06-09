@@ -1,0 +1,532 @@
+{
+  "id": "ch15",
+  "title": "지하철·버스",
+  "summary": "발권기 사용부터 1일 교통패스, 노선·환승 확인, 버스 목적지·하차 정류장 묻기, 티켓 태그, 반대 방향 수정, 막차 시간, 검표까지 대중교통의 모든 상황을 커버한다.",
+  "dialogues": [
+    {
+      "id": "ch15_d01",
+      "title": "티켓 발권기 사용법 묻기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, how do I use this ticket machine?", "ko": "실례합니다, 이 발권기는 어떻게 사용하나요?" },
+        { "speaker": "직원", "en": "Select your destination on the screen, then choose the number of tickets.", "ko": "화면에서 목적지를 선택하신 다음 매수를 고르시면 됩니다." },
+        { "speaker": "나", "en": "Can I pay by credit card?", "ko": "신용카드로 결제할 수 있나요?" },
+        { "speaker": "직원", "en": "Yes, just tap your card on the reader after confirming the amount.", "ko": "네, 금액을 확인하신 후 카드 단말기에 대시면 됩니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "How do I use this ticket machine?",
+          "ko": "발권기 사용법을 묻는 표현. 'How do I operate ~?'도 같은 뜻이지만 'use'가 훨씬 자연스럽다.",
+          "alternatives": [
+            { "en": "How does this machine work?", "ko": "'이 기계는 어떻게 작동하나요?'로 기계 전반의 작동 방식을 묻는 표현." },
+            { "en": "Could you show me how to buy a ticket?", "ko": "직접 보여달라고 요청하는 표현으로, 말보다 시범을 원할 때 유용." }
+          ]
+        },
+        {
+          "en": "Select your destination on the screen.",
+          "ko": "화면에서 목적지를 선택하라는 지시. 'press', 'touch', 'tap' 모두 화면 조작에 쓸 수 있다.",
+          "alternatives": [
+            { "en": "Touch the name of your stop.", "ko": "정류장 이름을 화면에서 터치하라는 뜻으로 더 직관적인 표현." },
+            { "en": "Pick your stop from the list.", "ko": "목록에서 고르라는 캐주얼한 지시." }
+          ]
+        },
+        {
+          "en": "Can I pay by credit card?",
+          "ko": "신용카드 결제 가능 여부를 묻는 표현. 'pay by cash'(현금), 'pay by card'(카드)로 응용 가능.",
+          "alternatives": [
+            { "en": "Do you accept card payments?", "ko": "카드 결제를 받는지 묻는 격식 있는 표현." },
+            { "en": "Is cash only?", "ko": "현금만 되는지 확인하는 짧고 직접적인 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch15_d02",
+      "title": "1일 교통패스 구매하기",
+      "lines": [
+        { "speaker": "나", "en": "Do you sell a day pass for the metro and bus?", "ko": "지하철과 버스를 함께 쓸 수 있는 1일권을 판매하나요?" },
+        { "speaker": "직원", "en": "Yes, we have an all-day travel card that covers the whole network.", "ko": "네, 전 노선에서 사용 가능한 하루 종일 교통카드가 있습니다." },
+        { "speaker": "나", "en": "How much is it?", "ko": "얼마인가요?" },
+        { "speaker": "직원", "en": "It's twelve dollars per person. It's valid until midnight.", "ko": "1인당 12달러입니다. 자정까지 유효합니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do you sell a day pass?",
+          "ko": "1일권(하루 종일 사용 가능한 패스)을 판매하는지 묻는 표현. 'travel card', 'unlimited day pass'도 같은 개념.",
+          "alternatives": [
+            { "en": "Is there an all-day ticket?", "ko": "하루 종일 사용 가능한 티켓이 있는지 묻는 간단한 표현." },
+            { "en": "Do you have unlimited rides for the day?", "ko": "하루 무제한 탑승권이 있는지 묻는 표현." }
+          ]
+        },
+        {
+          "en": "It covers the whole network.",
+          "ko": "'cover'는 '~를 포함하다/이용 가능하다'는 뜻. 'covers the metro and bus'처럼 구체적으로 쓰기도 한다.",
+          "alternatives": [
+            { "en": "It works on all lines.", "ko": "모든 노선에서 사용 가능하다는 뜻으로 구어에서 자연스럽게 쓰임." },
+            { "en": "You can use it on any bus or train.", "ko": "버스와 기차 어디서든 사용 가능하다는 직접적인 설명." }
+          ]
+        },
+        {
+          "en": "It's valid until midnight.",
+          "ko": "'valid'는 '유효한'이라는 뜻. 유효 기간을 표현할 때 'valid until ~'을 쓴다. 'expires at midnight'도 같은 의미.",
+          "alternatives": [
+            { "en": "It expires at midnight.", "ko": "'expire'는 '만료되다'는 뜻으로 티켓·패스 유효기간 표현에 자주 쓰임." },
+            { "en": "It's good for the rest of the day.", "ko": "당일 남은 시간 동안 유효하다는 뜻의 구어 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch15_d03",
+      "title": "노선·환승 묻기",
+      "lines": [
+        { "speaker": "나", "en": "Which line goes to City Hall?", "ko": "시청으로 가려면 몇 호선을 타야 하나요?" },
+        { "speaker": "행인", "en": "Take Line 2. You'll need to transfer at Central Station.", "ko": "2호선을 타세요. 센트럴역에서 환승하셔야 해요." },
+        { "speaker": "나", "en": "Do I need to buy a new ticket when I transfer?", "ko": "환승할 때 새 티켓을 사야 하나요?" },
+        { "speaker": "행인", "en": "No, just tap your card again at the transfer gate.", "ko": "아니요, 환승 게이트에서 카드를 다시 태그하시면 됩니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Which line goes to ~?",
+          "ko": "목적지로 가는 노선을 묻는 핵심 표현. 'Which train goes to ~?'도 같은 방식으로 쓸 수 있다.",
+          "alternatives": [
+            { "en": "What line do I take to get to ~?", "ko": "어느 노선을 타야 ~에 도착하는지 묻는 표현으로 조금 더 길다." },
+            { "en": "How do I get to ~ by metro?", "ko": "지하철로 ~에 어떻게 가는지 전반적으로 묻는 표현." }
+          ]
+        },
+        {
+          "en": "You'll need to transfer at ~.",
+          "ko": "'transfer'는 환승하다는 뜻. 'change trains/buses at ~'과 동의어이며 둘 다 자연스럽게 쓰인다.",
+          "alternatives": [
+            { "en": "Change trains at Central Station.", "ko": "환승을 'change trains'로 표현하는 영국식 표현. 지하철에서 더 자주 쓰임." },
+            { "en": "Switch to Line 4 at the junction.", "ko": "환승역에서 다른 노선으로 갈아타라는 뜻의 구어 표현." }
+          ]
+        },
+        {
+          "en": "Do I need to buy a new ticket when I transfer?",
+          "ko": "환승 시 새 티켓이 필요한지 묻는 표현. 도시마다 환승 정책이 다르므로 꼭 확인해야 한다.",
+          "alternatives": [
+            { "en": "Is the transfer free with this ticket?", "ko": "현재 티켓으로 환승이 무료인지 확인하는 직접적인 질문." },
+            { "en": "Does this ticket cover the transfer?", "ko": "이 티켓이 환승을 포함하는지 묻는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch15_d04",
+      "title": "이 버스 ~ 가나요?",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, does this bus go to the airport?", "ko": "실례합니다, 이 버스가 공항까지 가나요?" },
+        { "speaker": "기사", "en": "No, this bus goes to the city center. You need the number 7 bus for the airport.", "ko": "아니요, 이 버스는 시내로 갑니다. 공항은 7번 버스를 타셔야 해요." },
+        { "speaker": "나", "en": "Where do I catch the number 7?", "ko": "7번 버스는 어디서 탑승하나요?" },
+        { "speaker": "기사", "en": "There's a stop just across the street, on the other side.", "ko": "길 건너편에 정류장이 있습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Does this bus go to ~?",
+          "ko": "버스의 목적지를 확인하는 가장 직접적인 표현. 'stop at'(특정 장소에 서다)과 달리 'go to'는 최종 방향을 묻는 느낌.",
+          "alternatives": [
+            { "en": "Is this the right bus for ~?", "ko": "이 버스가 ~로 가는 올바른 버스인지 확인하는 표현." },
+            { "en": "Will this bus take me to ~?", "ko": "이 버스를 타면 ~에 데려다 주는지 묻는 표현으로 좀 더 구어적." }
+          ]
+        },
+        {
+          "en": "You need the number 7 bus.",
+          "ko": "버스 번호를 알려줄 때 'the number X bus' 형태를 쓴다. 'Take bus 7' 또는 'Get on the 7' 형태도 흔히 쓰임.",
+          "alternatives": [
+            { "en": "Take the number 7.", "ko": "번호를 지정해서 타라고 알려주는 짧고 간결한 표현." },
+            { "en": "Bus 7 goes to the airport.", "ko": "7번 버스가 공항으로 간다는 정보를 직접 알려주는 표현." }
+          ]
+        },
+        {
+          "en": "Where do I catch the bus?",
+          "ko": "'catch the bus'는 '버스를 타다'라는 구어 표현. 'take a bus'나 'board the bus'보다 더 일상적으로 쓰임.",
+          "alternatives": [
+            { "en": "Where is the bus stop?", "ko": "버스 정류장 위치를 묻는 가장 기본적인 표현." },
+            { "en": "Where do I get on?", "ko": "어디서 탑승해야 하는지 묻는 직접적인 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch15_d05",
+      "title": "하차 정류장 묻기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, which stop should I get off at for the museum?", "ko": "실례합니다, 박물관에 가려면 몇 번 정류장에서 내려야 하나요?" },
+        { "speaker": "행인", "en": "Get off at Museum Park — it's about four stops from here.", "ko": "뮤지엄 파크 정류장에서 내리세요. 여기서 네 정류장 정도예요." },
+        { "speaker": "나", "en": "Could you let me know when we reach that stop?", "ko": "그 정류장에 도착하면 알려주시겠어요?" },
+        { "speaker": "행인", "en": "Sure, I'll give you a heads-up when we're close.", "ko": "물론이죠, 가까워지면 미리 알려드릴게요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Which stop should I get off at?",
+          "ko": "내려야 할 정류장을 묻는 핵심 표현. 'Where do I get off?'보다 정류장 이름이나 번호를 구체적으로 물을 때 쓴다.",
+          "alternatives": [
+            { "en": "Where do I get off for ~?", "ko": "~에 가려면 어디서 내려야 하는지 묻는 짧고 자연스러운 표현." },
+            { "en": "What's the stop for ~?", "ko": "~에 해당하는 정류장 이름을 묻는 간결한 표현." }
+          ]
+        },
+        {
+          "en": "It's about four stops from here.",
+          "ko": "정류장 수로 거리를 표현하는 방법. 'about'을 붙여 대략적인 수를 나타낸다.",
+          "alternatives": [
+            { "en": "It's three stops away.", "ko": "세 정류장 거리라는 뜻의 간단한 표현." },
+            { "en": "Two more stops.", "ko": "앞으로 두 정류장이라는 뜻의 매우 짧은 구어 표현." }
+          ]
+        },
+        {
+          "en": "Could you let me know when we reach that stop?",
+          "ko": "정류장에 도착하면 알려달라는 요청. 처음 가는 길에서 유용하며, 'let me know'는 부드러운 부탁 표현.",
+          "alternatives": [
+            { "en": "Can you tell me when to get off?", "ko": "내릴 때를 알려달라는 조금 더 캐주얼한 표현." },
+            { "en": "Would you mind letting me know when it's my stop?", "ko": "매우 정중하게 부탁하는 표현. 'Would you mind'는 상대방을 배려하는 뉘앙스." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch15_d06",
+      "title": "다음 정류장 안내 듣기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, what is the next stop?", "ko": "실례합니다, 다음 정류장이 어디인가요?" },
+        { "speaker": "기사", "en": "The next stop is Grand Central. We arrive in about two minutes.", "ko": "다음 정류장은 그랜드 센트럴입니다. 약 2분 후에 도착합니다." },
+        { "speaker": "나", "en": "Is that where I transfer to the subway?", "ko": "거기서 지하철로 환승하는 건가요?" },
+        { "speaker": "기사", "en": "That's right. There's a metro entrance right by the bus stop.", "ko": "맞습니다. 버스 정류장 바로 옆에 지하철 입구가 있어요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "What is the next stop?",
+          "ko": "다음 정류장을 묻는 가장 간단한 표현. 버스·지하철 모두 사용 가능하다.",
+          "alternatives": [
+            { "en": "What stop is coming up?", "ko": "'coming up'은 '곧 다가오는'이라는 뜻으로 다음 정류장이 뭔지 묻는 구어 표현." },
+            { "en": "Where are we stopping next?", "ko": "다음 에 어디서 서는지 묻는 표현으로 버스에서 더 자주 쓰임." }
+          ]
+        },
+        {
+          "en": "We arrive in about two minutes.",
+          "ko": "'in + 시간'은 '~후에 도착한다'는 표현. 'in two minutes'는 지금부터 2분 후라는 뜻이다.",
+          "alternatives": [
+            { "en": "We'll be there in a moment.", "ko": "곧 도착한다는 뜻의 표현. 'moment'는 짧은 시간을 나타냄." },
+            { "en": "It's the next stop.", "ko": "바로 다음 정류장이라는 가장 간결한 답변." }
+          ]
+        },
+        {
+          "en": "There's a metro entrance right by the bus stop.",
+          "ko": "'right by'는 '바로 옆에'라는 뜻. 'next to', 'just beside'도 같은 의미로 쓸 수 있다.",
+          "alternatives": [
+            { "en": "The subway entrance is just around the corner.", "ko": "지하철 입구가 코너만 돌면 있다는 뜻의 구어 표현." },
+            { "en": "You'll see the metro sign right there.", "ko": "지하철 표지판이 바로 보일 것이라는 안내." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch15_d07",
+      "title": "카드 태그·개찰 안내",
+      "lines": [
+        { "speaker": "직원", "en": "Please tap your card on the reader before entering.", "ko": "입장 전에 카드를 단말기에 태그해 주세요." },
+        { "speaker": "나", "en": "I'm not sure how to do it — like this?", "ko": "어떻게 하는지 잘 모르겠어요 — 이렇게요?" },
+        { "speaker": "직원", "en": "Hold your card flat against the yellow circle until you hear a beep.", "ko": "삐 소리가 날 때까지 노란 원에 카드를 평평하게 대시면 됩니다." },
+        { "speaker": "나", "en": "Oh, I hear the beep now. Thank you!", "ko": "아, 소리 났어요. 감사합니다!" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Tap your card on the reader.",
+          "ko": "'tap'은 교통카드를 단말기에 가볍게 대는 동작. 'swipe'(긁다)와 혼동하지 말자. 비접촉(NFC) 카드는 'tap', 마그네틱 카드는 'swipe'.",
+          "alternatives": [
+            { "en": "Touch your card to the sensor.", "ko": "카드를 센서에 대라는 뜻으로 'tap'과 동의어로 쓰임." },
+            { "en": "Hold your card up to the machine.", "ko": "기계에 카드를 갖다 대라는 표현." }
+          ]
+        },
+        {
+          "en": "Hold your card flat against the yellow circle.",
+          "ko": "'flat against'는 '~에 평평하게 대다'는 뜻. 카드를 비스듬히 대면 인식이 안 될 수 있어 이런 지시가 나온다.",
+          "alternatives": [
+            { "en": "Press your card firmly on the pad.", "ko": "패드에 카드를 확실히 대라는 뜻." },
+            { "en": "Place your card on the scanner.", "ko": "스캐너 위에 카드를 올려놓으라는 표현." }
+          ]
+        },
+        {
+          "en": "Until you hear a beep.",
+          "ko": "'beep'은 단말기가 인식 완료를 알리는 전자음. '삐' 소리가 날 때까지 기다리라는 뜻.",
+          "alternatives": [
+            { "en": "Wait for the green light.", "ko": "초록 불이 켜질 때까지 기다리라는 시각적 안내." },
+            { "en": "The gate opens when it reads your card.", "ko": "카드가 인식되면 게이트가 열린다는 설명." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch15_d08",
+      "title": "반대 방향 — 잘못 탔을 때",
+      "lines": [
+        { "speaker": "행인", "en": "Excuse me, I think you might be going the wrong way.", "ko": "실례합니다, 반대 방향으로 가시는 것 같아요." },
+        { "speaker": "나", "en": "Oh no — I'm trying to get to Downtown Station.", "ko": "아이고 — 다운타운역으로 가려고 하는데요." },
+        { "speaker": "행인", "en": "This train goes north. You need to get off and take the southbound train.", "ko": "이 열차는 북쪽으로 갑니다. 내려서 남쪽 방향 열차를 타셔야 해요." },
+        { "speaker": "나", "en": "I see. I'll get off at the next stop. Thanks so much!", "ko": "알겠어요. 다음 역에서 내릴게요. 정말 감사합니다!" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "You might be going the wrong way.",
+          "ko": "반대 방향으로 가고 있다고 알려주는 표현. 'might'를 써서 부드럽게 전달하는 것이 예의 바른 표현이다.",
+          "alternatives": [
+            { "en": "I think this isn't the right direction.", "ko": "방향이 잘못된 것 같다고 말하는 부드러운 표현." },
+            { "en": "You're heading the wrong way.", "ko": "더 직접적으로 틀린 방향으로 가고 있다고 알려주는 표현." }
+          ]
+        },
+        {
+          "en": "Take the southbound train.",
+          "ko": "'southbound'는 '남쪽 방향'. 방향을 나타낼 때 northbound(북), eastbound(동), westbound(서)를 쓴다.",
+          "alternatives": [
+            { "en": "Get on the train going toward Downtown.", "ko": "다운타운 방향 열차를 타라는 뜻으로 방향명 대신 목적지를 쓴 표현." },
+            { "en": "You need the train on the other platform.", "ko": "반대편 플랫폼 열차를 타야 한다는 실용적인 안내." }
+          ]
+        },
+        {
+          "en": "I'll get off at the next stop.",
+          "ko": "'get off'는 대중교통에서 내리다는 뜻. 'next stop'은 다음 정거장. 'exit at the next station'도 같은 의미.",
+          "alternatives": [
+            { "en": "I'll hop off at the next station.", "ko": "'hop off'는 'get off'의 캐주얼한 표현." },
+            { "en": "I'll exit here and switch platforms.", "ko": "여기서 내려서 플랫폼을 바꾸겠다는 뜻." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch15_d09",
+      "title": "막차 시간 확인",
+      "lines": [
+        { "speaker": "나", "en": "What time is the last train tonight?", "ko": "오늘 밤 막차는 몇 시인가요?" },
+        { "speaker": "직원", "en": "The last train on this line leaves at 11:45 PM.", "ko": "이 노선의 막차는 오후 11시 45분에 출발합니다." },
+        { "speaker": "나", "en": "And what about the last bus to the hotel district?", "ko": "호텔 구역으로 가는 막차 버스는요?" },
+        { "speaker": "직원", "en": "The last bus leaves at midnight from stop B outside.", "ko": "막차 버스는 자정에 밖의 B 정류장에서 출발합니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "What time is the last train?",
+          "ko": "막차 시간을 묻는 핵심 표현. 'last train'은 막차, 'first train'은 첫차. 버스라면 'last bus'로 바꾸면 된다.",
+          "alternatives": [
+            { "en": "When does the last train leave?", "ko": "막차가 언제 출발하는지 묻는 표현. 'what time'과 거의 같은 의미." },
+            { "en": "What's the final departure time?", "ko": "최종 출발 시간을 묻는 격식 있는 표현." }
+          ]
+        },
+        {
+          "en": "The last train leaves at ~.",
+          "ko": "막차 출발 시간을 알려주는 표현. 'departs at', 'goes at'도 같은 의미로 쓸 수 있다.",
+          "alternatives": [
+            { "en": "The last service is at 11:45.", "ko": "'service'로 운행을 나타내는 표현. 영국·호주에서 자주 쓰임." },
+            { "en": "Trains stop running at midnight.", "ko": "자정이 되면 운행이 끊긴다는 표현으로 '막차'를 간접적으로 설명." }
+          ]
+        },
+        {
+          "en": "What about the last bus?",
+          "ko": "'What about ~?'는 앞서 언급하지 않은 것에 대해 추가로 묻는 표현. 대화를 자연스럽게 이어가는 데 유용하다.",
+          "alternatives": [
+            { "en": "How about the bus service after midnight?", "ko": "자정 이후 버스 운행에 대해 묻는 표현." },
+            { "en": "Is there a late-night bus?", "ko": "심야 버스가 있는지 묻는 간단한 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch15_d10",
+      "title": "검표·벌금",
+      "lines": [
+        { "speaker": "직원", "en": "Tickets, please. Can I see your ticket?", "ko": "검표입니다. 티켓 좀 보여주시겠어요?" },
+        { "speaker": "나", "en": "Oh, I forgot to validate it. I'm sorry.", "ko": "아, 개찰을 안 했네요. 죄송합니다." },
+        { "speaker": "직원", "en": "I'm afraid there's a fine for unvalidated tickets. It's fifty euros.", "ko": "유감스럽게도 개찰을 안 한 티켓에는 벌금이 부과됩니다. 50유로입니다." },
+        { "speaker": "나", "en": "I understand. I'll make sure to validate my ticket next time.", "ko": "알겠습니다. 다음에는 꼭 개찰하겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Can I see your ticket?",
+          "ko": "검표원이 티켓을 확인할 때 쓰는 표현. 'Show me your ticket'보다 정중한 표현이다.",
+          "alternatives": [
+            { "en": "Tickets, please.", "ko": "검표원이 가장 자주 쓰는 짧은 요청. 단순하지만 공식적인 맥락에서 통용됨." },
+            { "en": "May I check your ticket?", "ko": "티켓을 확인해도 되는지 매우 정중하게 묻는 표현." }
+          ]
+        },
+        {
+          "en": "I forgot to validate it.",
+          "ko": "'validate'는 탑승 전 기계에 찍어 티켓을 유효하게 만드는 행위. 유럽 일부 국가에서는 '개찰'이 필수다.",
+          "alternatives": [
+            { "en": "I didn't punch my ticket.", "ko": "'punch'는 옛날 방식의 구멍 뚫기 개찰. 지금도 일부 나라에서 쓰임." },
+            { "en": "I haven't stamped it yet.", "ko": "'stamp'는 기계로 날인해 유효화하는 방식. 기차에서 흔히 쓰임." }
+          ]
+        },
+        {
+          "en": "There's a fine for unvalidated tickets.",
+          "ko": "개찰 안 한 티켓에 벌금이 있다는 뜻. 'fine'은 위반 벌금. 'penalty'도 같은 의미로 쓰인다.",
+          "alternatives": [
+            { "en": "You'll need to pay a penalty.", "ko": "벌금(페널티)을 내야 한다는 뜻의 표현." },
+            { "en": "Riding without a valid ticket is a violation.", "ko": "유효한 티켓 없이 탑승하는 것은 위반이라는 공식적인 표현." }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch15_set01_001",
+          "type": "multiple_choice",
+          "question": "지하철 발권기 사용법을 물을 때 가장 자연스러운 표현은?",
+          "options": [
+            "How do I use this ticket machine?",
+            "What does this machine cost?",
+            "Where is the ticket machine?",
+            "Can I fix this machine?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How do I use this ticket machine?'이 발권기 사용법을 묻는 핵심 표현입니다. 'cost'는 가격, 'Where is'는 위치를 묻는 표현이라 다릅니다."
+        },
+        {
+          "id": "se_ch15_set01_002",
+          "type": "multiple_choice",
+          "question": "하루 종일 무제한으로 사용 가능한 교통패스를 묻는 표현으로 가장 알맞은 것은?",
+          "options": [
+            "Do you sell a day pass?",
+            "Can I get a monthly pass?",
+            "Where can I charge my card?",
+            "How many zones does this cover?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'day pass'는 1일권·하루 종일 패스를 뜻합니다. 'monthly pass'는 월정기권, 'charge'는 충전, 'zones'는 구역 수를 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch15_set01_003",
+          "type": "multiple_choice",
+          "question": "에펠탑으로 가는 지하철 노선을 물을 때 올바른 표현은?",
+          "options": [
+            "Does this bus go to the Eiffel Tower?",
+            "Which line goes to the Eiffel Tower?",
+            "Where is the Eiffel Tower station?",
+            "How far is the Eiffel Tower?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Which line goes to ~?'는 노선을 묻는 핵심 표현입니다. 'Which line'이 지하철 노선을 특정하는 핵심 단어입니다."
+        },
+        {
+          "id": "se_ch15_set01_004",
+          "type": "multiple_choice",
+          "question": "환승이 필요한지 물을 때 가장 적절한 표현은?",
+          "options": [
+            "Do I need to get off here?",
+            "Do I need to buy another ticket?",
+            "Do I need to transfer?",
+            "Do I need to sit down?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Do I need to transfer?'는 환승이 필요한지 묻는 핵심 표현입니다. 'transfer'는 다른 노선으로 갈아탄다는 뜻입니다."
+        },
+        {
+          "id": "se_ch15_set01_005",
+          "type": "multiple_choice",
+          "question": "이 버스가 공항으로 가는지 확인하는 표현은?",
+          "options": [
+            "Where does this bus come from?",
+            "Does this bus go to the airport?",
+            "How long does this bus take?",
+            "When does this bus leave?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Does this bus go to ~?'는 버스의 목적지 방향을 확인하는 핵심 표현입니다. 'go to'가 방향(목적지)을 나타냅니다."
+        },
+        {
+          "id": "se_ch15_set01_006",
+          "type": "multiple_choice",
+          "question": "박물관에 가려면 어느 정류장에서 내려야 하는지 물을 때 가장 적합한 표현은?",
+          "options": [
+            "Which stop should I get off at for the museum?",
+            "Where do I get on for the museum?",
+            "How many stops does the museum have?",
+            "What time does the museum open?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Which stop should I get off at for ~?'는 특정 목적지에 가려면 어느 정류장에서 내려야 하는지 묻는 표현입니다. 'get off'(내리다)와 'get on'(타다)을 혼동하지 마세요."
+        },
+        {
+          "id": "se_ch15_set01_007",
+          "type": "multiple_choice",
+          "question": "교통카드를 단말기에 가볍게 대는 행위를 나타내는 동사는?",
+          "options": [
+            "swipe",
+            "tap",
+            "slide",
+            "press"
+          ],
+          "answerIndex": 1,
+          "explanation": "'tap'은 비접촉(NFC) 교통카드를 단말기에 대는 행위입니다. 'swipe'는 마그네틱 카드를 긁는 동작이며, 현대 교통카드에는 'tap'이 더 정확한 표현입니다."
+        },
+        {
+          "id": "se_ch15_set01_008",
+          "type": "multiple_choice",
+          "question": "막차 시간을 묻는 가장 자연스러운 표현은?",
+          "options": [
+            "When does the first train leave?",
+            "What time is the last train tonight?",
+            "How often do trains run?",
+            "Are there trains on weekends?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'What time is the last train?'은 막차 시간을 묻는 핵심 표현입니다. 'last train'이 막차, 'first train'이 첫차입니다."
+        },
+        {
+          "id": "se_ch15_set01_009",
+          "type": "multiple_choice",
+          "question": "검표원이 티켓을 확인하러 왔을 때 개찰을 깜빡했다면 뭐라고 해야 하나요?",
+          "options": [
+            "I lost my ticket.",
+            "I don't have money.",
+            "I forgot to validate it.",
+            "My card was stolen."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I forgot to validate it.'은 개찰(validate)을 하지 않았다는 사실을 인정하는 표현입니다. 'validate'는 탑승 전 기계에 티켓을 찍어 유효하게 만드는 행위를 뜻합니다."
+        },
+        {
+          "id": "se_ch15_set01_010",
+          "type": "multiple_choice",
+          "question": "반대 방향으로 가고 있다고 부드럽게 알려주는 표현은?",
+          "options": [
+            "You are completely lost.",
+            "This is the wrong bus number.",
+            "You might be going the wrong way.",
+            "You should take a taxi instead."
+          ],
+          "answerIndex": 2,
+          "explanation": "'You might be going the wrong way.'는 반대 방향으로 가고 있음을 'might'를 써서 부드럽게 알려주는 표현입니다. 직접적인 'You are wrong'보다 예의 바른 표현입니다."
+        },
+        {
+          "id": "se_ch15_set01_011",
+          "type": "ox",
+          "question": "'validate a ticket'과 'tap a card'는 대중교통에서 서로 관련된 개념이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'validate'는 티켓을 기계에 찍어 유효하게 만드는 것이고, 'tap'은 교통카드를 단말기에 대는 행위입니다. 둘 다 탑승 전에 티켓이나 카드를 인증하는 과정입니다."
+        },
+        {
+          "id": "se_ch15_set01_012",
+          "type": "ox",
+          "question": "'last train'은 첫차를 뜻하는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'last train'은 막차, 'first train'이 첫차입니다. 여행 중 막차를 놓치지 않으려면 'What time is the last train?'으로 꼭 확인하세요."
+        },
+        {
+          "id": "se_ch15_set01_013",
+          "type": "ox",
+          "question": "'Does this bus go to ~?'는 버스가 특정 목적지 방향으로 가는지 확인하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'go to'는 목적지 방향을 묻는 표현으로, 탑승 전 버스 방향을 확인할 때 쓰는 핵심 표현입니다."
+        },
+        {
+          "id": "se_ch15_set01_014",
+          "type": "ox",
+          "question": "버스에서 'southbound'는 북쪽 방향 운행을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'southbound'는 남쪽 방향을 의미합니다. north(북), south(남), east(동), west(서)에 bound를 붙여 방향 표현을 만듭니다."
+        }
+      ]
+    }
+  ]
+}

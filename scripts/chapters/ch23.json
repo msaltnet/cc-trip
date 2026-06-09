@@ -1,0 +1,532 @@
+{
+  "id": "ch23",
+  "title": "예약 전화·노쇼 확인",
+  "summary": "식당 예약 전화 걸기부터 인원·시간 지정, 창가석 요청, 이름 남기기, 변경·취소, 노쇼 정책 확인, 예약 재확인, 대기 명단 등록, 늦는다는 연락까지 — 전화 예약에 필요한 핵심 표현을 익힌다.",
+  "dialogues": [
+    {
+      "id": "ch23_d01",
+      "title": "식당 예약 전화 걸기",
+      "lines": [
+        { "speaker": "나", "en": "Hello, I'd like to make a reservation for dinner, please.", "ko": "안녕하세요, 저녁 식사 예약을 하고 싶습니다." },
+        { "speaker": "직원", "en": "Of course. For which date?", "ko": "물론이죠. 몇 일로 예약하시겠어요?" },
+        { "speaker": "나", "en": "For this Saturday, the fourteenth.", "ko": "이번 토요일, 14일로요." },
+        { "speaker": "직원", "en": "Perfect. And what time were you thinking?", "ko": "좋아요. 몇 시를 생각하고 계신가요?" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I'd like to make a reservation.",
+          "ko": "예약하고 싶다는 가장 정중한 표현. 'I want to book'도 통하지만 전화에서는 'I'd like to ~'가 더 자연스럽고 격식 있게 들림. make a reservation = book a table 모두 식당 예약에 쓰임.",
+          "alternatives": [
+            { "en": "I'd like to book a table.", "ko": "book a table은 식당 예약을 나타내는 또 다른 표현으로 원어민이 자주 씀." },
+            { "en": "Can I reserve a table, please?", "ko": "reserve를 동사로 직접 쓴 표현. 좀 더 캐주얼하지만 의미는 동일." }
+          ]
+        },
+        {
+          "en": "For this Saturday, the fourteenth.",
+          "ko": "날짜를 전달할 때 '요일 + 날짜'를 함께 말하면 헷갈림을 줄일 수 있음. 'this Saturday'만 말하면 어느 주인지 애매할 수 있으므로 날짜를 덧붙이는 습관이 중요.",
+          "alternatives": [
+            { "en": "On Saturday, June fourteenth.", "ko": "월·일을 함께 말해 더 명확하게 날짜를 전달하는 표현." },
+            { "en": "This coming Saturday.", "ko": "coming을 붙여 '이번 돌아오는 토요일'임을 강조하는 표현." }
+          ]
+        },
+        {
+          "en": "What time were you thinking?",
+          "ko": "직원이 시간을 부드럽게 물어볼 때 쓰는 표현. 'What time do you want?'보다 훨씬 자연스럽고 정중함. 손님 입장에서도 'I was thinking around seven.'처럼 응용 가능.",
+          "alternatives": [
+            { "en": "What time would you like?", "ko": "would like를 사용한 더 정중한 시간 질문 표현." },
+            { "en": "Do you have a preferred time?", "ko": "선호 시간을 묻는 격식 있는 표현. 고급 레스토랑에서 자주 들을 수 있음." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch23_d02",
+      "title": "인원과 시간 말하기",
+      "lines": [
+        { "speaker": "직원", "en": "How many people will be dining with us?", "ko": "몇 분이 오실 예정인가요?" },
+        { "speaker": "나", "en": "For four people, please.", "ko": "네 명이요." },
+        { "speaker": "직원", "en": "And what time would you prefer?", "ko": "몇 시를 원하세요?" },
+        { "speaker": "나", "en": "At seven o'clock tonight, if possible.", "ko": "가능하면 오늘 저녁 일곱 시요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "For four people, please.",
+          "ko": "인원을 전달하는 가장 간결한 표현. 'There will be four of us.'도 자연스럽게 쓰임. 'for + 숫자 + people'은 식당·투어·교통 예약에서 폭넓게 활용 가능.",
+          "alternatives": [
+            { "en": "There will be four of us.", "ko": "우리 일행이 네 명이라는 뜻으로 원어민이 자주 쓰는 표현." },
+            { "en": "A table for four.", "ko": "네 명 자리를 달라는 가장 짧고 직접적인 표현." }
+          ]
+        },
+        {
+          "en": "At seven o'clock tonight, if possible.",
+          "ko": "'if possible'을 붙이면 요청이 더 부드럽게 들림. 정확한 시간을 말할 때는 'at + 시간'을 쓰고, tonight / this evening을 추가해 저녁임을 명확히 함.",
+          "alternatives": [
+            { "en": "Around seven in the evening.", "ko": "around를 써서 '일곱 시쯤'이라고 유연하게 표현하는 방법." },
+            { "en": "Seven p.m. would be great.", "ko": "p.m.으로 오후임을 확실히 하면서 희망 시간을 말하는 표현." }
+          ]
+        },
+        {
+          "en": "How many people will be dining with us?",
+          "ko": "직원이 인원을 물어볼 때 쓰는 정중한 표현. 'dine'은 격식 있는 식사를 의미해 고급 레스토랑에서 자주 들림. 'How many in your party?'도 동일 상황에서 흔히 들을 수 있음.",
+          "alternatives": [
+            { "en": "How many in your party?", "ko": "party(일행)라는 단어를 써서 인원을 묻는 흔한 표현." },
+            { "en": "How large is your group?", "ko": "그룹 규모를 묻는 좀 더 캐주얼한 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch23_d03",
+      "title": "창가석 또는 야외석 요청",
+      "lines": [
+        { "speaker": "나", "en": "Could we have a table by the window, if available?", "ko": "가능하면 창가 자리로 부탁드릴 수 있을까요?" },
+        { "speaker": "직원", "en": "I'll do my best. We also have outdoor seating — would you prefer that?", "ko": "최선을 다해볼게요. 야외석도 있는데 — 그쪽을 선호하시나요?" },
+        { "speaker": "나", "en": "Oh, an outdoor table would be lovely.", "ko": "아, 야외 테이블이면 좋겠네요." },
+        { "speaker": "직원", "en": "Great, I'll note that preference for your reservation.", "ko": "알겠습니다, 예약에 그 선호 사항을 기록해 두겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "A table by the window, if available.",
+          "ko": "'by the window'는 창가 자리를 요청하는 표현. 'if available'을 붙이면 강요하지 않는다는 뉘앙스가 되어 더 공손하게 들림. 창가가 보장된 좌석이 아니므로 항상 가능 여부를 전제로 요청하는 것이 좋음.",
+          "alternatives": [
+            { "en": "A window seat, please.", "ko": "window seat라고도 부르며 더 간결한 표현. 기차·비행기 창가 좌석에도 사용됨." },
+            { "en": "We'd love a view, if possible.", "ko": "경치가 보이는 자리를 원한다는 뜻으로 조금 더 감성적인 표현." }
+          ]
+        },
+        {
+          "en": "An outdoor table would be lovely.",
+          "ko": "'would be + 형용사'는 '~이면 좋겠다'는 희망을 부드럽게 표현하는 방식. 'I want an outdoor table.'보다 훨씬 자연스럽고 정중함. lovely / perfect / great 등 다양한 형용사로 응용 가능.",
+          "alternatives": [
+            { "en": "Outside would be perfect.", "ko": "간결하게 야외를 원한다고 표현하는 방법." },
+            { "en": "We'd prefer to sit outside.", "ko": "prefer를 사용해 선호를 명확히 전달하는 표현." }
+          ]
+        },
+        {
+          "en": "I'll note that preference.",
+          "ko": "'note'를 동사로 쓰면 '기록해 두다'라는 뜻. 직원이 요청 사항을 예약에 남기겠다고 말할 때 자주 사용. 'I'll add that to your booking.'도 같은 의미.",
+          "alternatives": [
+            { "en": "I'll add that to your booking.", "ko": "예약에 추가하겠다는 직접적인 표현." },
+            { "en": "I'll make a note of that.", "ko": "기록해 두겠다는 뜻의 또 다른 자연스러운 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch23_d04",
+      "title": "이름과 연락처 남기기",
+      "lines": [
+        { "speaker": "직원", "en": "May I take your name for the reservation?", "ko": "예약자 성함을 알려주시겠어요?" },
+        { "speaker": "나", "en": "It's under the name Kim — K-I-M.", "ko": "김으로 해주세요 — K-I-M이요." },
+        { "speaker": "직원", "en": "And a contact number, please?", "ko": "연락처도 알려주시겠어요?" },
+        { "speaker": "나", "en": "Sure. My number is zero-one-zero, one-two-three-four, five-six-seven-eight.", "ko": "네. 제 번호는 010-1234-5678입니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Under the name Kim.",
+          "ko": "예약이 누구 이름으로 되어 있는지 말할 때 쓰는 핵심 표현. '~이라는 이름으로'라는 뜻. 예약을 찾을 때도 'I have a reservation under Kim.'처럼 그대로 활용 가능. 전화 예약의 90%에서 쓰이는 필수 표현.",
+          "alternatives": [
+            { "en": "The reservation is in the name of Kim.", "ko": "더 풀어쓴 격식체 표현으로 의미는 동일." },
+            { "en": "It's booked under Kim.", "ko": "booked under를 써서 같은 뜻을 전달하는 캐주얼한 표현." }
+          ]
+        },
+        {
+          "en": "May I take your name?",
+          "ko": "직원이 이름을 물어볼 때 쓰는 정중한 표현. 'What's your name?'보다 서비스 업종에서 훨씬 자연스럽게 들림. 'take'는 여기서 '받아 적다'는 뜻.",
+          "alternatives": [
+            { "en": "Could I get a name for the reservation?", "ko": "예약자 이름을 받겠다는 뜻의 자연스러운 표현." },
+            { "en": "What name shall I put it under?", "ko": "누구 이름으로 할지 묻는 격식 있는 표현." }
+          ]
+        },
+        {
+          "en": "And a contact number, please?",
+          "ko": "연락처를 요청하는 간결한 표현. 완전한 문장 없이 'And ~, please?'처럼 줄여 말하는 것은 전화에서 흔히 쓰이는 방식. 'phone number'나 'mobile number'라고도 함.",
+          "alternatives": [
+            { "en": "Could I have a phone number for the booking?", "ko": "예약용 전화번호를 받겠다는 정중한 요청." },
+            { "en": "Do you have a number we can reach you at?", "ko": "연락 가능한 번호를 물어보는 자연스러운 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch23_d05",
+      "title": "예약 변경하기",
+      "lines": [
+        { "speaker": "나", "en": "Hello, I'd like to change my reservation, please.", "ko": "안녕하세요, 예약을 변경하고 싶습니다." },
+        { "speaker": "직원", "en": "Of course. What name is the booking under?", "ko": "물론이죠. 예약자 성함이 어떻게 되시나요?" },
+        { "speaker": "나", "en": "It's under Park. I'd like to change the time from seven to eight.", "ko": "박으로 되어 있어요. 시간을 일곱 시에서 여덟 시로 바꾸고 싶습니다." },
+        { "speaker": "직원", "en": "No problem at all. I've updated your booking to eight p.m.", "ko": "물론이죠. 예약을 오후 여덟 시로 변경했습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I'd like to change my reservation.",
+          "ko": "예약 변경 요청의 기본 표현. 'change'를 'modify'로 바꿔도 동일한 의미. 전화를 걸었을 때 첫 마디로 목적을 바로 밝히면 직원이 빠르게 처리할 수 있음.",
+          "alternatives": [
+            { "en": "I need to modify my booking.", "ko": "modify는 change의 격식체. 예약 변경 요청에 두루 쓰임." },
+            { "en": "I was wondering if I could change my reservation.", "ko": "I was wondering if ~는 부드럽게 요청하는 더 정중한 표현." }
+          ]
+        },
+        {
+          "en": "I'd like to change the time from seven to eight.",
+          "ko": "'from ~ to ~' 구조로 무엇을 어떻게 바꾸는지 명확하게 전달. 시간뿐 아니라 날짜, 인원, 좌석 종류를 바꿀 때도 같은 구조를 사용할 수 있음.",
+          "alternatives": [
+            { "en": "Can we move it to eight instead?", "ko": "instead를 써서 대신 여덟 시로 옮기고 싶다는 캐주얼한 표현." },
+            { "en": "Could we push it back to eight o'clock?", "ko": "push back은 '뒤로 미루다'는 뜻으로 시간을 늦출 때 자주 쓰임." }
+          ]
+        },
+        {
+          "en": "No problem at all.",
+          "ko": "직원이 요청을 흔쾌히 수락할 때 쓰는 표현. 'Of course'나 'Certainly'와 같은 맥락. 'at all'이 붙으면 '전혀 문제없다'는 강조가 됨.",
+          "alternatives": [
+            { "en": "Absolutely, I'll take care of that.", "ko": "처리해 드리겠다는 뜻으로 고급 서비스에서 자주 들리는 표현." },
+            { "en": "Sure, I'll update that for you.", "ko": "업데이트해 드리겠다는 의미의 자연스러운 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch23_d06",
+      "title": "예약 취소하기",
+      "lines": [
+        { "speaker": "나", "en": "Hi, I need to cancel my reservation for tonight.", "ko": "안녕하세요, 오늘 저녁 예약을 취소해야 할 것 같아요." },
+        { "speaker": "직원", "en": "I'm sorry to hear that. May I have the name on the booking?", "ko": "그렇군요. 예약자 성함을 알려주시겠어요?" },
+        { "speaker": "나", "en": "It's under Choi, for seven p.m.", "ko": "최로 되어 있고, 오후 일곱 시예요." },
+        { "speaker": "직원", "en": "Done. Your reservation has been cancelled. Is there anything else?", "ko": "처리됐습니다. 예약이 취소되었습니다. 다른 도움이 필요하신가요?" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I need to cancel my reservation.",
+          "ko": "예약 취소 요청의 핵심 표현. 'need to'는 피치 못할 사정이 있다는 뉘앙스를 줌. 'I'd like to cancel'도 자연스럽지만 'need to'는 더 긴박한 상황에 적합.",
+          "alternatives": [
+            { "en": "I'd like to cancel my booking.", "ko": "would like를 써서 좀 더 정중하게 취소를 요청하는 표현." },
+            { "en": "I'm afraid I have to cancel.", "ko": "I'm afraid를 앞에 붙이면 '죄송하지만'의 뉘앙스가 담겨 더 정중하게 들림." }
+          ]
+        },
+        {
+          "en": "I'm sorry to hear that.",
+          "ko": "직원이 아쉬운 소식을 들었을 때 공감을 표현하는 상투적 표현. 취소·불만·불편을 말했을 때 직원이 자주 사용. 직역하면 '그것을 듣게 돼서 유감입니다'이지만 실제로는 '아, 그렇군요, 아쉽네요'의 의미.",
+          "alternatives": [
+            { "en": "Oh, that's a shame.", "ko": "비격식적으로 아쉬움을 표현하는 말. 주로 영국·호주에서 자주 씀." },
+            { "en": "I'm sorry about that.", "ko": "짧게 유감을 표현하는 방식." }
+          ]
+        },
+        {
+          "en": "Your reservation has been cancelled.",
+          "ko": "수동태로 예약 취소 완료를 알려주는 공식적인 표현. 직원이 처리 결과를 전달할 때 사용. 같은 맥락으로 'Your booking is confirmed.'(예약 확정)처럼 응용 가능.",
+          "alternatives": [
+            { "en": "I've cancelled your reservation.", "ko": "능동태로 직원이 직접 처리했음을 알려주는 표현." },
+            { "en": "That's all taken care of.", "ko": "모든 처리가 됐다는 뜻의 자연스러운 마무리 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch23_d07",
+      "title": "노쇼 정책 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Could you tell me about your cancellation policy?", "ko": "취소 정책에 대해 알려주시겠어요?" },
+        { "speaker": "직원", "en": "Sure. You can cancel up to two hours before your reservation without any charge.", "ko": "물론이죠. 예약 두 시간 전까지는 무료로 취소하실 수 있습니다." },
+        { "speaker": "나", "en": "And is there a no-show fee if we don't turn up?", "ko": "만약 나타나지 않으면 노쇼 수수료가 있나요?" },
+        { "speaker": "직원", "en": "Yes, there's a fifteen-dollar fee per person for no-shows.", "ko": "네, 노쇼의 경우 1인당 15달러의 수수료가 있습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Your cancellation policy.",
+          "ko": "취소 규정을 묻는 핵심 표현. '취소 정책'을 cancellation policy라고 함. 예약 시 반드시 확인해야 할 사항으로, 'What is your cancellation policy?'처럼 물어보는 것이 가장 자연스러움.",
+          "alternatives": [
+            { "en": "What are your cancellation terms?", "ko": "terms(조건)를 사용한 표현으로 조금 더 비즈니스적인 뉘앙스." },
+            { "en": "Are there any charges for cancelling?", "ko": "취소 시 요금이 있는지 직접 묻는 실용적인 표현." }
+          ]
+        },
+        {
+          "en": "A no-show fee.",
+          "ko": "노쇼(예약 후 나타나지 않음) 수수료를 뜻하는 표현. no-show는 예약했지만 나타나지 않은 사람을 뜻하는 명사로도 쓰임. 레스토랑, 호텔, 병원 예약에서 점점 보편화되고 있으므로 반드시 사전 확인이 필요.",
+          "alternatives": [
+            { "en": "A cancellation charge.", "ko": "취소 수수료를 가리키는 더 넓은 표현. no-show 포함." },
+            { "en": "A penalty fee.", "ko": "penalty(벌금)라는 단어를 써서 위약금 개념을 강조하는 표현." }
+          ]
+        },
+        {
+          "en": "If we don't turn up.",
+          "ko": "'turn up'은 '나타나다, 도착하다'는 뜻의 구동사. 'show up'이나 'arrive'와 같은 의미. 회화에서 자주 쓰이므로 같이 기억해두면 좋음.",
+          "alternatives": [
+            { "en": "If we don't show up.", "ko": "show up은 turn up과 같은 의미로 특히 미국 영어에서 더 흔하게 쓰임." },
+            { "en": "If we miss our reservation.", "ko": "예약을 지키지 못했다는 뜻으로 상황을 좀 더 구체적으로 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch23_d08",
+      "title": "예약 재확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Hello, I'm calling to confirm my reservation.", "ko": "안녕하세요, 예약을 재확인하려고 전화드렸습니다." },
+        { "speaker": "직원", "en": "Of course. May I have your name, please?", "ko": "물론이죠. 성함을 알려주시겠어요?" },
+        { "speaker": "나", "en": "It's Lee, for four people at seven tomorrow evening.", "ko": "이로 되어 있고, 내일 저녁 일곱 시에 네 명이요." },
+        { "speaker": "직원", "en": "Yes, that's all confirmed. We'll see you tomorrow.", "ko": "네, 모두 확인됐습니다. 내일 뵙겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I'm calling to confirm my reservation.",
+          "ko": "전화 예약 재확인의 필수 표현. 'I'm calling to ~'는 전화 목적을 간결하게 밝히는 방식으로 상대방이 바로 이해할 수 있어 편리함. confirm은 '확인하다, 재확인하다' 두 가지 뜻으로 모두 쓰임.",
+          "alternatives": [
+            { "en": "I'd like to confirm my booking.", "ko": "would like를 사용한 더 정중한 재확인 표현." },
+            { "en": "I just wanted to double-check my reservation.", "ko": "double-check는 '재확인하다'는 뜻으로 캐주얼한 자리에서 자연스럽게 쓰임." }
+          ]
+        },
+        {
+          "en": "That's all confirmed.",
+          "ko": "예약이 모두 정상적으로 확인됐다는 직원의 표현. 'all confirmed'는 '모두 확정'이라는 뜻으로 안심을 주는 표현. 반대로 문제가 있으면 'I'm having trouble finding your booking.'이라는 말이 들릴 수 있음.",
+          "alternatives": [
+            { "en": "Everything looks good on our end.", "ko": "우리 쪽에서는 모든 게 정상이라는 뜻의 표현." },
+            { "en": "Your reservation is confirmed.", "ko": "예약이 확정됐다는 수동태 표현." }
+          ]
+        },
+        {
+          "en": "We'll see you tomorrow.",
+          "ko": "통화를 마무리하며 내일 만남을 기대하는 표현. 직원이 통화 끝에 자주 쓰는 친근한 마무리 인사. 'See you then.' / 'See you Saturday.' 처럼 시간 표현을 바꿔 응용 가능.",
+          "alternatives": [
+            { "en": "See you then!", "ko": "그때 보겠다는 캐주얼한 마무리 인사." },
+            { "en": "We look forward to seeing you.", "ko": "방문을 기대하고 있다는 좀 더 격식 있는 마무리 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch23_d09",
+      "title": "대기 명단에 올리기",
+      "lines": [
+        { "speaker": "나", "en": "Hi, do you have any availability for two people tonight?", "ko": "안녕하세요, 오늘 저녁 두 명 자리가 있나요?" },
+        { "speaker": "직원", "en": "I'm afraid we're fully booked this evening.", "ko": "죄송하지만 오늘 저녁은 예약이 꽉 찼습니다." },
+        { "speaker": "나", "en": "Could you put us on the waiting list, please?", "ko": "대기 명단에 올려주실 수 있을까요?" },
+        { "speaker": "직원", "en": "Of course. I'll take your name and number and call you if something opens up.", "ko": "물론이죠. 성함과 번호를 받아두고 자리가 나면 연락드리겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Could you put us on the waiting list?",
+          "ko": "대기 명단에 올려달라는 핵심 표현. waiting list는 예약이 꽉 찼을 때 취소 자리를 기다리는 명단. 'waitlist'라고 줄여 쓰기도 함. 식당 외에도 공연, 항공편 등 다양한 상황에 활용 가능.",
+          "alternatives": [
+            { "en": "Can we go on the waitlist?", "ko": "waitlist를 명사로 쓴 더 캐주얼한 표현." },
+            { "en": "Is there a cancellation list we can join?", "ko": "취소 대기 명단에 들어갈 수 있는지 묻는 표현." }
+          ]
+        },
+        {
+          "en": "We're fully booked.",
+          "ko": "예약이 꽉 찼다는 표현. 'fully booked' = 'completely full' = 'no availability'. 숙소, 식당, 투어 등 모든 예약 상황에서 들을 수 있는 핵심 표현이므로 반드시 기억.",
+          "alternatives": [
+            { "en": "We have no availability tonight.", "ko": "오늘 밤 예약 가능한 자리가 없다는 표현." },
+            { "en": "We're all booked up for tonight.", "ko": "오늘 예약이 모두 찼다는 뜻의 캐주얼한 표현." }
+          ]
+        },
+        {
+          "en": "If something opens up.",
+          "ko": "'open up'은 자리나 시간이 생기다, 비다라는 뜻의 구동사. 취소가 생겨 자리가 날 때를 표현하는 자연스러운 방식. 'if a table becomes available'과 같은 의미.",
+          "alternatives": [
+            { "en": "If a table becomes available.", "ko": "자리가 생기면이라는 뜻의 더 격식 있는 표현." },
+            { "en": "If we get a cancellation.", "ko": "취소가 생기면이라는 뜻으로 상황을 더 직접적으로 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch23_d10",
+      "title": "늦을 것 같다고 연락하기",
+      "lines": [
+        { "speaker": "나", "en": "Hello, I have a reservation for seven under Jung. I'm afraid we're running a little late.", "ko": "안녕하세요, 정으로 일곱 시 예약이 있는데요. 저희가 조금 늦을 것 같아요." },
+        { "speaker": "직원", "en": "No problem. How long do you think you'll be?", "ko": "괜찮습니다. 얼마나 늦으실 것 같으세요?" },
+        { "speaker": "나", "en": "About fifteen minutes, maybe twenty at the most.", "ko": "15분 정도요, 길어야 20분이요." },
+        { "speaker": "직원", "en": "That's fine. We'll hold your table for up to thirty minutes.", "ko": "괜찮습니다. 30분까지는 테이블을 잡아 두겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "We're running a little late.",
+          "ko": "늦겠다고 알릴 때 가장 자연스러운 표현. 'run late'는 '늦다, 지연되다'는 뜻의 구동사. 'a little'을 추가하면 조금 늦는다는 뉘앙스가 됨. 예약 식당에 전화해 미리 알리는 것은 매너이자 노쇼 수수료를 피하는 방법.",
+          "alternatives": [
+            { "en": "We're going to be a bit late.", "ko": "going to be를 써서 앞으로 늦을 것임을 표현하는 방식." },
+            { "en": "I'm afraid we'll be delayed.", "ko": "delay를 써서 지연될 것 같다고 격식 있게 표현하는 방법." }
+          ]
+        },
+        {
+          "en": "Twenty at the most.",
+          "ko": "'at the most'는 '많아봤자, 길어야'라는 뜻. 'at most'라고도 쓰임. 최대 한도를 표현할 때 유용한 표현으로, 반대 표현은 'at least(적어도)'.",
+          "alternatives": [
+            { "en": "No more than twenty minutes.", "ko": "최대 20분을 넘지 않겠다는 뜻의 표현." },
+            { "en": "About twenty minutes, give or take.", "ko": "give or take는 '대략, 오차 있이'라는 뜻의 캐주얼한 표현." }
+          ]
+        },
+        {
+          "en": "We'll hold your table.",
+          "ko": "'hold your table'은 테이블을 비워두고 기다려주겠다는 뜻. 'hold'가 '잡아두다, 유지하다'는 의미. 얼마나 기다려주는지(예: for thirty minutes) 함께 말해주는 것이 관례이므로 들었을 때 그 시간 안에 도착해야 함.",
+          "alternatives": [
+            { "en": "We'll keep your table.", "ko": "keep을 써서 테이블을 유지해 두겠다는 같은 의미의 표현." },
+            { "en": "Your table will be reserved for you.", "ko": "수동태로 테이블을 보전해 두겠다는 격식 있는 표현." }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch23_set01_001",
+          "type": "multiple_choice",
+          "question": "식당에 전화해서 예약을 하고 싶을 때 가장 자연스러운 첫 마디는?",
+          "options": [
+            "I'd like to make a reservation.",
+            "I want to eat here.",
+            "Give me a table.",
+            "Reservation, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like to make a reservation.'은 전화 예약 시 가장 정중하고 자연스러운 표현입니다. 'I want to eat here.'는 전화 맥락에서 어색하고, 'Give me a table.'은 명령형이라 무례하게 들리며, 'Reservation, please.'는 너무 단편적입니다."
+        },
+        {
+          "id": "se_ch23_set01_002",
+          "type": "multiple_choice",
+          "question": "예약이 본인 이름으로 되어 있다고 말할 때 가장 자연스러운 표현은?",
+          "options": [
+            "It's under the name Kim.",
+            "My name is Kim.",
+            "Kim is my reservation.",
+            "Reservation name Kim."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's under the name Kim.'은 예약자 이름을 전달하는 핵심 표현입니다. 'My name is Kim.'은 자기소개처럼 들리고, 나머지 두 표현은 자연스러운 영어가 아닙니다. 'under the name'은 예약 검색 시에도 그대로 활용됩니다."
+        },
+        {
+          "id": "se_ch23_set01_003",
+          "type": "multiple_choice",
+          "question": "네 명 자리를 예약하고 싶을 때 인원을 전달하는 가장 자연스러운 표현은?",
+          "options": [
+            "There will be four of us.",
+            "We are four.",
+            "Four persons.",
+            "Table four people."
+          ],
+          "answerIndex": 0,
+          "explanation": "'There will be four of us.'는 인원을 알리는 자연스러운 원어민 표현입니다. 'We are four.'는 어색하고, 'Four persons.'는 불완전한 문장이며, 'Table four people.'은 문법적으로 맞지 않습니다."
+        },
+        {
+          "id": "se_ch23_set01_004",
+          "type": "multiple_choice",
+          "question": "예약 시간을 늦추고 싶을 때 가장 자연스럽게 요청하는 표현은?",
+          "options": [
+            "Could we push it back to eight o'clock?",
+            "Change seven to eight.",
+            "Later time, please.",
+            "I don't want seven."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could we push it back to eight o'clock?'에서 'push back'은 시간을 뒤로 미루다는 뜻의 자연스러운 구동사 표현입니다. 'Change seven to eight.'은 문법은 틀리지 않지만 너무 단순하고, 나머지는 자연스러운 영어가 아닙니다."
+        },
+        {
+          "id": "se_ch23_set01_005",
+          "type": "multiple_choice",
+          "question": "예약을 취소해야 할 때 가장 정중한 표현은?",
+          "options": [
+            "I'm afraid I have to cancel.",
+            "Cancel my reservation!",
+            "I don't want to come.",
+            "Reservation off, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm afraid I have to cancel.'는 'I'm afraid'로 시작해 유감의 뉘앙스를 담아 정중하게 취소 의사를 밝힙니다. 'Cancel my reservation!'은 명령형으로 무례하고, 나머지 두 표현은 어색하거나 비자연스럽습니다."
+        },
+        {
+          "id": "se_ch23_set01_006",
+          "type": "multiple_choice",
+          "question": "예약이 꽉 찼다는 직원의 말로 올바른 표현은?",
+          "options": [
+            "We're fully booked.",
+            "No more customers.",
+            "All tables are taken away.",
+            "Reservation is finished."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We're fully booked.'는 예약이 꽉 찼다는 표준 표현입니다. 'No more customers.'는 의미가 다르고 무례하게 들립니다. 'All tables are taken away.'는 어색하고, 'Reservation is finished.'도 자연스러운 영어가 아닙니다."
+        },
+        {
+          "id": "se_ch23_set01_007",
+          "type": "multiple_choice",
+          "question": "예약 취소 수수료나 노쇼 수수료에 대해 물어볼 때 가장 자연스러운 표현은?",
+          "options": [
+            "Is there a no-show fee?",
+            "Do you have no-show money?",
+            "What happens if I don't come?",
+            "Any penalty for missing?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a no-show fee?'는 노쇼 수수료를 묻는 표준 표현입니다. 'no-show fee' 또는 'cancellation fee'가 업계에서 쓰이는 공식 용어입니다. 'What happens if I don't come?'은 의미는 전달되지만 격식이 없고, 나머지는 어색한 표현입니다."
+        },
+        {
+          "id": "se_ch23_set01_008",
+          "type": "multiple_choice",
+          "question": "예약 재확인을 위해 전화했다고 말하는 가장 자연스러운 표현은?",
+          "options": [
+            "I'm calling to confirm my reservation.",
+            "I'm calling to check if I have a reservation.",
+            "I want to know my reservation.",
+            "Is my reservation okay?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm calling to confirm my reservation.'은 전화 목적을 간결하고 자연스럽게 밝히는 표현입니다. 'I'm calling to check if I have a reservation.'은 의미는 통하지만 지나치게 길고, 나머지는 자연스러운 영어가 아닙니다."
+        },
+        {
+          "id": "se_ch23_set01_009",
+          "type": "multiple_choice",
+          "question": "예약이 꽉 찼지만 대기 명단에 올리고 싶을 때 하는 말은?",
+          "options": [
+            "Could you put us on the waiting list?",
+            "Please remember us.",
+            "We'll come anyway.",
+            "Add us to reservation."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you put us on the waiting list?'는 대기 명단 등록 요청의 표준 표현입니다. 'waiting list' 또는 'waitlist'가 공식 용어입니다. 나머지 표현들은 의미가 불명확하거나 어색합니다."
+        },
+        {
+          "id": "se_ch23_set01_010",
+          "type": "multiple_choice",
+          "question": "예약 시간보다 늦을 것 같아 식당에 미리 전화할 때 쓰는 표현은?",
+          "options": [
+            "We're running a little late.",
+            "We are slow.",
+            "Please wait for us.",
+            "We missed the time."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We're running a little late.'는 지각 상황을 알릴 때 가장 자연스러운 표현입니다. 'run late'는 '늦다, 지연되다'는 뜻의 구동사입니다. 'We are slow.'는 의미가 다르고, 'We missed the time.'은 이미 지난 것처럼 들립니다."
+        },
+        {
+          "id": "se_ch23_set01_011",
+          "type": "ox",
+          "question": "'I'd like to make a reservation.'과 'I'd like to book a table.'은 같은 의미로 식당 예약에 모두 쓸 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'make a reservation'과 'book a table'은 식당 예약을 뜻하는 표현으로 서로 바꿔 쓸 수 있습니다. 'book'은 동사로 예약하다는 뜻이며, 영국에서 특히 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch23_set01_012",
+          "type": "ox",
+          "question": "'Under the name'은 예약 이름을 말할 때만 쓰이고, 예약을 찾을 때는 다른 표현을 써야 한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'under the name'은 예약을 만들 때('It's under Kim.')뿐 아니라 예약을 찾을 때('I have a reservation under Kim.')도 동일하게 사용됩니다. 매우 범용적인 표현입니다."
+        },
+        {
+          "id": "se_ch23_set01_013",
+          "type": "ox",
+          "question": "'We're fully booked.'는 예약이 꽉 찼다는 뜻으로 더 이상 예약을 받을 수 없다는 의미이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'fully booked'는 모든 자리가 예약된 상태를 뜻하며 'no availability'와 같은 의미입니다. 이 말을 들었다면 대기 명단('waiting list')에 올리거나 다른 날짜나 시간을 시도해 볼 수 있습니다."
+        },
+        {
+          "id": "se_ch23_set01_014",
+          "type": "ox",
+          "question": "'We're running late.'에서 'run late'는 '늦게 달리다'는 뜻으로 교통수단에만 쓰이는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'run late'는 사람이 늦다, 일정이 지연되다는 뜻의 구동사로 교통수단뿐 아니라 사람이 약속 시간에 늦을 때도 폭넓게 사용됩니다. 식당 예약, 회의, 친구 약속 등 모든 상황에서 활용할 수 있습니다."
+        }
+      ]
+    }
+  ]
+}

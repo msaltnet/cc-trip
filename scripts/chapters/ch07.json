@@ -1,0 +1,878 @@
+{
+  "id": "ch07",
+  "title": "경유·환승",
+  "summary": "환승 데스크 찾기, 연결편 게이트 확인, 수하물 자동 연결, 탑승권 재발급까지 경유 공항에서 꼭 필요한 생존 표현",
+  "dialogues": [
+    {
+      "id": "ch07_d01",
+      "title": "환승 데스크 찾기",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "Excuse me, where is the transfer desk?",
+          "ko": "실례합니다, 환승 안내 데스크가 어디 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Just follow the transit signs to Level 2.",
+          "ko": "2층 환승 표지판을 따라가시면 됩니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you. Is it far from here?",
+          "ko": "감사합니다. 여기서 먼가요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "About five minutes on foot.",
+          "ko": "걸어서 5분 정도예요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Where is the transfer desk?",
+          "ko": "환승 데스크가 어디 있나요? — transfer desk는 환승 안내 카운터. transit desk라고도 합니다.",
+          "alternatives": [
+            {
+              "en": "Where is the transit desk?",
+              "ko": "환승 안내 데스크가 어디 있나요?"
+            },
+            {
+              "en": "Is there a transfer counter nearby?",
+              "ko": "근처에 환승 카운터 있나요?"
+            }
+          ]
+        },
+        {
+          "en": "Follow the transit signs.",
+          "ko": "환승 표지판을 따라가세요. — transit sign은 공항 곳곳의 환승 유도 안내판.",
+          "alternatives": [
+            {
+              "en": "Follow the connecting flight signs.",
+              "ko": "연결편 표지판을 따라가세요."
+            },
+            {
+              "en": "Follow the arrows for transfers.",
+              "ko": "환승 방향 화살표를 따라가세요."
+            }
+          ]
+        },
+        {
+          "en": "About five minutes on foot.",
+          "ko": "걸어서 약 5분 거리. — on foot은 '도보로'.",
+          "alternatives": [
+            {
+              "en": "It's a short walk.",
+              "ko": "걸어서 금방이에요."
+            },
+            {
+              "en": "It's just around the corner.",
+              "ko": "바로 저 모퉁이에 있어요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch07_d02",
+      "title": "연결편 게이트 확인",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "Can you tell me the gate for my connecting flight to Seoul?",
+          "ko": "서울행 연결편 게이트가 어디인지 알 수 있을까요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Can I see your boarding pass, please?",
+          "ko": "탑승권 좀 보여주시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Here you go.",
+          "ko": "여기 있어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Your connecting flight departs from gate C14.",
+          "ko": "연결편은 C14 게이트에서 출발합니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "connecting flight",
+          "ko": "연결편 (환승 항공편). — direct flight(직항)이나 return flight(귀국편)와 혼동하지 마세요.",
+          "alternatives": [
+            {
+              "en": "my connection",
+              "ko": "제 연결편 (구어체)"
+            },
+            {
+              "en": "my onward flight",
+              "ko": "제 이후 항공편"
+            }
+          ]
+        },
+        {
+          "en": "What gate is my connecting flight?",
+          "ko": "연결편 게이트가 몇 번인가요?",
+          "alternatives": [
+            {
+              "en": "Which gate do I go to?",
+              "ko": "어느 게이트로 가야 하나요?"
+            },
+            {
+              "en": "Can you check my gate number?",
+              "ko": "게이트 번호 확인해주실 수 있나요?"
+            }
+          ]
+        },
+        {
+          "en": "departs from gate C14",
+          "ko": "C14 게이트에서 출발합니다. — depart from은 '~에서 출발하다'.",
+          "alternatives": [
+            {
+              "en": "boards at gate C14",
+              "ko": "C14 게이트에서 탑승합니다"
+            },
+            {
+              "en": "leaves from C14",
+              "ko": "C14에서 출발해요"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch07_d03",
+      "title": "수하물 자동 연결 여부 확인",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "Is my baggage checked through to Seoul?",
+          "ko": "제 짐이 서울까지 자동으로 연결되나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, it's already tagged to your final destination.",
+          "ko": "네, 최종 목적지까지 태그가 달려 있어요."
+        },
+        {
+          "speaker": "나",
+          "en": "So I don't need to collect it here?",
+          "ko": "그럼 여기서 짐을 찾지 않아도 되나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "That's right. It will go straight to Seoul.",
+          "ko": "맞아요. 서울로 바로 갑니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Is my baggage checked through?",
+          "ko": "짐이 자동 연결되나요? — checked through는 최종 목적지까지 짐이 연결 탁송되는 것. collect your bags(짐을 찾다)와 반대 상황.",
+          "alternatives": [
+            {
+              "en": "Does my luggage go through automatically?",
+              "ko": "짐이 자동으로 넘어가나요?"
+            },
+            {
+              "en": "Will my bags be transferred to the next flight?",
+              "ko": "다음 항공편으로 짐이 옮겨지나요?"
+            }
+          ]
+        },
+        {
+          "en": "tagged to your final destination",
+          "ko": "최종 목적지까지 짐 태그가 달린. — tag는 짐표(수하물 태그).",
+          "alternatives": [
+            {
+              "en": "checked all the way to Seoul",
+              "ko": "서울까지 연결 탁송된"
+            },
+            {
+              "en": "going straight through",
+              "ko": "바로 연결되는"
+            }
+          ]
+        },
+        {
+          "en": "Do I need to collect my bags?",
+          "ko": "짐을 찾아야 하나요? — collect는 '(맡긴 것을) 찾다'.",
+          "alternatives": [
+            {
+              "en": "Do I have to pick up my luggage here?",
+              "ko": "여기서 짐을 찾아야 하나요?"
+            },
+            {
+              "en": "Should I get my bags at this airport?",
+              "ko": "이 공항에서 짐을 받아야 하나요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch07_d04",
+      "title": "환승 시간이 촉박할 때",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "I have a tight connection — only 45 minutes.",
+          "ko": "환승 시간이 빡빡해요. 45분밖에 없어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Your next gate is C14, which is quite far.",
+          "ko": "다음 게이트는 C14인데 꽤 멀어요."
+        },
+        {
+          "speaker": "나",
+          "en": "Will I make it in time?",
+          "ko": "제때 도착할 수 있을까요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "If you go now, you should be fine. Head straight there.",
+          "ko": "지금 바로 가시면 괜찮을 거예요. 바로 가세요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I have a tight connection.",
+          "ko": "환승 시간이 촉박해요. — tight connection은 갈아타는 시간이 빠듯한 상황. short layover라고도 합니다.",
+          "alternatives": [
+            {
+              "en": "My layover is very short.",
+              "ko": "경유 대기 시간이 매우 짧아요."
+            },
+            {
+              "en": "I'm running low on time for my connection.",
+              "ko": "환승 시간이 얼마 안 남았어요."
+            }
+          ]
+        },
+        {
+          "en": "Will I make it in time?",
+          "ko": "제때 도착할 수 있을까요? — make it in time은 '간신히 시간 안에 맞추다'.",
+          "alternatives": [
+            {
+              "en": "Can I catch my connection?",
+              "ko": "연결편 탈 수 있을까요?"
+            },
+            {
+              "en": "Is there enough time?",
+              "ko": "시간이 충분한가요?"
+            }
+          ]
+        },
+        {
+          "en": "Head straight there.",
+          "ko": "바로 거기로 가세요. — head는 '(어떤 방향으로) 가다'.",
+          "alternatives": [
+            {
+              "en": "Go directly to the gate.",
+              "ko": "게이트로 곧바로 가세요."
+            },
+            {
+              "en": "Make your way there now.",
+              "ko": "지금 바로 그쪽으로 가세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch07_d05",
+      "title": "재보안검색 여부 확인",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "Do I need to go through security again?",
+          "ko": "보안검색을 다시 받아야 하나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, all transit passengers must go through security.",
+          "ko": "네, 모든 경유 승객은 보안검색을 받아야 합니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Where is the security checkpoint?",
+          "ko": "보안검색대가 어디 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Turn left at the end of this corridor.",
+          "ko": "이 복도 끝에서 왼쪽으로 가세요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do I need to go through security again?",
+          "ko": "보안검색을 다시 받아야 하나요? — 경유지에 따라 재보안검색이 필요한 곳도 있습니다.",
+          "alternatives": [
+            {
+              "en": "Is there another security check?",
+              "ko": "보안검색이 한 번 더 있나요?"
+            },
+            {
+              "en": "Do transit passengers go through security?",
+              "ko": "경유 승객도 보안검색 받나요?"
+            }
+          ]
+        },
+        {
+          "en": "transit passengers",
+          "ko": "경유 승객. — transit은 중간 기착지를 통과하는 여행자를 뜻합니다.",
+          "alternatives": [
+            {
+              "en": "connecting passengers",
+              "ko": "환승 승객"
+            },
+            {
+              "en": "transfer passengers",
+              "ko": "환승 여객"
+            }
+          ]
+        },
+        {
+          "en": "security checkpoint",
+          "ko": "보안검색대. — security check / security screening이라고도 합니다.",
+          "alternatives": [
+            {
+              "en": "security screening area",
+              "ko": "보안검색 구역"
+            },
+            {
+              "en": "security control",
+              "ko": "보안 통제 지점"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch07_d06",
+      "title": "다른 터미널로 이동하기",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "My next flight is at Terminal 2. How do I get there?",
+          "ko": "다음 비행기가 2터미널인데, 어떻게 가나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Take the inter-terminal shuttle. It runs every 10 minutes.",
+          "ko": "터미널 간 셔틀을 타세요. 10분마다 운행해요."
+        },
+        {
+          "speaker": "나",
+          "en": "Where do I catch the shuttle?",
+          "ko": "셔틀은 어디서 타나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Level 1, exit B. Just follow the signs.",
+          "ko": "1층 B 출구입니다. 표지판만 따라가세요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "inter-terminal shuttle",
+          "ko": "터미널 간 셔틀버스. — 큰 국제공항에서 터미널 사이를 오가는 무료 교통수단.",
+          "alternatives": [
+            {
+              "en": "terminal connector train",
+              "ko": "터미널 연결 열차"
+            },
+            {
+              "en": "airport transit train",
+              "ko": "공항 내 환승 열차"
+            }
+          ]
+        },
+        {
+          "en": "It runs every 10 minutes.",
+          "ko": "10분마다 운행합니다. — run은 대중교통 운행에 쓰는 표현.",
+          "alternatives": [
+            {
+              "en": "It leaves every 10 minutes.",
+              "ko": "10분마다 출발해요."
+            },
+            {
+              "en": "There's one every 10 minutes.",
+              "ko": "10분에 한 대 있어요."
+            }
+          ]
+        },
+        {
+          "en": "Where do I catch the shuttle?",
+          "ko": "셔틀은 어디서 타나요? — catch는 교통수단을 '타다'라는 뜻.",
+          "alternatives": [
+            {
+              "en": "Where is the shuttle stop?",
+              "ko": "셔틀 정류장이 어디예요?"
+            },
+            {
+              "en": "How do I get to Terminal 2?",
+              "ko": "2터미널로 어떻게 가나요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch07_d07",
+      "title": "연결편을 놓쳤을 때",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "I missed my connection. What should I do?",
+          "ko": "연결편을 놓쳤어요. 어떻게 해야 하나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Please come to the rebooking counter. We'll put you on the next available flight.",
+          "ko": "재예약 카운터로 오세요. 다음 좌석이 있는 비행편으로 안내해드릴게요."
+        },
+        {
+          "speaker": "나",
+          "en": "When is the next flight to Seoul?",
+          "ko": "서울행 다음 항공편은 언제인가요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "There's one at 9 PM. I'll rebook you on that.",
+          "ko": "오후 9시 편이 있어요. 그 편으로 재예약해드리겠습니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I missed my connection.",
+          "ko": "연결편을 놓쳤어요. — miss는 '(탈 것을) 놓치다'. missed my flight(항공편을 놓쳤다)와 같은 패턴.",
+          "alternatives": [
+            {
+              "en": "I missed my connecting flight.",
+              "ko": "연결 항공편을 놓쳤어요."
+            },
+            {
+              "en": "I couldn't make my connection.",
+              "ko": "연결편을 타지 못했어요."
+            }
+          ]
+        },
+        {
+          "en": "rebooking counter",
+          "ko": "재예약 카운터. — 항공편을 놓쳤거나 변경이 필요할 때 가는 카운터.",
+          "alternatives": [
+            {
+              "en": "transfer assistance desk",
+              "ko": "환승 지원 데스크"
+            },
+            {
+              "en": "flight rebooking desk",
+              "ko": "항공편 재예약 창구"
+            }
+          ]
+        },
+        {
+          "en": "put you on the next available flight",
+          "ko": "다음 좌석이 있는 항공편에 태워드리다. — available은 '이용 가능한'.",
+          "alternatives": [
+            {
+              "en": "rebook you on the next flight",
+              "ko": "다음 편으로 재예약해 드리다"
+            },
+            {
+              "en": "find you a seat on an earlier flight",
+              "ko": "더 이른 편에 자리를 잡아드리다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch07_d08",
+      "title": "라운지 위치 안내 받기",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "Excuse me, where is the transit lounge?",
+          "ko": "실례합니다, 경유 라운지가 어디 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Which airline are you flying with?",
+          "ko": "어느 항공사를 이용하시나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "I'm with Korean Air.",
+          "ko": "대한항공이요."
+        },
+        {
+          "speaker": "직원",
+          "en": "The Korean Air lounge is on Level 3, near gate E.",
+          "ko": "대한항공 라운지는 3층 E 게이트 근처에 있어요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "transit lounge",
+          "ko": "경유 라운지. — 경유 대기 중 이용하는 휴게 공간. departure lounge(출발 대기 라운지)와 구별하세요.",
+          "alternatives": [
+            {
+              "en": "airport lounge",
+              "ko": "공항 라운지"
+            },
+            {
+              "en": "transfer lounge",
+              "ko": "환승 라운지"
+            }
+          ]
+        },
+        {
+          "en": "Which airline are you flying with?",
+          "ko": "어느 항공사 이용하시나요? — 라운지 이용 자격 확인을 위한 질문.",
+          "alternatives": [
+            {
+              "en": "What airline is your ticket with?",
+              "ko": "어느 항공사 티켓인가요?"
+            },
+            {
+              "en": "Are you a business class passenger?",
+              "ko": "비즈니스 클래스 승객이신가요?"
+            }
+          ]
+        },
+        {
+          "en": "near gate E",
+          "ko": "E 게이트 근처에. — near는 '~의 가까이에'.",
+          "alternatives": [
+            {
+              "en": "next to gate E",
+              "ko": "E 게이트 옆에"
+            },
+            {
+              "en": "past security, on your right",
+              "ko": "보안검색대 지나 오른쪽에"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch07_d09",
+      "title": "환승 비자 필요 여부 확인",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "Do I need a transit visa to stop over in Frankfurt?",
+          "ko": "프랑크푸르트 경유 시 환승 비자가 필요한가요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "What is your nationality?",
+          "ko": "국적이 어떻게 되세요?"
+        },
+        {
+          "speaker": "나",
+          "en": "I'm Korean.",
+          "ko": "한국인이에요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Korean passport holders do not need a transit visa for Germany.",
+          "ko": "한국 여권 소지자는 독일 환승 비자가 필요 없어요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "transit visa",
+          "ko": "환승 비자. — 공항 외부로 나가지 않더라도 일부 국가는 공항 환승 비자(airport transit visa)를 요구합니다.",
+          "alternatives": [
+            {
+              "en": "airport transit visa",
+              "ko": "공항 환승 비자"
+            },
+            {
+              "en": "Do I need a visa for a layover?",
+              "ko": "경유 대기 중에도 비자가 필요한가요?"
+            }
+          ]
+        },
+        {
+          "en": "stop over in Frankfurt",
+          "ko": "프랑크푸르트에 경유하다. — stop over는 '중간에 들르다'. layover와 비슷한 의미.",
+          "alternatives": [
+            {
+              "en": "have a layover in Frankfurt",
+              "ko": "프랑크푸르트에서 경유 대기하다"
+            },
+            {
+              "en": "transit through Frankfurt",
+              "ko": "프랑크푸르트를 경유해서 지나가다"
+            }
+          ]
+        },
+        {
+          "en": "passport holders",
+          "ko": "여권 소지자. — holder는 '소지자'.",
+          "alternatives": [
+            {
+              "en": "Korean nationals",
+              "ko": "한국 국적자"
+            },
+            {
+              "en": "people with a Korean passport",
+              "ko": "한국 여권을 가진 사람들"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch07_d10",
+      "title": "탑승권 재발급 요청",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "I need to reissue my boarding pass for the connecting flight.",
+          "ko": "연결편 탑승권을 재발급받고 싶어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "May I see your passport and original boarding pass?",
+          "ko": "여권과 원래 탑승권을 보여주실 수 있나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Here they are. I also lost the first one.",
+          "ko": "여기 있어요. 첫 번째 것은 잃어버렸어요."
+        },
+        {
+          "speaker": "직원",
+          "en": "No problem. I'll print a new one for you right away.",
+          "ko": "괜찮아요. 바로 새 것을 출력해드릴게요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "reissue my boarding pass",
+          "ko": "탑승권을 재발급받다. — reissue는 '재발급하다'. print a new boarding pass라고도 합니다.",
+          "alternatives": [
+            {
+              "en": "get a new boarding pass",
+              "ko": "새 탑승권을 받다"
+            },
+            {
+              "en": "print another boarding pass",
+              "ko": "탑승권을 한 장 더 출력하다"
+            }
+          ]
+        },
+        {
+          "en": "May I see your passport?",
+          "ko": "여권을 보여주시겠어요? — 신분 확인 요청 시 직원이 자주 쓰는 표현.",
+          "alternatives": [
+            {
+              "en": "Can I check your ID?",
+              "ko": "신분증 확인해도 될까요?"
+            },
+            {
+              "en": "Do you have your travel documents?",
+              "ko": "여행 서류 가지고 계신가요?"
+            }
+          ]
+        },
+        {
+          "en": "right away",
+          "ko": "바로, 즉시. — immediately와 같은 뜻으로 구어체에서 자주 씁니다.",
+          "alternatives": [
+            {
+              "en": "immediately",
+              "ko": "즉시"
+            },
+            {
+              "en": "straight away",
+              "ko": "곧바로 (영국식 표현)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch07_set01_001",
+          "type": "multiple_choice",
+          "question": "경유 공항에서 환승 안내 카운터를 찾을 때 가장 자연스러운 표현은?",
+          "options": [
+            "Where is the check-in counter?",
+            "Where is the transfer desk?",
+            "Where is the baggage claim?",
+            "Where is the departure lounge?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'transfer desk'는 환승 안내 카운터로, 경유 공항에서 연결편 정보를 확인하거나 도움이 필요할 때 찾아가는 곳입니다. 'transit desk'라고도 부릅니다."
+        },
+        {
+          "id": "se_ch07_set01_002",
+          "type": "multiple_choice",
+          "question": "대화에서 '연결편'을 뜻하는 영어 표현으로 알맞은 것은?",
+          "options": [
+            "direct flight",
+            "return flight",
+            "connecting flight",
+            "charter flight"
+          ],
+          "answerIndex": 2,
+          "explanation": "'connecting flight'는 경유지를 거쳐 최종 목적지로 가는 연결 항공편입니다. 'direct flight'는 직항, 'return flight'는 귀국편입니다."
+        },
+        {
+          "id": "se_ch07_set01_003",
+          "type": "multiple_choice",
+          "question": "'Is my baggage checked through?'의 뜻으로 가장 알맞은 것은?",
+          "options": [
+            "짐이 분실되었나요?",
+            "짐이 초과 중량인가요?",
+            "짐이 최종 목적지까지 자동 연결되나요?",
+            "짐을 다시 싸야 하나요?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'checked through'는 짐이 경유지에서 찾지 않고 최종 목적지까지 자동 연결 탁송되는 것을 뜻합니다. 체크인 때 확인하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch07_set01_004",
+          "type": "multiple_choice",
+          "question": "환승 시간이 빠듯할 때 쓰는 영어 표현은?",
+          "options": [
+            "I have a long layover.",
+            "I have a tight connection.",
+            "I have a direct flight.",
+            "I have extra baggage."
+          ],
+          "answerIndex": 1,
+          "explanation": "'tight connection'은 환승 시간이 촉박한 상황을 나타냅니다. 'long layover'는 경유 대기 시간이 긴 경우입니다."
+        },
+        {
+          "id": "se_ch07_set01_005",
+          "type": "multiple_choice",
+          "question": "연결편을 놓쳤을 때 가장 먼저 가야 하는 곳은?",
+          "options": [
+            "baggage claim",
+            "duty-free shop",
+            "rebooking counter",
+            "departure gate"
+          ],
+          "answerIndex": 2,
+          "explanation": "연결편을 놓쳤을 때는 'rebooking counter(재예약 카운터)'로 가서 다음 가능한 편으로 재예약을 받아야 합니다."
+        },
+        {
+          "id": "se_ch07_set01_006",
+          "type": "multiple_choice",
+          "question": "'transit'과 'layover'의 공통점으로 가장 알맞은 것은?",
+          "options": [
+            "둘 다 수하물 분실 상황에 쓴다",
+            "둘 다 경유·환승 관련 상황에서 쓴다",
+            "둘 다 입국 심사 절차를 뜻한다",
+            "둘 다 탑승권 재발급과 관련 있다"
+          ],
+          "answerIndex": 1,
+          "explanation": "'transit'(경유 이동)과 'layover'(경유지 대기 시간) 모두 환승 상황에서 쓰입니다. transit은 이동 행위, layover는 대기 시간에 초점을 둡니다."
+        },
+        {
+          "id": "se_ch07_set01_007",
+          "type": "multiple_choice",
+          "question": "다른 터미널로 이동할 때 이용하는 교통수단을 영어로 뭐라고 하나요?",
+          "options": [
+            "boarding shuttle",
+            "inter-terminal shuttle",
+            "baggage carousel",
+            "duty-free train"
+          ],
+          "answerIndex": 1,
+          "explanation": "'inter-terminal shuttle'은 터미널 간 이동 셔틀입니다. 대형 국제공항에서 무료로 운행하며, 'airport transit train'이라고도 합니다."
+        },
+        {
+          "id": "se_ch07_set01_008",
+          "type": "multiple_choice",
+          "question": "탑승권을 새로 발급받고 싶을 때 쓰는 동사는?",
+          "options": [
+            "rebook",
+            "reissue",
+            "refund",
+            "repack"
+          ],
+          "answerIndex": 1,
+          "explanation": "탑승권을 재발급받으려면 'reissue my boarding pass'라고 합니다. 'rebook'은 항공편을 다시 예약하는 것, 'refund'는 환불입니다."
+        },
+        {
+          "id": "se_ch07_set01_009",
+          "type": "multiple_choice",
+          "question": "일부 국가의 공항 경유 시 요구될 수 있는 것은?",
+          "options": [
+            "tourist visa",
+            "work visa",
+            "transit visa",
+            "student visa"
+          ],
+          "answerIndex": 2,
+          "explanation": "'transit visa(환승 비자)'는 일부 국가를 공항에서 경유할 때 요구되는 비자입니다. 국적과 경유 국가에 따라 필요 여부가 다르므로 출발 전에 꼭 확인해야 합니다."
+        },
+        {
+          "id": "se_ch07_set01_010",
+          "type": "multiple_choice",
+          "question": "'I missed my connection.'과 가장 비슷한 뜻의 표현은?",
+          "options": [
+            "I caught my connecting flight.",
+            "I couldn't make my connection.",
+            "I arrived at my destination.",
+            "I boarded on time."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I missed my connection.'은 연결편을 놓쳤다는 뜻으로, 'I couldn't make my connection.'도 같은 상황을 나타냅니다. 'caught my flight'은 반대 표현입니다."
+        },
+        {
+          "id": "se_ch07_set01_011",
+          "type": "multiple_choice",
+          "question": "'Do I need to collect my bags?'에서 'collect'의 뜻은?",
+          "options": [
+            "가방을 구매하다",
+            "가방에 짐을 넣다",
+            "가방을 부치다",
+            "맡겨 둔 가방을 찾다"
+          ],
+          "answerIndex": 3,
+          "explanation": "여기서 'collect'는 '(맡겨 둔 것을) 찾다'는 뜻입니다. 경유 시 짐을 찾아 다시 체크인해야 하는지 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch07_set01_012",
+          "type": "ox",
+          "question": "'layover'는 경유 공항에서 다음 항공편을 기다리는 대기 시간을 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'layover'는 경유지에서 다음 항공편을 기다리는 시간입니다. 'stopover'라고도 하며, 보통 24시간 미만의 대기를 가리킵니다."
+        },
+        {
+          "id": "se_ch07_set01_013",
+          "type": "ox",
+          "question": "'checked through'는 짐이 경유지에서 따로 수령하지 않고 최종 목적지까지 자동 전달되는 것을 의미한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'checked through(연결 탁송)'는 경유지에서 짐을 찾지 않아도 최종 목적지로 자동 연결되는 서비스입니다. 항공사와 예약 조건에 따라 달라질 수 있습니다."
+        },
+        {
+          "id": "se_ch07_set01_014",
+          "type": "ox",
+          "question": "'transit visa'는 모든 나라 국적자가 항상 필요한 비자다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 환승 비자 필요 여부는 국적과 경유 국가에 따라 다릅니다. 예를 들어 한국 여권 소지자는 독일 공항 환승 시 환승 비자가 필요 없습니다."
+        }
+      ]
+    }
+  ]
+}

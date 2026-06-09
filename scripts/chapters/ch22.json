@@ -1,0 +1,532 @@
+{
+  "id": "ch22",
+  "title": "카페·패스트푸드·포장",
+  "summary": "매장/포장 선택, 음료 사이즈·옵션, 세트 주문, 얼음 빼기, 주문 픽업, 빈자리 확인, 와이파이·콘센트, 영수증·교환까지 카페와 패스트푸드점에서 쓰는 핵심 표현 모음",
+  "dialogues": [
+    {
+      "id": "ch22_d01",
+      "title": "매장에서 먹을지 포장할지 묻기",
+      "lines": [
+        { "speaker": "점원", "en": "Hi! For here or to go?", "ko": "안녕하세요! 매장에서 드실 건가요, 포장하실 건가요?" },
+        { "speaker": "나", "en": "To go, please.", "ko": "포장해 주세요." },
+        { "speaker": "점원", "en": "Great, what can I get for you?", "ko": "알겠습니다, 주문하시겠어요?" },
+        { "speaker": "나", "en": "A medium latte and a blueberry muffin, please.", "ko": "미디엄 라테 하나랑 블루베리 머핀 하나 주세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "For here or to go?",
+          "ko": "직원이 매장 식사 또는 포장을 묻는 표현. 미국식 영어. 영국·호주에서는 'Eat in or take away?'라고 함. 대답은 'For here.' / 'To go.'로 짧게 해도 됨.",
+          "alternatives": [
+            { "en": "Eat in or take away?", "ko": "영국·호주식 표현으로 뜻은 동일. 'take away'가 포장에 해당함." },
+            { "en": "Is this to eat here or take out?", "ko": "좀 더 풀어서 묻는 형태. 'take out'은 미국식 포장 표현." }
+          ]
+        },
+        {
+          "en": "To go, please.",
+          "ko": "포장해 달라는 표현. 'For here, please.'는 매장 내 식사. 두 표현을 혼동하지 않도록 주의.",
+          "alternatives": [
+            { "en": "Take away, please.", "ko": "영국·호주식 포장 요청 표현. 'to go'와 같은 뜻." },
+            { "en": "I'll take it to go.", "ko": "포장해서 가져가겠다는 의사를 명확히 표현하는 방식." }
+          ]
+        },
+        {
+          "en": "What can I get for you?",
+          "ko": "직원이 주문을 받을 때 쓰는 가장 흔한 표현. 'May I take your order?'보다 더 캐주얼하고 친근한 느낌.",
+          "alternatives": [
+            { "en": "May I take your order?", "ko": "격식 있는 주문 요청 표현. 고급 레스토랑에서 더 자주 들을 수 있음." },
+            { "en": "What would you like?", "ko": "무엇을 원하시냐는 캐주얼한 주문 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch22_d02",
+      "title": "음료 사이즈 선택하기",
+      "lines": [
+        { "speaker": "점원", "en": "What size would you like — small, medium, or large?", "ko": "사이즈는 어떻게 하시겠어요 — 스몰, 미디엄, 라지 중에서요?" },
+        { "speaker": "나", "en": "Large, please.", "ko": "라지로 주세요." },
+        { "speaker": "점원", "en": "Sure! That'll be four dollars fifty.", "ko": "알겠습니다! 4달러 50센트입니다." },
+        { "speaker": "나", "en": "Here you go.", "ko": "여기 있습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "What size would you like?",
+          "ko": "사이즈를 선택하라고 묻는 표현. 카페나 패스트푸드에서 자주 들을 수 있음. 스몰·미디엄·라지 외에 'tall/grande/venti' 같은 브랜드별 명칭을 쓰는 곳도 있음.",
+          "alternatives": [
+            { "en": "Which size do you want?", "ko": "좀 더 직접적으로 사이즈를 묻는 표현." },
+            { "en": "Small, medium, or large?", "ko": "옵션을 나열해 바로 선택을 유도하는 간결한 표현." }
+          ]
+        },
+        {
+          "en": "Large, please.",
+          "ko": "사이즈를 한 단어로 답하는 간단한 방법. 'I'd like a large.' 또는 'A large one, please.'도 자연스러움.",
+          "alternatives": [
+            { "en": "I'll go with the large.", "ko": "라지로 결정하겠다는 구어적 표현. 'go with'는 선택할 때 자주 쓰임." },
+            { "en": "The biggest one, please.", "ko": "가장 큰 것으로 달라는 표현. 사이즈 명칭을 모를 때 유용." }
+          ]
+        },
+        {
+          "en": "That'll be four dollars fifty.",
+          "ko": "가격을 알려주는 표현. 'That'll be ~'는 계산 시 직원이 자주 쓰는 표현으로 'That will be ~'의 축약형.",
+          "alternatives": [
+            { "en": "Your total is four fifty.", "ko": "총액을 알려주는 더 간결한 표현." },
+            { "en": "It comes to four dollars fifty.", "ko": "'comes to'는 합계가 얼마가 된다는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch22_d03",
+      "title": "커피 옵션 요청하기 (오트밀크·디카페인)",
+      "lines": [
+        { "speaker": "나", "en": "Can I get a medium latte with oat milk, please?", "ko": "오트밀크로 미디엄 라테 주세요." },
+        { "speaker": "점원", "en": "Of course. Would you like it caffeinated or decaf?", "ko": "물론이죠. 카페인 있는 걸로 드릴까요, 디카페인으로 드릴까요?" },
+        { "speaker": "나", "en": "Decaf, please.", "ko": "디카페인으로 주세요." },
+        { "speaker": "점원", "en": "Got it — one medium oat milk decaf latte.", "ko": "알겠습니다 — 미디엄 오트밀크 디카페인 라테 한 잔이요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Can I get a latte with oat milk?",
+          "ko": "'with + 재료'로 원하는 옵션을 추가하는 표현. 'with oat milk'는 오트밀크로 만들어달라는 의미. 'with soy milk', 'with almond milk'도 같은 방식으로 쓸 수 있음.",
+          "alternatives": [
+            { "en": "I'd like a latte made with oat milk.", "ko": "'made with'로 재료를 강조하는 표현." },
+            { "en": "Could I have an oat milk latte?", "ko": "재료를 형용사처럼 앞에 붙이는 더 간결한 표현." }
+          ]
+        },
+        {
+          "en": "Decaf, please.",
+          "ko": "디카페인으로 달라는 요청. 'decaf'는 'decaffeinated'의 줄임말. 카페인이 들어간 음료는 'regular' 또는 'caffeinated'라고 함.",
+          "alternatives": [
+            { "en": "Make it decaf, please.", "ko": "디카페인으로 만들어달라는 명확한 요청." },
+            { "en": "No caffeine, please.", "ko": "카페인 없이 달라는 직접적인 표현." }
+          ]
+        },
+        {
+          "en": "Got it.",
+          "ko": "주문을 접수했다는 확인 표현. 직원이 자주 쓰며, 'Understood.'나 'Sure thing.'과 같은 의미.",
+          "alternatives": [
+            { "en": "Sure thing.", "ko": "알겠다는 캐주얼하고 친근한 확인 표현." },
+            { "en": "Coming right up.", "ko": "바로 준비하겠다는 의미로 주문을 받은 후 자주 쓰이는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch22_d04",
+      "title": "세트 메뉴(콤보) 주문하기",
+      "lines": [
+        { "speaker": "나", "en": "Can I get the number two combo, please?", "ko": "2번 콤보 세트로 주세요." },
+        { "speaker": "점원", "en": "The number two comes with fries and a drink. What drink would you like?", "ko": "2번 세트에는 감자튀김과 음료가 포함됩니다. 음료는 어떤 걸로 드릴까요?" },
+        { "speaker": "나", "en": "Coke, please.", "ko": "콜라로 주세요." },
+        { "speaker": "점원", "en": "Small, medium, or large?", "ko": "스몰, 미디엄, 라지 중에서요?" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Can I get the number two combo?",
+          "ko": "메뉴판 번호로 세트를 주문하는 표현. 'combo'(콤보)는 미국식 패스트푸드에서 세트를 의미. 영국에서는 'meal'을 더 자주 씀 (예: 'the number two meal').",
+          "alternatives": [
+            { "en": "I'll have the number two meal.", "ko": "영국식에서 세트를 'meal'이라고 부름. 'I'll have'는 주문 시 자연스러운 표현." },
+            { "en": "The number two, please.", "ko": "번호만 말해도 세트임을 알 수 있는 간결한 표현." }
+          ]
+        },
+        {
+          "en": "The number two comes with fries and a drink.",
+          "ko": "'comes with'는 무언가가 포함되어 있다는 표현. 세트 구성을 설명할 때 자주 쓰임. 'includes'와 같은 의미.",
+          "alternatives": [
+            { "en": "The combo includes fries and a drink.", "ko": "'includes'로 포함 항목을 설명하는 표현." },
+            { "en": "It's served with fries and a drink.", "ko": "'served with'는 함께 제공된다는 의미." }
+          ]
+        },
+        {
+          "en": "What drink would you like?",
+          "ko": "음료 선택을 묻는 표현. 세트 주문 시 직원이 자주 물어봄. 'What would you like to drink?'와 같은 의미.",
+          "alternatives": [
+            { "en": "What would you like to drink?", "ko": "조금 더 풀어서 쓴 음료 선택 질문 표현." },
+            { "en": "And your drink?", "ko": "짧고 캐주얼하게 음료를 확인하는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch22_d05",
+      "title": "추가 토핑·소스 요청하기",
+      "lines": [
+        { "speaker": "나", "en": "Can I add extra cheese on the burger, please?", "ko": "버거에 치즈 추가해 주세요." },
+        { "speaker": "점원", "en": "Sure! Any sauces you'd like?", "ko": "물론이죠! 소스는 어떤 걸 원하세요?" },
+        { "speaker": "나", "en": "Can I have ketchup and mustard on the side?", "ko": "케첩이랑 머스터드를 따로 주실 수 있나요?" },
+        { "speaker": "점원", "en": "Of course, I'll put them in the bag.", "ko": "물론이죠, 봉투에 넣어드리겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Can I add extra cheese?",
+          "ko": "토핑을 추가해달라는 표현. 'extra'는 기본 구성에 더해서 추가한다는 의미. 'add + 재료'로 원하는 토핑을 요청할 수 있음.",
+          "alternatives": [
+            { "en": "Could I get extra cheese on top?", "ko": "위에 치즈를 더 얹어달라는 구체적인 표현." },
+            { "en": "I'd like to add cheese, please.", "ko": "'I'd like to add'로 추가 요청을 정중하게 표현." }
+          ]
+        },
+        {
+          "en": "Can I have ketchup on the side?",
+          "ko": "'on the side'는 음식에 뿌리지 말고 따로 달라는 표현. 소스나 드레싱을 곁들이고 싶을 때 사용. 'separately'와 같은 의미.",
+          "alternatives": [
+            { "en": "Can I get the sauce separately?", "ko": "소스를 따로 달라는 직접적인 표현." },
+            { "en": "Could you put the sauce on the side?", "ko": "소스를 옆에 따로 담아달라는 정중한 요청." }
+          ]
+        },
+        {
+          "en": "Any sauces you'd like?",
+          "ko": "원하는 소스가 있는지 묻는 표현. 'Any ~ you'd like?'는 원하는 것이 있는지 묻는 친근한 방식.",
+          "alternatives": [
+            { "en": "Would you like any sauces?", "ko": "소스를 원하는지 정중하게 묻는 표현." },
+            { "en": "Which sauce would you like?", "ko": "특정 소스 선택을 유도하는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch22_d06",
+      "title": "얼음 빼거나 줄여달라고 하기",
+      "lines": [
+        { "speaker": "나", "en": "Can I get a large iced Americano with no ice, please?", "ko": "아이스 아메리카노 라지 사이즈로 얼음 빼고 주세요." },
+        { "speaker": "점원", "en": "No ice at all?", "ko": "얼음을 아예 빼드릴까요?" },
+        { "speaker": "나", "en": "Actually, can I get just a little ice?", "ko": "사실, 얼음 조금만 넣어 주시겠어요?" },
+        { "speaker": "점원", "en": "Sure, light ice it is.", "ko": "알겠습니다, 얼음 조금만 넣어드리겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "With no ice, please.",
+          "ko": "얼음을 넣지 말아달라는 표현. 'without ice'와 같은 의미. 'no + 재료'는 해당 재료를 제외해달라는 가장 간결한 표현.",
+          "alternatives": [
+            { "en": "Without ice, please.", "ko": "'without + 재료'로 제외 요청하는 표현. 의미는 동일." },
+            { "en": "Hold the ice, please.", "ko": "'hold the ~'는 패스트푸드·카페에서 특정 재료를 빼달라는 관용 표현." }
+          ]
+        },
+        {
+          "en": "Can I get just a little ice?",
+          "ko": "얼음을 조금만 넣어달라는 표현. 'just a little'은 아주 조금이라는 의미. 'light ice'(적은 얼음)도 같은 요청에 쓸 수 있음.",
+          "alternatives": [
+            { "en": "Light ice, please.", "ko": "업계 용어로 얼음 적게 넣어달라는 표현. 짧고 직관적임." },
+            { "en": "Less ice, please.", "ko": "얼음 더 적게 달라는 표현. 'less'는 '더 적게'라는 의미." }
+          ]
+        },
+        {
+          "en": "Light ice it is.",
+          "ko": "고객의 요청을 확인하며 '그렇게 해드리겠습니다'라는 표현. '~ it is.'는 요청을 수락하는 관용 표현으로 매우 자연스럽게 들림.",
+          "alternatives": [
+            { "en": "Sure, less ice.", "ko": "간단하게 요청을 확인하는 표현." },
+            { "en": "No problem, I'll keep the ice light.", "ko": "얼음을 적게 넣겠다고 명확히 확인하는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch22_d07",
+      "title": "주문 이름/번호 부르기 확인",
+      "lines": [
+        { "speaker": "점원", "en": "Can I get a name for the order?", "ko": "주문 이름을 알려주시겠어요?" },
+        { "speaker": "나", "en": "It's Minjun.", "ko": "민준이요." },
+        { "speaker": "점원", "en": "How do you spell that?", "ko": "스펠링이 어떻게 되나요?" },
+        { "speaker": "나", "en": "M-I-N-J-U-N.", "ko": "M-I-N-J-U-N입니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Can I get a name for the order?",
+          "ko": "주문자 이름을 물어보는 표현. 카페에서 음료 준비 후 이름을 불러 전달하는 방식. 이름 대신 번호를 받는 곳도 있음.",
+          "alternatives": [
+            { "en": "What name should I put for the order?", "ko": "어떤 이름으로 등록할지 묻는 표현." },
+            { "en": "And your name, please?", "ko": "간단하게 이름만 요청하는 표현." }
+          ]
+        },
+        {
+          "en": "It's Minjun.",
+          "ko": "이름을 알려줄 때 쓰는 표현. 'My name is ~'보다 'It's ~'가 더 캐주얼하고 자연스러움.",
+          "alternatives": [
+            { "en": "My name is Minjun.", "ko": "격식 있게 이름을 알려주는 표현." },
+            { "en": "Just put it under Min.", "ko": "외국에서 짧게 쓸 이름으로 등록해달라는 표현." }
+          ]
+        },
+        {
+          "en": "How do you spell that?",
+          "ko": "스펠링을 확인할 때 쓰는 표현. 외국인 이름을 받을 때 직원이 자주 사용함. 반대로 내가 이름을 알아야 할 때도 활용 가능.",
+          "alternatives": [
+            { "en": "Could you spell that for me?", "ko": "스펠링을 정중하게 부탁하는 표현." },
+            { "en": "How is that spelled?", "ko": "같은 의미의 약간 다른 어순 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch22_d08",
+      "title": "빈자리 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, is this seat taken?", "ko": "실례합니다, 이 자리 누가 쓰고 있나요?" },
+        { "speaker": "손님", "en": "No, go ahead. It's free.", "ko": "아니요, 앉으세요. 비어 있어요." },
+        { "speaker": "나", "en": "Thank you so much.", "ko": "감사합니다." },
+        { "speaker": "손님", "en": "No problem.", "ko": "별말씀을요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Is this seat taken?",
+          "ko": "자리가 점유 중인지 묻는 표현. 'taken'은 이미 누가 사용 중이라는 의미. 'Is this seat free?'(빈 자리냐)와 방향이 반대이지만 같은 상황에서 사용됨.",
+          "alternatives": [
+            { "en": "Is this seat free?", "ko": "자리가 비어 있는지 묻는 표현. 'taken'의 반대 방식으로 물어봄." },
+            { "en": "Is anyone sitting here?", "ko": "여기 누가 앉아 있냐는 직접적인 표현." }
+          ]
+        },
+        {
+          "en": "Go ahead.",
+          "ko": "앉아도 된다, 해도 된다는 허락 표현. 상황에 따라 '먼저 하세요', '자리에 앉으세요' 등 다양하게 쓰임.",
+          "alternatives": [
+            { "en": "Feel free to sit.", "ko": "자유롭게 앉으세요라는 친절한 표현." },
+            { "en": "Be my guest.", "ko": "물론이죠, 얼마든지 하세요라는 관용 표현." }
+          ]
+        },
+        {
+          "en": "It's free.",
+          "ko": "자리가 비어 있다는 표현. 'free'는 여기서 '무료'가 아니라 '사용 가능한, 비어 있는'이라는 의미. 혼동하지 않도록 주의.",
+          "alternatives": [
+            { "en": "Nobody's using it.", "ko": "아무도 사용하지 않는다는 직접적인 표현." },
+            { "en": "It's available.", "ko": "'available'은 이용 가능하다는 의미로 자연스럽게 쓰임." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch22_d09",
+      "title": "와이파이·콘센트 묻기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, is there Wi-Fi here?", "ko": "실례합니다, 여기 와이파이 되나요?" },
+        { "speaker": "점원", "en": "Yes! The password is on the receipt.", "ko": "네! 비밀번호는 영수증에 있어요." },
+        { "speaker": "나", "en": "Great. Is there also a power outlet nearby?", "ko": "감사해요. 근처에 콘센트도 있나요?" },
+        { "speaker": "점원", "en": "There are some sockets by the window.", "ko": "창가 쪽에 콘센트가 몇 개 있어요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Is there Wi-Fi here?",
+          "ko": "와이파이 여부를 묻는 표현. 'Do you have Wi-Fi?'도 자연스럽게 쓰임. 비밀번호는 'What's the Wi-Fi password?'로 물어볼 수 있음.",
+          "alternatives": [
+            { "en": "Do you have Wi-Fi?", "ko": "와이파이가 있냐고 묻는 더 간결한 표현." },
+            { "en": "What's the Wi-Fi password?", "ko": "와이파이 비밀번호를 바로 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Is there a power outlet nearby?",
+          "ko": "콘센트가 있는지 묻는 표현. 'outlet'은 미국식, 'socket'은 영국식 표현. 'plug'를 동사로 써서 'Can I plug in my laptop?'으로도 물을 수 있음.",
+          "alternatives": [
+            { "en": "Is there a socket I can use?", "ko": "영국식으로 콘센트 여부를 묻는 표현." },
+            { "en": "Can I plug in here?", "ko": "콘센트를 사용해도 되냐는 직접적인 표현." }
+          ]
+        },
+        {
+          "en": "The password is on the receipt.",
+          "ko": "비밀번호가 영수증에 있다는 안내 표현. 카페에서 자주 쓰는 방식. 'the password is ~'로 직접 알려주기도 함.",
+          "alternatives": [
+            { "en": "The Wi-Fi password is written on your cup.", "ko": "컵에 비밀번호가 적혀 있다는 안내 표현." },
+            { "en": "Ask the cashier for the password.", "ko": "카운터에 물어보라는 안내 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch22_d10",
+      "title": "영수증 요청·교환하기",
+      "lines": [
+        { "speaker": "나", "en": "Can I have a receipt, please?", "ko": "영수증 주실 수 있나요?" },
+        { "speaker": "점원", "en": "Sure, here you go.", "ko": "물론이죠, 여기 있습니다." },
+        { "speaker": "나", "en": "Actually, I think I was charged twice. Could you check?", "ko": "사실, 두 번 결제된 것 같아요. 확인해 주시겠어요?" },
+        { "speaker": "점원", "en": "Of course, let me look into that for you.", "ko": "물론이죠, 확인해 드리겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Can I have a receipt, please?",
+          "ko": "영수증을 요청하는 표현. 'receipt'는 영수증. 발음에 주의 — 'p'는 묵음이므로 '리싯'에 가깝게 발음함.",
+          "alternatives": [
+            { "en": "Could I get a receipt?", "ko": "'Could I'를 써서 조금 더 정중하게 영수증을 요청하는 표현." },
+            { "en": "May I have a receipt?", "ko": "가장 격식 있게 영수증을 요청하는 표현." }
+          ]
+        },
+        {
+          "en": "I think I was charged twice.",
+          "ko": "이중 청구된 것 같다고 말하는 표현. 'charged'는 청구되었다는 의미. 'I think'를 앞에 붙여 불확실하지만 문제를 제기하는 자연스러운 방식.",
+          "alternatives": [
+            { "en": "I was double-charged.", "ko": "이중 청구를 더 간결하게 표현하는 방식." },
+            { "en": "I think there's an error on my bill.", "ko": "청구 내역에 오류가 있는 것 같다는 표현." }
+          ]
+        },
+        {
+          "en": "Let me look into that for you.",
+          "ko": "확인해보겠다는 직원의 표현. 'look into'는 조사하다, 확인하다는 의미. 'for you'를 붙여 고객을 위해 해주겠다는 친절한 뉘앙스를 더함.",
+          "alternatives": [
+            { "en": "I'll check that right away.", "ko": "바로 확인하겠다는 표현." },
+            { "en": "Let me pull up your order.", "ko": "주문 내역을 불러오겠다는 더 구체적인 표현." }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch22_set01_001",
+          "type": "multiple_choice",
+          "question": "카페 직원이 'For here or to go?'라고 물을 때 포장해 가겠다는 대답으로 알맞은 것은?",
+          "options": [
+            "For here, please.",
+            "To go, please.",
+            "Outside, please.",
+            "Take me away."
+          ],
+          "answerIndex": 1,
+          "explanation": "'To go, please.'는 포장해서 가져가겠다는 표현입니다. 'For here, please.'는 매장 내에서 먹겠다는 대답이며 정반대의 의미입니다. 영국·호주에서는 'Take away, please.'가 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch22_set01_002",
+          "type": "multiple_choice",
+          "question": "라지 사이즈 커피를 주문할 때 가장 자연스러운 표현은?",
+          "options": [
+            "Give me the big cup.",
+            "Large coffee, please.",
+            "I want biggest size.",
+            "Coffee — large type."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Large coffee, please.' 또는 'A large coffee, please.'는 사이즈와 메뉴를 함께 말하는 자연스러운 주문 표현입니다. 나머지 옵션은 문법적으로 어색하거나 명령형이라 무례하게 들릴 수 있습니다."
+        },
+        {
+          "id": "se_ch22_set01_003",
+          "type": "multiple_choice",
+          "question": "음료에 얼음을 전혀 넣지 말아달라고 요청하는 표현으로 알맞은 것은?",
+          "options": [
+            "With extra ice, please.",
+            "No ice, please.",
+            "Less ice cream, please.",
+            "Cold ice only, please."
+          ],
+          "answerIndex": 1,
+          "explanation": "'No ice, please.' 또는 'Without ice, please.'는 얼음 없이 달라는 표현입니다. 'No + 재료'는 해당 재료를 제외해달라는 가장 간결한 표현입니다. 'extra ice'는 반대로 얼음을 더 넣어달라는 의미입니다."
+        },
+        {
+          "id": "se_ch22_set01_004",
+          "type": "multiple_choice",
+          "question": "패스트푸드점에서 2번 세트를 주문하는 가장 자연스러운 표현은?",
+          "options": [
+            "Can I get the number two combo, please?",
+            "Two set menu, please.",
+            "I want number two food.",
+            "Give combo number two."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get the number two combo, please?'는 세트 메뉴를 주문하는 자연스러운 표현입니다. 미국식에서는 'combo', 영국식에서는 'meal'이라고 합니다. 'I'll have the number two meal.'도 자연스러운 대안입니다."
+        },
+        {
+          "id": "se_ch22_set01_005",
+          "type": "multiple_choice",
+          "question": "카페에서 빈자리가 있는지 물어보는 가장 자연스러운 표현은?",
+          "options": [
+            "Is this seat taken?",
+            "Is this chair for sale?",
+            "Can I buy this seat?",
+            "This seat is mine?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is this seat taken?'은 자리가 이미 점유되어 있는지 묻는 자연스러운 표현입니다. 'Is this seat free?'도 같은 상황에 쓸 수 있습니다. 'taken'은 '이미 사용 중'이라는 의미입니다."
+        },
+        {
+          "id": "se_ch22_set01_006",
+          "type": "multiple_choice",
+          "question": "오트밀크로 라테를 만들어달라고 요청하는 표현은?",
+          "options": [
+            "Latte with no milk.",
+            "Can I get a latte with oat milk?",
+            "Oat latte milk, please.",
+            "I want latte but oat."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Can I get a latte with oat milk?'는 오트밀크로 라테를 만들어달라는 자연스러운 표현입니다. 'with + 재료'로 원하는 옵션을 추가할 수 있습니다. 'an oat milk latte'처럼 형용사로 앞에 붙이는 방법도 있습니다."
+        },
+        {
+          "id": "se_ch22_set01_007",
+          "type": "multiple_choice",
+          "question": "카페 직원이 주문 이름을 물어봤을 때 이름을 알려주는 가장 자연스러운 표현은?",
+          "options": [
+            "My designation is Minjun.",
+            "I am called Minjun.",
+            "It's Minjun.",
+            "Minjun is my label."
+          ],
+          "answerIndex": 2,
+          "explanation": "'It's Minjun.'은 이름을 알려줄 때 가장 자연스러운 캐주얼 표현입니다. 'My name is Minjun.'도 맞지만 'It's ~'가 더 구어적이고 자연스럽습니다. 나머지 옵션은 어색하거나 비자연스럽습니다."
+        },
+        {
+          "id": "se_ch22_set01_008",
+          "type": "multiple_choice",
+          "question": "카페에 콘센트가 있는지 물어보는 표현으로 알맞은 것은?",
+          "options": [
+            "Is there electricity here?",
+            "Is there a power outlet nearby?",
+            "Do you sell sockets?",
+            "Where is the electric wall?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is there a power outlet nearby?'는 근처에 콘센트가 있는지 묻는 자연스러운 표현입니다. 미국식으로는 'outlet', 영국식으로는 'socket'을 씁니다. 'Can I plug in here?'도 같은 상황에서 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch22_set01_009",
+          "type": "multiple_choice",
+          "question": "결제 후 영수증을 요청하는 표현으로 알맞은 것은?",
+          "options": [
+            "Can I have a refund?",
+            "Can I have a receipt, please?",
+            "Can I have a discount?",
+            "Can I have a coupon?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Can I have a receipt, please?'는 영수증을 요청하는 표준 표현입니다. 'receipt'의 발음은 '리싯'에 가까우며 'p'는 묵음입니다. 'refund'는 환불, 'discount'는 할인으로 다른 의미입니다."
+        },
+        {
+          "id": "se_ch22_set01_010",
+          "type": "multiple_choice",
+          "question": "음료에 얼음을 조금만 넣어달라고 하는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Minimum ice, please.",
+            "Light ice, please.",
+            "Half ice, please.",
+            "Small ice, please."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Light ice, please.'는 얼음을 적게 넣어달라는 카페·패스트푸드 업계에서 통용되는 표현입니다. 'Less ice, please.'도 자연스럽습니다. 'Minimum ice'나 'Small ice'는 영어에서 자연스럽지 않은 표현입니다."
+        },
+        {
+          "id": "se_ch22_set01_011",
+          "type": "ox",
+          "question": "'to go'와 'takeaway'는 둘 다 포장을 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'to go'는 미국식, 'takeaway'(또는 'take away')는 영국·호주식 표현으로 둘 다 음식을 포장해서 가져간다는 의미입니다. 'take out'도 미국식으로 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch22_set01_012",
+          "type": "ox",
+          "question": "'Is this seat free?'에서 'free'는 '무료'라는 의미이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 이 문장에서 'free'는 '비어 있는, 사용 가능한'이라는 의미입니다. 'Is this seat available?'과 같은 뜻입니다. 가격이 무료냐는 의미로 오해하기 쉽지만, 맥락에 따라 구분할 수 있습니다."
+        },
+        {
+          "id": "se_ch22_set01_013",
+          "type": "ox",
+          "question": "'No ice, please.'는 얼음을 추가로 더 달라는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'No ice, please.'는 얼음을 아예 넣지 말아달라는 표현입니다. 얼음을 더 달라고 할 때는 'Extra ice, please.' 또는 'Can I get more ice?'라고 해야 합니다."
+        },
+        {
+          "id": "se_ch22_set01_014",
+          "type": "ox",
+          "question": "패스트푸드점에서 'combo'와 'meal'은 둘 다 세트 메뉴를 가리킬 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'combo'는 미국식 패스트푸드에서, 'meal'은 영국식에서 세트 메뉴를 가리킵니다. 예를 들어 미국에서는 'number two combo', 영국에서는 'number two meal'이라고 합니다."
+        }
+      ]
+    }
+  ]
+}

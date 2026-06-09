@@ -1,0 +1,532 @@
+{
+  "id": "ch36",
+  "title": "약국 OTC",
+  "summary": "가까운 약국 찾기, 감기약·진통제 구매, 복용법 확인, 어린이 용량, 처방전 필요 여부, 알레르기약·소화제·상처 용품까지 처방전 없이 해결하는 약국 생존 영어",
+  "dialogues": [
+    {
+      "id": "ch36_d01",
+      "title": "가까운 약국 찾기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, where is the nearest pharmacy?", "ko": "실례합니다, 가장 가까운 약국이 어디 있나요?" },
+        { "speaker": "행인", "en": "There's one just around the corner, about two minutes away.", "ko": "바로 모퉁이를 돌면 있어요, 약 2분 거리예요." },
+        { "speaker": "나", "en": "Is it a proper pharmacy, or just a supermarket?", "ko": "제대로 된 약국인가요, 아니면 그냥 슈퍼마켓인가요?" },
+        { "speaker": "행인", "en": "It's a proper chemist — they have a pharmacist on duty.", "ko": "제대로 된 약국이에요 — 약사가 항상 있어요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Where is the nearest pharmacy?",
+          "ko": "가장 가까운 약국을 찾는 표현. 영국·호주에서는 'pharmacy' 대신 'chemist' 또는 'chemist's'라고도 하므로 두 표현 모두 알아두자.",
+          "alternatives": [
+            { "en": "Is there a pharmacy near here?", "ko": "근처에 약국이 있는지 물어보는 표현으로 위치를 모를 때 유용." },
+            { "en": "Where can I find a chemist?", "ko": "영국식 표현으로 'chemist'는 약국을 뜻함. 영국·호주 여행 시 자주 쓰임." }
+          ]
+        },
+        {
+          "en": "A proper pharmacy / chemist",
+          "ko": "'proper'는 '제대로 된, 진짜의'라는 뜻. 편의점이나 슈퍼마켓에서도 일부 의약품을 팔기 때문에, 약사가 있는 전문 약국인지 확인할 때 사용하는 표현.",
+          "alternatives": [
+            { "en": "A full-service pharmacy", "ko": "모든 서비스를 갖춘 약국이라는 표현." },
+            { "en": "A pharmacy with a pharmacist", "ko": "약사가 있는 약국임을 명시하는 직접적인 표현." }
+          ]
+        },
+        {
+          "en": "Just around the corner",
+          "ko": "'바로 모퉁이를 돌면'이라는 뜻으로 매우 가까운 거리를 나타내는 관용 표현. 길 안내에서 자주 들을 수 있으므로 기억해두자.",
+          "alternatives": [
+            { "en": "Just down the road", "ko": "길 아래쪽에 있다는 뜻으로 역시 가까운 거리를 나타냄." },
+            { "en": "A couple of minutes' walk", "ko": "걸어서 몇 분 거리라는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch36_d02",
+      "title": "감기약 구하기",
+      "lines": [
+        { "speaker": "나", "en": "Do you have something for a cold?", "ko": "감기에 쓸 약이 있나요?" },
+        { "speaker": "약사", "en": "Of course. Are you looking for something for a runny nose, a sore throat, or general cold symptoms?", "ko": "물론이죠. 콧물, 인후통, 아니면 감기 전반적인 증상용을 찾으시나요?" },
+        { "speaker": "나", "en": "General symptoms — I have a sore throat and a stuffy nose.", "ko": "전반적인 증상이요 — 인후통이 있고 코가 막혔어요." },
+        { "speaker": "약사", "en": "This combination cold remedy should help with both.", "ko": "이 복합 감기약이 두 가지 모두에 도움이 될 거예요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do you have something for a cold?",
+          "ko": "'something for ~'는 '~에 쓸 것'이라는 뜻으로 약국에서 가장 유용한 패턴. 증상 이름만 바꿔 다양하게 활용할 수 있음.",
+          "alternatives": [
+            { "en": "Do you have medicine for a cold?", "ko": "'something' 대신 'medicine'을 써서 좀 더 구체적으로 약을 요청하는 표현." },
+            { "en": "I'm looking for cold medicine.", "ko": "찾고 있다는 표현으로 매장을 돌아다니며 찾을 때도 쓸 수 있음." }
+          ]
+        },
+        {
+          "en": "I have a sore throat and a stuffy nose.",
+          "ko": "증상 두 가지를 and로 연결해 설명하는 표현. 'sore throat'(인후통), 'stuffy nose'(코 막힘), 'runny nose'(콧물) 등 기본 감기 증상 단어는 미리 외워두자.",
+          "alternatives": [
+            { "en": "I have a blocked nose and a cough.", "ko": "코막힘과 기침 증상을 설명하는 표현. 'blocked nose'는 'stuffy nose'와 같은 뜻." },
+            { "en": "My throat hurts and I keep sneezing.", "ko": "인후통과 재채기 증상을 설명하는 캐주얼한 표현." }
+          ]
+        },
+        {
+          "en": "A combination cold remedy",
+          "ko": "'combination'(복합)은 여러 증상에 동시에 작용하는 복합 성분 약을 가리킴. 'remedy'는 치료제·약을 뜻하는 표현으로 'medicine'과 같은 맥락에서 사용.",
+          "alternatives": [
+            { "en": "An all-in-one cold medicine", "ko": "모든 증상을 한 번에 해결하는 약이라는 뜻의 캐주얼한 표현." },
+            { "en": "A multi-symptom cold tablet", "ko": "여러 증상에 작용하는 정제를 나타내는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch36_d03",
+      "title": "두통·진통제 구하기",
+      "lines": [
+        { "speaker": "나", "en": "I have a terrible headache. Can I get a painkiller?", "ko": "두통이 심해요. 진통제를 살 수 있나요?" },
+        { "speaker": "약사", "en": "Sure. Do you prefer paracetamol or ibuprofen?", "ko": "물론이죠. 파라세타몰과 이부프로펜 중 어느 것을 선호하세요?" },
+        { "speaker": "나", "en": "What's the difference?", "ko": "차이가 뭔가요?" },
+        { "speaker": "약사", "en": "Paracetamol is gentler on the stomach; ibuprofen also reduces inflammation.", "ko": "파라세타몰은 위에 더 부드럽고, 이부프로펜은 염증도 줄여줘요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Can I get a painkiller?",
+          "ko": "'painkiller'는 진통제를 뜻하는 가장 일반적인 표현. 'pain reliever'도 같은 뜻으로 쓰임. 두통뿐 아니라 각종 통증에 쓰이는 약을 요청할 때 사용.",
+          "alternatives": [
+            { "en": "Do you have anything for a headache?", "ko": "'something for ~' 패턴으로 두통약을 찾는 표현." },
+            { "en": "I need some pain relief.", "ko": "통증 완화가 필요하다는 표현으로 특정 약 이름을 모를 때 유용." }
+          ]
+        },
+        {
+          "en": "What's the difference?",
+          "ko": "차이가 무엇인지 묻는 간단하고 유용한 표현. 약의 종류, 브랜드, 효능 등을 비교할 때 적극적으로 활용하자.",
+          "alternatives": [
+            { "en": "Which one is better for headaches?", "ko": "두통에 어느 것이 더 좋은지 직접적으로 추천을 요청하는 표현." },
+            { "en": "How are they different?", "ko": "'What's the difference?'와 같은 뜻의 표현." }
+          ]
+        },
+        {
+          "en": "Gentler on the stomach",
+          "ko": "'gentle on the stomach'은 위에 부담이 적다는 표현. 이부프로펜 계열은 공복 복용 시 위에 부담이 될 수 있어 약사가 자주 설명하는 표현.",
+          "alternatives": [
+            { "en": "Easier on the stomach", "ko": "위에 더 편하다는 같은 뜻의 표현." },
+            { "en": "Won't upset your stomach", "ko": "위를 자극하지 않는다는 뜻의 구어체 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch36_d04",
+      "title": "복용법 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "How often should I take this, and how many tablets at a time?", "ko": "이것을 얼마나 자주 먹어야 하나요, 한 번에 몇 정씩이요?" },
+        { "speaker": "약사", "en": "Take two tablets every four to six hours, with food or milk.", "ko": "4~6시간마다 2정씩 드세요, 음식이나 우유와 함께요." },
+        { "speaker": "나", "en": "And what is the maximum dose per day?", "ko": "하루 최대 용량은 어떻게 되나요?" },
+        { "speaker": "약사", "en": "No more than eight tablets in twenty-four hours.", "ko": "24시간 내에 8정을 초과하지 마세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "How often should I take this?",
+          "ko": "복용 빈도를 묻는 가장 기본적인 표현. '얼마나 자주'를 묻는 How often은 복용법 확인 시 필수 표현.",
+          "alternatives": [
+            { "en": "How many times a day should I take it?", "ko": "하루에 몇 번 먹어야 하는지 직접적으로 묻는 표현." },
+            { "en": "What is the dosage?", "ko": "'dosage'(복용량·복용법)라는 단어를 사용해 한 번에 복용법 전반을 묻는 표현." }
+          ]
+        },
+        {
+          "en": "How many tablets at a time?",
+          "ko": "한 번에 몇 정인지 묻는 표현. 'tablet'은 정제(알약), 'capsule'은 캡슐, 'teaspoon'은 시럽 복용 시 쓰임. 약 형태에 따라 단어를 바꿔 사용.",
+          "alternatives": [
+            { "en": "How many do I take at once?", "ko": "한 번에 몇 개를 먹는지 캐주얼하게 묻는 표현." },
+            { "en": "Is it one tablet or two?", "ko": "1정인지 2정인지 직접 선택지를 주며 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Maximum dose per day",
+          "ko": "'maximum dose'는 하루 최대 복용량을 뜻하는 표현. 진통제나 감기약을 구입할 때 반드시 확인해야 할 사항으로, 초과 복용은 간·신장에 부담을 줄 수 있음.",
+          "alternatives": [
+            { "en": "The daily limit", "ko": "하루 최대 허용량을 나타내는 표현." },
+            { "en": "How many can I take in a day?", "ko": "하루에 최대 몇 개까지 먹을 수 있는지 묻는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch36_d05",
+      "title": "어린이용 용량 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "My child is five years old and has a fever. Do you have a children's dose?", "ko": "제 아이가 다섯 살인데 열이 나요. 어린이용 용량이 있나요?" },
+        { "speaker": "약사", "en": "Yes, this is a children's liquid paracetamol — suitable for ages two to ten.", "ko": "네, 이것은 어린이용 파라세타몰 시럽이에요 — 2~10세에 적합해요." },
+        { "speaker": "나", "en": "How much should I give for a five-year-old?", "ko": "5세 아이에게 얼마나 주어야 하나요?" },
+        { "speaker": "약사", "en": "Five millilitres every four hours, and check the weight guide on the label.", "ko": "4시간마다 5밀리리터이고, 라벨의 체중 기준표를 확인하세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do you have a children's dose?",
+          "ko": "'children's dose'는 어린이용 용량을 뜻함. 어른용 약을 어린이에게 그냥 주면 위험하므로 반드시 어린이용 제품이나 어린이 용량을 확인해야 함.",
+          "alternatives": [
+            { "en": "Is there a version for children?", "ko": "어린이용 버전이 있는지 묻는 표현." },
+            { "en": "Do you have children's medicine?", "ko": "어린이용 약이 있는지 직접적으로 묻는 표현." }
+          ]
+        },
+        {
+          "en": "How much should I give for a five-year-old?",
+          "ko": "'for a + 나이'는 특정 연령에 맞는 용량을 묻는 패턴. 아이의 나이나 체중을 약사에게 알리면 더 정확한 안내를 받을 수 있음.",
+          "alternatives": [
+            { "en": "What is the right dose for his age?", "ko": "아이 나이에 맞는 적절한 용량을 묻는 표현." },
+            { "en": "How many ml for a child of five?", "ko": "시럽용량을 밀리리터로 직접 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Check the weight guide on the label",
+          "ko": "약 라벨의 체중 기준표를 확인하라는 표현. 어린이 약은 연령보다 체중에 따라 용량이 달라지는 경우가 많으므로 라벨 확인이 중요.",
+          "alternatives": [
+            { "en": "Follow the dosage chart inside", "ko": "설명서 안의 복용량 표를 따르라는 표현." },
+            { "en": "The instructions are on the packet.", "ko": "복용 안내가 포장에 적혀 있다는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch36_d06",
+      "title": "처방전 필요 여부 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Do I need a prescription for this antibiotic?", "ko": "이 항생제를 사려면 처방전이 필요한가요?" },
+        { "speaker": "약사", "en": "Yes, antibiotics are prescription-only here. You'll need to see a doctor.", "ko": "네, 항생제는 여기서는 처방전이 있어야 해요. 의사에게 진료를 받으셔야 합니다." },
+        { "speaker": "나", "en": "Is there anything over the counter that might help in the meantime?", "ko": "그동안 처방전 없이 살 수 있는 것 중 도움이 될 만한 게 있나요?" },
+        { "speaker": "약사", "en": "I can suggest a throat spray — it won't treat infection, but it may ease the pain.", "ko": "인후 스프레이를 추천해 드릴 수 있어요 — 감염을 치료하지는 않지만 통증을 완화시킬 수 있어요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do I need a prescription for this?",
+          "ko": "처방전이 필요한지 묻는 표현. 나라마다 처방전 필요 기준이 달라서 꼭 확인해야 함. 한국에서 처방 없이 살 수 있는 약도 외국에서는 처방이 필요한 경우가 있음.",
+          "alternatives": [
+            { "en": "Is this available without a prescription?", "ko": "처방전 없이 구입 가능한지 묻는 직접적인 표현." },
+            { "en": "Can I buy this over the counter?", "ko": "'over the counter'(처방전 없이 구입 가능한)라는 핵심 표현을 사용한 질문." }
+          ]
+        },
+        {
+          "en": "Over the counter",
+          "ko": "'over the counter'(줄여서 OTC)는 처방전 없이 약국 카운터에서 바로 구입할 수 있는 일반 의약품을 뜻함. 반대말은 'prescription-only'(처방전 필요).",
+          "alternatives": [
+            { "en": "Without a prescription", "ko": "처방전 없이라는 뜻의 직접적인 표현." },
+            { "en": "A non-prescription medicine", "ko": "처방전이 필요 없는 약이라는 표현." }
+          ]
+        },
+        {
+          "en": "Prescription-only",
+          "ko": "처방전이 있어야만 구입할 수 있다는 표현. 약 포장이나 약사가 'prescription-only' 또는 'POM(Prescription Only Medicine)'이라고 하면 처방전이 반드시 필요함.",
+          "alternatives": [
+            { "en": "You need a prescription for that.", "ko": "처방전이 필요하다고 알려주는 표현." },
+            { "en": "That's a controlled medicine.", "ko": "관리 의약품으로 처방이 필요하다는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch36_d07",
+      "title": "알레르기약 구하기",
+      "lines": [
+        { "speaker": "나", "en": "I think I'm having an allergic reaction — my eyes are itchy and I keep sneezing.", "ko": "알레르기 반응이 생긴 것 같아요 — 눈이 가렵고 계속 재채기가 나요." },
+        { "speaker": "약사", "en": "That sounds like hay fever. Would you prefer a drowsy or non-drowsy antihistamine?", "ko": "꽃가루 알레르기 같네요. 졸음이 오는 것과 안 오는 항히스타민제 중 어느 것을 원하세요?" },
+        { "speaker": "나", "en": "Non-drowsy, please — I'm driving later.", "ko": "졸음이 안 오는 것으로 주세요 — 나중에 운전을 해야 해서요." },
+        { "speaker": "약사", "en": "In that case, I'd recommend this one. It's 24-hour and won't make you sleepy.", "ko": "그러면 이것을 추천드려요. 24시간 지속되고 졸음이 오지 않아요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I think I'm having an allergic reaction.",
+          "ko": "알레르기 반응이 생긴 것 같다는 표현. 'I think'로 시작하면 확실하지 않을 때도 자연스럽게 말할 수 있음. 심한 알레르기 반응(아나필락시스)은 즉시 응급처치가 필요함.",
+          "alternatives": [
+            { "en": "I'm allergic to something here.", "ko": "무언가에 알레르기가 있는 것 같다는 표현." },
+            { "en": "My allergies are acting up.", "ko": "알레르기가 도지고 있다는 캐주얼한 표현." }
+          ]
+        },
+        {
+          "en": "Antihistamine",
+          "ko": "항히스타민제를 가리키는 의학 용어로 알레르기 반응을 억제하는 약. 약국에서 알레르기약을 요청할 때 'antihistamine'이라고 하면 약사가 바로 이해함.",
+          "alternatives": [
+            { "en": "Allergy medicine / allergy tablet", "ko": "항히스타민제를 일상 언어로 표현한 말. 약 이름을 모를 때 유용." },
+            { "en": "Something for hay fever", "ko": "꽃가루 알레르기 증상에 대한 약을 요청하는 표현." }
+          ]
+        },
+        {
+          "en": "Non-drowsy",
+          "ko": "졸음을 유발하지 않는다는 표현. 항히스타민제는 1세대(졸음 유발)와 2세대(비졸음성)로 나뉘며, 운전이나 중요한 일이 있을 때는 반드시 'non-drowsy'를 선택해야 함.",
+          "alternatives": [
+            { "en": "Won't make me drowsy", "ko": "졸음이 오지 않는 것을 원한다는 표현." },
+            { "en": "A non-sedating antihistamine", "ko": "진정 작용이 없는 항히스타민제라는 의학적 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch36_d08",
+      "title": "소화제·지사제 구하기",
+      "lines": [
+        { "speaker": "나", "en": "I have an upset stomach — do you have anything for diarrhea?", "ko": "속이 안 좋아요 — 설사에 쓸 약이 있나요?" },
+        { "speaker": "약사", "en": "Yes. Is it mainly diarrhea, or do you also feel nauseous?", "ko": "네. 주로 설사인가요, 아니면 메스꺼움도 있나요?" },
+        { "speaker": "나", "en": "Mostly diarrhea and stomach cramps.", "ko": "주로 설사와 복부 경련이요." },
+        { "speaker": "약사", "en": "I'd suggest this — it helps with both. Stay hydrated too.", "ko": "이것을 추천드려요 — 둘 다에 도움이 돼요. 수분 보충도 잘 하세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I have an upset stomach.",
+          "ko": "'upset stomach'은 속이 안 좋다, 배탈이 났다는 뜻의 가장 흔한 표현. 'stomachache'보다 더 광범위한 불편함을 표현할 때 씀.",
+          "alternatives": [
+            { "en": "My stomach is upset.", "ko": "'I have an upset stomach'과 같은 뜻의 표현." },
+            { "en": "I have a stomach bug.", "ko": "위장 바이러스 또는 배탈에 걸렸다는 표현으로 구어체에서 자주 사용." }
+          ]
+        },
+        {
+          "en": "Do you have anything for diarrhea?",
+          "ko": "설사에 쓸 약을 찾는 표현. 'diarrhea'(미국식)는 'diarrhoea'(영국식)로 철자가 다름. 둘 다 같은 뜻이니 어떻게 발음해도 약사가 이해함.",
+          "alternatives": [
+            { "en": "Something for an upset tummy", "ko": "배탈에 쓸 약을 캐주얼하게 요청하는 표현. 'tummy'는 'stomach'의 구어체 표현." },
+            { "en": "I need something to settle my stomach.", "ko": "위를 진정시켜줄 약이 필요하다는 표현." }
+          ]
+        },
+        {
+          "en": "Stay hydrated",
+          "ko": "'stay hydrated'는 수분을 충분히 섭취하라는 표현. 설사·구토 시 수분 손실이 크므로 약사나 의사가 자주 하는 조언. 'Drink plenty of fluids'와 같은 뜻.",
+          "alternatives": [
+            { "en": "Drink plenty of water.", "ko": "물을 충분히 마시라는 직접적인 조언." },
+            { "en": "Make sure you drink enough fluids.", "ko": "충분한 수분 섭취를 강조하는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch36_d09",
+      "title": "밴드·상처 연고 구하기",
+      "lines": [
+        { "speaker": "나", "en": "I need some plasters and antiseptic cream for a small cut.", "ko": "작은 상처에 쓸 밴드와 소독 연고가 필요해요." },
+        { "speaker": "약사", "en": "Here are the plasters — they come in different sizes. Is the wound clean?", "ko": "여기 밴드가 있어요 — 크기가 다양합니다. 상처는 깨끗한 상태인가요?" },
+        { "speaker": "나", "en": "I've rinsed it with water, but I want to clean it properly.", "ko": "물로 씻었는데, 제대로 소독하고 싶어요." },
+        { "speaker": "약사", "en": "Good thinking. Use this antiseptic solution first, then apply the cream and cover with a plaster.", "ko": "잘 하셨어요. 먼저 이 소독액을 바르시고, 연고를 바른 뒤 밴드로 덮으세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Plasters",
+          "ko": "영국식 표현으로 미국에서는 'Band-Aid'(상표명) 또는 'adhesive bandage'라고 함. 영국·호주·뉴질랜드 여행 시 'plasters'라고 하면 바로 통함.",
+          "alternatives": [
+            { "en": "Band-Aids / adhesive bandages", "ko": "미국식 표현. 영국에서는 보통 통하지 않으니 'plasters'를 쓰자." },
+            { "en": "Sticking plasters", "ko": "'plasters'를 좀 더 명확히 나타내는 영국식 전체 표현." }
+          ]
+        },
+        {
+          "en": "Antiseptic cream",
+          "ko": "'antiseptic'(소독·방부)이 들어간 크림으로 상처 감염을 예방하는 연고. 'antiseptic solution'은 액체형 소독제, 'antiseptic cream'은 크림형을 의미.",
+          "alternatives": [
+            { "en": "Wound cream", "ko": "상처에 바르는 연고를 간단히 표현하는 말." },
+            { "en": "Disinfectant cream", "ko": "살균·소독 성분이 있는 크림이라는 표현." }
+          ]
+        },
+        {
+          "en": "I've rinsed it with water.",
+          "ko": "상처를 물로 씻었다는 표현. 'rinse'는 물로 씻어내는 것을 의미함. 상처 처치의 기본은 흐르는 물로 이물질을 씻어내는 것임을 알아두자.",
+          "alternatives": [
+            { "en": "I cleaned it under running water.", "ko": "흐르는 물에 씻었다는 더 구체적인 표현." },
+            { "en": "I've washed the cut.", "ko": "상처를 씻었다는 간단한 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch36_d10",
+      "title": "영업시간·야간 약국 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "What time do you close tonight?", "ko": "오늘 밤 몇 시에 문을 닫나요?" },
+        { "speaker": "약사", "en": "We close at seven. Is there something I can help you with quickly?", "ko": "7시에 닫아요. 빨리 도와드릴 게 있나요?" },
+        { "speaker": "나", "en": "I might need more medicine later — is there a 24-hour pharmacy nearby?", "ko": "나중에 약이 더 필요할 수도 있어서요 — 근처에 24시간 약국이 있나요?" },
+        { "speaker": "약사", "en": "There's an all-night pharmacy on the high street, about ten minutes away.", "ko": "번화가에 24시간 약국이 있어요, 약 10분 거리예요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "What time do you close?",
+          "ko": "영업 종료 시간을 묻는 표현. 'open'과 'close'를 구분해서 사용하고, 'What time do you open?'은 개점 시간을 묻는 표현임.",
+          "alternatives": [
+            { "en": "Are you open late tonight?", "ko": "오늘 밤 늦게까지 여는지 묻는 표현." },
+            { "en": "What are your opening hours?", "ko": "영업시간 전반을 묻는 표현. 'opening hours'는 영업 시간을 뜻하는 영국식 표현." }
+          ]
+        },
+        {
+          "en": "A 24-hour pharmacy",
+          "ko": "24시간 운영하는 약국을 뜻하는 표현. 'all-night pharmacy' 또는 'late-night pharmacy'라고도 함. 야간에 약이 필요할 경우 미리 위치를 파악해두면 좋음.",
+          "alternatives": [
+            { "en": "An all-night chemist", "ko": "24시간 운영하는 약국의 영국식 표현." },
+            { "en": "A late-night pharmacy", "ko": "야간 약국을 뜻하는 표현으로 반드시 24시간이 아닐 수도 있음." }
+          ]
+        },
+        {
+          "en": "On the high street",
+          "ko": "'high street'는 영국에서 쇼핑·상업 시설이 밀집한 번화가 메인 거리를 뜻함. 미국의 'main street'에 해당. 약국, 은행, 상점 등이 많이 모여 있는 곳.",
+          "alternatives": [
+            { "en": "On the main street", "ko": "메인 거리에 있다는 표현으로 미국식 표현. high street와 같은 뜻." },
+            { "en": "In the town centre", "ko": "도심에 있다는 표현. 영국식 철자로 'center'가 아닌 'centre'를 씀." }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch36_set01_001",
+          "type": "multiple_choice",
+          "question": "영국 영어에서 '약국'을 뜻하는 단어로 'pharmacy' 외에 자주 쓰이는 표현은?",
+          "options": [
+            "drugstore",
+            "chemist",
+            "clinic",
+            "dispensary"
+          ],
+          "answerIndex": 1,
+          "explanation": "영국·호주·뉴질랜드에서는 약국을 'chemist' 또는 'chemist's'라고 부릅니다. 'drugstore'는 미국식 표현이고, 'clinic'은 진료소, 'dispensary'는 병원 내 조제실을 주로 가리킵니다."
+        },
+        {
+          "id": "se_ch36_set01_002",
+          "type": "multiple_choice",
+          "question": "약국에서 감기에 쓸 약을 요청할 때 가장 자연스러운 표현은?",
+          "options": [
+            "Give me cold medicine.",
+            "Do you have something for a cold?",
+            "I want medicine for fever.",
+            "Can you cure my cold?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do you have something for a cold?'는 약국에서 감기약을 찾을 때 가장 자연스럽고 유용한 표현입니다. 'something for ~' 패턴은 증상 이름만 바꾸면 다양하게 활용할 수 있습니다. 'Give me'는 명령형이라 무례하게 들릴 수 있고, 'Can you cure my cold?'는 비현실적인 요청입니다."
+        },
+        {
+          "id": "se_ch36_set01_003",
+          "type": "multiple_choice",
+          "question": "'over the counter'의 의미로 가장 알맞은 설명은?",
+          "options": [
+            "의사의 처방이 필요한 의약품",
+            "처방전 없이 약국에서 바로 구입할 수 있는 약",
+            "약국 카운터 뒤에 보관하는 약",
+            "해외에서 가져온 약"
+          ],
+          "answerIndex": 1,
+          "explanation": "'over the counter'(OTC)는 의사 처방전 없이 약국 카운터에서 직접 구입할 수 있는 일반 의약품을 뜻합니다. 반대 개념은 'prescription-only'(처방전 필요)입니다."
+        },
+        {
+          "id": "se_ch36_set01_004",
+          "type": "multiple_choice",
+          "question": "두통에 쓸 진통제를 요청할 때 알맞은 표현은?",
+          "options": [
+            "I need an antibiotic for my head.",
+            "Can I get a painkiller?",
+            "Please give me a sleeping pill.",
+            "Do you have medicine for a fever?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Can I get a painkiller?'는 진통제를 요청하는 자연스러운 표현입니다. 'painkiller'는 진통제를 뜻하며 'pain reliever'도 같은 의미입니다. 항생제(antibiotic)는 두통에 쓰지 않고, 해열제(fever medicine)는 두통약과 다릅니다."
+        },
+        {
+          "id": "se_ch36_set01_005",
+          "type": "multiple_choice",
+          "question": "복용법을 물어볼 때 '얼마나 자주 먹어야 하나요?'에 해당하는 표현은?",
+          "options": [
+            "How many tablets come in this box?",
+            "How often should I take this?",
+            "What does this medicine do?",
+            "How strong is this medicine?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'How often should I take this?'는 복용 빈도를 묻는 표현입니다. 'How often'은 '얼마나 자주'를 묻는 표현으로 복용법 확인 시 필수적입니다. 나머지 선택지는 각각 약의 양, 효능, 강도를 묻는 다른 질문입니다."
+        },
+        {
+          "id": "se_ch36_set01_006",
+          "type": "multiple_choice",
+          "question": "5세 아이를 위한 어린이 의약품을 요청할 때 가장 알맞은 표현은?",
+          "options": [
+            "My baby needs strong medicine.",
+            "Do you have a children's dose?",
+            "Give me half of the adult medicine.",
+            "Children's medicine is too weak."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do you have a children's dose?'는 어린이용 용량이나 어린이용 제품을 요청하는 올바른 표현입니다. 성인용 약을 어린이에게 그냥 주거나 반으로 자르는 것은 위험할 수 있습니다. 아이의 나이나 체중을 함께 알려주면 더 정확한 안내를 받을 수 있습니다."
+        },
+        {
+          "id": "se_ch36_set01_007",
+          "type": "multiple_choice",
+          "question": "알레르기 증상이 있을 때 약사에게 요청하는 약의 종류로 가장 알맞은 것은?",
+          "options": [
+            "antibiotic",
+            "antacid",
+            "antihistamine",
+            "antifungal"
+          ],
+          "answerIndex": 2,
+          "explanation": "'antihistamine'(항히스타민제)은 알레르기 반응을 억제하는 약입니다. 'antibiotic'은 항생제, 'antacid'는 제산제(속 쓰림), 'antifungal'은 항진균제로 모두 알레르기와는 다른 용도입니다."
+        },
+        {
+          "id": "se_ch36_set01_008",
+          "type": "multiple_choice",
+          "question": "배탈이 났다고 말할 때 가장 자연스러운 표현은?",
+          "options": [
+            "My belly is broken.",
+            "I have an upset stomach.",
+            "My food is bad.",
+            "I ate something wrong."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I have an upset stomach.'은 속이 안 좋다, 배탈이 났다는 뜻으로 약국이나 의료 상황에서 가장 자연스러운 표현입니다. 'My belly is broken.'은 영어에서 쓰지 않는 표현이고, 나머지도 일상 영어와 거리가 있습니다."
+        },
+        {
+          "id": "se_ch36_set01_009",
+          "type": "multiple_choice",
+          "question": "영국에서 '밴드(상처 보호 스티커)'를 약국에서 요청할 때 쓰는 영국식 표현은?",
+          "options": [
+            "Band-Aids",
+            "wound stickers",
+            "plasters",
+            "skin tape"
+          ],
+          "answerIndex": 2,
+          "explanation": "영국에서는 상처 보호용 밴드를 'plasters' 또는 'sticking plasters'라고 합니다. 'Band-Aid'는 미국의 상표명으로 영국에서는 잘 쓰이지 않습니다. 영국 약국에서는 'plasters'라고 하면 바로 이해합니다."
+        },
+        {
+          "id": "se_ch36_set01_010",
+          "type": "multiple_choice",
+          "question": "항히스타민제를 고를 때 운전을 해야 한다면 어떤 종류를 선택해야 하는가?",
+          "options": [
+            "drowsy antihistamine",
+            "prescription antihistamine",
+            "non-drowsy antihistamine",
+            "the strongest antihistamine"
+          ],
+          "answerIndex": 2,
+          "explanation": "'non-drowsy antihistamine'(비졸음성 항히스타민제)는 졸음을 유발하지 않는 2세대 항히스타민제입니다. 운전, 기계 조작, 중요한 일이 있을 때는 반드시 'non-drowsy'를 선택해야 합니다. 1세대 항히스타민제는 졸음을 유발해 운전 시 위험합니다."
+        },
+        {
+          "id": "se_ch36_set01_011",
+          "type": "ox",
+          "question": "'over-the-counter' 약은 처방전 없이 약국에서 바로 살 수 있는 약이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'over the counter'(OTC)는 의사 처방전 없이 약국 카운터에서 직접 구입할 수 있는 일반 의약품을 뜻합니다. 반대말은 'prescription-only'로, 의사의 처방전이 있어야만 구입할 수 있습니다."
+        },
+        {
+          "id": "se_ch36_set01_012",
+          "type": "ox",
+          "question": "영국 여행 중 약국에서 'chemist'라고 하면 약국 직원이 이해하지 못한다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 영국에서는 약국을 'pharmacy' 외에 'chemist' 또는 'chemist's'라고도 하며, 이것이 오히려 더 일상적인 표현입니다. 영국 약국 직원에게 'chemist'라고 해도 당연히 이해합니다."
+        },
+        {
+          "id": "se_ch36_set01_013",
+          "type": "ox",
+          "question": "어린이용 의약품을 구입할 때 아이의 나이나 체중을 약사에게 알리는 것이 좋다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 어린이 의약품은 연령과 체중에 따라 용량이 달라질 수 있습니다. 특히 시럽 형태의 어린이약은 체중 기준표를 따르는 경우가 많아서, 아이의 나이와 체중을 약사에게 알려주면 더 정확하고 안전한 용량 안내를 받을 수 있습니다."
+        },
+        {
+          "id": "se_ch36_set01_014",
+          "type": "ox",
+          "question": "'non-drowsy antihistamine'을 복용하면 졸음이 올 수 있으므로 운전 시 복용을 피해야 한다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'non-drowsy'는 '졸음을 유발하지 않는'이라는 뜻입니다. 졸음이 오는 것은 'drowsy antihistamine'(1세대)이며, 'non-drowsy antihistamine'(2세대)은 졸음 부작용이 거의 없어 운전 중에도 복용이 가능합니다."
+        }
+      ]
+    }
+  ]
+}

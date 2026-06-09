@@ -1,0 +1,704 @@
+{
+  "id": "ch06",
+  "title": "탑승 게이트·기내",
+  "summary": "탑승 방송 이해, 게이트 변경·지연 대응, 좌석 찾기, 짐칸·기내식·편의 요청, 몸 이상·착륙 안내까지 공항 게이트부터 착륙 직전까지 꼭 필요한 기내 영어 표현",
+  "dialogues": [
+    {
+      "id": "ch06_d01",
+      "title": "탑승 방송 이해",
+      "lines": [
+        {
+          "speaker": "게이트직원",
+          "en": "We are now boarding group 1. Please have your boarding pass ready.",
+          "ko": "지금 1그룹 탑승을 시작합니다. 탑승권을 준비해 주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Excuse me, is this the final call or just the first boarding?",
+          "ko": "실례합니다, 지금이 마지막 탑승 방송인가요, 아니면 첫 번째 탑승인가요?"
+        },
+        {
+          "speaker": "게이트직원",
+          "en": "This is the first boarding. Final call will be announced about ten minutes before departure.",
+          "ko": "첫 번째 탑승 안내입니다. 최종 탑승 방송은 출발 10분 전쯤에 나옵니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you. I'll get in line now.",
+          "ko": "감사합니다. 지금 줄을 서겠습니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Now boarding group 1.",
+          "ko": "1그룹 탑승 시작 안내. 탑승권에 적힌 그룹 번호를 확인해야 하며, 'boarding now'는 전광판 표시로도 나타남.",
+          "alternatives": [
+            { "en": "Group 1, please proceed to the gate.", "ko": "1그룹 승객은 게이트로 이동하세요." },
+            { "en": "We are now inviting group 1 passengers to board.", "ko": "1그룹 승객의 탑승을 요청합니다." }
+          ]
+        },
+        {
+          "en": "Final call for flight KE901.",
+          "ko": "마지막 탑승 안내. 이 방송 직후 게이트가 닫히므로 즉시 이동 필요. 'now boarding'과 혼동 주의—final call은 탑승 마감 임박 신호.",
+          "alternatives": [
+            { "en": "Last call for boarding.", "ko": "탑승 마지막 안내." },
+            { "en": "This is the last boarding announcement.", "ko": "마지막 탑승 방송입니다." }
+          ]
+        },
+        {
+          "en": "Please have your boarding pass ready.",
+          "ko": "탑승권을 준비해 주세요. 'boarding pass'는 탑승권, 'ticket'과 혼용하지만 공항에서는 boarding pass가 정확한 표현.",
+          "alternatives": [
+            { "en": "Please present your boarding pass.", "ko": "탑승권을 제시해 주세요." },
+            { "en": "Have your ID and boarding pass out.", "ko": "신분증과 탑승권을 꺼내 주세요." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch06_d02",
+      "title": "게이트 변경",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "Excuse me, I heard there's a gate change. Is flight KE901 still at gate A7?",
+          "ko": "실례합니다, 게이트 변경이 있다고 들었는데요. KE901 편이 아직 A7 게이트인가요?"
+        },
+        {
+          "speaker": "게이트직원",
+          "en": "No, the flight has moved to gate B12. You'll need to take the shuttle bus to terminal B.",
+          "ko": "아니요, 항공편이 B12 게이트로 이동했습니다. 터미널 B로 가는 셔틀버스를 타셔야 합니다."
+        },
+        {
+          "speaker": "나",
+          "en": "How long does it take to get there?",
+          "ko": "거기까지 얼마나 걸리나요?"
+        },
+        {
+          "speaker": "게이트직원",
+          "en": "About five minutes by shuttle. You still have time, but please hurry.",
+          "ko": "셔틀로 약 5분 걸립니다. 아직 시간이 있지만 서두르세요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "There's a gate change.",
+          "ko": "게이트 변경 안내. 전광판(departures board)을 주기적으로 확인해야 하며, 항공사 앱 알림도 설정해 두면 유용함.",
+          "alternatives": [
+            { "en": "Your gate has changed to B12.", "ko": "게이트가 B12로 변경되었습니다." },
+            { "en": "The flight is now departing from gate B12.", "ko": "항공편이 이제 B12 게이트에서 출발합니다." }
+          ]
+        },
+        {
+          "en": "Is the flight still at gate A7?",
+          "ko": "게이트가 바뀌었는지 확인하는 질문. 'still'을 써서 '아직 같은 곳이냐'고 물음.",
+          "alternatives": [
+            { "en": "Has the gate changed?", "ko": "게이트가 변경되었나요?" },
+            { "en": "What gate is KE901 departing from?", "ko": "KE901은 몇 번 게이트에서 출발하나요?" }
+          ]
+        },
+        {
+          "en": "How long does it take to get there?",
+          "ko": "이동 시간 질문. 게이트 변경 시 연결 시간이 촉박할 수 있어 반드시 확인해야 함.",
+          "alternatives": [
+            { "en": "How far is gate B12?", "ko": "B12 게이트는 얼마나 멀어요?" },
+            { "en": "Is there a shuttle to terminal B?", "ko": "터미널 B로 가는 셔틀이 있나요?" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch06_d03",
+      "title": "지연 안내",
+      "lines": [
+        {
+          "speaker": "게이트직원",
+          "en": "Attention, passengers on flight KE901. The flight is delayed by approximately two hours due to a mechanical issue.",
+          "ko": "KE901 편 승객 여러분께 알립니다. 기계적 결함으로 인해 약 2시간 지연됩니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Will we receive any meal vouchers while we wait?",
+          "ko": "기다리는 동안 식사 쿠폰을 받을 수 있나요?"
+        },
+        {
+          "speaker": "게이트직원",
+          "en": "Yes, please come to the counter and we will provide meal vouchers.",
+          "ko": "네, 카운터로 오시면 식사 쿠폰을 드리겠습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you. Is there any chance the flight will be canceled?",
+          "ko": "감사합니다. 항공편이 결항될 가능성은 있나요?"
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "The flight is delayed.",
+          "ko": "항공편 지연 안내. 'delayed'(지연)와 'canceled'(결항)는 반드시 구별해야 함—지연은 나중에 출발하지만 결항은 아예 취소.",
+          "alternatives": [
+            { "en": "The departure has been delayed by two hours.", "ko": "출발이 두 시간 지연되었습니다." },
+            { "en": "There will be a two-hour delay.", "ko": "두 시간 지연이 있을 것입니다." }
+          ]
+        },
+        {
+          "en": "Will we receive meal vouchers?",
+          "ko": "지연 시 식사 쿠폰 요청. 2시간 이상 지연 시 항공사에 따라 제공 의무가 있는 경우도 있음.",
+          "alternatives": [
+            { "en": "Are we entitled to any compensation?", "ko": "보상을 받을 수 있나요?" },
+            { "en": "Can I get a food voucher for the wait?", "ko": "기다리는 동안 식권을 받을 수 있나요?" }
+          ]
+        },
+        {
+          "en": "Is there any chance the flight will be canceled?",
+          "ko": "결항 가능성 질문. 'canceled'(미국식)와 'cancelled'(영국식) 모두 사용 가능.",
+          "alternatives": [
+            { "en": "Could the flight be canceled entirely?", "ko": "항공편이 아예 취소될 수도 있나요?" },
+            { "en": "What is the latest update on the flight?", "ko": "항공편 최신 상황이 어떻게 되나요?" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch06_d04",
+      "title": "좌석 찾기",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "Excuse me, where is seat 14C?",
+          "ko": "실례합니다, 14C 좌석이 어디인가요?"
+        },
+        {
+          "speaker": "승무원",
+          "en": "14C is in row 14, the aisle seat on the left side. Keep walking straight—it's about halfway down the cabin.",
+          "ko": "14C는 14번 줄의 왼쪽 통로 좌석입니다. 계속 직진하시면 객실 중간쯤에 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Is C always the aisle seat?",
+          "ko": "C는 항상 통로 좌석인가요?"
+        },
+        {
+          "speaker": "승무원",
+          "en": "On most aircraft with three seats per side, A is window, B is middle, and C is aisle.",
+          "ko": "한 줄에 세 좌석이 있는 대부분의 항공기에서 A는 창가, B는 가운데, C는 통로 좌석입니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Where is seat 14C?",
+          "ko": "좌석 위치 질문. 줄 번호(row number)와 좌석 문자(seat letter)를 함께 읽음. '14C'는 '포틴 씨'로 발음.",
+          "alternatives": [
+            { "en": "Can you help me find my seat?", "ko": "제 좌석 찾는 것 도와주실 수 있어요?" },
+            { "en": "I'm in row 14 — which direction is that?", "ko": "저는 14번 줄인데 어느 방향인가요?" }
+          ]
+        },
+        {
+          "en": "It's the aisle seat.",
+          "ko": "통로 좌석 설명. aisle(통로)은 '아일'로 발음—철자와 발음 차이 주의. window(창가), middle(가운데)와 구별.",
+          "alternatives": [
+            { "en": "You have a window seat.", "ko": "창가 좌석입니다." },
+            { "en": "Your seat is in the middle.", "ko": "가운데 좌석입니다." }
+          ]
+        },
+        {
+          "en": "Keep walking straight.",
+          "ko": "방향 안내 표현. 기내처럼 좁은 공간에서 방향을 알려줄 때 사용.",
+          "alternatives": [
+            { "en": "It's about halfway down the cabin.", "ko": "객실 중간쯤에 있습니다." },
+            { "en": "It's toward the back of the plane.", "ko": "비행기 뒤쪽에 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch06_d05",
+      "title": "짐칸",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "Excuse me, the overhead bin above my seat is full. Is there space somewhere else?",
+          "ko": "실례합니다, 제 좌석 위 짐칸이 꽉 찼는데요. 다른 곳에 공간이 있나요?"
+        },
+        {
+          "speaker": "승무원",
+          "en": "Let me check. There's some space in the bin a few rows back. I can help you place your bag there.",
+          "ko": "확인해 볼게요. 몇 줄 뒤 짐칸에 공간이 있네요. 거기에 가방 놓는 것 도와드릴게요."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you. Can you help me lift it? It's quite heavy.",
+          "ko": "감사합니다. 들어 올리는 것 도와주실 수 있나요? 꽤 무겁거든요."
+        },
+        {
+          "speaker": "승무원",
+          "en": "Of course. If it's too heavy for the bin, we can also check it at the door.",
+          "ko": "물론이죠. 짐칸에 넣기에 너무 무거우면 도어에서 위탁수하물로 처리할 수도 있습니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "The overhead bin is full.",
+          "ko": "짐칸이 꽉 찼다는 표현. 'overhead bin'(머리 위 짐칸)은 'overhead compartment'라고도 함. 'full'은 '꽉 찼다'는 뜻.",
+          "alternatives": [
+            { "en": "There's no room in the overhead bin.", "ko": "짐칸에 공간이 없어요." },
+            { "en": "The overhead compartment above me is taken.", "ko": "제 위쪽 짐칸이 가득 찼어요." }
+          ]
+        },
+        {
+          "en": "Can you help me lift it?",
+          "ko": "짐 들어 올리기 도움 요청. 'lift'는 들어 올린다는 뜻. 'Can you help me with my bag?'과 유사한 표현.",
+          "alternatives": [
+            { "en": "Can you help me with my bag?", "ko": "가방 올리는 거 도와주실 수 있나요?" },
+            { "en": "Could you put this in the bin for me?", "ko": "이거 짐칸에 넣어 주실 수 있나요?" }
+          ]
+        },
+        {
+          "en": "We can check it at the door.",
+          "ko": "기내 도어에서 위탁 처리. 짐이 너무 크거나 무거울 때 gate-check(도어 탁송)를 하는 절차. 목적지에서 도어 앞에서 찾을 수 있음.",
+          "alternatives": [
+            { "en": "We can gate-check your bag.", "ko": "가방을 게이트 탁송으로 처리할 수 있습니다." },
+            { "en": "We'll tag it and put it in the hold.", "ko": "태그를 달아 화물칸에 실어드리겠습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch06_d06",
+      "title": "기내식·음료 주문",
+      "lines": [
+        {
+          "speaker": "승무원",
+          "en": "Good evening. Would you like chicken or beef for your meal?",
+          "ko": "안녕하세요. 식사는 치킨과 비프 중 어느 것으로 드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Chicken, please. And could I also get a coffee?",
+          "ko": "치킨으로 주세요. 그리고 커피도 받을 수 있을까요?"
+        },
+        {
+          "speaker": "승무원",
+          "en": "Of course. Would you like milk or sugar with your coffee?",
+          "ko": "물론이죠. 커피에 우유나 설탕 넣어드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Just milk, please. Is the coffee free?",
+          "ko": "우유만 넣어 주세요. 커피는 무료인가요?"
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Chicken or beef?",
+          "ko": "기내식 선택 질문. 장거리 비행의 전형적인 표현. 원하는 메뉴를 'Chicken, please.' 또는 'Beef, please.'로 간단히 답함.",
+          "alternatives": [
+            { "en": "What meal options do you have?", "ko": "기내식 메뉴에 어떤 것들이 있나요?" },
+            { "en": "I'd like the chicken meal, please.", "ko": "치킨 식사로 주세요." }
+          ]
+        },
+        {
+          "en": "Could I also get a coffee?",
+          "ko": "음료 추가 요청. 'Could I ~'는 정중한 요청 형태. 'Can I ~'보다 약간 더 격식체. 기내에서 자주 쓰이는 표현.",
+          "alternatives": [
+            { "en": "Coffee, please.", "ko": "커피 주세요." },
+            { "en": "Can I have some coffee?", "ko": "커피 받을 수 있을까요?" }
+          ]
+        },
+        {
+          "en": "Is it free?",
+          "ko": "무료인지 확인하는 표현. 저가 항공사(LCC)는 음료·식사를 유료로 운영하는 경우가 있으므로 사전 확인이 중요.",
+          "alternatives": [
+            { "en": "Is there a charge for this?", "ko": "이것은 유료인가요?" },
+            { "en": "Do I have to pay for the coffee?", "ko": "커피 비용을 지불해야 하나요?" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch06_d07",
+      "title": "담요·헤드폰 요청",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "Excuse me, could I get a blanket? It's a bit cold.",
+          "ko": "실례합니다, 담요 하나 받을 수 있을까요? 좀 춥네요."
+        },
+        {
+          "speaker": "승무원",
+          "en": "Certainly. Would you also like a pillow?",
+          "ko": "물론이죠. 베개도 드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Yes, please. And do you have headphones? I'd like to watch a movie.",
+          "ko": "네, 부탁드려요. 헤드폰도 있나요? 영화를 보고 싶어서요."
+        },
+        {
+          "speaker": "승무원",
+          "en": "Here you go. The headphones are complimentary on this flight.",
+          "ko": "여기 있습니다. 헤드폰은 이 항공편에서 무료로 제공됩니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Could I get a blanket?",
+          "ko": "담요 요청. 'blanket'은 담요, 'pillow'는 베개. 'Could I get ~'은 정중한 물건 요청 패턴.",
+          "alternatives": [
+            { "en": "May I have a blanket, please?", "ko": "담요 한 장 주시겠어요?" },
+            { "en": "I'm cold — do you have a blanket?", "ko": "추운데 담요가 있나요?" }
+          ]
+        },
+        {
+          "en": "Do you have headphones?",
+          "ko": "헤드폰 요청. 'headphones'(헤드폰)은 복수형으로 씀. 기내 엔터테인먼트(IFE) 시청 시 필요.",
+          "alternatives": [
+            { "en": "Could I get a pair of headphones?", "ko": "헤드폰 한 쌍 받을 수 있을까요?" },
+            { "en": "Are headphones available on this flight?", "ko": "이 항공편에 헤드폰이 있나요?" }
+          ]
+        },
+        {
+          "en": "The headphones are complimentary.",
+          "ko": "'complimentary'는 '무료 제공'이라는 뜻. 'free'보다 격식체 표현으로 기내 안내에서 자주 사용됨.",
+          "alternatives": [
+            { "en": "They are provided free of charge.", "ko": "무료로 제공됩니다." },
+            { "en": "There is no extra cost for headphones.", "ko": "헤드폰 추가 비용은 없습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch06_d08",
+      "title": "앞좌석 등받이 조정 요청",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "Excuse me, could you bring your seat up a little? I'm having trouble eating.",
+          "ko": "실례합니다, 좌석 등받이를 조금 올려 주실 수 있나요? 식사하기가 불편해서요."
+        },
+        {
+          "speaker": "승무원",
+          "en": "I'll ask the passenger in front of you. During meal service, we do ask everyone to keep their seatbacks up.",
+          "ko": "앞좌석 승객에게 말씀드릴게요. 식사 서비스 중에는 모든 승객의 등받이를 세워달라고 요청하고 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you. What if I need to ask them directly?",
+          "ko": "감사합니다. 제가 직접 말씀드려야 한다면 어떻게 하면 될까요?"
+        },
+        {
+          "speaker": "승무원",
+          "en": "You can say 'Could you put your seatback up, please?' — most passengers are happy to help.",
+          "ko": "'Could you put your seatback up, please?'라고 하시면 됩니다. 대부분의 승객분들이 기꺼이 도와주십니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Could you bring your seat up?",
+          "ko": "등받이 올려달라는 정중한 요청. 'bring your seat up' = 'put your seatback up'. 'recline'(뒤로 젖히다)의 반대 동작.",
+          "alternatives": [
+            { "en": "Could you put your seatback up, please?", "ko": "등받이를 올려 주시겠어요?" },
+            { "en": "Would you mind raising your seat a bit?", "ko": "좌석을 조금 올려 주실 수 있나요?" }
+          ]
+        },
+        {
+          "en": "I'm having trouble eating.",
+          "ko": "불편함을 설명하는 표현. 'have trouble -ing'는 '~하는 데 어려움이 있다'는 구조.",
+          "alternatives": [
+            { "en": "It's a little cramped with your seat reclined.", "ko": "등받이가 젖혀져 있어 좀 비좁네요." },
+            { "en": "Your reclined seat is making it hard to use my tray.", "ko": "등받이가 젖혀져 있어 트레이 사용이 어렵습니다." }
+          ]
+        },
+        {
+          "en": "During meal service, seatbacks should be up.",
+          "ko": "식사 서비스 중 등받이 규정. 착륙 시에도 등받이를 세우도록 요청 받음—기내 안전 규정의 일부.",
+          "alternatives": [
+            { "en": "Please return your seat to the upright position.", "ko": "좌석 등받이를 원래 위치로 되돌려 주세요." },
+            { "en": "Seats must be upright during meal service.", "ko": "식사 서비스 중에는 좌석을 세워야 합니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch06_d09",
+      "title": "몸 불편·도움 요청",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "Excuse me, I feel sick. I think I have motion sickness.",
+          "ko": "실례합니다, 몸이 안 좋아요. 멀미가 나는 것 같아요."
+        },
+        {
+          "speaker": "승무원",
+          "en": "I'm sorry to hear that. Would you like some motion sickness medication or a bag?",
+          "ko": "불편하시겠네요. 멀미약이나 봉투를 드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Could I get some medication, please? And a glass of water?",
+          "ko": "약을 주실 수 있을까요? 그리고 물 한 잔도요?"
+        },
+        {
+          "speaker": "승무원",
+          "en": "Of course. Also, looking at the horizon or focusing on a fixed point can help with motion sickness.",
+          "ko": "물론이죠. 또한 수평선을 바라보거나 고정된 지점에 시선을 집중하면 멀미에 도움이 됩니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I feel sick.",
+          "ko": "몸이 안 좋다는 표현. 'sick'는 문맥에 따라 구역질이 나거나 전반적으로 몸이 좋지 않은 상태 모두 가리킬 수 있음.",
+          "alternatives": [
+            { "en": "I'm not feeling well.", "ko": "몸 상태가 좋지 않아요." },
+            { "en": "I feel nauseous.", "ko": "메스꺼움을 느껴요." }
+          ]
+        },
+        {
+          "en": "I have motion sickness.",
+          "ko": "멀미 표현. 'motion sickness'는 탈것 멀미 전반을 가리킴. 비행기 멀미는 특히 'airsickness'라고도 함.",
+          "alternatives": [
+            { "en": "I get airsickness easily.", "ko": "비행기 멀미를 잘 해요." },
+            { "en": "The turbulence is making me feel ill.", "ko": "난기류 때문에 몸이 불편해요." }
+          ]
+        },
+        {
+          "en": "Could I get some medication?",
+          "ko": "약 요청. 기내에서 멀미약(motion sickness pills)이나 구토 봉투(sick bag/airsick bag)를 요청할 때 사용.",
+          "alternatives": [
+            { "en": "Do you have any medicine for motion sickness?", "ko": "멀미약이 있나요?" },
+            { "en": "Could I have a sick bag, just in case?", "ko": "혹시 모르니 구토 봉투 주실 수 있나요?" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch06_d10",
+      "title": "화장실·착륙 안내",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "Excuse me, is the lavatory free right now?",
+          "ko": "실례합니다, 지금 화장실 비어 있나요?"
+        },
+        {
+          "speaker": "승무원",
+          "en": "It looks occupied at the moment. Also, we'll be landing in about thirty minutes, so please return to your seat and fasten your seatbelt.",
+          "ko": "지금은 사용 중인 것 같네요. 또한 약 30분 후에 착륙할 예정이니 자리로 돌아가셔서 안전벨트를 착용해 주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Understood. How will I know when it's okay to use the restroom?",
+          "ko": "알겠습니다. 화장실 사용이 괜찮을 때 어떻게 알 수 있나요?"
+        },
+        {
+          "speaker": "승무원",
+          "en": "When the fasten seatbelt sign is off, you're free to move around the cabin.",
+          "ko": "안전벨트 표시등이 꺼지면 기내를 자유롭게 이동하실 수 있습니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Is the lavatory free?",
+          "ko": "화장실이 비어 있는지 묻는 표현. 'lavatory'는 기내 화장실 공식 명칭, 'restroom'도 통용됨. 'free' = '비어 있다', 'occupied' = '사용 중'.",
+          "alternatives": [
+            { "en": "Is the restroom available?", "ko": "화장실 사용 가능한가요?" },
+            { "en": "Where is the lavatory?", "ko": "화장실이 어디 있나요?" }
+          ]
+        },
+        {
+          "en": "Please fasten your seatbelt.",
+          "ko": "안전벨트 착용 안내. 착륙 전 또는 난기류 시 반드시 지켜야 하는 지시. 'fasten'은 '채우다·잠그다' 뜻.",
+          "alternatives": [
+            { "en": "Please return to your seat and buckle up.", "ko": "자리로 돌아가서 안전벨트를 채워 주세요." },
+            { "en": "The fasten seatbelt sign is on.", "ko": "안전벨트 착용 표시가 켜졌습니다." }
+          ]
+        },
+        {
+          "en": "When the fasten seatbelt sign is off, you're free to move around.",
+          "ko": "안전벨트 표시등 소등 시 이동 가능. 'seatbelt sign is off'(표시등 꺼짐)와 'is on'(켜짐)을 구별해야 함.",
+          "alternatives": [
+            { "en": "You may move around the cabin once the sign is turned off.", "ko": "표시등이 꺼지면 기내를 이동하실 수 있습니다." },
+            { "en": "Feel free to walk around when the light goes off.", "ko": "표시등이 꺼지면 자유롭게 이동하세요." }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch06_set01_001",
+          "type": "multiple_choice",
+          "question": "'Now boarding group 1.'이라는 방송이 나왔을 때 올바른 행동은?",
+          "options": [
+            "자기 탑승권에서 그룹 번호를 확인하고 해당하면 게이트로 이동한다",
+            "1번 게이트로 이동한다",
+            "1등석 승객만 탑승하는 방송이다",
+            "모든 승객이 즉시 탑승할 수 있다"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Now boarding group 1.'은 그룹 1에 속한 승객들의 탑승 시작 안내입니다. 탑승권에 적힌 그룹 번호를 확인하고, 자신의 그룹이 맞을 때 이동해야 합니다."
+        },
+        {
+          "id": "se_ch06_set01_002",
+          "type": "multiple_choice",
+          "question": "'Final call'과 'now boarding'의 차이로 올바른 것은?",
+          "options": [
+            "'final call'은 탑승 시작, 'now boarding'은 탑승 마감",
+            "'final call'은 탑승 마감 임박, 'now boarding'은 탑승 진행 중",
+            "둘 다 같은 뜻으로 탑승 시작을 의미한다",
+            "'final call'은 결항 안내, 'now boarding'은 지연 안내"
+          ],
+          "answerIndex": 1,
+          "explanation": "'now boarding'은 탑승이 진행 중임을 알리는 표현이고, 'final call'은 마지막 탑승 안내로 게이트가 곧 닫힌다는 신호입니다. 'final call'을 들으면 즉시 게이트로 이동해야 합니다."
+        },
+        {
+          "id": "se_ch06_set01_003",
+          "type": "multiple_choice",
+          "question": "게이트 변경이 발생했을 때 가장 먼저 해야 할 일은?",
+          "options": [
+            "체크인 카운터로 돌아간다",
+            "전광판을 확인하고 새 게이트 번호를 파악한다",
+            "공항 직원에게 새 탑승권을 요청한다",
+            "자리에 앉아 방송을 기다린다"
+          ],
+          "answerIndex": 1,
+          "explanation": "게이트 변경 시 전광판(departures board)이나 항공사 앱에서 새 게이트 번호를 확인하고 신속히 이동해야 합니다. 탑승권 재발급은 필요하지 않습니다."
+        },
+        {
+          "id": "se_ch06_set01_004",
+          "type": "multiple_choice",
+          "question": "기내에서 'The overhead bin is full.'이라는 말의 뜻은?",
+          "options": [
+            "출발이 지연됐다",
+            "머리 위 짐칸이 꽉 찼다",
+            "수하물 요금이 발생했다",
+            "가방을 창문 쪽에 보관하라"
+          ],
+          "answerIndex": 1,
+          "explanation": "'overhead bin'은 기내 머리 위 짐칸을 의미하며, 'full'은 꽉 찼다는 뜻입니다. 이 경우 승무원에게 다른 공간을 안내받거나 gate-check를 요청할 수 있습니다."
+        },
+        {
+          "id": "se_ch06_set01_005",
+          "type": "multiple_choice",
+          "question": "승무원이 'Chicken or beef?'라고 물었을 때 가장 자연스러운 답변은?",
+          "options": [
+            "I want the food.",
+            "Chicken, please.",
+            "Give me beef now.",
+            "Food is fine."
+          ],
+          "answerIndex": 1,
+          "explanation": "기내식 선택 시 'Chicken, please.' 또는 'Beef, please.'처럼 간결하게 답하는 것이 가장 자연스럽습니다. 'Give me ~'는 명령형으로 다소 무례하게 들릴 수 있습니다."
+        },
+        {
+          "id": "se_ch06_set01_006",
+          "type": "multiple_choice",
+          "question": "기내에서 담요를 요청하는 가장 적절한 표현은?",
+          "options": [
+            "Bring me a blanket.",
+            "I need blanket now.",
+            "Could I get a blanket, please?",
+            "Blanket is required."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Could I get a blanket, please?'는 담요를 정중하게 요청하는 표현입니다. 'Could I ~' 패턴은 기내에서 물건을 부탁할 때 가장 자연스럽고 예의 바른 표현입니다."
+        },
+        {
+          "id": "se_ch06_set01_007",
+          "type": "multiple_choice",
+          "question": "앞좌석 승객에게 등받이를 올려달라고 요청하는 올바른 표현은?",
+          "options": [
+            "Could you put your seatback up, please?",
+            "Could you move forward?",
+            "Could you change your seat?",
+            "Could you sit up straight?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you put your seatback up, please?'는 앞좌석 등받이를 세워달라는 정중한 표현입니다. 'seatback'은 좌석 등받이를 뜻하는 항공업계 표준 용어입니다."
+        },
+        {
+          "id": "se_ch06_set01_008",
+          "type": "multiple_choice",
+          "question": "비행기 좌석에서 'aisle seat'은 어떤 좌석인가?",
+          "options": [
+            "창가 좌석",
+            "가운데 좌석",
+            "통로 좌석",
+            "비상구 좌석"
+          ],
+          "answerIndex": 2,
+          "explanation": "'aisle seat'은 통로(aisle) 쪽에 위치한 좌석입니다. 'window seat'(창가), 'middle seat'(가운데)과 구별해야 합니다. 'aisle'은 '아일'로 발음합니다."
+        },
+        {
+          "id": "se_ch06_set01_009",
+          "type": "multiple_choice",
+          "question": "착륙 전 승무원이 'Please fasten your seatbelt.'라고 했을 때 해야 할 행동은?",
+          "options": [
+            "화장실에 빨리 다녀온다",
+            "짐을 선반에서 미리 꺼낸다",
+            "안전벨트를 채우고 자리에 앉는다",
+            "기내식 트레이를 정리한다"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Please fasten your seatbelt.'는 안전벨트를 착용하라는 지시입니다. 착륙 전이나 난기류 발생 시 반드시 안전벨트를 채우고 착석해야 합니다."
+        },
+        {
+          "id": "se_ch06_set01_010",
+          "type": "multiple_choice",
+          "question": "기내에서 몸이 좋지 않을 때 승무원에게 알리는 표현은?",
+          "options": [
+            "I feel bored.",
+            "I feel cold.",
+            "I feel sick.",
+            "I feel hungry."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I feel sick.'은 몸이 좋지 않거나 메스꺼울 때 쓰는 표현입니다. 비행 중 멀미(motion sickness) 등 이상 증상이 있을 때 승무원에게 이 표현으로 알릴 수 있습니다."
+        },
+        {
+          "id": "se_ch06_set01_011",
+          "type": "multiple_choice",
+          "question": "기내 화장실을 가리키는 공식 용어로 올바른 것은?",
+          "options": [
+            "galley",
+            "cockpit",
+            "lavatory",
+            "cabin"
+          ],
+          "answerIndex": 2,
+          "explanation": "'lavatory'는 기내 화장실의 공식 명칭입니다. 'restroom'도 통용되지만 기내 방송에서는 주로 'lavatory'를 사용합니다. 'galley'는 기내 주방, 'cockpit'은 조종실입니다."
+        },
+        {
+          "id": "se_ch06_set01_012",
+          "type": "multiple_choice",
+          "question": "'The flight is delayed.'와 'The flight is canceled.'의 차이는?",
+          "options": [
+            "둘 다 항공편이 취소되었다는 뜻이다",
+            "'delayed'는 지연, 'canceled'는 결항으로 의미가 다르다",
+            "둘 다 항공편이 늦어진다는 뜻이다",
+            "'delayed'는 게이트 변경, 'canceled'는 지연을 의미한다"
+          ],
+          "answerIndex": 1,
+          "explanation": "'delayed'는 출발이 늦어진다는 지연을 의미하고, 'canceled'는 항공편 자체가 취소(결항)되었다는 뜻입니다. 결항 시에는 재예약이나 환불 절차가 필요합니다."
+        },
+        {
+          "id": "se_ch06_set01_013",
+          "type": "ox",
+          "question": "'Final call'은 탑승 마감이 임박했다는 마지막 안내 방송이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Final call'은 마지막 탑승 안내 방송으로, 이 방송 후에는 게이트가 닫힐 수 있습니다. 들리는 즉시 게이트로 이동해야 합니다."
+        },
+        {
+          "id": "se_ch06_set01_014",
+          "type": "ox",
+          "question": "기내 안전벨트 표시등(fasten seatbelt sign)이 켜져 있어도 화장실 사용이 자유롭다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 안전벨트 표시등이 켜져 있는 동안에는 자리에 앉아 안전벨트를 착용해야 합니다. 표시등이 꺼진 후에야 기내를 자유롭게 이동할 수 있습니다."
+        }
+      ]
+    }
+  ]
+}

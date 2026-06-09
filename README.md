@@ -92,8 +92,25 @@ npx serve .
 }
 ```
 
-### 챕터 추가
-해당 카테고리 파일의 `chapters` 배열에 항목을 추가합니다. 챕터는 본문(`sections`)과 **세트 배열(`sets`)** 을 가집니다.
+### 생존 영어 회화 편집 워크플로 (조각 파일 + 빌드)
+
+`data/survival-english.json`은 **직접 편집하지 않습니다.** `scripts/chapters/chNN.json` 조각 파일에서 생성됩니다 (챕터당 1파일, 대화 중심 포맷: `dialogues` + `keyExpressions` + `sets`).
+
+```bash
+# 1) 챕터 조각 편집
+#    scripts/chapters/chNN.json  (대화 10개, 각 핵심표현 3개·대체표현 2개, 세트 14문항)
+# 2) 단일 챕터 검증
+node scripts/validate-chapter.mjs scripts/chapters/chNN.json
+# 3) 전체 파일 재생성
+node scripts/build-survival-english.mjs
+# 4) 전체 검증
+node scripts/validate-survival-english.mjs
+```
+
+> 챕터 구성 설계는 [docs/superpowers/specs/2026-06-09-survival-english-restructure-design.md](docs/superpowers/specs/2026-06-09-survival-english-restructure-design.md) 참고. 새 챕터를 추가하려면 `scripts/chapters/`에 `chNN.json`을 만들고 빌드하면 됩니다.
+
+### 챕터 추가 (구버전 `sections` 포맷)
+해당 카테고리 파일의 `chapters` 배열에 항목을 추가합니다. 챕터는 본문(`sections`)과 **세트 배열(`sets`)** 을 가집니다. (생존 영어 회화는 위 대화형 워크플로를 사용하세요.)
 
 ```json
 {
