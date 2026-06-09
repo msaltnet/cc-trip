@@ -1,0 +1,138 @@
+{
+  "id": "ch24",
+  "title": "면세·택스리펀",
+  "summary": "택스리펀 신청, 세관 도장, 양식 작성, 환급 창구 위치 확인",
+  "sections": [
+    {
+      "heading": "구매 시 면세 확인하기",
+      "body": "면세 혜택이 있는 상점에서 'Can I get a tax refund?'라고 물어보면 택스리펀 서류를 받을 수 있습니다. 유럽은 최소 구매 금액(minimum purchase) 이상 구입해야 환급 신청이 가능하므로 영수증 금액을 확인하세요."
+    },
+    {
+      "heading": "세관 도장과 양식 작성",
+      "body": "공항 출국 전 세관에서 구매 영수증과 함께 택스 프리 폼(tax-free form)에 도장을 받아야 합니다. 세관 도장을 찍는 곳을 모를 때는 'Where can I get a customs stamp?'라고 물어보세요."
+    },
+    {
+      "heading": "환급 신청과 창구 위치",
+      "body": "세관 도장을 받은 뒤 환급 창구로 가서 'I'd like to claim my VAT refund.'라고 말하면 환급 절차를 진행할 수 있습니다. 환급 창구 위치를 모를 때는 'Where is the refund desk?'라고 물어보세요."
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch24_set01_001",
+          "type": "multiple_choice",
+          "question": "쇼핑 후 택스리펀을 신청할 수 있는지 물을 때 알맞은 표현은?",
+          "options": [
+            "Can I get a refund?",
+            "Can I get a tax refund?",
+            "Can I get a discount?",
+            "Can I get free tax?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Can I get a tax refund?'는 부가세(VAT) 환급을 신청할 수 있는지 묻는 표현입니다. 'refund'만 쓰면 상품 반품 환불로 오해할 수 있으므로 'tax refund'라고 명확히 말해야 합니다."
+        },
+        {
+          "id": "se_ch24_set01_002",
+          "type": "multiple_choice",
+          "question": "'Tax-free form'이 뜻하는 것은?",
+          "options": [
+            "세금 납부 영수증",
+            "면세 혜택을 받기 위한 택스리펀 신청 양식",
+            "공항 입국 신고서",
+            "세관 신고 물품 목록"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Tax-free form'은 구매한 상품에 대한 부가세 환급을 신청하기 위해 상점에서 발급해 주는 양식입니다. 세관 도장을 받은 뒤 환급 창구에 제출합니다."
+        },
+        {
+          "id": "se_ch24_set01_003",
+          "type": "multiple_choice",
+          "question": "공항에서 세관 도장을 받는 곳을 물어볼 때 알맞은 표현은?",
+          "options": [
+            "Where is the currency exchange?",
+            "Where can I get a customs stamp?",
+            "Where can I get stamped?",
+            "Where is the immigration?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Where can I get a customs stamp?'는 공항에서 세관 도장을 받을 수 있는 곳을 묻는 자연스러운 표현입니다. 'immigration'은 입국 심사대이며, 'currency exchange'는 환전소입니다."
+        },
+        {
+          "id": "se_ch24_set01_004",
+          "type": "multiple_choice",
+          "question": "환급 창구에서 부가세 환급을 신청하겠다고 말할 때 알맞은 표현은?",
+          "options": [
+            "I want my money back.",
+            "I'd like to claim my VAT refund.",
+            "Please give me my tax money.",
+            "I need a tax discount."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'd like to claim my VAT refund.'는 부가세(VAT) 환급을 신청하겠다는 공식적이고 명확한 표현입니다. 'VAT'는 Value Added Tax의 약자로 유럽 부가세를 뜻합니다."
+        },
+        {
+          "id": "se_ch24_set01_005",
+          "type": "multiple_choice",
+          "question": "'Minimum purchase'가 택스리펀 맥락에서 뜻하는 것은?",
+          "options": [
+            "최소 체류 기간",
+            "환급 신청에 필요한 최소 구매 금액",
+            "면세점 개점 최소 시간",
+            "구매 가능한 최소 수량"
+          ],
+          "answerIndex": 1,
+          "explanation": "택스리펀 맥락에서 'minimum purchase'는 환급 신청이 가능한 최소 구매 금액을 뜻합니다. 예를 들어 '€50 minimum purchase'라면 50유로 이상 구매해야 환급 신청을 할 수 있습니다."
+        },
+        {
+          "id": "se_ch24_set01_006",
+          "type": "multiple_choice",
+          "question": "공항에서 택스리펀 환급 창구의 위치를 묻는 표현은?",
+          "options": [
+            "Where is the refund desk?",
+            "Where is the information desk?",
+            "Where is the check-in desk?",
+            "Where is the service desk?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where is the refund desk?'는 환급 창구의 위치를 묻는 표현입니다. 세관 도장을 받은 후 이 창구에서 현금 또는 카드로 부가세를 돌려받습니다."
+        },
+        {
+          "id": "se_ch24_set01_007",
+          "type": "multiple_choice",
+          "question": "택스리펀 절차에서 가장 먼저 해야 할 일은?",
+          "options": [
+            "공항 환급 창구에서 줄 서기",
+            "세관 도장 받기",
+            "상점에서 택스 프리 양식 받기",
+            "신용카드로 결제하기"
+          ],
+          "answerIndex": 2,
+          "explanation": "택스리펀 절차는 '상점에서 양식 받기 → 공항에서 세관 도장 받기 → 환급 창구에서 환급 신청' 순서입니다. 따라서 상점에서 tax-free form을 받는 것이 첫 번째 단계입니다."
+        },
+        {
+          "id": "se_ch24_set01_008",
+          "type": "ox",
+          "question": "유럽 여행 중 택스리펀을 받으려면 공항 출국 전에 세관(customs)에서 구매 서류에 도장을 받아야 한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 세관 도장은 택스리펀의 필수 조건입니다. 도장을 받지 않으면 환급 창구에서 환급을 받을 수 없으므로 출국 전에 반드시 세관에 들러야 합니다."
+        },
+        {
+          "id": "se_ch24_set01_009",
+          "type": "ox",
+          "question": "'I'd like to claim my VAT refund.'에서 'VAT'는 부가가치세(Value Added Tax)의 약자이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. VAT는 Value Added Tax의 약자로 유럽 국가들에서 부과하는 부가가치세입니다. 비EU 거주자는 일정 금액 이상 구매 시 이를 환급받을 수 있습니다."
+        },
+        {
+          "id": "se_ch24_set01_010",
+          "type": "ox",
+          "question": "'Can I get a tax refund?'는 구매한 물건을 반품하여 환불을 받겠다는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'Can I get a tax refund?'는 구매 시 포함된 부가세(VAT)를 돌려받겠다는 표현입니다. 상품 반품·환불은 'Can I get a refund?' 또는 'I'd like to return this.'라고 합니다."
+        }
+      ]
+    }
+  ]
+}

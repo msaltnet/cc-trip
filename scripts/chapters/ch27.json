@@ -1,0 +1,138 @@
+{
+  "id": "ch27",
+  "title": "사진 부탁·스몰토크",
+  "summary": "사진 촬영 부탁하기, 버튼 설명, 출신지·첫 방문 여부 묻기, 일상적 인사 표현",
+  "sections": [
+    {
+      "heading": "사진 촬영 부탁하기",
+      "body": "가족사진을 찍고 싶을 때는 지나가는 사람에게 'Could you take a photo of us?'라고 정중하게 부탁하세요. 스마트폰을 건네줄 때는 'Just press this button.'이라고 어떤 버튼을 눌러야 하는지 알려주면 됩니다. 'Could you ~?'는 'Can you ~?'보다 더 공손한 표현입니다."
+    },
+    {
+      "heading": "출신지와 첫 방문 여부 묻기",
+      "body": "여행지에서 다른 여행자를 만났을 때 'Where are you from?'으로 출신지를 물어볼 수 있습니다. 'Is this your first time here?'는 이 곳에 처음 왔는지 묻는 표현으로, 대화를 이어가기 좋은 질문입니다."
+    },
+    {
+      "heading": "일상적 인사와 작별 인사",
+      "body": "짧은 대화를 마칠 때 'Have a nice day!'는 좋은 하루 보내라는 뜻의 자연스러운 마무리 인사입니다. 'Nice to meet you.'는 처음 만난 사람에게 만나서 반갑다고 할 때 씁니다. 이미 만난 적이 있는 경우에는 'Nice to see you again.'을 씁니다."
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch27_set01_001",
+          "type": "multiple_choice",
+          "question": "지나가는 사람에게 가족사진을 찍어달라고 정중히 부탁할 때 알맞은 표현은?",
+          "options": [
+            "Take a photo of us, please.",
+            "Could you take a photo of us?",
+            "Can you photograph my family?",
+            "Please take our picture now."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Could you take a photo of us?'는 사진을 찍어달라고 정중하게 부탁하는 표현입니다. 'Could you ~?'는 'Can you ~?'보다 더 공손한 표현으로 낯선 사람에게 부탁할 때 적합합니다."
+        },
+        {
+          "id": "se_ch27_set01_002",
+          "type": "multiple_choice",
+          "question": "스마트폰을 건네며 촬영 버튼을 알려줄 때 알맞은 표현은?",
+          "options": [
+            "Push the screen.",
+            "Just press this button.",
+            "Click the camera icon.",
+            "Tap anywhere to shoot."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Just press this button.'은 어떤 버튼을 눌러야 하는지 간단하고 명확하게 알려주는 표현입니다. 실제 버튼을 가리키며 말하면 더 효과적으로 전달됩니다."
+        },
+        {
+          "id": "se_ch27_set01_003",
+          "type": "multiple_choice",
+          "question": "여행지에서 만난 사람의 출신 국가를 물을 때 알맞은 표현은?",
+          "options": [
+            "What country are you visiting?",
+            "Where are you from?",
+            "Which city do you live in?",
+            "Are you a tourist?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Where are you from?'은 출신지(나라나 도시)를 묻는 가장 보편적인 표현입니다. 'What country are you visiting?'은 현재 방문 중인 나라를 묻는 표현으로 출신지 질문과 다릅니다."
+        },
+        {
+          "id": "se_ch27_set01_004",
+          "type": "multiple_choice",
+          "question": "상대방이 이 관광지에 처음 왔는지 물을 때 알맞은 표현은?",
+          "options": [
+            "Did you come here yesterday?",
+            "Is this your first time here?",
+            "Did you just arrive?",
+            "Are you new here?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is this your first time here?'는 이 장소에 처음 방문한 것인지 묻는 표현입니다. 'Did you come here yesterday?'는 어제 왔는지를 묻는 전혀 다른 질문이고, 'Did you just arrive?'는 막 도착했는지 묻는 표현으로 처음 방문 여부와는 다릅니다."
+        },
+        {
+          "id": "se_ch27_set01_005",
+          "type": "multiple_choice",
+          "question": "짧은 대화 후 작별할 때 좋은 하루 되라고 인사하는 표현은?",
+          "options": [
+            "Good luck!",
+            "Take care!",
+            "Have a nice day!",
+            "See you soon!"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Have a nice day!'는 헤어질 때 좋은 하루 보내라는 뜻의 가장 일반적인 인사 표현입니다. 'Good luck!'은 행운을 빌 때, 'See you soon!'은 곧 다시 만날 것을 기약할 때 씁니다. 'Take care!'도 헤어질 때 쓰는 작별 인사지만, 여기서는 '좋은 하루 되세요'에 해당하는 'Have a nice day!'가 가장 알맞습니다."
+        },
+        {
+          "id": "se_ch27_set01_006",
+          "type": "multiple_choice",
+          "question": "처음 만난 사람에게 반갑다고 할 때 알맞은 표현은?",
+          "options": [
+            "Good to see you.",
+            "Nice to meet you.",
+            "Nice to see you again.",
+            "Glad you are here."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Nice to meet you.'는 처음 만나는 사람에게 반갑다는 인사 표현입니다. 'Nice to see you again.'은 이전에 만난 적 있는 사람을 다시 만났을 때 쓰는 표현으로 구분해야 합니다."
+        },
+        {
+          "id": "se_ch27_set01_007",
+          "type": "multiple_choice",
+          "question": "'Could you take a photo of us?'에서 'Could you'를 쓰는 이유는?",
+          "options": [
+            "과거 시제를 나타내기 위해",
+            "'Can you'보다 더 공손하게 부탁하기 위해",
+            "상대방이 이미 동의했다는 것을 표현하기 위해",
+            "불가능한 상황을 가정하기 위해"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Could you'는 'Can you'보다 더 공손한 요청 표현입니다. 낯선 사람에게 부탁할 때는 'Could you ~?'를 쓰면 더 예의 바르게 들립니다."
+        },
+        {
+          "id": "se_ch27_set01_008",
+          "type": "ox",
+          "question": "'Just press this button.'은 상대방에게 카메라 촬영 버튼을 알려줄 때 쓰는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Just press this button.'은 어떤 버튼을 눌러 촬영하면 되는지 간단히 설명하는 표현입니다. 실제 버튼을 손가락으로 가리키며 말하면 더 명확하게 전달됩니다."
+        },
+        {
+          "id": "se_ch27_set01_009",
+          "type": "ox",
+          "question": "'Nice to meet you.'는 이전에 만난 적 있는 사람을 다시 만났을 때 쓰는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'Nice to meet you.'는 처음 만나는 사람에게 반갑다고 할 때 씁니다. 이미 만난 적 있는 사람을 다시 만났을 때는 'Nice to see you again.'이라고 해야 합니다."
+        },
+        {
+          "id": "se_ch27_set01_010",
+          "type": "ox",
+          "question": "'Where are you from?'은 상대방의 출신 국가나 도시를 물어볼 때 쓰는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Where are you from?'은 출신지(나라, 도시)를 묻는 가장 자연스러운 표현입니다. 여행지에서 다른 여행자와 스몰토크를 시작할 때 자주 쓰입니다."
+        }
+      ]
+    }
+  ]
+}
