@@ -1,7 +1,532 @@
 {
   "id": "ch24",
   "title": "마트·장보기",
-  "summary": "상품 위치·가격, 무게 달기, 셀프 계산대",
-  "dialogues": [],
-  "sets": []
+  "summary": "상품 위치·가격 확인부터 무게 달기, 셀프 계산대, 봉투 유료 여부, 유통기한 확인, 환불·교환까지 마트에서 필요한 모든 영어 표현",
+  "dialogues": [
+    {
+      "id": "ch24_d01",
+      "title": "상품 위치 묻기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, where can I find the olive oil?", "ko": "실례합니다, 올리브유는 어디서 찾을 수 있나요?" },
+        { "speaker": "직원", "en": "It's in aisle four, on the left side.", "ko": "4번 통로 왼쪽에 있습니다." },
+        { "speaker": "나", "en": "And what about pasta? Is it in the same aisle?", "ko": "파스타는요? 같은 통로에 있나요?" },
+        { "speaker": "직원", "en": "Yes, pasta and sauces are all together there.", "ko": "네, 파스타와 소스류가 모두 그쪽에 있습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Where can I find ~?",
+          "ko": "상품 위치를 묻는 가장 자연스러운 표현. 'Where is the ~?'보다 약간 더 공손한 뉘앙스. 직원에게 적극적으로 안내를 요청하는 느낌.",
+          "alternatives": [
+            { "en": "Where is the olive oil?", "ko": "'Where is the + 상품명?'은 가장 간단한 위치 질문. 짧고 직접적." },
+            { "en": "Could you point me to the olive oil?", "ko": "'point me to'는 안내해 달라는 뜻. 더 정중하고 격식 있는 표현." }
+          ]
+        },
+        {
+          "en": "It's in aisle four.",
+          "ko": "'aisle'은 마트 진열 통로를 뜻함. 발음은 '아일'. 'aisle'의 l은 묵음이라 철자와 발음이 달라 헷갈리기 쉬움.",
+          "alternatives": [
+            { "en": "It's on the left/right side.", "ko": "좌우 위치를 알려줄 때 쓰는 표현. left/right만 바꾸면 됨." },
+            { "en": "It's near the back of the store.", "ko": "매장 안쪽에 있다는 표현. 'near the front'는 앞쪽." }
+          ]
+        },
+        {
+          "en": "What about ~?",
+          "ko": "앞에서 나온 주제에 연이어 다른 것을 물을 때 쓰는 패턴. '~은요?'와 동일. 대화를 자연스럽게 이어주는 표현.",
+          "alternatives": [
+            { "en": "How about ~?", "ko": "'What about'과 거의 동일한 의미. 일상 구어에서 자주 혼용됨." },
+            { "en": "And ~? Is it nearby?", "ko": "근처에 있는지 바로 이어서 묻는 패턴." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch24_d02",
+      "title": "가격 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, how much is this cheese?", "ko": "실례합니다, 이 치즈 얼마예요?" },
+        { "speaker": "직원", "en": "Let me check — it's four ninety-nine.", "ko": "확인해 볼게요 — 4.99파운드입니다." },
+        { "speaker": "나", "en": "Is there a cheaper option nearby?", "ko": "근처에 더 저렴한 게 있나요?" },
+        { "speaker": "직원", "en": "The store brand is just below it, it's two pounds.", "ko": "바로 아래에 자체 브랜드 제품이 있는데 2파운드입니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "How much is this?",
+          "ko": "가격을 묻는 가장 기본 표현. 'this' 대신 상품명을 넣으면 더 명확함. 'What is the price?'보다 훨씬 자연스러운 일상 표현.",
+          "alternatives": [
+            { "en": "What's the price on this?", "ko": "가격표가 안 보일 때 쓰기 좋은 표현. 조금 더 구체적인 뉘앙스." },
+            { "en": "How much does this cost?", "ko": "'how much is'와 동의어. 'cost'를 동사로 쓰는 패턴." }
+          ]
+        },
+        {
+          "en": "Is there a cheaper option?",
+          "ko": "더 저렴한 대안을 물을 때 쓰는 표현. 'cheaper alternative'라고도 함. 'cheap'을 단독으로 쓰면 품질에 대한 부정적 뉘앙스가 있으므로 'more affordable'이 더 무난할 때도 있음.",
+          "alternatives": [
+            { "en": "Do you have anything less expensive?", "ko": "'less expensive'는 'cheaper'와 동의어이나 더 정중한 느낌." },
+            { "en": "Is there a budget version of this?", "ko": "저가 버전이 있는지 직접적으로 묻는 표현." }
+          ]
+        },
+        {
+          "en": "store brand",
+          "ko": "마트 자체 브랜드 상품. '자체 브랜드' 또는 'own brand'(영국), 'generic brand'라고도 함. 보통 이름 있는 브랜드보다 저렴함.",
+          "alternatives": [
+            { "en": "own brand / own-label", "ko": "영국 마트에서 자주 쓰는 표현. Tesco own brand 등으로 표시됨." },
+            { "en": "generic brand", "ko": "미국에서 흔히 쓰는 표현. 특정 브랜드명 없이 단순 품목으로 표기된 상품." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch24_d03",
+      "title": "농산물 무게 달기",
+      "lines": [
+        { "speaker": "나", "en": "Do I need to weigh this myself before going to the cashier?", "ko": "계산대 가기 전에 제가 직접 무게를 달아야 하나요?" },
+        { "speaker": "직원", "en": "Yes, use the scale over there and print a sticker.", "ko": "네, 저기 저울을 이용해서 스티커를 출력하세요." },
+        { "speaker": "나", "en": "Got it. Do I just press the button for the item?", "ko": "알겠습니다. 해당 상품 버튼만 누르면 되나요?" },
+        { "speaker": "직원", "en": "Exactly. Find your item on the screen and put it on the scale.", "ko": "맞아요. 화면에서 상품을 찾고 저울에 올려놓으세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do I need to weigh this myself?",
+          "ko": "직접 무게를 달아야 하는지 확인하는 표현. 유럽 마트 채소·과일 코너에는 셀프 저울이 있어 바코드 스티커를 직접 출력해야 하는 경우가 많음.",
+          "alternatives": [
+            { "en": "Should I weigh it before checkout?", "ko": "계산 전에 달아야 하는지 묻는 표현. 'before checkout'이 시점을 명확히 함." },
+            { "en": "Is there a scale to use?", "ko": "저울이 어디 있는지 간접적으로 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Print a sticker.",
+          "ko": "무게를 달면 바코드가 인쇄된 가격 스티커가 나옴. 이를 상품에 붙이고 계산대로 가야 함. 이 과정을 모르면 계산대에서 당황할 수 있음.",
+          "alternatives": [
+            { "en": "Get a price label.", "ko": "가격 라벨을 받는다는 뜻. label과 sticker는 이 맥락에서 혼용됨." },
+            { "en": "Attach the barcode tag.", "ko": "바코드 태그를 붙인다는 표현. 계산원이 안내할 때 쓰는 표현." }
+          ]
+        },
+        {
+          "en": "Put it on the scale.",
+          "ko": "저울 위에 올려놓으라는 지시. 'scale'은 무게를 재는 저울. 'put ~ on the scale'이 가장 일반적인 표현.",
+          "alternatives": [
+            { "en": "Place it on the scale.", "ko": "'put' 대신 'place'를 쓴 더 격식 있는 표현. 의미는 동일." },
+            { "en": "Set it down on the weighing area.", "ko": "무게 측정 구역에 내려놓으라는 설명적 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch24_d04",
+      "title": "봉투 필요 여부",
+      "lines": [
+        { "speaker": "직원", "en": "Do you need a bag today?", "ko": "오늘 봉투 필요하세요?" },
+        { "speaker": "나", "en": "Yes, please. How much is it?", "ko": "네, 주세요. 얼마예요?" },
+        { "speaker": "직원", "en": "It's ten pence for a plastic bag.", "ko": "비닐봉투는 10펜스입니다." },
+        { "speaker": "나", "en": "That's fine. I'll take one.", "ko": "괜찮아요. 하나 주세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do you need a bag?",
+          "ko": "계산대에서 봉투 필요 여부를 묻는 표현. 유럽 대부분의 마트에서 비닐봉투는 유료. 직원이 먼저 이렇게 물어볼 때가 많음.",
+          "alternatives": [
+            { "en": "Would you like a bag?", "ko": "더 정중한 표현. 의미는 동일하며 직원이 손님에게 물을 때 자주 씀." },
+            { "en": "Can I get a bag?", "ko": "손님이 먼저 봉투를 요청할 때 쓰는 표현." }
+          ]
+        },
+        {
+          "en": "It's ten pence for a plastic bag.",
+          "ko": "봉투 가격을 알려주는 표현. 'pence'는 영국 화폐 단위(penny의 복수형). 유럽 각국에서 봉투 유료화 정책을 시행 중.",
+          "alternatives": [
+            { "en": "Bags cost twenty cents each.", "ko": "봉투 한 개당 가격을 알려주는 표현. 'each'로 단위를 명확히 함." },
+            { "en": "There's a small charge for bags.", "ko": "봉투에 소액이 부과된다는 표현. 정확한 금액을 모를 때 쓰기 좋음." }
+          ]
+        },
+        {
+          "en": "I'll take one.",
+          "ko": "하나 사겠다는 가장 간단한 승낙 표현. 마트뿐 아니라 어디서든 '하나 주세요'로 쓸 수 있음. 'I'll have one.'도 동일한 의미.",
+          "alternatives": [
+            { "en": "I'll have one, please.", "ko": "'I'll take one'과 동의어. 'please'를 추가해 더 공손하게 표현." },
+            { "en": "Yes, just one bag.", "ko": "봉투를 한 개만 원한다고 명확히 하는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch24_d05",
+      "title": "셀프 계산대 이용하기",
+      "lines": [
+        { "speaker": "나", "en": "Is this the self-checkout lane?", "ko": "여기가 셀프 계산대 줄인가요?" },
+        { "speaker": "직원", "en": "Yes, scan each item and place it in the bagging area.", "ko": "네, 각 상품을 스캔하고 봉투 구역에 놓으세요." },
+        { "speaker": "나", "en": "Do I need to enter anything for produce?", "ko": "농산물은 뭔가 입력해야 하나요?" },
+        { "speaker": "직원", "en": "Yes, search by name or enter the PLU code on the screen.", "ko": "네, 화면에서 이름으로 검색하거나 PLU 코드를 입력하세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "self-checkout",
+          "ko": "고객이 직접 바코드를 스캔하고 결제하는 무인 계산대. 유럽 대형 마트에서 흔히 볼 수 있음. 'checkout'만 쓰면 일반 유인 계산대를 포함한 더 넓은 의미.",
+          "alternatives": [
+            { "en": "self-service checkout", "ko": "self-checkout의 풀네임. 영국에서 더 자주 쓰이는 표현." },
+            { "en": "automated checkout", "ko": "자동화 계산대라는 공식적인 표현. 안내판에서 볼 수 있음." }
+          ]
+        },
+        {
+          "en": "bagging area",
+          "ko": "스캔 후 상품을 올려놓는 구역. 셀프 계산대는 무게 센서로 이 구역을 확인하기 때문에 스캔한 상품을 바로 이곳에 놓지 않으면 오류가 발생함.",
+          "alternatives": [
+            { "en": "scanning area", "ko": "스캔하는 구역을 가리킬 때 쓰는 표현. bagging area와 구분해 사용." },
+            { "en": "packing area", "ko": "'bagging area'와 동일한 뜻. 매장마다 표기가 다를 수 있음." }
+          ]
+        },
+        {
+          "en": "PLU code",
+          "ko": "Price Look-Up code의 약자. 바코드가 없는 과일·채소 등에 부여된 4~5자리 코드. 셀프 계산대에서 농산물 입력 시 필요함.",
+          "alternatives": [
+            { "en": "product code", "ko": "상품 코드라는 일반적인 표현. PLU와 혼용됨." },
+            { "en": "item number", "ko": "상품 번호. 화면에서 검색할 때 직원이 안내하는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch24_d06",
+      "title": "바코드가 스캔되지 않을 때",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, this item won't scan.", "ko": "실례합니다, 이 상품이 스캔이 안 돼요." },
+        { "speaker": "직원", "en": "Let me try — the barcode might be damaged.", "ko": "제가 해볼게요 — 바코드가 손상됐을 수 있어요." },
+        { "speaker": "나", "en": "Should I get another one from the shelf?", "ko": "진열대에서 다른 걸 가져올까요?" },
+        { "speaker": "직원", "en": "That would help, or I can enter the code manually.", "ko": "그렇게 해주시면 좋겠어요, 아니면 제가 코드를 수동으로 입력할게요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "It won't scan.",
+          "ko": "스캔이 안 된다는 표현. 'won't'는 '(기계가) 하지 않는다'는 뜻으로 'doesn't work'와 비슷하지만 기계의 거부·작동 불능에 더 자연스러움.",
+          "alternatives": [
+            { "en": "The scanner isn't reading it.", "ko": "스캐너가 인식을 못 한다는 표현. 'reading'이 바코드 인식을 의미함." },
+            { "en": "The barcode isn't working.", "ko": "바코드 자체에 문제가 있다는 뉘앙스." }
+          ]
+        },
+        {
+          "en": "The barcode might be damaged.",
+          "ko": "바코드가 손상됐을 가능성을 나타내는 표현. 'might be'는 추측을 나타냄. 'may be damaged'와 동의어.",
+          "alternatives": [
+            { "en": "The barcode is scratched.", "ko": "긁혀서 손상됐다는 구체적인 표현." },
+            { "en": "It looks like the label is torn.", "ko": "라벨이 찢어진 것 같다는 표현." }
+          ]
+        },
+        {
+          "en": "Enter the code manually.",
+          "ko": "코드를 수동으로 입력한다는 표현. 스캔 불가 시 바코드 번호를 직접 키패드로 입력하는 방법. 'manually'는 '손으로, 직접'의 의미.",
+          "alternatives": [
+            { "en": "Type it in by hand.", "ko": "직접 손으로 입력한다는 캐주얼한 표현." },
+            { "en": "Key in the number.", "ko": "번호를 키패드로 입력한다는 표현. 'key in'은 '입력하다'의 뜻." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch24_d07",
+      "title": "멤버십·적립 카드 묻기",
+      "lines": [
+        { "speaker": "직원", "en": "Do you have a loyalty card with us?", "ko": "저희 적립 카드 갖고 계세요?" },
+        { "speaker": "나", "en": "No, I don't. Can I sign up now?", "ko": "아니요, 없어요. 지금 가입할 수 있나요?" },
+        { "speaker": "직원", "en": "You can register online, but you can still earn points today.", "ko": "온라인으로 등록하실 수 있고, 오늘 포인트는 적립 가능합니다." },
+        { "speaker": "나", "en": "Great, I'll look into it. Thanks.", "ko": "좋아요, 알아볼게요. 감사합니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do you have a loyalty card?",
+          "ko": "멤버십·적립 카드를 갖고 있는지 묻는 표현. 'loyalty card'는 포인트 적립용 카드의 일반적인 표현. 영국에서는 'Clubcard', 'Nectar card' 등 마트별 명칭이 다름.",
+          "alternatives": [
+            { "en": "Do you have a rewards card?", "ko": "'loyalty card'의 미국식 표현. 보상 카드라는 의미." },
+            { "en": "Are you a member here?", "ko": "회원 여부를 포괄적으로 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Can I sign up now?",
+          "ko": "지금 가입할 수 있는지 묻는 표현. 'sign up'은 '가입하다'. 'register'보다 일상적인 표현.",
+          "alternatives": [
+            { "en": "How do I get one?", "ko": "어떻게 만드는지 묻는 간단한 표현." },
+            { "en": "Can I join the membership?", "ko": "멤버십에 가입할 수 있는지 직접 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Earn points",
+          "ko": "포인트를 적립한다는 표현. 'earn'은 '벌다, 획득하다'. 적립은 'earn points', 사용은 'redeem points'.",
+          "alternatives": [
+            { "en": "Collect points", "ko": "포인트를 모은다는 표현. 영국 마트에서 자주 쓰임." },
+            { "en": "Accumulate rewards", "ko": "보상을 쌓는다는 더 공식적인 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch24_d08",
+      "title": "유통기한 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, I can't find the expiration date on this yogurt.", "ko": "실례합니다, 이 요거트의 유통기한을 찾을 수가 없어요." },
+        { "speaker": "직원", "en": "It should be on the bottom — it says 'best before'.", "ko": "바닥에 있을 거예요 — '유통기한 전' 이라고 적혀 있을 거예요." },
+        { "speaker": "나", "en": "What's the difference between 'best before' and 'use by'?", "ko": "'best before'와 'use by'는 어떻게 달라요?" },
+        { "speaker": "직원", "en": "'Use by' is a safety date — don't eat it after that. 'Best before' is about quality.", "ko": "'Use by'는 안전 기한이라 그 이후엔 드시면 안 돼요. 'Best before'는 품질에 관한 거예요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "expiration date / expiry date",
+          "ko": "유통기한을 뜻하는 표현. 미국에서는 'expiration date', 영국에서는 'expiry date'를 더 자주 씀. 마트 표기에는 'use by' 또는 'best before'로 쓰임.",
+          "alternatives": [
+            { "en": "use by date", "ko": "이 날짜 이후엔 섭취하면 안 되는 안전 기한. 유제품·육류 등에 표기." },
+            { "en": "best before date", "ko": "이 날짜까지 가장 신선하다는 품질 기한. 이 날 이후에도 먹을 수 있는 경우가 많음." }
+          ]
+        },
+        {
+          "en": "best before vs. use by",
+          "ko": "핵심 구분: 'use by'는 안전 기한(이후 섭취 위험), 'best before'는 품질 기한(이후에도 섭취 가능하지만 맛·질 저하 가능). 한국의 '유통기한'은 'use by'에 가까움.",
+          "alternatives": [
+            { "en": "sell by date", "ko": "마트가 판매할 수 있는 마감 날짜. 소비자 기준 기한이 아님. 'sell by' 이후에도 며칠은 먹을 수 있는 경우가 많음." },
+            { "en": "display until date", "ko": "진열 기한. 직원이 재고 관리할 때 쓰는 표기로 소비자와는 무관." }
+          ]
+        },
+        {
+          "en": "It's a safety date.",
+          "ko": "안전과 관련된 날짜라는 표현. 'use by' 날짜를 설명할 때 쓰임. 이 날짜를 넘기면 건강에 위험할 수 있다는 의미.",
+          "alternatives": [
+            { "en": "Don't eat it after that date.", "ko": "그 날짜 이후에는 먹지 말라는 직접적인 경고 표현." },
+            { "en": "It's for food safety.", "ko": "식품 안전을 위한 날짜라는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch24_d09",
+      "title": "환불·교환 창구 묻기",
+      "lines": [
+        { "speaker": "나", "en": "Where is the customer service desk?", "ko": "고객 서비스 데스크가 어디에 있나요?" },
+        { "speaker": "직원", "en": "It's near the entrance on your right.", "ko": "입구 쪽 오른쪽에 있습니다." },
+        { "speaker": "나", "en": "I bought this yesterday but it was already spoiled.", "ko": "어제 이걸 샀는데 이미 상해 있었어요." },
+        { "speaker": "직원", "en": "They'll give you a full refund. Do you have your receipt?", "ko": "전액 환불해 드릴 거예요. 영수증 가지고 계세요?" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Where is the customer service desk?",
+          "ko": "환불·교환·문의를 처리하는 고객 서비스 창구를 찾을 때 쓰는 표현. 'customer service counter'라고도 함.",
+          "alternatives": [
+            { "en": "Where can I make a return?", "ko": "환불 또는 반품을 하고 싶다고 직접 말하는 표현." },
+            { "en": "Is there a refund desk?", "ko": "환불 데스크가 있는지 묻는 표현." }
+          ]
+        },
+        {
+          "en": "It was already spoiled.",
+          "ko": "이미 상해 있었다는 표현. 'spoiled'는 음식이 상한 것. 'gone off'(영국식), 'rotten'도 동의어이나 'spoiled'가 가장 일반적.",
+          "alternatives": [
+            { "en": "It had gone off.", "ko": "영국식 표현으로 음식이 상했다는 의미. 'gone off'가 구어에서 자주 쓰임." },
+            { "en": "It was bad when I opened it.", "ko": "열었을 때 이미 안 좋은 상태였다는 표현." }
+          ]
+        },
+        {
+          "en": "A full refund",
+          "ko": "전액 환불. 'partial refund'는 부분 환불. 영수증이 있으면 대부분의 유럽 마트에서 전액 환불이 가능함.",
+          "alternatives": [
+            { "en": "A complete refund", "ko": "'full refund'와 동의어. 완전한 환불을 강조하는 표현." },
+            { "en": "Your money back", "ko": "돈을 돌려준다는 캐주얼한 표현. 'get your money back'으로도 씀." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch24_d10",
+      "title": "현금·카드 결제",
+      "lines": [
+        { "speaker": "직원", "en": "That'll be eighteen forty, please.", "ko": "18.40파운드 되겠습니다." },
+        { "speaker": "나", "en": "Do you take card?", "ko": "카드 되나요?" },
+        { "speaker": "직원", "en": "Yes, contactless or chip and PIN.", "ko": "네, 비접촉식이나 칩+PIN 방식 모두 됩니다." },
+        { "speaker": "나", "en": "I'll pay by card then.", "ko": "그럼 카드로 할게요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do you take card?",
+          "ko": "카드 결제가 되는지 묻는 표현. 'Do you take cards?'도 같은 의미. 'accept cards'보다 더 구어적이고 자연스러운 표현.",
+          "alternatives": [
+            { "en": "Can I pay by card?", "ko": "카드로 결제할 수 있는지 묻는 표현. 'Do you take card?'와 거의 동의어." },
+            { "en": "Is card payment okay?", "ko": "카드 결제가 괜찮은지 물어보는 좀 더 캐주얼한 표현." }
+          ]
+        },
+        {
+          "en": "contactless",
+          "ko": "비접촉식 결제. 카드나 스마트폰을 단말기에 가져다 대기만 하면 결제되는 방식. 영국에서는 일정 금액 이상이면 PIN 입력 요구.",
+          "alternatives": [
+            { "en": "tap to pay", "ko": "'탭하여 결제'라는 표현. 비접촉식 결제를 설명할 때 씀." },
+            { "en": "chip and PIN", "ko": "칩이 내장된 카드를 단말기에 꽂고 비밀번호를 입력하는 방식. 비접촉식이 안 될 때 쓰임." }
+          ]
+        },
+        {
+          "en": "I'll pay by card.",
+          "ko": "카드로 결제하겠다는 표현. 'by card'가 결제 수단을 나타냄. 'in cash'로 바꾸면 현금 결제가 됨.",
+          "alternatives": [
+            { "en": "I'll use my card.", "ko": "카드를 사용하겠다는 표현. 더 구어적이고 간단함." },
+            { "en": "I'll pay in cash.", "ko": "현금으로 결제하겠다는 표현. 'by cash'도 쓰이지만 'in cash'가 더 자연스러움." }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch24_set01_001",
+          "type": "multiple_choice",
+          "question": "마트에서 올리브유가 어디 있는지 물을 때 가장 자연스러운 표현은?",
+          "options": [
+            "Where can I find the olive oil?",
+            "Can you give me olive oil?",
+            "Is olive oil here?",
+            "I want olive oil."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where can I find ~?'는 상품 위치를 묻는 가장 자연스러운 표현입니다. 'Where is the ~?'도 맞지만 'Where can I find'가 더 공손하게 들립니다."
+        },
+        {
+          "id": "se_ch24_set01_002",
+          "type": "multiple_choice",
+          "question": "셀프 계산대(self-checkout)에서 스캔 후 상품을 놓아야 하는 곳을 가리키는 표현은?",
+          "options": [
+            "loading area",
+            "bagging area",
+            "storage zone",
+            "packing shelf"
+          ],
+          "answerIndex": 1,
+          "explanation": "'bagging area'는 셀프 계산대에서 스캔 후 상품을 올려놓는 구역입니다. 무게 센서가 있어 이 곳에 상품을 놓지 않으면 오류 메시지가 뜹니다."
+        },
+        {
+          "id": "se_ch24_set01_003",
+          "type": "multiple_choice",
+          "question": "'Use by' 날짜와 'Best before' 날짜의 차이로 옳은 것은?",
+          "options": [
+            "둘 다 이 날짜 이후엔 먹으면 안 된다.",
+            "'Best before'는 안전 기한, 'Use by'는 품질 기한이다.",
+            "'Use by'는 안전 기한, 'Best before'는 품질 기한이다.",
+            "두 표현은 완전히 같은 의미다."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Use by'는 이 날짜 이후 섭취하면 안 되는 안전 기한이고, 'Best before'는 이 날짜까지 가장 신선하다는 품질 기한입니다. 'Best before' 이후에도 먹을 수 있는 경우가 많습니다."
+        },
+        {
+          "id": "se_ch24_set01_004",
+          "type": "multiple_choice",
+          "question": "유럽 마트 채소·과일 코너에서 직접 무게를 달아야 하는지 확인하는 표현은?",
+          "options": [
+            "Is this item heavy?",
+            "Do I need to weigh this myself?",
+            "Can you weigh this for me?",
+            "How heavy is this?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do I need to weigh this myself?'는 직접 저울에 달아야 하는지 확인하는 표현입니다. 유럽 마트에서는 셀프 저울로 가격 스티커를 직접 출력해야 하는 경우가 많습니다."
+        },
+        {
+          "id": "se_ch24_set01_005",
+          "type": "multiple_choice",
+          "question": "카드 결제가 가능한지 묻는 가장 자연스러운 표현은?",
+          "options": [
+            "Is credit allowed here?",
+            "Do you take card?",
+            "Can you accept my payment?",
+            "Give me a card machine."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do you take card?'는 카드 결제 가능 여부를 묻는 가장 간단하고 자연스러운 표현입니다. 'Can I pay by card?'도 동의어로 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch24_set01_006",
+          "type": "multiple_choice",
+          "question": "마트 계산대에서 'Do you need a bag?'이라고 물을 때 적절한 답변은?",
+          "options": [
+            "No, it's free.",
+            "Yes, I'll take one. How much is it?",
+            "I don't have a bag.",
+            "Bags are over there."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Yes, I'll take one. How much is it?'는 봉투를 원하고 가격을 확인하는 자연스러운 대답입니다. 유럽 마트에서는 봉투가 유료이므로 가격을 확인하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch24_set01_007",
+          "type": "multiple_choice",
+          "question": "비접촉식 카드 결제를 가리키는 영어 표현은?",
+          "options": [
+            "chip and PIN",
+            "cash only",
+            "contactless",
+            "swipe card"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Contactless'는 카드나 스마트폰을 단말기에 가져다 대기만 하면 결제되는 비접촉식 결제 방식입니다. 'tap to pay'라고도 합니다. 'chip and PIN'은 칩 카드를 꽂고 비밀번호를 입력하는 방식입니다."
+        },
+        {
+          "id": "se_ch24_set01_008",
+          "type": "multiple_choice",
+          "question": "구매한 상품이 상해 있어서 환불을 원할 때 가장 먼저 찾아가야 할 곳은?",
+          "options": [
+            "self-checkout lane",
+            "produce section",
+            "customer service desk",
+            "entrance gate"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Customer service desk'(고객 서비스 창구)가 환불·교환·문의를 처리하는 곳입니다. 영수증을 가져가면 대부분의 마트에서 전액 환불(full refund)을 받을 수 있습니다."
+        },
+        {
+          "id": "se_ch24_set01_009",
+          "type": "multiple_choice",
+          "question": "셀프 계산대에서 바코드가 없는 과일·채소를 입력할 때 사용하는 코드는?",
+          "options": [
+            "ZIP code",
+            "QR code",
+            "PIN code",
+            "PLU code"
+          ],
+          "answerIndex": 3,
+          "explanation": "'PLU code(Price Look-Up code)'는 바코드가 없는 과일·채소 등에 부여된 4~5자리 코드입니다. 셀프 계산대 화면에서 상품명으로 검색하거나 이 코드를 직접 입력합니다."
+        },
+        {
+          "id": "se_ch24_set01_010",
+          "type": "multiple_choice",
+          "question": "포인트 적립 카드를 영어로 가리키는 표현이 아닌 것은?",
+          "options": [
+            "loyalty card",
+            "rewards card",
+            "membership card",
+            "boarding card"
+          ],
+          "answerIndex": 3,
+          "explanation": "'Boarding card(탑승권)'는 비행기·기차 탑승에 쓰이는 카드로 마트 포인트 적립과 무관합니다. 나머지 세 표현 — loyalty card, rewards card, membership card — 은 모두 적립 카드를 가리킵니다."
+        },
+        {
+          "id": "se_ch24_set01_011",
+          "type": "ox",
+          "question": "유럽 마트에서는 비닐봉투가 대부분 유료다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 유럽 대부분의 국가에서 환경 정책에 따라 비닐봉투는 유료로 판매됩니다. 계산대에서 'Do you need a bag?'이라고 물어볼 때 가격을 확인하고 구입하거나, 장바구니를 미리 준비하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch24_set01_012",
+          "type": "ox",
+          "question": "'Best before' 날짜가 지난 식품은 절대 먹어서는 안 된다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Best before'는 품질 기한으로, 이 날짜까지 가장 신선하다는 의미입니다. 날짜가 지나도 상태에 따라 먹을 수 있는 경우가 많습니다. 절대 먹으면 안 되는 안전 기한은 'Use by'입니다."
+        },
+        {
+          "id": "se_ch24_set01_013",
+          "type": "ox",
+          "question": "셀프 계산대(self-checkout)에서 스캔한 상품을 bagging area에 즉시 놓지 않으면 오류가 발생할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 셀프 계산대의 bagging area에는 무게 센서가 있어, 스캔한 상품을 바로 이 구역에 올려놓지 않으면 무게 불일치로 오류 메시지가 뜨고 직원의 도움이 필요합니다."
+        },
+        {
+          "id": "se_ch24_set01_014",
+          "type": "ox",
+          "question": "'Do you take card?'는 카드 결제가 되는지 물어보는 자연스러운 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Do you take card?'는 마트뿐 아니라 식당, 가게 등 어디서든 카드 결제 가능 여부를 묻는 가장 자연스러운 구어 표현입니다. 'Can I pay by card?'도 같은 의미로 쓰입니다."
+        }
+      ]
+    }
+  ]
 }

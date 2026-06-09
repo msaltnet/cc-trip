@@ -1,7 +1,532 @@
 {
   "id": "ch20",
   "title": "알레르기·식단제한·아이 메뉴",
-  "summary": "알레르기·비건·글루텐프리, 아이 메뉴·하이체어",
-  "dialogues": [],
-  "sets": []
+  "summary": "견과·글루텐·유당 알레르기 알리기, 채식/비건 요청, 아이 메뉴·하이체어 부탁, 덜 맵게·나눠먹기까지 식당에서 쓰는 필수 표현",
+  "dialogues": [
+    {
+      "id": "ch20_d01",
+      "title": "견과류 알레르기 알리기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, I'm allergic to nuts. Does this dish contain any nuts?", "ko": "실례합니다, 저는 견과류 알레르기가 있어요. 이 요리에 견과류가 들어가나요?" },
+        { "speaker": "종업원", "en": "Let me check with the kitchen for you.", "ko": "주방에 확인해 드리겠습니다." },
+        { "speaker": "종업원", "en": "The chef says it contains almonds. I'd recommend a different dish.", "ko": "셰프가 아몬드가 들어간다고 합니다. 다른 요리를 추천드려요." },
+        { "speaker": "나", "en": "Thank you so much for checking. I'll go with the pasta instead.", "ko": "확인해 주셔서 정말 감사합니다. 대신 파스타로 할게요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I'm allergic to nuts.",
+          "ko": "견과류 알레르기를 알리는 핵심 표현. 단순한 기호가 아닌 의료적 사실이므로 'I don't like nuts'와 혼용하면 안 됨. allergic to 뒤에 원인 물질을 넣으면 됨.",
+          "alternatives": [
+            { "en": "I have a nut allergy.", "ko": "have a ~ allergy 형태로 바꾼 동일 의미의 표현." },
+            { "en": "Nuts are dangerous for me.", "ko": "위험하다는 표현으로 심각성을 더 강조할 때 사용." }
+          ]
+        },
+        {
+          "en": "Does this dish contain any nuts?",
+          "ko": "특정 재료 포함 여부를 확인하는 표현. 'contain'은 '~이 들어있다'는 뜻. 'any'를 붙이면 조금이라도 있는지 묻는 느낌이 강해져 알레르기 확인에 적합.",
+          "alternatives": [
+            { "en": "Are there any nuts in this?", "ko": "더 간결한 형태로 같은 의미." },
+            { "en": "Is there anything with nuts in it?", "ko": "메뉴 전체에 대해 넓게 물어볼 때." }
+          ]
+        },
+        {
+          "en": "Let me check with the kitchen.",
+          "ko": "직원이 주방에 확인하겠다고 할 때 쓰는 표현. 'Let me ~'는 '제가 ~해드리겠습니다'라는 의미로 서비스 대화에서 매우 자주 등장함.",
+          "alternatives": [
+            { "en": "I'll ask the chef.", "ko": "셰프에게 직접 물어보겠다는 더 구체적인 표현." },
+            { "en": "I'll find out for you.", "ko": "알아봐 드리겠다는 폭넓게 쓸 수 있는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch20_d02",
+      "title": "글루텐 프리 메뉴 요청하기",
+      "lines": [
+        { "speaker": "나", "en": "Do you have any gluten-free options on the menu?", "ko": "메뉴에 글루텐 프리 옵션이 있나요?" },
+        { "speaker": "종업원", "en": "Yes, we have a few. The grilled salmon and the salad are both gluten-free.", "ko": "네, 몇 가지 있습니다. 구운 연어와 샐러드 모두 글루텐 프리입니다." },
+        { "speaker": "나", "en": "Great. I'll have the grilled salmon, please.", "ko": "좋아요. 구운 연어로 주세요." },
+        { "speaker": "종업원", "en": "I'll make a note so the kitchen takes extra care.", "ko": "주방에서 특별히 주의하도록 메모해 두겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do you have any gluten-free options?",
+          "ko": "글루텐 프리 메뉴를 물어보는 표현. 'gluten-free'는 밀·보리 등의 글루텐 단백질을 제거한 식품을 뜻함. celiac disease(소아지방변증)가 있는 경우 반드시 확인이 필요.",
+          "alternatives": [
+            { "en": "Is there anything gluten-free here?", "ko": "더 캐주얼한 형태의 동일 질문." },
+            { "en": "Which dishes are gluten-free?", "ko": "어떤 요리들이 해당되는지 목록을 물어볼 때." }
+          ]
+        },
+        {
+          "en": "I'll have the grilled salmon, please.",
+          "ko": "음식을 주문할 때 쓰는 가장 자연스러운 표현. 'I want ~'보다 'I'll have ~'가 레스토랑에서 더 자연스럽고 격식에 맞음.",
+          "alternatives": [
+            { "en": "I'd like the salmon, please.", "ko": "'I'd like ~'도 정중하고 자연스러운 주문 표현." },
+            { "en": "Can I get the grilled salmon?", "ko": "더 캐주얼한 주문 표현으로 미국식에서 자주 쓰임." }
+          ]
+        },
+        {
+          "en": "I'll make a note of that.",
+          "ko": "메모하겠다는 직원의 표현. 식이 제한이나 특별 요청 시 직원이 자주 사용하므로 들었을 때 주방까지 전달된다는 뜻으로 이해하면 됨.",
+          "alternatives": [
+            { "en": "I'll let the kitchen know.", "ko": "주방에 알리겠다는 더 구체적인 표현." },
+            { "en": "I'll flag that for the chef.", "ko": "셰프에게 표시해두겠다는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch20_d03",
+      "title": "채식/비건 메뉴 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "I'm vegan. Do you have any vegan dishes?", "ko": "저는 비건이에요. 비건 요리가 있나요?" },
+        { "speaker": "종업원", "en": "We have a vegetarian pasta, but it has cheese. Would that work?", "ko": "채식 파스타가 있는데, 치즈가 들어갑니다. 괜찮으실까요?" },
+        { "speaker": "나", "en": "I'm vegan, so no dairy either. Can the cheese be left out?", "ko": "저는 비건이라서 유제품도 안 돼요. 치즈를 빼주실 수 있나요?" },
+        { "speaker": "종업원", "en": "Of course. I'll ask the kitchen to make it without cheese.", "ko": "물론이죠. 치즈 없이 만들어달라고 주방에 전달하겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I'm vegan.",
+          "ko": "비건임을 알리는 간단하고 명확한 표현. vegetarian(채식주의자)과 혼동하지 말 것. vegan은 고기뿐 아니라 달걀·유제품·꿀 등 모든 동물성 식품을 먹지 않음.",
+          "alternatives": [
+            { "en": "I follow a vegan diet.", "ko": "비건 식단을 따른다는 조금 더 풀어쓴 표현." },
+            { "en": "I don't eat any animal products.", "ko": "동물성 식품을 일절 먹지 않는다는 직접적인 설명." }
+          ]
+        },
+        {
+          "en": "Can the cheese be left out?",
+          "ko": "특정 재료를 빼달라고 요청하는 표현. 'leave out'은 '빼다, 제외하다'라는 뜻. 'without cheese'로 바꿔도 동일한 의미.",
+          "alternatives": [
+            { "en": "Could you make it without cheese?", "ko": "'without + 재료'를 사용한 더 직접적인 요청." },
+            { "en": "Please hold the cheese.", "ko": "음식 주문 시 재료를 빼달라는 미국식 관용 표현." }
+          ]
+        },
+        {
+          "en": "No dairy either.",
+          "ko": "유제품도 안 된다는 추가 제한을 알리는 표현. 'dairy'는 우유, 치즈, 버터, 크림 등 모든 유제품을 포괄. 'either'를 붙여 앞서 언급한 제한에 더해진다는 것을 강조.",
+          "alternatives": [
+            { "en": "I can't have dairy products.", "ko": "유제품을 먹을 수 없다는 명확한 표현." },
+            { "en": "I avoid all dairy.", "ko": "유제품을 모두 피한다는 더 일반적인 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch20_d04",
+      "title": "재료 포함 여부 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, does this soup contain shellfish?", "ko": "실례합니다, 이 수프에 조개류가 들어가나요?" },
+        { "speaker": "종업원", "en": "Yes, it has shrimp and clams in the broth.", "ko": "네, 육수에 새우와 조개가 들어갑니다." },
+        { "speaker": "나", "en": "I see. I'm allergic to shellfish, so I'll avoid that. What else do you recommend?", "ko": "알겠습니다. 조개류 알레르기가 있어서요. 다른 걸 추천해 주시겠어요?" },
+        { "speaker": "종업원", "en": "The tomato bisque is shellfish-free. That might be a good choice.", "ko": "토마토 비스크는 조개류가 없습니다. 좋은 선택이 될 것 같아요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Does this contain shellfish?",
+          "ko": "특정 알레르기 유발 재료의 포함 여부를 묻는 핵심 표현. contain은 '~이 들어있다'는 뜻. shellfish(조개류/갑각류) 외에 peanuts, eggs, soy 등 알레르기 원인 물질을 바꿔 쓸 수 있음.",
+          "alternatives": [
+            { "en": "Is there shellfish in this?", "ko": "더 간결한 형태의 동일 질문." },
+            { "en": "Does this have any shellfish in it?", "ko": "'have ~ in it' 형태로 재료 포함 여부를 묻는 표현." }
+          ]
+        },
+        {
+          "en": "I'll avoid that.",
+          "ko": "그것은 먹지 않겠다는 표현. 'avoid'는 '피하다'라는 뜻으로 알레르기 상황에서 자주 쓰임. 단순히 싫다는 게 아니라 건강상 이유로 피한다는 뉘앙스를 줌.",
+          "alternatives": [
+            { "en": "I'd better skip that.", "ko": "그것은 건너뛰는 게 낫겠다는 표현." },
+            { "en": "I'll stay away from that dish.", "ko": "그 요리를 피하겠다는 더 명확한 표현." }
+          ]
+        },
+        {
+          "en": "What else do you recommend?",
+          "ko": "다른 것을 추천해달라는 표현. 'else'는 '그 외에'라는 뜻. 먹을 수 없는 메뉴가 밝혀진 후 자연스럽게 대안을 요청할 때 매우 유용한 표현.",
+          "alternatives": [
+            { "en": "What would you suggest instead?", "ko": "대신 무엇을 제안하겠냐는 표현." },
+            { "en": "What other options are there?", "ko": "다른 선택지가 무엇인지 물어보는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch20_d05",
+      "title": "유당불내증·유제품 프리 요청하기",
+      "lines": [
+        { "speaker": "나", "en": "I'm lactose intolerant. Is there a dairy-free version of this?", "ko": "저는 유당불내증이 있어요. 이것의 유제품 프리 버전이 있나요?" },
+        { "speaker": "종업원", "en": "We can make it with oat milk instead of regular milk.", "ko": "일반 우유 대신 귀리 우유로 만들어 드릴 수 있습니다." },
+        { "speaker": "나", "en": "That sounds perfect. Thank you for the option.", "ko": "딱 좋네요. 옵션을 알려주셔서 감사합니다." },
+        { "speaker": "종업원", "en": "No problem at all. I'll put in that order for you.", "ko": "천만에요. 그렇게 주문 넣어드리겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I'm lactose intolerant.",
+          "ko": "유당불내증임을 알리는 표현. lactose(유당)를 분해하는 효소가 부족해 우유·유제품 섭취 시 소화 장애가 생기는 상태. 'I can't have dairy'보다 의학적으로 명확한 표현.",
+          "alternatives": [
+            { "en": "I can't have dairy products.", "ko": "유제품을 먹을 수 없다는 더 간단한 표현." },
+            { "en": "Milk doesn't agree with me.", "ko": "우유가 몸에 맞지 않는다는 캐주얼한 표현." }
+          ]
+        },
+        {
+          "en": "Is there a dairy-free version of this?",
+          "ko": "유제품 없는 버전이 있는지 묻는 표현. 'dairy-free'는 유제품이 전혀 들어가지 않았다는 뜻. '-free'를 붙이면 해당 성분이 없다는 의미가 됨 (예: gluten-free, nut-free).",
+          "alternatives": [
+            { "en": "Can this be made without dairy?", "ko": "유제품 없이 만들 수 있는지 묻는 표현." },
+            { "en": "Do you have a non-dairy option?", "ko": "비유제품 옵션이 있는지 묻는 표현." }
+          ]
+        },
+        {
+          "en": "That sounds perfect.",
+          "ko": "상대방의 제안이 딱 맞다고 반응하는 표현. 'sounds + 형용사'는 '~처럼 들린다, ~인 것 같다'는 뜻으로 제안·계획에 대한 긍정적 반응을 나타낼 때 자주 쓰임.",
+          "alternatives": [
+            { "en": "That works for me.", "ko": "그것이 나에게 맞는다는 표현." },
+            { "en": "That's ideal, thank you.", "ko": "이상적이라는 표현으로 감사함을 함께 전달." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch20_d06",
+      "title": "아이 메뉴 요청하기",
+      "lines": [
+        { "speaker": "나", "en": "Do you have a kids menu? I have a five-year-old with me.", "ko": "아이 메뉴가 있나요? 다섯 살짜리 아이와 함께 왔어요." },
+        { "speaker": "종업원", "en": "Yes, here is the kids menu. It comes with a drink and a small dessert.", "ko": "네, 여기 아이 메뉴입니다. 음료와 작은 디저트가 함께 나옵니다." },
+        { "speaker": "나", "en": "Can my child get the mini burger with apple slices instead of fries?", "ko": "미니 버거에 감자튀김 대신 사과 슬라이스로 바꿀 수 있을까요?" },
+        { "speaker": "종업원", "en": "Absolutely, that's a popular swap. I'll note it down.", "ko": "물론이죠, 자주 바꿔 드리는 것이에요. 메모해 두겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do you have a kids menu?",
+          "ko": "아이 전용 메뉴가 있는지 묻는 표현. children's menu 또는 kids' menu라고도 함. 보통 소량·간단한 조리로 나오며 가격도 저렴함.",
+          "alternatives": [
+            { "en": "Is there a children's menu?", "ko": "children's menu는 kids menu의 좀 더 격식 있는 표현." },
+            { "en": "Do you have smaller portions for kids?", "ko": "아이 사이즈의 소량 메뉴가 있는지 묻는 표현." }
+          ]
+        },
+        {
+          "en": "It comes with a drink and a small dessert.",
+          "ko": "세트 구성을 설명하는 표현. 'comes with'는 '~이 함께 포함되어 나온다'는 뜻으로 메뉴 설명에 매우 자주 등장함.",
+          "alternatives": [
+            { "en": "It includes a side and a drink.", "ko": "'includes'를 사용해 포함 내용을 설명하는 표현." },
+            { "en": "It's served with a beverage.", "ko": "'served with'를 사용한 더 격식 있는 표현." }
+          ]
+        },
+        {
+          "en": "Instead of fries.",
+          "ko": "감자튀김 대신 다른 것으로 교체를 요청할 때 쓰는 표현. 'instead of + 원래 메뉴'로 교체 요청이 가능함. 건강을 위해 사이드 메뉴를 바꿀 때 유용.",
+          "alternatives": [
+            { "en": "Can I swap the fries for apple slices?", "ko": "'swap A for B'는 A를 B로 바꾼다는 표현." },
+            { "en": "In place of the fries, please.", "ko": "'in place of'는 'instead of'와 같은 의미." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch20_d07",
+      "title": "하이체어 요청하기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, could we get a high chair for our baby?", "ko": "실례합니다, 아기를 위한 하이체어를 갖다 주시겠어요?" },
+        { "speaker": "종업원", "en": "Of course! I'll bring one right away.", "ko": "물론이죠! 바로 가져다 드리겠습니다." },
+        { "speaker": "나", "en": "Thank you. Also, could you put us at a table near the wall?", "ko": "감사합니다. 벽 쪽 테이블로 앉힐 수 있을까요?" },
+        { "speaker": "종업원", "en": "Sure, that works better with a high chair anyway. Follow me.", "ko": "네, 하이체어를 두기에도 더 좋죠. 따라오세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Could we get a high chair?",
+          "ko": "하이체어를 요청하는 표현. high chair는 아기·유아용 높은 의자. 'Could we ~?'는 'Can we ~?'보다 정중한 요청 형태.",
+          "alternatives": [
+            { "en": "Do you have a high chair available?", "ko": "하이체어가 있는지 먼저 확인하는 표현." },
+            { "en": "We need a high chair for our toddler.", "ko": "유아를 위해 하이체어가 필요하다는 직접적인 표현." }
+          ]
+        },
+        {
+          "en": "I'll bring one right away.",
+          "ko": "바로 가져다 주겠다는 직원 표현. 'right away'는 '즉시, 바로'라는 뜻으로 'immediately'와 동일. 서비스 대화에서 매우 자주 등장하는 표현.",
+          "alternatives": [
+            { "en": "I'll get that for you immediately.", "ko": "즉시 가져다 주겠다는 더 격식 있는 표현." },
+            { "en": "Coming right up!", "ko": "주문·요청을 금방 처리하겠다는 캐주얼한 표현." }
+          ]
+        },
+        {
+          "en": "A table near the wall.",
+          "ko": "벽 근처 테이블을 요청하는 표현. 아이와 함께하는 식사에서 유모차·하이체어 배치에 편리하고 주변에 방해가 적어 선호되는 위치 요청.",
+          "alternatives": [
+            { "en": "A corner table, please.", "ko": "구석 자리를 요청하는 표현." },
+            { "en": "Somewhere with more space, if possible.", "ko": "공간이 넓은 자리를 요청하는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch20_d08",
+      "title": "덜 맵게 요청하기",
+      "lines": [
+        { "speaker": "나", "en": "I'd like the curry, but could you make it mild? My child can't eat spicy food.", "ko": "카레로 주문할게요, 근데 덜 맵게 해주실 수 있나요? 아이가 매운 음식을 못 먹어요." },
+        { "speaker": "종업원", "en": "Of course. Would you like it very mild, or just a little less spicy?", "ko": "물론이죠. 아주 순하게 해드릴까요, 아니면 조금만 덜 맵게 해드릴까요?" },
+        { "speaker": "나", "en": "Very mild, please. No spice at all if possible.", "ko": "아주 순하게요. 가능하면 전혀 안 맵게요." },
+        { "speaker": "종업원", "en": "Understood. I'll have the chef prepare a no-spice version.", "ko": "알겠습니다. 셰프에게 전혀 안 맵게 준비하도록 전달하겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Could you make it mild?",
+          "ko": "덜 맵게 요청하는 표현. 'mild'는 맵지 않고 순한 맛. 'less spicy', 'not too spicy'와 바꿔 쓸 수 있음. 아이와 동행 시 꼭 알아야 할 표현.",
+          "alternatives": [
+            { "en": "Can you make it less spicy?", "ko": "덜 맵게 해달라는 직접적인 표현." },
+            { "en": "Not too hot, please.", "ko": "너무 맵지 않게 해달라는 간단한 표현. 'hot'은 맛의 매움을 표현." }
+          ]
+        },
+        {
+          "en": "No spice at all if possible.",
+          "ko": "가능하면 아예 맵지 않게 해달라는 강한 요청. 'if possible'을 붙이면 강요보다 부탁의 느낌이 됨. 어린아이나 매운 음식을 못 먹는 사람에게 유용.",
+          "alternatives": [
+            { "en": "As mild as possible, please.", "ko": "가능한 한 순하게 해달라는 표현." },
+            { "en": "Please leave out the chili entirely.", "ko": "고추를 완전히 빼달라는 구체적인 요청." }
+          ]
+        },
+        {
+          "en": "My child can't eat spicy food.",
+          "ko": "아이가 매운 음식을 못 먹는다고 이유를 설명하는 표현. 이유를 함께 설명하면 직원이 더 적극적으로 협조하는 경향이 있음.",
+          "alternatives": [
+            { "en": "We have a young child with us.", "ko": "어린아이와 함께 왔다고 상황을 알리는 표현." },
+            { "en": "It's for a little kid.", "ko": "어린아이를 위한 것임을 알리는 캐주얼한 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch20_d09",
+      "title": "반 인분·나눠먹기 요청하기",
+      "lines": [
+        { "speaker": "나", "en": "We'd like to share one pasta dish between the two of us. Is that okay?", "ko": "파스타 한 접시를 둘이 나눠 먹으려고 하는데요. 괜찮을까요?" },
+        { "speaker": "종업원", "en": "No problem. We can bring an extra plate for sharing.", "ko": "문제없습니다. 나눠 드실 수 있도록 추가 접시를 가져다 드릴게요." },
+        { "speaker": "나", "en": "That's very kind. Is there a sharing charge?", "ko": "감사합니다. 나눠 먹기 요금이 있나요?" },
+        { "speaker": "종업원", "en": "No, there's no extra charge for that.", "ko": "아니요, 추가 요금은 없습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "We'd like to share one dish.",
+          "ko": "한 요리를 나눠 먹겠다는 표현. 'share'는 나누다, 공유하다라는 뜻. 일부 레스토랑에서는 sharing charge(나눠 먹기 요금)를 받을 수 있으므로 미리 확인하는 것이 좋음.",
+          "alternatives": [
+            { "en": "Can we split one order?", "ko": "한 주문을 나눌 수 있는지 묻는 표현. split도 나누다는 뜻." },
+            { "en": "We'll share a plate between us.", "ko": "한 접시를 둘이 함께 먹겠다는 표현." }
+          ]
+        },
+        {
+          "en": "An extra plate for sharing.",
+          "ko": "나눠 먹기 위해 추가 접시를 요청하는 표현. 'extra'는 추가, 여분이라는 뜻. 직접 요청할 때는 'Could we get an extra plate?'라고 하면 됨.",
+          "alternatives": [
+            { "en": "Could we get a spare plate?", "ko": "'spare'도 여분의 뜻으로 extra와 동일한 맥락." },
+            { "en": "Can you bring another plate?", "ko": "추가 접시를 가져다 달라는 직접적인 요청." }
+          ]
+        },
+        {
+          "en": "Is there a sharing charge?",
+          "ko": "나눠 먹기 요금이 있는지 확인하는 표현. 일부 레스토랑에서는 plate fee 또는 split charge라고 부르기도 함. 미리 물어보면 계산 시 예상치 못한 요금을 방지할 수 있음.",
+          "alternatives": [
+            { "en": "Do you charge extra for sharing?", "ko": "나눠 먹기에 추가 요금을 받는지 묻는 표현." },
+            { "en": "Is there a split plate fee?", "ko": "접시 나눠 먹기 요금이 있는지 묻는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch20_d10",
+      "title": "심각한 알레르기 경고하기",
+      "lines": [
+        { "speaker": "나", "en": "I need to let you know that I have a severe peanut allergy. It's a serious medical condition.", "ko": "땅콩 알레르기가 매우 심각하다는 것을 알려드려야 해요. 중요한 의료 상태입니다." },
+        { "speaker": "종업원", "en": "Of course, I understand. I'll alert the kitchen immediately.", "ko": "물론이죠, 이해합니다. 즉시 주방에 알리겠습니다." },
+        { "speaker": "나", "en": "Please make sure there's no cross-contamination with peanuts. Even a trace could be dangerous.", "ko": "땅콩과 교차 오염이 없도록 확인해 주세요. 조금만 닿아도 위험할 수 있어요." },
+        { "speaker": "종업원", "en": "Absolutely. We take all allergies very seriously here. I'll have the manager double-check.", "ko": "물론입니다. 저희는 모든 알레르기를 매우 심각하게 다룹니다. 매니저에게 재확인 요청하겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I have a severe peanut allergy.",
+          "ko": "심각한 땅콩 알레르기임을 알리는 핵심 표현. 'severe'는 '심각한'이라는 뜻으로 단순한 기호와 다른 의료적 위험임을 강조. anaphylaxis(아나필락시스) 위험이 있을 경우 반드시 이 표현을 써야 함.",
+          "alternatives": [
+            { "en": "I'm severely allergic to peanuts.", "ko": "부사 severely를 사용해 알레르기의 심각성을 강조하는 표현." },
+            { "en": "Peanuts can be life-threatening for me.", "ko": "땅콩이 생명을 위협할 수 있다는 가장 강한 경고 표현." }
+          ]
+        },
+        {
+          "en": "Please make sure there's no cross-contamination.",
+          "ko": "교차 오염이 없도록 확인해달라는 표현. cross-contamination은 조리 기구나 손을 통해 알레르기 유발 물질이 다른 식품에 옮겨지는 것. 심각한 알레르기가 있을 때 반드시 언급해야 할 사항.",
+          "alternatives": [
+            { "en": "Please use separate utensils.", "ko": "별도의 조리 기구를 사용해달라는 구체적인 요청." },
+            { "en": "Please keep it away from any peanut products.", "ko": "땅콩 제품과 분리해달라는 요청." }
+          ]
+        },
+        {
+          "en": "Even a trace could be dangerous.",
+          "ko": "아주 소량이라도 위험할 수 있다는 경고 표현. 'trace'는 '흔적, 미량'이라는 뜻. 이 표현을 사용하면 직원이 오염 가능성을 더욱 신중하게 다루게 됨.",
+          "alternatives": [
+            { "en": "Any amount could cause a reaction.", "ko": "어떤 양이든 반응을 일으킬 수 있다는 표현." },
+            { "en": "I carry an EpiPen just in case.", "ko": "만약을 위해 에피펜을 가지고 다닌다는 표현으로 심각성을 전달." }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch20_set01_001",
+          "type": "multiple_choice",
+          "question": "견과류 알레르기가 있다고 알릴 때 가장 올바른 표현은?",
+          "options": [
+            "I'm allergic to nuts.",
+            "I don't like nuts.",
+            "Nuts are bad.",
+            "I hate nuts."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm allergic to nuts.'는 의료적 알레르기 사실을 전달하는 정확한 표현입니다. 'I don't like nuts.'는 단순한 기호이고, 나머지도 알레르기임을 명확히 전달하지 못합니다. 음식 알레르기는 반드시 'allergic to'를 사용해야 직원이 심각하게 받아들입니다."
+        },
+        {
+          "id": "se_ch20_set01_002",
+          "type": "multiple_choice",
+          "question": "이 요리에 글루텐이 들어있는지 확인하려고 합니다. 가장 적절한 표현은?",
+          "options": [
+            "Does this contain gluten?",
+            "Is gluten here?",
+            "Gluten — yes or no?",
+            "I need no gluten."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Does this contain gluten?'은 특정 재료 포함 여부를 묻는 표준 표현입니다. 'contain'은 '~을 포함하다'라는 뜻으로 식품 알레르기 확인 시 매우 자주 사용됩니다. 나머지는 어색하거나 불완전한 표현입니다."
+        },
+        {
+          "id": "se_ch20_set01_003",
+          "type": "multiple_choice",
+          "question": "비건(vegan)과 채식주의자(vegetarian)의 차이를 가장 잘 설명한 것은?",
+          "options": [
+            "비건은 모든 동물성 식품을 피하고, 채식주의자는 고기만 피한다.",
+            "비건은 고기만 피하고, 채식주의자는 유제품도 피한다.",
+            "둘 다 완전히 같은 뜻이다.",
+            "비건은 생선은 먹을 수 있다."
+          ],
+          "answerIndex": 0,
+          "explanation": "비건(vegan)은 고기뿐 아니라 달걀·유제품·꿀 등 모든 동물성 식품을 먹지 않습니다. 채식주의자(vegetarian)는 고기를 먹지 않지만 달걀이나 유제품은 먹는 경우가 많습니다. 식당에서 'I'm vegan'이라고 하면 유제품도 달걀도 안 된다는 뜻임을 명심하세요."
+        },
+        {
+          "id": "se_ch20_set01_004",
+          "type": "multiple_choice",
+          "question": "아이 전용 메뉴가 있는지 물어보는 가장 자연스러운 표현은?",
+          "options": [
+            "Do you have a kids menu?",
+            "Is there food for children?",
+            "Child food, please.",
+            "Menu for baby?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you have a kids menu?'는 아이 메뉴 여부를 묻는 표준 표현입니다. 'Is there food for children?'도 통하지만 자연스럽지 않고, 나머지는 어색한 표현입니다."
+        },
+        {
+          "id": "se_ch20_set01_005",
+          "type": "multiple_choice",
+          "question": "아기를 위한 하이체어를 요청하는 가장 정중한 표현은?",
+          "options": [
+            "Could we get a high chair for our baby?",
+            "Bring high chair!",
+            "We want a baby chair.",
+            "High chair — here."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could we get a high chair for our baby?'는 'Could we ~?'를 사용한 정중한 요청입니다. 'Bring high chair!'는 명령형으로 무례하게 들리고, 나머지는 어색한 표현입니다."
+        },
+        {
+          "id": "se_ch20_set01_006",
+          "type": "multiple_choice",
+          "question": "카레를 덜 맵게 해달라고 요청하는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Could you make it mild, please?",
+            "Less spice the food!",
+            "Not spicy curry, give.",
+            "Make no hot."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you make it mild, please?'는 'mild(순한, 맵지 않은)'를 사용한 정중한 요청입니다. 나머지는 문법적으로 어색하거나 무례한 표현입니다. 'mild' 외에 'less spicy', 'not too hot'도 같은 상황에 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch20_set01_007",
+          "type": "multiple_choice",
+          "question": "파스타 한 접시를 두 사람이 나눠 먹겠다고 요청할 때 가장 적절한 표현은?",
+          "options": [
+            "We'd like to share one dish between us.",
+            "Split our pasta.",
+            "Half food for two.",
+            "We eat one plate."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We'd like to share one dish between us.'는 'share'를 사용해 나눠 먹겠다는 의사를 자연스럽게 전달합니다. 'Split'을 쓴다면 'Can we split one order?'처럼 완전한 문장으로 말해야 합니다."
+        },
+        {
+          "id": "se_ch20_set01_008",
+          "type": "multiple_choice",
+          "question": "유당불내증(lactose intolerance)이 있다고 알리는 표현으로 가장 정확한 것은?",
+          "options": [
+            "I'm lactose intolerant.",
+            "I don't drink milk.",
+            "Milk is bad for me please.",
+            "No cow products."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm lactose intolerant.'는 유당을 소화하지 못한다는 의학적 사실을 정확하게 전달합니다. 'I don't drink milk.'는 우유만을 언급해 범위가 좁고, 나머지는 어색한 표현입니다."
+        },
+        {
+          "id": "se_ch20_set01_009",
+          "type": "multiple_choice",
+          "question": "교차 오염을 막아달라고 요청할 때 'cross-contamination'이 의미하는 것은?",
+          "options": [
+            "조리 기구나 손을 통해 알레르기 유발 물질이 다른 식품에 옮겨지는 것",
+            "음식이 너무 뜨거운 것",
+            "서로 다른 나라 음식을 섞는 것",
+            "음식 알레르기 검사를 받는 것"
+          ],
+          "answerIndex": 0,
+          "explanation": "cross-contamination(교차 오염)은 조리 기구, 손, 조리 공간을 통해 알레르기 유발 물질이 다른 식품에 옮겨지는 것을 말합니다. 심각한 알레르기가 있을 경우 'Please make sure there's no cross-contamination.'을 꼭 언급해야 합니다."
+        },
+        {
+          "id": "se_ch20_set01_010",
+          "type": "multiple_choice",
+          "question": "직원이 'It comes with a drink and a small dessert.'라고 했습니다. 이 뜻은?",
+          "options": [
+            "음료와 작은 디저트가 함께 포함되어 나온다.",
+            "음료와 디저트를 따로 주문해야 한다.",
+            "음료와 디저트가 없다.",
+            "음료는 추가 비용이 있다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'comes with ~'는 '~이 함께 포함되어 나온다'는 뜻입니다. 메뉴 설명에서 매우 자주 쓰이며, 세트 구성 또는 포함 사항을 설명할 때 사용됩니다. 별도 주문이나 추가 비용 없이 기본 제공된다는 의미입니다."
+        },
+        {
+          "id": "se_ch20_set01_011",
+          "type": "ox",
+          "question": "'I'm allergic to peanuts.'는 단순히 땅콩을 좋아하지 않는다는 기호 표현이 아니라, 알레르기를 알리는 의료적 사실 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'I'm allergic to ~'는 알레르기라는 의료적 상태를 전달하는 표현으로, 'I don't like ~'(좋아하지 않는다)와 완전히 다릅니다. 식당 직원은 이 표현을 들으면 주방에 특별 주의를 요청하는 등 더 신중하게 대처합니다."
+        },
+        {
+          "id": "se_ch20_set01_012",
+          "type": "ox",
+          "question": "'gluten-free', 'dairy-free', 'nut-free'처럼 단어 뒤에 '-free'를 붙이면 해당 성분이 들어있지 않다는 의미가 된다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 영어에서 '-free'를 성분 이름 뒤에 붙이면 해당 성분이 없음을 뜻합니다. 예: gluten-free(글루텐 없음), sugar-free(설탕 없음), fat-free(지방 없음). 식품 표시나 메뉴에서 자주 등장하므로 알아두면 유용합니다."
+        },
+        {
+          "id": "se_ch20_set01_013",
+          "type": "ox",
+          "question": "비건(vegan)은 고기만 먹지 않고 달걀과 유제품은 먹어도 된다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 비건(vegan)은 고기뿐 아니라 달걀, 유제품, 꿀 등 모든 동물성 식품을 먹지 않습니다. 고기만 먹지 않는 경우는 채식주의자(vegetarian)입니다. 식당에서 'I'm vegan.'이라고 했을 때 직원이 유제품 포함 메뉴를 권하면 'No dairy either.'라고 추가로 알려야 합니다."
+        },
+        {
+          "id": "se_ch20_set01_014",
+          "type": "ox",
+          "question": "심각한 알레르기를 알릴 때 'Even a trace could be dangerous.'라고 하면 아주 소량도 위험할 수 있다는 경고 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'trace'는 '미량, 흔적'을 뜻하므로 'Even a trace could be dangerous.'는 극소량이라도 위험할 수 있다는 강한 경고입니다. 아나필락시스(anaphylaxis) 반응이 있는 경우 이 표현을 사용하면 직원이 교차 오염 방지에 더욱 주의를 기울이게 됩니다."
+        }
+      ]
+    }
+  ]
 }

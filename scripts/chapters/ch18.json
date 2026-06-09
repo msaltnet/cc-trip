@@ -1,7 +1,532 @@
 {
   "id": "ch18",
   "title": "렌터카·주유·주차",
-  "summary": "픽업·보험·연료정책, 주유소, 주차·반납",
-  "dialogues": [],
-  "sets": []
+  "summary": "렌터카 예약 픽업부터 보험·연료 정책, 자동/수동 선택, 내비·아이카시트 옵션, 셀프 주유, 주차 요금·위반·견인, 반납·손상 점검까지 렌터카 여행 전 과정 영어 표현",
+  "dialogues": [
+    {
+      "id": "ch18_d01",
+      "title": "예약 차량 픽업",
+      "lines": [
+        { "speaker": "나", "en": "Hi, I have a reservation to pick up a car. My name is Kim.", "ko": "안녕하세요, 차 픽업 예약이 있습니다. 이름은 김입니다." },
+        { "speaker": "직원", "en": "Let me pull that up. Could I see your driver's license and credit card?", "ko": "확인해 드리겠습니다. 운전면허증과 신용카드를 보여주시겠어요?" },
+        { "speaker": "나", "en": "Sure, here you go. And where do I pick up the car?", "ko": "네, 여기 있습니다. 차는 어디서 받나요?" },
+        { "speaker": "직원", "en": "Take these keys and go to bay number seven in the garage.", "ko": "이 열쇠를 받으시고 주차장 7번 구역으로 가시면 됩니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I have a reservation to pick up a car.",
+          "ko": "렌터카 픽업 예약이 있다고 말하는 표현. 'pick up a car'는 차를 인수받다는 뜻으로, 'collect a car'(영국식)와 같은 의미. 'rent a car'는 예약을 처음 할 때, 'pick up'은 실제 수령할 때 씀.",
+          "alternatives": [
+            { "en": "I'm here to collect my rental car.", "ko": "영국·호주식 표현. collect = 수령하다. 미국에서도 통함." },
+            { "en": "I booked a car under the name Kim.", "ko": "예약자 이름을 직접 밝히는 방식으로 확인이 빠름." }
+          ]
+        },
+        {
+          "en": "Could I see your driver's license and credit card?",
+          "ko": "직원이 면허증과 카드를 요청할 때 쓰는 표현. 렌터카 업체는 반드시 운전면허증(driver's license / driving licence)과 신용카드(보증금용)를 함께 요구함. 직불카드(debit card)는 거부되는 경우가 있으니 주의.",
+          "alternatives": [
+            { "en": "Can I have your ID and credit card, please?", "ko": "ID로 총칭하는 더 간단한 표현." },
+            { "en": "I'll need to see your license and a card for the deposit.", "ko": "보증금(deposit) 목적임을 명시하는 표현." }
+          ]
+        },
+        {
+          "en": "Go to bay number seven in the garage.",
+          "ko": "bay는 주차장이나 창고에서 구역·칸을 의미하는 단어. 렌터카 주차장에서 자주 쓰임. 'bay number'는 번호 칸, 번호 구역으로 이해하면 됨.",
+          "alternatives": [
+            { "en": "Your car is in spot seven.", "ko": "spot = 주차 공간. bay와 같은 의미로 미국에서 자주 씀." },
+            { "en": "Head to parking space seven.", "ko": "parking space = 주차 칸. head to = ~로 향하다." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch18_d02",
+      "title": "보험 옵션 확인",
+      "lines": [
+        { "speaker": "직원", "en": "Would you like to add any insurance coverage today?", "ko": "오늘 보험 옵션을 추가하시겠어요?" },
+        { "speaker": "나", "en": "Do I need extra insurance, or am I covered by my credit card?", "ko": "추가 보험이 필요한가요, 아니면 신용카드로 커버가 되나요?" },
+        { "speaker": "직원", "en": "Your credit card may cover it, but our collision damage waiver removes the deductible completely.", "ko": "신용카드로 커버될 수도 있지만, 저희 충돌 손해 면책이 자기부담금을 완전히 없애줍니다." },
+        { "speaker": "나", "en": "I'll skip the extra insurance for now. I'll check my card's policy.", "ko": "일단 추가 보험은 빼겠습니다. 카드 정책을 확인해 볼게요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do I need extra insurance?",
+          "ko": "추가 보험이 필요한지 묻는 표현. 렌터카 업체의 보험은 대개 CDW(Collision Damage Waiver·충돌 손해 면책), LDW(Loss Damage Waiver), 제3자 보험 등이 있음. 신용카드에 포함된 렌터카 보험이 있는 경우 추가 구매 불필요.",
+          "alternatives": [
+            { "en": "Is insurance included in the rental rate?", "ko": "기본 요금에 보험이 포함됐는지 확인하는 표현." },
+            { "en": "Am I already covered by my credit card?", "ko": "신용카드 보험 적용 여부를 직접 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Collision damage waiver",
+          "ko": "CDW(Collision Damage Waiver). 충돌 사고 시 수리비 자기부담금을 면제해주는 옵션. waiver = 포기·면제. 'waiver'가 들리면 면제·포기라는 뜻임을 기억하자. LDW(Loss Damage Waiver)는 도난도 포함.",
+          "alternatives": [
+            { "en": "Loss damage waiver (LDW)", "ko": "CDW에 도난까지 포함한 더 넓은 보험 옵션." },
+            { "en": "Full coverage", "ko": "종합 보험처럼 모든 손해를 포함하는 옵션을 뜻하는 일반 표현." }
+          ]
+        },
+        {
+          "en": "I'll skip the extra insurance for now.",
+          "ko": "'skip'은 건너뛰다·생략하다는 의미. 'for now'는 '일단은·지금은'으로 확정이 아닌 유보 뉘앙스를 줌. 보험은 픽업 전에 결정해야 하므로 카드 약관을 미리 확인하는 것이 좋음.",
+          "alternatives": [
+            { "en": "I'll pass on the additional coverage.", "ko": "pass on = 거절하다. 추가 보장 옵션을 거절할 때 쓰는 표현." },
+            { "en": "I'll decline the insurance upgrade.", "ko": "decline = 거절하다. 격식 있는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch18_d03",
+      "title": "연료 정책 확인",
+      "lines": [
+        { "speaker": "나", "en": "What's the fuel policy for this rental?", "ko": "이 렌터카의 연료 정책이 어떻게 되나요?" },
+        { "speaker": "직원", "en": "It's full-to-full. You pick it up with a full tank and return it full.", "ko": "풀-투-풀 방식입니다. 가득 찬 상태로 가져가시고 가득 채워서 반납하시면 됩니다." },
+        { "speaker": "나", "en": "And if I return it less than full?", "ko": "가득 채우지 않고 반납하면 어떻게 되나요?" },
+        { "speaker": "직원", "en": "We charge a refueling fee plus fuel at a premium rate.", "ko": "주유 수수료와 높은 요금의 연료비가 청구됩니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "What's the fuel policy?",
+          "ko": "연료 정책을 확인하는 표현. 렌터카 연료 정책은 크게 세 가지: ① full-to-full(가득→가득 반납), ② full-to-empty(가득 받아 빈 채로 반납, 요금 선납), ③ same-to-same(받은 만큼 채워 반납). full-to-full이 가장 경제적.",
+          "alternatives": [
+            { "en": "How does the fuel work for the rental?", "ko": "연료 방식을 좀 더 구어적으로 묻는 표현." },
+            { "en": "Do I need to return the car with a full tank?", "ko": "가득 채워 반납해야 하는지 직접 확인하는 표현." }
+          ]
+        },
+        {
+          "en": "Full-to-full",
+          "ko": "가장 흔한 렌터카 연료 정책. 가득(full) 받아 가득(full) 반납. 반납 전 근처 주유소에서 꼭 채워야 비용 추가 없음. 'full tank'는 가득 찬 탱크. 반납 직전에 영수증을 보관해두면 분쟁 방지에 유리.",
+          "alternatives": [
+            { "en": "Full-to-empty", "ko": "연료비를 선납하고 빈 채로 반납하는 방식. 편리하지만 남은 연료를 환불받지 못해 비용이 더 들 수 있음." },
+            { "en": "Return with a full tank", "ko": "full-to-full 정책을 간단히 표현하는 방식." }
+          ]
+        },
+        {
+          "en": "Refueling fee",
+          "ko": "주유를 대신해주는 대가로 청구하는 수수료. 업체가 직접 주유할 때 시장가보다 훨씬 비싼 요금을 적용하는 경우가 많으므로 반납 전 본인이 직접 주유하는 것이 훨씬 경제적.",
+          "alternatives": [
+            { "en": "Fuel surcharge", "ko": "연료 관련 추가 비용을 통칭하는 표현." },
+            { "en": "Top-up fee", "ko": "영국·호주에서 쓰는 표현. top up = 연료를 채우다." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch18_d04",
+      "title": "자동·수동 변속기 선택",
+      "lines": [
+        { "speaker": "나", "en": "I'd like an automatic, please. I can't drive a manual.", "ko": "자동 변속기를 원합니다. 수동은 운전을 못 해서요." },
+        { "speaker": "직원", "en": "Most of our cars in this class are manual. Automatic is available but costs a bit more.", "ko": "이 등급 차량은 대부분 수동입니다. 자동은 있지만 비용이 조금 더 들어요." },
+        { "speaker": "나", "en": "That's fine. I'll take the automatic.", "ko": "괜찮습니다. 자동으로 하겠습니다." },
+        { "speaker": "직원", "en": "No problem. I'll update your reservation right away.", "ko": "알겠습니다. 바로 예약을 변경해 드리겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I'd like an automatic, please.",
+          "ko": "자동 변속기 차량을 요청하는 표현. automatic = 자동 변속기, manual = 수동 변속기. 유럽에서는 렌터카의 대다수가 수동(manual)이므로 자동을 원하면 반드시 예약 시 명시해야 함.",
+          "alternatives": [
+            { "en": "Do you have any automatics available?", "ko": "자동 변속기 차량이 있는지 먼저 물어보는 표현." },
+            { "en": "I need an automatic transmission car.", "ko": "transmission = 변속기. 좀 더 기술적으로 명확하게 요청하는 표현." }
+          ]
+        },
+        {
+          "en": "I can't drive a manual.",
+          "ko": "수동 변속기를 운전하지 못한다고 솔직히 말하는 표현. 한국에서 운전면허를 딴 경우 자동 면허(automatic only)인 경우가 많으므로 수동 차량을 받으면 법적 문제가 생길 수 있음.",
+          "alternatives": [
+            { "en": "I'm only licensed for automatic.", "ko": "면허 조건상 자동만 가능하다는 표현. 법적 맥락을 담음." },
+            { "en": "I don't know how to drive stick shift.", "ko": "stick shift = 미국식으로 수동 변속기를 부르는 표현." }
+          ]
+        },
+        {
+          "en": "That's fine.",
+          "ko": "추가 비용 등 조건을 수용할 때 쓰는 짧고 자연스러운 표현. 'That's okay.'와 동의어. 반대로 조건이 마음에 들지 않으면 'That's a bit expensive. Is there anything cheaper?'처럼 이어서 협상 가능.",
+          "alternatives": [
+            { "en": "That works for me.", "ko": "나에게 괜찮다는 뜻으로 약간 더 적극적인 수용 표현." },
+            { "en": "I'm okay with that.", "ko": "그것으로 괜찮다는 뜻의 캐주얼한 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch18_d05",
+      "title": "내비·아이카시트 옵션 요청",
+      "lines": [
+        { "speaker": "나", "en": "Can I add a GPS navigator and a child seat?", "ko": "GPS 내비게이터와 아이카시트를 추가할 수 있나요?" },
+        { "speaker": "직원", "en": "Of course. The child seat is required for children under four. What age is your child?", "ko": "물론이죠. 아이카시트는 만 4세 미만 어린이에게 필수입니다. 아이 나이가 어떻게 되나요?" },
+        { "speaker": "나", "en": "She's two years old.", "ko": "두 살입니다." },
+        { "speaker": "직원", "en": "Then you'll need a rear-facing infant seat. I'll add that to your contract.", "ko": "그러면 후방 장착 유아 시트가 필요합니다. 계약서에 추가해 드리겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Can I add a GPS navigator and a child seat?",
+          "ko": "내비와 아이카시트를 추가로 요청하는 표현. 아이카시트(child seat / car seat)는 많은 국가에서 법적 의무이며 대여 가능. GPS는 요즘 스마트폰으로 대체하는 경우가 많아 비용 절감 가능.",
+          "alternatives": [
+            { "en": "I'd like to rent a car seat for my toddler.", "ko": "toddler = 걸음마 어린이(1~3세). 좀 더 구체적으로 요청하는 표현." },
+            { "en": "Do you have a navigation system available?", "ko": "내비게이션 시스템이 있는지 물어보는 표현." }
+          ]
+        },
+        {
+          "en": "Rear-facing infant seat",
+          "ko": "후방 장착 유아 시트. 신생아~약 2세 유아에게 적합하며 충돌 시 안전을 위해 후방(뒤쪽)을 향해 장착. forward-facing = 전방 장착(약 2~4세), booster seat = 부스터 시트(약 4세 이상). 아이 나이와 체중에 맞는 시트를 요청해야 함.",
+          "alternatives": [
+            { "en": "Forward-facing car seat", "ko": "앞을 향해 장착하는 유아용 시트. 약 2~4세에 사용." },
+            { "en": "Booster seat", "ko": "좌석 높이를 올려주는 부스터 시트. 약 4세 이상 어린이에게 사용." }
+          ]
+        },
+        {
+          "en": "I'll add that to your contract.",
+          "ko": "계약서에 추가하겠다는 뜻. 렌터카 계약서(contract / rental agreement)에는 차량 등급, 보험, 추가 옵션, 연료 정책 등이 모두 명시되므로 서명 전 꼼꼼히 확인하는 것이 중요.",
+          "alternatives": [
+            { "en": "I'll note that on your rental agreement.", "ko": "rental agreement = 렌탈 계약서. 같은 의미의 더 공식적인 표현." },
+            { "en": "That'll be included in your paperwork.", "ko": "paperwork = 서류 작업. 계약 서류에 포함된다는 뜻." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch18_d06",
+      "title": "셀프 주유소 이용",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, which pump should I use? I need to pay first?", "ko": "실례합니다, 어떤 주유기를 써야 하나요? 먼저 결제해야 하나요?" },
+        { "speaker": "주유소직원", "en": "Yes, it's pay first here. Choose a pump number, pay inside, then pump.", "ko": "네, 여기는 선불입니다. 주유기 번호를 선택하고 안에서 결제한 다음 주유하시면 됩니다." },
+        { "speaker": "나", "en": "Okay, pump number three. I'd like forty dollars of unleaded.", "ko": "알겠습니다, 3번 주유기요. 무연 40달러어치 주유하고 싶습니다." },
+        { "speaker": "주유소직원", "en": "Got it. Go ahead when the light turns green.", "ko": "알겠습니다. 불이 녹색으로 바뀌면 시작하시면 됩니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Which pump should I use?",
+          "ko": "어느 주유기를 써야 하는지 물어보는 표현. pump = 주유기. 북미 주유소는 대부분 셀프 서비스(self-service)이며, 'pay first'(선불) 또는 'pay at pump'(주유기에서 카드 결제) 방식 중 하나임.",
+          "alternatives": [
+            { "en": "Is this a self-service station?", "ko": "셀프 서비스 주유소인지 확인하는 표현." },
+            { "en": "Do I pay at the pump or inside?", "ko": "주유기에서 결제할지 안에서 결제할지 확인하는 표현." }
+          ]
+        },
+        {
+          "en": "Pay first",
+          "ko": "선불 주유 방식. 먼저 원하는 금액을 계산대에서 지불한 뒤 해당 주유기가 활성화됨. 반대는 'pay after'(후불) 또는 'pay at pump'(주유기에서 카드로 바로 결제). 미국·캐나다 일부 지역은 pay first가 기본.",
+          "alternatives": [
+            { "en": "Prepay inside", "ko": "안에서 먼저 결제하라는 표현. prepay = 선불로 지불하다." },
+            { "en": "Pay at the pump", "ko": "주유기에서 카드로 바로 결제하는 방식." }
+          ]
+        },
+        {
+          "en": "I'd like forty dollars of unleaded.",
+          "ko": "원하는 금액만큼 무연 휘발유를 달라는 표현. unleaded = 무연 휘발유(일반 휘발유). '가득 채워달라'는 'Fill it up, please.' 또는 'Fill up on pump three.' 금액 대신 리터로 지정할 수도 있음.",
+          "alternatives": [
+            { "en": "Fill it up on pump three, please.", "ko": "가득 채워달라는 표현. fill it up = 가득 채우다." },
+            { "en": "Twenty liters of regular, please.", "ko": "리터 단위로 요청하는 표현. regular = 일반 휘발유(미국식)." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch18_d07",
+      "title": "경유·휘발유 구분 확인",
+      "lines": [
+        { "speaker": "나", "en": "I need to fill up. Does this car take diesel or unleaded?", "ko": "주유해야 하는데요. 이 차가 경유인가요, 무연 휘발유인가요?" },
+        { "speaker": "직원", "en": "Check the sticker inside the fuel cap. It should say 'unleaded only.'", "ko": "연료 캡 안쪽 스티커를 확인해 보세요. '무연 전용'이라고 적혀 있을 겁니다." },
+        { "speaker": "나", "en": "Yes, it says unleaded. I was worried I'd put in the wrong fuel.", "ko": "네, 무연이라고 나와 있네요. 잘못된 연료를 넣을까봐 걱정됐어요." },
+        { "speaker": "직원", "en": "Always double-check. Wrong fuel can seriously damage the engine.", "ko": "항상 두 번 확인하세요. 잘못된 연료는 엔진에 심각한 손상을 줄 수 있습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Does this car take diesel or unleaded?",
+          "ko": "경유(diesel)와 무연 휘발유(unleaded)를 구분해서 묻는 표현. 한국에서는 주유구 색깔로 구분하지만 해외 렌터카는 확인이 필요함. 잘못된 연료(wrong fuel)를 넣으면 큰 수리비가 발생하고 보험 적용이 안 될 수 있음.",
+          "alternatives": [
+            { "en": "What type of fuel does this car use?", "ko": "차량 연료 종류를 총체적으로 묻는 표현." },
+            { "en": "Is this a diesel car or petrol?", "ko": "영국·호주식 표현. petrol = 휘발유(British English)." }
+          ]
+        },
+        {
+          "en": "Unleaded",
+          "ko": "납(lead)을 제거한 일반 휘발유. unleaded = 무연 휘발유. 미국에서는 'regular', 'premium'으로 옥탄가를 구분. diesel(경유)은 대형 트럭이나 일부 유럽 차량에 사용. 주유 전 반드시 연료 캡이나 계기판의 연료 표시를 확인할 것.",
+          "alternatives": [
+            { "en": "Regular (gasoline)", "ko": "미국식 표현. regular = 일반 옥탄가 휘발유. gasoline = 미국식 휘발유 표현." },
+            { "en": "Petrol", "ko": "영국·호주·인도 등 영연방식 표현. 미국의 gasoline과 같은 의미." }
+          ]
+        },
+        {
+          "en": "Wrong fuel",
+          "ko": "잘못된 연료를 넣었을 때의 심각성을 표현. 경유 차에 휘발유를, 또는 반대로 넣으면 엔진 손상이 발생할 수 있음. 이 경우 'misfuelling'이라 부르며 즉시 시동을 끄고 렌터카 업체 긴급 번호로 연락해야 함.",
+          "alternatives": [
+            { "en": "Misfuelling", "ko": "잘못된 연료를 넣는 행위를 뜻하는 업계 용어." },
+            { "en": "Put in the wrong type of fuel", "ko": "'wrong fuel'을 풀어쓴 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch18_d08",
+      "title": "주차장 요금 확인",
+      "lines": [
+        { "speaker": "나", "en": "How much is it to park here per hour?", "ko": "여기 주차 시간당 요금이 얼마인가요?" },
+        { "speaker": "직원", "en": "It's five dollars an hour. The daily maximum is twenty-five dollars.", "ko": "시간당 5달러입니다. 하루 최대는 25달러입니다." },
+        { "speaker": "나", "en": "Is there a grace period if I go a few minutes over?", "ko": "몇 분 초과하면 유예 시간이 있나요?" },
+        { "speaker": "직원", "en": "We have a ten-minute grace period. After that, it's another full hour.", "ko": "10분 유예 시간이 있습니다. 그 이후에는 한 시간 요금이 추가됩니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "How much is it to park here per hour?",
+          "ko": "시간당 주차 요금을 묻는 표현. 'per hour' = 시간당. 주차 요금은 'parking fee' 또는 'parking rate'라고도 함. 'daily maximum'(하루 최대 요금)도 함께 확인하는 것이 경제적.",
+          "alternatives": [
+            { "en": "What's the parking rate?", "ko": "주차 요금을 간단히 묻는 표현." },
+            { "en": "Is there an hourly rate?", "ko": "시간제 요금이 있는지 확인하는 표현." }
+          ]
+        },
+        {
+          "en": "Daily maximum",
+          "ko": "하루 최대 요금. 시간제 주차장에서 하루 내 낼 수 있는 최대 금액. 장시간 주차할 경우 daily maximum이 있으면 그 금액을 넘지 않음. 'daily cap'이라고도 함.",
+          "alternatives": [
+            { "en": "Daily cap", "ko": "하루 최대 요금의 다른 표현. cap = 한도·상한." },
+            { "en": "Flat rate (for the day)", "ko": "하루 정액 요금. 입장하면 하루에 일정 금액을 내는 방식." }
+          ]
+        },
+        {
+          "en": "Grace period",
+          "ko": "요금이 부과되지 않는 유예 시간. 주차 요금에서는 초과 후 일정 시간 내에 나오면 추가 요금 없이 허용해주는 시간을 뜻함. 주차·반납 시 모두 grace period가 있으면 유용함.",
+          "alternatives": [
+            { "en": "Buffer time", "ko": "여유 시간·완충 시간. 비공식적으로 같은 의미로 쓰임." },
+            { "en": "Free time allowance", "ko": "무료 허용 시간이라는 의미의 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch18_d09",
+      "title": "주차 위반·견인 대처",
+      "lines": [
+        { "speaker": "나", "en": "My car is gone! I parked right here. Was it towed?", "ko": "차가 없어졌어요! 여기 주차했는데요. 견인된 건가요?" },
+        { "speaker": "직원", "en": "This is a no-parking zone after six p.m. Your car has been towed.", "ko": "이곳은 오후 6시 이후 주차 금지 구역입니다. 차가 견인됐습니다." },
+        { "speaker": "나", "en": "Where do I go to get it back, and how much is the fine?", "ko": "되찾으러 어디 가야 하나요? 벌금은 얼마인가요?" },
+        { "speaker": "직원", "en": "You'll need to go to the city impound lot on Oak Street. Bring your ID and payment.", "ko": "오크 스트리트의 시 견인 보관소로 가셔야 합니다. 신분증과 결제 수단을 가져가세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Was it towed?",
+          "ko": "차가 견인됐는지 묻는 표현. tow = 견인하다. 'be towed' = 견인되다. 해외에서 주차 위반 시 차가 견인(tow)되거나 바퀴 잠금(wheel clamp / boot)이 채워질 수 있음. 렌터카가 견인된 경우 렌터카 회사에도 즉시 연락할 것.",
+          "alternatives": [
+            { "en": "Did they tow my car?", "ko": "차가 견인됐는지 직접적으로 묻는 표현." },
+            { "en": "My car has been towed.", "ko": "견인된 사실을 말할 때 쓰는 표현." }
+          ]
+        },
+        {
+          "en": "No-parking zone",
+          "ko": "주차 금지 구역. 표지판에 'No Parking', 'No Stopping', 'Tow Away Zone' 등이 있으면 주차 금지. 특히 시간 제한 주차(예: No Parking 6–8 AM)를 잘못 읽으면 견인될 수 있으므로 표지판을 꼼꼼히 확인해야 함.",
+          "alternatives": [
+            { "en": "Tow-away zone", "ko": "견인 구역을 뜻하는 표현. 이 구역에 주차하면 즉시 견인될 수 있음." },
+            { "en": "No stopping area", "ko": "정차도 금지된 구역을 뜻하는 표현." }
+          ]
+        },
+        {
+          "en": "Impound lot",
+          "ko": "견인된 차량을 보관하는 시 또는 민간 보관소. 'car pound'(영국식), 'towing yard'라고도 함. 보관료는 시간이 지날수록 늘어나므로 빠르게 찾아가는 것이 좋음. 신분증, 차량 등록증, 현금/카드가 필요.",
+          "alternatives": [
+            { "en": "Towing yard", "ko": "견인 차량 보관소의 다른 표현." },
+            { "en": "Car pound", "ko": "영국·호주에서 주로 쓰는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch18_d10",
+      "title": "차량 반납 및 손상 점검",
+      "lines": [
+        { "speaker": "나", "en": "Hi, I'm here to drop off my rental car. Reservation under Kim.", "ko": "안녕하세요, 렌터카를 반납하러 왔습니다. 예약자 이름은 김입니다." },
+        { "speaker": "직원", "en": "Thank you. Let me walk around the car to check for any damage.", "ko": "감사합니다. 차량을 한 바퀴 돌면서 손상 여부를 확인하겠습니다." },
+        { "speaker": "나", "en": "There's a small scratch on the rear bumper. It was there when I picked it up.", "ko": "뒤 범퍼에 작은 긁힘이 있는데요. 픽업할 때 이미 있었습니다." },
+        { "speaker": "직원", "en": "Good thing you noted it on the condition report. You're all clear.", "ko": "상태 점검표에 기록해 두셨군요. 문제 없습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I'm here to drop off my rental car.",
+          "ko": "렌터카를 반납하러 왔다는 표현. 'drop off' = 반납하다·놓고 가다. 반대로 수령할 때는 'pick up'. 반납 시 연료 확인, 손상 점검, 계약서 정산이 이루어지므로 시간 여유를 두고 가는 것이 좋음.",
+          "alternatives": [
+            { "en": "I'd like to return the car.", "ko": "반납하고 싶다는 표현. return = 반납하다." },
+            { "en": "I'm returning my rental.", "ko": "'rental'만으로 렌터카를 의미하는 캐주얼한 표현." }
+          ]
+        },
+        {
+          "en": "Walk around the car to check for damage",
+          "ko": "차량 반납 시 직원이 손상 여부를 확인하기 위해 차량을 한 바퀴 도는 절차. 픽업 시에도 반드시 이 절차를 진행하고 기존 손상을 조건 보고서(condition report)에 기록해야 나중에 책임 분쟁이 없음.",
+          "alternatives": [
+            { "en": "Inspect the vehicle", "ko": "차량을 점검하다. 더 공식적인 표현." },
+            { "en": "Do a walkaround", "ko": "차량 주위를 한 바퀴 돌며 점검하는 것을 뜻하는 구어적 표현." }
+          ]
+        },
+        {
+          "en": "Condition report",
+          "ko": "차량 인수 시 기존 손상을 기록하는 문서. 픽업 때 작은 흠집·긁힘도 이 문서에 기록·서명해야 반납 시 책임을 피할 수 있음. 사진도 함께 찍어두는 것이 좋음. 'damage report', 'pre-existing damage form'이라고도 함.",
+          "alternatives": [
+            { "en": "Damage report", "ko": "손상 내역을 기록하는 문서의 다른 표현." },
+            { "en": "Pre-existing damage form", "ko": "이미 있던 손상을 기록하는 문서임을 명확히 표현." }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch18_set01_001",
+          "type": "multiple_choice",
+          "question": "렌터카를 수령하러 왔다고 말할 때 가장 자연스러운 표현은?",
+          "options": [
+            "I have a reservation to pick up a car.",
+            "I want to take a car now.",
+            "Give me my reserved car.",
+            "My car is here, I think."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I have a reservation to pick up a car.'는 예약이 있으며 차를 인수하러 왔다는 뜻의 표준 표현입니다. 'Give me my reserved car.'는 명령형으로 무례하게 들리고, 나머지는 부자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch18_set01_002",
+          "type": "multiple_choice",
+          "question": "렌터카 연료 정책 중 'full-to-full'이 의미하는 것은?",
+          "options": [
+            "가득 찬 상태로 받아 가득 채워서 반납",
+            "연료를 미리 선납하고 빈 채로 반납",
+            "연료비가 렌탈 요금에 포함됨",
+            "반납 시 연료 상태를 점검하지 않음"
+          ],
+          "answerIndex": 0,
+          "explanation": "full-to-full은 가득(full) 받아 가득(full) 돌려주는 방식입니다. 반납 전 반드시 주유소에서 가득 채워야 추가 비용이 없습니다. 선납 후 빈 채로 반납하는 방식은 'full-to-empty'입니다."
+        },
+        {
+          "id": "se_ch18_set01_003",
+          "type": "multiple_choice",
+          "question": "렌터카 업체에서 추가 보험으로 CDW를 권유했습니다. CDW가 주로 보장하는 것은?",
+          "options": [
+            "충돌 사고 시 수리비 자기부담금 면제",
+            "운전자 의료비 전액 지급",
+            "제3자 재산 피해 보상",
+            "연료 분실 비용 보상"
+          ],
+          "answerIndex": 0,
+          "explanation": "CDW(Collision Damage Waiver)는 충돌 사고 발생 시 수리비에 대한 자기부담금(deductible)을 면제해주는 옵션입니다. 운전자 의료비나 제3자 보상은 별도 보험 항목입니다."
+        },
+        {
+          "id": "se_ch18_set01_004",
+          "type": "multiple_choice",
+          "question": "주유소에서 'pay first'라는 안내를 받았습니다. 올바른 행동 순서는?",
+          "options": [
+            "주유기 번호를 선택하고 계산대에서 먼저 결제한 뒤 주유한다.",
+            "먼저 주유한 다음 계산대에서 결제한다.",
+            "주유기에 카드를 꽂고 바로 주유한다.",
+            "직원에게 차 열쇠를 맡기고 주유를 부탁한다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'pay first'는 선불 주유 방식으로, 주유기 번호를 결정한 뒤 계산대(inside)에서 원하는 금액만큼 먼저 지불하면 해당 주유기가 활성화됩니다. 그 후에 주유합니다."
+        },
+        {
+          "id": "se_ch18_set01_005",
+          "type": "multiple_choice",
+          "question": "렌터카에 경유(diesel)를 넣어야 하는지 무연 휘발유(unleaded)를 넣어야 하는지 모를 때 가장 먼저 확인할 곳은?",
+          "options": [
+            "연료 캡(fuel cap) 안쪽의 스티커",
+            "차량 외부 번호판",
+            "렌터카 열쇠 태그",
+            "주유소 영수증"
+          ],
+          "answerIndex": 0,
+          "explanation": "연료 종류는 연료 캡(주유구 뚜껑) 안쪽에 'Unleaded only' 또는 'Diesel only' 스티커로 표시되어 있습니다. 잘못된 연료를 넣으면 엔진 손상이 발생할 수 있으므로 반드시 확인해야 합니다."
+        },
+        {
+          "id": "se_ch18_set01_006",
+          "type": "multiple_choice",
+          "question": "주차장에서 시간당 5달러, daily maximum 25달러라고 했을 때, 7시간 주차한 경우 내야 할 요금은?",
+          "options": [
+            "25달러",
+            "35달러",
+            "30달러",
+            "5달러"
+          ],
+          "answerIndex": 0,
+          "explanation": "시간당 5달러 × 7시간 = 35달러이지만, daily maximum(하루 최대 요금)이 25달러이므로 실제 청구 금액은 25달러입니다. daily maximum은 초과 금액이 생겨도 상한선까지만 청구되는 방식입니다."
+        },
+        {
+          "id": "se_ch18_set01_007",
+          "type": "multiple_choice",
+          "question": "차량 반납 시 사용하는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "I'm here to drop off my rental car.",
+            "I want to give back this machine.",
+            "Take the car, I am done.",
+            "My rental time is finished."
+          ],
+          "answerIndex": 0,
+          "explanation": "'drop off'는 반납하다·놓고 가다의 뜻으로 렌터카 반납 시 가장 자주 쓰이는 표현입니다. 'return the car'도 올바른 표현입니다. 나머지는 어색하거나 부자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch18_set01_008",
+          "type": "multiple_choice",
+          "question": "차량 픽업 시 렌터카 직원이 반드시 요구하는 두 가지 서류는?",
+          "options": [
+            "운전면허증과 신용카드",
+            "여권과 항공권",
+            "보험증서와 차량 등록증",
+            "호텔 예약 확인서와 현금"
+          ],
+          "answerIndex": 0,
+          "explanation": "렌터카 수령 시에는 운전면허증(driver's license)과 신용카드(보증금/deposit용)가 필수입니다. 직불카드(debit card)는 거부되는 경우가 있으므로 신용카드를 준비해야 합니다."
+        },
+        {
+          "id": "se_ch18_set01_009",
+          "type": "multiple_choice",
+          "question": "주차 위반으로 차가 견인됐을 때, 차를 되찾으러 가야 하는 곳은?",
+          "options": [
+            "Impound lot (견인 보관소)",
+            "렌터카 업체 지점",
+            "가장 가까운 경찰서",
+            "공항 주차장"
+          ],
+          "answerIndex": 0,
+          "explanation": "견인된 차량은 'impound lot' 또는 'towing yard'(견인 보관소)에 보관됩니다. 신분증과 결제 수단을 가지고 가야 하며, 보관 시간이 길수록 보관료가 늘어나므로 빠르게 찾아가는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch18_set01_010",
+          "type": "multiple_choice",
+          "question": "차량 픽업 시 직원과 함께 차를 한 바퀴 돌며 기존 손상을 기록하는 문서는?",
+          "options": [
+            "Condition report (상태 점검표)",
+            "Fuel receipt (연료 영수증)",
+            "Parking ticket (주차권)",
+            "Insurance card (보험 카드)"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Condition report'는 차량 인수 시 기존 손상을 기록하는 문서입니다. 픽업할 때 반드시 작성하고 서명해야 반납 시 책임 분쟁을 피할 수 있습니다. 사진도 함께 찍어두는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch18_set01_011",
+          "type": "ox",
+          "question": "유럽 렌터카는 대부분 수동(manual)이 기본이고 자동(automatic)은 추가 요청해야 할 때가 많다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 유럽에서는 수동 변속기 차량이 기본 제공되는 경우가 많습니다. 자동 변속기 차량은 별도 요청이 필요하고 추가 비용이 발생하는 경우도 있습니다. 한국에서 자동 면허만 취득한 경우 반드시 예약 시 확인해야 합니다."
+        },
+        {
+          "id": "se_ch18_set01_012",
+          "type": "ox",
+          "question": "렌터카 연료 정책 'full-to-empty'는 연료를 가득 채운 차를 받아 가득 채워서 반납하는 방식이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'full-to-empty'는 가득 찬 상태로 받아 연료를 다 쓴 빈 상태로 반납하는 방식으로, 연료비를 미리 선납하는 방식입니다. 가득 받아 가득 반납하는 것은 'full-to-full'입니다."
+        },
+        {
+          "id": "se_ch18_set01_013",
+          "type": "ox",
+          "question": "아이카시트(child seat)는 렌터카 업체에서 빌릴 수 있으며, 나라마다 어린이 탑승 시 의무 사용 규정이 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 대부분의 렌터카 업체에서 아이카시트를 대여할 수 있습니다. 미국, 영국, 유럽 등 많은 나라에서 일정 연령·체중 이하의 어린이는 카시트 사용이 법적 의무입니다. 여행 전 해당 국가의 규정을 확인해야 합니다."
+        },
+        {
+          "id": "se_ch18_set01_014",
+          "type": "ox",
+          "question": "렌터카 픽업 시 차량 상태 점검표(condition report)에 기존 손상을 기록해 두지 않으면, 반납 때 그 손상이 여행 중 발생한 것으로 오해받아 비용을 청구받을 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 픽업 시 이미 있던 흠집·긁힘이라도 condition report에 기록하지 않으면 반납 시 여행자 과실로 처리될 수 있습니다. 반드시 직원과 함께 차량을 한 바퀴 돌며 확인하고 문서에 서명하며, 사진도 찍어두는 것이 중요합니다."
+        }
+      ]
+    }
+  ]
 }
