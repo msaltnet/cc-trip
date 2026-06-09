@@ -873,6 +873,1473 @@
           "explanation": "아닙니다. 환승 비자 필요 여부는 국적과 경유 국가에 따라 다릅니다. 예를 들어 한국 여권 소지자는 독일 공항 환승 시 환승 비자가 필요 없습니다."
         }
       ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch07_set02_001",
+          "type": "multiple_choice",
+          "question": "공항에서 환승 안내 카운터를 영어로 무엇이라 하나요?",
+          "options": [
+            "check-in desk",
+            "transit desk",
+            "information booth",
+            "customs counter"
+          ],
+          "answerIndex": 1,
+          "explanation": "'transit desk'는 환승 안내 카운터로 'transfer desk'와 같은 뜻입니다. 경유지에서 연결편 정보를 안내받을 수 있습니다."
+        },
+        {
+          "id": "se_ch07_set02_002",
+          "type": "multiple_choice",
+          "question": "경유 공항에서 보안검색대를 가리키는 영어 표현으로 가장 알맞은 것은?",
+          "options": [
+            "baggage carousel",
+            "security checkpoint",
+            "boarding gate",
+            "immigration booth"
+          ],
+          "answerIndex": 1,
+          "explanation": "'security checkpoint'는 보안검색대입니다. 경유 시 일부 공항에서는 재보안검색이 필요합니다. 'security screening area'라고도 합니다."
+        },
+        {
+          "id": "se_ch07_set02_003",
+          "type": "multiple_choice",
+          "question": "'Will I make it in time?'의 뜻으로 가장 알맞은 것은?",
+          "options": [
+            "제가 시간을 예약할 수 있나요?",
+            "제때 도착할 수 있을까요?",
+            "비행기가 정시에 출발하나요?",
+            "제 짐이 제때 도착하나요?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'make it in time'은 '간신히 제때 맞추다'라는 뜻입니다. 환승 시간이 빠듯할 때 연결편 탑승 가능 여부를 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch07_set02_004",
+          "type": "multiple_choice",
+          "question": "'I missed my connection.'과 같은 뜻의 표현은?",
+          "options": [
+            "I caught my connection.",
+            "I made my flight.",
+            "I couldn't make my connection.",
+            "I arrived at the gate early."
+          ],
+          "answerIndex": 2,
+          "explanation": "'missed my connection'과 'couldn't make my connection' 모두 연결편을 놓쳤다는 의미입니다. 'caught'나 'made'는 탑승에 성공했다는 반대 표현입니다."
+        },
+        {
+          "id": "se_ch07_set02_005",
+          "type": "multiple_choice",
+          "question": "다른 터미널로 이동하기 위한 무료 교통수단을 영어로 무엇이라 하나요?",
+          "options": [
+            "city bus",
+            "airport taxi",
+            "inter-terminal shuttle",
+            "monorail"
+          ],
+          "answerIndex": 2,
+          "explanation": "'inter-terminal shuttle'은 공항 내 터미널 간 무료 셔틀입니다. 'airport transit train'이라고도 불리며 주요 국제공항에서 운행합니다."
+        },
+        {
+          "id": "se_ch07_set02_006",
+          "type": "multiple_choice",
+          "question": "수하물이 최종 목적지까지 자동 연결될 때 쓰는 표현은?",
+          "options": [
+            "baggage overweight",
+            "checked through",
+            "carry-on only",
+            "baggage claim"
+          ],
+          "answerIndex": 1,
+          "explanation": "'checked through'는 수하물이 경유지에서 찾을 필요 없이 최종 목적지까지 자동으로 연결 탁송되는 것을 뜻합니다."
+        },
+        {
+          "id": "se_ch07_set02_007",
+          "type": "multiple_choice",
+          "question": "경유 공항에서 탑승권을 다시 발급받으려 할 때 쓰는 표현으로 알맞은 것은?",
+          "options": [
+            "I'd like to cancel my flight.",
+            "I need to reissue my boarding pass.",
+            "I want to check in my bags.",
+            "I'd like to upgrade my seat."
+          ],
+          "answerIndex": 1,
+          "explanation": "'reissue my boarding pass'는 탑승권 재발급을 요청하는 표현입니다. 탑승권을 잃어버리거나 손상된 경우 환승 카운터나 항공사 데스크에서 발급받을 수 있습니다."
+        },
+        {
+          "id": "se_ch07_set02_008",
+          "type": "multiple_choice",
+          "question": "'transit lounge'는 어디에서 이용하는 공간인가요?",
+          "options": [
+            "입국 심사 대기 중",
+            "경유 대기 중",
+            "짐 찾는 중",
+            "출발 전 탑승 대기 중"
+          ],
+          "answerIndex": 1,
+          "explanation": "'transit lounge'는 경유 대기 중 이용하는 공항 라운지입니다. 'departure lounge'(출발 대기 라운지)와는 구별됩니다."
+        },
+        {
+          "id": "se_ch07_set02_009",
+          "type": "multiple_choice",
+          "question": "환승 시간이 촉박할 때 쓸 수 있는 표현으로 가장 어울리는 것은?",
+          "options": [
+            "My layover is very long.",
+            "I'm in no hurry.",
+            "My layover is very short.",
+            "I have plenty of time."
+          ],
+          "answerIndex": 2,
+          "explanation": "'My layover is very short.'는 경유 대기 시간이 매우 짧아 환승이 촉박하다는 표현입니다. 'I have a tight connection.'과 비슷한 의미입니다."
+        },
+        {
+          "id": "se_ch07_set02_010",
+          "type": "multiple_choice",
+          "question": "연결편 탑승권을 요청할 때 직원이 가장 먼저 확인하는 것은?",
+          "options": [
+            "여행 목적",
+            "여권 및 탑승권",
+            "수하물 무게",
+            "좌석 등급"
+          ],
+          "answerIndex": 1,
+          "explanation": "탑승권 재발급 시 직원은 신원 확인을 위해 여권과 원래 탑승권 제시를 요청합니다. 'May I see your passport and original boarding pass?'가 대표적인 표현입니다."
+        },
+        {
+          "id": "se_ch07_set02_011",
+          "type": "ox",
+          "question": "'transit passengers'는 경유 승객을 뜻하며, 'connecting passengers'라고도 할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'transit passengers'와 'connecting passengers'는 모두 경유·환승 승객을 가리키는 표현으로 혼용됩니다."
+        },
+        {
+          "id": "se_ch07_set02_012",
+          "type": "ox",
+          "question": "'on foot'은 차를 타고 이동한다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'on foot'은 '도보로, 걸어서'를 뜻합니다. 'About five minutes on foot.'이라고 하면 걸어서 약 5분 거리라는 의미입니다."
+        },
+        {
+          "id": "se_ch07_set02_013",
+          "type": "ox",
+          "question": "연결편을 놓쳤을 경우 'rebooking counter'에서 다음 항공편을 재예약받을 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'rebooking counter'는 항공편을 놓쳤거나 일정 변경이 필요할 때 재예약을 받을 수 있는 카운터입니다."
+        },
+        {
+          "id": "se_ch07_set02_014",
+          "type": "ox",
+          "question": "경유 비자(transit visa)는 국적과 경유 국가에 관계없이 항상 필요하다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 환승 비자 필요 여부는 국적과 경유 국가에 따라 달라집니다. 예를 들어 한국 여권 소지자는 독일 공항 환승 시 별도 비자가 필요 없습니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch07_set03_001",
+          "type": "multiple_choice",
+          "question": "'Follow the transit signs.'에서 'transit signs'은 무엇을 가리키나요?",
+          "options": [
+            "출구 안내판",
+            "환승 유도 안내판",
+            "짐 찾는 곳 표지판",
+            "입국 심사 안내판"
+          ],
+          "answerIndex": 1,
+          "explanation": "'transit signs'은 공항 내 환승 방향을 안내하는 표지판입니다. 경유 공항에서 다음 게이트를 찾을 때 따라가면 됩니다."
+        },
+        {
+          "id": "se_ch07_set03_002",
+          "type": "multiple_choice",
+          "question": "짐이 경유지에서 최종 목적지까지 자동 연결 탁송될 때, 짐에 달리는 것을 영어로 무엇이라 하나요?",
+          "options": [
+            "boarding pass",
+            "luggage lock",
+            "baggage tag",
+            "claim ticket"
+          ],
+          "answerIndex": 2,
+          "explanation": "짐에 달리는 수하물표를 'baggage tag' 또는 'luggage tag'라고 합니다. 체크인 시 최종 목적지로 태그를 달아 자동 연결이 가능합니다."
+        },
+        {
+          "id": "se_ch07_set03_003",
+          "type": "multiple_choice",
+          "question": "환승 시간이 촉박한 상황을 뜻하는 표현은?",
+          "options": [
+            "I have a short delay.",
+            "I have a long layover.",
+            "I have a tight connection.",
+            "I have an open ticket."
+          ],
+          "answerIndex": 2,
+          "explanation": "'tight connection'은 환승 시간이 빠듯한 상황입니다. 'long layover'는 반대로 경유 대기 시간이 충분한 경우를 나타냅니다."
+        },
+        {
+          "id": "se_ch07_set03_004",
+          "type": "multiple_choice",
+          "question": "경유지에서 짐을 찾을 필요가 없는 이유를 설명한 직원의 말로 가장 자연스러운 것은?",
+          "options": [
+            "Your bags are lost.",
+            "Your bags are overweight.",
+            "It's already tagged to your final destination.",
+            "You need to collect them at gate C."
+          ],
+          "answerIndex": 2,
+          "explanation": "'tagged to your final destination'은 짐이 최종 목적지 태그가 달려 있어 경유지에서 찾을 필요가 없다는 뜻입니다."
+        },
+        {
+          "id": "se_ch07_set03_005",
+          "type": "multiple_choice",
+          "question": "경유 라운지를 뜻하는 영어 표현으로 가장 알맞은 것은?",
+          "options": [
+            "departure lounge",
+            "transit lounge",
+            "arrival lounge",
+            "business hotel"
+          ],
+          "answerIndex": 1,
+          "explanation": "'transit lounge'는 경유 대기 중 사용하는 공항 라운지입니다. 'departure lounge'는 출발 승객용 대기 구역으로 다릅니다."
+        },
+        {
+          "id": "se_ch07_set03_006",
+          "type": "multiple_choice",
+          "question": "'my connection'은 구어체에서 어떤 의미로 쓰이나요?",
+          "options": [
+            "인터넷 연결",
+            "비행기 좌석 연결",
+            "연결 항공편",
+            "귀국 항공편"
+          ],
+          "answerIndex": 2,
+          "explanation": "구어체에서 'my connection'은 'my connecting flight(연결 항공편)'을 줄여 말하는 표현입니다."
+        },
+        {
+          "id": "se_ch07_set03_007",
+          "type": "multiple_choice",
+          "question": "터미널 간 셔틀 운행 빈도를 설명할 때 쓰는 표현으로 알맞은 것은?",
+          "options": [
+            "It flies every 10 minutes.",
+            "It runs every 10 minutes.",
+            "It checks every 10 minutes.",
+            "It boards every 10 minutes."
+          ],
+          "answerIndex": 1,
+          "explanation": "대중교통의 '운행 빈도'를 나타낼 때 동사 'run'을 씁니다. 'It runs every 10 minutes.'는 10분마다 운행된다는 뜻입니다."
+        },
+        {
+          "id": "se_ch07_set03_008",
+          "type": "multiple_choice",
+          "question": "연결편을 놓쳤을 때 직원이 안내하는 다음 행동으로 가장 알맞은 것은?",
+          "options": [
+            "보안검색대로 다시 가세요.",
+            "재예약 카운터로 오세요.",
+            "수하물 카운터로 가세요.",
+            "출국 게이트로 가세요."
+          ],
+          "answerIndex": 1,
+          "explanation": "연결편을 놓쳤을 때는 'rebooking counter(재예약 카운터)'로 가서 다음 가능한 항공편으로 재예약을 받아야 합니다."
+        },
+        {
+          "id": "se_ch07_set03_009",
+          "type": "multiple_choice",
+          "question": "환승 비자 필요 여부를 확인할 때 직원이 묻는 것은?",
+          "options": [
+            "목적지 도시",
+            "탑승 항공사",
+            "국적",
+            "수하물 무게"
+          ],
+          "answerIndex": 2,
+          "explanation": "환승 비자 필요 여부는 국적에 따라 달라지므로 직원은 'What is your nationality?'라고 묻습니다."
+        },
+        {
+          "id": "se_ch07_set03_010",
+          "type": "multiple_choice",
+          "question": "'stop over in Frankfurt'의 의미로 가장 알맞은 것은?",
+          "options": [
+            "프랑크푸르트에서 비행기를 갈아타지 않는다",
+            "프랑크푸르트를 최종 목적지로 삼다",
+            "프랑크푸르트에 경유하다",
+            "프랑크푸르트에 장기 체류하다"
+          ],
+          "answerIndex": 2,
+          "explanation": "'stop over'는 여행 도중 중간에 들르는 것, 즉 경유를 뜻합니다. 'layover'나 'transit through'와 비슷한 의미입니다."
+        },
+        {
+          "id": "se_ch07_set03_011",
+          "type": "ox",
+          "question": "'tight connection'은 환승 대기 시간이 매우 짧아 빡빡한 상황을 나타낸다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'tight connection'은 환승 시간이 촉박한 상황입니다. 'short layover'라고도 표현할 수 있습니다."
+        },
+        {
+          "id": "se_ch07_set03_012",
+          "type": "ox",
+          "question": "'reissue'와 'refund'는 같은 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'reissue'는 (탑승권 등을) 재발급하는 것이고, 'refund'는 금액을 환불받는 것입니다. 전혀 다른 의미입니다."
+        },
+        {
+          "id": "se_ch07_set03_013",
+          "type": "ox",
+          "question": "'depart from'은 '~에서 출발하다'라는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'depart from gate C14'는 'C14 게이트에서 출발한다'는 뜻입니다. 'leave from'도 같은 의미로 사용됩니다."
+        },
+        {
+          "id": "se_ch07_set03_014",
+          "type": "ox",
+          "question": "'inter-terminal shuttle'은 유료로 운행되며 별도 티켓이 필요하다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'inter-terminal shuttle'은 대형 공항에서 터미널 간 이동을 위해 무료로 운행되는 셔틀입니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch07_set04_001",
+          "type": "multiple_choice",
+          "question": "경유 공항에서 환승 안내를 받으려고 할 때 가장 먼저 가야 하는 곳은?",
+          "options": [
+            "duty-free shop",
+            "transfer desk",
+            "immigration desk",
+            "lost and found"
+          ],
+          "answerIndex": 1,
+          "explanation": "'transfer desk(환승 안내 카운터)'는 경유지에서 연결편 정보, 게이트 확인 등 환승 관련 도움을 받는 곳입니다."
+        },
+        {
+          "id": "se_ch07_set04_002",
+          "type": "multiple_choice",
+          "question": "연결편 탑승권에 표시된 출발 정보를 확인할 때 쓰는 표현은?",
+          "options": [
+            "Your connecting flight arrives at gate C14.",
+            "Your connecting flight departs from gate C14.",
+            "Your connecting flight transfers at gate C14.",
+            "Your connecting flight stops at gate C14."
+          ],
+          "answerIndex": 1,
+          "explanation": "'departs from gate C14'는 'C14 게이트에서 출발한다'는 뜻입니다. 'arrives'는 도착, 'departs'는 출발을 나타냅니다."
+        },
+        {
+          "id": "se_ch07_set04_003",
+          "type": "multiple_choice",
+          "question": "'Is my baggage checked through to Seoul?'와 가장 비슷한 표현은?",
+          "options": [
+            "Is my baggage overweight?",
+            "Will my bags be transferred to the next flight?",
+            "Is my carry-on allowed?",
+            "Can I check in my bags here?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Will my bags be transferred to the next flight?'와 'Is my baggage checked through?'는 짐이 다음 항공편으로 자동 연결되는지 묻는 비슷한 표현입니다."
+        },
+        {
+          "id": "se_ch07_set04_004",
+          "type": "multiple_choice",
+          "question": "경유 시 재보안검색이 필요한 승객을 영어로 뭐라 하나요?",
+          "options": [
+            "business class passengers",
+            "transit passengers",
+            "VIP passengers",
+            "first-time travelers"
+          ],
+          "answerIndex": 1,
+          "explanation": "'transit passengers(경유 승객)'는 경유지를 거쳐 다음 목적지로 가는 승객입니다. 일부 공항에서는 모든 경유 승객에게 재보안검색을 요구합니다."
+        },
+        {
+          "id": "se_ch07_set04_005",
+          "type": "multiple_choice",
+          "question": "연결편을 재예약할 때 직원이 쓰는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "I'll put you on the next available flight.",
+            "I'll cancel your ticket immediately.",
+            "I'll upgrade you to first class.",
+            "I'll send your bags to baggage claim."
+          ],
+          "answerIndex": 0,
+          "explanation": "'put you on the next available flight'는 다음 좌석이 있는 항공편으로 배정해주겠다는 표현입니다. 연결편을 놓쳤을 때 재예약 카운터에서 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch07_set04_006",
+          "type": "multiple_choice",
+          "question": "'catch the shuttle'에서 'catch'는 어떤 의미인가요?",
+          "options": [
+            "잡다",
+            "타다",
+            "기다리다",
+            "예약하다"
+          ],
+          "answerIndex": 1,
+          "explanation": "교통수단과 함께 쓰인 'catch'는 '타다'를 의미합니다. 'catch the shuttle', 'catch a bus', 'catch a train' 모두 같은 패턴입니다."
+        },
+        {
+          "id": "se_ch07_set04_007",
+          "type": "multiple_choice",
+          "question": "'right away'와 같은 의미의 표현은?",
+          "options": [
+            "in an hour",
+            "tomorrow morning",
+            "immediately",
+            "eventually"
+          ],
+          "answerIndex": 2,
+          "explanation": "'right away'는 '즉시, 바로'를 뜻하며 'immediately', 'straight away'와 같은 의미입니다. 구어체에서 자주 씁니다."
+        },
+        {
+          "id": "se_ch07_set04_008",
+          "type": "multiple_choice",
+          "question": "경유 시 공항 라운지 이용 자격을 확인할 때 직원이 묻는 것은?",
+          "options": [
+            "What is your seat number?",
+            "Which airline are you flying with?",
+            "Where is your final destination?",
+            "How many bags do you have?"
+          ],
+          "answerIndex": 1,
+          "explanation": "라운지 이용 자격은 항공사에 따라 다르므로 직원은 'Which airline are you flying with?'라고 묻습니다."
+        },
+        {
+          "id": "se_ch07_set04_009",
+          "type": "multiple_choice",
+          "question": "보안검색대 위치를 묻는 표현으로 알맞은 것은?",
+          "options": [
+            "Where is the boarding gate?",
+            "Where is the security checkpoint?",
+            "Where is the baggage claim?",
+            "Where is the arrival hall?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'security checkpoint'는 보안검색대입니다. 재보안검색이 필요할 때 'Where is the security checkpoint?'라고 위치를 물을 수 있습니다."
+        },
+        {
+          "id": "se_ch07_set04_010",
+          "type": "multiple_choice",
+          "question": "연결편 항공기를 탈 수 있는지 물을 때 쓰는 표현으로 알맞은 것은?",
+          "options": [
+            "Can I catch my connection?",
+            "Can I upgrade my seat?",
+            "Can I cancel my ticket?",
+            "Can I check in early?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I catch my connection?'은 연결편을 탈 수 있는지 묻는 표현입니다. 'Will I make it in time?'과 비슷한 의미입니다."
+        },
+        {
+          "id": "se_ch07_set04_011",
+          "type": "ox",
+          "question": "'collect your bags'는 수하물을 찾는다는 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'collect'는 '(맡겨 둔 것을) 찾다'는 뜻으로, 'collect your bags'는 수하물 수취대에서 짐을 찾는 행위입니다."
+        },
+        {
+          "id": "se_ch07_set04_012",
+          "type": "ox",
+          "question": "'stopover'와 'layover'는 완전히 다른 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'stopover'와 'layover' 모두 경유지에서 다음 항공편을 기다리는 것을 뜻하며, 거의 같은 의미로 사용됩니다."
+        },
+        {
+          "id": "se_ch07_set04_013",
+          "type": "ox",
+          "question": "탑승권 재발급 시 여권 확인은 불필요하다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 탑승권을 재발급받을 때 직원은 신원 확인을 위해 여권과 탑승권 확인을 요청합니다. 'May I see your passport?'가 대표적인 표현입니다."
+        },
+        {
+          "id": "se_ch07_set04_014",
+          "type": "ox",
+          "question": "'head straight there'는 '바로 그곳으로 가다'라는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'head'는 '(어떤 방향으로) 가다'라는 뜻으로, 'head straight there'는 '바로 그곳으로 가다'입니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch07_set05_001",
+          "type": "multiple_choice",
+          "question": "환승 안내 표지판을 따라가라고 할 때 가장 자연스러운 표현은?",
+          "options": [
+            "Follow the arrival signs.",
+            "Follow the exit signs.",
+            "Follow the transit signs.",
+            "Follow the check-in signs."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Follow the transit signs.'는 환승 안내 표지판을 따라가라는 표현입니다. 경유 공항에서 다음 게이트나 환승 구역을 찾을 때 유용합니다."
+        },
+        {
+          "id": "se_ch07_set05_002",
+          "type": "multiple_choice",
+          "question": "'my onward flight'은 무슨 뜻인가요?",
+          "options": [
+            "귀국 항공편",
+            "최초 탑승 항공편",
+            "이후 연결 항공편",
+            "전세기"
+          ],
+          "answerIndex": 2,
+          "explanation": "'onward flight'은 '이후(다음) 항공편'으로 'connecting flight', 'my connection'과 비슷한 의미입니다."
+        },
+        {
+          "id": "se_ch07_set05_003",
+          "type": "multiple_choice",
+          "question": "경유지에서 짐을 따로 찾을 필요가 없다고 말하는 표현은?",
+          "options": [
+            "You need to collect it at baggage claim.",
+            "It will go straight to Seoul.",
+            "Your bag is overweight.",
+            "Please recheck your luggage."
+          ],
+          "answerIndex": 1,
+          "explanation": "'It will go straight to Seoul.'은 짐이 중간에 멈추지 않고 바로 목적지로 간다는 의미로, 수하물 자동 연결이 확인된 상황에서 쓰입니다."
+        },
+        {
+          "id": "se_ch07_set05_004",
+          "type": "multiple_choice",
+          "question": "'rebooking counter'와 같은 곳을 가리키는 다른 표현은?",
+          "options": [
+            "baggage claim area",
+            "transfer assistance desk",
+            "immigration counter",
+            "check-in kiosk"
+          ],
+          "answerIndex": 1,
+          "explanation": "'transfer assistance desk'는 'rebooking counter'와 비슷한 역할을 하는 곳으로, 항공편을 놓쳤거나 도움이 필요할 때 가는 카운터입니다."
+        },
+        {
+          "id": "se_ch07_set05_005",
+          "type": "multiple_choice",
+          "question": "환승 비자를 뜻하는 영어 표현은?",
+          "options": [
+            "work visa",
+            "student visa",
+            "transit visa",
+            "tourist visa"
+          ],
+          "answerIndex": 2,
+          "explanation": "'transit visa'는 환승 비자입니다. 일부 나라의 공항을 경유할 때 공항 밖으로 나가지 않더라도 필요한 경우가 있습니다."
+        },
+        {
+          "id": "se_ch07_set05_006",
+          "type": "multiple_choice",
+          "question": "경유 공항에서 보안검색을 다시 받아야 하는지 물을 때 알맞은 표현은?",
+          "options": [
+            "Do I need to board again?",
+            "Do I need to go through security again?",
+            "Do I need to recheck my bags?",
+            "Do I need a new passport?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do I need to go through security again?'는 경유 공항에서 재보안검색 여부를 묻는 표현입니다. 공항마다 규정이 다를 수 있습니다."
+        },
+        {
+          "id": "se_ch07_set05_007",
+          "type": "multiple_choice",
+          "question": "셔틀이 10분마다 운행된다는 표현으로 가장 알맞은 것은?",
+          "options": [
+            "There's one every 10 minutes.",
+            "It takes 10 minutes.",
+            "It waits 10 minutes.",
+            "There are 10 shuttles."
+          ],
+          "answerIndex": 0,
+          "explanation": "'There's one every 10 minutes.'는 10분마다 한 대씩 있다는 뜻으로, 셔틀 운행 빈도를 나타냅니다. 'It runs every 10 minutes.'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch07_set05_008",
+          "type": "multiple_choice",
+          "question": "탑승권 재발급 시 'print a new boarding pass'와 같은 의미의 표현은?",
+          "options": [
+            "cancel my boarding pass",
+            "upgrade my boarding pass",
+            "reissue my boarding pass",
+            "scan my boarding pass"
+          ],
+          "answerIndex": 2,
+          "explanation": "'reissue my boarding pass'와 'print a new boarding pass'는 모두 탑승권을 새로 발급받는다는 의미입니다."
+        },
+        {
+          "id": "se_ch07_set05_009",
+          "type": "multiple_choice",
+          "question": "경유지 공항에서 연결편 게이트 번호를 확인하려 할 때 쓰는 표현은?",
+          "options": [
+            "Can you tell me the arrival time?",
+            "Can you tell me the gate for my connecting flight?",
+            "Can you tell me the baggage carousel number?",
+            "Can you tell me the check-in time?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Can you tell me the gate for my connecting flight?'는 연결편 게이트 번호를 물을 때 쓰는 표현입니다. 직원에게 탑승권을 보여주면 확인해줍니다."
+        },
+        {
+          "id": "se_ch07_set05_010",
+          "type": "multiple_choice",
+          "question": "경유 공항에서 한국 여권 소지자가 독일 환승 비자 없이 통과할 수 있는가?",
+          "options": [
+            "아니다, 항상 비자가 필요하다",
+            "그렇다, 한국 여권 소지자는 독일 환승 비자가 필요 없다",
+            "항공사에 따라 다르다",
+            "비행기 목적지에 따라 다르다"
+          ],
+          "answerIndex": 1,
+          "explanation": "한국 여권 소지자는 독일 공항 환승 시 별도 환승 비자가 필요 없습니다. 하지만 국가마다 다르므로 출발 전 확인이 필요합니다."
+        },
+        {
+          "id": "se_ch07_set05_011",
+          "type": "ox",
+          "question": "'checked through'는 수하물을 경유지에서 직접 찾아 다시 체크인해야 한다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'checked through'는 수하물이 경유지에서 찾을 필요 없이 최종 목적지까지 자동 연결 탁송되는 것을 뜻합니다."
+        },
+        {
+          "id": "se_ch07_set05_012",
+          "type": "ox",
+          "question": "'Can I catch my connection?'은 연결편을 탈 수 있는지 묻는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'catch'는 교통수단을 타다는 뜻으로, 'catch my connection'은 연결 항공편을 탈 수 있는지 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch07_set05_013",
+          "type": "ox",
+          "question": "'directly to the gate'와 'head straight there'는 같은 방향 지시 의미를 갖는다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 두 표현 모두 '바로 그곳으로(게이트로) 가다'라는 의미를 담고 있어 환승 시간이 촉박할 때 직원이 자주 안내하는 표현입니다."
+        },
+        {
+          "id": "se_ch07_set05_014",
+          "type": "ox",
+          "question": "'transit lounge'는 출발 전 일반 탑승 대기실과 동일하다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'transit lounge'는 경유 대기 중 이용하는 공간이고, 일반 탑승 대기실인 'departure lounge'와는 다릅니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch07_set06_001",
+          "type": "multiple_choice",
+          "question": "경유 공항에서 환승 안내 데스크를 찾을 때 쓸 수 있는 표현으로 알맞은 것은?",
+          "options": [
+            "Is there a transfer counter nearby?",
+            "Where is the baggage reclaim?",
+            "Where is the arrivals hall?",
+            "Is there a currency exchange here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a transfer counter nearby?'는 근처에 환승 카운터가 있는지 묻는 표현입니다. 'Where is the transfer desk?'와 같은 상황에서 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch07_set06_002",
+          "type": "multiple_choice",
+          "question": "연결편 게이트 번호를 확인할 때 직원이 먼저 요청하는 것은?",
+          "options": [
+            "Can I see your passport?",
+            "Can I see your boarding pass, please?",
+            "What is your final destination?",
+            "Do you have travel insurance?"
+          ],
+          "answerIndex": 1,
+          "explanation": "게이트 정보를 확인하려면 직원은 먼저 'Can I see your boarding pass?'라고 탑승권 제시를 요청합니다."
+        },
+        {
+          "id": "se_ch07_set06_003",
+          "type": "multiple_choice",
+          "question": "'Does my luggage go through automatically?'와 가장 비슷한 뜻의 표현은?",
+          "options": [
+            "Is my luggage overweight?",
+            "Is my baggage checked through?",
+            "Should I buy a new bag?",
+            "Can I carry on my luggage?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Does my luggage go through automatically?'와 'Is my baggage checked through?'는 모두 짐이 자동으로 최종 목적지까지 연결되는지 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch07_set06_004",
+          "type": "multiple_choice",
+          "question": "경유 공항에서 45분밖에 없어 환승이 촉박함을 설명할 때 쓰는 표현은?",
+          "options": [
+            "I'm running low on time for my connection.",
+            "I have too much time before my flight.",
+            "My flight was cancelled.",
+            "I need to check in again."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm running low on time for my connection.'은 환승 시간이 얼마 남지 않았다는 표현입니다. 'I have a tight connection.'과 같은 맥락에서 씁니다."
+        },
+        {
+          "id": "se_ch07_set06_005",
+          "type": "multiple_choice",
+          "question": "경유 공항에서 터미널 간 셔틀 탑승 위치를 물을 때 알맞은 표현은?",
+          "options": [
+            "Where do I catch the shuttle?",
+            "When does the shuttle depart?",
+            "How much is the shuttle?",
+            "How long is the shuttle?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where do I catch the shuttle?'는 셔틀 탑승 위치를 묻는 표현입니다. 'catch'는 교통수단을 탄다는 의미입니다."
+        },
+        {
+          "id": "se_ch07_set06_006",
+          "type": "multiple_choice",
+          "question": "연결편을 놓쳤을 때 직원에게 해야 하는 말로 가장 알맞은 것은?",
+          "options": [
+            "I missed my connection. What should I do?",
+            "I caught my flight. Thank you.",
+            "My baggage is overweight.",
+            "I need to upgrade my seat."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I missed my connection. What should I do?'는 연결편을 놓쳤을 때 상황을 설명하고 다음 행동을 물어보는 표현입니다."
+        },
+        {
+          "id": "se_ch07_set06_007",
+          "type": "multiple_choice",
+          "question": "경유 공항 경유 라운지의 영어 표현은?",
+          "options": [
+            "airport café",
+            "hotel lounge",
+            "transfer lounge",
+            "boarding hall"
+          ],
+          "answerIndex": 2,
+          "explanation": "'transfer lounge'는 'transit lounge'와 같이 경유 대기 중 이용하는 공항 라운지를 뜻합니다."
+        },
+        {
+          "id": "se_ch07_set06_008",
+          "type": "multiple_choice",
+          "question": "경유 비자 필요 여부를 묻는 표현으로 알맞은 것은?",
+          "options": [
+            "Do I need a visa for a layover?",
+            "Do I need to check in again?",
+            "Is there a transit fee?",
+            "Do I need travel insurance?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do I need a visa for a layover?'는 경유 대기 중에도 비자가 필요한지 묻는 표현입니다. 국적과 경유 국가에 따라 다릅니다."
+        },
+        {
+          "id": "se_ch07_set06_009",
+          "type": "multiple_choice",
+          "question": "탑승권 재발급 요청 시 '바로 새 것을 출력해드리겠다'는 직원의 표현은?",
+          "options": [
+            "I'll cancel your ticket.",
+            "I'll print a new one for you right away.",
+            "Please wait for two hours.",
+            "You need to call the airline."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'll print a new one for you right away.'는 탑승권을 바로 출력해드리겠다는 뜻입니다. 'right away'는 '즉시'를 나타냅니다."
+        },
+        {
+          "id": "se_ch07_set06_010",
+          "type": "multiple_choice",
+          "question": "경유지 보안검색대 방향 안내 시 쓰는 표현으로 알맞은 것은?",
+          "options": [
+            "Turn left at the end of this corridor.",
+            "Take the elevator to floor 3.",
+            "Walk to the arrivals hall.",
+            "Go to the check-in counter."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Turn left at the end of this corridor.'는 보안검색대 방향을 안내하는 표현입니다. 복도 끝에서 왼쪽으로 돌라는 뜻입니다."
+        },
+        {
+          "id": "se_ch07_set06_011",
+          "type": "ox",
+          "question": "'available'은 '이용 가능한'이라는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'available'은 '이용 가능한, 이용 가능한'을 뜻합니다. 'next available flight'는 다음에 이용 가능한 항공편을 가리킵니다."
+        },
+        {
+          "id": "se_ch07_set06_012",
+          "type": "ox",
+          "question": "'Have a layover in Frankfurt'는 프랑크푸르트를 최종 목적지로 설정한다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'have a layover in Frankfurt'는 프랑크푸르트에서 경유 대기를 한다는 뜻으로, 최종 목적지가 아님을 의미합니다."
+        },
+        {
+          "id": "se_ch07_set06_013",
+          "type": "ox",
+          "question": "'I couldn't make my connection.'과 'I missed my connection.'은 같은 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 두 표현 모두 연결편을 탑승하지 못했다는 의미입니다. 'miss'와 'couldn't make'가 같은 상황을 나타냅니다."
+        },
+        {
+          "id": "se_ch07_set06_014",
+          "type": "ox",
+          "question": "공항 내 'inter-terminal shuttle'은 반드시 유료로 이용해야 한다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 대부분의 대형 국제공항에서 'inter-terminal shuttle'은 무료로 운행됩니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch07_set07_001",
+          "type": "multiple_choice",
+          "question": "환승 안내 카운터를 다르게 부르는 영어 표현은?",
+          "options": [
+            "check-in counter",
+            "transit desk",
+            "information kiosk",
+            "baggage counter"
+          ],
+          "answerIndex": 1,
+          "explanation": "'transit desk'는 'transfer desk'의 다른 이름으로 경유 공항에서 환승 안내를 받는 카운터입니다."
+        },
+        {
+          "id": "se_ch07_set07_002",
+          "type": "multiple_choice",
+          "question": "'connecting flight'와 같은 의미로 사용되는 표현이 아닌 것은?",
+          "options": [
+            "my connection",
+            "my onward flight",
+            "transfer flight",
+            "direct flight"
+          ],
+          "answerIndex": 3,
+          "explanation": "'direct flight'는 중간 경유지 없이 목적지로 바로 가는 직항을 의미합니다. 나머지 세 표현은 모두 연결편을 가리킵니다."
+        },
+        {
+          "id": "se_ch07_set07_003",
+          "type": "multiple_choice",
+          "question": "'tagged to your final destination'에서 'tag'는 무엇을 의미하나요?",
+          "options": [
+            "메시지를 보내다",
+            "수하물 태그를 달다",
+            "좌석을 배정하다",
+            "탑승권을 발급하다"
+          ],
+          "answerIndex": 1,
+          "explanation": "여기서 'tag'는 수하물에 목적지 태그(수하물표)를 붙이는 것입니다. 'tagged to your final destination'은 최종 목적지까지 태그가 달린 상태를 뜻합니다."
+        },
+        {
+          "id": "se_ch07_set07_004",
+          "type": "multiple_choice",
+          "question": "'short layover'는 어떤 상황을 나타내나요?",
+          "options": [
+            "장거리 비행",
+            "경유 대기 시간이 짧은 상황",
+            "수하물이 없는 여행",
+            "직항 비행"
+          ],
+          "answerIndex": 1,
+          "explanation": "'short layover'는 경유 대기 시간이 짧은 상황입니다. 'tight connection'과 같이 환승이 촉박하다는 뜻으로 쓰입니다."
+        },
+        {
+          "id": "se_ch07_set07_005",
+          "type": "multiple_choice",
+          "question": "경유 공항에서 재보안검색 시 필요한 장소를 묻는 올바른 표현은?",
+          "options": [
+            "Where is the customs office?",
+            "Where is the security screening area?",
+            "Where is the departure gate?",
+            "Where is the baggage belt?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'security screening area'는 보안검색 구역으로 'security checkpoint'와 같은 장소입니다. 경유 시 재보안검색이 필요할 때 찾아가는 곳입니다."
+        },
+        {
+          "id": "se_ch07_set07_006",
+          "type": "multiple_choice",
+          "question": "'I'll rebook you on that.'에서 'rebook'은 무슨 뜻인가요?",
+          "options": [
+            "취소하다",
+            "환불하다",
+            "재예약하다",
+            "좌석을 업그레이드하다"
+          ],
+          "answerIndex": 2,
+          "explanation": "'rebook'은 '재예약하다'는 뜻으로, 연결편을 놓쳤거나 일정 변경 시 다른 항공편으로 예약을 다시 하는 것입니다."
+        },
+        {
+          "id": "se_ch07_set07_007",
+          "type": "multiple_choice",
+          "question": "'Korean passport holders do not need a transit visa.'에서 'holders'의 뜻은?",
+          "options": [
+            "발급자",
+            "소지자",
+            "신청자",
+            "검사관"
+          ],
+          "answerIndex": 1,
+          "explanation": "'holder'는 '소지자, 보유자'를 뜻합니다. 'Korean passport holders'는 한국 여권 소지자입니다."
+        },
+        {
+          "id": "se_ch07_set07_008",
+          "type": "multiple_choice",
+          "question": "터미널 간 셔틀 정류장 위치를 묻는 표현으로 알맞은 것은?",
+          "options": [
+            "Where is the shuttle stop?",
+            "What time is the shuttle?",
+            "How much is the shuttle?",
+            "How long is the shuttle ride?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where is the shuttle stop?'는 셔틀 정류장 위치를 묻는 표현입니다. 'Where do I catch the shuttle?'과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch07_set07_009",
+          "type": "multiple_choice",
+          "question": "탑승권 재발급 때 직원이 'May I see your passport?'라고 하는 이유는?",
+          "options": [
+            "여행 목적 확인을 위해",
+            "수하물 무게 확인을 위해",
+            "신원 확인을 위해",
+            "비자 발급을 위해"
+          ],
+          "answerIndex": 2,
+          "explanation": "탑승권 재발급 시 직원은 신원 확인(신분 확인)을 위해 여권 제시를 요청합니다."
+        },
+        {
+          "id": "se_ch07_set07_010",
+          "type": "multiple_choice",
+          "question": "대한항공 라운지 위치를 안내할 때 쓸 수 있는 표현은?",
+          "options": [
+            "The Korean Air lounge is on Level 3, near gate E.",
+            "The Korean Air lounge is at baggage claim.",
+            "The Korean Air lounge is outside the terminal.",
+            "The Korean Air lounge is at immigration."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The Korean Air lounge is on Level 3, near gate E.'는 라운지 위치를 층수와 인근 게이트로 안내하는 표현입니다. 'near'는 '~의 가까이에'를 뜻합니다."
+        },
+        {
+          "id": "se_ch07_set07_011",
+          "type": "ox",
+          "question": "'transit'은 중간 기착지를 통과하는 여행자를 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'transit'은 최종 목적지로 가는 과정에서 중간 공항을 경유하는 여행 또는 그 여행자를 뜻합니다."
+        },
+        {
+          "id": "se_ch07_set07_012",
+          "type": "ox",
+          "question": "'straight away'는 영국식 영어로 '즉시'를 뜻하며 'right away'와 같은 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'straight away'는 영국식 표현으로 'right away', 'immediately'와 같이 '즉시, 바로'를 뜻합니다."
+        },
+        {
+          "id": "se_ch07_set07_013",
+          "type": "ox",
+          "question": "보안검색대는 영어로 'boarding gate'라고 한다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 보안검색대는 'security checkpoint' 또는 'security screening area'입니다. 'boarding gate'는 탑승 게이트입니다."
+        },
+        {
+          "id": "se_ch07_set07_014",
+          "type": "ox",
+          "question": "경유 대기 중 라운지를 이용하려면 이용하는 항공사 정보가 필요할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 라운지 이용 자격은 항공사 및 좌석 등급에 따라 다르기 때문에 직원은 'Which airline are you flying with?'라고 확인합니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch07_set08_001",
+          "type": "multiple_choice",
+          "question": "경유 공항에서 연결편 표지판을 따라가라는 표현으로 알맞은 것은?",
+          "options": [
+            "Follow the connecting flight signs.",
+            "Follow the arrivals signs.",
+            "Follow the customs signs.",
+            "Follow the baggage claim signs."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Follow the connecting flight signs.'는 연결편 표지판을 따라가라는 표현입니다. 'Follow the transit signs.'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch07_set08_002",
+          "type": "multiple_choice",
+          "question": "연결편을 탑승하기 위한 게이트를 확인하는 가장 좋은 방법은?",
+          "options": [
+            "도착 모니터를 확인한다",
+            "탑승권을 직원에게 보여준다",
+            "수하물 카운터에서 묻는다",
+            "출국장 직원에게 묻는다"
+          ],
+          "answerIndex": 1,
+          "explanation": "탑승권을 직원에게 보여주면 'Your connecting flight departs from gate C14.'처럼 게이트 번호를 확인해줍니다."
+        },
+        {
+          "id": "se_ch07_set08_003",
+          "type": "multiple_choice",
+          "question": "수하물이 최종 목적지까지 자동 연결될 때 쓰는 다른 표현은?",
+          "options": [
+            "Your bags will be lost.",
+            "Your bags are checked all the way to Seoul.",
+            "You need to pick up your bags here.",
+            "Your bags are overweight."
+          ],
+          "answerIndex": 1,
+          "explanation": "'checked all the way to Seoul'은 서울까지 연결 탁송된다는 뜻으로 'checked through to Seoul'과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch07_set08_004",
+          "type": "multiple_choice",
+          "question": "환승 시간이 빠듯할 때 직원이 하는 조언으로 가장 자연스러운 것은?",
+          "options": [
+            "You have plenty of time.",
+            "Go directly to the gate.",
+            "Wait at the lounge.",
+            "Come back in an hour."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Go directly to the gate.'는 환승 시간이 촉박할 때 직원이 게이트로 바로 가라고 조언하는 표현입니다. 'Head straight there.'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch07_set08_005",
+          "type": "multiple_choice",
+          "question": "경유 승객도 보안검색을 받아야 하는지 묻는 표현으로 알맞은 것은?",
+          "options": [
+            "Do transit passengers go through security?",
+            "Are transit passengers allowed in the lounge?",
+            "Do transit passengers need a visa?",
+            "Can transit passengers exit the airport?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do transit passengers go through security?'는 경유 승객도 보안검색을 받아야 하는지 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch07_set08_006",
+          "type": "multiple_choice",
+          "question": "다음 중 터미널 간 이동 수단을 의미하는 표현은?",
+          "options": [
+            "airport transit train",
+            "runway bus",
+            "baggage trolley",
+            "boarding bridge"
+          ],
+          "answerIndex": 0,
+          "explanation": "'airport transit train'은 'inter-terminal shuttle'의 또 다른 표현으로 공항 내 터미널 간 이동 열차를 의미합니다."
+        },
+        {
+          "id": "se_ch07_set08_007",
+          "type": "multiple_choice",
+          "question": "연결편을 놓쳤을 때 가장 올바른 행동은?",
+          "options": [
+            "공항을 나간다",
+            "다음 편 비행기를 직접 예약한다",
+            "rebooking counter로 가서 다음 편으로 재예약을 요청한다",
+            "세관을 통과한다"
+          ],
+          "answerIndex": 2,
+          "explanation": "연결편을 놓치면 'rebooking counter'로 가서 다음 가능한 항공편으로 재예약을 요청해야 합니다."
+        },
+        {
+          "id": "se_ch07_set08_008",
+          "type": "multiple_choice",
+          "question": "'Which gate do I go to?'와 같은 뜻의 표현은?",
+          "options": [
+            "Can you check my gate number?",
+            "What time does my flight depart?",
+            "Where is the check-in counter?",
+            "Can I change my seat?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you check my gate number?'는 게이트 번호를 확인해달라는 표현으로 'Which gate do I go to?'와 같은 상황에서 씁니다."
+        },
+        {
+          "id": "se_ch07_set08_009",
+          "type": "multiple_choice",
+          "question": "프랑크푸르트를 경유한다고 할 때 알맞은 표현은?",
+          "options": [
+            "transit through Frankfurt",
+            "arrive at Frankfurt",
+            "depart from Frankfurt",
+            "land in Frankfurt"
+          ],
+          "answerIndex": 0,
+          "explanation": "'transit through Frankfurt'는 프랑크푸르트를 경유해서 지나간다는 의미입니다. 'stop over in Frankfurt', 'have a layover in Frankfurt'와 비슷합니다."
+        },
+        {
+          "id": "se_ch07_set08_010",
+          "type": "multiple_choice",
+          "question": "'travel documents'는 무엇을 가리키나요?",
+          "options": [
+            "지도와 안내서",
+            "여권, 탑승권 등 여행 관련 서류",
+            "수하물 영수증",
+            "환전 영수증"
+          ],
+          "answerIndex": 1,
+          "explanation": "'travel documents'는 여권, 탑승권, 비자 등 여행에 필요한 서류 전반을 가리킵니다."
+        },
+        {
+          "id": "se_ch07_set08_011",
+          "type": "ox",
+          "question": "'make your way there now'는 '지금 바로 그쪽으로 가세요'라는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'make your way'는 어딘가로 이동하다는 표현입니다. 'make your way there now'는 지금 바로 그곳으로 이동하라는 안내입니다."
+        },
+        {
+          "id": "se_ch07_set08_012",
+          "type": "ox",
+          "question": "'security control'은 보안 통제 지점으로 'security checkpoint'와 같은 곳을 가리킨다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'security control'과 'security checkpoint'는 모두 공항 보안검색대를 가리키며 같은 장소를 뜻합니다."
+        },
+        {
+          "id": "se_ch07_set08_013",
+          "type": "ox",
+          "question": "'boards at gate C14'는 C14 게이트에서 출발한다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'boards at gate C14'는 C14 게이트에서 탑승(출발)한다는 뜻으로 'departs from gate C14'와 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch07_set08_014",
+          "type": "ox",
+          "question": "'airport transit visa'는 공항 밖으로 나가는 경우에만 필요하다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'airport transit visa'는 공항 내에 머무는 경우에도 일부 나라에서 요구될 수 있습니다. 국적과 경유 국가에 따라 다릅니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch07_set09_001",
+          "type": "multiple_choice",
+          "question": "경유 공항에서 환승 카운터를 찾을 때 쓸 수 있는 표현 중 틀린 것은?",
+          "options": [
+            "Where is the transfer desk?",
+            "Where is the transit desk?",
+            "Is there a transfer counter nearby?",
+            "Where is the check-in lobby?"
+          ],
+          "answerIndex": 3,
+          "explanation": "'check-in lobby'는 환승 안내가 아닌 체크인 구역입니다. 나머지 세 표현은 모두 환승 카운터를 찾을 때 쓸 수 있는 표현입니다."
+        },
+        {
+          "id": "se_ch07_set09_002",
+          "type": "multiple_choice",
+          "question": "경유 공항에서 짐을 다시 수령하지 않아도 된다고 확인받았을 때 쓰이는 표현은?",
+          "options": [
+            "You need to collect it at baggage claim.",
+            "Your bags are lost.",
+            "It will go straight to Seoul.",
+            "Please repack your bags."
+          ],
+          "answerIndex": 2,
+          "explanation": "'It will go straight to Seoul.'은 짐이 경유지에서 멈추지 않고 서울로 바로 간다는 의미입니다. 수하물 자동 연결이 확인된 경우에 씁니다."
+        },
+        {
+          "id": "se_ch07_set09_003",
+          "type": "multiple_choice",
+          "question": "'I have a tight connection — only 45 minutes.'에서 'tight'의 의미는?",
+          "options": [
+            "충분한",
+            "넉넉한",
+            "빡빡한, 촉박한",
+            "편안한"
+          ],
+          "answerIndex": 2,
+          "explanation": "여기서 'tight'는 '빡빡한, 촉박한'이라는 의미입니다. 'tight connection'은 환승 시간이 매우 짧아 위태로운 상황을 나타냅니다."
+        },
+        {
+          "id": "se_ch07_set09_004",
+          "type": "multiple_choice",
+          "question": "경유지 보안검색을 다시 받아야 하는 승객 유형은?",
+          "options": [
+            "local passengers",
+            "first-class passengers",
+            "transit passengers",
+            "VIP passengers"
+          ],
+          "answerIndex": 2,
+          "explanation": "일부 공항에서는 모든 'transit passengers(경유 승객)'가 재보안검색을 받아야 합니다. 'All transit passengers must go through security.'가 그 예입니다."
+        },
+        {
+          "id": "se_ch07_set09_005",
+          "type": "multiple_choice",
+          "question": "셔틀이 Level 1, exit B에서 출발한다는 안내를 영어로 표현하면?",
+          "options": [
+            "Level 1, exit B. Just follow the signs.",
+            "Exit B, Level 2.",
+            "Level 3, near gate A.",
+            "Take the elevator to Level 1."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Level 1, exit B. Just follow the signs.'는 1층 B 출구에서 표지판을 따라가면 된다는 안내 표현입니다."
+        },
+        {
+          "id": "se_ch07_set09_006",
+          "type": "multiple_choice",
+          "question": "'get a new boarding pass'와 같은 의미의 표현은?",
+          "options": [
+            "cancel a boarding pass",
+            "reissue a boarding pass",
+            "upgrade a boarding pass",
+            "scan a boarding pass"
+          ],
+          "answerIndex": 1,
+          "explanation": "'reissue a boarding pass'는 탑승권을 새로 발급받는 것으로, 'get a new boarding pass'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch07_set09_007",
+          "type": "multiple_choice",
+          "question": "경유 라운지를 찾을 때 'Excuse me, where is the transit lounge?'라고 했을 때 직원이 먼저 확인하는 것은?",
+          "options": [
+            "여행 목적",
+            "목적지 도시",
+            "이용 항공사",
+            "좌석 번호"
+          ],
+          "answerIndex": 2,
+          "explanation": "라운지 이용 자격은 항공사마다 다르므로 직원은 'Which airline are you flying with?'라고 이용 항공사를 먼저 확인합니다."
+        },
+        {
+          "id": "se_ch07_set09_008",
+          "type": "multiple_choice",
+          "question": "독일 공항에서 경유 시 한국 여권 소지자에게 필요한 것은?",
+          "options": [
+            "독일 관광 비자",
+            "독일 환승 비자",
+            "한국 여권만으로 충분하다",
+            "입국 허가증"
+          ],
+          "answerIndex": 2,
+          "explanation": "한국 여권 소지자는 독일 공항 환승 시 별도의 환승 비자가 필요 없습니다. 여권만 있으면 경유가 가능합니다."
+        },
+        {
+          "id": "se_ch07_set09_009",
+          "type": "multiple_choice",
+          "question": "탑승권을 재발급받을 때 직원이 'No problem.'이라고 한 후 하는 행동은?",
+          "options": [
+            "항공편을 취소한다",
+            "새 탑승권을 출력한다",
+            "수하물을 찾아준다",
+            "비자를 확인한다"
+          ],
+          "answerIndex": 1,
+          "explanation": "직원이 'I'll print a new one for you right away.'라고 하며 새 탑승권을 바로 출력해줍니다."
+        },
+        {
+          "id": "se_ch07_set09_010",
+          "type": "multiple_choice",
+          "question": "연결편 게이트 안내 시 'boards at gate C14'는 어떤 의미인가요?",
+          "options": [
+            "C14 게이트에서 수하물을 찾는다",
+            "C14 게이트에서 탑승한다",
+            "C14 게이트에서 입국 심사를 받는다",
+            "C14 게이트에서 환전한다"
+          ],
+          "answerIndex": 1,
+          "explanation": "'boards at gate C14'는 C14 게이트에서 탑승한다는 의미입니다. 'departs from gate C14'와 같은 뜻으로 씁니다."
+        },
+        {
+          "id": "se_ch07_set09_011",
+          "type": "ox",
+          "question": "'Is there another security check?'는 보안검색을 다시 받아야 하는지 묻는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Is there another security check?'는 보안검색이 한 번 더 있는지 묻는 표현으로, 'Do I need to go through security again?'과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch07_set09_012",
+          "type": "ox",
+          "question": "'put you on the next available flight'는 다음 비행기를 취소시켜 준다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'put you on the next available flight'는 다음에 이용 가능한 항공편에 배정해준다는 뜻입니다. 연결편을 놓쳤을 때 재예약해주는 상황에서 쓰입니다."
+        },
+        {
+          "id": "se_ch07_set09_013",
+          "type": "ox",
+          "question": "경유지에서 짐이 자동 연결되면 수하물 수취대에서 따로 찾을 필요가 없다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 수하물이 'checked through(자동 연결 탁송)'된 경우 경유지에서 따로 찾지 않아도 최종 목적지에서 수령하면 됩니다."
+        },
+        {
+          "id": "se_ch07_set09_014",
+          "type": "ox",
+          "question": "'Korean nationals'는 한국 국적자를 뜻하며 'Korean passport holders'와 같은 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Korean nationals(한국 국적자)'와 'Korean passport holders(한국 여권 소지자)'는 같은 대상을 가리키는 동의어입니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch07_set10_001",
+          "type": "multiple_choice",
+          "question": "경유 공항에서 '환승 방향 화살표를 따라가세요'를 영어로 표현하면?",
+          "options": [
+            "Follow the arrows for arrivals.",
+            "Follow the arrows for transfers.",
+            "Follow the arrows for customs.",
+            "Follow the arrows for check-in."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Follow the arrows for transfers.'는 환승 방향 화살표를 따라가라는 표현입니다. 'Follow the transit signs.'와 같은 상황에서 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch07_set10_002",
+          "type": "multiple_choice",
+          "question": "연결편을 놓쳤을 때 가장 적절한 요청 표현은?",
+          "options": [
+            "I missed my connection. What should I do?",
+            "My connection was great. Thank you.",
+            "I need to buy a new ticket online.",
+            "I arrived too early for my connection."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I missed my connection. What should I do?'는 연결편을 놓쳤다고 알리고 다음 절차를 물어보는 가장 적절한 표현입니다."
+        },
+        {
+          "id": "se_ch07_set10_003",
+          "type": "multiple_choice",
+          "question": "'Does my luggage go through automatically?'라고 묻는 이유는?",
+          "options": [
+            "짐을 업그레이드하기 위해",
+            "경유지에서 짐을 따로 찾아야 하는지 확인하기 위해",
+            "수하물 초과 비용을 확인하기 위해",
+            "분실된 짐을 찾기 위해"
+          ],
+          "answerIndex": 1,
+          "explanation": "경유 시 짐이 자동 연결(checked through)되는지 확인하기 위해 묻는 표현입니다. 연결 탁송이면 경유지에서 따로 찾을 필요가 없습니다."
+        },
+        {
+          "id": "se_ch07_set10_004",
+          "type": "multiple_choice",
+          "question": "환승 시간이 촉박할 때 직원에게 'Will I make it in time?'라고 묻는 목적은?",
+          "options": [
+            "연결편 가격을 물어보려고",
+            "연결편에 탑승할 수 있을지 확인하려고",
+            "수하물이 도착하는지 확인하려고",
+            "라운지 입장 가능 여부를 확인하려고"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Will I make it in time?'은 환승 시간 내에 연결편에 탑승할 수 있는지 확인하려는 표현입니다."
+        },
+        {
+          "id": "se_ch07_set10_005",
+          "type": "multiple_choice",
+          "question": "경유 시 다른 터미널로 이동하는 가장 일반적인 방법은?",
+          "options": [
+            "택시를 타고 이동한다",
+            "터미널 간 셔틀을 이용한다",
+            "걸어서 이동한다",
+            "지하철을 타고 이동한다"
+          ],
+          "answerIndex": 1,
+          "explanation": "경유 공항에서 다른 터미널로 이동할 때는 보통 'inter-terminal shuttle'이나 'airport transit train'을 이용합니다."
+        },
+        {
+          "id": "se_ch07_set10_006",
+          "type": "multiple_choice",
+          "question": "재보안검색대를 찾을 때 'Turn left at the end of this corridor.'는 무엇을 의미하나요?",
+          "options": [
+            "엘리베이터를 타세요",
+            "복도 끝에서 왼쪽으로 가세요",
+            "1층으로 내려가세요",
+            "출구로 나가세요"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Turn left at the end of this corridor.'는 '이 복도 끝에서 왼쪽으로 가세요'라는 방향 안내 표현입니다."
+        },
+        {
+          "id": "se_ch07_set10_007",
+          "type": "multiple_choice",
+          "question": "연결편 게이트를 묻는 표현으로 적절한 것은?",
+          "options": [
+            "Which gate is my connecting flight?",
+            "Which gate is my hotel?",
+            "Which gate is the baggage claim?",
+            "Which gate is the customs office?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Which gate is my connecting flight?'는 연결편 게이트 번호를 묻는 표현입니다. 'What gate is my connecting flight?'라고도 할 수 있습니다."
+        },
+        {
+          "id": "se_ch07_set10_008",
+          "type": "multiple_choice",
+          "question": "탑승권 재발급을 요청할 때 'I need to reissue my boarding pass.'와 같은 뜻의 표현은?",
+          "options": [
+            "I need to cancel my boarding pass.",
+            "I need to print another boarding pass.",
+            "I need to upgrade my boarding pass.",
+            "I need to scan my boarding pass."
+          ],
+          "answerIndex": 1,
+          "explanation": "'print another boarding pass'는 탑승권을 한 장 더 출력한다는 뜻으로 'reissue my boarding pass'와 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch07_set10_009",
+          "type": "multiple_choice",
+          "question": "라운지 위치를 물을 때 알맞은 표현은?",
+          "options": [
+            "Excuse me, where is the transit lounge?",
+            "Excuse me, where is the baggage claim?",
+            "Excuse me, where is the customs hall?",
+            "Excuse me, where is the boarding gate?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Excuse me, where is the transit lounge?'는 경유 라운지 위치를 묻는 정확한 표현입니다."
+        },
+        {
+          "id": "se_ch07_set10_010",
+          "type": "multiple_choice",
+          "question": "'have a layover in Frankfurt'와 같은 뜻의 표현은?",
+          "options": [
+            "land in Frankfurt for good",
+            "stop over in Frankfurt",
+            "depart from Frankfurt",
+            "arrive at Frankfurt as final destination"
+          ],
+          "answerIndex": 1,
+          "explanation": "'stop over in Frankfurt'는 'have a layover in Frankfurt'와 같이 프랑크푸르트에서 경유 대기를 한다는 의미입니다."
+        },
+        {
+          "id": "se_ch07_set10_011",
+          "type": "ox",
+          "question": "'find you a seat on an earlier flight'는 더 이른 항공편에 자리를 잡아준다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'find you a seat on an earlier flight'는 더 이른 항공편에 좌석을 배정해준다는 의미입니다. 연결편을 놓친 승객에게 안내하는 표현입니다."
+        },
+        {
+          "id": "se_ch07_set10_012",
+          "type": "ox",
+          "question": "경유 라운지(transit lounge)는 항공사와 무관하게 누구나 무료로 이용할 수 있다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 라운지 이용은 항공사 등급, 좌석 클래스, 유료 멤버십 등에 따라 제한됩니다. 누구나 무료로 이용할 수 있는 것은 아닙니다."
+        },
+        {
+          "id": "se_ch07_set10_013",
+          "type": "ox",
+          "question": "'next to gate E'는 'near gate E'와 같이 게이트 근처를 나타내는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'next to gate E'(E 게이트 옆)와 'near gate E'(E 게이트 근처) 모두 E 게이트 인근을 나타내며 위치 안내에 쓰입니다."
+        },
+        {
+          "id": "se_ch07_set10_014",
+          "type": "ox",
+          "question": "'Do I have to pick up my luggage here?'는 여기서 짐을 찾아야 하는지 묻는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'pick up my luggage'는 '짐을 찾다'라는 뜻으로, 'collect my bags'와 같은 의미입니다. 경유 시 수하물 자동 연결 여부를 확인할 때 쓰는 표현입니다."
+        }
+      ]
     }
   ]
 }

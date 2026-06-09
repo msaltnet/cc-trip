@@ -7,34 +7,68 @@
       "id": "ch31_d01",
       "title": "복장 규정 안내받기",
       "lines": [
-        { "speaker": "경비", "en": "Excuse me, you need to cover your shoulders and knees to enter.", "ko": "실례합니다, 입장하시려면 어깨와 무릎을 가리셔야 합니다." },
-        { "speaker": "나", "en": "Oh, I didn't know. Is there a dress code here?", "ko": "아, 몰랐어요. 여기 복장 규정이 있나요?" },
-        { "speaker": "경비", "en": "Yes, this is a religious site. Bare shoulders and shorts are not allowed.", "ko": "네, 이곳은 종교 시설입니다. 맨 어깨와 반바지는 허용되지 않습니다." },
-        { "speaker": "나", "en": "I understand. Can I borrow something to cover up?", "ko": "알겠습니다. 가릴 것을 빌릴 수 있을까요?" }
+        {
+          "speaker": "경비",
+          "en": "Excuse me, you need to cover your shoulders and knees to enter.",
+          "ko": "실례합니다, 입장하시려면 어깨와 무릎을 가리셔야 합니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Oh, I didn't know. Is there a dress code here?",
+          "ko": "아, 몰랐어요. 여기 복장 규정이 있나요?"
+        },
+        {
+          "speaker": "경비",
+          "en": "Yes, this is a religious site. Bare shoulders and shorts are not allowed.",
+          "ko": "네, 이곳은 종교 시설입니다. 맨 어깨와 반바지는 허용되지 않습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "I understand. Can I borrow something to cover up?",
+          "ko": "알겠습니다. 가릴 것을 빌릴 수 있을까요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "You need to cover your shoulders and knees.",
           "ko": "바티칸·대성당에서 가장 많이 듣는 말. 'cover'는 '덮다/가리다'의 뜻. 'bare shoulders(맨 어깨)'와 'shorts(반바지)'는 금지 품목으로 함께 기억하자.",
           "alternatives": [
-            { "en": "Shoulders and knees must be covered.", "ko": "수동태로 규정 자체를 강조하는 표현. 안내판에도 자주 등장함." },
-            { "en": "Please make sure your shoulders and knees are covered.", "ko": "please를 붙인 더 정중한 안내 표현." }
+            {
+              "en": "Shoulders and knees must be covered.",
+              "ko": "수동태로 규정 자체를 강조하는 표현. 안내판에도 자주 등장함."
+            },
+            {
+              "en": "Please make sure your shoulders and knees are covered.",
+              "ko": "please를 붙인 더 정중한 안내 표현."
+            }
           ]
         },
         {
           "en": "Is there a dress code here?",
           "ko": "'dress code(드레스 코드)'는 복장 규정을 뜻하는 국제 공용어. 종교 시설뿐 아니라 레스토랑·클럽 등에서도 사용됨.",
           "alternatives": [
-            { "en": "Are there any clothing requirements?", "ko": "복장 요건이 있는지 묻는 좀 더 풀어쓴 표현." },
-            { "en": "What is the dress policy here?", "ko": "'policy'를 사용해 규정을 묻는 표현. 공식적인 어감." }
+            {
+              "en": "Are there any clothing requirements?",
+              "ko": "복장 요건이 있는지 묻는 좀 더 풀어쓴 표현."
+            },
+            {
+              "en": "What is the dress policy here?",
+              "ko": "'policy'를 사용해 규정을 묻는 표현. 공식적인 어감."
+            }
           ]
         },
         {
           "en": "Can I borrow something to cover up?",
           "ko": "'cover up'은 몸을 가리다는 표현. 'borrow(빌리다)'를 써야 무료 대여를 요청하는 것이고, 'buy(사다)'는 구매 의사를 나타냄.",
           "alternatives": [
-            { "en": "Do you have a wrap or scarf I can use?", "ko": "구체적으로 두르는 천이나 스카프를 요청하는 표현." },
-            { "en": "Is there somewhere I can get a shawl?", "ko": "숄을 어디서 구할 수 있는지 묻는 표현." }
+            {
+              "en": "Do you have a wrap or scarf I can use?",
+              "ko": "구체적으로 두르는 천이나 스카프를 요청하는 표현."
+            },
+            {
+              "en": "Is there somewhere I can get a shawl?",
+              "ko": "숄을 어디서 구할 수 있는지 묻는 표현."
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch31_d02",
       "title": "숄 대여·구매하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, do you have a shawl or scarf to cover up?", "ko": "실례합니다, 몸을 가릴 숄이나 스카프가 있나요?" },
-        { "speaker": "직원", "en": "Yes, we have shawls available to borrow for free near the entrance.", "ko": "네, 입구 근처에서 무료로 빌릴 수 있는 숄이 있습니다." },
-        { "speaker": "나", "en": "That's great. Can I just take one?", "ko": "잘됐네요. 그냥 가져가면 될까요?" },
-        { "speaker": "직원", "en": "Yes, just wrap it around your waist or shoulders and return it when you leave.", "ko": "네, 허리나 어깨에 두르시고 나가실 때 반납해 주시면 됩니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, do you have a shawl or scarf to cover up?",
+          "ko": "실례합니다, 몸을 가릴 숄이나 스카프가 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, we have shawls available to borrow for free near the entrance.",
+          "ko": "네, 입구 근처에서 무료로 빌릴 수 있는 숄이 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "That's great. Can I just take one?",
+          "ko": "잘됐네요. 그냥 가져가면 될까요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, just wrap it around your waist or shoulders and return it when you leave.",
+          "ko": "네, 허리나 어깨에 두르시고 나가실 때 반납해 주시면 됩니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Do you have a shawl or scarf to cover up?",
           "ko": "'shawl(숄)'은 어깨나 허리에 두르는 큰 천, 'scarf(스카프)'는 목에 두르는 작은 천. 종교 시설 입구에서 무료 또는 소액으로 빌려주는 경우가 많음.",
           "alternatives": [
-            { "en": "Is there a wrap I can use to cover my shoulders?", "ko": "'wrap'을 사용해 두르는 천을 요청하는 표현." },
-            { "en": "Can I rent a cover-up here?", "ko": "'rent(빌리다)'를 사용한 표현. 유료일 때도 쓸 수 있음." }
+            {
+              "en": "Is there a wrap I can use to cover my shoulders?",
+              "ko": "'wrap'을 사용해 두르는 천을 요청하는 표현."
+            },
+            {
+              "en": "Can I rent a cover-up here?",
+              "ko": "'rent(빌리다)'를 사용한 표현. 유료일 때도 쓸 수 있음."
+            }
           ]
         },
         {
           "en": "Available to borrow for free.",
           "ko": "'available(이용 가능한)'은 직원이 자주 쓰는 단어. 'for free(무료로)'는 '무료'를 의미하며 'free of charge'와 같은 말.",
           "alternatives": [
-            { "en": "Complimentary shawls are provided.", "ko": "'complimentary(무료 서비스의)'는 호텔·관광지에서 자주 쓰이는 격식 있는 표현." },
-            { "en": "You can use one at no charge.", "ko": "'at no charge'도 무료라는 표현으로 공식 안내문에 자주 등장." }
+            {
+              "en": "Complimentary shawls are provided.",
+              "ko": "'complimentary(무료 서비스의)'는 호텔·관광지에서 자주 쓰이는 격식 있는 표현."
+            },
+            {
+              "en": "You can use one at no charge.",
+              "ko": "'at no charge'도 무료라는 표현으로 공식 안내문에 자주 등장."
+            }
           ]
         },
         {
           "en": "Return it when you leave.",
           "ko": "대여한 물품을 반납하라는 안내. 'return(반납하다)'은 빌린 것을 돌려준다는 의미. 'when you leave'는 떠날 때.",
           "alternatives": [
-            { "en": "Please hand it back at the exit.", "ko": "출구에서 반납해달라는 더 구체적인 표현." },
-            { "en": "Just leave it at the entrance when you're done.", "ko": "다 쓰면 입구에 두고 가면 된다는 캐주얼한 안내." }
+            {
+              "en": "Please hand it back at the exit.",
+              "ko": "출구에서 반납해달라는 더 구체적인 표현."
+            },
+            {
+              "en": "Just leave it at the entrance when you're done.",
+              "ko": "다 쓰면 입구에 두고 가면 된다는 캐주얼한 안내."
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch31_d03",
       "title": "모자 벗으라는 안내",
       "lines": [
-        { "speaker": "경비", "en": "Sir, could you please remove your hat before entering?", "ko": "선생님, 입장하시기 전에 모자를 벗어 주시겠어요?" },
-        { "speaker": "나", "en": "Oh, of course. I'm sorry about that.", "ko": "아, 물론이죠. 죄송합니다." },
-        { "speaker": "경비", "en": "No worries. It's a sign of respect in places of worship.", "ko": "괜찮습니다. 예배 장소에서 예의를 표하는 행동입니다." },
-        { "speaker": "나", "en": "I understand. I'll keep that in mind.", "ko": "알겠습니다. 명심하겠습니다." }
+        {
+          "speaker": "경비",
+          "en": "Sir, could you please remove your hat before entering?",
+          "ko": "선생님, 입장하시기 전에 모자를 벗어 주시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Oh, of course. I'm sorry about that.",
+          "ko": "아, 물론이죠. 죄송합니다."
+        },
+        {
+          "speaker": "경비",
+          "en": "No worries. It's a sign of respect in places of worship.",
+          "ko": "괜찮습니다. 예배 장소에서 예의를 표하는 행동입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "I understand. I'll keep that in mind.",
+          "ko": "알겠습니다. 명심하겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Could you please remove your hat?",
           "ko": "'remove your hat(모자를 벗다)'은 'take off your hat'과 같은 표현. 성당·교회 등 종교 시설에서 남성은 모자를 벗는 것이 예의. 'Could you please ~?'로 부드럽게 요청.",
           "alternatives": [
-            { "en": "Please take off your hat.", "ko": "'take off'을 사용한 더 간결한 표현." },
-            { "en": "Hats must be removed inside.", "ko": "안내문이나 표지판에서 자주 볼 수 있는 수동태 표현." }
+            {
+              "en": "Please take off your hat.",
+              "ko": "'take off'을 사용한 더 간결한 표현."
+            },
+            {
+              "en": "Hats must be removed inside.",
+              "ko": "안내문이나 표지판에서 자주 볼 수 있는 수동태 표현."
+            }
           ]
         },
         {
           "en": "A sign of respect.",
           "ko": "'sign of respect(예의의 표시)'는 문화적 관습을 설명할 때 쓰는 표현. 'sign'은 여기서 '표시·상징'의 의미.",
           "alternatives": [
-            { "en": "It's a way to show respect.", "ko": "존중을 나타내는 방법이라는 설명 표현." },
-            { "en": "It's customary to remove your hat here.", "ko": "'customary(관습적인)'를 사용해 전통임을 설명하는 표현." }
+            {
+              "en": "It's a way to show respect.",
+              "ko": "존중을 나타내는 방법이라는 설명 표현."
+            },
+            {
+              "en": "It's customary to remove your hat here.",
+              "ko": "'customary(관습적인)'를 사용해 전통임을 설명하는 표현."
+            }
           ]
         },
         {
           "en": "I'll keep that in mind.",
           "ko": "'keep ~ in mind'는 '명심하다'는 뜻의 관용표현. 직역하면 '마음속에 간직하겠다'. 'I'll remember that.'과 같은 의미.",
           "alternatives": [
-            { "en": "I'll remember that.", "ko": "기억하겠다는 간결한 표현." },
-            { "en": "Good to know.", "ko": "알게 돼서 좋다는 캐주얼한 반응 표현." }
+            {
+              "en": "I'll remember that.",
+              "ko": "기억하겠다는 간결한 표현."
+            },
+            {
+              "en": "Good to know.",
+              "ko": "알게 돼서 좋다는 캐주얼한 반응 표현."
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch31_d04",
       "title": "정숙 요청받기",
       "lines": [
-        { "speaker": "안내원", "en": "Please keep your voice down. This is a place of worship.", "ko": "목소리를 낮춰 주세요. 이곳은 예배 장소입니다." },
-        { "speaker": "나", "en": "I'm sorry, we'll be quieter.", "ko": "죄송합니다, 더 조용히 할게요." },
-        { "speaker": "안내원", "en": "Thank you. Please maintain silence in the main chapel.", "ko": "감사합니다. 본당에서는 정숙을 유지해 주세요." },
-        { "speaker": "나", "en": "Understood. We'll move quietly.", "ko": "알겠습니다. 조용히 이동하겠습니다." }
+        {
+          "speaker": "안내원",
+          "en": "Please keep your voice down. This is a place of worship.",
+          "ko": "목소리를 낮춰 주세요. 이곳은 예배 장소입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "I'm sorry, we'll be quieter.",
+          "ko": "죄송합니다, 더 조용히 할게요."
+        },
+        {
+          "speaker": "안내원",
+          "en": "Thank you. Please maintain silence in the main chapel.",
+          "ko": "감사합니다. 본당에서는 정숙을 유지해 주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Understood. We'll move quietly.",
+          "ko": "알겠습니다. 조용히 이동하겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Please keep your voice down.",
           "ko": "'keep your voice down'은 '목소리를 낮추다'는 표현. 'Quiet!'보다 훨씬 정중함. 비슷한 표현으로 'lower your voice'도 있음.",
           "alternatives": [
-            { "en": "Please lower your voice.", "ko": "목소리를 낮춰달라는 동일한 뜻의 표현." },
-            { "en": "Could you please be a bit quieter?", "ko": "조금 더 조용히 해달라는 정중한 요청." }
+            {
+              "en": "Please lower your voice.",
+              "ko": "목소리를 낮춰달라는 동일한 뜻의 표현."
+            },
+            {
+              "en": "Could you please be a bit quieter?",
+              "ko": "조금 더 조용히 해달라는 정중한 요청."
+            }
           ]
         },
         {
           "en": "Maintain silence.",
           "ko": "'maintain silence'는 공식적인 정숙 유지 표현. 안내판에도 자주 등장. 'Please observe silence'도 같은 의미로 쓰임.",
           "alternatives": [
-            { "en": "Please observe silence.", "ko": "공식 안내문에서 자주 볼 수 있는 정숙 요청." },
-            { "en": "Silence is required in this area.", "ko": "이 구역에서는 정숙이 요구된다는 규정 표현." }
+            {
+              "en": "Please observe silence.",
+              "ko": "공식 안내문에서 자주 볼 수 있는 정숙 요청."
+            },
+            {
+              "en": "Silence is required in this area.",
+              "ko": "이 구역에서는 정숙이 요구된다는 규정 표현."
+            }
           ]
         },
         {
           "en": "This is a place of worship.",
           "ko": "'place of worship(예배 장소)'는 종교 시설을 총칭하는 중립적 표현. 성당·교회·모스크·사원 등 모든 종교 시설에 쓸 수 있음.",
           "alternatives": [
-            { "en": "This is a sacred space.", "ko": "'sacred(신성한)'를 사용한 표현으로 경건함을 강조." },
-            { "en": "This is a house of God.", "ko": "기독교 계열 시설에서 자주 쓰이는 표현." }
+            {
+              "en": "This is a sacred space.",
+              "ko": "'sacred(신성한)'를 사용한 표현으로 경건함을 강조."
+            },
+            {
+              "en": "This is a house of God.",
+              "ko": "기독교 계열 시설에서 자주 쓰이는 표현."
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch31_d05",
       "title": "내부 사진 촬영 가능 여부 묻기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, is photography allowed inside?", "ko": "실례합니다, 내부에서 사진 촬영이 허용되나요?" },
-        { "speaker": "안내원", "en": "Photography is permitted in most areas, but not near the altar.", "ko": "대부분의 구역에서 사진 촬영이 허용되지만, 제단 근처에서는 안 됩니다." },
-        { "speaker": "나", "en": "Can I use flash?", "ko": "플래시를 사용해도 되나요?" },
-        { "speaker": "안내원", "en": "No flash, please. It can damage the artwork.", "ko": "플래시는 사용하지 마세요. 예술 작품에 손상을 줄 수 있습니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, is photography allowed inside?",
+          "ko": "실례합니다, 내부에서 사진 촬영이 허용되나요?"
+        },
+        {
+          "speaker": "안내원",
+          "en": "Photography is permitted in most areas, but not near the altar.",
+          "ko": "대부분의 구역에서 사진 촬영이 허용되지만, 제단 근처에서는 안 됩니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Can I use flash?",
+          "ko": "플래시를 사용해도 되나요?"
+        },
+        {
+          "speaker": "안내원",
+          "en": "No flash, please. It can damage the artwork.",
+          "ko": "플래시는 사용하지 마세요. 예술 작품에 손상을 줄 수 있습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is photography allowed inside?",
           "ko": "'photography allowed(사진 촬영 허용)'는 관광지에서 가장 많이 쓰이는 문구. 'Can I take photos?'보다 좀 더 격식 있는 표현.",
           "alternatives": [
-            { "en": "Can I take photos inside?", "ko": "가장 간단하고 직접적인 사진 허가 요청 표현." },
-            { "en": "Is it okay to take pictures here?", "ko": "'Is it okay to ~?'를 사용한 허락 요청 표현." }
+            {
+              "en": "Can I take photos inside?",
+              "ko": "가장 간단하고 직접적인 사진 허가 요청 표현."
+            },
+            {
+              "en": "Is it okay to take pictures here?",
+              "ko": "'Is it okay to ~?'를 사용한 허락 요청 표현."
+            }
           ]
         },
         {
           "en": "Photography is permitted.",
           "ko": "'permitted(허용된)'는 공식 허가를 나타내는 단어. 반대로 금지할 때는 'Photography is not permitted' 또는 'No photography'라고 함.",
           "alternatives": [
-            { "en": "Photos are allowed here.", "ko": "사진 촬영이 허용된다는 일상적인 표현." },
-            { "en": "Feel free to take pictures.", "ko": "자유롭게 사진을 찍어도 된다는 친근한 표현." }
+            {
+              "en": "Photos are allowed here.",
+              "ko": "사진 촬영이 허용된다는 일상적인 표현."
+            },
+            {
+              "en": "Feel free to take pictures.",
+              "ko": "자유롭게 사진을 찍어도 된다는 친근한 표현."
+            }
           ]
         },
         {
           "en": "No flash, please.",
           "ko": "플래시 사용 금지 안내. 'No + 명사'는 금지를 나타내는 간결한 표현 방식. 'No flash photography'도 안내판에 자주 등장함.",
           "alternatives": [
-            { "en": "Please turn off your flash.", "ko": "플래시를 꺼달라는 구체적인 지시 표현." },
-            { "en": "Flash photography is not permitted.", "ko": "공식적인 금지 표현으로 안내문에 자주 사용됨." }
+            {
+              "en": "Please turn off your flash.",
+              "ko": "플래시를 꺼달라는 구체적인 지시 표현."
+            },
+            {
+              "en": "Flash photography is not permitted.",
+              "ko": "공식적인 금지 표현으로 안내문에 자주 사용됨."
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch31_d06",
       "title": "미사 중 입장 제한 안내",
       "lines": [
-        { "speaker": "경비", "en": "I'm afraid you can't enter right now. A mass is in progress.", "ko": "죄송하지만 지금은 입장하실 수 없습니다. 미사가 진행 중입니다." },
-        { "speaker": "나", "en": "Oh, how long will the mass last?", "ko": "아, 미사가 얼마나 지속되나요?" },
-        { "speaker": "경비", "en": "About another thirty minutes. You're welcome to wait outside.", "ko": "약 30분 정도 남았습니다. 바깥에서 기다리셔도 됩니다." },
-        { "speaker": "나", "en": "I see. We'll wait. Thank you for letting us know.", "ko": "알겠습니다. 기다리겠습니다. 알려 주셔서 감사합니다." }
+        {
+          "speaker": "경비",
+          "en": "I'm afraid you can't enter right now. A mass is in progress.",
+          "ko": "죄송하지만 지금은 입장하실 수 없습니다. 미사가 진행 중입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Oh, how long will the mass last?",
+          "ko": "아, 미사가 얼마나 지속되나요?"
+        },
+        {
+          "speaker": "경비",
+          "en": "About another thirty minutes. You're welcome to wait outside.",
+          "ko": "약 30분 정도 남았습니다. 바깥에서 기다리셔도 됩니다."
+        },
+        {
+          "speaker": "나",
+          "en": "I see. We'll wait. Thank you for letting us know.",
+          "ko": "알겠습니다. 기다리겠습니다. 알려 주셔서 감사합니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "A mass is in progress.",
           "ko": "'mass(미사)'는 가톨릭 예배를 뜻하는 단어. 'in progress'는 '진행 중'이라는 표현으로 'under way'와 같은 의미. 개신교 예배는 'service', 일반 종교 행사는 'ceremony'라고 함.",
           "alternatives": [
-            { "en": "A service is currently taking place.", "ko": "예배가 현재 진행 중이라는 표현. 개신교에서는 'service'를 더 많이 씀." },
-            { "en": "There is a ceremony going on.", "ko": "종교 의식이 진행 중이라는 더 일반적인 표현." }
+            {
+              "en": "A service is currently taking place.",
+              "ko": "예배가 현재 진행 중이라는 표현. 개신교에서는 'service'를 더 많이 씀."
+            },
+            {
+              "en": "There is a ceremony going on.",
+              "ko": "종교 의식이 진행 중이라는 더 일반적인 표현."
+            }
           ]
         },
         {
           "en": "I'm afraid you can't enter right now.",
           "ko": "'I'm afraid ~'는 '유감스럽게도 ~입니다'라는 완곡한 거절 표현. 단순히 'You can't'라고 하는 것보다 훨씬 정중하게 들림.",
           "alternatives": [
-            { "en": "Unfortunately, entry is not possible at this time.", "ko": "격식 있는 거절 표현으로 공식 안내에 적합." },
-            { "en": "I'm sorry, but we can't let you in right now.", "ko": "Sorry를 활용한 정중한 거절 표현." }
+            {
+              "en": "Unfortunately, entry is not possible at this time.",
+              "ko": "격식 있는 거절 표현으로 공식 안내에 적합."
+            },
+            {
+              "en": "I'm sorry, but we can't let you in right now.",
+              "ko": "Sorry를 활용한 정중한 거절 표현."
+            }
           ]
         },
         {
           "en": "You're welcome to wait outside.",
           "ko": "'You're welcome to ~'는 '~해도 됩니다, ~하셔도 환영합니다'라는 허락 표현. 단순한 'You can wait'보다 훨씬 친절하게 들림.",
           "alternatives": [
-            { "en": "Feel free to wait in the courtyard.", "ko": "마당에서 기다려도 된다는 친근한 허락 표현." },
-            { "en": "Please wait here until the mass is over.", "ko": "미사가 끝날 때까지 기다려달라는 직접적인 안내." }
+            {
+              "en": "Feel free to wait in the courtyard.",
+              "ko": "마당에서 기다려도 된다는 친근한 허락 표현."
+            },
+            {
+              "en": "Please wait here until the mass is over.",
+              "ko": "미사가 끝날 때까지 기다려달라는 직접적인 안내."
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch31_d07",
       "title": "촛불 봉헌·헌금함 이용하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, can visitors light a candle here?", "ko": "실례합니다, 방문객도 여기서 촛불을 켤 수 있나요?" },
-        { "speaker": "안내원", "en": "Yes, of course. There's a small donation expected — usually one or two euros.", "ko": "네, 물론입니다. 보통 1~2유로 정도 소액 헌금을 하시면 됩니다." },
-        { "speaker": "나", "en": "Where do I put the donation?", "ko": "헌금은 어디에 넣나요?" },
-        { "speaker": "안내원", "en": "In the donation box right next to the candles.", "ko": "초 바로 옆에 있는 헌금함에 넣으시면 됩니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, can visitors light a candle here?",
+          "ko": "실례합니다, 방문객도 여기서 촛불을 켤 수 있나요?"
+        },
+        {
+          "speaker": "안내원",
+          "en": "Yes, of course. There's a small donation expected — usually one or two euros.",
+          "ko": "네, 물론입니다. 보통 1~2유로 정도 소액 헌금을 하시면 됩니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Where do I put the donation?",
+          "ko": "헌금은 어디에 넣나요?"
+        },
+        {
+          "speaker": "안내원",
+          "en": "In the donation box right next to the candles.",
+          "ko": "초 바로 옆에 있는 헌금함에 넣으시면 됩니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Light a candle.",
           "ko": "'light a candle(촛불을 켜다)'는 종교 시설에서 기도나 추모의 의미로 초에 불을 붙이는 행위. 'candle(초)'과 'light(불을 켜다)'를 함께 기억하자.",
           "alternatives": [
-            { "en": "Can I burn a candle for prayer?", "ko": "기도를 위해 초를 켤 수 있는지 묻는 표현." },
-            { "en": "I'd like to offer a candle.", "ko": "촛불 봉헌 의사를 표현하는 정중한 표현." }
+            {
+              "en": "Can I burn a candle for prayer?",
+              "ko": "기도를 위해 초를 켤 수 있는지 묻는 표현."
+            },
+            {
+              "en": "I'd like to offer a candle.",
+              "ko": "촛불 봉헌 의사를 표현하는 정중한 표현."
+            }
           ]
         },
         {
           "en": "A small donation is expected.",
           "ko": "'donation(헌금, 기부금)'은 종교 시설에서 자주 쓰이는 단어. 'expected(기대되는)'는 강제가 아니라 관례로 하는 것임을 나타냄. 'offering'도 같은 맥락에서 쓰임.",
           "alternatives": [
-            { "en": "There's a suggested offering.", "ko": "'suggested offering(권장 봉헌금)'이라는 부드러운 표현." },
-            { "en": "A contribution of one euro is customary.", "ko": "1유로 기부가 관례라는 구체적인 안내 표현." }
+            {
+              "en": "There's a suggested offering.",
+              "ko": "'suggested offering(권장 봉헌금)'이라는 부드러운 표현."
+            },
+            {
+              "en": "A contribution of one euro is customary.",
+              "ko": "1유로 기부가 관례라는 구체적인 안내 표현."
+            }
           ]
         },
         {
           "en": "Donation box.",
           "ko": "'donation box(헌금함)'는 종교 시설 내 기부금을 넣는 상자. 'collection box'나 'offering box'도 같은 의미로 쓰임.",
           "alternatives": [
-            { "en": "Collection box.", "ko": "헌금함의 또 다른 표현으로 영국에서 자주 씀." },
-            { "en": "Offering plate.", "ko": "예배 중에 돌리는 헌금 접시를 가리키는 표현." }
+            {
+              "en": "Collection box.",
+              "ko": "헌금함의 또 다른 표현으로 영국에서 자주 씀."
+            },
+            {
+              "en": "Offering plate.",
+              "ko": "예배 중에 돌리는 헌금 접시를 가리키는 표현."
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch31_d08",
       "title": "줄서기와 보안 검색",
       "lines": [
-        { "speaker": "경비", "en": "Please join the queue over there and have your bag ready for inspection.", "ko": "저쪽 줄 끝에 서 주시고, 가방 검사를 위해 준비해 주세요." },
-        { "speaker": "나", "en": "Do I need to take anything out of my bag?", "ko": "가방에서 꺼내야 할 것이 있나요?" },
-        { "speaker": "경비", "en": "Please remove any metal items and put them in the tray.", "ko": "금속 물품은 꺼내서 트레이에 올려 주세요." },
-        { "speaker": "나", "en": "Understood. Should I take off my belt as well?", "ko": "알겠습니다. 벨트도 풀어야 하나요?" }
+        {
+          "speaker": "경비",
+          "en": "Please join the queue over there and have your bag ready for inspection.",
+          "ko": "저쪽 줄 끝에 서 주시고, 가방 검사를 위해 준비해 주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Do I need to take anything out of my bag?",
+          "ko": "가방에서 꺼내야 할 것이 있나요?"
+        },
+        {
+          "speaker": "경비",
+          "en": "Please remove any metal items and put them in the tray.",
+          "ko": "금속 물품은 꺼내서 트레이에 올려 주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Understood. Should I take off my belt as well?",
+          "ko": "알겠습니다. 벨트도 풀어야 하나요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "Please join the queue.",
           "ko": "'queue(줄)'는 영국식 표현으로 'line(줄)'의 영국·유럽식 표현. '줄을 서다'는 'join the queue' 또는 'stand in line'. 'cut the queue'는 새치기라는 뜻.",
           "alternatives": [
-            { "en": "Please get in line.", "ko": "미국식 표현으로 줄을 서달라는 안내." },
-            { "en": "Please wait in line over there.", "ko": "저쪽에서 줄을 서서 기다리라는 표현." }
+            {
+              "en": "Please get in line.",
+              "ko": "미국식 표현으로 줄을 서달라는 안내."
+            },
+            {
+              "en": "Please wait in line over there.",
+              "ko": "저쪽에서 줄을 서서 기다리라는 표현."
+            }
           ]
         },
         {
           "en": "Have your bag ready for inspection.",
           "ko": "'inspection(검사)'은 보안 검색 시 가방을 확인하는 행위. 'ready for ~(~할 준비가 된)'와 함께 기억하자. 'security check'도 같은 의미.",
           "alternatives": [
-            { "en": "Please open your bag for security.", "ko": "보안을 위해 가방을 열어달라는 요청." },
-            { "en": "Your bag will be checked at the entrance.", "ko": "입구에서 가방 검사가 있음을 알리는 표현." }
+            {
+              "en": "Please open your bag for security.",
+              "ko": "보안을 위해 가방을 열어달라는 요청."
+            },
+            {
+              "en": "Your bag will be checked at the entrance.",
+              "ko": "입구에서 가방 검사가 있음을 알리는 표현."
+            }
           ]
         },
         {
           "en": "Remove any metal items and put them in the tray.",
           "ko": "'metal items(금속 물품)'은 벨트·동전·열쇠 등을 포함. 'tray(트레이)'는 공항·보안 검색대에서 사용하는 플라스틱 쟁반.",
           "alternatives": [
-            { "en": "Empty your pockets into the tray.", "ko": "주머니를 비워 트레이에 넣으라는 표현." },
-            { "en": "Place all metal objects in the basket.", "ko": "금속 물체를 바구니에 담으라는 표현." }
+            {
+              "en": "Empty your pockets into the tray.",
+              "ko": "주머니를 비워 트레이에 넣으라는 표현."
+            },
+            {
+              "en": "Place all metal objects in the basket.",
+              "ko": "금속 물체를 바구니에 담으라는 표현."
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch31_d09",
       "title": "가이드 동반 투어 신청하기",
       "lines": [
-        { "speaker": "나", "en": "Is a guided tour available in English?", "ko": "영어로 진행되는 가이드 투어가 있나요?" },
-        { "speaker": "직원", "en": "Yes, we have English tours every hour on the half hour.", "ko": "네, 매 시간 30분에 영어 투어가 있습니다." },
-        { "speaker": "나", "en": "How long does the tour last?", "ko": "투어는 얼마나 걸리나요?" },
-        { "speaker": "직원", "en": "About an hour and a half. You can book here at the desk.", "ko": "약 1시간 30분입니다. 여기 데스크에서 예약하시면 됩니다." }
+        {
+          "speaker": "나",
+          "en": "Is a guided tour available in English?",
+          "ko": "영어로 진행되는 가이드 투어가 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, we have English tours every hour on the half hour.",
+          "ko": "네, 매 시간 30분에 영어 투어가 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "How long does the tour last?",
+          "ko": "투어는 얼마나 걸리나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "About an hour and a half. You can book here at the desk.",
+          "ko": "약 1시간 30분입니다. 여기 데스크에서 예약하시면 됩니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is a guided tour available?",
           "ko": "'guided tour(가이드 투어)'는 안내원이 동반하는 투어. 'available(이용 가능한)'은 '있나요?'라는 의미로 서비스 존재 여부를 묻는 표현.",
           "alternatives": [
-            { "en": "Do you offer tours with a guide?", "ko": "가이드 동반 투어를 제공하는지 묻는 표현." },
-            { "en": "Are there any English-language tours?", "ko": "영어로 진행되는 투어가 있는지 묻는 표현." }
+            {
+              "en": "Do you offer tours with a guide?",
+              "ko": "가이드 동반 투어를 제공하는지 묻는 표현."
+            },
+            {
+              "en": "Are there any English-language tours?",
+              "ko": "영어로 진행되는 투어가 있는지 묻는 표현."
+            }
           ]
         },
         {
           "en": "Every hour on the half hour.",
           "ko": "'on the half hour(매 시간 30분에)'는 예를 들어 1:30, 2:30, 3:30처럼 각 시간의 30분에 시작한다는 표현. 'on the hour'는 정각을 의미함.",
           "alternatives": [
-            { "en": "At half past every hour.", "ko": "매 시간 30분에 출발한다는 같은 의미의 표현." },
-            { "en": "The next tour starts at 2:30.", "ko": "다음 투어 시간을 구체적으로 알려주는 표현." }
+            {
+              "en": "At half past every hour.",
+              "ko": "매 시간 30분에 출발한다는 같은 의미의 표현."
+            },
+            {
+              "en": "The next tour starts at 2:30.",
+              "ko": "다음 투어 시간을 구체적으로 알려주는 표현."
+            }
           ]
         },
         {
           "en": "You can book here at the desk.",
           "ko": "'book(예약하다)'은 'reserve'와 같은 의미. 'at the desk'는 카운터·안내 데스크에서라는 뜻. 투어 예약은 현장 데스크 또는 온라인으로 가능한 경우가 많음.",
           "alternatives": [
-            { "en": "You can sign up at the information counter.", "ko": "안내 카운터에서 등록할 수 있다는 표현." },
-            { "en": "Tickets are available at the front desk.", "ko": "프런트 데스크에서 티켓을 구할 수 있다는 표현." }
+            {
+              "en": "You can sign up at the information counter.",
+              "ko": "안내 카운터에서 등록할 수 있다는 표현."
+            },
+            {
+              "en": "Tickets are available at the front desk.",
+              "ko": "프런트 데스크에서 티켓을 구할 수 있다는 표현."
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch31_d10",
       "title": "성물·전시품 만지지 말라는 안내",
       "lines": [
-        { "speaker": "경비", "en": "Please don't touch the statues or religious objects.", "ko": "조각상이나 종교 성물을 만지지 말아 주세요." },
-        { "speaker": "나", "en": "Oh, I'm sorry. I didn't realize.", "ko": "아, 죄송합니다. 몰랐어요." },
-        { "speaker": "경비", "en": "That's all right. Touching can cause damage over time.", "ko": "괜찮습니다. 만지면 시간이 지나면서 손상이 생길 수 있습니다." },
-        { "speaker": "나", "en": "I understand. I'll just look without touching.", "ko": "알겠습니다. 만지지 않고 보기만 할게요." }
+        {
+          "speaker": "경비",
+          "en": "Please don't touch the statues or religious objects.",
+          "ko": "조각상이나 종교 성물을 만지지 말아 주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Oh, I'm sorry. I didn't realize.",
+          "ko": "아, 죄송합니다. 몰랐어요."
+        },
+        {
+          "speaker": "경비",
+          "en": "That's all right. Touching can cause damage over time.",
+          "ko": "괜찮습니다. 만지면 시간이 지나면서 손상이 생길 수 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "I understand. I'll just look without touching.",
+          "ko": "알겠습니다. 만지지 않고 보기만 할게요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Please don't touch the statues or religious objects.",
           "ko": "'statues(조각상)', 'religious objects(종교 성물)'는 박물관·성당에서 만지면 안 되는 대표적인 물건. 'Please don't touch'는 금지 표현 중 가장 정중한 형태.",
           "alternatives": [
-            { "en": "Do not touch the exhibits.", "ko": "전시물을 만지지 말라는 표준 금지 표현." },
-            { "en": "Hands off the artwork, please.", "ko": "예술 작품에 손을 대지 말라는 캐주얼한 경고 표현." }
+            {
+              "en": "Do not touch the exhibits.",
+              "ko": "전시물을 만지지 말라는 표준 금지 표현."
+            },
+            {
+              "en": "Hands off the artwork, please.",
+              "ko": "예술 작품에 손을 대지 말라는 캐주얼한 경고 표현."
+            }
           ]
         },
         {
           "en": "I didn't realize.",
           "ko": "'I didn't realize(몰랐어요, 인식하지 못했어요)'는 실수에 대한 자연스러운 사과 표현. 'I didn't know'보다 더 순간적인 깨달음의 뉘앙스.",
           "alternatives": [
-            { "en": "I wasn't aware of that.", "ko": "그것을 알지 못했다는 좀 더 격식 있는 표현." },
-            { "en": "I had no idea. Sorry.", "ko": "전혀 몰랐다는 캐주얼하고 솔직한 사과 표현." }
+            {
+              "en": "I wasn't aware of that.",
+              "ko": "그것을 알지 못했다는 좀 더 격식 있는 표현."
+            },
+            {
+              "en": "I had no idea. Sorry.",
+              "ko": "전혀 몰랐다는 캐주얼하고 솔직한 사과 표현."
+            }
           ]
         },
         {
           "en": "I'll just look without touching.",
           "ko": "만지지 않고 눈으로만 보겠다는 다짐. 'just'는 '~만'의 의미로 행동을 제한하는 뉘앙스. 'look but don't touch'라는 표현도 함께 기억하자.",
           "alternatives": [
-            { "en": "I'll keep my hands to myself.", "ko": "손을 대지 않겠다는 일상적인 표현. 어린이에게도 자주 쓰임." },
-            { "en": "I'll admire it from a distance.", "ko": "거리를 두고 감상하겠다는 표현으로 예의 바른 뉘앙스." }
+            {
+              "en": "I'll keep my hands to myself.",
+              "ko": "손을 대지 않겠다는 일상적인 표현. 어린이에게도 자주 쓰임."
+            },
+            {
+              "en": "I'll admire it from a distance.",
+              "ko": "거리를 두고 감상하겠다는 표현으로 예의 바른 뉘앙스."
+            }
           ]
         }
       ]
@@ -525,6 +865,1473 @@
           "question": "종교 시설에서 'donation box'는 금속 물품을 넣는 보안 검색 트레이를 의미한다.",
           "answerIndex": 1,
           "explanation": "거짓입니다. 'donation box(헌금함)'는 종교 시설에서 헌금이나 기부금을 넣는 상자입니다. 보안 검색 시 금속 물품을 넣는 것은 'tray(트레이)' 또는 'basket'이라고 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch31_set02_001",
+          "type": "multiple_choice",
+          "question": "성당 입구에서 경비원이 말했습니다. 빈칸에 알맞은 단어는? \"Bare shoulders and ___ are not allowed inside.\"",
+          "options": [
+            "shorts",
+            "hats",
+            "boots",
+            "scarves"
+          ],
+          "answerIndex": 0,
+          "explanation": "'shorts(반바지)'가 정답입니다. 종교 시설에서는 맨 어깨(bare shoulders)와 반바지(shorts)가 금지됩니다. 무릎 이상을 가려야 하기 때문에 반바지는 허용되지 않습니다."
+        },
+        {
+          "id": "se_ch31_set02_002",
+          "type": "multiple_choice",
+          "question": "종교 시설의 복장 규정을 설명하는 표현으로 가장 정확한 것은?",
+          "options": [
+            "Shoulders and knees must be covered.",
+            "You must wear black clothing only.",
+            "Only long dresses are permitted.",
+            "Tourists are exempt from dress codes."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Shoulders and knees must be covered.'가 핵심 규정입니다. 검은 옷만 허용된다거나 긴 드레스만 가능하다는 내용은 사실이 아닙니다. 관광객도 드레스 코드를 따라야 합니다."
+        },
+        {
+          "id": "se_ch31_set02_003",
+          "type": "multiple_choice",
+          "question": "입장 전 무언가를 빌려 몸을 가리고 싶을 때 쓰는 가장 자연스러운 표현은?",
+          "options": [
+            "Is there a wrap I can use to cover my shoulders?",
+            "Can you dress me up?",
+            "Please give me a uniform.",
+            "I need a raincoat."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a wrap I can use to cover my shoulders?'는 어깨를 가릴 두르는 천을 요청하는 자연스러운 표현입니다. 유니폼이나 우비를 요청하는 것은 문맥에 맞지 않습니다."
+        },
+        {
+          "id": "se_ch31_set02_004",
+          "type": "multiple_choice",
+          "question": "직원이 \"Complimentary shawls are provided near the entrance.\"라고 했습니다. 이 말의 의미는?",
+          "options": [
+            "입구 근처에서 무료로 숄을 제공한다.",
+            "입구에서 숄을 구매할 수 있다.",
+            "숄은 미리 가져와야 한다.",
+            "숄은 투어 종료 후 배부된다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'complimentary'는 '무료 제공의'라는 뜻입니다. 따라서 입구 근처에서 무료로 숄을 제공한다는 의미입니다. 구매나 사전 지참을 의미하지 않습니다."
+        },
+        {
+          "id": "se_ch31_set02_005",
+          "type": "multiple_choice",
+          "question": "경비원이 'Could you please remove your hat?'라고 했습니다. 이와 같은 뜻의 표현은?",
+          "options": [
+            "Please take off your hat.",
+            "Could you put on a hat?",
+            "Where did you buy your hat?",
+            "Please carry your hat."
+          ],
+          "answerIndex": 0,
+          "explanation": "'remove your hat'은 'take off your hat'과 같이 모자를 벗으라는 표현입니다. 'put on'은 쓰라는 반대 의미이며, 나머지는 문맥과 맞지 않습니다."
+        },
+        {
+          "id": "se_ch31_set02_006",
+          "type": "multiple_choice",
+          "question": "성당 내부에서 사진 촬영에 대한 안내로 올바른 것은?",
+          "options": [
+            "Photography is permitted, but no flash near the altar.",
+            "All photography is strictly forbidden everywhere.",
+            "Flash photography is encouraged for better photos.",
+            "You may photograph only the altar."
+          ],
+          "answerIndex": 0,
+          "explanation": "대부분의 성당에서 일반 사진 촬영은 허용되지만 플래시 사용은 금지되며, 특히 제단(altar) 근처에서는 촬영 자체가 제한되는 경우가 많습니다."
+        },
+        {
+          "id": "se_ch31_set02_007",
+          "type": "multiple_choice",
+          "question": "경비원이 \"A mass is in progress.\"라고 했을 때 관광객이 해야 할 행동은?",
+          "options": [
+            "미사가 끝날 때까지 바깥에서 기다린다.",
+            "미사 중에 바로 입장한다.",
+            "미사 참여를 신청한다.",
+            "안내 데스크에서 미사 티켓을 구매한다."
+          ],
+          "answerIndex": 0,
+          "explanation": "미사(mass)가 진행 중일 때는 관광 목적의 자유 입장이 제한되므로 바깥에서 기다려야 합니다. 직접 입장하거나 티켓을 사는 것은 올바른 대응이 아닙니다."
+        },
+        {
+          "id": "se_ch31_set02_008",
+          "type": "multiple_choice",
+          "question": "성당 내부에서 말소리를 낮춰달라고 요청할 때 가장 공손한 표현은?",
+          "options": [
+            "Could you please be a bit quieter?",
+            "Silence! Right now!",
+            "No talking at all.",
+            "Why are you so loud?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you please be a bit quieter?'는 정중하게 조용히 해달라고 부탁하는 표현입니다. 'Silence! Right now!'나 'No talking at all.'은 지나치게 명령적이고 무례합니다."
+        },
+        {
+          "id": "se_ch31_set02_009",
+          "type": "multiple_choice",
+          "question": "촛불 봉헌 시 헌금은 어디에 넣어야 하는가?",
+          "options": [
+            "donation box (헌금함)",
+            "security tray (보안 트레이)",
+            "collection counter (계산대)",
+            "information desk (안내 데스크)"
+          ],
+          "answerIndex": 0,
+          "explanation": "촛불 봉헌 시 헌금은 'donation box(헌금함)'에 넣습니다. 'security tray'는 보안 검색 시 금속 물품을 올리는 트레이이며, 계산대나 안내 데스크는 관련이 없습니다."
+        },
+        {
+          "id": "se_ch31_set02_010",
+          "type": "multiple_choice",
+          "question": "보안 검색 시 경비원이 \"Please remove any metal items and put them in the tray.\"라고 했습니다. 'tray'란 무엇인가?",
+          "options": [
+            "금속 물품을 올려놓는 플라스틱 쟁반",
+            "짐을 보관하는 사물함",
+            "입장권을 받는 박스",
+            "가방을 검사하는 X선 기계"
+          ],
+          "answerIndex": 0,
+          "explanation": "'tray'는 보안 검색 시 벨트·동전·열쇠 등 금속 물품을 올려놓는 플라스틱 쟁반입니다. 사물함, 티켓 박스, X선 기계와는 다릅니다."
+        },
+        {
+          "id": "se_ch31_set02_011",
+          "type": "ox",
+          "question": "종교 시설에서 숄을 빌리는 것은 대부분 무료이거나 소액이며, 퇴장 시 반납해야 한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 바티칸 등 많은 성당에서 숄은 무료 또는 소액으로 대여해 주며, 방문이 끝나면 입구나 출구에 반납해야 합니다."
+        },
+        {
+          "id": "se_ch31_set02_012",
+          "type": "ox",
+          "question": "성당에서 남성이 모자를 쓰는 것은 예의를 표하는 행동이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 성당·교회 같은 기독교 계열 종교 시설에서 남성이 모자를 쓰는 것은 무례한 행동으로 여겨집니다. 입장 전 모자를 벗는 것이 예의입니다."
+        },
+        {
+          "id": "se_ch31_set02_013",
+          "type": "ox",
+          "question": "'Please observe silence.'는 공식 안내문에서 정숙을 요청하는 표현으로 쓰인다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Please observe silence.'는 성당, 박물관, 도서관 등의 공식 안내문에서 정숙을 요청할 때 자주 사용하는 표현입니다."
+        },
+        {
+          "id": "se_ch31_set02_014",
+          "type": "ox",
+          "question": "종교 시설에서 조각상이나 성물을 손으로 만지는 것은 일반적으로 권장된다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 성당이나 종교 시설에서 조각상과 성물을 손으로 만지는 것은 금지됩니다. 반복적인 접촉은 시간이 지나면서 유물에 손상을 줄 수 있기 때문입니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch31_set03_001",
+          "type": "multiple_choice",
+          "question": "성당 복장 규정을 어겼을 때 경비원이 할 말로 가장 적절한 것은?",
+          "options": [
+            "I'm sorry, but you need to cover your shoulders and knees.",
+            "Welcome! You look great today.",
+            "Please proceed to the altar.",
+            "Your ticket is invalid."
+          ],
+          "answerIndex": 0,
+          "explanation": "복장 규정을 어겼을 경우 경비원은 어깨와 무릎을 가려야 한다고 안내합니다. 나머지 선택지는 복장 규정 안내와 전혀 관련이 없는 표현입니다."
+        },
+        {
+          "id": "se_ch31_set03_002",
+          "type": "multiple_choice",
+          "question": "종교 시설 입구에서 방문객이 가릴 것을 빌릴 수 있는지 묻는 표현으로 가장 적절한 것은?",
+          "options": [
+            "Can I rent a cover-up here?",
+            "Do you sell umbrellas?",
+            "Can I borrow your sunglasses?",
+            "Is there a changing room?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I rent a cover-up here?'는 몸을 가릴 것을 빌릴 수 있는지 묻는 자연스러운 표현입니다. 'cover-up'은 몸을 가리는 데 두르는 천을 의미합니다."
+        },
+        {
+          "id": "se_ch31_set03_003",
+          "type": "multiple_choice",
+          "question": "'place of worship'의 의미로 가장 적절한 것은?",
+          "options": [
+            "예배 장소 (성당·교회·모스크 등 종교 시설)",
+            "기념품 가게",
+            "음식을 먹는 공간",
+            "관광 안내소"
+          ],
+          "answerIndex": 0,
+          "explanation": "'place of worship'은 성당, 교회, 모스크, 사원 등 모든 종교 시설을 총칭하는 중립적 표현입니다. 기념품 가게나 관광 안내소와는 다릅니다."
+        },
+        {
+          "id": "se_ch31_set03_004",
+          "type": "multiple_choice",
+          "question": "경비원이 정중하게 입장 거절을 전달할 때 쓰는 완곡 표현은?",
+          "options": [
+            "I'm afraid you can't enter right now.",
+            "Get out!",
+            "Entry is free for everyone.",
+            "You may enter any time."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm afraid ~'는 '유감스럽게도 ~입니다'라는 완곡한 표현으로 거절이나 부정적인 소식을 정중하게 전달할 때 사용합니다."
+        },
+        {
+          "id": "se_ch31_set03_005",
+          "type": "multiple_choice",
+          "question": "미사가 끝난 후 경비원이 입장 허가를 알릴 때 쓸 수 있는 표현은?",
+          "options": [
+            "You may enter now. The mass has ended.",
+            "Please wait outside indefinitely.",
+            "The mass is in progress. No entry.",
+            "Photography is not allowed."
+          ],
+          "answerIndex": 0,
+          "explanation": "미사가 끝나면 입장 허가를 'You may enter now. The mass has ended.'와 같이 안내할 수 있습니다. 나머지 선택지는 입장 허가와 관련이 없습니다."
+        },
+        {
+          "id": "se_ch31_set03_006",
+          "type": "multiple_choice",
+          "question": "가이드 투어를 예약하고 싶을 때 직원에게 쓰는 표현은?",
+          "options": [
+            "Is a guided tour available in English?",
+            "Can I get a refund?",
+            "Where is the gift shop?",
+            "Is the museum open today?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is a guided tour available in English?'는 영어로 진행되는 가이드 투어가 있는지 묻는 표현입니다. 투어를 예약하기 전에 가용 여부를 먼저 확인하는 것이 자연스럽습니다."
+        },
+        {
+          "id": "se_ch31_set03_007",
+          "type": "multiple_choice",
+          "question": "'every hour on the half hour'의 의미로 옳은 것은?",
+          "options": [
+            "매 시간 30분마다 (예: 1:30, 2:30, 3:30...)",
+            "30분에 한 번씩",
+            "정각마다 (예: 1:00, 2:00, 3:00...)",
+            "하루 한 번 오전 10시 30분에"
+          ],
+          "answerIndex": 0,
+          "explanation": "'every hour on the half hour'는 각 시간의 30분 (1:30, 2:30 등)에 시작한다는 의미입니다. 'on the hour'가 정각을 의미하는 것과 구별해야 합니다."
+        },
+        {
+          "id": "se_ch31_set03_008",
+          "type": "multiple_choice",
+          "question": "보안 검색 시 줄을 서라는 안내를 영어로 표현한 것은?",
+          "options": [
+            "Please join the queue over there.",
+            "Please drop your bag.",
+            "Please leave the building.",
+            "Please show your passport."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please join the queue'는 줄을 서달라는 안내입니다. 'queue'는 영국식 표현으로 미국에서는 'line'이라고 합니다. 나머지 선택지는 줄을 서는 것과 관련이 없습니다."
+        },
+        {
+          "id": "se_ch31_set03_009",
+          "type": "multiple_choice",
+          "question": "조각상을 만지지 말라는 경고 표현 중 가장 정중한 것은?",
+          "options": [
+            "Please don't touch the statues or religious objects.",
+            "Don't touch anything!",
+            "Hands off, tourist!",
+            "Stop it!"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please don't touch the statues or religious objects.'는 정중한 금지 표현입니다. 'Don't touch anything!'이나 'Hands off, tourist!'는 무례하거나 공격적으로 들릴 수 있습니다."
+        },
+        {
+          "id": "se_ch31_set03_010",
+          "type": "multiple_choice",
+          "question": "'I'll keep that in mind.'와 같은 뜻의 표현은?",
+          "options": [
+            "I'll remember that.",
+            "I disagree.",
+            "I'll ignore that.",
+            "Could you repeat that?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll keep that in mind.'는 '명심하겠습니다'는 표현으로 'I'll remember that.'과 같은 의미입니다. 경비원의 안내를 들은 후 자연스러운 응답으로 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch31_set03_011",
+          "type": "ox",
+          "question": "성당 방문 시 반바지(shorts)와 민소매(sleeveless top)는 일반적으로 허용된다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 성당을 비롯한 종교 시설에서는 무릎과 어깨를 가려야 합니다. 따라서 반바지와 민소매는 허용되지 않으며, 입장 전 숄 등으로 가려야 합니다."
+        },
+        {
+          "id": "se_ch31_set03_012",
+          "type": "ox",
+          "question": "'queue'는 영국식 영어로 '줄, 대기열'을 의미한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'queue'는 영국식 영어로 줄 또는 대기열을 의미합니다. 미국식 영어에서는 'line'이라는 표현을 더 많이 사용합니다."
+        },
+        {
+          "id": "se_ch31_set03_013",
+          "type": "ox",
+          "question": "성당 내부에서는 제단 근처를 포함한 모든 구역에서 플래시 없이 사진을 자유롭게 찍을 수 있다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 제단(altar) 근처나 미사 진행 중에는 사진 촬영 자체가 금지되는 경우가 많습니다. 촬영 가능 구역이라도 플래시는 대부분 금지됩니다."
+        },
+        {
+          "id": "se_ch31_set03_014",
+          "type": "ox",
+          "question": "'donation box'는 성당에서 헌금이나 기부금을 넣는 상자를 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'donation box'는 헌금함으로, 촛불 봉헌 시 소액의 헌금을 넣는 상자입니다. 'collection box'나 'offering box'도 같은 의미로 쓰입니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch31_set04_001",
+          "type": "multiple_choice",
+          "question": "종교 시설 입장 시 복장 규정으로 올바른 것은?",
+          "options": [
+            "어깨와 무릎을 가리는 복장을 착용해야 한다.",
+            "하이힐 착용이 금지된다.",
+            "흰색 옷만 입어야 한다.",
+            "정장 착용이 필수이다."
+          ],
+          "answerIndex": 0,
+          "explanation": "종교 시설의 핵심 복장 규정은 어깨와 무릎을 가리는 것입니다. 신발 색상이나 정장 착용 여부는 일반적인 성당의 드레스 코드가 아닙니다."
+        },
+        {
+          "id": "se_ch31_set04_002",
+          "type": "multiple_choice",
+          "question": "경비원이 \"Bare shoulders are not allowed.\"라고 했을 때 관광객이 취해야 할 행동은?",
+          "options": [
+            "어깨를 가릴 숄이나 스카프를 두른다.",
+            "즉시 건물을 떠난다.",
+            "다른 입구를 찾는다.",
+            "경비원에게 항의한다."
+          ],
+          "answerIndex": 0,
+          "explanation": "맨 어깨가 허용되지 않는다는 안내를 받으면, 숄이나 스카프로 어깨를 가리는 것이 올바른 대응입니다. 많은 성당에서 입구 근처에서 무료로 빌려줍니다."
+        },
+        {
+          "id": "se_ch31_set04_003",
+          "type": "multiple_choice",
+          "question": "직원이 숄 반납에 대해 \"Please hand it back at the exit.\"라고 했습니다. 이 말의 의미는?",
+          "options": [
+            "출구에서 숄을 반납해 주세요.",
+            "출구에서 숄을 새로 받아 가세요.",
+            "출구에서 숄을 구매하세요.",
+            "숄을 기념품으로 가져가세요."
+          ],
+          "answerIndex": 0,
+          "explanation": "'hand it back'은 '돌려주다, 반납하다'는 의미입니다. 'at the exit(출구에서)'와 함께 쓰여 출구에서 숄을 반납하라는 안내입니다."
+        },
+        {
+          "id": "se_ch31_set04_004",
+          "type": "multiple_choice",
+          "question": "종교 시설에서 'a sign of respect'의 예로 올바른 것은?",
+          "options": [
+            "남성이 입장 전 모자를 벗는다.",
+            "큰 소리로 노래를 부른다.",
+            "제단에 손을 댄다.",
+            "플래시를 켜고 사진을 찍는다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'a sign of respect(예의의 표시)'로 가장 대표적인 것은 남성이 입장 전 모자를 벗는 행동입니다. 나머지는 오히려 예의에 어긋나는 행동입니다."
+        },
+        {
+          "id": "se_ch31_set04_005",
+          "type": "multiple_choice",
+          "question": "성당 안내원이 \"Please maintain silence in the main chapel.\"이라고 했습니다. 'main chapel'의 의미는?",
+          "options": [
+            "본당 (예배를 드리는 주 공간)",
+            "기념품 가게",
+            "카페테리아",
+            "로비"
+          ],
+          "answerIndex": 0,
+          "explanation": "'main chapel'은 예배를 드리는 주요 공간인 본당을 뜻합니다. 본당에서는 특히 정숙이 요구됩니다."
+        },
+        {
+          "id": "se_ch31_set04_006",
+          "type": "multiple_choice",
+          "question": "경비원이 미사 중 입장을 정중하게 거절하는 표현으로 적절한 것은?",
+          "options": [
+            "Unfortunately, entry is not possible at this time.",
+            "Come in, no problem!",
+            "The mass is optional.",
+            "You can enter quietly."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Unfortunately, entry is not possible at this time.'는 격식 있고 정중한 거절 표현입니다. 미사 중에는 관광 목적의 입장이 일반적으로 제한됩니다."
+        },
+        {
+          "id": "se_ch31_set04_007",
+          "type": "multiple_choice",
+          "question": "촛불 봉헌에 대해 'A small donation is expected.'라고 할 때, 이 표현의 의미는?",
+          "options": [
+            "소액 헌금을 하는 것이 관례입니다.",
+            "초 값이 매우 비쌉니다.",
+            "촛불 봉헌은 무료입니다.",
+            "헌금을 하지 않으면 초를 가져갑니다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'expected(기대되는)'는 강제가 아니라 관례로 하는 것임을 나타냅니다. 초 1~2개에 1~2유로 정도의 소액 헌금을 하는 것이 일반적인 관례입니다."
+        },
+        {
+          "id": "se_ch31_set04_008",
+          "type": "multiple_choice",
+          "question": "영어 가이드 투어 예약을 데스크에서 하고 싶을 때 쓰는 표현은?",
+          "options": [
+            "Can I book an English-language tour here?",
+            "Is this the exit?",
+            "Can I get a map?",
+            "Where is the restroom?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I book an English-language tour here?'는 영어 투어를 예약하고 싶다고 요청하는 자연스러운 표현입니다. 나머지 선택지는 투어 예약과 관련이 없습니다."
+        },
+        {
+          "id": "se_ch31_set04_009",
+          "type": "multiple_choice",
+          "question": "보안 검색에서 'Have your bag ready for inspection.'의 의미는?",
+          "options": [
+            "가방 검사를 위해 준비해 주세요.",
+            "가방을 트렁크에 넣어 주세요.",
+            "가방을 입구에 두고 가세요.",
+            "가방을 잠가 주세요."
+          ],
+          "answerIndex": 0,
+          "explanation": "'ready for inspection'은 검사받을 준비가 된 상태를 의미합니다. 보안 검색을 위해 가방을 열거나 준비하라는 안내입니다."
+        },
+        {
+          "id": "se_ch31_set04_010",
+          "type": "multiple_choice",
+          "question": "경비원이 \"I didn't realize.\"라고 하면서 사과했습니다. 이 표현과 가장 유사한 의미는?",
+          "options": [
+            "I wasn't aware of that.",
+            "I knew it all along.",
+            "I completely disagree.",
+            "I planned to do that."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I didn't realize.'와 'I wasn't aware of that.'은 모두 '몰랐습니다'라는 의미로, 실수에 대한 자연스러운 사과 표현입니다."
+        },
+        {
+          "id": "se_ch31_set04_011",
+          "type": "ox",
+          "question": "미사가 진행 중일 때 'in progress'는 '진행 중'을 의미한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'in progress'는 '진행 중'이라는 표현으로 'under way'와 같은 의미입니다. 'A mass is in progress.'는 미사가 현재 진행 중임을 나타냅니다."
+        },
+        {
+          "id": "se_ch31_set04_012",
+          "type": "ox",
+          "question": "성당 투어에서 'guided tour'는 안내원 없이 자유롭게 돌아보는 투어를 의미한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'guided tour(가이드 투어)'는 안내원이 동반하여 설명해 주는 투어입니다. 안내원 없이 자유롭게 돌아보는 것은 'self-guided tour' 또는 'free exploration'이라고 합니다."
+        },
+        {
+          "id": "se_ch31_set04_013",
+          "type": "ox",
+          "question": "'You're welcome to wait outside.'는 '바깥에서 기다려도 됩니다'라는 정중한 허락 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'You're welcome to ~'는 '~해도 됩니다'라는 허락의 표현으로, 단순한 'You can wait outside.'보다 훨씬 친절하고 정중하게 들립니다."
+        },
+        {
+          "id": "se_ch31_set04_014",
+          "type": "ox",
+          "question": "성당에서 사진 촬영이 허용되더라도 플래시(flash)는 항상 함께 사용해도 된다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 사진 촬영이 허용된 구역이라도 플래시 사용은 별도로 금지되는 경우가 많습니다. 플래시는 오래된 예술품과 프레스코화에 손상을 줄 수 있어 'No flash photography'라는 안내가 일반적입니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch31_set05_001",
+          "type": "multiple_choice",
+          "question": "성당 입장 시 복장 규정에 어긋나는 복장은?",
+          "options": [
+            "민소매 탑과 반바지",
+            "긴 바지와 반팔 티셔츠",
+            "무릎 아래 치마",
+            "어깨를 가린 원피스"
+          ],
+          "answerIndex": 0,
+          "explanation": "민소매 탑(sleeveless)과 반바지(shorts)는 어깨와 무릎을 드러내므로 성당 드레스 코드에 어긋납니다. 나머지 선택지는 모두 어깨와 무릎을 가리는 복장입니다."
+        },
+        {
+          "id": "se_ch31_set05_002",
+          "type": "multiple_choice",
+          "question": "숄을 어디서 구할 수 있는지 묻는 자연스러운 표현은?",
+          "options": [
+            "Is there somewhere I can get a shawl?",
+            "I need a blanket for the night.",
+            "Can I order a scarf online?",
+            "Do you sell winter coats here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there somewhere I can get a shawl?'는 숄을 어디서 구할 수 있는지 묻는 자연스러운 표현입니다. 담요, 온라인 주문, 겨울 코트는 성당 입구 상황과 맞지 않습니다."
+        },
+        {
+          "id": "se_ch31_set05_003",
+          "type": "multiple_choice",
+          "question": "경비원이 \"It's customary to remove your hat here.\"라고 했습니다. 'customary'의 의미는?",
+          "options": [
+            "관습적인, 전통적인",
+            "선택적인",
+            "위험한",
+            "비용이 드는"
+          ],
+          "answerIndex": 0,
+          "explanation": "'customary'는 '관습적인, 전통적인'이라는 뜻으로, 모자를 벗는 것이 오랜 전통임을 나타냅니다. 선택적이거나 비용이 드는 것과는 다릅니다."
+        },
+        {
+          "id": "se_ch31_set05_004",
+          "type": "multiple_choice",
+          "question": "성당에서 'sacred space'라고 할 때 그 의미로 가장 알맞은 것은?",
+          "options": [
+            "신성한 공간",
+            "넓은 광장",
+            "주차 공간",
+            "쇼핑 구역"
+          ],
+          "answerIndex": 0,
+          "explanation": "'sacred(신성한)'는 종교적으로 거룩하고 신성하게 여겨지는 것을 의미합니다. 'sacred space'는 성당이나 예배 공간처럼 신성한 공간을 뜻합니다."
+        },
+        {
+          "id": "se_ch31_set05_005",
+          "type": "multiple_choice",
+          "question": "안내원이 \"Photography is permitted in most areas, but not near the altar.\"라고 했습니다. 'altar'는 무엇인가?",
+          "options": [
+            "제단 (예배의 중심 공간)",
+            "출구",
+            "헌금함",
+            "기념품 가게"
+          ],
+          "answerIndex": 0,
+          "explanation": "'altar(제단)'은 교회나 성당에서 예배 의식이 행해지는 신성한 공간입니다. 제단 근처에서는 사진 촬영이 특히 제한되는 경우가 많습니다."
+        },
+        {
+          "id": "se_ch31_set05_006",
+          "type": "multiple_choice",
+          "question": "미사 중 입장 제한을 알리는 적절한 표현은?",
+          "options": [
+            "A service is currently taking place. Entry is not permitted.",
+            "The church is closed today.",
+            "Please buy your ticket first.",
+            "You must join the guided tour."
+          ],
+          "answerIndex": 0,
+          "explanation": "'A service is currently taking place.'는 예배(미사)가 진행 중임을 나타내는 표현입니다. 이런 상황에서 관광 목적 입장이 제한됩니다."
+        },
+        {
+          "id": "se_ch31_set05_007",
+          "type": "multiple_choice",
+          "question": "기도를 위해 촛불을 켜고 싶다고 말하는 표현은?",
+          "options": [
+            "I'd like to light a candle for prayer.",
+            "Can I start a campfire?",
+            "I want to turn on the lights.",
+            "Can I buy a flashlight?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like to light a candle for prayer.'는 기도를 위해 촛불을 켜고 싶다는 정중한 표현입니다. 캠프파이어, 조명 스위치, 손전등과는 전혀 다른 맥락입니다."
+        },
+        {
+          "id": "se_ch31_set05_008",
+          "type": "multiple_choice",
+          "question": "보안 검색에서 주머니를 비우라고 할 때 쓰는 표현은?",
+          "options": [
+            "Please empty your pockets into the tray.",
+            "Please fill your pockets.",
+            "Keep everything in your pockets.",
+            "Please check your pockets at the door."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please empty your pockets into the tray.'는 주머니의 물건을 트레이에 넣어달라는 보안 검색 안내입니다. 'empty(비우다)'와 'fill(채우다)'은 반대 의미입니다."
+        },
+        {
+          "id": "se_ch31_set05_009",
+          "type": "multiple_choice",
+          "question": "성당에서 조각상을 만진 후 경비원에게 사과할 때 가장 자연스러운 표현은?",
+          "options": [
+            "I'm sorry. I didn't realize I wasn't supposed to touch it.",
+            "I meant to do that.",
+            "The statue was in my way.",
+            "No one told me the rules."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm sorry. I didn't realize I wasn't supposed to touch it.'는 몰랐다는 뜻을 담은 자연스러운 사과 표현입니다. 'I meant to do that.'은 의도했다는 의미로 사과와 반대됩니다."
+        },
+        {
+          "id": "se_ch31_set05_010",
+          "type": "multiple_choice",
+          "question": "가이드 투어 출발 시간을 알려주는 안내원의 표현으로 올바른 것은?",
+          "options": [
+            "The next English tour starts at half past two.",
+            "Tours leave every five minutes.",
+            "Guided tours are not available.",
+            "Please find your own way around."
+          ],
+          "answerIndex": 0,
+          "explanation": "'half past two'는 2시 30분을 의미하며, 투어 출발 시간을 알려주는 자연스러운 표현입니다. 'half past + 숫자'는 각 시간의 30분을 나타냅니다."
+        },
+        {
+          "id": "se_ch31_set05_011",
+          "type": "ox",
+          "question": "성당에서 'No flash, please.'는 사진 촬영 자체를 금지하는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'No flash, please.'는 플래시 사용만을 금지하는 표현입니다. 사진 촬영 자체는 허용되지만 플래시만 금지하는 경우에 쓰입니다. 촬영 자체를 금지할 때는 'No photography.'라고 합니다."
+        },
+        {
+          "id": "se_ch31_set05_012",
+          "type": "ox",
+          "question": "종교 시설에서 'keep your voice down'과 'lower your voice'는 같은 의미이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'keep your voice down'과 'lower your voice'는 모두 '목소리를 낮추다'라는 같은 의미의 표현입니다. 두 표현 모두 정중하게 조용히 해달라고 요청할 때 쓰입니다."
+        },
+        {
+          "id": "se_ch31_set05_013",
+          "type": "ox",
+          "question": "'light a candle'은 종교 시설에서 기도나 추모의 의미로 초에 불을 붙이는 행위를 가리킨다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'light a candle'은 성당 등 종교 시설에서 기도나 추모를 위해 초에 불을 붙이는 봉헌 행위를 의미합니다. 보통 소액의 헌금과 함께 이루어집니다."
+        },
+        {
+          "id": "se_ch31_set05_014",
+          "type": "ox",
+          "question": "성당에서 조각상을 만지는 행위는 문화적 체험의 일환으로 권장된다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 성당에서 조각상이나 종교 성물을 만지는 것은 금지됩니다. 반복적인 접촉은 귀중한 유물에 손상을 입히기 때문에 눈으로만 감상해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch31_set06_001",
+          "type": "multiple_choice",
+          "question": "성당 입구의 안내 표지판에서 볼 수 있는 복장 규정 표현은?",
+          "options": [
+            "Shoulders and knees must be covered.",
+            "Business casual required.",
+            "No shoes, no service.",
+            "Swimwear only beyond this point."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Shoulders and knees must be covered.'는 바티칸 등 가톨릭 성당 입구에서 실제로 볼 수 있는 복장 규정 표현입니다. 수동태로 규정 자체를 강조하는 형태입니다."
+        },
+        {
+          "id": "se_ch31_set06_002",
+          "type": "multiple_choice",
+          "question": "직원이 대여 숄에 대해 설명할 때 쓸 수 있는 자연스러운 표현은?",
+          "options": [
+            "You can use one at no charge.",
+            "The shawl costs fifty euros.",
+            "You must buy the shawl to keep.",
+            "Shawls are only for staff."
+          ],
+          "answerIndex": 0,
+          "explanation": "'at no charge'는 '무료로'라는 표현으로 'for free'나 'free of charge'와 같은 의미입니다. 숄을 무료로 사용할 수 있다는 안내입니다."
+        },
+        {
+          "id": "se_ch31_set06_003",
+          "type": "multiple_choice",
+          "question": "성당에서 모자 착용에 관한 올바른 설명은?",
+          "options": [
+            "남성은 성당 내에서 모자를 벗어야 한다.",
+            "여성만 모자를 벗어야 한다.",
+            "모자 착용은 신앙심을 표현하는 방법이다.",
+            "모자는 성당 입구에서 대여해 준다."
+          ],
+          "answerIndex": 0,
+          "explanation": "기독교 전통에서 남성은 성당 내에서 모자를 벗는 것이 예의입니다. 이는 경의와 존경을 표하는 행동('a sign of respect')입니다."
+        },
+        {
+          "id": "se_ch31_set06_004",
+          "type": "multiple_choice",
+          "question": "성당 내부에서 조용히 해달라고 정중하게 요청하는 안내원의 표현은?",
+          "options": [
+            "Please lower your voice. This is a sacred space.",
+            "You are too noisy. Get out.",
+            "Silence is optional here.",
+            "Feel free to talk loudly."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please lower your voice. This is a sacred space.'는 정중하게 조용히 해달라고 요청하는 표현입니다. 'sacred space(신성한 공간)'라는 표현으로 경건함을 강조합니다."
+        },
+        {
+          "id": "se_ch31_set06_005",
+          "type": "multiple_choice",
+          "question": "성당 내부에서 사진 촬영이 금지된 구역을 나타내는 표현은?",
+          "options": [
+            "Photography is not permitted near the altar.",
+            "Photos are encouraged everywhere.",
+            "Please use flash for better pictures.",
+            "Cameras must be turned on at all times."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Photography is not permitted near the altar.'는 제단 근처에서 촬영이 금지된다는 표현입니다. 'permitted'는 공식적인 허가를 나타내며, 'not permitted'는 금지를 의미합니다."
+        },
+        {
+          "id": "se_ch31_set06_006",
+          "type": "multiple_choice",
+          "question": "'I'm afraid ~'로 시작하는 표현의 특징은?",
+          "options": [
+            "완곡하고 정중하게 부정적인 소식을 전한다.",
+            "강하게 명령하는 표현이다.",
+            "공격적인 거절을 나타낸다.",
+            "불확실한 정보를 전달한다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm afraid ~'는 '유감스럽게도 ~입니다'라는 뜻으로, 거절하거나 부정적인 소식을 전달할 때 정중하고 완곡하게 표현하는 방법입니다."
+        },
+        {
+          "id": "se_ch31_set06_007",
+          "type": "multiple_choice",
+          "question": "촛불 봉헌 시 'offering box'는 무엇을 의미하는가?",
+          "options": [
+            "헌금함 (봉헌금을 넣는 상자)",
+            "초를 보관하는 상자",
+            "성물을 전시하는 진열장",
+            "짐을 보관하는 사물함"
+          ],
+          "answerIndex": 0,
+          "explanation": "'offering box'는 'donation box', 'collection box'와 같은 의미로 헌금이나 봉헌금을 넣는 상자입니다. 초 보관이나 짐 보관과는 다릅니다."
+        },
+        {
+          "id": "se_ch31_set06_008",
+          "type": "multiple_choice",
+          "question": "보안 검색대에서 경비원이 \"Please get in line.\"이라고 했습니다. 이 표현의 의미는?",
+          "options": [
+            "줄을 서 주세요.",
+            "선을 밟지 마세요.",
+            "출구로 나가세요.",
+            "검색대를 통과하세요."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please get in line.'은 줄을 서달라는 표현입니다. 미국식 영어로 영국식 'Join the queue'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch31_set06_009",
+          "type": "multiple_choice",
+          "question": "조각상 관람 시 지켜야 할 올바른 태도는?",
+          "options": [
+            "손으로 만지지 않고 눈으로만 감상한다.",
+            "사진을 찍기 위해 조각상 위에 올라간다.",
+            "조각상을 자세히 보기 위해 손으로 만진다.",
+            "조각상을 기념품으로 만져 봐도 된다."
+          ],
+          "answerIndex": 0,
+          "explanation": "성당이나 박물관에서 조각상은 눈으로만 감상해야 합니다. 'I'll just look without touching.'이 올바른 태도입니다. 조각상에 올라가거나 손으로 만지는 것은 금지입니다."
+        },
+        {
+          "id": "se_ch31_set06_010",
+          "type": "multiple_choice",
+          "question": "'You can book here at the desk.'에서 'book'의 의미는?",
+          "options": [
+            "예약하다",
+            "책을 사다",
+            "기록하다",
+            "읽다"
+          ],
+          "answerIndex": 0,
+          "explanation": "동사 'book'은 '예약하다'는 의미로 'reserve'와 같습니다. 'at the desk(데스크에서)'와 함께 쓰여 현장 데스크에서 투어를 예약할 수 있다는 안내입니다."
+        },
+        {
+          "id": "se_ch31_set06_011",
+          "type": "ox",
+          "question": "종교 시설에서 'dress code'는 복장 규정을 의미하는 국제 공용어이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'dress code(드레스 코드)'는 복장 규정을 뜻하는 국제적으로 통용되는 표현입니다. 종교 시설뿐 아니라 레스토랑, 클럽 등에서도 사용됩니다."
+        },
+        {
+          "id": "se_ch31_set06_012",
+          "type": "ox",
+          "question": "미사를 뜻하는 'mass'는 개신교 예배를 가리키는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'mass'는 가톨릭 예배를 가리키는 표현입니다. 개신교 예배는 'service'라고 하며, 일반적인 종교 의식은 'ceremony'라고 합니다."
+        },
+        {
+          "id": "se_ch31_set06_013",
+          "type": "ox",
+          "question": "성당 입구에서 숄을 무료로 대여해 주는 경우 'available to borrow for free'라고 표현할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'available to borrow for free'는 무료로 빌릴 수 있다는 표현입니다. 'for free'는 '무료로'라는 의미이며, 'free of charge'와 같은 표현입니다."
+        },
+        {
+          "id": "se_ch31_set06_014",
+          "type": "ox",
+          "question": "보안 검색 시 'metal items'에는 벨트, 동전, 열쇠 등이 포함된다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'metal items(금속 물품)'는 벨트, 동전, 열쇠, 스마트폰 등 금속으로 된 모든 물건을 포함합니다. 보안 검색대 통과 전에 트레이에 올려놓아야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch31_set07_001",
+          "type": "multiple_choice",
+          "question": "성당에서 복장 규정을 물어볼 때 가장 자연스러운 표현은?",
+          "options": [
+            "Are there any clothing requirements here?",
+            "Is there a menu?",
+            "Can I change my reservation?",
+            "Where can I park my car?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Are there any clothing requirements here?'는 복장 요건이 있는지 묻는 자연스러운 표현입니다. 'clothing requirements(복장 요건)'는 'dress code'를 풀어 쓴 표현입니다."
+        },
+        {
+          "id": "se_ch31_set07_002",
+          "type": "multiple_choice",
+          "question": "무료 숄 대여에 관한 설명으로 올바른 것은?",
+          "options": [
+            "입구 근처에서 무료로 빌릴 수 있으며, 퇴장 시 반납한다.",
+            "여행사에서 미리 예약해야 빌릴 수 있다.",
+            "숄은 구매만 가능하며 빌릴 수 없다.",
+            "숄은 VIP 방문객에게만 제공된다."
+          ],
+          "answerIndex": 0,
+          "explanation": "바티칸 등 많은 성당에서 입구 근처에 무료 숄을 비치해 두고 있으며, 방문이 끝나면 반납해야 합니다. 예약이나 VIP 조건은 필요하지 않습니다."
+        },
+        {
+          "id": "se_ch31_set07_003",
+          "type": "multiple_choice",
+          "question": "경비원이 \"Hats must be removed inside.\"라고 안내판에 쓴 표현입니다. 이 문장의 구조는?",
+          "options": [
+            "수동태로 금지 또는 규정을 강조하는 표현",
+            "능동태로 요청하는 표현",
+            "의문문으로 묻는 표현",
+            "과거 사실을 설명하는 표현"
+          ],
+          "answerIndex": 0,
+          "explanation": "'must be removed'는 수동태 표현으로 규정 또는 의무를 나타냅니다. 안내판이나 표지판에서 규정을 강조할 때 수동태를 자주 사용합니다."
+        },
+        {
+          "id": "se_ch31_set07_004",
+          "type": "multiple_choice",
+          "question": "성당에서 'This is a house of God.'라고 할 때 이 표현이 주로 쓰이는 맥락은?",
+          "options": [
+            "기독교 계열 시설에서 경건함을 강조할 때",
+            "관광 가이드가 건물 역사를 설명할 때",
+            "음식점 메뉴를 소개할 때",
+            "숙소 체크인 절차를 안내할 때"
+          ],
+          "answerIndex": 0,
+          "explanation": "'This is a house of God.'는 기독교 계열 종교 시설에서 경건함과 존경심을 강조할 때 쓰이는 표현입니다. 관광 설명이나 식당, 숙소와는 관련이 없습니다."
+        },
+        {
+          "id": "se_ch31_set07_005",
+          "type": "multiple_choice",
+          "question": "성당 내 사진 촬영 허가를 묻는 다양한 표현 중 가장 격식 있는 것은?",
+          "options": [
+            "Is photography allowed inside?",
+            "Can I snap a photo?",
+            "OK to take pics?",
+            "Photo okay?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is photography allowed inside?'는 격식 있는 질문 형식으로, 성당이나 공식적인 장소에서 사용하기 적합합니다. 나머지는 지나치게 구어체이거나 단편적인 표현입니다."
+        },
+        {
+          "id": "se_ch31_set07_006",
+          "type": "multiple_choice",
+          "question": "미사 종료 후 입장 가능함을 안내하는 표현으로 자연스러운 것은?",
+          "options": [
+            "Please wait here until the mass is over.",
+            "The mass will never end.",
+            "You must stay outside permanently.",
+            "No visitors allowed today."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please wait here until the mass is over.'는 미사가 끝날 때까지 기다리라는 자연스러운 안내입니다. 미사가 끝나면 입장 가능하므로 'permanently(영구히)'나 'never'는 올바르지 않습니다."
+        },
+        {
+          "id": "se_ch31_set07_007",
+          "type": "multiple_choice",
+          "question": "헌금 문화에 대한 설명으로 옳은 것은?",
+          "options": [
+            "촛불 봉헌 시 소액(1~2유로)의 헌금을 donation box에 넣는 것이 관례이다.",
+            "헌금은 반드시 신용카드로만 해야 한다.",
+            "헌금을 하지 않으면 성당에서 쫓겨난다.",
+            "관광객은 헌금을 할 필요가 없다."
+          ],
+          "answerIndex": 0,
+          "explanation": "촛불 봉헌 시 1~2유로 정도의 소액 헌금을 donation box에 넣는 것이 일반적인 관례입니다. 강제는 아니지만 'expected(기대되는)'이라는 표현처럼 예의로 여겨집니다."
+        },
+        {
+          "id": "se_ch31_set07_008",
+          "type": "multiple_choice",
+          "question": "보안 검색에서 경비원이 \"Your bag will be checked at the entrance.\"라고 했습니다. 무슨 뜻인가?",
+          "options": [
+            "입구에서 가방 검사가 있을 것이다.",
+            "가방은 입구에 맡겨야 한다.",
+            "가방은 검사 없이 통과할 수 있다.",
+            "가방을 사물함에 보관해야 한다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'be checked at the entrance'는 입구에서 가방 검사를 받게 된다는 의미입니다. 가방을 맡기거나 사물함에 넣으라는 의미가 아닙니다."
+        },
+        {
+          "id": "se_ch31_set07_009",
+          "type": "multiple_choice",
+          "question": "가이드 투어에 대해 직원이 \"You can sign up at the information counter.\"라고 했습니다. 이 말의 의미는?",
+          "options": [
+            "안내 카운터에서 등록할 수 있습니다.",
+            "안내 카운터에서 사인을 받을 수 있습니다.",
+            "안내 카운터에서 카탈로그를 받을 수 있습니다.",
+            "안내 카운터는 투어와 관계없습니다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'sign up(등록하다, 신청하다)'은 투어에 참가 신청을 한다는 의미입니다. 'at the information counter(안내 카운터에서)'와 함께 쓰여 카운터에서 투어 등록이 가능하다는 안내입니다."
+        },
+        {
+          "id": "se_ch31_set07_010",
+          "type": "multiple_choice",
+          "question": "성물에 손대지 않겠다고 말할 때 쓸 수 있는 표현은?",
+          "options": [
+            "I'll admire it from a distance.",
+            "I'll take it home with me.",
+            "Let me hold the relic.",
+            "I'll touch it just once."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll admire it from a distance.'는 거리를 두고 감상하겠다는 예의 바른 표현입니다. 성물이나 조각상을 가져가거나 직접 만지겠다는 나머지 선택지는 잘못된 행동입니다."
+        },
+        {
+          "id": "se_ch31_set07_011",
+          "type": "ox",
+          "question": "'Please keep your voice down.'은 'Quiet!'보다 훨씬 정중한 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Please keep your voice down.'은 목소리를 낮춰달라는 부드럽고 정중한 표현입니다. 'Quiet!'는 직접적이고 명령적인 표현으로 덜 정중하게 들릴 수 있습니다."
+        },
+        {
+          "id": "se_ch31_set07_012",
+          "type": "ox",
+          "question": "성당 보안 검색 시 금속 물품을 올려놓는 플라스틱 쟁반을 'tray'라고 한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'tray(트레이)'는 공항이나 성당 보안 검색대에서 금속 물품(벨트, 동전, 열쇠 등)을 올려놓는 플라스틱 쟁반입니다."
+        },
+        {
+          "id": "se_ch31_set07_013",
+          "type": "ox",
+          "question": "'on the half hour'는 정각(예: 1:00, 2:00)에 시작한다는 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'on the half hour'는 각 시간의 30분(예: 1:30, 2:30)에 시작한다는 의미입니다. 정각(1:00, 2:00 등)은 'on the hour'라고 합니다."
+        },
+        {
+          "id": "se_ch31_set07_014",
+          "type": "ox",
+          "question": "성당에서 전시된 성물이나 조각상에 접촉하면 시간이 지나면서 손상이 발생할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 반복적인 접촉은 조각상이나 종교 성물에 점진적인 손상을 일으킬 수 있습니다. 따라서 대부분의 성당과 박물관에서 '만지지 마세요(Please don't touch)'라는 규정이 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch31_set08_001",
+          "type": "multiple_choice",
+          "question": "방문객이 성당 드레스 코드에 대해 물을 때 가장 공식적인 표현은?",
+          "options": [
+            "What is the dress policy here?",
+            "What should I wear on a date?",
+            "Do you sell clothes here?",
+            "Can I wear my swimsuit?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What is the dress policy here?'는 'policy(규정)'를 사용해 복장 규정을 묻는 공식적인 표현입니다. 나머지 선택지는 성당 입장 복장 문의와 관련이 없습니다."
+        },
+        {
+          "id": "se_ch31_set08_002",
+          "type": "multiple_choice",
+          "question": "직원이 \"Just wrap it around your waist or shoulders.\"라고 안내했습니다. 이 표현의 의미는?",
+          "options": [
+            "허리나 어깨에 두르세요.",
+            "허리띠를 착용하세요.",
+            "어깨 마사지를 해 드리겠습니다.",
+            "허리를 곧게 세우세요."
+          ],
+          "answerIndex": 0,
+          "explanation": "'wrap around'는 '~에 두르다'라는 표현입니다. 숄을 허리나 어깨에 두르는 방법을 안내하는 말입니다."
+        },
+        {
+          "id": "se_ch31_set08_003",
+          "type": "multiple_choice",
+          "question": "성당에서 정숙을 요청하는 표현으로 안내판에 자주 쓰이는 것은?",
+          "options": [
+            "Silence is required in this area.",
+            "Loud music is welcome.",
+            "Please speak freely.",
+            "Conversation is encouraged."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Silence is required in this area.'는 해당 구역에서 정숙이 의무임을 나타내는 표현으로 안내판에 자주 사용됩니다. 'required(요구되는)'는 규정을 나타냅니다."
+        },
+        {
+          "id": "se_ch31_set08_004",
+          "type": "multiple_choice",
+          "question": "플래시 촬영을 금지하는 이유로 올바른 것은?",
+          "options": [
+            "플래시 빛이 오래된 예술 작품에 손상을 줄 수 있기 때문이다.",
+            "플래시가 신자들을 방해하기 때문이다.",
+            "플래시가 화재를 일으킬 수 있기 때문이다.",
+            "플래시가 너무 시끄럽기 때문이다."
+          ],
+          "answerIndex": 0,
+          "explanation": "플래시 사용을 금지하는 주된 이유는 강한 빛이 프레스코화나 오래된 예술품에 손상(damage)을 줄 수 있기 때문입니다. 신자 방해나 화재 위험은 주된 이유가 아닙니다."
+        },
+        {
+          "id": "se_ch31_set08_005",
+          "type": "multiple_choice",
+          "question": "경비원이 미사 중 입장 거절 후 할 말로 자연스러운 것은?",
+          "options": [
+            "Feel free to wait in the courtyard.",
+            "Please leave and never return.",
+            "You can enter during the mass.",
+            "The mass is cancelled today."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Feel free to wait in the courtyard.'는 미사가 끝날 때까지 마당에서 기다려도 된다는 친근하고 정중한 표현입니다. 'feel free to ~'는 '~해도 됩니다'라는 허락 표현입니다."
+        },
+        {
+          "id": "se_ch31_set08_006",
+          "type": "multiple_choice",
+          "question": "가이드 투어 예약에 대해 직원이 \"Tickets are available at the front desk.\"라고 했습니다. 이 말의 의미는?",
+          "options": [
+            "프런트 데스크에서 티켓을 구할 수 있습니다.",
+            "티켓은 온라인으로만 구매 가능합니다.",
+            "투어는 무료입니다.",
+            "티켓은 이미 매진됐습니다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'available at the front desk'는 프런트 데스크에서 구입 또는 이용 가능하다는 의미입니다. 'available(이용 가능한)'은 서비스나 물건을 구할 수 있음을 나타냅니다."
+        },
+        {
+          "id": "se_ch31_set08_007",
+          "type": "multiple_choice",
+          "question": "촛불 봉헌 의사를 가장 정중하게 표현한 것은?",
+          "options": [
+            "I'd like to offer a candle.",
+            "Give me a candle now.",
+            "I want fire.",
+            "Light it up for me."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like to offer a candle.'는 촛불 봉헌 의사를 정중하게 표현한 것입니다. 'offer(봉헌하다)'는 종교적 행위에 적합한 어휘이며, 'I'd like to'는 정중한 요청 형식입니다."
+        },
+        {
+          "id": "se_ch31_set08_008",
+          "type": "multiple_choice",
+          "question": "성당 보안 검색 시 경비원의 지시에 어긋나는 행동은?",
+          "options": [
+            "금속 물품을 주머니에 그대로 두고 검색대를 통과한다.",
+            "벨트와 동전을 트레이에 올려놓는다.",
+            "가방을 검사받을 준비를 한다.",
+            "줄을 서서 차례를 기다린다."
+          ],
+          "answerIndex": 0,
+          "explanation": "보안 검색 시 금속 물품은 트레이에 꺼내놓아야 합니다. 금속 물품을 주머니에 그대로 두면 검색대 경보가 울릴 수 있어 경비원의 지시에 어긋납니다."
+        },
+        {
+          "id": "se_ch31_set08_009",
+          "type": "multiple_choice",
+          "question": "성당 내에서 성물에 대한 올바른 태도는?",
+          "options": [
+            "I'll keep my hands to myself.",
+            "I'll pick up the statue for a photo.",
+            "I'll touch the altar to feel the history.",
+            "I'll move the religious objects."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll keep my hands to myself.'는 손을 대지 않겠다는 표현으로, 성물이나 조각상에 접촉하지 않겠다는 올바른 태도입니다. 나머지는 모두 금지된 행동입니다."
+        },
+        {
+          "id": "se_ch31_set08_010",
+          "type": "multiple_choice",
+          "question": "관광객이 경비원의 주의를 받은 후 사용할 수 있는 가장 자연스러운 응답은?",
+          "options": [
+            "I understand. I'll make sure to follow the rules.",
+            "I don't care about the rules.",
+            "Rules are not for tourists.",
+            "I'll do as I please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I understand. I'll make sure to follow the rules.'는 규정을 이해하고 따르겠다는 자연스럽고 예의 바른 응답입니다. 나머지는 규정을 무시하는 태도를 나타냅니다."
+        },
+        {
+          "id": "se_ch31_set08_011",
+          "type": "ox",
+          "question": "'collection box'는 영국에서 헌금함을 가리키는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'collection box'는 'donation box', 'offering box'와 함께 헌금함을 가리키는 표현으로, 특히 영국에서 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch31_set08_012",
+          "type": "ox",
+          "question": "성당에서 'I didn't know.'보다 'I didn't realize.'가 더 순간적인 깨달음의 뉘앙스를 가진다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'I didn't realize.'는 방금 알아챘다는 순간적인 깨달음의 뉘앙스를 갖는 반면, 'I didn't know.'는 단순히 몰랐다는 사실을 진술합니다."
+        },
+        {
+          "id": "se_ch31_set08_013",
+          "type": "ox",
+          "question": "성당에서 가이드 투어는 항상 무료로 제공된다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 가이드 투어는 유료인 경우가 많습니다. 성당에 따라 무료인 곳도 있지만, 대부분의 주요 관광지 성당에서는 가이드 투어에 별도 요금이 부과됩니다."
+        },
+        {
+          "id": "se_ch31_set08_014",
+          "type": "ox",
+          "question": "'I'll just look without touching.'에서 'just'는 행동을 제한하는 뉘앙스로 쓰였다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 여기서 'just'는 '~만'이라는 의미로 보는 것에만 한정하겠다는 뉘앙스를 줍니다. 'look but don't touch'라는 표현과 같은 맥락입니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch31_set09_001",
+          "type": "multiple_choice",
+          "question": "성당 드레스 코드를 가장 잘 설명한 것은?",
+          "options": [
+            "어깨와 무릎을 가리는 복장이 필요하며, 맨 어깨와 반바지는 금지된다.",
+            "흰색과 검은색 옷만 허용된다.",
+            "남성은 정장, 여성은 드레스 착용이 필수이다.",
+            "관광객에게는 별도 복장 규정이 없다."
+          ],
+          "answerIndex": 0,
+          "explanation": "성당 드레스 코드의 핵심은 어깨와 무릎을 가리는 것입니다. 맨 어깨(bare shoulders)와 반바지(shorts)는 허용되지 않습니다. 색상 제한이나 정장 의무는 없습니다."
+        },
+        {
+          "id": "se_ch31_set09_002",
+          "type": "multiple_choice",
+          "question": "숄 대여에 관한 직원의 안내로 가장 자연스러운 것은?",
+          "options": [
+            "You can use a shawl at no charge. Please return it before you leave.",
+            "You must buy a shawl to enter.",
+            "Shawls are sold in the gift shop only.",
+            "We do not provide any cover-ups."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You can use a shawl at no charge.'는 무료로 숄을 사용할 수 있다는 표현이며, 'return it before you leave(떠나기 전에 반납하세요)'와 함께 쓰여 자연스러운 안내가 됩니다."
+        },
+        {
+          "id": "se_ch31_set09_003",
+          "type": "multiple_choice",
+          "question": "종교 시설에서 모자를 벗는 행동에 대한 올바른 설명은?",
+          "options": [
+            "경의를 표하는 전통적인 관습이다.",
+            "위생을 위한 규정이다.",
+            "도난 방지를 위한 보안 절차이다.",
+            "종교 시설과 관계없는 개인 선택이다."
+          ],
+          "answerIndex": 0,
+          "explanation": "종교 시설에서 모자를 벗는 것은 'a sign of respect(경의의 표시)'로, 오랜 전통적 관습입니다. 위생이나 보안과는 관련이 없습니다."
+        },
+        {
+          "id": "se_ch31_set09_004",
+          "type": "multiple_choice",
+          "question": "성당 내부에서 'maintain silence'를 요청받았을 때 적절한 대응은?",
+          "options": [
+            "조용히 이동하며 속삭임도 최소화한다.",
+            "안내원에게 항의한다.",
+            "다른 입구로 이동한다.",
+            "음악을 틀어 분위기를 바꾼다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'maintain silence(정숙 유지)'를 요청받으면 조용히 이동하고 대화도 최소화해야 합니다. 특히 본당(main chapel)에서는 속삭임도 삼가는 것이 예의입니다."
+        },
+        {
+          "id": "se_ch31_set09_005",
+          "type": "multiple_choice",
+          "question": "관광객이 \"Can I take photos inside?\"라고 물었을 때 허용된다는 답변은?",
+          "options": [
+            "Photos are allowed here.",
+            "No photography at all.",
+            "Only staff can take photos.",
+            "Please submit a photo permit request."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Photos are allowed here.'는 사진 촬영이 허용된다는 간단명료한 답변입니다. 나머지 선택지는 모두 제한이나 추가 절차를 요구하는 표현입니다."
+        },
+        {
+          "id": "se_ch31_set09_006",
+          "type": "multiple_choice",
+          "question": "가톨릭 예배와 개신교 예배를 구분하는 영어 단어로 올바른 것은?",
+          "options": [
+            "가톨릭: mass / 개신교: service",
+            "가톨릭: ceremony / 개신교: mass",
+            "가톨릭: festival / 개신교: mass",
+            "가톨릭: service / 개신교: ceremony"
+          ],
+          "answerIndex": 0,
+          "explanation": "'mass'는 가톨릭 예배를, 'service'는 개신교 예배를 가리킵니다. 일반적인 종교 의식은 'ceremony'라고 하며, 두 단어를 혼동하지 않도록 주의해야 합니다."
+        },
+        {
+          "id": "se_ch31_set09_007",
+          "type": "multiple_choice",
+          "question": "성당에서 촛불을 켜는 행위와 관련된 표현이 아닌 것은?",
+          "options": [
+            "Join the queue for security.",
+            "Light a candle.",
+            "A small donation is expected.",
+            "Donation box."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Join the queue for security.'는 보안 검색 줄을 서는 것과 관련된 표현입니다. 나머지 세 가지 표현(light a candle, donation, donation box)은 모두 촛불 봉헌과 관련이 있습니다."
+        },
+        {
+          "id": "se_ch31_set09_008",
+          "type": "multiple_choice",
+          "question": "줄을 서달라는 유럽식(영국식) 안내 표현은?",
+          "options": [
+            "Please join the queue.",
+            "Please get in line.",
+            "Please stand in row.",
+            "Please wait in order."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please join the queue.'는 줄을 서달라는 영국식 표현입니다. 'queue'는 영국식 영어이며, 미국에서는 'get in line'이라고 합니다."
+        },
+        {
+          "id": "se_ch31_set09_009",
+          "type": "multiple_choice",
+          "question": "경비원이 조각상을 만지지 말라고 경고한 후 관광객이 할 수 있는 가장 적절한 반응은?",
+          "options": [
+            "I understand. I'll just look without touching.",
+            "Okay, I'll touch it just a little.",
+            "I wasn't going to touch it anyway.",
+            "Rules like this don't make sense."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I understand. I'll just look without touching.'는 경고를 수용하고 만지지 않겠다고 다짐하는 자연스럽고 예의 바른 반응입니다."
+        },
+        {
+          "id": "se_ch31_set09_010",
+          "type": "multiple_choice",
+          "question": "가이드 투어 시간을 묻는 가장 자연스러운 표현은?",
+          "options": [
+            "How long does the tour last?",
+            "When does the museum close?",
+            "How many people are in the tour?",
+            "Is the tour guide a native speaker?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How long does the tour last?'는 투어가 얼마나 걸리는지 묻는 자연스러운 표현입니다. 'last(지속되다)'를 사용해 시간 길이를 묻습니다."
+        },
+        {
+          "id": "se_ch31_set09_011",
+          "type": "ox",
+          "question": "성당에서 'No photography'라는 안내는 사진 촬영 자체를 금지하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'No photography'는 사진 촬영 자체를 금지하는 표현입니다. 플래시만 금지할 때는 'No flash photography' 또는 'No flash, please.'라고 합니다."
+        },
+        {
+          "id": "se_ch31_set09_012",
+          "type": "ox",
+          "question": "성당 가이드 투어는 반드시 현장에서 즉시 시작한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 가이드 투어는 정해진 시간에 출발하며(예: 매 시간 30분), 데스크에서 예약하거나 해당 시간에 맞춰 대기해야 합니다. 즉시 시작하는 것은 아닙니다."
+        },
+        {
+          "id": "se_ch31_set09_013",
+          "type": "ox",
+          "question": "'I'm afraid ~'를 사용하면 거절이나 부정적인 소식을 정중하게 전달할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'I'm afraid ~'는 '유감스럽게도 ~입니다'라는 완곡어법으로, 상대방을 배려하면서 부정적인 소식이나 거절을 전달하는 정중한 표현입니다."
+        },
+        {
+          "id": "se_ch31_set09_014",
+          "type": "ox",
+          "question": "성당에서 촛불 봉헌은 강제적으로 의무화되어 있다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 촛불 봉헌 시 소액 헌금은 강제가 아니라 관례입니다. 'A small donation is expected.'에서 'expected'는 의무(obligatory)가 아니라 기대되는 관례임을 나타냅니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch31_set10_001",
+          "type": "multiple_choice",
+          "question": "성당 입구에서 경비원이 할 수 있는 복장 안내로 가장 적절한 것은?",
+          "options": [
+            "Please make sure your shoulders and knees are covered.",
+            "Welcome! Shorts and tank tops are allowed.",
+            "Formal attire is required at all times.",
+            "Swimwear is acceptable in summer."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please make sure your shoulders and knees are covered.'는 복장 규정을 안내하는 정중한 표현입니다. 반바지, 탱크톱, 수영복은 모두 성당에서 허용되지 않는 복장입니다."
+        },
+        {
+          "id": "se_ch31_set10_002",
+          "type": "multiple_choice",
+          "question": "'cover up'의 의미로 가장 알맞은 것은?",
+          "options": [
+            "몸을 가리다",
+            "모자를 쓰다",
+            "짐을 정리하다",
+            "입구를 막다"
+          ],
+          "answerIndex": 0,
+          "explanation": "'cover up'은 몸을 가린다는 표현입니다. 'Can I borrow something to cover up?'은 가릴 것을 빌릴 수 있는지 묻는 표현으로, 숄이나 스카프로 몸을 가리는 상황에서 쓰입니다."
+        },
+        {
+          "id": "se_ch31_set10_003",
+          "type": "multiple_choice",
+          "question": "성당에서 '예의를 표하다'를 영어로 가장 잘 표현한 것은?",
+          "options": [
+            "show respect",
+            "show your ticket",
+            "show your bag",
+            "show your passport"
+          ],
+          "answerIndex": 0,
+          "explanation": "'show respect'는 '예의를 표하다, 경의를 보이다'는 표현입니다. 모자를 벗는 행동은 종교 시설에서 예의를 표하는 방법('a way to show respect')입니다."
+        },
+        {
+          "id": "se_ch31_set10_004",
+          "type": "multiple_choice",
+          "question": "미사가 진행 중일 때 경비원이 할 수 있는 안내 표현은?",
+          "options": [
+            "I'm sorry, but we can't let you in right now. A service is in progress.",
+            "Great timing! Come in.",
+            "The mass is about to start. Please enter quickly.",
+            "Today's mass is cancelled."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm sorry, but we can't let you in right now.'는 정중한 거절 표현이며, 'A service is in progress.'는 예배가 진행 중임을 알립니다. 두 표현을 합쳐 자연스러운 안내가 됩니다."
+        },
+        {
+          "id": "se_ch31_set10_005",
+          "type": "multiple_choice",
+          "question": "성당 내 플래시 사용 금지를 알리는 표현으로 안내판에서 볼 수 있는 것은?",
+          "options": [
+            "Flash photography is not permitted.",
+            "Please use flash for all photos.",
+            "Photography is mandatory.",
+            "Cameras must be on at all times."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Flash photography is not permitted.'는 플래시 촬영이 금지된다는 공식적인 안내 표현입니다. 'not permitted'는 'not allowed'와 같은 의미로 금지를 나타냅니다."
+        },
+        {
+          "id": "se_ch31_set10_006",
+          "type": "multiple_choice",
+          "question": "성당 내부에서 대화를 삼가야 하는 구역을 가리키는 표현은?",
+          "options": [
+            "main chapel (본당)",
+            "entrance hall (입구 홀)",
+            "gift shop (기념품 가게)",
+            "parking area (주차장)"
+          ],
+          "answerIndex": 0,
+          "explanation": "'main chapel(본당)'은 예배가 이루어지는 주요 공간으로 특히 정숙이 요구됩니다. 입구 홀, 기념품 가게, 주차장은 정숙 규정이 엄격하지 않습니다."
+        },
+        {
+          "id": "se_ch31_set10_007",
+          "type": "multiple_choice",
+          "question": "촛불 봉헌 관련 용어를 설명한 것 중 틀린 것은?",
+          "options": [
+            "donation box는 금속 물품을 넣는 보안 트레이이다.",
+            "light a candle은 초에 불을 붙이는 행위이다.",
+            "A small donation is expected는 소액 헌금이 관례임을 나타낸다.",
+            "offering은 donation과 같은 맥락에서 헌금을 의미한다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'donation box'는 헌금함으로, 금속 물품을 넣는 보안 트레이가 아닙니다. 보안 트레이는 'tray' 또는 'basket'이라고 합니다. 이 선택지만 틀렸습니다."
+        },
+        {
+          "id": "se_ch31_set10_008",
+          "type": "multiple_choice",
+          "question": "보안 검색 시 \"Please place all metal objects in the basket.\"의 의미는?",
+          "options": [
+            "모든 금속 물품을 바구니에 담아 주세요.",
+            "금속 물품을 쓰레기통에 버려 주세요.",
+            "바구니에서 금속 물품을 꺼내 주세요.",
+            "금속 물품은 검사 없이 통과합니다."
+          ],
+          "answerIndex": 0,
+          "explanation": "'place in the basket'는 바구니에 올려놓으라는 표현입니다. 'tray'와 'basket' 모두 보안 검색 시 금속 물품을 담는 용기를 가리킵니다."
+        },
+        {
+          "id": "se_ch31_set10_009",
+          "type": "multiple_choice",
+          "question": "성당에서 성물을 만진 것을 사과할 때 가장 자연스러운 표현은?",
+          "options": [
+            "I had no idea. Sorry.",
+            "I planned to do that.",
+            "The rule is unfair.",
+            "It's not my fault."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I had no idea. Sorry.'는 전혀 몰랐다는 뜻을 담은 솔직하고 자연스러운 사과 표현입니다. 나머지 선택지는 책임을 회피하거나 규정에 반항하는 태도를 보입니다."
+        },
+        {
+          "id": "se_ch31_set10_010",
+          "type": "multiple_choice",
+          "question": "영어 가이드 투어 이용 방법으로 올바른 것은?",
+          "options": [
+            "매 시간 30분에 출발하며, 데스크에서 예약 가능하다.",
+            "가이드 투어는 사전 온라인 예약만 가능하다.",
+            "가이드 없이 자유롭게 돌아보는 방식이다.",
+            "투어는 한국어로만 제공된다."
+          ],
+          "answerIndex": 0,
+          "explanation": "성당 가이드 투어는 보통 매 시간 30분 등 정해진 시간에 출발하며 현장 데스크에서 예약하거나 당일 등록할 수 있습니다. 온라인 전용이거나 한국어 전용은 아닙니다."
+        },
+        {
+          "id": "se_ch31_set10_011",
+          "type": "ox",
+          "question": "성당에서 'Please observe silence.'는 정숙을 요청하는 공식 표현으로 쓰인다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Please observe silence.'는 성당, 도서관, 박물관 등 공식적인 안내문에서 정숙을 요청할 때 사용하는 격식 있는 표현입니다."
+        },
+        {
+          "id": "se_ch31_set10_012",
+          "type": "ox",
+          "question": "성당 방문 시 복장 규정은 현지인에게만 적용되고 외국 관광객은 예외이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 성당 복장 규정은 현지인과 외국 관광객 모두에게 동일하게 적용됩니다. 바티칸과 같은 유명 성당에서는 복장 규정을 어길 경우 관광객도 입장이 거부됩니다."
+        },
+        {
+          "id": "se_ch31_set10_013",
+          "type": "ox",
+          "question": "'I'll keep my hands to myself.'는 손을 대지 않겠다는 의미이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'keep my hands to myself'는 손을 자신에게만 두겠다는, 즉 다른 물건에 손을 대지 않겠다는 표현입니다. 어린이에게도 자주 쓰이는 일상적인 표현입니다."
+        },
+        {
+          "id": "se_ch31_set10_014",
+          "type": "ox",
+          "question": "종교 시설에서 'place of worship'은 성당, 교회, 모스크 등 특정 종교에만 국한된 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'place of worship'은 성당, 교회, 모스크, 사원 등 모든 종교 시설을 총칭하는 중립적인 표현입니다. 특정 종교에 국한되지 않고 어떤 종교 건물에도 사용할 수 있습니다."
         }
       ]
     }

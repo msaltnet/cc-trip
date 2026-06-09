@@ -7,34 +7,68 @@
       "id": "ch09_d01",
       "title": "공항버스 정류장 위치 묻기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, where is the airport bus stop?", "ko": "실례합니다, 공항버스 정류장이 어디 있나요?" },
-        { "speaker": "안내원", "en": "It's on Level 1, Exit 5, just outside the terminal.", "ko": "1층 5번 출구 바로 밖에 있습니다." },
-        { "speaker": "나", "en": "Does the bus go to the city center?", "ko": "버스가 시내 중심가로 가나요?" },
-        { "speaker": "안내원", "en": "Yes, it goes directly to downtown. It takes about 40 minutes.", "ko": "네, 시내로 직행합니다. 약 40분 정도 걸립니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, where is the airport bus stop?",
+          "ko": "실례합니다, 공항버스 정류장이 어디 있나요?"
+        },
+        {
+          "speaker": "안내원",
+          "en": "It's on Level 1, Exit 5, just outside the terminal.",
+          "ko": "1층 5번 출구 바로 밖에 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Does the bus go to the city center?",
+          "ko": "버스가 시내 중심가로 가나요?"
+        },
+        {
+          "speaker": "안내원",
+          "en": "Yes, it goes directly to downtown. It takes about 40 minutes.",
+          "ko": "네, 시내로 직행합니다. 약 40분 정도 걸립니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Where is the airport bus stop?",
           "ko": "공항버스 정류장을 찾을 때 가장 직접적인 표현. 'bus stop'은 일반 정류장, 공항버스처럼 지정된 곳은 'bus stand' 또는 'bus bay'라고도 함.",
           "alternatives": [
-            { "en": "Where can I catch the airport bus?", "ko": "버스를 어디서 탈 수 있냐는 표현. 'catch'는 버스·기차를 타다는 의미로 자주 쓰임." },
-            { "en": "Which exit is for the airport bus?", "ko": "어느 출구로 나가야 하는지 물어보는 표현. 공항처럼 출구가 많은 곳에서 유용." }
+            {
+              "en": "Where can I catch the airport bus?",
+              "ko": "버스를 어디서 탈 수 있냐는 표현. 'catch'는 버스·기차를 타다는 의미로 자주 쓰임."
+            },
+            {
+              "en": "Which exit is for the airport bus?",
+              "ko": "어느 출구로 나가야 하는지 물어보는 표현. 공항처럼 출구가 많은 곳에서 유용."
+            }
           ]
         },
         {
           "en": "Does the bus go to the city center?",
           "ko": "버스가 시내 방향으로 운행하는지 확인하는 표현. 'city center'(영국식)와 'downtown'(미국식) 모두 시내 중심가를 뜻함.",
           "alternatives": [
-            { "en": "Does this bus go downtown?", "ko": "미국식 표현으로 시내 방향 여부를 확인하는 표현." },
-            { "en": "Is this the right bus for the city center?", "ko": "내가 맞는 버스를 기다리고 있는지 확인하는 표현." }
+            {
+              "en": "Does this bus go downtown?",
+              "ko": "미국식 표현으로 시내 방향 여부를 확인하는 표현."
+            },
+            {
+              "en": "Is this the right bus for the city center?",
+              "ko": "내가 맞는 버스를 기다리고 있는지 확인하는 표현."
+            }
           ]
         },
         {
           "en": "It goes directly to downtown.",
           "ko": "'directly'는 환승 없이 곧바로 간다는 뜻. 'non-stop'과 비슷하게 쓰이며, 환승이 있으면 'with a transfer' 또는 'it stops at ~'라고 함.",
           "alternatives": [
-            { "en": "It's a direct bus.", "ko": "직행 버스라는 의미의 간결한 표현." },
-            { "en": "No transfers needed.", "ko": "환승이 필요 없다는 의미로 편리함을 강조할 때 씀." }
+            {
+              "en": "It's a direct bus.",
+              "ko": "직행 버스라는 의미의 간결한 표현."
+            },
+            {
+              "en": "No transfers needed.",
+              "ko": "환승이 필요 없다는 의미로 편리함을 강조할 때 씀."
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch09_d02",
       "title": "공항철도 표 사기",
       "lines": [
-        { "speaker": "나", "en": "One ticket to the city center, please.", "ko": "시내 중심가까지 표 한 장 주세요." },
-        { "speaker": "직원", "en": "That's twelve dollars. Would you like a single or return?", "ko": "12달러입니다. 편도로 드릴까요, 왕복으로 드릴까요?" },
-        { "speaker": "나", "en": "A single ticket, please.", "ko": "편도로 주세요." },
-        { "speaker": "직원", "en": "Here you go. Platform 2 is just down the escalator.", "ko": "여기 있습니다. 2번 플랫폼은 에스컬레이터를 내려가면 바로 있습니다." }
+        {
+          "speaker": "나",
+          "en": "One ticket to the city center, please.",
+          "ko": "시내 중심가까지 표 한 장 주세요."
+        },
+        {
+          "speaker": "직원",
+          "en": "That's twelve dollars. Would you like a single or return?",
+          "ko": "12달러입니다. 편도로 드릴까요, 왕복으로 드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "A single ticket, please.",
+          "ko": "편도로 주세요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Here you go. Platform 2 is just down the escalator.",
+          "ko": "여기 있습니다. 2번 플랫폼은 에스컬레이터를 내려가면 바로 있습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "One ticket to the city center, please.",
           "ko": "표를 살 때 가장 기본적인 표현. 'One ticket to ~'로 목적지를 바로 말하면 됨. 인원이 더 있으면 'Two tickets to ~'로 바꾸면 됨.",
           "alternatives": [
-            { "en": "I'd like a ticket to the city center.", "ko": "'I'd like ~'를 사용한 조금 더 정중한 표현." },
-            { "en": "Can I get a ticket to downtown?", "ko": "캐주얼하게 표를 요청하는 표현." }
+            {
+              "en": "I'd like a ticket to the city center.",
+              "ko": "'I'd like ~'를 사용한 조금 더 정중한 표현."
+            },
+            {
+              "en": "Can I get a ticket to downtown?",
+              "ko": "캐주얼하게 표를 요청하는 표현."
+            }
           ]
         },
         {
           "en": "A single or return?",
           "ko": "'single'은 편도, 'return'은 왕복을 의미하는 영국식 표현. 미국에서는 'one-way'와 'round trip'이라고 함. 왕복은 보통 편도의 2배보다 저렴한 경우도 있음.",
           "alternatives": [
-            { "en": "One-way or round trip?", "ko": "미국식 표현으로 편도·왕복을 묻는 표현." },
-            { "en": "Are you coming back?", "ko": "왕복이냐고 가볍게 묻는 캐주얼한 표현." }
+            {
+              "en": "One-way or round trip?",
+              "ko": "미국식 표현으로 편도·왕복을 묻는 표현."
+            },
+            {
+              "en": "Are you coming back?",
+              "ko": "왕복이냐고 가볍게 묻는 캐주얼한 표현."
+            }
           ]
         },
         {
           "en": "Which platform is it?",
           "ko": "기차·지하철을 탈 플랫폼(승강장)을 묻는 표현. 'platform'은 기차·전철역에서 쓰고, 버스는 'bay' 또는 'stand'라고 함.",
           "alternatives": [
-            { "en": "Which platform do I need?", "ko": "내가 타야 할 플랫폼이 어디냐는 표현." },
-            { "en": "Where do I board the train?", "ko": "기차를 어디서 타는지 물어보는 표현." }
+            {
+              "en": "Which platform do I need?",
+              "ko": "내가 타야 할 플랫폼이 어디냐는 표현."
+            },
+            {
+              "en": "Where do I board the train?",
+              "ko": "기차를 어디서 타는지 물어보는 표현."
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch09_d03",
       "title": "택시 승강장 찾기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, where is the taxi stand?", "ko": "실례합니다, 택시 승강장이 어디 있나요?" },
-        { "speaker": "안내원", "en": "Go through the sliding doors and turn left. You'll see it.", "ko": "자동문을 통과해서 왼쪽으로 돌면 보입니다." },
-        { "speaker": "나", "en": "Is there a queue? It looks quite busy.", "ko": "줄이 있나요? 꽤 복잡해 보이네요." },
-        { "speaker": "안내원", "en": "Yes, just join the line and a taxi will come quickly.", "ko": "네, 줄을 서시면 택시가 금방 옵니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, where is the taxi stand?",
+          "ko": "실례합니다, 택시 승강장이 어디 있나요?"
+        },
+        {
+          "speaker": "안내원",
+          "en": "Go through the sliding doors and turn left. You'll see it.",
+          "ko": "자동문을 통과해서 왼쪽으로 돌면 보입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Is there a queue? It looks quite busy.",
+          "ko": "줄이 있나요? 꽤 복잡해 보이네요."
+        },
+        {
+          "speaker": "안내원",
+          "en": "Yes, just join the line and a taxi will come quickly.",
+          "ko": "네, 줄을 서시면 택시가 금방 옵니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Where is the taxi stand?",
           "ko": "택시 승강장 위치를 묻는 표현. 'taxi stand'는 택시가 줄을 서서 기다리는 지정된 공간. 'taxi rank'(영국식)라고도 함.",
           "alternatives": [
-            { "en": "Where can I get a taxi?", "ko": "택시를 어디서 탈 수 있냐는 표현. 더 구어적이고 자연스러움." },
-            { "en": "Where is the taxi rank?", "ko": "영국·호주 등에서 사용하는 표현으로 의미는 같음." }
+            {
+              "en": "Where can I get a taxi?",
+              "ko": "택시를 어디서 탈 수 있냐는 표현. 더 구어적이고 자연스러움."
+            },
+            {
+              "en": "Where is the taxi rank?",
+              "ko": "영국·호주 등에서 사용하는 표현으로 의미는 같음."
+            }
           ]
         },
         {
           "en": "Is there a queue?",
           "ko": "'queue'는 줄, 대기 줄을 뜻하는 영국식 표현. 미국에서는 'line'이라고 함. 'join the queue/line'은 줄에 합류하다, 즉 줄을 서다는 뜻.",
           "alternatives": [
-            { "en": "Is there a line?", "ko": "미국식으로 줄이 있냐고 묻는 표현." },
-            { "en": "Do I need to wait in line?", "ko": "줄을 서서 기다려야 하냐고 묻는 표현." }
+            {
+              "en": "Is there a line?",
+              "ko": "미국식으로 줄이 있냐고 묻는 표현."
+            },
+            {
+              "en": "Do I need to wait in line?",
+              "ko": "줄을 서서 기다려야 하냐고 묻는 표현."
+            }
           ]
         },
         {
           "en": "Just join the line.",
           "ko": "'just'가 있으면 '그냥 ~만 하면 됩니다'라는 간단함을 나타냄. 줄 서는 것 외에 다른 절차가 없다는 안심을 주는 표현.",
           "alternatives": [
-            { "en": "Get in line and wait.", "ko": "줄을 서서 기다리라는 직접적인 표현." },
-            { "en": "Queue up over there.", "ko": "저쪽에 줄 서라는 표현으로 'over there'로 방향을 알려줌." }
+            {
+              "en": "Get in line and wait.",
+              "ko": "줄을 서서 기다리라는 직접적인 표현."
+            },
+            {
+              "en": "Queue up over there.",
+              "ko": "저쪽에 줄 서라는 표현으로 'over there'로 방향을 알려줌."
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch09_d04",
       "title": "택시 정액요금 확인하기",
       "lines": [
-        { "speaker": "나", "en": "Is there a fixed fare to the city center?", "ko": "시내 중심가까지 정액요금이 있나요?" },
-        { "speaker": "기사", "en": "Yes, the flat rate is thirty dollars. No surprises.", "ko": "네, 정액요금은 30달러입니다. 추가 요금은 없습니다." },
-        { "speaker": "나", "en": "Great. Do you accept credit cards?", "ko": "좋아요. 신용카드도 받으시나요?" },
-        { "speaker": "기사", "en": "Yes, cards are fine. Hop in!", "ko": "네, 카드 됩니다. 타세요!" }
+        {
+          "speaker": "나",
+          "en": "Is there a fixed fare to the city center?",
+          "ko": "시내 중심가까지 정액요금이 있나요?"
+        },
+        {
+          "speaker": "기사",
+          "en": "Yes, the flat rate is thirty dollars. No surprises.",
+          "ko": "네, 정액요금은 30달러입니다. 추가 요금은 없습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Great. Do you accept credit cards?",
+          "ko": "좋아요. 신용카드도 받으시나요?"
+        },
+        {
+          "speaker": "기사",
+          "en": "Yes, cards are fine. Hop in!",
+          "ko": "네, 카드 됩니다. 타세요!"
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is there a fixed fare?",
           "ko": "정액요금이 있는지 확인하는 표현. 'fixed fare' = 'flat rate' = 'set price' 모두 같은 뜻. 미터기 없이 정해진 금액만 내면 됨. 반대는 'meter fare' 또는 'metered rate'.",
           "alternatives": [
-            { "en": "Do you have a flat rate to downtown?", "ko": "시내까지 정액요금이 있냐는 표현. 'flat rate'도 널리 쓰이는 표현." },
-            { "en": "Is the price fixed or metered?", "ko": "정액인지 미터요금인지 직접 물어보는 표현." }
+            {
+              "en": "Do you have a flat rate to downtown?",
+              "ko": "시내까지 정액요금이 있냐는 표현. 'flat rate'도 널리 쓰이는 표현."
+            },
+            {
+              "en": "Is the price fixed or metered?",
+              "ko": "정액인지 미터요금인지 직접 물어보는 표현."
+            }
           ]
         },
         {
           "en": "No surprises.",
           "ko": "추가 요금이나 예상치 못한 금액이 없다는 뜻. 직역하면 '놀람 없이'이지만 '청구 금액이 변동 없다'는 의미. 택시 기사가 신뢰를 주기 위해 자주 쓰는 표현.",
           "alternatives": [
-            { "en": "No hidden charges.", "ko": "숨겨진 요금이 없다는 표현으로 더 직접적으로 명확하게 표현." },
-            { "en": "The price is all-inclusive.", "ko": "모든 것이 포함된 가격이라는 의미." }
+            {
+              "en": "No hidden charges.",
+              "ko": "숨겨진 요금이 없다는 표현으로 더 직접적으로 명확하게 표현."
+            },
+            {
+              "en": "The price is all-inclusive.",
+              "ko": "모든 것이 포함된 가격이라는 의미."
+            }
           ]
         },
         {
           "en": "Hop in!",
           "ko": "택시나 차에 타라고 가볍게 권하는 표현. 'hop'은 폴짝 뛰다는 뜻이지만 'hop in'은 '(차에) 올라타세요'라는 구어 표현. 'Get in.'보다 훨씬 친근하고 캐주얼함.",
           "alternatives": [
-            { "en": "Get in, please.", "ko": "차에 타달라는 정중하지만 덜 친근한 표현." },
-            { "en": "Jump in!", "ko": "'Hop in'과 같은 의미의 또 다른 캐주얼한 표현." }
+            {
+              "en": "Get in, please.",
+              "ko": "차에 타달라는 정중하지만 덜 친근한 표현."
+            },
+            {
+              "en": "Jump in!",
+              "ko": "'Hop in'과 같은 의미의 또 다른 캐주얼한 표현."
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch09_d05",
       "title": "목적지 주소 보여주기",
       "lines": [
-        { "speaker": "나", "en": "I have the address here on my phone. Can you take me here?", "ko": "여기 제 전화기에 주소가 있어요. 여기로 데려다 주실 수 있나요?" },
-        { "speaker": "기사", "en": "Sure, let me see. Ah, the Grand Hotel — I know it well.", "ko": "물론이죠, 볼게요. 아, 그랜드 호텔이군요 — 잘 알고 있습니다." },
-        { "speaker": "나", "en": "Great. Please use the fastest route.", "ko": "좋아요. 가장 빠른 길로 가주세요." },
-        { "speaker": "기사", "en": "Of course, I'll take the highway to avoid traffic.", "ko": "물론이죠, 교통 체증을 피하려고 고속도로로 가겠습니다." }
+        {
+          "speaker": "나",
+          "en": "I have the address here on my phone. Can you take me here?",
+          "ko": "여기 제 전화기에 주소가 있어요. 여기로 데려다 주실 수 있나요?"
+        },
+        {
+          "speaker": "기사",
+          "en": "Sure, let me see. Ah, the Grand Hotel — I know it well.",
+          "ko": "물론이죠, 볼게요. 아, 그랜드 호텔이군요 — 잘 알고 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Great. Please use the fastest route.",
+          "ko": "좋아요. 가장 빠른 길로 가주세요."
+        },
+        {
+          "speaker": "기사",
+          "en": "Of course, I'll take the highway to avoid traffic.",
+          "ko": "물론이죠, 교통 체증을 피하려고 고속도로로 가겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Can you take me here?",
           "ko": "화면이나 종이에 적힌 주소를 보여주며 쓰는 표현. 'take me to ~'는 '~로 데려다 달라'는 택시에서 가장 기본적인 표현. 주소를 직접 말하기 어려울 때 휴대폰 화면을 보여주는 것이 가장 확실한 방법.",
           "alternatives": [
-            { "en": "Please take me to this address.", "ko": "주소를 보여주며 거기로 가달라는 더 직접적인 표현." },
-            { "en": "I need to go to this hotel.", "ko": "호텔 이름이나 목적지를 가리키며 쓸 수 있는 표현." }
+            {
+              "en": "Please take me to this address.",
+              "ko": "주소를 보여주며 거기로 가달라는 더 직접적인 표현."
+            },
+            {
+              "en": "I need to go to this hotel.",
+              "ko": "호텔 이름이나 목적지를 가리키며 쓸 수 있는 표현."
+            }
           ]
         },
         {
           "en": "Please use the fastest route.",
           "ko": "가장 빠른 경로를 요청하는 표현. 반대로 'the cheapest route'라고 하면 요금이 적게 나오는 길로 가달라는 요청이 됨. 'scenic route'는 경치 좋은 길.",
           "alternatives": [
-            { "en": "What's the quickest way?", "ko": "가장 빠른 방법이 뭔지 물어보는 표현." },
-            { "en": "Take the highway if possible.", "ko": "가능하면 고속도로를 이용해달라는 표현." }
+            {
+              "en": "What's the quickest way?",
+              "ko": "가장 빠른 방법이 뭔지 물어보는 표현."
+            },
+            {
+              "en": "Take the highway if possible.",
+              "ko": "가능하면 고속도로를 이용해달라는 표현."
+            }
           ]
         },
         {
           "en": "To avoid traffic.",
           "ko": "'avoid'는 피하다, 'traffic'은 교통·차 막힘. 'traffic jam'이 정체 자체를 뜻하고, 'heavy traffic'은 차가 많이 막히는 상태. 기사가 경로를 설명할 때 자주 쓰는 표현.",
           "alternatives": [
-            { "en": "There's heavy traffic on that road.", "ko": "그 도로에 차가 많이 막힌다는 표현." },
-            { "en": "Let's skip the congestion.", "ko": "정체를 피하자는 표현으로 'congestion'은 교통 혼잡." }
+            {
+              "en": "There's heavy traffic on that road.",
+              "ko": "그 도로에 차가 많이 막힌다는 표현."
+            },
+            {
+              "en": "Let's skip the congestion.",
+              "ko": "정체를 피하자는 표현으로 'congestion'은 교통 혼잡."
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch09_d06",
       "title": "소요시간 묻기",
       "lines": [
-        { "speaker": "나", "en": "How long does it take to get to the city center?", "ko": "시내 중심가까지 얼마나 걸리나요?" },
-        { "speaker": "직원", "en": "By bus it's about 45 minutes, or 25 minutes by express train.", "ko": "버스로는 약 45분, 급행열차로는 25분 정도입니다." },
-        { "speaker": "나", "en": "I'll take the express train then. Thank you.", "ko": "그럼 급행열차를 타겠습니다. 감사합니다." },
-        { "speaker": "직원", "en": "Good choice. It leaves every 15 minutes.", "ko": "좋은 선택입니다. 15분마다 출발합니다." }
+        {
+          "speaker": "나",
+          "en": "How long does it take to get to the city center?",
+          "ko": "시내 중심가까지 얼마나 걸리나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "By bus it's about 45 minutes, or 25 minutes by express train.",
+          "ko": "버스로는 약 45분, 급행열차로는 25분 정도입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "I'll take the express train then. Thank you.",
+          "ko": "그럼 급행열차를 타겠습니다. 감사합니다."
+        },
+        {
+          "speaker": "직원",
+          "en": "Good choice. It leaves every 15 minutes.",
+          "ko": "좋은 선택입니다. 15분마다 출발합니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "How long does it take to get to ~?",
           "ko": "소요시간을 묻는 가장 기본적인 표현. '~까지 얼마나 걸리나요?'를 영어로 표현한 것. 뒤에 'by bus/train/taxi' 등을 붙이면 교통수단별 시간을 비교할 수 있음.",
           "alternatives": [
-            { "en": "How long is the journey to the city?", "ko": "시내까지 이동 시간이 얼마냐는 표현으로 'journey'는 여정·이동을 뜻함." },
-            { "en": "How much time does it take?", "ko": "이동에 시간이 얼마나 드냐는 표현." }
+            {
+              "en": "How long is the journey to the city?",
+              "ko": "시내까지 이동 시간이 얼마냐는 표현으로 'journey'는 여정·이동을 뜻함."
+            },
+            {
+              "en": "How much time does it take?",
+              "ko": "이동에 시간이 얼마나 드냐는 표현."
+            }
           ]
         },
         {
           "en": "I'll take the express train.",
           "ko": "'I'll take ~'는 교통수단을 선택할 때 쓰는 표현. 'express train'은 급행열차로 'local train'(완행열차)보다 빠르게 감. 공항철도에서 'express'와 'all-stop' 두 종류가 있는 경우가 많음.",
           "alternatives": [
-            { "en": "I'll go by train.", "ko": "기차로 가겠다는 더 일반적인 표현." },
-            { "en": "The train sounds faster.", "ko": "기차가 더 빠른 것 같다는 의사 표현 방식." }
+            {
+              "en": "I'll go by train.",
+              "ko": "기차로 가겠다는 더 일반적인 표현."
+            },
+            {
+              "en": "The train sounds faster.",
+              "ko": "기차가 더 빠른 것 같다는 의사 표현 방식."
+            }
           ]
         },
         {
           "en": "It leaves every 15 minutes.",
           "ko": "배차 간격(운행 주기)을 나타내는 표현. 'leaves every ~'는 ~마다 출발한다는 뜻. 'runs every ~'도 같은 의미로 자주 쓰임.",
           "alternatives": [
-            { "en": "It runs every 15 minutes.", "ko": "15분마다 운행한다는 표현으로 'runs every'도 널리 쓰임." },
-            { "en": "There's a train every quarter of an hour.", "ko": "15분을 'quarter of an hour'로 표현하는 방식." }
+            {
+              "en": "It runs every 15 minutes.",
+              "ko": "15분마다 운행한다는 표현으로 'runs every'도 널리 쓰임."
+            },
+            {
+              "en": "There's a train every quarter of an hour.",
+              "ko": "15분을 'quarter of an hour'로 표현하는 방식."
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch09_d07",
       "title": "트렁크에 짐 넣기",
       "lines": [
-        { "speaker": "나", "en": "Could you open the trunk, please? I have two large bags.", "ko": "트렁크를 열어 주시겠어요? 큰 가방이 두 개 있어요." },
-        { "speaker": "기사", "en": "Of course. Let me help you with those.", "ko": "물론이죠. 제가 도와드리겠습니다." },
-        { "speaker": "나", "en": "Thank you. Please be careful — there's something fragile inside.", "ko": "감사합니다. 조심해 주세요 — 안에 깨지기 쉬운 것이 있어요." },
-        { "speaker": "기사", "en": "No problem. I'll put it in gently.", "ko": "알겠습니다. 조심해서 넣을게요." }
+        {
+          "speaker": "나",
+          "en": "Could you open the trunk, please? I have two large bags.",
+          "ko": "트렁크를 열어 주시겠어요? 큰 가방이 두 개 있어요."
+        },
+        {
+          "speaker": "기사",
+          "en": "Of course. Let me help you with those.",
+          "ko": "물론이죠. 제가 도와드리겠습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you. Please be careful — there's something fragile inside.",
+          "ko": "감사합니다. 조심해 주세요 — 안에 깨지기 쉬운 것이 있어요."
+        },
+        {
+          "speaker": "기사",
+          "en": "No problem. I'll put it in gently.",
+          "ko": "알겠습니다. 조심해서 넣을게요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Could you open the trunk, please?",
           "ko": "트렁크를 열어달라는 요청. 'trunk'는 미국식, 'boot'는 영국식 표현. 어느 나라에서든 'trunk'를 쓰면 의미가 통함.",
           "alternatives": [
-            { "en": "Can you pop the trunk?", "ko": "트렁크 열어달라는 캐주얼한 미국식 표현. 'pop'은 버튼으로 열다라는 뜻." },
-            { "en": "Could you open the boot?", "ko": "영국식으로 트렁크를 열어달라는 표현." }
+            {
+              "en": "Can you pop the trunk?",
+              "ko": "트렁크 열어달라는 캐주얼한 미국식 표현. 'pop'은 버튼으로 열다라는 뜻."
+            },
+            {
+              "en": "Could you open the boot?",
+              "ko": "영국식으로 트렁크를 열어달라는 표현."
+            }
           ]
         },
         {
           "en": "Let me help you with those.",
           "ko": "짐을 도와주겠다는 표현. 'help you with ~'는 '~을 도와주다'라는 뜻. 짐이 많거나 무거워 보일 때 직원이나 기사가 자주 쓰는 친절한 표현.",
           "alternatives": [
-            { "en": "I'll help you load those.", "ko": "짐을 싣는 것을 도와주겠다는 표현. 'load'는 짐을 싣다." },
-            { "en": "Allow me.", "ko": "격식 있고 간결하게 도움을 제안하는 표현." }
+            {
+              "en": "I'll help you load those.",
+              "ko": "짐을 싣는 것을 도와주겠다는 표현. 'load'는 짐을 싣다."
+            },
+            {
+              "en": "Allow me.",
+              "ko": "격식 있고 간결하게 도움을 제안하는 표현."
+            }
           ]
         },
         {
           "en": "There's something fragile inside.",
           "ko": "'fragile'은 깨지기 쉬운, 취급 주의라는 뜻. 택배·짐에 붙이는 'FRAGILE' 스티커와 같은 단어. 부드럽게 다뤄달라고 부탁할 때 이 단어를 사용하면 명확하게 전달됨.",
           "alternatives": [
-            { "en": "Please handle it with care.", "ko": "조심스럽게 다뤄달라는 요청으로 'handle with care'는 취급 주의." },
-            { "en": "That bag has breakables.", "ko": "가방 안에 깨지기 쉬운 것이 있다는 표현." }
+            {
+              "en": "Please handle it with care.",
+              "ko": "조심스럽게 다뤄달라는 요청으로 'handle with care'는 취급 주의."
+            },
+            {
+              "en": "That bag has breakables.",
+              "ko": "가방 안에 깨지기 쉬운 것이 있다는 표현."
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch09_d08",
       "title": "시내에서 내릴 곳·환승 확인하기",
       "lines": [
-        { "speaker": "나", "en": "Could you tell me where to get off for the central station?", "ko": "중앙역에서 내리려면 어디서 내려야 하는지 알려주시겠어요?" },
-        { "speaker": "기사", "en": "I'll drop you right in front. We're about five minutes away.", "ko": "바로 앞에 내려드리겠습니다. 약 5분 정도 남았습니다." },
-        { "speaker": "나", "en": "Do I need to transfer to another line from there?", "ko": "거기서 다른 노선으로 환승해야 하나요?" },
-        { "speaker": "기사", "en": "No, you can walk to most hotels from the station.", "ko": "아니요, 역에서 대부분의 호텔까지 걸어갈 수 있습니다." }
+        {
+          "speaker": "나",
+          "en": "Could you tell me where to get off for the central station?",
+          "ko": "중앙역에서 내리려면 어디서 내려야 하는지 알려주시겠어요?"
+        },
+        {
+          "speaker": "기사",
+          "en": "I'll drop you right in front. We're about five minutes away.",
+          "ko": "바로 앞에 내려드리겠습니다. 약 5분 정도 남았습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Do I need to transfer to another line from there?",
+          "ko": "거기서 다른 노선으로 환승해야 하나요?"
+        },
+        {
+          "speaker": "기사",
+          "en": "No, you can walk to most hotels from the station.",
+          "ko": "아니요, 역에서 대부분의 호텔까지 걸어갈 수 있습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Where to get off?",
           "ko": "어디서 내려야 하는지 묻는 표현. 버스나 택시에서 'get off'는 하차하다라는 뜻. 'get on'은 탑승, 'get off'는 하차라고 기억하면 편리함.",
           "alternatives": [
-            { "en": "Where should I get off?", "ko": "어디서 내려야 하냐는 직접적인 질문 형태." },
-            { "en": "Which stop is it?", "ko": "어느 정류장에서 내리면 되냐는 표현." }
+            {
+              "en": "Where should I get off?",
+              "ko": "어디서 내려야 하냐는 직접적인 질문 형태."
+            },
+            {
+              "en": "Which stop is it?",
+              "ko": "어느 정류장에서 내리면 되냐는 표현."
+            }
           ]
         },
         {
           "en": "I'll drop you right in front.",
           "ko": "'drop you off'는 택시·버스가 승객을 내려주다라는 표현. 'right in front'는 바로 앞이라는 의미. 목적지 정문 앞에 내려주겠다는 뜻.",
           "alternatives": [
-            { "en": "I'll drop you off here.", "ko": "여기서 내려드린다는 일반적인 표현." },
-            { "en": "I'll stop right at the entrance.", "ko": "입구 바로 앞에 세워주겠다는 표현." }
+            {
+              "en": "I'll drop you off here.",
+              "ko": "여기서 내려드린다는 일반적인 표현."
+            },
+            {
+              "en": "I'll stop right at the entrance.",
+              "ko": "입구 바로 앞에 세워주겠다는 표현."
+            }
           ]
         },
         {
           "en": "Do I need to transfer?",
           "ko": "'transfer'는 환승하다라는 뜻. 기차·버스·지하철을 갈아탈 때 쓰는 표현. 'change trains/buses'도 같은 의미로 쓰임.",
           "alternatives": [
-            { "en": "Do I need to change trains?", "ko": "기차를 갈아타야 하냐는 표현." },
-            { "en": "Is it a direct ride from here?", "ko": "여기서 환승 없이 갈 수 있냐는 표현." }
+            {
+              "en": "Do I need to change trains?",
+              "ko": "기차를 갈아타야 하냐는 표현."
+            },
+            {
+              "en": "Is it a direct ride from here?",
+              "ko": "여기서 환승 없이 갈 수 있냐는 표현."
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch09_d09",
       "title": "우버/볼트 앱으로 차량 부르기",
       "lines": [
-        { "speaker": "나", "en": "I just ordered an Uber. The driver's name is Carlos in a silver car.", "ko": "방금 우버를 불렀어요. 기사님 이름은 카를로스이고 은색 차입니다." },
-        { "speaker": "직원", "en": "Ride-share pickups are in Zone B, just outside.", "ko": "차량 공유 픽업은 바로 밖 B구역입니다." },
-        { "speaker": "나", "en": "How do I confirm it's the right car?", "ko": "올바른 차인지 어떻게 확인하나요?" },
-        { "speaker": "직원", "en": "Check the license plate in the app. It should match.", "ko": "앱에서 번호판을 확인하세요. 일치해야 합니다." }
+        {
+          "speaker": "나",
+          "en": "I just ordered an Uber. The driver's name is Carlos in a silver car.",
+          "ko": "방금 우버를 불렀어요. 기사님 이름은 카를로스이고 은색 차입니다."
+        },
+        {
+          "speaker": "직원",
+          "en": "Ride-share pickups are in Zone B, just outside.",
+          "ko": "차량 공유 픽업은 바로 밖 B구역입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "How do I confirm it's the right car?",
+          "ko": "올바른 차인지 어떻게 확인하나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Check the license plate in the app. It should match.",
+          "ko": "앱에서 번호판을 확인하세요. 일치해야 합니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I just ordered an Uber.",
           "ko": "우버·볼트 등 차량 공유 서비스를 예약했다고 알릴 때 쓰는 표현. 'order'보다 'call' 또는 'book'도 쓰이지만 'order an Uber'가 가장 널리 쓰이는 표현임.",
           "alternatives": [
-            { "en": "I called a ride-share.", "ko": "차량 공유 서비스를 불렀다는 좀 더 일반적인 표현." },
-            { "en": "I booked a taxi through an app.", "ko": "앱으로 택시를 예약했다는 표현." }
+            {
+              "en": "I called a ride-share.",
+              "ko": "차량 공유 서비스를 불렀다는 좀 더 일반적인 표현."
+            },
+            {
+              "en": "I booked a taxi through an app.",
+              "ko": "앱으로 택시를 예약했다는 표현."
+            }
           ]
         },
         {
           "en": "Ride-share pickups are in Zone B.",
           "ko": "'ride-share'는 우버·리프트·볼트 같은 차량 공유 서비스. 'pickup'은 승객을 태우는 장소 또는 행위. 공항에서는 일반 택시와 구별된 별도 구역이 있는 경우가 많음.",
           "alternatives": [
-            { "en": "App-based taxis pick up over there.", "ko": "앱 기반 택시가 저쪽에서 태운다는 표현." },
-            { "en": "TNCs use the designated area.", "ko": "TNC(Transport Network Company) 차량이 지정 구역을 이용한다는 공식적 표현." }
+            {
+              "en": "App-based taxis pick up over there.",
+              "ko": "앱 기반 택시가 저쪽에서 태운다는 표현."
+            },
+            {
+              "en": "TNCs use the designated area.",
+              "ko": "TNC(Transport Network Company) 차량이 지정 구역을 이용한다는 공식적 표현."
+            }
           ]
         },
         {
           "en": "Check the license plate in the app.",
           "ko": "'license plate'는 차량 번호판. 앱에서 차량 번호판을 확인해 올바른 차인지 확인하는 것은 보안상 매우 중요. 기사에게도 이름을 먼저 물어 확인하는 것이 안전.",
           "alternatives": [
-            { "en": "Verify the plate number.", "ko": "번호판을 확인하라는 더 간결한 표현." },
-            { "en": "Make sure the car details match.", "ko": "차량 정보가 일치하는지 확인하라는 표현." }
+            {
+              "en": "Verify the plate number.",
+              "ko": "번호판을 확인하라는 더 간결한 표현."
+            },
+            {
+              "en": "Make sure the car details match.",
+              "ko": "차량 정보가 일치하는지 확인하라는 표현."
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch09_d10",
       "title": "막차·운행 시간 확인하기",
       "lines": [
-        { "speaker": "나", "en": "What time is the last bus to the city center?", "ko": "시내 중심가로 가는 마지막 버스가 몇 시에 있나요?" },
-        { "speaker": "직원", "en": "The last bus leaves at 11:30 PM.", "ko": "마지막 버스는 오후 11시 30분에 출발합니다." },
-        { "speaker": "나", "en": "And what time does the airport train stop running?", "ko": "그리고 공항철도는 몇 시에 운행이 끝나나요?" },
-        { "speaker": "직원", "en": "The last train is at midnight. After that, you'll need a taxi.", "ko": "마지막 기차는 자정입니다. 그 이후에는 택시를 이용하셔야 합니다." }
+        {
+          "speaker": "나",
+          "en": "What time is the last bus to the city center?",
+          "ko": "시내 중심가로 가는 마지막 버스가 몇 시에 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "The last bus leaves at 11:30 PM.",
+          "ko": "마지막 버스는 오후 11시 30분에 출발합니다."
+        },
+        {
+          "speaker": "나",
+          "en": "And what time does the airport train stop running?",
+          "ko": "그리고 공항철도는 몇 시에 운행이 끝나나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "The last train is at midnight. After that, you'll need a taxi.",
+          "ko": "마지막 기차는 자정입니다. 그 이후에는 택시를 이용하셔야 합니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "What time is the last bus?",
           "ko": "막차 시간을 묻는 표현. 'last bus/train'은 막차, 'first bus/train'은 첫차. 야간 도착이나 늦은 일정일 때 반드시 확인해야 하는 표현.",
           "alternatives": [
-            { "en": "What's the last departure time?", "ko": "마지막 출발 시간이 언제냐는 표현. 'departure'는 출발." },
-            { "en": "When does the last bus leave?", "ko": "마지막 버스가 언제 출발하냐는 표현." }
+            {
+              "en": "What's the last departure time?",
+              "ko": "마지막 출발 시간이 언제냐는 표현. 'departure'는 출발."
+            },
+            {
+              "en": "When does the last bus leave?",
+              "ko": "마지막 버스가 언제 출발하냐는 표현."
+            }
           ]
         },
         {
           "en": "What time does the train stop running?",
           "ko": "운행이 끝나는 시간을 묻는 표현. 'stop running'은 운행을 멈추다라는 뜻. 'last service'도 같은 의미로 쓰임. 대중교통이 끊기면 택시나 야간버스를 이용해야 함.",
           "alternatives": [
-            { "en": "When is the last service?", "ko": "마지막 운행이 언제냐는 표현으로 'service'가 운행을 뜻함." },
-            { "en": "Does the train run all night?", "ko": "기차가 밤새 운행하냐는 표현." }
+            {
+              "en": "When is the last service?",
+              "ko": "마지막 운행이 언제냐는 표현으로 'service'가 운행을 뜻함."
+            },
+            {
+              "en": "Does the train run all night?",
+              "ko": "기차가 밤새 운행하냐는 표현."
+            }
           ]
         },
         {
           "en": "After that, you'll need a taxi.",
           "ko": "막차 이후에는 택시를 이용해야 한다는 안내 표현. 'you'll need to ~'는 '~해야 할 것이다'라는 뜻으로 권고·안내 시 사용. 야간 교통 수단을 미리 파악해두는 것이 중요.",
           "alternatives": [
-            { "en": "There are no more buses after midnight.", "ko": "자정 이후에는 버스가 없다는 직접적인 표현." },
-            { "en": "You'd have to take a taxi or night bus.", "ko": "택시나 심야버스를 이용해야 한다는 표현." }
+            {
+              "en": "There are no more buses after midnight.",
+              "ko": "자정 이후에는 버스가 없다는 직접적인 표현."
+            },
+            {
+              "en": "You'd have to take a taxi or night bus.",
+              "ko": "택시나 심야버스를 이용해야 한다는 표현."
+            }
           ]
         }
       ]
@@ -525,6 +865,1473 @@
           "question": "'How long does it take?'는 거리가 얼마냐고 묻는 표현이다.",
           "answerIndex": 1,
           "explanation": "아닙니다. 'How long does it take?'는 소요 시간을 묻는 표현입니다. 거리를 묻고 싶을 때는 'How far is it?' 또는 'How many kilometers is it?'라고 해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch09_set02_001",
+          "type": "multiple_choice",
+          "question": "공항에서 공항버스 정류장 위치를 물을 때 가장 자연스러운 표현은?",
+          "options": [
+            "Where is the airport bus stop?",
+            "Where is the hotel shuttle?",
+            "Which way is the subway?",
+            "How do I get to the gate?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where is the airport bus stop?'는 공항버스 정류장 위치를 묻는 가장 직접적인 표현입니다. 'bus stop'은 버스 정류장을 뜻하며, 'bus stand'나 'bus bay'라고도 합니다."
+        },
+        {
+          "id": "se_ch09_set02_002",
+          "type": "multiple_choice",
+          "question": "철도 티켓을 살 때 왕복을 요청하는 표현은?",
+          "options": [
+            "A single ticket, please.",
+            "A return ticket, please.",
+            "A one-way ticket, please.",
+            "A platform ticket, please."
+          ],
+          "answerIndex": 1,
+          "explanation": "'A return ticket'은 왕복 티켓을 의미하는 영국식 표현입니다. 미국에서는 'round-trip ticket'이라고 합니다. 'single'과 'one-way'는 모두 편도를 뜻합니다."
+        },
+        {
+          "id": "se_ch09_set02_003",
+          "type": "multiple_choice",
+          "question": "택시를 어디서 탈 수 있는지 묻는 자연스러운 표현은?",
+          "options": [
+            "Where can I get a taxi?",
+            "Where can I get a meal?",
+            "Where is the baggage claim?",
+            "Where can I change money?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where can I get a taxi?'는 택시를 어디서 탈 수 있냐는 구어적이고 자연스러운 표현입니다. 'taxi stand' 위치를 물을 때 이렇게 표현해도 됩니다."
+        },
+        {
+          "id": "se_ch09_set02_004",
+          "type": "multiple_choice",
+          "question": "택시 기사에게 정액요금인지 미터요금인지 물어보는 표현은?",
+          "options": [
+            "Is the price fixed or metered?",
+            "Do you take cash only?",
+            "Can you go faster?",
+            "What is the speed limit?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is the price fixed or metered?'는 정액인지 미터기 요금인지를 직접 물어보는 표현입니다. 'fixed'는 고정, 'metered'는 미터기로 계산되는 방식을 뜻합니다."
+        },
+        {
+          "id": "se_ch09_set02_005",
+          "type": "multiple_choice",
+          "question": "버스로 시내까지 약 45분, 급행열차로 25분이 걸린다고 설명할 때 자연스러운 표현은?",
+          "options": [
+            "By bus it's about 45 minutes, or 25 minutes by express train.",
+            "The bus costs 45 dollars and the train costs 25 dollars.",
+            "The bus leaves every 45 minutes and the train every 25 minutes.",
+            "Bus stop 45 is near platform 25."
+          ],
+          "answerIndex": 0,
+          "explanation": "'By bus it's about 45 minutes, or 25 minutes by express train.'은 교통수단별 소요시간을 설명하는 표현입니다. 'by + 교통수단'으로 이동 방법을 나타냅니다."
+        },
+        {
+          "id": "se_ch09_set02_006",
+          "type": "multiple_choice",
+          "question": "짐 안에 깨지기 쉬운 물건이 있다고 알릴 때 쓰는 표현은?",
+          "options": [
+            "There's something fragile inside.",
+            "There's something heavy inside.",
+            "This bag is very expensive.",
+            "Please don't open the bag."
+          ],
+          "answerIndex": 0,
+          "explanation": "'fragile'은 깨지기 쉬운, 취급 주의를 뜻합니다. 'FRAGILE' 스티커와 같은 단어로, 택배나 짐을 맡길 때 조심스럽게 다뤄달라고 부탁할 때 사용합니다."
+        },
+        {
+          "id": "se_ch09_set02_007",
+          "type": "multiple_choice",
+          "question": "우버 차량이 맞는지 확인하는 방법으로 가장 적절한 것은?",
+          "options": [
+            "Ask the driver their name.",
+            "Check the color of the car.",
+            "Check the license plate in the app.",
+            "Look at the driver's uniform."
+          ],
+          "answerIndex": 2,
+          "explanation": "앱에서 번호판('license plate')을 확인하여 올바른 차인지 검증하는 것이 가장 안전한 방법입니다. 기사 이름도 함께 확인하면 더욱 안전합니다."
+        },
+        {
+          "id": "se_ch09_set02_008",
+          "type": "multiple_choice",
+          "question": "막차 이후 교통수단을 안내할 때 자연스러운 표현은?",
+          "options": [
+            "After that, you'll need a taxi.",
+            "After that, the bus will come.",
+            "After that, we close the station.",
+            "After that, the fare doubles."
+          ],
+          "answerIndex": 0,
+          "explanation": "'After that, you'll need a taxi.'는 막차 이후에는 택시를 이용해야 한다는 안내 표현입니다. 'you'll need to ~'는 '~해야 할 것이다'라는 권고의 의미입니다."
+        },
+        {
+          "id": "se_ch09_set02_009",
+          "type": "multiple_choice",
+          "question": "버스 배차 간격이 15분이라고 말할 때 적절한 표현은?",
+          "options": [
+            "It leaves every 15 minutes.",
+            "It stops for 15 minutes.",
+            "The trip takes 15 minutes.",
+            "The station is 15 minutes away."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It leaves every 15 minutes.'는 15분마다 출발한다는 배차 간격 표현입니다. 'runs every 15 minutes'도 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch09_set02_010",
+          "type": "multiple_choice",
+          "question": "택시 기사에게 가장 빠른 길로 가달라고 요청하는 표현은?",
+          "options": [
+            "Please use the fastest route.",
+            "Please stop at every red light.",
+            "Please take the scenic route.",
+            "Please drive slowly."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please use the fastest route.'는 가장 빠른 경로를 요청하는 표현입니다. 반대로 'the cheapest route'는 요금이 덜 드는 길을 요청할 때, 'scenic route'는 경치 좋은 길을 원할 때 씁니다."
+        },
+        {
+          "id": "se_ch09_set02_011",
+          "type": "ox",
+          "question": "'taxi rank'는 미국에서 주로 사용하는 택시 승강장 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'taxi rank'는 영국·호주 등에서 사용하는 표현입니다. 미국에서는 'taxi stand'라고 합니다."
+        },
+        {
+          "id": "se_ch09_set02_012",
+          "type": "ox",
+          "question": "'hop in'은 차에 타라고 권하는 캐주얼한 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'hop in'은 '(차에) 올라타세요'라는 구어 표현으로, 'get in'보다 훨씬 친근하고 캐주얼합니다. 'jump in'도 같은 의미로 씁니다."
+        },
+        {
+          "id": "se_ch09_set02_013",
+          "type": "ox",
+          "question": "공항철도에서 'express train'은 'local train'보다 느리다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'express train'은 급행열차로 'local train'(완행열차)보다 빠릅니다. 공항철도에는 'express'와 'all-stop' 두 종류가 있는 경우가 많습니다."
+        },
+        {
+          "id": "se_ch09_set02_014",
+          "type": "ox",
+          "question": "영국 영어에서 자동차 트렁크를 'boot'라고도 한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'boot'는 자동차 트렁크를 뜻하는 영국식 표현입니다. 미국에서는 'trunk'라고 합니다. 'Can you open the boot?'는 영국에서 트렁크를 열어달라는 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch09_set03_001",
+          "type": "multiple_choice",
+          "question": "공항에서 시내까지 어떻게 가는지 묻는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "How do I get to the city center from here?",
+            "Where is the nearest hospital?",
+            "Can I park my car here?",
+            "What floor is the departure hall on?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How do I get to the city center from here?'는 공항에서 시내까지 이동 방법을 묻는 표현입니다. 'from here'를 붙이면 현 위치에서 출발함을 명확히 합니다."
+        },
+        {
+          "id": "se_ch09_set03_002",
+          "type": "multiple_choice",
+          "question": "공항철도 매표소에서 '시내 중심가까지 표 한 장 주세요'를 영어로 하면?",
+          "options": [
+            "One ticket to the city center, please.",
+            "One map of the city, please.",
+            "One seat on the next flight, please.",
+            "One transfer card, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'One ticket to the city center, please.'는 목적지까지 표 한 장을 요청하는 가장 기본적인 표현입니다. 'One ticket to ~'에 목적지를 바로 붙이면 됩니다."
+        },
+        {
+          "id": "se_ch09_set03_003",
+          "type": "multiple_choice",
+          "question": "버스가 시내 방향으로 운행하는지 확인하는 표현은?",
+          "options": [
+            "Does the bus go to the city center?",
+            "Does the bus have a dining car?",
+            "Does this bus go to the airport?",
+            "Does the bus stop here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Does the bus go to the city center?'는 버스가 시내 방향으로 운행하는지 확인하는 표현입니다. 'city center'(영국식)와 'downtown'(미국식) 모두 시내 중심가를 뜻합니다."
+        },
+        {
+          "id": "se_ch09_set03_004",
+          "type": "multiple_choice",
+          "question": "택시에 짐을 싣는 것을 도와주겠다는 표현은?",
+          "options": [
+            "Let me help you with those.",
+            "Let me check your ticket.",
+            "Let me call you another taxi.",
+            "Let me take your passport."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me help you with those.'는 짐을 도와주겠다는 친절한 표현입니다. 'help you with ~'는 '~을 도와주다'라는 뜻으로, 짐이 많거나 무거울 때 자주 씁니다."
+        },
+        {
+          "id": "se_ch09_set03_005",
+          "type": "multiple_choice",
+          "question": "기차 플랫폼을 물어볼 때 쓰는 표현은?",
+          "options": [
+            "Which platform is it?",
+            "Which terminal am I in?",
+            "Which bus goes downtown?",
+            "Which taxi is mine?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Which platform is it?'는 타야 할 플랫폼(승강장)을 묻는 표현입니다. 'platform'은 기차·전철역에서 쓰고, 버스는 'bay' 또는 'stand'라고 합니다."
+        },
+        {
+          "id": "se_ch09_set03_006",
+          "type": "multiple_choice",
+          "question": "택시 기사가 신용카드를 받는지 확인하는 표현은?",
+          "options": [
+            "Do you accept credit cards?",
+            "Do you speak English?",
+            "Do you know the shortcut?",
+            "Do you have a receipt?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you accept credit cards?'는 신용카드 결제가 가능한지 묻는 표현입니다. 'accept'는 받아들이다, 수락하다는 뜻으로 결제 수단을 확인할 때 씁니다."
+        },
+        {
+          "id": "se_ch09_set03_007",
+          "type": "multiple_choice",
+          "question": "차량 공유 앱 기반 서비스(우버 등)를 부르는 픽업 구역을 안내할 때 쓰는 표현은?",
+          "options": [
+            "Ride-share pickups are in Zone B.",
+            "Taxi meters start at Zone B.",
+            "Baggage claim is in Zone B.",
+            "Immigration is in Zone B."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Ride-share pickups are in Zone B.'는 차량 공유 픽업 구역을 안내하는 표현입니다. 'ride-share'는 우버·리프트·볼트 같은 앱 기반 차량 공유 서비스를 총칭합니다."
+        },
+        {
+          "id": "se_ch09_set03_008",
+          "type": "multiple_choice",
+          "question": "공항철도 운행이 끝나는 시간을 묻는 표현은?",
+          "options": [
+            "What time does the airport train stop running?",
+            "What time does the airport open?",
+            "What time is check-in?",
+            "What time does boarding start?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What time does the airport train stop running?'은 공항철도 운행 종료 시간을 묻는 표현입니다. 'stop running'은 운행을 멈추다라는 뜻입니다."
+        },
+        {
+          "id": "se_ch09_set03_009",
+          "type": "multiple_choice",
+          "question": "택시가 목적지 바로 앞에 내려주겠다고 말할 때 쓰는 표현은?",
+          "options": [
+            "I'll drop you right in front.",
+            "I'll park and wait for you.",
+            "I'll take you to the back entrance.",
+            "I'll stop at the nearest corner."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll drop you right in front.'는 목적지 바로 앞에 내려주겠다는 표현입니다. 'drop you off'는 택시·버스가 승객을 내려주다, 'right in front'는 바로 앞을 뜻합니다."
+        },
+        {
+          "id": "se_ch09_set03_010",
+          "type": "multiple_choice",
+          "question": "교통 체증을 피하려고 고속도로를 이용하겠다고 말할 때 쓰는 표현은?",
+          "options": [
+            "I'll take the highway to avoid traffic.",
+            "I'll stop at every red light.",
+            "I'll use the school zone route.",
+            "I'll follow the bus lane."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll take the highway to avoid traffic.'는 교통 체증을 피하기 위해 고속도로를 이용하겠다는 표현입니다. 'avoid traffic'은 교통 체증을 피하다는 뜻입니다."
+        },
+        {
+          "id": "se_ch09_set03_011",
+          "type": "ox",
+          "question": "'single ticket'과 'one-way ticket'은 모두 편도 티켓을 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'single ticket'은 영국식, 'one-way ticket'은 미국식 표현으로 둘 다 편도 티켓을 뜻합니다. 왕복은 'return ticket'(영국) 또는 'round-trip ticket'(미국)이라고 합니다."
+        },
+        {
+          "id": "se_ch09_set03_012",
+          "type": "ox",
+          "question": "우버 앱에서 번호판을 확인하는 것은 보안상 불필요한 절차다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 앱에서 차량 번호판을 확인하는 것은 보안상 매우 중요한 절차입니다. 기사 이름도 함께 확인해야 올바른 차량에 탑승했는지 확인할 수 있습니다."
+        },
+        {
+          "id": "se_ch09_set03_013",
+          "type": "ox",
+          "question": "'No surprises'는 택시 요금에 추가 요금이 없다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'No surprises'는 직역하면 '놀람 없이'이지만, 택시 요금 맥락에서는 추가 요금이나 예상치 못한 금액이 없다는 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch09_set03_014",
+          "type": "ox",
+          "question": "'transfer'는 기차나 버스를 갈아타다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'transfer'는 기차·버스·지하철을 갈아타다는 뜻입니다. 'change trains/buses'도 같은 의미로 쓰입니다. 'Do I need to transfer?'는 환승이 필요하냐는 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch09_set04_001",
+          "type": "multiple_choice",
+          "question": "공항버스가 시내로 직행하는지 확인할 때 쓰는 표현은?",
+          "options": [
+            "Does this bus go directly to downtown?",
+            "Does this bus stop at every terminal?",
+            "Does this bus go back to the airport?",
+            "Does this bus have Wi-Fi?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Does this bus go directly to downtown?'은 버스가 환승 없이 시내로 직행하는지 묻는 표현입니다. 'directly'는 환승 없이 곧바로 간다는 의미입니다."
+        },
+        {
+          "id": "se_ch09_set04_002",
+          "type": "multiple_choice",
+          "question": "기차 티켓을 좀 더 정중하게 요청할 때 쓰는 표현은?",
+          "options": [
+            "Give me a ticket.",
+            "I'd like a ticket to the city center.",
+            "Ticket, city center.",
+            "I want the train ticket."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'd like a ticket to the city center.'는 'I'd like ~'를 사용한 더 정중한 티켓 요청 표현입니다. 'give me'나 'I want'보다 예의 바른 표현입니다."
+        },
+        {
+          "id": "se_ch09_set04_003",
+          "type": "multiple_choice",
+          "question": "트렁크를 열어달라는 캐주얼한 미국식 표현은?",
+          "options": [
+            "Can you pop the trunk?",
+            "Can you open the door?",
+            "Can you check the oil?",
+            "Can you close the window?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you pop the trunk?'는 트렁크를 열어달라는 캐주얼한 미국식 표현입니다. 'pop'은 버튼으로 열다는 뜻으로, 정중한 표현은 'Could you open the trunk, please?'입니다."
+        },
+        {
+          "id": "se_ch09_set04_004",
+          "type": "multiple_choice",
+          "question": "시내까지 정액요금이 있다고 답할 때 쓰는 표현은?",
+          "options": [
+            "The flat rate is thirty dollars.",
+            "The meter shows thirty dollars.",
+            "The toll is thirty dollars extra.",
+            "The taxi is thirty minutes away."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The flat rate is thirty dollars.'는 정액요금이 30달러라는 표현입니다. 'flat rate' = 'fixed fare' = 'set price'로 미리 정해진 고정 요금을 뜻합니다."
+        },
+        {
+          "id": "se_ch09_set04_005",
+          "type": "multiple_choice",
+          "question": "어디서 내려야 하는지 묻는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Could you tell me where to get off?",
+            "Could you tell me the fare?",
+            "Could you tell me the route number?",
+            "Could you tell me the driver's name?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you tell me where to get off?'는 어디서 내려야 하는지 정중하게 묻는 표현입니다. 'get off'는 버스나 택시에서 하차하다는 뜻입니다."
+        },
+        {
+          "id": "se_ch09_set04_006",
+          "type": "multiple_choice",
+          "question": "급행열차를 타겠다고 선택할 때 쓰는 표현은?",
+          "options": [
+            "I'll take the express train.",
+            "I'll take the slow train.",
+            "I'll wait for the night bus.",
+            "I'll walk to the station."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll take the express train.'은 급행열차를 선택할 때 쓰는 표현입니다. 'I'll take ~'는 교통수단을 선택할 때 쓰는 표현이며, 'express train'은 급행열차입니다."
+        },
+        {
+          "id": "se_ch09_set04_007",
+          "type": "multiple_choice",
+          "question": "마지막 기차는 자정이라고 안내할 때 자연스러운 표현은?",
+          "options": [
+            "The last train is at midnight.",
+            "The last train left at noon.",
+            "The first train is at midnight.",
+            "The train runs until midnight only on weekdays."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The last train is at midnight.'는 마지막 기차가 자정이라는 표현입니다. 'midnight'는 자정(오전 12시)을 뜻하며, 야간 도착 시 반드시 확인해야 합니다."
+        },
+        {
+          "id": "se_ch09_set04_008",
+          "type": "multiple_choice",
+          "question": "우버 픽업 장소를 묻거나 안내받을 때 가장 관련 있는 표현은?",
+          "options": [
+            "Ride-share pickups are in Zone C.",
+            "Please board at any door.",
+            "You can hail a cab on the street.",
+            "Take the escalator to Level 3."
+          ],
+          "answerIndex": 0,
+          "explanation": "우버 등 차량 공유 서비스 픽업 장소를 안내할 때 'ride-share pickups are in Zone ~'이라고 합니다. 공항에서는 일반 택시와 별도로 ride-share 전용 픽업 구역이 있는 경우가 많습니다."
+        },
+        {
+          "id": "se_ch09_set04_009",
+          "type": "multiple_choice",
+          "question": "막차 시간을 묻는 또 다른 표현은?",
+          "options": [
+            "What's the last departure time?",
+            "What's the first arrival time?",
+            "What's the baggage allowance?",
+            "What's the boarding gate number?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What's the last departure time?'는 마지막 출발 시간을 묻는 표현입니다. 'departure'는 출발을 의미하며, 'What time is the last bus/train?'과 같은 뜻입니다."
+        },
+        {
+          "id": "se_ch09_set04_010",
+          "type": "multiple_choice",
+          "question": "휴대폰에 주소를 보여주며 목적지를 알려줄 때 쓰는 표현은?",
+          "options": [
+            "Can you take me here?",
+            "Can you call this number?",
+            "Can you translate this for me?",
+            "Can you take a photo here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you take me here?'는 화면이나 종이에 적힌 주소를 보여주며 거기로 데려다 달라는 표현입니다. 주소를 직접 말하기 어려울 때 휴대폰 화면을 보여주는 것이 가장 확실한 방법입니다."
+        },
+        {
+          "id": "se_ch09_set04_011",
+          "type": "ox",
+          "question": "'queue'는 미국 영어에서 주로 쓰는 '줄'을 뜻하는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'queue'는 영국식 표현입니다. 미국에서는 '줄'을 'line'이라고 합니다. 'join the queue'(영국)와 'get in line'(미국)은 같은 의미입니다."
+        },
+        {
+          "id": "se_ch09_set04_012",
+          "type": "ox",
+          "question": "'flat rate'는 미터기로 계산되는 요금 방식을 뜻한다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'flat rate'는 미리 정해진 고정 요금 방식입니다. 미터기로 계산되는 방식은 'metered rate' 또는 'meter fare'라고 합니다."
+        },
+        {
+          "id": "se_ch09_set04_013",
+          "type": "ox",
+          "question": "공항에서 버스의 'bus stand'나 'bus bay'는 'bus stop'과 같은 의미로 쓰인다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 공항처럼 지정된 곳에서는 'bus stop' 외에 'bus stand' 또는 'bus bay'라는 표현도 쓰이며, 모두 버스를 타는 지정 장소를 뜻합니다."
+        },
+        {
+          "id": "se_ch09_set04_014",
+          "type": "ox",
+          "question": "'How long does it take?'는 거리가 얼마나 되는지 묻는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'How long does it take?'는 소요 시간을 묻는 표현입니다. 거리를 묻고 싶을 때는 'How far is it?'이라고 해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch09_set05_001",
+          "type": "multiple_choice",
+          "question": "버스가 40분 걸린다고 답할 때 자연스러운 표현은?",
+          "options": [
+            "It takes about 40 minutes.",
+            "It costs about 40 dollars.",
+            "It leaves in 40 minutes.",
+            "It stops 40 times."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It takes about 40 minutes.'는 약 40분이 걸린다는 소요시간 표현입니다. 'take'는 시간이 걸리다는 의미로, 'How long does it take?'에 대한 자연스러운 답변입니다."
+        },
+        {
+          "id": "se_ch09_set05_002",
+          "type": "multiple_choice",
+          "question": "줄이 있는지 물어볼 때 미국식 표현은?",
+          "options": [
+            "Is there a line?",
+            "Is there a lane?",
+            "Is there a queue?",
+            "Is there a row?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a line?'은 줄이 있는지 묻는 미국식 표현입니다. 영국에서는 'Is there a queue?'라고 합니다. 'lane'은 차로, 'row'는 열을 뜻합니다."
+        },
+        {
+          "id": "se_ch09_set05_003",
+          "type": "multiple_choice",
+          "question": "직행 버스라는 의미를 가장 간결하게 표현하면?",
+          "options": [
+            "It's a direct bus.",
+            "It's an express lane.",
+            "It's a local bus.",
+            "It's a night bus."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's a direct bus.'는 환승 없이 목적지로 바로 가는 직행 버스라는 의미입니다. 'direct'는 직행을, 'local'은 완행을 뜻합니다."
+        },
+        {
+          "id": "se_ch09_set05_004",
+          "type": "multiple_choice",
+          "question": "택시 기사가 조심해서 짐을 넣겠다고 말할 때 표현은?",
+          "options": [
+            "I'll put it in gently.",
+            "I'll charge extra for that.",
+            "I'll leave it on the roof.",
+            "I'll wrap it in plastic."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll put it in gently.'는 조심스럽게 넣겠다는 표현입니다. 'gently'는 조심스럽게, 부드럽게라는 뜻으로 취약한 물건을 다룰 때 사용하는 표현입니다."
+        },
+        {
+          "id": "se_ch09_set05_005",
+          "type": "multiple_choice",
+          "question": "어느 출구로 나가야 공항버스를 탈 수 있는지 물을 때 표현은?",
+          "options": [
+            "Which exit is for the airport bus?",
+            "Which exit leads to arrivals?",
+            "Which exit is for departures?",
+            "Which exit is the shortest?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Which exit is for the airport bus?'는 공항버스가 있는 출구를 묻는 표현입니다. 공항처럼 출구가 많은 곳에서 특히 유용한 표현입니다."
+        },
+        {
+          "id": "se_ch09_set05_006",
+          "type": "multiple_choice",
+          "question": "기차를 어디서 타는지 물어보는 표현은?",
+          "options": [
+            "Where do I board the train?",
+            "Where do I buy the ticket?",
+            "Where do I check my luggage?",
+            "Where do I collect my bag?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where do I board the train?'은 기차를 어디서 타는지 묻는 표현입니다. 'board'는 탑승하다는 뜻으로, 기차·버스·비행기 모두에 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch09_set05_007",
+          "type": "multiple_choice",
+          "question": "번호판을 확인하라고 간결하게 말할 때 표현은?",
+          "options": [
+            "Verify the plate number.",
+            "Verify the passenger count.",
+            "Verify the driver's age.",
+            "Verify the car color."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Verify the plate number.'는 번호판을 확인하라는 간결한 표현입니다. 'Check the license plate'와 같은 의미이며, 올바른 차량에 탑승했는지 확인하는 안전 절차입니다."
+        },
+        {
+          "id": "se_ch09_set05_008",
+          "type": "multiple_choice",
+          "question": "자정 이후에는 버스가 없다고 안내하는 표현은?",
+          "options": [
+            "There are no more buses after midnight.",
+            "There are no more taxis after midnight.",
+            "Buses run all night on weekends.",
+            "The last bus is at 6 AM."
+          ],
+          "answerIndex": 0,
+          "explanation": "'There are no more buses after midnight.'는 자정 이후에는 버스가 없다는 직접적인 표현입니다. 막차 이후 교통 상황을 안내할 때 쓰입니다."
+        },
+        {
+          "id": "se_ch09_set05_009",
+          "type": "multiple_choice",
+          "question": "앱으로 부른 기사 이름과 차량을 설명하는 표현은?",
+          "options": [
+            "The driver's name is Carlos in a silver car.",
+            "The driver is waiting at terminal A.",
+            "The car number is in my email.",
+            "The app says 10 minutes."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The driver's name is Carlos in a silver car.'는 기사 이름과 차량 색상을 설명하는 표현입니다. 우버 픽업 시 직원에게 알릴 때 유용합니다."
+        },
+        {
+          "id": "se_ch09_set05_010",
+          "type": "multiple_choice",
+          "question": "중앙역에서 다른 노선으로 환승이 필요한지 묻는 표현은?",
+          "options": [
+            "Do I need to transfer to another line from there?",
+            "Do I need to buy another ticket?",
+            "Do I need to go through customs again?",
+            "Do I need to show my passport?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do I need to transfer to another line from there?'는 거기서 다른 노선으로 환승해야 하는지 묻는 표현입니다. 'transfer'는 환승, 'another line'은 다른 노선을 뜻합니다."
+        },
+        {
+          "id": "se_ch09_set05_011",
+          "type": "ox",
+          "question": "'last bus'는 막차, 'first bus'는 첫차를 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'last bus/train'은 막차, 'first bus/train'은 첫차를 뜻합니다. 야간 도착이나 이른 아침 출발 시 각각 확인이 필요한 표현입니다."
+        },
+        {
+          "id": "se_ch09_set05_012",
+          "type": "ox",
+          "question": "우버 픽업 구역은 일반 택시와 항상 같은 장소에 있다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 공항에서는 일반 택시와 차량 공유(ride-share) 서비스의 픽업 구역이 별도로 지정되어 있는 경우가 많습니다. 앱에서 지정 구역을 확인해야 합니다."
+        },
+        {
+          "id": "se_ch09_set05_013",
+          "type": "ox",
+          "question": "'change trains'는 'transfer'와 같은 의미로 환승하다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'change trains'와 'transfer' 모두 기차를 갈아타다, 즉 환승하다는 뜻입니다. 'change buses'도 같은 맥락에서 사용됩니다."
+        },
+        {
+          "id": "se_ch09_set05_014",
+          "type": "ox",
+          "question": "기차역 승강장은 'platform', 버스 승강장은 'bay' 또는 'stand'라고 한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'platform'은 기차·전철역의 승강장을 뜻하고, 버스가 대기하는 지정 구역은 'bay' 또는 'stand'라고 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch09_set06_001",
+          "type": "multiple_choice",
+          "question": "공항버스 정류장을 찾는 또 다른 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Where can I catch the airport bus?",
+            "Where can I book a flight?",
+            "Where can I rent a car?",
+            "Where can I get a train to the airport?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where can I catch the airport bus?'는 공항버스를 어디서 탈 수 있냐는 표현입니다. 'catch'는 버스·기차를 타다는 의미로, 'get on'과 비슷하게 쓰입니다."
+        },
+        {
+          "id": "se_ch09_set06_002",
+          "type": "multiple_choice",
+          "question": "주소를 보여주며 목적지까지 데려다 달라고 요청하는 표현은?",
+          "options": [
+            "Please take me to this address.",
+            "Please show me on the map.",
+            "Please call this number for me.",
+            "Please write this down."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please take me to this address.'는 주소를 보여주며 거기로 가달라는 직접적인 표현입니다. 'take me to ~'는 '~로 데려다 달라'는 택시에서 기본적인 표현입니다."
+        },
+        {
+          "id": "se_ch09_set06_003",
+          "type": "multiple_choice",
+          "question": "공항에서 버스가 시내까지 직행이라고 말할 때 표현은?",
+          "options": [
+            "No transfers needed.",
+            "You must transfer twice.",
+            "The bus stops at all terminals.",
+            "The bus doesn't go to the city."
+          ],
+          "answerIndex": 0,
+          "explanation": "'No transfers needed.'는 환승이 필요 없다는 표현으로, 직행임을 강조할 때 씁니다. 'It goes directly to downtown.'과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch09_set06_004",
+          "type": "multiple_choice",
+          "question": "택시 기사가 줄을 서라고 안내할 때 영국식 표현은?",
+          "options": [
+            "Queue up over there.",
+            "Line up at the gate.",
+            "Wait in the lounge.",
+            "Stand by the door."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Queue up over there.'는 저쪽에 줄을 서라는 영국식 표현입니다. 'over there'로 방향도 함께 알려줍니다. 미국식은 'Line up over there.'라고 합니다."
+        },
+        {
+          "id": "se_ch09_set06_005",
+          "type": "multiple_choice",
+          "question": "여행 중 소요시간을 물을 때 'journey'를 사용한 표현은?",
+          "options": [
+            "How long is the journey to the city?",
+            "How much is the journey ticket?",
+            "How many stops on the journey?",
+            "How safe is the journey?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How long is the journey to the city?'는 시내까지 여정이 얼마나 걸리냐는 표현입니다. 'journey'는 여정·이동을 뜻하며, 'How long does it take?'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch09_set06_006",
+          "type": "multiple_choice",
+          "question": "숨겨진 요금이 없다는 표현으로 가장 직접적인 것은?",
+          "options": [
+            "No hidden charges.",
+            "No baggage fees.",
+            "No boarding pass required.",
+            "No change given."
+          ],
+          "answerIndex": 0,
+          "explanation": "'No hidden charges.'는 숨겨진 요금이 없다는 표현으로, 택시에서 정액요금임을 확인할 때 씁니다. 'No surprises.'와 비슷한 의미로 신뢰를 주는 표현입니다."
+        },
+        {
+          "id": "se_ch09_set06_007",
+          "type": "multiple_choice",
+          "question": "택시가 입구 바로 앞에 세워주겠다고 말할 때 표현은?",
+          "options": [
+            "I'll stop right at the entrance.",
+            "I'll drop you at the back.",
+            "I'll stop at the nearest corner.",
+            "I'll wait in the parking lot."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll stop right at the entrance.'는 입구 바로 앞에 세워주겠다는 표현입니다. 'right at ~'는 '~바로 앞/에'라는 의미로 정확한 위치를 강조합니다."
+        },
+        {
+          "id": "se_ch09_set06_008",
+          "type": "multiple_choice",
+          "question": "마지막 운행이 언제냐는 표현으로 'service'를 사용한 것은?",
+          "options": [
+            "When is the last service?",
+            "When is the last departure gate?",
+            "When is the last meal served?",
+            "When is the last boarding call?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'When is the last service?'는 마지막 운행이 언제냐는 표현으로 'service'가 운행을 의미합니다. 'What time does the train stop running?'과 같은 뜻입니다."
+        },
+        {
+          "id": "se_ch09_set06_009",
+          "type": "multiple_choice",
+          "question": "기차가 밤새 운행하냐고 물어보는 표현은?",
+          "options": [
+            "Does the train run all night?",
+            "Does the train have a sleeper car?",
+            "Does the train stop at hotels?",
+            "Does the train run on Sundays?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Does the train run all night?'는 기차가 밤새 운행하냐는 표현입니다. 야간 도착 시 교통수단을 미리 파악하는 데 유용한 표현입니다."
+        },
+        {
+          "id": "se_ch09_set06_010",
+          "type": "multiple_choice",
+          "question": "앱 기반 택시가 저쪽에서 손님을 태운다고 안내하는 표현은?",
+          "options": [
+            "App-based taxis pick up over there.",
+            "Regular taxis queue over there.",
+            "Buses depart over there.",
+            "Shuttles stop over there."
+          ],
+          "answerIndex": 0,
+          "explanation": "'App-based taxis pick up over there.'는 앱 기반 택시가 저쪽에서 손님을 태운다는 안내 표현입니다. 우버 등 차량 공유 서비스의 픽업 구역을 안내할 때 씁니다."
+        },
+        {
+          "id": "se_ch09_set06_011",
+          "type": "ox",
+          "question": "'fragile'은 '무겁다'는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'fragile'은 깨지기 쉬운, 취급 주의를 뜻합니다. '무겁다'는 'heavy'입니다. 짐 안에 깨지기 쉬운 물건이 있을 때 'There's something fragile inside.'라고 합니다."
+        },
+        {
+          "id": "se_ch09_set06_012",
+          "type": "ox",
+          "question": "버스의 'bus bay'는 버스가 대기하는 지정 구역을 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 공항이나 버스 터미널에서 'bus bay'는 버스가 대기하거나 정차하는 지정된 공간을 뜻합니다. 'bus stand'도 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch09_set06_013",
+          "type": "ox",
+          "question": "기차 15분 간격 운행을 'It runs every 15 minutes.'라고도 표현할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'It runs every 15 minutes.'는 15분마다 운행한다는 표현입니다. 'It leaves every 15 minutes.'와 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch09_set06_014",
+          "type": "ox",
+          "question": "'get on'은 버스나 택시에서 하차하다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'get on'은 탑승하다, 'get off'는 하차하다는 뜻입니다. 버스나 기차에서 내릴 때는 'get off'를 사용합니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch09_set07_001",
+          "type": "multiple_choice",
+          "question": "공항에서 인포메이션 데스크에 시내 가는 버스가 있는지 물을 때 가장 자연스러운 표현은?",
+          "options": [
+            "Is there a bus to the city center from here?",
+            "Is there a direct flight to the city?",
+            "Is there a train to the next country?",
+            "Is there a toll road to the city?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a bus to the city center from here?'는 여기서 시내 중심가로 가는 버스가 있는지 묻는 표현입니다. 버스 유무를 먼저 파악할 때 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch09_set07_002",
+          "type": "multiple_choice",
+          "question": "공항철도 편도 티켓을 미국식으로 요청하는 표현은?",
+          "options": [
+            "Can I get a one-way ticket to downtown?",
+            "Can I get a return ticket to downtown?",
+            "Can I get a season pass?",
+            "Can I get a group discount?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get a one-way ticket to downtown?'은 미국식으로 편도 티켓을 요청하는 표현입니다. 'one-way'는 미국식 편도 표현이고, 영국식은 'single'입니다."
+        },
+        {
+          "id": "se_ch09_set07_003",
+          "type": "multiple_choice",
+          "question": "택시 승강장이 영국·호주에서 뭐라고 불리는지 나타내는 표현은?",
+          "options": [
+            "taxi rank",
+            "taxi lot",
+            "taxi bay",
+            "taxi hub"
+          ],
+          "answerIndex": 0,
+          "explanation": "'taxi rank'는 영국·호주에서 사용하는 택시 승강장 표현입니다. 미국에서는 'taxi stand'라고 합니다. 어느 나라에서든 두 표현 모두 의미가 통합니다."
+        },
+        {
+          "id": "se_ch09_set07_004",
+          "type": "multiple_choice",
+          "question": "택시 요금이 모든 것이 포함된 가격이라고 말할 때 표현은?",
+          "options": [
+            "The price is all-inclusive.",
+            "The price includes the highway toll.",
+            "The price changes by traffic.",
+            "The price is per kilometer."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The price is all-inclusive.'는 모든 것이 포함된 가격이라는 의미입니다. 'No hidden charges.'나 'No surprises.'와 함께 정액요금임을 설명할 때 씁니다."
+        },
+        {
+          "id": "se_ch09_set07_005",
+          "type": "multiple_choice",
+          "question": "버스에서 특정 정류장에서 내리면 되냐고 묻는 표현은?",
+          "options": [
+            "Which stop is it?",
+            "Which stop has the best food?",
+            "Which stop is the airport?",
+            "Which stop should I board?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Which stop is it?'는 어느 정류장에서 내리면 되냐고 묻는 표현입니다. 버스에서 내릴 정류장을 확인할 때 간결하게 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch09_set07_006",
+          "type": "multiple_choice",
+          "question": "차량 공유 앱으로 차량을 예약했다고 말하는 또 다른 표현은?",
+          "options": [
+            "I booked a taxi through an app.",
+            "I hailed a cab on the street.",
+            "I called the hotel shuttle.",
+            "I rented a car online."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I booked a taxi through an app.'는 앱을 통해 택시를 예약했다는 표현입니다. 'I just ordered an Uber.'와 같은 상황에서 쓸 수 있는 다른 표현입니다."
+        },
+        {
+          "id": "se_ch09_set07_007",
+          "type": "multiple_choice",
+          "question": "차량 정보가 앱과 일치하는지 확인하라는 표현은?",
+          "options": [
+            "Make sure the car details match.",
+            "Make sure the car is clean.",
+            "Make sure the driver speaks English.",
+            "Make sure the car has AC."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Make sure the car details match.'는 차량 정보가 앱 정보와 일치하는지 확인하라는 표현입니다. 번호판, 차량 모델, 기사 이름 등을 확인할 때 씁니다."
+        },
+        {
+          "id": "se_ch09_set07_008",
+          "type": "multiple_choice",
+          "question": "마지막 버스가 언제 출발하냐고 묻는 표현은?",
+          "options": [
+            "When does the last bus leave?",
+            "When does the first bus arrive?",
+            "When does the bus break down?",
+            "When does the bus service start?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'When does the last bus leave?'는 마지막 버스가 언제 출발하냐는 표현입니다. 'What time is the last bus?'와 같은 의미의 다른 표현입니다."
+        },
+        {
+          "id": "se_ch09_set07_009",
+          "type": "multiple_choice",
+          "question": "택시 기사에게 짐 도움을 정중하게 거절할 때나 허락할 때 쓰는 간결한 표현은?",
+          "options": [
+            "Allow me.",
+            "Excuse me.",
+            "Never mind.",
+            "Of course not."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Allow me.'는 도움을 제안할 때 쓰는 격식 있고 간결한 표현입니다. 'Let me help you.'보다 짧고 정중한 표현으로, 짐을 들어주겠다는 의사를 나타냅니다."
+        },
+        {
+          "id": "se_ch09_set07_010",
+          "type": "multiple_choice",
+          "question": "에스컬레이터를 내려가면 플랫폼이 나온다고 안내하는 표현은?",
+          "options": [
+            "Platform 2 is just down the escalator.",
+            "Platform 2 is up the stairs.",
+            "Platform 2 is at the exit.",
+            "Platform 2 is on Level 3."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Platform 2 is just down the escalator.'는 에스컬레이터를 내려가면 2번 플랫폼이 있다는 안내 표현입니다. 'just down ~'은 '~을 내려가면 바로'라는 의미입니다."
+        },
+        {
+          "id": "se_ch09_set07_011",
+          "type": "ox",
+          "question": "'drop you off'는 택시가 승객을 태우다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'drop you off'는 택시나 버스가 승객을 내려주다는 뜻입니다. 승객을 태우다는 'pick up'이라고 합니다."
+        },
+        {
+          "id": "se_ch09_set07_012",
+          "type": "ox",
+          "question": "'It goes directly to downtown.'에서 'directly'는 환승 없이 곧바로 간다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'directly'는 환승 없이 곧바로 간다는 의미입니다. 반대로 환승이 있으면 'with a transfer' 또는 'it stops at ~'라고 합니다."
+        },
+        {
+          "id": "se_ch09_set07_013",
+          "type": "ox",
+          "question": "영국식 표현 'return ticket'과 미국식 표현 'round-trip ticket'은 같은 의미다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'return ticket'은 영국식, 'round-trip ticket'은 미국식 표현으로 둘 다 왕복 티켓을 뜻합니다."
+        },
+        {
+          "id": "se_ch09_set07_014",
+          "type": "ox",
+          "question": "'license plate'는 운전면허증을 뜻한다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'license plate'는 차량 번호판을 뜻합니다. 운전면허증은 'driver's license'라고 합니다. 우버 픽업 시 앱에서 번호판을 확인하는 것이 안전합니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch09_set08_001",
+          "type": "multiple_choice",
+          "question": "시내 중심가까지 택시로 얼마나 걸리냐고 묻는 표현은?",
+          "options": [
+            "How long does it take to get downtown by taxi?",
+            "How far is the taxi stand?",
+            "How much is the taxi meter?",
+            "How many taxis are available?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How long does it take to get downtown by taxi?'는 택시로 시내까지 얼마나 걸리는지 묻는 표현입니다. 'by taxi'로 교통수단을 특정할 수 있습니다."
+        },
+        {
+          "id": "se_ch09_set08_002",
+          "type": "multiple_choice",
+          "question": "버스로 시내 중심가까지 약 40분이 걸린다는 안내를 들었을 때 '그럼 급행열차를 타겠다'는 표현은?",
+          "options": [
+            "I'll take the express train then.",
+            "I'll wait for the next bus then.",
+            "I'll take a cab then.",
+            "I'll walk to the station then."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll take the express train then.'은 더 빠른 급행열차를 선택할 때 쓰는 표현입니다. 'then'은 '그렇다면'의 의미로 앞서 들은 정보에 따른 결정을 나타냅니다."
+        },
+        {
+          "id": "se_ch09_set08_003",
+          "type": "multiple_choice",
+          "question": "택시 기사에게 줄 서서 기다리라고 안내할 때 표현은?",
+          "options": [
+            "Get in line and wait.",
+            "Go through the entrance and wait.",
+            "Come back later and wait.",
+            "Take a number and wait."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Get in line and wait.'는 줄을 서서 기다리라는 직접적인 표현입니다. 'Just join the line.'과 같이 쓸 수 있으며, 택시 승강장에서 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch09_set08_004",
+          "type": "multiple_choice",
+          "question": "택시가 에스컬레이터를 타고 내려오는 곳에 있다고 안내받았을 때 관련 표현은?",
+          "options": [
+            "Go through the sliding doors and turn left.",
+            "Take the elevator to Level 2.",
+            "Cross the pedestrian bridge.",
+            "Follow the signs for Arrivals."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Go through the sliding doors and turn left.'는 자동문을 통과해 왼쪽으로 돌라는 안내 표현입니다. 공항에서 택시 승강장을 찾을 때 이런 안내를 받을 수 있습니다."
+        },
+        {
+          "id": "se_ch09_set08_005",
+          "type": "multiple_choice",
+          "question": "공항 외부 차량 공유 앱에서 기사 이름을 확인하는 이유로 가장 적절한 것은?",
+          "options": [
+            "올바른 차량에 탑승했는지 확인하기 위해",
+            "기사에게 팁을 줄지 결정하기 위해",
+            "요금을 협상하기 위해",
+            "차량 모델을 선택하기 위해"
+          ],
+          "answerIndex": 0,
+          "explanation": "기사 이름을 확인하는 것은 올바른 차량에 탑승했는지 확인하기 위한 안전 절차입니다. 번호판 확인과 함께 우버 등 차량 공유 서비스 이용 시 기본적인 확인 방법입니다."
+        },
+        {
+          "id": "se_ch09_set08_006",
+          "type": "multiple_choice",
+          "question": "버스 배차 간격을 'quarter of an hour'로 표현하면?",
+          "options": [
+            "There's a bus every quarter of an hour.",
+            "There's a bus every half hour.",
+            "There's a bus every two hours.",
+            "There's a bus every few minutes."
+          ],
+          "answerIndex": 0,
+          "explanation": "'There's a bus every quarter of an hour.'는 15분(1/4시간)마다 버스가 있다는 표현입니다. 'quarter of an hour'는 15분을 뜻하며, 'every 15 minutes'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch09_set08_007",
+          "type": "multiple_choice",
+          "question": "가능하면 고속도로를 이용해달라는 요청 표현은?",
+          "options": [
+            "Take the highway if possible.",
+            "Take the scenic road if possible.",
+            "Take the tunnel if possible.",
+            "Take the slowest route if possible."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Take the highway if possible.'는 가능하면 고속도로를 이용해달라는 표현입니다. 교통 체증을 피하거나 빠른 길을 요청할 때 씁니다."
+        },
+        {
+          "id": "se_ch09_set08_008",
+          "type": "multiple_choice",
+          "question": "기차를 갈아타야 하냐는 표현으로 'change'를 사용한 것은?",
+          "options": [
+            "Do I need to change trains?",
+            "Do I need to change my ticket?",
+            "Do I need to change platforms?",
+            "Do I need to change my booking?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do I need to change trains?'는 기차를 갈아타야 하냐는 표현입니다. 'change trains'와 'transfer'는 같은 의미로, 환승이 필요한지 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch09_set08_009",
+          "type": "multiple_choice",
+          "question": "공항버스가 시내까지 직행이 아니고 여러 곳에 정차한다고 말할 때 표현은?",
+          "options": [
+            "It stops at several places.",
+            "It goes directly to downtown.",
+            "No transfers needed.",
+            "It's a non-stop service."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It stops at several places.'는 여러 정류장에 멈춘다는 표현입니다. 직행과 반대로, 여러 곳에 정차하는 버스를 설명할 때 씁니다."
+        },
+        {
+          "id": "se_ch09_set08_010",
+          "type": "multiple_choice",
+          "question": "우버 차량이 도착했고 번호판이 일치한다고 확인할 때 쓰는 표현은?",
+          "options": [
+            "The license plate matches.",
+            "The car is the right color.",
+            "The driver is on time.",
+            "The app says arrived."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The license plate matches.'는 번호판이 앱에 표시된 것과 일치한다는 확인 표현입니다. 우버 등 차량 공유 서비스 이용 시 안전 확인의 핵심입니다."
+        },
+        {
+          "id": "se_ch09_set08_011",
+          "type": "ox",
+          "question": "'catch a bus'는 버스를 타다는 표현으로 자주 쓰인다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'catch a bus'는 버스를 타다는 의미로 'get on a bus', 'take a bus'와 같이 자주 쓰이는 표현입니다."
+        },
+        {
+          "id": "se_ch09_set08_012",
+          "type": "ox",
+          "question": "'pop the trunk'는 트렁크를 닫아달라는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'pop the trunk'는 트렁크를 열어달라는 캐주얼한 미국식 표현입니다. 'pop'은 버튼을 눌러 열다는 뜻으로, 정중한 표현은 'Could you open the trunk?'입니다."
+        },
+        {
+          "id": "se_ch09_set08_013",
+          "type": "ox",
+          "question": "'heavy traffic'은 차가 많이 막히는 상태를 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'heavy traffic'은 차가 많이 막히는 상태를 뜻합니다. 'traffic jam'은 교통 정체 자체를 의미하며, 기사가 경로 선택 이유를 설명할 때 자주 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch09_set08_014",
+          "type": "ox",
+          "question": "'one-way ticket'은 왕복 티켓을 뜻하는 미국식 표현이다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'one-way ticket'은 편도 티켓을 뜻하는 미국식 표현입니다. 왕복 티켓은 미국식으로 'round-trip ticket', 영국식으로 'return ticket'이라고 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch09_set09_001",
+          "type": "multiple_choice",
+          "question": "버스 정류장이 몇 번 출구인지 물어보는 표현은?",
+          "options": [
+            "Which exit is for the airport bus?",
+            "Which exit leads to the runway?",
+            "Which exit is for international flights?",
+            "Which exit has the cheapest shops?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Which exit is for the airport bus?'는 공항버스가 있는 출구 번호를 묻는 표현입니다. 공항에서 출구가 여러 개일 때 방향을 명확히 확인하는 데 유용합니다."
+        },
+        {
+          "id": "se_ch09_set09_002",
+          "type": "multiple_choice",
+          "question": "도착한 공항에서 시내까지 얼마나 걸리는지 묻는 표현은?",
+          "options": [
+            "How much time does it take to get to the city?",
+            "How much does a taxi to the city cost?",
+            "How many buses go to the city?",
+            "How often is there a city bus?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How much time does it take to get to the city?'는 시내까지 이동 시간을 묻는 표현입니다. 'How long does it take?'와 같은 뜻으로 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch09_set09_003",
+          "type": "multiple_choice",
+          "question": "역에서 대부분의 호텔까지 걸어갈 수 있다고 안내할 때 표현은?",
+          "options": [
+            "You can walk to most hotels from the station.",
+            "You can walk to the station from most hotels.",
+            "You need a taxi from the station.",
+            "You can take the subway from the station."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You can walk to most hotels from the station.'는 역에서 대부분의 호텔까지 걸어갈 수 있다는 안내 표현입니다. 환승이 불필요함을 알려줄 때 씁니다."
+        },
+        {
+          "id": "se_ch09_set09_004",
+          "type": "multiple_choice",
+          "question": "짐을 조심히 다뤄달라고 부탁할 때 표현은?",
+          "options": [
+            "Please handle it with care.",
+            "Please leave it outside.",
+            "Please weigh the bag first.",
+            "Please check the bag in."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please handle it with care.'는 조심스럽게 다뤄달라는 요청 표현입니다. 'handle with care'는 취급 주의라는 의미로 'fragile'과 함께 쓰일 때 효과적입니다."
+        },
+        {
+          "id": "se_ch09_set09_005",
+          "type": "multiple_choice",
+          "question": "지금 막 차량 공유 서비스를 불렀다고 알릴 때 표현은?",
+          "options": [
+            "I called a ride-share.",
+            "I missed my ride-share.",
+            "I cancelled my ride-share.",
+            "I need to book a ride-share."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I called a ride-share.'는 차량 공유 서비스를 불렀다는 더 일반적인 표현입니다. 'I just ordered an Uber.'와 같은 상황에서 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch09_set09_006",
+          "type": "multiple_choice",
+          "question": "차에서 내릴 때 여기서 내려주면 된다고 말하는 표현은?",
+          "options": [
+            "I'll drop you off here.",
+            "I'll pick you up here.",
+            "I'll wait for you here.",
+            "I'll park here."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll drop you off here.'는 여기서 내려주겠다는 표현입니다. 'drop off'는 승객을 내려주다는 뜻으로, 목적지나 원하는 장소에 도착했을 때 씁니다."
+        },
+        {
+          "id": "se_ch09_set09_007",
+          "type": "multiple_choice",
+          "question": "공항철도에서 가장 빠른 방법이 뭔지 물어보는 표현은?",
+          "options": [
+            "What's the quickest way to the city?",
+            "What's the cheapest way to the city?",
+            "What's the most scenic way to the city?",
+            "What's the most comfortable way to the city?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What's the quickest way to the city?'는 시내까지 가장 빠른 방법이 뭔지 묻는 표현입니다. 'quickest'는 'fastest'와 같은 의미로 가장 빠른 옵션을 원할 때 씁니다."
+        },
+        {
+          "id": "se_ch09_set09_008",
+          "type": "multiple_choice",
+          "question": "버스 정류장이 터미널 바로 밖에 있다고 안내할 때 표현은?",
+          "options": [
+            "It's just outside the terminal.",
+            "It's inside the terminal on Level 2.",
+            "It's across the street from the terminal.",
+            "It's next to the departure hall."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's just outside the terminal.'은 터미널 바로 밖에 있다는 안내 표현입니다. 'just outside ~'는 '~바로 바깥'을 뜻하며 가깝다는 것을 강조합니다."
+        },
+        {
+          "id": "se_ch09_set09_009",
+          "type": "multiple_choice",
+          "question": "택시와 버스가 나오지 않는 상황에서 가장 빠른 교통수단 선택 기준은?",
+          "options": [
+            "소요 시간을 비교해서 더 빠른 것 선택",
+            "요금을 비교해서 더 비싼 것 선택",
+            "거리를 기준으로 더 먼 것 선택",
+            "배차 간격이 더 긴 것 선택"
+          ],
+          "answerIndex": 0,
+          "explanation": "소요 시간을 비교해서 더 빠른 교통수단을 선택하는 것이 합리적입니다. 'How long does it take?'로 각 교통수단의 소요 시간을 비교한 후 결정할 수 있습니다."
+        },
+        {
+          "id": "se_ch09_set09_010",
+          "type": "multiple_choice",
+          "question": "택시 기사가 고속도로를 이용하는 이유를 설명할 때 쓰는 표현은?",
+          "options": [
+            "To avoid traffic.",
+            "To save fuel.",
+            "To take the scenic route.",
+            "To reach the border faster."
+          ],
+          "answerIndex": 0,
+          "explanation": "'To avoid traffic.'는 교통 체증을 피하기 위해서라는 표현입니다. 기사가 경로를 선택할 때 자주 쓰는 이유로, 'avoid'는 피하다, 'traffic'은 교통·차 막힘을 뜻합니다."
+        },
+        {
+          "id": "se_ch09_set09_011",
+          "type": "ox",
+          "question": "'No hidden charges'는 추가 숨겨진 요금이 없다는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'No hidden charges'는 숨겨진 추가 요금이 없다는 표현입니다. 정액 요금임을 강조하거나 불필요한 추가 청구가 없음을 안심시킬 때 씁니다."
+        },
+        {
+          "id": "se_ch09_set09_012",
+          "type": "ox",
+          "question": "버스 표를 살 때 'single'은 영국에서 왕복을 뜻한다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'single'은 영국에서 편도를 뜻합니다. 왕복은 영국에서 'return', 미국에서 'round trip'이라고 합니다."
+        },
+        {
+          "id": "se_ch09_set09_013",
+          "type": "ox",
+          "question": "'last service'는 마지막 운행을 뜻하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'last service'는 마지막 운행을 뜻합니다. 'What time does the train stop running?'과 같은 의미로, 운행 종료 시간을 확인할 때 씁니다."
+        },
+        {
+          "id": "se_ch09_set09_014",
+          "type": "ox",
+          "question": "공항에서 기차를 탈 때 'platform'은 승강장을 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'platform'은 기차·전철역의 승강장을 뜻합니다. 버스 정류장의 지정 구역은 'bay' 또는 'stand'라고 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch09_set10_001",
+          "type": "multiple_choice",
+          "question": "공항에서 시내로 가는 교통 방법을 물을 때 가장 포괄적인 표현은?",
+          "options": [
+            "What's the best way to get to the city center?",
+            "What time does the airport close?",
+            "Where is the international arrivals?",
+            "How do I get to the departure hall?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What's the best way to get to the city center?'는 시내 중심가까지 가장 좋은 방법이 뭔지 묻는 포괄적인 표현입니다. 교통수단을 열어두고 최적의 방법을 물어볼 때 씁니다."
+        },
+        {
+          "id": "se_ch09_set10_002",
+          "type": "multiple_choice",
+          "question": "기차 왕복 티켓이 편도의 2배보다 저렴할 수 있다는 사실과 관련된 영국식 왕복 표현은?",
+          "options": [
+            "return ticket",
+            "round ticket",
+            "back ticket",
+            "two-way ticket"
+          ],
+          "answerIndex": 0,
+          "explanation": "'return ticket'은 영국식 왕복 티켓 표현입니다. 왕복이 편도의 2배보다 저렴한 경우도 있으므로, 왕복 여부를 묻는 'A single or return?'에서 확인하는 게 좋습니다."
+        },
+        {
+          "id": "se_ch09_set10_003",
+          "type": "multiple_choice",
+          "question": "택시 승강장을 찾을 때 구어적으로 물어보는 표현은?",
+          "options": [
+            "Where can I get a taxi?",
+            "Where can I get a train schedule?",
+            "Where can I get a bus pass?",
+            "Where can I get foreign currency?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where can I get a taxi?'는 택시를 어디서 탈 수 있냐는 구어적인 표현입니다. 'Where is the taxi stand?'보다 더 캐주얼한 표현이지만 충분히 자연스럽습니다."
+        },
+        {
+          "id": "se_ch09_set10_004",
+          "type": "multiple_choice",
+          "question": "시내까지 정액요금이 있다면 'flat rate'로 묻는 표현은?",
+          "options": [
+            "Do you have a flat rate to downtown?",
+            "Do you have a flat tire?",
+            "Do you have a flat screen?",
+            "Do you have a flat price list?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you have a flat rate to downtown?'은 시내까지 정액요금이 있냐는 표현입니다. 'flat rate' = 'fixed fare' = 'set price'로 모두 고정 요금을 뜻합니다."
+        },
+        {
+          "id": "se_ch09_set10_005",
+          "type": "multiple_choice",
+          "question": "버스에서 줄을 서지 않고 기다려야 하냐고 물을 때 표현은?",
+          "options": [
+            "Do I need to wait in line?",
+            "Do I need to book in advance?",
+            "Do I need to show my passport?",
+            "Do I need to pay in advance?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do I need to wait in line?'은 줄을 서서 기다려야 하냐는 표현입니다. 'wait in line'은 미국식, 'wait in a queue'는 영국식 표현입니다."
+        },
+        {
+          "id": "se_ch09_set10_006",
+          "type": "multiple_choice",
+          "question": "가방 안에 깨지기 쉬운 물건이 있다는 표현은?",
+          "options": [
+            "That bag has breakables.",
+            "That bag is overweight.",
+            "That bag has restricted items.",
+            "That bag has liquids inside."
+          ],
+          "answerIndex": 0,
+          "explanation": "'That bag has breakables.'는 가방 안에 깨지기 쉬운 물건이 있다는 표현입니다. 'breakables'는 깨질 수 있는 물건을 뜻합니다. 'fragile'과 유사한 의미로 씁니다."
+        },
+        {
+          "id": "se_ch09_set10_007",
+          "type": "multiple_choice",
+          "question": "공항에서 여기서 바로 환승 없이 갈 수 있냐는 표현은?",
+          "options": [
+            "Is it a direct ride from here?",
+            "Is it a long ride from here?",
+            "Is it a safe ride from here?",
+            "Is it a metered ride from here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is it a direct ride from here?'는 여기서 환승 없이 직행으로 갈 수 있냐는 표현입니다. 'Do I need to transfer?'를 다르게 표현한 것입니다."
+        },
+        {
+          "id": "se_ch09_set10_008",
+          "type": "multiple_choice",
+          "question": "택시나 심야 버스를 이용해야 한다는 안내 표현은?",
+          "options": [
+            "You'd have to take a taxi or night bus.",
+            "You'd have to take the subway.",
+            "You'd have to walk to the hotel.",
+            "You'd have to wait until morning."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You'd have to take a taxi or night bus.'는 막차 이후 택시나 심야버스를 이용해야 한다는 표현입니다. 'you'd have to ~'는 '~해야 할 것이다'라는 권고의 의미입니다."
+        },
+        {
+          "id": "se_ch09_set10_009",
+          "type": "multiple_choice",
+          "question": "기차가 15분마다 운행한다는 또 다른 표현은?",
+          "options": [
+            "There's a train every quarter of an hour.",
+            "There's a train every half hour.",
+            "There's a train every hour.",
+            "There's a train every two hours."
+          ],
+          "answerIndex": 0,
+          "explanation": "'There's a train every quarter of an hour.'는 15분(1/4시간)마다 기차가 있다는 표현입니다. 'quarter of an hour'는 15분을 뜻하며 'every 15 minutes'와 같습니다."
+        },
+        {
+          "id": "se_ch09_set10_010",
+          "type": "multiple_choice",
+          "question": "시내까지 급행열차가 더 빠르다는 의사 표현 방식은?",
+          "options": [
+            "The train sounds faster.",
+            "The train is more comfortable.",
+            "The train is cheaper.",
+            "The train stops more often."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The train sounds faster.'는 기차가 더 빠른 것 같다는 의사 표현 방식입니다. 'sounds ~'는 '~인 것 같다'는 의미로 정보를 들은 후 판단을 표현할 때 씁니다."
+        },
+        {
+          "id": "se_ch09_set10_011",
+          "type": "ox",
+          "question": "우버 기사 이름과 번호판을 확인하는 것은 올바른 차량 탑승을 위한 절차이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 우버 등 차량 공유 서비스에서 기사 이름과 번호판을 앱과 대조 확인하는 것은 올바른 차량에 탑승했는지 확인하기 위한 중요한 안전 절차입니다."
+        },
+        {
+          "id": "se_ch09_set10_012",
+          "type": "ox",
+          "question": "'hop in'과 'jump in'은 모두 차에 올라타라는 캐주얼한 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'hop in'과 'jump in' 모두 차에 올라타라는 캐주얼한 표현입니다. 'get in'보다 훨씬 친근하고 가벼운 표현으로 택시 기사가 자주 사용합니다."
+        },
+        {
+          "id": "se_ch09_set10_013",
+          "type": "ox",
+          "question": "'by bus'처럼 교통수단 앞에 'by'를 붙이면 그 수단으로 이동한다는 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'by + 교통수단'은 그 수단으로 이동한다는 의미입니다. 'by bus', 'by train', 'by taxi' 모두 각각의 교통수단으로 이동함을 나타냅니다."
+        },
+        {
+          "id": "se_ch09_set10_014",
+          "type": "ox",
+          "question": "'congestion'은 교통 혼잡을 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'congestion'은 교통 혼잡, 정체를 뜻합니다. 'Let's skip the congestion.'은 정체를 피하자는 표현이며, 'traffic jam'과 비슷한 의미입니다."
         }
       ]
     }

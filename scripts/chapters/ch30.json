@@ -7,34 +7,68 @@
       "id": "ch30_d01",
       "title": "사진 촬영 가능 여부 확인하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, is photography allowed in here?", "ko": "실례합니다, 여기 안에서 사진 촬영이 가능한가요?" },
-        { "speaker": "직원", "en": "Yes, photography is allowed, but no flash, please.", "ko": "네, 촬영은 가능하지만 플래시는 금지입니다." },
-        { "speaker": "나", "en": "Got it. What about video recording?", "ko": "알겠습니다. 영상 촬영은 어떤가요?" },
-        { "speaker": "직원", "en": "Video is also fine, as long as you keep quiet.", "ko": "조용히 하신다면 영상도 괜찮습니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, is photography allowed in here?",
+          "ko": "실례합니다, 여기 안에서 사진 촬영이 가능한가요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, photography is allowed, but no flash, please.",
+          "ko": "네, 촬영은 가능하지만 플래시는 금지입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Got it. What about video recording?",
+          "ko": "알겠습니다. 영상 촬영은 어떤가요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Video is also fine, as long as you keep quiet.",
+          "ko": "조용히 하신다면 영상도 괜찮습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is photography allowed?",
           "ko": "촬영 허용 여부를 묻는 표준 표현. 'Can I take photos?'도 쓰이지만 'Is photography allowed?'는 규정 자체를 묻는 뉘앙스라 박물관 등 공식 공간에서 더 자연스럽게 들림.",
           "alternatives": [
-            { "en": "Can I take photos in here?", "ko": "일상적이고 간결한 표현. 관광지 어디서나 통용됨." },
-            { "en": "Are cameras permitted here?", "ko": "카메라 허용 여부를 좀 더 격식 있게 묻는 표현." }
+            {
+              "en": "Can I take photos in here?",
+              "ko": "일상적이고 간결한 표현. 관광지 어디서나 통용됨."
+            },
+            {
+              "en": "Are cameras permitted here?",
+              "ko": "카메라 허용 여부를 좀 더 격식 있게 묻는 표현."
+            }
           ]
         },
         {
           "en": "No flash, please.",
           "ko": "플래시 금지를 안내하는 직원의 표현. 'No flash'만으로도 통하지만 'please'를 붙이면 훨씬 공손하게 들림. 카메라 촬영은 허용되면서 플래시만 금지할 때 자주 씀.",
           "alternatives": [
-            { "en": "Please turn off your flash.", "ko": "플래시를 꺼달라는 더 구체적인 요청." },
-            { "en": "Flash photography is not permitted.", "ko": "안내판이나 격식 있는 안내 문구에서 자주 쓰이는 표현." }
+            {
+              "en": "Please turn off your flash.",
+              "ko": "플래시를 꺼달라는 더 구체적인 요청."
+            },
+            {
+              "en": "Flash photography is not permitted.",
+              "ko": "안내판이나 격식 있는 안내 문구에서 자주 쓰이는 표현."
+            }
           ]
         },
         {
           "en": "As long as you keep quiet.",
           "ko": "'as long as ~'는 '~하는 한, ~하기만 하면'이라는 조건을 나타내는 표현. 영어 조건문에서 매우 자주 쓰이므로 들으면 뒤의 조건에 집중하자.",
           "alternatives": [
-            { "en": "As long as you don't disturb others.", "ko": "다른 관람객을 방해하지 않는 한이라는 조건을 붙인 표현." },
-            { "en": "Just make sure you're not disruptive.", "ko": "방해가 되지 않도록 주의해달라는 캐주얼한 표현." }
+            {
+              "en": "As long as you don't disturb others.",
+              "ko": "다른 관람객을 방해하지 않는 한이라는 조건을 붙인 표현."
+            },
+            {
+              "en": "Just make sure you're not disruptive.",
+              "ko": "방해가 되지 않도록 주의해달라는 캐주얼한 표현."
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch30_d02",
       "title": "플래시 금지 규정 재확인하기",
       "lines": [
-        { "speaker": "나", "en": "Sorry, am I allowed to use my flash in this room?", "ko": "실례합니다, 이 방에서 플래시를 사용해도 되나요?" },
-        { "speaker": "직원", "en": "No, flash is strictly prohibited throughout the museum.", "ko": "아니요, 박물관 전체에서 플래시는 엄격히 금지되어 있습니다." },
-        { "speaker": "나", "en": "I see. Does that apply to phone cameras too?", "ko": "그렇군요. 휴대폰 카메라도 해당되나요?" },
-        { "speaker": "직원", "en": "Yes, all flash — phone or camera — is prohibited.", "ko": "네, 휴대폰이든 카메라든 모든 플래시는 금지입니다." }
+        {
+          "speaker": "나",
+          "en": "Sorry, am I allowed to use my flash in this room?",
+          "ko": "실례합니다, 이 방에서 플래시를 사용해도 되나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "No, flash is strictly prohibited throughout the museum.",
+          "ko": "아니요, 박물관 전체에서 플래시는 엄격히 금지되어 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "I see. Does that apply to phone cameras too?",
+          "ko": "그렇군요. 휴대폰 카메라도 해당되나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, all flash — phone or camera — is prohibited.",
+          "ko": "네, 휴대폰이든 카메라든 모든 플래시는 금지입니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Flash is strictly prohibited.",
           "ko": "'strictly prohibited'는 '엄격히 금지'라는 의미로 규정이 엄격함을 강조할 때 씀. 'not allowed'보다 훨씬 강한 표현이므로 직원이 이렇게 말하면 반드시 따라야 함.",
           "alternatives": [
-            { "en": "No flash is allowed anywhere.", "ko": "장소를 불문하고 플래시가 허용되지 않는다는 표현." },
-            { "en": "Flash photography is banned.", "ko": "금지의 의미를 명확히 전달하는 표현." }
+            {
+              "en": "No flash is allowed anywhere.",
+              "ko": "장소를 불문하고 플래시가 허용되지 않는다는 표현."
+            },
+            {
+              "en": "Flash photography is banned.",
+              "ko": "금지의 의미를 명확히 전달하는 표현."
+            }
           ]
         },
         {
           "en": "Does that apply to phone cameras too?",
           "ko": "'Does that apply to ~?'는 '~에도 해당되나요?'라는 뜻으로 규정의 적용 범위를 확인할 때 매우 유용한 표현.",
           "alternatives": [
-            { "en": "Does the rule include smartphones?", "ko": "규정이 스마트폰에도 적용되는지 묻는 표현." },
-            { "en": "Is that the same for phones?", "ko": "조금 더 캐주얼하게 범위를 확인하는 표현." }
+            {
+              "en": "Does the rule include smartphones?",
+              "ko": "규정이 스마트폰에도 적용되는지 묻는 표현."
+            },
+            {
+              "en": "Is that the same for phones?",
+              "ko": "조금 더 캐주얼하게 범위를 확인하는 표현."
+            }
           ]
         },
         {
           "en": "All flash — phone or camera — is prohibited.",
           "ko": "대시(—)로 설명을 삽입하는 구조. 'whether it's a phone or a camera'와 같은 뜻으로 예외 없이 모두 해당됨을 강조함. 직원이 규정을 명확히 설명할 때 쓰는 방식.",
           "alternatives": [
-            { "en": "It applies to all devices.", "ko": "모든 기기에 적용된다는 간결한 표현." },
-            { "en": "It doesn't matter what device you're using.", "ko": "기기 종류와 관계없다는 뉘앙스의 표현." }
+            {
+              "en": "It applies to all devices.",
+              "ko": "모든 기기에 적용된다는 간결한 표현."
+            },
+            {
+              "en": "It doesn't matter what device you're using.",
+              "ko": "기기 종류와 관계없다는 뉘앙스의 표현."
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch30_d03",
       "title": "가방·외투 보관 맡기기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, is there a cloakroom where I can leave my bag?", "ko": "실례합니다, 가방을 맡길 수 있는 보관소가 있나요?" },
-        { "speaker": "직원", "en": "Yes, the cloakroom is on the ground floor, near the entrance.", "ko": "네, 보관소는 1층 입구 근처에 있습니다." },
-        { "speaker": "나", "en": "Is there a fee, or is it free?", "ko": "요금이 있나요, 아니면 무료인가요?" },
-        { "speaker": "직원", "en": "It's free. Just hand in your bag and you'll get a tag.", "ko": "무료입니다. 가방을 맡기시면 번호표를 드립니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, is there a cloakroom where I can leave my bag?",
+          "ko": "실례합니다, 가방을 맡길 수 있는 보관소가 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, the cloakroom is on the ground floor, near the entrance.",
+          "ko": "네, 보관소는 1층 입구 근처에 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Is there a fee, or is it free?",
+          "ko": "요금이 있나요, 아니면 무료인가요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "It's free. Just hand in your bag and you'll get a tag.",
+          "ko": "무료입니다. 가방을 맡기시면 번호표를 드립니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is there a cloakroom?",
           "ko": "'cloakroom'은 박물관·극장 등에서 외투나 짐을 맡아주는 보관소. 미국에서는 'coat check'라고도 함. 이 두 단어를 모두 알아두면 어느 나라에서든 통함.",
           "alternatives": [
-            { "en": "Is there a coat check?", "ko": "미국식 표현. 가방과 외투를 맡기는 서비스를 가리킴." },
-            { "en": "Can I leave my bag somewhere?", "ko": "보관소 이름을 몰라도 사용할 수 있는 실용적인 표현." }
+            {
+              "en": "Is there a coat check?",
+              "ko": "미국식 표현. 가방과 외투를 맡기는 서비스를 가리킴."
+            },
+            {
+              "en": "Can I leave my bag somewhere?",
+              "ko": "보관소 이름을 몰라도 사용할 수 있는 실용적인 표현."
+            }
           ]
         },
         {
           "en": "Is there a fee?",
           "ko": "'fee'는 서비스에 대한 요금을 뜻함. 'charge'나 'cost'도 같은 맥락에서 쓰임. '무료인가요?'는 'Is it free?'로 간단하게 물을 수 있음.",
           "alternatives": [
-            { "en": "Do I need to pay for it?", "ko": "비용을 내야 하는지 묻는 더 캐주얼한 표현." },
-            { "en": "Is it free of charge?", "ko": "'free of charge'는 '완전 무료'라는 격식 있는 표현." }
+            {
+              "en": "Do I need to pay for it?",
+              "ko": "비용을 내야 하는지 묻는 더 캐주얼한 표현."
+            },
+            {
+              "en": "Is it free of charge?",
+              "ko": "'free of charge'는 '완전 무료'라는 격식 있는 표현."
+            }
           ]
         },
         {
           "en": "You'll get a tag.",
           "ko": "'tag'는 짐표, 번호표를 뜻함. 보관소에서 짐을 찾을 때 제시해야 하는 번호표나 클레임 태그를 가리킴. 'claim ticket'이라고도 함.",
           "alternatives": [
-            { "en": "You'll receive a claim ticket.", "ko": "짐 찾는 번호표를 받는다는 격식 있는 표현." },
-            { "en": "We'll give you a number to collect it.", "ko": "번호를 이용해 짐을 찾는다는 것을 설명하는 표현." }
+            {
+              "en": "You'll receive a claim ticket.",
+              "ko": "짐 찾는 번호표를 받는다는 격식 있는 표현."
+            },
+            {
+              "en": "We'll give you a number to collect it.",
+              "ko": "번호를 이용해 짐을 찾는다는 것을 설명하는 표현."
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch30_d04",
       "title": "오디오 가이드 대여하기",
       "lines": [
-        { "speaker": "나", "en": "Hi, I'd like to rent an audio guide, please.", "ko": "안녕하세요, 오디오 가이드를 빌리고 싶습니다." },
-        { "speaker": "직원", "en": "Of course. It's three dollars for the day. Do you have a preference for language?", "ko": "물론이죠. 하루에 3달러입니다. 원하시는 언어가 있으신가요?" },
-        { "speaker": "나", "en": "Do you have one in Korean?", "ko": "한국어 버전이 있나요?" },
-        { "speaker": "직원", "en": "Yes, we do. Here's your device — just press the number next to each exhibit.", "ko": "네, 있습니다. 기기를 드리겠습니다. 각 전시물 옆에 있는 번호를 누르시면 됩니다." }
+        {
+          "speaker": "나",
+          "en": "Hi, I'd like to rent an audio guide, please.",
+          "ko": "안녕하세요, 오디오 가이드를 빌리고 싶습니다."
+        },
+        {
+          "speaker": "직원",
+          "en": "Of course. It's three dollars for the day. Do you have a preference for language?",
+          "ko": "물론이죠. 하루에 3달러입니다. 원하시는 언어가 있으신가요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Do you have one in Korean?",
+          "ko": "한국어 버전이 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, we do. Here's your device — just press the number next to each exhibit.",
+          "ko": "네, 있습니다. 기기를 드리겠습니다. 각 전시물 옆에 있는 번호를 누르시면 됩니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'd like to rent an audio guide.",
           "ko": "'I'd like to ~'는 '~하고 싶습니다'라는 정중한 요청 표현. 'I want to ~'보다 훨씬 공손하게 들리므로 서비스 요청 시 습관적으로 사용하자.",
           "alternatives": [
-            { "en": "Can I get an audio guide?", "ko": "간결하고 자연스러운 캐주얼 표현." },
-            { "en": "Could I borrow an audio guide?", "ko": "'borrow'를 써서 빌린다는 느낌을 강조한 표현." }
+            {
+              "en": "Can I get an audio guide?",
+              "ko": "간결하고 자연스러운 캐주얼 표현."
+            },
+            {
+              "en": "Could I borrow an audio guide?",
+              "ko": "'borrow'를 써서 빌린다는 느낌을 강조한 표현."
+            }
           ]
         },
         {
           "en": "Do you have a preference for language?",
           "ko": "'preference'는 선호, 선택 의향을 뜻함. 직원이 언어 선택을 물을 때 자주 쓰는 표현. 'Which language would you like?'도 같은 상황에 쓰임.",
           "alternatives": [
-            { "en": "Which language would you like?", "ko": "어떤 언어를 원하는지 직접적으로 묻는 표현." },
-            { "en": "What language do you prefer?", "ko": "선호 언어를 묻는 더 간단한 표현." }
+            {
+              "en": "Which language would you like?",
+              "ko": "어떤 언어를 원하는지 직접적으로 묻는 표현."
+            },
+            {
+              "en": "What language do you prefer?",
+              "ko": "선호 언어를 묻는 더 간단한 표현."
+            }
           ]
         },
         {
           "en": "Press the number next to each exhibit.",
           "ko": "'exhibit'는 전시물, 전시품을 뜻함. 박물관에서 자주 쓰이는 단어. 'display'나 'piece'도 같은 의미로 사용됨. 오디오가이드 사용법을 설명할 때 핵심 단어.",
           "alternatives": [
-            { "en": "Enter the number shown on the label.", "ko": "라벨에 표시된 번호를 입력하라는 표현." },
-            { "en": "Key in the code for each display.", "ko": "각 전시물 코드를 입력하라는 표현." }
+            {
+              "en": "Enter the number shown on the label.",
+              "ko": "라벨에 표시된 번호를 입력하라는 표현."
+            },
+            {
+              "en": "Key in the code for each display.",
+              "ko": "각 전시물 코드를 입력하라는 표현."
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch30_d05",
       "title": "투어 집합 장소 확인하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, where does the guided tour start?", "ko": "실례합니다, 가이드 투어는 어디서 시작하나요?" },
-        { "speaker": "직원", "en": "The meeting point is at the main lobby, in front of the information desk.", "ko": "집합 장소는 메인 로비, 안내 데스크 앞입니다." },
-        { "speaker": "나", "en": "And what time does the next tour begin?", "ko": "다음 투어는 몇 시에 시작하나요?" },
-        { "speaker": "직원", "en": "The next tour starts at two o'clock. Please be there five minutes early.", "ko": "다음 투어는 2시에 시작합니다. 5분 일찍 오시기 바랍니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, where does the guided tour start?",
+          "ko": "실례합니다, 가이드 투어는 어디서 시작하나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "The meeting point is at the main lobby, in front of the information desk.",
+          "ko": "집합 장소는 메인 로비, 안내 데스크 앞입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "And what time does the next tour begin?",
+          "ko": "다음 투어는 몇 시에 시작하나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "The next tour starts at two o'clock. Please be there five minutes early.",
+          "ko": "다음 투어는 2시에 시작합니다. 5분 일찍 오시기 바랍니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Where does the guided tour start?",
           "ko": "투어 집합 장소를 묻는 핵심 표현. 'Where does ~ start?'는 장소를 묻는 구조. 'When does ~ start?'와 혼동하지 않도록 주의 — where(어디)와 when(언제)를 구분하자.",
           "alternatives": [
-            { "en": "Where is the meeting point for the tour?", "ko": "투어 집합 지점을 직접적으로 묻는 표현." },
-            { "en": "Where should I go for the tour?", "ko": "투어를 위해 어디로 가야 하는지 묻는 실용적 표현." }
+            {
+              "en": "Where is the meeting point for the tour?",
+              "ko": "투어 집합 지점을 직접적으로 묻는 표현."
+            },
+            {
+              "en": "Where should I go for the tour?",
+              "ko": "투어를 위해 어디로 가야 하는지 묻는 실용적 표현."
+            }
           ]
         },
         {
           "en": "The meeting point is at the main lobby.",
           "ko": "'meeting point'는 집합 장소를 뜻하는 표현. 'gathering point', 'assembly point'도 같은 의미로 쓰임. 가이드 투어, 그룹 여행 등에서 자주 등장하는 단어.",
           "alternatives": [
-            { "en": "We gather in the main lobby.", "ko": "메인 로비에서 모인다는 뜻의 표현." },
-            { "en": "Everyone meets by the information desk.", "ko": "안내 데스크 옆에서 만난다는 구체적 표현." }
+            {
+              "en": "We gather in the main lobby.",
+              "ko": "메인 로비에서 모인다는 뜻의 표현."
+            },
+            {
+              "en": "Everyone meets by the information desk.",
+              "ko": "안내 데스크 옆에서 만난다는 구체적 표현."
+            }
           ]
         },
         {
           "en": "Please be there five minutes early.",
           "ko": "5분 일찍 오라는 안내. 'early'는 '일찍'이라는 뜻으로 'ahead of time'으로도 표현 가능. 가이드 투어는 정시에 시작하는 경우가 많으므로 이 안내를 꼭 기억하자.",
           "alternatives": [
-            { "en": "Please arrive a few minutes before the tour.", "ko": "투어 전에 몇 분 일찍 도착해달라는 표현." },
-            { "en": "We recommend arriving a little early.", "ko": "조금 일찍 오길 권장한다는 부드러운 표현." }
+            {
+              "en": "Please arrive a few minutes before the tour.",
+              "ko": "투어 전에 몇 분 일찍 도착해달라는 표현."
+            },
+            {
+              "en": "We recommend arriving a little early.",
+              "ko": "조금 일찍 오길 권장한다는 부드러운 표현."
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch30_d06",
       "title": "투어 소요 시간 확인하기",
       "lines": [
-        { "speaker": "나", "en": "How long does the tour take?", "ko": "투어는 얼마나 걸리나요?" },
-        { "speaker": "가이드", "en": "It's about ninety minutes in total.", "ko": "총 약 90분입니다." },
-        { "speaker": "나", "en": "Are there any breaks during the tour?", "ko": "투어 중에 휴식 시간이 있나요?" },
-        { "speaker": "가이드", "en": "Yes, there's a short ten-minute break halfway through.", "ko": "네, 중간에 10분 짧은 휴식이 있습니다." }
+        {
+          "speaker": "나",
+          "en": "How long does the tour take?",
+          "ko": "투어는 얼마나 걸리나요?"
+        },
+        {
+          "speaker": "가이드",
+          "en": "It's about ninety minutes in total.",
+          "ko": "총 약 90분입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Are there any breaks during the tour?",
+          "ko": "투어 중에 휴식 시간이 있나요?"
+        },
+        {
+          "speaker": "가이드",
+          "en": "Yes, there's a short ten-minute break halfway through.",
+          "ko": "네, 중간에 10분 짧은 휴식이 있습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "How long does the tour take?",
           "ko": "투어 소요 시간을 묻는 핵심 표현. 'How long ~?'은 시간 길이를 묻는 구조. 'How long is the tour?'로도 쓰임. 'How far?'(거리)나 'What time does it end?'(종료 시각)와 구별해서 사용하자.",
           "alternatives": [
-            { "en": "How long is the tour?", "ko": "소요 시간을 묻는 또 다른 자연스러운 표현." },
-            { "en": "How much time does the tour take?", "ko": "time을 강조한 동일 의미의 표현." }
+            {
+              "en": "How long is the tour?",
+              "ko": "소요 시간을 묻는 또 다른 자연스러운 표현."
+            },
+            {
+              "en": "How much time does the tour take?",
+              "ko": "time을 강조한 동일 의미의 표현."
+            }
           ]
         },
         {
           "en": "About ninety minutes in total.",
           "ko": "'in total'은 '합계, 총'이라는 뜻으로 전체 소요 시간을 나타낼 때 씀. 'altogether'도 같은 의미. '약'은 'about'이나 'around'로 표현함.",
           "alternatives": [
-            { "en": "Roughly an hour and a half.", "ko": "90분을 '1시간 반'으로 표현한 자연스러운 대화체." },
-            { "en": "Around ninety minutes altogether.", "ko": "altogether를 써서 전체 시간을 강조한 표현." }
+            {
+              "en": "Roughly an hour and a half.",
+              "ko": "90분을 '1시간 반'으로 표현한 자연스러운 대화체."
+            },
+            {
+              "en": "Around ninety minutes altogether.",
+              "ko": "altogether를 써서 전체 시간을 강조한 표현."
+            }
           ]
         },
         {
           "en": "Halfway through.",
           "ko": "'halfway through'는 '중간쯤'이라는 뜻. 'in the middle of'와 같은 의미. 투어나 영화 등 진행 중인 활동의 중간 지점을 가리킬 때 자주 사용됨.",
           "alternatives": [
-            { "en": "In the middle of the tour.", "ko": "투어 중간에라는 표현." },
-            { "en": "About midway through.", "ko": "중간쯤이라는 뜻의 또 다른 표현." }
+            {
+              "en": "In the middle of the tour.",
+              "ko": "투어 중간에라는 표현."
+            },
+            {
+              "en": "About midway through.",
+              "ko": "중간쯤이라는 뜻의 또 다른 표현."
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch30_d07",
       "title": "영어 가이드 투어 여부 확인하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, is there an English-language tour available?", "ko": "실례합니다, 영어로 진행되는 투어가 있나요?" },
-        { "speaker": "직원", "en": "Yes, we have English tours at eleven and two.", "ko": "네, 영어 투어는 11시와 2시에 있습니다." },
-        { "speaker": "나", "en": "Do I need to book in advance, or can I just show up?", "ko": "미리 예약해야 하나요, 아니면 그냥 가면 되나요?" },
-        { "speaker": "직원", "en": "You can just show up. Spots are limited, so I'd come a bit early.", "ko": "그냥 오시면 됩니다. 자리가 한정되어 있으니 조금 일찍 오시는 게 좋을 것 같습니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, is there an English-language tour available?",
+          "ko": "실례합니다, 영어로 진행되는 투어가 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, we have English tours at eleven and two.",
+          "ko": "네, 영어 투어는 11시와 2시에 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Do I need to book in advance, or can I just show up?",
+          "ko": "미리 예약해야 하나요, 아니면 그냥 가면 되나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "You can just show up. Spots are limited, so I'd come a bit early.",
+          "ko": "그냥 오시면 됩니다. 자리가 한정되어 있으니 조금 일찍 오시는 게 좋을 것 같습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is there an English-language tour available?",
           "ko": "영어 투어 유무를 묻는 표현. 'English-language tour'처럼 언어를 형용사처럼 붙여서 표현함. 한국어 투어를 원하면 'Korean-language tour'로 바꿔 쓰면 됨.",
           "alternatives": [
-            { "en": "Do you offer tours in English?", "ko": "영어 투어를 제공하는지 묻는 표현." },
-            { "en": "Are there any English-guided tours?", "ko": "영어 가이드 투어 여부를 묻는 표현." }
+            {
+              "en": "Do you offer tours in English?",
+              "ko": "영어 투어를 제공하는지 묻는 표현."
+            },
+            {
+              "en": "Are there any English-guided tours?",
+              "ko": "영어 가이드 투어 여부를 묻는 표현."
+            }
           ]
         },
         {
           "en": "Do I need to book in advance?",
           "ko": "'book in advance'는 '미리 예약하다'는 표현. 'in advance'는 '사전에, 미리'라는 뜻으로 예약이나 준비 관련 상황에서 자주 등장함. 'reserve ahead of time'도 같은 뜻.",
           "alternatives": [
-            { "en": "Is a reservation required?", "ko": "예약이 필요한지 묻는 격식 있는 표현." },
-            { "en": "Can I sign up on the spot?", "ko": "현장에서 신청 가능한지 묻는 표현." }
+            {
+              "en": "Is a reservation required?",
+              "ko": "예약이 필요한지 묻는 격식 있는 표현."
+            },
+            {
+              "en": "Can I sign up on the spot?",
+              "ko": "현장에서 신청 가능한지 묻는 표현."
+            }
           ]
         },
         {
           "en": "Spots are limited.",
           "ko": "'spots'는 자리, 좌석을 뜻하는 구어 표현. 'seats are limited'나 'space is limited'도 같은 의미. 자리가 한정되어 있다는 정보를 들으면 서두를 필요가 있음.",
           "alternatives": [
-            { "en": "There are limited spaces available.", "ko": "이용 가능한 자리가 제한적이라는 표현." },
-            { "en": "It fills up quickly.", "ko": "자리가 빠르게 채워진다는 표현으로 서두를 것을 암시함." }
+            {
+              "en": "There are limited spaces available.",
+              "ko": "이용 가능한 자리가 제한적이라는 표현."
+            },
+            {
+              "en": "It fills up quickly.",
+              "ko": "자리가 빠르게 채워진다는 표현으로 서두를 것을 암시함."
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch30_d08",
       "title": "화장실·출구 위치 묻기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, where are the restrooms?", "ko": "실례합니다, 화장실이 어디에 있나요?" },
-        { "speaker": "직원", "en": "The restrooms are down the hall, on your left.", "ko": "복도를 따라 내려가시면 왼쪽에 있습니다." },
-        { "speaker": "나", "en": "And where is the exit?", "ko": "그리고 출구는 어디에 있나요?" },
-        { "speaker": "직원", "en": "The main exit is straight ahead, through the gift shop.", "ko": "메인 출구는 기념품샵을 지나 정면으로 가시면 됩니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, where are the restrooms?",
+          "ko": "실례합니다, 화장실이 어디에 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "The restrooms are down the hall, on your left.",
+          "ko": "복도를 따라 내려가시면 왼쪽에 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "And where is the exit?",
+          "ko": "그리고 출구는 어디에 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "The main exit is straight ahead, through the gift shop.",
+          "ko": "메인 출구는 기념품샵을 지나 정면으로 가시면 됩니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Where are the restrooms?",
           "ko": "화장실을 묻는 가장 기본적인 표현. 미국에서는 'restroom', 영국에서는 'toilet' 또는 'loo'를 쓰는 경향이 있음. 'bathroom'도 통하지만 공공장소에서는 'restroom'이 더 자연스러움.",
           "alternatives": [
-            { "en": "Where is the bathroom?", "ko": "미국에서도 자주 쓰이는 표현. 'restroom'과 동의어로 통함." },
-            { "en": "Could you point me to the nearest toilet?", "ko": "영국식 표현으로 가장 가까운 화장실로 안내해달라는 정중한 요청." }
+            {
+              "en": "Where is the bathroom?",
+              "ko": "미국에서도 자주 쓰이는 표현. 'restroom'과 동의어로 통함."
+            },
+            {
+              "en": "Could you point me to the nearest toilet?",
+              "ko": "영국식 표현으로 가장 가까운 화장실로 안내해달라는 정중한 요청."
+            }
           ]
         },
         {
           "en": "Down the hall, on your left.",
           "ko": "'down the hall'은 복도를 따라 내려가라는 방향 안내. 'on your left/right'은 왼쪽/오른쪽에 있다는 표현. 이 두 표현을 조합하면 대부분의 방향 안내를 이해할 수 있음.",
           "alternatives": [
-            { "en": "Along the corridor, on the left.", "ko": "복도를 따라 왼쪽에 있다는 표현." },
-            { "en": "Just past the stairs, on your left.", "ko": "계단을 지나면 왼쪽에 있다는 더 구체적인 안내." }
+            {
+              "en": "Along the corridor, on the left.",
+              "ko": "복도를 따라 왼쪽에 있다는 표현."
+            },
+            {
+              "en": "Just past the stairs, on your left.",
+              "ko": "계단을 지나면 왼쪽에 있다는 더 구체적인 안내."
+            }
           ]
         },
         {
           "en": "Straight ahead, through the gift shop.",
           "ko": "'straight ahead'는 '정면으로, 직진'이라는 뜻. 'through'는 '~을 지나서'라는 뜻으로 기념품샵을 통과해야 한다는 뉘앙스. 많은 박물관이 출구를 기념품샵을 통과하도록 설계함.",
           "alternatives": [
-            { "en": "Go straight and you'll see it.", "ko": "직진하면 보인다는 간결한 방향 안내." },
-            { "en": "Head straight through to the exit.", "ko": "직진해서 출구로 향하라는 표현." }
+            {
+              "en": "Go straight and you'll see it.",
+              "ko": "직진하면 보인다는 간결한 방향 안내."
+            },
+            {
+              "en": "Head straight through to the exit.",
+              "ko": "직진해서 출구로 향하라는 표현."
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch30_d09",
       "title": "기념품샵 위치 및 품목 묻기",
       "lines": [
-        { "speaker": "나", "en": "Hi, do you sell postcards here in the gift shop?", "ko": "안녕하세요, 기념품샵에서 엽서를 판매하나요?" },
-        { "speaker": "직원", "en": "Yes, we have postcards and a lot of other souvenirs.", "ko": "네, 엽서와 다른 기념품들도 많이 있습니다." },
-        { "speaker": "나", "en": "Great. Is this item exclusive to the museum?", "ko": "좋아요. 이 제품은 이 박물관에서만 살 수 있나요?" },
-        { "speaker": "직원", "en": "Yes, that's a museum-exclusive item. You can't find it anywhere else.", "ko": "네, 박물관 한정 제품입니다. 다른 곳에서는 구하실 수 없습니다." }
+        {
+          "speaker": "나",
+          "en": "Hi, do you sell postcards here in the gift shop?",
+          "ko": "안녕하세요, 기념품샵에서 엽서를 판매하나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, we have postcards and a lot of other souvenirs.",
+          "ko": "네, 엽서와 다른 기념품들도 많이 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Great. Is this item exclusive to the museum?",
+          "ko": "좋아요. 이 제품은 이 박물관에서만 살 수 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, that's a museum-exclusive item. You can't find it anywhere else.",
+          "ko": "네, 박물관 한정 제품입니다. 다른 곳에서는 구하실 수 없습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Do you sell postcards here?",
           "ko": "특정 상품이 있는지 묻는 기본 표현. 'Do you have ~?'과 'Do you sell ~?'은 모두 사용 가능하지만 'sell'을 쓰면 구매 가능성을 직접적으로 물어보는 느낌.",
           "alternatives": [
-            { "en": "Do you have any postcards?", "ko": "엽서가 있는지 묻는 표현. sell보다 더 가벼운 뉘앙스." },
-            { "en": "Where can I find the postcards?", "ko": "엽서가 있는 위치를 묻는 더 구체적인 표현." }
+            {
+              "en": "Do you have any postcards?",
+              "ko": "엽서가 있는지 묻는 표현. sell보다 더 가벼운 뉘앙스."
+            },
+            {
+              "en": "Where can I find the postcards?",
+              "ko": "엽서가 있는 위치를 묻는 더 구체적인 표현."
+            }
           ]
         },
         {
           "en": "Is this item exclusive to the museum?",
           "ko": "'exclusive'는 '독점적인, 한정판'이라는 뜻. 'museum-exclusive'처럼 붙여 쓰면 해당 박물관에서만 살 수 있다는 의미. 한정 기념품 구매 시 유용한 표현.",
           "alternatives": [
-            { "en": "Can I only get this here?", "ko": "여기서만 살 수 있는지 묻는 간결한 표현." },
-            { "en": "Is this only available at this museum?", "ko": "이 박물관에서만 구매 가능한지 묻는 표현." }
+            {
+              "en": "Can I only get this here?",
+              "ko": "여기서만 살 수 있는지 묻는 간결한 표현."
+            },
+            {
+              "en": "Is this only available at this museum?",
+              "ko": "이 박물관에서만 구매 가능한지 묻는 표현."
+            }
           ]
         },
         {
           "en": "You can't find it anywhere else.",
           "ko": "'anywhere else'는 '다른 어느 곳에서도'라는 표현. 부정문에서 'nowhere else'도 같은 의미. 기념품의 희소성을 강조할 때 쓰이는 표현.",
           "alternatives": [
-            { "en": "It's only available here.", "ko": "여기서만 구할 수 있다는 간결한 표현." },
-            { "en": "We're the only place that sells it.", "ko": "여기가 유일하게 판매하는 곳이라는 표현." }
+            {
+              "en": "It's only available here.",
+              "ko": "여기서만 구할 수 있다는 간결한 표현."
+            },
+            {
+              "en": "We're the only place that sells it.",
+              "ko": "여기가 유일하게 판매하는 곳이라는 표현."
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch30_d10",
       "title": "관람 하이라이트·지도 요청하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, could I get a map of the museum?", "ko": "실례합니다, 박물관 지도를 받을 수 있을까요?" },
-        { "speaker": "직원", "en": "Of course. Here you go. The must-see exhibits are marked in yellow.", "ko": "물론이죠. 여기 있습니다. 꼭 봐야 할 전시물은 노란색으로 표시되어 있습니다." },
-        { "speaker": "나", "en": "What would you say is the highlight of the museum?", "ko": "박물관의 하이라이트는 무엇이라고 하시겠어요?" },
-        { "speaker": "직원", "en": "Definitely the ancient pottery collection on the second floor — it's world-famous.", "ko": "단연코 2층의 고대 도자기 컬렉션입니다. 세계적으로 유명합니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, could I get a map of the museum?",
+          "ko": "실례합니다, 박물관 지도를 받을 수 있을까요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Of course. Here you go. The must-see exhibits are marked in yellow.",
+          "ko": "물론이죠. 여기 있습니다. 꼭 봐야 할 전시물은 노란색으로 표시되어 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "What would you say is the highlight of the museum?",
+          "ko": "박물관의 하이라이트는 무엇이라고 하시겠어요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Definitely the ancient pottery collection on the second floor — it's world-famous.",
+          "ko": "단연코 2층의 고대 도자기 컬렉션입니다. 세계적으로 유명합니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Could I get a map of the museum?",
           "ko": "지도를 요청하는 정중한 표현. 'Could I get ~?'은 'Can I have ~?'보다 약간 더 공손한 표현. 'Could I have a map?'도 같은 상황에서 사용 가능.",
           "alternatives": [
-            { "en": "Can I have a map, please?", "ko": "간결하고 자연스러운 지도 요청 표현." },
-            { "en": "Do you have a floor plan I can take?", "ko": "가져갈 수 있는 층별 안내도가 있는지 묻는 표현." }
+            {
+              "en": "Can I have a map, please?",
+              "ko": "간결하고 자연스러운 지도 요청 표현."
+            },
+            {
+              "en": "Do you have a floor plan I can take?",
+              "ko": "가져갈 수 있는 층별 안내도가 있는지 묻는 표현."
+            }
           ]
         },
         {
           "en": "The must-see exhibits are marked in yellow.",
           "ko": "'must-see'는 '꼭 봐야 할'이라는 뜻의 복합형용사. 'marked in yellow'는 노란색으로 표시되어 있다는 뜻. 'highlighted'나 'indicated'도 표시되어 있다는 의미로 쓰임.",
           "alternatives": [
-            { "en": "The highlighted spots are the key displays.", "ko": "강조 표시된 곳이 주요 전시물이라는 표현." },
-            { "en": "The star attractions are shown on the map.", "ko": "주요 볼거리가 지도에 나와 있다는 표현." }
+            {
+              "en": "The highlighted spots are the key displays.",
+              "ko": "강조 표시된 곳이 주요 전시물이라는 표현."
+            },
+            {
+              "en": "The star attractions are shown on the map.",
+              "ko": "주요 볼거리가 지도에 나와 있다는 표현."
+            }
           ]
         },
         {
           "en": "What would you say is the highlight?",
           "ko": "'What would you say is ~?'는 상대방의 의견을 부드럽게 묻는 표현. 단순히 'What is the highlight?'보다 더 대화적이고 친근하게 들림. 현지 직원이나 가이드의 추천을 구할 때 유용함.",
           "alternatives": [
-            { "en": "What's the main attraction here?", "ko": "가장 큰 볼거리가 무엇인지 묻는 직접적인 표현." },
-            { "en": "What shouldn't I miss?", "ko": "놓치지 말아야 할 것이 무엇인지 묻는 실용적인 표현." }
+            {
+              "en": "What's the main attraction here?",
+              "ko": "가장 큰 볼거리가 무엇인지 묻는 직접적인 표현."
+            },
+            {
+              "en": "What shouldn't I miss?",
+              "ko": "놓치지 말아야 할 것이 무엇인지 묻는 실용적인 표현."
+            }
           ]
         }
       ]
@@ -525,6 +865,1473 @@
           "question": "'Spots are limited.'는 투어 참가 가능 인원에 제한이 있다는 뜻이다.",
           "answerIndex": 0,
           "explanation": "맞습니다. 'spots'는 자리, 참가 가능 인원을 뜻하며 'Spots are limited.'는 인원 제한이 있다는 뜻입니다. 이 말을 들으면 서둘러 참가 등록을 하는 것이 좋습니다."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch30_set02_001",
+          "type": "multiple_choice",
+          "question": "박물관 안에서 카메라를 써도 되는지 묻는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Are cameras permitted here?",
+            "Can I borrow a camera?",
+            "Do you sell cameras here?",
+            "Is there a camera shop nearby?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Are cameras permitted here?'는 카메라 사용 허용 여부를 묻는 격식 있는 표현입니다. 'Is photography allowed?'와 같은 의도로 사용됩니다. 나머지 선택지는 카메라 구매나 대여 관련 내용으로 맥락이 다릅니다."
+        },
+        {
+          "id": "se_ch30_set02_002",
+          "type": "multiple_choice",
+          "question": "직원이 'Flash photography is strictly prohibited.'라고 했습니다. 이 말의 의미는?",
+          "options": [
+            "플래시 촬영은 엄격히 금지되어 있다",
+            "모든 사진 촬영이 엄격히 금지되어 있다",
+            "플래시 없이도 촬영이 금지되어 있다",
+            "특정 구역에서만 플래시가 허용된다"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Flash photography is strictly prohibited.'는 플래시를 사용한 촬영만 엄격히 금지된다는 표현입니다. 일반 촬영(without flash)은 허용될 수 있으며, 'strictly prohibited'는 'not allowed'보다 훨씬 강한 금지 표현입니다."
+        },
+        {
+          "id": "se_ch30_set02_003",
+          "type": "multiple_choice",
+          "question": "가방을 맡길 수 있는 장소를 미국식 영어로 무엇이라 하는가?",
+          "options": [
+            "Coat check",
+            "Lost and found",
+            "Checkroom for exhibits",
+            "Storage museum"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Coat check'는 미국에서 외투·짐 보관 서비스를 가리키는 표현으로 영국의 'cloakroom'에 해당합니다. 'Lost and found'는 분실물 보관소입니다."
+        },
+        {
+          "id": "se_ch30_set02_004",
+          "type": "multiple_choice",
+          "question": "오디오 가이드 사용 방법을 설명할 때 'Press the number next to each exhibit.'에서 'exhibit'의 뜻은?",
+          "options": [
+            "전시물",
+            "출구",
+            "직원",
+            "지도"
+          ],
+          "answerIndex": 0,
+          "explanation": "'exhibit'는 박물관·미술관의 전시물 또는 전시품을 뜻합니다. 오디오 가이드 사용 시 각 전시물 옆의 번호를 누르면 해당 설명을 들을 수 있습니다."
+        },
+        {
+          "id": "se_ch30_set02_005",
+          "type": "multiple_choice",
+          "question": "가이드 투어의 집합 장소를 다르게 표현한 것으로 가장 알맞은 것은?",
+          "options": [
+            "Where is the meeting point for the tour?",
+            "When does the tour meeting happen?",
+            "Who is at the meeting today?",
+            "What meeting do you prefer?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where is the meeting point for the tour?'는 투어 집합 장소를 직접 묻는 표현으로 'Where does the guided tour start?'와 같은 의도입니다. 'meeting point'는 집합 장소를 뜻합니다."
+        },
+        {
+          "id": "se_ch30_set02_006",
+          "type": "multiple_choice",
+          "question": "투어 소요 시간이 약 90분이라는 답변을 다르게 표현한 것은?",
+          "options": [
+            "Roughly an hour and a half.",
+            "About ninety kilometers.",
+            "Almost two full hours.",
+            "Exactly one hour."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Roughly an hour and a half.'는 90분을 '1시간 반 정도'로 표현한 자연스러운 구어 표현입니다. 'roughly'는 'about', 'around'와 같은 의미로 대략의 시간을 나타냅니다."
+        },
+        {
+          "id": "se_ch30_set02_007",
+          "type": "multiple_choice",
+          "question": "영어 투어 예약 필요 여부를 물을 때 'book in advance'와 같은 뜻의 표현은?",
+          "options": [
+            "reserve ahead of time",
+            "arrive on schedule",
+            "cancel immediately",
+            "pay in installments"
+          ],
+          "answerIndex": 0,
+          "explanation": "'reserve ahead of time'은 '미리 예약하다'는 뜻으로 'book in advance'와 동일한 표현입니다. 'in advance'와 'ahead of time' 모두 '사전에, 미리'를 의미합니다."
+        },
+        {
+          "id": "se_ch30_set02_008",
+          "type": "multiple_choice",
+          "question": "직원이 'The restrooms are down the hall, on your left.'라고 했을 때 화장실 위치는?",
+          "options": [
+            "복도를 따라가면 왼쪽",
+            "복도를 따라가면 오른쪽",
+            "계단 위쪽",
+            "출구 바로 앞"
+          ],
+          "answerIndex": 0,
+          "explanation": "'down the hall'은 복도를 따라가라는 뜻이고 'on your left'는 왼쪽에 있다는 방향 안내입니다. 이 두 표현을 조합하면 '복도를 따라가면 왼쪽에 있다'는 의미입니다."
+        },
+        {
+          "id": "se_ch30_set02_009",
+          "type": "multiple_choice",
+          "question": "박물관 한정 기념품인지 물을 때 사용할 수 있는 표현은?",
+          "options": [
+            "Is this only available at this museum?",
+            "Is this the cheapest item here?",
+            "Can I find this at the airport?",
+            "How many of these do you have?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is this only available at this museum?'은 해당 아이템이 이 박물관에서만 구매 가능한지 묻는 표현입니다. 'Is this item exclusive to the museum?'과 같은 의도입니다."
+        },
+        {
+          "id": "se_ch30_set02_010",
+          "type": "multiple_choice",
+          "question": "박물관 지도를 공손하게 요청하는 표현으로 가장 알맞은 것은?",
+          "options": [
+            "Could I get a map of the museum?",
+            "Map me now.",
+            "I want a map.",
+            "Where are maps sold?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could I get a map of the museum?'은 'Could I ~?'를 사용한 정중한 요청 표현입니다. 'Can I have a map, please?'도 같은 상황에 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch30_set02_011",
+          "type": "ox",
+          "question": "'How long does the tour take?'는 투어의 종료 시각을 묻는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'How long does the tour take?'는 투어가 얼마나 걸리는지 소요 시간을 묻는 표현입니다. 종료 시각을 묻고 싶다면 'What time does the tour end?'라고 해야 합니다."
+        },
+        {
+          "id": "se_ch30_set02_012",
+          "type": "ox",
+          "question": "'I'd like to rent an audio guide.'에서 'I'd like to'는 'I want to'보다 공손한 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'I'd like to'는 'I would like to'의 줄임말로, 'I want to'보다 훨씬 공손하게 들립니다. 서비스 요청 상황에서 습관적으로 사용하면 좋습니다."
+        },
+        {
+          "id": "se_ch30_set02_013",
+          "type": "ox",
+          "question": "박물관에서 'flash is prohibited'라고 하면 스마트폰 카메라의 플래시도 사용할 수 없다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 플래시 금지 규정은 스마트폰을 포함한 모든 기기에 적용됩니다. 직원이 'All flash — phone or camera — is prohibited.'라고 명확히 안내하기도 합니다."
+        },
+        {
+          "id": "se_ch30_set02_014",
+          "type": "ox",
+          "question": "'Spots are limited.'에서 'spots'는 전시물의 위치를 뜻한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 이 맥락에서 'spots'는 투어 참가 가능 인원(자리)을 뜻합니다. 'Spots are limited.'는 참가 인원에 제한이 있으니 서두르라는 안내입니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch30_set03_001",
+          "type": "multiple_choice",
+          "question": "박물관에서 사진을 찍어도 되는지 묻는 캐주얼한 표현으로 알맞은 것은?",
+          "options": [
+            "Can I take photos in here?",
+            "Please take a photo of me.",
+            "Is there a photo booth?",
+            "Who took that photo?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I take photos in here?'는 관광지 어디서나 통용되는 일상적이고 간결한 표현입니다. 'Is photography allowed?'보다 캐주얼하지만 충분히 자연스럽습니다."
+        },
+        {
+          "id": "se_ch30_set03_002",
+          "type": "multiple_choice",
+          "question": "플래시 금지 안내 표시로 가장 적절한 문구는?",
+          "options": [
+            "Flash photography is not permitted.",
+            "Photography is encouraged.",
+            "Please use flash at all times.",
+            "Cameras must be left outside."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Flash photography is not permitted.'는 안내판이나 격식 있는 안내에서 자주 쓰이는 표현으로 플래시 촬영이 허용되지 않음을 알립니다. 'Please turn off your flash.'도 같은 상황에 쓰입니다."
+        },
+        {
+          "id": "se_ch30_set03_003",
+          "type": "multiple_choice",
+          "question": "보관소가 무료인지 묻는 표현으로 가장 적절한 것은?",
+          "options": [
+            "Is it free of charge?",
+            "Is it open all night?",
+            "Can I keep my bag forever?",
+            "Does the bag need a ticket?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is it free of charge?'는 '완전 무료'인지를 격식 있게 묻는 표현입니다. 'Is there a fee?'나 'Is it free?'도 같은 상황에 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch30_set03_004",
+          "type": "multiple_choice",
+          "question": "오디오 가이드 기기를 돌려받으면서 받는 번호표를 영어로 무엇이라 하는가?",
+          "options": [
+            "Claim ticket",
+            "Boarding pass",
+            "Tour permit",
+            "Entry token"
+          ],
+          "answerIndex": 0,
+          "explanation": "'claim ticket'은 맡긴 짐을 찾을 때 제시하는 번호표(태그)입니다. 보관소(cloakroom/coat check)에서 가방 보관 시에도 같은 표현을 사용합니다. 'tag'도 동일한 의미입니다."
+        },
+        {
+          "id": "se_ch30_set03_005",
+          "type": "multiple_choice",
+          "question": "직원이 'Please be there five minutes early.'라고 했을 때 올바른 행동은?",
+          "options": [
+            "투어 시작 5분 전에 집합 장소에 도착한다",
+            "투어가 끝나고 5분 후에 떠난다",
+            "5분마다 투어 가이드에게 확인한다",
+            "입장 5분 전에 티켓을 구매한다"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please be there five minutes early.'는 투어 시작 5분 전에 미리 집합 장소에 도착해 달라는 안내입니다. 가이드 투어는 정시에 시작하는 경우가 많으므로 이 안내를 꼭 따라야 합니다."
+        },
+        {
+          "id": "se_ch30_set03_006",
+          "type": "multiple_choice",
+          "question": "투어 중간 휴식에 대한 질문 'Are there any breaks during the tour?'의 'breaks'는 무엇을 뜻하는가?",
+          "options": [
+            "휴식 시간",
+            "출구",
+            "전시물",
+            "가이드 교체"
+          ],
+          "answerIndex": 0,
+          "explanation": "'breaks'는 이 맥락에서 '휴식 시간'을 뜻합니다. 'a short ten-minute break'처럼 지속 시간을 붙여 표현하기도 합니다. 'rest stop'도 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch30_set03_007",
+          "type": "multiple_choice",
+          "question": "현장에서 바로 투어에 참가할 수 있는지 묻는 표현으로 알맞은 것은?",
+          "options": [
+            "Can I sign up on the spot?",
+            "Can I leave right now?",
+            "Is the tour already over?",
+            "Can I change the tour language?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I sign up on the spot?'는 현장에서 즉시 등록·참가할 수 있는지 묻는 표현입니다. 'on the spot'은 '현장에서, 즉석에서'라는 뜻입니다."
+        },
+        {
+          "id": "se_ch30_set03_008",
+          "type": "multiple_choice",
+          "question": "박물관 출구가 기념품샵을 통과해야 한다는 말을 표현하면?",
+          "options": [
+            "The exit is straight ahead, through the gift shop.",
+            "The exit is behind the restrooms.",
+            "The gift shop is closed until tomorrow.",
+            "You must exit through the main entrance."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The exit is straight ahead, through the gift shop.'는 출구가 직진 방향에 있으며 기념품샵을 통과해야 한다는 표현입니다. 많은 박물관이 출구를 기념품샵을 경유하도록 설계합니다."
+        },
+        {
+          "id": "se_ch30_set03_009",
+          "type": "multiple_choice",
+          "question": "기념품샵에서 엽서가 있는지 묻는 표현으로 자연스러운 것은?",
+          "options": [
+            "Do you have any postcards?",
+            "Can you mail this for me?",
+            "Is postage included?",
+            "Where is the post office?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you have any postcards?'는 기념품샵에서 엽서 판매 여부를 묻는 자연스러운 표현입니다. 'Do you sell postcards?'도 같은 맥락에서 사용됩니다."
+        },
+        {
+          "id": "se_ch30_set03_010",
+          "type": "multiple_choice",
+          "question": "직원이 'The must-see exhibits are marked in yellow.'라고 했을 때 지도에서 노란색 표시가 의미하는 것은?",
+          "options": [
+            "꼭 관람해야 할 전시물",
+            "입장이 제한된 구역",
+            "화장실 위치",
+            "기념품샵 안내"
+          ],
+          "answerIndex": 0,
+          "explanation": "'must-see exhibits'는 '꼭 봐야 할 전시물'이라는 뜻이며 지도에서 노란색으로 표시되어 있다는 안내입니다. 'must-see'는 강한 추천의 복합형용사입니다."
+        },
+        {
+          "id": "se_ch30_set03_011",
+          "type": "ox",
+          "question": "'Does that apply to phone cameras too?'는 규정의 적용 범위를 확인하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Does that apply to ~?'는 '~에도 해당되나요?'라는 뜻으로 규정이나 정책의 적용 범위를 확인할 때 사용하는 유용한 표현입니다."
+        },
+        {
+          "id": "se_ch30_set03_012",
+          "type": "ox",
+          "question": "'The meeting point is at the main lobby.'에서 'meeting point'는 투어 가이드를 소개받는 장소를 뜻한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'meeting point'는 투어 시작 전 참가자들이 모이는 집합 장소를 가리킵니다. 가이드 소개보다는 모임 장소(gathering point)의 의미가 더 강합니다."
+        },
+        {
+          "id": "se_ch30_set03_013",
+          "type": "ox",
+          "question": "박물관에서 'Is there a cloakroom?'이라고 물으면 전시 일정을 묻는 것이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Is there a cloakroom?'은 외투나 가방을 맡길 수 있는 보관소가 있는지 묻는 표현입니다. 전시 일정을 묻는다면 'What exhibitions are on?'이나 'What is currently on display?'를 사용합니다."
+        },
+        {
+          "id": "se_ch30_set03_014",
+          "type": "ox",
+          "question": "'What shouldn't I miss?'는 박물관에서 꼭 봐야 할 것을 추천해 달라는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'What shouldn't I miss?'는 직역하면 '무엇을 놓치면 안 되나요?'로, 하이라이트나 추천 관람 전시물을 물을 때 사용하는 실용적인 표현입니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch30_set04_001",
+          "type": "multiple_choice",
+          "question": "촬영 허용 여부를 정중하게 묻는 표현으로 가장 알맞은 것은?",
+          "options": [
+            "Is photography permitted in this area?",
+            "Take my photo, please.",
+            "Can you develop my photos?",
+            "Is there a photography studio nearby?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is photography permitted in this area?'는 특정 구역에서 촬영 허용 여부를 묻는 격식 있는 표현입니다. 'permitted'는 'allowed'와 같은 의미로 규정 확인 시 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch30_set04_002",
+          "type": "multiple_choice",
+          "question": "플래시를 꺼달라고 요청하는 표현으로 가장 알맞은 것은?",
+          "options": [
+            "Please turn off your flash.",
+            "Please turn on your flash.",
+            "Your flash is welcome here.",
+            "Flash cameras are recommended."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please turn off your flash.'는 플래시를 꺼달라는 구체적인 요청입니다. 'No flash, please.'가 금지를 안내하는 표현이라면, 이 표현은 더 직접적으로 끄는 행동을 요청합니다."
+        },
+        {
+          "id": "se_ch30_set04_003",
+          "type": "multiple_choice",
+          "question": "보관소에서 가방을 맡기면 무엇을 받는가?",
+          "options": [
+            "번호표(tag)",
+            "입장권(entry ticket)",
+            "안내 책자(brochure)",
+            "오디오 가이드(audio guide)"
+          ],
+          "answerIndex": 0,
+          "explanation": "가방을 보관소(cloakroom/coat check)에 맡기면 짐을 찾을 때 사용하는 번호표(tag 또는 claim ticket)를 받습니다. 이 번호표는 짐을 찾을 때 반드시 제시해야 합니다."
+        },
+        {
+          "id": "se_ch30_set04_004",
+          "type": "multiple_choice",
+          "question": "오디오 가이드 언어 선호를 묻는 직원의 표현으로 알맞은 것은?",
+          "options": [
+            "Which language would you like?",
+            "How many languages do you speak?",
+            "What language is the museum?",
+            "Can you translate for me?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Which language would you like?'는 원하는 오디오 가이드 언어를 직접적으로 묻는 표현입니다. 'Do you have a preference for language?'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch30_set04_005",
+          "type": "multiple_choice",
+          "question": "투어 집합 장소가 '안내 데스크 앞 메인 로비'라는 말을 영어로 표현하면?",
+          "options": [
+            "The meeting point is in the main lobby, in front of the information desk.",
+            "The tour starts at the gift shop next to the exit.",
+            "Everyone gathers in the cloakroom on the ground floor.",
+            "Please meet the guide outside the museum entrance."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The meeting point is in the main lobby, in front of the information desk.'는 집합 장소가 메인 로비 내 안내 데스크 앞임을 알리는 표현입니다. 'meeting point'는 집합 장소를 뜻합니다."
+        },
+        {
+          "id": "se_ch30_set04_006",
+          "type": "multiple_choice",
+          "question": "'In total'이 들어간 투어 소요 시간 답변으로 올바른 것은?",
+          "options": [
+            "It's about ninety minutes in total.",
+            "It's about ninety floors in total.",
+            "It's about ninety meters in total.",
+            "It's about ninety people in total."
+          ],
+          "answerIndex": 0,
+          "explanation": "'in total'은 '총, 합계'라는 뜻으로 전체 소요 시간을 나타낼 때 씁니다. 'It's about ninety minutes in total.'은 투어가 총 약 90분 걸린다는 표현입니다."
+        },
+        {
+          "id": "se_ch30_set04_007",
+          "type": "multiple_choice",
+          "question": "영어 투어를 제공하는지 묻는 표현으로 알맞은 것은?",
+          "options": [
+            "Do you offer tours in English?",
+            "Do you speak English at home?",
+            "Is English the only language here?",
+            "Can you teach me English?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you offer tours in English?'는 영어로 진행하는 투어를 제공하는지 묻는 표현입니다. 'Is there an English-language tour available?'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch30_set04_008",
+          "type": "multiple_choice",
+          "question": "화장실 위치를 묻는 영국식 표현으로 가장 적절한 것은?",
+          "options": [
+            "Could you point me to the nearest toilet?",
+            "Where do I shower?",
+            "Where is the locker room?",
+            "Is there a bathtub here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you point me to the nearest toilet?'는 가장 가까운 화장실로 안내해달라는 영국식 정중한 표현입니다. 미국에서는 'restroom'이나 'bathroom'을 더 많이 사용합니다."
+        },
+        {
+          "id": "se_ch30_set04_009",
+          "type": "multiple_choice",
+          "question": "기념품이 이 박물관에서만 구매 가능하다는 말을 간결하게 표현하면?",
+          "options": [
+            "It's only available here.",
+            "It is sold everywhere.",
+            "You can order it online.",
+            "It comes with free shipping."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's only available here.'는 해당 기념품이 이곳에서만 구매 가능하다는 간결한 표현입니다. 'You can't find it anywhere else.'나 'We're the only place that sells it.'도 같은 의미입니다."
+        },
+        {
+          "id": "se_ch30_set04_010",
+          "type": "multiple_choice",
+          "question": "박물관에서 주요 볼거리를 추천받을 때 사용하는 표현은?",
+          "options": [
+            "What's the main attraction here?",
+            "What is the entrance fee?",
+            "What time does the museum close?",
+            "What floor is the cloakroom on?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What's the main attraction here?'는 가장 큰 볼거리가 무엇인지 직접적으로 묻는 표현입니다. 'What would you say is the highlight?'나 'What shouldn't I miss?'도 같은 상황에 씁니다."
+        },
+        {
+          "id": "se_ch30_set04_011",
+          "type": "ox",
+          "question": "'Is there a fee?'는 서비스 요금 유무를 묻는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Is there a fee?'는 비용이 드는지 묻는 자연스러운 표현입니다. 'Do I need to pay?'나 'Is it free?'도 같은 맥락에서 사용됩니다."
+        },
+        {
+          "id": "se_ch30_set04_012",
+          "type": "ox",
+          "question": "'You can just show up.'는 투어에 사전 예약이 필수라는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'You can just show up.'은 예약 없이 현장에 그냥 나타나도 된다는 뜻입니다. 사전 예약이 필수라면 'You need to book in advance.'라고 표현합니다."
+        },
+        {
+          "id": "se_ch30_set04_013",
+          "type": "ox",
+          "question": "'halfway through'는 투어나 활동의 중간 지점을 가리키는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'halfway through'는 진행 중인 활동의 중간쯤을 뜻합니다. 'in the middle of'나 'about midway through'도 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch30_set04_014",
+          "type": "ox",
+          "question": "'straight ahead'는 왼쪽 방향을 안내하는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'straight ahead'는 '정면으로, 직진'이라는 뜻입니다. 왼쪽은 'on your left', 오른쪽은 'on your right'으로 표현합니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch30_set05_001",
+          "type": "multiple_choice",
+          "question": "사진 촬영 허용 여부를 물을 때 'Is photography allowed?'와 가장 비슷한 표현은?",
+          "options": [
+            "Can I take pictures here?",
+            "Do you have any photographs for sale?",
+            "Who is the photographer?",
+            "Is there a photo exhibition today?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I take pictures here?'는 'Is photography allowed?'와 같은 의미로 촬영 가능 여부를 묻는 표현입니다. 'photos'와 'pictures'는 이 맥락에서 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch30_set05_002",
+          "type": "multiple_choice",
+          "question": "박물관 전체에서 플래시가 금지되어 있다고 말할 때 적절한 표현은?",
+          "options": [
+            "Flash is prohibited throughout the museum.",
+            "Flash is required in all rooms.",
+            "Flash is only allowed on the first floor.",
+            "Flash is optional in the museum."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Flash is prohibited throughout the museum.'는 박물관 전체에서 플래시가 금지된다는 표현입니다. 'throughout'는 '전체에 걸쳐'라는 뜻으로 예외 없는 전면 금지를 나타냅니다."
+        },
+        {
+          "id": "se_ch30_set05_003",
+          "type": "multiple_choice",
+          "question": "보관소 위치를 설명할 때 '1층 입구 근처'를 영어로 표현하면?",
+          "options": [
+            "On the ground floor, near the entrance",
+            "On the top floor, near the exit",
+            "In the basement, near the gift shop",
+            "On the second floor, near the restrooms"
+          ],
+          "answerIndex": 0,
+          "explanation": "'on the ground floor'는 영국식으로 1층(미국식 1st floor에 해당)을, 'near the entrance'는 '입구 근처'를 뜻합니다. 보관소(cloakroom)는 보통 입구 근처에 위치합니다."
+        },
+        {
+          "id": "se_ch30_set05_004",
+          "type": "multiple_choice",
+          "question": "오디오 가이드를 빌리는 데 하루 3달러가 든다는 말을 표현하면?",
+          "options": [
+            "It's three dollars for the day.",
+            "It's free if you return it by noon.",
+            "It costs thirty dollars per hour.",
+            "The audio guide is not available today."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's three dollars for the day.'는 오디오 가이드가 하루 이용에 3달러라는 표현입니다. 'for the day'는 '하루 동안'이라는 뜻으로 일일 요금 안내 시 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch30_set05_005",
+          "type": "multiple_choice",
+          "question": "가이드 투어를 위해 어디로 가야 하는지 묻는 실용적인 표현은?",
+          "options": [
+            "Where should I go for the tour?",
+            "Who runs the guided tour today?",
+            "When was this museum built?",
+            "Why do guided tours cost extra?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where should I go for the tour?'는 투어를 위해 어디로 가야 하는지 직접적으로 묻는 실용적인 표현입니다. 집합 장소를 모를 때 사용할 수 있습니다."
+        },
+        {
+          "id": "se_ch30_set05_006",
+          "type": "multiple_choice",
+          "question": "투어 소요 시간을 묻는 다른 표현으로 알맞은 것은?",
+          "options": [
+            "How long is the tour?",
+            "How tall is the guide?",
+            "How much does the tour cost?",
+            "How many people are on the tour?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How long is the tour?'는 'How long does the tour take?'와 같은 의미로 투어 소요 시간을 묻는 표현입니다. 두 표현 모두 자연스럽게 쓰입니다."
+        },
+        {
+          "id": "se_ch30_set05_007",
+          "type": "multiple_choice",
+          "question": "영어 가이드 투어를 묻는 표현 'Are there any English-guided tours?'에서 핵심 단어는?",
+          "options": [
+            "English-guided",
+            "any",
+            "there",
+            "Are"
+          ],
+          "answerIndex": 0,
+          "explanation": "'English-guided'는 '영어로 가이드되는'이라는 뜻의 복합형용사로 이 질문의 핵심 단어입니다. 언어를 바꿔 'Korean-guided tours'처럼 응용할 수 있습니다."
+        },
+        {
+          "id": "se_ch30_set05_008",
+          "type": "multiple_choice",
+          "question": "박물관에서 화장실을 미국식 영어로 묻는 표현은?",
+          "options": [
+            "Where are the restrooms?",
+            "Where is the shower room?",
+            "Where can I find the spa?",
+            "Is there a changing room?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where are the restrooms?'는 미국에서 화장실을 묻는 가장 일반적인 표현입니다. 영국에서는 'toilet'이나 'loo'를 쓰는 경향이 있습니다."
+        },
+        {
+          "id": "se_ch30_set05_009",
+          "type": "multiple_choice",
+          "question": "'You can't find it anywhere else.'에서 'anywhere else'의 의미는?",
+          "options": [
+            "다른 어느 곳에서도",
+            "이 박물관 내 어디서든",
+            "온라인에서",
+            "더 싸게"
+          ],
+          "answerIndex": 0,
+          "explanation": "'anywhere else'는 '다른 어느 곳에서도'라는 뜻으로 부정문에서 기념품의 독점성을 강조할 때 씁니다. 'nowhere else'도 같은 의미입니다."
+        },
+        {
+          "id": "se_ch30_set05_010",
+          "type": "multiple_choice",
+          "question": "박물관의 고대 도자기 컬렉션을 소개할 때 'world-famous'의 뜻은?",
+          "options": [
+            "세계적으로 유명한",
+            "세계에서 가장 비싼",
+            "세계 각국에서 수입된",
+            "세계 박물관 연합 인증"
+          ],
+          "answerIndex": 0,
+          "explanation": "'world-famous'는 '세계적으로 유명한'이라는 뜻의 복합형용사입니다. 'internationally renowned'나 'globally acclaimed'도 같은 의미로 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch30_set05_011",
+          "type": "ox",
+          "question": "'As long as you keep quiet.'는 '조용히 하는 한'이라는 조건을 나타내는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'as long as'는 '~하는 한, ~하기만 하면'이라는 조건을 나타내는 표현입니다. 'as long as you keep quiet'는 조용히 한다는 조건 하에 허용된다는 뜻입니다."
+        },
+        {
+          "id": "se_ch30_set05_012",
+          "type": "ox",
+          "question": "'Down the hall, on your right.'는 복도를 따라가면 왼쪽에 있다는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'on your right'은 오른쪽에 있다는 뜻입니다. 왼쪽은 'on your left'로 표현합니다. 방향을 정확히 구분하는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch30_set05_013",
+          "type": "ox",
+          "question": "'Do I need to book in advance?'는 사전 예약 필요 여부를 확인하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Do I need to book in advance?'는 미리 예약이 필요한지 묻는 표현입니다. 'Is a reservation required?'도 같은 의미입니다."
+        },
+        {
+          "id": "se_ch30_set05_014",
+          "type": "ox",
+          "question": "박물관 지도에서 'floor plan'은 층별 안내도를 가리킨다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'floor plan'은 건물의 층별 구조와 시설 위치를 보여주는 안내도입니다. 박물관에서 'Do you have a floor plan I can take?'처럼 사용할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch30_set06_001",
+          "type": "multiple_choice",
+          "question": "박물관에서 촬영 가능 여부를 묻는 표현 중 가장 격식 있는 것은?",
+          "options": [
+            "Is photography permitted in this gallery?",
+            "Can I selfie here?",
+            "Show me where to take photos.",
+            "Photography time?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is photography permitted in this gallery?'는 'permitted'(허용됨)를 사용하는 격식 있는 표현입니다. 'gallery'는 전시관을 뜻하며 박물관·미술관에서 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch30_set06_002",
+          "type": "multiple_choice",
+          "question": "직원이 'No flash allowed anywhere.'라고 했습니다. 이 규정이 적용되는 범위는?",
+          "options": [
+            "박물관 내 전 구역",
+            "특별 전시실만",
+            "야외 구역만",
+            "지하 1층만"
+          ],
+          "answerIndex": 0,
+          "explanation": "'anywhere'는 '어디서든'이라는 뜻으로 장소 제한 없이 전체에 적용된다는 의미입니다. 'No flash allowed anywhere.'는 박물관 내 모든 구역에서 플래시가 금지된다는 표현입니다."
+        },
+        {
+          "id": "se_ch30_set06_003",
+          "type": "multiple_choice",
+          "question": "가방을 맡기고 싶지만 보관소 이름을 모를 때 사용할 수 있는 표현은?",
+          "options": [
+            "Can I leave my bag somewhere?",
+            "Can I carry my bag on the tour?",
+            "Where can I buy a bag?",
+            "Is my bag too large?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I leave my bag somewhere?'는 보관소의 정식 명칭을 몰라도 사용할 수 있는 실용적인 표현입니다. 직원이 'cloakroom'이나 'coat check'의 위치를 안내해 줄 것입니다."
+        },
+        {
+          "id": "se_ch30_set06_004",
+          "type": "multiple_choice",
+          "question": "오디오 가이드 이용 방법에서 'Enter the number shown on the label.'의 'label'은 무엇을 가리키는가?",
+          "options": [
+            "전시물에 붙어 있는 라벨",
+            "오디오 가이드 기기 뒷면",
+            "입장권",
+            "박물관 지도"
+          ],
+          "answerIndex": 0,
+          "explanation": "'label'은 전시물에 부착된 안내 라벨을 가리킵니다. 라벨에 표시된 번호를 오디오 가이드에 입력하면 해당 전시물에 대한 설명을 들을 수 있습니다."
+        },
+        {
+          "id": "se_ch30_set06_005",
+          "type": "multiple_choice",
+          "question": "투어 집합 장소를 'gathering point'로 표현한 문장 중 올바른 것은?",
+          "options": [
+            "The gathering point is in front of the main entrance.",
+            "The gathering point sells souvenirs.",
+            "The gathering point is inside the restrooms.",
+            "The gathering point changes the exhibit prices."
+          ],
+          "answerIndex": 0,
+          "explanation": "'gathering point'는 'meeting point'와 같은 의미로 집합 장소를 뜻합니다. 'The gathering point is in front of the main entrance.'는 집합 장소가 메인 입구 앞이라는 표현입니다."
+        },
+        {
+          "id": "se_ch30_set06_006",
+          "type": "multiple_choice",
+          "question": "투어 총 소요 시간이 '약 1시간 반'이라는 표현은?",
+          "options": [
+            "Around an hour and a half.",
+            "About two hours and a half.",
+            "Exactly thirty minutes.",
+            "Less than fifteen minutes."
+          ],
+          "answerIndex": 0,
+          "explanation": "'around an hour and a half'는 '약 1시간 반(90분)'을 자연스러운 구어로 표현한 것입니다. 'about'과 'around'는 모두 대략의 시간을 나타냅니다."
+        },
+        {
+          "id": "se_ch30_set06_007",
+          "type": "multiple_choice",
+          "question": "투어 자리가 빨리 찬다는 정보를 전달하는 표현은?",
+          "options": [
+            "It fills up quickly.",
+            "It is always empty.",
+            "Registration takes an hour.",
+            "Spots are unlimited."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It fills up quickly.'는 자리가 빠르게 채워진다는 표현으로 서두를 것을 암시합니다. 'Spots are limited.'와 함께 투어 인원 제한을 설명할 때 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch30_set06_008",
+          "type": "multiple_choice",
+          "question": "복도를 따라가라고 할 때 사용하는 표현은?",
+          "options": [
+            "Down the hall",
+            "Up the stairs",
+            "Across the lobby",
+            "Through the exit"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Down the hall'은 복도를 따라 가라는 방향 안내 표현입니다. 'Along the corridor'도 같은 의미입니다. 이 표현 뒤에 'on your left/right'를 붙여 방향을 함께 안내합니다."
+        },
+        {
+          "id": "se_ch30_set06_009",
+          "type": "multiple_choice",
+          "question": "기념품샵에서 더 많은 기념품이 있다고 안내할 때 적절한 표현은?",
+          "options": [
+            "We have postcards and a lot of other souvenirs.",
+            "We only sell entrance tickets.",
+            "Souvenirs are not available here.",
+            "Everything is sold out today."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We have postcards and a lot of other souvenirs.'는 엽서와 다양한 기념품을 보유하고 있다는 안내 표현입니다. 'souvenirs'는 기념품을 뜻하는 핵심 단어입니다."
+        },
+        {
+          "id": "se_ch30_set06_010",
+          "type": "multiple_choice",
+          "question": "박물관 하이라이트를 부드럽게 묻는 표현은?",
+          "options": [
+            "What would you say is the highlight of the museum?",
+            "What is the most expensive exhibit?",
+            "How old is the museum?",
+            "What time does the museum reopen?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What would you say is the highlight of the museum?'는 'What would you say is ~?'를 사용해 상대방의 의견을 부드럽게 묻는 표현입니다. 단순히 'What is the highlight?'보다 더 대화적이고 친근하게 들립니다."
+        },
+        {
+          "id": "se_ch30_set06_011",
+          "type": "ox",
+          "question": "'book in advance'와 'reserve ahead of time'은 같은 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'book in advance'와 'reserve ahead of time'은 모두 '미리 예약하다'는 뜻입니다. 'in advance'와 'ahead of time'은 '사전에, 미리'를 의미합니다."
+        },
+        {
+          "id": "se_ch30_set06_012",
+          "type": "ox",
+          "question": "오디오 가이드 이용 요금은 항상 무료이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 오디오 가이드는 유료인 경우도 많습니다. 대화에서도 'It's three dollars for the day.'처럼 하루 이용에 요금을 받는 경우를 보여줍니다. 이용 전에 'Is there a fee?'로 확인하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch30_set06_013",
+          "type": "ox",
+          "question": "박물관에서 'No photography allowed.'는 플래시만 금지하는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'No photography allowed.'는 사진 촬영 자체를 전면 금지하는 표현입니다. 플래시만 금지하는 경우에는 'No flash, please.' 또는 'Flash photography is not permitted.'라고 합니다."
+        },
+        {
+          "id": "se_ch30_set06_014",
+          "type": "ox",
+          "question": "'What's the main attraction here?'는 박물관의 주요 볼거리를 묻는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'main attraction'은 '주요 볼거리, 핵심 전시물'을 뜻합니다. 'highlight', 'must-see exhibit', 'star attraction'도 같은 맥락에서 쓰입니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch30_set07_001",
+          "type": "multiple_choice",
+          "question": "영상 촬영도 가능한지 물을 때 사용하는 표현은?",
+          "options": [
+            "What about video recording?",
+            "Can I watch videos here?",
+            "Do you have a video library?",
+            "Is the video tour free?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What about video recording?'은 이미 사진 촬영 허용 여부를 확인한 후 영상 촬영에 대해서도 추가로 묻는 표현입니다. 'What about ~?'는 '~은 어떤가요?'라는 추가 질문 구조입니다."
+        },
+        {
+          "id": "se_ch30_set07_002",
+          "type": "multiple_choice",
+          "question": "플래시 촬영 금지 안내를 다르게 표현하면?",
+          "options": [
+            "No flash is allowed anywhere in the museum.",
+            "Flash is required for all photos.",
+            "Cameras must be used with flash.",
+            "Flash photography is encouraged."
+          ],
+          "answerIndex": 0,
+          "explanation": "'No flash is allowed anywhere in the museum.'는 박물관 어느 곳에서도 플래시를 사용할 수 없다는 표현입니다. 'strictly prohibited'를 사용한 표현과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch30_set07_003",
+          "type": "multiple_choice",
+          "question": "보관소에서 가방을 맡기는 과정을 설명한 표현으로 알맞은 것은?",
+          "options": [
+            "Just hand in your bag and you'll get a tag.",
+            "Leave your bag at the information desk.",
+            "Put your bag inside the exhibit case.",
+            "Your bag must stay with you at all times."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Just hand in your bag and you'll get a tag.'는 가방을 건네면 번호표를 받게 된다는 보관 절차 설명입니다. 'hand in'은 '제출하다, 건네다'라는 뜻입니다."
+        },
+        {
+          "id": "se_ch30_set07_004",
+          "type": "multiple_choice",
+          "question": "오디오 가이드로 전시물 설명을 듣는 방법 중 맞는 것은?",
+          "options": [
+            "각 전시물 옆에 있는 번호를 누른다",
+            "직원에게 번호를 물어본다",
+            "입장권 뒷면의 QR코드를 스캔한다",
+            "앱을 다운로드해서 사용한다"
+          ],
+          "answerIndex": 0,
+          "explanation": "오디오 가이드 사용법은 'press the number next to each exhibit'로 안내합니다. 각 전시물 옆에 표시된 번호를 오디오 가이드 기기에 누르면 해당 설명이 재생됩니다."
+        },
+        {
+          "id": "se_ch30_set07_005",
+          "type": "multiple_choice",
+          "question": "투어 집합 장소와 시간을 동시에 확인하려면 어떻게 물어야 하는가?",
+          "options": [
+            "Where and when does the tour start?",
+            "Why does the tour start so early?",
+            "How much does the tour cost?",
+            "Who leads the tour today?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where and when does the tour start?'는 장소(where)와 시작 시각(when)을 동시에 묻는 효율적인 표현입니다. 각각 'Where does it start?'와 'When does it start?'로 나눠 물을 수도 있습니다."
+        },
+        {
+          "id": "se_ch30_set07_006",
+          "type": "multiple_choice",
+          "question": "'altogether'가 들어간 투어 소요 시간 표현으로 올바른 것은?",
+          "options": [
+            "Around ninety minutes altogether.",
+            "About ninety altogether people.",
+            "Ninety floors altogether.",
+            "Altogether the tour was free."
+          ],
+          "answerIndex": 0,
+          "explanation": "'altogether'는 '전부 합쳐서, 총'이라는 뜻으로 'in total'과 같은 의미입니다. 'Around ninety minutes altogether.'는 총 약 90분이라는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch30_set07_007",
+          "type": "multiple_choice",
+          "question": "예약 여부를 묻는 격식 있는 표현은?",
+          "options": [
+            "Is a reservation required?",
+            "Can I cancel my tour?",
+            "How long is the waitlist?",
+            "Can I get a refund?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is a reservation required?'는 예약이 필요한지 묻는 격식 있는 표현입니다. 'Do I need to book in advance?'보다 약간 더 공식적인 느낌을 줍니다."
+        },
+        {
+          "id": "se_ch30_set07_008",
+          "type": "multiple_choice",
+          "question": "박물관 내 화장실이 복도를 지나 왼쪽에 있다는 말을 달리 표현하면?",
+          "options": [
+            "Along the corridor, on the left.",
+            "Past the gift shop, on the right.",
+            "Up the elevator, on the top floor.",
+            "Through the main exit, outside."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Along the corridor, on the left.'는 복도를 따라가면 왼쪽에 있다는 표현으로 'Down the hall, on your left.'와 같은 의미입니다. 'corridor'는 'hall'과 같이 복도를 뜻합니다."
+        },
+        {
+          "id": "se_ch30_set07_009",
+          "type": "multiple_choice",
+          "question": "기념품샵에서 독점 판매 상품임을 강조하는 표현은?",
+          "options": [
+            "We're the only place that sells it.",
+            "This item is sold everywhere.",
+            "You can find it at any souvenir shop.",
+            "It's available at the airport duty-free."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We're the only place that sells it.'는 이 박물관만이 유일하게 판매하는 곳임을 강조하는 표현입니다. 'It's only available here.'나 'You can't find it anywhere else.'도 같은 의미입니다."
+        },
+        {
+          "id": "se_ch30_set07_010",
+          "type": "multiple_choice",
+          "question": "박물관 지도를 요청할 때 사용하는 표현은?",
+          "options": [
+            "Can I have a map, please?",
+            "Can you draw me a map?",
+            "Is the map for sale?",
+            "Where was this map printed?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I have a map, please?'는 지도를 요청하는 간결하고 자연스러운 표현입니다. 'Could I get a map of the museum?'보다 약간 더 캐주얼하지만 충분히 공손합니다."
+        },
+        {
+          "id": "se_ch30_set07_011",
+          "type": "ox",
+          "question": "'Is photography allowed?'는 'Is photography permitted?'와 같은 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'allowed'와 'permitted'는 모두 '허용된'이라는 뜻으로 이 맥락에서 동의어입니다. 두 표현 모두 촬영 허용 여부를 묻는 질문에서 사용할 수 있습니다."
+        },
+        {
+          "id": "se_ch30_set07_012",
+          "type": "ox",
+          "question": "투어 중간에 10분 휴식이 있다는 말은 'There's a short break halfway through.'로 표현할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'a short break'는 짧은 휴식을, 'halfway through'는 중간쯤을 뜻합니다. 투어 중간에 짧은 휴식이 있다는 안내를 정확히 표현한 문장입니다."
+        },
+        {
+          "id": "se_ch30_set07_013",
+          "type": "ox",
+          "question": "기념품샵(gift shop)은 박물관 메인 출구와 전혀 관계가 없는 공간이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 많은 박물관이 출구를 기념품샵을 경유하도록 설계합니다. 'The main exit is straight ahead, through the gift shop.'처럼 기념품샵을 지나야 출구가 나오는 경우가 많습니다."
+        },
+        {
+          "id": "se_ch30_set07_014",
+          "type": "ox",
+          "question": "'exclusive'는 이 맥락에서 '독점적인, 이곳에서만 살 수 있는'이라는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'exclusive'는 '독점적인, 한정판'이라는 뜻이며 'museum-exclusive item'은 해당 박물관에서만 구매 가능한 한정 기념품을 가리킵니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch30_set08_001",
+          "type": "multiple_choice",
+          "question": "촬영 규정을 묻는 방문객에게 직원이 '촬영은 되지만 조용히 해야 한다'고 말하려면?",
+          "options": [
+            "Video is fine, as long as you keep quiet.",
+            "Photography is totally banned here.",
+            "You must stay silent at all times.",
+            "Cameras are provided at the entrance."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Video is fine, as long as you keep quiet.'는 조용히 한다는 조건으로 영상 촬영이 허용된다는 표현입니다. 'as long as'는 '~하는 한'이라는 조건절 구조입니다."
+        },
+        {
+          "id": "se_ch30_set08_002",
+          "type": "multiple_choice",
+          "question": "플래시를 사용하면 어떻게 되는지 설명할 때 'all flash is prohibited'에서 'all'의 역할은?",
+          "options": [
+            "어떤 기기든 예외 없이 모두 해당됨을 강조",
+            "일부 구역에만 적용됨을 나타냄",
+            "플래시 강도를 표현함",
+            "시간 제한을 나타냄"
+          ],
+          "answerIndex": 0,
+          "explanation": "'all'은 예외 없이 전부 해당된다는 것을 강조합니다. 'All flash — phone or camera — is prohibited.'는 스마트폰이든 카메라든 모든 종류의 플래시가 금지된다는 뜻입니다."
+        },
+        {
+          "id": "se_ch30_set08_003",
+          "type": "multiple_choice",
+          "question": "'You'll receive a claim ticket.'은 어떤 상황에서 사용되는 표현인가?",
+          "options": [
+            "보관소에서 가방을 맡길 때",
+            "오디오 가이드를 대여할 때",
+            "투어 예약을 완료했을 때",
+            "기념품을 구매했을 때"
+          ],
+          "answerIndex": 0,
+          "explanation": "'You'll receive a claim ticket.'은 보관소(cloakroom/coat check)에서 가방을 맡길 때 짐을 찾는 데 사용하는 번호표를 받는다는 안내입니다."
+        },
+        {
+          "id": "se_ch30_set08_004",
+          "type": "multiple_choice",
+          "question": "오디오 가이드를 캐주얼하게 빌리고 싶다고 말하는 표현은?",
+          "options": [
+            "Can I get an audio guide?",
+            "You must return the audio guide.",
+            "The audio guide is already taken.",
+            "Give back the audio guide immediately."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get an audio guide?'는 오디오 가이드를 달라는 간결하고 자연스러운 캐주얼 표현입니다. 'I'd like to rent an audio guide, please.'보다 더 가볍게 들립니다."
+        },
+        {
+          "id": "se_ch30_set08_005",
+          "type": "multiple_choice",
+          "question": "투어 집합 장소에 대해 직원이 '안내 데스크에서 모인다'고 말하는 표현은?",
+          "options": [
+            "Everyone meets by the information desk.",
+            "The tour guide lives near the information desk.",
+            "The information desk sells tour tickets.",
+            "Information desks are not available today."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Everyone meets by the information desk.'는 모든 참가자가 안내 데스크 근처에서 만난다는 표현으로 집합 장소를 구체적으로 안내할 때 씁니다."
+        },
+        {
+          "id": "se_ch30_set08_006",
+          "type": "multiple_choice",
+          "question": "투어 소요 시간 질문에 '총 약 90분입니다'라는 답변에서 'about'의 역할은?",
+          "options": [
+            "정확한 시간이 아닌 대략의 시간임을 나타냄",
+            "투어가 90분 이상임을 강조",
+            "90분이 너무 짧다는 것을 표현",
+            "90분마다 반복됨을 나타냄"
+          ],
+          "answerIndex": 0,
+          "explanation": "'about'은 '약, 대략'이라는 뜻으로 정확한 수치가 아닌 근사값임을 나타냅니다. 'around'도 같은 의미로 쓰이며, 'about ninety minutes'는 정확히 90분이 아닐 수 있음을 시사합니다."
+        },
+        {
+          "id": "se_ch30_set08_007",
+          "type": "multiple_choice",
+          "question": "영어 투어가 몇 시에 있는지 물었을 때 '11시와 2시'라는 답변을 표현하면?",
+          "options": [
+            "We have English tours at eleven and two.",
+            "English tours happen every hour.",
+            "The English tour is fully booked today.",
+            "There are no English tours this week."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We have English tours at eleven and two.'는 영어 투어가 11시와 2시에 있다는 시간 안내 표현입니다. 시각을 말할 때 시(hour)만 언급하는 자연스러운 구어 표현입니다."
+        },
+        {
+          "id": "se_ch30_set08_008",
+          "type": "multiple_choice",
+          "question": "계단을 지나면 왼쪽에 화장실이 있다는 표현은?",
+          "options": [
+            "Just past the stairs, on your left.",
+            "Up the stairs, then right.",
+            "Below the stairs, underground.",
+            "Past the gift shop, turn right."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Just past the stairs, on your left.'는 계단을 지나면 왼쪽에 있다는 더 구체적인 방향 안내입니다. 'past'는 '~을 지나서'라는 뜻입니다."
+        },
+        {
+          "id": "se_ch30_set08_009",
+          "type": "multiple_choice",
+          "question": "기념품이 한정판임을 나타내는 'museum-exclusive'의 의미는?",
+          "options": [
+            "박물관에서만 판매하는 한정품",
+            "박물관이 직접 만든 전시물",
+            "박물관 회원 전용 서비스",
+            "박물관 최고가 상품"
+          ],
+          "answerIndex": 0,
+          "explanation": "'museum-exclusive'는 해당 박물관에서만 구매할 수 있는 한정 상품을 뜻합니다. 'exclusive'는 '독점적인, 한정판'이라는 의미로 기념품샵에서 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch30_set08_010",
+          "type": "multiple_choice",
+          "question": "가져갈 수 있는 층별 안내도가 있는지 묻는 표현은?",
+          "options": [
+            "Do you have a floor plan I can take?",
+            "Can you draw the museum layout for me?",
+            "Is there a virtual tour available?",
+            "Can I keep the entrance ticket as a map?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you have a floor plan I can take?'는 가져갈 수 있는 층별 안내도가 있는지 묻는 표현입니다. 'floor plan'은 건물의 층별 구조를 보여주는 도면이나 안내도입니다."
+        },
+        {
+          "id": "se_ch30_set08_011",
+          "type": "ox",
+          "question": "'Where does the guided tour start?'의 'Where'를 'When'으로 바꾸면 시작 시각을 묻는 표현이 된다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Where does the guided tour start?'는 장소를, 'When does the guided tour start?'는 시각을 묻는 표현입니다. 'Where(어디)'와 'When(언제)'을 혼동하지 않는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch30_set08_012",
+          "type": "ox",
+          "question": "'I'd like to rent an audio guide.'에서 'rent'는 '사다(purchase)'와 같은 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'rent'는 '빌리다(대여하다)'는 뜻으로 일정 기간 사용 후 반납하는 것을 의미합니다. '사다'는 'buy' 또는 'purchase'입니다. 오디오 가이드는 대여 후 반납해야 합니다."
+        },
+        {
+          "id": "se_ch30_set08_013",
+          "type": "ox",
+          "question": "'It applies to all devices.'는 규정이 모든 기기에 적용된다는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'It applies to all devices.'는 해당 규정(플래시 금지 등)이 스마트폰, 카메라 등 모든 기기에 해당된다는 표현입니다. 'applies to'는 '~에 적용되다'는 뜻입니다."
+        },
+        {
+          "id": "se_ch30_set08_014",
+          "type": "ox",
+          "question": "박물관 지도에서 'marked in yellow'는 특별 할인 전시물 표시를 의미한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'marked in yellow'는 꼭 봐야 할 전시물(must-see exhibits)을 표시하는 것입니다. 'The must-see exhibits are marked in yellow.'처럼 추천 전시물을 강조하기 위해 사용됩니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch30_set09_001",
+          "type": "multiple_choice",
+          "question": "박물관에서 촬영 관련 규정을 확인하는 표현 중 틀린 것은?",
+          "options": [
+            "Photography is mandatory here.",
+            "Is photography allowed?",
+            "Can I take photos in here?",
+            "Are cameras permitted here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Photography is mandatory here.'는 '촬영이 의무'라는 말로 전혀 어색한 표현입니다. 촬영 허용 여부를 묻는 올바른 표현은 'Is photography allowed?', 'Can I take photos?', 'Are cameras permitted?' 등입니다."
+        },
+        {
+          "id": "se_ch30_set09_002",
+          "type": "multiple_choice",
+          "question": "직원이 'Please turn off your flash.'라고 했습니다. 방문객이 해야 할 행동은?",
+          "options": [
+            "카메라나 스마트폰의 플래시를 끈다",
+            "카메라 전원을 완전히 끈다",
+            "박물관을 즉시 나간다",
+            "영상 촬영으로 전환한다"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please turn off your flash.'는 플래시만 꺼달라는 요청입니다. 카메라 전체를 끄는 것이 아니라 플래시 기능만 비활성화하면 됩니다."
+        },
+        {
+          "id": "se_ch30_set09_003",
+          "type": "multiple_choice",
+          "question": "보관소 이용 시 비용을 확인하는 캐주얼한 표현은?",
+          "options": [
+            "Do I need to pay for it?",
+            "Is the cloakroom staffed?",
+            "How large is the cloakroom?",
+            "What are the cloakroom's opening hours?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do I need to pay for it?'는 비용을 내야 하는지 캐주얼하게 묻는 표현입니다. 'Is there a fee?'나 'Is it free?'도 같은 맥락입니다. 무료라면 'It's free.'라고 답합니다."
+        },
+        {
+          "id": "se_ch30_set09_004",
+          "type": "multiple_choice",
+          "question": "오디오 가이드 대여를 정중하게 요청하는 또 다른 표현은?",
+          "options": [
+            "Could I borrow an audio guide?",
+            "I demand an audio guide.",
+            "You must give me an audio guide.",
+            "Audio guide — right now."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could I borrow an audio guide?'는 'could'를 사용한 정중한 요청으로, 'I'd like to rent an audio guide.'와 비슷한 공손함을 가집니다. 'borrow'는 빌린다는 느낌을 강조합니다."
+        },
+        {
+          "id": "se_ch30_set09_005",
+          "type": "multiple_choice",
+          "question": "다음 투어 시작 시각을 묻는 표현은?",
+          "options": [
+            "What time does the next tour begin?",
+            "How old is the next tour guide?",
+            "Where does the previous tour end?",
+            "Why was the last tour cancelled?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What time does the next tour begin?'은 다음 투어의 시작 시각을 묻는 표현입니다. 'begin'과 'start'는 같은 의미로 사용됩니다."
+        },
+        {
+          "id": "se_ch30_set09_006",
+          "type": "multiple_choice",
+          "question": "투어 중간 휴식의 위치를 'in the middle of the tour'와 같은 의미로 표현하면?",
+          "options": [
+            "halfway through the tour",
+            "at the beginning of the tour",
+            "after the tour ends",
+            "before the tour starts"
+          ],
+          "answerIndex": 0,
+          "explanation": "'halfway through the tour'는 'in the middle of the tour'와 같은 의미로 투어 중간쯤을 뜻합니다. 'halfway'는 '절반 지점에'라는 뜻입니다."
+        },
+        {
+          "id": "se_ch30_set09_007",
+          "type": "multiple_choice",
+          "question": "영어 투어를 제공하는지 또 다른 방식으로 묻는 표현은?",
+          "options": [
+            "Do you have tours conducted in English?",
+            "Can I translate the tour for you?",
+            "Is English the national language here?",
+            "Does the tour guide speak any language?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you have tours conducted in English?'는 영어로 진행되는 투어가 있는지 묻는 표현입니다. 'conducted in English'는 '영어로 진행되는'이라는 뜻입니다."
+        },
+        {
+          "id": "se_ch30_set09_008",
+          "type": "multiple_choice",
+          "question": "메인 출구를 묻는 표현 'Where is the exit?'에 대한 올바른 답변은?",
+          "options": [
+            "The main exit is straight ahead, through the gift shop.",
+            "The exit is behind the information desk.",
+            "Go back to the entrance and turn left.",
+            "The exit is only accessible from the second floor."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The main exit is straight ahead, through the gift shop.'는 메인 출구가 기념품샵을 지나 직진하면 나온다는 방향 안내입니다. 'straight ahead'는 직진을 뜻합니다."
+        },
+        {
+          "id": "se_ch30_set09_009",
+          "type": "multiple_choice",
+          "question": "기념품샵에서 엽서 위치를 묻는 표현은?",
+          "options": [
+            "Where can I find the postcards?",
+            "How much does a postcard cost?",
+            "Who designed these postcards?",
+            "When were these postcards printed?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where can I find the postcards?'는 엽서가 있는 위치를 구체적으로 묻는 표현입니다. 상품 존재 여부가 아니라 위치를 알고 싶을 때 이 표현을 사용합니다."
+        },
+        {
+          "id": "se_ch30_set09_010",
+          "type": "multiple_choice",
+          "question": "박물관에서 놓쳐선 안 될 전시물을 묻는 다양한 표현 중 틀린 것은?",
+          "options": [
+            "What should I definitely skip?",
+            "What's the main attraction here?",
+            "What would you say is the highlight?",
+            "What shouldn't I miss?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What should I definitely skip?'는 '무엇을 건너뛰어야 하나요?'라는 표현으로 추천을 구하는 질문이 아닌 반대 의미입니다. 추천 전시물을 묻는 올바른 표현은 나머지 세 가지입니다."
+        },
+        {
+          "id": "se_ch30_set09_011",
+          "type": "ox",
+          "question": "'Can I leave my bag somewhere?'는 보관소 위치를 모를 때도 사용할 수 있는 실용적인 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'cloakroom'이나 'coat check'라는 단어를 모를 때도 'Can I leave my bag somewhere?'라고 물으면 직원이 보관소 위치를 안내해 줍니다."
+        },
+        {
+          "id": "se_ch30_set09_012",
+          "type": "ox",
+          "question": "'Please arrive a few minutes before the tour.'는 투어 시작 후 도착해도 된다는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Please arrive a few minutes before the tour.'는 투어 시작 전에 미리 도착해달라는 안내입니다. 'before the tour'는 '투어가 시작되기 전'을 의미합니다."
+        },
+        {
+          "id": "se_ch30_set09_013",
+          "type": "ox",
+          "question": "'preference'는 선호, 선택 의향을 뜻하는 단어로 언어 선택 안내 상황에서 쓰인다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'preference'는 선호도나 선택 의향을 뜻합니다. 'Do you have a preference for language?'처럼 오디오 가이드나 투어의 언어 선택을 물을 때 사용됩니다."
+        },
+        {
+          "id": "se_ch30_set09_014",
+          "type": "ox",
+          "question": "박물관 하이라이트를 2층 고대 도자기 컬렉션이라고 추천하는 표현은 'Definitely the ancient pottery collection on the second floor.'이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Definitely'는 '단연코, 확실히'라는 강한 추천의 부사입니다. 이 표현은 2층 고대 도자기 컬렉션이 박물관에서 가장 추천할 만한 하이라이트라는 확신을 전달합니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch30_set10_001",
+          "type": "multiple_choice",
+          "question": "박물관에서 규정을 묻는 표현 'Is photography allowed?'에서 'allowed'와 바꿔 쓸 수 있는 단어는?",
+          "options": [
+            "permitted",
+            "required",
+            "purchased",
+            "canceled"
+          ],
+          "answerIndex": 0,
+          "explanation": "'allowed'와 'permitted'는 모두 '허용된'이라는 뜻으로 동의어입니다. 'Is photography permitted here?'도 같은 의미의 표현입니다."
+        },
+        {
+          "id": "se_ch30_set10_002",
+          "type": "multiple_choice",
+          "question": "직원이 플래시 금지를 더 강하게 전달하는 표현은?",
+          "options": [
+            "Flash photography is banned.",
+            "Flash photography is recommended.",
+            "Flash is the only option here.",
+            "Flash photography is allowed briefly."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Flash photography is banned.'는 플래시 촬영이 금지되어 있다는 단호한 표현입니다. 'banned'는 'prohibited'와 같은 의미로 강한 금지를 나타내며 'not allowed'보다 강도가 높습니다."
+        },
+        {
+          "id": "se_ch30_set10_003",
+          "type": "multiple_choice",
+          "question": "보관소에서 짐을 맡긴 후 짐을 찾는 데 필요한 것은?",
+          "options": [
+            "번호표(tag / claim ticket)",
+            "입장권(entry ticket)",
+            "신분증(ID)",
+            "영수증(receipt)"
+          ],
+          "answerIndex": 0,
+          "explanation": "보관소에서 짐을 맡기면 번호표(tag 또는 claim ticket)를 받습니다. 나중에 짐을 찾을 때 이 번호표를 제시해야 합니다."
+        },
+        {
+          "id": "se_ch30_set10_004",
+          "type": "multiple_choice",
+          "question": "오디오 가이드 각 전시물 코드를 입력하는 방법에 대한 설명으로 알맞은 것은?",
+          "options": [
+            "Key in the code for each display.",
+            "Scan the ceiling barcode.",
+            "Ask a staff member for each code.",
+            "Download the codes from the website."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Key in the code for each display.'는 각 전시물의 코드를 입력하라는 표현입니다. 'key in'은 '입력하다'라는 뜻으로 'press' 또는 'enter'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch30_set10_005",
+          "type": "multiple_choice",
+          "question": "투어 출발 장소를 'assembly point'로 물을 때 올바른 문장은?",
+          "options": [
+            "Where is the assembly point for the tour?",
+            "When is the assembly point open?",
+            "What is the assembly point selling?",
+            "Who manages the assembly point?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'assembly point'는 'meeting point', 'gathering point'와 같은 의미로 집합 장소를 뜻합니다. 'Where is the assembly point?'로 집합 장소 위치를 확인할 수 있습니다."
+        },
+        {
+          "id": "se_ch30_set10_006",
+          "type": "multiple_choice",
+          "question": "투어가 90분임을 'altogether'를 사용해 표현한 것은?",
+          "options": [
+            "It's about ninety minutes altogether.",
+            "It's ninety people altogether.",
+            "It takes ninety meters altogether.",
+            "Altogether the tour was canceled."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's about ninety minutes altogether.'는 'altogether'(총, 전부 합쳐)를 사용하여 투어 소요 시간이 총 약 90분임을 나타내는 표현입니다."
+        },
+        {
+          "id": "se_ch30_set10_007",
+          "type": "multiple_choice",
+          "question": "'There are limited spaces available.'는 어떤 상황을 설명하는가?",
+          "options": [
+            "투어 참가 인원에 제한이 있다",
+            "박물관 전시 공간이 좁다",
+            "주차 공간이 부족하다",
+            "보관소 이용이 제한적이다"
+          ],
+          "answerIndex": 0,
+          "explanation": "'There are limited spaces available.'는 이용 가능한 자리(참가 인원)가 제한적이라는 표현입니다. 투어 예약이나 참가 신청 시 'Spots are limited.'와 함께 사용됩니다."
+        },
+        {
+          "id": "se_ch30_set10_008",
+          "type": "multiple_choice",
+          "question": "박물관 화장실이 'Along the corridor, on the left.'에 있다고 했을 때, 화장실 방향은?",
+          "options": [
+            "복도를 따라가면 왼쪽",
+            "복도를 따라가면 오른쪽",
+            "복도 끝 정면",
+            "복도 시작 지점"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Along the corridor'는 복도를 따라가라는 뜻이고 'on the left'는 왼쪽에 있다는 방향 안내입니다. 'Down the hall, on your left.'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch30_set10_009",
+          "type": "multiple_choice",
+          "question": "'Is this item exclusive to the museum?'의 'exclusive'를 적절히 대체할 수 있는 표현은?",
+          "options": [
+            "only available here",
+            "the most expensive here",
+            "currently on sale",
+            "newly arrived"
+          ],
+          "answerIndex": 0,
+          "explanation": "'exclusive'(독점적인, 한정판)를 'only available here'(여기서만 구할 수 있는)로 바꿔 쓸 수 있습니다. 'Can I only get this here?'처럼 간결하게 표현하기도 합니다."
+        },
+        {
+          "id": "se_ch30_set10_010",
+          "type": "multiple_choice",
+          "question": "박물관 지도에서 주요 전시물이 표시되어 있다는 표현으로 알맞은 것은?",
+          "options": [
+            "The star attractions are shown on the map.",
+            "The star attractions are outside the museum.",
+            "The map only shows restroom locations.",
+            "The map is available for purchase only."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The star attractions are shown on the map.'는 주요 볼거리가 지도에 표시되어 있다는 표현입니다. 'star attractions'는 'must-see exhibits'와 같이 핵심 전시물을 가리킵니다."
+        },
+        {
+          "id": "se_ch30_set10_011",
+          "type": "ox",
+          "question": "'Video is also fine, as long as you keep quiet.'는 조용히 한다면 영상 촬영도 허용된다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'as long as you keep quiet'는 '조용히 하는 한'이라는 조건절로, 그 조건을 충족하면 영상 촬영도 가능하다는 의미입니다."
+        },
+        {
+          "id": "se_ch30_set10_012",
+          "type": "ox",
+          "question": "'We recommend arriving a little early.'는 투어에 늦게 도착하라는 안내이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'We recommend arriving a little early.'는 조금 일찍 도착하기를 권장하는 표현입니다. 투어는 정시에 시작되므로 여유 있게 미리 도착하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch30_set10_013",
+          "type": "ox",
+          "question": "'What would you say is the highlight?'는 상대방의 의견을 부드럽게 묻는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'What would you say is ~?'는 'What is ~?'보다 더 대화적이고 친근하게 상대방의 의견이나 추천을 구하는 표현입니다."
+        },
+        {
+          "id": "se_ch30_set10_014",
+          "type": "ox",
+          "question": "'Do you have a preference for language?'는 오디오 가이드나 투어 신청 시 사용하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Do you have a preference for language?'는 직원이 방문객에게 원하는 언어를 물을 때 쓰는 표현으로, 오디오 가이드 대여나 언어별 투어 안내 상황에서 자주 사용됩니다."
         }
       ]
     }

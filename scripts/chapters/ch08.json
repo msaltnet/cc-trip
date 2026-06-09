@@ -879,6 +879,1581 @@
           "explanation": "아닙니다. 'return ticket'은 귀국(돌아오는) 항공권, 즉 왕복 항공권을 의미합니다. 편도 항공권은 'one-way ticket'입니다."
         }
       ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch08_set02_001",
+          "type": "multiple_choice",
+          "question": "입국 심사관이 방문 목적을 물어봤습니다. 관광 목적임을 밝히는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "I'm here for sightseeing.",
+            "I'm on a connecting flight.",
+            "I have a business meeting tomorrow.",
+            "I'd like to check in, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm here for sightseeing.'은 관광 목적을 밝히는 자연스러운 표현입니다. 'Tourism.' 또는 'I'm on vacation.'으로도 대체할 수 있습니다."
+        },
+        {
+          "id": "se_ch08_set02_002",
+          "type": "multiple_choice",
+          "question": "심사관이 'How long are you staying?'이라고 묻습니다. 1주일 체류를 답하는 알맞은 표현은?",
+          "options": [
+            "For one week.",
+            "One hundred dollars.",
+            "At seven o'clock.",
+            "Seven people in total."
+          ],
+          "answerIndex": 0,
+          "explanation": "체류 기간은 'For + 기간'으로 답하는 것이 자연스럽습니다. 'For one week.' 또는 'Seven days.'라고도 말할 수 있습니다."
+        },
+        {
+          "id": "se_ch08_set02_003",
+          "type": "multiple_choice",
+          "question": "심사관이 숙소를 물을 때, 예약한 호텔을 알려주는 표현으로 알맞은 것은?",
+          "options": [
+            "I have a reservation at the Hilton.",
+            "I'm flying to Paris next.",
+            "My passport is in my bag.",
+            "I booked a round-trip ticket."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I have a reservation at the Hilton.'처럼 호텔명을 포함해 구체적으로 답하면 심사가 원활해집니다."
+        },
+        {
+          "id": "se_ch08_set02_004",
+          "type": "multiple_choice",
+          "question": "왕복 항공권을 영어로 어떻게 표현하나요?",
+          "options": [
+            "one-way ticket",
+            "transit pass",
+            "round-trip ticket",
+            "boarding card"
+          ],
+          "answerIndex": 2,
+          "explanation": "'round-trip ticket'은 출발지로 돌아오는 왕복 항공권입니다. 'return ticket'도 같은 의미입니다. 'one-way ticket'은 편도입니다."
+        },
+        {
+          "id": "se_ch08_set02_005",
+          "type": "multiple_choice",
+          "question": "공항에서 위탁 수하물을 찾는 컨베이어 벨트를 뜻하는 전문 용어는?",
+          "options": [
+            "terminal",
+            "runway",
+            "carousel",
+            "gate"
+          ],
+          "answerIndex": 2,
+          "explanation": "'carousel'은 공항 수하물 수취대의 컨베이어 벨트를 뜻하는 용어입니다. 'Which carousel is for my flight?'처럼 사용합니다."
+        },
+        {
+          "id": "se_ch08_set02_006",
+          "type": "multiple_choice",
+          "question": "수하물 수취대 구역을 영어로 무엇이라 하나요?",
+          "options": [
+            "check-in counter",
+            "departure lounge",
+            "boarding gate",
+            "baggage claim"
+          ],
+          "answerIndex": 3,
+          "explanation": "'baggage claim'은 위탁 수하물을 찾는 구역 전체를 뜻합니다. 'Where is the baggage claim?'으로 위치를 물을 수 있습니다."
+        },
+        {
+          "id": "se_ch08_set02_007",
+          "type": "multiple_choice",
+          "question": "짐이 컨베이어 벨트에서 나오지 않을 때 직원에게 할 수 있는 말은?",
+          "options": [
+            "My luggage hasn't arrived.",
+            "I'd like to check my bag in.",
+            "Can I get a window seat?",
+            "I need to weigh my suitcase."
+          ],
+          "answerIndex": 0,
+          "explanation": "'My luggage hasn't arrived.'는 수하물이 도착하지 않았다는 표현입니다. 'My bag didn't come out.'이나 'My bag is missing.'도 같은 의미입니다."
+        },
+        {
+          "id": "se_ch08_set02_008",
+          "type": "multiple_choice",
+          "question": "세관원이 'Do you have anything to declare?'라고 물었습니다. 신고할 것이 없을 때 알맞은 대답은?",
+          "options": [
+            "Yes, I have a lot.",
+            "I need to declare my passport.",
+            "I have nothing to declare.",
+            "Please check my bag."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I have nothing to declare.'는 신고할 물품이 없다는 표현입니다. 더 짧게 'Nothing to declare.'라고도 할 수 있습니다."
+        },
+        {
+          "id": "se_ch08_set02_009",
+          "type": "multiple_choice",
+          "question": "면세 한도 초과 가능성이 있는 물건이 있을 때 이용해야 하는 통로는?",
+          "options": [
+            "green channel",
+            "transit lane",
+            "red channel",
+            "express lane"
+          ],
+          "answerIndex": 2,
+          "explanation": "신고할 물품이 있을 때는 'red channel(적색 통로)'을 이용해야 합니다. 신고할 것이 없으면 'green channel(녹색 통로)'을 통과합니다."
+        },
+        {
+          "id": "se_ch08_set02_010",
+          "type": "multiple_choice",
+          "question": "수하물 파손 신고를 하러 가야 할 장소를 묻는 상황에서 직원이 알려준 곳은?",
+          "options": [
+            "information desk",
+            "baggage service desk",
+            "arrivals hall",
+            "duty-free shop"
+          ],
+          "answerIndex": 1,
+          "explanation": "'baggage service desk(수하물 서비스 데스크)'는 수하물 분실·파손 신고를 처리하는 곳입니다. 공항 내 수하물 수취대 근처에 있습니다."
+        },
+        {
+          "id": "se_ch08_set02_011",
+          "type": "multiple_choice",
+          "question": "수입 물품에 부과되는 세금을 영어로 무엇이라 하나요?",
+          "options": [
+            "service charge",
+            "value added tax",
+            "duty",
+            "fee"
+          ],
+          "answerIndex": 2,
+          "explanation": "'duty'는 수입품에 부과되는 관세를 뜻합니다. 'Do I have to pay duty on this?'처럼 사용합니다."
+        },
+        {
+          "id": "se_ch08_set02_012",
+          "type": "multiple_choice",
+          "question": "분실 수하물 신고 시 직원에게 반드시 보여줘야 하는 것은?",
+          "options": [
+            "여행 일정표",
+            "신용카드",
+            "baggage tag (수하물 태그)",
+            "여행자 보험 카드"
+          ],
+          "answerIndex": 2,
+          "explanation": "수하물 분실 신고 시 'baggage tag(수하물 태그)'가 필수입니다. 태그 번호로 수하물을 추적하기 때문입니다."
+        },
+        {
+          "id": "se_ch08_set02_013",
+          "type": "ox",
+          "question": "입국 심사에서 'Transit.'은 경유 목적을 나타내는 답변이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Transit.'은 경유(다른 곳을 가기 위해 잠깐 머무는 것)를 나타냅니다. 관광은 'Tourism.', 출장은 'Business.'입니다."
+        },
+        {
+          "id": "se_ch08_set02_014",
+          "type": "ox",
+          "question": "세관에서 포장된 스낵은 항상 반입이 금지된다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 포장된 스낵(packaged snacks)은 대부분의 나라에서 반입이 허용됩니다. 신선 식품(fresh food)이나 육류·유제품은 반입이 제한되거나 금지될 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch08_set03_001",
+          "type": "multiple_choice",
+          "question": "'What brings you here?'라는 입국 심사관의 질문에 가장 적절한 대답은?",
+          "options": [
+            "I'm on vacation.",
+            "I'm looking for the exit.",
+            "My flight was delayed.",
+            "I need to buy a ticket."
+          ],
+          "answerIndex": 0,
+          "explanation": "'What brings you here?'는 방문 목적을 묻는 표현입니다. 'I'm on vacation.'은 휴가/관광 목적을 간결하게 전달합니다."
+        },
+        {
+          "id": "se_ch08_set03_002",
+          "type": "multiple_choice",
+          "question": "심사관이 'What's the length of your stay?'라고 물었습니다. 2주 체류를 답하는 표현은?",
+          "options": [
+            "About two o'clock.",
+            "For two weeks.",
+            "Two dollars per day.",
+            "Two gates away."
+          ],
+          "answerIndex": 1,
+          "explanation": "체류 기간은 'For two weeks.'처럼 'for + 기간'으로 답합니다. 'About two weeks.'도 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch08_set03_003",
+          "type": "multiple_choice",
+          "question": "심사관이 예약 확인서를 요청할 때 보여줄 수 있는 것은?",
+          "options": [
+            "My departure card",
+            "My reservation confirmation",
+            "My duty-free receipt",
+            "My airline miles card"
+          ],
+          "answerIndex": 1,
+          "explanation": "'reservation confirmation(예약 확인서)'은 숙소 예약을 증명하는 문서입니다. 이메일이나 앱 화면을 보여줘도 됩니다."
+        },
+        {
+          "id": "se_ch08_set03_004",
+          "type": "multiple_choice",
+          "question": "편도 항공권을 영어로 어떻게 표현하나요?",
+          "options": [
+            "return ticket",
+            "round-trip ticket",
+            "one-way ticket",
+            "transit pass"
+          ],
+          "answerIndex": 2,
+          "explanation": "'one-way ticket'은 편도 항공권입니다. 반대로 귀국 항공권은 'return ticket', 왕복 항공권은 'round-trip ticket'입니다."
+        },
+        {
+          "id": "se_ch08_set03_005",
+          "type": "multiple_choice",
+          "question": "공항에서 'Where do I pick up my luggage?'와 같은 의미의 표현은?",
+          "options": [
+            "Where is the boarding gate?",
+            "Where can I get my bags?",
+            "Where is the check-in counter?",
+            "Where is the departure lounge?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Where can I get my bags?'와 'Where do I pick up my luggage?'는 모두 수하물 수취 장소를 묻는 표현입니다. 'baggage claim'으로 가면 됩니다."
+        },
+        {
+          "id": "se_ch08_set03_006",
+          "type": "multiple_choice",
+          "question": "내 항공편 짐이 몇 번 벨트에서 나오는지 물어보려면 어떻게 말해야 하나요?",
+          "options": [
+            "Which carousel is for my flight?",
+            "How many bags can I check in?",
+            "Is this belt for business class?",
+            "Can I weigh my carry-on here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Which carousel is for my flight?'는 내 항공편 수하물이 나오는 컨베이어 벨트 번호를 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch08_set03_007",
+          "type": "multiple_choice",
+          "question": "수하물 분실 신고 접수를 하고 싶을 때 알맞은 표현은?",
+          "options": [
+            "I'd like to upgrade my luggage.",
+            "I need to file a missing baggage claim.",
+            "Can I check my bag at the gate?",
+            "I'd like to buy extra baggage allowance."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I need to file a missing baggage claim.'은 수하물 분실 접수를 요청하는 표현입니다. 'file'은 공식 서류를 제출하다/접수하다는 뜻입니다."
+        },
+        {
+          "id": "se_ch08_set03_008",
+          "type": "multiple_choice",
+          "question": "캐리어 바퀴가 부러진 경우 어떻게 말해야 할까요?",
+          "options": [
+            "My suitcase is overweight.",
+            "My bag is locked.",
+            "My suitcase is damaged. The wheel is broken.",
+            "I lost my baggage tag."
+          ],
+          "answerIndex": 2,
+          "explanation": "'My suitcase is damaged. The wheel is broken.'처럼 파손 부위를 구체적으로 설명하면 신고 처리가 빠릅니다."
+        },
+        {
+          "id": "se_ch08_set03_009",
+          "type": "multiple_choice",
+          "question": "세관에서 'Do you have anything to declare?'라고 물었을 때 신고할 물품이 있다면 어떻게 답해야 하나요?",
+          "options": [
+            "Nothing to declare.",
+            "I have something to declare.",
+            "No, I don't have anything.",
+            "I used the green channel."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I have something to declare.'는 신고할 물품이 있다는 표현입니다. 이 경우 red channel(적색 통로)을 이용해야 합니다."
+        },
+        {
+          "id": "se_ch08_set03_010",
+          "type": "multiple_choice",
+          "question": "반입 가능 여부를 모르는 물건이 있을 때 취해야 할 현명한 행동은?",
+          "options": [
+            "그냥 녹색 통로를 통과한다.",
+            "짐을 공항에 버린다.",
+            "I'll declare it just to be safe.",
+            "세관원을 피한다."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I'll declare it just to be safe.'는 불확실한 경우 안전하게 신고하겠다는 표현입니다. 미신고 적발 시 벌금이 부과될 수 있으므로 신고하는 편이 낫습니다."
+        },
+        {
+          "id": "se_ch08_set03_011",
+          "type": "multiple_choice",
+          "question": "세관 신고를 하지 않고 물품을 반입할 수 있는 금액 한도를 무엇이라 하나요?",
+          "options": [
+            "baggage allowance",
+            "carry-on limit",
+            "duty-free limit",
+            "departure tax"
+          ],
+          "answerIndex": 2,
+          "explanation": "'duty-free limit(면세 한도)'는 관세 없이 반입할 수 있는 금액 한도입니다. 이를 초과하면 'duty(관세)'를 납부해야 합니다."
+        },
+        {
+          "id": "se_ch08_set03_012",
+          "type": "multiple_choice",
+          "question": "신선 농산물이나 육류의 반입에 관해 세관원에게 묻는 표현은?",
+          "options": [
+            "Are they allowed?",
+            "Can I get a refund?",
+            "Is this duty-free?",
+            "Do you have a map?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Are they allowed?'는 반입 허용 여부를 묻는 표현입니다. 'Is this permitted?'나 'Can I bring this through customs?'도 같은 의미입니다."
+        },
+        {
+          "id": "se_ch08_set03_013",
+          "type": "ox",
+          "question": "수하물 분실 신고 후 직원은 'baggage tag(수하물 태그)'를 이용해 짐을 추적한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 수하물 태그의 번호로 짐의 위치를 추적합니다. 그래서 체크인 때 받은 태그는 수하물을 찾을 때까지 보관해야 합니다."
+        },
+        {
+          "id": "se_ch08_set03_014",
+          "type": "ox",
+          "question": "전자 항공권(e-ticket)은 반드시 인쇄본으로만 제출해야 한다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 전자 항공권(e-ticket)은 스마트폰 화면으로 보여주어도 되고 인쇄본도 허용됩니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch08_set04_001",
+          "type": "multiple_choice",
+          "question": "입국 심사에서 방문 목적을 묻는 질문으로 올바른 것은?",
+          "options": [
+            "How long will you be here?",
+            "Why are you visiting?",
+            "Where is your hotel?",
+            "May I see your boarding pass?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Why are you visiting?'는 방문 목적을 묻는 표현으로 'What's the purpose of your visit?'와 동일한 의미입니다."
+        },
+        {
+          "id": "se_ch08_set04_002",
+          "type": "multiple_choice",
+          "question": "심사관이 체류 기간을 물었을 때 '약 2주 정도'라고 자연스럽게 답하는 표현은?",
+          "options": [
+            "About two weeks.",
+            "Two times a week.",
+            "In two hours.",
+            "Two kilograms."
+          ],
+          "answerIndex": 0,
+          "explanation": "'About two weeks.'는 '약 2주 정도'라는 의미입니다. 'For about two weeks.'라고 해도 자연스럽습니다."
+        },
+        {
+          "id": "se_ch08_set04_003",
+          "type": "multiple_choice",
+          "question": "심사관에게 예약 확인 이메일을 보여주겠다고 말하는 표현은?",
+          "options": [
+            "I can show you my confirmation email.",
+            "I don't have a reservation.",
+            "Let me call the hotel.",
+            "Here's my travel insurance."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I can show you my confirmation email.'은 예약 확인 이메일을 보여주겠다는 표현입니다. 스마트폰에서 이메일을 열어 제시하면 됩니다."
+        },
+        {
+          "id": "se_ch08_set04_004",
+          "type": "multiple_choice",
+          "question": "전자 항공권을 영어로 무엇이라 하나요?",
+          "options": [
+            "boarding card",
+            "e-ticket",
+            "transit pass",
+            "visa"
+          ],
+          "answerIndex": 1,
+          "explanation": "'e-ticket'은 'electronic ticket'의 줄임말로, 전자 항공권을 뜻합니다. 종이 항공권 대신 디지털로 발행됩니다."
+        },
+        {
+          "id": "se_ch08_set04_005",
+          "type": "multiple_choice",
+          "question": "수하물 수취대 안내판을 영어로 어떻게 표현하나요?",
+          "options": [
+            "arrivals board",
+            "security screen",
+            "gate monitor",
+            "check-in display"
+          ],
+          "answerIndex": 0,
+          "explanation": "'arrivals board(도착 안내판)'에서 항공편별 수하물 카루셀 번호를 확인할 수 있습니다. 'display'나 'screen'으로도 불립니다."
+        },
+        {
+          "id": "se_ch08_set04_006",
+          "type": "multiple_choice",
+          "question": "짐을 찾으러 가야 하는 방향을 물었을 때 직원이 'Go straight ahead and follow the signs.'라고 했습니다. 무슨 뜻인가요?",
+          "options": [
+            "돌아서 왼쪽으로 가세요.",
+            "직진해서 안내 표지판을 따라가세요.",
+            "엘리베이터를 타세요.",
+            "출국장으로 가세요."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Go straight ahead'는 직진하라는 뜻이고 'follow the signs'는 표지판을 따라가라는 뜻입니다."
+        },
+        {
+          "id": "se_ch08_set04_007",
+          "type": "multiple_choice",
+          "question": "수하물이 파손된 경우 신고서를 작성해달라고 요청하는 표현은?",
+          "options": [
+            "Please fill out this damage report form.",
+            "Please check your boarding pass.",
+            "Please move to the red channel.",
+            "Please open your carry-on bag."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please fill out this damage report form.'은 파손 신고서 작성을 요청하는 표현입니다. 'fill out'은 양식을 작성하다는 뜻입니다."
+        },
+        {
+          "id": "se_ch08_set04_008",
+          "type": "multiple_choice",
+          "question": "세관 통과 시 신고할 것이 없다는 표현으로 가장 간결한 것은?",
+          "options": [
+            "I have everything to declare.",
+            "Nothing to declare.",
+            "Yes, I need to declare something.",
+            "I should go to the red channel."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Nothing to declare.'는 세관에서 신고할 물품이 없다는 전 세계적으로 통용되는 간결한 표현입니다."
+        },
+        {
+          "id": "se_ch08_set04_009",
+          "type": "multiple_choice",
+          "question": "세관에서 'Are you carrying any dutiable items?'와 동일한 의미의 표현은?",
+          "options": [
+            "Do you have anything to declare?",
+            "Is this your first visit?",
+            "How long will you stay?",
+            "Where are you staying?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you have anything to declare?'와 'Are you carrying any dutiable items?'는 모두 신고할 물품이 있는지 묻는 세관 질문입니다."
+        },
+        {
+          "id": "se_ch08_set04_010",
+          "type": "multiple_choice",
+          "question": "세관 허용 한도를 뜻하는 영어 표현은?",
+          "options": [
+            "baggage limit",
+            "carry-on allowance",
+            "customs allowance",
+            "check-in quota"
+          ],
+          "answerIndex": 2,
+          "explanation": "'customs allowance(세관 허용 한도)'는 관세 없이 반입할 수 있는 물품 가액의 한도입니다. 'duty-free limit'이나 'tax-free allowance'도 같은 의미입니다."
+        },
+        {
+          "id": "se_ch08_set04_011",
+          "type": "multiple_choice",
+          "question": "수하물 분실·파손 신고 데스크의 정식 명칭은?",
+          "options": [
+            "airline counter",
+            "lost and found desk",
+            "baggage service desk",
+            "immigration desk"
+          ],
+          "answerIndex": 2,
+          "explanation": "'baggage service desk'는 수하물 분실 및 파손 신고를 처리하는 전담 데스크입니다. 'lost and found'나 'airline counter'에서 처리하는 경우도 있습니다."
+        },
+        {
+          "id": "se_ch08_set04_012",
+          "type": "multiple_choice",
+          "question": "식물 제품 반입 여부를 묻는 세관원 질문은?",
+          "options": [
+            "Are you bringing in any food or plant products?",
+            "Did you pack your own bags?",
+            "Do you have a return ticket?",
+            "How much cash are you carrying?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Are you bringing in any food or plant products?'는 식품이나 식물 제품의 반입 여부를 확인하는 세관 질문입니다."
+        },
+        {
+          "id": "se_ch08_set04_013",
+          "type": "ox",
+          "question": "'baggage claim'은 위탁 수하물을 찾는 구역을 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'baggage claim'은 항공기에 맡긴 위탁 수하물을 찾는 구역 전체를 가리킵니다."
+        },
+        {
+          "id": "se_ch08_set04_014",
+          "type": "ox",
+          "question": "세관에서 미신고 물품이 적발되어도 아무런 처벌이 없다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 세관 미신고 적발 시 벌금이 부과될 수 있습니다. 불확실한 물품은 'I'll declare it just to be safe.'처럼 신고하는 것이 안전합니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch08_set05_001",
+          "type": "multiple_choice",
+          "question": "입국 심사 시 'What's the purpose of your visit?'에 대한 답변 중 경유를 나타내는 것은?",
+          "options": [
+            "Business.",
+            "Tourism.",
+            "Transit.",
+            "Vacation."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Transit.'은 다른 목적지로 가기 위해 경유하는 것을 뜻합니다. 관광은 'Tourism.', 출장은 'Business.', 휴가는 'Vacation.'입니다."
+        },
+        {
+          "id": "se_ch08_set05_002",
+          "type": "multiple_choice",
+          "question": "심사관이 체류 중 계획을 묻는 질문은?",
+          "options": [
+            "Where are you flying to next?",
+            "What are your plans during your stay?",
+            "How many bags did you check in?",
+            "Do you have travel insurance?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'What are your plans during your stay?'는 체류 기간 동안의 계획을 묻는 질문입니다. 구체적인 일정을 말하면 심사가 원활해집니다."
+        },
+        {
+          "id": "se_ch08_set05_003",
+          "type": "multiple_choice",
+          "question": "여러 도시를 방문할 예정이라고 답하는 표현은?",
+          "options": [
+            "I plan to stay at one hotel.",
+            "I'm going to visit several cities.",
+            "I'll be on a cruise ship.",
+            "I'm attending one conference."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'm going to visit several cities.'는 여러 도시를 방문할 계획이라는 표현입니다. 'I plan to travel around.'도 비슷한 표현입니다."
+        },
+        {
+          "id": "se_ch08_set05_004",
+          "type": "multiple_choice",
+          "question": "귀국 편은 20일이라고 말하는 표현은?",
+          "options": [
+            "I fly back on the 20th.",
+            "I arrived on the 20th.",
+            "My flight departs in 20 hours.",
+            "I have 20 days of vacation."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I fly back on the 20th.'는 20일에 귀국한다는 표현입니다. 'My return flight is on the 20th.'도 같은 의미입니다."
+        },
+        {
+          "id": "se_ch08_set05_005",
+          "type": "multiple_choice",
+          "question": "수하물 수취대에서 항공편 벨트 번호를 확인하는 곳은?",
+          "options": [
+            "세관 신고서",
+            "여권",
+            "공항 안내 전광판(screens / monitors)",
+            "탑승권"
+          ],
+          "answerIndex": 2,
+          "explanation": "공항 안내 전광판(screens 또는 monitors)에서 항공편별 수하물 카루셀 번호를 확인할 수 있습니다. 'Check the screens for updates.'처럼 사용합니다."
+        },
+        {
+          "id": "se_ch08_set05_006",
+          "type": "multiple_choice",
+          "question": "분실 수하물을 신고하려면 체크인 때 받은 무엇이 필요한가요?",
+          "options": [
+            "visa sticker",
+            "baggage tag",
+            "seat number",
+            "meal ticket"
+          ],
+          "answerIndex": 1,
+          "explanation": "'baggage tag(수하물 태그)'는 체크인 때 발급받는 짐표로, 분실 신고 시 반드시 제시해야 합니다."
+        },
+        {
+          "id": "se_ch08_set05_007",
+          "type": "multiple_choice",
+          "question": "수하물 파손 신고를 하고 싶다는 표현은?",
+          "options": [
+            "I'd like to report the damage.",
+            "I'd like to check in again.",
+            "I need a new boarding pass.",
+            "I want to upgrade my bag."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like to report the damage.'는 파손을 신고하겠다는 표현입니다. 'My suitcase is damaged.'와 함께 사용하면 효과적입니다."
+        },
+        {
+          "id": "se_ch08_set05_008",
+          "type": "multiple_choice",
+          "question": "세관을 통과할 때 신고할 물품이 없는 사람이 이용하는 통로는?",
+          "options": [
+            "red channel",
+            "transit lane",
+            "green channel",
+            "priority lane"
+          ],
+          "answerIndex": 2,
+          "explanation": "'green channel(녹색 통로)'은 신고할 물품이 없는 여행자가 이용하는 통로입니다. 신고 물품이 있으면 'red channel'로 가야 합니다."
+        },
+        {
+          "id": "se_ch08_set05_009",
+          "type": "multiple_choice",
+          "question": "가방 안의 물건에 관세를 내야 하는지 묻는 표현은?",
+          "options": [
+            "Is this item on sale?",
+            "Can I keep this in my bag?",
+            "Will I be taxed on this item?",
+            "Is this bag carry-on size?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Will I be taxed on this item?'은 물건에 세금이 부과되는지 묻는 표현입니다. 'Do I have to pay duty on this?'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch08_set05_010",
+          "type": "multiple_choice",
+          "question": "세관원이 가방을 열어보라고 요청할 때 사용하는 표현은?",
+          "options": [
+            "Please fill out this form.",
+            "Please open your bag.",
+            "Please go to the green channel.",
+            "Please show me your passport."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Please open your bag.'은 가방 검사를 위해 열어보라는 요청입니다. 세관 검사 중 자주 듣는 표현입니다."
+        },
+        {
+          "id": "se_ch08_set05_011",
+          "type": "multiple_choice",
+          "question": "반입 금지 또는 제한 품목에 해당하는 것은?",
+          "options": [
+            "packaged snacks",
+            "fresh fruit",
+            "sealed beverages",
+            "canned goods"
+          ],
+          "answerIndex": 1,
+          "explanation": "신선 과일(fresh fruit) 등 신선 농산물은 병해충 유입 방지를 위해 대부분의 나라에서 반입이 금지되거나 제한됩니다."
+        },
+        {
+          "id": "se_ch08_set05_012",
+          "type": "multiple_choice",
+          "question": "적색 통로를 이용해야 할 때 세관원에게 할 수 있는 말은?",
+          "options": [
+            "I need to use the red channel. I have something to declare.",
+            "I used the green channel already.",
+            "I have nothing to declare.",
+            "Can I exit through here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need to use the red channel. I have something to declare.'는 신고할 물품이 있어 적색 통로를 이용해야 한다는 표현입니다."
+        },
+        {
+          "id": "se_ch08_set05_013",
+          "type": "ox",
+          "question": "수하물 파손 신고 시 'damage report form(파손 신고서)'을 작성해야 한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 수하물 파손 신고 시에는 수하물 서비스 데스크에서 'damage report form'을 작성해야 합니다."
+        },
+        {
+          "id": "se_ch08_set05_014",
+          "type": "ox",
+          "question": "'Here you go.'와 'Here it is.'는 완전히 다른 의미로 사용된다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'Here you go.', 'Here it is.', 'Here you are.'는 모두 물건을 건네며 '여기 있습니다'라는 같은 의미로 사용됩니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch08_set06_001",
+          "type": "multiple_choice",
+          "question": "입국 심사관에게 여권을 건네며 할 수 있는 표현은?",
+          "options": [
+            "Here you go.",
+            "Thank you, goodbye.",
+            "I need a new passport.",
+            "Please stamp my visa."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Here you go.'는 물건을 건네며 쓰는 표현입니다. 'Here it is.'나 'Here you are.'도 같은 의미입니다."
+        },
+        {
+          "id": "se_ch08_set06_002",
+          "type": "multiple_choice",
+          "question": "총 열흘 체류라고 말하는 자연스러운 표현은?",
+          "options": [
+            "Ten days in total.",
+            "Ten dollars only.",
+            "At ten stations.",
+            "Ten times a day."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Ten days in total.'은 총 열흘 체류임을 나타내는 표현입니다. 'For ten days.'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch08_set06_003",
+          "type": "multiple_choice",
+          "question": "심사관이 'Do you have a reservation confirmation?'라고 물었습니다. 무슨 뜻인가요?",
+          "options": [
+            "귀국 항공권이 있나요?",
+            "예약 확인서가 있나요?",
+            "수하물 태그가 있나요?",
+            "여행자 보험에 가입했나요?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'reservation confirmation'은 숙소 예약 확인서를 뜻합니다. 호텔 예약 이메일이나 앱 화면을 보여주면 됩니다."
+        },
+        {
+          "id": "se_ch08_set06_004",
+          "type": "multiple_choice",
+          "question": "경유 시 다음 목적지행 항공권을 무엇이라 하나요?",
+          "options": [
+            "return ticket",
+            "round-trip ticket",
+            "one-way ticket",
+            "onward ticket"
+          ],
+          "answerIndex": 3,
+          "explanation": "'onward ticket'은 경유지에서 다음 목적지로 향하는 항공권을 뜻합니다. 일부 국가는 입국 시 다음 목적지 항공권을 요구합니다."
+        },
+        {
+          "id": "se_ch08_set06_005",
+          "type": "multiple_choice",
+          "question": "수하물 수취대를 찾는 공항 안내 표지판에 적혀 있을 표현은?",
+          "options": [
+            "Departures",
+            "Baggage Claim",
+            "Check-In",
+            "Security"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Baggage Claim'은 공항 내 위탁 수하물 수취대를 안내하는 표지판 표현입니다. 화살표를 따라가면 됩니다."
+        },
+        {
+          "id": "se_ch08_set06_006",
+          "type": "multiple_choice",
+          "question": "'My bag is missing.'과 같은 상황을 나타내는 표현은?",
+          "options": [
+            "My bag is overweight.",
+            "My bag didn't come out.",
+            "My bag is too small.",
+            "My bag is in the overhead bin."
+          ],
+          "answerIndex": 1,
+          "explanation": "'My bag didn't come out.'은 컨베이어 벨트에서 짐이 나오지 않았다는 표현으로 'My bag is missing.'과 동일한 상황입니다."
+        },
+        {
+          "id": "se_ch08_set06_007",
+          "type": "multiple_choice",
+          "question": "분실된 수하물의 모양을 설명해달라는 직원의 말은?",
+          "options": [
+            "Can you describe your bag?",
+            "Can you open your bag?",
+            "Can you weigh your bag?",
+            "Can you tag your bag?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you describe your bag?'는 가방의 외관, 색상, 크기 등을 설명해달라는 요청입니다. 분실 신고 시 직원이 자주 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch08_set06_008",
+          "type": "multiple_choice",
+          "question": "'I'll report it to be on the safe side.'와 가장 유사한 의미의 표현은?",
+          "options": [
+            "I have nothing to declare.",
+            "I'll declare it just to be safe.",
+            "I'll use the green channel.",
+            "I don't need to pay any duty."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I'll declare it just to be safe.'와 'I'll report it to be on the safe side.'는 불확실할 때 안전을 위해 신고하겠다는 같은 의미입니다."
+        },
+        {
+          "id": "se_ch08_set06_009",
+          "type": "multiple_choice",
+          "question": "세관 신고 물품의 가치를 확인하겠다는 세관원의 표현은?",
+          "options": [
+            "Let me check the value.",
+            "Let me stamp your passport.",
+            "Let me open your suitcase.",
+            "Let me call immigration."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me check the value.'는 물품의 금액을 확인하겠다는 세관원의 표현입니다. 면세 한도 초과 여부를 확인할 때 사용합니다."
+        },
+        {
+          "id": "se_ch08_set06_010",
+          "type": "multiple_choice",
+          "question": "'declare'라는 단어의 세관에서의 의미는?",
+          "options": [
+            "입국을 거부하다",
+            "짐을 위탁 수하물로 맡기다",
+            "세관에 물품을 신고하다",
+            "항공편을 예약하다"
+          ],
+          "answerIndex": 2,
+          "explanation": "세관 맥락에서 'declare'는 '세관에 물품을 신고하다'는 뜻입니다. 'Do you have anything to declare?'는 신고할 물품이 있냐는 질문입니다."
+        },
+        {
+          "id": "se_ch08_set06_011",
+          "type": "multiple_choice",
+          "question": "수하물 파손 신고 후 받을 수 있는 보상은?",
+          "options": [
+            "무료 항공권",
+            "공항 라운지 이용권",
+            "수리 또는 보상(repair or replacement)",
+            "좌석 업그레이드"
+          ],
+          "answerIndex": 2,
+          "explanation": "수하물 파손 신고 후에는 'repair(수리)' 또는 'replacement(교체/보상)'를 요청할 수 있습니다."
+        },
+        {
+          "id": "se_ch08_set06_012",
+          "type": "multiple_choice",
+          "question": "육류와 유제품의 반입에 관한 표현으로 올바른 것은?",
+          "options": [
+            "Meat and dairy are always allowed.",
+            "Meat and dairy cannot be brought in.",
+            "Meat and dairy are duty-free.",
+            "Meat and dairy don't need to be declared."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Meat and dairy cannot be brought in.'은 육류와 유제품이 반입될 수 없다는 표현입니다. 대부분의 국가에서 신선 육류와 유제품 반입을 금지하거나 신고를 요구합니다."
+        },
+        {
+          "id": "se_ch08_set06_013",
+          "type": "ox",
+          "question": "입국 심사 시 체류 기간은 반드시 'for'를 붙여서만 답해야 한다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'For ten days.'처럼 'for'를 붙이면 자연스럽지만, 'Ten days.' 또는 'About a week.'처럼 for 없이 답해도 충분히 통합니다."
+        },
+        {
+          "id": "se_ch08_set06_014",
+          "type": "ox",
+          "question": "'baggage tag'는 체크인 시 항공사가 발급해 짐에 부착하는 짐표이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'baggage tag'는 체크인 시 항공사가 발급하는 짐표로, 수하물 추적에 사용됩니다. 수하물을 찾을 때까지 보관해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch08_set07_001",
+          "type": "multiple_choice",
+          "question": "입국 심사대에서 심사관이 처음 요청하는 것은?",
+          "options": [
+            "Your boarding pass, please.",
+            "Your passport, please.",
+            "Your baggage tag, please.",
+            "Your customs form, please."
+          ],
+          "answerIndex": 1,
+          "explanation": "입국 심사관은 가장 먼저 'Your passport, please.'라고 여권을 요청합니다. 이때 'Here you go.'라고 건네면 됩니다."
+        },
+        {
+          "id": "se_ch08_set07_002",
+          "type": "multiple_choice",
+          "question": "체류 기간과 관련된 질문 'How long are you staying?'에 답하는 올바른 형태는?",
+          "options": [
+            "I'm staying in New York.",
+            "I'm staying at the Hilton.",
+            "I'm staying for five days.",
+            "I'm staying with my family."
+          ],
+          "answerIndex": 2,
+          "explanation": "'How long are you staying?'은 기간을 묻는 질문입니다. 'I'm staying for five days.'처럼 기간으로 답해야 합니다."
+        },
+        {
+          "id": "se_ch08_set07_003",
+          "type": "multiple_choice",
+          "question": "'I'm on vacation.'과 동일한 의미의 방문 목적 표현은?",
+          "options": [
+            "Business.",
+            "Transit.",
+            "Tourism.",
+            "Study."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I'm on vacation.'은 휴가/관광 목적을 나타내며, 'Tourism.'과 같은 의미입니다. 'I'm here for sightseeing.'도 같은 맥락입니다."
+        },
+        {
+          "id": "se_ch08_set07_004",
+          "type": "multiple_choice",
+          "question": "심사관이 'May I see it, please?'라고 했을 때 'it'이 가리키는 것은?",
+          "options": [
+            "여권",
+            "왕복 항공권",
+            "세관 신고서",
+            "수하물 태그"
+          ],
+          "answerIndex": 1,
+          "explanation": "이 문맥에서 'it'은 앞서 언급된 왕복 항공권(return/round-trip ticket)을 가리킵니다. 'Sure, here's my e-ticket.'이라고 전자 항공권을 보여주면 됩니다."
+        },
+        {
+          "id": "se_ch08_set07_005",
+          "type": "multiple_choice",
+          "question": "수하물 수취대에서 짐이 아직 나오지 않을 때 확인하는 곳은?",
+          "options": [
+            "check-in counter",
+            "departure board",
+            "the screens / arrivals display",
+            "immigration desk"
+          ],
+          "answerIndex": 2,
+          "explanation": "수하물 수취대의 안내 화면(screens / arrivals display)에서 항공편별 카루셀 번호와 업데이트를 확인할 수 있습니다."
+        },
+        {
+          "id": "se_ch08_set07_006",
+          "type": "multiple_choice",
+          "question": "'I'd like to report lost luggage.'를 통해 신고하는 상황에 맞는 절차는?",
+          "options": [
+            "탑승구로 돌아간다.",
+            "세관 신고서를 작성한다.",
+            "baggage service desk에 간다.",
+            "출국장으로 이동한다."
+          ],
+          "answerIndex": 2,
+          "explanation": "수하물 분실 신고는 'baggage service desk'에서 처리됩니다. 수하물 태그를 지참하고 가방 외형도 설명할 준비를 해야 합니다."
+        },
+        {
+          "id": "se_ch08_set07_007",
+          "type": "multiple_choice",
+          "question": "캐리어 파손 신고 시 'complete this form'과 같은 의미의 표현은?",
+          "options": [
+            "check in your bag",
+            "fill out this form",
+            "carry your bag",
+            "tag your luggage"
+          ],
+          "answerIndex": 1,
+          "explanation": "'fill out this form'은 양식을 작성하다는 뜻으로 'complete this form'과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch08_set07_008",
+          "type": "multiple_choice",
+          "question": "세관에서 'Which channel did you come through?'라고 물었을 때 올바른 답변 예시는?",
+          "options": [
+            "Channel 5 on TV.",
+            "The green channel. I have nothing to declare.",
+            "I came through Gate B.",
+            "I used the priority lane."
+          ],
+          "answerIndex": 1,
+          "explanation": "'The green channel. I have nothing to declare.'는 신고 물품이 없어 녹색 통로를 이용했다는 적절한 답변입니다."
+        },
+        {
+          "id": "se_ch08_set07_009",
+          "type": "multiple_choice",
+          "question": "신고 물품이 있어 적색 통로로 가야 한다는 말을 세관원에게 먼저 알리는 표현은?",
+          "options": [
+            "I need to declare some items.",
+            "I have nothing to declare.",
+            "I'll use the green channel.",
+            "I already passed customs."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need to declare some items.'는 신고할 물품이 있다는 표현으로, 적색 통로 사용 전 세관원에게 알릴 때 사용합니다."
+        },
+        {
+          "id": "se_ch08_set07_010",
+          "type": "multiple_choice",
+          "question": "세관에서 물품 가격을 확인하는 이유는?",
+          "options": [
+            "수하물 무게를 재기 위해",
+            "면세 한도 초과 여부를 확인하기 위해",
+            "입국 비자 발급을 위해",
+            "여행 일정 확인을 위해"
+          ],
+          "answerIndex": 1,
+          "explanation": "세관에서 물품 가격을 확인하는 이유는 'duty-free limit(면세 한도)'을 초과하는지 판단하기 위해서입니다. 초과 시 관세를 납부해야 합니다."
+        },
+        {
+          "id": "se_ch08_set07_011",
+          "type": "multiple_choice",
+          "question": "분실 신고 양식을 작성한다는 표현은?",
+          "options": [
+            "I'll file a report.",
+            "I'll board the plane.",
+            "I'll check the departure board.",
+            "I'll pay the duty."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll file a report.'는 신고서/보고서를 작성 및 접수하겠다는 표현입니다. 분실 신고 상황에서 직원이 'Let me file a report.'라고 말하기도 합니다."
+        },
+        {
+          "id": "se_ch08_set07_012",
+          "type": "multiple_choice",
+          "question": "세관 통과 후 공항 밖으로 나가는 마지막 단계에서 확인하는 것은?",
+          "options": [
+            "세관 신고 여부",
+            "탑승권",
+            "기내 수하물",
+            "여행자 보험"
+          ],
+          "answerIndex": 0,
+          "explanation": "공항 출국 마지막 단계는 세관입니다. 신고 물품이 있으면 red channel을 이용하고, 없으면 green channel을 통과합니다."
+        },
+        {
+          "id": "se_ch08_set07_013",
+          "type": "ox",
+          "question": "입국 심사에서 출장 목적은 'Business.'라고 답한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 출장·업무 목적은 'Business.'라고 답합니다. 관광은 'Tourism.', 경유는 'Transit.'입니다."
+        },
+        {
+          "id": "se_ch08_set07_014",
+          "type": "ox",
+          "question": "'green channel'과 'red channel'은 공항 세관에서 신고 물품 유무에 따라 나뉜 통로이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. green channel은 신고 물품이 없을 때, red channel은 신고 물품이 있을 때 이용하는 세관 통로입니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch08_set08_001",
+          "type": "multiple_choice",
+          "question": "입국 심사 시 심사관이 방문 목적을 묻는 표현이 아닌 것은?",
+          "options": [
+            "What's the purpose of your visit?",
+            "Why are you visiting?",
+            "What brings you here?",
+            "How long is your flight?"
+          ],
+          "answerIndex": 3,
+          "explanation": "'How long is your flight?'는 비행 시간을 묻는 표현으로 방문 목적과 관련이 없습니다. 나머지 셋은 모두 방문 목적을 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch08_set08_002",
+          "type": "multiple_choice",
+          "question": "체류 기간을 묻는 표현이 아닌 것은?",
+          "options": [
+            "How long will you stay?",
+            "What's the length of your stay?",
+            "How long are you staying?",
+            "Where are you going next?"
+          ],
+          "answerIndex": 3,
+          "explanation": "'Where are you going next?'는 다음 목적지를 묻는 표현입니다. 나머지 셋은 모두 체류 기간을 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch08_set08_003",
+          "type": "multiple_choice",
+          "question": "심사관에게 시내 호텔에 예약이 있다고 말하는 표현은?",
+          "options": [
+            "I have a reservation at a hotel downtown.",
+            "I'll be at the airport hotel.",
+            "I'm staying with friends.",
+            "I plan to camp outside."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I have a reservation at a hotel downtown.'은 시내 호텔을 예약했다는 표현입니다. 호텔명을 포함해 답하면 더욱 구체적입니다."
+        },
+        {
+          "id": "se_ch08_set08_004",
+          "type": "multiple_choice",
+          "question": "항공사 카운터에서 수하물 파손을 신고할 수 있다는 표현은?",
+          "options": [
+            "airline counter",
+            "baggage carousel",
+            "departure gate",
+            "security checkpoint"
+          ],
+          "answerIndex": 0,
+          "explanation": "'airline counter(항공사 카운터)'는 수하물 분실·파손 신고를 처리할 수 있는 장소 중 하나입니다. 'baggage service desk'가 전담 창구입니다."
+        },
+        {
+          "id": "se_ch08_set08_005",
+          "type": "multiple_choice",
+          "question": "공항에서 'carousel'이 의미하는 것은?",
+          "options": [
+            "출발 로비",
+            "수하물이 돌아나오는 컨베이어 벨트",
+            "환승 구역",
+            "세관 신고 창구"
+          ],
+          "answerIndex": 1,
+          "explanation": "'carousel'은 공항 수하물 수취대에서 짐이 돌아나오는 컨베이어 벨트를 뜻합니다. 'Which carousel is for my flight?'처럼 사용합니다."
+        },
+        {
+          "id": "se_ch08_set08_006",
+          "type": "multiple_choice",
+          "question": "체크인 시 받은 수하물 짐표를 무엇이라 하나요?",
+          "options": [
+            "boarding pass",
+            "baggage tag",
+            "visa sticker",
+            "customs form"
+          ],
+          "answerIndex": 1,
+          "explanation": "'baggage tag(수하물 태그/짐표)'는 체크인 시 항공사가 발급하는 태그로, 분실 신고 시 반드시 필요합니다."
+        },
+        {
+          "id": "se_ch08_set08_007",
+          "type": "multiple_choice",
+          "question": "운송 중 수하물이 파손됐다고 말하는 표현은?",
+          "options": [
+            "My luggage was damaged in transit.",
+            "My luggage was left on the plane.",
+            "My luggage arrived early.",
+            "My luggage was upgraded."
+          ],
+          "answerIndex": 0,
+          "explanation": "'My luggage was damaged in transit.'는 운송 중 수하물이 파손됐다는 표현입니다. 'in transit'은 운송 중임을 나타냅니다."
+        },
+        {
+          "id": "se_ch08_set08_008",
+          "type": "multiple_choice",
+          "question": "세관에서 벌금(fine)을 피하기 위한 가장 현명한 행동은?",
+          "options": [
+            "녹색 통로를 빠르게 통과한다.",
+            "가방을 꽉 잠근다.",
+            "Better to declare than face a fine.",
+            "세관 신고서를 작성하지 않는다."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Better to declare than face a fine.'은 벌금을 내는 것보다 신고하는 게 낫다는 표현입니다. 미신고 시 벌금이 부과될 수 있습니다."
+        },
+        {
+          "id": "se_ch08_set08_009",
+          "type": "multiple_choice",
+          "question": "세관에서 가져온 선물의 가치를 확인해달라는 세관원의 요청이 있었습니다. 다음 중 어떤 행동을 해야 하나요?",
+          "options": [
+            "녹색 통로로 빠져나간다.",
+            "영수증이나 물품 목록을 제시한다.",
+            "가방을 닫는다.",
+            "면세점에서 구매했다고 주장한다."
+          ],
+          "answerIndex": 1,
+          "explanation": "세관에서 물품 가치 확인을 요청받으면 영수증이나 물품 목록을 제시해야 합니다. 면세 한도 초과 여부를 확인하기 위한 절차입니다."
+        },
+        {
+          "id": "se_ch08_set08_010",
+          "type": "multiple_choice",
+          "question": "'I should declare this at customs.'와 같은 의미의 표현은?",
+          "options": [
+            "I have nothing to declare.",
+            "I need to declare some items.",
+            "I'll use the green channel.",
+            "I passed customs already."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I need to declare some items.'와 'I should declare this at customs.'는 세관에 신고해야 할 물품이 있다는 같은 의미의 표현입니다."
+        },
+        {
+          "id": "se_ch08_set08_011",
+          "type": "multiple_choice",
+          "question": "신선 식품 반입이 제한되는 주된 이유는?",
+          "options": [
+            "관세 수입 증가를 위해",
+            "병해충 유입 방지를 위해",
+            "공항 면세점 매출 보호를 위해",
+            "항공기 무게 초과 방지를 위해"
+          ],
+          "answerIndex": 1,
+          "explanation": "신선 식품 반입이 제한되는 주된 이유는 병해충(pests and diseases)의 유입을 방지하기 위해서입니다."
+        },
+        {
+          "id": "se_ch08_set08_012",
+          "type": "multiple_choice",
+          "question": "세관 신고 양식을 제출하라는 요청을 영어로 표현하면?",
+          "options": [
+            "sign this claim form",
+            "check this departure form",
+            "open this passport",
+            "weigh this bag"
+          ],
+          "answerIndex": 0,
+          "explanation": "'sign this claim form(이 청구서에 서명하다)'은 세관 또는 파손 신고 관련 양식에 서명하라는 요청입니다."
+        },
+        {
+          "id": "se_ch08_set08_013",
+          "type": "ox",
+          "question": "입국 심사에서 숙소 주소를 물어볼 수 있으며, 호텔 예약 내역으로 답할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 심사관은 'Where are you staying?'이나 'What's your address while you're here?'처럼 숙소를 물을 수 있습니다. 호텔 예약 확인서를 보여주면 됩니다."
+        },
+        {
+          "id": "se_ch08_set08_014",
+          "type": "ox",
+          "question": "수하물 분실 신고 시 신용카드만 있으면 충분하다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 수하물 분실 신고에는 체크인 시 받은 'baggage tag(수하물 태그)'가 반드시 필요합니다. 신용카드는 관련이 없습니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch08_set09_001",
+          "type": "multiple_choice",
+          "question": "관광 목적으로 입국할 때 심사관의 방문 목적 질문에 답하는 세 가지 표현 중 하나가 아닌 것은?",
+          "options": [
+            "Tourism.",
+            "I'm here for sightseeing.",
+            "I'm on vacation.",
+            "I'm here on business."
+          ],
+          "answerIndex": 3,
+          "explanation": "'I'm here on business.'는 출장 목적을 나타냅니다. 관광 목적의 표현은 'Tourism.', 'I'm here for sightseeing.', 'I'm on vacation.' 등입니다."
+        },
+        {
+          "id": "se_ch08_set09_002",
+          "type": "multiple_choice",
+          "question": "심사관이 체류 기간을 묻는 'How long will you stay?'에 대해 나라를 여기저기 돌아볼 예정이라고 답하는 표현은?",
+          "options": [
+            "I'll be touring the country.",
+            "I'll stay at one hotel only.",
+            "I'm flying out tomorrow.",
+            "I have a conference to attend."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll be touring the country.'는 나라를 돌아다닐 계획이라는 표현입니다. 체류 기간과 함께 구체적인 여행 계획을 말하면 심사관에게 좋은 인상을 줍니다."
+        },
+        {
+          "id": "se_ch08_set09_003",
+          "type": "multiple_choice",
+          "question": "호텔 위치를 구체적으로 답하는 표현은?",
+          "options": [
+            "I'm staying at the Grand Central Hotel in downtown.",
+            "I'm staying for ten days.",
+            "I'm traveling alone.",
+            "I don't have a hotel yet."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm staying at the Grand Central Hotel in downtown.'처럼 호텔명과 위치를 함께 말하면 심사 진행이 원활해집니다."
+        },
+        {
+          "id": "se_ch08_set09_004",
+          "type": "multiple_choice",
+          "question": "'May I see it, please?'라고 요청받은 여행자의 적절한 대응은?",
+          "options": [
+            "Sure, here's my e-ticket.",
+            "I don't have it with me.",
+            "I'll find it later.",
+            "Please wait outside."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Sure, here's my e-ticket.'는 전자 항공권을 건네는 자연스러운 대응입니다. 항공권을 스마트폰에서 꺼내 바로 보여주면 됩니다."
+        },
+        {
+          "id": "se_ch08_set09_005",
+          "type": "multiple_choice",
+          "question": "수하물 수취 시 카루셀 번호를 확인하는 방법이 아닌 것은?",
+          "options": [
+            "공항 안내 전광판 확인",
+            "직원에게 항공편 번호로 물어보기",
+            "여권의 입국 도장 확인",
+            "'Check the screens for updates.'를 따르기"
+          ],
+          "answerIndex": 2,
+          "explanation": "여권의 입국 도장에는 카루셀 번호 정보가 없습니다. 전광판, 직원 문의, 화면 확인 등의 방법으로 번호를 확인합니다."
+        },
+        {
+          "id": "se_ch08_set09_006",
+          "type": "multiple_choice",
+          "question": "수하물 수취 대기 중 벨트가 멈췄는데 내 짐이 없을 때 할 수 있는 말은?",
+          "options": [
+            "I'd like to check in my bag.",
+            "My bag is missing.",
+            "My bag is too heavy.",
+            "I need a bigger suitcase."
+          ],
+          "answerIndex": 1,
+          "explanation": "'My bag is missing.'은 짐이 없어졌다는 표현입니다. 'My bag didn't come out.'이나 'My luggage hasn't arrived.'도 같은 상황에 사용합니다."
+        },
+        {
+          "id": "se_ch08_set09_007",
+          "type": "multiple_choice",
+          "question": "분실 신고 시 직원이 보고서를 작성하겠다고 말하는 표현은?",
+          "options": [
+            "Let me file a report.",
+            "Let me check your passport.",
+            "Let me call the pilot.",
+            "Let me open your bag."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me file a report.'는 직원이 분실 신고 보고서를 작성하겠다는 표현입니다. 'file'은 공식 문서를 제출하거나 접수하다는 뜻입니다."
+        },
+        {
+          "id": "se_ch08_set09_008",
+          "type": "multiple_choice",
+          "question": "세관에서 신고할 것이 없다는 표현으로 적절하지 않은 것은?",
+          "options": [
+            "Nothing to declare.",
+            "I have nothing to declare.",
+            "No, I don't have anything to declare.",
+            "I have something to declare."
+          ],
+          "answerIndex": 3,
+          "explanation": "'I have something to declare.'는 신고할 물품이 있다는 표현입니다. 신고할 것이 없을 때는 나머지 세 표현을 사용합니다."
+        },
+        {
+          "id": "se_ch08_set09_009",
+          "type": "multiple_choice",
+          "question": "세관에서 관세 대상 물품을 묻는 표현은?",
+          "options": [
+            "Are you carrying any dutiable items?",
+            "How long will you stay?",
+            "Where is your hotel?",
+            "Do you have a return ticket?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Are you carrying any dutiable items?'는 관세 대상 물품을 가지고 있는지 묻는 세관 표현입니다. 'Do you have anything to declare?'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch08_set09_010",
+          "type": "multiple_choice",
+          "question": "세관 신고 물품 유무에 관계없이 모든 여행자가 통과해야 하는 곳은?",
+          "options": [
+            "check-in counter",
+            "customs",
+            "boarding gate",
+            "departure lounge"
+          ],
+          "answerIndex": 1,
+          "explanation": "모든 입국 여행자는 'customs(세관)'을 통과해야 합니다. 신고 물품 유무에 따라 green 또는 red channel 중 하나를 선택합니다."
+        },
+        {
+          "id": "se_ch08_set09_011",
+          "type": "multiple_choice",
+          "question": "수입 물품에 부과되는 관세를 영어로 무엇이라 하나요?",
+          "options": [
+            "service charge",
+            "duty",
+            "tip",
+            "tax refund"
+          ],
+          "answerIndex": 1,
+          "explanation": "'duty'는 수입품에 부과되는 관세를 뜻합니다. 'Do I have to pay duty on this?'처럼 사용하며, 면세 한도를 초과하면 납부해야 합니다."
+        },
+        {
+          "id": "se_ch08_set09_012",
+          "type": "multiple_choice",
+          "question": "세관 통과 후 느낀 점으로 가장 현명한 판단은?",
+          "options": [
+            "불확실한 물품은 신고 없이 통과하는 것이 빠르다.",
+            "신고할 물품이 있어도 녹색 통로를 이용하면 된다.",
+            "불확실한 물품은 안전하게 신고하는 것이 낫다.",
+            "세관에서는 항상 가방을 열어 보여줘야 한다."
+          ],
+          "answerIndex": 2,
+          "explanation": "불확실한 경우 'I'll declare it just to be safe.'처럼 안전하게 신고하는 것이 현명합니다. 미신고 적발 시 벌금이 부과될 수 있습니다."
+        },
+        {
+          "id": "se_ch08_set09_013",
+          "type": "ox",
+          "question": "'round-trip ticket'과 'return ticket'은 같은 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'round-trip ticket'과 'return ticket'은 모두 출발지로 돌아오는 왕복 항공권을 뜻합니다."
+        },
+        {
+          "id": "se_ch08_set09_014",
+          "type": "ox",
+          "question": "수하물 파손 신고는 공항을 나간 후에도 언제든지 할 수 있다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 수하물 파손 신고는 공항 수취대에서 짐을 받은 후 즉시 'baggage service desk'에서 해야 합니다. 공항을 벗어나면 처리가 어려워질 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch08_set10_001",
+          "type": "multiple_choice",
+          "question": "입국 심사에서 'Here you are.'와 같은 의미의 표현은?",
+          "options": [
+            "Here you go.",
+            "Here we come.",
+            "There you are.",
+            "Over here."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Here you go.'와 'Here you are.'는 모두 물건을 건네며 '여기 있습니다'라는 뜻으로 사용됩니다. 'Here it is.'도 같은 표현입니다."
+        },
+        {
+          "id": "se_ch08_set10_002",
+          "type": "multiple_choice",
+          "question": "심사관이 'What are your plans during your stay?'라고 물었을 때 적절한 답변은?",
+          "options": [
+            "I plan to travel around.",
+            "I'll be flying to Europe.",
+            "I need a longer visa.",
+            "My flight departs at noon."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I plan to travel around.'는 여기저기 여행할 계획이라는 적절한 답변입니다. 구체적인 관광지나 도시를 언급해도 좋습니다."
+        },
+        {
+          "id": "se_ch08_set10_003",
+          "type": "multiple_choice",
+          "question": "심사관이 숙소 주소를 물을 때 사용하는 표현이 아닌 것은?",
+          "options": [
+            "Where are you staying?",
+            "What's your address while you're here?",
+            "Where will you be staying during your visit?",
+            "Where are you flying from?"
+          ],
+          "answerIndex": 3,
+          "explanation": "'Where are you flying from?'은 출발지를 묻는 질문입니다. 나머지 셋은 모두 숙소 주소를 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch08_set10_004",
+          "type": "multiple_choice",
+          "question": "이달 20일에 귀국한다고 말하는 표현은?",
+          "options": [
+            "I'm returning on the 20th of this month.",
+            "I arrived on the 20th.",
+            "My flight leaves on the 20th of last month.",
+            "I'll stay until the 20th of next year."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm returning on the 20th of this month.'는 이달 20일에 귀국한다는 표현입니다. 'My return flight is on the 20th.'도 같은 의미입니다."
+        },
+        {
+          "id": "se_ch08_set10_005",
+          "type": "multiple_choice",
+          "question": "'Where do I pick up my luggage?'를 직원에게 묻는 상황에서 직원의 올바른 안내는?",
+          "options": [
+            "Go to the departure gate.",
+            "Go straight ahead and follow the signs.",
+            "Go through security again.",
+            "Go to the check-in counter."
+          ],
+          "answerIndex": 1,
+          "explanation": "수하물 수취대 위치를 물으면 'Go straight ahead and follow the signs.'처럼 직진 후 표지판을 따르라고 안내합니다."
+        },
+        {
+          "id": "se_ch08_set10_006",
+          "type": "multiple_choice",
+          "question": "수하물 수취대에서 내 짐이 없을 때 직원에게 처음으로 해야 할 행동은?",
+          "options": [
+            "바로 항공사 앱을 삭제한다.",
+            "다른 승객의 짐을 가져간다.",
+            "baggage service desk에 가서 분실 신고를 한다.",
+            "짐 없이 그냥 나간다."
+          ],
+          "answerIndex": 2,
+          "explanation": "짐이 나오지 않으면 즉시 'baggage service desk'에 가서 분실 신고를 해야 합니다. 수하물 태그와 여권을 지참해야 합니다."
+        },
+        {
+          "id": "se_ch08_set10_007",
+          "type": "multiple_choice",
+          "question": "수하물 파손의 구체적인 표현으로 맞는 것은?",
+          "options": [
+            "My bag is overweight.",
+            "My suitcase is too small.",
+            "My bag is missing.",
+            "The wheel is broken."
+          ],
+          "answerIndex": 3,
+          "explanation": "'The wheel is broken.'은 바퀴가 부러졌다는 파손 상태를 구체적으로 설명하는 표현입니다. 'My suitcase is damaged.'와 함께 사용합니다."
+        },
+        {
+          "id": "se_ch08_set10_008",
+          "type": "multiple_choice",
+          "question": "'Nothing to declare.'를 영어의 다른 방식으로 표현하면?",
+          "options": [
+            "I need to use the red channel.",
+            "No, I don't have anything to declare.",
+            "I have gifts to show you.",
+            "I should pay duty on this."
+          ],
+          "answerIndex": 1,
+          "explanation": "'No, I don't have anything to declare.'는 'Nothing to declare.'를 풀어 쓴 표현입니다. 세관에서 신고할 물품이 없다는 뜻입니다."
+        },
+        {
+          "id": "se_ch08_set10_009",
+          "type": "multiple_choice",
+          "question": "세관에서 'Is there anything in your bag I should know about?'와 동일한 의미의 표현은?",
+          "options": [
+            "Do you have anything to declare?",
+            "How much does your bag weigh?",
+            "Can I see your boarding pass?",
+            "Where did you buy that bag?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there anything in your bag I should know about?'와 'Do you have anything to declare?'는 모두 신고할 물품이 있는지 묻는 세관 표현입니다."
+        },
+        {
+          "id": "se_ch08_set10_010",
+          "type": "multiple_choice",
+          "question": "면세 허용액을 뜻하는 표현은?",
+          "options": [
+            "tax-free allowance",
+            "carry-on weight limit",
+            "baggage fee",
+            "departure tax"
+          ],
+          "answerIndex": 0,
+          "explanation": "'tax-free allowance(면세 허용액)'는 관세 없이 반입 가능한 물품 금액의 한도입니다. 'duty-free limit', 'customs allowance'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch08_set10_011",
+          "type": "multiple_choice",
+          "question": "집에서 가져온 포장된 과자를 세관에 신고해야 하는지 물을 때 사용하는 표현은?",
+          "options": [
+            "Are they allowed?",
+            "Are they on sale?",
+            "Can I eat them here?",
+            "Did I pay tax on them?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Are they allowed?'는 물건의 반입 허용 여부를 묻는 표현입니다. 'Is this permitted?'나 'Can I bring this through customs?'도 사용할 수 있습니다."
+        },
+        {
+          "id": "se_ch08_set10_012",
+          "type": "multiple_choice",
+          "question": "세관 신고를 해야 하는 물품의 예시로 올바른 것은?",
+          "options": [
+            "여권",
+            "탑승권",
+            "면세 한도를 초과하는 선물",
+            "현지 화폐로 환전한 금액"
+          ],
+          "answerIndex": 2,
+          "explanation": "면세 한도(duty-free limit)를 초과하는 선물은 세관에 신고해야 합니다. 이 경우 red channel을 이용하고 관세를 납부해야 할 수 있습니다."
+        },
+        {
+          "id": "se_ch08_set10_013",
+          "type": "ox",
+          "question": "입국 심사에서 숙소 예약 확인서(reservation confirmation)를 요청받을 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 심사관은 숙소를 확인하기 위해 'Do you have a reservation confirmation?'이라고 예약 확인서를 요청할 수 있습니다."
+        },
+        {
+          "id": "se_ch08_set10_014",
+          "type": "ox",
+          "question": "'carousel'은 공항 출발 로비의 체크인 카운터를 의미한다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'carousel'은 수하물 수취대에서 짐이 돌아나오는 컨베이어 벨트를 뜻합니다. 체크인 카운터는 'check-in counter'입니다."
+        }
+      ]
     }
   ]
 }

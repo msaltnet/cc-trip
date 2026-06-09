@@ -7,34 +7,68 @@
       "id": "ch16_d01",
       "title": "기차표 구매하기",
       "lines": [
-        { "speaker": "나", "en": "Hi, I'd like a ticket to Edinburgh, please.", "ko": "안녕하세요, 에든버러행 티켓 한 장 주세요." },
-        { "speaker": "직원", "en": "Single or return?", "ko": "편도인가요, 왕복인가요?" },
-        { "speaker": "나", "en": "A single, please. And can I reserve a seat?", "ko": "편도로 주세요. 그리고 좌석 예약도 할 수 있나요?" },
-        { "speaker": "직원", "en": "Of course. Window or aisle?", "ko": "물론이죠. 창가 자리로 드릴까요, 통로 쪽으로 드릴까요?" }
+        {
+          "speaker": "나",
+          "en": "Hi, I'd like a ticket to Edinburgh, please.",
+          "ko": "안녕하세요, 에든버러행 티켓 한 장 주세요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Single or return?",
+          "ko": "편도인가요, 왕복인가요?"
+        },
+        {
+          "speaker": "나",
+          "en": "A single, please. And can I reserve a seat?",
+          "ko": "편도로 주세요. 그리고 좌석 예약도 할 수 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Of course. Window or aisle?",
+          "ko": "물론이죠. 창가 자리로 드릴까요, 통로 쪽으로 드릴까요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'd like a ticket to Edinburgh, please.",
           "ko": "목적지행 티켓을 달라는 정중한 요청. 'I want a ticket'보다 'I'd like ~'이 더 정중하고 자연스러움. 목적지 앞에 'to'를 붙임.",
           "alternatives": [
-            { "en": "Can I get a ticket to Edinburgh?", "ko": "조금 더 캐주얼한 방식의 티켓 요청 표현." },
-            { "en": "One ticket to Edinburgh, please.", "ko": "매우 짧고 실용적인 표현. 매표소에서 바로 쓸 수 있음." }
+            {
+              "en": "Can I get a ticket to Edinburgh?",
+              "ko": "조금 더 캐주얼한 방식의 티켓 요청 표현."
+            },
+            {
+              "en": "One ticket to Edinburgh, please.",
+              "ko": "매우 짧고 실용적인 표현. 매표소에서 바로 쓸 수 있음."
+            }
           ]
         },
         {
           "en": "Single or return?",
           "ko": "편도(single)와 왕복(return)을 묻는 표현. 미국식 영어로는 'one-way or round trip?'이라고 함. 영국·유럽 기차역에서는 'single/return'이 일반적.",
           "alternatives": [
-            { "en": "One-way or round trip?", "ko": "미국식 영어 표현. 뜻은 single/return과 동일." },
-            { "en": "Just one way, or coming back?", "ko": "좀 더 캐주얼하게 묻는 표현." }
+            {
+              "en": "One-way or round trip?",
+              "ko": "미국식 영어 표현. 뜻은 single/return과 동일."
+            },
+            {
+              "en": "Just one way, or coming back?",
+              "ko": "좀 더 캐주얼하게 묻는 표현."
+            }
           ]
         },
         {
           "en": "Can I reserve a seat?",
           "ko": "좌석 예약을 요청하는 표현. 유럽 일부 노선은 예약이 필수이고, 일부는 선택 사항. 티켓 구매 시 함께 요청하는 것이 편리함.",
           "alternatives": [
-            { "en": "I'd like to reserve a seat, please.", "ko": "더 격식 있는 좌석 예약 요청 표현." },
-            { "en": "Is seat reservation included?", "ko": "좌석 예약이 티켓에 포함돼 있는지 확인하는 표현." }
+            {
+              "en": "I'd like to reserve a seat, please.",
+              "ko": "더 격식 있는 좌석 예약 요청 표현."
+            },
+            {
+              "en": "Is seat reservation included?",
+              "ko": "좌석 예약이 티켓에 포함돼 있는지 확인하는 표현."
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch16_d02",
       "title": "플랫폼 확인하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, which platform is the train to Paris?", "ko": "실례합니다, 파리행 기차는 몇 번 플랫폼인가요?" },
-        { "speaker": "직원", "en": "Platform 7. But check the board — it can change.", "ko": "7번 플랫폼이에요. 하지만 전광판을 확인하세요 — 변경될 수 있어요." },
-        { "speaker": "나", "en": "Is this the train to Paris?", "ko": "이 기차가 파리행 맞나요?" },
-        { "speaker": "직원", "en": "Yes, that's correct. Boarding now.", "ko": "네, 맞습니다. 지금 탑승 중이에요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, which platform is the train to Paris?",
+          "ko": "실례합니다, 파리행 기차는 몇 번 플랫폼인가요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Platform 7. But check the board — it can change.",
+          "ko": "7번 플랫폼이에요. 하지만 전광판을 확인하세요 — 변경될 수 있어요."
+        },
+        {
+          "speaker": "나",
+          "en": "Is this the train to Paris?",
+          "ko": "이 기차가 파리행 맞나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, that's correct. Boarding now.",
+          "ko": "네, 맞습니다. 지금 탑승 중이에요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Which platform is the train to Paris?",
           "ko": "목적지행 기차의 플랫폼 번호를 묻는 표현. 'Where does the train leave from?'이라고도 할 수 있음. 플랫폼은 기차·지하철을 타고 내리는 승강장.",
           "alternatives": [
-            { "en": "Which platform does the train to Paris leave from?", "ko": "더 문법적으로 완전한 형태의 플랫폼 질문." },
-            { "en": "What platform for Paris?", "ko": "매우 짧고 직관적인 표현. 급할 때 쓰기 좋음." }
+            {
+              "en": "Which platform does the train to Paris leave from?",
+              "ko": "더 문법적으로 완전한 형태의 플랫폼 질문."
+            },
+            {
+              "en": "What platform for Paris?",
+              "ko": "매우 짧고 직관적인 표현. 급할 때 쓰기 좋음."
+            }
           ]
         },
         {
           "en": "Is this the train to Paris?",
           "ko": "눈앞의 기차가 목적지행이 맞는지 확인하는 표현. 플랫폼을 찾은 뒤 탑승 전 반드시 확인하는 습관을 들이자. 'Is this the right train?'도 같은 상황에 사용 가능.",
           "alternatives": [
-            { "en": "Does this train go to Paris?", "ko": "같은 뜻의 약간 다른 표현 구조." },
-            { "en": "Is this the right train?", "ko": "목적지를 언급하지 않고 맞는 기차인지 확인하는 표현." }
+            {
+              "en": "Does this train go to Paris?",
+              "ko": "같은 뜻의 약간 다른 표현 구조."
+            },
+            {
+              "en": "Is this the right train?",
+              "ko": "목적지를 언급하지 않고 맞는 기차인지 확인하는 표현."
+            }
           ]
         },
         {
           "en": "Check the board.",
           "ko": "전광판(departure board)을 확인하라는 조언. 유럽 기차역은 출발 직전에 플랫폼이 바뀌는 경우가 많으므로 항상 전광판을 확인해야 함.",
           "alternatives": [
-            { "en": "Check the departure board.", "ko": "출발 전광판을 확인하라는 더 구체적인 표현." },
-            { "en": "Keep an eye on the screen.", "ko": "화면을 계속 주시하라는 표현." }
+            {
+              "en": "Check the departure board.",
+              "ko": "출발 전광판을 확인하라는 더 구체적인 표현."
+            },
+            {
+              "en": "Keep an eye on the screen.",
+              "ko": "화면을 계속 주시하라는 표현."
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch16_d03",
       "title": "좌석 찾기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, I'm looking for seat 24A.", "ko": "실례합니다, 24A 좌석을 찾고 있어요." },
-        { "speaker": "승무원", "en": "That's in the next carriage, on the left.", "ko": "다음 칸에 있어요, 왼쪽이에요." },
-        { "speaker": "나", "en": "Thank you. Is this a reserved seat?", "ko": "감사합니다. 이 자리가 예약석인가요?" },
-        { "speaker": "승무원", "en": "Yes, all seats in this carriage are reserved.", "ko": "네, 이 칸의 좌석은 모두 예약석이에요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, I'm looking for seat 24A.",
+          "ko": "실례합니다, 24A 좌석을 찾고 있어요."
+        },
+        {
+          "speaker": "승무원",
+          "en": "That's in the next carriage, on the left.",
+          "ko": "다음 칸에 있어요, 왼쪽이에요."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you. Is this a reserved seat?",
+          "ko": "감사합니다. 이 자리가 예약석인가요?"
+        },
+        {
+          "speaker": "승무원",
+          "en": "Yes, all seats in this carriage are reserved.",
+          "ko": "네, 이 칸의 좌석은 모두 예약석이에요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'm looking for seat 24A.",
           "ko": "특정 좌석을 찾고 있다는 표현. 'Where is seat 24A?'라고도 할 수 있음. 'carriage(차량, 칸)'는 열차의 객차 하나를 뜻하며, 영국식 영어에서 자주 사용됨.",
           "alternatives": [
-            { "en": "Where is seat 24A?", "ko": "좌석 위치를 직접 묻는 더 간결한 표현." },
-            { "en": "Can you help me find my seat?", "ko": "자리를 찾는 데 도움을 요청하는 표현." }
+            {
+              "en": "Where is seat 24A?",
+              "ko": "좌석 위치를 직접 묻는 더 간결한 표현."
+            },
+            {
+              "en": "Can you help me find my seat?",
+              "ko": "자리를 찾는 데 도움을 요청하는 표현."
+            }
           ]
         },
         {
           "en": "Is this a reserved seat?",
           "ko": "예약석 여부를 확인하는 표현. 유럽 고속열차에서는 reserved seat(예약 좌석)와 unreserved seat(자유석)이 구분됨. 예약석에 무단으로 앉으면 이동 요청을 받을 수 있음.",
           "alternatives": [
-            { "en": "Is this seat taken?", "ko": "이 자리를 누가 쓰고 있는지 확인하는 표현. 주로 모르는 사람에게 사용." },
-            { "en": "Do I need a reservation for this seat?", "ko": "이 좌석에 예약이 필요한지 묻는 표현." }
+            {
+              "en": "Is this seat taken?",
+              "ko": "이 자리를 누가 쓰고 있는지 확인하는 표현. 주로 모르는 사람에게 사용."
+            },
+            {
+              "en": "Do I need a reservation for this seat?",
+              "ko": "이 좌석에 예약이 필요한지 묻는 표현."
+            }
           ]
         },
         {
           "en": "In the next carriage, on the left.",
           "ko": "다음 칸 왼쪽에 있다는 위치 안내. 'carriage'는 영국식, 'car' 또는 'coach'는 미국식 표현. 열차 안에서 방향을 안내할 때 on the left/right을 자주 씀.",
           "alternatives": [
-            { "en": "It's in the next car, on your left.", "ko": "미국식 표현인 'car'를 사용한 같은 뜻의 문장." },
-            { "en": "Go through to the next coach.", "ko": "다음 칸으로 이동하라는 더 구체적인 지시." }
+            {
+              "en": "It's in the next car, on your left.",
+              "ko": "미국식 표현인 'car'를 사용한 같은 뜻의 문장."
+            },
+            {
+              "en": "Go through to the next coach.",
+              "ko": "다음 칸으로 이동하라는 더 구체적인 지시."
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch16_d04",
       "title": "지정석 자리 분쟁",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, I think this is my seat — 15B.", "ko": "실례합니다, 이 자리가 제 자리인 것 같아요 — 15B요." },
-        { "speaker": "승객", "en": "Oh, sorry. Let me check my ticket.", "ko": "아, 죄송해요. 제 티켓을 확인해볼게요." },
-        { "speaker": "승객", "en": "You're right, my seat is 15C. My mistake.", "ko": "맞아요, 제 자리는 15C네요. 제가 실수했어요." },
-        { "speaker": "나", "en": "No problem at all. Happens to everyone.", "ko": "전혀 괜찮아요. 누구나 그럴 수 있죠." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, I think this is my seat — 15B.",
+          "ko": "실례합니다, 이 자리가 제 자리인 것 같아요 — 15B요."
+        },
+        {
+          "speaker": "승객",
+          "en": "Oh, sorry. Let me check my ticket.",
+          "ko": "아, 죄송해요. 제 티켓을 확인해볼게요."
+        },
+        {
+          "speaker": "승객",
+          "en": "You're right, my seat is 15C. My mistake.",
+          "ko": "맞아요, 제 자리는 15C네요. 제가 실수했어요."
+        },
+        {
+          "speaker": "나",
+          "en": "No problem at all. Happens to everyone.",
+          "ko": "전혀 괜찮아요. 누구나 그럴 수 있죠."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I think this is my seat.",
           "ko": "자신의 자리임을 주장하되 직접 충돌을 피하는 정중한 표현. 'This is my seat!'처럼 단정하면 공격적으로 들릴 수 있으므로 'I think ~'로 부드럽게 시작하는 것이 핵심.",
           "alternatives": [
-            { "en": "I believe this is my seat.", "ko": "'I think'보다 약간 더 확신 있는 표현이지만 여전히 정중함." },
-            { "en": "Excuse me, my ticket says 15B.", "ko": "티켓을 근거로 자연스럽게 자신의 자리를 주장하는 방법." }
+            {
+              "en": "I believe this is my seat.",
+              "ko": "'I think'보다 약간 더 확신 있는 표현이지만 여전히 정중함."
+            },
+            {
+              "en": "Excuse me, my ticket says 15B.",
+              "ko": "티켓을 근거로 자연스럽게 자신의 자리를 주장하는 방법."
+            }
           ]
         },
         {
           "en": "Let me check my ticket.",
           "ko": "자신의 티켓을 확인해보겠다는 표현. 분쟁 상황에서 티켓을 꺼내 확인하는 것이 가장 빠른 해결책. 'Let me ~'는 스스로 행동하겠다는 자연스러운 표현.",
           "alternatives": [
-            { "en": "Let me have a look at my ticket.", "ko": "같은 뜻의 약간 더 영국식 표현." },
-            { "en": "One moment, I'll check.", "ko": "잠시 확인해보겠다는 짧은 표현." }
+            {
+              "en": "Let me have a look at my ticket.",
+              "ko": "같은 뜻의 약간 더 영국식 표현."
+            },
+            {
+              "en": "One moment, I'll check.",
+              "ko": "잠시 확인해보겠다는 짧은 표현."
+            }
           ]
         },
         {
           "en": "No problem at all.",
           "ko": "전혀 문제없다는 표현. 상대방이 사과했을 때 받아치는 가장 자연스럽고 친절한 표현. 'It's fine'이나 'Don't worry about it'도 같은 맥락에서 사용 가능.",
           "alternatives": [
-            { "en": "Don't worry about it.", "ko": "걱정하지 말라는 편안한 위로 표현." },
-            { "en": "It's fine, honestly.", "ko": "정말 괜찮다는 뜻을 강조하는 표현." }
+            {
+              "en": "Don't worry about it.",
+              "ko": "걱정하지 말라는 편안한 위로 표현."
+            },
+            {
+              "en": "It's fine, honestly.",
+              "ko": "정말 괜찮다는 뜻을 강조하는 표현."
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch16_d05",
       "title": "환승역 묻기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, where do I change trains for Amsterdam?", "ko": "실례합니다, 암스테르담 가려면 어디서 환승해야 하나요?" },
-        { "speaker": "직원", "en": "You change at Brussels. Platform 3.", "ko": "브뤼셀에서 환승하세요. 3번 플랫폼이에요." },
-        { "speaker": "나", "en": "And how long is the connection?", "ko": "환승 시간은 얼마나 되나요?" },
-        { "speaker": "직원", "en": "Twenty minutes. Plenty of time.", "ko": "20분이요. 충분해요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, where do I change trains for Amsterdam?",
+          "ko": "실례합니다, 암스테르담 가려면 어디서 환승해야 하나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "You change at Brussels. Platform 3.",
+          "ko": "브뤼셀에서 환승하세요. 3번 플랫폼이에요."
+        },
+        {
+          "speaker": "나",
+          "en": "And how long is the connection?",
+          "ko": "환승 시간은 얼마나 되나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Twenty minutes. Plenty of time.",
+          "ko": "20분이요. 충분해요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Where do I change trains for Amsterdam?",
           "ko": "환승 장소를 묻는 핵심 표현. 'change trains'는 다른 열차로 갈아탄다는 뜻. 목적지 앞에 'for'를 붙임. 'transfer'도 같은 뜻으로 'Where do I transfer?'도 자연스러움.",
           "alternatives": [
-            { "en": "Where do I transfer for Amsterdam?", "ko": "'transfer'를 사용한 같은 뜻의 표현. 지하철에서도 사용 가능." },
-            { "en": "Do I need to change trains to get to Amsterdam?", "ko": "환승이 필요한지부터 확인하는 표현." }
+            {
+              "en": "Where do I transfer for Amsterdam?",
+              "ko": "'transfer'를 사용한 같은 뜻의 표현. 지하철에서도 사용 가능."
+            },
+            {
+              "en": "Do I need to change trains to get to Amsterdam?",
+              "ko": "환승이 필요한지부터 확인하는 표현."
+            }
           ]
         },
         {
           "en": "How long is the connection?",
           "ko": "환승 대기 시간을 묻는 표현. 'connection'은 이 맥락에서 환승 연결 시간을 의미함. 'How much time do I have to change trains?'도 같은 뜻.",
           "alternatives": [
-            { "en": "How much time do I have to change trains?", "ko": "환승 시간을 보다 구체적으로 묻는 표현." },
-            { "en": "Is twenty minutes enough time to transfer?", "ko": "주어진 시간이 충분한지 확인하는 표현." }
+            {
+              "en": "How much time do I have to change trains?",
+              "ko": "환승 시간을 보다 구체적으로 묻는 표현."
+            },
+            {
+              "en": "Is twenty minutes enough time to transfer?",
+              "ko": "주어진 시간이 충분한지 확인하는 표현."
+            }
           ]
         },
         {
           "en": "You change at Brussels.",
           "ko": "환승 장소를 알려주는 표현. 'You change at + 역 이름' 패턴을 기억해두면 여행 중 안내를 쉽게 이해할 수 있음. 'change' 다음에 'trains'를 생략하기도 함.",
           "alternatives": [
-            { "en": "Transfer at Brussels Central.", "ko": "구체적인 역 이름을 포함한 환승 안내 표현." },
-            { "en": "Get off at Brussels and catch the next train.", "ko": "브뤼셀에서 내려 다음 기차를 타라는 좀 더 풀어쓴 표현." }
+            {
+              "en": "Transfer at Brussels Central.",
+              "ko": "구체적인 역 이름을 포함한 환승 안내 표현."
+            },
+            {
+              "en": "Get off at Brussels and catch the next train.",
+              "ko": "브뤼셀에서 내려 다음 기차를 타라는 좀 더 풀어쓴 표현."
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch16_d06",
       "title": "연착 안내",
       "lines": [
-        { "speaker": "승무원", "en": "Ladies and gentlemen, this train is delayed by approximately thirty minutes.", "ko": "승객 여러분, 이 기차는 약 30분 연착됩니다." },
-        { "speaker": "나", "en": "Excuse me, will I miss my connection in Cologne?", "ko": "실례합니다, 쾰른에서 환승 열차를 놓치는 건 아닐까요?" },
-        { "speaker": "승무원", "en": "Let me check your ticket. Yes, we'll hold your connection.", "ko": "티켓 확인해 드릴게요. 네, 환승 열차를 기다리게 할 거예요." },
-        { "speaker": "나", "en": "That's a relief. Thank you.", "ko": "다행이네요. 감사합니다." }
+        {
+          "speaker": "승무원",
+          "en": "Ladies and gentlemen, this train is delayed by approximately thirty minutes.",
+          "ko": "승객 여러분, 이 기차는 약 30분 연착됩니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Excuse me, will I miss my connection in Cologne?",
+          "ko": "실례합니다, 쾰른에서 환승 열차를 놓치는 건 아닐까요?"
+        },
+        {
+          "speaker": "승무원",
+          "en": "Let me check your ticket. Yes, we'll hold your connection.",
+          "ko": "티켓 확인해 드릴게요. 네, 환승 열차를 기다리게 할 거예요."
+        },
+        {
+          "speaker": "나",
+          "en": "That's a relief. Thank you.",
+          "ko": "다행이네요. 감사합니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "This train is delayed by approximately thirty minutes.",
           "ko": "열차 연착 안내 표현. 'delayed'는 연착·지연됐다는 뜻. 'by + 시간'으로 얼마나 늦는지를 나타냄. 'cancelled'(운행 취소)와 혼동하지 않도록 주의.",
           "alternatives": [
-            { "en": "The train is running thirty minutes late.", "ko": "같은 뜻의 더 캐주얼한 연착 안내 표현." },
-            { "en": "We're experiencing a delay of about half an hour.", "ko": "공식 방송에서 자주 쓰이는 더 격식 있는 표현." }
+            {
+              "en": "The train is running thirty minutes late.",
+              "ko": "같은 뜻의 더 캐주얼한 연착 안내 표현."
+            },
+            {
+              "en": "We're experiencing a delay of about half an hour.",
+              "ko": "공식 방송에서 자주 쓰이는 더 격식 있는 표현."
+            }
           ]
         },
         {
           "en": "Will I miss my connection?",
           "ko": "환승 열차를 놓칠 것 같은지 걱정할 때 쓰는 표현. 'miss'는 버스·기차 등을 놓치다는 뜻. 연착 상황에서 승무원에게 반드시 물어봐야 하는 질문.",
           "alternatives": [
-            { "en": "I'm worried about missing my connecting train.", "ko": "환승 열차를 놓칠까 봐 걱정된다는 표현." },
-            { "en": "Is there a risk I'll miss my transfer?", "ko": "환승을 놓칠 위험이 있는지 확인하는 표현." }
+            {
+              "en": "I'm worried about missing my connecting train.",
+              "ko": "환승 열차를 놓칠까 봐 걱정된다는 표현."
+            },
+            {
+              "en": "Is there a risk I'll miss my transfer?",
+              "ko": "환승을 놓칠 위험이 있는지 확인하는 표현."
+            }
           ]
         },
         {
           "en": "We'll hold your connection.",
           "ko": "환승 열차를 기다리게 하겠다는 표현. 'hold'는 출발을 지연시켜 기다린다는 뜻. 연착 시 승무원에게 환승 상황을 알리면 이런 조치를 취해주는 경우가 있음.",
           "alternatives": [
-            { "en": "Your connecting train will wait for you.", "ko": "환승 열차가 기다려줄 것이라는 안심 표현." },
-            { "en": "We'll make sure you catch your next train.", "ko": "다음 열차를 탈 수 있도록 도와주겠다는 표현." }
+            {
+              "en": "Your connecting train will wait for you.",
+              "ko": "환승 열차가 기다려줄 것이라는 안심 표현."
+            },
+            {
+              "en": "We'll make sure you catch your next train.",
+              "ko": "다음 열차를 탈 수 있도록 도와주겠다는 표현."
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch16_d07",
       "title": "검표",
       "lines": [
-        { "speaker": "승무원", "en": "Tickets, please.", "ko": "티켓 확인하겠습니다." },
-        { "speaker": "나", "en": "Here you go. It's on my phone.", "ko": "여기요. 휴대폰에 있어요." },
-        { "speaker": "승무원", "en": "Could you turn up the brightness, please?", "ko": "화면 밝기를 좀 높여주시겠어요?" },
-        { "speaker": "나", "en": "Of course, sorry about that.", "ko": "물론이죠, 죄송합니다." }
+        {
+          "speaker": "승무원",
+          "en": "Tickets, please.",
+          "ko": "티켓 확인하겠습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Here you go. It's on my phone.",
+          "ko": "여기요. 휴대폰에 있어요."
+        },
+        {
+          "speaker": "승무원",
+          "en": "Could you turn up the brightness, please?",
+          "ko": "화면 밝기를 좀 높여주시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Of course, sorry about that.",
+          "ko": "물론이죠, 죄송합니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Tickets, please.",
           "ko": "승무원이 승차권을 확인할 때 쓰는 표현. 기차에서는 'ticket', 비행기에서는 'boarding pass'라고 함. 이 말을 들으면 티켓 또는 모바일 티켓을 즉시 보여주면 됨.",
           "alternatives": [
-            { "en": "Can I see your ticket, please?", "ko": "승무원이 더 정중하게 요청할 때 쓰는 표현." },
-            { "en": "May I check your ticket?", "ko": "격식 있는 검표 요청 표현." }
+            {
+              "en": "Can I see your ticket, please?",
+              "ko": "승무원이 더 정중하게 요청할 때 쓰는 표현."
+            },
+            {
+              "en": "May I check your ticket?",
+              "ko": "격식 있는 검표 요청 표현."
+            }
           ]
         },
         {
           "en": "It's on my phone.",
           "ko": "티켓이 스마트폰에 있다는 표현. 요즘은 e-ticket(전자 티켓)을 사용하는 경우가 많음. 미리 화면을 켜두거나 스크린샷을 저장해두는 것이 좋음.",
           "alternatives": [
-            { "en": "I have an e-ticket on my phone.", "ko": "전자 티켓임을 명확히 알리는 표현." },
-            { "en": "Let me pull it up.", "ko": "앱에서 티켓을 불러오겠다는 표현." }
+            {
+              "en": "I have an e-ticket on my phone.",
+              "ko": "전자 티켓임을 명확히 알리는 표현."
+            },
+            {
+              "en": "Let me pull it up.",
+              "ko": "앱에서 티켓을 불러오겠다는 표현."
+            }
           ]
         },
         {
           "en": "Could you turn up the brightness, please?",
           "ko": "화면 밝기를 높여달라는 요청. 모바일 티켓 확인 시 자주 듣게 되는 말. 미리 밝기를 높여두면 검표가 더 빠르게 진행됨. 'turn up'은 높이다, 올리다는 뜻.",
           "alternatives": [
-            { "en": "Could you make the screen a bit brighter?", "ko": "화면을 더 밝게 해달라는 같은 뜻의 표현." },
-            { "en": "The screen is a little dark.", "ko": "화면이 어둡다고 간접적으로 알리는 표현." }
+            {
+              "en": "Could you make the screen a bit brighter?",
+              "ko": "화면을 더 밝게 해달라는 같은 뜻의 표현."
+            },
+            {
+              "en": "The screen is a little dark.",
+              "ko": "화면이 어둡다고 간접적으로 알리는 표현."
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch16_d08",
       "title": "식당칸 찾기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, is there a dining car on this train?", "ko": "실례합니다, 이 기차에 식당칸이 있나요?" },
-        { "speaker": "승무원", "en": "Yes, the buffet car is at the back — carriage eight.", "ko": "네, 뷔페 칸은 맨 뒤에 있어요 — 8번 칸이에요." },
-        { "speaker": "나", "en": "Great. Does it serve hot food?", "ko": "좋아요. 따뜻한 음식도 있나요?" },
-        { "speaker": "승무원", "en": "Yes, sandwiches and hot drinks too.", "ko": "네, 샌드위치와 따뜻한 음료도 있어요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, is there a dining car on this train?",
+          "ko": "실례합니다, 이 기차에 식당칸이 있나요?"
+        },
+        {
+          "speaker": "승무원",
+          "en": "Yes, the buffet car is at the back — carriage eight.",
+          "ko": "네, 뷔페 칸은 맨 뒤에 있어요 — 8번 칸이에요."
+        },
+        {
+          "speaker": "나",
+          "en": "Great. Does it serve hot food?",
+          "ko": "좋아요. 따뜻한 음식도 있나요?"
+        },
+        {
+          "speaker": "승무원",
+          "en": "Yes, sandwiches and hot drinks too.",
+          "ko": "네, 샌드위치와 따뜻한 음료도 있어요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is there a dining car on this train?",
           "ko": "식당칸 유무를 묻는 표현. 'dining car'는 식사를 제공하는 객차, 'buffet car'는 간단한 음식·음료를 파는 칸. 유럽 장거리 열차에는 보통 둘 중 하나가 있음.",
           "alternatives": [
-            { "en": "Where is the buffet car?", "ko": "뷔페 칸의 위치를 바로 묻는 표현." },
-            { "en": "Can I get food on this train?", "ko": "기차 안에서 음식을 살 수 있는지 확인하는 표현." }
+            {
+              "en": "Where is the buffet car?",
+              "ko": "뷔페 칸의 위치를 바로 묻는 표현."
+            },
+            {
+              "en": "Can I get food on this train?",
+              "ko": "기차 안에서 음식을 살 수 있는지 확인하는 표현."
+            }
           ]
         },
         {
           "en": "The buffet car is at the back.",
           "ko": "뷔페 칸이 뒤쪽에 있다는 위치 안내. 'at the back'은 맨 뒤 쪽에 있다는 표현. 'at the front'(앞쪽), 'in the middle'(중간)도 함께 기억해두면 유용함.",
           "alternatives": [
-            { "en": "You'll find the dining car at the front of the train.", "ko": "식당칸이 앞쪽에 있다는 안내 표현." },
-            { "en": "It's two carriages back.", "ko": "두 칸 뒤에 있다는 더 구체적인 위치 안내." }
+            {
+              "en": "You'll find the dining car at the front of the train.",
+              "ko": "식당칸이 앞쪽에 있다는 안내 표현."
+            },
+            {
+              "en": "It's two carriages back.",
+              "ko": "두 칸 뒤에 있다는 더 구체적인 위치 안내."
+            }
           ]
         },
         {
           "en": "Does it serve hot food?",
           "ko": "따뜻한 음식이 있는지 묻는 표현. 'serve'는 음식을 제공하다는 뜻. 뷔페 칸은 열차마다 메뉴가 다르므로 미리 확인하는 것이 좋음.",
           "alternatives": [
-            { "en": "Can I get a hot meal there?", "ko": "따뜻한 식사를 먹을 수 있는지 묻는 표현." },
-            { "en": "Do they have anything warm to eat?", "ko": "따뜻한 음식이 있는지 캐주얼하게 묻는 표현." }
+            {
+              "en": "Can I get a hot meal there?",
+              "ko": "따뜻한 식사를 먹을 수 있는지 묻는 표현."
+            },
+            {
+              "en": "Do they have anything warm to eat?",
+              "ko": "따뜻한 음식이 있는지 캐주얼하게 묻는 표현."
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch16_d09",
       "title": "내릴 역 확인하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, is the next stop Bruges?", "ko": "실례합니다, 다음 역이 브뤼헤인가요?" },
-        { "speaker": "승객", "en": "No, Bruges is two more stops.", "ko": "아니요, 브뤼헤는 두 정거장 더 가야 해요." },
-        { "speaker": "나", "en": "Oh, I see. Could you let me know when we get there?", "ko": "아, 그렇군요. 도착하면 알려주실 수 있나요?" },
-        { "speaker": "승객", "en": "Sure, no problem.", "ko": "물론이죠, 괜찮아요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, is the next stop Bruges?",
+          "ko": "실례합니다, 다음 역이 브뤼헤인가요?"
+        },
+        {
+          "speaker": "승객",
+          "en": "No, Bruges is two more stops.",
+          "ko": "아니요, 브뤼헤는 두 정거장 더 가야 해요."
+        },
+        {
+          "speaker": "나",
+          "en": "Oh, I see. Could you let me know when we get there?",
+          "ko": "아, 그렇군요. 도착하면 알려주실 수 있나요?"
+        },
+        {
+          "speaker": "승객",
+          "en": "Sure, no problem.",
+          "ko": "물론이죠, 괜찮아요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is the next stop Bruges?",
           "ko": "다음 역이 특정 목적지인지 확인하는 표현. 'stop'은 정차역을 의미. 잠들거나 집중하다 역을 놓칠 것이 걱정될 때 옆 사람에게 물어보는 상황에서 유용함.",
           "alternatives": [
-            { "en": "Does this train stop at Bruges next?", "ko": "다음 정차역이 브뤼헤인지 확인하는 표현." },
-            { "en": "How many stops until Bruges?", "ko": "브뤼헤까지 몇 정거장 남았는지 묻는 표현." }
+            {
+              "en": "Does this train stop at Bruges next?",
+              "ko": "다음 정차역이 브뤼헤인지 확인하는 표현."
+            },
+            {
+              "en": "How many stops until Bruges?",
+              "ko": "브뤼헤까지 몇 정거장 남았는지 묻는 표현."
+            }
           ]
         },
         {
           "en": "Could you let me know when we get there?",
           "ko": "도착 시 알려달라는 요청. 낯선 여행지에서 역 이름을 잘 모를 때 유용한 표현. 'let me know'는 알려달라는 부드러운 부탁 표현.",
           "alternatives": [
-            { "en": "Could you tell me when we reach Bruges?", "ko": "브뤼헤에 도착하면 알려달라는 조금 더 구체적인 요청." },
-            { "en": "Would you mind letting me know when it's my stop?", "ko": "내릴 역이 되면 알려달라는 더 정중한 표현." }
+            {
+              "en": "Could you tell me when we reach Bruges?",
+              "ko": "브뤼헤에 도착하면 알려달라는 조금 더 구체적인 요청."
+            },
+            {
+              "en": "Would you mind letting me know when it's my stop?",
+              "ko": "내릴 역이 되면 알려달라는 더 정중한 표현."
+            }
           ]
         },
         {
           "en": "Two more stops.",
           "ko": "두 정거장 더 가야 한다는 표현. 'more'로 남은 정거장 수를 나타냄. 'one more stop'(한 정거장 더), 'three more stops'(세 정거장 더)도 같은 패턴.",
           "alternatives": [
-            { "en": "It's another two stops.", "ko": "같은 뜻의 약간 다른 표현 방식." },
-            { "en": "You've got two more stops to go.", "ko": "두 정거장이 남았다는 좀 더 캐주얼한 표현." }
+            {
+              "en": "It's another two stops.",
+              "ko": "같은 뜻의 약간 다른 표현 방식."
+            },
+            {
+              "en": "You've got two more stops to go.",
+              "ko": "두 정거장이 남았다는 좀 더 캐주얼한 표현."
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch16_d10",
       "title": "짐 보관 선반",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, is there a luggage rack near my seat?", "ko": "실례합니다, 제 자리 근처에 짐 선반이 있나요?" },
-        { "speaker": "승무원", "en": "Yes, just above your head. Large bags go at the end of the carriage.", "ko": "네, 바로 머리 위에 있어요. 큰 가방은 객차 끝에 두세요." },
-        { "speaker": "나", "en": "Can I leave my suitcase there safely?", "ko": "거기에 여행 가방을 안전하게 둘 수 있나요?" },
-        { "speaker": "승무원", "en": "Yes, but keep your valuables with you.", "ko": "네, 하지만 귀중품은 소지하세요." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, is there a luggage rack near my seat?",
+          "ko": "실례합니다, 제 자리 근처에 짐 선반이 있나요?"
+        },
+        {
+          "speaker": "승무원",
+          "en": "Yes, just above your head. Large bags go at the end of the carriage.",
+          "ko": "네, 바로 머리 위에 있어요. 큰 가방은 객차 끝에 두세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Can I leave my suitcase there safely?",
+          "ko": "거기에 여행 가방을 안전하게 둘 수 있나요?"
+        },
+        {
+          "speaker": "승무원",
+          "en": "Yes, but keep your valuables with you.",
+          "ko": "네, 하지만 귀중품은 소지하세요."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is there a luggage rack near my seat?",
           "ko": "짐 선반 위치를 묻는 표현. 'luggage rack'은 기차나 버스에서 짐을 올려놓는 선반. 'overhead bin'은 항공기에서의 짐칸. 두 표현을 상황에 맞게 구분해서 사용하자.",
           "alternatives": [
-            { "en": "Where can I put my bag?", "ko": "가방을 어디에 둘 수 있는지 묻는 더 간단한 표현." },
-            { "en": "Is there somewhere to store my luggage?", "ko": "짐을 보관할 공간이 있는지 묻는 일반적인 표현." }
+            {
+              "en": "Where can I put my bag?",
+              "ko": "가방을 어디에 둘 수 있는지 묻는 더 간단한 표현."
+            },
+            {
+              "en": "Is there somewhere to store my luggage?",
+              "ko": "짐을 보관할 공간이 있는지 묻는 일반적인 표현."
+            }
           ]
         },
         {
           "en": "Just above your head.",
           "ko": "머리 바로 위에 있다는 위치 안내. 'just above'는 바로 위에 있다는 표현. 기차 좌석 위 선반은 작은 캐리어나 가방을 올려두기에 적합하지만 너무 무거운 짐은 올리지 말 것.",
           "alternatives": [
-            { "en": "The overhead rack is right above you.", "ko": "머리 위 선반이 바로 위에 있다는 표현." },
-            { "en": "There's a shelf directly over your seat.", "ko": "좌석 바로 위에 선반이 있다는 표현." }
+            {
+              "en": "The overhead rack is right above you.",
+              "ko": "머리 위 선반이 바로 위에 있다는 표현."
+            },
+            {
+              "en": "There's a shelf directly over your seat.",
+              "ko": "좌석 바로 위에 선반이 있다는 표현."
+            }
           ]
         },
         {
           "en": "Keep your valuables with you.",
           "ko": "귀중품은 소지하라는 안내. 'valuables'는 돈·여권·전자기기 등 귀중품. 'keep ~ with you'는 항상 몸에 지니고 있으라는 뜻으로 여행 안전의 기본 수칙.",
           "alternatives": [
-            { "en": "Don't leave anything valuable unattended.", "ko": "귀중품을 방치하지 말라는 표현." },
-            { "en": "Hold on to your passport and wallet.", "ko": "여권과 지갑은 꼭 가지고 있으라는 구체적인 당부." }
+            {
+              "en": "Don't leave anything valuable unattended.",
+              "ko": "귀중품을 방치하지 말라는 표현."
+            },
+            {
+              "en": "Hold on to your passport and wallet.",
+              "ko": "여권과 지갑은 꼭 가지고 있으라는 구체적인 당부."
+            }
           ]
         }
       ]
@@ -525,6 +865,1473 @@
           "question": "유럽 기차역에서는 플랫폼 번호가 출발 직전에 바뀌는 경우가 있으므로 전광판을 확인해야 한다.",
           "answerIndex": 0,
           "explanation": "맞습니다. 유럽 기차역, 특히 대형 터미널에서는 플랫폼이 출발 직전에 변경되는 경우가 흔합니다. 미리 알고 있는 플랫폼 번호에만 의존하지 말고 전광판(departure board)을 반드시 확인하세요."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch16_set02_001",
+          "type": "multiple_choice",
+          "question": "매표소에서 에든버러행 티켓을 정중하게 요청하는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "I'd like a ticket to Edinburgh, please.",
+            "Give me a ticket for Edinburgh.",
+            "I need Edinburgh now.",
+            "Edinburgh ticket how much?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like a ticket to Edinburgh, please.'는 목적지행 티켓을 정중하게 요청하는 표현입니다. 'I'd like ~'는 'I want ~'보다 더 공손한 표현이며, 목적지 앞에 'to'를 붙여 방향을 나타냅니다."
+        },
+        {
+          "id": "se_ch16_set02_002",
+          "type": "multiple_choice",
+          "question": "편도(single)와 왕복(return)을 구별해서 묻는 표현은?",
+          "options": [
+            "Are you going alone?",
+            "Is it first or second class?",
+            "Single or return?",
+            "Reserved or unreserved?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Single or return?'은 편도(single)와 왕복(return)을 묻는 표현입니다. 미국식 영어로는 'One-way or round trip?'이라고 합니다. 나머지 표현들은 좌석 등급이나 동행 여부를 묻는 전혀 다른 질문입니다."
+        },
+        {
+          "id": "se_ch16_set02_003",
+          "type": "multiple_choice",
+          "question": "탑승 전 눈앞의 기차가 파리행이 맞는지 확인하려면?",
+          "options": [
+            "When does this train arrive in Paris?",
+            "Does this train go to Paris?",
+            "How many stops to Paris?",
+            "Is Paris far from here?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Does this train go to Paris?'는 현재 열차가 파리로 가는지 직접 확인하는 표현입니다. 'When does it arrive?'는 도착 시간, 'How many stops'는 정거장 수, 'Is Paris far?'는 거리를 묻는 질문으로 목적지 확인과 다릅니다."
+        },
+        {
+          "id": "se_ch16_set02_004",
+          "type": "multiple_choice",
+          "question": "승무원에게 특정 좌석 번호를 찾고 있다고 말하는 표현은?",
+          "options": [
+            "I'm looking for seat 24A.",
+            "I want to sit by the window.",
+            "Is there an empty seat here?",
+            "Can I change my seat?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm looking for seat 24A.'는 특정 좌석 번호를 찾고 있음을 알리는 표현입니다. 창가 좌석 요청, 빈 자리 확인, 좌석 변경 요청과는 다른 상황입니다."
+        },
+        {
+          "id": "se_ch16_set02_005",
+          "type": "multiple_choice",
+          "question": "다른 승객이 내 예약 좌석에 앉아 있을 때 정중하게 대응하는 표현은?",
+          "options": [
+            "You're in my seat — get up!",
+            "I believe this is my seat.",
+            "That's not your seat.",
+            "Sit somewhere else."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I believe this is my seat.'는 자신의 자리임을 확신 있게 그러나 정중하게 전달하는 표현입니다. 'You're in my seat — get up!'이나 'Sit somewhere else.'는 공격적으로 들릴 수 있어 여행 중 낯선 사람에게 적합하지 않습니다."
+        },
+        {
+          "id": "se_ch16_set02_006",
+          "type": "multiple_choice",
+          "question": "브뤼셀에서 환승해야 한다고 할 때 쓰는 표현은?",
+          "options": [
+            "You must get off in Brussels.",
+            "Brussels is the last stop.",
+            "You change at Brussels.",
+            "Stop at Brussels station."
+          ],
+          "answerIndex": 2,
+          "explanation": "'You change at Brussels.'는 브뤼셀에서 환승하라는 안내 표현입니다. 'change'는 이 맥락에서 기차를 갈아탄다는 뜻입니다. 'You must get off'는 내리라는 의미만 전달하며 환승 안내로는 불완전합니다."
+        },
+        {
+          "id": "se_ch16_set02_007",
+          "type": "multiple_choice",
+          "question": "열차 지연 상황에서 환승 열차를 놓칠까 봐 걱정될 때 승무원에게 하는 말은?",
+          "options": [
+            "I want a refund for the delay.",
+            "Will I miss my connection?",
+            "How long will the train be delayed?",
+            "Can I get off at the next station?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Will I miss my connection?'은 연착으로 인해 환승 열차를 놓칠 수 있는지 묻는 표현입니다. 'miss'는 기차·버스 등을 놓치다는 뜻입니다. 환불 요청, 지연 시간 확인, 하차 요청과는 다른 상황입니다."
+        },
+        {
+          "id": "se_ch16_set02_008",
+          "type": "multiple_choice",
+          "question": "모바일 티켓을 보여줄 때 쓰는 표현은?",
+          "options": [
+            "I printed my ticket.",
+            "I have an e-ticket on my phone.",
+            "My ticket is lost.",
+            "I'll buy a new ticket."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I have an e-ticket on my phone.'은 스마트폰에 전자 티켓이 있다는 표현입니다. 검표 시 종이 티켓 없이 앱이나 이메일에 저장된 e-ticket을 보여줄 때 사용합니다."
+        },
+        {
+          "id": "se_ch16_set02_009",
+          "type": "multiple_choice",
+          "question": "기차 식당칸에서 따뜻한 음식이 있는지 묻는 표현은?",
+          "options": [
+            "Is the food here free?",
+            "Can I get a hot meal there?",
+            "Do I need a reservation for the dining car?",
+            "What time does the dining car open?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Can I get a hot meal there?'는 따뜻한 식사를 먹을 수 있는지 묻는 표현입니다. 'serve'를 사용한 'Does it serve hot food?'와 같은 의미입니다. 무료 여부, 예약 필요성, 운영 시간을 묻는 표현과는 다릅니다."
+        },
+        {
+          "id": "se_ch16_set02_010",
+          "type": "multiple_choice",
+          "question": "기차 안에서 귀중품 관리에 대한 올바른 안내는?",
+          "options": [
+            "Leave your valuables on the luggage rack.",
+            "Keep your valuables with you.",
+            "Lock your valuables in the overhead bin.",
+            "Give your valuables to the conductor."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Keep your valuables with you.'는 귀중품을 항상 소지하라는 기차 여행 안전 수칙입니다. 'valuables'는 여권, 돈, 전자기기 등 귀중품을 가리킵니다. 짐 선반에 귀중품을 두거나 승무원에게 맡기는 것은 권장되지 않습니다."
+        },
+        {
+          "id": "se_ch16_set02_011",
+          "type": "ox",
+          "question": "영국 기차역에서 'single'은 왕복 티켓을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 영국 기차역에서 'single'은 편도(one-way) 티켓을 의미합니다. 왕복 티켓은 'return'이라고 합니다. 미국식 영어로는 편도를 'one-way', 왕복을 'round trip'이라고 합니다."
+        },
+        {
+          "id": "se_ch16_set02_012",
+          "type": "ox",
+          "question": "유럽 열차에서 'carriage'는 기차의 객차 한 칸을 뜻하는 영국식 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'carriage'는 열차의 객차 한 칸을 뜻하는 영국식 표현입니다. 미국식 영어로는 'car' 또는 'coach'라고 합니다. 승무원이 'next carriage'라고 하면 다음 칸으로 이동하라는 의미입니다."
+        },
+        {
+          "id": "se_ch16_set02_013",
+          "type": "ox",
+          "question": "'luggage rack'은 항공기의 머리 위 짐칸을 뜻하는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'luggage rack'은 기차나 버스에서 짐을 올려두는 선반입니다. 항공기의 머리 위 짐칸은 'overhead bin' 또는 'overhead compartment'라고 합니다. 상황에 맞는 표현을 구분해야 합니다."
+        },
+        {
+          "id": "se_ch16_set02_014",
+          "type": "ox",
+          "question": "열차 연착 시 'We'll hold your connection.'이라는 말은 환승 열차를 기다리게 하겠다는 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'hold your connection'에서 'hold'는 환승 열차의 출발을 잠시 지연시켜 기다린다는 뜻입니다. 열차 연착 시 승무원에게 환승 걱정을 알리면 이런 조치를 취해주는 경우가 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch16_set03_001",
+          "type": "multiple_choice",
+          "question": "파리행 기차 플랫폼 번호를 직원에게 묻는 가장 적절한 표현은?",
+          "options": [
+            "What platform for Paris?",
+            "Is Paris far from here?",
+            "When is the Paris train?",
+            "Can I board the train now?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What platform for Paris?'는 파리행 기차의 플랫폼 번호를 빠르고 직관적으로 묻는 표현입니다. 급할 때 쓰기 좋은 짧은 표현입니다. 나머지 선택지는 플랫폼 번호 확인과 관련이 없습니다."
+        },
+        {
+          "id": "se_ch16_set03_002",
+          "type": "multiple_choice",
+          "question": "출발 전광판(departure board)을 확인하라고 조언하는 표현은?",
+          "options": [
+            "Ask at the information desk.",
+            "Check the departure board.",
+            "Read your ticket again.",
+            "Follow the other passengers."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Check the departure board.'는 출발 전광판을 확인하라는 조언입니다. 유럽 기차역에서는 플랫폼이 출발 직전에 바뀔 수 있으므로 항상 전광판을 확인하는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch16_set03_003",
+          "type": "multiple_choice",
+          "question": "열차 좌석 예약이 가능한지 묻는 정중한 표현은?",
+          "options": [
+            "I'd like to reserve a seat, please.",
+            "Give me a window seat.",
+            "Is the train full?",
+            "Do I need a ticket to board?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'd like to reserve a seat, please.'는 좌석 예약을 정중하게 요청하는 표현입니다. 'I'd like ~'는 정중한 요청 표현으로 매표소에서 티켓 구매와 함께 사용할 수 있습니다."
+        },
+        {
+          "id": "se_ch16_set03_004",
+          "type": "multiple_choice",
+          "question": "이 자리가 예약석인지 확인하는 표현은?",
+          "options": [
+            "Is this a first-class seat?",
+            "Is this a reserved seat?",
+            "Is this the last seat?",
+            "Is this a window seat?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is this a reserved seat?'는 해당 좌석이 예약석인지 확인하는 표현입니다. 유럽 고속열차에서는 예약석(reserved)과 자유석(unreserved)이 구분되므로 앉기 전에 확인하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch16_set03_005",
+          "type": "multiple_choice",
+          "question": "좌석 분쟁에서 상대방이 사과했을 때 받아치는 자연스러운 표현은?",
+          "options": [
+            "You should be more careful!",
+            "Don't worry about it.",
+            "That's unacceptable.",
+            "I'll report you to the conductor."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Don't worry about it.'는 상대방의 사과에 대한 자연스럽고 친절한 응답입니다. 'No problem at all.', 'It's fine.' 등도 같은 상황에 쓸 수 있습니다. 상대방의 실수에 대해 화를 내거나 위협하는 표현은 부적절합니다."
+        },
+        {
+          "id": "se_ch16_set03_006",
+          "type": "multiple_choice",
+          "question": "암스테르담 가는 열차로 갈아탈 환승 정보를 묻는 표현은?",
+          "options": [
+            "Where do I transfer for Amsterdam?",
+            "What time does the Amsterdam train arrive?",
+            "Is Amsterdam near Brussels?",
+            "How much is the ticket to Amsterdam?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where do I transfer for Amsterdam?'는 암스테르담행 환승 장소를 묻는 표현입니다. 'transfer'는 'change trains'와 같은 의미로 환승을 뜻합니다. 도착 시간, 거리, 요금을 묻는 표현과는 다릅니다."
+        },
+        {
+          "id": "se_ch16_set03_007",
+          "type": "multiple_choice",
+          "question": "기차가 30분 연착 중이라는 방송에서 자주 쓰이는 격식 있는 표현은?",
+          "options": [
+            "This train is full.",
+            "We're experiencing a delay of about half an hour.",
+            "Please stay in your seats.",
+            "The train is now boarding."
+          ],
+          "answerIndex": 1,
+          "explanation": "'We're experiencing a delay of about half an hour.'는 기차 연착 안내에서 공식 방송에 자주 쓰이는 격식 있는 표현입니다. 30분 연착 상황을 'half an hour'로 표현하고 있습니다."
+        },
+        {
+          "id": "se_ch16_set03_008",
+          "type": "multiple_choice",
+          "question": "승무원이 화면 밝기를 높여달라고 요청하는 표현은?",
+          "options": [
+            "Could you turn up the brightness, please?",
+            "Can I see your passport?",
+            "Please show your boarding pass.",
+            "Turn off your phone, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you turn up the brightness, please?'는 모바일 티켓 확인 시 화면 밝기를 높여달라는 정중한 요청입니다. 'turn up'은 올린다는 뜻으로, 볼륨이나 밝기를 높일 때 씁니다."
+        },
+        {
+          "id": "se_ch16_set03_009",
+          "type": "multiple_choice",
+          "question": "기차의 뷔페 칸이 어디 있는지 묻는 표현은?",
+          "options": [
+            "Is there a toilet on this train?",
+            "Where is the buffet car?",
+            "Can I eat at the station?",
+            "Does this train have Wi-Fi?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Where is the buffet car?'는 간단한 음식과 음료를 파는 뷔페 칸의 위치를 직접 묻는 표현입니다. 'buffet car'와 'dining car'는 서비스 수준이 다르지만 기차 내 식음 서비스를 제공하는 칸입니다."
+        },
+        {
+          "id": "se_ch16_set03_010",
+          "type": "multiple_choice",
+          "question": "목적지역에 도착하면 알려달라고 부탁하는 표현은?",
+          "options": [
+            "Could you let me know when we get there?",
+            "Please wake me up at the last stop.",
+            "Can you hold my seat?",
+            "Tell me when the train is full."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you let me know when we get there?'는 목적지역에 도착하면 알려달라는 정중한 부탁입니다. 'let me know'는 알려달라는 부드러운 표현으로 낯선 역 이름을 놓칠 것이 걱정될 때 유용합니다."
+        },
+        {
+          "id": "se_ch16_set03_011",
+          "type": "ox",
+          "question": "'Is this the train to Paris?'와 'Does this train go to Paris?'는 같은 상황에서 같은 의미로 쓸 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 두 표현 모두 눈앞의 열차가 파리행이 맞는지 확인하는 표현으로 같은 의미입니다. 구조는 다르지만 상황에 따라 바꿔 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch16_set03_012",
+          "type": "ox",
+          "question": "'connection'은 기차 여행 맥락에서 환승 연결 시간을 의미할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'connection'은 기차 여행에서 환승 연결 편을 의미합니다. 'How long is the connection?'은 환승 대기 시간이 얼마나 되는지 묻는 표현입니다. 'miss my connection'은 환승 열차를 놓친다는 의미입니다."
+        },
+        {
+          "id": "se_ch16_set03_013",
+          "type": "ox",
+          "question": "'The train is running thirty minutes late.'는 열차가 30분 일찍 도착한다는 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'running late'는 늦어지고 있다는 의미입니다. 즉 열차가 30분 연착 중이라는 뜻입니다. 반대로 일찍 도착하면 'running early' 또는 'arriving ahead of schedule'이라고 합니다."
+        },
+        {
+          "id": "se_ch16_set03_014",
+          "type": "ox",
+          "question": "기차에서 'carriage'는 미국식 영어에서도 가장 보편적으로 쓰이는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'carriage'는 영국식 영어 표현입니다. 미국식 영어에서는 열차의 객차를 'car' 또는 'coach'라고 합니다. 영국·유럽 여행 시에는 'carriage'를 더 자주 듣게 됩니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch16_set04_001",
+          "type": "multiple_choice",
+          "question": "에든버러행 티켓을 달라고 캐주얼하게 요청하는 표현은?",
+          "options": [
+            "Can I get a ticket to Edinburgh?",
+            "I must go to Edinburgh.",
+            "Edinburgh — one ticket.",
+            "Take me to Edinburgh, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get a ticket to Edinburgh?'는 정중하지만 캐주얼하게 티켓을 요청하는 표현입니다. 'I'd like ~'보다 약간 더 구어체이며 실제 매표소에서 자연스럽게 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch16_set04_002",
+          "type": "multiple_choice",
+          "question": "파리행 기차가 어떤 플랫폼에서 출발하는지 묻는 더 문법적으로 완전한 표현은?",
+          "options": [
+            "Where is Paris?",
+            "Which platform does the train to Paris leave from?",
+            "When does the Paris train arrive?",
+            "How do I get a platform ticket?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Which platform does the train to Paris leave from?'은 파리행 기차의 출발 플랫폼을 묻는 문법적으로 완전한 표현입니다. 'What platform for Paris?'보다 더 격식 있고 완전한 문장 형태입니다."
+        },
+        {
+          "id": "se_ch16_set04_003",
+          "type": "multiple_choice",
+          "question": "열차 내에서 24A 좌석이 어디 있는지 승무원에게 도움을 요청하는 표현은?",
+          "options": [
+            "Can you help me find my seat?",
+            "Is seat 24A available?",
+            "Can I upgrade my seat?",
+            "Where is the exit?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you help me find my seat?'는 자리를 찾는 데 도움을 요청하는 표현입니다. 좌석 번호를 직접 말하는 대신 안내를 부탁하는 방법으로, 'I'm looking for seat 24A.'와 함께 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch16_set04_004",
+          "type": "multiple_choice",
+          "question": "티켓을 근거로 자신의 좌석임을 자연스럽게 주장하는 표현은?",
+          "options": [
+            "I reserved a seat.",
+            "Excuse me, my ticket says 15B.",
+            "Move to the next seat.",
+            "This seat is mine."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Excuse me, my ticket says 15B.'는 티켓에 적힌 좌석 번호를 근거로 자신의 자리임을 자연스럽게 주장하는 방법입니다. 직접적으로 싸우지 않고 티켓을 근거로 제시하므로 가장 효과적인 방법 중 하나입니다."
+        },
+        {
+          "id": "se_ch16_set04_005",
+          "type": "multiple_choice",
+          "question": "환승에 필요한 연결 시간을 구체적으로 묻는 표현은?",
+          "options": [
+            "Is the next train faster?",
+            "How much time do I have to change trains?",
+            "Where is the connecting train?",
+            "Is my ticket valid for the next train?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'How much time do I have to change trains?'는 환승 시간이 얼마나 있는지 구체적으로 묻는 표현입니다. 'How long is the connection?'과 같은 의미이며 환승 가능 여부를 판단하는 데 중요한 정보를 얻는 질문입니다."
+        },
+        {
+          "id": "se_ch16_set04_006",
+          "type": "multiple_choice",
+          "question": "'delayed'가 사용된 문장 중 올바른 뜻을 가진 것은?",
+          "options": [
+            "The train is delayed. → 기차가 취소됐다.",
+            "The train is delayed. → 기차가 만석이다.",
+            "The train is delayed. → 기차가 연착됐다.",
+            "The train is delayed. → 기차가 조기 출발한다."
+          ],
+          "answerIndex": 2,
+          "explanation": "'delayed'는 출발이나 도착이 늦어졌다는 연착·지연을 의미합니다. 취소는 'cancelled', 만석은 'fully booked' 또는 'full', 조기 출발은 'ahead of schedule'이라고 합니다."
+        },
+        {
+          "id": "se_ch16_set04_007",
+          "type": "multiple_choice",
+          "question": "검표 시 티켓이 앱에 있어서 불러오겠다고 할 때 쓰는 표현은?",
+          "options": [
+            "I'll print my ticket.",
+            "Let me pull it up.",
+            "My ticket is at home.",
+            "I'll call the station."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Let me pull it up.'는 앱이나 이메일에서 티켓을 불러오겠다는 표현입니다. 'pull up'은 화면에서 정보나 파일을 불러온다는 뜻으로 모바일 티켓 검표 상황에서 자연스럽게 쓰입니다."
+        },
+        {
+          "id": "se_ch16_set04_008",
+          "type": "multiple_choice",
+          "question": "기차 안에서 음식을 살 수 있는지 확인하는 표현은?",
+          "options": [
+            "Is there a restaurant at the station?",
+            "Can I get food on this train?",
+            "Do we stop for lunch?",
+            "Is food included in the ticket?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Can I get food on this train?'는 기차 안에서 음식을 구할 수 있는지 묻는 표현입니다. 역 식당 확인, 점심 정차 여부, 식사 포함 여부를 묻는 표현과는 다릅니다."
+        },
+        {
+          "id": "se_ch16_set04_009",
+          "type": "multiple_choice",
+          "question": "브뤼헤까지 두 정거장 더 가야 한다고 알려주는 표현은?",
+          "options": [
+            "Bruges is the next stop.",
+            "Two more stops.",
+            "It's only five minutes away.",
+            "You already passed Bruges."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Two more stops.'는 두 정거장 더 가야 한다는 표현입니다. 'more'는 남은 수를 나타내며, 'one more stop', 'three more stops'처럼 같은 패턴으로 활용할 수 있습니다."
+        },
+        {
+          "id": "se_ch16_set04_010",
+          "type": "multiple_choice",
+          "question": "기차 짐 선반에 큰 가방을 두어야 하는 위치는?",
+          "options": [
+            "Directly above your seat",
+            "At the end of the carriage",
+            "Under your seat",
+            "In the dining car"
+          ],
+          "answerIndex": 1,
+          "explanation": "대형 가방은 객차 끝(end of the carriage)에 두는 것이 일반적입니다. 좌석 위 선반(luggage rack)은 작은 가방에 적합하며, 무거운 짐은 통로 끝 공간에 보관하도록 안내합니다."
+        },
+        {
+          "id": "se_ch16_set04_011",
+          "type": "ox",
+          "question": "'Is seat reservation included?'는 좌석 예약이 티켓 가격에 포함됐는지 확인하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Is seat reservation included?'는 좌석 예약 비용이 티켓에 포함돼 있는지 확인하는 표현입니다. 유럽 일부 노선에서는 좌석 예약이 필수이고, 일부는 선택 사항이므로 미리 확인하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch16_set04_012",
+          "type": "ox",
+          "question": "유럽 고속열차의 모든 좌석은 예약석(reserved)이므로 자유석은 존재하지 않는다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 유럽 고속열차에서도 예약석(reserved seat)과 자유석(unreserved seat)이 함께 존재하는 경우가 있습니다. 노선마다 다르므로 티켓 구매 시 확인이 필요합니다."
+        },
+        {
+          "id": "se_ch16_set04_013",
+          "type": "ox",
+          "question": "'change trains'는 기차에서 내려 다른 기차로 갈아타는 환승을 의미한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'change trains'는 기차에서 내려 다른 열차로 환승하는 것을 의미합니다. 'Where do I change trains?'는 어디서 갈아타야 하는지 묻는 표현으로 여행 중 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch16_set04_014",
+          "type": "ox",
+          "question": "기차에서 모바일 티켓을 보여줄 때는 미리 화면을 켜두거나 스크린샷을 저장해두는 것이 좋다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 검표 시 앱이 열리지 않거나 인터넷 연결이 없을 수 있으므로, 미리 티켓 화면을 켜두거나 스크린샷으로 저장해두면 빠르고 편리하게 검표를 받을 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch16_set05_001",
+          "type": "multiple_choice",
+          "question": "티켓 한 장을 매우 짧고 실용적으로 요청하는 표현은?",
+          "options": [
+            "One ticket to Edinburgh, please.",
+            "Can you book a train for me?",
+            "I want to travel to Edinburgh.",
+            "Edinburgh train information?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'One ticket to Edinburgh, please.'는 매우 짧고 실용적인 티켓 요청 표현입니다. 매표소에서 빠르게 요청할 때 사용하기 좋습니다. 직원이 이미 티켓 판매 업무 중이므로 긴 설명 없이 이 표현만으로도 충분합니다."
+        },
+        {
+          "id": "se_ch16_set05_002",
+          "type": "multiple_choice",
+          "question": "플랫폼에서 탑승 중인 기차가 올바른 기차인지 확인하는 가장 직접적인 표현은?",
+          "options": [
+            "Is this the right train?",
+            "Where is this train going?",
+            "Is the train on time?",
+            "Which carriage should I board?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is this the right train?'은 목적지를 언급하지 않고도 올바른 열차인지 확인하는 표현입니다. 이미 목적지를 알고 있는 상황에서 단순히 맞는 열차인지만 확인할 때 편리합니다."
+        },
+        {
+          "id": "se_ch16_set05_003",
+          "type": "multiple_choice",
+          "question": "이 자리를 다른 누군가가 쓰고 있는지 확인하는 표현은?",
+          "options": [
+            "Is this seat comfortable?",
+            "Is this seat taken?",
+            "Is this a reserved seat?",
+            "Is this seat first class?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is this seat taken?'는 다른 사람이 그 자리를 쓰고 있는지 확인하는 표현입니다. 주로 모르는 사람에게 빈자리 여부를 확인할 때 사용합니다. 예약석 여부를 묻는 'Is this a reserved seat?'과는 뉘앙스가 다릅니다."
+        },
+        {
+          "id": "se_ch16_set05_004",
+          "type": "multiple_choice",
+          "question": "좌석 분쟁 상황에서 자신의 티켓을 확인해보겠다고 말하는 표현은?",
+          "options": [
+            "Let me check my ticket.",
+            "Here is my ticket.",
+            "I don't have a ticket.",
+            "My ticket is correct."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me check my ticket.'는 자신의 티켓을 확인해보겠다는 표현입니다. 'Let me ~'는 스스로 행동하겠다는 자연스러운 표현으로 분쟁 상황에서 티켓을 꺼내 확인하는 것이 가장 빠른 해결책입니다."
+        },
+        {
+          "id": "se_ch16_set05_005",
+          "type": "multiple_choice",
+          "question": "20분의 환승 대기 시간이 충분한지 확인하는 표현은?",
+          "options": [
+            "Can I eat in twenty minutes?",
+            "Is twenty minutes enough time to transfer?",
+            "Does the next train leave in twenty minutes?",
+            "Can I get a refund in twenty minutes?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is twenty minutes enough time to transfer?'는 주어진 20분이 환승하기에 충분한지 확인하는 표현입니다. 짧은 환승 시간이 걱정될 때 직접 물어볼 수 있는 유용한 질문입니다."
+        },
+        {
+          "id": "se_ch16_set05_006",
+          "type": "multiple_choice",
+          "question": "연착으로 인해 환승 열차를 놓칠까 봐 걱정된다고 말하는 표현은?",
+          "options": [
+            "I'm worried about missing my connecting train.",
+            "I don't want to take the train.",
+            "Can I get a seat on another train?",
+            "This delay is unacceptable."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm worried about missing my connecting train.'는 환승 열차를 놓칠까 걱정된다고 표현하는 문장입니다. 승무원에게 상황을 알릴 때 사용하면 적절한 조치를 받을 수 있습니다."
+        },
+        {
+          "id": "se_ch16_set05_007",
+          "type": "multiple_choice",
+          "question": "승무원이 승차권을 확인할 때 할 수 있는 더 정중한 표현은?",
+          "options": [
+            "Passport check!",
+            "Can I see your ticket, please?",
+            "Where are you going?",
+            "Do you have a reservation?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Can I see your ticket, please?'는 승무원이 정중하게 승차권 제시를 요청하는 표현입니다. 간단한 'Tickets, please.'보다 더 친절한 표현으로 승객에게 공손하게 요청할 때 사용합니다."
+        },
+        {
+          "id": "se_ch16_set05_008",
+          "type": "multiple_choice",
+          "question": "식당칸이 기차 앞쪽에 있다고 안내하는 표현은?",
+          "options": [
+            "The dining car is at the back.",
+            "You'll find the dining car at the front of the train.",
+            "The buffet car is closed.",
+            "The dining car opens in an hour."
+          ],
+          "answerIndex": 1,
+          "explanation": "'You'll find the dining car at the front of the train.'은 식당칸이 기차 앞쪽에 있다고 알려주는 표현입니다. 'at the front'(앞쪽), 'at the back'(뒷쪽), 'in the middle'(중간)은 기차 내 위치 안내에 자주 쓰이는 표현들입니다."
+        },
+        {
+          "id": "se_ch16_set05_009",
+          "type": "multiple_choice",
+          "question": "내릴 역이 되면 알려달라는 정중한 요청 표현은?",
+          "options": [
+            "Wake me up when we arrive.",
+            "Would you mind letting me know when it's my stop?",
+            "Don't forget to tell me.",
+            "Shout when we reach the station."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Would you mind letting me know when it's my stop?'는 내릴 역이 되면 알려달라는 가장 정중한 표현입니다. 'Would you mind ~?'는 '~해주시겠어요?'라는 정중한 요청 표현입니다."
+        },
+        {
+          "id": "se_ch16_set05_010",
+          "type": "multiple_choice",
+          "question": "짐 선반에 여행 가방을 안전하게 둘 수 있는지 묻는 표현은?",
+          "options": [
+            "Is there a safe on this train?",
+            "Can I leave my suitcase there safely?",
+            "Can I lock my luggage?",
+            "Is my suitcase too big for the train?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Can I leave my suitcase there safely?'는 짐 선반에 여행 가방을 안전하게 맡겨둘 수 있는지 확인하는 표현입니다. 귀중품이 없는 큰 짐을 객차 끝 공간에 둘 때 사용하는 질문입니다."
+        },
+        {
+          "id": "se_ch16_set05_011",
+          "type": "ox",
+          "question": "기차에서 'dining car'와 'buffet car'는 완전히 동일한 서비스를 제공한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'dining car'는 정식 식사를 제공하는 식당칸이고, 'buffet car'는 간단한 음식과 음료를 파는 칸으로 서비스 수준이 다릅니다. 장거리 열차에 따라 둘 중 하나 또는 둘 다 있을 수 있습니다."
+        },
+        {
+          "id": "se_ch16_set05_012",
+          "type": "ox",
+          "question": "유럽 기차역에서 플랫폼 번호는 출발 직전에 바뀔 수 있으므로 미리 알아도 전광판 재확인이 필요하다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 유럽 대형 기차역, 특히 파리, 런던, 암스테르담 등의 터미널에서는 플랫폼이 출발 10~20분 전에 발표되거나 갑자기 변경되는 경우가 있습니다. 항상 전광판을 확인하는 습관이 중요합니다."
+        },
+        {
+          "id": "se_ch16_set05_013",
+          "type": "ox",
+          "question": "기차 내 짐 선반(luggage rack)에는 여권, 지갑 등 귀중품을 올려두는 것이 권장된다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 귀중품은 항상 몸에 지녀야 합니다(Keep your valuables with you). 짐 선반에 귀중품을 올려두면 도난 위험이 있으므로 여권, 지갑, 전자기기 등은 직접 소지하는 것이 안전합니다."
+        },
+        {
+          "id": "se_ch16_set05_014",
+          "type": "ox",
+          "question": "'Excuse me, my ticket says 15B.'는 티켓을 근거로 자신의 좌석임을 주장하는 자연스러운 방법이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 티켓에 적힌 좌석 번호를 근거로 제시하면 공격적이지 않으면서도 자신의 주장을 명확히 전달할 수 있습니다. 'I think this is my seat.'와 함께 좌석 분쟁 상황에서 가장 효과적인 방법 중 하나입니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch16_set06_001",
+          "type": "multiple_choice",
+          "question": "티켓을 구매할 때 창가 자리와 통로 쪽 자리 중 선호를 묻는 표현은?",
+          "options": [
+            "Window or aisle?",
+            "First class or standard?",
+            "Single or return?",
+            "Reserved or open?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Window or aisle?'은 창가(window) 자리와 통로(aisle) 쪽 자리 중 선택을 묻는 표현입니다. 기차나 항공편에서 좌석 선호를 물을 때 공통적으로 사용되는 표현입니다."
+        },
+        {
+          "id": "se_ch16_set06_002",
+          "type": "multiple_choice",
+          "question": "전광판을 계속 주시하라는 표현은?",
+          "options": [
+            "Stand by the platform.",
+            "Keep an eye on the screen.",
+            "Wait for an announcement.",
+            "Ask a station worker."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Keep an eye on the screen.'는 화면(전광판)을 계속 주시하라는 표현입니다. 'keep an eye on ~'은 계속 지켜보다는 뜻의 관용 표현으로 플랫폼 변경 공지를 놓치지 않기 위해 필요합니다."
+        },
+        {
+          "id": "se_ch16_set06_003",
+          "type": "multiple_choice",
+          "question": "기차에서 다음 칸으로 이동하라는 지시를 나타내는 표현은?",
+          "options": [
+            "Please sit down.",
+            "Go through to the next coach.",
+            "Take the seat on your right.",
+            "Wait here for the conductor."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Go through to the next coach.'는 다음 칸으로 이동하라는 구체적인 지시 표현입니다. 'coach'는 'carriage', 'car'와 마찬가지로 열차의 객차를 뜻하며 'next coach'는 다음 칸을 의미합니다."
+        },
+        {
+          "id": "se_ch16_set06_004",
+          "type": "multiple_choice",
+          "question": "내 자리라고 생각하지만 상대방에게 확인을 유도하는 가장 정중한 방법은?",
+          "options": [
+            "Check your ticket!",
+            "I think this is my seat.",
+            "You have the wrong seat.",
+            "Please move now."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I think this is my seat.'는 상대방과의 충돌을 피하면서도 자신의 자리임을 부드럽게 알리는 표현입니다. 'I think ~'로 시작하면 확신하면서도 정중하게 들립니다."
+        },
+        {
+          "id": "se_ch16_set06_005",
+          "type": "multiple_choice",
+          "question": "환승 장소를 묻는 표현에서 빈칸에 알맞은 것은: 'Where do I _____ trains for Amsterdam?'",
+          "options": [
+            "switch",
+            "change",
+            "move",
+            "hop"
+          ],
+          "answerIndex": 1,
+          "explanation": "'change trains'가 기차를 갈아탄다는 올바른 표현입니다. 'switch trains'도 간혹 쓰이지만 'change trains'가 표준 표현입니다. 'hop on/off'는 버스 등에서 쓰이는 캐주얼한 표현이며, 'move trains'는 올바른 표현이 아닙니다."
+        },
+        {
+          "id": "se_ch16_set06_006",
+          "type": "multiple_choice",
+          "question": "기차 연착과 관련하여 'by approximately thirty minutes'에서 'by'의 역할은?",
+          "options": [
+            "이동 수단을 나타낸다",
+            "장소를 나타낸다",
+            "지연된 시간의 정도를 나타낸다",
+            "출발 시각을 나타낸다"
+          ],
+          "answerIndex": 2,
+          "explanation": "'delayed by approximately thirty minutes'에서 'by'는 지연된 정도(차이)를 나타냅니다. 'by + 시간'은 '~만큼'이라는 뜻으로 'delayed by 30 minutes'는 30분 늦어진다는 의미입니다."
+        },
+        {
+          "id": "se_ch16_set06_007",
+          "type": "multiple_choice",
+          "question": "승무원이 격식 있게 승차권 확인을 요청하는 표현은?",
+          "options": [
+            "Do you have a ticket?",
+            "May I check your ticket?",
+            "Show me what you have.",
+            "Ticket or fine?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'May I check your ticket?'는 격식 있고 정중하게 승차권 확인을 요청하는 표현입니다. 'May I ~?'는 'Can I ~?'보다 더 공손한 표현으로 공식적인 상황에서 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch16_set06_008",
+          "type": "multiple_choice",
+          "question": "식당칸이 뒤에서 두 칸 위치에 있다고 알려주는 표현은?",
+          "options": [
+            "The buffet car is at the front.",
+            "It's two carriages back.",
+            "The dining car is in the middle.",
+            "Walk three carriages forward."
+          ],
+          "answerIndex": 1,
+          "explanation": "'It's two carriages back.'는 두 칸 뒤에 있다는 구체적인 위치 안내 표현입니다. 'back'은 뒤쪽 방향을 의미하므로 두 칸 뒤에 원하는 칸이 있다는 뜻입니다."
+        },
+        {
+          "id": "se_ch16_set06_009",
+          "type": "multiple_choice",
+          "question": "브뤼헤까지 몇 정거장 남았는지 묻는 표현은?",
+          "options": [
+            "Is Bruges the next stop?",
+            "When do we arrive in Bruges?",
+            "How many stops until Bruges?",
+            "Does this train stop in Bruges?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'How many stops until Bruges?'는 목적지까지 남은 정거장 수를 묻는 표현입니다. 이미 다음 역이 목적지인지는 알지 못하고 총 남은 정거장이 궁금할 때 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch16_set06_010",
+          "type": "multiple_choice",
+          "question": "귀중품을 방치하지 말라는 안전 당부 표현은?",
+          "options": [
+            "Don't leave anything valuable unattended.",
+            "Lock your valuables in the overhead rack.",
+            "Give your valuables to the train staff.",
+            "Write your name on your valuables."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Don't leave anything valuable unattended.'는 귀중품을 자리를 비운 채 방치하지 말라는 안전 당부입니다. 'unattended'는 사람이 지키지 않는 상태를 의미합니다. 여행 중 소지품 관리의 핵심 표현입니다."
+        },
+        {
+          "id": "se_ch16_set06_011",
+          "type": "ox",
+          "question": "'Where do I transfer for Amsterdam?'는 암스테르담 기차 시간표를 묻는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Where do I transfer for Amsterdam?'은 암스테르담으로 가기 위해 어디서 환승해야 하는지를 묻는 표현입니다. 시간표 확인이 아닌 환승 장소를 묻는 질문입니다."
+        },
+        {
+          "id": "se_ch16_set06_012",
+          "type": "ox",
+          "question": "기차에서 승무원이 'Tickets, please.'라고 하면 여권이 아닌 승차권을 제시해야 한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 기차에서 'Tickets, please.'는 승차권(기차 티켓)을 확인하겠다는 말입니다. 여권(passport)은 출입국 심사나 신원 확인 시 필요하며, 기차 검표와는 다른 상황입니다."
+        },
+        {
+          "id": "se_ch16_set06_013",
+          "type": "ox",
+          "question": "'Keep your valuables with you.'에서 'valuables'는 여권, 현금, 전자기기 등 가치 있는 물건을 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'valuables'는 금전적·실용적 가치가 있는 귀중품을 통칭합니다. 여권, 현금, 신용카드, 스마트폰, 카메라 등이 포함됩니다. 기차 여행 중에는 이런 물품들을 항상 몸에 지니는 것이 안전합니다."
+        },
+        {
+          "id": "se_ch16_set06_014",
+          "type": "ox",
+          "question": "기차 여행에서 'connection'을 놓친다(miss a connection)는 것은 환승 열차를 타지 못한다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'miss a connection'은 환승해야 할 다음 열차를 타지 못했다는 의미입니다. 지연된 열차로 인해 갈아탈 시간이 부족할 때 이런 상황이 발생합니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch16_set07_001",
+          "type": "multiple_choice",
+          "question": "미국식 영어로 편도 티켓을 뜻하는 표현은?",
+          "options": [
+            "One-way ticket",
+            "Single ticket",
+            "Return ticket",
+            "Round trip ticket"
+          ],
+          "answerIndex": 0,
+          "explanation": "미국식 영어에서 편도 티켓은 'one-way ticket'이라고 합니다. 영국식 영어에서는 'single'이 편도입니다. 반대로 왕복은 미국식 'round trip', 영국식 'return'으로 서로 대응됩니다."
+        },
+        {
+          "id": "se_ch16_set07_002",
+          "type": "multiple_choice",
+          "question": "파리행 기차가 탑승 중이라는 표현은?",
+          "options": [
+            "The Paris train has left.",
+            "Boarding now.",
+            "The Paris train is full.",
+            "Wait for the next train."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Boarding now.'는 지금 탑승 중이라는 표현입니다. 기차역이나 공항에서 탑승이 시작됐다는 안내를 할 때 쓰이는 간결한 표현입니다."
+        },
+        {
+          "id": "se_ch16_set07_003",
+          "type": "multiple_choice",
+          "question": "기차에서 특정 칸의 좌석이 모두 예약석임을 알리는 표현은?",
+          "options": [
+            "All seats are available.",
+            "This carriage is closed.",
+            "All seats in this carriage are reserved.",
+            "This carriage is for first class only."
+          ],
+          "answerIndex": 2,
+          "explanation": "'All seats in this carriage are reserved.'는 해당 객차의 모든 좌석이 예약석임을 알리는 표현입니다. 'reserved'는 미리 예약됐다는 의미로 예약 없이 앉을 수 없음을 뜻합니다."
+        },
+        {
+          "id": "se_ch16_set07_004",
+          "type": "multiple_choice",
+          "question": "좌석 분쟁에서 상대방에게 티켓을 확인해보자고 더 격식 있게 제안하는 표현은?",
+          "options": [
+            "Let me have a look at my ticket.",
+            "Your ticket is wrong.",
+            "We need to call the conductor.",
+            "Show me your ticket immediately."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Let me have a look at my ticket.'는 자신의 티켓을 확인해보겠다는 영국식으로 약간 더 정중한 표현입니다. 'have a look'은 'look'의 격식체 형태로 영국 영어에서 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch16_set07_005",
+          "type": "multiple_choice",
+          "question": "암스테르담 가는 데 환승이 필요한지 먼저 확인하는 표현은?",
+          "options": [
+            "What time is the direct train to Amsterdam?",
+            "Do I need to change trains to get to Amsterdam?",
+            "Is Amsterdam on this route?",
+            "Where does this train stop?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do I need to change trains to get to Amsterdam?'는 환승이 필요한지부터 확인하는 표현입니다. 직행 여부를 먼저 확인한 후 환승이 필요하면 'Where do I change trains?'로 이어서 묻는 것이 자연스럽습니다."
+        },
+        {
+          "id": "se_ch16_set07_006",
+          "type": "multiple_choice",
+          "question": "환승 열차가 기다려줄 것이라는 안심 표현은?",
+          "options": [
+            "You will miss your connection.",
+            "Your connecting train will wait for you.",
+            "Take the next available train.",
+            "There is no connecting train today."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Your connecting train will wait for you.'는 환승 열차가 기다려준다는 안심 표현입니다. 열차 연착 시 승무원이 환승 상황을 파악해 환승 열차의 출발을 지연시키는 경우가 있습니다."
+        },
+        {
+          "id": "se_ch16_set07_007",
+          "type": "multiple_choice",
+          "question": "검표 시 화면 밝기를 올려달라는 말을 간접적으로 표현하면?",
+          "options": [
+            "Your phone is too bright.",
+            "The screen is a little dark.",
+            "Can you charge your phone?",
+            "Turn off airplane mode."
+          ],
+          "answerIndex": 1,
+          "explanation": "'The screen is a little dark.'는 화면이 어둡다고 간접적으로 알려 밝기를 높여달라는 뜻을 전달하는 표현입니다. 직접 요청 대신 상황을 설명해 상대방이 스스로 조치하도록 유도하는 방법입니다."
+        },
+        {
+          "id": "se_ch16_set07_008",
+          "type": "multiple_choice",
+          "question": "기차 식당칸에서 따뜻한 음식이 있는지 묻는 또 다른 표현은?",
+          "options": [
+            "What are the opening hours?",
+            "Do they have anything warm to eat?",
+            "Is the dining car expensive?",
+            "Can I bring my own food?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do they have anything warm to eat?'는 따뜻한 음식이 있는지 캐주얼하게 묻는 표현입니다. 'Does it serve hot food?'나 'Can I get a hot meal?'과 같은 의미로, 격식 없이 편하게 물을 때 쓰입니다."
+        },
+        {
+          "id": "se_ch16_set07_009",
+          "type": "multiple_choice",
+          "question": "다음 정차역이 브뤼헤인지 다른 방식으로 확인하는 표현은?",
+          "options": [
+            "Did we already pass Bruges?",
+            "Does this train stop at Bruges next?",
+            "Is Bruges the final destination?",
+            "Can I walk to Bruges from here?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Does this train stop at Bruges next?'는 다음 번 정차역이 브뤼헤인지 확인하는 표현입니다. 'Is the next stop Bruges?'와 같은 의미이며 구조는 다르지만 같은 정보를 요청합니다."
+        },
+        {
+          "id": "se_ch16_set07_010",
+          "type": "multiple_choice",
+          "question": "좌석 바로 위에 선반이 있다고 알려주는 표현은?",
+          "options": [
+            "There's a shelf directly over your seat.",
+            "Your bag goes under the seat.",
+            "The luggage is at the end of the train.",
+            "Put your bag in the compartment."
+          ],
+          "answerIndex": 0,
+          "explanation": "'There's a shelf directly over your seat.'는 좌석 바로 위에 선반이 있다는 위치 안내입니다. 'directly over'는 바로 위에 있다는 의미로 'just above your head'와 같은 상황에서 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch16_set07_011",
+          "type": "ox",
+          "question": "'Please hold on to your passport and wallet.'는 여권과 지갑을 꼭 소지하라는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'hold on to ~'는 꼭 붙들고 있다, 잃어버리지 않도록 소지하다는 의미입니다. 'Keep your valuables with you.'와 같은 상황에서 쓰이며 특히 여권과 지갑을 강조하는 표현입니다."
+        },
+        {
+          "id": "se_ch16_set07_012",
+          "type": "ox",
+          "question": "기차에서 'aisle seat'은 창가 쪽 좌석을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'aisle seat'은 통로(aisle) 쪽 좌석입니다. 창가 좌석은 'window seat'이라고 합니다. 티켓 구매 시 'Window or aisle?'이라고 물으면 창가와 통로 중에서 선택하는 것입니다."
+        },
+        {
+          "id": "se_ch16_set07_013",
+          "type": "ox",
+          "question": "기차 여행에서 'stop'은 정차역을 의미하며, 'two more stops'는 두 정거장 더 가야 한다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 기차나 버스에서 'stop'은 정차역 또는 정류장을 의미합니다. 'two more stops'는 두 정거장이 더 남았다는 표현으로, 목적지가 가까워졌는지 파악하는 데 유용한 표현입니다."
+        },
+        {
+          "id": "se_ch16_set07_014",
+          "type": "ox",
+          "question": "'Can I reserve a seat?'는 기차 탑승 전에 특정 좌석을 미리 지정해달라는 요청이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'reserve a seat'는 특정 좌석을 미리 예약하는 것을 의미합니다. 유럽 일부 노선에서는 좌석 예약이 필수이며, 티켓 구매와 동시에 요청하면 원하는 좌석(창가, 통로 등)을 지정받을 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch16_set08_001",
+          "type": "multiple_choice",
+          "question": "매표소에서 좌석 예약이 티켓에 포함됐는지 확인하는 표현은?",
+          "options": [
+            "Is seat reservation included?",
+            "Do I need a platform ticket?",
+            "Is luggage storage free?",
+            "Does the ticket include a meal?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is seat reservation included?'는 좌석 예약 여부가 티켓 가격에 포함됐는지 확인하는 표현입니다. 유럽 일부 노선에서는 예약이 선택 사항이며 별도 요금이 부과될 수 있습니다."
+        },
+        {
+          "id": "se_ch16_set08_002",
+          "type": "multiple_choice",
+          "question": "파리행 열차가 출발하는 플랫폼을 더 문법적으로 묻는 표현은?",
+          "options": [
+            "Paris platform where?",
+            "Where does the train leave from?",
+            "Train to Paris now?",
+            "Which direction is Paris?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Where does the train leave from?'은 기차가 어느 플랫폼에서 출발하는지 묻는 문법적으로 완전한 표현입니다. 목적지를 특정하지 않을 수 있지만 맥락상 파리행 기차를 찾을 때 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch16_set08_003",
+          "type": "multiple_choice",
+          "question": "기차 안에서 가방을 어디에 둘 수 있는지 간단하게 묻는 표현은?",
+          "options": [
+            "Where can I put my bag?",
+            "Is there a safe here?",
+            "Can I check my bag?",
+            "Where is the storage room?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where can I put my bag?'는 가방을 어디에 두면 되는지 간단하게 묻는 표현입니다. 'Is there a luggage rack near my seat?'보다 더 짧고 직관적인 표현입니다."
+        },
+        {
+          "id": "se_ch16_set08_004",
+          "type": "multiple_choice",
+          "question": "다음 칸으로 이동하라는 위치 안내를 미국식 영어로 하면?",
+          "options": [
+            "It's in the next carriage.",
+            "It's in the next car, on your left.",
+            "Move to the following coach.",
+            "Go to the other section."
+          ],
+          "answerIndex": 1,
+          "explanation": "'It's in the next car, on your left.'는 미국식 영어 'car'를 사용한 위치 안내입니다. 영국식은 'carriage', 미국식은 'car'를 사용하는데, 같은 뜻입니다. 방향도 함께 제공하는 더 완전한 안내입니다."
+        },
+        {
+          "id": "se_ch16_set08_005",
+          "type": "multiple_choice",
+          "question": "좌석 분쟁 후 상대방의 사과에 'Happens to everyone.'이라고 할 때 전달하는 뜻은?",
+          "options": [
+            "모두 그런 실수를 하니 괜찮다",
+            "당신만 그런 실수를 한다",
+            "실수를 용납할 수 없다",
+            "다음에는 조심하라"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Happens to everyone.'는 누구나 그런 실수를 할 수 있다는 뜻으로 상대방의 사과를 받아들이는 친절하고 너그러운 반응입니다. 'No problem at all.', 'Don't worry about it.'과 함께 쓰면 더욱 자연스럽습니다."
+        },
+        {
+          "id": "se_ch16_set08_006",
+          "type": "multiple_choice",
+          "question": "브뤼셀에서 다음 기차를 타라는 표현은?",
+          "options": [
+            "Arrive at Brussels early.",
+            "Get off at Brussels and catch the next train.",
+            "Brussels is your final stop.",
+            "You can stay on the train at Brussels."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Get off at Brussels and catch the next train.'는 브뤼셀에서 내려 다음 기차를 타라는 환승 지시입니다. 'catch a train'은 열차를 잡아 타다는 의미로 환승 안내에서 자주 사용됩니다."
+        },
+        {
+          "id": "se_ch16_set08_007",
+          "type": "multiple_choice",
+          "question": "열차 지연이 환승에 미치는 영향을 확인할 때 쓰는 표현은?",
+          "options": [
+            "Is there a risk I'll miss my transfer?",
+            "Can I get a discount for the delay?",
+            "Will the train stop at my station?",
+            "Is the delay my fault?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a risk I'll miss my transfer?'는 지연으로 인해 환승을 놓칠 위험이 있는지 확인하는 표현입니다. 'transfer'는 'connection'과 같은 의미로 환승 편을 가리킵니다."
+        },
+        {
+          "id": "se_ch16_set08_008",
+          "type": "multiple_choice",
+          "question": "다음 기차를 탈 수 있도록 도와주겠다는 승무원의 표현은?",
+          "options": [
+            "You'll have to wait for the next train.",
+            "We'll make sure you catch your next train.",
+            "Your train has already departed.",
+            "Buy a new ticket at Brussels."
+          ],
+          "answerIndex": 1,
+          "explanation": "'We'll make sure you catch your next train.'는 다음 열차를 탈 수 있도록 도와주겠다는 안심 표현입니다. 'make sure'는 확실히 보장한다는 의미로 승객의 환승을 책임지겠다는 뜻을 담고 있습니다."
+        },
+        {
+          "id": "se_ch16_set08_009",
+          "type": "multiple_choice",
+          "question": "기차 도착 시 짐 보관 장소에 대한 올바른 안내는?",
+          "options": [
+            "Is there somewhere to store my luggage?",
+            "Can you watch my bag?",
+            "Should I check my luggage?",
+            "Is there a locker at the station?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there somewhere to store my luggage?'는 기차 안에서 짐을 보관할 공간이 있는지 묻는 일반적인 표현입니다. 짐 선반의 구체적인 명칭을 모를 때도 사용할 수 있는 유연한 표현입니다."
+        },
+        {
+          "id": "se_ch16_set08_010",
+          "type": "multiple_choice",
+          "question": "브뤼헤에 도착하면 알려달라고 더 구체적으로 부탁하는 표현은?",
+          "options": [
+            "Wake me up before Bruges.",
+            "Could you tell me when we reach Bruges?",
+            "Is Bruges the terminal station?",
+            "Don't let me miss Bruges."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Could you tell me when we reach Bruges?'는 브뤼헤에 도착하면 알려달라는 구체적인 요청입니다. 'Could you ~?'는 정중한 요청 표현이며 'reach'는 '도착하다'는 뜻입니다."
+        },
+        {
+          "id": "se_ch16_set08_011",
+          "type": "ox",
+          "question": "기차 탑승 전 'Is this the train to Edinburgh?'라고 확인하는 것은 좋은 여행 습관이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 플랫폼을 찾은 후에도 탑승 전에 해당 열차가 목적지행이 맞는지 확인하는 것은 중요한 여행 습관입니다. 플랫폼이 변경되거나 여러 열차가 같은 플랫폼을 공유하는 경우가 있기 때문입니다."
+        },
+        {
+          "id": "se_ch16_set08_012",
+          "type": "ox",
+          "question": "'turn up the brightness'는 화면 밝기를 낮추라는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'turn up'은 올리다, 높이다는 뜻입니다. 'turn up the brightness'는 밝기를 높이라는 의미입니다. 반대로 낮추라고 할 때는 'turn down the brightness'라고 합니다."
+        },
+        {
+          "id": "se_ch16_set08_013",
+          "type": "ox",
+          "question": "기차에서 'dining car'는 'buffet car'와 달리 정식 식사를 제공하는 칸이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'dining car'는 테이블과 의자가 갖춰진 식당칸으로 정식 식사를 제공합니다. 반면 'buffet car'는 카운터에서 간단한 음식과 음료를 사서 자리로 가져가는 방식입니다."
+        },
+        {
+          "id": "se_ch16_set08_014",
+          "type": "ox",
+          "question": "유럽 장거리 기차에는 반드시 식당칸(dining car)이 있어야 한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 기차마다 식당칸 유무가 다릅니다. 일부 단거리 또는 저가 열차에는 식당칸이 없을 수 있습니다. 탑승 전 'Is there a dining car on this train?'으로 미리 확인하는 것이 좋습니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch16_set09_001",
+          "type": "multiple_choice",
+          "question": "미국식 영어로 왕복 티켓을 뜻하는 표현은?",
+          "options": [
+            "Return ticket",
+            "Round trip ticket",
+            "Single ticket",
+            "Open ticket"
+          ],
+          "answerIndex": 1,
+          "explanation": "미국식 영어에서 왕복 티켓은 'round trip ticket'이라고 합니다. 영국식 영어에서는 'return'이 왕복입니다. 'Single'은 편도(영국식), 'open ticket'은 날짜가 정해지지 않은 자유 이용권입니다."
+        },
+        {
+          "id": "se_ch16_set09_002",
+          "type": "multiple_choice",
+          "question": "기차에서 'on the left'와 'on the right'은 무엇을 나타내는가?",
+          "options": [
+            "기차의 속도",
+            "열차 안 좌우 방향",
+            "목적지 방향",
+            "티켓 종류"
+          ],
+          "answerIndex": 1,
+          "explanation": "'on the left'와 'on the right'는 열차 안에서 좌석이나 시설의 위치를 안내할 때 좌우 방향을 나타냅니다. 'Seat 24A is in the next carriage, on the left.'처럼 방향 안내에 자주 씁니다."
+        },
+        {
+          "id": "se_ch16_set09_003",
+          "type": "multiple_choice",
+          "question": "다른 사람이 내 자리에 앉았을 때 충돌을 피하며 자신의 자리임을 주장하는 영어 표현의 핵심은?",
+          "options": [
+            "'I know ~'로 시작해 단정하기",
+            "'I think ~'로 시작해 부드럽게 전달하기",
+            "'You must ~'로 명령하기",
+            "'Please ~'로만 부탁하기"
+          ],
+          "answerIndex": 1,
+          "explanation": "좌석 분쟁에서 'I think this is my seat.'처럼 'I think ~'로 시작하면 단정적이지 않으면서도 자신의 주장을 전달할 수 있어 불필요한 마찰을 줄일 수 있습니다. 부드럽지만 명확한 의사 전달이 핵심입니다."
+        },
+        {
+          "id": "se_ch16_set09_004",
+          "type": "multiple_choice",
+          "question": "환승 시 브뤼셀 중앙역에서 갈아타야 한다고 구체적으로 안내하는 표현은?",
+          "options": [
+            "Transfer at Brussels Central.",
+            "Brussels is your last stop.",
+            "Get on at Brussels.",
+            "Wait for the Brussels connection."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Transfer at Brussels Central.'는 브뤼셀 중앙역에서 환승하라는 구체적인 안내 표현입니다. 'Transfer at + 역 이름'은 환승 장소를 명확히 알려주는 간결하고 실용적인 안내 방식입니다."
+        },
+        {
+          "id": "se_ch16_set09_005",
+          "type": "multiple_choice",
+          "question": "기차 방송에서 연착을 알리는 공식적인 표현 중 'Ladies and gentlemen'으로 시작하는 이유는?",
+          "options": [
+            "외국어 안내이기 때문에",
+            "모든 승객에게 정중히 전달하기 위해",
+            "열차가 출발할 때만 쓰는 표현이기 때문에",
+            "고속 열차에서만 쓰는 표현이기 때문에"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Ladies and gentlemen'은 방송이나 공식 장소에서 청중 모두를 정중하게 부르는 표현입니다. 남녀 모두를 포함하는 격식 있는 호칭으로, 연착·안내 방송 등 공식적인 메시지 앞에 씁니다."
+        },
+        {
+          "id": "se_ch16_set09_006",
+          "type": "multiple_choice",
+          "question": "모바일 티켓을 앱에서 불러올 때 쓰는 표현 'pull it up'에서 'up'의 역할은?",
+          "options": [
+            "방향(위)을 나타낸다",
+            "완료 또는 화면에 표시됨을 강조하는 부사",
+            "속도를 나타낸다",
+            "시간을 나타낸다"
+          ],
+          "answerIndex": 1,
+          "explanation": "'pull up'의 'up'은 방향이 아닌 동작의 완료나 화면에 정보를 표시한다는 뉘앙스를 강조하는 부사입니다. 'pull up information/a file'은 저장된 정보나 파일을 화면에 불러온다는 의미입니다."
+        },
+        {
+          "id": "se_ch16_set09_007",
+          "type": "multiple_choice",
+          "question": "기차 식당칸(뷔페 칸)이 8번 칸이라는 위치 안내 표현은?",
+          "options": [
+            "The buffet car is at the back — carriage eight.",
+            "Find the buffet car near the front.",
+            "Carriage eight is the sleeping car.",
+            "The dining car is carriage one."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The buffet car is at the back — carriage eight.'는 뷔페 칸이 뒤쪽에 있으며 8번 칸임을 구체적으로 알려주는 표현입니다. 'at the back'으로 방향을, '— carriage eight'으로 칸 번호를 추가로 안내합니다."
+        },
+        {
+          "id": "se_ch16_set09_008",
+          "type": "multiple_choice",
+          "question": "브뤼헤에서 두 정거장 남았다는 것을 또 다른 표현으로 말하면?",
+          "options": [
+            "You've got two more stops to go.",
+            "Bruges is right here.",
+            "Get off at the next stop.",
+            "Bruges is the last station."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You've got two more stops to go.'는 브뤼헤까지 두 정거장이 남았다는 캐주얼한 표현입니다. 'Two more stops.'나 'It's another two stops.'와 같은 의미로 상황에 따라 바꿔 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch16_set09_009",
+          "type": "multiple_choice",
+          "question": "기차 짐 선반 위 선반이 머리 바로 위에 있다는 표현은?",
+          "options": [
+            "The overhead rack is right above you.",
+            "There's storage under your seat.",
+            "The rack is at the end of the carriage.",
+            "Put your bag next to you."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The overhead rack is right above you.'는 머리 위 선반이 바로 위에 있다는 표현입니다. 'right above'는 '바로 위에'라는 의미로 'just above your head'와 같은 뜻입니다."
+        },
+        {
+          "id": "se_ch16_set09_010",
+          "type": "multiple_choice",
+          "question": "귀중품을 방치하지 말고 항상 소지하라는 안내의 핵심 표현은?",
+          "options": [
+            "Do not use overhead racks for valuables.",
+            "Keep your valuables with you at all times.",
+            "Report theft to the conductor.",
+            "Valuables are insured during travel."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Keep your valuables with you at all times.'는 귀중품을 항상 몸에 지니라는 여행 안전 수칙입니다. 'at all times'를 추가하면 어떤 상황에서도 소지해야 한다는 의미가 더욱 강조됩니다."
+        },
+        {
+          "id": "se_ch16_set09_011",
+          "type": "ox",
+          "question": "기차에서 'coach'는 'carriage'의 미국식 표현으로 열차 객차를 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'coach'는 기차 또는 버스의 한 칸을 뜻하는 단어로, 특히 미국 영어에서 기차 객차를 가리킬 때 사용합니다. 영국식 'carriage'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch16_set09_012",
+          "type": "ox",
+          "question": "'Will I miss my connection?'는 환승 열차가 만석이라는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Will I miss my connection?'는 환승 열차를 놓칠 것인지 묻는 표현입니다. 'miss'는 기차를 타지 못한다는 의미이며, 만석은 'fully booked' 또는 'sold out'으로 표현합니다."
+        },
+        {
+          "id": "se_ch16_set09_013",
+          "type": "ox",
+          "question": "유럽 기차 여행에서 환승 시간이 충분한지 확인하는 것은 중요한 여행 준비 사항이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 환승 시간이 너무 짧으면 지연 등 예기치 못한 상황에서 환승 열차를 놓칠 수 있습니다. 'How long is the connection?'으로 환승 시간을 확인하고, 여유 있는 일정을 잡는 것이 안전합니다."
+        },
+        {
+          "id": "se_ch16_set09_014",
+          "type": "ox",
+          "question": "'No problem at all.'은 상대방의 사과에 부담 없이 받아치는 자연스러운 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'No problem at all.'은 '전혀 문제없어요'라는 뜻으로 상대방의 사과를 편안하게 받아들이는 자연스러운 영어 표현입니다. 'Don't worry about it.', 'It's fine.'도 같은 맥락에서 사용됩니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch16_set10_001",
+          "type": "multiple_choice",
+          "question": "기차 매표소에서 좌석 예약을 요청하는 표현은?",
+          "options": [
+            "Can I reserve a seat?",
+            "Is this train full?",
+            "I'd like a first-class upgrade.",
+            "Can I board without a ticket?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I reserve a seat?'는 좌석 예약을 요청하는 표현입니다. 유럽 일부 노선에서는 좌석 예약이 필수이고, 일부는 선택 사항이므로 티켓 구매 시 함께 요청하는 것이 편리합니다."
+        },
+        {
+          "id": "se_ch16_set10_002",
+          "type": "multiple_choice",
+          "question": "기차역에서 목적지행 열차의 플랫폼을 묻는 표현 중 가장 짧은 것은?",
+          "options": [
+            "What platform for Paris?",
+            "Which platform is the train to Paris?",
+            "Which platform does the train to Paris leave from?",
+            "Where do I catch the train to Paris?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What platform for Paris?'는 파리행 기차의 플랫폼을 묻는 가장 짧은 표현입니다. 급할 때 유용하며 직관적입니다. 나머지는 더 완전한 문장 형태로 같은 의미이지만 표현 길이가 다릅니다."
+        },
+        {
+          "id": "se_ch16_set10_003",
+          "type": "multiple_choice",
+          "question": "특정 좌석을 찾는 중이라고 더 간결하게 묻는 표현은?",
+          "options": [
+            "I'm looking for seat 24A.",
+            "Where is seat 24A?",
+            "Is seat 24A reserved?",
+            "Can I sit in seat 24A?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Where is seat 24A?'는 특정 좌석 위치를 직접적으로 묻는 더 간결한 표현입니다. 'I'm looking for seat 24A.'보다 짧지만 같은 정보를 얻을 수 있습니다."
+        },
+        {
+          "id": "se_ch16_set10_004",
+          "type": "multiple_choice",
+          "question": "자신의 자리임을 확신 있게 하지만 여전히 정중하게 표현하려면?",
+          "options": [
+            "That's definitely my seat.",
+            "I believe this is my seat.",
+            "You need to move.",
+            "Check your ticket."
+          ],
+          "answerIndex": 1,
+          "explanation": "'I believe this is my seat.'는 'I think ~'보다 약간 더 확신 있는 표현이지만 여전히 정중하게 들립니다. 'I believe ~'는 확신과 예의를 동시에 표현하는 균형 잡힌 표현입니다."
+        },
+        {
+          "id": "se_ch16_set10_005",
+          "type": "multiple_choice",
+          "question": "암스테르담 가는 환승 열차를 어디서 타는지 묻는 표현은?",
+          "options": [
+            "How long does it take to Amsterdam?",
+            "Where do I change trains for Amsterdam?",
+            "Is Amsterdam on this train's route?",
+            "Does this train stop in Amsterdam?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Where do I change trains for Amsterdam?'은 암스테르담 가는 환승 장소를 묻는 가장 직접적인 표현입니다. 'change trains'는 다른 열차로 갈아탄다는 의미이고, 목적지 앞에 'for'를 붙입니다."
+        },
+        {
+          "id": "se_ch16_set10_006",
+          "type": "multiple_choice",
+          "question": "기차 연착이 약 30분이라는 표현에서 'approximately'의 의미는?",
+          "options": [
+            "정확히",
+            "최소",
+            "대략",
+            "최대"
+          ],
+          "answerIndex": 2,
+          "explanation": "'approximately'는 '대략, 약'이라는 뜻입니다. 'delayed by approximately thirty minutes'는 약 30분 연착됐다는 의미로, 정확히 30분이 아닐 수도 있음을 나타냅니다. 'about'과 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch16_set10_007",
+          "type": "multiple_choice",
+          "question": "승무원이 검표 시 한 말 중 모바일 티켓 상황에서 자연스러운 순서는?",
+          "options": [
+            "Tickets, please → It's on my phone → Could you turn up the brightness?",
+            "Could you turn up the brightness? → Tickets, please → It's on my phone",
+            "It's on my phone → Tickets, please → Could you turn up the brightness?",
+            "Tickets, please → Could you turn up the brightness? → It's on my phone"
+          ],
+          "answerIndex": 0,
+          "explanation": "자연스러운 순서는 승무원의 검표 요청(Tickets, please) → 승객의 모바일 티켓 안내(It's on my phone) → 승무원의 밝기 요청(Could you turn up the brightness?)입니다. 이 흐름이 실제 검표 상황에서 가장 자연스럽습니다."
+        },
+        {
+          "id": "se_ch16_set10_008",
+          "type": "multiple_choice",
+          "question": "기차 안에서 따뜻한 음료(hot drinks)를 살 수 있는 곳은?",
+          "options": [
+            "Dining car / buffet car",
+            "Luggage rack area",
+            "Conductor's compartment",
+            "Platform kiosk"
+          ],
+          "answerIndex": 0,
+          "explanation": "기차 내에서 따뜻한 음료는 식당칸(dining car)이나 뷔페 칸(buffet car)에서 구입할 수 있습니다. 'Yes, sandwiches and hot drinks too.'는 기차 안 식음 서비스의 대표적인 안내 표현입니다."
+        },
+        {
+          "id": "se_ch16_set10_009",
+          "type": "multiple_choice",
+          "question": "목적지가 'another two stops'라는 표현의 의미는?",
+          "options": [
+            "두 정거장 전에 내려야 한다",
+            "두 정거장 더 가야 한다",
+            "두 번 환승해야 한다",
+            "두 번 정차 후 종착역이다"
+          ],
+          "answerIndex": 1,
+          "explanation": "'another two stops'는 두 정거장 더 가야 한다는 의미입니다. 'another'는 '추가로'라는 뜻이므로 현재 위치에서 두 정거장이 더 남았다는 뜻입니다. 'two more stops'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch16_set10_010",
+          "type": "multiple_choice",
+          "question": "여행 중 귀중품에 해당하지 않는 것은?",
+          "options": [
+            "여권",
+            "현금",
+            "짐 선반(luggage rack)",
+            "스마트폰"
+          ],
+          "answerIndex": 2,
+          "explanation": "'valuables(귀중품)'에는 여권, 현금, 신용카드, 스마트폰 등 가치 있는 물건이 포함됩니다. '짐 선반(luggage rack)'은 기차의 시설로 귀중품이 아닙니다. 귀중품은 짐 선반에 두지 말고 항상 몸에 지녀야 합니다."
+        },
+        {
+          "id": "se_ch16_set10_011",
+          "type": "ox",
+          "question": "'One-way or round trip?'는 영국식 영어로 편도와 왕복을 묻는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'One-way or round trip?'은 미국식 영어 표현입니다. 영국식 영어로는 'Single or return?'이라고 합니다. 두 표현 모두 편도와 왕복을 묻는 같은 의미이지만 지역에 따라 다른 표현을 씁니다."
+        },
+        {
+          "id": "se_ch16_set10_012",
+          "type": "ox",
+          "question": "기차에서 'Boarding now.'는 지금 탑승할 수 있다는 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Boarding now.'는 지금 탑승 중이라는 표현으로 기차나 항공편에서 탑승이 시작됐음을 알리는 표현입니다. 'Now boarding'도 같은 의미로 사용됩니다."
+        },
+        {
+          "id": "se_ch16_set10_013",
+          "type": "ox",
+          "question": "기차 여행에서 'Let me check my ticket.'은 상대방의 티켓을 확인하겠다는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Let me check my ticket.'는 자신의 티켓을 확인해보겠다는 표현입니다. 'Let me ~'는 자신이 스스로 무언가를 하겠다는 표현이므로, 'my ticket'은 말하는 사람의 티켓입니다."
+        },
+        {
+          "id": "se_ch16_set10_014",
+          "type": "ox",
+          "question": "기차 내 짐 보관에서 작은 가방은 좌석 위 선반(luggage rack)에, 큰 가방은 객차 끝에 두는 것이 권장된다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 기차 내 좌석 위 선반(luggage rack)은 작은 가방에 적합하고, 대형 캐리어나 큰 가방은 객차 끝 공간(end of the carriage)에 두도록 안내합니다. 이는 통로를 막지 않기 위한 기본 에티켓입니다."
         }
       ]
     }

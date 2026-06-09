@@ -7,34 +7,68 @@
       "id": "ch13_d01",
       "title": "유심 어디서 사나",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, where can I buy a SIM card?", "ko": "실례합니다, 유심 카드를 어디서 살 수 있나요?" },
-        { "speaker": "직원", "en": "You can get one at any convenience store or at a phone shop.", "ko": "편의점이나 휴대폰 판매점 어디서나 구입하실 수 있습니다." },
-        { "speaker": "나", "en": "Is there a phone shop nearby?", "ko": "근처에 휴대폰 판매점이 있나요?" },
-        { "speaker": "직원", "en": "Yes, there's one on the second floor of this building.", "ko": "네, 이 건물 2층에 있습니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, where can I buy a SIM card?",
+          "ko": "실례합니다, 유심 카드를 어디서 살 수 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "You can get one at any convenience store or at a phone shop.",
+          "ko": "편의점이나 휴대폰 판매점 어디서나 구입하실 수 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Is there a phone shop nearby?",
+          "ko": "근처에 휴대폰 판매점이 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, there's one on the second floor of this building.",
+          "ko": "네, 이 건물 2층에 있습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Where can I buy a SIM card?",
           "ko": "유심 구입 장소를 묻는 표현. 'SIM card'는 미국·영국 공통 표현. 'Where do I get a SIM?'처럼 줄여도 통하지만 can I를 쓰는 게 더 자연스럽다.",
           "alternatives": [
-            { "en": "Where do I get a SIM card around here?", "ko": "'around here'를 붙여 주변을 물어보는 표현." },
-            { "en": "Is there a place to buy a SIM card nearby?", "ko": "Is there ~? 구조로 주변에 판매처가 있는지 묻는 표현." }
+            {
+              "en": "Where do I get a SIM card around here?",
+              "ko": "'around here'를 붙여 주변을 물어보는 표현."
+            },
+            {
+              "en": "Is there a place to buy a SIM card nearby?",
+              "ko": "Is there ~? 구조로 주변에 판매처가 있는지 묻는 표현."
+            }
           ]
         },
         {
           "en": "at any convenience store",
           "ko": "편의점이라는 뜻. convenience store는 영미권 공통 표현으로 'corner store'(미국 구어), 'newsagent'(영국)로도 불림. 해외 공항 내 편의점에서도 유심을 파는 경우가 많다.",
           "alternatives": [
-            { "en": "at a phone shop", "ko": "휴대폰 판매점. 'carrier store' 또는 'mobile shop'이라고도 함." },
-            { "en": "at the airport kiosk", "ko": "공항 키오스크. 국제공항 출국장/입국장에 유심 자판기가 많다." }
+            {
+              "en": "at a phone shop",
+              "ko": "휴대폰 판매점. 'carrier store' 또는 'mobile shop'이라고도 함."
+            },
+            {
+              "en": "at the airport kiosk",
+              "ko": "공항 키오스크. 국제공항 출국장/입국장에 유심 자판기가 많다."
+            }
           ]
         },
         {
           "en": "Is there a phone shop nearby?",
           "ko": "'Is there ~ nearby?'는 근처에 무언가가 있는지 물을 때 쓰는 기본 패턴. 'phone shop'은 영국식, 미국에서는 'cell phone store' 또는 'carrier store'가 더 일반적.",
           "alternatives": [
-            { "en": "Is there a mobile store around here?", "ko": "mobile store는 영국식 표현. 미국에서는 'wireless store'를 더 자주 씀." },
-            { "en": "Can I find a carrier store near here?", "ko": "통신사 직영점을 carrier store라 부른다. AT&T, T-Mobile 같은 직영 매장에 해당." }
+            {
+              "en": "Is there a mobile store around here?",
+              "ko": "mobile store는 영국식 표현. 미국에서는 'wireless store'를 더 자주 씀."
+            },
+            {
+              "en": "Can I find a carrier store near here?",
+              "ko": "통신사 직영점을 carrier store라 부른다. AT&T, T-Mobile 같은 직영 매장에 해당."
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch13_d02",
       "title": "선불 유심 요청",
       "lines": [
-        { "speaker": "나", "en": "Hi, I'd like a prepaid SIM card, please.", "ko": "안녕하세요, 선불 유심 카드를 구입하고 싶습니다." },
-        { "speaker": "점원", "en": "Sure. Will that be for a smartphone?", "ko": "네. 스마트폰용으로 드릴까요?" },
-        { "speaker": "나", "en": "Yes, for my smartphone.", "ko": "네, 스마트폰용으로요." },
-        { "speaker": "점원", "en": "We have a few options. How long will you be staying?", "ko": "몇 가지 옵션이 있습니다. 얼마나 머무실 예정인가요?" }
+        {
+          "speaker": "나",
+          "en": "Hi, I'd like a prepaid SIM card, please.",
+          "ko": "안녕하세요, 선불 유심 카드를 구입하고 싶습니다."
+        },
+        {
+          "speaker": "점원",
+          "en": "Sure. Will that be for a smartphone?",
+          "ko": "네. 스마트폰용으로 드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Yes, for my smartphone.",
+          "ko": "네, 스마트폰용으로요."
+        },
+        {
+          "speaker": "점원",
+          "en": "We have a few options. How long will you be staying?",
+          "ko": "몇 가지 옵션이 있습니다. 얼마나 머무실 예정인가요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "I'd like a prepaid SIM card, please.",
           "ko": "선불 유심을 요청하는 표현. 'prepaid'는 선불이라는 뜻으로, 반대말은 'postpaid(후불)'. 'I'd like ~'는 'I want ~'보다 정중한 요청 형태.",
           "alternatives": [
-            { "en": "Can I get a prepaid SIM, please?", "ko": "조금 더 캐주얼하게 요청하는 표현. 'get'을 동사로 쓴 구어체." },
-            { "en": "Do you sell prepaid SIM cards?", "ko": "선불 유심을 파는지 먼저 확인하는 표현. 처음 들어간 가게에서 쓰기 좋다." }
+            {
+              "en": "Can I get a prepaid SIM, please?",
+              "ko": "조금 더 캐주얼하게 요청하는 표현. 'get'을 동사로 쓴 구어체."
+            },
+            {
+              "en": "Do you sell prepaid SIM cards?",
+              "ko": "선불 유심을 파는지 먼저 확인하는 표현. 처음 들어간 가게에서 쓰기 좋다."
+            }
           ]
         },
         {
           "en": "prepaid SIM card",
           "ko": "선불 유심. 'prepaid'는 미리 돈을 낸다는 뜻. 반대로 'pay-as-you-go SIM'이라는 표현도 영국에서 자주 쓰인다. 'local SIM'이라 부르기도 함.",
           "alternatives": [
-            { "en": "pay-as-you-go SIM", "ko": "영국식 선불 유심 표현. 쓴 만큼 낸다는 의미에서 나온 말." },
-            { "en": "tourist SIM", "ko": "여행자용 유심. 일부 국가 공항에서 여행자 특화 요금제로 판매함." }
+            {
+              "en": "pay-as-you-go SIM",
+              "ko": "영국식 선불 유심 표현. 쓴 만큼 낸다는 의미에서 나온 말."
+            },
+            {
+              "en": "tourist SIM",
+              "ko": "여행자용 유심. 일부 국가 공항에서 여행자 특화 요금제로 판매함."
+            }
           ]
         },
         {
           "en": "How long will you be staying?",
           "ko": "체류 기간을 묻는 표현. 유심 요금제 추천을 위해 점원이 자주 묻는 말. 'How many days are you here?'와 같은 뜻이며, 체류 기간에 따라 요금제가 달라진다.",
           "alternatives": [
-            { "en": "How many days will you need it for?", "ko": "며칠 사용할 것인지 묻는 더 직접적인 표현." },
-            { "en": "When do you leave?", "ko": "언제 출국하는지 물어보는 표현. 체류 기간을 역으로 계산하기 위해 씀." }
+            {
+              "en": "How many days will you need it for?",
+              "ko": "며칠 사용할 것인지 묻는 더 직접적인 표현."
+            },
+            {
+              "en": "When do you leave?",
+              "ko": "언제 출국하는지 물어보는 표현. 체류 기간을 역으로 계산하기 위해 씀."
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch13_d03",
       "title": "데이터 용량 선택",
       "lines": [
-        { "speaker": "나", "en": "How much data does this plan include?", "ko": "이 요금제에는 데이터가 얼마나 포함되나요?" },
-        { "speaker": "점원", "en": "That one has 10 gigabytes of data.", "ko": "그 요금제는 데이터 10기가바이트가 포함됩니다." },
-        { "speaker": "나", "en": "Do you have an unlimited data plan?", "ko": "무제한 데이터 요금제도 있나요?" },
-        { "speaker": "점원", "en": "Yes, the unlimited plan is thirty dollars for two weeks.", "ko": "네, 무제한 요금제는 2주에 30달러입니다." }
+        {
+          "speaker": "나",
+          "en": "How much data does this plan include?",
+          "ko": "이 요금제에는 데이터가 얼마나 포함되나요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "That one has 10 gigabytes of data.",
+          "ko": "그 요금제는 데이터 10기가바이트가 포함됩니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Do you have an unlimited data plan?",
+          "ko": "무제한 데이터 요금제도 있나요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "Yes, the unlimited plan is thirty dollars for two weeks.",
+          "ko": "네, 무제한 요금제는 2주에 30달러입니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "How much data does this plan include?",
           "ko": "데이터 용량을 묻는 표현. 'include'는 포함하다는 뜻. 'come with'로 바꿔도 자연스럽다: 'How much data does this come with?'",
           "alternatives": [
-            { "en": "How much data do I get with this plan?", "ko": "이 요금제로 데이터를 얼마나 받는지 묻는 구어체 표현." },
-            { "en": "What's the data allowance on this plan?", "ko": "'data allowance'는 데이터 허용량이라는 공식 표현으로 영국에서 자주 씀." }
+            {
+              "en": "How much data do I get with this plan?",
+              "ko": "이 요금제로 데이터를 얼마나 받는지 묻는 구어체 표현."
+            },
+            {
+              "en": "What's the data allowance on this plan?",
+              "ko": "'data allowance'는 데이터 허용량이라는 공식 표현으로 영국에서 자주 씀."
+            }
           ]
         },
         {
           "en": "Do you have an unlimited data plan?",
           "ko": "무제한 데이터 요금제를 묻는 표현. 'unlimited'는 무제한이라는 뜻. 단, 해외 유심의 '무제한'은 일정 용량 이후 속도가 느려지는 경우가 많으므로 확인 필요.",
           "alternatives": [
-            { "en": "Is there an unlimited plan available?", "ko": "'Is there ~ available?'을 사용한 더 격식 있는 표현." },
-            { "en": "Do you offer unlimited data?", "ko": "'offer'를 써서 판매 여부를 묻는 표현." }
+            {
+              "en": "Is there an unlimited plan available?",
+              "ko": "'Is there ~ available?'을 사용한 더 격식 있는 표현."
+            },
+            {
+              "en": "Do you offer unlimited data?",
+              "ko": "'offer'를 써서 판매 여부를 묻는 표현."
+            }
           ]
         },
         {
           "en": "gigabytes of data",
           "ko": "데이터 용량 단위. 회화에서는 'gigs'라고 줄여 쓰는 경우가 많다: 'ten gigs of data'. 1기가는 약 1,000메가바이트. 스트리밍 1시간에 약 1~3GB를 사용한다.",
           "alternatives": [
-            { "en": "gigs of data", "ko": "gigabytes의 구어체 표현. 점원들이 일상적으로 쓰는 말." },
-            { "en": "megabytes of data", "ko": "데이터 용량이 작을 때 쓰는 단위. 요즘은 대부분 기가바이트 단위로 판매." }
+            {
+              "en": "gigs of data",
+              "ko": "gigabytes의 구어체 표현. 점원들이 일상적으로 쓰는 말."
+            },
+            {
+              "en": "megabytes of data",
+              "ko": "데이터 용량이 작을 때 쓰는 단위. 요즘은 대부분 기가바이트 단위로 판매."
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch13_d04",
       "title": "이심 QR 코드",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, do you have eSIM available?", "ko": "실례합니다, 이심도 판매하시나요?" },
-        { "speaker": "점원", "en": "Yes, we do. We'll send you a QR code to scan.", "ko": "네, 있습니다. QR 코드를 보내드리면 스캔하시면 됩니다." },
-        { "speaker": "나", "en": "Will it work on my iPhone?", "ko": "제 아이폰에서 사용 가능한가요?" },
-        { "speaker": "점원", "en": "Most modern iPhones support eSIM. Could I see your phone model?", "ko": "최신 아이폰 대부분은 이심을 지원합니다. 폰 모델을 확인할 수 있을까요?" }
+        {
+          "speaker": "나",
+          "en": "Excuse me, do you have eSIM available?",
+          "ko": "실례합니다, 이심도 판매하시나요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "Yes, we do. We'll send you a QR code to scan.",
+          "ko": "네, 있습니다. QR 코드를 보내드리면 스캔하시면 됩니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Will it work on my iPhone?",
+          "ko": "제 아이폰에서 사용 가능한가요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "Most modern iPhones support eSIM. Could I see your phone model?",
+          "ko": "최신 아이폰 대부분은 이심을 지원합니다. 폰 모델을 확인할 수 있을까요?"
+        }
       ],
       "keyExpressions": [
         {
           "en": "Do you have eSIM available?",
           "ko": "이심을 판매하는지 묻는 표현. 'eSIM'은 'embedded SIM'의 줄임말로 물리적 유심 없이 QR 코드 또는 앱으로 개통한다. 'available'을 붙이면 재고 여부까지 묻는 뉘앙스.",
           "alternatives": [
-            { "en": "Can I get an eSIM here?", "ko": "이심을 여기서 구입할 수 있는지 묻는 표현." },
-            { "en": "Do you sell eSIM plans?", "ko": "이심 요금제를 판매하는지 묻는 더 직접적인 표현." }
+            {
+              "en": "Can I get an eSIM here?",
+              "ko": "이심을 여기서 구입할 수 있는지 묻는 표현."
+            },
+            {
+              "en": "Do you sell eSIM plans?",
+              "ko": "이심 요금제를 판매하는지 묻는 더 직접적인 표현."
+            }
           ]
         },
         {
           "en": "We'll send you a QR code to scan.",
           "ko": "이심 개통 절차를 설명하는 표현. 이심은 QR 코드 스캔 또는 활성화 코드 입력으로 개통된다. 'scan'은 QR 코드를 카메라로 읽는다는 뜻.",
           "alternatives": [
-            { "en": "You'll need to scan a QR code to activate it.", "ko": "QR 코드 스캔으로 활성화해야 한다는 설명 표현." },
-            { "en": "We'll email you the activation code.", "ko": "이메일로 활성화 코드를 보내준다는 표현." }
+            {
+              "en": "You'll need to scan a QR code to activate it.",
+              "ko": "QR 코드 스캔으로 활성화해야 한다는 설명 표현."
+            },
+            {
+              "en": "We'll email you the activation code.",
+              "ko": "이메일로 활성화 코드를 보내준다는 표현."
+            }
           ]
         },
         {
           "en": "Will it work on my iPhone?",
           "ko": "호환 여부를 묻는 표현. 'work on'은 기기에서 작동하다라는 뜻. 이심은 기기마다 지원 여부가 다르므로 구매 전에 반드시 확인해야 한다.",
           "alternatives": [
-            { "en": "Is it compatible with my phone?", "ko": "'compatible with'는 호환된다는 뜻의 더 기술적인 표현." },
-            { "en": "Does my phone support eSIM?", "ko": "내 폰이 이심을 지원하는지 묻는 표현." }
+            {
+              "en": "Is it compatible with my phone?",
+              "ko": "'compatible with'는 호환된다는 뜻의 더 기술적인 표현."
+            },
+            {
+              "en": "Does my phone support eSIM?",
+              "ko": "내 폰이 이심을 지원하는지 묻는 표현."
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch13_d05",
       "title": "기간과 요금 확인",
       "lines": [
-        { "speaker": "나", "en": "I need a plan for two weeks. How much is it?", "ko": "2주짜리 요금제가 필요합니다. 얼마인가요?" },
-        { "speaker": "점원", "en": "The two-week plan is twenty-five dollars with 15 GB of data.", "ko": "2주 요금제는 15기가 데이터가 포함되며 25달러입니다." },
-        { "speaker": "나", "en": "Does that include calls and texts as well?", "ko": "통화와 문자도 포함인가요?" },
-        { "speaker": "점원", "en": "Yes, you get unlimited local calls and texts.", "ko": "네, 현지 통화와 문자는 무제한입니다." }
+        {
+          "speaker": "나",
+          "en": "I need a plan for two weeks. How much is it?",
+          "ko": "2주짜리 요금제가 필요합니다. 얼마인가요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "The two-week plan is twenty-five dollars with 15 GB of data.",
+          "ko": "2주 요금제는 15기가 데이터가 포함되며 25달러입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Does that include calls and texts as well?",
+          "ko": "통화와 문자도 포함인가요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "Yes, you get unlimited local calls and texts.",
+          "ko": "네, 현지 통화와 문자는 무제한입니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I need a plan for two weeks.",
           "ko": "기간을 지정해 요금제를 요청하는 표현. 'for + 기간'을 붙이면 사용 기간을 명확히 전달할 수 있다. 'two-week plan'처럼 형용사로 쓸 수도 있다.",
           "alternatives": [
-            { "en": "What plans do you have for two weeks?", "ko": "2주짜리 요금제가 무엇이 있는지 선택지를 물어보는 표현." },
-            { "en": "I'm here for two weeks. What do you recommend?", "ko": "체류 기간을 알려주고 추천을 구하는 표현." }
+            {
+              "en": "What plans do you have for two weeks?",
+              "ko": "2주짜리 요금제가 무엇이 있는지 선택지를 물어보는 표현."
+            },
+            {
+              "en": "I'm here for two weeks. What do you recommend?",
+              "ko": "체류 기간을 알려주고 추천을 구하는 표현."
+            }
           ]
         },
         {
           "en": "How much is it?",
           "ko": "가격을 묻는 가장 기본적인 표현. 'How much does it cost?'와 같은 뜻이지만 'How much is it?'가 더 짧고 일상적으로 쓰인다.",
           "alternatives": [
-            { "en": "What's the price?", "ko": "가격이 얼마인지 묻는 간결한 표현." },
-            { "en": "How much does it cost?", "ko": "'How much is it?'의 좀 더 격식 있는 표현으로 비용을 묻는다." }
+            {
+              "en": "What's the price?",
+              "ko": "가격이 얼마인지 묻는 간결한 표현."
+            },
+            {
+              "en": "How much does it cost?",
+              "ko": "'How much is it?'의 좀 더 격식 있는 표현으로 비용을 묻는다."
+            }
           ]
         },
         {
           "en": "Does that include calls and texts as well?",
           "ko": "통화와 문자가 포함인지 묻는 표현. 'as well'은 '~도 역시'라는 뜻으로 데이터 외에 다른 항목도 포함인지 확인할 때 씀. 'too'나 'also'로 바꿔도 됨.",
           "alternatives": [
-            { "en": "Are calls and texts included too?", "ko": "문장 끝에 too를 붙여 포함 여부를 확인하는 표현." },
-            { "en": "What else is included in the plan?", "ko": "요금제에 무엇이 더 포함되는지 넓게 물어보는 표현." }
+            {
+              "en": "Are calls and texts included too?",
+              "ko": "문장 끝에 too를 붙여 포함 여부를 확인하는 표현."
+            },
+            {
+              "en": "What else is included in the plan?",
+              "ko": "요금제에 무엇이 더 포함되는지 넓게 물어보는 표현."
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch13_d06",
       "title": "설정 도움 요청",
       "lines": [
-        { "speaker": "나", "en": "Could you help me set it up, please?", "ko": "설정하는 것을 도와주실 수 있나요?" },
-        { "speaker": "점원", "en": "Of course! May I have your phone for a moment?", "ko": "물론이죠! 잠깐 폰을 받아도 될까요?" },
-        { "speaker": "나", "en": "Sure, here you go.", "ko": "네, 여기 있습니다." },
-        { "speaker": "점원", "en": "All done. You should now have signal.", "ko": "다 됐습니다. 이제 신호가 잡혀야 합니다." }
+        {
+          "speaker": "나",
+          "en": "Could you help me set it up, please?",
+          "ko": "설정하는 것을 도와주실 수 있나요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "Of course! May I have your phone for a moment?",
+          "ko": "물론이죠! 잠깐 폰을 받아도 될까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Sure, here you go.",
+          "ko": "네, 여기 있습니다."
+        },
+        {
+          "speaker": "점원",
+          "en": "All done. You should now have signal.",
+          "ko": "다 됐습니다. 이제 신호가 잡혀야 합니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Could you help me set it up, please?",
           "ko": "설정 도움을 요청하는 표현. 'set up'은 초기 설정한다는 뜻의 구동사. 'Could you help me ~?'는 도움을 요청하는 정중한 형태로 'Can you ~?' 보다 공손하다.",
           "alternatives": [
-            { "en": "Can you help me get it working?", "ko": "작동하도록 도와달라는 표현. 'get it working'은 작동 상태로 만든다는 뜻." },
-            { "en": "Would you mind setting it up for me?", "ko": "'Would you mind ~?'는 가장 격식 있는 요청 형태." }
+            {
+              "en": "Can you help me get it working?",
+              "ko": "작동하도록 도와달라는 표현. 'get it working'은 작동 상태로 만든다는 뜻."
+            },
+            {
+              "en": "Would you mind setting it up for me?",
+              "ko": "'Would you mind ~?'는 가장 격식 있는 요청 형태."
+            }
           ]
         },
         {
           "en": "May I have your phone for a moment?",
           "ko": "폰을 잠깐 달라는 표현. 'May I have ~?'는 'Can I have ~?'보다 격식 있는 요청. 직원이 직접 설정해줄 때 이렇게 물어본다. 개인정보 보호를 위해 잠금 해제 후 건네는 것이 좋다.",
           "alternatives": [
-            { "en": "Could I take a look at your phone?", "ko": "폰을 확인해봐도 되는지 묻는 표현." },
-            { "en": "Can I borrow your phone for a second?", "ko": "잠깐 빌려달라는 캐주얼한 표현." }
+            {
+              "en": "Could I take a look at your phone?",
+              "ko": "폰을 확인해봐도 되는지 묻는 표현."
+            },
+            {
+              "en": "Can I borrow your phone for a second?",
+              "ko": "잠깐 빌려달라는 캐주얼한 표현."
+            }
           ]
         },
         {
           "en": "You should now have signal.",
           "ko": "설정 완료 후 신호가 잡혀야 한다는 말. 'should'는 기대나 예상을 나타냄. 신호가 안 잡히면 'I still don't have signal.'이라고 말하면 된다.",
           "alternatives": [
-            { "en": "It should be working now.", "ko": "이제 작동해야 한다는 표현." },
-            { "en": "Try making a call to test it.", "ko": "전화를 걸어 테스트해보라는 표현." }
+            {
+              "en": "It should be working now.",
+              "ko": "이제 작동해야 한다는 표현."
+            },
+            {
+              "en": "Try making a call to test it.",
+              "ko": "전화를 걸어 테스트해보라는 표현."
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch13_d07",
       "title": "테더링 가능 여부",
       "lines": [
-        { "speaker": "나", "en": "Can I use hotspot tethering with this plan?", "ko": "이 요금제로 핫스팟 테더링을 사용할 수 있나요?" },
-        { "speaker": "점원", "en": "Yes, hotspot is included at no extra charge.", "ko": "네, 핫스팟은 추가 요금 없이 포함되어 있습니다." },
-        { "speaker": "나", "en": "Great. Is there a limit on the hotspot data?", "ko": "좋아요. 핫스팟 데이터에 제한이 있나요?" },
-        { "speaker": "점원", "en": "The hotspot data is capped at 5 GB per month.", "ko": "핫스팟 데이터는 월 5기가바이트로 제한됩니다." }
+        {
+          "speaker": "나",
+          "en": "Can I use hotspot tethering with this plan?",
+          "ko": "이 요금제로 핫스팟 테더링을 사용할 수 있나요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "Yes, hotspot is included at no extra charge.",
+          "ko": "네, 핫스팟은 추가 요금 없이 포함되어 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Great. Is there a limit on the hotspot data?",
+          "ko": "좋아요. 핫스팟 데이터에 제한이 있나요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "The hotspot data is capped at 5 GB per month.",
+          "ko": "핫스팟 데이터는 월 5기가바이트로 제한됩니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Can I use hotspot tethering with this plan?",
           "ko": "핫스팟 테더링 가능 여부를 묻는 표현. 'hotspot'은 스마트폰의 와이파이 공유 기능. 'tethering'은 폰의 데이터를 노트북 등에 공유하는 것. 미국에서는 'hotspot'이, 영국에서는 'tethering'이 더 자주 쓰인다.",
           "alternatives": [
-            { "en": "Is tethering allowed on this plan?", "ko": "테더링이 허용되는지 묻는 표현. 일부 저가 요금제는 테더링을 금지하기도 함." },
-            { "en": "Can I share my data with my laptop?", "ko": "노트북과 데이터를 공유할 수 있는지 직접적으로 묻는 표현." }
+            {
+              "en": "Is tethering allowed on this plan?",
+              "ko": "테더링이 허용되는지 묻는 표현. 일부 저가 요금제는 테더링을 금지하기도 함."
+            },
+            {
+              "en": "Can I share my data with my laptop?",
+              "ko": "노트북과 데이터를 공유할 수 있는지 직접적으로 묻는 표현."
+            }
           ]
         },
         {
           "en": "at no extra charge",
           "ko": "추가 요금 없이라는 표현. 'extra charge'는 추가 비용이라는 뜻으로 'free of charge', 'no additional fee'와 같은 의미. 반대는 'for an extra fee(추가 요금으로)'.",
           "alternatives": [
-            { "en": "for free", "ko": "무료로라는 뜻의 가장 간단한 표현." },
-            { "en": "at no additional cost", "ko": "추가 비용 없다는 더 격식 있는 표현." }
+            {
+              "en": "for free",
+              "ko": "무료로라는 뜻의 가장 간단한 표현."
+            },
+            {
+              "en": "at no additional cost",
+              "ko": "추가 비용 없다는 더 격식 있는 표현."
+            }
           ]
         },
         {
           "en": "Is there a limit on the hotspot data?",
           "ko": "핫스팟 데이터 제한 여부를 묻는 표현. 'limit'은 제한, 'cap'도 같은 의미로 자주 쓰인다. 무제한 요금제도 핫스팟에 별도 상한이 있는 경우가 많으므로 확인 필수.",
           "alternatives": [
-            { "en": "Is the hotspot data capped?", "ko": "'capped'는 상한이 있다는 뜻으로 데이터 제한을 묻는 표현." },
-            { "en": "How much hotspot data do I get?", "ko": "핫스팟 데이터가 얼마나 제공되는지 묻는 표현." }
+            {
+              "en": "Is the hotspot data capped?",
+              "ko": "'capped'는 상한이 있다는 뜻으로 데이터 제한을 묻는 표현."
+            },
+            {
+              "en": "How much hotspot data do I get?",
+              "ko": "핫스팟 데이터가 얼마나 제공되는지 묻는 표현."
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch13_d08",
       "title": "여권 등록 필요 여부",
       "lines": [
-        { "speaker": "나", "en": "Do I need to register my passport to buy a SIM?", "ko": "유심을 구입하려면 여권 등록이 필요한가요?" },
-        { "speaker": "점원", "en": "Yes, we do need to see your passport for registration.", "ko": "네, 등록을 위해 여권을 확인해야 합니다." },
-        { "speaker": "나", "en": "Sure, here's my passport.", "ko": "네, 여기 제 여권입니다." },
-        { "speaker": "점원", "en": "Thank you. I'll just scan it quickly.", "ko": "감사합니다. 빠르게 스캔하겠습니다." }
+        {
+          "speaker": "나",
+          "en": "Do I need to register my passport to buy a SIM?",
+          "ko": "유심을 구입하려면 여권 등록이 필요한가요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "Yes, we do need to see your passport for registration.",
+          "ko": "네, 등록을 위해 여권을 확인해야 합니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Sure, here's my passport.",
+          "ko": "네, 여기 제 여권입니다."
+        },
+        {
+          "speaker": "점원",
+          "en": "Thank you. I'll just scan it quickly.",
+          "ko": "감사합니다. 빠르게 스캔하겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Do I need to register my passport to buy a SIM?",
           "ko": "여권 등록 필요 여부를 묻는 표현. 많은 나라에서 유심 구입 시 여권 번호 등록을 의무화하고 있다. 'register'는 등록하다, 'to buy a SIM'은 목적을 나타냄.",
           "alternatives": [
-            { "en": "Is a passport required?", "ko": "여권이 필요한지 간결하게 묻는 표현." },
-            { "en": "Do you need my ID to get a SIM card?", "ko": "신분증이 필요한지 묻는 더 폭넓은 표현." }
+            {
+              "en": "Is a passport required?",
+              "ko": "여권이 필요한지 간결하게 묻는 표현."
+            },
+            {
+              "en": "Do you need my ID to get a SIM card?",
+              "ko": "신분증이 필요한지 묻는 더 폭넓은 표현."
+            }
           ]
         },
         {
           "en": "We do need to see your passport for registration.",
           "ko": "등록을 위해 여권이 필요하다는 표현. 'do need'에서 'do'는 강조 조동사로 '정말 필요하다'는 뜻을 강조함. 'for registration'은 목적을 설명.",
           "alternatives": [
-            { "en": "We require a passport for identification.", "ko": "신원 확인용으로 여권이 필요하다는 격식 있는 표현." },
-            { "en": "We'll need to take a copy of your passport.", "ko": "여권 사본이 필요하다는 표현." }
+            {
+              "en": "We require a passport for identification.",
+              "ko": "신원 확인용으로 여권이 필요하다는 격식 있는 표현."
+            },
+            {
+              "en": "We'll need to take a copy of your passport.",
+              "ko": "여권 사본이 필요하다는 표현."
+            }
           ]
         },
         {
           "en": "I'll just scan it quickly.",
           "ko": "빠르게 스캔하겠다는 표현. 'just'는 '잠깐, 간단히'라는 뉘앙스를 더해 부담을 줄이는 역할. 여권 스캔은 일반적으로 1~2분이면 완료됨.",
           "alternatives": [
-            { "en": "I'll make a copy of it.", "ko": "사본을 뜨겠다는 표현." },
-            { "en": "I just need to take your details.", "ko": "정보를 기록해야 한다는 표현." }
+            {
+              "en": "I'll make a copy of it.",
+              "ko": "사본을 뜨겠다는 표현."
+            },
+            {
+              "en": "I just need to take your details.",
+              "ko": "정보를 기록해야 한다는 표현."
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch13_d09",
       "title": "데이터 충전하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, I need to top up my SIM card.", "ko": "실례합니다, 유심 카드를 충전해야 합니다." },
-        { "speaker": "점원", "en": "Sure. How much would you like to add?", "ko": "네. 얼마를 충전하시겠어요?" },
-        { "speaker": "나", "en": "Ten dollars, please. Can I pay by card?", "ko": "10달러로 해주세요. 카드로 결제할 수 있나요?" },
-        { "speaker": "점원", "en": "Yes, card is fine. Here's your receipt.", "ko": "네, 카드 가능합니다. 영수증 여기 있습니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, I need to top up my SIM card.",
+          "ko": "실례합니다, 유심 카드를 충전해야 합니다."
+        },
+        {
+          "speaker": "점원",
+          "en": "Sure. How much would you like to add?",
+          "ko": "네. 얼마를 충전하시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Ten dollars, please. Can I pay by card?",
+          "ko": "10달러로 해주세요. 카드로 결제할 수 있나요?"
+        },
+        {
+          "speaker": "점원",
+          "en": "Yes, card is fine. Here's your receipt.",
+          "ko": "네, 카드 가능합니다. 영수증 여기 있습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I need to top up my SIM card.",
           "ko": "유심 충전이 필요하다는 표현. 'top up'은 영국식 표현으로 잔액을 채운다는 뜻. 미국에서는 'recharge' 또는 'add more data'라고 하는 경우도 있다.",
           "alternatives": [
-            { "en": "I'd like to recharge my SIM card.", "ko": "'recharge'는 미국과 아시아권에서 더 자주 쓰이는 충전 표현." },
-            { "en": "Can I add more data to my plan?", "ko": "데이터를 추가하고 싶다는 더 직접적인 표현." }
+            {
+              "en": "I'd like to recharge my SIM card.",
+              "ko": "'recharge'는 미국과 아시아권에서 더 자주 쓰이는 충전 표현."
+            },
+            {
+              "en": "Can I add more data to my plan?",
+              "ko": "데이터를 추가하고 싶다는 더 직접적인 표현."
+            }
           ]
         },
         {
           "en": "How much would you like to add?",
           "ko": "얼마를 충전할지 묻는 표현. 'Would you like to ~?'는 'Do you want to ~?'보다 정중한 표현. 충전 금액에 따라 데이터 양이 다를 수 있으므로 먼저 금액 단위를 확인하는 것이 좋다.",
           "alternatives": [
-            { "en": "What amount would you like?", "ko": "금액을 묻는 더 간결한 표현." },
-            { "en": "How many dollars do you want to add?", "ko": "달러 단위로 명확하게 묻는 표현." }
+            {
+              "en": "What amount would you like?",
+              "ko": "금액을 묻는 더 간결한 표현."
+            },
+            {
+              "en": "How many dollars do you want to add?",
+              "ko": "달러 단위로 명확하게 묻는 표현."
+            }
           ]
         },
         {
           "en": "Can I pay by card?",
           "ko": "카드 결제 가능 여부를 묻는 표현. 'pay by card'는 카드로 결제한다는 뜻. 'pay with a card'도 같은 표현. 일부 소규모 매장은 현금만 받는 경우도 있으므로 확인이 필요하다.",
           "alternatives": [
-            { "en": "Do you accept credit cards?", "ko": "신용카드를 받는지 묻는 표현." },
-            { "en": "Is cash only?", "ko": "현금만 가능한지 확인하는 표현." }
+            {
+              "en": "Do you accept credit cards?",
+              "ko": "신용카드를 받는지 묻는 표현."
+            },
+            {
+              "en": "Is cash only?",
+              "ko": "현금만 가능한지 확인하는 표현."
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch13_d10",
       "title": "공용 와이파이 비밀번호",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, is there free Wi-Fi here?", "ko": "실례합니다, 여기 무료 와이파이가 있나요?" },
-        { "speaker": "직원", "en": "Yes, the network name is CafeGuest.", "ko": "네, 네트워크 이름은 CafeGuest입니다." },
-        { "speaker": "나", "en": "What's the password, please?", "ko": "비밀번호가 무엇인가요?" },
-        { "speaker": "직원", "en": "The password is welcome2024, all lowercase.", "ko": "비밀번호는 welcome2024이며, 모두 소문자입니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, is there free Wi-Fi here?",
+          "ko": "실례합니다, 여기 무료 와이파이가 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, the network name is CafeGuest.",
+          "ko": "네, 네트워크 이름은 CafeGuest입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "What's the password, please?",
+          "ko": "비밀번호가 무엇인가요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "The password is welcome2024, all lowercase.",
+          "ko": "비밀번호는 welcome2024이며, 모두 소문자입니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is there free Wi-Fi here?",
           "ko": "무료 와이파이 여부를 묻는 표현. 'free Wi-Fi'는 '무료 와이파이'. 유료 와이파이는 'paid Wi-Fi'. 공항, 카페, 호텔에서 가장 자주 쓰는 표현 중 하나.",
           "alternatives": [
-            { "en": "Do you have Wi-Fi?", "ko": "와이파이가 있는지 간단하게 묻는 표현." },
-            { "en": "Can I get the Wi-Fi here?", "ko": "와이파이를 사용할 수 있는지 캐주얼하게 묻는 표현." }
+            {
+              "en": "Do you have Wi-Fi?",
+              "ko": "와이파이가 있는지 간단하게 묻는 표현."
+            },
+            {
+              "en": "Can I get the Wi-Fi here?",
+              "ko": "와이파이를 사용할 수 있는지 캐주얼하게 묻는 표현."
+            }
           ]
         },
         {
           "en": "What's the password, please?",
           "ko": "비밀번호를 묻는 표현. 'password'는 와이파이 비밀번호. 'Wi-Fi password'라고 더 구체적으로 말해도 된다. 비밀번호는 종종 카운터나 영수증에 적혀 있기도 한다.",
           "alternatives": [
-            { "en": "What's the Wi-Fi password?", "ko": "와이파이 비밀번호를 더 구체적으로 묻는 표현." },
-            { "en": "Could I get the Wi-Fi details?", "ko": "와이파이 접속 정보 전체를 요청하는 표현." }
+            {
+              "en": "What's the Wi-Fi password?",
+              "ko": "와이파이 비밀번호를 더 구체적으로 묻는 표현."
+            },
+            {
+              "en": "Could I get the Wi-Fi details?",
+              "ko": "와이파이 접속 정보 전체를 요청하는 표현."
+            }
           ]
         },
         {
           "en": "all lowercase",
           "ko": "모두 소문자라는 표현. 비밀번호 입력 시 대소문자가 중요하므로 직원이 이를 명확히 알려주는 경우가 많다. 반대말은 'all uppercase(모두 대문자)'. 대소문자 구분 없이 입력해도 될 때는 'case-insensitive'라고 함.",
           "alternatives": [
-            { "en": "no capital letters", "ko": "대문자 없이라는 표현. lowercase와 같은 뜻." },
-            { "en": "all in small letters", "ko": "모두 소문자로라는 뜻의 더 쉬운 표현." }
+            {
+              "en": "no capital letters",
+              "ko": "대문자 없이라는 표현. lowercase와 같은 뜻."
+            },
+            {
+              "en": "all in small letters",
+              "ko": "모두 소문자로라는 뜻의 더 쉬운 표현."
+            }
           ]
         }
       ]
@@ -525,6 +865,1473 @@
           "question": "무제한(unlimited) 데이터 요금제라도 핫스팟 데이터에는 별도 상한이 있는 경우가 있으므로 구입 전 확인해야 한다.",
           "answerIndex": 0,
           "explanation": "참입니다. 많은 무제한 요금제가 핫스팟 데이터는 별도로 제한하며, 일정 용량 이후 속도를 낮추는 경우도 있습니다. 'Is there a limit on the hotspot data?'와 같이 반드시 확인하는 것이 좋습니다."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch13_set02_001",
+          "type": "multiple_choice",
+          "question": "유심 카드를 어디서 살 수 있는지 묻는 가장 자연스러운 표현은?",
+          "options": [
+            "Where do I get a SIM card around here?",
+            "Where is the SIM card shop?",
+            "SIM card, where?",
+            "I want to find where SIM."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where do I get a SIM card around here?'는 주변에서 유심을 어디서 살 수 있는지 묻는 자연스러운 표현입니다. 'around here'를 붙이면 주변 장소를 구체적으로 물어보는 뉘앙스가 됩니다."
+        },
+        {
+          "id": "se_ch13_set02_002",
+          "type": "multiple_choice",
+          "question": "처음 들어간 가게에서 선불 유심을 판매하는지 먼저 확인하는 가장 적절한 표현은?",
+          "options": [
+            "Do you sell prepaid SIM cards?",
+            "I'd like to buy a SIM now.",
+            "Give me your cheapest SIM.",
+            "Any SIM cards here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you sell prepaid SIM cards?'는 처음 들어간 가게에서 선불 유심을 파는지 확인하는 적절한 표현입니다. 'Do you sell ~?'는 판매 여부를 묻는 표준적인 패턴입니다."
+        },
+        {
+          "id": "se_ch13_set02_003",
+          "type": "multiple_choice",
+          "question": "데이터 용량을 구어체로 줄여 부르는 표현으로 자연스러운 것은?",
+          "options": [
+            "ten gigs of data",
+            "ten gigabytes per second",
+            "ten data units",
+            "ten MB packets"
+          ],
+          "answerIndex": 0,
+          "explanation": "'gigs'는 'gigabytes'의 구어체 줄임말입니다. 점원이나 일상 대화에서 'How many gigs do I get?'처럼 자주 사용합니다. 나머지 표현들은 실생활에서 잘 쓰이지 않습니다."
+        },
+        {
+          "id": "se_ch13_set02_004",
+          "type": "multiple_choice",
+          "question": "무제한 요금제가 있는지 더 격식 있게 물어보는 표현은?",
+          "options": [
+            "Is there an unlimited plan available?",
+            "Do you have infinity data?",
+            "Unlimited SIM please.",
+            "No limit plan exist?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there an unlimited plan available?'은 'Is there ~ available?'을 사용한 격식 있는 표현입니다. 'infinity data'는 영어에서 쓰이지 않는 표현이고 나머지도 어색합니다."
+        },
+        {
+          "id": "se_ch13_set02_005",
+          "type": "multiple_choice",
+          "question": "이심(eSIM) QR 코드로 어떻게 개통하는지 설명하는 표현으로 가장 적절한 것은?",
+          "options": [
+            "You'll need to scan a QR code to activate it.",
+            "You must insert a chip to start it.",
+            "Download the app and press activate.",
+            "Call customer service to enable it."
+          ],
+          "answerIndex": 0,
+          "explanation": "이심은 QR 코드를 스캔하여 개통합니다. 'scan a QR code to activate it'은 이 과정을 정확하게 설명하는 표현입니다. 물리적 칩 삽입은 일반 유심에 해당합니다."
+        },
+        {
+          "id": "se_ch13_set02_006",
+          "type": "multiple_choice",
+          "question": "유심 설정을 가장 격식 있게 부탁하는 표현은?",
+          "options": [
+            "Would you mind setting it up for me?",
+            "Setup my phone please.",
+            "Please configure immediately.",
+            "Do the setup."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Would you mind ~?'는 영어에서 가장 격식 있는 요청 형태입니다. 'Would you mind setting it up for me?'는 상대방의 수고를 배려하는 공손한 표현입니다."
+        },
+        {
+          "id": "se_ch13_set02_007",
+          "type": "multiple_choice",
+          "question": "노트북과 데이터를 공유할 수 있는지 직접적으로 묻는 표현은?",
+          "options": [
+            "Can I share my data with my laptop?",
+            "Can my laptop connect to my phone?",
+            "Is Bluetooth sharing available?",
+            "Does this plan include laptop data?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I share my data with my laptop?'은 스마트폰 데이터를 노트북과 공유(테더링)할 수 있는지 직접적으로 묻는 표현입니다. 블루투스 공유를 묻는 게 아니라 데이터 공유 가능 여부를 묻는 상황입니다."
+        },
+        {
+          "id": "se_ch13_set02_008",
+          "type": "multiple_choice",
+          "question": "여권이 필요한지 간결하게 묻는 표현으로 가장 적절한 것은?",
+          "options": [
+            "Is a passport required?",
+            "Do I bring my passport?",
+            "Passport must?",
+            "Need document here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is a passport required?'는 여권 필요 여부를 간결하고 명확하게 묻는 표현입니다. 'Is ~ required?'는 무언가가 필수 요건인지 묻는 표준 패턴입니다."
+        },
+        {
+          "id": "se_ch13_set02_009",
+          "type": "multiple_choice",
+          "question": "유심 잔액을 충전하고 싶다고 말할 때 미국식 표현으로 더 자연스러운 것은?",
+          "options": [
+            "I'd like to recharge my SIM card.",
+            "I need to top up my SIM.",
+            "Refill my SIM card.",
+            "I want to put money on SIM."
+          ],
+          "answerIndex": 0,
+          "explanation": "'recharge'는 미국과 아시아권에서 유심 충전을 나타낼 때 더 자주 쓰이는 표현입니다. 영국에서는 'top up'이 더 일반적입니다. 'refill'은 유심 충전에는 잘 쓰이지 않습니다."
+        },
+        {
+          "id": "se_ch13_set02_010",
+          "type": "multiple_choice",
+          "question": "와이파이 접속 정보 전체를 한 번에 요청하는 표현은?",
+          "options": [
+            "Could I get the Wi-Fi details?",
+            "What's the Wi-Fi name?",
+            "Tell me the network.",
+            "Wi-Fi info please now."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could I get the Wi-Fi details?'는 네트워크 이름과 비밀번호를 포함한 접속 정보 전체를 한 번에 요청하는 표현입니다. 'details'는 세부 정보를 의미합니다."
+        },
+        {
+          "id": "se_ch13_set02_011",
+          "type": "ox",
+          "question": "'prepaid SIM'과 'pay-as-you-go SIM'은 같은 의미로 사용할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 두 표현 모두 선불 유심을 뜻합니다. 'pay-as-you-go'는 특히 영국에서 자주 쓰이는 표현으로, 쓴 만큼 요금을 낸다는 의미에서 유래했습니다."
+        },
+        {
+          "id": "se_ch13_set02_012",
+          "type": "ox",
+          "question": "이심(eSIM)은 모든 스마트폰에서 지원하므로 구입 전 호환 여부를 따로 확인할 필요가 없다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. eSIM 지원 여부는 기기에 따라 다릅니다. 'Will it work on my iPhone?'이나 'Is it compatible with my phone?'처럼 반드시 구입 전에 호환 여부를 확인해야 합니다."
+        },
+        {
+          "id": "se_ch13_set02_013",
+          "type": "ox",
+          "question": "'at no extra charge'와 'for free'는 모두 추가 요금이 없다는 의미이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'at no extra charge'와 'for free'는 모두 추가 비용 없이라는 의미입니다. 격식의 차이가 있을 뿐 같은 뜻으로 사용됩니다."
+        },
+        {
+          "id": "se_ch13_set02_014",
+          "type": "ox",
+          "question": "대부분의 나라에서 유심 카드는 여권 없이 자유롭게 구입할 수 있다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 많은 나라에서 유심 구입 시 여권 등록을 의무화하고 있습니다. 'Do I need to register my passport to buy a SIM?'처럼 미리 확인하는 것이 중요합니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch13_set03_001",
+          "type": "multiple_choice",
+          "question": "근처에 휴대폰 판매점이 있는지 물어볼 때 가장 자연스러운 표현은?",
+          "options": [
+            "Is there a phone shop nearby?",
+            "Where is the nearest phone shop?",
+            "Phone shop, where near?",
+            "Can I find phone shop?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a phone shop nearby?'는 근처에 무언가가 있는지 물을 때 쓰는 기본 패턴 'Is there ~ nearby?'를 활용한 표현입니다. 두 번째도 의미는 통하지만 첫 번째가 더 자연스러운 회화 표현입니다."
+        },
+        {
+          "id": "se_ch13_set03_002",
+          "type": "multiple_choice",
+          "question": "점원이 체류 기간을 물어볼 때 사용하는 표현으로 가장 적절한 것은?",
+          "options": [
+            "How long will you be staying?",
+            "How long are you here?",
+            "When did you arrive?",
+            "How many flight hours?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How long will you be staying?'은 체류 기간을 묻는 표준 표현입니다. 유심 요금제를 추천하기 위해 점원이 자주 사용하는 표현으로, 미래 시제를 써서 앞으로의 일정을 묻습니다."
+        },
+        {
+          "id": "se_ch13_set03_003",
+          "type": "multiple_choice",
+          "question": "요금제의 데이터 허용량을 영국식으로 묻는 표현은?",
+          "options": [
+            "What's the data allowance on this plan?",
+            "How many gigs does this have?",
+            "What is the data limit?",
+            "How much MB included?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'data allowance'는 데이터 허용량을 뜻하는 공식 표현으로 영국에서 자주 사용됩니다. 'What's the data allowance on this plan?'은 격식 있고 정확한 표현입니다."
+        },
+        {
+          "id": "se_ch13_set03_004",
+          "type": "multiple_choice",
+          "question": "이 요금제로 무제한 데이터를 제공하는지 물어보는 표현은?",
+          "options": [
+            "Do you offer unlimited data?",
+            "Can I get unlimited?",
+            "Is there free data?",
+            "No data limit here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you offer unlimited data?'는 'offer'를 써서 무제한 데이터 제공 여부를 묻는 자연스러운 표현입니다. 'offer'는 판매·제공하다는 뜻으로 이런 상황에서 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch13_set03_005",
+          "type": "multiple_choice",
+          "question": "내 폰에서 이심을 구입할 수 있는지 묻는 표현으로 가장 적절한 것은?",
+          "options": [
+            "Can I get an eSIM here?",
+            "Do you have digital SIM?",
+            "Is eSIM online only?",
+            "eSIM download available?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get an eSIM here?'는 이 매장에서 이심을 구입할 수 있는지 간결하게 묻는 표현입니다. 'eSIM'은 'embedded SIM'의 줄임말로 현장에서는 이 용어를 그대로 씁니다."
+        },
+        {
+          "id": "se_ch13_set03_006",
+          "type": "multiple_choice",
+          "question": "설정 완료 후 이제 잘 작동해야 한다고 알려주는 표현은?",
+          "options": [
+            "It should be working now.",
+            "I think it is okay.",
+            "Setup complete, thank you.",
+            "Phone is ready to go now."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It should be working now.'는 설정 완료 후 작동 예상을 나타내는 표현입니다. 'should'는 기대나 예상을 나타내며, 직원이 설정 후 고객에게 알려줄 때 자연스럽게 사용합니다."
+        },
+        {
+          "id": "se_ch13_set03_007",
+          "type": "multiple_choice",
+          "question": "이 요금제에서 테더링이 허용되는지 묻는 표현으로 가장 적절한 것은?",
+          "options": [
+            "Is tethering allowed on this plan?",
+            "Can I do tethering?",
+            "Does hotspot work?",
+            "Tethering okay with this?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is tethering allowed on this plan?'은 해당 요금제에서 테더링이 허용되는지 명확히 묻는 표현입니다. 일부 저가 요금제는 테더링을 제한하기도 하므로 꼭 확인이 필요합니다."
+        },
+        {
+          "id": "se_ch13_set03_008",
+          "type": "multiple_choice",
+          "question": "유심 구입 시 신분증이 필요한지 폭넓게 묻는 표현은?",
+          "options": [
+            "Do you need my ID to get a SIM card?",
+            "Is my passport okay?",
+            "What documents do you need?",
+            "ID card or passport?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you need my ID to get a SIM card?'는 여권뿐 아니라 신분증 전반에 대해 묻는 폭넓은 표현입니다. 여행지에 따라 신분증이나 여권 중 어느 것이든 요구할 수 있습니다."
+        },
+        {
+          "id": "se_ch13_set03_009",
+          "type": "multiple_choice",
+          "question": "유심 충전 시 카드로 결제할 수 있는지 묻는 표현은?",
+          "options": [
+            "Do you accept credit cards?",
+            "Can I use mobile payment?",
+            "Is cash only?",
+            "Credit card okay here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you accept credit cards?'는 신용카드 결제 가능 여부를 묻는 표준 표현입니다. 'accept'는 (결제 수단을) 받아들이다는 뜻으로 이런 상황에서 자주 씁니다."
+        },
+        {
+          "id": "se_ch13_set03_010",
+          "type": "multiple_choice",
+          "question": "와이파이 비밀번호를 더 구체적으로 묻는 표현은?",
+          "options": [
+            "What's the Wi-Fi password?",
+            "What's the password?",
+            "Tell me the network password.",
+            "Wi-Fi key please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'What's the Wi-Fi password?'는 와이파이 비밀번호를 구체적으로 지정해 묻는 표현입니다. 'What's the password?'보다 Wi-Fi임을 명확히 해 혼동을 줄일 수 있습니다."
+        },
+        {
+          "id": "se_ch13_set03_011",
+          "type": "ox",
+          "question": "'convenience store'는 미국과 영국 모두에서 편의점을 뜻하는 표현으로 통용된다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'convenience store'는 영미권 공통 표현입니다. 미국에서는 'corner store', 영국에서는 'newsagent'라고도 부르지만 'convenience store'는 어디서나 통합니다."
+        },
+        {
+          "id": "se_ch13_set03_012",
+          "type": "ox",
+          "question": "유심 충전 금액에 관계없이 항상 동일한 양의 데이터가 제공된다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 충전 금액에 따라 데이터 제공량이 다를 수 있습니다. 점원이 'How much would you like to add?'라고 묻는 것처럼 금액 단위별로 제공량이 달라질 수 있으므로 확인이 필요합니다."
+        },
+        {
+          "id": "se_ch13_set03_013",
+          "type": "ox",
+          "question": "'all lowercase'는 비밀번호를 모두 소문자로 입력해야 한다는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'lowercase'는 소문자를 의미합니다. 반대말은 'uppercase(대문자)'이며, 비밀번호 입력 시 대소문자 구분이 중요하므로 직원이 이를 명확히 알려주는 경우가 많습니다."
+        },
+        {
+          "id": "se_ch13_set03_014",
+          "type": "ox",
+          "question": "'pay-as-you-go SIM'은 주로 미국에서 자주 쓰이는 선불 유심 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'pay-as-you-go SIM'은 주로 영국에서 자주 쓰이는 표현입니다. 미국에서는 'prepaid SIM' 또는 'prepaid plan'이 더 일반적으로 사용됩니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch13_set04_001",
+          "type": "multiple_choice",
+          "question": "통신사 직영점이 근처에 있는지 물어볼 때 가장 자연스러운 표현은?",
+          "options": [
+            "Can I find a carrier store near here?",
+            "Is there a phone store here?",
+            "Where is AT&T?",
+            "Carrier shop nearby exist?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I find a carrier store near here?'는 통신사 직영점(carrier store)을 찾을 수 있는지 묻는 표현입니다. AT&T, T-Mobile 같은 통신사 직영 매장을 'carrier store'라고 부릅니다."
+        },
+        {
+          "id": "se_ch13_set04_002",
+          "type": "multiple_choice",
+          "question": "캐주얼하게 선불 유심 구입을 요청하는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Can I get a prepaid SIM, please?",
+            "I need SIM card right now.",
+            "Sell me a prepaid SIM.",
+            "Prepaid SIM for me, thanks."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get a prepaid SIM, please?'는 'get'을 동사로 쓴 구어체 요청 표현입니다. 'I'd like ~'보다는 캐주얼하지만 여전히 자연스럽고 예의 바른 표현입니다."
+        },
+        {
+          "id": "se_ch13_set04_003",
+          "type": "multiple_choice",
+          "question": "이 요금제로 데이터를 얼마나 받는지 묻는 구어체 표현은?",
+          "options": [
+            "How much data do I get with this plan?",
+            "How much data does this plan include?",
+            "What is the data amount here?",
+            "Tell me the data count."
+          ],
+          "answerIndex": 0,
+          "explanation": "'How much data do I get with this plan?'은 구어체로 데이터 제공량을 묻는 자연스러운 표현입니다. 'get'을 사용해 내가 받는 양을 직접적으로 묻는 형태입니다."
+        },
+        {
+          "id": "se_ch13_set04_004",
+          "type": "multiple_choice",
+          "question": "2주짜리 요금제가 필요하다고 말하는 가장 자연스러운 표현은?",
+          "options": [
+            "I need a plan for two weeks.",
+            "I want two-week SIM.",
+            "Give me 14 days plan.",
+            "Plan for 2 weeks needed."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need a plan for two weeks.'는 기간을 지정해 요금제를 요청하는 명확한 표현입니다. 'for + 기간'을 붙이면 사용 기간을 정확히 전달할 수 있습니다."
+        },
+        {
+          "id": "se_ch13_set04_005",
+          "type": "multiple_choice",
+          "question": "이심이 내 폰과 호환되는지 기술적으로 묻는 표현은?",
+          "options": [
+            "Is it compatible with my phone?",
+            "Will it work on my phone?",
+            "Does my phone read eSIM?",
+            "Can my phone do eSIM?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is it compatible with my phone?'은 'compatible with'를 사용한 기술적 표현으로, 기기 호환 여부를 묻는 더 공식적인 표현입니다. 'compatible with'는 호환된다는 뜻입니다."
+        },
+        {
+          "id": "se_ch13_set04_006",
+          "type": "multiple_choice",
+          "question": "폰 설정을 도와달라고 부탁할 때 적당히 격식 있는 표현은?",
+          "options": [
+            "Can you help me get it working?",
+            "Fix my phone please.",
+            "Make my phone work.",
+            "I need someone to set up."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you help me get it working?'은 폰이 작동하도록 도와달라는 표현입니다. 'get it working'은 작동 상태로 만든다는 뜻으로, 'set it up'과 비슷한 의미입니다."
+        },
+        {
+          "id": "se_ch13_set04_007",
+          "type": "multiple_choice",
+          "question": "핫스팟 데이터가 얼마나 제공되는지 묻는 표현은?",
+          "options": [
+            "How much hotspot data do I get?",
+            "Is hotspot unlimited?",
+            "Hotspot data limit how much?",
+            "What is the hotspot GB?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How much hotspot data do I get?'는 핫스팟으로 사용 가능한 데이터 용량을 직접 묻는 표현입니다. 'get'을 써서 내가 받게 되는 양을 물어보는 자연스러운 구어체입니다."
+        },
+        {
+          "id": "se_ch13_set04_008",
+          "type": "multiple_choice",
+          "question": "여권 사본이 필요하다고 점원이 안내할 때 쓰는 표현은?",
+          "options": [
+            "We'll need to take a copy of your passport.",
+            "Show me your passport now.",
+            "Passport copy is optional.",
+            "We scan your ID card."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We'll need to take a copy of your passport.'는 여권 사본이 필요하다는 점원의 안내 표현입니다. 'take a copy'는 사본을 뜨다는 뜻으로, 사진 촬영 또는 복사를 의미합니다."
+        },
+        {
+          "id": "se_ch13_set04_009",
+          "type": "multiple_choice",
+          "question": "유심 카드에 데이터를 추가하고 싶다고 말하는 표현은?",
+          "options": [
+            "Can I add more data to my plan?",
+            "I want to buy more SIM.",
+            "Top up my data plan.",
+            "Extend my data please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I add more data to my plan?'은 데이터를 추가하고 싶다는 직접적인 표현입니다. 'add more data'는 현재 요금제에 데이터를 더한다는 의미입니다."
+        },
+        {
+          "id": "se_ch13_set04_010",
+          "type": "multiple_choice",
+          "question": "체류 기간을 말하며 요금제 추천을 구하는 표현은?",
+          "options": [
+            "I'm here for two weeks. What do you recommend?",
+            "What plans do you have for two weeks?",
+            "Two weeks plan please.",
+            "Recommend me something cheap."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm here for two weeks. What do you recommend?'는 체류 기간을 알려주고 추천을 구하는 자연스러운 표현입니다. 점원에게 상황을 설명하고 조언을 구하는 효과적인 방법입니다."
+        },
+        {
+          "id": "se_ch13_set04_011",
+          "type": "ox",
+          "question": "이심(eSIM)은 'embedded SIM'의 줄임말로 물리적인 카드 없이 소프트웨어로 개통한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. eSIM은 embedded SIM의 줄임말로, 스마트폰에 내장된 SIM입니다. QR 코드 스캔 또는 활성화 코드 입력만으로 물리적 카드 없이 개통할 수 있습니다."
+        },
+        {
+          "id": "se_ch13_set04_012",
+          "type": "ox",
+          "question": "'Could you help me set it up?'에서 'Could you'는 'Can you'보다 덜 공손한 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'Could you ~?'는 'Can you ~?'보다 더 공손하고 격식 있는 표현입니다. 도움을 요청할 때 'Could you'를 사용하면 더 정중한 인상을 줄 수 있습니다."
+        },
+        {
+          "id": "se_ch13_set04_013",
+          "type": "ox",
+          "question": "유심 구입 후 설정이 완료되면 'You should now have signal.'이라는 말은 반드시 신호가 잡힌다는 확신을 나타낸다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'should'는 확신이 아닌 기대·예상을 나타냅니다. '잡혀야 한다' 정도의 의미로, 만약 신호가 없다면 'I still don't have signal.'이라고 말해 추가 도움을 받을 수 있습니다."
+        },
+        {
+          "id": "se_ch13_set04_014",
+          "type": "ox",
+          "question": "데이터 스트리밍 1시간에 약 1~3GB를 소비하므로 여행 중 데이터 사용량 계획이 중요하다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 영상 스트리밍은 화질에 따라 시간당 약 1~3GB를 소비합니다. 따라서 여행 중 무제한 요금제 또는 충분한 데이터 용량의 요금제를 선택하는 것이 중요합니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch13_set05_001",
+          "type": "multiple_choice",
+          "question": "공항 키오스크에서 유심을 구입할 수 있음을 설명하는 표현은?",
+          "options": [
+            "You can get one at the airport kiosk.",
+            "Buy SIM at airport shop.",
+            "Airport sells all SIM cards.",
+            "Kiosk available for SIM."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You can get one at the airport kiosk.'는 공항 키오스크에서 유심을 구입할 수 있음을 안내하는 표현입니다. 국제공항 출입국장에 유심 자판기(kiosk)가 많이 설치되어 있습니다."
+        },
+        {
+          "id": "se_ch13_set05_002",
+          "type": "multiple_choice",
+          "question": "관광객 전용 유심을 영어로 표현할 때 가장 적절한 것은?",
+          "options": [
+            "tourist SIM",
+            "visitor card",
+            "travel chip",
+            "foreigner SIM"
+          ],
+          "answerIndex": 0,
+          "explanation": "'tourist SIM'은 여행자를 위한 특화 유심을 가리키는 표현입니다. 일부 공항에서는 여행자 특화 요금제로 'tourist SIM'을 별도 판매하기도 합니다."
+        },
+        {
+          "id": "se_ch13_set05_003",
+          "type": "multiple_choice",
+          "question": "데이터 요금제에 통화와 문자가 포함되는지 묻는 표현은?",
+          "options": [
+            "Does that include calls and texts as well?",
+            "Are calls and SMS free?",
+            "Can I call with this plan?",
+            "Voice and text available?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Does that include calls and texts as well?'은 'as well'을 사용해 데이터 외에 통화와 문자도 포함인지 확인하는 표현입니다. 'as well'은 '~도 역시'라는 뜻입니다."
+        },
+        {
+          "id": "se_ch13_set05_004",
+          "type": "multiple_choice",
+          "question": "2주 요금제에 무엇이 포함되는지 넓게 물어보는 표현은?",
+          "options": [
+            "What else is included in the plan?",
+            "Does the plan include data?",
+            "What is the plan price?",
+            "Is this plan good?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What else is included in the plan?'은 요금제에 무엇이 더 포함되는지 폭넓게 확인하는 표현입니다. 데이터 외에 통화, 문자, 국제 전화 등을 한꺼번에 파악할 수 있습니다."
+        },
+        {
+          "id": "se_ch13_set05_005",
+          "type": "multiple_choice",
+          "question": "이심 이메일 활성화 방법을 설명하는 표현은?",
+          "options": [
+            "We'll email you the activation code.",
+            "Check your SMS for the code.",
+            "Scan the barcode on the box.",
+            "Call us to activate eSIM."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We'll email you the activation code.'는 이심 활성화 코드를 이메일로 보내준다는 안내 표현입니다. QR 코드 스캔 외에 이메일로 활성화 코드를 받는 방법도 있습니다."
+        },
+        {
+          "id": "se_ch13_set05_006",
+          "type": "multiple_choice",
+          "question": "설정 직원에게 폰을 건네줄 때 쓰는 표현은?",
+          "options": [
+            "Sure, here you go.",
+            "Yes, take it.",
+            "Phone is yours.",
+            "Ok, use my phone."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Sure, here you go.'는 물건을 건네줄 때 쓰는 가장 자연스러운 표현입니다. 'here you go'는 상대방에게 무언가를 주거나 내밀 때 사용하는 일상적인 표현입니다."
+        },
+        {
+          "id": "se_ch13_set05_007",
+          "type": "multiple_choice",
+          "question": "핫스팟 데이터에 상한이 있는지 묻는 표현으로 가장 적절한 것은?",
+          "options": [
+            "Is the hotspot data capped?",
+            "Is hotspot unlimited?",
+            "How fast is the hotspot?",
+            "Does hotspot cost extra?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is the hotspot data capped?'는 'capped(상한이 있다)'를 활용해 핫스팟 데이터에 제한이 있는지 묻는 표현입니다. 무제한 요금제에서도 핫스팟 데이터는 별도 상한이 있을 수 있습니다."
+        },
+        {
+          "id": "se_ch13_set05_008",
+          "type": "multiple_choice",
+          "question": "여권을 건네면서 등록 절차에 협조할 때 쓰는 표현은?",
+          "options": [
+            "Sure, here's my passport.",
+            "Yes, I have a passport.",
+            "My passport is valid.",
+            "Passport, okay, here."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Sure, here's my passport.'는 동의를 표하며 여권을 건네는 자연스러운 표현입니다. 'here's ~'는 무언가를 건네줄 때 쓰는 표현으로 'here you go'와 비슷한 상황에서 씁니다."
+        },
+        {
+          "id": "se_ch13_set05_009",
+          "type": "multiple_choice",
+          "question": "충전할 금액을 묻는 점원의 표현으로 가장 적절한 것은?",
+          "options": [
+            "How much would you like to add?",
+            "What amount is needed?",
+            "How many dollars now?",
+            "Tell me top-up amount."
+          ],
+          "answerIndex": 0,
+          "explanation": "'How much would you like to add?'는 얼마를 충전할지 정중하게 묻는 점원의 표현입니다. 'Would you like to ~?'는 'Do you want to ~?'의 더 공손한 형태입니다."
+        },
+        {
+          "id": "se_ch13_set05_010",
+          "type": "multiple_choice",
+          "question": "가격을 묻는 가장 기본적인 표현은?",
+          "options": [
+            "How much is it?",
+            "What is the cost?",
+            "Price please.",
+            "Tell me the fee."
+          ],
+          "answerIndex": 0,
+          "explanation": "'How much is it?'는 가격을 묻는 가장 기본적이고 일상적인 표현입니다. 'How much does it cost?'와 같은 뜻이지만 더 짧고 자연스럽게 쓰입니다."
+        },
+        {
+          "id": "se_ch13_set05_011",
+          "type": "ox",
+          "question": "선불(prepaid) 요금제의 반대말은 후불(postpaid) 요금제이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'prepaid'는 미리 돈을 내는 선불, 'postpaid'는 사용 후 결제하는 후불입니다. 여행자는 대부분 계약이 필요 없는 prepaid(선불) 유심을 사용합니다."
+        },
+        {
+          "id": "se_ch13_set05_012",
+          "type": "ox",
+          "question": "'carrier store'는 편의점을 가리키는 표현이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'carrier store'는 AT&T, T-Mobile 등 통신사 직영 매장을 가리키는 표현입니다. 편의점은 'convenience store'입니다."
+        },
+        {
+          "id": "se_ch13_set05_013",
+          "type": "ox",
+          "question": "핫스팟은 미국에서, 테더링(tethering)은 영국에서 더 자주 사용되는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'hotspot'은 미국에서, 'tethering'은 영국에서 더 일반적으로 사용되는 표현입니다. 두 용어 모두 스마트폰 데이터를 다른 기기와 공유하는 같은 기능을 가리킵니다."
+        },
+        {
+          "id": "se_ch13_set05_014",
+          "type": "ox",
+          "question": "무제한 데이터 요금제(unlimited plan)는 어떤 경우에도 속도 제한 없이 데이터를 사용할 수 있다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 많은 무제한 요금제는 일정 용량 사용 이후 속도를 낮추는 'throttling(속도 제한)'을 적용합니다. 구입 전 속도 제한 조건을 반드시 확인해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch13_set06_001",
+          "type": "multiple_choice",
+          "question": "이 건물 2층에 휴대폰 판매점이 있다고 안내할 때 쓰는 표현은?",
+          "options": [
+            "There's one on the second floor of this building.",
+            "Phone shop is upstairs here.",
+            "Go to floor two for phones.",
+            "Second floor has SIM store."
+          ],
+          "answerIndex": 0,
+          "explanation": "'There's one on the second floor of this building.'은 정확한 위치를 안내하는 자연스러운 표현입니다. 'There's one'은 앞서 언급한 대상(phone shop)을 가리키는 자연스러운 구어체 표현입니다."
+        },
+        {
+          "id": "se_ch13_set06_002",
+          "type": "multiple_choice",
+          "question": "영국식 이동통신 판매점을 나타내는 표현은?",
+          "options": [
+            "mobile store",
+            "wireless shop",
+            "telecom outlet",
+            "network shop"
+          ],
+          "answerIndex": 0,
+          "explanation": "'mobile store'는 영국식 이동통신 판매점 표현입니다. 미국에서는 'wireless store'를 더 자주 씁니다. 'telecom outlet'이나 'network shop'은 일반적으로 사용하지 않습니다."
+        },
+        {
+          "id": "se_ch13_set06_003",
+          "type": "multiple_choice",
+          "question": "현지 통화와 문자가 무제한이라고 안내하는 표현은?",
+          "options": [
+            "You get unlimited local calls and texts.",
+            "Calls and texts are free here.",
+            "All communications are free.",
+            "Local calls cost nothing."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You get unlimited local calls and texts.'는 현지 통화와 문자가 무제한으로 포함됨을 안내하는 표현입니다. 'unlimited'는 무제한, 'local'은 현지를 의미합니다."
+        },
+        {
+          "id": "se_ch13_set06_004",
+          "type": "multiple_choice",
+          "question": "가격이 얼마인지 격식 있게 묻는 표현은?",
+          "options": [
+            "How much does it cost?",
+            "What's the price tag?",
+            "How expensive is it?",
+            "Price is how much?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How much does it cost?'는 'How much is it?'보다 약간 더 격식 있는 가격 질문 표현입니다. 'cost'는 비용이 얼마인지 묻는 표준 동사입니다."
+        },
+        {
+          "id": "se_ch13_set06_005",
+          "type": "multiple_choice",
+          "question": "이심 폰 모델 확인을 요청하는 점원의 표현은?",
+          "options": [
+            "Could I see your phone model?",
+            "What iPhone do you have?",
+            "Show me your phone brand.",
+            "What type of device is that?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could I see your phone model?'은 이심 호환 여부 확인을 위해 점원이 폰 모델을 물어볼 때 쓰는 정중한 표현입니다. 'Could I see ~?'는 무언가를 확인해도 되는지 묻는 공손한 패턴입니다."
+        },
+        {
+          "id": "se_ch13_set06_006",
+          "type": "multiple_choice",
+          "question": "점원이 폰을 잠깐 볼 수 있는지 묻는 표현은?",
+          "options": [
+            "Could I take a look at your phone?",
+            "May I hold your phone?",
+            "Can I borrow your device?",
+            "Let me see your phone screen."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could I take a look at your phone?'은 폰을 잠시 확인해봐도 되는지 정중하게 묻는 표현입니다. 'take a look'은 살펴보다는 뜻으로 'Could I ~?'와 함께 격식 있는 요청을 만듭니다."
+        },
+        {
+          "id": "se_ch13_set06_007",
+          "type": "multiple_choice",
+          "question": "추가 비용 없이라는 의미의 가장 격식 있는 표현은?",
+          "options": [
+            "at no additional cost",
+            "at no extra charge",
+            "for free",
+            "without payment"
+          ],
+          "answerIndex": 0,
+          "explanation": "'at no additional cost'는 추가 비용이 없다는 가장 격식 있는 표현입니다. 'at no extra charge'나 'for free'도 같은 의미이지만 'additional cost'가 더 공식적인 표현입니다."
+        },
+        {
+          "id": "se_ch13_set06_008",
+          "type": "multiple_choice",
+          "question": "정보를 기록해야 한다고 안내할 때 쓰는 표현은?",
+          "options": [
+            "I just need to take your details.",
+            "I will write your information.",
+            "Fill out this form please.",
+            "Sign here for registration."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I just need to take your details.'는 고객 정보를 기록해야 한다는 점원의 안내 표현입니다. 'details'는 세부 정보, 'just'는 간단히·잠깐이라는 뉘앙스를 더합니다."
+        },
+        {
+          "id": "se_ch13_set06_009",
+          "type": "multiple_choice",
+          "question": "현금 결제만 가능한지 확인하는 표현은?",
+          "options": [
+            "Is cash only?",
+            "Do you take cash?",
+            "Is card not accepted?",
+            "Cash or card?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is cash only?'는 현금만 받는지 간결하게 확인하는 표현입니다. 소규모 매장이나 편의점에서는 현금만 받는 경우도 있어 미리 확인하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch13_set06_010",
+          "type": "multiple_choice",
+          "question": "무료 와이파이가 있는지 확인하는 간결한 표현은?",
+          "options": [
+            "Do you have Wi-Fi?",
+            "Is there free Wi-Fi here?",
+            "Can I use the internet?",
+            "Wi-Fi available here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you have Wi-Fi?'는 와이파이 유무를 간결하게 묻는 표현입니다. 'Is there free Wi-Fi here?'보다 짧지만 같은 상황에서 자연스럽게 사용할 수 있습니다."
+        },
+        {
+          "id": "se_ch13_set06_011",
+          "type": "ox",
+          "question": "영국 통신 매장에서는 'mobile store' 대신 'wireless store'라는 표현을 더 자주 쓴다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'wireless store'는 미국에서 더 자주 쓰이는 표현입니다. 영국에서는 'mobile store'가 더 일반적으로 사용됩니다."
+        },
+        {
+          "id": "se_ch13_set06_012",
+          "type": "ox",
+          "question": "'How much is it?'와 'How much does it cost?'는 같은 의미이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 두 표현 모두 가격을 묻는 표현으로 같은 의미입니다. 'How much is it?'이 더 일상적이고 짧은 표현이며, 'How much does it cost?'는 약간 더 격식 있는 표현입니다."
+        },
+        {
+          "id": "se_ch13_set06_013",
+          "type": "ox",
+          "question": "와이파이 비밀번호는 항상 대소문자를 구별하므로 입력 전 반드시 확인해야 한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 비밀번호는 대소문자를 구별(case-sensitive)하는 경우가 대부분입니다. 직원이 'all lowercase' 또는 'all uppercase'처럼 알려주는 이유가 이 때문입니다."
+        },
+        {
+          "id": "se_ch13_set06_014",
+          "type": "ox",
+          "question": "유심 카드는 스마트폰 외에 태블릿이나 모바일 라우터에는 사용할 수 없다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 유심 카드는 스마트폰뿐 아니라 태블릿, 모바일 라우터, 일부 스마트워치 등 다양한 기기에 사용할 수 있습니다. 구입 시 어떤 기기에 사용할지 점원에게 알려주면 적합한 유심을 추천받을 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch13_set07_001",
+          "type": "multiple_choice",
+          "question": "근처에 이동통신 매장이 있는지 묻는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Is there a mobile store around here?",
+            "Where can I buy a phone plan?",
+            "Mobile shop nearby?",
+            "Is there a telecom store here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a mobile store around here?'는 근처에 이동통신 판매점이 있는지 묻는 자연스러운 표현입니다. 'mobile store'는 영국식 표현이며 'around here'를 붙여 주변을 물어봅니다."
+        },
+        {
+          "id": "se_ch13_set07_002",
+          "type": "multiple_choice",
+          "question": "스마트폰용 유심을 드릴지 점원이 확인할 때 쓰는 표현은?",
+          "options": [
+            "Will that be for a smartphone?",
+            "Is this for your phone?",
+            "Smartphone SIM needed?",
+            "Are you buying for a phone?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Will that be for a smartphone?'은 점원이 용도를 확인할 때 쓰는 정중한 표현입니다. 'Will that be ~?'는 주문 또는 구입 의도를 확인하는 표준 서비스 표현입니다."
+        },
+        {
+          "id": "se_ch13_set07_003",
+          "type": "multiple_choice",
+          "question": "2주짜리 요금제가 무엇이 있는지 선택지를 물어보는 표현은?",
+          "options": [
+            "What plans do you have for two weeks?",
+            "What is the two-week plan?",
+            "Do you have a two-week plan?",
+            "Show me two-week options."
+          ],
+          "answerIndex": 0,
+          "explanation": "'What plans do you have for two weeks?'는 2주 기간에 맞는 요금제 선택지를 물어보는 표현입니다. 'what plans do you have'를 사용해 복수의 옵션을 물어보는 효과가 있습니다."
+        },
+        {
+          "id": "se_ch13_set07_004",
+          "type": "multiple_choice",
+          "question": "2주 요금제 가격과 포함 내용을 설명하는 점원의 표현은?",
+          "options": [
+            "The two-week plan is twenty-five dollars with 15 GB of data.",
+            "Two weeks costs thirty dollars.",
+            "Fifteen GB plan for two weeks.",
+            "Plan price is twenty-five with data."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The two-week plan is twenty-five dollars with 15 GB of data.'는 가격과 포함 데이터를 한 번에 설명하는 완전한 표현입니다. 'with ~'를 붙여 추가 포함 내용을 자연스럽게 연결합니다."
+        },
+        {
+          "id": "se_ch13_set07_005",
+          "type": "multiple_choice",
+          "question": "내 폰이 이심을 지원하는지 묻는 표현으로 가장 직접적인 것은?",
+          "options": [
+            "Does my phone support eSIM?",
+            "Is eSIM available for my phone?",
+            "Can I activate eSIM on this device?",
+            "Does this brand use eSIM?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Does my phone support eSIM?'은 자신의 폰이 이심을 지원하는지 직접적으로 묻는 표현입니다. 'support'는 기능 지원 여부를 묻는 표준 동사입니다."
+        },
+        {
+          "id": "se_ch13_set07_006",
+          "type": "multiple_choice",
+          "question": "설정 완료 후 신호가 없을 때 직원에게 말하는 표현은?",
+          "options": [
+            "I still don't have signal.",
+            "The signal is not working.",
+            "My phone has no bars.",
+            "Signal problem here."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I still don't have signal.'은 설정 후에도 여전히 신호가 없을 때 직원에게 알리는 표현입니다. 'still'을 사용해 '여전히 해결되지 않음'을 나타냅니다."
+        },
+        {
+          "id": "se_ch13_set07_007",
+          "type": "multiple_choice",
+          "question": "전화를 걸어 유심 작동을 테스트해보라고 안내하는 표현은?",
+          "options": [
+            "Try making a call to test it.",
+            "Please test your SIM now.",
+            "Call someone to check.",
+            "Test the signal please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Try making a call to test it.'은 전화를 걸어 유심이 제대로 작동하는지 테스트해보라는 안내 표현입니다. 'try making a call'은 시험 삼아 전화해보라는 자연스러운 제안입니다."
+        },
+        {
+          "id": "se_ch13_set07_008",
+          "type": "multiple_choice",
+          "question": "신원 확인을 위해 여권이 필요하다는 격식 있는 표현은?",
+          "options": [
+            "We require a passport for identification.",
+            "Show your passport please.",
+            "Passport is mandatory here.",
+            "We need to see ID documents."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We require a passport for identification.'은 신원 확인 목적으로 여권이 필요하다는 격식 있는 표현입니다. 'require'는 공식적으로 요구하다는 뜻이고 'identification'은 신원 확인을 의미합니다."
+        },
+        {
+          "id": "se_ch13_set07_009",
+          "type": "multiple_choice",
+          "question": "충전 금액을 구체적으로 말하는 표현은?",
+          "options": [
+            "Ten dollars, please.",
+            "I want ten dollar recharge.",
+            "Ten dollar top-up now.",
+            "Recharge ten."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Ten dollars, please.'는 충전 금액을 간결하고 명확하게 말하는 표현입니다. 'please'를 붙여 공손한 뉘앙스를 더하며, 금액 앞에 관사 없이 숫자 + 통화 단위를 쓰는 것이 자연스럽습니다."
+        },
+        {
+          "id": "se_ch13_set07_010",
+          "type": "multiple_choice",
+          "question": "와이파이에 연결하려면 필요한 정보로 가장 중요한 두 가지는?",
+          "options": [
+            "네트워크 이름(SSID)과 비밀번호(password)",
+            "IP 주소와 서브넷 마스크",
+            "DNS 서버와 게이트웨이",
+            "MAC 주소와 포트 번호"
+          ],
+          "answerIndex": 0,
+          "explanation": "와이파이 연결에 필요한 가장 기본적인 정보는 네트워크 이름(SSID)과 비밀번호입니다. 대화에서 'the network name is CafeGuest'(SSID)와 'the password is welcome2024'를 물어보는 이유입니다."
+        },
+        {
+          "id": "se_ch13_set07_011",
+          "type": "ox",
+          "question": "'top up'은 영국식, 'recharge'는 미국·아시아권에서 더 자주 쓰이는 유심 충전 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'top up'은 주로 영국·호주에서 사용되는 선불 충전 표현이며, 'recharge'는 미국·아시아권에서 더 자주 사용됩니다. 두 표현 모두 의미가 통합니다."
+        },
+        {
+          "id": "se_ch13_set07_012",
+          "type": "ox",
+          "question": "'Wi-Fi password'와 'Wi-Fi number'는 같은 의미로 쓸 수 있다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 와이파이 비밀번호는 'Wi-Fi password'입니다. 'Wi-Fi number'는 영어에서 잘 쓰이지 않는 어색한 표현입니다. 비밀번호는 숫자가 아닌 문자열이기도 합니다."
+        },
+        {
+          "id": "se_ch13_set07_013",
+          "type": "ox",
+          "question": "폰을 점원에게 건네기 전에 개인정보 보호를 위해 잠금 해제 후 건네는 것이 좋다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 직원이 설정을 위해 폰을 요청할 때는 잠금 해제 후 건네는 것이 좋습니다. 잠긴 상태에서는 설정 화면에 접근하기 어렵고, 개인 데이터에 대한 접근을 최소화하면서 필요한 작업을 진행할 수 있습니다."
+        },
+        {
+          "id": "se_ch13_set07_014",
+          "type": "ox",
+          "question": "'case-insensitive'는 대소문자를 구별해야 한다는 의미이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'case-insensitive'는 대소문자를 구별하지 않아도 된다는 의미입니다. 반대로 'case-sensitive'는 대소문자를 구별해야 한다는 의미입니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch13_set08_001",
+          "type": "multiple_choice",
+          "question": "유심 카드를 살 수 있는 장소를 묻는 표현 중 'Is there ~?' 구조를 활용한 것은?",
+          "options": [
+            "Is there a place to buy a SIM card nearby?",
+            "Where can I buy a SIM card?",
+            "Can I get a SIM card here?",
+            "Do you sell SIM cards?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a place to buy a SIM card nearby?'는 'Is there ~ nearby?' 구조를 활용한 표현으로 주변에 유심 판매처가 있는지 묻습니다. 다른 옵션들도 유심 관련 표현이지만 질문의 'Is there ~?' 구조에 해당하는 것은 첫 번째입니다."
+        },
+        {
+          "id": "se_ch13_set08_002",
+          "type": "multiple_choice",
+          "question": "선불 요금제 옵션이 몇 가지 있다고 안내할 때 쓰는 표현은?",
+          "options": [
+            "We have a few options.",
+            "There are many plans available.",
+            "Options are limited here.",
+            "We offer two packages."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We have a few options.'는 선택 가능한 요금제가 몇 가지 있음을 안내하는 자연스러운 표현입니다. 'a few'는 몇 가지라는 뜻으로 선택지가 있음을 부드럽게 알립니다."
+        },
+        {
+          "id": "se_ch13_set08_003",
+          "type": "multiple_choice",
+          "question": "무제한 요금제가 2주에 30달러라고 안내하는 표현은?",
+          "options": [
+            "The unlimited plan is thirty dollars for two weeks.",
+            "Unlimited data costs thirty dollars monthly.",
+            "Two weeks unlimited is available.",
+            "Thirty dollars for the basic plan."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The unlimited plan is thirty dollars for two weeks.'는 무제한 요금제의 가격과 기간을 한 번에 설명하는 표현입니다. 'for two weeks'로 기간을 명확히 지정합니다."
+        },
+        {
+          "id": "se_ch13_set08_004",
+          "type": "multiple_choice",
+          "question": "이심 요금제를 판매하는지 직접적으로 묻는 표현은?",
+          "options": [
+            "Do you sell eSIM plans?",
+            "Can I buy eSIM here?",
+            "Do you have eSIM available?",
+            "Is eSIM offered here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you sell eSIM plans?'는 이심 요금제 판매 여부를 직접적으로 묻는 표현입니다. 'sell'을 사용해 판매 행위 자체를 묻는 가장 직접적인 형태입니다."
+        },
+        {
+          "id": "se_ch13_set08_005",
+          "type": "multiple_choice",
+          "question": "직원이 폰을 잠깐 빌릴 수 있는지 캐주얼하게 묻는 표현은?",
+          "options": [
+            "Can I borrow your phone for a second?",
+            "May I have your phone for a moment?",
+            "Could I take a look at your phone?",
+            "Can you give me your phone?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I borrow your phone for a second?'는 폰을 잠깐 빌릴 수 있는지 캐주얼하게 묻는 표현입니다. 'for a second'는 잠깐이라는 뜻으로, 'May I have ~?'보다 더 비공식적입니다."
+        },
+        {
+          "id": "se_ch13_set08_006",
+          "type": "multiple_choice",
+          "question": "핫스팟이 포함되어 있고 추가 요금이 없음을 안내하는 표현은?",
+          "options": [
+            "Hotspot is included at no extra charge.",
+            "Hotspot is free to use.",
+            "Tethering has no additional fee.",
+            "Hotspot comes with all plans."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Hotspot is included at no extra charge.'는 핫스팟이 포함되어 있으며 추가 요금이 없음을 정확히 안내하는 표현입니다. 'at no extra charge'는 추가 비용 없이라는 표준 표현입니다."
+        },
+        {
+          "id": "se_ch13_set08_007",
+          "type": "multiple_choice",
+          "question": "핫스팟 데이터가 월 5기가로 제한된다고 안내하는 표현은?",
+          "options": [
+            "The hotspot data is capped at 5 GB per month.",
+            "Hotspot limit is 5 gigabytes monthly.",
+            "You get 5 GB for hotspot use.",
+            "Hotspot data maximum is 5 GB."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The hotspot data is capped at 5 GB per month.'는 'capped at(상한이 ~로 제한되다)'을 활용한 표현입니다. 'per month'는 월별이라는 뜻으로 정확한 제한 조건을 전달합니다."
+        },
+        {
+          "id": "se_ch13_set08_008",
+          "type": "multiple_choice",
+          "question": "여권을 빠르게 스캔하겠다고 안내할 때 쓰는 표현은?",
+          "options": [
+            "I'll just scan it quickly.",
+            "Let me take a photo of it.",
+            "I'll copy your passport now.",
+            "Wait while I process your passport."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll just scan it quickly.'는 여권을 빠르게 스캔하겠다는 표현입니다. 'just'는 잠깐·간단히라는 뉘앙스로 부담을 줄이고, 'quickly'는 신속하게 처리하겠다는 의미를 더합니다."
+        },
+        {
+          "id": "se_ch13_set08_009",
+          "type": "multiple_choice",
+          "question": "충전 금액을 묻는 더 간결한 표현은?",
+          "options": [
+            "What amount would you like?",
+            "How much would you like to add?",
+            "What would you like to top up?",
+            "How many dollars do you need?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What amount would you like?'는 충전 금액을 간결하게 묻는 표현입니다. 'How much would you like to add?'보다 짧지만 같은 의미로 사용할 수 있습니다."
+        },
+        {
+          "id": "se_ch13_set08_010",
+          "type": "multiple_choice",
+          "question": "와이파이 비밀번호가 모두 대문자임을 나타내는 표현은?",
+          "options": [
+            "all uppercase",
+            "all lowercase",
+            "case-insensitive",
+            "no capital letters"
+          ],
+          "answerIndex": 0,
+          "explanation": "'all uppercase'는 모두 대문자를 의미합니다. 반대말은 'all lowercase(모두 소문자)'입니다. 비밀번호 입력 시 대소문자 구분이 중요하므로 이를 정확히 파악해야 합니다."
+        },
+        {
+          "id": "se_ch13_set08_011",
+          "type": "ox",
+          "question": "이심 활성화는 QR 코드 스캔 방법만 가능하다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 이심은 QR 코드 스캔 외에도 이메일로 받은 활성화 코드를 직접 입력하는 방법으로도 개통할 수 있습니다. 'We'll email you the activation code.'처럼 다양한 방법이 있습니다."
+        },
+        {
+          "id": "se_ch13_set08_012",
+          "type": "ox",
+          "question": "'Are calls and texts included too?'는 통화와 문자가 포함되는지 확인하는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Are calls and texts included too?'는 통화와 문자가 포함되는지 확인하는 표현입니다. 'too'는 '~도 역시'라는 뜻으로 'as well'과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch13_set08_013",
+          "type": "ox",
+          "question": "공항, 카페, 호텔에서 무료 와이파이를 찾을 때 'Is there free Wi-Fi here?'라고 묻는 것이 자연스럽다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Is there free Wi-Fi here?'는 공항, 카페, 호텔 등에서 무료 와이파이 유무를 확인할 때 가장 자주 사용하는 표현 중 하나입니다."
+        },
+        {
+          "id": "se_ch13_set08_014",
+          "type": "ox",
+          "question": "유심 요금제 선택 시 체류 기간을 알려주면 점원이 더 적합한 요금제를 추천해줄 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 체류 기간에 따라 7일, 14일, 30일 등 다양한 요금제 중 최적의 선택이 달라집니다. 'How long will you be staying?'처럼 점원도 먼저 체류 기간을 묻는 이유입니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch13_set09_001",
+          "type": "multiple_choice",
+          "question": "유심 카드를 구입할 수 있는 장소로 맞지 않는 것은?",
+          "options": [
+            "주민센터(community center)",
+            "편의점(convenience store)",
+            "휴대폰 판매점(phone shop)",
+            "공항 키오스크(airport kiosk)"
+          ],
+          "answerIndex": 0,
+          "explanation": "주민센터는 유심 카드를 판매하지 않습니다. 유심은 편의점, 휴대폰 판매점, 공항 키오스크에서 구입할 수 있습니다. 특히 국제공항 입국장에는 유심 자판기(kiosk)가 많이 설치되어 있습니다."
+        },
+        {
+          "id": "se_ch13_set09_002",
+          "type": "multiple_choice",
+          "question": "점원에게 요금제 선택지를 물어볼 때 자연스러운 표현은?",
+          "options": [
+            "What options do you have?",
+            "What is the best plan?",
+            "Tell me all your plans.",
+            "How many plans exist?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What options do you have?'는 어떤 선택지가 있는지 물어보는 자연스러운 표현입니다. 점원이 'We have a few options.'처럼 답하도록 유도할 수 있으며, 가장 일반적인 선택지 질문 패턴입니다."
+        },
+        {
+          "id": "se_ch13_set09_003",
+          "type": "multiple_choice",
+          "question": "요금제에 포함된 데이터 용량을 물어볼 때 'come with'를 활용한 표현은?",
+          "options": [
+            "How much data does this come with?",
+            "How much data does this include?",
+            "What data is on this plan?",
+            "How many gigs does this have?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How much data does this come with?'는 'come with(포함하다)'를 활용한 자연스러운 구어체 표현입니다. 'come with'는 제품이나 서비스에 무언가가 포함되어 있다는 의미입니다."
+        },
+        {
+          "id": "se_ch13_set09_004",
+          "type": "multiple_choice",
+          "question": "통화와 문자 포함 여부를 확인하는 데 'too'를 활용한 표현은?",
+          "options": [
+            "Are calls and texts included too?",
+            "Does that include calls and texts as well?",
+            "Are calls and texts also included?",
+            "Will I get calls and texts?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Are calls and texts included too?'는 'too'를 문장 끝에 붙여 포함 여부를 확인하는 표현입니다. 'too'는 '~도 역시'라는 뜻으로 'as well'과 같은 의미이며, 구어체에서 자주 씁니다."
+        },
+        {
+          "id": "se_ch13_set09_005",
+          "type": "multiple_choice",
+          "question": "이심 QR 코드를 받아 스캔해야 한다는 설명으로 가장 정확한 표현은?",
+          "options": [
+            "We'll send you a QR code to scan.",
+            "Download the eSIM profile from online.",
+            "Visit our website to activate eSIM.",
+            "QR code is on the package box."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We'll send you a QR code to scan.'은 이심 개통 절차인 QR 코드 발송 및 스캔을 정확히 설명하는 표현입니다. 'send'는 보내다, 'scan'은 카메라로 읽다는 의미입니다."
+        },
+        {
+          "id": "se_ch13_set09_006",
+          "type": "multiple_choice",
+          "question": "설정 도움을 요청할 때 'May I ~?' 구조를 활용한 점원의 표현은?",
+          "options": [
+            "May I have your phone for a moment?",
+            "Could I help you set it up?",
+            "Would you like me to configure it?",
+            "Can I assist with your phone?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'May I have your phone for a moment?'는 점원이 폰을 건네달라고 요청할 때 'May I ~?'를 활용한 격식 있는 표현입니다. 'May I ~?'는 'Can I ~?'보다 더 정중한 요청 형태입니다."
+        },
+        {
+          "id": "se_ch13_set09_007",
+          "type": "multiple_choice",
+          "question": "테더링이 허용되는지 물어보는 표현 중 가장 간결한 것은?",
+          "options": [
+            "Is tethering allowed?",
+            "Is tethering allowed on this plan?",
+            "Can I tether with this SIM?",
+            "Does this plan support hotspot?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is tethering allowed?'는 테더링 허용 여부를 가장 간결하게 묻는 표현입니다. 요금제에 대한 맥락이 이미 형성되어 있는 상황에서 자연스럽게 쓸 수 있는 짧은 표현입니다."
+        },
+        {
+          "id": "se_ch13_set09_008",
+          "type": "multiple_choice",
+          "question": "여권 등록이 의무인 나라에서 점원이 강조할 때 쓰는 표현은?",
+          "options": [
+            "We do need to see your passport for registration.",
+            "Passport is needed for this purchase.",
+            "Could you show your passport?",
+            "Please present your identification."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We do need to see your passport for registration.'에서 'do'는 강조 조동사로 '정말 필요하다'는 뜻을 강조합니다. 'for registration'은 등록 목적임을 명확히 밝힙니다."
+        },
+        {
+          "id": "se_ch13_set09_009",
+          "type": "multiple_choice",
+          "question": "영수증을 건네면서 쓰는 표현은?",
+          "options": [
+            "Here's your receipt.",
+            "Take your receipt.",
+            "Receipt is ready.",
+            "Your receipt, please keep."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Here's your receipt.'는 영수증을 건네줄 때 자연스럽게 쓰는 표현입니다. 'Here's ~'는 무언가를 건네줄 때 쓰는 기본 표현으로, 'here you go'와 비슷한 상황에서 사용합니다."
+        },
+        {
+          "id": "se_ch13_set09_010",
+          "type": "multiple_choice",
+          "question": "무료 와이파이에 연결할 때 네트워크 이름을 알려주는 표현은?",
+          "options": [
+            "The network name is CafeGuest.",
+            "Connect to the guest network.",
+            "Wi-Fi name is in the menu.",
+            "Search for open networks."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The network name is CafeGuest.'는 와이파이 네트워크 이름(SSID)을 알려주는 표현입니다. 'network name'은 SSID를 가리키며, 연결하려는 와이파이를 식별하는 데 필요합니다."
+        },
+        {
+          "id": "se_ch13_set09_011",
+          "type": "ox",
+          "question": "'pay-as-you-go'는 미리 요금을 내는 선불 방식을 뜻한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'pay-as-you-go'는 사용한 만큼 또는 미리 충전한 금액 내에서만 사용하는 선불 방식입니다. 'prepaid'와 같은 의미로, 계약 없이 사용할 수 있어 여행자에게 적합합니다."
+        },
+        {
+          "id": "se_ch13_set09_012",
+          "type": "ox",
+          "question": "'How much would you like to add?'에서 'would like'는 'want'와 비교했을 때 더 정중한 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'would like'는 'want'보다 더 공손하고 격식 있는 표현입니다. 고객 서비스 상황에서 점원이 'would like'를 사용하면 더 전문적이고 정중한 인상을 줄 수 있습니다."
+        },
+        {
+          "id": "se_ch13_set09_013",
+          "type": "ox",
+          "question": "이심(eSIM) 개통 후에는 기기를 재시작해야만 사용할 수 있다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 이심은 QR 코드 스캔 또는 활성화 코드 입력 후 바로 사용 가능한 경우가 대부분입니다. 일부 기기에서는 재시작이 도움이 될 수 있지만 반드시 필요한 것은 아닙니다."
+        },
+        {
+          "id": "se_ch13_set09_014",
+          "type": "ox",
+          "question": "와이파이 비밀번호가 영수증에 적혀 있는 경우도 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 카페나 레스토랑에서는 와이파이 비밀번호를 영수증, 테이블 카드, 또는 카운터 앞 안내판에 표시하기도 합니다. 직접 묻기 전에 주변을 살펴보는 것도 방법입니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch13_set10_001",
+          "type": "multiple_choice",
+          "question": "유심 카드를 편의점에서도 살 수 있다고 안내하는 표현은?",
+          "options": [
+            "You can get one at any convenience store.",
+            "Convenience stores might sell SIM cards.",
+            "Try a convenience store for SIM.",
+            "SIM cards are available at major stores."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You can get one at any convenience store.'는 편의점 어디서나 유심을 구입할 수 있음을 안내하는 표현입니다. 'at any ~'는 어느 곳에서나라는 뜻으로 보편적 가용성을 나타냅니다."
+        },
+        {
+          "id": "se_ch13_set10_002",
+          "type": "multiple_choice",
+          "question": "체류 기간을 역으로 계산하기 위해 출국일을 묻는 표현은?",
+          "options": [
+            "When do you leave?",
+            "When did you arrive?",
+            "How long are you staying?",
+            "What is your departure time?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'When do you leave?'는 언제 출국하는지 묻는 표현으로 체류 기간을 역으로 계산하는 데 활용됩니다. 점원이 적합한 요금제 유효 기간을 파악하기 위해 사용합니다."
+        },
+        {
+          "id": "se_ch13_set10_003",
+          "type": "multiple_choice",
+          "question": "이 요금제에 데이터가 10기가 포함된다고 안내하는 표현은?",
+          "options": [
+            "That one has 10 gigabytes of data.",
+            "This plan gives you 10 gigs.",
+            "10 GB data is available.",
+            "You get ten gigabytes with this."
+          ],
+          "answerIndex": 0,
+          "explanation": "'That one has 10 gigabytes of data.'는 해당 요금제에 포함된 데이터 용량을 안내하는 표현입니다. 'That one'은 특정 요금제를 가리키는 표현이며 'has'는 포함한다는 의미입니다."
+        },
+        {
+          "id": "se_ch13_set10_004",
+          "type": "multiple_choice",
+          "question": "최신 아이폰이 대부분 이심을 지원한다고 안내하는 표현은?",
+          "options": [
+            "Most modern iPhones support eSIM.",
+            "All iPhones can use eSIM.",
+            "New iPhones have eSIM only.",
+            "iPhones support all SIM types."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Most modern iPhones support eSIM.'는 최신 아이폰 대부분이 이심을 지원한다는 정확한 표현입니다. 'most'는 대부분이라는 뜻으로 모든 기기가 아닐 수 있음을 내포하며, 구입 전 확인이 필요함을 시사합니다."
+        },
+        {
+          "id": "se_ch13_set10_005",
+          "type": "multiple_choice",
+          "question": "통화와 문자가 포함되어 있다고 확인해주는 표현은?",
+          "options": [
+            "Yes, you get unlimited local calls and texts.",
+            "Yes, calls and texts are included.",
+            "Local calls are free with data.",
+            "Texts and calls work on this plan."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Yes, you get unlimited local calls and texts.'는 현지 통화와 문자가 무제한으로 포함됨을 명확히 확인해주는 표현입니다. 'you get'은 사용자가 받는 혜택을 나타내고 'unlimited'는 무제한을 의미합니다."
+        },
+        {
+          "id": "se_ch13_set10_006",
+          "type": "multiple_choice",
+          "question": "설정 완료를 알리는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "All done.",
+            "Setup is complete.",
+            "Your phone is configured.",
+            "We finished the setup."
+          ],
+          "answerIndex": 0,
+          "explanation": "'All done.'은 작업 완료를 알리는 가장 간결하고 자연스러운 표현입니다. 직원이 설정 완료 후 고객에게 알릴 때 일상적으로 사용하는 표현입니다."
+        },
+        {
+          "id": "se_ch13_set10_007",
+          "type": "multiple_choice",
+          "question": "핫스팟 사용에 추가 요금 없이 포함된다고 안내하는 표현은?",
+          "options": [
+            "Hotspot is included at no extra charge.",
+            "You can use hotspot for free.",
+            "Tethering costs nothing with this plan.",
+            "No additional fee for hotspot data."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Hotspot is included at no extra charge.'는 핫스팟이 요금제에 포함되어 있으며 별도 비용이 없음을 명확히 알리는 표현입니다. 'at no extra charge'는 추가 요금이 없다는 표준 표현입니다."
+        },
+        {
+          "id": "se_ch13_set10_008",
+          "type": "multiple_choice",
+          "question": "여권 등록 필요 여부를 묻는 표현 중 'to buy a SIM'을 포함한 것은?",
+          "options": [
+            "Do I need to register my passport to buy a SIM?",
+            "Is a passport required?",
+            "Do you need my ID?",
+            "Should I bring my passport?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do I need to register my passport to buy a SIM?'은 'to buy a SIM'을 포함하여 유심 구입 목적과 여권 등록 의무를 함께 물어보는 완전한 표현입니다."
+        },
+        {
+          "id": "se_ch13_set10_009",
+          "type": "multiple_choice",
+          "question": "유심을 10달러 충전하고 카드로 결제하겠다고 말하는 표현은?",
+          "options": [
+            "Ten dollars, please. Can I pay by card?",
+            "I'll top up ten dollars with my card.",
+            "Please charge ten dollars to my card.",
+            "Ten dollar recharge by card please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Ten dollars, please. Can I pay by card?'는 충전 금액을 명확히 말하고 카드 결제 가능 여부도 확인하는 자연스러운 표현입니다. 두 가지 정보를 효율적으로 전달하는 방식입니다."
+        },
+        {
+          "id": "se_ch13_set10_010",
+          "type": "multiple_choice",
+          "question": "와이파이 비밀번호가 대소문자 구별 없이 입력해도 된다고 알려주는 표현은?",
+          "options": [
+            "It's case-insensitive.",
+            "Use all lowercase.",
+            "Capital letters don't matter.",
+            "No uppercase needed."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's case-insensitive.'는 비밀번호가 대소문자를 구별하지 않아도 됨을 나타냅니다. 'case-insensitive'는 대소문자 무관이라는 의미로, 반대는 'case-sensitive(대소문자 구별 필요)'입니다."
+        },
+        {
+          "id": "se_ch13_set10_011",
+          "type": "ox",
+          "question": "일부 국가에서는 유심 구입 시 여권 번호 등록이 법적으로 의무화되어 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 많은 나라에서 보안·통신 규제 목적으로 유심 구입 시 여권 등록을 법적으로 의무화하고 있습니다. 여행 전 해당 국가의 규정을 미리 확인하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch13_set10_012",
+          "type": "ox",
+          "question": "'I'd like ~'는 'I want ~'보다 더 정중한 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'I'd like ~'는 'I would like ~'의 줄임말로 'I want ~'보다 더 공손하고 격식 있는 표현입니다. 상점이나 공공장소에서 무언가를 요청할 때 'I'd like ~'를 쓰면 더 예의 바른 인상을 줍니다."
+        },
+        {
+          "id": "se_ch13_set10_013",
+          "type": "ox",
+          "question": "선불(prepaid) 유심은 후불(postpaid) 계약보다 일반적으로 통신사 계약이 필요하다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 선불(prepaid) 유심은 통신사와의 장기 계약 없이 구입하고 사용할 수 있어 여행자에게 적합합니다. 반면 후불(postpaid)은 계약과 신용 심사가 필요한 경우가 많습니다."
+        },
+        {
+          "id": "se_ch13_set10_014",
+          "type": "ox",
+          "question": "'pay by card'와 'pay with a card'는 같은 의미로 사용할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'pay by card'와 'pay with a card'는 모두 카드로 결제한다는 같은 의미입니다. 두 표현 모두 일상적으로 사용되며 어떤 표현을 쓰더라도 자연스럽게 통합니다."
         }
       ]
     }

@@ -7,34 +7,68 @@
       "id": "ch27_d01",
       "title": "코인 세탁소 위치 묻기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, is there a laundromat nearby?", "ko": "실례합니다, 근처에 코인 세탁소가 있나요?" },
-        { "speaker": "직원", "en": "Yes, there's one about two blocks down on Main Street.", "ko": "네, 메인 스트리트 쪽으로 두 블록 내려가면 있어요." },
-        { "speaker": "나", "en": "Is it open now? I need to wash some clothes today.", "ko": "지금 열려 있나요? 오늘 빨래를 해야 해서요." },
-        { "speaker": "직원", "en": "It's open twenty-four hours, so you're good to go.", "ko": "24시간 운영이니까 언제든 가셔도 됩니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, is there a laundromat nearby?",
+          "ko": "실례합니다, 근처에 코인 세탁소가 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, there's one about two blocks down on Main Street.",
+          "ko": "네, 메인 스트리트 쪽으로 두 블록 내려가면 있어요."
+        },
+        {
+          "speaker": "나",
+          "en": "Is it open now? I need to wash some clothes today.",
+          "ko": "지금 열려 있나요? 오늘 빨래를 해야 해서요."
+        },
+        {
+          "speaker": "직원",
+          "en": "It's open twenty-four hours, so you're good to go.",
+          "ko": "24시간 운영이니까 언제든 가셔도 됩니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Is there a laundromat nearby?",
           "ko": "'laundromat'은 동전을 넣고 직접 빨래하는 셀프 빨래방. 영국에서는 'laundrette'라고 함. 'laundry'만 쓰면 '세탁물'이나 '세탁 행위' 자체를 뜻하기도 해서 혼동 주의.",
           "alternatives": [
-            { "en": "Where's the nearest coin laundry?", "ko": "'coin laundry'도 코인 세탁소를 가리키는 표현으로 아시아권 영어에서 많이 통용됨." },
-            { "en": "Is there a self-service laundry around here?", "ko": "'self-service laundry'는 직접 세탁기를 돌리는 세탁소임을 명확히 함." }
+            {
+              "en": "Where's the nearest coin laundry?",
+              "ko": "'coin laundry'도 코인 세탁소를 가리키는 표현으로 아시아권 영어에서 많이 통용됨."
+            },
+            {
+              "en": "Is there a self-service laundry around here?",
+              "ko": "'self-service laundry'는 직접 세탁기를 돌리는 세탁소임을 명확히 함."
+            }
           ]
         },
         {
           "en": "I need to wash some clothes today.",
           "ko": "'wash clothes'는 일반적인 세탁 표현. 'do laundry'도 같은 뜻으로 매우 자주 쓰임. 'launder'는 격식체이며 일상 회화보다는 세탁소 안내문에서 더 많이 보임.",
           "alternatives": [
-            { "en": "I need to do laundry.", "ko": "'do laundry'는 빨래하다는 뜻으로 미국에서 가장 흔히 쓰이는 표현." },
-            { "en": "I have some laundry to do.", "ko": "해야 할 빨래가 있다는 뜻으로 자연스러운 일상 표현." }
+            {
+              "en": "I need to do laundry.",
+              "ko": "'do laundry'는 빨래하다는 뜻으로 미국에서 가장 흔히 쓰이는 표현."
+            },
+            {
+              "en": "I have some laundry to do.",
+              "ko": "해야 할 빨래가 있다는 뜻으로 자연스러운 일상 표현."
+            }
           ]
         },
         {
           "en": "You're good to go.",
           "ko": "'You're good to go'는 '이제 가도 됩니다, 준비됐습니다'라는 뜻의 캐주얼한 표현. 허락이나 확인을 줄 때 직원들이 자주 쓰는 말.",
           "alternatives": [
-            { "en": "Feel free to head over.", "ko": "편하게 가셔도 된다는 친근한 허락 표현." },
-            { "en": "Go ahead anytime.", "ko": "언제든 가도 된다는 간단한 허락 표현." }
+            {
+              "en": "Feel free to head over.",
+              "ko": "편하게 가셔도 된다는 친근한 허락 표현."
+            },
+            {
+              "en": "Go ahead anytime.",
+              "ko": "언제든 가도 된다는 간단한 허락 표현."
+            }
           ]
         }
       ]
@@ -43,34 +77,68 @@
       "id": "ch27_d02",
       "title": "세탁기 사용법 묻기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, how does this machine work?", "ko": "실례합니다, 이 기계는 어떻게 사용하나요?" },
-        { "speaker": "직원", "en": "Put your clothes in, add detergent, insert coins, and press start.", "ko": "옷을 넣고, 세제를 넣고, 동전을 넣은 다음 시작 버튼을 누르세요." },
-        { "speaker": "나", "en": "How much does one wash cost?", "ko": "한 번 세탁하는 데 얼마나 드나요?" },
-        { "speaker": "직원", "en": "It's two fifty per load.", "ko": "한 번 돌리는 데 2달러 50센트입니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, how does this machine work?",
+          "ko": "실례합니다, 이 기계는 어떻게 사용하나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Put your clothes in, add detergent, insert coins, and press start.",
+          "ko": "옷을 넣고, 세제를 넣고, 동전을 넣은 다음 시작 버튼을 누르세요."
+        },
+        {
+          "speaker": "나",
+          "en": "How much does one wash cost?",
+          "ko": "한 번 세탁하는 데 얼마나 드나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "It's two fifty per load.",
+          "ko": "한 번 돌리는 데 2달러 50센트입니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "How does this machine work?",
           "ko": "기계 작동법을 묻는 가장 자연스러운 표현. 'How do I use this machine?'도 같은 뜻이지만 'How does it work?'가 더 흔히 쓰임.",
           "alternatives": [
-            { "en": "How do I use this?", "ko": "이걸 어떻게 사용하느냐는 직접적인 표현." },
-            { "en": "Can you show me how this works?", "ko": "직접 보여달라는 요청으로 더 구체적인 도움을 구하는 표현." }
+            {
+              "en": "How do I use this?",
+              "ko": "이걸 어떻게 사용하느냐는 직접적인 표현."
+            },
+            {
+              "en": "Can you show me how this works?",
+              "ko": "직접 보여달라는 요청으로 더 구체적인 도움을 구하는 표현."
+            }
           ]
         },
         {
           "en": "Add detergent.",
           "ko": "'detergent'는 세제를 가리키는 일반적인 단어. 가루 세제는 'powder detergent', 액체 세제는 'liquid detergent'라고 구분함. 세탁소에서 파는 1회용 캡슐은 'laundry pod'.",
           "alternatives": [
-            { "en": "Pour in the detergent.", "ko": "액체 세제를 붓는 동작을 'pour in'으로 표현." },
-            { "en": "Put the soap in.", "ko": "'soap'으로 세제를 가리키는 캐주얼한 표현." }
+            {
+              "en": "Pour in the detergent.",
+              "ko": "액체 세제를 붓는 동작을 'pour in'으로 표현."
+            },
+            {
+              "en": "Put the soap in.",
+              "ko": "'soap'으로 세제를 가리키는 캐주얼한 표현."
+            }
           ]
         },
         {
           "en": "Per load.",
           "ko": "'load'는 세탁기에 한 번 넣는 빨랫감의 양, 즉 '한 번 돌리기'를 의미. '1회 세탁'을 말할 때 꼭 알아야 하는 단어. 'one cycle'이라고도 함.",
           "alternatives": [
-            { "en": "Per cycle.", "ko": "'cycle'은 세탁 1회를 뜻하며 'load'와 거의 같은 의미로 쓰임." },
-            { "en": "For one wash.", "ko": "한 번 세탁에 얼마냐는 표현으로 더 쉬운 단어를 사용." }
+            {
+              "en": "Per cycle.",
+              "ko": "'cycle'은 세탁 1회를 뜻하며 'load'와 거의 같은 의미로 쓰임."
+            },
+            {
+              "en": "For one wash.",
+              "ko": "한 번 세탁에 얼마냐는 표현으로 더 쉬운 단어를 사용."
+            }
           ]
         }
       ]
@@ -79,34 +147,68 @@
       "id": "ch27_d03",
       "title": "세제 구매하기",
       "lines": [
-        { "speaker": "나", "en": "Do you sell laundry detergent here?", "ko": "여기서 세탁 세제를 파나요?" },
-        { "speaker": "직원", "en": "Yes, we have small packets and pods at the counter.", "ko": "네, 카운터에 소포장과 캡슐형이 있습니다." },
-        { "speaker": "나", "en": "I'll take one pod, please. How much is it?", "ko": "캡슐형으로 하나 주세요. 얼마예요?" },
-        { "speaker": "직원", "en": "One dollar each.", "ko": "하나에 1달러입니다." }
+        {
+          "speaker": "나",
+          "en": "Do you sell laundry detergent here?",
+          "ko": "여기서 세탁 세제를 파나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, we have small packets and pods at the counter.",
+          "ko": "네, 카운터에 소포장과 캡슐형이 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "I'll take one pod, please. How much is it?",
+          "ko": "캡슐형으로 하나 주세요. 얼마예요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "One dollar each.",
+          "ko": "하나에 1달러입니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Do you sell laundry detergent here?",
           "ko": "'laundry detergent'는 세탁 세제의 정확한 명칭. 'washing powder'는 영국식 표현. 세탁소에서 소포장으로 파는 경우가 많으니 현지에서 구매하는 것도 방법.",
           "alternatives": [
-            { "en": "Can I buy detergent here?", "ko": "세제를 살 수 있냐는 더 간단한 표현." },
-            { "en": "Where can I get laundry soap?", "ko": "'laundry soap'도 세탁 세제를 가리키는 표현으로 어디서 살 수 있는지 위치를 묻는 형식." }
+            {
+              "en": "Can I buy detergent here?",
+              "ko": "세제를 살 수 있냐는 더 간단한 표현."
+            },
+            {
+              "en": "Where can I get laundry soap?",
+              "ko": "'laundry soap'도 세탁 세제를 가리키는 표현으로 어디서 살 수 있는지 위치를 묻는 형식."
+            }
           ]
         },
         {
           "en": "Pods",
           "ko": "'pod'는 1회 사용 캡슐형 세제. 'packet'은 소포장 가루 세제. 여행 중엔 pod 한 두 개만 챙기면 편리함. 세탁소 카운터에서 파는 경우가 많음.",
           "alternatives": [
-            { "en": "Laundry pod", "ko": "'laundry'를 앞에 붙여 세탁 전용 캡슐임을 명확히 함." },
-            { "en": "Detergent packet", "ko": "소포장 세제를 가리키는 표현." }
+            {
+              "en": "Laundry pod",
+              "ko": "'laundry'를 앞에 붙여 세탁 전용 캡슐임을 명확히 함."
+            },
+            {
+              "en": "Detergent packet",
+              "ko": "소포장 세제를 가리키는 표현."
+            }
           ]
         },
         {
           "en": "One dollar each.",
           "ko": "'each'는 '각각, 하나에'라는 뜻. 가격을 말할 때 'each'를 붙이면 단가를 뜻함. 'apiece'도 같은 의미이지만 'each'가 훨씬 흔히 쓰임.",
           "alternatives": [
-            { "en": "A dollar apiece.", "ko": "'apiece'도 '각각 하나에'라는 뜻이지만 일상에서는 'each'가 더 자주 쓰임." },
-            { "en": "One dollar per packet.", "ko": "패킷 하나당 1달러라는 더 구체적인 표현." }
+            {
+              "en": "A dollar apiece.",
+              "ko": "'apiece'도 '각각 하나에'라는 뜻이지만 일상에서는 'each'가 더 자주 쓰임."
+            },
+            {
+              "en": "One dollar per packet.",
+              "ko": "패킷 하나당 1달러라는 더 구체적인 표현."
+            }
           ]
         }
       ]
@@ -115,34 +217,68 @@
       "id": "ch27_d04",
       "title": "건조기 시간과 동전 확인하기",
       "lines": [
-        { "speaker": "나", "en": "How long does the dryer run per coin?", "ko": "동전 하나당 건조기가 얼마나 돌아가나요?" },
-        { "speaker": "직원", "en": "About eight minutes per quarter.", "ko": "25센트 동전 하나에 약 8분입니다." },
-        { "speaker": "나", "en": "Is there a change machine here?", "ko": "여기 동전 교환기가 있나요?" },
-        { "speaker": "직원", "en": "Yes, it's on the wall next to the dryers.", "ko": "네, 건조기 옆 벽에 있습니다." }
+        {
+          "speaker": "나",
+          "en": "How long does the dryer run per coin?",
+          "ko": "동전 하나당 건조기가 얼마나 돌아가나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "About eight minutes per quarter.",
+          "ko": "25센트 동전 하나에 약 8분입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Is there a change machine here?",
+          "ko": "여기 동전 교환기가 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, it's on the wall next to the dryers.",
+          "ko": "네, 건조기 옆 벽에 있습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "How long does the dryer run per coin?",
           "ko": "'dryer'는 건조기. 'run'은 기계가 작동하다는 뜻. 'per coin'은 동전 하나당이라는 뜻. 코인 세탁소에서 건조기는 세탁기보다 시간이 더 걸릴 수 있으니 동전을 넉넉히 준비해야 함.",
           "alternatives": [
-            { "en": "How many coins does the dryer need?", "ko": "건조기에 동전이 몇 개 필요한지 묻는 표현." },
-            { "en": "How long does one quarter give me?", "ko": "'quarter'(25센트)를 기준으로 사용 시간을 묻는 표현." }
+            {
+              "en": "How many coins does the dryer need?",
+              "ko": "건조기에 동전이 몇 개 필요한지 묻는 표현."
+            },
+            {
+              "en": "How long does one quarter give me?",
+              "ko": "'quarter'(25센트)를 기준으로 사용 시간을 묻는 표현."
+            }
           ]
         },
         {
           "en": "Quarter",
           "ko": "'quarter'는 미국·캐나다의 25센트 동전. 코인 세탁소에서 가장 많이 필요한 동전. 'dime'은 10센트, 'nickel'은 5센트, 'penny'는 1센트.",
           "alternatives": [
-            { "en": "Twenty-five cents", "ko": "quarter와 같은 금액을 숫자로 표현한 방식." },
-            { "en": "A coin", "ko": "동전이라는 일반적인 표현으로 맥락에 따라 쓸 수 있음." }
+            {
+              "en": "Twenty-five cents",
+              "ko": "quarter와 같은 금액을 숫자로 표현한 방식."
+            },
+            {
+              "en": "A coin",
+              "ko": "동전이라는 일반적인 표현으로 맥락에 따라 쓸 수 있음."
+            }
           ]
         },
         {
           "en": "Is there a change machine here?",
           "ko": "'change machine'은 지폐를 동전으로 바꿔주는 동전 교환기. 코인 세탁소에 필수 기기. 'change'는 동전을 뜻하기도 하므로 'Do you have change?'는 잔돈이 있냐는 뜻도 됨.",
           "alternatives": [
-            { "en": "Where can I get quarters?", "ko": "25센트 동전을 어디서 구할 수 있냐는 직접적인 표현." },
-            { "en": "Can I get change for a dollar?", "ko": "1달러를 동전으로 바꿔달라는 표현." }
+            {
+              "en": "Where can I get quarters?",
+              "ko": "25센트 동전을 어디서 구할 수 있냐는 직접적인 표현."
+            },
+            {
+              "en": "Can I get change for a dollar?",
+              "ko": "1달러를 동전으로 바꿔달라는 표현."
+            }
           ]
         }
       ]
@@ -151,34 +287,68 @@
       "id": "ch27_d05",
       "title": "호텔 세탁 서비스 이용하기",
       "lines": [
-        { "speaker": "나", "en": "Do you offer laundry service?", "ko": "세탁 서비스를 제공하시나요?" },
-        { "speaker": "호텔직원", "en": "Yes, we do. You can fill out this laundry bag and tag.", "ko": "네. 이 세탁 봉투와 태그를 작성해 주세요." },
-        { "speaker": "나", "en": "Can I have my clothes back by tomorrow morning?", "ko": "내일 아침까지 옷을 돌려받을 수 있나요?" },
-        { "speaker": "호텔직원", "en": "If you leave them before nine tonight, they'll be ready by eight tomorrow.", "ko": "오늘 밤 9시 전에 맡기시면 내일 8시까지 준비해 드립니다." }
+        {
+          "speaker": "나",
+          "en": "Do you offer laundry service?",
+          "ko": "세탁 서비스를 제공하시나요?"
+        },
+        {
+          "speaker": "호텔직원",
+          "en": "Yes, we do. You can fill out this laundry bag and tag.",
+          "ko": "네. 이 세탁 봉투와 태그를 작성해 주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Can I have my clothes back by tomorrow morning?",
+          "ko": "내일 아침까지 옷을 돌려받을 수 있나요?"
+        },
+        {
+          "speaker": "호텔직원",
+          "en": "If you leave them before nine tonight, they'll be ready by eight tomorrow.",
+          "ko": "오늘 밤 9시 전에 맡기시면 내일 8시까지 준비해 드립니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Do you offer laundry service?",
           "ko": "'laundry service'는 호텔이 세탁을 대신 해주는 서비스. 'offer'는 제공하다는 뜻. 호텔 세탁 서비스는 보통 비싸므로 가격을 먼저 확인하는 것이 좋음.",
           "alternatives": [
-            { "en": "Does the hotel have a laundry service?", "ko": "호텔에 세탁 서비스가 있냐는 직접적인 질문." },
-            { "en": "Is there laundry service available?", "ko": "세탁 서비스가 이용 가능한지 묻는 표현." }
+            {
+              "en": "Does the hotel have a laundry service?",
+              "ko": "호텔에 세탁 서비스가 있냐는 직접적인 질문."
+            },
+            {
+              "en": "Is there laundry service available?",
+              "ko": "세탁 서비스가 이용 가능한지 묻는 표현."
+            }
           ]
         },
         {
           "en": "Fill out this laundry bag and tag.",
           "ko": "'fill out'은 서류나 태그를 작성하다는 뜻. 'laundry tag'에는 세탁물 수량과 종류, 특이사항을 기재함. 호텔 세탁 서비스 이용 시 항목을 꼼꼼히 기재해야 분실 시 클레임이 용이함.",
           "alternatives": [
-            { "en": "Please complete the laundry form.", "ko": "'laundry form'으로 표현한 동일한 내용의 안내." },
-            { "en": "Write down the items on this tag.", "ko": "태그에 세탁물을 기재해달라는 표현." }
+            {
+              "en": "Please complete the laundry form.",
+              "ko": "'laundry form'으로 표현한 동일한 내용의 안내."
+            },
+            {
+              "en": "Write down the items on this tag.",
+              "ko": "태그에 세탁물을 기재해달라는 표현."
+            }
           ]
         },
         {
           "en": "Can I have my clothes back by tomorrow morning?",
           "ko": "'Can I have ~ back'은 무언가를 돌려받다는 표현. 'by + 시간'은 그 시각까지라는 데드라인을 뜻함. 'by'와 'until'의 차이: 'by 8'은 8시까지 완료, 'until 8'은 8시까지 계속.",
           "alternatives": [
-            { "en": "When will my laundry be ready?", "ko": "세탁이 언제 완료되냐는 일반적인 질문." },
-            { "en": "Can I get them back tonight?", "ko": "오늘 밤까지 돌려받을 수 있냐는 표현." }
+            {
+              "en": "When will my laundry be ready?",
+              "ko": "세탁이 언제 완료되냐는 일반적인 질문."
+            },
+            {
+              "en": "Can I get them back tonight?",
+              "ko": "오늘 밤까지 돌려받을 수 있냐는 표현."
+            }
           ]
         }
       ]
@@ -187,34 +357,68 @@
       "id": "ch27_d06",
       "title": "요금과 반환 시간 확인하기",
       "lines": [
-        { "speaker": "나", "en": "How much does the laundry service cost?", "ko": "세탁 서비스 요금이 얼마인가요?" },
-        { "speaker": "호텔직원", "en": "It depends on the items. Shirts are five dollars each, pants are eight.", "ko": "품목에 따라 다릅니다. 셔츠는 각 5달러, 바지는 8달러입니다." },
-        { "speaker": "나", "en": "And when will everything be ready?", "ko": "그리고 다 언제 준비되나요?" },
-        { "speaker": "호텔직원", "en": "Standard service takes twenty-four hours. Express is same-day for an extra charge.", "ko": "일반 서비스는 24시간 걸립니다. 당일 처리 특급 서비스는 추가 요금이 있습니다." }
+        {
+          "speaker": "나",
+          "en": "How much does the laundry service cost?",
+          "ko": "세탁 서비스 요금이 얼마인가요?"
+        },
+        {
+          "speaker": "호텔직원",
+          "en": "It depends on the items. Shirts are five dollars each, pants are eight.",
+          "ko": "품목에 따라 다릅니다. 셔츠는 각 5달러, 바지는 8달러입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "And when will everything be ready?",
+          "ko": "그리고 다 언제 준비되나요?"
+        },
+        {
+          "speaker": "호텔직원",
+          "en": "Standard service takes twenty-four hours. Express is same-day for an extra charge.",
+          "ko": "일반 서비스는 24시간 걸립니다. 당일 처리 특급 서비스는 추가 요금이 있습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "How much does the laundry service cost?",
           "ko": "서비스 비용을 물을 때 'How much does ~ cost?'를 사용. 'price'와 'cost' 모두 쓸 수 있지만 'cost'는 동사로 '~비용이 든다'는 뜻으로도 쓰임.",
           "alternatives": [
-            { "en": "What's the charge for laundry?", "ko": "'charge'는 청구 요금을 뜻하는 표현." },
-            { "en": "What are the laundry rates?", "ko": "'rates'는 요금 체계, 가격표를 뜻하는 격식 있는 표현." }
+            {
+              "en": "What's the charge for laundry?",
+              "ko": "'charge'는 청구 요금을 뜻하는 표현."
+            },
+            {
+              "en": "What are the laundry rates?",
+              "ko": "'rates'는 요금 체계, 가격표를 뜻하는 격식 있는 표현."
+            }
           ]
         },
         {
           "en": "It depends on the items.",
           "ko": "'It depends on ~'은 '~에 따라 다릅니다'라는 매우 유용한 표현. 가격이나 시간이 조건에 따라 달라질 때 직원들이 자주 씀. 여행 중 다양한 상황에서 활용 가능.",
           "alternatives": [
-            { "en": "The price varies by item.", "ko": "품목마다 가격이 다르다는 표현." },
-            { "en": "It varies depending on what you have.", "ko": "무엇을 맡기느냐에 따라 다르다는 더 구체적인 표현." }
+            {
+              "en": "The price varies by item.",
+              "ko": "품목마다 가격이 다르다는 표현."
+            },
+            {
+              "en": "It varies depending on what you have.",
+              "ko": "무엇을 맡기느냐에 따라 다르다는 더 구체적인 표현."
+            }
           ]
         },
         {
           "en": "Express is same-day for an extra charge.",
           "ko": "'express' 서비스는 빠른 처리 서비스. 'same-day'는 당일 처리. 'extra charge'는 추가 요금. 급하게 세탁이 필요할 때 있지만 가격이 상당히 비쌀 수 있음.",
           "alternatives": [
-            { "en": "Rush service is available at a premium.", "ko": "'rush service'와 'premium'으로 표현한 동일한 내용." },
-            { "en": "We offer a same-day option for an additional fee.", "ko": "당일 옵션이 추가 요금으로 가능하다는 표현." }
+            {
+              "en": "Rush service is available at a premium.",
+              "ko": "'rush service'와 'premium'으로 표현한 동일한 내용."
+            },
+            {
+              "en": "We offer a same-day option for an additional fee.",
+              "ko": "당일 옵션이 추가 요금으로 가능하다는 표현."
+            }
           ]
         }
       ]
@@ -223,34 +427,68 @@
       "id": "ch27_d07",
       "title": "드라이클리닝 맡기기",
       "lines": [
-        { "speaker": "나", "en": "I need to have this suit dry-cleaned. Do you do that?", "ko": "이 정장을 드라이클리닝 해야 하는데요. 가능한가요?" },
-        { "speaker": "호텔직원", "en": "Yes, we send items to our dry cleaning partner. It takes two days.", "ko": "네, 드라이클리닝 파트너 업체로 보냅니다. 이틀 걸립니다." },
-        { "speaker": "나", "en": "Is there any chance it can be done faster?", "ko": "더 빨리 될 수는 없나요?" },
-        { "speaker": "호텔직원", "en": "I'm afraid not for dry cleaning. That's the minimum turnaround time.", "ko": "드라이클리닝은 어렵습니다. 최소 소요 시간이 그렇습니다." }
+        {
+          "speaker": "나",
+          "en": "I need to have this suit dry-cleaned. Do you do that?",
+          "ko": "이 정장을 드라이클리닝 해야 하는데요. 가능한가요?"
+        },
+        {
+          "speaker": "호텔직원",
+          "en": "Yes, we send items to our dry cleaning partner. It takes two days.",
+          "ko": "네, 드라이클리닝 파트너 업체로 보냅니다. 이틀 걸립니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Is there any chance it can be done faster?",
+          "ko": "더 빨리 될 수는 없나요?"
+        },
+        {
+          "speaker": "호텔직원",
+          "en": "I'm afraid not for dry cleaning. That's the minimum turnaround time.",
+          "ko": "드라이클리닝은 어렵습니다. 최소 소요 시간이 그렇습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "I need to have this dry-cleaned.",
           "ko": "'have ~ dry-cleaned'는 사역 표현으로 '~를 드라이클리닝 시키다'는 뜻. 'dry-clean'은 물을 쓰지 않는 세탁 방식. 양복, 코트, 실크 등 물세탁이 안 되는 옷에 사용.",
           "alternatives": [
-            { "en": "Can you dry-clean this for me?", "ko": "드라이클리닝을 해달라는 직접적인 요청." },
-            { "en": "This needs to be dry-cleaned.", "ko": "드라이클리닝이 필요하다는 상황 설명 형식의 표현." }
+            {
+              "en": "Can you dry-clean this for me?",
+              "ko": "드라이클리닝을 해달라는 직접적인 요청."
+            },
+            {
+              "en": "This needs to be dry-cleaned.",
+              "ko": "드라이클리닝이 필요하다는 상황 설명 형식의 표현."
+            }
           ]
         },
         {
           "en": "Is there any chance it can be done faster?",
           "ko": "'Is there any chance ~?'는 '혹시 ~이 가능할까요?'라는 부드러운 가능성 타진 표현. 'Can you do it faster?'보다 유연하고 정중한 뉘앙스.",
           "alternatives": [
-            { "en": "Can you rush this?", "ko": "빨리 처리해달라는 캐주얼한 요청." },
-            { "en": "Is expedited service available?", "ko": "'expedited'는 빠른 처리라는 뜻의 격식 있는 표현." }
+            {
+              "en": "Can you rush this?",
+              "ko": "빨리 처리해달라는 캐주얼한 요청."
+            },
+            {
+              "en": "Is expedited service available?",
+              "ko": "'expedited'는 빠른 처리라는 뜻의 격식 있는 표현."
+            }
           ]
         },
         {
           "en": "I'm afraid not.",
           "ko": "'I'm afraid not'은 부드럽게 '어렵습니다, 안 됩니다'를 표현하는 방식. 직접적인 'No'보다 공손하게 거절할 때 직원들이 자주 씀.",
           "alternatives": [
-            { "en": "Unfortunately, that's not possible.", "ko": "'unfortunately'를 쓴 더 격식 있는 거절 표현." },
-            { "en": "I'm sorry, but we can't do that.", "ko": "죄송하지만 안 된다는 정중한 거절 표현." }
+            {
+              "en": "Unfortunately, that's not possible.",
+              "ko": "'unfortunately'를 쓴 더 격식 있는 거절 표현."
+            },
+            {
+              "en": "I'm sorry, but we can't do that.",
+              "ko": "죄송하지만 안 된다는 정중한 거절 표현."
+            }
           ]
         }
       ]
@@ -259,34 +497,68 @@
       "id": "ch27_d08",
       "title": "얼룩 제거 요청하기",
       "lines": [
-        { "speaker": "나", "en": "Excuse me, can you remove this stain?", "ko": "실례합니다, 이 얼룩을 제거해 주실 수 있나요?" },
-        { "speaker": "호텔직원", "en": "Let me take a look. What did this?", "ko": "한번 볼게요. 이게 뭔가요?" },
-        { "speaker": "나", "en": "It's red wine. It happened at dinner last night.", "ko": "레드 와인이에요. 어제 저녁 식사 중에 묻었어요." },
-        { "speaker": "호텔직원", "en": "We'll do our best, but wine stains can be tricky. No guarantees, I'm afraid.", "ko": "최선을 다해보겠지만 와인 얼룩은 까다로울 수 있습니다. 장담은 어렵습니다." }
+        {
+          "speaker": "나",
+          "en": "Excuse me, can you remove this stain?",
+          "ko": "실례합니다, 이 얼룩을 제거해 주실 수 있나요?"
+        },
+        {
+          "speaker": "호텔직원",
+          "en": "Let me take a look. What did this?",
+          "ko": "한번 볼게요. 이게 뭔가요?"
+        },
+        {
+          "speaker": "나",
+          "en": "It's red wine. It happened at dinner last night.",
+          "ko": "레드 와인이에요. 어제 저녁 식사 중에 묻었어요."
+        },
+        {
+          "speaker": "호텔직원",
+          "en": "We'll do our best, but wine stains can be tricky. No guarantees, I'm afraid.",
+          "ko": "최선을 다해보겠지만 와인 얼룩은 까다로울 수 있습니다. 장담은 어렵습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Can you remove this stain?",
           "ko": "'stain'은 얼룩. 'remove a stain'은 얼룩을 제거하다. 얼룩의 종류를 함께 말해주면 처리 가능 여부를 더 빠르게 판단할 수 있음. 기름, 와인, 잉크 등 종류에 따라 처리법이 다름.",
           "alternatives": [
-            { "en": "Can you get this stain out?", "ko": "'get out'도 얼룩 제거에 쓰이는 표현. 미국에서 자주 쓰임." },
-            { "en": "Is this stain removable?", "ko": "이 얼룩이 제거 가능한지 가능성을 묻는 표현." }
+            {
+              "en": "Can you get this stain out?",
+              "ko": "'get out'도 얼룩 제거에 쓰이는 표현. 미국에서 자주 쓰임."
+            },
+            {
+              "en": "Is this stain removable?",
+              "ko": "이 얼룩이 제거 가능한지 가능성을 묻는 표현."
+            }
           ]
         },
         {
           "en": "It happened at dinner.",
           "ko": "'It happened + 상황'은 어쩌다 그렇게 됐는지 설명하는 표현. 상황 설명 시 과거 시제(happened)를 사용함. 언제 어디서 묻었는지 알려주면 세탁소에서 처리 방법을 더 잘 결정할 수 있음.",
           "alternatives": [
-            { "en": "I spilled red wine on it.", "ko": "'spill'은 액체를 엎지르다는 뜻. 더 직접적인 원인 설명 표현." },
-            { "en": "It got stained last night.", "ko": "어제 밤에 얼룩이 생겼다는 수동적 표현." }
+            {
+              "en": "I spilled red wine on it.",
+              "ko": "'spill'은 액체를 엎지르다는 뜻. 더 직접적인 원인 설명 표현."
+            },
+            {
+              "en": "It got stained last night.",
+              "ko": "어제 밤에 얼룩이 생겼다는 수동적 표현."
+            }
           ]
         },
         {
           "en": "No guarantees.",
           "ko": "'guarantee'는 보장. 'No guarantees'는 '보장은 못 합니다'라는 솔직한 표현. 얼룩 제거나 수선 등 결과를 장담할 수 없을 때 서비스 업체가 자주 씀.",
           "alternatives": [
-            { "en": "We can't promise anything.", "ko": "아무것도 약속할 수 없다는 솔직한 표현." },
-            { "en": "Results may vary.", "ko": "결과는 다를 수 있다는 일반적인 면책 표현." }
+            {
+              "en": "We can't promise anything.",
+              "ko": "아무것도 약속할 수 없다는 솔직한 표현."
+            },
+            {
+              "en": "Results may vary.",
+              "ko": "결과는 다를 수 있다는 일반적인 면책 표현."
+            }
           ]
         }
       ]
@@ -295,34 +567,68 @@
       "id": "ch27_d09",
       "title": "세탁물 분실·손상 클레임하기",
       "lines": [
-        { "speaker": "나", "en": "I think one of my shirts is missing from the laundry.", "ko": "세탁물 중 셔츠 하나가 없어진 것 같습니다." },
-        { "speaker": "호텔직원", "en": "I'm sorry to hear that. Do you have your laundry receipt?", "ko": "죄송합니다. 세탁 영수증을 가지고 계신가요?" },
-        { "speaker": "나", "en": "Yes, here it is. Also, this sweater looks damaged — there's a hole.", "ko": "네, 여기 있습니다. 그리고 이 스웨터가 손상된 것 같아요 — 구멍이 있어요." },
-        { "speaker": "호텔직원", "en": "I sincerely apologize. I'll file a claim on your behalf right away.", "ko": "진심으로 사과드립니다. 즉시 클레임 처리를 해드리겠습니다." }
+        {
+          "speaker": "나",
+          "en": "I think one of my shirts is missing from the laundry.",
+          "ko": "세탁물 중 셔츠 하나가 없어진 것 같습니다."
+        },
+        {
+          "speaker": "호텔직원",
+          "en": "I'm sorry to hear that. Do you have your laundry receipt?",
+          "ko": "죄송합니다. 세탁 영수증을 가지고 계신가요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Yes, here it is. Also, this sweater looks damaged — there's a hole.",
+          "ko": "네, 여기 있습니다. 그리고 이 스웨터가 손상된 것 같아요 — 구멍이 있어요."
+        },
+        {
+          "speaker": "호텔직원",
+          "en": "I sincerely apologize. I'll file a claim on your behalf right away.",
+          "ko": "진심으로 사과드립니다. 즉시 클레임 처리를 해드리겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "One of my shirts is missing.",
           "ko": "'missing'은 없어졌다, 분실됐다는 뜻. 'One of my ~'는 여러 개 중 하나라는 표현. 세탁 후 세탁물을 돌려받으면 바로 수량과 상태를 확인하는 것이 중요함.",
           "alternatives": [
-            { "en": "I'm short one item.", "ko": "세탁물이 한 개 부족하다는 표현. 'short'는 부족하다는 뜻." },
-            { "en": "A shirt didn't come back.", "ko": "셔츠 한 장이 돌아오지 않았다는 직접적인 표현." }
+            {
+              "en": "I'm short one item.",
+              "ko": "세탁물이 한 개 부족하다는 표현. 'short'는 부족하다는 뜻."
+            },
+            {
+              "en": "A shirt didn't come back.",
+              "ko": "셔츠 한 장이 돌아오지 않았다는 직접적인 표현."
+            }
           ]
         },
         {
           "en": "This sweater looks damaged.",
           "ko": "'damaged'는 손상됐다는 표현. 세탁 후 옷이 손상됐을 때 쓰는 말. 구멍(hole), 늘어남(stretched), 색 바램(faded), 줄어듦(shrunk) 등 구체적인 상태를 함께 설명하면 좋음.",
           "alternatives": [
-            { "en": "There's a hole in this sweater.", "ko": "스웨터에 구멍이 생겼다는 직접적인 설명." },
-            { "en": "This got ruined in the wash.", "ko": "세탁 과정에서 망가졌다는 표현." }
+            {
+              "en": "There's a hole in this sweater.",
+              "ko": "스웨터에 구멍이 생겼다는 직접적인 설명."
+            },
+            {
+              "en": "This got ruined in the wash.",
+              "ko": "세탁 과정에서 망가졌다는 표현."
+            }
           ]
         },
         {
           "en": "I'll file a claim on your behalf.",
           "ko": "'file a claim'은 클레임을 제기하다는 표현. 'on your behalf'는 '당신을 대신해서'라는 뜻. 호텔 직원이 절차를 대신 처리해줄 때 쓰는 말.",
           "alternatives": [
-            { "en": "I'll take care of this for you.", "ko": "이 문제를 처리해드리겠다는 일반적인 표현." },
-            { "en": "I'll look into this immediately.", "ko": "즉시 조사하겠다는 표현." }
+            {
+              "en": "I'll take care of this for you.",
+              "ko": "이 문제를 처리해드리겠다는 일반적인 표현."
+            },
+            {
+              "en": "I'll look into this immediately.",
+              "ko": "즉시 조사하겠다는 표현."
+            }
           ]
         }
       ]
@@ -331,34 +637,68 @@
       "id": "ch27_d10",
       "title": "세탁 완료 시각 확인하기",
       "lines": [
-        { "speaker": "나", "en": "Will my laundry be ready by tomorrow morning?", "ko": "내일 아침까지 세탁이 완료될까요?" },
-        { "speaker": "호텔직원", "en": "Yes, it will be delivered to your room by seven a.m.", "ko": "네, 오전 7시까지 객실로 가져다 드리겠습니다." },
-        { "speaker": "나", "en": "Perfect. My flight is at ten, so that gives me plenty of time.", "ko": "잘됐네요. 10시 비행기라 시간이 충분하겠어요." },
-        { "speaker": "호텔직원", "en": "Great. We'll make sure everything is ready on time.", "ko": "네. 제시간에 준비될 수 있도록 하겠습니다." }
+        {
+          "speaker": "나",
+          "en": "Will my laundry be ready by tomorrow morning?",
+          "ko": "내일 아침까지 세탁이 완료될까요?"
+        },
+        {
+          "speaker": "호텔직원",
+          "en": "Yes, it will be delivered to your room by seven a.m.",
+          "ko": "네, 오전 7시까지 객실로 가져다 드리겠습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Perfect. My flight is at ten, so that gives me plenty of time.",
+          "ko": "잘됐네요. 10시 비행기라 시간이 충분하겠어요."
+        },
+        {
+          "speaker": "호텔직원",
+          "en": "Great. We'll make sure everything is ready on time.",
+          "ko": "네. 제시간에 준비될 수 있도록 하겠습니다."
+        }
       ],
       "keyExpressions": [
         {
           "en": "Will my laundry be ready by tomorrow morning?",
           "ko": "'be ready by + 시각'은 특정 시각까지 준비가 된다는 표현. 'by'는 기한을 뜻함. 비행기나 이동 일정에 맞게 세탁물을 받아야 할 때 이 표현을 활용하면 됨.",
           "alternatives": [
-            { "en": "When will my clothes be done?", "ko": "세탁이 언제 완료되냐는 간단한 표현." },
-            { "en": "Can I get my laundry back before ten?", "ko": "10시 전에 받을 수 있냐는 구체적인 표현." }
+            {
+              "en": "When will my clothes be done?",
+              "ko": "세탁이 언제 완료되냐는 간단한 표현."
+            },
+            {
+              "en": "Can I get my laundry back before ten?",
+              "ko": "10시 전에 받을 수 있냐는 구체적인 표현."
+            }
           ]
         },
         {
           "en": "It will be delivered to your room.",
           "ko": "'deliver to your room'은 객실로 가져다 주다는 표현. 호텔 세탁 서비스의 장점 중 하나. 픽업이나 배달 여부를 먼저 확인해두면 편리함.",
           "alternatives": [
-            { "en": "We'll bring it to your room.", "ko": "객실로 가져다 준다는 더 캐주얼한 표현." },
-            { "en": "It'll be returned to your room.", "ko": "세탁물이 객실로 반환된다는 표현." }
+            {
+              "en": "We'll bring it to your room.",
+              "ko": "객실로 가져다 준다는 더 캐주얼한 표현."
+            },
+            {
+              "en": "It'll be returned to your room.",
+              "ko": "세탁물이 객실로 반환된다는 표현."
+            }
           ]
         },
         {
           "en": "That gives me plenty of time.",
           "ko": "'gives me plenty of time'은 시간이 충분하다는 표현. 'plenty of'는 풍부한, 충분한이라는 뜻. 반대로 시간이 없다면 'I'm cutting it close'(아슬아슬하다)라고 표현.",
           "alternatives": [
-            { "en": "That's more than enough time.", "ko": "시간이 충분히 넘친다는 강조 표현." },
-            { "en": "I have enough time to spare.", "ko": "여유 시간이 있다는 표현." }
+            {
+              "en": "That's more than enough time.",
+              "ko": "시간이 충분히 넘친다는 강조 표현."
+            },
+            {
+              "en": "I have enough time to spare.",
+              "ko": "여유 시간이 있다는 표현."
+            }
           ]
         }
       ]
@@ -531,6 +871,1527 @@
           "question": "호텔에 세탁물 분실 클레임을 제기할 때 세탁 영수증(laundry receipt)을 가지고 있으면 처리가 더 용이하다.",
           "answerIndex": 0,
           "explanation": "참입니다. 세탁 영수증이나 세탁 태그에는 맡긴 품목 수와 내용이 기재되어 있어 분실 또는 손상 클레임 시 증거 자료로 활용됩니다. 세탁 서비스를 이용할 때는 영수증을 반드시 보관하는 것이 좋습니다."
+        }
+      ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch27_set02_001",
+          "type": "multiple_choice",
+          "question": "셀프 코인 세탁소를 찾고 있습니다. 직원에게 위치를 물을 때 가장 알맞은 표현은?",
+          "options": [
+            "Where's the nearest laundromat?",
+            "Where is the washing factory?",
+            "Where can I find a dry cleaner?",
+            "Is there a laundry hotel nearby?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'laundromat'은 셀프 코인 세탁소를 뜻하는 표준 미국 영어입니다. 'dry cleaner'는 드라이클리닝 전문점이고, 나머지는 자연스럽지 않은 표현입니다."
+        },
+        {
+          "id": "se_ch27_set02_002",
+          "type": "multiple_choice",
+          "question": "코인 세탁소에서 처음 보는 세탁기를 어떻게 쓰는지 직원에게 부탁하려 합니다. 가장 적절한 표현은?",
+          "options": [
+            "Can you show me how this works?",
+            "Please operate this machine for me.",
+            "What button should I push first for starting?",
+            "Tell me the machine instruction manual."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can you show me how this works?'는 직접 보여달라는 자연스러운 요청입니다. 나머지 표현들은 어색하거나 지나치게 격식적입니다."
+        },
+        {
+          "id": "se_ch27_set02_003",
+          "type": "multiple_choice",
+          "question": "세탁기를 사용하는 순서를 설명할 때, 빈칸에 들어갈 말로 가장 알맞은 것은? 'Put your clothes in, ___ detergent, insert coins, and press start.'",
+          "options": [
+            "add",
+            "put on",
+            "mix",
+            "apply"
+          ],
+          "answerIndex": 0,
+          "explanation": "세제를 넣을 때 동사는 'add'입니다. 'add detergent'는 '세제를 넣다'는 뜻으로 세탁기 사용 안내에서 가장 자주 쓰이는 표현입니다."
+        },
+        {
+          "id": "se_ch27_set02_004",
+          "type": "multiple_choice",
+          "question": "코인 세탁소에서 1회용 캡슐형 세제를 가리키는 영어 단어는?",
+          "options": [
+            "pod",
+            "tablet",
+            "capsule",
+            "ball"
+          ],
+          "answerIndex": 0,
+          "explanation": "세탁용 1회 캡슐형 세제는 영어로 'pod' 또는 'laundry pod'라고 합니다. 'tablet'이나 'capsule'은 일반적이지 않고, 'ball'은 세탁 세제에 쓰이지 않습니다."
+        },
+        {
+          "id": "se_ch27_set02_005",
+          "type": "multiple_choice",
+          "question": "건조기 사용 시간을 물어보려 합니다. 가장 자연스러운 표현은?",
+          "options": [
+            "How long does the dryer run per coin?",
+            "How much minutes for dryer one coin?",
+            "What time is dryer per quarter?",
+            "How many time coin dryer take?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How long does the dryer run per coin?'는 동전 하나당 건조기 사용 시간을 묻는 자연스러운 표현입니다. 나머지는 모두 문법적으로 틀린 표현입니다."
+        },
+        {
+          "id": "se_ch27_set02_006",
+          "type": "multiple_choice",
+          "question": "호텔에서 세탁 서비스를 이용할 수 있는지 물어보려 합니다. 가장 자연스러운 표현은?",
+          "options": [
+            "Do you offer laundry service?",
+            "Can you do my clothes for me?",
+            "Is there washing available at this hotel?",
+            "Do you make laundry for guests?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you offer laundry service?'는 세탁 서비스 제공 여부를 묻는 표준 표현입니다. 'offer'는 서비스를 제공하다는 뜻입니다."
+        },
+        {
+          "id": "se_ch27_set02_007",
+          "type": "multiple_choice",
+          "question": "호텔 세탁 서비스에서 당일 처리 옵션을 설명하는 말로 가장 알맞은 표현은?",
+          "options": [
+            "Express is same-day for an extra charge.",
+            "Fast laundry is free of charge same day.",
+            "Quick service always comes with no cost.",
+            "Express laundry is only for dry cleaning."
+          ],
+          "answerIndex": 0,
+          "explanation": "당일 처리 특급 서비스는 'express' 또는 'same-day' 서비스라고 하며, 추가 요금(extra charge)이 붙습니다. 무료 제공이나 드라이클리닝 전용이라는 설명은 틀립니다."
+        },
+        {
+          "id": "se_ch27_set02_008",
+          "type": "multiple_choice",
+          "question": "정장 드라이클리닝을 요청할 때 가장 자연스러운 표현은?",
+          "options": [
+            "Can you dry-clean this for me?",
+            "Can you wash this without any water please?",
+            "I want you to clean this suit chemically.",
+            "Please make this suit dry and clean."
+          ],
+          "answerIndex": 0,
+          "explanation": "'dry-clean'은 드라이클리닝하다는 동사로 'Can you dry-clean this for me?'가 가장 자연스러운 요청 표현입니다. 나머지는 어색하거나 의미가 달라집니다."
+        },
+        {
+          "id": "se_ch27_set02_009",
+          "type": "multiple_choice",
+          "question": "세탁물을 돌려받았는데 스웨터에 구멍이 생겼습니다. 손상을 알릴 때 알맞은 표현은?",
+          "options": [
+            "This sweater looks damaged — there's a hole.",
+            "My sweater is broken after washing.",
+            "Sweater has a problem from the laundry.",
+            "This sweater is not good anymore."
+          ],
+          "answerIndex": 0,
+          "explanation": "'damaged'는 세탁 후 옷이 손상됐다는 표현이고, 'there's a hole'로 구체적인 손상 내용을 설명합니다. 'broken'은 보통 전자기기나 딱딱한 물건에 쓰입니다."
+        },
+        {
+          "id": "se_ch27_set02_010",
+          "type": "multiple_choice",
+          "question": "호텔 직원이 클레임을 대신 처리해주겠다고 할 때 쓰는 표현으로 가장 알맞은 것은?",
+          "options": [
+            "I'll file a claim on your behalf.",
+            "I will make a complaint for your shirt.",
+            "I will solve your missing shirt problem.",
+            "Let me handle your lost laundry thing."
+          ],
+          "answerIndex": 0,
+          "explanation": "'file a claim'은 클레임을 공식 제기하다는 표현이고, 'on your behalf'는 당신을 대신해서라는 뜻입니다. 이 표현이 가장 격식 있고 자연스럽습니다."
+        },
+        {
+          "id": "se_ch27_set02_011",
+          "type": "multiple_choice",
+          "question": "세탁기 세탁 1회를 뜻하는 표현으로 올바른 것끼리 묶인 것은?",
+          "options": [
+            "load / cycle",
+            "round / turn",
+            "batch / set",
+            "run / series"
+          ],
+          "answerIndex": 0,
+          "explanation": "'load'와 'cycle' 모두 세탁기 1회 사용을 뜻합니다. 'per load'나 'per cycle' 모두 코인 세탁소에서 쓰이는 표현입니다. 나머지는 이 맥락에서 사용되지 않습니다."
+        },
+        {
+          "id": "se_ch27_set02_012",
+          "type": "ox",
+          "question": "코인 세탁소에서 지폐를 동전으로 바꿔주는 기계를 'change machine'이라고 한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'change machine'은 지폐를 동전으로 교환해주는 동전 교환기입니다. 코인 세탁소에서 필수 기기이며, 'Do you have change?'는 잔돈이 있냐는 뜻도 됩니다."
+        },
+        {
+          "id": "se_ch27_set02_013",
+          "type": "ox",
+          "question": "'I'm afraid not.'은 부드럽게 거절하는 표현으로, 직접적인 'No.'보다 더 공손한 뉘앙스를 가진다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'I'm afraid not.'은 '어렵습니다, 안 됩니다'를 완곡하게 표현하는 방식으로, 직접적인 'No.'보다 훨씬 공손하게 들립니다. 서비스 업종에서 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch27_set02_014",
+          "type": "ox",
+          "question": "호텔 세탁 서비스는 보통 코인 세탁소보다 저렴하므로, 비용 걱정 없이 이용할 수 있다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 호텔 세탁 서비스는 일반적으로 코인 세탁소보다 훨씬 비쌉니다. 이용 전에 가격을 먼저 확인하는 것이 좋습니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch27_set03_001",
+          "type": "multiple_choice",
+          "question": "영국 영어에서 셀프 코인 세탁소를 가리키는 단어는?",
+          "options": [
+            "laundrette",
+            "laundromat",
+            "washroom",
+            "laundry store"
+          ],
+          "answerIndex": 0,
+          "explanation": "영국에서는 코인 세탁소를 'laundrette'라고 합니다. 'laundromat'은 미국·캐나다식 표현이고, 'washroom'은 화장실, 'laundry store'는 없는 표현입니다."
+        },
+        {
+          "id": "se_ch27_set03_002",
+          "type": "multiple_choice",
+          "question": "코인 세탁소가 24시간 운영한다는 것을 알려줄 때 자연스러운 표현은?",
+          "options": [
+            "It's open twenty-four hours.",
+            "The laundry is always opened.",
+            "This place never close.",
+            "You can wash clothes at any time all hours."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's open twenty-four hours.'는 24시간 운영을 알리는 자연스러운 표현입니다. 나머지는 문법적으로 어색하거나 부자연스럽습니다."
+        },
+        {
+          "id": "se_ch27_set03_003",
+          "type": "multiple_choice",
+          "question": "가루 세제와 액체 세제를 영어로 올바르게 표현한 것은?",
+          "options": [
+            "powder detergent / liquid detergent",
+            "dry detergent / wet detergent",
+            "solid soap / fluid soap",
+            "hard detergent / soft detergent"
+          ],
+          "answerIndex": 0,
+          "explanation": "가루 세제는 'powder detergent', 액체 세제는 'liquid detergent'입니다. 이것이 세탁 세제 종류를 구분하는 표준 표현입니다."
+        },
+        {
+          "id": "se_ch27_set03_004",
+          "type": "multiple_choice",
+          "question": "코인 건조기에서 25센트 한 개로 이용 시간을 묻는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "How long does one quarter give me?",
+            "What time can I use with one quarter?",
+            "How minutes is for a quarter coin?",
+            "One quarter equals how many minutes dryer?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How long does one quarter give me?'는 25센트로 이용할 수 있는 시간을 묻는 자연스러운 표현입니다. 'quarter'는 25센트 동전을 의미합니다."
+        },
+        {
+          "id": "se_ch27_set03_005",
+          "type": "multiple_choice",
+          "question": "호텔 세탁 서비스 이용 시 세탁 봉투에 기재해야 하는 것을 직원이 안내할 때 쓰는 표현은?",
+          "options": [
+            "Please fill out this laundry bag and tag.",
+            "Write your name on the clothes bag.",
+            "Label each garment with your room number.",
+            "Attach a paper to your laundry items."
+          ],
+          "answerIndex": 0,
+          "explanation": "'fill out this laundry bag and tag'는 세탁 봉투와 태그를 작성해달라는 표준 안내 표현입니다. 'fill out'은 양식이나 태그를 작성하다는 뜻입니다."
+        },
+        {
+          "id": "se_ch27_set03_006",
+          "type": "multiple_choice",
+          "question": "'빨래하다'를 영어로 표현하는 방법으로 가장 자주 쓰이는 것은?",
+          "options": [
+            "do laundry",
+            "make laundry",
+            "wash laundry",
+            "perform laundry"
+          ],
+          "answerIndex": 0,
+          "explanation": "'do laundry'는 빨래하다는 뜻으로 미국 영어에서 가장 흔히 쓰이는 표현입니다. 'wash clothes'도 같은 의미지만 'do laundry'가 더 일반적입니다."
+        },
+        {
+          "id": "se_ch27_set03_007",
+          "type": "multiple_choice",
+          "question": "드라이클리닝 처리 기간에 대해 직원이 '최소 이틀이 걸립니다'라고 말할 때 쓰는 표현으로 가장 알맞은 것은?",
+          "options": [
+            "That's the minimum turnaround time.",
+            "That is the least time needed for process.",
+            "Two days is the shortest completing time.",
+            "Minimum of two day is required for dry clean."
+          ],
+          "answerIndex": 0,
+          "explanation": "'turnaround time'은 작업 완료까지 걸리는 소요 시간을 뜻하는 업계 표현입니다. 'minimum turnaround time'은 최소 소요 시간을 뜻합니다."
+        },
+        {
+          "id": "se_ch27_set03_008",
+          "type": "multiple_choice",
+          "question": "레드 와인을 쏟았을 때 이 상황을 설명하는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "I spilled red wine on it.",
+            "I dropped red wine to it.",
+            "Red wine fell on my clothes.",
+            "I poured red wine by accident on cloth."
+          ],
+          "answerIndex": 0,
+          "explanation": "'spill'은 액체를 실수로 엎지르다는 뜻입니다. 'I spilled red wine on it.'은 와인을 옷에 쏟았다는 가장 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch27_set03_009",
+          "type": "multiple_choice",
+          "question": "세탁물 분실 클레임을 제기할 때 직원이 요청하는 것으로 가장 적절한 것은?",
+          "options": [
+            "Do you have your laundry receipt?",
+            "Please show me your room key.",
+            "Can you describe all your clothing items?",
+            "Did you take photos of your laundry?"
+          ],
+          "answerIndex": 0,
+          "explanation": "세탁 클레임 시 직원은 'laundry receipt(세탁 영수증)'를 요청합니다. 영수증에 맡긴 품목 내용이 기재되어 있어 증거로 활용됩니다."
+        },
+        {
+          "id": "se_ch27_set03_010",
+          "type": "multiple_choice",
+          "question": "세탁물이 방으로 배달될 것이라는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "It will be delivered to your room.",
+            "Your laundry comes to your room.",
+            "Clothes will arrive at your door.",
+            "We send laundry inside your room."
+          ],
+          "answerIndex": 0,
+          "explanation": "'be delivered to your room'은 방으로 배달된다는 수동태 표현으로 호텔 안내에서 자주 쓰입니다. 나머지는 문법적으로 어색합니다."
+        },
+        {
+          "id": "se_ch27_set03_011",
+          "type": "multiple_choice",
+          "question": "얼룩 제거 결과를 보장할 수 없다고 말할 때 가장 알맞은 표현은?",
+          "options": [
+            "No guarantees.",
+            "We cannot promise results.",
+            "Stain removal is uncertain.",
+            "Results are not sure."
+          ],
+          "answerIndex": 0,
+          "explanation": "'No guarantees.'는 '보장은 못 합니다'라는 자연스럽고 실용적인 표현입니다. 세탁소나 수선점에서 결과를 장담할 수 없을 때 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch27_set03_012",
+          "type": "ox",
+          "question": "'quarter'는 미국에서 10센트 동전을 가리키는 말이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'quarter'는 미국과 캐나다의 25센트 동전입니다. 10센트는 'dime', 5센트는 'nickel', 1센트는 'penny'입니다."
+        },
+        {
+          "id": "se_ch27_set03_013",
+          "type": "ox",
+          "question": "호텔 세탁 서비스 이용 시 세탁 태그(laundry tag)에 품목을 꼼꼼히 기재해두면 분실·손상 클레임이 더 수월해진다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 세탁 태그에 품목과 수량을 정확히 기재해두면 분실이나 손상 발생 시 증거 자료로 활용할 수 있어 클레임 처리가 훨씬 용이합니다."
+        },
+        {
+          "id": "se_ch27_set03_014",
+          "type": "ox",
+          "question": "'You're good to go.'는 '아직 준비가 덜 됐습니다'라는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'You're good to go.'는 '이제 가도 됩니다, 준비됐습니다'라는 캐주얼한 표현입니다. 허락이나 출발 확인을 줄 때 자주 쓰입니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch27_set04_001",
+          "type": "multiple_choice",
+          "question": "'셀프 세탁소가 주변에 있나요?'를 영어로 물어보는 가장 자연스러운 방법은?",
+          "options": [
+            "Is there a self-service laundry around here?",
+            "Is there a self-washing area near this place?",
+            "Can I find a do-it-yourself cleaner nearby?",
+            "Where is the self laundry shop here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'self-service laundry'는 직접 세탁기를 돌리는 세탁소를 명확히 설명하는 표현입니다. 'laundromat'이나 'coin laundry'와 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch27_set04_002",
+          "type": "multiple_choice",
+          "question": "세탁기에 세제를 넣는 방법을 설명할 때, 액체 세제를 붓는 동작을 표현하는 말은?",
+          "options": [
+            "Pour in the detergent.",
+            "Drop the detergent in.",
+            "Throw in the detergent.",
+            "Place the detergent inside."
+          ],
+          "answerIndex": 0,
+          "explanation": "'pour in'은 액체를 붓다는 뜻으로 액체 세제를 세탁기에 넣을 때 자주 쓰이는 표현입니다. 'add detergent'도 같은 의미입니다."
+        },
+        {
+          "id": "se_ch27_set04_003",
+          "type": "multiple_choice",
+          "question": "세탁 세제 소포장을 가리키는 영어 표현은?",
+          "options": [
+            "detergent packet",
+            "detergent box",
+            "soap parcel",
+            "wash bundle"
+          ],
+          "answerIndex": 0,
+          "explanation": "'packet'은 소포장을 뜻합니다. 'detergent packet'은 코인 세탁소에서 파는 소포장 세제를 가리킵니다. 'pod'는 캡슐형 세제입니다."
+        },
+        {
+          "id": "se_ch27_set04_004",
+          "type": "multiple_choice",
+          "question": "동전 교환기 위치를 물어보려 합니다. 가장 자연스러운 표현은?",
+          "options": [
+            "Where can I get quarters?",
+            "Where is the coin making machine?",
+            "How do I get small money here?",
+            "Where can I change my bill to metals?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where can I get quarters?'는 25센트 동전을 구할 수 있는 곳을 직접적으로 묻는 표현입니다. 코인 세탁소에서 실용적으로 사용되는 표현입니다."
+        },
+        {
+          "id": "se_ch27_set04_005",
+          "type": "multiple_choice",
+          "question": "1달러를 동전으로 바꿔달라고 요청하는 가장 자연스러운 표현은?",
+          "options": [
+            "Can I get change for a dollar?",
+            "Can you break my dollar bill into quarters?",
+            "Can I exchange this dollar for coins please?",
+            "Can you split this dollar into small change?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get change for a dollar?'는 1달러를 잔돈(동전)으로 바꿔달라는 가장 간단하고 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch27_set04_006",
+          "type": "multiple_choice",
+          "question": "호텔 세탁 서비스 표준 처리 시간이 24시간임을 알릴 때 알맞은 표현은?",
+          "options": [
+            "Standard service takes twenty-four hours.",
+            "Normal washing is finished in one day time.",
+            "Regular laundry completes within twenty four hour.",
+            "Basic service is done at twenty-four hours."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Standard service takes twenty-four hours.'는 표준 서비스 소요 시간을 자연스럽게 안내하는 표현입니다. 나머지는 문법적으로 어색합니다."
+        },
+        {
+          "id": "se_ch27_set04_007",
+          "type": "multiple_choice",
+          "question": "드라이클리닝을 빨리 해달라고 부드럽게 가능성을 타진하는 표현은?",
+          "options": [
+            "Is there any chance it can be done faster?",
+            "Could you please hurry up my dry cleaning?",
+            "I really need this faster, can you try?",
+            "Is it possible for you to rush this order?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there any chance ~?'는 가능성을 부드럽게 타진하는 표현입니다. 'Can you do it faster?'보다 훨씬 유연하고 정중한 뉘앙스를 줍니다."
+        },
+        {
+          "id": "se_ch27_set04_008",
+          "type": "multiple_choice",
+          "question": "와인 얼룩처럼 까다로운 얼룩에 대한 결과를 보장할 수 없다는 표현으로 알맞은 것은?",
+          "options": [
+            "We'll do our best, but no guarantees.",
+            "We will try but probably it won't come out.",
+            "Maybe we can remove it, maybe not.",
+            "Wine stains are always impossible to remove."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We'll do our best, but no guarantees.'는 최선을 다하겠지만 결과를 보장할 수 없다는 전문적이고 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch27_set04_009",
+          "type": "multiple_choice",
+          "question": "세탁물 중 하나가 부족할 때 사용하는 표현으로 알맞은 것은?",
+          "options": [
+            "I'm short one item.",
+            "One item is lacking in my bag.",
+            "My laundry is not complete by one.",
+            "I have less laundry by one piece."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm short one item.'은 세탁물이 하나 모자란다는 자연스러운 표현입니다. 'short'는 '부족하다'는 뜻으로 이 맥락에서 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch27_set04_010",
+          "type": "multiple_choice",
+          "question": "비행기 시간을 고려해 세탁물이 특정 시각까지 준비될지 물을 때 가장 적절한 표현은?",
+          "options": [
+            "Can I get my laundry back before ten?",
+            "Will my laundry finish before my flight?",
+            "Is laundry done until ten o'clock?",
+            "Does my washing ready before ten am?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I get my laundry back before ten?'는 10시 전에 세탁물을 돌려받을 수 있는지 묻는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch27_set04_011",
+          "type": "multiple_choice",
+          "question": "'시간이 넉넉합니다'를 표현하는 가장 자연스러운 영어 표현은?",
+          "options": [
+            "That gives me plenty of time.",
+            "I have much time left for that.",
+            "Time is very enough for me.",
+            "I got lots of extra time."
+          ],
+          "answerIndex": 0,
+          "explanation": "'That gives me plenty of time.'은 시간이 충분하다는 자연스러운 표현입니다. 'plenty of'는 충분한이라는 뜻으로 이 표현이 가장 자연스럽습니다."
+        },
+        {
+          "id": "se_ch27_set04_012",
+          "type": "ox",
+          "question": "'do laundry'는 '세탁물을 구매하다'는 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'do laundry'는 '빨래하다'는 뜻입니다. 세탁물을 구매하는 것과는 전혀 다른 의미입니다."
+        },
+        {
+          "id": "se_ch27_set04_013",
+          "type": "ox",
+          "question": "호텔 세탁 서비스에서 'express' 또는 'same-day' 서비스는 일반 서비스보다 추가 요금이 발생한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 당일 처리 서비스는 별도의 추가 요금(extra charge 또는 premium)이 부과됩니다. 급하게 세탁이 필요할 때 이용할 수 있지만 비용이 상당히 더 높습니다."
+        },
+        {
+          "id": "se_ch27_set04_014",
+          "type": "ox",
+          "question": "드라이클리닝(dry cleaning)은 물을 사용하지 않는 세탁 방식으로, 양복이나 코트처럼 물세탁이 어려운 옷에 주로 쓰인다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 드라이클리닝은 물 대신 화학 용제를 사용하는 세탁 방식입니다. 양복, 코트, 실크 등 물세탁 시 변형되거나 손상될 수 있는 옷에 사용합니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch27_set05_001",
+          "type": "multiple_choice",
+          "question": "코인 세탁소를 영어로 부르는 또 다른 표현은?",
+          "options": [
+            "coin laundry",
+            "coin washing",
+            "self cleaner",
+            "money laundry"
+          ],
+          "answerIndex": 0,
+          "explanation": "'coin laundry'는 코인 세탁소를 뜻하는 표현으로 'laundromat'과 함께 아시아권 영어에서 자주 통용됩니다."
+        },
+        {
+          "id": "se_ch27_set05_002",
+          "type": "multiple_choice",
+          "question": "세탁기 사용법을 알려달라고 부탁하는 또 다른 방법은?",
+          "options": [
+            "How do I use this?",
+            "What is this machine's purpose?",
+            "Explain me this washing machine.",
+            "Show me what this machine does for me."
+          ],
+          "answerIndex": 0,
+          "explanation": "'How do I use this?'는 '이걸 어떻게 사용하나요?'라는 직접적이고 자연스러운 표현입니다. 'How does this machine work?'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch27_set05_003",
+          "type": "multiple_choice",
+          "question": "세탁 세제를 가리키는 영어 단어로 가장 일반적인 것은?",
+          "options": [
+            "detergent",
+            "cleanser",
+            "sanitizer",
+            "disinfectant"
+          ],
+          "answerIndex": 0,
+          "explanation": "'detergent'는 세제를 가리키는 가장 일반적인 단어입니다. 'cleanser'는 클렌저(피부 세정제), 'sanitizer'는 소독제, 'disinfectant'는 소독약으로 의미가 다릅니다."
+        },
+        {
+          "id": "se_ch27_set05_004",
+          "type": "multiple_choice",
+          "question": "세탁기 한 번 돌리는 비용이 2달러 50센트일 때 직원이 말하는 표현은?",
+          "options": [
+            "It's two fifty per load.",
+            "It costs two dollars and fifty for washing.",
+            "Price is two point five dollars one wash.",
+            "You pay two fifty dollars per machine use."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's two fifty per load.'는 한 번 세탁에 2달러 50센트라는 자연스러운 가격 안내입니다. 'per load'는 '한 번 세탁에'라는 뜻입니다."
+        },
+        {
+          "id": "se_ch27_set05_005",
+          "type": "multiple_choice",
+          "question": "건조기 관련 동전이 몇 개 필요한지 묻는 표현으로 알맞은 것은?",
+          "options": [
+            "How many coins does the dryer need?",
+            "How much coins for the dryer machine?",
+            "What is the coin requirement of dryer?",
+            "Tell me how many coins I need for drying."
+          ],
+          "answerIndex": 0,
+          "explanation": "'How many coins does the dryer need?'는 건조기에 필요한 동전 수를 묻는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch27_set05_006",
+          "type": "multiple_choice",
+          "question": "호텔 세탁 서비스 요금을 묻는 또 다른 방법은?",
+          "options": [
+            "What's the charge for laundry?",
+            "How much is laundry costing here?",
+            "Tell me the money for laundry service.",
+            "What price is laundry in this hotel?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What's the charge for laundry?'는 세탁 요금을 묻는 자연스러운 표현입니다. 'charge'는 청구 요금을 뜻합니다."
+        },
+        {
+          "id": "se_ch27_set05_007",
+          "type": "multiple_choice",
+          "question": "정장 드라이클리닝이 필요하다는 상황 설명으로 가장 자연스러운 표현은?",
+          "options": [
+            "This needs to be dry-cleaned.",
+            "This needs dry cleaning process.",
+            "I need chemical clean for this.",
+            "This clothing requires no water wash."
+          ],
+          "answerIndex": 0,
+          "explanation": "'This needs to be dry-cleaned.'는 드라이클리닝이 필요하다는 상황을 설명하는 자연스러운 수동 표현입니다."
+        },
+        {
+          "id": "se_ch27_set05_008",
+          "type": "multiple_choice",
+          "question": "얼룩 제거가 가능한지 가능성을 묻는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Is this stain removable?",
+            "Can this stain be taken away?",
+            "Is it possible for this stain to go?",
+            "Can you make this stain disappear?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is this stain removable?'는 얼룩 제거 가능성을 묻는 자연스러운 형용사 활용 표현입니다."
+        },
+        {
+          "id": "se_ch27_set05_009",
+          "type": "multiple_choice",
+          "question": "세탁물이 없어졌음을 알리는 또 다른 표현은?",
+          "options": [
+            "A shirt didn't come back.",
+            "My shirt is gone somewhere.",
+            "I lost one shirt from laundry.",
+            "Shirt is not returning from laundry."
+          ],
+          "answerIndex": 0,
+          "explanation": "'A shirt didn't come back.'는 셔츠가 돌아오지 않았다는 직접적인 표현으로 분실을 알릴 때 자연스럽게 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch27_set05_010",
+          "type": "multiple_choice",
+          "question": "'내일 아침까지 세탁이 완료될까요?'와 같은 의미의 표현은?",
+          "options": [
+            "When will my clothes be done?",
+            "Are clothes ready at tomorrow morning?",
+            "Will washing finish by tomorrow am?",
+            "Is laundry completed before tomorrow?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'When will my clothes be done?'은 세탁이 언제 완료되냐는 간단하고 자연스러운 질문으로 'Will my laundry be ready by tomorrow morning?'과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch27_set05_011",
+          "type": "multiple_choice",
+          "question": "세탁물을 방으로 가져다준다는 뜻의 캐주얼한 표현은?",
+          "options": [
+            "We'll bring it to your room.",
+            "We will deliver it at your room door.",
+            "Your laundry comes back to your room.",
+            "We drop off laundry in your room."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We'll bring it to your room.'은 방으로 가져다준다는 캐주얼하고 자연스러운 표현입니다. 공식적인 표현은 'It will be delivered to your room.'입니다."
+        },
+        {
+          "id": "se_ch27_set05_012",
+          "type": "ox",
+          "question": "'stain'은 옷에 묻은 얼룩을 뜻하며, 'remove a stain'은 얼룩을 제거하다는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'stain'은 얼룩이라는 뜻이고, 'remove a stain' 또는 'get a stain out'은 얼룩을 제거하다는 표현입니다."
+        },
+        {
+          "id": "se_ch27_set05_013",
+          "type": "ox",
+          "question": "'per load'는 '세탁기 1회 사용당'이라는 뜻으로, 'per cycle'과 같은 의미로 쓰인다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'load'와 'cycle' 모두 세탁기 1회 사용을 뜻합니다. 'It's two dollars per load.'와 'It's two dollars per cycle.'은 같은 의미입니다."
+        },
+        {
+          "id": "se_ch27_set05_014",
+          "type": "ox",
+          "question": "호텔에서 'laundry receipt(세탁 영수증)'가 없으면 분실된 세탁물에 대한 클레임을 절대 제기할 수 없다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 영수증이 없어도 클레임을 제기할 수 있지만, 영수증이 있으면 처리가 훨씬 용이합니다. 영수증 보관은 권장 사항이지 필수 조건은 아닙니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch27_set06_001",
+          "type": "multiple_choice",
+          "question": "'근처 코인 세탁소는 어디 있나요?'를 영어로 표현하면?",
+          "options": [
+            "Where's the nearest coin laundry?",
+            "Where is the closest washing room?",
+            "Where can I find cheap laundry here?",
+            "Which way is the laundry machine store?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'coin laundry'는 코인 세탁소를 뜻하는 표현으로 'laundromat'과 함께 아시아권 영어에서 통용됩니다. 'nearest'는 가장 가까운이라는 뜻입니다."
+        },
+        {
+          "id": "se_ch27_set06_002",
+          "type": "multiple_choice",
+          "question": "세탁기 사용 절차에서 동전을 넣은 뒤 해야 할 일은?",
+          "options": [
+            "Press start.",
+            "Add detergent again.",
+            "Close the lid first.",
+            "Set the timer manually."
+          ],
+          "answerIndex": 0,
+          "explanation": "세탁기 사용 순서는 '옷 넣기 → 세제 넣기 → 동전 넣기 → 시작 버튼 누르기(press start)'입니다. 동전 삽입 후 마지막 단계는 시작 버튼을 누르는 것입니다."
+        },
+        {
+          "id": "se_ch27_set06_003",
+          "type": "multiple_choice",
+          "question": "코인 세탁소 카운터에서 파는 세탁용품의 종류로 올바르게 연결된 것은?",
+          "options": [
+            "packets (소포장 가루 세제) / pods (캡슐형 세제)",
+            "bags (봉투) / bottles (병)",
+            "rolls (두루마리) / bars (막대형)",
+            "tubes (튜브) / cans (캔)"
+          ],
+          "answerIndex": 0,
+          "explanation": "'packet'은 소포장 가루 세제, 'pod'는 1회용 캡슐형 세제입니다. 코인 세탁소 카운터에서 이 두 가지를 주로 판매합니다."
+        },
+        {
+          "id": "se_ch27_set06_004",
+          "type": "multiple_choice",
+          "question": "건조기가 동전 하나당 8분 작동한다는 것을 영어로 표현하면?",
+          "options": [
+            "About eight minutes per quarter.",
+            "Eight minutes for one coin each.",
+            "Dryer runs eight minutes one dollar.",
+            "Every quarter, dryer gives eight minutes of use."
+          ],
+          "answerIndex": 0,
+          "explanation": "'About eight minutes per quarter.'는 '25센트 동전 하나에 약 8분'이라는 자연스러운 안내 표현입니다."
+        },
+        {
+          "id": "se_ch27_set06_005",
+          "type": "multiple_choice",
+          "question": "호텔 세탁 서비스의 요금 체계를 'What are the laundry rates?'라고 물었을 때, 'rates'가 의미하는 것은?",
+          "options": [
+            "요금 체계, 가격표",
+            "할인율",
+            "서비스 속도",
+            "세탁 횟수 제한"
+          ],
+          "answerIndex": 0,
+          "explanation": "'rates'는 요금 체계나 가격표를 뜻하는 격식 있는 단어입니다. 'What are the laundry rates?'는 세탁 요금표가 어떻게 되냐는 표현입니다."
+        },
+        {
+          "id": "se_ch27_set06_006",
+          "type": "multiple_choice",
+          "question": "빠른 처리를 의미하는 'rush service'와 유사한 표현으로 묶인 것은?",
+          "options": [
+            "express service / same-day service",
+            "standard service / regular service",
+            "overnight service / next-day service",
+            "basic service / economy service"
+          ],
+          "answerIndex": 0,
+          "explanation": "'rush service', 'express service', 'same-day service' 모두 빠른 처리를 의미합니다. 반면 'standard', 'regular', 'basic'은 일반 서비스를 뜻합니다."
+        },
+        {
+          "id": "se_ch27_set06_007",
+          "type": "multiple_choice",
+          "question": "드라이클리닝을 빠르게 해달라고 요청했을 때 직원이 정중하게 거절하는 표현은?",
+          "options": [
+            "I'm afraid not for dry cleaning.",
+            "No, we cannot do that for dry cleaning.",
+            "Dry cleaning is too slow, sorry.",
+            "I cannot make dry cleaning faster."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm afraid not'은 '어렵습니다'를 정중하게 표현하는 방식입니다. 직접적인 'No'보다 훨씬 공손하게 거절할 수 있는 표현입니다."
+        },
+        {
+          "id": "se_ch27_set06_008",
+          "type": "multiple_choice",
+          "question": "얼룩이 어떻게 생겼는지 설명할 때 쓰는 표현으로 알맞은 것은?",
+          "options": [
+            "It happened at dinner last night.",
+            "The stain was created during eating.",
+            "My dinner made this dirty mark.",
+            "This comes from food at dinner."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It happened at dinner last night.'는 얼룩이 생긴 상황을 설명하는 자연스러운 표현입니다. 'happen'은 (일이) 일어나다는 뜻으로 상황 설명에 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch27_set06_009",
+          "type": "multiple_choice",
+          "question": "세탁 후 스웨터가 세탁 중 망가졌다고 표현하는 방법으로 알맞은 것은?",
+          "options": [
+            "This got ruined in the wash.",
+            "This sweater was broken by washing.",
+            "Sweater damaged because of laundry machine.",
+            "My sweater was destroyed during cleaning."
+          ],
+          "answerIndex": 0,
+          "explanation": "'This got ruined in the wash.'는 세탁 과정에서 옷이 망가졌다는 자연스러운 표현입니다. 'ruin'은 완전히 망가지다는 강한 의미입니다."
+        },
+        {
+          "id": "se_ch27_set06_010",
+          "type": "multiple_choice",
+          "question": "세탁물 분실 시 직원이 즉시 조사하겠다고 할 때 쓰는 표현은?",
+          "options": [
+            "I'll look into this immediately.",
+            "I will investigate your missing item.",
+            "Let me check your laundry problem now.",
+            "I'll find your shirt right away."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll look into this immediately.'는 즉시 조사하겠다는 자연스럽고 격식 있는 표현입니다. 'look into'는 조사하다, 살펴보다는 뜻입니다."
+        },
+        {
+          "id": "se_ch27_set06_011",
+          "type": "multiple_choice",
+          "question": "세탁물을 기한 내에 준비하겠다고 약속할 때 가장 자연스러운 표현은?",
+          "options": [
+            "We'll make sure everything is ready on time.",
+            "We will guarantee to prepare your clothes.",
+            "Everything will be prepared before time.",
+            "Your laundry will definitely be ready on time."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We'll make sure everything is ready on time.'은 제시간에 준비되도록 하겠다는 자연스러운 약속 표현입니다."
+        },
+        {
+          "id": "se_ch27_set06_012",
+          "type": "ox",
+          "question": "'missing'은 '없어졌다, 분실됐다'는 뜻으로, 세탁물이 반환되지 않았을 때 'One of my shirts is missing.'이라고 표현할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'missing'은 없어졌다는 뜻으로, 세탁물 반환 후 수량이 맞지 않을 때 'One of my shirts is missing.'이라고 표현합니다."
+        },
+        {
+          "id": "se_ch27_set06_013",
+          "type": "ox",
+          "question": "'file a claim'은 공식적으로 클레임을 제기하다는 뜻이며, 'on your behalf'는 '당신의 이름으로, 당신을 대신하여'라는 의미이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'file a claim'은 공식 클레임을 제기하다는 표현이고, 'on your behalf'는 '당신을 대신해서'라는 뜻입니다. 호텔 직원이 절차를 대신 처리해줄 때 씁니다."
+        },
+        {
+          "id": "se_ch27_set06_014",
+          "type": "ox",
+          "question": "'pod(세탁 캡슐)'은 세탁 세제의 한 형태로, 1회 사용량이 미리 측정되어 캡슐에 담겨 있는 제품이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'laundry pod'는 1회 사용량의 세제가 캡슐 형태로 포장된 제품입니다. 계량이 필요 없어 편리하며 코인 세탁소 카운터에서 낱개로 구매할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch27_set07_001",
+          "type": "multiple_choice",
+          "question": "코인 세탁소가 24시간 운영한다는 걸 알았을 때 안심하며 말하는 표현은?",
+          "options": [
+            "You're good to go.",
+            "You can go anytime you want.",
+            "The laundry is always there.",
+            "Feel free to use laundry always."
+          ],
+          "answerIndex": 0,
+          "explanation": "'You're good to go.'는 '이제 가도 됩니다, 문제없습니다'라는 뜻의 캐주얼한 표현으로, 허락이나 확인을 줄 때 직원들이 자주 씁니다."
+        },
+        {
+          "id": "se_ch27_set07_002",
+          "type": "multiple_choice",
+          "question": "세탁기 사용법을 물을 때 가장 직접적인 표현은?",
+          "options": [
+            "How do I use this machine?",
+            "Could you explain this machine's operation?",
+            "What are the steps for this machine?",
+            "Can I have the instructions for this?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How do I use this machine?'는 사용법을 가장 직접적으로 묻는 표현입니다. 'How does this machine work?'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch27_set07_003",
+          "type": "multiple_choice",
+          "question": "세탁 세제를 영어로 여러 가지 방법으로 표현할 때, 가장 캐주얼한 표현은?",
+          "options": [
+            "soap",
+            "detergent",
+            "cleanser",
+            "washing agent"
+          ],
+          "answerIndex": 0,
+          "explanation": "'soap'은 비누나 세제를 가리키는 가장 캐주얼한 표현으로, 'Put the soap in.'처럼 구어체에서 자주 쓰입니다. 'detergent'가 더 정확하지만 'soap'도 일상 대화에서 통용됩니다."
+        },
+        {
+          "id": "se_ch27_set07_004",
+          "type": "multiple_choice",
+          "question": "단위당 가격 1달러를 표현하는 방법으로 'each'와 비슷한 단어는?",
+          "options": [
+            "apiece",
+            "alone",
+            "individual",
+            "singular"
+          ],
+          "answerIndex": 0,
+          "explanation": "'apiece'는 'each'와 같이 '각각, 하나에'라는 뜻입니다. 'A dollar apiece.'는 'One dollar each.'와 같은 의미이지만 'each'가 더 자주 쓰입니다."
+        },
+        {
+          "id": "se_ch27_set07_005",
+          "type": "multiple_choice",
+          "question": "코인 세탁소에서 지폐를 동전으로 바꾸는 기계를 가리키는 표현은?",
+          "options": [
+            "change machine",
+            "coin maker",
+            "money exchanger",
+            "bill converter"
+          ],
+          "answerIndex": 0,
+          "explanation": "'change machine'이 코인 세탁소에서 지폐를 동전으로 바꿔주는 기계를 가리키는 표준 표현입니다. 코인 세탁소 필수 기기입니다."
+        },
+        {
+          "id": "se_ch27_set07_006",
+          "type": "multiple_choice",
+          "question": "호텔 세탁 서비스에서 품목에 따라 가격이 다를 때 직원이 쓰는 자연스러운 표현은?",
+          "options": [
+            "The price varies by item.",
+            "Each item has its different price.",
+            "Items all cost differently.",
+            "Prices are not same per item."
+          ],
+          "answerIndex": 0,
+          "explanation": "'The price varies by item.'은 품목마다 가격이 다르다는 자연스러운 표현입니다. 'It depends on the items.'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch27_set07_007",
+          "type": "multiple_choice",
+          "question": "드라이클리닝 빠른 처리를 요청하는 격식 있는 표현은?",
+          "options": [
+            "Is expedited service available?",
+            "Can you do fast dry cleaning?",
+            "Please hurry up the dry cleaning.",
+            "Is speedy dry cleaning possible here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'expedited service'는 빠른 처리 서비스를 뜻하는 격식 있는 표현입니다. 'Is expedited service available?'는 빠른 처리가 가능한지 묻는 공식적인 표현입니다."
+        },
+        {
+          "id": "se_ch27_set07_008",
+          "type": "multiple_choice",
+          "question": "와인 얼룩이 '까다롭다'고 표현할 때 알맞은 영어 단어는?",
+          "options": [
+            "tricky",
+            "difficult",
+            "complicated",
+            "impossible"
+          ],
+          "answerIndex": 0,
+          "explanation": "'tricky'는 까다롭다, 다루기 어렵다는 의미의 캐주얼한 표현입니다. 와인 얼룩처럼 처리가 쉽지 않은 경우 'can be tricky'라고 표현합니다."
+        },
+        {
+          "id": "se_ch27_set07_009",
+          "type": "multiple_choice",
+          "question": "세탁물 분실 시 직원이 조사를 시작할 때 필요한 것을 묻는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Do you have your laundry receipt?",
+            "Can I see your identification please?",
+            "When did you drop off your laundry?",
+            "How many items did you submit for washing?"
+          ],
+          "answerIndex": 0,
+          "explanation": "세탁 클레임 시 가장 먼저 요청하는 것은 세탁 영수증(laundry receipt)입니다. 맡긴 품목 내용이 기재되어 있어 분실 확인에 활용됩니다."
+        },
+        {
+          "id": "se_ch27_set07_010",
+          "type": "multiple_choice",
+          "question": "세탁물을 돌려받으면 가장 먼저 해야 할 일로 가장 알맞은 것은?",
+          "options": [
+            "수량과 상태를 즉시 확인한다.",
+            "방으로 가져가서 다음 날 확인한다.",
+            "영수증을 버려도 된다.",
+            "직원에게 감사 인사를 먼저 한다."
+          ],
+          "answerIndex": 0,
+          "explanation": "세탁물을 돌려받으면 즉시 수량과 상태를 확인해야 합니다. 나중에 문제를 발견하면 처리가 어려울 수 있으므로 바로 확인하는 것이 중요합니다."
+        },
+        {
+          "id": "se_ch27_set07_011",
+          "type": "multiple_choice",
+          "question": "아슬아슬하게 시간이 빠듯한 상황을 표현하는 영어 숙어는?",
+          "options": [
+            "I'm cutting it close.",
+            "I have no time at all.",
+            "Time is running away.",
+            "I barely have any time."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm cutting it close.'는 시간이 아슬아슬하게 빠듯하다는 의미의 관용 표현입니다. 'That gives me plenty of time.'의 반대 상황에서 씁니다."
+        },
+        {
+          "id": "se_ch27_set07_012",
+          "type": "ox",
+          "question": "'Can I have ~ back'은 '~를 돌려받다'는 표현으로 'Can I have my clothes back?'은 '옷을 돌려받을 수 있나요?'라는 뜻이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Can I have ~ back'은 무언가를 돌려받다는 표현입니다. 'Can I have my clothes back by tomorrow morning?'은 내일 아침까지 옷을 돌려받을 수 있냐는 뜻입니다."
+        },
+        {
+          "id": "se_ch27_set07_013",
+          "type": "ox",
+          "question": "'damaged'는 세탁 후 옷이 수축(shrink)된 경우에만 쓰는 단어이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'damaged'는 손상됐다는 일반적인 표현으로, 구멍(hole), 늘어남(stretched), 색 바램(faded), 수축(shrunk) 등 모든 종류의 손상에 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch27_set07_014",
+          "type": "ox",
+          "question": "호텔에서 세탁물이 객실로 배달되는 서비스를 이용하려면 사전에 픽업 및 배달 여부를 확인하는 것이 편리하다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 호텔마다 세탁 서비스 방식이 다를 수 있으므로, 픽업과 배달 여부를 미리 확인해두면 편리합니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch27_set08_001",
+          "type": "multiple_choice",
+          "question": "빨래를 해야 한다고 말할 때 가장 자연스러운 표현은?",
+          "options": [
+            "I need to do laundry.",
+            "I must make my laundry.",
+            "I should do my washing works.",
+            "I have to laundry my clothes."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I need to do laundry.'는 빨래를 해야 한다는 가장 자연스럽고 흔한 표현입니다. 'wash clothes'도 같은 의미이지만 'do laundry'가 미국에서 더 일반적입니다."
+        },
+        {
+          "id": "se_ch27_set08_002",
+          "type": "multiple_choice",
+          "question": "세탁기 사용 요금을 물어보는 가장 자연스러운 표현은?",
+          "options": [
+            "How much does one wash cost?",
+            "What is the price for using this machine?",
+            "How much money for one laundry?",
+            "What does one wash time cost?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How much does one wash cost?'는 세탁 1회 비용을 묻는 자연스러운 표현입니다. 'How much does it cost?'의 응용 표현입니다."
+        },
+        {
+          "id": "se_ch27_set08_003",
+          "type": "multiple_choice",
+          "question": "해야 할 빨래가 있다는 것을 자연스럽게 표현하는 방법은?",
+          "options": [
+            "I have some laundry to do.",
+            "I have clothes that need washing.",
+            "My laundry is waiting to be done.",
+            "I've got dirty clothes needing wash."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I have some laundry to do.'는 해야 할 빨래가 있다는 자연스러운 일상 표현입니다."
+        },
+        {
+          "id": "se_ch27_set08_004",
+          "type": "multiple_choice",
+          "question": "코인 세탁소에서 세탁기 작동을 시작하기 위해 꼭 해야 하는 것은?",
+          "options": [
+            "insert coins",
+            "plug in the machine",
+            "press the power button",
+            "set the temperature"
+          ],
+          "answerIndex": 0,
+          "explanation": "코인 세탁기는 'insert coins(동전 넣기)'로 작동을 시작합니다. 옷과 세제를 넣은 후 동전을 넣고 시작 버튼을 누릅니다."
+        },
+        {
+          "id": "se_ch27_set08_005",
+          "type": "multiple_choice",
+          "question": "호텔 세탁 서비스 이용 시 세탁물을 맡기는 마감 시각과 반환 시각을 안내하는 표현으로 알맞은 것은?",
+          "options": [
+            "If you leave them before nine tonight, they'll be ready by eight tomorrow.",
+            "Submit before 9pm, pick up at 8am tomorrow.",
+            "Drop off by nine, we'll deliver by eight next morning.",
+            "Tonight nine is deadline, morning eight is pickup."
+          ],
+          "answerIndex": 0,
+          "explanation": "'If you leave them before nine tonight, they'll be ready by eight tomorrow.'는 조건절로 마감과 반환 시각을 명확하게 안내하는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch27_set08_006",
+          "type": "multiple_choice",
+          "question": "호텔 세탁 서비스 가격 안내에서 'It depends on the items.'와 같은 의미의 표현은?",
+          "options": [
+            "It varies depending on what you have.",
+            "Price changes based on number of items.",
+            "It all depends on the total weight.",
+            "Cost varies by the washing method chosen."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It varies depending on what you have.'는 맡기는 품목에 따라 가격이 다르다는 표현으로 'It depends on the items.'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch27_set08_007",
+          "type": "multiple_choice",
+          "question": "드라이클리닝 서비스 신청 시 '가능한가요?'를 부드럽게 확인하는 방법은?",
+          "options": [
+            "Do you do that?",
+            "Can you offer that?",
+            "Is that a service you provide?",
+            "Do you handle dry cleaning here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Do you do that?'는 그 서비스를 제공하는지 간단하게 확인하는 가장 캐주얼하고 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch27_set08_008",
+          "type": "multiple_choice",
+          "question": "얼룩 종류를 설명할 때 가능성에 따라 처리법이 다르다는 맥락에서, 얼룩의 종류에 해당하지 않는 것은?",
+          "options": [
+            "faded",
+            "red wine",
+            "ink",
+            "grease"
+          ],
+          "answerIndex": 0,
+          "explanation": "'faded'는 색이 바랬다는 의미로 얼룩의 종류가 아닌 세탁 손상의 한 형태입니다. 'red wine', 'ink', 'grease(기름)'는 모두 얼룩의 원인 종류입니다."
+        },
+        {
+          "id": "se_ch27_set08_009",
+          "type": "multiple_choice",
+          "question": "세탁 후 손상된 옷의 상태를 설명하는 표현으로 틀린 것은?",
+          "options": [
+            "ironed",
+            "stretched",
+            "shrunk",
+            "faded"
+          ],
+          "answerIndex": 0,
+          "explanation": "'ironed'는 다려졌다는 뜻으로 손상이 아닌 좋은 상태입니다. 'stretched(늘어남)', 'shrunk(수축)', 'faded(색 바램)'은 모두 세탁 손상을 나타냅니다."
+        },
+        {
+          "id": "se_ch27_set08_010",
+          "type": "multiple_choice",
+          "question": "세탁물 클레임 시 직원이 즉시 처리해주겠다고 말하는 자연스러운 표현은?",
+          "options": [
+            "I'll take care of this for you.",
+            "I will solve your problem immediately.",
+            "Let me handle this complaint.",
+            "I'll make sure your problem is fixed."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll take care of this for you.'는 이 문제를 처리해드리겠다는 자연스러운 서비스 표현입니다. 'file a claim on your behalf'보다 더 일반적인 표현입니다."
+        },
+        {
+          "id": "se_ch27_set08_011",
+          "type": "multiple_choice",
+          "question": "세탁물 완료 여부를 가장 간단하게 묻는 표현은?",
+          "options": [
+            "When will my clothes be done?",
+            "Will my clothes be ready?",
+            "When is my laundry completed?",
+            "Is my laundry finished yet?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'When will my clothes be done?'은 세탁 완료 시간을 간단하게 묻는 가장 자연스러운 표현입니다. 'be done'은 완료되다는 뜻입니다."
+        },
+        {
+          "id": "se_ch27_set08_012",
+          "type": "ox",
+          "question": "코인 세탁소에서 건조기는 세탁기보다 짧은 시간이 걸리므로 동전을 적게 준비해도 된다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 코인 세탁소에서 건조기는 세탁기보다 더 오래 걸릴 수 있습니다. 옷감이나 두께에 따라 여러 사이클이 필요할 수 있으므로 동전을 넉넉히 준비하는 것이 좋습니다."
+        },
+        {
+          "id": "se_ch27_set08_013",
+          "type": "ox",
+          "question": "세탁 요금을 물을 때 'How much does it cost?'와 'What's the charge?'는 같은 의미로 쓰일 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'How much does it cost?'와 'What's the charge?'는 모두 비용을 묻는 표현으로 같은 맥락에서 사용됩니다."
+        },
+        {
+          "id": "se_ch27_set08_014",
+          "type": "ox",
+          "question": "호텔 세탁 서비스에서 'overnight service'는 당일 처리를 의미한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'overnight service'는 밤 사이에 처리하여 다음 날 아침에 받는 서비스로, '당일 처리'는 'same-day service' 또는 'express service'라고 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch27_set09_001",
+          "type": "multiple_choice",
+          "question": "'근처에 빨래방이 있나요?'를 영어로 묻는 방법으로 가장 알맞은 것은?",
+          "options": [
+            "Is there a laundromat nearby?",
+            "Is there a laundering shop near me?",
+            "Can I find a cloth washing place here?",
+            "Is there a laundry area close by?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Is there a laundromat nearby?'는 코인 세탁소가 근처에 있는지 묻는 가장 표준적인 표현입니다. 'laundromat'이 셀프 빨래방을 뜻하는 정확한 단어입니다."
+        },
+        {
+          "id": "se_ch27_set09_002",
+          "type": "multiple_choice",
+          "question": "세탁기 작동법을 보여달라고 요청하는 다양한 방법 중 가장 정중한 표현은?",
+          "options": [
+            "Could you show me how to use this?",
+            "Show me how to use this machine.",
+            "Tell me how this thing works.",
+            "I need help with this machine."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Could you show me how to use this?'는 'Could you'를 사용하여 가장 정중하게 도움을 요청하는 표현입니다. 직접적인 명령형보다 공손합니다."
+        },
+        {
+          "id": "se_ch27_set09_003",
+          "type": "multiple_choice",
+          "question": "코인 세탁소에서 세제를 구매할 때 가장 편리한 형태가 아닌 것은?",
+          "options": [
+            "5리터 대용량 액체 세제",
+            "소포장 가루 세제 (packet)",
+            "1회용 캡슐 세제 (pod)",
+            "작은 낱개 세제"
+          ],
+          "answerIndex": 0,
+          "explanation": "코인 세탁소에서는 소포장 세제가 편리합니다. 5리터 대용량 세제는 여행 중 보관과 운반이 불편하여 실용적이지 않습니다."
+        },
+        {
+          "id": "se_ch27_set09_004",
+          "type": "multiple_choice",
+          "question": "'quarter'가 8분 건조기 시간을 준다는 내용을 완성하는 표현으로 알맞은 것은?",
+          "options": [
+            "About eight minutes per quarter.",
+            "A quarter gives about eight minutes.",
+            "Eight minutes per one twenty-five cent.",
+            "One quarter coin makes eight minutes."
+          ],
+          "answerIndex": 0,
+          "explanation": "'About eight minutes per quarter.'는 코인 건조기에서 25센트 동전 하나당 약 8분이라는 자연스러운 안내 표현입니다."
+        },
+        {
+          "id": "se_ch27_set09_005",
+          "type": "multiple_choice",
+          "question": "호텔에서 내일 아침까지 세탁물을 돌려받고 싶다는 요청은?",
+          "options": [
+            "Can I have my clothes back by tomorrow morning?",
+            "Please return my clothes tomorrow morning.",
+            "I want my laundry before morning tomorrow.",
+            "Can you send my clothes tonight?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I have my clothes back by tomorrow morning?'은 내일 아침까지 옷을 돌려받고 싶다는 자연스러운 요청입니다. 'by'는 기한을 뜻합니다."
+        },
+        {
+          "id": "se_ch27_set09_006",
+          "type": "multiple_choice",
+          "question": "호텔 세탁 서비스 요금표를 묻는 격식 있는 표현은?",
+          "options": [
+            "What are the laundry rates?",
+            "How much is laundry here?",
+            "Tell me your laundry prices.",
+            "What does laundry cost in this hotel?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What are the laundry rates?'는 세탁 요금 체계를 묻는 격식 있는 표현입니다. 'rates'는 가격표나 요금 체계를 뜻하는 단어입니다."
+        },
+        {
+          "id": "se_ch27_set09_007",
+          "type": "multiple_choice",
+          "question": "드라이클리닝을 파트너 업체로 보내 처리한다고 안내할 때 알맞은 표현은?",
+          "options": [
+            "We send items to our dry cleaning partner.",
+            "We outsource dry cleaning to another company.",
+            "We give your clothes to dry cleaners.",
+            "Dry cleaning is handled by a different store."
+          ],
+          "answerIndex": 0,
+          "explanation": "'We send items to our dry cleaning partner.'는 드라이클리닝 파트너 업체에 위탁한다는 호텔 안내 표현으로 자연스럽습니다."
+        },
+        {
+          "id": "se_ch27_set09_008",
+          "type": "multiple_choice",
+          "question": "레드 와인 얼룩은 세탁소에서 '까다롭다'고 할 때 쓰는 표현은?",
+          "options": [
+            "Wine stains can be tricky.",
+            "Wine stains are very hard.",
+            "Wine stains are problematic for us.",
+            "Wine stains make difficulty."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Wine stains can be tricky.'는 와인 얼룩이 까다로울 수 있다는 자연스러운 표현입니다. 'tricky'는 다루기 어렵고 까다롭다는 뜻입니다."
+        },
+        {
+          "id": "se_ch27_set09_009",
+          "type": "multiple_choice",
+          "question": "세탁 후 셔츠가 없어졌다고 알릴 때 가장 자연스럽게 표현하는 방법은?",
+          "options": [
+            "I think one of my shirts is missing from the laundry.",
+            "My shirt disappeared from my laundry.",
+            "One of my shirts was taken from laundry.",
+            "Shirt missing from my laundry bag."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I think one of my shirts is missing from the laundry.'는 세탁물에서 셔츠가 없어진 것 같다는 정중하고 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch27_set09_010",
+          "type": "multiple_choice",
+          "question": "호텔 직원이 클레임 조사를 즉시 시작하겠다고 말할 때 쓰는 표현은?",
+          "options": [
+            "I'll look into this immediately.",
+            "I will check the laundry room now.",
+            "Let me search for your missing shirt.",
+            "I'll ask my colleagues about your item."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'll look into this immediately.'는 문제를 즉시 조사하겠다는 자연스럽고 전문적인 표현입니다."
+        },
+        {
+          "id": "se_ch27_set09_011",
+          "type": "multiple_choice",
+          "question": "비행기 일정 전 세탁물을 받을 시간이 충분한지 확인할 때 쓸 수 있는 표현은?",
+          "options": [
+            "That gives me plenty of time.",
+            "I have a lot of time before the flight.",
+            "Time is enough for me to receive laundry.",
+            "My flight is late enough for laundry."
+          ],
+          "answerIndex": 0,
+          "explanation": "'That gives me plenty of time.'은 세탁이 완료되는 시간이 비행기 전까지 충분하다는 안도감을 표현하는 자연스러운 말입니다."
+        },
+        {
+          "id": "se_ch27_set09_012",
+          "type": "ox",
+          "question": "'Is there any chance ~?'는 가능성을 부드럽게 물어보는 표현으로, 'Can you ~?'보다 더 유연하고 정중한 뉘앙스를 가진다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'Is there any chance ~?'는 '혹시 ~이 가능할까요?'라는 완곡한 표현으로, 'Can you ~?'보다 훨씬 유연하고 정중하게 들립니다."
+        },
+        {
+          "id": "se_ch27_set09_013",
+          "type": "ox",
+          "question": "'laundry'라는 단어는 세탁소, 세탁물, 세탁 행위 모두를 의미할 수 있다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'laundry'는 문맥에 따라 세탁소, 세탁물(the laundry), 세탁 행위(do the laundry) 모두를 뜻할 수 있습니다."
+        },
+        {
+          "id": "se_ch27_set09_014",
+          "type": "ox",
+          "question": "호텔 세탁 서비스에서 셔츠 가격과 바지 가격이 같다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 호텔 세탁 서비스는 품목에 따라 가격이 다릅니다. 예를 들어 셔츠는 5달러, 바지는 8달러처럼 품목마다 요금이 다릅니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch27_set10_001",
+          "type": "multiple_choice",
+          "question": "코인 세탁소가 어디 있는지 처음 접하는 동네에서 물어볼 때 가장 실용적인 표현은?",
+          "options": [
+            "Excuse me, is there a laundromat nearby?",
+            "Excuse me, where do people usually wash clothes?",
+            "Could you tell me where a washing store is?",
+            "Do you know a place for self laundry around here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Excuse me, is there a laundromat nearby?'는 처음 만난 사람에게 코인 세탁소 위치를 묻는 가장 자연스럽고 정중한 표현입니다."
+        },
+        {
+          "id": "se_ch27_set10_002",
+          "type": "multiple_choice",
+          "question": "세탁기 사용 중 가장 먼저 해야 하는 단계는?",
+          "options": [
+            "Put your clothes in.",
+            "Insert coins first.",
+            "Add detergent to the drum.",
+            "Press start to begin."
+          ],
+          "answerIndex": 0,
+          "explanation": "세탁기 사용 순서는 '옷 넣기 → 세제 넣기 → 동전 넣기 → 시작 버튼'입니다. 가장 먼저 해야 하는 것은 옷을 넣는 것(Put your clothes in)입니다."
+        },
+        {
+          "id": "se_ch27_set10_003",
+          "type": "multiple_choice",
+          "question": "세제 가격이 '하나에 1달러'임을 알릴 때 쓰는 표현은?",
+          "options": [
+            "One dollar each.",
+            "One dollar for all.",
+            "Each is one dollar charge.",
+            "One dollar total please."
+          ],
+          "answerIndex": 0,
+          "explanation": "'One dollar each.'는 하나에 1달러라는 자연스러운 가격 안내입니다. 'each'는 '각각, 하나에'라는 뜻입니다."
+        },
+        {
+          "id": "se_ch27_set10_004",
+          "type": "multiple_choice",
+          "question": "건조기 옆 벽에 동전 교환기가 있다고 알려줄 때 알맞은 표현은?",
+          "options": [
+            "It's on the wall next to the dryers.",
+            "The coin machine is beside dryer.",
+            "You can find it near the dryer area.",
+            "It's located close to dryer machines."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It's on the wall next to the dryers.'는 건조기 옆 벽에 있다는 자연스러운 위치 설명입니다."
+        },
+        {
+          "id": "se_ch27_set10_005",
+          "type": "multiple_choice",
+          "question": "호텔에서 세탁 서비스를 제공하는지 확인하는 또 다른 방법은?",
+          "options": [
+            "Does the hotel have a laundry service?",
+            "Is laundry a feature of this hotel?",
+            "Can this hotel do clothes washing?",
+            "Does the hotel offer cloth cleaning service?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Does the hotel have a laundry service?'는 호텔에 세탁 서비스가 있냐는 직접적인 질문입니다."
+        },
+        {
+          "id": "se_ch27_set10_006",
+          "type": "multiple_choice",
+          "question": "호텔 세탁 서비스 신청 시 세탁 양식을 작성해야 한다는 안내로 알맞은 것은?",
+          "options": [
+            "Please complete the laundry form.",
+            "Please write your laundry list.",
+            "Fill out the laundry request sheet.",
+            "Complete your laundry information card."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Please complete the laundry form.'은 세탁 양식을 작성해달라는 자연스러운 안내입니다. 'fill out this laundry bag and tag'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch27_set10_007",
+          "type": "multiple_choice",
+          "question": "드라이클리닝이 불가한 이유를 정중하게 설명할 때 쓰는 표현은?",
+          "options": [
+            "Unfortunately, that's not possible.",
+            "Sorry but we can't do that here.",
+            "I'm sorry to tell you, it cannot be done.",
+            "We are unable to process your request."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Unfortunately, that's not possible.'는 'I'm afraid not'처럼 불가능함을 정중하게 표현하는 방식입니다. 'unfortunately'를 쓴 더 격식 있는 거절 표현입니다."
+        },
+        {
+          "id": "se_ch27_set10_008",
+          "type": "multiple_choice",
+          "question": "얼룩이 어제 생겼다는 것을 표현하는 자연스러운 방법은?",
+          "options": [
+            "It got stained last night.",
+            "The stain happened yesterday.",
+            "Last night stain was made.",
+            "Stain occurred at yesterday."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It got stained last night.'는 어제 밤에 얼룩이 생겼다는 자연스러운 수동 표현입니다."
+        },
+        {
+          "id": "se_ch27_set10_009",
+          "type": "multiple_choice",
+          "question": "세탁물 중 하나가 반환되지 않은 상황을 설명하는 또 다른 표현은?",
+          "options": [
+            "I'm short one item.",
+            "I'm missing a shirt from my bag.",
+            "One item is gone from my laundry.",
+            "My laundry has one less item."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm short one item.'은 세탁물이 한 개 부족하다는 표현입니다. 'short'는 수량이 부족하다는 뜻으로 'I'm short one item.'은 '하나가 모자랍니다'라는 의미입니다."
+        },
+        {
+          "id": "se_ch27_set10_010",
+          "type": "multiple_choice",
+          "question": "세탁 완료 시 세탁물이 방으로 반환된다는 것을 표현하는 방법은?",
+          "options": [
+            "It'll be returned to your room.",
+            "Your laundry will be sent to your door.",
+            "We'll put it in your room.",
+            "Your items will arrive at your room."
+          ],
+          "answerIndex": 0,
+          "explanation": "'It'll be returned to your room.'은 세탁물이 객실로 반환된다는 표현입니다. 'return'은 돌려주다, 반환하다는 뜻입니다."
+        },
+        {
+          "id": "se_ch27_set10_011",
+          "type": "multiple_choice",
+          "question": "세탁이 완료됐을 때 시간적 여유가 넉넉하다는 것을 강조하는 표현은?",
+          "options": [
+            "That's more than enough time.",
+            "I have so much time left.",
+            "Time is very sufficient for me.",
+            "I got extra time to spare."
+          ],
+          "answerIndex": 0,
+          "explanation": "'That's more than enough time.'은 시간이 충분히 넘친다는 강조 표현입니다. 'That gives me plenty of time.'보다 더 강하게 여유로움을 표현합니다."
+        },
+        {
+          "id": "se_ch27_set10_012",
+          "type": "ox",
+          "question": "'have ~ dry-cleaned'는 사역 구문으로, 내가 직접 드라이클리닝을 하는 것이 아니라 남에게 맡겨서 드라이클리닝을 시킨다는 의미이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'have + 목적어 + 과거분사'는 사역 표현으로 '~를 ~하게 시키다'는 뜻입니다. 'I need to have this dry-cleaned.'는 내가 직접 하는 것이 아닌 세탁소에 맡겨서 드라이클리닝 시킨다는 의미입니다."
+        },
+        {
+          "id": "se_ch27_set10_013",
+          "type": "ox",
+          "question": "'I'm short one item.'에서 'short'는 키가 작다는 의미로 쓰였다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 여기서 'short'는 '부족하다, 모자라다'는 뜻으로 쓰였습니다. 'I'm short one item.'은 '한 개가 모자랍니다'라는 의미입니다."
+        },
+        {
+          "id": "se_ch27_set10_014",
+          "type": "ox",
+          "question": "'plenty of'는 '충분한, 풍부한'이라는 뜻으로 'That gives me plenty of time.'은 시간이 충분하다는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'plenty of'는 충분한, 풍부한이라는 뜻입니다. 'That gives me plenty of time.'은 '그러면 시간이 충분합니다'라는 자연스러운 표현입니다."
         }
       ]
     }

@@ -884,6 +884,1581 @@
           "explanation": "아닙니다. 'boarding pass(탑승권)'는 특정 항공편 탑승을 증명하는 표이고, 'passport(여권)'는 신원을 증명하는 공식 신분증입니다. 출국 심사에서는 두 가지 모두 제시해야 합니다."
         }
       ]
+    },
+    {
+      "id": "set02",
+      "questions": [
+        {
+          "id": "se_ch05_set02_001",
+          "type": "multiple_choice",
+          "question": "보안검색대 액체류 규정에서 허용되는 용기의 최대 용량은?",
+          "options": [
+            "50ml 이하",
+            "100ml 이하",
+            "250ml 이하",
+            "150ml 이하"
+          ],
+          "answerIndex": 1,
+          "explanation": "국제 항공 보안 규정에 따라 기내 반입 액체류는 용기 1개당 100ml 이하여야 합니다. 액체의 잔여량과 무관하게 용기 크기 자체가 기준입니다."
+        },
+        {
+          "id": "se_ch05_set02_002",
+          "type": "multiple_choice",
+          "question": "보안요원이 태블릿을 가방에서 꺼내라고 할 때 적절한 표현은?",
+          "options": [
+            "Take off your tablet.",
+            "Please remove your tablet from the bag.",
+            "Put your tablet in your bag.",
+            "Tablets are fine in the bag."
+          ],
+          "answerIndex": 1,
+          "explanation": "가방에서 물건을 꺼낼 때는 'remove ~ from the bag' 또는 'take out ~'을 씁니다. 'Take off'는 의류를 벗을 때 쓰는 표현이므로 전자기기에는 어울리지 않습니다."
+        },
+        {
+          "id": "se_ch05_set02_003",
+          "type": "multiple_choice",
+          "question": "보안검색에서 신발을 벗으라는 표현으로 올바른 것은?",
+          "options": [
+            "Take out your shoes.",
+            "Remove your shoes from the tray.",
+            "Take off your shoes.",
+            "Put on your shoes."
+          ],
+          "answerIndex": 2,
+          "explanation": "신발·의류처럼 몸에 걸친 것을 벗을 때는 'take off'를 씁니다. 'Take out'은 가방이나 용기에서 꺼낼 때 씁니다."
+        },
+        {
+          "id": "se_ch05_set02_004",
+          "type": "multiple_choice",
+          "question": "보안요원이 몸수색(pat-down)을 해도 되는지 물을 때 동의하는 표현은?",
+          "options": [
+            "I refuse.",
+            "That's fine, please go ahead.",
+            "I don't have anything.",
+            "Check my carry-on instead."
+          ],
+          "answerIndex": 1,
+          "explanation": "'That's fine, please go ahead.'는 몸수색에 동의하며 진행을 허락하는 자연스러운 표현입니다. 'go ahead'는 '하셔도 됩니다·진행하세요'라는 뜻입니다."
+        },
+        {
+          "id": "se_ch05_set02_005",
+          "type": "multiple_choice",
+          "question": "몸수색 시 보안요원이 팔을 들어올리라고 지시할 때 쓰는 표현은?",
+          "options": [
+            "Raise your legs.",
+            "Raise your arms.",
+            "Raise your voice.",
+            "Raise your bag."
+          ],
+          "answerIndex": 1,
+          "explanation": "몸수색 시 팔을 올리라는 지시는 'Raise your arms.' 또는 'Arms up.'입니다. 'Hands up!'은 경찰 상황에서 쓰이는 표현이므로 다릅니다."
+        },
+        {
+          "id": "se_ch05_set02_006",
+          "type": "multiple_choice",
+          "question": "출국 심사에서 여권을 건네줄 때 쓰는 자연스러운 표현은?",
+          "options": [
+            "Take this from me.",
+            "Here you are.",
+            "I'll keep my passport.",
+            "Where is my passport?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Here you are.'는 상대방에게 물건을 건네줄 때 쓰는 표현입니다. 'Here it is.' 또는 'Here you go.'도 같은 상황에서 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch05_set02_007",
+          "type": "multiple_choice",
+          "question": "출국심사관이 'What's the purpose of your visit?'라고 물을 때 출장 목적이라면?",
+          "options": [
+            "Tourism.",
+            "I'm on vacation.",
+            "I'm here on business.",
+            "I'm transiting."
+          ],
+          "answerIndex": 2,
+          "explanation": "출장 목적으로 방문할 때는 'I'm here on business.' 또는 'Business.'라고 답합니다. 'Tourism'은 관광, 'vacation'은 휴가, 'transiting'은 환승을 의미합니다."
+        },
+        {
+          "id": "se_ch05_set02_008",
+          "type": "multiple_choice",
+          "question": "'duty-free allowance'를 초과했을 때 해야 하는 행동은?",
+          "options": [
+            "물품을 버린다.",
+            "그냥 통과한다.",
+            "세관에 신고하고 관세를 납부한다.",
+            "물품을 짐에 숨긴다."
+          ],
+          "answerIndex": 2,
+          "explanation": "면세 한도(duty-free allowance)를 초과한 물품은 세관에 신고(declare)하고 해당 관세를 납부해야 합니다. 신고 없이 통과하면 법적 문제가 생길 수 있습니다."
+        },
+        {
+          "id": "se_ch05_set02_009",
+          "type": "multiple_choice",
+          "question": "패스트트랙(fast-track) 보안검색 줄을 이용할 수 없는 경우 사용해야 하는 줄은?",
+          "options": [
+            "priority lane",
+            "express lane",
+            "standard queue",
+            "business class lane"
+          ],
+          "answerIndex": 2,
+          "explanation": "패스트트랙·우선심사 자격이 없는 일반 승객은 'standard queue(일반 대기줄)'를 이용해야 합니다. 'regular line'이라고도 합니다."
+        },
+        {
+          "id": "se_ch05_set02_010",
+          "type": "multiple_choice",
+          "question": "보안검색 시 전자기기를 별도 바구니에 담는 이유는?",
+          "options": [
+            "분실 방지를 위해",
+            "X선 검사를 정확히 하기 위해",
+            "직원이 보관하기 위해",
+            "배터리 방전 방지를 위해"
+          ],
+          "answerIndex": 1,
+          "explanation": "전자기기는 X선 검사(X-ray screening) 시 다른 물품과 겹치면 판독이 어렵기 때문에 별도 바구니에 넣어 독립적으로 스캔합니다. 'one item per tray'가 그 원칙입니다."
+        },
+        {
+          "id": "se_ch05_set02_011",
+          "type": "multiple_choice",
+          "question": "보안 X선 검사에서 확인되지 않은 물품이 있을 때 직원이 쓰는 표현은?",
+          "options": [
+            "Your bag is too heavy.",
+            "There's an item we couldn't identify on the X-ray.",
+            "You forgot your bag.",
+            "Your boarding pass is invalid."
+          ],
+          "answerIndex": 1,
+          "explanation": "'There's an item we couldn't identify on the X-ray.'는 X선 검사에서 미확인 물품이 발견되었을 때 쓰는 표현입니다. 이때 당황하지 말고 해당 물품을 설명하면 됩니다."
+        },
+        {
+          "id": "se_ch05_set02_012",
+          "type": "multiple_choice",
+          "question": "모바일 탑승권을 영어로 표현하면?",
+          "options": [
+            "paper boarding pass",
+            "printed ticket",
+            "mobile boarding pass",
+            "e-visa"
+          ],
+          "answerIndex": 2,
+          "explanation": "스마트폰 앱이나 디지털 지갑에 저장한 탑승권을 'mobile boarding pass' 또는 'digital boarding pass'라고 합니다. 종이 탑승권은 'printed boarding pass'입니다."
+        },
+        {
+          "id": "se_ch05_set02_013",
+          "type": "ox",
+          "question": "보안검색에서 'take off'는 가방에서 물건을 꺼낼 때, 'take out'은 의류를 벗을 때 사용한다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 반대입니다. 'take off'는 의류·신발을 몸에서 벗을 때, 'take out'은 가방 안 물건을 꺼낼 때 씁니다. 예: 'Take off your shoes.' / 'Take out your laptop.'"
+        },
+        {
+          "id": "se_ch05_set02_014",
+          "type": "ox",
+          "question": "출국 심사 시 탑승권(boarding pass)만 있으면 여권 없이도 통과할 수 있다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 출국 심사에서는 여권(passport)과 탑승권(boarding pass) 모두 필요합니다. 여권은 신원 증명, 탑승권은 항공편 탑승 자격을 각각 증명하는 서류입니다."
+        }
+      ]
+    },
+    {
+      "id": "set03",
+      "questions": [
+        {
+          "id": "se_ch05_set03_001",
+          "type": "multiple_choice",
+          "question": "비행기 기내 반입 액체류 규정 설명으로 맞는 것은?",
+          "options": [
+            "액체 총량이 100ml 이하이면 용기 크기는 무관하다.",
+            "용기 1개당 100ml 이하이어야 한다.",
+            "젤류·크림류는 액체로 보지 않아 제한이 없다.",
+            "면세점 구매품은 액체 규정 적용이 면제된다."
+          ],
+          "answerIndex": 1,
+          "explanation": "용기 1개당 100ml 이하이어야 합니다. 총량이 아니라 용기 크기가 기준이며, 젤·크림·에어로졸도 액체류에 포함됩니다. 면세점 구매품도 일부 공항에서는 규정이 다를 수 있으니 확인이 필요합니다."
+        },
+        {
+          "id": "se_ch05_set03_002",
+          "type": "multiple_choice",
+          "question": "보안검색대에서 'one item per tray'가 의미하는 것은?",
+          "options": [
+            "한 사람당 트레이 하나",
+            "트레이 하나에 물품 하나",
+            "물품 하나당 10초 검사",
+            "노트북은 트레이 없이 통과"
+          ],
+          "answerIndex": 1,
+          "explanation": "'one item per tray'는 트레이(바구니) 하나에 물품(전자기기 등) 하나씩 담으라는 뜻입니다. 'per'는 '~당'을 의미합니다."
+        },
+        {
+          "id": "se_ch05_set03_003",
+          "type": "multiple_choice",
+          "question": "보안 검색대에서 벨트를 벗어달라는 표현으로 올바른 것은?",
+          "options": [
+            "Take out your belt.",
+            "Remove your belt, please.",
+            "Put your belt in the bag.",
+            "Keep your belt on."
+          ],
+          "answerIndex": 1,
+          "explanation": "벨트처럼 몸에 걸친 것을 벗을 때는 'remove' 또는 'take off'를 씁니다. 'Remove your belt, please.'는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch05_set03_004",
+          "type": "multiple_choice",
+          "question": "몸수색을 'pat-down' 외에 달리 표현하면?",
+          "options": [
+            "strip search",
+            "body search",
+            "deep scan",
+            "bag search"
+          ],
+          "answerIndex": 1,
+          "explanation": "'pat-down'은 보안요원이 손으로 가볍게 두드리며 확인하는 몸수색이며, 'body search'와 같은 뜻으로 쓰입니다. 'strip search'는 탈의 검사로 다른 개념입니다."
+        },
+        {
+          "id": "se_ch05_set03_005",
+          "type": "multiple_choice",
+          "question": "보안검색에서 팔을 양옆으로 뻗으라는 표현은?",
+          "options": [
+            "Cross your arms.",
+            "Hold your arms out.",
+            "Put your arms down.",
+            "Wave your arms."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Hold your arms out.'은 팔을 양옆으로 뻗으라는 표현입니다. 'raise your arms'(팔을 위로 들다)와 구별하세요."
+        },
+        {
+          "id": "se_ch05_set03_006",
+          "type": "multiple_choice",
+          "question": "탑승권을 영국식으로 표현하면?",
+          "options": [
+            "flight ticket",
+            "travel card",
+            "boarding card",
+            "departure slip"
+          ],
+          "answerIndex": 2,
+          "explanation": "탑승권을 영국식으로는 'boarding card'라고 합니다. 미국식은 'boarding pass'입니다. 둘 다 같은 서류를 가리킵니다."
+        },
+        {
+          "id": "se_ch05_set03_007",
+          "type": "multiple_choice",
+          "question": "출국심사관의 'Where are you flying to?'와 같은 의미의 표현은?",
+          "options": [
+            "How long will you stay?",
+            "Where are you coming from?",
+            "What's your destination?",
+            "When did you arrive?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Where are you flying to?'는 '어디로 가세요?'라는 뜻으로, 'What's your destination?(목적지가 어디예요?)'과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch05_set03_008",
+          "type": "multiple_choice",
+          "question": "면세 한도(duty-free allowance) 이내의 면세품이 있을 때 알맞은 답변은?",
+          "options": [
+            "I have lots to declare.",
+            "I need to fill out a form.",
+            "Nothing to declare.",
+            "I bought these abroad."
+          ],
+          "answerIndex": 2,
+          "explanation": "면세 한도 이내의 면세품은 신고 대상이 아니므로 'Nothing to declare.'라고 답합니다. 이는 세관 통과 시 표준 답변으로, 신고할 것이 없다는 뜻입니다."
+        },
+        {
+          "id": "se_ch05_set03_009",
+          "type": "multiple_choice",
+          "question": "보안검색 줄에서 'priority lane'이란?",
+          "options": [
+            "짐이 많은 사람 전용 줄",
+            "일반 승객이 서는 기본 줄",
+            "비즈니스·멤버십 등급 우선 승객 전용 줄",
+            "어린이·노약자 전용 줄"
+          ],
+          "answerIndex": 2,
+          "explanation": "'priority lane'은 비즈니스 클래스 승객, 항공사 우수 멤버십 회원 등 우선 자격을 가진 승객이 이용하는 전용 줄입니다."
+        },
+        {
+          "id": "se_ch05_set03_010",
+          "type": "multiple_choice",
+          "question": "절차가 완료되어 통과해도 된다고 할 때 'You're all set.'과 같은 의미의 표현은?",
+          "options": [
+            "You're delayed.",
+            "You're on standby.",
+            "You're good to go.",
+            "You're overbooked."
+          ],
+          "answerIndex": 2,
+          "explanation": "'You're good to go.'는 '가셔도 됩니다·준비됐습니다'라는 뜻으로 'You're all set.'과 동일한 의미입니다. 모든 절차가 완료됐음을 알릴 때 씁니다."
+        },
+        {
+          "id": "se_ch05_set03_011",
+          "type": "multiple_choice",
+          "question": "X선 검사에서 '미확인 물품'을 가리키는 표현은?",
+          "options": [
+            "prohibited item",
+            "checked luggage",
+            "unidentified item",
+            "carry-on allowance"
+          ],
+          "answerIndex": 2,
+          "explanation": "X선 검사에서 판독이 어려운 물품은 'unidentified item(미확인 물품)' 또는 'something flagged on the scan'이라고 합니다. 'prohibited item'은 금지 물품으로 다른 개념입니다."
+        },
+        {
+          "id": "se_ch05_set03_012",
+          "type": "multiple_choice",
+          "question": "보조 배터리를 영어로 올바르게 표현한 것은?",
+          "options": [
+            "spare charger",
+            "portable charger / power bank",
+            "phone adapter",
+            "travel plug"
+          ],
+          "answerIndex": 1,
+          "explanation": "보조 배터리는 영어로 'portable charger' 또는 'power bank'라고 합니다. 공항 보안검색에서 X선 의심 물품으로 나왔을 때 이렇게 설명할 수 있습니다."
+        },
+        {
+          "id": "se_ch05_set03_013",
+          "type": "ox",
+          "question": "물이 반쯤 든 500ml 생수병은 기내 반입 액체 규정을 통과할 수 있다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 용기의 크기(500ml)가 기준을 초과하므로 안에 물이 조금 남아 있어도 반입 불가입니다. 규정은 용기 크기를 기준으로 하며 100ml 이하여야 합니다."
+        },
+        {
+          "id": "se_ch05_set03_014",
+          "type": "ox",
+          "question": "보안검색대에서 'standard queue'는 패스트트랙 자격이 없는 일반 승객이 이용하는 줄이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'standard queue'는 패스트트랙·우선심사 자격이 없는 일반 승객이 이용하는 줄입니다. 'regular line'이라고도 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set04",
+      "questions": [
+        {
+          "id": "se_ch05_set04_001",
+          "type": "multiple_choice",
+          "question": "보안요원이 'All liquids must be in containers of 100 ml or less.'라고 말할 때 올바른 해석은?",
+          "options": [
+            "액체 총량이 100ml 이하여야 한다.",
+            "용기당 100ml 이하의 액체류만 허용된다.",
+            "액체류는 기내 반입이 전면 금지된다.",
+            "100ml짜리 병에만 액체를 담아야 한다."
+          ],
+          "answerIndex": 1,
+          "explanation": "'containers of 100 ml or less'는 '용기당 100ml 이하'라는 뜻입니다. 용기 크기가 기준이므로 용기가 100ml를 초과하면 안에 든 액체 양과 무관하게 반입 불가입니다."
+        },
+        {
+          "id": "se_ch05_set04_002",
+          "type": "multiple_choice",
+          "question": "보안 X선 검사에서 바구니를 영어로 무엇이라고 하는가?",
+          "options": [
+            "tray / bin",
+            "box",
+            "container",
+            "suitcase"
+          ],
+          "answerIndex": 0,
+          "explanation": "보안검색대에서 물품을 담아 X선을 통과시키는 플라스틱 바구니는 'tray' 또는 'bin'이라고 합니다. 'Put it in the tray.'처럼 사용합니다."
+        },
+        {
+          "id": "se_ch05_set04_003",
+          "type": "multiple_choice",
+          "question": "보안검색에서 'outerwear goes in the tray'가 의미하는 것은?",
+          "options": [
+            "겉옷을 가방에 넣으세요.",
+            "겉옷을 바구니에 넣으세요.",
+            "겉옷은 입고 통과하세요.",
+            "겉옷은 체크인 수하물로 보내세요."
+          ],
+          "answerIndex": 1,
+          "explanation": "'outerwear goes in the tray'는 '겉옷(재킷·코트 등)을 바구니에 넣어주세요'라는 뜻입니다. 먼저 'take off(벗다)'를 하고 바구니에 담아야 합니다."
+        },
+        {
+          "id": "se_ch05_set04_004",
+          "type": "multiple_choice",
+          "question": "보안요원에게 'Of course, go ahead.'라고 답했을 때 올바른 해석은?",
+          "options": [
+            "저는 갈 곳이 없어요.",
+            "앞으로 가세요.",
+            "네, 하셔도 됩니다.",
+            "물론, 저도 같이 가겠습니다."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Of course, go ahead.'에서 'go ahead'는 '진행하세요·하세요'라는 의미입니다. 보안요원이 몸수색이나 가방 검사를 하려 할 때 동의를 표현하는 말입니다."
+        },
+        {
+          "id": "se_ch05_set04_005",
+          "type": "multiple_choice",
+          "question": "보안검색에서 가방을 다시 확인해야 한다는 표현은?",
+          "options": [
+            "Your bag is too heavy.",
+            "We need to take another look at your bag.",
+            "Please check your bag at the counter.",
+            "You left your bag behind."
+          ],
+          "answerIndex": 1,
+          "explanation": "'We need to take another look at your bag.'는 가방을 다시 확인해야 한다는 뜻입니다. 'check your bag again'과 같은 의미이며, 이런 상황에서 당황하지 말고 협조하면 됩니다."
+        },
+        {
+          "id": "se_ch05_set04_006",
+          "type": "multiple_choice",
+          "question": "출국심사에서 심사관에게 여권과 함께 무엇을 제출해야 하는가?",
+          "options": [
+            "호텔 예약 확인서",
+            "여행자 보험 증서",
+            "탑승권(boarding pass)",
+            "비자 신청서"
+          ],
+          "answerIndex": 2,
+          "explanation": "출국 심사에서는 여권(passport)과 탑승권(boarding pass)을 제출해야 합니다. 탑승권은 특정 항공편 탑승 자격을 증명하는 서류입니다."
+        },
+        {
+          "id": "se_ch05_set04_007",
+          "type": "multiple_choice",
+          "question": "'What's the purpose of your visit?'에 유학이라고 답한다면?",
+          "options": [
+            "Tourism.",
+            "I'm on vacation.",
+            "I'm here to study.",
+            "I'm on business."
+          ],
+          "answerIndex": 2,
+          "explanation": "유학 목적일 때는 'I'm here to study.' 또는 'Study.'라고 답합니다. 'Tourism'은 관광, 'business'는 출장을 의미합니다."
+        },
+        {
+          "id": "se_ch05_set04_008",
+          "type": "multiple_choice",
+          "question": "'under the limit'과 반대 의미의 표현은?",
+          "options": [
+            "within the limit",
+            "at the limit",
+            "over the limit",
+            "below the limit"
+          ],
+          "answerIndex": 2,
+          "explanation": "'under the limit(한도 이내)'의 반대는 'over the limit(한도 초과)'입니다. 면세 한도를 초과하면 세관에 신고해야 합니다."
+        },
+        {
+          "id": "se_ch05_set04_009",
+          "type": "multiple_choice",
+          "question": "줄을 서다·줄에 합류하다를 뜻하는 표현으로 올바른 것은?",
+          "options": [
+            "leave the queue",
+            "cut the line",
+            "join the line",
+            "skip the queue"
+          ],
+          "answerIndex": 2,
+          "explanation": "'join the line' 또는 'join the queue'는 줄을 서다·줄에 합류하다는 뜻입니다. 'cut the line'은 새치기, 'skip the queue'도 줄을 건너뛰는 부정적 의미입니다."
+        },
+        {
+          "id": "se_ch05_set04_010",
+          "type": "multiple_choice",
+          "question": "탑승권 QR코드를 보여달라는 보안요원에게 알맞은 대답은?",
+          "options": [
+            "I lost my passport.",
+            "Here's the QR code on my phone.",
+            "I don't have a boarding pass.",
+            "My flight was cancelled."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Here's the QR code on my phone.'은 스마트폰에 저장된 모바일 탑승권의 QR코드를 보여줄 때 쓰는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch05_set04_011",
+          "type": "multiple_choice",
+          "question": "보안검색에서 'discard it'과 같은 의미의 표현은?",
+          "options": [
+            "keep it",
+            "declare it",
+            "throw it away",
+            "pack it away"
+          ],
+          "answerIndex": 2,
+          "explanation": "'discard it(버리다)'와 'throw it away(버리다)'는 같은 의미입니다. 규정 위반 물품을 처분할 때 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch05_set04_012",
+          "type": "multiple_choice",
+          "question": "어느 줄에 서야 하냐고 물어볼 때 올바른 표현은?",
+          "options": [
+            "Which queue do I join?",
+            "Where is my seat?",
+            "How long is the flight?",
+            "What time does boarding start?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Which queue do I join?' 또는 'Which line should I use?'는 어느 줄에 서야 하냐고 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch05_set04_013",
+          "type": "ox",
+          "question": "기내 반입 액체류는 투명한 지퍼백에 담아 제출하면 용기 크기 100ml 제한이 면제된다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 투명 지퍼백에 담는 것은 검사 편의를 위한 것이며, 용기 크기 100ml 제한은 그대로 적용됩니다. 각 용기가 100ml 이하여야 합니다."
+        },
+        {
+          "id": "se_ch05_set04_014",
+          "type": "ox",
+          "question": "'You're all set.'은 모든 절차가 완료되어 통과해도 된다는 의미이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'You're all set.'은 '다 됐습니다·준비됐습니다'라는 뜻으로, 보안검색이나 출국심사 절차가 완료되어 통과해도 된다는 의미입니다."
+        }
+      ]
+    },
+    {
+      "id": "set05",
+      "questions": [
+        {
+          "id": "se_ch05_set05_001",
+          "type": "multiple_choice",
+          "question": "100ml가 넘는 물병을 갖고 있을 때 보안요원이 할 수 있는 지시로 올바른 것은?",
+          "options": [
+            "You'll need to discard it or drink it now.",
+            "Please pack it in your checked bag now.",
+            "You can keep it if it's sealed.",
+            "Declare it at customs."
+          ],
+          "answerIndex": 0,
+          "explanation": "100ml를 초과하는 액체는 버리거나(discard) 지금 다 마시거나 해야 합니다. 'discard it or drink it now.'가 실제 보안검색에서 자주 듣는 지시입니다."
+        },
+        {
+          "id": "se_ch05_set05_002",
+          "type": "multiple_choice",
+          "question": "보안검색에서 노트북을 별도 트레이에 넣으라는 이유와 관련 없는 것은?",
+          "options": [
+            "X선 스캔을 정확히 하기 위해",
+            "다른 물품과 겹치는 것을 방지하기 위해",
+            "직원이 노트북을 점검하기 위해",
+            "전자기기 특성상 별도 확인이 필요해서"
+          ],
+          "answerIndex": 2,
+          "explanation": "별도 트레이에 넣는 이유는 X선 판독을 정확히 하기 위함입니다. 직원이 노트북을 직접 점검하기 위한 것이 아닙니다."
+        },
+        {
+          "id": "se_ch05_set05_003",
+          "type": "multiple_choice",
+          "question": "신발을 벗어달라고 할 때 'remove your shoes'와 같은 의미의 표현은?",
+          "options": [
+            "put on your shoes",
+            "take off your shoes",
+            "take out your shoes",
+            "carry your shoes"
+          ],
+          "answerIndex": 1,
+          "explanation": "'remove your shoes'와 'take off your shoes'는 모두 신발을 벗으라는 뜻입니다. 'put on'은 신다, 'take out'은 꺼내다는 뜻으로 다릅니다."
+        },
+        {
+          "id": "se_ch05_set05_004",
+          "type": "multiple_choice",
+          "question": "'pat-down'에 대한 올바른 설명은?",
+          "options": [
+            "X선 기계로 신체를 스캔하는 절차",
+            "가방을 개봉해 내용물을 확인하는 절차",
+            "손으로 몸을 가볍게 두드려 금속·위험물을 확인하는 절차",
+            "여권을 스캔하는 절차"
+          ],
+          "answerIndex": 2,
+          "explanation": "'pat-down'은 보안요원이 손으로 몸을 가볍게 두드려 금속이나 위험물을 확인하는 수동 신체 검사입니다. 'body search'라고도 합니다."
+        },
+        {
+          "id": "se_ch05_set05_005",
+          "type": "multiple_choice",
+          "question": "보안검색대에서 'Stand here and raise your arms.'의 의미는?",
+          "options": [
+            "여기 앉아서 양손을 올리세요.",
+            "여기 서서 팔을 들어올리세요.",
+            "저쪽으로 가서 가방을 올려놓으세요.",
+            "여기서 기다리며 양손을 뻗으세요."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Stand here and raise your arms.'는 '여기 서서 팔을 들어올리세요'라는 의미입니다. 몸수색(pat-down) 시 보안요원이 하는 지시입니다."
+        },
+        {
+          "id": "se_ch05_set05_006",
+          "type": "multiple_choice",
+          "question": "물건을 건네줄 때 'Here you are.'와 같은 의미를 가진 표현은?",
+          "options": [
+            "There it goes.",
+            "Here you go.",
+            "Come here.",
+            "Over there."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Here you go.'와 'Here you are.'는 물건을 건네줄 때 쓰는 같은 의미의 표현입니다. 'Here it is.'도 동일하게 사용할 수 있습니다."
+        },
+        {
+          "id": "se_ch05_set05_007",
+          "type": "multiple_choice",
+          "question": "출국심사관이 'Where are you headed?'라고 물을 때 의미하는 것은?",
+          "options": [
+            "어디서 오셨나요?",
+            "어디로 가시나요?",
+            "머리 어디가 아프세요?",
+            "짐을 어디 놓으셨나요?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Where are you headed?'는 '어디로 가시나요?'라는 뜻으로, 'Where are you flying to?' 또는 'What's your destination?'과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch05_set05_008",
+          "type": "multiple_choice",
+          "question": "세관에서 'do you have anything to declare?'라고 묻는 이유는?",
+          "options": [
+            "짐의 무게를 확인하기 위해",
+            "면세 한도 초과 물품의 관세 부과를 위해",
+            "수하물 분실 여부를 확인하기 위해",
+            "항공편 변경 여부를 확인하기 위해"
+          ],
+          "answerIndex": 1,
+          "explanation": "세관 신고(declare)는 면세 한도를 초과한 물품에 대해 관세를 부과하기 위한 절차입니다. 신고 없이 한도 초과 물품을 반입하면 법적 제재를 받을 수 있습니다."
+        },
+        {
+          "id": "se_ch05_set05_009",
+          "type": "multiple_choice",
+          "question": "패스트트랙(fast-track) 보안검색을 이용할 수 있는 경우가 아닌 것은?",
+          "options": [
+            "비즈니스 클래스 티켓 소지",
+            "항공사 최고 등급 멤버십 회원",
+            "이코노미 클래스 일반 승객",
+            "퍼스트 클래스 티켓 소지"
+          ],
+          "answerIndex": 2,
+          "explanation": "패스트트랙은 비즈니스·퍼스트 클래스 승객이나 항공사 우수 멤버십 회원이 이용할 수 있습니다. 이코노미 클래스 일반 승객은 'standard queue'를 이용합니다."
+        },
+        {
+          "id": "se_ch05_set05_010",
+          "type": "multiple_choice",
+          "question": "보안 검색을 마친 후 게이트를 찾을 때 쓸 수 있는 표현은?",
+          "options": [
+            "Which way to the gate?",
+            "Where do I check in?",
+            "How do I get my luggage?",
+            "Where is the departure lounge for check-in?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Which way to the gate?'는 게이트가 어느 방향인지 물어보는 표현입니다. 검색 완료 후 탑승구를 찾을 때 씁니다."
+        },
+        {
+          "id": "se_ch05_set05_011",
+          "type": "multiple_choice",
+          "question": "'duty-free goods'를 한국어로 올바르게 번역한 것은?",
+          "options": [
+            "위탁 수하물",
+            "면세품",
+            "기내 반입 금지 물품",
+            "환승 짐"
+          ],
+          "answerIndex": 1,
+          "explanation": "'duty-free goods'는 세금이 면제된 물품, 즉 '면세품'입니다. 공항 면세점에서 구매한 상품이 대표적입니다."
+        },
+        {
+          "id": "se_ch05_set05_012",
+          "type": "multiple_choice",
+          "question": "출국심사에서 심사관이 요청할 때 'Here's my mobile boarding pass.'라고 답한다면 제시하는 것은?",
+          "options": [
+            "종이 탑승권",
+            "여권",
+            "스마트폰에 저장된 전자 탑승권",
+            "입국카드"
+          ],
+          "answerIndex": 2,
+          "explanation": "'mobile boarding pass'는 스마트폰 앱이나 디지털 지갑에 저장된 전자 탑승권입니다. 종이 탑승권(printed boarding pass)과 구별됩니다."
+        },
+        {
+          "id": "se_ch05_set05_013",
+          "type": "ox",
+          "question": "'Hands up!'과 'Arms up.'은 보안검색 맥락에서 동일한 표현으로 바꾸어 쓸 수 있다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'Hands up!'은 경찰·법 집행 상황에서 강압적으로 쓰는 표현이고, 'Arms up.' 또는 'Raise your arms.'가 보안검색 맥락에서 적절한 표현입니다."
+        },
+        {
+          "id": "se_ch05_set05_014",
+          "type": "ox",
+          "question": "'boarding pass'는 특정 항공편에 탑승할 자격을 증명하는 서류이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'boarding pass(탑승권)'는 특정 항공편 탑승 자격을 증명하는 서류입니다. 여권(passport)은 신원 증명 서류로 다른 개념입니다."
+        }
+      ]
+    },
+    {
+      "id": "set06",
+      "questions": [
+        {
+          "id": "se_ch05_set06_001",
+          "type": "multiple_choice",
+          "question": "보안검색대 액체 규정에서 '용기 크기'가 기준이라는 것의 의미는?",
+          "options": [
+            "액체가 100ml 이하로 남아 있으면 어떤 용기도 가능하다.",
+            "용기 자체가 100ml 이하여야 하며 잔여량은 무관하지 않다.",
+            "지퍼백에 담으면 용기 크기 제한이 없다.",
+            "음료수는 용기 크기와 무관하게 반입 가능하다."
+          ],
+          "answerIndex": 1,
+          "explanation": "용기 자체의 용량이 100ml 이하여야 합니다. 500ml 병에 조금만 남아도 용기 크기가 기준을 초과하므로 반입 불가입니다."
+        },
+        {
+          "id": "se_ch05_set06_002",
+          "type": "multiple_choice",
+          "question": "보안검색 트레이에 물품을 담을 때 'a separate tray'를 쓰는 표현은?",
+          "options": [
+            "Put everything in one tray.",
+            "Should I put them in a separate tray?",
+            "No trays are needed.",
+            "Pack your tray in the bag."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Should I put them in a separate tray?'는 '별도 바구니에 담아야 하나요?'라는 표현입니다. 전자기기를 다른 물품과 분리해서 담을 때 확인하는 질문입니다."
+        },
+        {
+          "id": "se_ch05_set06_003",
+          "type": "multiple_choice",
+          "question": "보안 검색대에서 겉옷(outerwear)에 해당하지 않는 것은?",
+          "options": [
+            "재킷(jacket)",
+            "코트(coat)",
+            "블레이저(blazer)",
+            "속옷(underwear)"
+          ],
+          "answerIndex": 3,
+          "explanation": "'outerwear'는 겉옷으로 재킷, 코트, 블레이저 등을 포함합니다. 속옷(underwear)은 겉옷이 아니므로 포함되지 않습니다."
+        },
+        {
+          "id": "se_ch05_set06_004",
+          "type": "multiple_choice",
+          "question": "몸수색 동의 표현으로 가장 공손하고 적절한 것은?",
+          "options": [
+            "Just do it.",
+            "Hurry up.",
+            "Please proceed.",
+            "I'm in a rush."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Please proceed.'는 '진행해 주세요'라는 공손한 표현으로, 몸수색에 동의할 때 자연스럽게 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch05_set06_005",
+          "type": "multiple_choice",
+          "question": "보안검색에서 가방 재검사를 요청받았을 때 가장 적절한 대응은?",
+          "options": [
+            "검사를 거부하고 탑승구로 간다.",
+            "협조하며 'Of course. Is there a problem?'라고 답한다.",
+            "가방을 보안요원에게 주고 혼자 간다.",
+            "즉시 짐을 열어 모든 물품을 꺼낸다."
+          ],
+          "answerIndex": 1,
+          "explanation": "가방 재검사 요청에는 협조하면서 'Of course. Is there a problem?'처럼 침착하게 상황을 확인하는 것이 적절합니다."
+        },
+        {
+          "id": "se_ch05_set06_006",
+          "type": "multiple_choice",
+          "question": "'boarding pass'를 일반적으로 소지하는 방법이 아닌 것은?",
+          "options": [
+            "종이 인쇄물(printed boarding pass)",
+            "스마트폰 앱(mobile boarding pass)",
+            "디지털 지갑(digital wallet)",
+            "여권 사진 페이지(passport photo page)"
+          ],
+          "answerIndex": 3,
+          "explanation": "탑승권은 종이 인쇄물, 모바일 앱, 디지털 지갑으로 소지합니다. 여권 사진 페이지는 탑승권이 아닙니다."
+        },
+        {
+          "id": "se_ch05_set06_007",
+          "type": "multiple_choice",
+          "question": "출국심사에서 2주 관광 목적으로 왔다고 답하는 표현은?",
+          "options": [
+            "I'm here on business for two weeks.",
+            "Tourism. I'll be there for two weeks.",
+            "I'm transiting for two weeks.",
+            "I'm studying here for two weeks."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Tourism. I'll be there for two weeks.'는 관광 목적으로 2주 체류한다는 자연스러운 답변입니다. 'Tourism.'으로 목적을 밝히고 체류 기간을 덧붙이면 됩니다."
+        },
+        {
+          "id": "se_ch05_set06_008",
+          "type": "multiple_choice",
+          "question": "'duty-free allowance'에서 'allowance'의 의미는?",
+          "options": [
+            "할인율",
+            "세금",
+            "허용량·한도",
+            "면세점 위치"
+          ],
+          "answerIndex": 2,
+          "explanation": "'allowance'는 '허용량·한도'를 뜻합니다. 'duty-free allowance'는 세금 없이 허용되는 최대 한도입니다."
+        },
+        {
+          "id": "se_ch05_set06_009",
+          "type": "multiple_choice",
+          "question": "'standard queue'의 미국식 표현은?",
+          "options": [
+            "priority lane",
+            "regular line",
+            "express lane",
+            "fast-track queue"
+          ],
+          "answerIndex": 1,
+          "explanation": "'standard queue'는 영국식 표현이며, 미국식으로는 'regular line'이라고 합니다. 둘 다 일반 대기줄을 가리킵니다."
+        },
+        {
+          "id": "se_ch05_set06_010",
+          "type": "multiple_choice",
+          "question": "보안검색 완료 후 직원이 'You're good to go.'라고 말하면 어떻게 해야 하는가?",
+          "options": [
+            "다시 줄에 서야 한다.",
+            "짐을 다시 검사받아야 한다.",
+            "통과해도 된다.",
+            "여권을 다시 제출해야 한다."
+          ],
+          "answerIndex": 2,
+          "explanation": "'You're good to go.'는 '가셔도 됩니다'라는 뜻으로, 검색이 완료되어 통과해도 된다는 의미입니다. 'You're all set.'과 같은 표현입니다."
+        },
+        {
+          "id": "se_ch05_set06_011",
+          "type": "multiple_choice",
+          "question": "'There's an unidentified item in your bag.'은 어떤 상황인가?",
+          "options": [
+            "가방이 규정 크기를 초과했다.",
+            "X선에서 확인되지 않은 물품이 가방에 있다.",
+            "가방이 너무 무겁다.",
+            "가방 지퍼가 열려 있다."
+          ],
+          "answerIndex": 1,
+          "explanation": "'unidentified item'은 X선 검사에서 판별이 어려운 미확인 물품입니다. 이때 직원이 가방을 열어 직접 확인하게 됩니다."
+        },
+        {
+          "id": "se_ch05_set06_012",
+          "type": "multiple_choice",
+          "question": "'fast-track access'를 영어로 달리 표현하면?",
+          "options": [
+            "standard queue",
+            "general security lane",
+            "priority lane",
+            "economy line"
+          ],
+          "answerIndex": 2,
+          "explanation": "'fast-track access'는 우선 보안검색 이용 자격으로, 'priority lane(우선 통과 전용 레인)' 또는 'express security'라고도 합니다."
+        },
+        {
+          "id": "se_ch05_set06_013",
+          "type": "ox",
+          "question": "보안검색 시 핸드폰(phone)은 노트북과 마찬가지로 별도 트레이에 꺼내 놓아야 한다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 일반적으로 핸드폰은 가방 안에 두어도 됩니다. 노트북과 태블릿은 별도 트레이에 꺼내야 하지만, 스마트폰은 대부분의 공항에서 가방에 넣은 채 통과 가능합니다."
+        },
+        {
+          "id": "se_ch05_set06_014",
+          "type": "ox",
+          "question": "'duty-free allowance'를 초과한 물품은 세관에 신고하고 관세를 내야 한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 면세 한도(duty-free allowance)를 초과한 물품은 반드시 세관에 신고(declare)하고 해당 관세를 납부해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set07",
+      "questions": [
+        {
+          "id": "se_ch05_set07_001",
+          "type": "multiple_choice",
+          "question": "공항 보안검색대에서 액체 규정을 어겼을 때 보안요원이 할 수 있는 조치는?",
+          "options": [
+            "탑승권을 회수한다.",
+            "해당 물품을 버리도록 요구한다.",
+            "여권을 압수한다.",
+            "다음 비행으로 탑승을 미룬다."
+          ],
+          "answerIndex": 1,
+          "explanation": "규정 위반 액체류는 보안검색에서 반입이 거절되며, 해당 물품을 버리도록(discard) 요구합니다. 'You'll need to discard it or drink it now.'가 이런 상황에서 쓰는 표현입니다."
+        },
+        {
+          "id": "se_ch05_set07_002",
+          "type": "multiple_choice",
+          "question": "보안검색에서 노트북을 꺼낼 때 사용하는 표현은?",
+          "options": [
+            "Take off your laptop.",
+            "Take out your laptop.",
+            "Bring in your laptop.",
+            "Leave your laptop in the bag."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Take out your laptop.'은 가방에서 노트북을 꺼낼 때 쓰는 표현입니다. 'take out'은 가방이나 용기에서 꺼내는 동작, 'take off'는 몸에서 벗는 동작입니다."
+        },
+        {
+          "id": "se_ch05_set07_003",
+          "type": "multiple_choice",
+          "question": "보안검색대에서 코트를 바구니에 넣으라는 표현은?",
+          "options": [
+            "Put on your coat and go through.",
+            "Take out your coat.",
+            "All outerwear goes in the tray.",
+            "Your coat is fine."
+          ],
+          "answerIndex": 2,
+          "explanation": "'All outerwear goes in the tray.'는 재킷·코트 등 모든 겉옷을 바구니에 넣으라는 의미입니다. 먼저 벗은(take off) 후에 트레이에 담아야 합니다."
+        },
+        {
+          "id": "se_ch05_set07_004",
+          "type": "multiple_choice",
+          "question": "몸수색 시 'Is that okay with you?'라고 묻는 이유는?",
+          "options": [
+            "승객의 목적지를 확인하기 위해",
+            "승객의 동의를 구하기 위해",
+            "짐 무게를 확인하기 위해",
+            "여권 유효 기간을 확인하기 위해"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is that okay with you?'는 '괜찮으시겠어요?'라는 뜻으로, 몸수색을 하기 전에 승객의 동의를 구하는 표현입니다."
+        },
+        {
+          "id": "se_ch05_set07_005",
+          "type": "multiple_choice",
+          "question": "'body search'와 같은 의미의 표현은?",
+          "options": [
+            "baggage screening",
+            "pat-down",
+            "X-ray scan",
+            "customs declaration"
+          ],
+          "answerIndex": 1,
+          "explanation": "'body search(신체 검색)'와 'pat-down(몸수색)'은 손으로 신체를 두드려 확인하는 같은 절차를 가리킵니다."
+        },
+        {
+          "id": "se_ch05_set07_006",
+          "type": "multiple_choice",
+          "question": "출국 심사에서 여권을 제출할 때 'Here you are.' 대신 쓸 수 있는 표현은?",
+          "options": [
+            "Take it from me.",
+            "Here it is.",
+            "You can have it.",
+            "I'll hold onto it."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Here it is.'는 물건을 건네줄 때 쓰는 표현으로 'Here you are.' 또는 'Here you go.'와 동일하게 사용합니다."
+        },
+        {
+          "id": "se_ch05_set07_007",
+          "type": "multiple_choice",
+          "question": "'What's your destination?'이 출국심사에서 묻는 내용은?",
+          "options": [
+            "출발지",
+            "환승 횟수",
+            "도착 목적지",
+            "체류 기간"
+          ],
+          "answerIndex": 2,
+          "explanation": "'destination'은 '목적지'입니다. 'What's your destination?'은 어디로 가는지 목적지를 묻는 질문입니다."
+        },
+        {
+          "id": "se_ch05_set07_008",
+          "type": "multiple_choice",
+          "question": "세관 신고 없이 통과할 때 'Nothing to declare.' 외에 쓸 수 있는 표현은?",
+          "options": [
+            "I have lots of things.",
+            "I need to pay taxes.",
+            "I have nothing to declare.",
+            "Please check my bags."
+          ],
+          "answerIndex": 2,
+          "explanation": "'I have nothing to declare.'는 'Nothing to declare.'의 완전한 문장 형태로 같은 의미입니다. 신고할 물품이 없다는 뜻입니다."
+        },
+        {
+          "id": "se_ch05_set07_009",
+          "type": "multiple_choice",
+          "question": "보안 줄에서 자신의 순서를 기다리는 것을 표현하면?",
+          "options": [
+            "skip the queue",
+            "stand in line",
+            "jump the line",
+            "leave the queue"
+          ],
+          "answerIndex": 1,
+          "explanation": "'stand in line(줄을 서다)'은 자신의 순서를 기다리며 줄에 서 있는 것입니다. 'join the line'도 같은 의미로 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch05_set07_010",
+          "type": "multiple_choice",
+          "question": "탑승권에 인쇄된 QR 코드는 어떤 목적으로 쓰이는가?",
+          "options": [
+            "여권 정보를 저장하기 위해",
+            "탑승 게이트에서 탑승 자격을 스캔·확인하기 위해",
+            "면세품 구매 할인을 위해",
+            "수하물 추적을 위해"
+          ],
+          "answerIndex": 1,
+          "explanation": "탑승권의 QR 코드는 탑승 게이트에서 스캔해 해당 승객의 탑승 자격을 확인하는 데 사용합니다. 모바일 탑승권에서도 동일하게 쓰입니다."
+        },
+        {
+          "id": "se_ch05_set07_011",
+          "type": "multiple_choice",
+          "question": "보안 검색 이후 게이트 방향을 묻는 표현은?",
+          "options": [
+            "How do I get to my gate?",
+            "Where do I check in?",
+            "Can I change my seat?",
+            "Is my bag overweight?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'How do I get to my gate?'는 탑승구까지 가는 방법을 물어보는 표현입니다. 'Which way to the gate?'와 같은 의미로 사용됩니다."
+        },
+        {
+          "id": "se_ch05_set07_012",
+          "type": "multiple_choice",
+          "question": "보안검색에서 재검사가 필요하다는 것을 영어로 표현하면?",
+          "options": [
+            "Your bag needs to be re-screened.",
+            "Your bag is too large.",
+            "Please open your passport.",
+            "Check your boarding pass."
+          ],
+          "answerIndex": 0,
+          "explanation": "'Your bag needs to be re-screened.'는 가방 재검색이 필요하다는 표현입니다. 'We need to take another look at your bag.'과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch05_set07_013",
+          "type": "ox",
+          "question": "'queue'는 영국식으로 줄을 의미하며, 미국식으로는 'line'이라고 한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'queue'는 영국식 표현으로 줄·대기줄을 의미하며, 미국식으로는 'line'이라고 합니다. 둘 다 같은 의미입니다."
+        },
+        {
+          "id": "se_ch05_set07_014",
+          "type": "ox",
+          "question": "출국심사에서 'What's the purpose of your visit?'에 'I'm transiting.'으로 답하는 것은 관광 목적일 때 적절한 답변이다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'I'm transiting.'은 경유(환승) 목적으로 방문한 것을 의미합니다. 관광 목적이라면 'Tourism.' 또는 'I'm here for sightseeing.'이라고 답해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set08",
+      "questions": [
+        {
+          "id": "se_ch05_set08_001",
+          "type": "multiple_choice",
+          "question": "보안검색에서 'no more than 100 ml per container'는 어떤 규정인가?",
+          "options": [
+            "가방 한 개당 총 100ml 이하",
+            "용기 하나당 100ml를 넘지 않는다",
+            "승객 한 명당 100ml 이하",
+            "비행 시간당 100ml 허용"
+          ],
+          "answerIndex": 1,
+          "explanation": "'no more than 100 ml per container'는 '용기 하나당 100ml 이하'를 의미합니다. 이는 'containers of 100 ml or less'와 동일한 규정입니다."
+        },
+        {
+          "id": "se_ch05_set08_002",
+          "type": "multiple_choice",
+          "question": "보안검색대에서 트레이(tray)를 사용하는 목적은?",
+          "options": [
+            "물품을 보관하기 위해",
+            "X선 검사 시 물품을 정리해 통과시키기 위해",
+            "짐을 운반하기 위해",
+            "금속 탐지 알람을 방지하기 위해"
+          ],
+          "answerIndex": 1,
+          "explanation": "트레이(tray)는 보안검색대에서 전자기기·의류 등을 정리해 X선 기계를 통과시키기 위한 플라스틱 바구니입니다."
+        },
+        {
+          "id": "se_ch05_set08_003",
+          "type": "multiple_choice",
+          "question": "'Take off your belt.'에서 'take off'를 바꿔 쓸 수 있는 표현은?",
+          "options": [
+            "take out",
+            "remove",
+            "put on",
+            "bring out"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Take off your belt.'와 'Remove your belt.'는 같은 의미입니다. 몸에서 벗거나 제거할 때 'take off' 또는 'remove'를 씁니다."
+        },
+        {
+          "id": "se_ch05_set08_004",
+          "type": "multiple_choice",
+          "question": "몸수색에서 'manual screening'이 의미하는 것은?",
+          "options": [
+            "기계로 자동 검색하는 절차",
+            "수동으로 직접 확인하는 신체 검사",
+            "서류를 손으로 작성하는 절차",
+            "짐을 직접 들어 무게를 재는 절차"
+          ],
+          "answerIndex": 1,
+          "explanation": "'manual screening'은 기계가 아닌 보안요원이 손으로 직접 확인하는 수동 검사입니다. 'pat-down'과 같은 절차입니다."
+        },
+        {
+          "id": "se_ch05_set08_005",
+          "type": "multiple_choice",
+          "question": "보안요원 지시에 'Sure. What should I do?'라고 답하면?",
+          "options": [
+            "검사를 거부하겠다는 뜻",
+            "협조하겠으니 어떻게 하면 되는지 묻는 것",
+            "다른 직원을 부르겠다는 뜻",
+            "비행기를 취소하겠다는 뜻"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Sure. What should I do?'는 '네, 물론이죠. 제가 어떻게 하면 되나요?'라는 뜻으로, 협조하면서 구체적인 지시를 묻는 표현입니다."
+        },
+        {
+          "id": "se_ch05_set08_006",
+          "type": "multiple_choice",
+          "question": "출국심사에서 'And your boarding pass?'라고 심사관이 물었을 때 알맞은 답변은?",
+          "options": [
+            "I don't have one.",
+            "Here's my mobile boarding pass.",
+            "My passport is here.",
+            "I need to reprint it."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Here's my mobile boarding pass.'는 탑승권을 제시하는 자연스러운 표현입니다. 모바일 또는 종이 탑승권을 제시할 때 씁니다."
+        },
+        {
+          "id": "se_ch05_set08_007",
+          "type": "multiple_choice",
+          "question": "출국심사관이 'Where are you flying to?' 물었을 때 'I'm flying to Tokyo.'라면 목적지는?",
+          "options": [
+            "런던",
+            "뉴욕",
+            "도쿄",
+            "파리"
+          ],
+          "answerIndex": 2,
+          "explanation": "'I'm flying to Tokyo.'는 '도쿄로 가고 있습니다.'라는 뜻입니다. 'Tokyo'가 목적지입니다."
+        },
+        {
+          "id": "se_ch05_set08_008",
+          "type": "multiple_choice",
+          "question": "'within the limit'의 의미는?",
+          "options": [
+            "한도를 초과한",
+            "한도 이내의",
+            "한도를 정확히 맞춘",
+            "한도가 없는"
+          ],
+          "answerIndex": 1,
+          "explanation": "'within the limit'는 '한도 이내'라는 뜻입니다. 'under the limit'와 같은 의미이며, 'over the limit(한도 초과)'의 반대입니다."
+        },
+        {
+          "id": "se_ch05_set08_009",
+          "type": "multiple_choice",
+          "question": "'express security'를 보안검색 맥락에서 설명하면?",
+          "options": [
+            "일반 승객용 기본 보안검색",
+            "신속하게 처리되는 우선 보안검색",
+            "수하물 전용 보안검색",
+            "탑승권 없이 이용하는 검색"
+          ],
+          "answerIndex": 1,
+          "explanation": "'express security'는 자격이 있는 승객이 빠르게 통과할 수 있는 신속 보안검색으로, 'fast-track'과 같은 개념입니다."
+        },
+        {
+          "id": "se_ch05_set08_010",
+          "type": "multiple_choice",
+          "question": "보안검색대 통과 후 탑승권을 보여달라고 할 때 'May I see your boarding pass?'와 같은 표현은?",
+          "options": [
+            "Can I check your boarding pass?",
+            "Do you have a passport?",
+            "Where is your luggage?",
+            "How many bags do you have?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Can I check your boarding pass?'는 'May I see your boarding pass?'와 같이 탑승권을 확인하는 요청 표현입니다."
+        },
+        {
+          "id": "se_ch05_set08_011",
+          "type": "multiple_choice",
+          "question": "X선 검사 결과를 'flagged on the scan'이라고 표현하면 의미하는 것은?",
+          "options": [
+            "스캔이 완료되었다.",
+            "스캔 중 의심 물품이 감지되었다.",
+            "스캔 기계가 고장났다.",
+            "스캔 없이 통과했다."
+          ],
+          "answerIndex": 1,
+          "explanation": "'flagged on the scan'은 스캔(X선 검사) 중 의심스러운 물품이 감지되어 표시된 것을 의미합니다. 추가 검사가 필요한 상황입니다."
+        },
+        {
+          "id": "se_ch05_set08_012",
+          "type": "multiple_choice",
+          "question": "보안검색 완료 후 게이트 번호를 물을 때 자연스러운 표현은?",
+          "options": [
+            "Where is gate B5?",
+            "When does the plane land?",
+            "How heavy is my bag?",
+            "What is the baggage claim number?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Where is gate B5?'는 B5 게이트가 어디 있는지 묻는 자연스러운 표현입니다. 'Which way to the gate?'와 함께 게이트 위치를 물어보는 데 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch05_set08_013",
+          "type": "ox",
+          "question": "'duty-free allowance'는 면세점에서 살 수 있는 물품 할인율을 뜻한다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'duty-free allowance'는 면세점 할인율이 아니라 세금 없이 반입·반출할 수 있는 면세 한도(최대 금액 또는 수량)를 의미합니다."
+        },
+        {
+          "id": "se_ch05_set08_014",
+          "type": "ox",
+          "question": "'Here you are.'와 'Here you go.'는 모두 물건을 건네줄 때 쓸 수 있는 표현이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Here you are.'와 'Here you go.'는 둘 다 물건을 건네줄 때 쓰는 표현으로 같은 의미입니다. 'Here it is.'도 마찬가지입니다."
+        }
+      ]
+    },
+    {
+      "id": "set09",
+      "questions": [
+        {
+          "id": "se_ch05_set09_001",
+          "type": "multiple_choice",
+          "question": "500ml 생수병에 물이 50ml 남아 있을 때 기내 반입이 가능한지 판단하면?",
+          "options": [
+            "50ml밖에 안 남아 있으므로 반입 가능하다.",
+            "용기 크기가 500ml이므로 반입 불가이다.",
+            "액체가 적으면 상관없으므로 가능하다.",
+            "뚜껑을 열어 확인 후 결정한다."
+          ],
+          "answerIndex": 1,
+          "explanation": "기내 반입 액체 규정은 '용기 크기' 기준입니다. 500ml 용기는 100ml 제한을 초과하므로 내용물의 양에 상관없이 반입 불가입니다."
+        },
+        {
+          "id": "se_ch05_set09_002",
+          "type": "multiple_choice",
+          "question": "보안검색대에서 'each item in its own tray'가 의미하는 것은?",
+          "options": [
+            "각 물품을 각자의 별도 트레이에 담으세요.",
+            "모든 물품을 트레이 하나에 넣으세요.",
+            "트레이를 여러 개 가져오세요.",
+            "물품을 트레이에 쌓아 올리세요."
+          ],
+          "answerIndex": 0,
+          "explanation": "'each item in its own tray'는 물품 각각을 별도 트레이에 넣으라는 뜻입니다. 'one item per tray'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch05_set09_003",
+          "type": "multiple_choice",
+          "question": "'place it in the bin'에서 'bin'의 의미는?",
+          "options": [
+            "쓰레기통",
+            "보안검색용 플라스틱 바구니",
+            "탑승구",
+            "수하물 벨트"
+          ],
+          "answerIndex": 1,
+          "explanation": "보안검색 맥락에서 'bin'은 X선 검사용 플라스틱 바구니를 가리킵니다. 'tray'와 같은 의미로 사용됩니다."
+        },
+        {
+          "id": "se_ch05_set09_004",
+          "type": "multiple_choice",
+          "question": "몸수색(pat-down)이 필요한 상황이 아닌 것은?",
+          "options": [
+            "금속 탐지기에서 알람이 울렸을 때",
+            "보안요원이 추가 확인이 필요할 때",
+            "탑승권 QR코드를 스캔할 때",
+            "무작위 추가 보안검사 대상자일 때"
+          ],
+          "answerIndex": 2,
+          "explanation": "탑승권 QR코드 스캔은 탑승 게이트에서 탑승 자격을 확인하는 절차로, 몸수색과는 무관합니다. 몸수색은 보안 이상 발견 시 실시됩니다."
+        },
+        {
+          "id": "se_ch05_set09_005",
+          "type": "multiple_choice",
+          "question": "보안 검색대에서 'arms up'과 같은 의미의 표현은?",
+          "options": [
+            "put your arms down",
+            "cross your arms",
+            "raise your arms",
+            "fold your arms"
+          ],
+          "answerIndex": 2,
+          "explanation": "'arms up'과 'raise your arms'는 둘 다 팔을 위로 올리라는 같은 의미입니다. 몸수색 시 보안요원이 하는 지시입니다."
+        },
+        {
+          "id": "se_ch05_set09_006",
+          "type": "multiple_choice",
+          "question": "출국심사에서 심사관이 'Passport, please.'라고 할 때 어떻게 해야 하는가?",
+          "options": [
+            "여권을 가방에 넣는다.",
+            "탑승권을 제시한다.",
+            "여권을 꺼내 건네준다.",
+            "이름을 말한다."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Passport, please.'는 여권을 제출하라는 요청입니다. 여권을 꺼내 'Here you are.' 또는 'Here it is.'라고 말하며 건네주면 됩니다."
+        },
+        {
+          "id": "se_ch05_set09_007",
+          "type": "multiple_choice",
+          "question": "출국심사에서 'I'm on vacation.'은 어떤 목적으로 방문한다는 뜻인가?",
+          "options": [
+            "출장",
+            "유학",
+            "관광·휴가",
+            "환승"
+          ],
+          "answerIndex": 2,
+          "explanation": "'I'm on vacation.'은 '휴가 중이에요'라는 뜻으로 관광·휴가 목적을 나타냅니다. 'Tourism.' 또는 'Sightseeing.'과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch05_set09_008",
+          "type": "multiple_choice",
+          "question": "세관에서 면세 한도에 대해 'It doesn't exceed the limit.'이 의미하는 것은?",
+          "options": [
+            "한도를 초과했다.",
+            "한도를 정확히 맞췄다.",
+            "한도를 초과하지 않았다.",
+            "한도가 없다."
+          ],
+          "answerIndex": 2,
+          "explanation": "'doesn't exceed the limit'는 '한도를 초과하지 않는다'는 뜻으로 'under the limit' 또는 'within the limit'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch05_set09_009",
+          "type": "multiple_choice",
+          "question": "'Do you have priority or fast-track access?'에서 'priority'의 의미는?",
+          "options": [
+            "일반",
+            "우선·우대",
+            "이코노미",
+            "경유"
+          ],
+          "answerIndex": 1,
+          "explanation": "'priority'는 '우선·우대'를 뜻합니다. 우선심사 자격이 있는 승객은 빠른 검색 줄을 이용할 수 있습니다."
+        },
+        {
+          "id": "se_ch05_set09_010",
+          "type": "multiple_choice",
+          "question": "탑승권 확인 후 보안요원이 'Thank you. You're all set.'이라고 하면?",
+          "options": [
+            "다시 줄에 서야 한다.",
+            "여권을 다시 꺼내야 한다.",
+            "모든 절차가 완료되어 통과해도 된다.",
+            "수하물을 찾아야 한다."
+          ],
+          "answerIndex": 2,
+          "explanation": "'You're all set.'은 모든 절차가 끝나 통과해도 된다는 뜻입니다. 'You're good to go.'와 동일한 의미입니다."
+        },
+        {
+          "id": "se_ch05_set09_011",
+          "type": "multiple_choice",
+          "question": "X선 검사에서 의심 물품이 발견되었을 때 승객이 할 수 있는 적절한 대응은?",
+          "options": [
+            "검사를 거부하고 탑승구로 이동한다.",
+            "해당 물품이 무엇인지 침착하게 설명한다.",
+            "가방을 두고 떠난다.",
+            "다른 승객 뒤에 숨는다."
+          ],
+          "answerIndex": 1,
+          "explanation": "X선에서 의심 물품이 발견되면 당황하지 말고 'It's just a portable charger.'처럼 물품을 침착하게 설명하면 됩니다."
+        },
+        {
+          "id": "se_ch05_set09_012",
+          "type": "multiple_choice",
+          "question": "어느 줄에 서야 하는지 모를 때 쓸 수 있는 표현은?",
+          "options": [
+            "Excuse me, which line should I join?",
+            "Where is the boarding gate?",
+            "How much does check-in cost?",
+            "Can I upgrade my seat?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Excuse me, which line should I join?'은 어느 줄에 서야 하냐고 공손하게 물어보는 표현입니다. 'which queue do I use?'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch05_set09_013",
+          "type": "ox",
+          "question": "'Nothing to declare.'는 신고할 물품이 없다는 뜻이며 세관 통과 시 표준 답변으로 쓰인다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'Nothing to declare.'는 신고할 물품이 없다는 표준 세관 답변입니다. 세관 신고 구역에서도 'Nothing to Declare' 표지판을 볼 수 있습니다."
+        },
+        {
+          "id": "se_ch05_set09_014",
+          "type": "ox",
+          "question": "패스트트랙(fast-track) 이용 자격이 없는 승객도 우선 심사 줄에 설 수 있다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 패스트트랙·우선심사 줄은 자격이 있는 승객(비즈니스·퍼스트 클래스, 우수 멤버십 회원 등)만 이용할 수 있습니다. 자격 없는 승객은 일반 줄(standard queue)을 이용해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "set10",
+      "questions": [
+        {
+          "id": "se_ch05_set10_001",
+          "type": "multiple_choice",
+          "question": "기내 반입 규정에서 액체류 용기에 해당하지 않는 물품은?",
+          "options": [
+            "로션(lotion)",
+            "샴푸(shampoo)",
+            "에어로졸(aerosol)",
+            "고체 비누(bar soap)"
+          ],
+          "answerIndex": 3,
+          "explanation": "기내 반입 액체류 규정(100ml 이하)은 액체·젤·크림·에어로졸 등에 적용됩니다. 고체 비누(bar soap)는 액체류가 아니므로 이 규정의 적용을 받지 않습니다."
+        },
+        {
+          "id": "se_ch05_set10_002",
+          "type": "multiple_choice",
+          "question": "보안검색에서 'laptops and tablets out of the bag'이 지시하는 내용은?",
+          "options": [
+            "노트북과 태블릿을 가방에 넣으세요.",
+            "노트북과 태블릿을 가방에서 꺼내세요.",
+            "노트북과 태블릿을 켜세요.",
+            "노트북과 태블릿을 맡기세요."
+          ],
+          "answerIndex": 1,
+          "explanation": "'laptops and tablets out of the bag'은 노트북과 태블릿을 가방에서 꺼내라는 간결한 명령입니다. 'take out' 또는 'remove from the bag'과 같은 뜻입니다."
+        },
+        {
+          "id": "se_ch05_set10_003",
+          "type": "multiple_choice",
+          "question": "보안검색에서 'put it in a bin'에서 'bin'을 다르게 표현하면?",
+          "options": [
+            "bag",
+            "tray",
+            "seat",
+            "gate"
+          ],
+          "answerIndex": 1,
+          "explanation": "'bin'과 'tray' 모두 보안검색대에서 물품을 담아 X선을 통과시키는 플라스틱 바구니를 가리킵니다. 두 표현을 서로 바꿔 쓸 수 있습니다."
+        },
+        {
+          "id": "se_ch05_set10_004",
+          "type": "multiple_choice",
+          "question": "몸수색 시 'Is that okay with you?'에 거절하고 싶을 때 어떻게 해야 하는가?",
+          "options": [
+            "바로 탑승구로 이동한다.",
+            "정중히 거절하거나 추가 설명을 요청할 수 있다.",
+            "가방을 놔두고 간다.",
+            "다른 줄로 이동한다."
+          ],
+          "answerIndex": 1,
+          "explanation": "몸수색 동의 여부는 기본적으로 승객의 권리입니다. 정중히 이유를 묻거나 대안(예: 다른 방식의 검사)을 요청할 수 있지만, 거절 시 탑승이 거부될 수 있습니다."
+        },
+        {
+          "id": "se_ch05_set10_005",
+          "type": "multiple_choice",
+          "question": "보안검색에서 'proceed'의 의미는?",
+          "options": [
+            "멈추다",
+            "뒤로 돌아가다",
+            "진행하다",
+            "기다리다"
+          ],
+          "answerIndex": 2,
+          "explanation": "'proceed'는 '진행하다·계속하다'는 뜻입니다. 'Please proceed.'는 '진행해 주세요'라는 표현으로 보안검색·출국심사에서 쓰입니다."
+        },
+        {
+          "id": "se_ch05_set10_006",
+          "type": "multiple_choice",
+          "question": "출국심사에서 여권과 탑승권을 동시에 요청받았을 때 가장 자연스러운 답변은?",
+          "options": [
+            "I only have a passport.",
+            "Here's my passport and boarding pass.",
+            "My documents are in my checked bag.",
+            "I'll bring them later."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Here's my passport and boarding pass.'는 여권과 탑승권을 함께 제시하는 자연스러운 표현입니다."
+        },
+        {
+          "id": "se_ch05_set10_007",
+          "type": "multiple_choice",
+          "question": "출국심사에서 방문 목적이 환승(transit)일 때 적절한 답변은?",
+          "options": [
+            "Tourism.",
+            "Business.",
+            "I'm transiting.",
+            "I'm here to study."
+          ],
+          "answerIndex": 2,
+          "explanation": "환승(경유) 목적일 때는 'I'm transiting.' 또는 'I'm here for a connection.'이라고 답합니다. 관광·출장·유학과 구별됩니다."
+        },
+        {
+          "id": "se_ch05_set10_008",
+          "type": "multiple_choice",
+          "question": "'customs exemption'과 같은 의미의 표현은?",
+          "options": [
+            "duty-free allowance",
+            "baggage allowance",
+            "departure tax",
+            "transit fee"
+          ],
+          "answerIndex": 0,
+          "explanation": "'customs exemption(세관 면제 한도)'은 'duty-free allowance(면세 한도)'와 같은 의미입니다. 세금 없이 반입·반출할 수 있는 최대 허용량입니다."
+        },
+        {
+          "id": "se_ch05_set10_009",
+          "type": "multiple_choice",
+          "question": "일반 보안검색 줄을 'general security lane'이라고 표현할 수 있는가?",
+          "options": [
+            "아니다, general security lane은 없는 표현이다.",
+            "맞다, standard queue와 같은 의미이다.",
+            "아니다, general security lane은 우선 검색 줄이다.",
+            "맞다, 하지만 비즈니스 전용 줄이다."
+          ],
+          "answerIndex": 1,
+          "explanation": "'general security lane'은 일반 보안검색 레인을 뜻하며, 'standard queue' 또는 'regular line'과 같은 의미입니다."
+        },
+        {
+          "id": "se_ch05_set10_010",
+          "type": "multiple_choice",
+          "question": "탑승권 QR코드를 스캔하는 곳은 어디인가?",
+          "options": [
+            "체크인 카운터",
+            "수하물 찾는 곳",
+            "탑승 게이트",
+            "환전소"
+          ],
+          "answerIndex": 2,
+          "explanation": "탑승권 QR코드는 탑승 게이트(boarding gate)에서 스캔합니다. 보안검색에서는 탑승권 확인이 이루어지고, 실제 탑승 스캔은 게이트에서 합니다."
+        },
+        {
+          "id": "se_ch05_set10_011",
+          "type": "multiple_choice",
+          "question": "'get rid of it'의 의미는?",
+          "options": [
+            "가지고 가다",
+            "신고하다",
+            "처분하다·제거하다",
+            "보관하다"
+          ],
+          "answerIndex": 2,
+          "explanation": "'get rid of it'은 '처분하다·없애다'는 뜻으로, 'discard it' 또는 'throw it away'와 같은 의미입니다. 규정 위반 물품을 처리할 때 씁니다."
+        },
+        {
+          "id": "se_ch05_set10_012",
+          "type": "multiple_choice",
+          "question": "보안검색 줄을 서는 상황에서 'Where do I line up?'의 의미는?",
+          "options": [
+            "어디서 탑승하나요?",
+            "어디에 줄 서면 되나요?",
+            "어디서 체크인하나요?",
+            "어디서 수하물을 찾나요?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Where do I line up?'은 '어디에 줄 서면 되나요?'라는 표현입니다. 'Which line should I join?' 또는 'Which queue do I use?'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch05_set10_013",
+          "type": "ox",
+          "question": "보안검색에서 재킷을 벗을 때 'take out your jacket'이라고 말하는 것이 올바르다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 의류·신발 등 몸에 걸친 것을 벗을 때는 'take off'를 씁니다. 'take out'은 가방이나 용기에서 꺼낼 때 쓰므로, 재킷에는 'take off your jacket'이 올바른 표현입니다."
+        },
+        {
+          "id": "se_ch05_set10_014",
+          "type": "ox",
+          "question": "'passport(여권)'와 'boarding pass(탑승권)'는 각각 다른 목적의 서류로 출국 심사 시 둘 다 필요하다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 여권은 신원을 증명하고 탑승권은 특정 항공편 탑승 자격을 증명합니다. 출국 심사에서는 두 서류 모두 제시해야 합니다."
+        }
+      ]
     }
   ]
 }
