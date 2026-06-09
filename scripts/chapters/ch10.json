@@ -1,7 +1,544 @@
 {
   "id": "ch10",
   "title": "호텔/에어비앤비 체크인",
-  "summary": "예약 확인, 셀프 체크인, 도어코드, 조식·와이파이",
-  "dialogues": [],
-  "sets": []
+  "summary": "호텔·에어비앤비 체크인 전 과정: 예약 확인, 여권 제출, 조식·와이파이·체크아웃 확인, 셀프 체크인·도어코드, 얼리 체크인 및 짐 맡기기",
+  "dialogues": [
+    {
+      "id": "ch10_d01",
+      "title": "예약 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Hi, I have a reservation under Kim.", "ko": "안녕하세요, 김이라는 이름으로 예약이 되어 있습니다." },
+        { "speaker": "직원", "en": "Let me check that for you. Can you spell your last name?", "ko": "확인해 드리겠습니다. 성의 스펠링을 말씀해 주시겠어요?" },
+        { "speaker": "나", "en": "Sure. K-I-M.", "ko": "네. K-I-M입니다." },
+        { "speaker": "직원", "en": "Got it. I found your booking. Welcome!", "ko": "확인됐습니다. 예약을 찾았습니다. 어서 오세요!" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I have a reservation under Kim.",
+          "ko": "'under [이름]'은 해당 이름으로 예약이 등록되어 있다는 뜻. 'I made a reservation'과 혼동하지 말 것 — 후자는 예약을 했다는 행위, 전자는 예약이 존재함을 알리는 표현.",
+          "alternatives": [
+            { "en": "I booked a room under the name Kim.", "ko": "'booked'를 써서 예약했다는 사실을 강조하는 표현." },
+            { "en": "My reservation is under Kim.", "ko": "주어를 'My reservation'으로 바꾼 동일 의미의 표현." }
+          ]
+        },
+        {
+          "en": "Can you spell your last name?",
+          "ko": "성(last name)의 스펠링을 물어보는 표현. first name은 이름, last name/family name은 성. 한국인은 성이 짧아서 보통 스펠링 확인이 빠름.",
+          "alternatives": [
+            { "en": "Could you spell that for me?", "ko": "'that'으로 앞서 말한 이름을 가리키는 더 짧은 요청." },
+            { "en": "How do you spell your name?", "ko": "성과 이름 전체를 물어볼 때 쓸 수 있는 표현." }
+          ]
+        },
+        {
+          "en": "I found your booking.",
+          "ko": "예약을 찾았다는 표현. 'booking'과 'reservation'은 같은 뜻으로 혼용됨. 이 말을 들으면 체크인 절차가 순조롭게 진행된다는 신호.",
+          "alternatives": [
+            { "en": "I can see your reservation here.", "ko": "시스템에서 예약이 보인다는 확인 표현." },
+            { "en": "Your booking is confirmed.", "ko": "예약이 확인됐다는 좀 더 공식적인 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10_d02",
+      "title": "여권 제출하기",
+      "lines": [
+        { "speaker": "직원", "en": "May I see your passport, please?", "ko": "여권을 보여 주시겠어요?" },
+        { "speaker": "나", "en": "Of course. Here you go.", "ko": "물론이죠. 여기 있습니다." },
+        { "speaker": "직원", "en": "Thank you. I'll make a copy and hand it right back.", "ko": "감사합니다. 복사 후 바로 돌려드리겠습니다." },
+        { "speaker": "나", "en": "No problem, take your time.", "ko": "네, 천천히 하세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Here you go.",
+          "ko": "물건을 건네줄 때 쓰는 가장 자연스러운 표현. 'Here it is'도 같은 상황에 쓰임. 'Take this'보다 훨씬 부드럽고 일상적.",
+          "alternatives": [
+            { "en": "Here it is.", "ko": "Here you go와 같은 상황에서 쓸 수 있는 표현." },
+            { "en": "There you go.", "ko": "Here you go와 거의 같은 뜻이나 약간 더 캐주얼한 느낌." }
+          ]
+        },
+        {
+          "en": "I'll make a copy and hand it right back.",
+          "ko": "'hand it back'은 돌려주다는 표현. 'right back'은 '바로/곧장'이라는 뜻으로 빨리 돌려준다는 의미. 여권을 맡겨도 된다는 안심의 표현.",
+          "alternatives": [
+            { "en": "I'll return it shortly.", "ko": "곧 반환하겠다는 더 간결한 표현." },
+            { "en": "I just need it for a moment.", "ko": "잠깐만 필요하다는 표현으로 불안함을 줄여주는 말." }
+          ]
+        },
+        {
+          "en": "May I see your passport?",
+          "ko": "'May I see ~?'는 'Can I see ~?'보다 격식 있는 요청. 공항·호텔·관공서 직원이 자주 쓰는 표현. 거절할 수 없는 상황이지만 정중한 형식을 취함.",
+          "alternatives": [
+            { "en": "Could I check your ID?", "ko": "여권 대신 신분증 전반을 확인할 때 쓰는 표현." },
+            { "en": "I'll need to see some ID.", "ko": "신분 확인이 필요하다고 알리는 간접적 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10_d03",
+      "title": "조식 포함 여부 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Is breakfast included with the room?", "ko": "방 요금에 조식이 포함되나요?" },
+        { "speaker": "직원", "en": "Yes, breakfast is served from 7 to 10 AM in the restaurant on the second floor.", "ko": "네, 2층 레스토랑에서 오전 7시부터 10시까지 조식을 제공합니다." },
+        { "speaker": "나", "en": "Great. Is it a buffet or set menu?", "ko": "좋네요. 뷔페인가요, 아니면 세트 메뉴인가요?" },
+        { "speaker": "직원", "en": "It's a full buffet. Enjoy!", "ko": "풀 뷔페입니다. 맛있게 드세요!" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Is breakfast included?",
+          "ko": "조식이 요금에 포함되었는지 묻는 핵심 표현. 'included'가 핵심 단어 — 패키지·티켓 등 어디서든 포함 여부를 확인할 때 쓸 수 있음. 'Is breakfast free?'와 혼동 주의.",
+          "alternatives": [
+            { "en": "Does the room include breakfast?", "ko": "주어를 방(room)으로 바꾼 동일 의미의 표현." },
+            { "en": "Does the rate include breakfast?", "ko": "요금(rate)에 조식이 포함되었는지를 명확히 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Breakfast is served from 7 to 10 AM.",
+          "ko": "'be served'는 제공된다는 수동태 표현. 'from A to B'는 A부터 B까지. 시간 정보를 들을 때 숫자만 집중해서 들으면 됨.",
+          "alternatives": [
+            { "en": "Breakfast runs from 7 to 10.", "ko": "운영 시간을 'runs from'으로 표현하는 캐주얼한 방식." },
+            { "en": "We serve breakfast between 7 and 10.", "ko": "'between A and B'를 사용한 동일 의미 표현." }
+          ]
+        },
+        {
+          "en": "Is it a buffet or set menu?",
+          "ko": "식사 형태를 확인하는 표현. buffet(뷔페)은 자유롭게 가져다 먹는 방식, set menu(세트 메뉴)는 정해진 메뉴. à la carte(알라카르트)는 단품 주문 방식.",
+          "alternatives": [
+            { "en": "What kind of breakfast is it?", "ko": "조식의 종류를 개방형으로 묻는 표현." },
+            { "en": "Is it a buffet-style breakfast?", "ko": "뷔페인지만 확인하는 더 단순한 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10_d04",
+      "title": "와이파이 비밀번호 묻기",
+      "lines": [
+        { "speaker": "나", "en": "What's the Wi-Fi password, please?", "ko": "와이파이 비밀번호가 어떻게 되나요?" },
+        { "speaker": "직원", "en": "The network is 'HotelGuest' and the password is 'Welcome2024'.", "ko": "네트워크 이름은 'HotelGuest'이고 비밀번호는 'Welcome2024'입니다." },
+        { "speaker": "나", "en": "Could you write that down for me?", "ko": "그것을 써 주시겠어요?" },
+        { "speaker": "직원", "en": "Sure. Here's a card with all the details.", "ko": "물론이죠. 모든 정보가 담긴 카드를 드리겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "What's the Wi-Fi password?",
+          "ko": "와이파이 비밀번호를 묻는 가장 직접적인 표현. 'password'와 'passcode'는 같은 의미로 쓰임. Wi-Fi는 영어로 '와이파이'로 발음하며 'wireless'라는 단어도 같은 맥락에서 쓰임.",
+          "alternatives": [
+            { "en": "Can I get the Wi-Fi password?", "ko": "비밀번호를 달라는 좀 더 캐주얼한 표현." },
+            { "en": "Do you have the Wi-Fi details?", "ko": "비밀번호뿐 아니라 네트워크 이름 등 전체 정보를 요청하는 표현." }
+          ]
+        },
+        {
+          "en": "The network is '~' and the password is '~'.",
+          "ko": "Wi-Fi 안내 시 직원이 네트워크 이름과 비밀번호를 함께 알려주는 패턴. 네트워크(network/SSID)와 비밀번호(password)를 구분해서 들을 것.",
+          "alternatives": [
+            { "en": "Connect to '~' and use the code '~'.", "ko": "네트워크에 연결하고 코드를 입력하라는 안내 표현." },
+            { "en": "The Wi-Fi name is '~', password '~'.", "ko": "더 짧고 간결하게 안내하는 표현." }
+          ]
+        },
+        {
+          "en": "Could you write that down for me?",
+          "ko": "말로 들은 정보를 적어달라는 정중한 요청. 'for me'를 붙이면 더 자연스럽고 부드러워짐. 긴 비밀번호나 주소를 받을 때 특히 유용.",
+          "alternatives": [
+            { "en": "Can you write it down, please?", "ko": "'Could you' 대신 'Can you'를 쓴 조금 덜 격식 있는 표현." },
+            { "en": "Is there a card with the Wi-Fi info?", "ko": "와이파이 정보 카드가 있는지 직접 물어보는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10_d05",
+      "title": "체크아웃 시간 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "What time is check-out?", "ko": "체크아웃 시간이 몇 시인가요?" },
+        { "speaker": "직원", "en": "Check-out is at 11 AM. Late check-out is available for an extra fee.", "ko": "체크아웃은 오전 11시입니다. 추가 요금을 내시면 늦은 체크아웃도 가능합니다." },
+        { "speaker": "나", "en": "Is it possible to extend until noon?", "ko": "정오까지 연장하는 것이 가능할까요?" },
+        { "speaker": "직원", "en": "Let me check availability and I'll let you know.", "ko": "가능 여부를 확인 후 알려드리겠습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "What time is check-out?",
+          "ko": "체크아웃 시간을 묻는 가장 간결한 표현. 'check-in'(입실)과 'check-out'(퇴실)을 혼동하지 말 것. 호텔과 에어비앤비 모두에서 동일하게 사용.",
+          "alternatives": [
+            { "en": "What's the check-out time?", "ko": "'What time is ~?' 대신 'What's the ~ time?' 구조로 바꾼 표현." },
+            { "en": "When do I need to check out?", "ko": "언제까지 퇴실해야 하는지를 묻는 직접적인 표현." }
+          ]
+        },
+        {
+          "en": "Late check-out is available for an extra fee.",
+          "ko": "'late check-out'은 정규 체크아웃 시간보다 늦게 퇴실하는 것. 'for an extra fee'는 추가 요금이 붙는다는 뜻. 무료 제공 여부는 'Is late check-out free?'로 확인.",
+          "alternatives": [
+            { "en": "Extended check-out comes with an additional charge.", "ko": "연장 퇴실에 추가 요금이 붙는다는 표현." },
+            { "en": "We can arrange a later check-out for a fee.", "ko": "늦은 체크아웃을 추가 요금으로 제공할 수 있다는 표현." }
+          ]
+        },
+        {
+          "en": "Is it possible to extend until noon?",
+          "ko": "'extend'는 연장하다는 뜻. 'until noon'은 정오까지. 'Is it possible to ~?'는 가능한지 정중하게 묻는 패턴으로 다양한 요청에 활용 가능.",
+          "alternatives": [
+            { "en": "Can I check out at noon instead?", "ko": "정오에 체크아웃해도 되는지 직접 묻는 표현." },
+            { "en": "Could I have a late check-out until 12?", "ko": "'late check-out'이라는 용어를 사용한 공식적인 요청 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10_d06",
+      "title": "에어비앤비 셀프 체크인 방법 묻기",
+      "lines": [
+        { "speaker": "나", "en": "Hi, I just arrived. How do I check in?", "ko": "안녕하세요, 방금 도착했습니다. 어떻게 체크인하나요?" },
+        { "speaker": "호스트", "en": "It's self check-in. The key box is next to the front door.", "ko": "셀프 체크인이에요. 현관문 옆에 키박스가 있어요." },
+        { "speaker": "나", "en": "Got it. Do I need any code to open it?", "ko": "알겠습니다. 열려면 코드가 필요한가요?" },
+        { "speaker": "호스트", "en": "Yes, I'll send the code to your phone right now.", "ko": "네, 지금 바로 코드를 핸드폰으로 보내 드릴게요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "How do I check in?",
+          "ko": "체크인 방법을 묻는 핵심 표현. 에어비앤비는 호스트를 직접 만나지 않는 경우가 많아 이 질문이 특히 중요. 'How do I ~?'는 방법을 묻는 실용적인 패턴.",
+          "alternatives": [
+            { "en": "What's the check-in process?", "ko": "체크인 절차 전체를 묻는 표현." },
+            { "en": "Can you walk me through check-in?", "ko": "체크인 방법을 단계별로 안내해달라는 요청." }
+          ]
+        },
+        {
+          "en": "It's self check-in.",
+          "ko": "'self check-in'은 호스트를 직접 만나지 않고 스스로 체크인하는 방식. 에어비앤비에서 매우 흔함. 이 말을 들으면 키박스나 도어코드를 확인해야 함을 의미.",
+          "alternatives": [
+            { "en": "You can let yourself in.", "ko": "스스로 들어가도 된다는 표현." },
+            { "en": "Check-in is contactless.", "ko": "비대면 체크인이라는 더 현대적인 표현." }
+          ]
+        },
+        {
+          "en": "The key box is next to the front door.",
+          "ko": "'key box'는 열쇠를 보관하는 잠금 박스. 'next to'는 ~옆에. 위치 표현은 by/beside/near도 비슷한 뜻. 체크인 전 정확한 위치를 미리 확인해두는 것이 중요.",
+          "alternatives": [
+            { "en": "There's a lockbox by the entrance.", "ko": "'lockbox'는 key box와 같은 의미. 'by the entrance'는 입구 옆에." },
+            { "en": "Look for a small metal box near the door.", "ko": "키박스를 직접 묘사하는 더 구체적인 안내 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10_d07",
+      "title": "도어코드·키박스 코드 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "What's the door code for the key box?", "ko": "키박스 도어코드가 어떻게 되나요?" },
+        { "speaker": "호스트", "en": "The code is 4782. Enter it and press the hash key.", "ko": "코드는 4782예요. 입력 후 # 버튼을 누르세요." },
+        { "speaker": "나", "en": "I tried but it's not opening. Can you help?", "ko": "해봤는데 안 열리네요. 도와주실 수 있나요?" },
+        { "speaker": "호스트", "en": "Try holding the clear button first, then enter the code.", "ko": "먼저 취소 버튼을 길게 누른 다음 코드를 입력해 보세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "What's the door code?",
+          "ko": "현관 도어락 코드를 묻는 표현. 'door code'와 'door lock code'는 같은 의미. Wi-Fi password와 혼동 주의 — 도어락은 door code, 인터넷은 Wi-Fi password.",
+          "alternatives": [
+            { "en": "What's the entry code?", "ko": "입장 코드를 묻는 표현으로 문과 건물 게이트 모두에 쓸 수 있음." },
+            { "en": "What code do I use for the door?", "ko": "도어에 사용하는 코드를 직접 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Enter it and press the hash key.",
+          "ko": "'hash key'는 # 버튼. 'pound key'라고도 함. 'press'는 누르다. 도어락마다 확인 방법이 다를 수 있으므로 'How do I confirm the code?'라고 추가 확인하면 좋음.",
+          "alternatives": [
+            { "en": "Type in the code and hit the star button.", "ko": "* 버튼을 확인 키로 사용하는 경우의 안내 표현." },
+            { "en": "Input the code and wait for the beep.", "ko": "코드 입력 후 소리로 확인하는 경우의 안내 표현." }
+          ]
+        },
+        {
+          "en": "It's not opening.",
+          "ko": "'isn't working / not opening'은 작동하지 않는다는 표현. 'The door won't open'도 자연스러운 표현. 에어비앤비나 호텔에서 문제 발생 시 이 패턴을 활용하면 됨.",
+          "alternatives": [
+            { "en": "The door won't open.", "ko": "문이 열리지 않는다는 동일 의미의 자연스러운 표현." },
+            { "en": "I'm having trouble with the code.", "ko": "코드 입력에 문제가 있다고 알리는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10_d08",
+      "title": "주차·층·엘리베이터 안내 묻기",
+      "lines": [
+        { "speaker": "나", "en": "Where can I park my car?", "ko": "차를 어디에 주차할 수 있나요?" },
+        { "speaker": "직원", "en": "There's a parking garage in the basement. Take the elevator down to B1.", "ko": "지하 주차장이 있습니다. 엘리베이터를 타고 지하 1층으로 내려가세요." },
+        { "speaker": "나", "en": "And my room is on which floor?", "ko": "제 방은 몇 층인가요?" },
+        { "speaker": "직원", "en": "You're on the 8th floor. The elevator is just around the corner.", "ko": "8층입니다. 엘리베이터는 바로 모퉁이를 돌면 있습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Where can I park my car?",
+          "ko": "주차 장소를 묻는 직접적인 표현. 'parking lot'은 지상 주차장, 'parking garage'는 주차 건물. 'Is parking included?'로 주차 요금 포함 여부도 함께 확인하면 좋음.",
+          "alternatives": [
+            { "en": "Is there parking available?", "ko": "주차 공간이 있는지 먼저 확인하는 표현." },
+            { "en": "Where's the nearest parking?", "ko": "가장 가까운 주차장 위치를 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Take the elevator down to B1.",
+          "ko": "'B1'은 지하 1층(Basement 1). 미국에서는 'elevator', 영국에서는 'lift'라고 함. 'down to B1'은 지하로 내려가라는 뜻. 층 표현은 국가마다 다를 수 있음(미국 1층 = 영국 ground floor).",
+          "alternatives": [
+            { "en": "Take the lift to the lower ground floor.", "ko": "영국식 표현으로 lift와 lower ground를 사용한 안내." },
+            { "en": "The parking is in the basement — use the elevator.", "ko": "주차장이 지하에 있음을 먼저 안내하는 표현." }
+          ]
+        },
+        {
+          "en": "The elevator is just around the corner.",
+          "ko": "'around the corner'는 '모퉁이를 돌면 바로'라는 뜻으로 가까운 거리를 표현. 'just'가 붙으면 '바로'라는 강조 뉘앙스 추가. 방향 안내 표현 중 자주 들리는 패턴.",
+          "alternatives": [
+            { "en": "The lifts are straight ahead.", "ko": "엘리베이터가 바로 앞에 있다는 표현." },
+            { "en": "Head down the hallway and you'll see the elevator.", "ko": "복도를 따라가면 엘리베이터가 보인다는 안내 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10_d09",
+      "title": "얼리 체크인 요청하기",
+      "lines": [
+        { "speaker": "나", "en": "I arrived earlier than expected. Is early check-in possible?", "ko": "예상보다 일찍 도착했는데요. 얼리 체크인이 가능할까요?" },
+        { "speaker": "직원", "en": "Our standard check-in time is 3 PM. Let me see if your room is ready.", "ko": "일반 체크인 시간은 오후 3시입니다. 방이 준비됐는지 확인해 볼게요." },
+        { "speaker": "나", "en": "Thank you. I'll wait in the lobby if needed.", "ko": "감사합니다. 필요하다면 로비에서 기다리겠습니다." },
+        { "speaker": "직원", "en": "Great. Your room is actually ready — you can check in now!", "ko": "좋네요. 방이 이미 준비됐습니다 — 지금 바로 체크인하셔도 됩니다!" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Is early check-in possible?",
+          "ko": "'early check-in'은 정규 체크인 시간보다 일찍 입실하는 것. 'Is ~ possible?'은 가능 여부를 묻는 공손한 패턴. 추가 요금이 발생할 수 있으니 'Is it free?'로 요금도 확인할 것.",
+          "alternatives": [
+            { "en": "Can I check in early?", "ko": "얼리 체크인 가능 여부를 더 간단하게 묻는 표현." },
+            { "en": "Could I check in before 3 PM?", "ko": "구체적인 시간을 언급해 얼리 체크인을 요청하는 표현." }
+          ]
+        },
+        {
+          "en": "Let me see if your room is ready.",
+          "ko": "'Let me see if ~'는 ~인지 확인해보겠다는 표현. 'ready'는 준비된 상태. 이 말을 들으면 직원이 확인 중이니 기다리면 됨.",
+          "alternatives": [
+            { "en": "I'll check if the room is available.", "ko": "방 가용 여부를 확인하겠다는 표현." },
+            { "en": "Let me look into that for you.", "ko": "확인해 드리겠다는 일반적인 서비스 표현." }
+          ]
+        },
+        {
+          "en": "I'll wait in the lobby if needed.",
+          "ko": "'if needed'는 '필요하다면'이라는 조건 표현. 로비에서 기다리겠다고 먼저 말하면 직원에게 여유를 주는 배려 있는 표현. 'if necessary'도 같은 의미.",
+          "alternatives": [
+            { "en": "I'm happy to wait in the lobby.", "ko": "'happy to'를 써서 기꺼이 기다리겠다는 긍정적 표현." },
+            { "en": "No rush — I'll be in the lobby.", "ko": "서두르지 않아도 된다며 로비에 있겠다는 편안한 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10_d10",
+      "title": "체크인 전 짐 먼저 맡기기",
+      "lines": [
+        { "speaker": "나", "en": "Check-in isn't until 3 PM. Can I leave my luggage here?", "ko": "체크인이 오후 3시인데요. 짐을 여기 맡길 수 있을까요?" },
+        { "speaker": "직원", "en": "Of course. We have a luggage storage room. How many bags?", "ko": "물론입니다. 수하물 보관실이 있습니다. 가방이 몇 개인가요?" },
+        { "speaker": "나", "en": "Two suitcases and one backpack, please.", "ko": "여행 가방 두 개와 배낭 하나입니다." },
+        { "speaker": "직원", "en": "No problem. Here's your claim tag. Keep it safe.", "ko": "알겠습니다. 수령 태그입니다. 잘 보관하세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Can I leave my luggage here?",
+          "ko": "짐을 맡기고 싶을 때 쓰는 핵심 표현. 'luggage'와 'baggage'는 같은 의미로 짐 전체를 가리킴. 'leave'는 두고 가다. 'store my bags'도 같은 상황에서 쓸 수 있음.",
+          "alternatives": [
+            { "en": "Could I store my bags here until check-in?", "ko": "체크인 전까지 짐을 보관해달라는 더 구체적인 요청." },
+            { "en": "Is there somewhere I can leave my luggage?", "ko": "짐을 맡길 장소가 있는지 먼저 확인하는 표현." }
+          ]
+        },
+        {
+          "en": "We have a luggage storage room.",
+          "ko": "'luggage storage room'은 수하물 보관실. 'luggage storage'라고만 해도 통함. 호텔은 대부분 무료이지만 에어비앤비에서는 유료이거나 제공하지 않을 수 있음.",
+          "alternatives": [
+            { "en": "You can use our luggage room.", "ko": "짐 보관실을 사용해도 된다는 표현." },
+            { "en": "We'll keep your bags in our storage area.", "ko": "보관 구역에 짐을 맡아주겠다는 표현." }
+          ]
+        },
+        {
+          "en": "Here's your claim tag.",
+          "ko": "'claim tag'는 짐을 찾을 때 제시하는 수령 태그. 'Keep it safe'는 잘 보관하라는 당부. 태그 없이는 짐을 찾기 어려울 수 있으니 꼭 보관할 것.",
+          "alternatives": [
+            { "en": "This is your luggage ticket.", "ko": "수하물 보관증을 ticket이라 부르는 표현." },
+            { "en": "Hold onto this receipt.", "ko": "영수증 형태의 보관증을 건네줄 때 쓰는 표현." }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch10_set01_001",
+          "type": "multiple_choice",
+          "question": "호텔 프런트에서 예약이 'Kim'이라는 이름으로 되어 있다고 알릴 때 가장 자연스러운 표현은?",
+          "options": [
+            "I have a reservation under Kim.",
+            "I made a reservation for Kim.",
+            "I want to book a room for Kim.",
+            "My name Kim has a room."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I have a reservation under [name].'은 해당 이름으로 예약이 등록되어 있다고 알리는 표현입니다. 'under'가 핵심 단어로, 예약자 이름을 프런트에 알릴 때 반드시 쓰는 패턴입니다. 'made a reservation'은 예약 행위를 설명하는 과거 표현이며 지금 상황에는 맞지 않습니다."
+        },
+        {
+          "id": "se_ch10_set01_002",
+          "type": "multiple_choice",
+          "question": "직원이 여권을 요청했을 때 가장 자연스럽게 건네며 할 수 있는 표현은?",
+          "options": [
+            "Here is my boarding pass.",
+            "This is my ID card.",
+            "Here you go.",
+            "Take my document."
+          ],
+          "answerIndex": 2,
+          "explanation": "'Here you go.'는 물건을 건네줄 때 가장 자연스럽고 일상적인 표현입니다. 'Here is my boarding pass.'나 'This is my ID card.'는 여권이 아닌 다른 서류를 건네는 상황이고, 'Take my document.'는 어색한 표현입니다."
+        },
+        {
+          "id": "se_ch10_set01_003",
+          "type": "multiple_choice",
+          "question": "조식이 방 요금에 포함되어 있는지 확인할 때 가장 적절한 표현은?",
+          "options": [
+            "Where is the restaurant?",
+            "Is breakfast included?",
+            "What time is dinner?",
+            "Can I order room service?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is breakfast included?'는 조식이 요금에 포함되었는지를 묻는 핵심 표현입니다. 'included'는 포함 여부를 확인하는 단어로 다양한 상황에서 쓸 수 있습니다. 나머지는 식사 포함 여부를 묻지 않고 다른 정보를 요청하는 표현들입니다."
+        },
+        {
+          "id": "se_ch10_set01_004",
+          "type": "multiple_choice",
+          "question": "와이파이 비밀번호를 물을 때 가장 직접적이고 자연스러운 표현은?",
+          "options": [
+            "Do you have internet here?",
+            "Where is the router?",
+            "What's the Wi-Fi password?",
+            "Can I use your computer?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'What's the Wi-Fi password?'는 와이파이 비밀번호를 묻는 가장 직접적인 표현입니다. 'Do you have internet?'은 연결 여부만 물어보는 것이고, 'Where is the router?'는 공유기 위치를 묻는 것이며, 'Can I use your computer?'는 컴퓨터 사용 요청입니다."
+        },
+        {
+          "id": "se_ch10_set01_005",
+          "type": "multiple_choice",
+          "question": "에어비앤비 호스트에게 체크인 방법을 처음 물어볼 때 가장 적절한 표현은?",
+          "options": [
+            "Where is the front desk?",
+            "How do I check in?",
+            "Can you meet me at the door?",
+            "How do I check out?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'How do I check in?'은 체크인 절차를 묻는 핵심 표현입니다. 에어비앤비에는 프런트 데스크가 없으므로 'Where is the front desk?'는 적절하지 않습니다. 'check out'은 퇴실이므로 혼동 주의. 'Can you meet me?'는 만남을 요청하는 표현으로 절차를 묻는 것과 다릅니다."
+        },
+        {
+          "id": "se_ch10_set01_006",
+          "type": "multiple_choice",
+          "question": "에어비앤비 키박스의 도어코드를 물어볼 때 올바른 표현은?",
+          "options": [
+            "What's the Wi-Fi password?",
+            "What's the entrance fee?",
+            "What's the door code?",
+            "What's the key number?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'What's the door code?'는 도어락 코드를 묻는 표현입니다. 'Wi-Fi password'는 인터넷 비밀번호이고, 'entrance fee'는 입장료, 'key number'는 실제로 잘 쓰이지 않는 표현입니다. 도어코드와 와이파이 비밀번호를 혼동하지 않도록 주의하세요."
+        },
+        {
+          "id": "se_ch10_set01_007",
+          "type": "multiple_choice",
+          "question": "정규 체크인 시간보다 일찍 도착해서 체크인을 요청할 때 가장 자연스러운 표현은?",
+          "options": [
+            "I need my room now.",
+            "Is early check-in possible?",
+            "Can I check out early?",
+            "Give me the room key."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is early check-in possible?'은 얼리 체크인 가능 여부를 정중하게 묻는 표현입니다. 'I need my room now.'는 다소 강압적으로 들릴 수 있고, 'check out early'는 퇴실을 일찍 하는 것이므로 혼동 주의. 'Give me the room key.'는 너무 직접적인 명령형입니다."
+        },
+        {
+          "id": "se_ch10_set01_008",
+          "type": "multiple_choice",
+          "question": "체크인이 오후 3시인데 오전에 도착해서 짐을 맡기고 싶습니다. 가장 적절한 표현은?",
+          "options": [
+            "Can I check in early?",
+            "Where is the storage room?",
+            "Can I leave my luggage here?",
+            "Can you hold my passport?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Can I leave my luggage here?'는 짐을 맡기고 싶을 때 쓰는 핵심 표현입니다. 'luggage'는 짐 전체를 가리키며 'baggage'와 같은 의미입니다. 'Check in early'는 조기 체크인 요청이고, 'hold my passport'는 여권을 맡기는 것으로 다른 상황입니다."
+        },
+        {
+          "id": "se_ch10_set01_009",
+          "type": "multiple_choice",
+          "question": "직원이 짐을 맡아준 뒤 'Here's your claim tag.'라고 했습니다. 이것은 무엇인가요?",
+          "options": [
+            "방 열쇠",
+            "조식 쿠폰",
+            "짐 수령 태그",
+            "주차 티켓"
+          ],
+          "answerIndex": 2,
+          "explanation": "'claim tag'는 맡긴 짐을 찾을 때 제시하는 수령 태그입니다. 분실 시 짐을 찾기 어려울 수 있으니 잘 보관해야 합니다. 'luggage ticket'이나 'baggage receipt'도 같은 의미로 쓰입니다."
+        },
+        {
+          "id": "se_ch10_set01_010",
+          "type": "multiple_choice",
+          "question": "직원이 'Late check-out is available for an extra fee.'라고 했습니다. 무슨 뜻인가요?",
+          "options": [
+            "늦은 체크인은 무료이다.",
+            "추가 요금을 내면 늦은 체크아웃이 가능하다.",
+            "체크아웃 시간은 정오이다.",
+            "체크아웃은 모두 무료이다."
+          ],
+          "answerIndex": 1,
+          "explanation": "'late check-out'은 정규 체크아웃 시간보다 늦게 퇴실하는 것이고, 'for an extra fee'는 추가 요금이 붙는다는 뜻입니다. 무료 여부를 확인하려면 'Is late check-out free?'라고 물어야 합니다."
+        },
+        {
+          "id": "se_ch10_set01_011",
+          "type": "multiple_choice",
+          "question": "에어비앤비 호스트가 'It's self check-in.'이라고 했습니다. 이것이 의미하는 것은?",
+          "options": [
+            "호스트가 직접 문을 열어준다.",
+            "체크인을 스스로 해야 한다.",
+            "체크인이 불가능하다.",
+            "프런트 데스크에서 체크인해야 한다."
+          ],
+          "answerIndex": 1,
+          "explanation": "'self check-in'은 호스트를 만나지 않고 스스로 체크인하는 방식입니다. 에어비앤비에서 매우 일반적이며, 이 말을 들으면 키박스나 도어코드를 통해 입실해야 함을 뜻합니다."
+        },
+        {
+          "id": "se_ch10_set01_012",
+          "type": "multiple_choice",
+          "question": "직원이 엘리베이터 위치를 안내하며 'It's just around the corner.'라고 했습니다. 어느 위치인가요?",
+          "options": [
+            "건물 밖에 있다.",
+            "지하에 있다.",
+            "모퉁이를 돌면 바로 있다.",
+            "2층에 있다."
+          ],
+          "answerIndex": 2,
+          "explanation": "'around the corner'는 '모퉁이를 돌면'이라는 뜻으로 가까운 거리를 나타냅니다. 'just'가 붙어 '바로 모퉁이를 돌면'이라는 강조 표현이 됩니다. 방향 안내에서 자주 들을 수 있는 패턴입니다."
+        },
+        {
+          "id": "se_ch10_set01_013",
+          "type": "ox",
+          "question": "호텔과 에어비앤비 모두에서 'What time is check-out?'으로 퇴실 시간을 물어볼 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 'check-out'은 호텔과 에어비앤비 모두에서 퇴실을 뜻하는 동일한 표현입니다. 숙박 형태에 관계없이 같은 단어가 사용됩니다."
+        },
+        {
+          "id": "se_ch10_set01_014",
+          "type": "ox",
+          "question": "에어비앤비에서 'key box'는 도어락 비밀번호를 입력하는 패드를 가리킨다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'key box'(또는 lockbox)는 열쇠를 보관하는 잠금 박스입니다. 코드를 입력해 열면 안에 실제 열쇠가 들어 있습니다. 도어락 번호 패드는 'keypad' 또는 'door keypad'라고 합니다."
+        }
+      ]
+    }
+  ]
 }
