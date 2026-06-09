@@ -1,7 +1,872 @@
 {
   "id": "ch03",
   "title": "숫자·가격·시간·날짜 알아듣기",
-  "summary": "가격·시간·날짜·수량·층수 청취 표현",
-  "dialogues": [],
-  "sets": []
+  "summary": "가격 되묻기, 큰 숫자·시간·날짜·수량·층수 듣기 — 귀로 숫자를 잡아내는 생존 청취력",
+  "dialogues": [
+    {
+      "id": "ch03_d01",
+      "title": "가격 되묻기",
+      "lines": [
+        {
+          "speaker": "직원",
+          "en": "That'll be thirty-seven fifty, please.",
+          "ko": "37달러 50센트입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Sorry, how much was that?",
+          "ko": "죄송한데, 얼마라고 하셨나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Thirty-seven fifty — thirty-seven dollars and fifty cents.",
+          "ko": "37달러 50센트요."
+        },
+        {
+          "speaker": "나",
+          "en": "Got it. Here you go.",
+          "ko": "알겠습니다. 여기 있어요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "How much was that?",
+          "ko": "얼마라고 하셨나요? — 금액을 못 들었을 때 되묻는 가장 자연스러운 표현.",
+          "alternatives": [
+            {
+              "en": "Could you repeat the price?",
+              "ko": "가격을 다시 말씀해 주시겠어요?"
+            },
+            {
+              "en": "Sorry, I didn't catch that. How much?",
+              "ko": "죄송해요, 못 들었어요. 얼마라고요?"
+            }
+          ]
+        },
+        {
+          "en": "thirty-seven fifty",
+          "ko": "37.50을 영어로 읽는 방법 — '달러'를 생략하고 소수점도 'point'없이 그냥 숫자 두 개로 읽는다.",
+          "alternatives": [
+            {
+              "en": "thirty-seven dollars and fifty cents",
+              "ko": "37달러 50센트 (격식체 전체 표현)"
+            },
+            {
+              "en": "thirty-seven point fifty",
+              "ko": "37.50 (간혹 쓰이지만 일상 계산대에서는 드묾)"
+            }
+          ]
+        },
+        {
+          "en": "Here you go.",
+          "ko": "여기 있어요 — 돈이나 물건을 건넬 때 쓰는 표현. 'Here you are.'와 같은 뜻.",
+          "alternatives": [
+            {
+              "en": "Here you are.",
+              "ko": "여기 있어요 (격식체)"
+            },
+            {
+              "en": "There you go.",
+              "ko": "자, 받으세요 (좀 더 캐주얼)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03_d02",
+      "title": "큰 숫자 듣기 (€1,250)",
+      "lines": [
+        {
+          "speaker": "직원",
+          "en": "The total comes to one thousand two hundred and fifty euros.",
+          "ko": "합계는 1,250유로입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "I'm sorry — did you say twelve fifty or one thousand two hundred fifty?",
+          "ko": "죄송한데 — 1,250이라고 하셨나요, 아니면 12.50이라고 하셨나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "One thousand two hundred and fifty euros.",
+          "ko": "천이백오십 유로요."
+        },
+        {
+          "speaker": "나",
+          "en": "Okay, let me check my card.",
+          "ko": "알겠습니다, 카드 확인해볼게요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "one thousand two hundred and fifty",
+          "ko": "1,250 읽는 법 — 영어는 천 단위로 끊어 읽고 'and'를 백 뒤에 붙인다. 한국식 '천이백오십'과 구조가 같다.",
+          "alternatives": [
+            {
+              "en": "twelve hundred and fifty",
+              "ko": "1,250의 비격식 표현 — 1,100~1,900은 'twelve hundred...'식으로 읽기도 함"
+            },
+            {
+              "en": "one point two five zero euros",
+              "ko": "€1,250을 소수 방식으로 표현 (항공·금융에서 간혹 사용)"
+            }
+          ]
+        },
+        {
+          "en": "Did you say...?",
+          "ko": "...라고 하셨나요? — 숫자를 잘못 들었을 때 확인하는 가장 직접적 표현.",
+          "alternatives": [
+            {
+              "en": "Was that twelve fifty or one thousand two fifty?",
+              "ko": "1,250이었나요, 아니면 12.50이었나요?"
+            },
+            {
+              "en": "Could you write that down for me?",
+              "ko": "적어 주시겠어요? (숫자 확인 최후 수단)"
+            }
+          ]
+        },
+        {
+          "en": "The total comes to...",
+          "ko": "합계는 ...입니다 — 직원이 최종 금액을 고지할 때 쓰는 표현.",
+          "alternatives": [
+            {
+              "en": "Your total is...",
+              "ko": "합계가 ...입니다"
+            },
+            {
+              "en": "That comes to...",
+              "ko": "...이 됩니다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03_d03",
+      "title": "시간 약속 듣기 (half past / quarter to)",
+      "lines": [
+        {
+          "speaker": "직원",
+          "en": "Your tour starts at half past three.",
+          "ko": "투어는 3시 30분에 시작합니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Half past three — so that's three thirty?",
+          "ko": "Half past three — 즉 3시 30분 맞죠?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Exactly. And it finishes at quarter to five.",
+          "ko": "맞아요. 그리고 4시 45분에 끝납니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Perfect, I'll be there.",
+          "ko": "알겠습니다, 가겠습니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "half past three",
+          "ko": "3시 30분 — 'half past + 시'로 30분을 표현. '3:30'을 'three thirty'라고도 한다.",
+          "alternatives": [
+            {
+              "en": "three thirty",
+              "ko": "3시 30분 (디지털식 표현)"
+            },
+            {
+              "en": "half three",
+              "ko": "3시 30분 (영국 구어체 — 'past' 생략)"
+            }
+          ]
+        },
+        {
+          "en": "quarter to five",
+          "ko": "4시 45분 — 'quarter to + 다음 시'로 15분 전을 표현. 헷갈리면 'four forty-five'라고 확인.",
+          "alternatives": [
+            {
+              "en": "four forty-five",
+              "ko": "4시 45분 (디지털식)"
+            },
+            {
+              "en": "a quarter to five",
+              "ko": "4시 45분 (관사 a 추가 표현)"
+            }
+          ]
+        },
+        {
+          "en": "quarter past",
+          "ko": "15분 — 'quarter past + 시'는 15분 경과. quarter to와 방향이 반대라 주의.",
+          "alternatives": [
+            {
+              "en": "quarter past two",
+              "ko": "2시 15분"
+            },
+            {
+              "en": "two fifteen",
+              "ko": "2시 15분 (디지털식)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03_d04",
+      "title": "날짜·요일 듣기",
+      "lines": [
+        {
+          "speaker": "직원",
+          "en": "Your reservation is on the third of July, Tuesday.",
+          "ko": "예약은 7월 3일 화요일입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "July third — is that a Tuesday or a Wednesday?",
+          "ko": "7월 3일이요 — 화요일인가요, 수요일인가요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "It's a Tuesday.",
+          "ko": "화요일이에요."
+        },
+        {
+          "speaker": "나",
+          "en": "Great, that works for me.",
+          "ko": "좋습니다, 괜찮아요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "the third of July",
+          "ko": "7월 3일 — 영국식. 미국식은 'July third'. 서수(third)를 써야 한다는 점이 핵심.",
+          "alternatives": [
+            {
+              "en": "July third",
+              "ko": "7월 3일 (미국식)"
+            },
+            {
+              "en": "July the third",
+              "ko": "7월 3일 (미국 구어체에서도 종종 사용)"
+            }
+          ]
+        },
+        {
+          "en": "Tuesday",
+          "ko": "화요일 — 요일 순서: Monday·화 Tuesday·수 Wednesday·목 Thursday·금 Friday·토 Saturday·일 Sunday.",
+          "alternatives": [
+            {
+              "en": "on Tuesday",
+              "ko": "화요일에 (전치사 on + 요일)"
+            },
+            {
+              "en": "this Tuesday",
+              "ko": "이번 화요일"
+            }
+          ]
+        },
+        {
+          "en": "That works for me.",
+          "ko": "저한테는 괜찮아요 — 일정이 맞다고 확인할 때 쓰는 구어 표현.",
+          "alternatives": [
+            {
+              "en": "That's fine with me.",
+              "ko": "저는 괜찮아요."
+            },
+            {
+              "en": "That suits me.",
+              "ko": "저한테 맞아요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03_d05",
+      "title": "전화번호·방 번호 듣기",
+      "lines": [
+        {
+          "speaker": "직원",
+          "en": "You're in room four one two — room 412.",
+          "ko": "객실은 412호입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Room four twelve?",
+          "ko": "412호 맞죠?"
+        },
+        {
+          "speaker": "직원",
+          "en": "That's right. And the Wi-Fi password is double-four, three, seven.",
+          "ko": "맞아요. 와이파이 비밀번호는 44-3-7입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "So that's four, four, three, seven?",
+          "ko": "그러면 4, 4, 3, 7 이죠?"
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "room four one two",
+          "ko": "412호 — 방·전화번호는 한 자리씩 읽는다. 'four twelve'처럼 두 자리 묶어 읽기도 함.",
+          "alternatives": [
+            {
+              "en": "room four twelve",
+              "ko": "412호 (두 자리 묶어 읽기)"
+            },
+            {
+              "en": "room four hundred and twelve",
+              "ko": "412호 (완전 숫자 읽기, 드묾)"
+            }
+          ]
+        },
+        {
+          "en": "double-four",
+          "ko": "44 — 같은 숫자가 연속될 때 'double + 숫자'로 줄여 읽는다. 전화번호·비밀번호에서 자주 등장.",
+          "alternatives": [
+            {
+              "en": "double-seven",
+              "ko": "77"
+            },
+            {
+              "en": "triple-two",
+              "ko": "222"
+            }
+          ]
+        },
+        {
+          "en": "That's right.",
+          "ko": "맞아요 — 상대방의 확인에 긍정 응답할 때. 'Correct.' / 'Exactly.'와 동의.",
+          "alternatives": [
+            {
+              "en": "Correct.",
+              "ko": "맞습니다."
+            },
+            {
+              "en": "Exactly.",
+              "ko": "정확해요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03_d06",
+      "title": "수량 듣기 (a dozen / half a kilo)",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "I'd like half a kilo of these, please.",
+          "ko": "이것 반 킬로 주세요."
+        },
+        {
+          "speaker": "직원",
+          "en": "Sure. Would you like a dozen rolls as well?",
+          "ko": "네. 빵도 12개 드릴까요?"
+        },
+        {
+          "speaker": "나",
+          "en": "A dozen — that's twelve, right?",
+          "ko": "A dozen — 12개 맞죠?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, exactly twelve.",
+          "ko": "네, 정확히 12개예요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "a dozen",
+          "ko": "12개 — 빵·달걀 등 식품에서 자주 쓰는 단위. 'half a dozen'은 6개.",
+          "alternatives": [
+            {
+              "en": "half a dozen",
+              "ko": "6개"
+            },
+            {
+              "en": "a dozen and a half",
+              "ko": "18개"
+            }
+          ]
+        },
+        {
+          "en": "half a kilo",
+          "ko": "500g — 'half a kilogram'의 줄임. 미국에서는 파운드(lb)를 쓰므로 유럽 여행 시 주의.",
+          "alternatives": [
+            {
+              "en": "five hundred grams",
+              "ko": "500g (구체적 표현)"
+            },
+            {
+              "en": "a pound",
+              "ko": "약 453g (미국식 단위)"
+            }
+          ]
+        },
+        {
+          "en": "Would you like...?",
+          "ko": "...도 드릴까요? — 추가 구매를 권유하는 직원 표현.",
+          "alternatives": [
+            {
+              "en": "Do you want...?",
+              "ko": "...원하세요? (좀 더 캐주얼)"
+            },
+            {
+              "en": "Can I get you...?",
+              "ko": "...드릴까요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03_d07",
+      "title": "거스름돈 확인",
+      "lines": [
+        {
+          "speaker": "직원",
+          "en": "Your change is four euros fifty.",
+          "ko": "거스름돈은 4유로 50센트입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Sorry, I gave you fifty euros. Shouldn't the change be more?",
+          "ko": "죄송한데, 제가 50유로를 드렸어요. 거스름돈이 더 많아야 하지 않나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "You're right — the total was forty-five fifty. Here's your correct change.",
+          "ko": "맞아요 — 합계가 45.50이었어요. 맞는 거스름돈 드릴게요."
+        },
+        {
+          "speaker": "나",
+          "en": "Thank you.",
+          "ko": "감사합니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Your change is...",
+          "ko": "거스름돈은 ...입니다 — 직원이 거스름돈을 알려줄 때 쓰는 표현.",
+          "alternatives": [
+            {
+              "en": "Here's your change.",
+              "ko": "거스름돈 여기 있어요."
+            },
+            {
+              "en": "And ... change for you.",
+              "ko": "그리고 거스름돈 ...이에요."
+            }
+          ]
+        },
+        {
+          "en": "Shouldn't the change be more?",
+          "ko": "거스름돈이 더 많아야 하지 않나요? — 계산이 틀렸을 때 부드럽게 이의를 제기하는 표현.",
+          "alternatives": [
+            {
+              "en": "I think I'm owed more change.",
+              "ko": "거스름돈이 더 있어야 할 것 같아요."
+            },
+            {
+              "en": "Could you check the change?",
+              "ko": "거스름돈 확인해 주시겠어요?"
+            }
+          ]
+        },
+        {
+          "en": "You're right.",
+          "ko": "맞아요 / 맞습니다 — 상대방의 지적을 인정할 때. 'My mistake.' / 'I'm sorry about that.'이 이어지기도 함.",
+          "alternatives": [
+            {
+              "en": "My apologies, you're correct.",
+              "ko": "죄송합니다, 맞아요."
+            },
+            {
+              "en": "I'm sorry about that.",
+              "ko": "그 점 죄송합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03_d08",
+      "title": "운영시간 듣기",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "What are your opening hours?",
+          "ko": "운영 시간이 어떻게 되나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "We're open from nine to six, Monday through Saturday.",
+          "ko": "월요일부터 토요일까지 9시에서 6시까지 운영해요."
+        },
+        {
+          "speaker": "나",
+          "en": "Are you open on Sundays?",
+          "ko": "일요일에도 열어요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "No, we're closed on Sundays.",
+          "ko": "아니요, 일요일은 휴무예요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "open from nine to six",
+          "ko": "9시부터 6시까지 운영 — 시간 범위는 'from A to B'로 표현.",
+          "alternatives": [
+            {
+              "en": "open nine to six",
+              "ko": "9시~6시 운영 ('from' 생략 구어체)"
+            },
+            {
+              "en": "open between nine and six",
+              "ko": "9시와 6시 사이에 운영"
+            }
+          ]
+        },
+        {
+          "en": "Monday through Saturday",
+          "ko": "월~토요일 — 'through'는 양 끝 포함 범위. 영국 영어에서는 'Monday to Saturday'라고도 함.",
+          "alternatives": [
+            {
+              "en": "Monday to Saturday",
+              "ko": "월~토요일 (영국식)"
+            },
+            {
+              "en": "weekdays",
+              "ko": "평일 (월~금)"
+            }
+          ]
+        },
+        {
+          "en": "We're closed on Sundays.",
+          "ko": "일요일은 휴무예요 — 특정 요일 휴무 표현. 'closed'와 'not open'을 혼용.",
+          "alternatives": [
+            {
+              "en": "We don't open on Sundays.",
+              "ko": "일요일은 영업 안 해요."
+            },
+            {
+              "en": "Sunday is our day off.",
+              "ko": "일요일은 쉬는 날이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03_d09",
+      "title": "소요 시간 묻기",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "How long does it take to get to the city center?",
+          "ko": "시내 중심까지 얼마나 걸려요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "It takes about twenty minutes by metro.",
+          "ko": "지하철로 약 20분 걸려요."
+        },
+        {
+          "speaker": "나",
+          "en": "What about by taxi?",
+          "ko": "택시로는요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Maybe fifteen minutes, but traffic can double that.",
+          "ko": "약 15분이요, 하지만 차막히면 두 배가 될 수 있어요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "It takes about twenty minutes.",
+          "ko": "약 20분 걸려요 — 소요 시간 표현의 기본 구조: 'It takes + 시간'.",
+          "alternatives": [
+            {
+              "en": "It's about a twenty-minute ride.",
+              "ko": "약 20분 거리예요."
+            },
+            {
+              "en": "Around twenty minutes.",
+              "ko": "대략 20분이요."
+            }
+          ]
+        },
+        {
+          "en": "How long does it take?",
+          "ko": "얼마나 걸려요? — 이동 시간을 묻는 핵심 표현.",
+          "alternatives": [
+            {
+              "en": "How long is the journey?",
+              "ko": "이동이 얼마나 걸려요?"
+            },
+            {
+              "en": "How far is it?",
+              "ko": "얼마나 멀어요? (거리 질문이지만 시간 답변이 오기도 함)"
+            }
+          ]
+        },
+        {
+          "en": "traffic can double that",
+          "ko": "교통 체증으로 두 배가 될 수 있다 — 'double'이 동사로 쓰인 표현.",
+          "alternatives": [
+            {
+              "en": "it depends on traffic",
+              "ko": "교통 상황에 따라 달라요"
+            },
+            {
+              "en": "rush hour can make it longer",
+              "ko": "러시아워엔 더 걸릴 수 있어요"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03_d10",
+      "title": "층수 묻기 (ground floor 혼동)",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "Excuse me, which floor is the restaurant on?",
+          "ko": "실례합니다, 레스토랑은 몇 층에 있나요?"
+        },
+        {
+          "speaker": "직원",
+          "en": "It's on the ground floor.",
+          "ko": "1층입니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Ground floor — so that's the first floor, right?",
+          "ko": "Ground floor — 그러면 제일 아래 층이죠?"
+        },
+        {
+          "speaker": "직원",
+          "en": "Yes, that's the bottom floor — the one you came in on.",
+          "ko": "네, 가장 아래 층이요 — 들어오신 그 층이에요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "ground floor",
+          "ko": "영국식 건물 기준 1층(가장 아래) — 미국식 '1st floor'와 동일. 미국에서 'ground floor'라고 하면 같은 뜻이지만, 영국에서 '1st floor'는 한국의 2층에 해당한다.",
+          "alternatives": [
+            {
+              "en": "first floor (US)",
+              "ko": "1층 (미국식) = 영국 ground floor"
+            },
+            {
+              "en": "first floor (UK)",
+              "ko": "2층 (영국식) = 미국·한국의 2층"
+            }
+          ]
+        },
+        {
+          "en": "Which floor is ... on?",
+          "ko": "...은 몇 층에 있나요? — 건물 내 위치를 물을 때 기본 표현.",
+          "alternatives": [
+            {
+              "en": "What floor is ... on?",
+              "ko": "...이 몇 층이에요?"
+            },
+            {
+              "en": "Where can I find ...?",
+              "ko": "...은 어디서 찾을 수 있어요?"
+            }
+          ]
+        },
+        {
+          "en": "the one you came in on",
+          "ko": "들어오신 그 층 — 관계절로 층을 구체적으로 설명하는 방법.",
+          "alternatives": [
+            {
+              "en": "the entrance level",
+              "ko": "입구 층"
+            },
+            {
+              "en": "the lobby level",
+              "ko": "로비 층"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch03_set01_001",
+          "type": "multiple_choice",
+          "question": "계산대에서 직원이 'That'll be thirty-seven fifty.'라고 했을 때 올바른 금액은?",
+          "options": [
+            "$37.05",
+            "$37.50",
+            "$3.75",
+            "$370.50"
+          ],
+          "answerIndex": 1,
+          "explanation": "'thirty-seven fifty'는 $37.50을 뜻합니다. 영어에서 소수점 이하 두 자리(센트)는 별도로 읽습니다. 'thirty-seven oh five'는 $37.05입니다."
+        },
+        {
+          "id": "se_ch03_set01_002",
+          "type": "multiple_choice",
+          "question": "직원이 'one thousand two hundred and fifty euros'라고 했을 때 금액은?",
+          "options": [
+            "€12.50",
+            "€120.50",
+            "€1,250",
+            "€12,500"
+          ],
+          "answerIndex": 2,
+          "explanation": "'one thousand two hundred and fifty'는 1,250입니다. 영어에서 thousand(천), hundred(백)를 순서대로 읽으며 중간에 'and'를 붙입니다."
+        },
+        {
+          "id": "se_ch03_set01_003",
+          "type": "multiple_choice",
+          "question": "'half past three'는 몇 시 몇 분인가?",
+          "options": [
+            "2시 30분",
+            "3시 15분",
+            "3시 30분",
+            "3시 45분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'half past + 시'는 해당 시각의 30분을 의미합니다. 'half past three'는 3시 30분입니다. 'quarter past three'(3:15), 'quarter to four'(3:45)와 구분하세요."
+        },
+        {
+          "id": "se_ch03_set01_004",
+          "type": "multiple_choice",
+          "question": "'quarter to five'는 몇 시 몇 분인가?",
+          "options": [
+            "4시 15분",
+            "4시 30분",
+            "4시 45분",
+            "5시 15분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'quarter to + 시'는 해당 시각 15분 전을 의미합니다. 'quarter to five'는 5시 15분 전, 즉 4시 45분입니다."
+        },
+        {
+          "id": "se_ch03_set01_005",
+          "type": "multiple_choice",
+          "question": "영국식 영어에서 'the third of July'는 어떤 날짜인가?",
+          "options": [
+            "3월 7일",
+            "7월 3일",
+            "7월 13일",
+            "3월 17일"
+          ],
+          "answerIndex": 1,
+          "explanation": "영국식 날짜 표현은 '일 + of + 월' 순서입니다. 'the third of July'는 7월 3일입니다. 미국식은 'July third'로 월을 먼저 읽습니다."
+        },
+        {
+          "id": "se_ch03_set01_006",
+          "type": "multiple_choice",
+          "question": "호텔 직원이 'You're in room four one two.'라고 했다. 객실 번호는?",
+          "options": [
+            "42호",
+            "412호",
+            "402호",
+            "4012호"
+          ],
+          "answerIndex": 1,
+          "explanation": "방 번호는 보통 한 자리씩 읽습니다. 'four one two'는 412호입니다. 'four twelve'로 읽기도 합니다."
+        },
+        {
+          "id": "se_ch03_set01_007",
+          "type": "multiple_choice",
+          "question": "직원이 'The Wi-Fi password is double-four, three, seven.'이라고 했다. 비밀번호는?",
+          "options": [
+            "4-3-7",
+            "2-4-3-7",
+            "4-4-3-7",
+            "4-4-4-3-7"
+          ],
+          "answerIndex": 2,
+          "explanation": "'double-four'는 숫자 4가 두 번 반복됨을 의미합니다. 따라서 비밀번호는 4, 4, 3, 7 즉 4437입니다."
+        },
+        {
+          "id": "se_ch03_set01_008",
+          "type": "multiple_choice",
+          "question": "시장에서 'I'd like a dozen eggs.'라고 주문하면 달걀 몇 개를 받나?",
+          "options": [
+            "6개",
+            "10개",
+            "12개",
+            "24개"
+          ],
+          "answerIndex": 2,
+          "explanation": "'a dozen'은 12개를 의미합니다. 'half a dozen'은 6개, 'two dozen'은 24개입니다. 달걀·빵 등 식품에서 자주 쓰이는 단위입니다."
+        },
+        {
+          "id": "se_ch03_set01_009",
+          "type": "multiple_choice",
+          "question": "직원이 'We're open from nine to six, Monday through Saturday.'라고 했다. 이 가게가 문을 닫는 날은?",
+          "options": [
+            "월요일",
+            "금요일",
+            "토요일",
+            "일요일"
+          ],
+          "answerIndex": 3,
+          "explanation": "'Monday through Saturday'는 월요일부터 토요일까지 영업한다는 뜻입니다. 일요일(Sunday)에 대한 언급이 없으므로 일요일은 휴무입니다."
+        },
+        {
+          "id": "se_ch03_set01_010",
+          "type": "multiple_choice",
+          "question": "직원이 'It takes about twenty minutes by metro.'라고 했다. 소요 시간은?",
+          "options": [
+            "약 12분",
+            "약 15분",
+            "약 20분",
+            "약 30분"
+          ],
+          "answerIndex": 2,
+          "explanation": "'It takes about twenty minutes.'는 약 20분 걸린다는 뜻입니다. 소요 시간 표현의 핵심 구조는 'It takes + 시간'입니다."
+        },
+        {
+          "id": "se_ch03_set01_011",
+          "type": "ox",
+          "question": "영국식 건물 표기에서 'ground floor'는 한국의 1층(가장 아래 층)에 해당한다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 영국식 'ground floor'는 건물 입구 층, 즉 한국의 1층입니다. 영국식 '1st floor'는 한국의 2층에 해당하므로 주의가 필요합니다."
+        },
+        {
+          "id": "se_ch03_set01_012",
+          "type": "ox",
+          "question": "영어에서 'half past four'는 4시 30분이 아니라 4시 15분을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "틀렸습니다. 'half past four'는 4시 30분입니다. 4시 15분은 'quarter past four', 4시 45분은 'quarter to five'입니다."
+        },
+        {
+          "id": "se_ch03_set01_013",
+          "type": "ox",
+          "question": "영어에서 전화번호나 방 번호를 말할 때 같은 숫자가 두 번 연속되면 'double + 숫자'로 줄여 읽을 수 있다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 예를 들어 44는 'double-four', 77은 'double-seven'으로 읽습니다. 세 번 연속이면 'triple + 숫자'를 씁니다."
+        },
+        {
+          "id": "se_ch03_set01_014",
+          "type": "ox",
+          "question": "영국식 날짜 표현 'the fifth of March'는 미국식으로 'March fifth'와 같은 날짜다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 영국식 'the fifth of March'와 미국식 'March fifth'는 모두 3월 5일을 의미합니다. 표현 순서만 다를 뿐 같은 날짜입니다."
+        }
+      ]
+    }
+  ]
 }

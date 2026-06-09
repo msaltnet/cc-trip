@@ -1,7 +1,889 @@
 {
   "id": "ch05",
   "title": "보안검색·출국심사",
-  "summary": "보안검색대 통과, 액체 규정, 출국 심사",
-  "dialogues": [],
-  "sets": []
+  "summary": "보안검색대 액체 규정, 전자기기·의류 분리, 몸수색 대응, 출국 심사 여권 제출, 면세 신고, 탑승권 제시, 패스트트랙 안내",
+  "dialogues": [
+    {
+      "id": "ch05_d01",
+      "title": "액체류 100ml 규정 설명",
+      "lines": [
+        {
+          "speaker": "보안요원",
+          "en": "All liquids must be in containers of 100 ml or less.",
+          "ko": "모든 액체류는 100ml 이하 용기에 담겨 있어야 합니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Can I keep my water bottle?",
+          "ko": "제 물병은 가지고 가도 되나요?"
+        },
+        {
+          "speaker": "보안요원",
+          "en": "No, it's over 100 ml. You'll need to discard it or drink it now.",
+          "ko": "아니요, 100ml를 초과해요. 지금 버리시거나 다 드셔야 합니다."
+        },
+        {
+          "speaker": "나",
+          "en": "I see. I'll just throw it away.",
+          "ko": "알겠어요. 그냥 버릴게요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "containers of 100 ml or less",
+          "ko": "100ml 이하 용기. — 용기(container) 크기를 말하는 것이지 액체의 양이 아닙니다. 500ml 병에 조금만 남아 있어도 규정 위반입니다.",
+          "alternatives": [
+            {
+              "en": "no more than 100 ml per container",
+              "ko": "용기당 100ml 이하"
+            },
+            {
+              "en": "under 100 ml",
+              "ko": "100ml 미만"
+            }
+          ]
+        },
+        {
+          "en": "discard it",
+          "ko": "버리다. — throw away와 같은 뜻. 공항 보안검색에서 규정 위반 물품을 처분할 때 씁니다.",
+          "alternatives": [
+            {
+              "en": "throw it away",
+              "ko": "버리다"
+            },
+            {
+              "en": "get rid of it",
+              "ko": "처분하다"
+            }
+          ]
+        },
+        {
+          "en": "All liquids must be in ~.",
+          "ko": "모든 액체류는 ~에 있어야 합니다. — must는 의무 규정. 짐 싸기 전에 미리 이 규정을 확인하세요.",
+          "alternatives": [
+            {
+              "en": "Liquids need to be in 100 ml containers.",
+              "ko": "액체류는 100ml 용기에 담겨야 합니다."
+            },
+            {
+              "en": "You can only bring liquids in 100 ml bottles.",
+              "ko": "100ml 병에 든 액체류만 반입할 수 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch05_d02",
+      "title": "노트북·전자기기 꺼내기",
+      "lines": [
+        {
+          "speaker": "보안요원",
+          "en": "Laptops and tablets out of the bag, please.",
+          "ko": "노트북과 태블릿은 가방에서 꺼내 주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Should I put them in a separate tray?",
+          "ko": "별도 바구니에 담아야 하나요?"
+        },
+        {
+          "speaker": "보안요원",
+          "en": "Yes, one item per tray.",
+          "ko": "네, 바구니 하나에 물품 하나씩이요."
+        },
+        {
+          "speaker": "나",
+          "en": "Got it. What about my phone?",
+          "ko": "알겠습니다. 휴대폰도요?"
+        },
+        {
+          "speaker": "보안요원",
+          "en": "Phones can stay in your bag.",
+          "ko": "휴대폰은 가방 안에 두셔도 됩니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "take out your laptop",
+          "ko": "노트북을 꺼내다. — take out(꺼내다)과 take off(벗다)를 구분하세요. 전자기기는 take out, 의류는 take off입니다.",
+          "alternatives": [
+            {
+              "en": "remove your laptop from the bag",
+              "ko": "가방에서 노트북을 꺼내다"
+            },
+            {
+              "en": "laptops out of the bag",
+              "ko": "가방에서 노트북 꺼내세요 (간결한 명령형)"
+            }
+          ]
+        },
+        {
+          "en": "a separate tray",
+          "ko": "별도 바구니. — 보안검색대에서 X선 통과용 플라스틱 바구니를 tray라고 합니다.",
+          "alternatives": [
+            {
+              "en": "a screening tray",
+              "ko": "검색용 바구니"
+            },
+            {
+              "en": "Put it in a bin.",
+              "ko": "바구니에 넣으세요."
+            }
+          ]
+        },
+        {
+          "en": "one item per tray",
+          "ko": "바구니 하나에 물품 하나. — per는 '~당'을 뜻합니다.",
+          "alternatives": [
+            {
+              "en": "each item in its own tray",
+              "ko": "각 물품을 각자 바구니에"
+            },
+            {
+              "en": "Place each one separately.",
+              "ko": "각각 따로 놓아주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch05_d03",
+      "title": "벨트·신발·외투 벗기",
+      "lines": [
+        {
+          "speaker": "보안요원",
+          "en": "Please take off your belt and shoes.",
+          "ko": "벨트와 신발을 벗어 주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Do I need to take off my jacket too?",
+          "ko": "재킷도 벗어야 하나요?"
+        },
+        {
+          "speaker": "보안요원",
+          "en": "Yes, all outerwear goes in the tray.",
+          "ko": "네, 모든 겉옷은 바구니에 넣어주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Okay, I'll take it off now.",
+          "ko": "네, 지금 벗겠습니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "take off your belt / shoes",
+          "ko": "벨트·신발을 벗다. — take off는 의류·신발을 벗는 표현. 가방에서 꺼낼 때는 take out을 씁니다.",
+          "alternatives": [
+            {
+              "en": "remove your shoes",
+              "ko": "신발을 벗다"
+            },
+            {
+              "en": "Please remove your belt.",
+              "ko": "벨트를 빼 주세요."
+            }
+          ]
+        },
+        {
+          "en": "outerwear",
+          "ko": "겉옷 (재킷·코트 등). — jacket, coat, blazer를 총칭하는 표현입니다.",
+          "alternatives": [
+            {
+              "en": "jacket / coat",
+              "ko": "재킷 / 코트"
+            },
+            {
+              "en": "outer garment",
+              "ko": "겉옷"
+            }
+          ]
+        },
+        {
+          "en": "goes in the tray",
+          "ko": "바구니에 들어갑니다/넣으세요. — put it in the tray와 같은 의미.",
+          "alternatives": [
+            {
+              "en": "put it in the tray",
+              "ko": "바구니에 넣으세요"
+            },
+            {
+              "en": "place it in the bin",
+              "ko": "통에 놓아주세요"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch05_d04",
+      "title": "몸수색 동의하기",
+      "lines": [
+        {
+          "speaker": "보안요원",
+          "en": "I'll need to do a pat-down. Is that okay with you?",
+          "ko": "몸수색을 해야 합니다. 괜찮으시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Sure. What should I do?",
+          "ko": "네, 물론이죠. 제가 어떻게 하면 되나요?"
+        },
+        {
+          "speaker": "보안요원",
+          "en": "Stand here and raise your arms, please.",
+          "ko": "여기 서서 팔을 들어주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Of course, go ahead.",
+          "ko": "네, 하셔도 됩니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "a pat-down",
+          "ko": "몸수색. — 손으로 몸을 가볍게 두드리며 금속·위험물을 확인하는 절차. body search라고도 합니다.",
+          "alternatives": [
+            {
+              "en": "a body search",
+              "ko": "신체 검색"
+            },
+            {
+              "en": "a manual screening",
+              "ko": "수동 검사"
+            }
+          ]
+        },
+        {
+          "en": "raise your arms",
+          "ko": "팔을 들어올리다. — arms up과 같은 뜻. hands up은 경찰 상황에서 쓰이므로 보안검색 맥락에서는 arms up을 씁니다.",
+          "alternatives": [
+            {
+              "en": "arms up",
+              "ko": "팔을 올려주세요"
+            },
+            {
+              "en": "hold your arms out",
+              "ko": "팔을 양옆으로 뻗어주세요"
+            }
+          ]
+        },
+        {
+          "en": "go ahead",
+          "ko": "하세요·진행하세요. — 상대방에게 진행을 허락할 때 쓰는 표현. Of course, go ahead.는 흔한 조합입니다.",
+          "alternatives": [
+            {
+              "en": "That's fine.",
+              "ko": "괜찮습니다."
+            },
+            {
+              "en": "Please proceed.",
+              "ko": "진행해 주세요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch05_d05",
+      "title": "가방 재검사 요청 대응",
+      "lines": [
+        {
+          "speaker": "보안요원",
+          "en": "We need to take another look at your bag.",
+          "ko": "가방을 다시 확인해야 합니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Of course. Is there a problem?",
+          "ko": "네, 물론이죠. 무슨 문제가 있나요?"
+        },
+        {
+          "speaker": "보안요원",
+          "en": "There's an item we couldn't identify on the X-ray.",
+          "ko": "X선 검사에서 확인되지 않은 물품이 있습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "It's just a portable charger.",
+          "ko": "그냥 보조 배터리예요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "take another look at your bag",
+          "ko": "가방을 다시 확인하다. — check your bag again과 같은 뜻. 당황하지 말고 협조하세요.",
+          "alternatives": [
+            {
+              "en": "We need to check your bag again.",
+              "ko": "가방을 다시 검사해야 합니다."
+            },
+            {
+              "en": "Your bag needs to be re-screened.",
+              "ko": "가방을 재검색해야 합니다."
+            }
+          ]
+        },
+        {
+          "en": "couldn't identify on the X-ray",
+          "ko": "X선에서 확인(식별)되지 않다. — identify는 '식별하다'. X선 검사 결과 의심 물품이 발견될 때 씁니다.",
+          "alternatives": [
+            {
+              "en": "an unidentified item",
+              "ko": "미확인 물품"
+            },
+            {
+              "en": "something flagged on the scan",
+              "ko": "스캔에서 감지된 물품"
+            }
+          ]
+        },
+        {
+          "en": "It's just a ~.",
+          "ko": "그냥 ~예요. — 물품을 설명할 때 'just'를 써서 무해함을 강조합니다.",
+          "alternatives": [
+            {
+              "en": "This is only a portable charger.",
+              "ko": "이건 보조 배터리일 뿐이에요."
+            },
+            {
+              "en": "It's a power bank.",
+              "ko": "보조 배터리(파워뱅크)예요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch05_d06",
+      "title": "출국심사 여권 제출",
+      "lines": [
+        {
+          "speaker": "심사관",
+          "en": "Passport, please.",
+          "ko": "여권 주세요."
+        },
+        {
+          "speaker": "나",
+          "en": "Here you are.",
+          "ko": "여기 있습니다."
+        },
+        {
+          "speaker": "심사관",
+          "en": "And your boarding pass?",
+          "ko": "탑승권도요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Here's my mobile boarding pass.",
+          "ko": "모바일 탑승권입니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Here you are.",
+          "ko": "여기 있습니다. — 물건을 건네줄 때 쓰는 표현. Here it is.와 같은 뜻.",
+          "alternatives": [
+            {
+              "en": "Here it is.",
+              "ko": "여기요."
+            },
+            {
+              "en": "Here you go.",
+              "ko": "여기요. (격식 없이 건네줄 때)"
+            }
+          ]
+        },
+        {
+          "en": "boarding pass",
+          "ko": "탑승권. — passport(여권)와 혼동 금지. boarding pass는 비행기 타는 표, passport는 신원 증명서류입니다.",
+          "alternatives": [
+            {
+              "en": "boarding card",
+              "ko": "탑승권 (영국식 표현)"
+            },
+            {
+              "en": "flight ticket",
+              "ko": "항공권 (비공식 표현)"
+            }
+          ]
+        },
+        {
+          "en": "mobile boarding pass",
+          "ko": "모바일 탑승권. — 앱이나 지갑(Wallet)에 저장한 전자 탑승권. 종이 탑승권(printed boarding pass)과 구별.",
+          "alternatives": [
+            {
+              "en": "digital boarding pass",
+              "ko": "전자 탑승권"
+            },
+            {
+              "en": "boarding pass on my phone",
+              "ko": "휴대폰 탑승권"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch05_d07",
+      "title": "체류 목적·행선지 질문 답하기",
+      "lines": [
+        {
+          "speaker": "심사관",
+          "en": "Where are you flying to?",
+          "ko": "어디로 가시나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "I'm flying to London.",
+          "ko": "런던으로 가고 있습니다."
+        },
+        {
+          "speaker": "심사관",
+          "en": "What's the purpose of your visit?",
+          "ko": "방문 목적이 무엇인가요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Tourism. I'll be there for two weeks.",
+          "ko": "관광이요. 2주 있을 예정입니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Where are you flying to?",
+          "ko": "어디로 가세요? — 출국 심사에서 자주 나오는 질문. Where are you headed?와 같은 뜻.",
+          "alternatives": [
+            {
+              "en": "Where are you headed?",
+              "ko": "어디로 가세요?"
+            },
+            {
+              "en": "What's your destination?",
+              "ko": "목적지가 어디예요?"
+            }
+          ]
+        },
+        {
+          "en": "the purpose of your visit",
+          "ko": "방문 목적. — 관광(tourism/sightseeing), 출장(business), 유학(study)으로 답하세요.",
+          "alternatives": [
+            {
+              "en": "Why are you visiting?",
+              "ko": "방문 이유가 무엇인가요?"
+            },
+            {
+              "en": "What brings you to ~?",
+              "ko": "~에 오신 이유가 무엇인가요?"
+            }
+          ]
+        },
+        {
+          "en": "Tourism.",
+          "ko": "관광이요. — 한 단어로도 충분. 'For tourism.' 또는 'I'm here as a tourist.'도 자연스럽습니다.",
+          "alternatives": [
+            {
+              "en": "I'm here for sightseeing.",
+              "ko": "관광하러 왔어요."
+            },
+            {
+              "en": "I'm on vacation.",
+              "ko": "휴가 중이에요."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch05_d08",
+      "title": "면세 한도·반출 신고",
+      "lines": [
+        {
+          "speaker": "심사관",
+          "en": "Do you have anything to declare?",
+          "ko": "신고할 물품이 있나요?"
+        },
+        {
+          "speaker": "나",
+          "en": "I have some duty-free goods. Do I need to declare them?",
+          "ko": "면세품이 좀 있어요. 신고해야 하나요?"
+        },
+        {
+          "speaker": "심사관",
+          "en": "If the total is over your duty-free allowance, yes.",
+          "ko": "면세 한도를 초과하면 신고하셔야 합니다."
+        },
+        {
+          "speaker": "나",
+          "en": "It's under the limit. Nothing to declare.",
+          "ko": "한도 이내예요. 신고할 것 없습니다."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do you have anything to declare?",
+          "ko": "신고할 것이 있나요? — 세관·출국 심사 단골 질문. 'Nothing to declare.'가 흔한 대답.",
+          "alternatives": [
+            {
+              "en": "Nothing to declare.",
+              "ko": "신고할 것 없습니다."
+            },
+            {
+              "en": "I have nothing to declare.",
+              "ko": "신고할 물품이 없습니다."
+            }
+          ]
+        },
+        {
+          "en": "duty-free allowance",
+          "ko": "면세 한도. — 면세 없이 가져갈 수 있는 최대 금액/수량. allowance는 '허용량·한도'.",
+          "alternatives": [
+            {
+              "en": "duty-free limit",
+              "ko": "면세 한도"
+            },
+            {
+              "en": "customs exemption",
+              "ko": "세관 면제 한도"
+            }
+          ]
+        },
+        {
+          "en": "under the limit",
+          "ko": "한도 이내. — over the limit(한도 초과)의 반대. 'within the limit'도 같은 뜻입니다.",
+          "alternatives": [
+            {
+              "en": "within the limit",
+              "ko": "한도 이내"
+            },
+            {
+              "en": "It doesn't exceed the limit.",
+              "ko": "한도를 초과하지 않습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch05_d09",
+      "title": "탑승권 제시하기",
+      "lines": [
+        {
+          "speaker": "보안요원",
+          "en": "May I see your boarding pass, please?",
+          "ko": "탑승권을 보여주시겠어요?"
+        },
+        {
+          "speaker": "나",
+          "en": "Sure, here's the QR code on my phone.",
+          "ko": "네, 휴대폰에 QR 코드 있어요."
+        },
+        {
+          "speaker": "보안요원",
+          "en": "Thank you. You're all set.",
+          "ko": "감사합니다. 다 됐습니다."
+        },
+        {
+          "speaker": "나",
+          "en": "Great. Which way to the gate?",
+          "ko": "좋아요. 게이트는 어느 쪽인가요?"
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "May I see your boarding pass?",
+          "ko": "탑승권을 보여주시겠어요? — May I see ~?는 정중한 요청. 보안·탑승 시에 자주 듣습니다.",
+          "alternatives": [
+            {
+              "en": "Can I check your boarding pass?",
+              "ko": "탑승권 확인해도 될까요?"
+            },
+            {
+              "en": "Please show me your boarding pass.",
+              "ko": "탑승권을 보여주세요."
+            }
+          ]
+        },
+        {
+          "en": "You're all set.",
+          "ko": "다 됐습니다·준비됐습니다. — 절차가 완료되었을 때 직원이 쓰는 말. You're good to go.와 같은 뜻.",
+          "alternatives": [
+            {
+              "en": "You're good to go.",
+              "ko": "가셔도 됩니다."
+            },
+            {
+              "en": "Everything is in order.",
+              "ko": "모든 것이 이상 없습니다."
+            }
+          ]
+        },
+        {
+          "en": "Which way to the gate?",
+          "ko": "게이트는 어느 쪽인가요? — 방향을 물을 때 'which way'를 씁니다.",
+          "alternatives": [
+            {
+              "en": "Where is gate B12?",
+              "ko": "B12 게이트는 어디예요?"
+            },
+            {
+              "en": "How do I get to my gate?",
+              "ko": "게이트까지 어떻게 가나요?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch05_d10",
+      "title": "보안 줄 안내 — 패스트트랙 확인",
+      "lines": [
+        {
+          "speaker": "나",
+          "en": "Excuse me, which line should I join?",
+          "ko": "실례합니다, 어느 줄에 서야 하나요?"
+        },
+        {
+          "speaker": "보안요원",
+          "en": "Do you have priority or fast-track access?",
+          "ko": "우선심사 또는 패스트트랙 이용 대상이세요?"
+        },
+        {
+          "speaker": "나",
+          "en": "No, I don't think so.",
+          "ko": "아니요, 그런 것 같지 않아요."
+        },
+        {
+          "speaker": "보안요원",
+          "en": "Then please use the standard queue over there.",
+          "ko": "그럼 저쪽 일반 줄을 이용해 주세요."
+        }
+      ],
+      "keyExpressions": [
+        {
+          "en": "fast-track access",
+          "ko": "패스트트랙 이용 자격. — 비즈니스·퍼스트 클래스나 멤버십 등급에 따라 별도 줄을 이용할 수 있습니다.",
+          "alternatives": [
+            {
+              "en": "priority lane",
+              "ko": "우선 통과 전용 레인"
+            },
+            {
+              "en": "express security",
+              "ko": "신속 보안검색"
+            }
+          ]
+        },
+        {
+          "en": "standard queue",
+          "ko": "일반 대기줄. — queue는 영국식으로 '줄'을 뜻합니다. 미국식은 line. 'regular line'도 같은 의미.",
+          "alternatives": [
+            {
+              "en": "regular line",
+              "ko": "일반 줄 (미국식)"
+            },
+            {
+              "en": "general security lane",
+              "ko": "일반 보안검색 레인"
+            }
+          ]
+        },
+        {
+          "en": "Which line should I join?",
+          "ko": "어느 줄에 서야 하나요? — join a line/queue는 '줄에 합류하다(줄을 서다)'. stand in line과 같은 의미.",
+          "alternatives": [
+            {
+              "en": "Which queue do I use?",
+              "ko": "어느 줄을 이용하나요?"
+            },
+            {
+              "en": "Where do I line up?",
+              "ko": "어디에 줄 서면 되나요?"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch05_set01_001",
+          "type": "multiple_choice",
+          "question": "기내 반입 액체류 용기 크기 규정으로 올바른 것은?",
+          "options": [
+            "200ml 이하",
+            "500ml 이하",
+            "100ml 이하",
+            "1L 이하"
+          ],
+          "answerIndex": 2,
+          "explanation": "국제 보안 규정상 기내 반입 액체류는 용기 하나당 100ml 이하여야 합니다. '용기 크기'가 기준이므로 500ml 병에 조금 남아 있어도 규정 위반입니다."
+        },
+        {
+          "id": "se_ch05_set01_002",
+          "type": "multiple_choice",
+          "question": "보안요원이 노트북을 가방에서 꺼내달라고 할 때 알맞은 표현은?",
+          "options": [
+            "Take off your laptop.",
+            "Laptops out of the bag, please.",
+            "Remove your laptop from the tray.",
+            "Put your laptop away."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Laptops out of the bag'은 노트북을 가방에서 꺼내라는 간결한 명령형입니다. 'Take off'는 의류를 벗을 때 쓰는 표현이므로 노트북에는 사용하지 않습니다."
+        },
+        {
+          "id": "se_ch05_set01_003",
+          "type": "multiple_choice",
+          "question": "'take off'와 'take out'의 차이로 올바른 것은?",
+          "options": [
+            "둘 다 같은 뜻으로 아무거나 써도 된다.",
+            "take off는 가방에서 꺼낼 때, take out은 의류를 벗을 때 쓴다.",
+            "take off는 의류·신발을 벗을 때, take out은 가방에서 꺼낼 때 쓴다.",
+            "take off는 외투에만, take out은 전자기기에만 쓴다."
+          ],
+          "answerIndex": 2,
+          "explanation": "보안검색에서 'take off'는 의류·신발을 몸에서 벗는 동작, 'take out'은 가방 안의 물건을 꺼내는 동작에 씁니다. 'Take off your shoes.(신발 벗으세요)' vs 'Take out your laptop.(노트북 꺼내세요)'."
+        },
+        {
+          "id": "se_ch05_set01_004",
+          "type": "multiple_choice",
+          "question": "보안요원이 몸수색을 하겠다고 했을 때 알맞은 대답은?",
+          "options": [
+            "No, you cannot.",
+            "Sure, go ahead.",
+            "I don't have a ticket.",
+            "My bag is over there."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Sure, go ahead.'는 몸수색에 동의하며 진행하도록 허락하는 표현입니다. 'go ahead'는 '하세요·진행하세요'라는 뜻입니다."
+        },
+        {
+          "id": "se_ch05_set01_005",
+          "type": "multiple_choice",
+          "question": "보안검색에서 팔을 올리라는 지시로 올바른 표현은?",
+          "options": [
+            "Hands up!",
+            "Legs up.",
+            "Arms up.",
+            "Head up."
+          ],
+          "answerIndex": 2,
+          "explanation": "보안검색 맥락에서는 'Arms up.'을 씁니다. 'Hands up!'은 주로 경찰·법 집행 상황에서 쓰이는 강압적 명령 표현이므로 보안검색과는 뉘앙스가 다릅니다."
+        },
+        {
+          "id": "se_ch05_set01_006",
+          "type": "multiple_choice",
+          "question": "출국 심사관이 여권과 함께 요청하는 서류는?",
+          "options": [
+            "hotel reservation",
+            "boarding pass",
+            "travel insurance",
+            "visa application"
+          ],
+          "answerIndex": 1,
+          "explanation": "출국 심사에서 심사관은 여권(passport)과 탑승권(boarding pass)을 요청합니다. 'Passport and boarding pass, please.'가 표준 안내 문구입니다."
+        },
+        {
+          "id": "se_ch05_set01_007",
+          "type": "multiple_choice",
+          "question": "심사관이 'What's the purpose of your visit?'라고 묻습니다. 관광 목적일 때 가장 적절한 대답은?",
+          "options": [
+            "I'm on business.",
+            "I'm here to study.",
+            "Tourism.",
+            "I'm transiting."
+          ],
+          "answerIndex": 2,
+          "explanation": "관광 목적일 때는 'Tourism.' 또는 'Sightseeing.' 또는 'I'm on vacation.'이라고 답합니다. 'Business'는 출장, 'study'는 유학, 'transiting'은 환승입니다."
+        },
+        {
+          "id": "se_ch05_set01_008",
+          "type": "multiple_choice",
+          "question": "세관·출국 심사에서 'Do you have anything to declare?'에 신고할 것이 없을 때 가장 자연스러운 대답은?",
+          "options": [
+            "Yes, I declare.",
+            "Nothing to declare.",
+            "I have many things.",
+            "Please check my bag."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Nothing to declare.'는 신고할 물품이 없다는 표준 답변입니다. 세관 신고 줄 'Nothing to Declare' 표지판에서도 볼 수 있는 관용 표현입니다."
+        },
+        {
+          "id": "se_ch05_set01_009",
+          "type": "multiple_choice",
+          "question": "일반 보안검색 줄을 가리키는 표현으로 올바른 것은?",
+          "options": [
+            "fast-track lane",
+            "priority queue",
+            "standard queue",
+            "first class lane"
+          ],
+          "answerIndex": 2,
+          "explanation": "'standard queue(일반 대기줄)'는 패스트트랙·우선심사 자격이 없는 일반 승객이 서는 줄입니다. 'fast-track lane'과 'priority queue'는 특별 자격자용 줄입니다."
+        },
+        {
+          "id": "se_ch05_set01_010",
+          "type": "multiple_choice",
+          "question": "직원이 절차가 다 끝났음을 알릴 때 쓰는 표현은?",
+          "options": [
+            "You're delayed.",
+            "You're all set.",
+            "You're checked out.",
+            "You're on hold."
+          ],
+          "answerIndex": 1,
+          "explanation": "'You're all set.'은 '다 됐습니다·준비됐습니다'라는 뜻으로, 모든 절차가 완료됐을 때 씁니다. 'You're good to go.'와 같은 의미입니다."
+        },
+        {
+          "id": "se_ch05_set01_011",
+          "type": "multiple_choice",
+          "question": "보안 검색대에서 재킷을 벗어 바구니에 넣으라는 안내는?",
+          "options": [
+            "Take out your jacket and put it in the tray.",
+            "Put on your jacket and step through.",
+            "Take off your jacket and put it in the tray.",
+            "Check your jacket at the counter."
+          ],
+          "answerIndex": 2,
+          "explanation": "의류를 벗을 때는 'take off'를 씁니다. 'Take off your jacket and put it in the tray.'가 정확한 표현입니다. 'take out'은 가방 안 물건을 꺼낼 때 씁니다."
+        },
+        {
+          "id": "se_ch05_set01_012",
+          "type": "multiple_choice",
+          "question": "'duty-free allowance'의 올바른 뜻은?",
+          "options": [
+            "면세점 할인율",
+            "면세 한도",
+            "탑승권 유효 기간",
+            "무료 수하물 허용량"
+          ],
+          "answerIndex": 1,
+          "explanation": "'duty-free allowance'는 세금 없이 반입·반출할 수 있는 면세 한도를 말합니다. 이를 초과하면 세관에 신고하고 관세를 납부해야 합니다."
+        },
+        {
+          "id": "se_ch05_set01_013",
+          "type": "ox",
+          "question": "기내 반입 액체류 규정은 '용기 크기'가 100ml 이하여야 하므로, 500ml 병에 조금만 남아 있어도 규정 위반이다.",
+          "answerIndex": 0,
+          "explanation": "맞습니다. 액체의 양이 아니라 용기(container) 크기 자체가 100ml 이하여야 합니다. 따라서 500ml 병에 소량이 남아 있어도 규정 위반으로 반입이 불가합니다."
+        },
+        {
+          "id": "se_ch05_set01_014",
+          "type": "ox",
+          "question": "'boarding pass'와 'passport'는 같은 서류이므로 출국 심사 시 하나만 제출하면 된다.",
+          "answerIndex": 1,
+          "explanation": "아닙니다. 'boarding pass(탑승권)'는 특정 항공편 탑승을 증명하는 표이고, 'passport(여권)'는 신원을 증명하는 공식 신분증입니다. 출국 심사에서는 두 가지 모두 제시해야 합니다."
+        }
+      ]
+    }
+  ]
 }
