@@ -1,7 +1,532 @@
 {
   "id": "ch25",
   "title": "쇼핑·옷가게",
-  "summary": "사이즈·색상, 탈의실, 세일·재고",
-  "dialogues": [],
-  "sets": []
+  "summary": "옷가게에서 사이즈·색상·탈의실을 묻고, 세일 여부·재고 확인·선물 포장·면세·교환 환불까지 자신 있게 요청하는 법",
+  "dialogues": [
+    {
+      "id": "ch25_d01",
+      "title": "그냥 둘러볼 때",
+      "lines": [
+        { "speaker": "점원", "en": "Hi there! Can I help you find something?", "ko": "안녕하세요! 뭔가 찾아드릴까요?" },
+        { "speaker": "나", "en": "No thanks, I'm just looking.", "ko": "괜찮아요, 그냥 둘러보는 중이에요." },
+        { "speaker": "점원", "en": "Of course. Let me know if you need anything.", "ko": "물론이죠. 필요한 게 있으면 말씀해 주세요." },
+        { "speaker": "나", "en": "Will do, thank you.", "ko": "알겠습니다, 감사합니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "I'm just looking.",
+          "ko": "도움이 필요 없고 그냥 둘러보겠다는 표현. 'just'가 핵심으로, 없으면 '뭔가 찾고 있다'는 뉘앙스가 됨. 점원이 다가올 때 가장 자주 쓰는 표현.",
+          "alternatives": [
+            { "en": "I'm just browsing, thanks.", "ko": "'browsing(둘러보다)'을 써서 같은 뜻을 표현하는 자연스러운 변형." },
+            { "en": "I'm fine for now, thank you.", "ko": "지금은 괜찮다는 의미로 점원을 정중하게 물리칠 때 쓰는 표현." }
+          ]
+        },
+        {
+          "en": "Let me know if you need anything.",
+          "ko": "필요한 게 있으면 말해달라는 점원의 단골 표현. 'let me know'는 '알려주세요'라는 뜻으로 다양한 상황에서 쓰임.",
+          "alternatives": [
+            { "en": "Feel free to ask if you have any questions.", "ko": "궁금한 게 있으면 편하게 물어보라는 표현." },
+            { "en": "Just give me a shout if you need help.", "ko": "캐주얼한 표현으로 '도움이 필요하면 불러요'라는 뜻." }
+          ]
+        },
+        {
+          "en": "Will do.",
+          "ko": "'그렇게 할게요'라는 간결한 대답. 'I will do that'의 축약형. 'Sure' 또는 'Okay'와 비슷하지만 조금 더 활기차고 자연스러운 구어 표현.",
+          "alternatives": [
+            { "en": "Sure thing.", "ko": "물론이죠라는 뜻의 캐주얼한 긍정 대답." },
+            { "en": "Sounds good.", "ko": "좋아요, 알겠습니다라는 긍정적인 반응 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch25_d02",
+      "title": "사이즈 문의하기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, do you have this in a medium?", "ko": "실례합니다, 이거 미디엄 사이즈 있나요?" },
+        { "speaker": "점원", "en": "Let me check in the back for you.", "ko": "창고에서 확인해 드리겠습니다." },
+        { "speaker": "점원", "en": "Yes, we have it in medium. Here you go.", "ko": "네, 미디엄 있습니다. 여기 있습니다." },
+        { "speaker": "나", "en": "Great, thank you so much!", "ko": "좋아요, 정말 감사합니다!" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do you have this in a medium?",
+          "ko": "'Do you have this in a + 사이즈?' 패턴. 지금 보고 있는 상품의 특정 사이즈를 묻는 가장 자연스러운 표현. 'small', 'large', 'XL' 등으로 교체해서 쓸 수 있음.",
+          "alternatives": [
+            { "en": "Is this available in medium?", "ko": "'available(구할 수 있는)'을 써서 같은 의미를 표현하는 변형." },
+            { "en": "Do you carry this in a medium?", "ko": "'carry'는 재고를 갖추고 있다는 뜻으로 미국에서 자주 쓰이는 표현." }
+          ]
+        },
+        {
+          "en": "Let me check in the back.",
+          "ko": "'the back'은 창고, 재고 보관 공간을 뜻함. 직원이 확인하러 간다고 할 때 쓰는 표현. 이 말이 들리면 잠깐 기다리면 됨.",
+          "alternatives": [
+            { "en": "I'll go check our stock.", "ko": "재고를 확인해 보겠다는 같은 의미의 표현." },
+            { "en": "Let me look in the stockroom.", "ko": "'stockroom(창고)'을 써서 더 구체적으로 표현한 버전." }
+          ]
+        },
+        {
+          "en": "Here you go.",
+          "ko": "물건을 건네줄 때 쓰는 가장 흔한 표현. 직역하면 어색하지만 '여기 있습니다'라는 뜻. 'Here it is'와 동일하게 쓸 수 있음.",
+          "alternatives": [
+            { "en": "Here it is.", "ko": "'Here you go'와 같은 상황에 쓰이는 표현." },
+            { "en": "There you go.", "ko": "'Here you go'와 거의 같은 뜻이나 약간 더 캐주얼한 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch25_d03",
+      "title": "다른 색상 요청하기",
+      "lines": [
+        { "speaker": "나", "en": "I like this style. Do you have it in another color?", "ko": "이 디자인이 마음에 들어요. 다른 색상도 있나요?" },
+        { "speaker": "점원", "en": "Yes, we have it in black, white, and navy.", "ko": "네, 블랙, 화이트, 네이비가 있습니다." },
+        { "speaker": "나", "en": "Can I see the black one, please?", "ko": "블랙 제품을 보여주시겠어요?" },
+        { "speaker": "점원", "en": "Of course, just a moment.", "ko": "물론이죠, 잠시만요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do you have it in another color?",
+          "ko": "같은 디자인의 다른 색상이 있는지 묻는 표현. 'another'는 '다른'이라는 뜻. 'Do you have it in blue?'처럼 특정 색을 지정해서 물을 수도 있음.",
+          "alternatives": [
+            { "en": "Does it come in other colors?", "ko": "'come in'은 '~색으로 나오다'는 뜻으로 색상 종류를 물을 때 쓰는 표현." },
+            { "en": "What colors is this available in?", "ko": "어떤 색상들이 있는지 전체 종류를 물어보는 표현." }
+          ]
+        },
+        {
+          "en": "Can I see the black one, please?",
+          "ko": "특정 색상의 제품을 보여달라고 할 때 쓰는 표현. 'one'은 앞에서 언급한 제품을 가리킴. 색상 이름만 바꾸면 다양한 상황에 응용 가능.",
+          "alternatives": [
+            { "en": "Could I take a look at the black one?", "ko": "'take a look at'은 살펴보다는 뜻으로 조금 더 정중한 표현." },
+            { "en": "May I see that in black?", "ko": "'May I'를 써서 더 격식 있게 요청하는 표현." }
+          ]
+        },
+        {
+          "en": "Just a moment.",
+          "ko": "잠깐 기다려달라는 짧은 표현. 직원이 물건을 가져오거나 확인할 때 자주 씀. 'One moment'와 동일하게 쓰임.",
+          "alternatives": [
+            { "en": "One moment, please.", "ko": "'please'를 추가해 더 격식 있게 만든 표현." },
+            { "en": "Give me a second.", "ko": "1초만이라는 뜻의 캐주얼한 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch25_d04",
+      "title": "탈의실 위치 묻기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, where is the fitting room?", "ko": "실례합니다, 탈의실이 어디 있나요?" },
+        { "speaker": "점원", "en": "It's in the back, on the left side.", "ko": "뒤쪽에 있습니다, 왼쪽이요." },
+        { "speaker": "나", "en": "Can I try this on?", "ko": "이거 입어봐도 될까요?" },
+        { "speaker": "점원", "en": "Sure! There's no limit on items.", "ko": "물론이요! 갯수 제한 없습니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Where is the fitting room?",
+          "ko": "탈의실 위치를 묻는 표준 표현. 'fitting room'은 미국·영국 모두 통용됨. 'dressing room'이라고도 하며 미국에서는 두 표현 모두 자연스럽게 쓰임.",
+          "alternatives": [
+            { "en": "Where are the changing rooms?", "ko": "영국식 표현으로 'changing room'을 쓴 버전. 복수형도 자주 사용." },
+            { "en": "Where can I try this on?", "ko": "탈의실 위치와 입어보기 허락을 동시에 묻는 실용적인 표현." }
+          ]
+        },
+        {
+          "en": "Can I try this on?",
+          "ko": "옷을 입어봐도 되는지 묻는 표현. 'try on'은 착용해보다는 뜻의 구동사. 'wear'는 이미 착용 중인 상태를 나타내므로 이 상황에는 'try on'이 맞는 표현.",
+          "alternatives": [
+            { "en": "May I try this on?", "ko": "'May I'를 써서 더 정중하게 물어보는 표현." },
+            { "en": "Is it okay if I try this on?", "ko": "허락을 구하는 간접적인 표현으로 더 부드럽게 들림." }
+          ]
+        },
+        {
+          "en": "There's no limit on items.",
+          "ko": "가져갈 수 있는 옷 갯수에 제한이 없다는 표현. 많은 매장에서 탈의실 이용 시 갯수를 제한하므로 직원의 이 말을 들으면 원하는 만큼 가져가도 됨.",
+          "alternatives": [
+            { "en": "You can take as many as you like.", "ko": "원하는 만큼 가져가도 된다는 뜻의 표현." },
+            { "en": "No restrictions on the number of items.", "ko": "갯수 제한이 없다는 더 격식 있는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch25_d05",
+      "title": "더 크거나 작은 사이즈 요청하기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, this is a bit tight. Can I get a size up?", "ko": "실례합니다, 이게 좀 꽉 끼네요. 한 사이즈 큰 거 있을까요?" },
+        { "speaker": "점원", "en": "Of course. I'll bring you a large.", "ko": "물론이죠. 라지로 가져다 드릴게요." },
+        { "speaker": "나", "en": "Thank you. The medium fits well in shoulders but it's too tight in the chest.", "ko": "감사합니다. 미디엄은 어깨는 맞는데 가슴이 너무 꽉 끼네요." },
+        { "speaker": "점원", "en": "The large should give you more room there.", "ko": "라지는 거기에 더 여유가 있을 거예요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Can I get a size up?",
+          "ko": "'a size up'은 한 사이즈 크게, 'a size down'은 한 사이즈 작게라는 뜻. 'go up/down a size'라고도 함. 탈의실에서 맞지 않을 때 가장 유용한 표현.",
+          "alternatives": [
+            { "en": "Do you have the next size up?", "ko": "'the next size up'은 바로 위 사이즈를 의미하는 표현." },
+            { "en": "Could I try a larger size?", "ko": "더 큰 사이즈를 시도해 보고 싶다는 정중한 요청." }
+          ]
+        },
+        {
+          "en": "It's a bit tight.",
+          "ko": "옷이 조금 꽉 낀다는 표현. 'too tight'이면 매우 불편할 정도로 꽉 끼는 것이고, 'a bit tight'은 약간 끼는 것. 반대는 'a bit loose(조금 헐렁한)'.",
+          "alternatives": [
+            { "en": "It's too small.", "ko": "사이즈 자체가 너무 작다는 더 직접적인 표현." },
+            { "en": "It doesn't quite fit.", "ko": "잘 맞지 않는다는 완곡한 표현으로 딱 맞지 않을 때 쓸 수 있음." }
+          ]
+        },
+        {
+          "en": "It gives you more room.",
+          "ko": "'room'은 여기서 공간, 여유를 뜻함. 옷이 헐렁하게 맞아 여유가 있다는 표현. 'more room in the chest/shoulders'처럼 부위를 지정할 수 있음.",
+          "alternatives": [
+            { "en": "It's a better fit.", "ko": "더 잘 맞는다는 간결한 표현." },
+            { "en": "It has more space.", "ko": "'room' 대신 'space'를 써서 더 여유롭다는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch25_d06",
+      "title": "세일·가격 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, is this on sale?", "ko": "실례합니다, 이 상품 세일 중인가요?" },
+        { "speaker": "점원", "en": "Yes! It's thirty percent off this week.", "ko": "네! 이번 주 30퍼센트 할인입니다." },
+        { "speaker": "나", "en": "That's a great deal. How much is it after the discount?", "ko": "좋은 가격이네요. 할인 후 가격이 얼마인가요?" },
+        { "speaker": "점원", "en": "It comes out to forty-two dollars.", "ko": "42달러 됩니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Is this on sale?",
+          "ko": "세일 중인지 묻는 가장 간단한 표현. 'on sale'은 '할인 중'이라는 뜻. 주의: 'for sale'은 '판매 중'이라는 전혀 다른 뜻이므로 혼동하지 말 것.",
+          "alternatives": [
+            { "en": "Is there a discount on this?", "ko": "할인이 있는지 묻는 표현으로 'on sale'과 같은 의미." },
+            { "en": "Is this marked down?", "ko": "'marked down'은 가격이 내려갔다는 뜻으로 세일 중임을 묻는 표현." }
+          ]
+        },
+        {
+          "en": "It's thirty percent off.",
+          "ko": "'percent off'는 몇 퍼센트 할인이라는 표현. '30% off'를 'thirty percent off'라고 읽음. 반값은 'fifty percent off' 또는 'half off'라고 함.",
+          "alternatives": [
+            { "en": "It's thirty percent off the original price.", "ko": "원래 가격에서 30퍼센트 할인이라는 더 명확한 표현." },
+            { "en": "It's been reduced by thirty percent.", "ko": "30퍼센트 인하됐다는 표현으로 더 격식 있는 표현." }
+          ]
+        },
+        {
+          "en": "It comes out to ~.",
+          "ko": "계산 결과가 ~이 된다는 표현. 할인이나 세금 적용 후 최종 금액을 알려줄 때 직원이 자주 씀. 'It comes to ~'라고도 함.",
+          "alternatives": [
+            { "en": "The total is ~.", "ko": "총액이 얼마라는 직접적인 표현." },
+            { "en": "After the discount, it's ~.", "ko": "할인 후 가격이 얼마라고 명시하는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch25_d07",
+      "title": "선물 포장 요청하기",
+      "lines": [
+        { "speaker": "나", "en": "Could you gift wrap this, please?", "ko": "이거 선물 포장해 주실 수 있나요?" },
+        { "speaker": "점원", "en": "Of course! Is it for a special occasion?", "ko": "물론이죠! 특별한 날을 위한 건가요?" },
+        { "speaker": "나", "en": "Yes, it's for a birthday.", "ko": "네, 생일 선물이에요." },
+        { "speaker": "점원", "en": "We'll take care of it. Gift wrapping is complimentary.", "ko": "준비해 드리겠습니다. 선물 포장은 무료입니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Could you gift wrap this, please?",
+          "ko": "선물 포장을 요청하는 표현. 'gift wrap'은 동사로도 쓰임. 리본이나 상자를 원하면 'with a ribbon', 'in a box'처럼 추가로 말할 수 있음.",
+          "alternatives": [
+            { "en": "Can you wrap this as a gift?", "ko": "선물로 포장해달라는 같은 의미의 표현." },
+            { "en": "Do you offer gift wrapping?", "ko": "선물 포장 서비스가 있는지 먼저 확인하는 표현." }
+          ]
+        },
+        {
+          "en": "It's for a birthday.",
+          "ko": "생일 선물임을 알려주는 표현. 점원이 포장 스타일이나 색상을 맞춤 제안할 수 있음. 'anniversary(기념일)', 'wedding(결혼식)' 등으로 교체 가능.",
+          "alternatives": [
+            { "en": "It's a birthday gift.", "ko": "생일 선물이라는 간결한 표현." },
+            { "en": "It's a gift for my friend's birthday.", "ko": "친구 생일 선물임을 더 구체적으로 설명하는 표현." }
+          ]
+        },
+        {
+          "en": "Gift wrapping is complimentary.",
+          "ko": "'complimentary'는 무료 제공이라는 뜻. 'free'와 같지만 더 격식 있는 표현. 서비스직에서 자주 쓰이므로 들으면 추가 비용이 없다는 것을 의미함.",
+          "alternatives": [
+            { "en": "Gift wrapping is free of charge.", "ko": "'free of charge'는 무료라는 공식 표현." },
+            { "en": "There's no extra charge for gift wrapping.", "ko": "포장 추가 비용이 없다는 더 직접적인 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch25_d08",
+      "title": "재고 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Hi, do you have this jacket in stock?", "ko": "안녕하세요, 이 재킷 재고 있나요?" },
+        { "speaker": "점원", "en": "Let me check our inventory for you.", "ko": "재고를 확인해 드리겠습니다." },
+        { "speaker": "점원", "en": "I'm sorry, we're out of stock on that item.", "ko": "죄송합니다, 그 상품은 품절입니다." },
+        { "speaker": "나", "en": "Oh no. When will you get more in?", "ko": "이런. 언제 재입고되나요?" }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do you have this in stock?",
+          "ko": "재고가 있는지 묻는 표준 표현. 'in stock'은 재고 있음, 'out of stock'은 품절이라는 뜻. 온라인 쇼핑에서도 자주 볼 수 있는 표현.",
+          "alternatives": [
+            { "en": "Is this still available?", "ko": "아직 구할 수 있는지 묻는 표현으로 재고 확인에 쓸 수 있음." },
+            { "en": "Do you have any left?", "ko": "남은 재고가 있는지 묻는 캐주얼한 표현." }
+          ]
+        },
+        {
+          "en": "We're out of stock.",
+          "ko": "품절이라는 표현. 직원이 이 말을 하면 현재 살 수 없다는 의미. 'sold out'도 같은 의미로 쓰이며 의류보다는 이벤트 티켓 등에 더 자주 씀.",
+          "alternatives": [
+            { "en": "We've sold out of that.", "ko": "'sold out'을 쓴 표현으로 이미 다 팔렸다는 뜻." },
+            { "en": "That's currently unavailable.", "ko": "현재 구할 수 없다는 더 부드럽고 격식 있는 표현." }
+          ]
+        },
+        {
+          "en": "When will you get more in?",
+          "ko": "재입고 일정을 물어보는 표현. 'get more in'은 '더 들어오다'는 뜻. 'restock'이라는 단어를 써서 'When will it be restocked?'라고도 할 수 있음.",
+          "alternatives": [
+            { "en": "When will it be back in stock?", "ko": "언제 재고가 다시 생기는지 묻는 표현." },
+            { "en": "Can I place a back order?", "ko": "재입고 후 자동 주문(예약 주문)이 가능한지 묻는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch25_d09",
+      "title": "카드 결제 및 면세 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Do you accept credit cards?", "ko": "신용카드 받으시나요?" },
+        { "speaker": "점원", "en": "Yes, we accept Visa, Mastercard, and Amex.", "ko": "네, 비자, 마스터카드, 아멕스 받습니다." },
+        { "speaker": "나", "en": "Great. Is this store tax-free for tourists?", "ko": "좋아요. 이 가게 관광객 면세 되나요?" },
+        { "speaker": "점원", "en": "Yes, we offer a VAT refund. Just show your passport at checkout.", "ko": "네, 부가세 환급 됩니다. 계산할 때 여권 보여주세요." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "Do you accept credit cards?",
+          "ko": "신용카드를 받는지 묻는 표현. 'accept'는 받다, 수락하다는 뜻. 현금이나 앱 결제를 묻고 싶으면 'cash', 'mobile payment'로 바꿔서 쓸 수 있음.",
+          "alternatives": [
+            { "en": "Can I pay by card?", "ko": "카드로 결제할 수 있는지 묻는 더 간단한 표현." },
+            { "en": "Do you take card payments?", "ko": "'take'를 써서 카드 결제가 되는지 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Is this store tax-free for tourists?",
+          "ko": "관광객 면세 혜택이 있는지 묻는 표현. 유럽 여행 시 특히 유용. 'tax-free' 또는 'duty-free'라는 표현을 알아두면 쇼핑 시 유리함.",
+          "alternatives": [
+            { "en": "Do you offer a tax refund for visitors?", "ko": "방문객 세금 환급이 되는지 묻는 표현." },
+            { "en": "Can I get a VAT refund here?", "ko": "부가세 환급이 가능한지 직접 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Show your passport at checkout.",
+          "ko": "계산할 때 여권을 제시하라는 표현. 면세 혜택을 받으려면 여권이 필요함. 'at checkout'은 '계산할 때, 계산대에서'라는 뜻.",
+          "alternatives": [
+            { "en": "We'll need to see your passport.", "ko": "여권을 봐야 한다는 뜻으로 같은 상황에서 직원이 쓰는 표현." },
+            { "en": "Please bring your passport to the register.", "ko": "계산대에 여권을 가져오라는 표현." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch25_d10",
+      "title": "교환·환불 정책 확인하기",
+      "lines": [
+        { "speaker": "나", "en": "Excuse me, what is your return policy?", "ko": "실례합니다, 환불 정책이 어떻게 되나요?" },
+        { "speaker": "점원", "en": "You can return or exchange items within thirty days with a receipt.", "ko": "영수증 지참 시 30일 이내 환불이나 교환이 가능합니다." },
+        { "speaker": "나", "en": "What if the item is a final sale?", "ko": "세일 상품은 어떻게 되나요?" },
+        { "speaker": "점원", "en": "Final sale items cannot be returned or exchanged.", "ko": "세일 상품은 환불이나 교환이 불가합니다." }
+      ],
+      "keyExpressions": [
+        {
+          "en": "What is your return policy?",
+          "ko": "환불·교환 정책을 묻는 표준 표현. 구매 전에 반드시 확인하면 좋은 질문. 'return'은 환불, 'exchange'는 교환을 의미함.",
+          "alternatives": [
+            { "en": "Can I return this if it doesn't fit?", "ko": "맞지 않을 경우 환불 가능한지 묻는 더 구체적인 표현." },
+            { "en": "What's your exchange policy?", "ko": "교환 정책을 구체적으로 묻는 표현." }
+          ]
+        },
+        {
+          "en": "Within thirty days with a receipt.",
+          "ko": "영수증을 지참하고 30일 이내에라는 조건. 해외 쇼핑 시 영수증을 반드시 보관해야 하는 이유. 'with a receipt'에서 'receipt'의 p는 묵음이므로 '리싯'으로 발음함.",
+          "alternatives": [
+            { "en": "As long as you have your receipt.", "ko": "영수증만 있으면 된다는 표현." },
+            { "en": "Within a month of purchase.", "ko": "구매 후 한 달 이내라는 다른 표현." }
+          ]
+        },
+        {
+          "en": "Final sale items cannot be returned.",
+          "ko": "'final sale'은 최종 할인 상품으로 보통 환불·교환이 불가. 영수증이나 매장 안내판에서 자주 보이는 표현. 구매 전 이 표시가 있는지 확인하는 습관을 들이자.",
+          "alternatives": [
+            { "en": "All sales are final.", "ko": "모든 판매가 최종이라는 표현으로 환불 불가 정책을 의미함." },
+            { "en": "This item is non-refundable.", "ko": "이 상품은 환불 불가라는 직접적인 표현." }
+          ]
+        }
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set01",
+      "questions": [
+        {
+          "id": "se_ch25_set01_001",
+          "type": "multiple_choice",
+          "question": "옷가게에서 직원이 다가왔을 때 '그냥 둘러보는 중이에요'라고 말하는 자연스러운 표현은?",
+          "options": [
+            "I'm just looking.",
+            "I'm only watching.",
+            "I don't need clothes.",
+            "Please leave me alone."
+          ],
+          "answerIndex": 0,
+          "explanation": "'I'm just looking.'은 도움 없이 둘러보겠다는 표준 표현입니다. 'just'가 핵심으로 빠지면 뭔가를 찾고 있다는 뉘앙스가 됩니다. 'watching'은 보통 영상 등을 볼 때 쓰는 단어라 어색하고, 나머지는 불필요하게 무례한 표현입니다."
+        },
+        {
+          "id": "se_ch25_set01_002",
+          "type": "multiple_choice",
+          "question": "미디엄 사이즈가 있는지 물어볼 때 가장 자연스러운 표현은?",
+          "options": [
+            "Give me a medium.",
+            "Do you have this in a medium?",
+            "Medium is my size.",
+            "I want medium."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do you have this in a medium?'은 'Do you have this in a + 사이즈?' 패턴으로 가장 자연스러운 표현입니다. 나머지 표현들은 문법적으로 어색하거나 무례하게 들립니다."
+        },
+        {
+          "id": "se_ch25_set01_003",
+          "type": "multiple_choice",
+          "question": "탈의실 위치를 물어볼 때 가장 적절한 표현은?",
+          "options": [
+            "Where is the bathroom?",
+            "Where do I change?",
+            "Where is the fitting room?",
+            "Can I use the dressing area?"
+          ],
+          "answerIndex": 2,
+          "explanation": "'Where is the fitting room?'은 탈의실 위치를 묻는 표준 표현입니다. 'fitting room' 또는 'dressing room' 모두 탈의실을 뜻합니다. 'bathroom'은 화장실이고, 'dressing area'는 일반적이지 않은 표현입니다."
+        },
+        {
+          "id": "se_ch25_set01_004",
+          "type": "multiple_choice",
+          "question": "입어본 옷이 작아서 한 사이즈 큰 것을 요청할 때 알맞은 표현은?",
+          "options": [
+            "Can I get a size up?",
+            "Can I get a size down?",
+            "This size is wrong.",
+            "I need a bigger number."
+          ],
+          "answerIndex": 0,
+          "explanation": "'a size up'은 한 사이즈 크게라는 뜻입니다. 반대로 'a size down'은 한 사이즈 작게라는 뜻이므로 혼동하지 않도록 주의해야 합니다. 나머지 표현들은 어색하거나 의미가 불명확합니다."
+        },
+        {
+          "id": "se_ch25_set01_005",
+          "type": "multiple_choice",
+          "question": "이 상품이 세일 중인지 묻는 표현으로 올바른 것은?",
+          "options": [
+            "Is this for sale?",
+            "Is this on sale?",
+            "Does this have a sale?",
+            "Is this discounted price?"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Is this on sale?'은 할인 중인지 묻는 표현입니다. 주의: 'for sale'은 '판매 중'이라는 완전히 다른 뜻입니다. 'on sale'이 할인을 의미한다는 점이 한국인이 자주 헷갈리는 부분입니다."
+        },
+        {
+          "id": "se_ch25_set01_006",
+          "type": "multiple_choice",
+          "question": "선물 포장을 요청할 때 가장 자연스러운 표현은?",
+          "options": [
+            "Please wrap it beautifully.",
+            "Could you gift wrap this, please?",
+            "Make it a gift box.",
+            "I need a wrapper."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Could you gift wrap this, please?'는 선물 포장을 정중하게 요청하는 표준 표현입니다. 'gift wrap'을 동사로 사용합니다. 'wrapper'는 사탕 포장지 등을 뜻하므로 이 상황에 적합하지 않습니다."
+        },
+        {
+          "id": "se_ch25_set01_007",
+          "type": "multiple_choice",
+          "question": "직원이 'We're out of stock.'이라고 했습니다. 무슨 뜻인가요?",
+          "options": [
+            "재고가 많이 있습니다.",
+            "새 상품이 입고됐습니다.",
+            "품절입니다.",
+            "그 상품은 할인 중입니다."
+          ],
+          "answerIndex": 2,
+          "explanation": "'out of stock'은 재고가 없어 품절이라는 뜻입니다. 반대는 'in stock(재고 있음)'입니다. 'sold out'도 같은 의미로 쓰입니다. 재고 확인 시 핵심 표현이므로 반드시 기억해 두세요."
+        },
+        {
+          "id": "se_ch25_set01_008",
+          "type": "multiple_choice",
+          "question": "환불·교환 정책을 물어볼 때 알맞은 표현은?",
+          "options": [
+            "What is your return policy?",
+            "Can I give this back?",
+            "What is your money-back rule?",
+            "How do I undo my purchase?"
+          ],
+          "answerIndex": 0,
+          "explanation": "'What is your return policy?'는 환불·교환 정책을 묻는 표준 표현입니다. 'return policy'는 상점의 반품·환불 정책을 뜻하는 공식 용어입니다. 나머지 표현들은 어색하거나 비공식적입니다."
+        },
+        {
+          "id": "se_ch25_set01_009",
+          "type": "multiple_choice",
+          "question": "신용카드 결제가 되는지 물어보는 표현으로 가장 자연스러운 것은?",
+          "options": [
+            "Can I use plastic?",
+            "Do you accept credit cards?",
+            "Credit card is possible?",
+            "I have a card."
+          ],
+          "answerIndex": 1,
+          "explanation": "'Do you accept credit cards?'는 신용카드 결제 여부를 묻는 표준 표현입니다. 'accept'는 받아들이다, 수락하다는 뜻입니다. 'Can I use plastic?'은 속어로 신용카드를 'plastic'이라 부르는 표현이지만 공식적인 상황에서는 어색할 수 있습니다."
+        },
+        {
+          "id": "se_ch25_set01_010",
+          "type": "multiple_choice",
+          "question": "점원이 'Gift wrapping is complimentary.'라고 했습니다. 무슨 뜻인가요?",
+          "options": [
+            "선물 포장은 추가 비용이 있습니다.",
+            "선물 포장은 무료입니다.",
+            "선물 포장은 시간이 걸립니다.",
+            "선물 포장은 지금 불가합니다."
+          ],
+          "answerIndex": 1,
+          "explanation": "'complimentary'는 무료 제공이라는 뜻입니다. 'free' 또는 'free of charge'와 같은 의미이지만 더 격식 있는 표현입니다. 호텔, 항공사, 상점 서비스에서 자주 쓰이므로 기억해두면 유용합니다."
+        },
+        {
+          "id": "se_ch25_set01_011",
+          "type": "ox",
+          "question": "옷가게에서 탈의실을 영어로 'fitting room' 또는 'dressing room'이라고 한다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'fitting room'과 'dressing room' 모두 탈의실을 뜻하며 미국, 영국 어디서나 통용됩니다. 영국에서는 'changing room'도 자주 씁니다."
+        },
+        {
+          "id": "se_ch25_set01_012",
+          "type": "ox",
+          "question": "'Is this for sale?'과 'Is this on sale?'은 같은 뜻이다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'for sale'은 '판매 중(살 수 있다)'는 뜻이고, 'on sale'은 '할인 중'이라는 뜻으로 전혀 다릅니다. 가격 할인을 물어볼 때는 반드시 'on sale'을 사용해야 합니다."
+        },
+        {
+          "id": "se_ch25_set01_013",
+          "type": "ox",
+          "question": "'Can I try this on?'에서 'try on'은 '착용해보다'라는 뜻의 구동사이다.",
+          "answerIndex": 0,
+          "explanation": "참입니다. 'try on'은 옷, 신발 등을 착용해본다는 뜻의 구동사입니다. 'wear'는 이미 착용 중인 상태를 나타내므로 탈의실에서 입어보겠다고 할 때는 'try on'을 써야 합니다."
+        },
+        {
+          "id": "se_ch25_set01_014",
+          "type": "ox",
+          "question": "'a size up'은 한 사이즈 작은 것을 의미한다.",
+          "answerIndex": 1,
+          "explanation": "거짓입니다. 'a size up'은 한 사이즈 크게, 'a size down'은 한 사이즈 작게라는 뜻입니다. 옷이 꽉 낄 때는 'a size up', 헐렁할 때는 'a size down'을 요청합니다."
+        }
+      ]
+    }
+  ]
 }
