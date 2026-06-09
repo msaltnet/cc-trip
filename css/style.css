@@ -223,6 +223,14 @@ body {
   border-radius: 999px;
   padding: 2px 10px;
 }
+.dlg-hint {
+  margin: 0 0 var(--space-4);
+  font-size: 0.86rem;
+  color: var(--color-text-soft);
+  background: var(--color-correct-bg);
+  border-radius: var(--radius-sm);
+  padding: var(--space-2) var(--space-3);
+}
 .dlg-lines {
   display: flex;
   flex-direction: column;
@@ -238,23 +246,81 @@ body {
   font-size: 0.82rem;
   font-weight: 700;
   color: var(--color-text-soft);
-  padding-top: 2px;
+  padding-top: var(--space-3);
 }
+/* 누르면 한국어 번역이 토글되는 대사 버튼 */
 .dlg-text {
   display: flex;
   flex-direction: column;
   gap: 2px;
   background: var(--color-bg);
+  border: 1px solid transparent;
   border-radius: var(--radius-sm);
   padding: var(--space-3) var(--space-4);
   flex: 1;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+  position: relative;
+  transition: border-color 0.15s, background 0.15s;
+}
+.dlg-text:hover {
+  border-color: var(--color-border);
+}
+.dlg-text.revealed {
+  background: #eef3ff;
 }
 .dlg-en {
   font-weight: 600;
   color: var(--color-text);
+  padding-right: 18px;
 }
+/* 한국어 번역: 기본 숨김, .revealed 일 때만 표시 */
 .dlg-ko {
+  display: none;
   font-size: 0.92rem;
+  color: var(--color-text-soft);
+}
+.dlg-text.revealed .dlg-ko {
+  display: block;
+}
+/* 접힘/펼침 표시 (▾) */
+.dlg-text::after {
+  content: "▾";
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  font-size: 0.8rem;
+  color: var(--color-disabled);
+  transition: transform 0.15s;
+}
+.dlg-text.revealed::after {
+  transform: rotate(180deg);
+  color: var(--color-primary);
+}
+/* 핵심 표현의 대체 표현 목록 */
+.dlg-alts {
+  list-style: none;
+  margin: var(--space-2) 0 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.dlg-alts li {
+  font-size: 0.86rem;
+  color: var(--color-text-soft);
+}
+.dlg-alts li::before {
+  content: "↔ ";
+  color: var(--color-accent);
+}
+.dlg-alts code {
+  font-weight: 600;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+.alt-ko {
   color: var(--color-text-soft);
 }
 .dlg-key {

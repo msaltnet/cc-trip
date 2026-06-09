@@ -50,28 +50,48 @@
 
     const dialogues = chapter.dialogues || [];
     if (dialogues.length) {
-      sectionsEl.innerHTML = dialogues
+      var hint =
+        '<p class="dlg-hint">💡 영어 대사를 누르면 한국어 번역이 나와요. 다시 누르면 숨겨집니다.</p>';
+      sectionsEl.innerHTML =
+        hint +
+        dialogues
         .map(function (d, i) {
           var lines = (d.lines || [])
             .map(function (ln) {
+              // 대사를 누르면 한국어 번역이 토글됩니다(기본 숨김).
               return (
                 '<div class="dlg-line"><span class="dlg-speaker">' +
                 esc(ln.speaker || "") +
-                '</span><span class="dlg-text"><span class="dlg-en">' +
+                '</span><button type="button" class="dlg-text" aria-expanded="false"><span class="dlg-en">' +
                 esc(ln.en || "") +
                 '</span><span class="dlg-ko">' +
                 esc(ln.ko || "") +
-                "</span></span></div>"
+                "</span></button></div>"
               );
             })
             .join("");
           var exprs = (d.keyExpressions || [])
             .map(function (e) {
+              var alts = (e.alternatives || [])
+                .map(function (a) {
+                  return (
+                    '<li><code>' +
+                    esc(a.en || "") +
+                    '</code> <span class="alt-ko">' +
+                    esc(a.ko || "") +
+                    "</span></li>"
+                  );
+                })
+                .join("");
+              var altBlock = alts
+                ? '<ul class="dlg-alts">' + alts + "</ul>"
+                : "";
               return (
                 '<li><code>' +
                 esc(e.en || "") +
                 "</code> — " +
                 esc(e.ko || "") +
+                altBlock +
                 "</li>"
               );
             })
@@ -92,7 +112,15 @@
             "</div>"
           );
         })
-        .join("");
+          .join("");
+
+      // 대사 클릭 시 한국어 번역 토글 (이벤트 위임).
+      sectionsEl.addEventListener("click", function (e) {
+        var btn = e.target.closest(".dlg-text");
+        if (!btn) return;
+        var revealed = btn.classList.toggle("revealed");
+        btn.setAttribute("aria-expanded", revealed ? "true" : "false");
+      });
     } else {
       // 구버전 콘텐츠 호환: 설명 본문(sections) 렌더.
       var sections = chapter.sections || [];

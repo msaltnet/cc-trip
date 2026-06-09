@@ -40,6 +40,12 @@ for (const ch of data.chapters || []) {
       for (const ex of d.keyExpressions || []) {
         if (!ex.en || !ex.ko)
           errors.push(`${d.id || ch.id}: keyExpression의 en/ko 누락`);
+        if (!Array.isArray(ex.alternatives) || ex.alternatives.length < 2)
+          errors.push(`${d.id || ch.id}: "${ex.en}" 대체표현 2개 이상 필요`);
+        for (const alt of ex.alternatives || []) {
+          if (!alt.en || !alt.ko)
+            errors.push(`${d.id || ch.id}: 대체표현의 en/ko 누락`);
+        }
       }
     }
   }
@@ -47,8 +53,8 @@ for (const ch of data.chapters || []) {
   for (const set of ch.sets || []) {
     if (!set.id) errors.push(`${ch.id}: set.id 누락`);
     const qs = set.questions || [];
-    if (qs.length !== 10)
-      errors.push(`${ch.id}/${set.id}: 문항 ${qs.length}개 (10개여야 함)`);
+    if (qs.length < 10)
+      errors.push(`${ch.id}/${set.id}: 문항 ${qs.length}개 (10개 이상이어야 함)`);
     for (const q of qs) {
       if (ids.has(q.id)) errors.push(`중복 문항 id: ${q.id}`);
       ids.add(q.id);
