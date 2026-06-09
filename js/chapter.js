@@ -48,18 +48,66 @@
     titleEl.textContent = chapter.title;
     subEl.textContent = chapter.summary || "";
 
-    const sections = chapter.sections || [];
-    sectionsEl.innerHTML = sections
-      .map(function (s) {
-        return (
-          '<div class="section-block"><h3>' +
-          esc(s.heading || "") +
-          "</h3><p>" +
-          esc(s.body || "") +
-          "</p></div>"
-        );
-      })
-      .join("");
+    const dialogues = chapter.dialogues || [];
+    if (dialogues.length) {
+      sectionsEl.innerHTML = dialogues
+        .map(function (d, i) {
+          var lines = (d.lines || [])
+            .map(function (ln) {
+              return (
+                '<div class="dlg-line"><span class="dlg-speaker">' +
+                esc(ln.speaker || "") +
+                '</span><span class="dlg-text"><span class="dlg-en">' +
+                esc(ln.en || "") +
+                '</span><span class="dlg-ko">' +
+                esc(ln.ko || "") +
+                "</span></span></div>"
+              );
+            })
+            .join("");
+          var exprs = (d.keyExpressions || [])
+            .map(function (e) {
+              return (
+                '<li><code>' +
+                esc(e.en || "") +
+                "</code> — " +
+                esc(e.ko || "") +
+                "</li>"
+              );
+            })
+            .join("");
+          var exprBlock = exprs
+            ? '<div class="dlg-key"><h4>핵심 표현</h4><ul>' + exprs + "</ul></div>"
+            : "";
+          return (
+            '<div class="dialogue-block"><h3><span class="dlg-num">대화 ' +
+            (i + 1) +
+            "</span>" +
+            esc(d.title || "") +
+            "</h3>" +
+            '<div class="dlg-lines">' +
+            lines +
+            "</div>" +
+            exprBlock +
+            "</div>"
+          );
+        })
+        .join("");
+    } else {
+      // 구버전 콘텐츠 호환: 설명 본문(sections) 렌더.
+      var sections = chapter.sections || [];
+      sectionsEl.innerHTML = sections
+        .map(function (s) {
+          return (
+            '<div class="section-block"><h3>' +
+            esc(s.heading || "") +
+            "</h3><p>" +
+            esc(s.body || "") +
+            "</p></div>"
+          );
+        })
+        .join("");
+    }
 
     // 문제 유무에 따라 시작 버튼 활성/비활성.
     startArea.hidden = false;

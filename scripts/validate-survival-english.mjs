@@ -14,8 +14,35 @@ for (const ch of data.chapters || []) {
   if (ch.id <= prev) errors.push(`챕터 순서 오류: ${ch.id} (이전 ${prev})`);
   prev = ch.id;
   if (!ch.title || !ch.summary) errors.push(`${ch.id}: title/summary 누락`);
-  if (!Array.isArray(ch.sections) || ch.sections.length < 1)
-    errors.push(`${ch.id}: sections 누락`);
+
+  // 학습 본문: 신버전 dialogues 또는 구버전 sections 중 하나는 있어야 함.
+  const hasDialogues = Array.isArray(ch.dialogues) && ch.dialogues.length > 0;
+  const hasSections = Array.isArray(ch.sections) && ch.sections.length > 0;
+  if (!hasDialogues && !hasSections)
+    errors.push(`${ch.id}: dialogues(또는 sections) 누락`);
+
+  if (hasDialogues) {
+    if (ch.dialogues.length !== 10)
+      errors.push(`${ch.id}: 대화 ${ch.dialogues.length}개 (10개여야 함)`);
+    for (const d of ch.dialogues) {
+      if (!d.id) errors.push(`${ch.id}: dialogue.id 누락`);
+      else if (ids.has(d.id)) errors.push(`중복 대화 id: ${d.id}`);
+      else ids.add(d.id);
+      if (!d.title) errors.push(`${d.id || ch.id}: dialogue.title 누락`);
+      if (!Array.isArray(d.lines) || d.lines.length < 2)
+        errors.push(`${d.id || ch.id}: lines 2줄 이상 필요`);
+      for (const ln of d.lines || []) {
+        if (!ln.speaker || !ln.en || !ln.ko)
+          errors.push(`${d.id || ch.id}: line의 speaker/en/ko 누락`);
+      }
+      if (!Array.isArray(d.keyExpressions) || d.keyExpressions.length < 1)
+        errors.push(`${d.id || ch.id}: keyExpressions 1개 이상 필요`);
+      for (const ex of d.keyExpressions || []) {
+        if (!ex.en || !ex.ko)
+          errors.push(`${d.id || ch.id}: keyExpression의 en/ko 누락`);
+      }
+    }
+  }
 
   for (const set of ch.sets || []) {
     if (!set.id) errors.push(`${ch.id}: set.id 누락`);
