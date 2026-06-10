@@ -32,12 +32,11 @@
 
     listEl.innerHTML = chapters
       .map(function (ch) {
-        const sets = window.DATA.setCount(ch);
         const playable = window.DATA.hasQuestions(ch);
         const rec = window.PROGRESS ? window.PROGRESS.getChapter(catId, ch.id) : null;
         const done = !!(rec && rec.attempts > 0);
 
-        // 완료 시: 체크 + "최고 8/14" 배지. 미완료: 기존 "N세트"/"준비 중" 배지.
+        // 완료 시: 체크 + "최고 8/14" 배지. 미완료 재생 가능: 배지 없음. 문제 없음: "준비 중".
         const badge = done
           ? '<span class="card-badge card-badge--score">최고 ' +
             rec.bestCorrect +
@@ -45,7 +44,7 @@
             rec.bestTotal +
             "</span>"
           : playable
-          ? '<span class="card-badge">' + sets + "세트</span>"
+          ? ""
           : '<span class="card-badge">준비 중</span>';
         const check = done
           ? '<span class="card-check" aria-label="완료">✓</span> '

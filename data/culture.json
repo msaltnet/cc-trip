@@ -4,8 +4,8 @@
   "chapters": [
     {
       "id": "ch01",
-      "title": "팁 문화의 유래와 나라별 차이",
-      "summary": "봉사료의 역사, 나라별 팁 관습",
+      "title": "식사와 팁: 유럽 레스토랑 문화",
+      "summary": "팁의 유래·봉사료, 느린 식사·물·계산 문화",
       "sections": [
         {
           "heading": "팁은 어디서 왔나",
@@ -26,6 +26,26 @@
         {
           "heading": "나라별 감각",
           "body": "프랑스와 이탈리아는 계산서에 봉사료가 포함된 경우가 많아 추가 팁은 선택 사항이다. 폴란드·체코 같은 동유럽 국가에서는 대체로 5~10%를 기대하는 분위기다. 카페에서 에스프레소 한 잔만 마신 경우에는 잔돈 동전 몇 개를 두고 가는 정도면 충분하다."
+        },
+        {
+          "heading": "식사는 느리게 즐기는 것",
+          "body": "유럽의 식당 문화는 미국식 패스트푸드나 한국의 빠른 회전율 중심 식당과 다르다. 이탈리아나 프랑스에서는 저녁 식사가 두세 시간을 넘기는 일이 흔하며, 종업원이 빨리 계산서를 들고 오지 않는 것은 무례가 아니라 손님을 재촉하지 않으려는 배려다. 식사 자체를 하루의 중요한 문화적 시간으로 여기는 전통이 이 느린 리듬을 만들어냈다."
+        },
+        {
+          "heading": "물도 주문한다",
+          "body": "유럽 식당에서는 자리에 앉아도 물이 자동으로 나오지 않는 경우가 많다. 수돗물(tap water)을 요청할 수 있지만 일부 나라에서는 거절하거나 병물만 제공하는 문화가 있다. 탄산이 없는 still water와 탄산수 sparkling water 모두 병물은 보통 유료이므로, 주문 전 확인하는 것이 좋다."
+        },
+        {
+          "heading": "빵과 자릿세(coperto)",
+          "body": "이탈리아 등 일부 유럽 국가 식당에서는 자리에 앉으면 빵이 나오는 경우가 있는데, 이때 'coperto'라는 자릿세가 1인당 1~3유로 정도 계산서에 청구된다. 이것은 바가지가 아니라 자리·빵·기본 세팅값을 포함한 관습적 비용이며, 사전에 메뉴판이나 입구 안내문에 표시되는 경우가 많다."
+        },
+        {
+          "heading": "계산은 테이블에서",
+          "body": "유럽 식당에서는 먹고 나서 계산대로 걸어가는 것이 아니라, 자리에 앉은 채 종업원을 불러 'Check, please.' 혹은 'The bill, please.'라고 요청하는 것이 일반적이다. 종업원은 카드 단말기를 테이블로 직접 가져다주며, 이는 카드 정보 보안 측면에서도 유럽이 오래전부터 정착시킨 방식이다."
+        },
+        {
+          "heading": "자리 안내를 기다린다",
+          "body": "많은 유럽 식당에서는 입구에 서서 종업원의 안내를 기다리는 것이 기본 예절이다. 빈자리가 보인다고 바로 가서 앉으면 예약석이거나 다른 이유로 비어 있는 자리일 수 있다. 'Table for two?'처럼 인원수를 말하며 안내를 요청하면 자연스럽게 원하는 자리로 안내받을 수 있다."
         }
       ],
       "sets": [
@@ -379,41 +399,12 @@
               "explanation": "'servizio compreso'는 이탈리아어로 '봉사료 포함'이라는 뜻이며, 이 경우 추가 팁 의무는 없다."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "ch02",
-      "title": "식탁 위의 규칙: 유럽 식사 문화",
-      "summary": "느린 식사, 물·빵 관습, 계산 방식",
-      "sections": [
-        {
-          "heading": "식사는 느리게 즐기는 것",
-          "body": "유럽의 식당 문화는 미국식 패스트푸드나 한국의 빠른 회전율 중심 식당과 다르다. 이탈리아나 프랑스에서는 저녁 식사가 두세 시간을 넘기는 일이 흔하며, 종업원이 빨리 계산서를 들고 오지 않는 것은 무례가 아니라 손님을 재촉하지 않으려는 배려다. 식사 자체를 하루의 중요한 문화적 시간으로 여기는 전통이 이 느린 리듬을 만들어냈다."
         },
         {
-          "heading": "물도 주문한다",
-          "body": "유럽 식당에서는 자리에 앉아도 물이 자동으로 나오지 않는 경우가 많다. 수돗물(tap water)을 요청할 수 있지만 일부 나라에서는 거절하거나 병물만 제공하는 문화가 있다. 탄산이 없는 still water와 탄산수 sparkling water 모두 병물은 보통 유료이므로, 주문 전 확인하는 것이 좋다."
-        },
-        {
-          "heading": "빵과 자릿세(coperto)",
-          "body": "이탈리아 등 일부 유럽 국가 식당에서는 자리에 앉으면 빵이 나오는 경우가 있는데, 이때 'coperto'라는 자릿세가 1인당 1~3유로 정도 계산서에 청구된다. 이것은 바가지가 아니라 자리·빵·기본 세팅값을 포함한 관습적 비용이며, 사전에 메뉴판이나 입구 안내문에 표시되는 경우가 많다."
-        },
-        {
-          "heading": "계산은 테이블에서",
-          "body": "유럽 식당에서는 먹고 나서 계산대로 걸어가는 것이 아니라, 자리에 앉은 채 종업원을 불러 'Check, please.' 혹은 'The bill, please.'라고 요청하는 것이 일반적이다. 종업원은 카드 단말기를 테이블로 직접 가져다주며, 이는 카드 정보 보안 측면에서도 유럽이 오래전부터 정착시킨 방식이다."
-        },
-        {
-          "heading": "자리 안내를 기다린다",
-          "body": "많은 유럽 식당에서는 입구에 서서 종업원의 안내를 기다리는 것이 기본 예절이다. 빈자리가 보인다고 바로 가서 앉으면 예약석이거나 다른 이유로 비어 있는 자리일 수 있다. 'Table for two?'처럼 인원수를 말하며 안내를 요청하면 자연스럽게 원하는 자리로 안내받을 수 있다."
-        }
-      ],
-      "sets": [
-        {
-          "id": "set01",
+          "id": "set04",
           "questions": [
             {
-              "id": "culture_ch02_set01_001",
+              "id": "culture_ch01_set04_001",
               "type": "multiple_choice",
               "question": "유럽(특히 이탈리아·프랑스)에서 저녁 식사 시간이 두세 시간을 넘기는 경우가 많은 이유는?",
               "options": [
@@ -426,7 +417,7 @@
               "explanation": "유럽, 특히 이탈리아·프랑스에서는 식사를 문화적 시간으로 여기며 여유와 대화를 중시하는 전통이 있다."
             },
             {
-              "id": "culture_ch02_set01_002",
+              "id": "culture_ch01_set04_002",
               "type": "multiple_choice",
               "question": "유럽 식당에서 종업원이 식사 중 계산서를 빨리 가져오지 않는 것의 올바른 해석은?",
               "options": [
@@ -439,7 +430,7 @@
               "explanation": "유럽 식당에서 계산서를 먼저 가져오지 않는 것은 손님이 원할 때까지 자리를 즐길 수 있도록 배려하는 문화다."
             },
             {
-              "id": "culture_ch02_set01_003",
+              "id": "culture_ch01_set04_003",
               "type": "multiple_choice",
               "question": "유럽 식당에서 물을 마시고 싶을 때 가장 적절한 행동은?",
               "options": [
@@ -452,7 +443,7 @@
               "explanation": "유럽 식당은 물이 자동으로 제공되지 않는 경우가 많으므로 종업원에게 직접 요청해야 한다."
             },
             {
-              "id": "culture_ch02_set01_004",
+              "id": "culture_ch01_set04_004",
               "type": "multiple_choice",
               "question": "유럽 식당에서 'still water'와 'sparkling water'에 대한 올바른 설명은?",
               "options": [
@@ -465,7 +456,7 @@
               "explanation": "still water는 탄산 없는 생수, sparkling water는 탄산수로, 유럽에서 병물은 대체로 유료다."
             },
             {
-              "id": "culture_ch02_set01_005",
+              "id": "culture_ch01_set04_005",
               "type": "multiple_choice",
               "question": "이탈리아 식당에서 'coperto'가 계산서에 청구될 때 올바른 이해는?",
               "options": [
@@ -478,14 +469,14 @@
               "explanation": "'coperto'는 이탈리아 등에서 자리·빵·기본 세팅 비용을 포함한 관습적인 인당 비용으로, 바가지가 아니다."
             },
             {
-              "id": "culture_ch02_set01_006",
+              "id": "culture_ch01_set04_006",
               "type": "ox",
               "question": "유럽 식당에서는 식사 후 계산대로 직접 걸어가서 줄을 서는 것이 일반적인 방식이다.",
               "answerIndex": 1,
               "explanation": "틀리다. 유럽 식당은 대체로 테이블에서 종업원을 불러 계산하는 방식이 일반적이다."
             },
             {
-              "id": "culture_ch02_set01_007",
+              "id": "culture_ch01_set04_007",
               "type": "multiple_choice",
               "question": "유럽 식당에서 계산을 요청하는 표현으로 가장 적절한 것은?",
               "options": [
@@ -498,14 +489,14 @@
               "explanation": "'Check, please.' 또는 'The bill, please.'가 유럽 식당에서 계산을 요청하는 일반적인 표현이다."
             },
             {
-              "id": "culture_ch02_set01_008",
+              "id": "culture_ch01_set04_008",
               "type": "ox",
               "question": "유럽 식당에서는 카드 단말기를 종업원이 테이블로 가져오는 방식이 일반적이다.",
               "answerIndex": 0,
               "explanation": "맞다. 유럽에서는 카드 보안상의 이유로 종업원이 단말기를 테이블로 가져오는 방식이 오래전부터 정착되어 있다."
             },
             {
-              "id": "culture_ch02_set01_009",
+              "id": "culture_ch01_set04_009",
               "type": "multiple_choice",
               "question": "유럽 식당에 들어갔을 때 자리를 잡는 올바른 방법은?",
               "options": [
@@ -518,7 +509,7 @@
               "explanation": "유럽 대부분의 식당에서는 입구에서 종업원의 안내를 기다리는 것이 예절이며, 무단 착석은 실례가 될 수 있다."
             },
             {
-              "id": "culture_ch02_set01_010",
+              "id": "culture_ch01_set04_010",
               "type": "ox",
               "question": "유럽 식당에서 수돗물(tap water)을 요청하면 어떤 나라에서든 반드시 제공받을 수 있다.",
               "answerIndex": 1,
@@ -527,10 +518,10 @@
           ]
         },
         {
-          "id": "set02",
+          "id": "set05",
           "questions": [
             {
-              "id": "culture_ch02_set02_001",
+              "id": "culture_ch01_set05_001",
               "type": "multiple_choice",
               "question": "유럽 식당에서 'coperto'를 청구하는 관행의 배경으로 가장 적절한 것은?",
               "options": [
@@ -543,7 +534,7 @@
               "explanation": "'coperto'는 이탈리아 등에서 자리·빵·기본 세팅값을 인당 부과하는 오래된 관습으로, 바가지가 아니다."
             },
             {
-              "id": "culture_ch02_set02_002",
+              "id": "culture_ch01_set05_002",
               "type": "multiple_choice",
               "question": "유럽 식당에서 물을 주문할 때 알아두어야 할 사항으로 틀린 것은?",
               "options": [
@@ -556,14 +547,14 @@
               "explanation": "유럽에서 병물은 유료이며, tap water도 일부 나라에서 거절되는 경우가 있어 '반드시 무료'라는 설명은 틀리다."
             },
             {
-              "id": "culture_ch02_set02_003",
+              "id": "culture_ch01_set05_003",
               "type": "ox",
               "question": "이탈리아 식당에서 자리에 앉으면 자동으로 나오는 빵은 항상 무료다.",
               "answerIndex": 1,
               "explanation": "틀리다. 이탈리아 등에서는 빵·자리값을 포함한 'coperto'가 인당 청구되는 경우가 많다."
             },
             {
-              "id": "culture_ch02_set02_004",
+              "id": "culture_ch01_set05_004",
               "type": "multiple_choice",
               "question": "유럽 식당에서 식사 후 계산 절차를 올바르게 설명한 것은?",
               "options": [
@@ -576,7 +567,7 @@
               "explanation": "유럽 식당은 테이블에서 종업원을 불러 계산을 요청하는 방식이 일반적이며, 종업원이 카드 단말기를 가져온다."
             },
             {
-              "id": "culture_ch02_set02_005",
+              "id": "culture_ch01_set05_005",
               "type": "multiple_choice",
               "question": "유럽에서 카드 단말기를 종업원이 테이블로 가져오는 방식이 정착한 주요 이유 중 하나는?",
               "options": [
@@ -589,14 +580,14 @@
               "explanation": "카드 단말기를 테이블로 가져오는 방식은 손님이 카드를 종업원에게 건네지 않아도 되어 보안상 유리하다."
             },
             {
-              "id": "culture_ch02_set02_006",
+              "id": "culture_ch01_set05_006",
               "type": "ox",
               "question": "유럽 식당에서 빈자리가 보일 경우 종업원 안내 없이 바로 앉아도 예의에 어긋나지 않는다.",
               "answerIndex": 1,
               "explanation": "틀리다. 빈 것처럼 보여도 예약석이거나 다른 이유로 비어 있을 수 있어, 입구에서 안내를 기다리는 것이 예절이다."
             },
             {
-              "id": "culture_ch02_set02_007",
+              "id": "culture_ch01_set05_007",
               "type": "multiple_choice",
               "question": "유럽 식당에서 2인 자리를 안내받을 때 적절한 표현은?",
               "options": [
@@ -609,7 +600,7 @@
               "explanation": "'Table for two, please.'는 2인 자리를 안내받을 때 사용하는 일반적인 표현이다."
             },
             {
-              "id": "culture_ch02_set02_008",
+              "id": "culture_ch01_set05_008",
               "type": "multiple_choice",
               "question": "유럽의 느린 식사 문화에 대한 올바른 이해는?",
               "options": [
@@ -622,14 +613,14 @@
               "explanation": "유럽에서 식사가 느린 것은 음식을 통한 사교와 문화적 시간을 중시하는 오랜 전통 때문이다."
             },
             {
-              "id": "culture_ch02_set02_009",
+              "id": "culture_ch01_set05_009",
               "type": "ox",
               "question": "유럽 식당에서 종업원이 계산서를 빨리 가져오지 않는 것은 손님이 원할 때까지 자리를 즐길 수 있도록 배려하는 문화다.",
               "answerIndex": 0,
               "explanation": "맞다. 유럽에서는 손님을 재촉하지 않는 것이 예의로, 원할 때 직접 'Check, please.'라고 요청해야 한다."
             },
             {
-              "id": "culture_ch02_set02_010",
+              "id": "culture_ch01_set05_010",
               "type": "multiple_choice",
               "question": "유럽 식당 문화에 대한 설명 중 가장 잘못된 것은?",
               "options": [
@@ -646,9 +637,9 @@
       ]
     },
     {
-      "id": "ch03",
-      "title": "\"Bonjour\"의 힘: 인사와 호칭",
-      "summary": "가게 인사, 격식 호칭, 뺨인사",
+      "id": "ch02",
+      "title": "인사와 공공장소 매너",
+      "summary": "Bonjour 인사·호칭, 줄서기·대중교통 정숙",
       "sections": [
         {
           "heading": "가게에 들어서면 인사부터",
@@ -669,250 +660,7 @@
         {
           "heading": "현지어 한마디의 힘",
           "body": "프랑스어 'Bonjour', 이탈리아어 'Grazie', 독일어 'Danke'처럼 현지 언어로 인사나 감사를 표현하면 현지인에게 큰 호감을 줄 수 있다. 완벽한 발음이 아니어도 노력하는 모습 자체를 상대방이 긍정적으로 받아들이는 경우가 많다. 짧은 현지어 한마디가 관광지에서의 서비스 경험을 전혀 다르게 만들기도 한다."
-        }
-      ],
-      "sets": [
-        {
-          "id": "set01",
-          "questions": [
-            {
-              "id": "culture_ch03_set01_001",
-              "type": "multiple_choice",
-              "question": "프랑스 등의 가게에 들어설 때 기본 예의로 가장 적절한 행동은?",
-              "options": [
-                "원하는 물건을 먼저 집은 뒤 계산대에서 인사한다",
-                "들어서자마자 'Bonjour'라고 먼저 인사한다",
-                "점원이 먼저 말을 걸 때까지 기다린다",
-                "눈을 마주치지 않고 조용히 쇼핑한다"
-              ],
-              "answerIndex": 1,
-              "explanation": "프랑스 등에서는 가게에 들어서는 순간 'Bonjour'로 먼저 인사하는 것이 기본 예의이며, 인사 없이 용건부터 말하는 것은 무례하게 여겨진다."
-            },
-            {
-              "id": "culture_ch03_set01_002",
-              "type": "multiple_choice",
-              "question": "프랑스어에서 처음 만나는 사람이나 연장자에게 격식을 갖출 때 사용하는 2인칭 대명사는?",
-              "options": [
-                "tu",
-                "vous",
-                "il",
-                "on"
-              ],
-              "answerIndex": 1,
-              "explanation": "프랑스어에서 'vous'는 격식형 2인칭으로, 처음 만나거나 연장자에게 존중을 표현할 때 쓴다. 친근한 비격식형은 'tu'다."
-            },
-            {
-              "id": "culture_ch03_set01_003",
-              "type": "multiple_choice",
-              "question": "프랑스 등에서 가게를 나올 때 적절한 작별 인사 표현은?",
-              "options": [
-                "Bonjour",
-                "Merci, bonne journée / Au revoir",
-                "S'il vous plaît",
-                "Excusez-moi"
-              ],
-              "answerIndex": 1,
-              "explanation": "'Au revoir(안녕히 계세요)' 또는 'Merci, bonne journée(감사합니다, 좋은 하루 보내세요)'가 가게를 나올 때 쓰는 일반적인 작별 인사다."
-            },
-            {
-              "id": "culture_ch03_set01_004",
-              "type": "multiple_choice",
-              "question": "'라 비즈(la bise)'에 대한 설명으로 옳은 것은?",
-              "options": [
-                "처음 만나는 모든 사람에게 반드시 해야 하는 인사다",
-                "친한 사이에 볼을 맞대는 인사로, 지역마다 횟수가 다르다",
-                "프랑스에서만 쓰이고 다른 유럽 국가에서는 금지된 행위다",
-                "비즈니스 첫 만남에서 가장 선호되는 인사 방식이다"
-              ],
-              "answerIndex": 1,
-              "explanation": "라 비즈는 친한 사이에 볼을 맞대는 유럽식 인사로, 지역에 따라 횟수가 2~4회로 다양하다. 비즈니스 첫 만남에서는 보통 악수가 적절하다."
-            },
-            {
-              "id": "culture_ch03_set01_005",
-              "type": "ox",
-              "question": "프랑스어에서 처음 만나는 사람에게 상대방이 권하기 전에 친근한 'tu'를 먼저 사용하는 것이 예의 바른 행동이다.",
-              "answerIndex": 1,
-              "explanation": "틀리다. 처음 만나는 사람에게는 격식형 'vous'를 쓰는 것이 기본이며, 상대가 'tu'를 권하기 전에 먼저 사용하는 것은 결례로 받아들여질 수 있다."
-            },
-            {
-              "id": "culture_ch03_set01_006",
-              "type": "multiple_choice",
-              "question": "독일어에서 처음 만나는 사람이나 격식 있는 상황에서 쓰는 2인칭 존칭 표현은?",
-              "options": [
-                "du",
-                "ihr",
-                "Sie",
-                "man"
-              ],
-              "answerIndex": 2,
-              "explanation": "독일어에서 'Sie'는 격식형 2인칭 존칭으로, 처음 만나거나 공식적인 상황에서 사용한다. 친근한 비격식형은 'du'다."
-            },
-            {
-              "id": "culture_ch03_set01_007",
-              "type": "multiple_choice",
-              "question": "이탈리아어로 감사를 뜻하는 단어는?",
-              "options": [
-                "Bonjour",
-                "Danke",
-                "Grazie",
-                "Merci"
-              ],
-              "answerIndex": 2,
-              "explanation": "'Grazie'는 이탈리아어로 '감사합니다'를 뜻한다. Bonjour는 프랑스어 인사, Danke는 독일어 감사, Merci는 프랑스어 감사 표현이다."
-            },
-            {
-              "id": "culture_ch03_set01_008",
-              "type": "ox",
-              "question": "유럽 가게에서 인사 문화는 점원과 고객 사이에만 해당하며, 버스 기사나 병원 직원 등에게는 적용되지 않는다.",
-              "answerIndex": 1,
-              "explanation": "틀리다. 프랑스 등에서는 점원뿐 아니라 버스 기사·병원 직원 등 모든 서비스 상황에서도 먼저 인사하는 것이 기본 예의다."
-            },
-            {
-              "id": "culture_ch03_set01_009",
-              "type": "multiple_choice",
-              "question": "처음 만나는 비즈니스 상대에게 유럽에서 가장 일반적으로 적절한 인사 방식은?",
-              "options": [
-                "라 비즈(볼 맞대기)로 친근하게 인사한다",
-                "악수로 인사한다",
-                "허그(포옹)로 친밀감을 표현한다",
-                "상체를 깊이 숙여 인사한다"
-              ],
-              "answerIndex": 1,
-              "explanation": "처음 만나는 비즈니스 상황에서는 일반적으로 악수가 적절하며, 라 비즈는 친한 사이에 쓰는 인사다."
-            },
-            {
-              "id": "culture_ch03_set01_010",
-              "type": "ox",
-              "question": "현지어 인사 표현은 발음이 완벽하지 않아도 현지인에게 긍정적으로 받아들여지는 경우가 많다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 완벽한 발음이 아니어도 현지 언어로 인사나 감사를 표현하려는 노력 자체를 현지인이 호의적으로 받아들이는 경우가 많다."
-            }
-          ]
         },
-        {
-          "id": "set02",
-          "questions": [
-            {
-              "id": "culture_ch03_set02_001",
-              "type": "multiple_choice",
-              "question": "프랑스 식료품점에서 계산을 하려 할 때 점원과 나누는 첫 상호작용으로 가장 자연스러운 것은?",
-              "options": [
-                "구매할 물건을 카운터 위에 놓고 금액을 기다린다",
-                "점원에게 'Bonjour'라고 먼저 인사를 건넨다",
-                "점원이 먼저 말을 걸 때까지 침묵한다",
-                "'Merci'라고 말하며 돈을 건넨다"
-              ],
-              "answerIndex": 1,
-              "explanation": "프랑스에서는 어떤 거래나 서비스를 시작하기 전에 'Bonjour'로 먼저 인사를 건네는 것이 예절의 출발점이다."
-            },
-            {
-              "id": "culture_ch03_set02_002",
-              "type": "multiple_choice",
-              "question": "프랑스 등에서 가게나 서비스를 이용한 후 자리를 떠날 때 가장 자연스러운 행동은?",
-              "options": [
-                "아무 말 없이 조용히 나오는 것이 유럽식 예의다",
-                "'Au revoir' 또는 'Merci, bonne journée'처럼 작별 인사를 건네고 나온다",
-                "들어올 때만 인사하면 되고 나갈 때는 인사가 필요 없다",
-                "서비스가 마음에 들었을 때만 인사하는 것이 관례다"
-              ],
-              "answerIndex": 1,
-              "explanation": "프랑스 등에서는 가게를 나올 때 'Au revoir' 또는 'Merci, bonne journée'처럼 작별 인사를 건네는 것이 중요하다. 들어올 때와 나갈 때 모두 인사를 갖추는 것이 관계를 매끄럽게 마무리하는 예의다."
-            },
-            {
-              "id": "culture_ch03_set02_003",
-              "type": "ox",
-              "question": "유럽에서 라 비즈(la bise) 인사를 할 때, 볼을 맞대는 횟수는 어떤 나라·지역에서든 반드시 2회로 통일되어 있다.",
-              "answerIndex": 1,
-              "explanation": "틀리다. 라 비즈의 횟수는 지역에 따라 2회에서 4회까지 다양하므로, 상대방의 흐름에 맞추는 것이 좋다."
-            },
-            {
-              "id": "culture_ch03_set02_004",
-              "type": "multiple_choice",
-              "question": "독일어 'Danke'의 의미는?",
-              "options": [
-                "안녕하세요",
-                "감사합니다",
-                "실례합니다",
-                "안녕히 가세요"
-              ],
-              "answerIndex": 1,
-              "explanation": "'Danke'는 독일어로 '감사합니다'라는 뜻이다. 현지어로 감사를 표현하는 것은 현지인에게 좋은 인상을 준다."
-            },
-            {
-              "id": "culture_ch03_set02_005",
-              "type": "multiple_choice",
-              "question": "프랑스어 'Au revoir'가 쓰이는 상황은?",
-              "options": [
-                "처음 만날 때 하는 인사",
-                "헤어질 때 하는 작별 인사",
-                "식사 전 감사 인사",
-                "도움을 요청할 때 쓰는 표현"
-              ],
-              "answerIndex": 1,
-              "explanation": "'Au revoir'는 프랑스어로 '안녕히 계세요/가세요'라는 뜻의 작별 인사다. 처음 만날 때의 인사는 'Bonjour'다."
-            },
-            {
-              "id": "culture_ch03_set02_006",
-              "type": "multiple_choice",
-              "question": "현지어 인사·감사 표현이 여행 중 중요한 이유를 가장 잘 나타낸 것은?",
-              "options": [
-                "현지 언어를 못하면 음식을 주문할 수 없기 때문",
-                "짧은 현지어 표현이 현지인에게 호감을 주고 서비스 경험을 개선시킬 수 있기 때문",
-                "현지어를 안 쓰면 법적으로 처벌받기 때문",
-                "현지어 표현은 환율 우대를 받을 때 필수 요건이기 때문"
-              ],
-              "answerIndex": 1,
-              "explanation": "현지어로 인사하거나 감사를 표현하는 노력이 현지인에게 큰 호감을 주며, 여행지에서의 서비스 경험을 훨씬 즐겁게 만들 수 있다."
-            },
-            {
-              "id": "culture_ch03_set02_007",
-              "type": "ox",
-              "question": "유럽에서는 가게에 들어설 때와 나올 때 모두 인사를 갖추는 것이 관계를 매끄럽게 마무리하는 예의로 여겨진다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 입장 시 'Bonjour', 퇴장 시 'Au revoir'나 'Merci, bonne journée' 같은 인사를 모두 갖추는 것이 유럽의 기본 예의다."
-            },
-            {
-              "id": "culture_ch03_set02_008",
-              "type": "multiple_choice",
-              "question": "프랑스 가게에 들어설 때 점원에게 인사 없이 바로 용건을 말하거나 물건을 집으면 어떻게 여겨지는가?",
-              "options": [
-                "효율적이고 바쁜 여행자로 긍정적으로 받아들여진다",
-                "점원에게 무례하게 느껴질 수 있다",
-                "프랑스에서는 인사가 필요 없으므로 아무 문제없다",
-                "점원이 먼저 인사하는 것이 규정이므로 손님은 기다리면 된다"
-              ],
-              "answerIndex": 1,
-              "explanation": "프랑스 등에서는 가게에 들어서자마자 'Bonjour'로 먼저 인사하는 것이 기본 예의이며, 인사 없이 곧바로 용건을 말하거나 물건을 집는 행동은 점원에게 무례하게 느껴질 수 있다."
-            },
-            {
-              "id": "culture_ch03_set02_009",
-              "type": "multiple_choice",
-              "question": "프랑스어로 '안녕하세요(낮 시간대 일반 인사)'를 뜻하는 표현은?",
-              "options": [
-                "Merci",
-                "Au revoir",
-                "Bonjour",
-                "S'il vous plaît"
-              ],
-              "answerIndex": 2,
-              "explanation": "'Bonjour'는 프랑스어로 '안녕하세요'를 뜻하는 일반적인 낮 시간대 인사 표현이다."
-            },
-            {
-              "id": "culture_ch03_set02_010",
-              "type": "ox",
-              "question": "유럽에서 격식형 2인칭(프랑스어 vous, 독일어 Sie)을 쓰는 관습은 나이 차와 상관없이 처음 만나는 상황 전반에 적용된다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 나이 차와 무관하게, 처음 만나는 상황에서는 격식형 2인칭을 먼저 사용하는 것이 대부분의 유럽 문화에서 기본 예의다."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ch04",
-      "title": "줄서기와 공공장소 매너",
-      "summary": "정숙한 대중교통, 줄서기, 에스컬레이터",
-      "sections": [
         {
           "heading": "대중교통은 조용히",
           "body": "유럽의 대중교통에서는 통화·스피커폰·큰 목소리의 대화를 자제하는 것이 기본 예의다. 전화가 필요할 경우 짧게 끝내고, 음악은 반드시 이어폰을 통해 듣는 것이 공공 에티켓으로 자리잡혀 있다. 조용히 이동하는 분위기를 해치는 행동은 주변 승객에게 불쾌감을 주므로 주의해야 한다."
@@ -939,7 +687,241 @@
           "id": "set01",
           "questions": [
             {
-              "id": "culture_ch04_set01_001",
+              "id": "culture_ch02_set01_001",
+              "type": "multiple_choice",
+              "question": "프랑스 등의 가게에 들어설 때 기본 예의로 가장 적절한 행동은?",
+              "options": [
+                "원하는 물건을 먼저 집은 뒤 계산대에서 인사한다",
+                "들어서자마자 'Bonjour'라고 먼저 인사한다",
+                "점원이 먼저 말을 걸 때까지 기다린다",
+                "눈을 마주치지 않고 조용히 쇼핑한다"
+              ],
+              "answerIndex": 1,
+              "explanation": "프랑스 등에서는 가게에 들어서는 순간 'Bonjour'로 먼저 인사하는 것이 기본 예의이며, 인사 없이 용건부터 말하는 것은 무례하게 여겨진다."
+            },
+            {
+              "id": "culture_ch02_set01_002",
+              "type": "multiple_choice",
+              "question": "프랑스어에서 처음 만나는 사람이나 연장자에게 격식을 갖출 때 사용하는 2인칭 대명사는?",
+              "options": [
+                "tu",
+                "vous",
+                "il",
+                "on"
+              ],
+              "answerIndex": 1,
+              "explanation": "프랑스어에서 'vous'는 격식형 2인칭으로, 처음 만나거나 연장자에게 존중을 표현할 때 쓴다. 친근한 비격식형은 'tu'다."
+            },
+            {
+              "id": "culture_ch02_set01_003",
+              "type": "multiple_choice",
+              "question": "프랑스 등에서 가게를 나올 때 적절한 작별 인사 표현은?",
+              "options": [
+                "Bonjour",
+                "Merci, bonne journée / Au revoir",
+                "S'il vous plaît",
+                "Excusez-moi"
+              ],
+              "answerIndex": 1,
+              "explanation": "'Au revoir(안녕히 계세요)' 또는 'Merci, bonne journée(감사합니다, 좋은 하루 보내세요)'가 가게를 나올 때 쓰는 일반적인 작별 인사다."
+            },
+            {
+              "id": "culture_ch02_set01_004",
+              "type": "multiple_choice",
+              "question": "'라 비즈(la bise)'에 대한 설명으로 옳은 것은?",
+              "options": [
+                "처음 만나는 모든 사람에게 반드시 해야 하는 인사다",
+                "친한 사이에 볼을 맞대는 인사로, 지역마다 횟수가 다르다",
+                "프랑스에서만 쓰이고 다른 유럽 국가에서는 금지된 행위다",
+                "비즈니스 첫 만남에서 가장 선호되는 인사 방식이다"
+              ],
+              "answerIndex": 1,
+              "explanation": "라 비즈는 친한 사이에 볼을 맞대는 유럽식 인사로, 지역에 따라 횟수가 2~4회로 다양하다. 비즈니스 첫 만남에서는 보통 악수가 적절하다."
+            },
+            {
+              "id": "culture_ch02_set01_005",
+              "type": "ox",
+              "question": "프랑스어에서 처음 만나는 사람에게 상대방이 권하기 전에 친근한 'tu'를 먼저 사용하는 것이 예의 바른 행동이다.",
+              "answerIndex": 1,
+              "explanation": "틀리다. 처음 만나는 사람에게는 격식형 'vous'를 쓰는 것이 기본이며, 상대가 'tu'를 권하기 전에 먼저 사용하는 것은 결례로 받아들여질 수 있다."
+            },
+            {
+              "id": "culture_ch02_set01_006",
+              "type": "multiple_choice",
+              "question": "독일어에서 처음 만나는 사람이나 격식 있는 상황에서 쓰는 2인칭 존칭 표현은?",
+              "options": [
+                "du",
+                "ihr",
+                "Sie",
+                "man"
+              ],
+              "answerIndex": 2,
+              "explanation": "독일어에서 'Sie'는 격식형 2인칭 존칭으로, 처음 만나거나 공식적인 상황에서 사용한다. 친근한 비격식형은 'du'다."
+            },
+            {
+              "id": "culture_ch02_set01_007",
+              "type": "multiple_choice",
+              "question": "이탈리아어로 감사를 뜻하는 단어는?",
+              "options": [
+                "Bonjour",
+                "Danke",
+                "Grazie",
+                "Merci"
+              ],
+              "answerIndex": 2,
+              "explanation": "'Grazie'는 이탈리아어로 '감사합니다'를 뜻한다. Bonjour는 프랑스어 인사, Danke는 독일어 감사, Merci는 프랑스어 감사 표현이다."
+            },
+            {
+              "id": "culture_ch02_set01_008",
+              "type": "ox",
+              "question": "유럽 가게에서 인사 문화는 점원과 고객 사이에만 해당하며, 버스 기사나 병원 직원 등에게는 적용되지 않는다.",
+              "answerIndex": 1,
+              "explanation": "틀리다. 프랑스 등에서는 점원뿐 아니라 버스 기사·병원 직원 등 모든 서비스 상황에서도 먼저 인사하는 것이 기본 예의다."
+            },
+            {
+              "id": "culture_ch02_set01_009",
+              "type": "multiple_choice",
+              "question": "처음 만나는 비즈니스 상대에게 유럽에서 가장 일반적으로 적절한 인사 방식은?",
+              "options": [
+                "라 비즈(볼 맞대기)로 친근하게 인사한다",
+                "악수로 인사한다",
+                "허그(포옹)로 친밀감을 표현한다",
+                "상체를 깊이 숙여 인사한다"
+              ],
+              "answerIndex": 1,
+              "explanation": "처음 만나는 비즈니스 상황에서는 일반적으로 악수가 적절하며, 라 비즈는 친한 사이에 쓰는 인사다."
+            },
+            {
+              "id": "culture_ch02_set01_010",
+              "type": "ox",
+              "question": "현지어 인사 표현은 발음이 완벽하지 않아도 현지인에게 긍정적으로 받아들여지는 경우가 많다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 완벽한 발음이 아니어도 현지 언어로 인사나 감사를 표현하려는 노력 자체를 현지인이 호의적으로 받아들이는 경우가 많다."
+            }
+          ]
+        },
+        {
+          "id": "set02",
+          "questions": [
+            {
+              "id": "culture_ch02_set02_001",
+              "type": "multiple_choice",
+              "question": "프랑스 식료품점에서 계산을 하려 할 때 점원과 나누는 첫 상호작용으로 가장 자연스러운 것은?",
+              "options": [
+                "구매할 물건을 카운터 위에 놓고 금액을 기다린다",
+                "점원에게 'Bonjour'라고 먼저 인사를 건넨다",
+                "점원이 먼저 말을 걸 때까지 침묵한다",
+                "'Merci'라고 말하며 돈을 건넨다"
+              ],
+              "answerIndex": 1,
+              "explanation": "프랑스에서는 어떤 거래나 서비스를 시작하기 전에 'Bonjour'로 먼저 인사를 건네는 것이 예절의 출발점이다."
+            },
+            {
+              "id": "culture_ch02_set02_002",
+              "type": "multiple_choice",
+              "question": "프랑스 등에서 가게나 서비스를 이용한 후 자리를 떠날 때 가장 자연스러운 행동은?",
+              "options": [
+                "아무 말 없이 조용히 나오는 것이 유럽식 예의다",
+                "'Au revoir' 또는 'Merci, bonne journée'처럼 작별 인사를 건네고 나온다",
+                "들어올 때만 인사하면 되고 나갈 때는 인사가 필요 없다",
+                "서비스가 마음에 들었을 때만 인사하는 것이 관례다"
+              ],
+              "answerIndex": 1,
+              "explanation": "프랑스 등에서는 가게를 나올 때 'Au revoir' 또는 'Merci, bonne journée'처럼 작별 인사를 건네는 것이 중요하다. 들어올 때와 나갈 때 모두 인사를 갖추는 것이 관계를 매끄럽게 마무리하는 예의다."
+            },
+            {
+              "id": "culture_ch02_set02_003",
+              "type": "ox",
+              "question": "유럽에서 라 비즈(la bise) 인사를 할 때, 볼을 맞대는 횟수는 어떤 나라·지역에서든 반드시 2회로 통일되어 있다.",
+              "answerIndex": 1,
+              "explanation": "틀리다. 라 비즈의 횟수는 지역에 따라 2회에서 4회까지 다양하므로, 상대방의 흐름에 맞추는 것이 좋다."
+            },
+            {
+              "id": "culture_ch02_set02_004",
+              "type": "multiple_choice",
+              "question": "독일어 'Danke'의 의미는?",
+              "options": [
+                "안녕하세요",
+                "감사합니다",
+                "실례합니다",
+                "안녕히 가세요"
+              ],
+              "answerIndex": 1,
+              "explanation": "'Danke'는 독일어로 '감사합니다'라는 뜻이다. 현지어로 감사를 표현하는 것은 현지인에게 좋은 인상을 준다."
+            },
+            {
+              "id": "culture_ch02_set02_005",
+              "type": "multiple_choice",
+              "question": "프랑스어 'Au revoir'가 쓰이는 상황은?",
+              "options": [
+                "처음 만날 때 하는 인사",
+                "헤어질 때 하는 작별 인사",
+                "식사 전 감사 인사",
+                "도움을 요청할 때 쓰는 표현"
+              ],
+              "answerIndex": 1,
+              "explanation": "'Au revoir'는 프랑스어로 '안녕히 계세요/가세요'라는 뜻의 작별 인사다. 처음 만날 때의 인사는 'Bonjour'다."
+            },
+            {
+              "id": "culture_ch02_set02_006",
+              "type": "multiple_choice",
+              "question": "현지어 인사·감사 표현이 여행 중 중요한 이유를 가장 잘 나타낸 것은?",
+              "options": [
+                "현지 언어를 못하면 음식을 주문할 수 없기 때문",
+                "짧은 현지어 표현이 현지인에게 호감을 주고 서비스 경험을 개선시킬 수 있기 때문",
+                "현지어를 안 쓰면 법적으로 처벌받기 때문",
+                "현지어 표현은 환율 우대를 받을 때 필수 요건이기 때문"
+              ],
+              "answerIndex": 1,
+              "explanation": "현지어로 인사하거나 감사를 표현하는 노력이 현지인에게 큰 호감을 주며, 여행지에서의 서비스 경험을 훨씬 즐겁게 만들 수 있다."
+            },
+            {
+              "id": "culture_ch02_set02_007",
+              "type": "ox",
+              "question": "유럽에서는 가게에 들어설 때와 나올 때 모두 인사를 갖추는 것이 관계를 매끄럽게 마무리하는 예의로 여겨진다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 입장 시 'Bonjour', 퇴장 시 'Au revoir'나 'Merci, bonne journée' 같은 인사를 모두 갖추는 것이 유럽의 기본 예의다."
+            },
+            {
+              "id": "culture_ch02_set02_008",
+              "type": "multiple_choice",
+              "question": "프랑스 가게에 들어설 때 점원에게 인사 없이 바로 용건을 말하거나 물건을 집으면 어떻게 여겨지는가?",
+              "options": [
+                "효율적이고 바쁜 여행자로 긍정적으로 받아들여진다",
+                "점원에게 무례하게 느껴질 수 있다",
+                "프랑스에서는 인사가 필요 없으므로 아무 문제없다",
+                "점원이 먼저 인사하는 것이 규정이므로 손님은 기다리면 된다"
+              ],
+              "answerIndex": 1,
+              "explanation": "프랑스 등에서는 가게에 들어서자마자 'Bonjour'로 먼저 인사하는 것이 기본 예의이며, 인사 없이 곧바로 용건을 말하거나 물건을 집는 행동은 점원에게 무례하게 느껴질 수 있다."
+            },
+            {
+              "id": "culture_ch02_set02_009",
+              "type": "multiple_choice",
+              "question": "프랑스어로 '안녕하세요(낮 시간대 일반 인사)'를 뜻하는 표현은?",
+              "options": [
+                "Merci",
+                "Au revoir",
+                "Bonjour",
+                "S'il vous plaît"
+              ],
+              "answerIndex": 2,
+              "explanation": "'Bonjour'는 프랑스어로 '안녕하세요'를 뜻하는 일반적인 낮 시간대 인사 표현이다."
+            },
+            {
+              "id": "culture_ch02_set02_010",
+              "type": "ox",
+              "question": "유럽에서 격식형 2인칭(프랑스어 vous, 독일어 Sie)을 쓰는 관습은 나이 차와 상관없이 처음 만나는 상황 전반에 적용된다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 나이 차와 무관하게, 처음 만나는 상황에서는 격식형 2인칭을 먼저 사용하는 것이 대부분의 유럽 문화에서 기본 예의다."
+            }
+          ]
+        },
+        {
+          "id": "set03",
+          "questions": [
+            {
+              "id": "culture_ch02_set03_001",
               "type": "multiple_choice",
               "question": "유럽 대중교통에서 음악을 들을 때 지켜야 할 에티켓은?",
               "options": [
@@ -952,7 +934,7 @@
               "explanation": "유럽 대중교통에서는 음악을 이어폰으로 듣는 것이 공공 에티켓이다. 스피커로 음악을 틀면 주변 승객에게 불쾌감을 준다."
             },
             {
-              "id": "culture_ch04_set01_002",
+              "id": "culture_ch02_set03_002",
               "type": "multiple_choice",
               "question": "런던 등의 지하철 에스컬레이터에서 일반적으로 서있는 사람이 서야 하는 쪽은?",
               "options": [
@@ -965,7 +947,7 @@
               "explanation": "런던 등 많은 도시의 에스컬레이터에서는 서있는 사람이 오른쪽, 걷거나 서두르는 사람이 왼쪽을 이용하는 암묵적 규칙이 있다."
             },
             {
-              "id": "culture_ch04_set01_003",
+              "id": "culture_ch02_set03_003",
               "type": "multiple_choice",
               "question": "영국의 줄서기(queue) 문화에 대한 설명으로 가장 옳은 것은?",
               "options": [
@@ -978,14 +960,14 @@
               "explanation": "영국은 세계에서 줄서기 문화가 가장 강한 나라 중 하나로, 새치기는 큰 결례이며 주변 사람들의 즉각적인 항의를 받을 수 있다."
             },
             {
-              "id": "culture_ch04_set01_004",
+              "id": "culture_ch02_set03_004",
               "type": "ox",
               "question": "유럽 대중교통에서 전화 통화를 해야 할 경우 짧게 끝내는 것이 에티켓이다.",
               "answerIndex": 0,
               "explanation": "맞다. 유럽 대중교통에서는 통화를 자제하는 것이 기본이며, 꼭 필요할 경우 짧게 끝내는 것이 공공 에티켓이다."
             },
             {
-              "id": "culture_ch04_set01_005",
+              "id": "culture_ch02_set03_005",
               "type": "multiple_choice",
               "question": "유럽의 약국이나 델리 카운터 같은 곳에서 대기할 때 주의해야 할 점은?",
               "options": [
@@ -998,7 +980,7 @@
               "explanation": "약국·델리 카운터·관공서 등에서는 번호표를 뽑아 대기하는 시스템이 운영되는 곳이 있으므로, 입장 시 확인하는 습관이 필요하다."
             },
             {
-              "id": "culture_ch04_set01_006",
+              "id": "culture_ch02_set03_006",
               "type": "multiple_choice",
               "question": "유럽 공공장소에서 에티켓에 어긋나는 행동은?",
               "options": [
@@ -1011,14 +993,14 @@
               "explanation": "좌석 위에 발을 올려놓는 것은 유럽에서 공공 에티켓을 어기는 대표적인 행동으로 여겨진다."
             },
             {
-              "id": "culture_ch04_set01_007",
+              "id": "culture_ch02_set03_007",
               "type": "ox",
               "question": "유럽 공공장소에서 뒷사람을 위해 문을 잡아주는 행동은 일상적인 매너로 여겨진다.",
               "answerIndex": 0,
               "explanation": "맞다. 문을 잡아주는 행동은 유럽 공공장소에서 자연스러운 일상적 매너이며, 작은 배려의 표현으로 자리잡혀 있다."
             },
             {
-              "id": "culture_ch04_set01_008",
+              "id": "culture_ch02_set03_008",
               "type": "multiple_choice",
               "question": "에스컬레이터에서 가족이 나란히 양쪽을 막고 서 있을 때 생기는 문제는?",
               "options": [
@@ -1031,7 +1013,7 @@
               "explanation": "에스컬레이터 양쪽을 막고 서면 걷거나 서두르는 사람이 통행할 수 없어 불편을 초래한다. 현지 흐름을 따르는 것이 배려다."
             },
             {
-              "id": "culture_ch04_set01_009",
+              "id": "culture_ch02_set03_009",
               "type": "multiple_choice",
               "question": "유럽 대중교통에서 대화 시 지켜야 할 에티켓은?",
               "options": [
@@ -1044,7 +1026,7 @@
               "explanation": "유럽 대중교통에서는 큰 목소리의 대화, 통화, 스피커폰을 자제하고 조용히 이동하는 것이 공공 에티켓이다."
             },
             {
-              "id": "culture_ch04_set01_010",
+              "id": "culture_ch02_set03_010",
               "type": "ox",
               "question": "유럽 대중교통에서 냄새가 강한 음식을 먹는 것은 공공 에티켓에 어긋난다.",
               "answerIndex": 0,
@@ -1053,10 +1035,10 @@
           ]
         },
         {
-          "id": "set02",
+          "id": "set04",
           "questions": [
             {
-              "id": "culture_ch04_set02_001",
+              "id": "culture_ch02_set04_001",
               "type": "multiple_choice",
               "question": "유럽 대중교통에서 노약자·임산부에게 자리를 양보하는 행동에 대한 올바른 설명은?",
               "options": [
@@ -1069,7 +1051,7 @@
               "explanation": "유럽 대중교통에서 노약자·임산부·어린이 동반 보호자에게 자리를 양보하는 것은 당연한 배려로 여겨지며, 사회적으로 기대되는 공공 매너다."
             },
             {
-              "id": "culture_ch04_set02_002",
+              "id": "culture_ch02_set04_002",
               "type": "multiple_choice",
               "question": "유럽 약국이나 델리 카운터에서 번호표 시스템을 운영하는 경우, 올바른 대처 방법은?",
               "options": [
@@ -1082,14 +1064,14 @@
               "explanation": "약국·델리 카운터·관공서 등에서는 번호표를 뽑아 대기하는 시스템을 운영하는 곳이 있으므로, 입장 시 번호표 발급기 여부를 확인하고 번호표를 먼저 뽑는 것이 올바른 대처다."
             },
             {
-              "id": "culture_ch04_set02_003",
+              "id": "culture_ch02_set04_003",
               "type": "ox",
               "question": "유럽 공공장소에서 노약자·임산부에게 자리를 양보하는 것은 의무가 아니라 선택 사항이므로 하지 않아도 무방하다.",
               "answerIndex": 1,
               "explanation": "틀리다. 노약자·임산부에게 자리를 양보하는 것은 유럽 공공 공간에서 당연한 배려이자 사회적으로 기대되는 매너다."
             },
             {
-              "id": "culture_ch04_set02_004",
+              "id": "culture_ch02_set04_004",
               "type": "multiple_choice",
               "question": "유럽 대중교통에서 스피커폰 사용에 대한 올바른 설명은?",
               "options": [
@@ -1102,7 +1084,7 @@
               "explanation": "유럽 대중교통에서 스피커폰 사용은 주변 승객에게 불쾌감을 주는 행동으로, 자제하는 것이 공공 에티켓이다."
             },
             {
-              "id": "culture_ch04_set02_005",
+              "id": "culture_ch02_set04_005",
               "type": "multiple_choice",
               "question": "유럽 공공장소에서 소소한 배려 행동으로 올바른 것끼리 묶인 것은?",
               "options": [
@@ -1115,14 +1097,14 @@
               "explanation": "문 잡아주기와 노약자에게 자리 양보하기는 유럽 공공장소에서 기대되는 소소한 배려 행동이다. 나머지는 에티켓 위반이다."
             },
             {
-              "id": "culture_ch04_set02_006",
+              "id": "culture_ch02_set04_006",
               "type": "ox",
               "question": "영국에서 번호표를 뽑는 대기 시스템을 운영하는 곳은 없으므로, 항상 줄을 서는 방식만 이용하면 된다.",
               "answerIndex": 1,
               "explanation": "틀리다. 약국·델리 카운터·관공서 등에서는 번호표를 뽑아 대기하는 시스템을 운영하는 곳도 있으니, 입장 시 확인하는 것이 좋다."
             },
             {
-              "id": "culture_ch04_set02_007",
+              "id": "culture_ch02_set04_007",
               "type": "multiple_choice",
               "question": "유럽 대중교통에서 통화를 해야 하는 상황에서 가장 적절한 행동은?",
               "options": [
@@ -1135,7 +1117,7 @@
               "explanation": "유럽 대중교통에서 꼭 통화해야 한다면 최대한 짧게 끝내고 주변 승객에게 방해가 되지 않도록 하는 것이 에티켓이다."
             },
             {
-              "id": "culture_ch04_set02_008",
+              "id": "culture_ch02_set04_008",
               "type": "multiple_choice",
               "question": "유럽 공공장소의 에티켓에 대한 설명 중 옳지 않은 것은?",
               "options": [
@@ -1148,14 +1130,14 @@
               "explanation": "좌석 위에 발을 올려놓는 행동은 유럽 공공 에티켓에 어긋나며, 주변 사람에게 불쾌감을 주는 행동이다."
             },
             {
-              "id": "culture_ch04_set02_009",
+              "id": "culture_ch02_set04_009",
               "type": "ox",
               "question": "유럽의 혼잡한 지하철역 에스컬레이터에서 현지의 흐름을 살펴 서있는 쪽과 걷는 쪽을 자연스럽게 따르는 것이 기본 배려다.",
               "answerIndex": 0,
               "explanation": "맞다. 현지의 에스컬레이터 문화(서있는 쪽/걷는 쪽 구분)를 파악하고 자연스럽게 따르는 것이 혼잡한 역에서의 기본 배려다."
             },
             {
-              "id": "culture_ch04_set02_010",
+              "id": "culture_ch02_set04_010",
               "type": "multiple_choice",
               "question": "유럽에서 공공장소 에티켓이 중요한 근본적인 이유는?",
               "options": [
@@ -1172,9 +1154,9 @@
       ]
     },
     {
-      "id": "ch05",
-      "title": "종교시설 방문 예절",
-      "summary": "드레스코드 유래, 정숙·촬영 규범",
+      "id": "ch03",
+      "title": "종교시설과 대중교통 매너",
+      "summary": "성당 드레스코드, 펀칭(validate) 문화·무임승차 벌금",
       "sections": [
         {
           "heading": "왜 어깨와 무릎인가",
@@ -1195,250 +1177,7 @@
         {
           "heading": "모자와 자세",
           "body": "서양 기독교 문화권에서 남성이 성당 안에서 모자를 벗는 관습은 신성한 장소에 대한 존중의 표시로 오래전부터 내려온 전통이다. 반면 유대교 회당(시나고그)에서는 남성이 키파(kippah)를 착용하는 등 종교마다 규칙이 다르다. 제단을 등지고 셀카를 찍거나 지나치게 편안한 자세를 취하는 것은 종교적 공간의 분위기에 어울리지 않는 무례한 행동으로 여겨진다."
-        }
-      ],
-      "sets": [
-        {
-          "id": "set01",
-          "questions": [
-            {
-              "id": "culture_ch05_set01_001",
-              "type": "multiple_choice",
-              "question": "유럽 성당·교회·모스크에서 어깨와 무릎을 가리는 복장 기준이 생긴 배경으로 가장 적절한 것은?",
-              "options": [
-                "냉난방 시설이 부족해 체온 유지를 위한 위생 규칙으로 생겨났다",
-                "노출을 삼가는 단정한 복장이 신성한 공간에 대한 존중의 표현이라는 전통에서 비롯됐다",
-                "관광객을 차별하기 위해 중세 영주들이 만든 규정이다",
-                "유럽연합 문화재 보호법에서 의무화한 기준이다"
-              ],
-              "answerIndex": 1,
-              "explanation": "어깨와 무릎을 가리는 기준은 신성한 예배 공간에 대한 존중을 복장으로 표현하는 전통에서 비롯된 것으로, 수백 년의 역사를 갖는다."
-            },
-            {
-              "id": "culture_ch05_set01_002",
-              "type": "multiple_choice",
-              "question": "모스크 방문 시 일반적으로 지켜야 할 예절로 올바른 것은?",
-              "options": [
-                "신발을 신고 입장하는 것이 무슬림 예절이다",
-                "신발을 벗고 입장하며, 여성은 머리를 가리는 것이 요구되는 경우도 있다",
-                "남녀 모두 반드시 긴 장갑을 착용해야 한다",
-                "모스크에서는 사진 촬영이 항상 자유롭게 허용된다"
-              ],
-              "answerIndex": 1,
-              "explanation": "모스크는 신발을 벗고 입장하는 것이 원칙이며, 여성은 머리를 가리는 것이 요구되는 경우가 많다."
-            },
-            {
-              "id": "culture_ch05_set01_003",
-              "type": "multiple_choice",
-              "question": "종교시설 방문 시 준비물로 가장 실용적인 것은?",
-              "options": [
-                "두꺼운 외투 (체온 유지용)",
-                "얇은 스카프나 숄 (어깨를 빠르게 가릴 수 있는 용도)",
-                "우산 (시설 내 보행용)",
-                "미리 구입한 기념품 (입장 허가 표시용)"
-              ],
-              "answerIndex": 1,
-              "explanation": "얇은 스카프나 숄은 어깨를 드러낸 복장이라도 입구에서 빠르게 가릴 수 있어 종교시설 방문 시 실용적인 준비물이다."
-            },
-            {
-              "id": "culture_ch05_set01_004",
-              "type": "ox",
-              "question": "예배나 미사가 진행되는 시간에도 관광객은 성당 내부를 자유롭게 관람할 수 있다.",
-              "answerIndex": 1,
-              "explanation": "틀리다. 예배·미사 진행 중에는 관광객의 내부 관람을 제한하는 경우가 많으며, 무시하고 들어가는 것은 신자들의 종교적 행위를 방해하는 결례다."
-            },
-            {
-              "id": "culture_ch05_set01_005",
-              "type": "multiple_choice",
-              "question": "종교시설 촬영 규범에 대한 설명으로 가장 옳은 것은?",
-              "options": [
-                "플래시와 삼각대는 대부분의 시설에서 허용된다",
-                "플래시·삼각대 금지가 많고 일부는 촬영을 전면 금지한다",
-                "헌금함 앞에서 촬영하는 것은 허용되는 경우가 많다",
-                "입구에서 안내 표지판을 확인할 필요는 없다"
-              ],
-              "answerIndex": 1,
-              "explanation": "대부분의 종교시설에서 플래시·삼각대 사용이 금지되며, 일부 구역이나 전체에서 촬영이 전면 금지되는 경우도 있다."
-            },
-            {
-              "id": "culture_ch05_set01_006",
-              "type": "ox",
-              "question": "서양 기독교 문화권의 성당에서 남성은 모자를 벗는 것이 전통적인 예의다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 서양 기독교 전통에서 남성이 성당 안에서 모자를 벗는 것은 신성한 장소에 대한 존중의 표시로 오래전부터 내려온 관습이다."
-            },
-            {
-              "id": "culture_ch05_set01_007",
-              "type": "multiple_choice",
-              "question": "종교시설 내부에서 피해야 할 행동으로 올바른 것은?",
-              "options": [
-                "조용히 걷기",
-                "제단을 등지고 셀카 찍기",
-                "안내 표지판 확인하기",
-                "얇은 스카프로 어깨 가리기"
-              ],
-              "answerIndex": 1,
-              "explanation": "제단을 등지고 셀카를 찍는 것은 종교적 공간의 분위기에 어울리지 않는 무례한 행동으로 여겨진다."
-            },
-            {
-              "id": "culture_ch05_set01_008",
-              "type": "multiple_choice",
-              "question": "유대교 회당(시나고그)에서 남성이 착용하는 작은 모자의 명칭은?",
-              "options": [
-                "터번(turban)",
-                "히잡(hijab)",
-                "키파(kippah)",
-                "베일(veil)"
-              ],
-              "answerIndex": 2,
-              "explanation": "유대교 회당에서 남성은 경건함의 표시로 키파(kippah)를 착용한다. 이는 성당에서 모자를 벗는 기독교 전통과 대조를 이룬다."
-            },
-            {
-              "id": "culture_ch05_set01_009",
-              "type": "ox",
-              "question": "종교시설 입구에서 스카프나 가리개를 무료로 빌려주는 경우는 없다.",
-              "answerIndex": 1,
-              "explanation": "틀리다. 일부 인기 성당이나 모스크 입구에서는 복장 기준을 충족하지 못한 방문객을 위해 헝겊 가리개나 스카프를 무료로 빌려주기도 한다."
-            },
-            {
-              "id": "culture_ch05_set01_010",
-              "type": "multiple_choice",
-              "question": "종교시설 내 촬영이 가능한지 불분명할 때 가장 바람직한 대처는?",
-              "options": [
-                "다른 관광객이 찍으면 따라서 찍는다",
-                "관리자에게 직접 물어본다",
-                "플래시만 끄면 언제든 찍어도 된다",
-                "종교시설은 모두 촬영이 허용된다고 가정한다"
-              ],
-              "answerIndex": 1,
-              "explanation": "촬영 허용 여부가 불분명할 경우 관리자에게 직접 물어보는 것이 가장 확실하고 예의 바른 대처 방법이다."
-            }
-          ]
         },
-        {
-          "id": "set02",
-          "questions": [
-            {
-              "id": "culture_ch05_set02_001",
-              "type": "multiple_choice",
-              "question": "유럽 종교시설의 복장 규정이 대체로 어깨와 무릎 노출을 제한하는 공통된 이유는?",
-              "options": [
-                "종교시설 내부 온도 유지를 위한 에너지 절약 정책이다",
-                "신성한 예배 공간에 대한 존중을 복장으로 표현하는 오랜 전통 때문이다",
-                "관광객 과잉 방문을 막기 위한 진입 장벽이다",
-                "유럽 각국 정부가 안전을 위해 통일한 기준이다"
-              ],
-              "answerIndex": 1,
-              "explanation": "어깨와 무릎을 가리는 복장 기준은 신성한 공간에 대한 존중의 표현이라는 종교적 전통에 뿌리를 두고 있다."
-            },
-            {
-              "id": "culture_ch05_set02_002",
-              "type": "multiple_choice",
-              "question": "성당과 모스크의 입장 예절을 비교했을 때 올바른 설명은?",
-              "options": [
-                "성당과 모스크 모두 반드시 신발을 벗어야 한다",
-                "모스크는 신발을 벗어야 하지만, 성당은 신발을 벗지 않아도 된다",
-                "성당은 신발을 벗어야 하고, 모스크는 신발을 신고 들어가도 된다",
-                "두 곳 모두 신발 관련 규정이 없다"
-              ],
-              "answerIndex": 1,
-              "explanation": "모스크에서는 신발을 벗고 입장하는 것이 원칙이지만, 성당에서는 일반적으로 신발을 신고 입장한다."
-            },
-            {
-              "id": "culture_ch05_set02_003",
-              "type": "ox",
-              "question": "종교시설의 헌금함이나 촛불 봉헌 구역은 촬영 대상으로 삼지 않는 것이 기본 예의다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 헌금함·촛불 봉헌 구역 등 신앙 행위와 직접 연관된 공간은 촬영 대상으로 삼지 않는 것이 기본 예의다."
-            },
-            {
-              "id": "culture_ch05_set02_004",
-              "type": "multiple_choice",
-              "question": "종교시설 내부에서 경건한 분위기를 유지하기 위해 피해야 할 행동은?",
-              "options": [
-                "낮은 목소리로 안내 표지판 확인하기",
-                "앞쪽 통로에서 큰 소리로 전화 통화하기",
-                "조용히 앉아 감상하기",
-                "스카프로 머리를 가리고 입장하기"
-              ],
-              "answerIndex": 1,
-              "explanation": "종교시설 내부에서 큰 소리의 전화 통화는 경건한 분위기를 해치는 행동으로, 자제해야 한다."
-            },
-            {
-              "id": "culture_ch05_set02_005",
-              "type": "multiple_choice",
-              "question": "종교마다 모자 착용 규범이 다른 사례를 가장 잘 설명한 것은?",
-              "options": [
-                "모든 종교시설에서 남성은 반드시 모자를 써야 한다",
-                "기독교 성당에서는 남성이 모자를 벗지만, 유대교 회당에서는 남성이 키파를 착용한다",
-                "이슬람 모스크에서는 남성이 모자를 쓰는 것이 금지된다",
-                "모자 착용 규범은 유럽 전역에서 동일하게 통일되어 있다"
-              ],
-              "answerIndex": 1,
-              "explanation": "기독교 성당에서는 남성이 모자를 벗는 것이 예의이지만, 유대교 회당에서는 반대로 남성이 키파(kippah)를 착용하는 등 종교마다 규칙이 다르다."
-            },
-            {
-              "id": "culture_ch05_set02_006",
-              "type": "ox",
-              "question": "종교시설 방문 시 복장 기준은 나라나 종교에 관계없이 항상 동일하다.",
-              "answerIndex": 1,
-              "explanation": "틀리다. 복장 기준은 종교·나라·시설에 따라 다를 수 있으므로, 방문 전에 해당 시설의 규정을 확인하는 것이 바람직하다."
-            },
-            {
-              "id": "culture_ch05_set02_007",
-              "type": "multiple_choice",
-              "question": "종교시설 내 촬영 허가 여부를 확인하는 가장 올바른 방법은?",
-              "options": [
-                "다른 관광객의 행동을 따라 하면 된다",
-                "입구의 안내 표지판을 확인하고, 불분명하면 관리자에게 묻는다",
-                "관광 앱에서 항상 최신 정보를 볼 수 있으므로 앱만 확인한다",
-                "사진을 찍다가 제지당하면 그때 멈추면 된다"
-              ],
-              "answerIndex": 1,
-              "explanation": "촬영 허가 여부는 입구의 안내 표지판에서 먼저 확인하고, 불분명한 경우 관리자에게 직접 물어보는 것이 가장 확실하고 예의 바른 방법이다."
-            },
-            {
-              "id": "culture_ch05_set02_008",
-              "type": "multiple_choice",
-              "question": "미사나 예배 진행 중 종교시설을 방문한 관광객이 취해야 할 올바른 태도는?",
-              "options": [
-                "신자들과 함께 의식에 참여한다",
-                "관람을 자제하거나 조용히 뒤쪽에서 기다린다",
-                "사진을 찍어 기록으로 남기는 것이 허용된다",
-                "통로를 자유롭게 걸어다니며 구경한다"
-              ],
-              "answerIndex": 1,
-              "explanation": "예배·미사가 진행 중일 때는 관람을 자제하거나 방해가 되지 않도록 조용히 기다리는 것이 신자들에 대한 기본 예의다."
-            },
-            {
-              "id": "culture_ch05_set02_009",
-              "type": "ox",
-              "question": "종교시설 내부에서 조용한 분위기를 유지하는 것은 예배 공간 특성에서 비롯된 기본 예의다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 종교시설은 신자들의 예배와 기도를 위한 공간이므로, 조용한 분위기 유지는 방문객이 지켜야 할 기본 예의다."
-            },
-            {
-              "id": "culture_ch05_set02_010",
-              "type": "multiple_choice",
-              "question": "종교시설 내부에서 플래시 촬영과 삼각대 사용이 금지되는 가장 주된 이유는?",
-              "options": [
-                "기념품 판매 수익을 보호하기 위한 상업적 목적이다",
-                "강한 빛과 장비 설치가 신앙 분위기를 해치고 문화재를 손상시킬 수 있기 때문이다",
-                "삼각대는 무거워서 바닥 손상을 유발할 우려만 있기 때문이다",
-                "관리자의 허가를 받으면 플래시와 삼각대를 자유롭게 사용할 수 있다"
-              ],
-              "answerIndex": 1,
-              "explanation": "대부분의 종교시설에서 플래시 촬영은 경건한 신앙 분위기를 방해하고 오래된 프레스코화·성화 등 문화재를 손상시킬 수 있어 금지되며, 삼각대 역시 공간을 점유해 다른 방문객과 신자에게 불편을 준다."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ch06",
-      "title": "대중교통의 신뢰 시스템",
-      "summary": "펀칭(validate) 문화, 무임승차 벌금",
-      "sections": [
         {
           "heading": "개찰구가 없다?",
           "body": "많은 유럽 도시의 트램·버스·일부 기차에는 개찰구가 없거나 상징적으로만 존재하며, 신뢰제(honor system)를 바탕으로 운영된다. 승객이 표를 구매했다는 사실 자체를 전제하고 탑승을 허용하는 이 방식은 19세기부터 형성된 시민적 신뢰의 문화가 낳은 결과다. 처음 방문하는 여행자에게는 개찰구가 없다는 것이 낯설게 느껴질 수 있지만, 이는 시스템상의 허점이 아니라 의식적인 설계 선택이다."
@@ -1465,7 +1204,241 @@
           "id": "set01",
           "questions": [
             {
-              "id": "culture_ch06_set01_001",
+              "id": "culture_ch03_set01_001",
+              "type": "multiple_choice",
+              "question": "유럽 성당·교회·모스크에서 어깨와 무릎을 가리는 복장 기준이 생긴 배경으로 가장 적절한 것은?",
+              "options": [
+                "냉난방 시설이 부족해 체온 유지를 위한 위생 규칙으로 생겨났다",
+                "노출을 삼가는 단정한 복장이 신성한 공간에 대한 존중의 표현이라는 전통에서 비롯됐다",
+                "관광객을 차별하기 위해 중세 영주들이 만든 규정이다",
+                "유럽연합 문화재 보호법에서 의무화한 기준이다"
+              ],
+              "answerIndex": 1,
+              "explanation": "어깨와 무릎을 가리는 기준은 신성한 예배 공간에 대한 존중을 복장으로 표현하는 전통에서 비롯된 것으로, 수백 년의 역사를 갖는다."
+            },
+            {
+              "id": "culture_ch03_set01_002",
+              "type": "multiple_choice",
+              "question": "모스크 방문 시 일반적으로 지켜야 할 예절로 올바른 것은?",
+              "options": [
+                "신발을 신고 입장하는 것이 무슬림 예절이다",
+                "신발을 벗고 입장하며, 여성은 머리를 가리는 것이 요구되는 경우도 있다",
+                "남녀 모두 반드시 긴 장갑을 착용해야 한다",
+                "모스크에서는 사진 촬영이 항상 자유롭게 허용된다"
+              ],
+              "answerIndex": 1,
+              "explanation": "모스크는 신발을 벗고 입장하는 것이 원칙이며, 여성은 머리를 가리는 것이 요구되는 경우가 많다."
+            },
+            {
+              "id": "culture_ch03_set01_003",
+              "type": "multiple_choice",
+              "question": "종교시설 방문 시 준비물로 가장 실용적인 것은?",
+              "options": [
+                "두꺼운 외투 (체온 유지용)",
+                "얇은 스카프나 숄 (어깨를 빠르게 가릴 수 있는 용도)",
+                "우산 (시설 내 보행용)",
+                "미리 구입한 기념품 (입장 허가 표시용)"
+              ],
+              "answerIndex": 1,
+              "explanation": "얇은 스카프나 숄은 어깨를 드러낸 복장이라도 입구에서 빠르게 가릴 수 있어 종교시설 방문 시 실용적인 준비물이다."
+            },
+            {
+              "id": "culture_ch03_set01_004",
+              "type": "ox",
+              "question": "예배나 미사가 진행되는 시간에도 관광객은 성당 내부를 자유롭게 관람할 수 있다.",
+              "answerIndex": 1,
+              "explanation": "틀리다. 예배·미사 진행 중에는 관광객의 내부 관람을 제한하는 경우가 많으며, 무시하고 들어가는 것은 신자들의 종교적 행위를 방해하는 결례다."
+            },
+            {
+              "id": "culture_ch03_set01_005",
+              "type": "multiple_choice",
+              "question": "종교시설 촬영 규범에 대한 설명으로 가장 옳은 것은?",
+              "options": [
+                "플래시와 삼각대는 대부분의 시설에서 허용된다",
+                "플래시·삼각대 금지가 많고 일부는 촬영을 전면 금지한다",
+                "헌금함 앞에서 촬영하는 것은 허용되는 경우가 많다",
+                "입구에서 안내 표지판을 확인할 필요는 없다"
+              ],
+              "answerIndex": 1,
+              "explanation": "대부분의 종교시설에서 플래시·삼각대 사용이 금지되며, 일부 구역이나 전체에서 촬영이 전면 금지되는 경우도 있다."
+            },
+            {
+              "id": "culture_ch03_set01_006",
+              "type": "ox",
+              "question": "서양 기독교 문화권의 성당에서 남성은 모자를 벗는 것이 전통적인 예의다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 서양 기독교 전통에서 남성이 성당 안에서 모자를 벗는 것은 신성한 장소에 대한 존중의 표시로 오래전부터 내려온 관습이다."
+            },
+            {
+              "id": "culture_ch03_set01_007",
+              "type": "multiple_choice",
+              "question": "종교시설 내부에서 피해야 할 행동으로 올바른 것은?",
+              "options": [
+                "조용히 걷기",
+                "제단을 등지고 셀카 찍기",
+                "안내 표지판 확인하기",
+                "얇은 스카프로 어깨 가리기"
+              ],
+              "answerIndex": 1,
+              "explanation": "제단을 등지고 셀카를 찍는 것은 종교적 공간의 분위기에 어울리지 않는 무례한 행동으로 여겨진다."
+            },
+            {
+              "id": "culture_ch03_set01_008",
+              "type": "multiple_choice",
+              "question": "유대교 회당(시나고그)에서 남성이 착용하는 작은 모자의 명칭은?",
+              "options": [
+                "터번(turban)",
+                "히잡(hijab)",
+                "키파(kippah)",
+                "베일(veil)"
+              ],
+              "answerIndex": 2,
+              "explanation": "유대교 회당에서 남성은 경건함의 표시로 키파(kippah)를 착용한다. 이는 성당에서 모자를 벗는 기독교 전통과 대조를 이룬다."
+            },
+            {
+              "id": "culture_ch03_set01_009",
+              "type": "ox",
+              "question": "종교시설 입구에서 스카프나 가리개를 무료로 빌려주는 경우는 없다.",
+              "answerIndex": 1,
+              "explanation": "틀리다. 일부 인기 성당이나 모스크 입구에서는 복장 기준을 충족하지 못한 방문객을 위해 헝겊 가리개나 스카프를 무료로 빌려주기도 한다."
+            },
+            {
+              "id": "culture_ch03_set01_010",
+              "type": "multiple_choice",
+              "question": "종교시설 내 촬영이 가능한지 불분명할 때 가장 바람직한 대처는?",
+              "options": [
+                "다른 관광객이 찍으면 따라서 찍는다",
+                "관리자에게 직접 물어본다",
+                "플래시만 끄면 언제든 찍어도 된다",
+                "종교시설은 모두 촬영이 허용된다고 가정한다"
+              ],
+              "answerIndex": 1,
+              "explanation": "촬영 허용 여부가 불분명할 경우 관리자에게 직접 물어보는 것이 가장 확실하고 예의 바른 대처 방법이다."
+            }
+          ]
+        },
+        {
+          "id": "set02",
+          "questions": [
+            {
+              "id": "culture_ch03_set02_001",
+              "type": "multiple_choice",
+              "question": "유럽 종교시설의 복장 규정이 대체로 어깨와 무릎 노출을 제한하는 공통된 이유는?",
+              "options": [
+                "종교시설 내부 온도 유지를 위한 에너지 절약 정책이다",
+                "신성한 예배 공간에 대한 존중을 복장으로 표현하는 오랜 전통 때문이다",
+                "관광객 과잉 방문을 막기 위한 진입 장벽이다",
+                "유럽 각국 정부가 안전을 위해 통일한 기준이다"
+              ],
+              "answerIndex": 1,
+              "explanation": "어깨와 무릎을 가리는 복장 기준은 신성한 공간에 대한 존중의 표현이라는 종교적 전통에 뿌리를 두고 있다."
+            },
+            {
+              "id": "culture_ch03_set02_002",
+              "type": "multiple_choice",
+              "question": "성당과 모스크의 입장 예절을 비교했을 때 올바른 설명은?",
+              "options": [
+                "성당과 모스크 모두 반드시 신발을 벗어야 한다",
+                "모스크는 신발을 벗어야 하지만, 성당은 신발을 벗지 않아도 된다",
+                "성당은 신발을 벗어야 하고, 모스크는 신발을 신고 들어가도 된다",
+                "두 곳 모두 신발 관련 규정이 없다"
+              ],
+              "answerIndex": 1,
+              "explanation": "모스크에서는 신발을 벗고 입장하는 것이 원칙이지만, 성당에서는 일반적으로 신발을 신고 입장한다."
+            },
+            {
+              "id": "culture_ch03_set02_003",
+              "type": "ox",
+              "question": "종교시설의 헌금함이나 촛불 봉헌 구역은 촬영 대상으로 삼지 않는 것이 기본 예의다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 헌금함·촛불 봉헌 구역 등 신앙 행위와 직접 연관된 공간은 촬영 대상으로 삼지 않는 것이 기본 예의다."
+            },
+            {
+              "id": "culture_ch03_set02_004",
+              "type": "multiple_choice",
+              "question": "종교시설 내부에서 경건한 분위기를 유지하기 위해 피해야 할 행동은?",
+              "options": [
+                "낮은 목소리로 안내 표지판 확인하기",
+                "앞쪽 통로에서 큰 소리로 전화 통화하기",
+                "조용히 앉아 감상하기",
+                "스카프로 머리를 가리고 입장하기"
+              ],
+              "answerIndex": 1,
+              "explanation": "종교시설 내부에서 큰 소리의 전화 통화는 경건한 분위기를 해치는 행동으로, 자제해야 한다."
+            },
+            {
+              "id": "culture_ch03_set02_005",
+              "type": "multiple_choice",
+              "question": "종교마다 모자 착용 규범이 다른 사례를 가장 잘 설명한 것은?",
+              "options": [
+                "모든 종교시설에서 남성은 반드시 모자를 써야 한다",
+                "기독교 성당에서는 남성이 모자를 벗지만, 유대교 회당에서는 남성이 키파를 착용한다",
+                "이슬람 모스크에서는 남성이 모자를 쓰는 것이 금지된다",
+                "모자 착용 규범은 유럽 전역에서 동일하게 통일되어 있다"
+              ],
+              "answerIndex": 1,
+              "explanation": "기독교 성당에서는 남성이 모자를 벗는 것이 예의이지만, 유대교 회당에서는 반대로 남성이 키파(kippah)를 착용하는 등 종교마다 규칙이 다르다."
+            },
+            {
+              "id": "culture_ch03_set02_006",
+              "type": "ox",
+              "question": "종교시설 방문 시 복장 기준은 나라나 종교에 관계없이 항상 동일하다.",
+              "answerIndex": 1,
+              "explanation": "틀리다. 복장 기준은 종교·나라·시설에 따라 다를 수 있으므로, 방문 전에 해당 시설의 규정을 확인하는 것이 바람직하다."
+            },
+            {
+              "id": "culture_ch03_set02_007",
+              "type": "multiple_choice",
+              "question": "종교시설 내 촬영 허가 여부를 확인하는 가장 올바른 방법은?",
+              "options": [
+                "다른 관광객의 행동을 따라 하면 된다",
+                "입구의 안내 표지판을 확인하고, 불분명하면 관리자에게 묻는다",
+                "관광 앱에서 항상 최신 정보를 볼 수 있으므로 앱만 확인한다",
+                "사진을 찍다가 제지당하면 그때 멈추면 된다"
+              ],
+              "answerIndex": 1,
+              "explanation": "촬영 허가 여부는 입구의 안내 표지판에서 먼저 확인하고, 불분명한 경우 관리자에게 직접 물어보는 것이 가장 확실하고 예의 바른 방법이다."
+            },
+            {
+              "id": "culture_ch03_set02_008",
+              "type": "multiple_choice",
+              "question": "미사나 예배 진행 중 종교시설을 방문한 관광객이 취해야 할 올바른 태도는?",
+              "options": [
+                "신자들과 함께 의식에 참여한다",
+                "관람을 자제하거나 조용히 뒤쪽에서 기다린다",
+                "사진을 찍어 기록으로 남기는 것이 허용된다",
+                "통로를 자유롭게 걸어다니며 구경한다"
+              ],
+              "answerIndex": 1,
+              "explanation": "예배·미사가 진행 중일 때는 관람을 자제하거나 방해가 되지 않도록 조용히 기다리는 것이 신자들에 대한 기본 예의다."
+            },
+            {
+              "id": "culture_ch03_set02_009",
+              "type": "ox",
+              "question": "종교시설 내부에서 조용한 분위기를 유지하는 것은 예배 공간 특성에서 비롯된 기본 예의다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 종교시설은 신자들의 예배와 기도를 위한 공간이므로, 조용한 분위기 유지는 방문객이 지켜야 할 기본 예의다."
+            },
+            {
+              "id": "culture_ch03_set02_010",
+              "type": "multiple_choice",
+              "question": "종교시설 내부에서 플래시 촬영과 삼각대 사용이 금지되는 가장 주된 이유는?",
+              "options": [
+                "기념품 판매 수익을 보호하기 위한 상업적 목적이다",
+                "강한 빛과 장비 설치가 신앙 분위기를 해치고 문화재를 손상시킬 수 있기 때문이다",
+                "삼각대는 무거워서 바닥 손상을 유발할 우려만 있기 때문이다",
+                "관리자의 허가를 받으면 플래시와 삼각대를 자유롭게 사용할 수 있다"
+              ],
+              "answerIndex": 1,
+              "explanation": "대부분의 종교시설에서 플래시 촬영은 경건한 신앙 분위기를 방해하고 오래된 프레스코화·성화 등 문화재를 손상시킬 수 있어 금지되며, 삼각대 역시 공간을 점유해 다른 방문객과 신자에게 불편을 준다."
+            }
+          ]
+        },
+        {
+          "id": "set03",
+          "questions": [
+            {
+              "id": "culture_ch03_set03_001",
               "type": "multiple_choice",
               "question": "많은 유럽 도시의 트램·버스에 개찰구가 없는 이유는?",
               "options": [
@@ -1478,7 +1451,7 @@
               "explanation": "개찰구 없는 시스템은 시민적 신뢰를 전제로 한 의식적인 설계 선택으로, 승객이 표를 구매했다는 사실을 전제로 탑승을 허용한다."
             },
             {
-              "id": "culture_ch06_set01_002",
+              "id": "culture_ch03_set03_002",
               "type": "multiple_choice",
               "question": "유럽 대중교통에서 '펀칭(validating)'이란 무엇을 의미하는가?",
               "options": [
@@ -1491,14 +1464,14 @@
               "explanation": "펀칭은 차량이나 플랫폼의 기계에 표를 직접 찍어 사용 개시 시각을 기록하는 것으로, 이 과정 없이는 유효한 표로 인정되지 않는다."
             },
             {
-              "id": "culture_ch06_set01_003",
+              "id": "culture_ch03_set03_003",
               "type": "ox",
               "question": "유럽에서 표를 구입했더라도 펀칭(validating)을 하지 않으면 미사용표로 간주되어 무임승차와 같은 처벌을 받을 수 있다.",
               "answerIndex": 0,
               "explanation": "맞다. 표를 갖고 있어도 펀칭이 되지 않으면 미사용표로 간주되어 무임승차 벌금이 부과될 수 있다."
             },
             {
-              "id": "culture_ch06_set01_004",
+              "id": "culture_ch03_set03_004",
               "type": "multiple_choice",
               "question": "유럽 대중교통 검표 방식의 특징으로 가장 옳은 것은?",
               "options": [
@@ -1511,7 +1484,7 @@
               "explanation": "유럽 대중교통에서는 사복 차림의 검표원이 무작위로 탑승해 불시 단속을 실시하는 방식이 많다."
             },
             {
-              "id": "culture_ch06_set01_005",
+              "id": "culture_ch03_set03_005",
               "type": "multiple_choice",
               "question": "유효한 표 없이 유럽 대중교통을 이용하다 적발되었을 때 일반적인 결과는?",
               "options": [
@@ -1524,14 +1497,14 @@
               "explanation": "외국인이라도 처음 적발이라도 예외 없이 즉석에서 고액 벌금이 부과되는 경우가 대부분이다."
             },
             {
-              "id": "culture_ch06_set01_006",
+              "id": "culture_ch03_set03_006",
               "type": "ox",
               "question": "유럽 대중교통에서 외국인 여행자가 무임승차로 적발되면, 외국인이라는 사정이 참작되어 벌금이 감면되는 경우가 많다.",
               "answerIndex": 1,
               "explanation": "틀리다. 외국인 여행자라는 사정은 대부분 참작되지 않으며, 즉석에서 고액 벌금이 부과된다."
             },
             {
-              "id": "culture_ch06_set01_007",
+              "id": "culture_ch03_set03_007",
               "type": "multiple_choice",
               "question": "유럽 도시별 교통 기간권(1일권, 존 기반권 등)에 대해 탑승 전 반드시 확인해야 하는 이유는?",
               "options": [
@@ -1544,14 +1517,14 @@
               "explanation": "도시마다 요금 체계와 존 경계가 달라, 목적지까지의 존 범위가 표에 포함되어 있는지 미리 점검하지 않으면 표 부족으로 벌금을 맞을 수 있다."
             },
             {
-              "id": "culture_ch06_set01_008",
+              "id": "culture_ch03_set03_008",
               "type": "ox",
               "question": "유럽에서 교통카드를 탭(tap)하는 방식을 사용하는 도시라도 별도 펀칭이 필요한 구간이 있을 수 있으므로, 해당 도시의 규정을 확인하는 것이 안전하다.",
               "answerIndex": 0,
               "explanation": "맞다. 교통카드 탭 방식을 도입한 도시라도 구간에 따라 별도 펀칭이 요구될 수 있으므로, 탑승 전 규정 확인이 필요하다."
             },
             {
-              "id": "culture_ch06_set01_009",
+              "id": "culture_ch03_set03_009",
               "type": "multiple_choice",
               "question": "유럽 기차에서 1등석 칸에 앉을 때 2등석 표를 소지한 경우 발생할 수 있는 결과는?",
               "options": [
@@ -1564,7 +1537,7 @@
               "explanation": "낮은 등급의 표로 높은 등급 칸에 앉으면 검표원에게 추가 요금을 내거나 자리를 이동하라는 요구를 받을 수 있다."
             },
             {
-              "id": "culture_ch06_set01_010",
+              "id": "culture_ch03_set03_010",
               "type": "multiple_choice",
               "question": "유럽 기차에서 예약석 여부를 확인하는 방법으로 가장 일반적인 것은?",
               "options": [
@@ -1579,10 +1552,10 @@
           ]
         },
         {
-          "id": "set02",
+          "id": "set04",
           "questions": [
             {
-              "id": "culture_ch06_set02_001",
+              "id": "culture_ch03_set04_001",
               "type": "multiple_choice",
               "question": "유럽 대중교통의 신뢰제(honor system)가 오랫동안 유지될 수 있는 배경으로 가장 적절한 것은?",
               "options": [
@@ -1595,7 +1568,7 @@
               "explanation": "신뢰제는 시민적 신뢰 문화와 함께 불시 단속·고액 벌금이라는 실질적 억제력이 함께 작동함으로써 유지된다."
             },
             {
-              "id": "culture_ch06_set02_002",
+              "id": "culture_ch03_set04_002",
               "type": "multiple_choice",
               "question": "이탈리아·스페인 등 일부 유럽 국가에서 펀칭 규칙이 특히 엄격하게 적용되는 이유로 가장 타당한 것은?",
               "options": [
@@ -1608,14 +1581,14 @@
               "explanation": "개찰구 없는 시스템에서 펀칭은 표의 사용 개시를 증명하는 유일한 수단이기 때문에, 이탈리아·스페인 등에서 엄격하게 적용된다."
             },
             {
-              "id": "culture_ch06_set02_003",
+              "id": "culture_ch03_set04_003",
               "type": "ox",
               "question": "유럽 기차의 고속열차(TGV, ICE 등)는 대부분 좌석 예약이 필수이거나 강력히 권장된다.",
               "answerIndex": 0,
               "explanation": "맞다. 유럽 고속열차는 대부분 좌석 예약이 필수이거나 강력히 권장되며, 지역 열차는 자유석인 경우가 많다."
             },
             {
-              "id": "culture_ch06_set02_004",
+              "id": "culture_ch03_set04_004",
               "type": "multiple_choice",
               "question": "유럽에서 1일권을 구입했더라도 목적지에서 벌금을 맞을 수 있는 상황은?",
               "options": [
@@ -1628,7 +1601,7 @@
               "explanation": "존 기반 요금 체계에서 1일권이 커버하는 존 범위를 벗어난 목적지로 이동하면 유효한 표가 없는 것으로 간주되어 벌금을 맞을 수 있다."
             },
             {
-              "id": "culture_ch06_set02_005",
+              "id": "culture_ch03_set04_005",
               "type": "multiple_choice",
               "question": "유럽 지역 열차(regional train)와 고속열차를 비교한 설명으로 옳은 것은?",
               "options": [
@@ -1641,14 +1614,14 @@
               "explanation": "고속열차는 좌석 예약이 필수이거나 강력히 권장되고, 지역 열차는 자유석으로 운행되는 경우가 많다."
             },
             {
-              "id": "culture_ch06_set02_006",
+              "id": "culture_ch03_set04_006",
               "type": "ox",
               "question": "같은 나라 안에서도 도시마다 대중교통 요금 체계와 존 경계가 다를 수 있다.",
               "answerIndex": 0,
               "explanation": "맞다. 같은 나라 안에서도 도시마다 요금 체계와 존 경계가 다를 수 있으므로, 도시를 이동할 때마다 해당 규정을 확인해야 한다."
             },
             {
-              "id": "culture_ch06_set02_007",
+              "id": "culture_ch03_set04_007",
               "type": "multiple_choice",
               "question": "유럽에서 대중교통을 탈 때 탑승 직전 또는 직후에 반드시 해야 하는 행동은?",
               "options": [
@@ -1661,7 +1634,7 @@
               "explanation": "개찰구 없는 신뢰 기반 시스템에서는 탑승 전이나 직후 노란(주황) 기계에 표를 찍어 사용 개시를 기록하는 펀칭이 필수다."
             },
             {
-              "id": "culture_ch06_set02_008",
+              "id": "culture_ch03_set04_008",
               "type": "multiple_choice",
               "question": "유럽 기차에서 예약석 표시가 있는 자리에 앉으면 어떤 상황이 생길 수 있는가?",
               "options": [
@@ -1674,7 +1647,7 @@
               "explanation": "예약석에 앉으면 해당 좌석을 예약한 승객이 탑승했을 때 자리를 비워달라는 요청을 받게 된다."
             },
             {
-              "id": "culture_ch06_set02_009",
+              "id": "culture_ch03_set04_009",
               "type": "multiple_choice",
               "question": "유럽 많은 도시에서 트램·버스·지하철 탑승 시 표를 찍는 펀칭 기계의 일반적인 색상과 위치는?",
               "options": [
@@ -1687,7 +1660,7 @@
               "explanation": "유럽 대부분의 도시에서 펀칭 기계는 노란색(또는 주황색)으로 승강장이나 차량 내 입구 근처에 설치되어 있다. 탑승 전이나 직후 이 기계에 표를 찍어 사용 개시 시각을 기록해야 한다."
             },
             {
-              "id": "culture_ch06_set02_010",
+              "id": "culture_ch03_set04_010",
               "type": "multiple_choice",
               "question": "유럽 대중교통 이용 시 벌금을 피하기 위한 핵심 습관으로 가장 중요한 것은?",
               "options": [
@@ -1704,9 +1677,9 @@
       ]
     },
     {
-      "id": "ch07",
-      "title": "상점·쇼핑 문화",
-      "summary": "과일 만지기 금지, 일요일 휴무, 점원 인사",
+      "id": "ch04",
+      "title": "쇼핑과 사진 에티켓",
+      "summary": "상점 인사·일요일 휴무, 초상권·박물관 촬영",
       "sections": [
         {
           "heading": "과일·채소는 눈으로",
@@ -1727,250 +1700,7 @@
         {
           "heading": "장바구니·봉투는 유료",
           "body": "환경 보호 의식이 높아진 유럽에서는 에코백을 들고 다니는 문화가 일상화되어 있다. 비닐봉투는 유료로 제공되며, 짐을 직접 담는 것도 손님의 몫이어서 카운터 뒤에서 점원이 대신 포장해주는 경우는 드물다."
-        }
-      ],
-      "sets": [
-        {
-          "id": "set01",
-          "questions": [
-            {
-              "id": "culture_ch07_set01_001",
-              "type": "multiple_choice",
-              "question": "유럽 마트에서 과일이나 채소를 고를 때 바람직한 방법은?",
-              "options": [
-                "손으로 직접 만져보며 신선도를 확인한다",
-                "진열대 옆 비닐장갑이나 집게를 사용해 고른다",
-                "점원에게 모두 골라달라고 요청한다",
-                "봉지째 구매하면 만져도 상관없다"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽 마트에서는 과일·채소를 손으로 직접 만지지 않고, 비닐장갑이나 집게를 이용하는 것이 기본 예의다."
-            },
-            {
-              "id": "culture_ch07_set01_002",
-              "type": "multiple_choice",
-              "question": "독일 등 일부 유럽 국가에서 일요일에 상점이 문을 닫는 이유는?",
-              "options": [
-                "일요일은 재고 정리일로 자발적으로 쉬는 관행이다",
-                "법으로 일요일 상점 영업을 금지하거나 제한하고 있기 때문이다",
-                "일요일에는 관광객이 없어 수익이 나지 않기 때문이다",
-                "노동조합의 협정으로 직원들이 모두 쉬기 때문이다"
-              ],
-              "answerIndex": 1,
-              "explanation": "독일 등 일부 유럽 국가에서는 법으로 일요일에 상점 영업을 금지하거나 제한하고 있어, 일요일에 문을 닫는 가게가 많다."
-            },
-            {
-              "id": "culture_ch07_set01_003",
-              "type": "ox",
-              "question": "유럽 일반 상점에서 표시된 가격보다 낮은 가격으로 흥정하는 것은 무례한 인상을 줄 수 있다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 유럽 대부분의 상점은 정찰제로 운영되므로, 일반 가게에서 흥정을 시도하는 것은 무례하게 여겨질 수 있다."
-            },
-            {
-              "id": "culture_ch07_set01_004",
-              "type": "multiple_choice",
-              "question": "유럽 마트에서 과일·채소 코너에 무게 측정 기계가 있을 때 올바른 이용 방법은?",
-              "options": [
-                "계산대 직원에게 가져가면 직원이 직접 달아준다",
-                "손님이 직접 봉지에 담아 저울에 올려 무게를 달고 바코드를 출력한다",
-                "무게 측정 없이 개수로만 계산하면 된다",
-                "바코드 출력 없이 가져가도 계산대에서 확인해준다"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽의 많은 마트에서는 손님이 직접 과일·채소를 봉지에 담아 저울에 달고 바코드를 출력하는 방식을 운영한다."
-            },
-            {
-              "id": "culture_ch07_set01_005",
-              "type": "multiple_choice",
-              "question": "유럽 작은 가게에서 점원이 바로 다가오지 않는 이유로 가장 적절한 것은?",
-              "options": [
-                "손님에게 관심이 없어서다",
-                "손님이 자유롭게 둘러볼 시간을 주는 문화이기 때문이다",
-                "점원이 부족해 서비스가 안 되는 것이다",
-                "구매 의사를 먼저 밝혀야 응대하는 규정이 있어서다"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽 작은 가게에서 점원이 곧바로 다가오지 않는 것은 손님에게 자유롭게 둘러볼 시간을 주는 배려이며, 도움이 필요하면 손님이 먼저 신호를 보내면 된다."
-            },
-            {
-              "id": "culture_ch07_set01_006",
-              "type": "ox",
-              "question": "유럽에서는 비닐봉투가 무료로 제공되므로 에코백을 따로 챙길 필요가 없다.",
-              "answerIndex": 1,
-              "explanation": "틀리다. 유럽에서는 비닐봉투가 유료이며, 에코백을 들고 다니는 문화가 일상화되어 있다."
-            },
-            {
-              "id": "culture_ch07_set01_007",
-              "type": "multiple_choice",
-              "question": "유럽에서 흥정이 어느 정도 허용되는 장소로 가장 적절한 것은?",
-              "options": [
-                "대형 쇼핑몰의 브랜드 매장",
-                "벼룩시장이나 일부 재래시장",
-                "약국",
-                "마트 계산대"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽에서 가격 흥정은 벼룩시장이나 일부 재래시장에서는 가능하지만, 일반 상점이나 쇼핑몰에서는 정찰제가 기본이다."
-            },
-            {
-              "id": "culture_ch07_set01_008",
-              "type": "multiple_choice",
-              "question": "유럽 마트에서 쇼핑한 짐을 포장하는 방식으로 일반적인 것은?",
-              "options": [
-                "점원이 계산과 함께 포장도 해준다",
-                "손님이 직접 에코백이나 봉투에 짐을 담는다",
-                "별도의 포장 직원이 따로 있다",
-                "포장 서비스는 멤버십 회원에게만 제공된다"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽 마트에서는 짐을 직접 담는 것이 손님의 몫이며, 점원이 대신 포장해주는 경우는 드물다."
-            },
-            {
-              "id": "culture_ch07_set01_009",
-              "type": "ox",
-              "question": "유럽 작은 가게에 들어갈 때 점원에게 인사를 건네지 않고 바로 물건을 보는 것은 예의에 어긋난다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 작은 가게에 들어갈 때는 점원에게 인사를 건네는 것이 기본 예의이며, 인사 없이 들어가면 불쾌하게 받아들여질 수 있다."
-            },
-            {
-              "id": "culture_ch07_set01_010",
-              "type": "multiple_choice",
-              "question": "유럽 여행 중 쇼핑 계획을 세울 때 가장 먼저 확인해야 할 사항은?",
-              "options": [
-                "해당 상점의 환율 우대 여부",
-                "방문 예정일의 영업 여부(일요일 휴무, 점심 휴무 등)",
-                "면세 한도 초과 여부",
-                "에코백 구매 가능 여부"
-              ],
-              "answerIndex": 1,
-              "explanation": "일요일 휴무 규정이나 점심 휴무가 있는 나라에서는 방문 전에 영업 여부를 확인하는 것이 중요하다."
-            }
-          ]
         },
-        {
-          "id": "set02",
-          "questions": [
-            {
-              "id": "culture_ch07_set02_001",
-              "type": "multiple_choice",
-              "question": "유럽 마트에서 과일·채소 구매 시 비닐장갑·집게를 사용해야 하는 이유로 가장 적절한 것은?",
-              "options": [
-                "상품 관리 규정상 모든 접촉이 금지되기 때문이다",
-                "맨손으로 만지는 것이 다른 손님에게 불쾌감을 줄 수 있기 때문이다",
-                "과일 표면의 세균이 손님에게 전염될 우려 때문이다",
-                "점원의 편의를 위해 마트 측이 규정한 내부 방침이다"
-              ],
-              "answerIndex": 1,
-              "explanation": "과일·채소를 맨손으로 만지면 다른 손님에게 불쾌감을 줄 수 있으므로, 비닐장갑이나 집게를 사용하는 것이 유럽 마트의 기본 에티켓이다."
-            },
-            {
-              "id": "culture_ch07_set02_002",
-              "type": "multiple_choice",
-              "question": "유럽 여행 중 일요일에 쇼핑을 계획했는데 모든 상점이 닫혀 있을 때, 이 상황의 원인으로 가장 타당한 것은?",
-              "options": [
-                "공휴일이 겹쳐서 임시 휴업한 것이다",
-                "해당 나라에서 일요일 상점 영업을 법으로 제한하기 때문이다",
-                "여행 시즌이 아니어서 문을 닫은 것이다",
-                "그날 쇼핑 지구에서 행사가 열려 통제된 것이다"
-              ],
-              "answerIndex": 1,
-              "explanation": "독일 등 일부 유럽 국가에서는 법으로 일요일 상점 영업을 제한하므로, 일요일에 많은 상점이 문을 닫는다."
-            },
-            {
-              "id": "culture_ch07_set02_003",
-              "type": "ox",
-              "question": "유럽에서도 벼룩시장이나 일부 재래시장에서는 가격 흥정이 가능한 경우가 있다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 유럽 대부분의 상점은 정찰제이지만, 벼룩시장이나 일부 재래시장에서는 흥정이 허용되는 경우가 있다."
-            },
-            {
-              "id": "culture_ch07_set02_004",
-              "type": "multiple_choice",
-              "question": "유럽에서 에코백 문화가 자리잡은 주된 배경은?",
-              "options": [
-                "에코백이 비닐봉투보다 저렴하기 때문이다",
-                "환경 보호 의식이 높아지면서 비닐봉투 사용을 줄이는 문화가 형성되었기 때문이다",
-                "비닐봉투를 생산하는 공장이 없어진 것이 원인이다",
-                "에코백을 의무적으로 지참해야 상점 입장이 가능하기 때문이다"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽에서 에코백 문화가 일상화된 것은 환경 보호 의식의 확산으로 비닐봉투 사용을 줄이는 흐름이 만들어졌기 때문이다."
-            },
-            {
-              "id": "culture_ch07_set02_005",
-              "type": "multiple_choice",
-              "question": "유럽 작은 가게에서 도움이 필요할 때 가장 자연스러운 행동은?",
-              "options": [
-                "점원이 먼저 다가올 때까지 아무것도 하지 않는다",
-                "눈을 마주치거나 가볍게 신호를 보내 점원을 호출한다",
-                "큰 소리로 점원 이름을 부른다",
-                "다른 손님에게 도움을 요청한다"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽 작은 가게에서 도움이 필요하면 손님이 먼저 눈을 마주치거나 가볍게 신호를 보내 점원에게 알리는 것이 자연스럽다."
-            },
-            {
-              "id": "culture_ch07_set02_006",
-              "type": "ox",
-              "question": "유럽 대부분의 상점에서 정찰제가 적용되므로, 표시된 가격이 곧 최종 판매 가격이다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 유럽 대부분의 상점은 정찰제를 운영하므로, 표시 가격 그대로 계산하는 것이 일반적이다."
-            },
-            {
-              "id": "culture_ch07_set02_007",
-              "type": "multiple_choice",
-              "question": "유럽 일부 나라에서 평일에도 상점 영업시간이 짧거나 점심 휴무가 있는 것에 대한 올바른 대응은?",
-              "options": [
-                "어떤 가게든 종일 열려 있으니 신경 쓰지 않아도 된다",
-                "방문 전에 영업시간을 미리 확인하는 습관이 중요하다",
-                "직원에게 전화해 특별 연장 영업을 요청한다",
-                "대형 쇼핑몰은 점심 휴무가 없으니 그곳만 이용한다"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽 일부 가게는 영업시간이 짧거나 점심 시간에 문을 닫으므로, 방문 전에 영업시간을 미리 확인하는 것이 좋다."
-            },
-            {
-              "id": "culture_ch07_set02_008",
-              "type": "multiple_choice",
-              "question": "유럽 마트 계산대에서 비닐봉투를 받으려 할 때 일반적으로 어떤 상황이 발생하는가?",
-              "options": [
-                "계산과 함께 무료로 제공된다",
-                "유료로 구매해야 하며, 에코백 지참이 권장된다",
-                "요청하면 점원이 무료로 제공한다",
-                "비닐봉투 사용이 법으로 완전히 금지되어 받을 수 없다"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽에서는 비닐봉투가 유료이므로, 필요하면 구매해야 하며 에코백을 미리 챙기는 것이 권장된다."
-            },
-            {
-              "id": "culture_ch07_set02_009",
-              "type": "ox",
-              "question": "유럽에서 일요일 상점 휴무 규정은 모든 나라에서 동일하게 적용된다.",
-              "answerIndex": 1,
-              "explanation": "틀리다. 일요일 휴무 규정은 독일 등 일부 나라에서 법으로 규정하지만, 나라마다 다르므로 여행 전에 해당 나라의 규정을 확인해야 한다."
-            },
-            {
-              "id": "culture_ch07_set02_010",
-              "type": "multiple_choice",
-              "question": "유럽 작은 가게에서 인사 없이 들어가 바로 물건을 만지는 행동이 초래할 수 있는 결과는?",
-              "options": [
-                "점원이 즉각적인 도움을 주러 다가온다",
-                "점원에게 무례한 인상을 주고 서비스 경험이 나빠질 수 있다",
-                "그 가게의 단골 고객으로 등록될 수 있다",
-                "아무런 문제가 없다"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽 작은 가게에서 인사 없이 들어가면 점원에게 무례한 인상을 줄 수 있으며, 이는 서비스 경험에도 부정적인 영향을 미칠 수 있다."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ch08",
-      "title": "사진과 프라이버시",
-      "summary": "초상권·GDPR, 사람·아이 촬영, 박물관 플래시",
-      "sections": [
         {
           "heading": "사람을 함부로 찍지 않는다",
           "body": "유럽은 GDPR(일반개인정보보호규정)이 상징하듯 초상권·프라이버시 의식이 매우 강한 문화권이다. 길거리에서 모르는 사람, 특히 어린이를 클로즈업해 찍는 것은 그 사람의 동의 없이 개인 정보를 수집하는 행위로 여겨져 심각한 결례가 된다."
@@ -1997,7 +1727,241 @@
           "id": "set01",
           "questions": [
             {
-              "id": "culture_ch08_set01_001",
+              "id": "culture_ch04_set01_001",
+              "type": "multiple_choice",
+              "question": "유럽 마트에서 과일이나 채소를 고를 때 바람직한 방법은?",
+              "options": [
+                "손으로 직접 만져보며 신선도를 확인한다",
+                "진열대 옆 비닐장갑이나 집게를 사용해 고른다",
+                "점원에게 모두 골라달라고 요청한다",
+                "봉지째 구매하면 만져도 상관없다"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽 마트에서는 과일·채소를 손으로 직접 만지지 않고, 비닐장갑이나 집게를 이용하는 것이 기본 예의다."
+            },
+            {
+              "id": "culture_ch04_set01_002",
+              "type": "multiple_choice",
+              "question": "독일 등 일부 유럽 국가에서 일요일에 상점이 문을 닫는 이유는?",
+              "options": [
+                "일요일은 재고 정리일로 자발적으로 쉬는 관행이다",
+                "법으로 일요일 상점 영업을 금지하거나 제한하고 있기 때문이다",
+                "일요일에는 관광객이 없어 수익이 나지 않기 때문이다",
+                "노동조합의 협정으로 직원들이 모두 쉬기 때문이다"
+              ],
+              "answerIndex": 1,
+              "explanation": "독일 등 일부 유럽 국가에서는 법으로 일요일에 상점 영업을 금지하거나 제한하고 있어, 일요일에 문을 닫는 가게가 많다."
+            },
+            {
+              "id": "culture_ch04_set01_003",
+              "type": "ox",
+              "question": "유럽 일반 상점에서 표시된 가격보다 낮은 가격으로 흥정하는 것은 무례한 인상을 줄 수 있다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 유럽 대부분의 상점은 정찰제로 운영되므로, 일반 가게에서 흥정을 시도하는 것은 무례하게 여겨질 수 있다."
+            },
+            {
+              "id": "culture_ch04_set01_004",
+              "type": "multiple_choice",
+              "question": "유럽 마트에서 과일·채소 코너에 무게 측정 기계가 있을 때 올바른 이용 방법은?",
+              "options": [
+                "계산대 직원에게 가져가면 직원이 직접 달아준다",
+                "손님이 직접 봉지에 담아 저울에 올려 무게를 달고 바코드를 출력한다",
+                "무게 측정 없이 개수로만 계산하면 된다",
+                "바코드 출력 없이 가져가도 계산대에서 확인해준다"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽의 많은 마트에서는 손님이 직접 과일·채소를 봉지에 담아 저울에 달고 바코드를 출력하는 방식을 운영한다."
+            },
+            {
+              "id": "culture_ch04_set01_005",
+              "type": "multiple_choice",
+              "question": "유럽 작은 가게에서 점원이 바로 다가오지 않는 이유로 가장 적절한 것은?",
+              "options": [
+                "손님에게 관심이 없어서다",
+                "손님이 자유롭게 둘러볼 시간을 주는 문화이기 때문이다",
+                "점원이 부족해 서비스가 안 되는 것이다",
+                "구매 의사를 먼저 밝혀야 응대하는 규정이 있어서다"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽 작은 가게에서 점원이 곧바로 다가오지 않는 것은 손님에게 자유롭게 둘러볼 시간을 주는 배려이며, 도움이 필요하면 손님이 먼저 신호를 보내면 된다."
+            },
+            {
+              "id": "culture_ch04_set01_006",
+              "type": "ox",
+              "question": "유럽에서는 비닐봉투가 무료로 제공되므로 에코백을 따로 챙길 필요가 없다.",
+              "answerIndex": 1,
+              "explanation": "틀리다. 유럽에서는 비닐봉투가 유료이며, 에코백을 들고 다니는 문화가 일상화되어 있다."
+            },
+            {
+              "id": "culture_ch04_set01_007",
+              "type": "multiple_choice",
+              "question": "유럽에서 흥정이 어느 정도 허용되는 장소로 가장 적절한 것은?",
+              "options": [
+                "대형 쇼핑몰의 브랜드 매장",
+                "벼룩시장이나 일부 재래시장",
+                "약국",
+                "마트 계산대"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽에서 가격 흥정은 벼룩시장이나 일부 재래시장에서는 가능하지만, 일반 상점이나 쇼핑몰에서는 정찰제가 기본이다."
+            },
+            {
+              "id": "culture_ch04_set01_008",
+              "type": "multiple_choice",
+              "question": "유럽 마트에서 쇼핑한 짐을 포장하는 방식으로 일반적인 것은?",
+              "options": [
+                "점원이 계산과 함께 포장도 해준다",
+                "손님이 직접 에코백이나 봉투에 짐을 담는다",
+                "별도의 포장 직원이 따로 있다",
+                "포장 서비스는 멤버십 회원에게만 제공된다"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽 마트에서는 짐을 직접 담는 것이 손님의 몫이며, 점원이 대신 포장해주는 경우는 드물다."
+            },
+            {
+              "id": "culture_ch04_set01_009",
+              "type": "ox",
+              "question": "유럽 작은 가게에 들어갈 때 점원에게 인사를 건네지 않고 바로 물건을 보는 것은 예의에 어긋난다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 작은 가게에 들어갈 때는 점원에게 인사를 건네는 것이 기본 예의이며, 인사 없이 들어가면 불쾌하게 받아들여질 수 있다."
+            },
+            {
+              "id": "culture_ch04_set01_010",
+              "type": "multiple_choice",
+              "question": "유럽 여행 중 쇼핑 계획을 세울 때 가장 먼저 확인해야 할 사항은?",
+              "options": [
+                "해당 상점의 환율 우대 여부",
+                "방문 예정일의 영업 여부(일요일 휴무, 점심 휴무 등)",
+                "면세 한도 초과 여부",
+                "에코백 구매 가능 여부"
+              ],
+              "answerIndex": 1,
+              "explanation": "일요일 휴무 규정이나 점심 휴무가 있는 나라에서는 방문 전에 영업 여부를 확인하는 것이 중요하다."
+            }
+          ]
+        },
+        {
+          "id": "set02",
+          "questions": [
+            {
+              "id": "culture_ch04_set02_001",
+              "type": "multiple_choice",
+              "question": "유럽 마트에서 과일·채소 구매 시 비닐장갑·집게를 사용해야 하는 이유로 가장 적절한 것은?",
+              "options": [
+                "상품 관리 규정상 모든 접촉이 금지되기 때문이다",
+                "맨손으로 만지는 것이 다른 손님에게 불쾌감을 줄 수 있기 때문이다",
+                "과일 표면의 세균이 손님에게 전염될 우려 때문이다",
+                "점원의 편의를 위해 마트 측이 규정한 내부 방침이다"
+              ],
+              "answerIndex": 1,
+              "explanation": "과일·채소를 맨손으로 만지면 다른 손님에게 불쾌감을 줄 수 있으므로, 비닐장갑이나 집게를 사용하는 것이 유럽 마트의 기본 에티켓이다."
+            },
+            {
+              "id": "culture_ch04_set02_002",
+              "type": "multiple_choice",
+              "question": "유럽 여행 중 일요일에 쇼핑을 계획했는데 모든 상점이 닫혀 있을 때, 이 상황의 원인으로 가장 타당한 것은?",
+              "options": [
+                "공휴일이 겹쳐서 임시 휴업한 것이다",
+                "해당 나라에서 일요일 상점 영업을 법으로 제한하기 때문이다",
+                "여행 시즌이 아니어서 문을 닫은 것이다",
+                "그날 쇼핑 지구에서 행사가 열려 통제된 것이다"
+              ],
+              "answerIndex": 1,
+              "explanation": "독일 등 일부 유럽 국가에서는 법으로 일요일 상점 영업을 제한하므로, 일요일에 많은 상점이 문을 닫는다."
+            },
+            {
+              "id": "culture_ch04_set02_003",
+              "type": "ox",
+              "question": "유럽에서도 벼룩시장이나 일부 재래시장에서는 가격 흥정이 가능한 경우가 있다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 유럽 대부분의 상점은 정찰제이지만, 벼룩시장이나 일부 재래시장에서는 흥정이 허용되는 경우가 있다."
+            },
+            {
+              "id": "culture_ch04_set02_004",
+              "type": "multiple_choice",
+              "question": "유럽에서 에코백 문화가 자리잡은 주된 배경은?",
+              "options": [
+                "에코백이 비닐봉투보다 저렴하기 때문이다",
+                "환경 보호 의식이 높아지면서 비닐봉투 사용을 줄이는 문화가 형성되었기 때문이다",
+                "비닐봉투를 생산하는 공장이 없어진 것이 원인이다",
+                "에코백을 의무적으로 지참해야 상점 입장이 가능하기 때문이다"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽에서 에코백 문화가 일상화된 것은 환경 보호 의식의 확산으로 비닐봉투 사용을 줄이는 흐름이 만들어졌기 때문이다."
+            },
+            {
+              "id": "culture_ch04_set02_005",
+              "type": "multiple_choice",
+              "question": "유럽 작은 가게에서 도움이 필요할 때 가장 자연스러운 행동은?",
+              "options": [
+                "점원이 먼저 다가올 때까지 아무것도 하지 않는다",
+                "눈을 마주치거나 가볍게 신호를 보내 점원을 호출한다",
+                "큰 소리로 점원 이름을 부른다",
+                "다른 손님에게 도움을 요청한다"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽 작은 가게에서 도움이 필요하면 손님이 먼저 눈을 마주치거나 가볍게 신호를 보내 점원에게 알리는 것이 자연스럽다."
+            },
+            {
+              "id": "culture_ch04_set02_006",
+              "type": "ox",
+              "question": "유럽 대부분의 상점에서 정찰제가 적용되므로, 표시된 가격이 곧 최종 판매 가격이다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 유럽 대부분의 상점은 정찰제를 운영하므로, 표시 가격 그대로 계산하는 것이 일반적이다."
+            },
+            {
+              "id": "culture_ch04_set02_007",
+              "type": "multiple_choice",
+              "question": "유럽 일부 나라에서 평일에도 상점 영업시간이 짧거나 점심 휴무가 있는 것에 대한 올바른 대응은?",
+              "options": [
+                "어떤 가게든 종일 열려 있으니 신경 쓰지 않아도 된다",
+                "방문 전에 영업시간을 미리 확인하는 습관이 중요하다",
+                "직원에게 전화해 특별 연장 영업을 요청한다",
+                "대형 쇼핑몰은 점심 휴무가 없으니 그곳만 이용한다"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽 일부 가게는 영업시간이 짧거나 점심 시간에 문을 닫으므로, 방문 전에 영업시간을 미리 확인하는 것이 좋다."
+            },
+            {
+              "id": "culture_ch04_set02_008",
+              "type": "multiple_choice",
+              "question": "유럽 마트 계산대에서 비닐봉투를 받으려 할 때 일반적으로 어떤 상황이 발생하는가?",
+              "options": [
+                "계산과 함께 무료로 제공된다",
+                "유료로 구매해야 하며, 에코백 지참이 권장된다",
+                "요청하면 점원이 무료로 제공한다",
+                "비닐봉투 사용이 법으로 완전히 금지되어 받을 수 없다"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽에서는 비닐봉투가 유료이므로, 필요하면 구매해야 하며 에코백을 미리 챙기는 것이 권장된다."
+            },
+            {
+              "id": "culture_ch04_set02_009",
+              "type": "ox",
+              "question": "유럽에서 일요일 상점 휴무 규정은 모든 나라에서 동일하게 적용된다.",
+              "answerIndex": 1,
+              "explanation": "틀리다. 일요일 휴무 규정은 독일 등 일부 나라에서 법으로 규정하지만, 나라마다 다르므로 여행 전에 해당 나라의 규정을 확인해야 한다."
+            },
+            {
+              "id": "culture_ch04_set02_010",
+              "type": "multiple_choice",
+              "question": "유럽 작은 가게에서 인사 없이 들어가 바로 물건을 만지는 행동이 초래할 수 있는 결과는?",
+              "options": [
+                "점원이 즉각적인 도움을 주러 다가온다",
+                "점원에게 무례한 인상을 주고 서비스 경험이 나빠질 수 있다",
+                "그 가게의 단골 고객으로 등록될 수 있다",
+                "아무런 문제가 없다"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽 작은 가게에서 인사 없이 들어가면 점원에게 무례한 인상을 줄 수 있으며, 이는 서비스 경험에도 부정적인 영향을 미칠 수 있다."
+            }
+          ]
+        },
+        {
+          "id": "set03",
+          "questions": [
+            {
+              "id": "culture_ch04_set03_001",
               "type": "multiple_choice",
               "question": "유럽에서 초상권·프라이버시 의식이 강한 문화적 배경으로 가장 잘 설명된 것은?",
               "options": [
@@ -2010,7 +1974,7 @@
               "explanation": "유럽은 GDPR로 대표되는 강한 개인정보 보호 문화를 가지고 있어, 동의 없는 촬영을 개인 정보 침해로 여기는 의식이 높다."
             },
             {
-              "id": "culture_ch08_set01_002",
+              "id": "culture_ch04_set03_002",
               "type": "multiple_choice",
               "question": "박물관에서 플래시 촬영이 금지되는 가장 주된 이유는?",
               "options": [
@@ -2023,14 +1987,14 @@
               "explanation": "박물관 플래시 금지는 강한 빛이 오랜 시간에 걸쳐 그림 안료나 고대 유물을 손상시키기 때문이다."
             },
             {
-              "id": "culture_ch08_set01_003",
+              "id": "culture_ch04_set03_003",
               "type": "ox",
               "question": "유럽에서 모르는 사람, 특히 아이를 동의 없이 클로즈업해 찍는 것은 심각한 결례로 여겨진다.",
               "answerIndex": 0,
               "explanation": "맞다. 유럽은 초상권·프라이버시 의식이 강해, 모르는 사람이나 아이를 동의 없이 가까이서 찍는 것은 결례이자 법적 문제가 될 수 있다."
             },
             {
-              "id": "culture_ch08_set01_004",
+              "id": "culture_ch04_set03_004",
               "type": "multiple_choice",
               "question": "유럽에서 인물 사진을 찍기 전에 해야 할 기본적인 행동은?",
               "options": [
@@ -2043,7 +2007,7 @@
               "explanation": "유럽에서 인물 사진을 찍을 때는 먼저 상대에게 동의를 구하는 것이 기본 예의다."
             },
             {
-              "id": "culture_ch08_set01_005",
+              "id": "culture_ch04_set03_005",
               "type": "multiple_choice",
               "question": "촬영이 금지된 장소에서 모르고 사진을 찍었을 때 올바른 대응은?",
               "options": [
@@ -2056,14 +2020,14 @@
               "explanation": "촬영 금지 구역에서 모르고 찍었더라도, 직원의 요청이 있을 경우 즉시 삭제하는 것이 예의 바른 대응이다."
             },
             {
-              "id": "culture_ch08_set01_006",
+              "id": "culture_ch04_set03_006",
               "type": "ox",
               "question": "박물관에서 삼각대와 셀카봉 사용이 금지되는 경우가 흔하다.",
               "answerIndex": 0,
               "explanation": "맞다. 플래시 금지 외에도 삼각대와 셀카봉은 다른 관람객의 통행을 방해하거나 유물에 위험을 줄 수 있어 많은 박물관에서 금지한다."
             },
             {
-              "id": "culture_ch08_set01_007",
+              "id": "culture_ch04_set03_007",
               "type": "multiple_choice",
               "question": "거리 공연자를 촬영한 후 사진을 찍었을 때 알아두어야 할 점은?",
               "options": [
@@ -2076,7 +2040,7 @@
               "explanation": "거리 공연자는 공연 후 팁을 기대하는 경우가 있으므로, 사진을 찍었다면 소액의 팁을 건네는 것이 자연스러운 예의다."
             },
             {
-              "id": "culture_ch08_set01_008",
+              "id": "culture_ch04_set03_008",
               "type": "multiple_choice",
               "question": "군사 시설이나 일부 정부 청사에서 촬영이 금지되는 주된 이유는?",
               "options": [
@@ -2089,14 +2053,14 @@
               "explanation": "군사 시설이나 일부 정부 청사에서 촬영이 금지되는 것은 보안상의 이유 때문이며, 표지와 직원 안내를 반드시 따라야 한다."
             },
             {
-              "id": "culture_ch08_set01_009",
+              "id": "culture_ch04_set03_009",
               "type": "ox",
               "question": "타인의 얼굴이 식별되는 사진을 SNS에 올릴 때는 해당 인물의 동의를 고려하는 것이 유럽 프라이버시 문화에 부합한다.",
               "answerIndex": 0,
               "explanation": "맞다. 유럽의 프라이버시 문화에서는 식별 가능한 사진을 SNS에 올리기 전에 해당 인물의 동의를 고려하는 것이 예의다."
             },
             {
-              "id": "culture_ch08_set01_010",
+              "id": "culture_ch04_set03_010",
               "type": "multiple_choice",
               "question": "아이가 찍힌 사진을 온라인에 올릴 때 특히 신중해야 하는 이유는?",
               "options": [
@@ -2111,10 +2075,10 @@
           ]
         },
         {
-          "id": "set02",
+          "id": "set04",
           "questions": [
             {
-              "id": "culture_ch08_set02_001",
+              "id": "culture_ch04_set04_001",
               "type": "multiple_choice",
               "question": "GDPR이 유럽 여행자의 사진 촬영 에티켓과 관련이 있는 이유는?",
               "options": [
@@ -2122,12 +2086,12 @@
                 "GDPR은 개인정보 보호를 강조하는 법으로, 동의 없는 촬영이 개인 정보 침해로 여겨지는 문화를 반영하기 때문이다",
                 "GDPR에 따라 외국인 관광객의 촬영이 전면 금지되기 때문이다",
                 "GDPR은 사진 기기 사용에 특별 허가를 요구하기 때문이다"
-          ],
+              ],
               "answerIndex": 1,
               "explanation": "GDPR은 개인정보 보호를 강조하는 유럽의 법으로, 동의 없이 타인을 촬영하는 것이 개인 정보 침해로 여겨지는 프라이버시 문화의 법적 기반이 된다."
             },
             {
-              "id": "culture_ch08_set02_002",
+              "id": "culture_ch04_set04_002",
               "type": "multiple_choice",
               "question": "박물관에서 촬영 전 확인해야 할 사항으로 가장 적절한 것은?",
               "options": [
@@ -2140,14 +2104,14 @@
               "explanation": "박물관마다 촬영 규정이 다르므로, 입장 전에 안내 표지를 확인해 플래시·삼각대·셀카봉 사용 가능 여부를 파악하는 것이 중요하다."
             },
             {
-              "id": "culture_ch08_set02_003",
+              "id": "culture_ch04_set04_003",
               "type": "ox",
               "question": "공연장에서 공연 중 촬영은 저작권 보호를 이유로 금지되는 경우가 많다.",
               "answerIndex": 0,
               "explanation": "맞다. 공연장은 저작권 보호와 공연 분위기 유지를 이유로 공연 중 촬영을 금지하는 경우가 많으며, 표지와 직원 안내를 따라야 한다."
             },
             {
-              "id": "culture_ch08_set02_004",
+              "id": "culture_ch04_set04_004",
               "type": "multiple_choice",
               "question": "유럽에서 거리 사진을 찍을 때 배경에 있는 일반 시민이 식별되는 경우, 가장 바람직한 태도는?",
               "options": [
@@ -2160,7 +2124,7 @@
               "explanation": "유럽 프라이버시 문화에서는 배경에 있더라도 식별 가능한 사람의 사진을 SNS에 올리기 전에 동의 여부를 고려하는 것이 바람직하다."
             },
             {
-              "id": "culture_ch08_set02_005",
+              "id": "culture_ch04_set04_005",
               "type": "multiple_choice",
               "question": "유럽에서 아이 사진을 SNS에 올릴 때 특별히 더 신중해야 하는 이유로 가장 적절한 것은?",
               "options": [
@@ -2173,14 +2137,14 @@
               "explanation": "아이는 스스로 동의를 표현하기 어렵고, 보호자의 동의도 고려해야 하므로 아이 사진을 올릴 때는 더욱 신중하게 생각해야 한다."
             },
             {
-              "id": "culture_ch08_set02_006",
+              "id": "culture_ch04_set04_006",
               "type": "ox",
               "question": "촬영 금지 표지가 없으면 어떤 장소에서든 사진 촬영이 허용된다고 보아도 된다.",
               "answerIndex": 1,
               "explanation": "틀리다. 촬영 금지 표지가 없더라도 군사 시설·공연 중인 공연장·특정 전시물 등은 촬영이 제한될 수 있으므로, 불분명하면 직원에게 확인하는 것이 좋다."
             },
             {
-              "id": "culture_ch08_set02_007",
+              "id": "culture_ch04_set04_007",
               "type": "multiple_choice",
               "question": "유럽 박물관 관람 중 다른 관람객이 플래시를 터뜨리는 것을 보았을 때, 이 행동이 문제인 이유는?",
               "options": [
@@ -2188,12 +2152,12 @@
                 "강한 빛의 반복적 노출이 그림 안료나 유물을 장기적으로 손상시키기 때문이다",
                 "플래시 소리가 전시 환경을 해치기 때문이다",
                 "플래시 배터리 소모가 전시관 전력 공급에 영향을 주기 때문이다"
-          ],
+              ],
               "answerIndex": 1,
               "explanation": "박물관에서 플래시를 금지하는 핵심 이유는 강한 빛이 장기적으로 그림 안료나 유물을 손상시키기 때문이다."
             },
             {
-              "id": "culture_ch08_set02_008",
+              "id": "culture_ch04_set04_008",
               "type": "multiple_choice",
               "question": "유럽에서 인물 사진 촬영 동의를 구하는 표현으로 가장 적절한 것은?",
               "options": [
@@ -2206,14 +2170,14 @@
               "explanation": "'May I take a photo?'는 유럽에서 인물 사진을 찍기 전에 동의를 구하는 기본 표현이다."
             },
             {
-              "id": "culture_ch08_set02_009",
+              "id": "culture_ch04_set04_009",
               "type": "ox",
               "question": "유럽에서 거리 공연자를 촬영할 경우 팁을 기대하는 경우는 없다.",
               "answerIndex": 1,
               "explanation": "틀리다. 거리 공연자는 촬영 후 팁을 기대하는 경우가 있으므로, 사진을 찍었다면 소액의 팁을 건네는 것이 예의다."
             },
             {
-              "id": "culture_ch08_set02_010",
+              "id": "culture_ch04_set04_010",
               "type": "multiple_choice",
               "question": "유럽의 프라이버시 문화에서 SNS 사진 업로드 시 가장 중요하게 고려해야 할 점은?",
               "options": [
@@ -2230,9 +2194,9 @@
       ]
     },
     {
-      "id": "ch09",
-      "title": "시간·여유의 문화",
-      "summary": "늦은 저녁, 시에스타, 느린 서비스",
+      "id": "ch05",
+      "title": "시간 감각과 가족 동반 문화",
+      "summary": "늦은 저녁·시에스타, 키즈 메뉴·유모차",
       "sections": [
         {
           "heading": "저녁은 늦게",
@@ -2253,250 +2217,7 @@
         {
           "heading": "휴가철과 공휴일",
           "body": "8월은 유럽 전역이 여름 휴가에 들어가는 시기로, 작은 식당이나 부티크 상점이 몇 주씩 통째로 문을 닫는 경우가 많다. 부활절·성탄절·현지 수호성인 축일 같은 공휴일에도 대형마트를 제외한 상점 대부분이 문을 닫는다. 방문 전날 운영시간을 온라인으로 미리 확인하거나 숙소에 문의하는 습관이 큰 도움이 된다."
-        }
-      ],
-      "sets": [
-        {
-          "id": "set01",
-          "questions": [
-            {
-              "id": "culture_ch09_set01_001",
-              "type": "multiple_choice",
-              "question": "스페인·이탈리아 등 남유럽에서 저녁 식사를 시작하는 일반적인 시간대는?",
-              "options": [
-                "오후 4~5시",
-                "오후 6~7시",
-                "오후 8~10시",
-                "오후 11시~자정"
-              ],
-              "answerIndex": 2,
-              "explanation": "남유럽에서는 저녁 8~10시에 식사를 시작하는 것이 일상적이며, 이른 저녁에는 식당 주방이 아직 닫혀 있기도 하다."
-            },
-            {
-              "id": "culture_ch09_set01_002",
-              "type": "multiple_choice",
-              "question": "남유럽 여행 중 오후 3시에 작은 상점을 찾아갔더니 문이 닫혀 있었다. 가장 적절한 이유는?",
-              "options": [
-                "현지 법정 쉬는 날이기 때문이다",
-                "시에스타 관습에 따라 낮 시간에 일시적으로 문을 닫은 것이다",
-                "여름 휴가 시즌이라 통째로 휴업 중이다",
-                "영업 허가가 취소된 상점이다"
-              ],
-              "answerIndex": 1,
-              "explanation": "남유럽에는 오후 낮 시간에 상점이 잠시 문을 닫는 시에스타 관습이 남아 있어, 오후 2~5시경에는 많은 가게가 닫혀 있을 수 있다."
-            },
-            {
-              "id": "culture_ch09_set01_003",
-              "type": "multiple_choice",
-              "question": "유럽 식당에서 계산서가 자동으로 나오지 않는 이유로 가장 적절한 설명은?",
-              "options": [
-                "종업원이 게으르거나 손님에게 무관심하기 때문이다",
-                "손님이 다 먹기 전에 계산서를 가져오면 법적으로 벌금을 내야 하기 때문이다",
-                "식사 도중에 재촉받지 않고 여유롭게 즐길 수 있도록 배려하는 문화 때문이다",
-                "계산서가 없으면 세금을 피할 수 있기 때문이다"
-              ],
-              "answerIndex": 2,
-              "explanation": "유럽에서는 손님이 여유롭게 식사를 즐기도록 계산서를 먼저 가져오지 않는 것이 배려 문화다. 필요할 때 신호를 보내면 된다."
-            },
-            {
-              "id": "culture_ch09_set01_004",
-              "type": "multiple_choice",
-              "question": "유럽 식당에서 계산을 원할 때 가장 적절한 행동은?",
-              "options": [
-                "큰 소리로 '저기요!'를 여러 번 외친다",
-                "손을 들거나 눈을 마주치며 정중히 신호를 보낸다",
-                "의자를 끌어 소리를 내어 주의를 끈다",
-                "스스로 카운터로 가서 계산한다"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽에서는 손을 들거나 종업원과 눈을 마주치며 정중히 신호를 보내는 것이 계산을 요청하는 일반적인 방식이다."
-            },
-            {
-              "id": "culture_ch09_set01_005",
-              "type": "multiple_choice",
-              "question": "북유럽과 남유럽의 시간 감각 차이에 대한 설명으로 가장 적절한 것은?",
-              "options": [
-                "북유럽은 시간 약속을 거의 지키지 않고, 남유럽은 정시 엄수를 강조한다",
-                "북유럽은 대체로 정시 도착을 중시하고, 남유럽은 나라에 따라 다소 느슨한 편이다",
-                "유럽 전역에서 10분 이내 지각은 전혀 문제가 없다",
-                "남북 모두 공식 약속과 비공식 만남에 동일한 기준을 적용한다"
-              ],
-              "answerIndex": 1,
-              "explanation": "북유럽은 대체로 정시 도착을 중요하게 여기고, 남유럽은 나라에 따라 시간에 다소 느슨한 편이다."
-            },
-            {
-              "id": "culture_ch09_set01_006",
-              "type": "multiple_choice",
-              "question": "8월에 남유럽 여행 시 주의해야 할 점은?",
-              "options": [
-                "8월에는 유럽 전역이 여름 특수로 모든 상점이 24시간 영업한다",
-                "8월에는 폭우가 잦아 야외 관광지가 대부분 폐쇄된다",
-                "8월 휴가철에는 작은 가게가 몇 주씩 통째로 문을 닫을 수 있다",
-                "8월에는 대중교통 요금이 두 배로 오른다"
-              ],
-              "answerIndex": 2,
-              "explanation": "8월은 유럽의 여름 휴가 시즌으로, 작은 식당이나 부티크 상점이 몇 주씩 통째로 문을 닫는 경우가 많다."
-            },
-            {
-              "id": "culture_ch09_set01_007",
-              "type": "multiple_choice",
-              "question": "유럽 여행 중 특정 장소 방문 전 운영시간을 확인할 때 가장 효과적인 방법은?",
-              "options": [
-                "현지 거리를 돌아다니다 문이 열려 있으면 들어간다",
-                "방문 전날 온라인으로 확인하거나 숙소에 문의한다",
-                "운영시간은 어디서나 동일하므로 확인할 필요가 없다",
-                "해당 국가 공식 홈페이지에만 운영시간이 공개된다"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽에서는 공휴일이나 휴가철에 운영시간이 달라질 수 있으므로, 방문 전날 온라인 확인이나 숙소 문의가 유용하다."
-            },
-            {
-              "id": "culture_ch09_set01_008",
-              "type": "ox",
-              "question": "남유럽 식당에서 음식이 천천히 나오는 것은 손님을 배려하는 문화에서 비롯된 관행이다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 남유럽에서 느린 서비스는 손님이 여유롭게 식사를 즐길 수 있도록 재촉하지 않으려는 배려 문화다."
-            },
-            {
-              "id": "culture_ch09_set01_009",
-              "type": "ox",
-              "question": "남유럽 시에스타 관습은 현재 완전히 사라져 오후 시간대에도 모든 상점이 정상 영업한다.",
-              "answerIndex": 1,
-              "explanation": "틀리다. 시에스타 관습은 나라나 지역에 따라 정도가 다르지만, 남유럽의 작은 상점과 관공서에서는 여전히 오후 낮 시간에 문을 닫는 경우가 많다."
-            },
-            {
-              "id": "culture_ch09_set01_010",
-              "type": "ox",
-              "question": "부활절이나 현지 공휴일에 유럽의 작은 상점 대부분은 문을 닫는 경우가 많다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 부활절·성탄절·지역 수호성인 축일 같은 공휴일에는 대형 마트 외에 작은 상점 대부분이 문을 닫는다."
-            }
-          ]
         },
-        {
-          "id": "set02",
-          "questions": [
-            {
-              "id": "culture_ch09_set02_001",
-              "type": "multiple_choice",
-              "question": "스페인 여행 중 오후 6시에 저녁을 먹으러 식당에 갔을 때 자주 겪는 상황은?",
-              "options": [
-                "식당이 가장 붐비는 시간대라 대기가 길다",
-                "주방이 아직 준비 중이거나 문이 닫혀 있는 경우가 많다",
-                "오후 6시 한정 특별 할인 메뉴를 제공한다",
-                "한국 관광객 전용 좌석을 안내해준다"
-              ],
-              "answerIndex": 1,
-              "explanation": "스페인 등 남유럽에서는 저녁 식사가 보통 8시 이후에 시작되어, 오후 6시에는 주방이 아직 준비 중이거나 문이 닫혀 있는 경우가 많다."
-            },
-            {
-              "id": "culture_ch09_set02_002",
-              "type": "multiple_choice",
-              "question": "시에스타를 고려하여 남유럽 여행 일정을 짤 때 가장 현명한 접근은?",
-              "options": [
-                "오후 2~5시 사이에 쇼핑과 관공서 방문을 집중적으로 계획한다",
-                "오후 2~5시 시간대에는 상점 방문 대신 박물관 관람이나 휴식을 배치한다",
-                "시에스타는 호텔에만 해당하는 규정이므로 일정에 영향이 없다",
-                "오전에는 모든 상점이 문을 닫으므로 오후에만 쇼핑을 계획한다"
-              ],
-              "answerIndex": 1,
-              "explanation": "시에스타 시간대(오후 2~5시)에는 작은 상점이 문을 닫으므로, 이 시간에는 쇼핑 대신 박물관이나 휴식으로 일정을 구성하는 것이 현명하다."
-            },
-            {
-              "id": "culture_ch09_set02_003",
-              "type": "multiple_choice",
-              "question": "유럽에서 기차나 투어 예약 시간에 관한 올바른 태도는?",
-              "options": [
-                "유럽 교통은 항상 정시 출발이므로 예약 5분 전 도착으로 충분하다",
-                "현지 교통 상황이나 파업 가능성을 고려해 여유 있게 출발한다",
-                "시간에 여유를 두면 불안해 보이므로 예약 시각 정각에 도착한다",
-                "유럽 기차는 항상 연착하므로 늦게 가도 상관없다"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽 여행 중에는 현지 교통 상황, 파업, 또는 예상치 못한 지연을 고려해 여유 있게 출발하는 것이 좋다."
-            },
-            {
-              "id": "culture_ch09_set02_004",
-              "type": "multiple_choice",
-              "question": "유럽 현지 친구와의 비공식적 만남에서 상대가 10분 정도 늦게 나타났을 때 적절한 반응은?",
-              "options": [
-                "남유럽 문화에서는 이런 경우 결례로 강하게 항의해야 한다",
-                "남유럽에서는 비공식 만남에서 소폭의 지연이 크게 문제시되지 않는 분위기가 있다",
-                "정시 엄수는 전 세계 어디서나 동일하게 요구되는 예의다",
-                "10분 이상 지각은 어느 나라에서도 반드시 사전에 연락해야 한다"
-              ],
-              "answerIndex": 1,
-              "explanation": "남유럽에서는 비공식적인 만남에서 소폭의 지연이 크게 문제시되지 않는 문화적 분위기가 있다. 단, 공식 약속이나 투어·교통에서는 정시를 지켜야 한다."
-            },
-            {
-              "id": "culture_ch09_set02_005",
-              "type": "multiple_choice",
-              "question": "유럽 식당에서 느린 서비스에 대응하는 가장 적절한 방법은?",
-              "options": [
-                "화가 났다면 식당 내에서 큰 소리로 불만을 표출한다",
-                "직접 주방에 들어가 음식을 빨리 달라고 요청한다",
-                "느린 서비스를 배려 문화로 이해하고, 필요시 손을 들어 정중히 요청한다",
-                "아무 행동도 하지 않고 무작정 기다린다"
-              ],
-              "answerIndex": 2,
-              "explanation": "유럽에서 느린 서비스는 재촉하지 않으려는 배려에서 비롯된다. 필요하다면 손을 들거나 눈을 마주치며 정중히 요청하는 것이 적절하다."
-            },
-            {
-              "id": "culture_ch09_set02_006",
-              "type": "multiple_choice",
-              "question": "8월 여름 휴가철에 유럽 남부 여행 계획 시 특히 주의할 점은?",
-              "options": [
-                "8월은 성수기라 모든 상점과 식당이 24시간 연장 영업한다",
-                "원하는 식당이나 상점이 장기 휴가로 문을 닫을 수 있으므로 미리 확인한다",
-                "8월에는 공식적으로 음식값이 30% 할인된다",
-                "남유럽 8월 기온은 매우 낮아 야외 활동에 두꺼운 옷이 필요하다"
-              ],
-              "answerIndex": 1,
-              "explanation": "8월 유럽 남부에서는 작은 식당이나 상점이 몇 주씩 여름 휴가로 문을 닫을 수 있으므로, 방문 전 미리 확인하는 것이 중요하다."
-            },
-            {
-              "id": "culture_ch09_set02_007",
-              "type": "multiple_choice",
-              "question": "유럽의 공휴일이나 8월 성수기에도 비교적 정상 영업할 가능성이 높은 곳은?",
-              "options": [
-                "골목 안 소규모 부티크와 동네 잡화점",
-                "대형 마트(슈퍼마켓 체인)와 관광지 인근 식당",
-                "가족 운영 소규모 식당과 수공예 공방",
-                "구시가지 내 전통 재래시장 노점"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽에서 공휴일이나 8월 여름 휴가 시즌에는 소규모 상점·부티크·가족 식당이 장기 휴업하는 경우가 많다. 반면 대형 마트 체인이나 관광지 밀집 지역의 식당은 수요가 유지되므로 문을 열 가능성이 상대적으로 높다."
-            },
-            {
-              "id": "culture_ch09_set02_008",
-              "type": "ox",
-              "question": "북유럽 국가들은 대체로 약속 시간 엄수를 중요하게 여긴다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 북유럽은 대체로 정시 도착을 중시하는 문화이며, 이는 남유럽의 느슨한 시간 감각과 대비된다."
-            },
-            {
-              "id": "culture_ch09_set02_009",
-              "type": "ox",
-              "question": "유럽에서 이른 저녁(오후 6시)에 식당을 찾는다면, 남유럽에서는 자리가 없어서 못 들어갈 가능성이 가장 크다.",
-              "answerIndex": 1,
-              "explanation": "틀리다. 남유럽에서 오후 6시에 식당을 찾으면 만석이 아니라 주방이 아직 문을 열지 않아서 못 먹는 경우가 더 많다."
-            },
-            {
-              "id": "culture_ch09_set02_010",
-              "type": "ox",
-              "question": "유럽에서 시에스타 관습은 나라나 지역에 따라 차이가 있을 수 있다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 시에스타의 적용 범위와 시간은 나라나 지역에 따라 다르며, 도시 규모나 업종에 따라서도 차이가 있다."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ch10",
-      "title": "아이와 함께: 가족 동반 문화",
-      "summary": "키즈 메뉴·환대, 아이 매너 기대치",
-      "sections": [
         {
           "heading": "아이는 환영, 하지만 차분히",
           "body": "유럽 식당은 대체로 아이를 동반한 가족을 환영하지만, 식사 중에 아이가 자리에서 일어나 뛰어다니거나 큰 소리를 내는 것은 자제하도록 기대된다. 조용히 앉아 함께 식사하는 것이 유럽 가족 식당 예절의 기본으로, 다른 손님의 식사 분위기를 존중하는 태도가 중요하다. 한국과 달리 아이를 지나치게 방치하거나 과도하게 뛰어놀게 두면 주위 손님에게 눈총을 받을 수 있다."
@@ -2523,7 +2244,241 @@
           "id": "set01",
           "questions": [
             {
-              "id": "culture_ch10_set01_001",
+              "id": "culture_ch05_set01_001",
+              "type": "multiple_choice",
+              "question": "스페인·이탈리아 등 남유럽에서 저녁 식사를 시작하는 일반적인 시간대는?",
+              "options": [
+                "오후 4~5시",
+                "오후 6~7시",
+                "오후 8~10시",
+                "오후 11시~자정"
+              ],
+              "answerIndex": 2,
+              "explanation": "남유럽에서는 저녁 8~10시에 식사를 시작하는 것이 일상적이며, 이른 저녁에는 식당 주방이 아직 닫혀 있기도 하다."
+            },
+            {
+              "id": "culture_ch05_set01_002",
+              "type": "multiple_choice",
+              "question": "남유럽 여행 중 오후 3시에 작은 상점을 찾아갔더니 문이 닫혀 있었다. 가장 적절한 이유는?",
+              "options": [
+                "현지 법정 쉬는 날이기 때문이다",
+                "시에스타 관습에 따라 낮 시간에 일시적으로 문을 닫은 것이다",
+                "여름 휴가 시즌이라 통째로 휴업 중이다",
+                "영업 허가가 취소된 상점이다"
+              ],
+              "answerIndex": 1,
+              "explanation": "남유럽에는 오후 낮 시간에 상점이 잠시 문을 닫는 시에스타 관습이 남아 있어, 오후 2~5시경에는 많은 가게가 닫혀 있을 수 있다."
+            },
+            {
+              "id": "culture_ch05_set01_003",
+              "type": "multiple_choice",
+              "question": "유럽 식당에서 계산서가 자동으로 나오지 않는 이유로 가장 적절한 설명은?",
+              "options": [
+                "종업원이 게으르거나 손님에게 무관심하기 때문이다",
+                "손님이 다 먹기 전에 계산서를 가져오면 법적으로 벌금을 내야 하기 때문이다",
+                "식사 도중에 재촉받지 않고 여유롭게 즐길 수 있도록 배려하는 문화 때문이다",
+                "계산서가 없으면 세금을 피할 수 있기 때문이다"
+              ],
+              "answerIndex": 2,
+              "explanation": "유럽에서는 손님이 여유롭게 식사를 즐기도록 계산서를 먼저 가져오지 않는 것이 배려 문화다. 필요할 때 신호를 보내면 된다."
+            },
+            {
+              "id": "culture_ch05_set01_004",
+              "type": "multiple_choice",
+              "question": "유럽 식당에서 계산을 원할 때 가장 적절한 행동은?",
+              "options": [
+                "큰 소리로 '저기요!'를 여러 번 외친다",
+                "손을 들거나 눈을 마주치며 정중히 신호를 보낸다",
+                "의자를 끌어 소리를 내어 주의를 끈다",
+                "스스로 카운터로 가서 계산한다"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽에서는 손을 들거나 종업원과 눈을 마주치며 정중히 신호를 보내는 것이 계산을 요청하는 일반적인 방식이다."
+            },
+            {
+              "id": "culture_ch05_set01_005",
+              "type": "multiple_choice",
+              "question": "북유럽과 남유럽의 시간 감각 차이에 대한 설명으로 가장 적절한 것은?",
+              "options": [
+                "북유럽은 시간 약속을 거의 지키지 않고, 남유럽은 정시 엄수를 강조한다",
+                "북유럽은 대체로 정시 도착을 중시하고, 남유럽은 나라에 따라 다소 느슨한 편이다",
+                "유럽 전역에서 10분 이내 지각은 전혀 문제가 없다",
+                "남북 모두 공식 약속과 비공식 만남에 동일한 기준을 적용한다"
+              ],
+              "answerIndex": 1,
+              "explanation": "북유럽은 대체로 정시 도착을 중요하게 여기고, 남유럽은 나라에 따라 시간에 다소 느슨한 편이다."
+            },
+            {
+              "id": "culture_ch05_set01_006",
+              "type": "multiple_choice",
+              "question": "8월에 남유럽 여행 시 주의해야 할 점은?",
+              "options": [
+                "8월에는 유럽 전역이 여름 특수로 모든 상점이 24시간 영업한다",
+                "8월에는 폭우가 잦아 야외 관광지가 대부분 폐쇄된다",
+                "8월 휴가철에는 작은 가게가 몇 주씩 통째로 문을 닫을 수 있다",
+                "8월에는 대중교통 요금이 두 배로 오른다"
+              ],
+              "answerIndex": 2,
+              "explanation": "8월은 유럽의 여름 휴가 시즌으로, 작은 식당이나 부티크 상점이 몇 주씩 통째로 문을 닫는 경우가 많다."
+            },
+            {
+              "id": "culture_ch05_set01_007",
+              "type": "multiple_choice",
+              "question": "유럽 여행 중 특정 장소 방문 전 운영시간을 확인할 때 가장 효과적인 방법은?",
+              "options": [
+                "현지 거리를 돌아다니다 문이 열려 있으면 들어간다",
+                "방문 전날 온라인으로 확인하거나 숙소에 문의한다",
+                "운영시간은 어디서나 동일하므로 확인할 필요가 없다",
+                "해당 국가 공식 홈페이지에만 운영시간이 공개된다"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽에서는 공휴일이나 휴가철에 운영시간이 달라질 수 있으므로, 방문 전날 온라인 확인이나 숙소 문의가 유용하다."
+            },
+            {
+              "id": "culture_ch05_set01_008",
+              "type": "ox",
+              "question": "남유럽 식당에서 음식이 천천히 나오는 것은 손님을 배려하는 문화에서 비롯된 관행이다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 남유럽에서 느린 서비스는 손님이 여유롭게 식사를 즐길 수 있도록 재촉하지 않으려는 배려 문화다."
+            },
+            {
+              "id": "culture_ch05_set01_009",
+              "type": "ox",
+              "question": "남유럽 시에스타 관습은 현재 완전히 사라져 오후 시간대에도 모든 상점이 정상 영업한다.",
+              "answerIndex": 1,
+              "explanation": "틀리다. 시에스타 관습은 나라나 지역에 따라 정도가 다르지만, 남유럽의 작은 상점과 관공서에서는 여전히 오후 낮 시간에 문을 닫는 경우가 많다."
+            },
+            {
+              "id": "culture_ch05_set01_010",
+              "type": "ox",
+              "question": "부활절이나 현지 공휴일에 유럽의 작은 상점 대부분은 문을 닫는 경우가 많다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 부활절·성탄절·지역 수호성인 축일 같은 공휴일에는 대형 마트 외에 작은 상점 대부분이 문을 닫는다."
+            }
+          ]
+        },
+        {
+          "id": "set02",
+          "questions": [
+            {
+              "id": "culture_ch05_set02_001",
+              "type": "multiple_choice",
+              "question": "스페인 여행 중 오후 6시에 저녁을 먹으러 식당에 갔을 때 자주 겪는 상황은?",
+              "options": [
+                "식당이 가장 붐비는 시간대라 대기가 길다",
+                "주방이 아직 준비 중이거나 문이 닫혀 있는 경우가 많다",
+                "오후 6시 한정 특별 할인 메뉴를 제공한다",
+                "한국 관광객 전용 좌석을 안내해준다"
+              ],
+              "answerIndex": 1,
+              "explanation": "스페인 등 남유럽에서는 저녁 식사가 보통 8시 이후에 시작되어, 오후 6시에는 주방이 아직 준비 중이거나 문이 닫혀 있는 경우가 많다."
+            },
+            {
+              "id": "culture_ch05_set02_002",
+              "type": "multiple_choice",
+              "question": "시에스타를 고려하여 남유럽 여행 일정을 짤 때 가장 현명한 접근은?",
+              "options": [
+                "오후 2~5시 사이에 쇼핑과 관공서 방문을 집중적으로 계획한다",
+                "오후 2~5시 시간대에는 상점 방문 대신 박물관 관람이나 휴식을 배치한다",
+                "시에스타는 호텔에만 해당하는 규정이므로 일정에 영향이 없다",
+                "오전에는 모든 상점이 문을 닫으므로 오후에만 쇼핑을 계획한다"
+              ],
+              "answerIndex": 1,
+              "explanation": "시에스타 시간대(오후 2~5시)에는 작은 상점이 문을 닫으므로, 이 시간에는 쇼핑 대신 박물관이나 휴식으로 일정을 구성하는 것이 현명하다."
+            },
+            {
+              "id": "culture_ch05_set02_003",
+              "type": "multiple_choice",
+              "question": "유럽에서 기차나 투어 예약 시간에 관한 올바른 태도는?",
+              "options": [
+                "유럽 교통은 항상 정시 출발이므로 예약 5분 전 도착으로 충분하다",
+                "현지 교통 상황이나 파업 가능성을 고려해 여유 있게 출발한다",
+                "시간에 여유를 두면 불안해 보이므로 예약 시각 정각에 도착한다",
+                "유럽 기차는 항상 연착하므로 늦게 가도 상관없다"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽 여행 중에는 현지 교통 상황, 파업, 또는 예상치 못한 지연을 고려해 여유 있게 출발하는 것이 좋다."
+            },
+            {
+              "id": "culture_ch05_set02_004",
+              "type": "multiple_choice",
+              "question": "유럽 현지 친구와의 비공식적 만남에서 상대가 10분 정도 늦게 나타났을 때 적절한 반응은?",
+              "options": [
+                "남유럽 문화에서는 이런 경우 결례로 강하게 항의해야 한다",
+                "남유럽에서는 비공식 만남에서 소폭의 지연이 크게 문제시되지 않는 분위기가 있다",
+                "정시 엄수는 전 세계 어디서나 동일하게 요구되는 예의다",
+                "10분 이상 지각은 어느 나라에서도 반드시 사전에 연락해야 한다"
+              ],
+              "answerIndex": 1,
+              "explanation": "남유럽에서는 비공식적인 만남에서 소폭의 지연이 크게 문제시되지 않는 문화적 분위기가 있다. 단, 공식 약속이나 투어·교통에서는 정시를 지켜야 한다."
+            },
+            {
+              "id": "culture_ch05_set02_005",
+              "type": "multiple_choice",
+              "question": "유럽 식당에서 느린 서비스에 대응하는 가장 적절한 방법은?",
+              "options": [
+                "화가 났다면 식당 내에서 큰 소리로 불만을 표출한다",
+                "직접 주방에 들어가 음식을 빨리 달라고 요청한다",
+                "느린 서비스를 배려 문화로 이해하고, 필요시 손을 들어 정중히 요청한다",
+                "아무 행동도 하지 않고 무작정 기다린다"
+              ],
+              "answerIndex": 2,
+              "explanation": "유럽에서 느린 서비스는 재촉하지 않으려는 배려에서 비롯된다. 필요하다면 손을 들거나 눈을 마주치며 정중히 요청하는 것이 적절하다."
+            },
+            {
+              "id": "culture_ch05_set02_006",
+              "type": "multiple_choice",
+              "question": "8월 여름 휴가철에 유럽 남부 여행 계획 시 특히 주의할 점은?",
+              "options": [
+                "8월은 성수기라 모든 상점과 식당이 24시간 연장 영업한다",
+                "원하는 식당이나 상점이 장기 휴가로 문을 닫을 수 있으므로 미리 확인한다",
+                "8월에는 공식적으로 음식값이 30% 할인된다",
+                "남유럽 8월 기온은 매우 낮아 야외 활동에 두꺼운 옷이 필요하다"
+              ],
+              "answerIndex": 1,
+              "explanation": "8월 유럽 남부에서는 작은 식당이나 상점이 몇 주씩 여름 휴가로 문을 닫을 수 있으므로, 방문 전 미리 확인하는 것이 중요하다."
+            },
+            {
+              "id": "culture_ch05_set02_007",
+              "type": "multiple_choice",
+              "question": "유럽의 공휴일이나 8월 성수기에도 비교적 정상 영업할 가능성이 높은 곳은?",
+              "options": [
+                "골목 안 소규모 부티크와 동네 잡화점",
+                "대형 마트(슈퍼마켓 체인)와 관광지 인근 식당",
+                "가족 운영 소규모 식당과 수공예 공방",
+                "구시가지 내 전통 재래시장 노점"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽에서 공휴일이나 8월 여름 휴가 시즌에는 소규모 상점·부티크·가족 식당이 장기 휴업하는 경우가 많다. 반면 대형 마트 체인이나 관광지 밀집 지역의 식당은 수요가 유지되므로 문을 열 가능성이 상대적으로 높다."
+            },
+            {
+              "id": "culture_ch05_set02_008",
+              "type": "ox",
+              "question": "북유럽 국가들은 대체로 약속 시간 엄수를 중요하게 여긴다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 북유럽은 대체로 정시 도착을 중시하는 문화이며, 이는 남유럽의 느슨한 시간 감각과 대비된다."
+            },
+            {
+              "id": "culture_ch05_set02_009",
+              "type": "ox",
+              "question": "유럽에서 이른 저녁(오후 6시)에 식당을 찾는다면, 남유럽에서는 자리가 없어서 못 들어갈 가능성이 가장 크다.",
+              "answerIndex": 1,
+              "explanation": "틀리다. 남유럽에서 오후 6시에 식당을 찾으면 만석이 아니라 주방이 아직 문을 열지 않아서 못 먹는 경우가 더 많다."
+            },
+            {
+              "id": "culture_ch05_set02_010",
+              "type": "ox",
+              "question": "유럽에서 시에스타 관습은 나라나 지역에 따라 차이가 있을 수 있다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 시에스타의 적용 범위와 시간은 나라나 지역에 따라 다르며, 도시 규모나 업종에 따라서도 차이가 있다."
+            }
+          ]
+        },
+        {
+          "id": "set03",
+          "questions": [
+            {
+              "id": "culture_ch05_set03_001",
               "type": "multiple_choice",
               "question": "유럽 식당에서 아이 동반 가족에 대한 일반적인 기대는?",
               "options": [
@@ -2536,7 +2491,7 @@
               "explanation": "유럽 식당에서 아이 동반 가족은 환영받지만, 아이가 자리에서 뛰어다니거나 고성을 지르는 것은 자제하도록 기대된다."
             },
             {
-              "id": "culture_ch10_set01_002",
+              "id": "culture_ch05_set03_002",
               "type": "multiple_choice",
               "question": "유럽 식당에서 아기 의자가 필요할 때 사용하는 영어 표현은?",
               "options": [
@@ -2549,7 +2504,7 @@
               "explanation": "'high chair'가 유럽 식당에서 아기 의자를 요청할 때 사용하는 일반적인 표현이다."
             },
             {
-              "id": "culture_ch10_set01_003",
+              "id": "culture_ch05_set03_003",
               "type": "multiple_choice",
               "question": "유럽 식당에 키즈 메뉴가 없을 때 아이 식사를 해결하는 일반적인 방법은?",
               "options": [
@@ -2562,7 +2517,7 @@
               "explanation": "키즈 메뉴가 없을 때는 어른 메뉴를 나눠 먹거나 작은 접시에 덜어주는 방식으로 아이 식사를 해결할 수 있다."
             },
             {
-              "id": "culture_ch10_set01_004",
+              "id": "culture_ch05_set03_004",
               "type": "multiple_choice",
               "question": "유럽 박물관에서 아동 입장료 할인이나 무료 혜택을 확인할 때 필요한 서류는?",
               "options": [
@@ -2575,7 +2530,7 @@
               "explanation": "유럽의 박물관·교통에서 아동 할인 적용 시 나이를 여권이나 공식 서류로 증명해야 할 수 있다."
             },
             {
-              "id": "culture_ch10_set01_005",
+              "id": "culture_ch05_set03_005",
               "type": "multiple_choice",
               "question": "유모차를 가지고 유럽 지하철을 이용할 때 가장 먼저 확인해야 할 것은?",
               "options": [
@@ -2588,7 +2543,7 @@
               "explanation": "유럽 지하철역 중에는 엘리베이터 없이 계단만 있는 곳도 있으므로, 유모차 이용 시 엘리베이터 유무와 위치를 미리 확인하는 것이 중요하다."
             },
             {
-              "id": "culture_ch10_set01_006",
+              "id": "culture_ch05_set03_006",
               "type": "multiple_choice",
               "question": "유럽 공공장소에서 수유에 대한 일반적인 분위기는?",
               "options": [
@@ -2601,7 +2556,7 @@
               "explanation": "유럽은 대체로 공공장소 수유에 관대하며, 가림막이나 수유 케이프 사용은 개인의 선택에 맡겨지는 분위기다."
             },
             {
-              "id": "culture_ch10_set01_007",
+              "id": "culture_ch05_set03_007",
               "type": "multiple_choice",
               "question": "유럽 박물관·대중교통의 가족 티켓(family ticket)에 대한 올바른 설명은?",
               "options": [
@@ -2614,21 +2569,21 @@
               "explanation": "유럽 박물관·교통에서는 가족권(family ticket)이나 연령별 무료·할인 혜택이 흔히 제공된다."
             },
             {
-              "id": "culture_ch10_set01_008",
+              "id": "culture_ch05_set03_008",
               "type": "ox",
               "question": "유럽 식당에서 아이를 데려갈 경우, 입장 전에 아이가 있다고 미리 알리면 더 편리한 자리를 안내받을 수도 있다.",
               "answerIndex": 0,
               "explanation": "맞다. 아이 동반 여부를 미리 알리면 식당에서 더 편리한 위치의 자리를 안내해주는 경우가 많다."
             },
             {
-              "id": "culture_ch10_set01_009",
+              "id": "culture_ch05_set03_009",
               "type": "ox",
               "question": "유럽에서는 아이가 혼잡한 지하철 안에서 유모차를 접지 않고 펼친 채로 타도 항상 환영받는다.",
               "answerIndex": 1,
               "explanation": "틀리다. 혼잡한 시간대에는 유모차를 접어 탑승하는 것이 주위 배려이자 원활한 이동을 위한 바람직한 태도다."
             },
             {
-              "id": "culture_ch10_set01_010",
+              "id": "culture_ch05_set03_010",
               "type": "ox",
               "question": "유럽의 백화점·대형마트에는 'baby change' 표시가 붙은 기저귀 교환 공간이 마련된 경우가 많다.",
               "answerIndex": 0,
@@ -2637,10 +2592,10 @@
           ]
         },
         {
-          "id": "set02",
+          "id": "set04",
           "questions": [
             {
-              "id": "culture_ch10_set02_001",
+              "id": "culture_ch05_set04_001",
               "type": "multiple_choice",
               "question": "유럽 식당에서 아이가 자리에서 뛰어다니는 행동에 대한 현지 반응은?",
               "options": [
@@ -2653,7 +2608,7 @@
               "explanation": "유럽 식당에서는 아이가 차분히 앉아 식사하도록 기대되며, 뛰어다니면 다른 손님에게 눈총을 받을 수 있다."
             },
             {
-              "id": "culture_ch10_set02_002",
+              "id": "culture_ch05_set04_002",
               "type": "multiple_choice",
               "question": "유럽 식당에서 아동용 메뉴를 요청하는 영어 표현으로 적절한 것은?",
               "options": [
@@ -2666,7 +2621,7 @@
               "explanation": "'Do you have a children's menu?'가 유럽 식당에서 아동용 메뉴를 요청하는 일반적이고 자연스러운 표현이다."
             },
             {
-              "id": "culture_ch10_set02_003",
+              "id": "culture_ch05_set04_003",
               "type": "multiple_choice",
               "question": "유럽 여행 중 가족 할인 혜택을 최대한 활용하기 위해 꼭 챙겨야 할 서류는?",
               "options": [
@@ -2679,7 +2634,7 @@
               "explanation": "유럽 박물관·교통에서 아동 할인을 받으려면 나이를 증명할 여권이 필요한 경우가 많으므로 반드시 여권을 지참해야 한다."
             },
             {
-              "id": "culture_ch10_set02_004",
+              "id": "culture_ch05_set04_004",
               "type": "multiple_choice",
               "question": "유모차를 가지고 유럽 도시를 여행할 때 사전에 확인해야 할 정보로 가장 중요한 것은?",
               "options": [
@@ -2692,7 +2647,7 @@
               "explanation": "유모차 이용 시에는 저상버스 운행 여부, 역사 내 엘리베이터 유무 및 위치를 미리 확인하는 것이 가장 중요하다."
             },
             {
-              "id": "culture_ch10_set02_005",
+              "id": "culture_ch05_set04_005",
               "type": "multiple_choice",
               "question": "유럽 대형 백화점에서 기저귀를 갈아야 할 때 찾아야 할 표시는?",
               "options": [
@@ -2705,7 +2660,7 @@
               "explanation": "유럽 백화점·대형마트에서는 'baby change' 또는 'nappy change' 표시가 붙은 곳이 기저귀 교환 공간이다."
             },
             {
-              "id": "culture_ch10_set02_006",
+              "id": "culture_ch05_set04_006",
               "type": "multiple_choice",
               "question": "유럽 박물관 입장권 구매 시 아이 무료 입장 조건으로 가장 흔한 기준은?",
               "options": [
@@ -2718,7 +2673,7 @@
               "explanation": "유럽 박물관에서는 일반적으로 만 4세 미만 아동은 무료이거나 대폭 할인되는 경우가 많으며, 나이 증명을 위해 여권이 필요할 수 있다."
             },
             {
-              "id": "culture_ch10_set02_007",
+              "id": "culture_ch05_set04_007",
               "type": "multiple_choice",
               "question": "유럽에서 수유 공간을 찾을 때 가장 효과적인 방법은?",
               "options": [
@@ -2731,21 +2686,21 @@
               "explanation": "수유 공간은 백화점·박물관 안내 데스크에 문의하거나 'baby change' 표시가 있는 곳을 찾으면 도움이 된다."
             },
             {
-              "id": "culture_ch10_set02_008",
+              "id": "culture_ch05_set04_008",
               "type": "ox",
               "question": "유럽에서 가족 티켓(family ticket)은 대체로 개별 티켓을 따로 구매하는 것보다 비용 면에서 유리한 경우가 많다.",
               "answerIndex": 0,
               "explanation": "맞다. 유럽 박물관·교통의 가족 티켓은 개별 구매보다 비용이 유리하게 설계된 경우가 많으므로 이를 활용하는 것이 좋다."
             },
             {
-              "id": "culture_ch10_set02_009",
+              "id": "culture_ch05_set04_009",
               "type": "ox",
               "question": "유럽에서 식당 입장 전에 아이 동반 여부를 미리 알려도 아무런 실익이 없다.",
               "answerIndex": 1,
               "explanation": "틀리다. 아이 동반 여부를 미리 알리면 식당에서 더 편리한 자리나 하이체어 등을 미리 준비해줄 수 있다."
             },
             {
-              "id": "culture_ch10_set02_010",
+              "id": "culture_ch05_set04_010",
               "type": "ox",
               "question": "유럽 일부 지하철역은 엘리베이터 없이 계단만 있어 유모차 이용이 불편할 수 있다.",
               "answerIndex": 0,
@@ -2756,9 +2711,9 @@
       ]
     },
     {
-      "id": "ch11",
-      "title": "화장실과 생활 습관",
-      "summary": "유료 화장실 유래, 수돗물, 조용한 시간",
+      "id": "ch06",
+      "title": "생활 습관과 관광객 안전",
+      "summary": "유료 화장실·수돗물, 정찰제·소매치기 주의",
       "sections": [
         {
           "heading": "왜 화장실이 유료인가",
@@ -2779,250 +2734,7 @@
         {
           "heading": "분리수거와 에너지 절약",
           "body": "유럽 대부분의 국가에서는 종이·플라스틱·유리·음식물 등 쓰레기 분리수거가 엄격하게 시행되며, 숙소나 거리의 분리수거함 색상 표기를 따르는 것이 기본 에티켓이다. 많은 호텔에서는 카드키를 슬롯에 꽂아야 객실 전원이 들어오는 구조를 채택해 에너지를 절약하고 있다. 물과 전기를 아끼는 절약 문화가 일상에 깊이 자리잡고 있어 욕실 수건 재사용 요청도 흔하게 볼 수 있다."
-        }
-      ],
-      "sets": [
-        {
-          "id": "set01",
-          "questions": [
-            {
-              "id": "culture_ch11_set01_001",
-              "type": "multiple_choice",
-              "question": "유럽 유료 공중화장실이 생겨난 주된 배경은?",
-              "options": [
-                "관광세 수입을 늘리기 위한 지자체 정책",
-                "청결 유지와 관리 인력 비용을 충당하기 위한 관행",
-                "화장실 줄이 너무 길어 입장을 통제하기 위한 수단",
-                "유럽연합(EU)이 의무화한 위생 규정"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽 유료 공중화장실은 청결 유지와 관리 인력 비용을 충당하기 위해 도입된 관행으로, 관광세나 EU 규정과는 관계가 없다."
-            },
-            {
-              "id": "culture_ch11_set01_002",
-              "type": "multiple_choice",
-              "question": "유럽 공중화장실 이용 시 일반적으로 필요한 금액 범위는?",
-              "options": [
-                "5~10유로",
-                "0.5~1유로",
-                "무료 (동전 불필요)",
-                "2~3유로"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽 공중화장실은 대체로 0.5~1유로의 동전이 필요하므로 여행 중 동전을 미리 챙겨두는 것이 좋다."
-            },
-            {
-              "id": "culture_ch11_set01_003",
-              "type": "multiple_choice",
-              "question": "유럽 여행 중 공중화장실을 찾기 어려울 때 가장 현실적인 방법은?",
-              "options": [
-                "경찰서에 방문해 화장실 위치를 안내받는다",
-                "카페·백화점·박물관을 이용한다",
-                "숙소로 돌아가서 해결한다",
-                "관광안내소에서 화장실 지도를 받는다"
-              ],
-              "answerIndex": 1,
-              "explanation": "공중화장실을 찾기 어려울 때는 카페·백화점·박물관을 이용하는 것이 현실적이다. 식당 화장실은 손님 전용인 경우가 많아 주의가 필요하다."
-            },
-            {
-              "id": "culture_ch11_set01_004",
-              "type": "multiple_choice",
-              "question": "유럽에서 화장실 표기로 사용되는 단어가 아닌 것은?",
-              "options": [
-                "WC",
-                "Toilette",
-                "Servizi",
-                "Ruhezeit"
-              ],
-              "answerIndex": 3,
-              "explanation": "'Ruhezeit'는 독일어로 '정숙 시간'을 뜻하며 화장실 표기가 아니다. WC, Toilette, Servizi는 모두 화장실을 나타내는 표기다."
-            },
-            {
-              "id": "culture_ch11_set01_005",
-              "type": "multiple_choice",
-              "question": "서유럽·북유럽 대부분의 국가에서 수돗물에 대한 올바른 설명은?",
-              "options": [
-                "수돗물은 절대 마실 수 없으며 반드시 병물을 사야 한다",
-                "음용 기준을 충족해 안심하고 마실 수 있다",
-                "수돗물을 마시려면 반드시 끓여야 한다",
-                "호텔에서만 마실 수 있고 거리 수도꼭지는 안 된다"
-              ],
-              "answerIndex": 1,
-              "explanation": "서유럽·북유럽 대부분에서 수돗물은 음용 기준을 충족하며 안전하게 마실 수 있다. 다만 일부 남유럽·동유럽 지역은 병물을 권장하기도 한다."
-            },
-            {
-              "id": "culture_ch11_set01_006",
-              "type": "ox",
-              "question": "독일의 'Ruhezeit(루헤차이트)'는 밤이나 일요일에 세탁기·청소기 소음까지 자제하도록 하는 정숙 시간 규정이다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 독일 등 일부 유럽 국가의 Ruhezeit는 가전제품 소음과 음악 소리까지 자제하도록 규정하는 정숙 시간으로, 한국의 층간소음 규정보다 적용 범위가 넓다."
-            },
-            {
-              "id": "culture_ch11_set01_007",
-              "type": "multiple_choice",
-              "question": "유럽 숙소 체크인 시 Ruhezeit 규칙을 확인해야 하는 이유는?",
-              "options": [
-                "규칙을 알아야 체크인 할인을 받을 수 있기 때문",
-                "규칙을 어기면 이웃의 항의나 관리자 경고를 받을 수 있기 때문",
-                "Ruhezeit 시간에는 냉난방을 꺼야 하기 때문",
-                "규칙을 알아야 화장실 사용 시간을 알 수 있기 때문"
-              ],
-              "answerIndex": 1,
-              "explanation": "Ruhezeit 규칙을 어기면 이웃의 항의나 관리자 경고를 받을 수 있으므로 체크인 때 미리 확인하는 것이 좋다."
-            },
-            {
-              "id": "culture_ch11_set01_008",
-              "type": "ox",
-              "question": "유럽 많은 호텔에서 카드키를 슬롯에 꽂아야 객실 전원이 켜지는 구조는 에너지 절약을 위한 방식이다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 유럽 호텔의 카드키 전원 제어 방식은 투숙객이 없는 동안 전력 낭비를 막는 에너지 절약 장치다."
-            },
-            {
-              "id": "culture_ch11_set01_009",
-              "type": "multiple_choice",
-              "question": "유럽의 분리수거 문화에 대한 올바른 설명은?",
-              "options": [
-                "분리수거는 선택 사항으로 어겨도 아무 제재가 없다",
-                "종이·플라스틱·유리·음식물 등 분리수거가 엄격하게 시행된다",
-                "분리수거는 호텔 직원이 알아서 처리해주므로 신경 쓸 필요 없다",
-                "유럽에서는 모든 쓰레기를 한 통에 버리는 것이 일반적이다"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽 대부분의 국가에서는 종이·플라스틱·유리·음식물 분리수거가 엄격하게 시행되며, 숙소나 거리의 분리수거함 색상 표기를 따르는 것이 기본 에티켓이다."
-            },
-            {
-              "id": "culture_ch11_set01_010",
-              "type": "ox",
-              "question": "유럽 일부 지역에서는 음용 가능 여부가 다를 수 있으므로, 방문 도시의 수돗물 음용 여부를 미리 확인하는 것이 좋다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 서·북유럽은 대부분 음용 가능하지만, 남유럽·동유럽 일부 지역은 병물을 권장하기도 하므로 사전 확인이 도움이 된다."
-            }
-          ]
         },
-        {
-          "id": "set02",
-          "questions": [
-            {
-              "id": "culture_ch11_set02_001",
-              "type": "multiple_choice",
-              "question": "유럽 여행 시 동전을 챙겨야 하는 실용적인 이유로 가장 적절한 것은?",
-              "options": [
-                "버스 운전기사에게 팁을 줘야 하기 때문",
-                "유료 공중화장실 이용을 위해 0.5~1유로 동전이 필요하기 때문",
-                "노천 카페에서는 카드 결제가 안 되기 때문",
-                "박물관 입장료를 동전으로만 낼 수 있기 때문"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽 유료 공중화장실은 보통 0.5~1유로 동전이 필요하며, 자동 개찰 방식이 많아 동전 없이는 입장이 불가능한 경우도 있다."
-            },
-            {
-              "id": "culture_ch11_set02_002",
-              "type": "multiple_choice",
-              "question": "유럽 식당에서 'tap water'를 요청했을 때 예상할 수 있는 상황으로 올바른 것은?",
-              "options": [
-                "어느 나라에서든 반드시 무료로 제공된다",
-                "대부분의 서유럽에서 제공되지만 일부 지역에서는 거절될 수 있다",
-                "tap water는 화장실 세면대 물을 뜻하므로 요청하면 안 된다",
-                "tap water 요청 시 항상 탄산수가 나온다"
-              ],
-              "answerIndex": 1,
-              "explanation": "서유럽 대부분에서 tap water를 제공받을 수 있지만, 일부 남유럽·동유럽 지역에서는 거절되거나 병물만 권하는 경우도 있다."
-            },
-            {
-              "id": "culture_ch11_set02_003",
-              "type": "ox",
-              "question": "유럽 자동 개찰 방식의 유료 화장실은 동전 없이는 입장이 불가능한 경우가 있다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 자동 개찰 방식이 보편화되면서 동전 없이는 입장 자체가 불가능한 유료 화장실이 늘어났다."
-            },
-            {
-              "id": "culture_ch11_set02_004",
-              "type": "multiple_choice",
-              "question": "유럽 호텔에서 욕실 수건 재사용을 요청하는 표지가 흔한 이유는?",
-              "options": [
-                "세탁 비용을 손님에게 부담시키기 위해서",
-                "물과 에너지를 절약하는 문화가 일상에 자리잡혀 있기 때문",
-                "유럽 법에서 수건 재사용을 의무화하고 있기 때문",
-                "세탁기 용량이 부족해서"
-              ],
-              "answerIndex": 1,
-              "explanation": "유럽에서는 물과 에너지를 아끼는 절약 문화가 일상에 깊이 자리잡혀 있어 욕실 수건 재사용 요청이 흔하다."
-            },
-            {
-              "id": "culture_ch11_set02_005",
-              "type": "multiple_choice",
-              "question": "독일의 Ruhezeit가 한국의 층간소음 규정과 다른 점은?",
-              "options": [
-                "Ruhezeit는 낮 시간에만 적용된다",
-                "Ruhezeit는 세탁기·청소기 소음, 음악 등 적용 범위가 더 광범위하다",
-                "Ruhezeit는 공동주택이 아닌 단독주택에만 적용된다",
-                "Ruhezeit는 법적 효력이 없는 권고 사항이다"
-              ],
-              "answerIndex": 1,
-              "explanation": "Ruhezeit는 세탁기·청소기 소음이나 음악 소리까지 자제하도록 규정하여 층간소음에 한정된 한국 규정보다 적용 범위가 넓다."
-            },
-            {
-              "id": "culture_ch11_set02_006",
-              "type": "ox",
-              "question": "유럽 공중화장실 표기인 'Servizi'는 이탈리아어로 화장실을 뜻한다.",
-              "answerIndex": 0,
-              "explanation": "맞다. 'Servizi'는 이탈리아어로 화장실 또는 서비스 시설을 의미하며, WC·Toilette와 함께 유럽 화장실 표기로 쓰인다."
-            },
-            {
-              "id": "culture_ch11_set02_007",
-              "type": "multiple_choice",
-              "question": "유럽 분리수거 문화를 여행 중 실천하는 가장 좋은 방법은?",
-              "options": [
-                "모든 쓰레기를 숙소에 모아두고 퇴실 시 한꺼번에 버린다",
-                "숙소나 거리의 분리수거함 색상 표기를 확인하고 그에 맞춰 버린다",
-                "쓰레기 분리는 유럽 현지인만의 의무이므로 관광객은 신경 쓰지 않아도 된다",
-                "플라스틱만 따로 버리고 나머지는 일반 쓰레기통에 버린다"
-              ],
-              "answerIndex": 1,
-              "explanation": "분리수거함의 색상 표기를 확인하고 그에 맞게 버리는 것이 유럽 분리수거 문화를 실천하는 올바른 방법이다."
-            },
-            {
-              "id": "culture_ch11_set02_008",
-              "type": "multiple_choice",
-              "question": "유럽 여행 중 공중화장실을 찾을 때 우선적으로 시도할 수 있는 장소가 아닌 것은?",
-              "options": [
-                "백화점",
-                "박물관",
-                "카페",
-                "주거용 아파트 로비"
-              ],
-              "answerIndex": 3,
-              "explanation": "백화점·박물관·카페는 공중화장실을 찾을 때 실용적인 선택지이지만, 일반 주거용 아파트 로비는 외부인이 이용하기 어렵다."
-            },
-            {
-              "id": "culture_ch11_set02_009",
-              "type": "ox",
-              "question": "유럽 호텔에서 카드키를 방에서 꺼내 외출하면 객실 전원이 자동으로 꺼지는 방식은 에너지 절약과 관련이 없다.",
-              "answerIndex": 1,
-              "explanation": "틀리다. 카드키 전원 제어 방식은 투숙객이 없는 동안 불필요한 전력 소비를 막기 위한 에너지 절약 장치다."
-            },
-            {
-              "id": "culture_ch11_set02_010",
-              "type": "multiple_choice",
-              "question": "유럽 유료 화장실에서 대체로 사용되는 결제 방식은?",
-              "options": [
-                "신용카드 단말기 결제",
-                "QR코드 스캔 결제",
-                "동전 투입 방식",
-                "사전 온라인 예약 결제"
-              ],
-              "answerIndex": 2,
-              "explanation": "유럽 유료 화장실은 대체로 동전 투입 방식의 자동 개찰기를 사용하므로 동전을 미리 준비하는 것이 중요하다."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ch12",
-      "title": "흥정·바가지·관광객 주의",
-      "summary": "정찰제 문화, 관광지 바가지·소매치기",
-      "sections": [
         {
           "heading": "유럽은 정찰제",
           "body": "유럽의 상점과 식당은 표시된 가격이 곧 지불 가격인 정찰제 문화를 따른다. 흥정은 벼룩시장이나 일부 재래 시장처럼 특별히 허용된 공간에 한정되며, 일반 상점이나 식당에서 가격을 깎으려 하면 오히려 무례하게 여겨질 수 있다. 이 문화는 18세기 이후 정가 표시 상점이 확산되면서 유럽 상업 문화의 기본 원칙으로 자리잡았다."
@@ -3049,7 +2761,241 @@
           "id": "set01",
           "questions": [
             {
-              "id": "culture_ch12_set01_001",
+              "id": "culture_ch06_set01_001",
+              "type": "multiple_choice",
+              "question": "유럽 유료 공중화장실이 생겨난 주된 배경은?",
+              "options": [
+                "관광세 수입을 늘리기 위한 지자체 정책",
+                "청결 유지와 관리 인력 비용을 충당하기 위한 관행",
+                "화장실 줄이 너무 길어 입장을 통제하기 위한 수단",
+                "유럽연합(EU)이 의무화한 위생 규정"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽 유료 공중화장실은 청결 유지와 관리 인력 비용을 충당하기 위해 도입된 관행으로, 관광세나 EU 규정과는 관계가 없다."
+            },
+            {
+              "id": "culture_ch06_set01_002",
+              "type": "multiple_choice",
+              "question": "유럽 공중화장실 이용 시 일반적으로 필요한 금액 범위는?",
+              "options": [
+                "5~10유로",
+                "0.5~1유로",
+                "무료 (동전 불필요)",
+                "2~3유로"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽 공중화장실은 대체로 0.5~1유로의 동전이 필요하므로 여행 중 동전을 미리 챙겨두는 것이 좋다."
+            },
+            {
+              "id": "culture_ch06_set01_003",
+              "type": "multiple_choice",
+              "question": "유럽 여행 중 공중화장실을 찾기 어려울 때 가장 현실적인 방법은?",
+              "options": [
+                "경찰서에 방문해 화장실 위치를 안내받는다",
+                "카페·백화점·박물관을 이용한다",
+                "숙소로 돌아가서 해결한다",
+                "관광안내소에서 화장실 지도를 받는다"
+              ],
+              "answerIndex": 1,
+              "explanation": "공중화장실을 찾기 어려울 때는 카페·백화점·박물관을 이용하는 것이 현실적이다. 식당 화장실은 손님 전용인 경우가 많아 주의가 필요하다."
+            },
+            {
+              "id": "culture_ch06_set01_004",
+              "type": "multiple_choice",
+              "question": "유럽에서 화장실 표기로 사용되는 단어가 아닌 것은?",
+              "options": [
+                "WC",
+                "Toilette",
+                "Servizi",
+                "Ruhezeit"
+              ],
+              "answerIndex": 3,
+              "explanation": "'Ruhezeit'는 독일어로 '정숙 시간'을 뜻하며 화장실 표기가 아니다. WC, Toilette, Servizi는 모두 화장실을 나타내는 표기다."
+            },
+            {
+              "id": "culture_ch06_set01_005",
+              "type": "multiple_choice",
+              "question": "서유럽·북유럽 대부분의 국가에서 수돗물에 대한 올바른 설명은?",
+              "options": [
+                "수돗물은 절대 마실 수 없으며 반드시 병물을 사야 한다",
+                "음용 기준을 충족해 안심하고 마실 수 있다",
+                "수돗물을 마시려면 반드시 끓여야 한다",
+                "호텔에서만 마실 수 있고 거리 수도꼭지는 안 된다"
+              ],
+              "answerIndex": 1,
+              "explanation": "서유럽·북유럽 대부분에서 수돗물은 음용 기준을 충족하며 안전하게 마실 수 있다. 다만 일부 남유럽·동유럽 지역은 병물을 권장하기도 한다."
+            },
+            {
+              "id": "culture_ch06_set01_006",
+              "type": "ox",
+              "question": "독일의 'Ruhezeit(루헤차이트)'는 밤이나 일요일에 세탁기·청소기 소음까지 자제하도록 하는 정숙 시간 규정이다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 독일 등 일부 유럽 국가의 Ruhezeit는 가전제품 소음과 음악 소리까지 자제하도록 규정하는 정숙 시간으로, 한국의 층간소음 규정보다 적용 범위가 넓다."
+            },
+            {
+              "id": "culture_ch06_set01_007",
+              "type": "multiple_choice",
+              "question": "유럽 숙소 체크인 시 Ruhezeit 규칙을 확인해야 하는 이유는?",
+              "options": [
+                "규칙을 알아야 체크인 할인을 받을 수 있기 때문",
+                "규칙을 어기면 이웃의 항의나 관리자 경고를 받을 수 있기 때문",
+                "Ruhezeit 시간에는 냉난방을 꺼야 하기 때문",
+                "규칙을 알아야 화장실 사용 시간을 알 수 있기 때문"
+              ],
+              "answerIndex": 1,
+              "explanation": "Ruhezeit 규칙을 어기면 이웃의 항의나 관리자 경고를 받을 수 있으므로 체크인 때 미리 확인하는 것이 좋다."
+            },
+            {
+              "id": "culture_ch06_set01_008",
+              "type": "ox",
+              "question": "유럽 많은 호텔에서 카드키를 슬롯에 꽂아야 객실 전원이 켜지는 구조는 에너지 절약을 위한 방식이다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 유럽 호텔의 카드키 전원 제어 방식은 투숙객이 없는 동안 전력 낭비를 막는 에너지 절약 장치다."
+            },
+            {
+              "id": "culture_ch06_set01_009",
+              "type": "multiple_choice",
+              "question": "유럽의 분리수거 문화에 대한 올바른 설명은?",
+              "options": [
+                "분리수거는 선택 사항으로 어겨도 아무 제재가 없다",
+                "종이·플라스틱·유리·음식물 등 분리수거가 엄격하게 시행된다",
+                "분리수거는 호텔 직원이 알아서 처리해주므로 신경 쓸 필요 없다",
+                "유럽에서는 모든 쓰레기를 한 통에 버리는 것이 일반적이다"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽 대부분의 국가에서는 종이·플라스틱·유리·음식물 분리수거가 엄격하게 시행되며, 숙소나 거리의 분리수거함 색상 표기를 따르는 것이 기본 에티켓이다."
+            },
+            {
+              "id": "culture_ch06_set01_010",
+              "type": "ox",
+              "question": "유럽 일부 지역에서는 음용 가능 여부가 다를 수 있으므로, 방문 도시의 수돗물 음용 여부를 미리 확인하는 것이 좋다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 서·북유럽은 대부분 음용 가능하지만, 남유럽·동유럽 일부 지역은 병물을 권장하기도 하므로 사전 확인이 도움이 된다."
+            }
+          ]
+        },
+        {
+          "id": "set02",
+          "questions": [
+            {
+              "id": "culture_ch06_set02_001",
+              "type": "multiple_choice",
+              "question": "유럽 여행 시 동전을 챙겨야 하는 실용적인 이유로 가장 적절한 것은?",
+              "options": [
+                "버스 운전기사에게 팁을 줘야 하기 때문",
+                "유료 공중화장실 이용을 위해 0.5~1유로 동전이 필요하기 때문",
+                "노천 카페에서는 카드 결제가 안 되기 때문",
+                "박물관 입장료를 동전으로만 낼 수 있기 때문"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽 유료 공중화장실은 보통 0.5~1유로 동전이 필요하며, 자동 개찰 방식이 많아 동전 없이는 입장이 불가능한 경우도 있다."
+            },
+            {
+              "id": "culture_ch06_set02_002",
+              "type": "multiple_choice",
+              "question": "유럽 식당에서 'tap water'를 요청했을 때 예상할 수 있는 상황으로 올바른 것은?",
+              "options": [
+                "어느 나라에서든 반드시 무료로 제공된다",
+                "대부분의 서유럽에서 제공되지만 일부 지역에서는 거절될 수 있다",
+                "tap water는 화장실 세면대 물을 뜻하므로 요청하면 안 된다",
+                "tap water 요청 시 항상 탄산수가 나온다"
+              ],
+              "answerIndex": 1,
+              "explanation": "서유럽 대부분에서 tap water를 제공받을 수 있지만, 일부 남유럽·동유럽 지역에서는 거절되거나 병물만 권하는 경우도 있다."
+            },
+            {
+              "id": "culture_ch06_set02_003",
+              "type": "ox",
+              "question": "유럽 자동 개찰 방식의 유료 화장실은 동전 없이는 입장이 불가능한 경우가 있다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 자동 개찰 방식이 보편화되면서 동전 없이는 입장 자체가 불가능한 유료 화장실이 늘어났다."
+            },
+            {
+              "id": "culture_ch06_set02_004",
+              "type": "multiple_choice",
+              "question": "유럽 호텔에서 욕실 수건 재사용을 요청하는 표지가 흔한 이유는?",
+              "options": [
+                "세탁 비용을 손님에게 부담시키기 위해서",
+                "물과 에너지를 절약하는 문화가 일상에 자리잡혀 있기 때문",
+                "유럽 법에서 수건 재사용을 의무화하고 있기 때문",
+                "세탁기 용량이 부족해서"
+              ],
+              "answerIndex": 1,
+              "explanation": "유럽에서는 물과 에너지를 아끼는 절약 문화가 일상에 깊이 자리잡혀 있어 욕실 수건 재사용 요청이 흔하다."
+            },
+            {
+              "id": "culture_ch06_set02_005",
+              "type": "multiple_choice",
+              "question": "독일의 Ruhezeit가 한국의 층간소음 규정과 다른 점은?",
+              "options": [
+                "Ruhezeit는 낮 시간에만 적용된다",
+                "Ruhezeit는 세탁기·청소기 소음, 음악 등 적용 범위가 더 광범위하다",
+                "Ruhezeit는 공동주택이 아닌 단독주택에만 적용된다",
+                "Ruhezeit는 법적 효력이 없는 권고 사항이다"
+              ],
+              "answerIndex": 1,
+              "explanation": "Ruhezeit는 세탁기·청소기 소음이나 음악 소리까지 자제하도록 규정하여 층간소음에 한정된 한국 규정보다 적용 범위가 넓다."
+            },
+            {
+              "id": "culture_ch06_set02_006",
+              "type": "ox",
+              "question": "유럽 공중화장실 표기인 'Servizi'는 이탈리아어로 화장실을 뜻한다.",
+              "answerIndex": 0,
+              "explanation": "맞다. 'Servizi'는 이탈리아어로 화장실 또는 서비스 시설을 의미하며, WC·Toilette와 함께 유럽 화장실 표기로 쓰인다."
+            },
+            {
+              "id": "culture_ch06_set02_007",
+              "type": "multiple_choice",
+              "question": "유럽 분리수거 문화를 여행 중 실천하는 가장 좋은 방법은?",
+              "options": [
+                "모든 쓰레기를 숙소에 모아두고 퇴실 시 한꺼번에 버린다",
+                "숙소나 거리의 분리수거함 색상 표기를 확인하고 그에 맞춰 버린다",
+                "쓰레기 분리는 유럽 현지인만의 의무이므로 관광객은 신경 쓰지 않아도 된다",
+                "플라스틱만 따로 버리고 나머지는 일반 쓰레기통에 버린다"
+              ],
+              "answerIndex": 1,
+              "explanation": "분리수거함의 색상 표기를 확인하고 그에 맞게 버리는 것이 유럽 분리수거 문화를 실천하는 올바른 방법이다."
+            },
+            {
+              "id": "culture_ch06_set02_008",
+              "type": "multiple_choice",
+              "question": "유럽 여행 중 공중화장실을 찾을 때 우선적으로 시도할 수 있는 장소가 아닌 것은?",
+              "options": [
+                "백화점",
+                "박물관",
+                "카페",
+                "주거용 아파트 로비"
+              ],
+              "answerIndex": 3,
+              "explanation": "백화점·박물관·카페는 공중화장실을 찾을 때 실용적인 선택지이지만, 일반 주거용 아파트 로비는 외부인이 이용하기 어렵다."
+            },
+            {
+              "id": "culture_ch06_set02_009",
+              "type": "ox",
+              "question": "유럽 호텔에서 카드키를 방에서 꺼내 외출하면 객실 전원이 자동으로 꺼지는 방식은 에너지 절약과 관련이 없다.",
+              "answerIndex": 1,
+              "explanation": "틀리다. 카드키 전원 제어 방식은 투숙객이 없는 동안 불필요한 전력 소비를 막기 위한 에너지 절약 장치다."
+            },
+            {
+              "id": "culture_ch06_set02_010",
+              "type": "multiple_choice",
+              "question": "유럽 유료 화장실에서 대체로 사용되는 결제 방식은?",
+              "options": [
+                "신용카드 단말기 결제",
+                "QR코드 스캔 결제",
+                "동전 투입 방식",
+                "사전 온라인 예약 결제"
+              ],
+              "answerIndex": 2,
+              "explanation": "유럽 유료 화장실은 대체로 동전 투입 방식의 자동 개찰기를 사용하므로 동전을 미리 준비하는 것이 중요하다."
+            }
+          ]
+        },
+        {
+          "id": "set03",
+          "questions": [
+            {
+              "id": "culture_ch06_set03_001",
               "type": "multiple_choice",
               "question": "유럽 일반 상점에서 물건을 살 때 올바른 구매 방식은?",
               "options": [
@@ -3062,7 +3008,7 @@
               "explanation": "유럽 상점은 정찰제 문화로, 표시된 가격이 곧 지불 가격이다. 일반 상점에서의 흥정은 무례하게 여겨질 수 있다."
             },
             {
-              "id": "culture_ch12_set01_002",
+              "id": "culture_ch06_set03_002",
               "type": "multiple_choice",
               "question": "유럽에서 흥정이 허용되는 장소는?",
               "options": [
@@ -3075,7 +3021,7 @@
               "explanation": "유럽에서 흥정은 벼룩시장이나 일부 재래 시장처럼 특별히 허용된 공간에 한정되며, 일반 상점에서는 허용되지 않는다."
             },
             {
-              "id": "culture_ch12_set01_003",
+              "id": "culture_ch06_set03_003",
               "type": "multiple_choice",
               "question": "관광지에서 낯선 사람이 '무료'라며 팔찌를 손에 쥐여줄 때 가장 적절한 대응은?",
               "options": [
@@ -3088,14 +3034,14 @@
               "explanation": "'무료'라며 팔찌나 장미를 건네는 것은 강매 수법이므로, 애초에 물건을 받지 않는 것이 가장 확실한 예방책이다."
             },
             {
-              "id": "culture_ch12_set01_004",
+              "id": "culture_ch06_set03_004",
               "type": "ox",
               "question": "유럽 관광지 식당에서 가격이 적히지 않은 메뉴판은 바가지 수법의 신호일 수 있으므로 주의해야 한다.",
               "answerIndex": 0,
               "explanation": "맞다. 가격이 없는 메뉴판은 나중에 예상보다 높은 금액을 청구하는 바가지 수법과 관련이 있을 수 있으므로 주의가 필요하다."
             },
             {
-              "id": "culture_ch12_set01_005",
+              "id": "culture_ch06_set03_005",
               "type": "multiple_choice",
               "question": "카드 결제 시 'DCC(원화결제 서비스)'를 거절해야 하는 이유는?",
               "options": [
@@ -3108,7 +3054,7 @@
               "explanation": "DCC는 현지 상점이 제공하는 원화 결제 서비스로, 불리한 환율이 적용되어 실제 지불 금액이 더 커지므로 현지 통화 결제를 선택하는 것이 유리하다."
             },
             {
-              "id": "culture_ch12_set01_006",
+              "id": "culture_ch06_set03_006",
               "type": "multiple_choice",
               "question": "소매치기를 예방하기 위한 기본 행동으로 가장 적절한 것은?",
               "options": [
@@ -3121,14 +3067,14 @@
               "explanation": "소매치기 예방의 기본은 가방을 앞으로 메고 지퍼를 잠그는 것이다. 뒷주머니 지갑과 열린 가방은 소매치기의 주요 표적이 된다."
             },
             {
-              "id": "culture_ch12_set01_007",
+              "id": "culture_ch06_set03_007",
               "type": "ox",
               "question": "유럽 관광지 소매치기는 혼자가 아닌 팀으로 움직이는 경우가 많다.",
               "answerIndex": 0,
               "explanation": "맞다. 소매치기는 한 명이 시선을 끄는 동안 다른 사람이 물건을 훔치는 팀 방식으로 움직이는 경우가 많으므로 주변을 함께 살펴야 한다."
             },
             {
-              "id": "culture_ch12_set01_008",
+              "id": "culture_ch06_set03_008",
               "type": "multiple_choice",
               "question": "도난 피해를 당했을 때 반드시 해야 하는 행동은?",
               "options": [
@@ -3141,7 +3087,7 @@
               "explanation": "도난 후 여행자 보험 청구와 서류 재발급을 위해 현지 경찰서에서 police report를 발급받는 것이 필수다."
             },
             {
-              "id": "culture_ch12_set01_009",
+              "id": "culture_ch06_set03_009",
               "type": "multiple_choice",
               "question": "공항이나 관광 명소 인근 환전소를 주의해야 하는 이유는?",
               "options": [
@@ -3154,7 +3100,7 @@
               "explanation": "공항·관광 명소 인근 환전소는 수수료가 매우 높아 불리한 환율을 적용하는 경우가 있으므로 시내 은행이나 ATM을 이용하는 것이 더 유리하다."
             },
             {
-              "id": "culture_ch12_set01_010",
+              "id": "culture_ch06_set03_010",
               "type": "ox",
               "question": "가짜 청원 서명 요청 후 돈을 요구하는 수법은 유럽 주요 관광지에서 보고되는 사기 수법 중 하나다.",
               "answerIndex": 0,
@@ -3163,10 +3109,10 @@
           ]
         },
         {
-          "id": "set02",
+          "id": "set04",
           "questions": [
             {
-              "id": "culture_ch12_set02_001",
+              "id": "culture_ch06_set04_001",
               "type": "multiple_choice",
               "question": "유럽 정찰제 문화의 역사적 배경으로 가장 적절한 것은?",
               "options": [
@@ -3179,14 +3125,14 @@
               "explanation": "유럽 정찰제 문화는 18세기 이후 정가 표시 상점이 확산되면서 상업 문화의 기본 원칙으로 자리잡은 것으로, EU 규정과는 관계가 없다."
             },
             {
-              "id": "culture_ch12_set02_002",
+              "id": "culture_ch06_set04_002",
               "type": "ox",
               "question": "유럽 일반 상점에서 흥정을 시도하면 무례하게 여겨질 수 있다.",
               "answerIndex": 0,
               "explanation": "맞다. 유럽 일반 상점은 정찰제이므로 흥정을 시도하면 점원에게 무례한 인상을 줄 수 있다. 흥정은 벼룩시장이나 재래 시장에서만 자연스럽다."
             },
             {
-              "id": "culture_ch12_set02_003",
+              "id": "culture_ch06_set04_003",
               "type": "multiple_choice",
               "question": "관광지에서 호객 행위를 하는 식당을 피해야 하는 이유로 가장 적절한 것은?",
               "options": [
@@ -3199,7 +3145,7 @@
               "explanation": "관광지 호객 식당은 관광객을 끌어들인 뒤 예상보다 높은 금액을 청구하는 바가지 수법과 관련이 있을 수 있으므로 주의가 필요하다."
             },
             {
-              "id": "culture_ch12_set02_004",
+              "id": "culture_ch06_set04_004",
               "type": "multiple_choice",
               "question": "택시 이용 시 바가지를 예방하는 가장 기본적인 방법은?",
               "options": [
@@ -3212,7 +3158,7 @@
               "explanation": "택시 바가지 예방의 기본은 출발 전에 미터기가 작동하는지, 또는 정액요금이 얼마인지 확인하는 것이다."
             },
             {
-              "id": "culture_ch12_set02_005",
+              "id": "culture_ch06_set04_005",
               "type": "multiple_choice",
               "question": "소매치기가 가장 자주 발생하는 장소가 아닌 것은?",
               "options": [
@@ -3225,14 +3171,14 @@
               "explanation": "소매치기는 사람이 밀집하는 혼잡한 지하철·관광 명소·좁은 계단 등에서 주로 발생한다. 한적한 외곽 슈퍼마켓은 상대적으로 위험이 낮다."
             },
             {
-              "id": "culture_ch12_set02_006",
+              "id": "culture_ch06_set04_006",
               "type": "ox",
               "question": "카드 결제 시 현지 통화 대신 원화(한국 원)로 결제하는 DCC를 선택하면 더 유리한 환율이 적용된다.",
               "answerIndex": 1,
               "explanation": "틀리다. DCC는 불리한 환율이 적용되어 실제 지불 금액이 더 커지므로 현지 통화 결제를 선택하는 것이 유리하다."
             },
             {
-              "id": "culture_ch12_set02_007",
+              "id": "culture_ch06_set04_007",
               "type": "multiple_choice",
               "question": "팔찌 강매나 서명 강요 상황에서 가장 적절한 대응은?",
               "options": [
@@ -3245,7 +3191,7 @@
               "explanation": "불쾌한 강매·강요 상황에서는 단호하게 'No, thank you'라고 말하고 자리를 피하는 것이 가장 효과적인 대응이다."
             },
             {
-              "id": "culture_ch12_set02_008",
+              "id": "culture_ch06_set04_008",
               "type": "multiple_choice",
               "question": "여행 중 도난 피해를 당한 후 보험금을 청구하기 위해 가장 중요한 서류는?",
               "options": [
@@ -3258,14 +3204,14 @@
               "explanation": "여행자 보험 청구와 각종 서류 재발급을 위해 현지 경찰서의 police report가 필수 서류다."
             },
             {
-              "id": "culture_ch12_set02_009",
+              "id": "culture_ch06_set04_009",
               "type": "ox",
               "question": "유럽 관광지에서 환전할 때 공항보다 시내 은행이나 ATM을 이용하는 것이 대체로 더 유리하다.",
               "answerIndex": 0,
               "explanation": "맞다. 공항·관광지 인근 환전소는 수수료가 높은 경우가 많아 시내 은행이나 ATM을 이용하는 편이 대체로 더 유리하다."
             },
             {
-              "id": "culture_ch12_set02_010",
+              "id": "culture_ch06_set04_010",
               "type": "multiple_choice",
               "question": "위협적인 상황이 느껴질 때 가장 먼저 취해야 할 행동은?",
               "options": [
