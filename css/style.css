@@ -677,3 +677,66 @@ input:focus-visible,
     font-size: 1.8rem;
   }
 }
+
+/* ---------- 다크 테마 토큰 ---------- */
+html[data-theme="dark"] {
+  --color-bg: #0f1620;
+  --color-surface: #1a2330;
+  --color-text: #e6ebf2;
+  --color-text-soft: #9aa7b8;
+  --color-primary: #5b86ff;
+  --color-primary-dark: #9bb4ff;
+  --color-primary-soft: #22304d;
+  --color-accent: #ff9d5c;
+  --color-correct: #3ec98a;
+  --color-correct-bg: #14301f;
+  --color-wrong: #ff6f63;
+  --color-wrong-bg: #371d1b;
+  --color-warning: #ff6f63;
+  --color-border: #2b3848;
+  --color-disabled: #5a6678;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+/* 명시적 선택이 없을 때 시스템 다크 설정을 따른다(첫 페인트 FOUC 방지용 fallback). */
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) {
+    --color-bg: #0f1620;
+    --color-surface: #1a2330;
+    --color-text: #e6ebf2;
+    --color-text-soft: #9aa7b8;
+    --color-primary: #5b86ff;
+    --color-primary-dark: #9bb4ff;
+    --color-primary-soft: #22304d;
+    --color-accent: #ff9d5c;
+    --color-correct: #3ec98a;
+    --color-correct-bg: #14301f;
+    --color-wrong: #ff6f63;
+    --color-wrong-bg: #371d1b;
+    --color-warning: #ff6f63;
+    --color-border: #2b3848;
+    --color-disabled: #5a6678;
+    --shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+  }
+}
+/* ---------- 테마 토글 버튼(JS 주입) ---------- */
+.theme-toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 200;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
