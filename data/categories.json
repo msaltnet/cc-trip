@@ -24,7 +24,7 @@
     "id": "travel-tips",
     "icon": "🧳",
     "title": "여행 상식",
-    "summary": "짐 싸기, eSIM, 수하물, 숙소·환전, 카드 결제, 택스리펀",
+    "summary": "출발 준비, 환전·결제, 수하물·숙소",
     "file": "travel-tips.json"
   }
 ]
