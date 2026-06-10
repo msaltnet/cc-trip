@@ -183,6 +183,27 @@ body {
   padding: 2px 10px;
   flex: 0 0 auto;
 }
+.card-check {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: var(--color-correct);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 800;
+  vertical-align: middle;
+}
+.card-badge--score {
+  color: var(--color-correct);
+  background: var(--color-correct-bg);
+  font-weight: 700;
+}
+.card.is-done {
+  border-color: var(--color-correct);
+}
 
 /* ---------- 본문(챕터 학습) ---------- */
 .section-block {
