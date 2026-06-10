@@ -21,17 +21,10 @@
     "file": "culture.json"
   },
   {
-    "id": "packing",
-    "icon": "🎒",
-    "title": "짐 싸기 체크리스트",
-    "summary": "소매치기 방지 용품, 어댑터, 비상약, 운동화",
-    "file": "packing.json"
-  },
-  {
-    "id": "finance",
-    "icon": "💶",
-    "title": "환전·결제 상식",
-    "summary": "트래블카드, DCC 차단, 택스리펀",
-    "file": "finance.json"
+    "id": "travel-tips",
+    "icon": "🧳",
+    "title": "여행 상식",
+    "summary": "짐 싸기, eSIM, 수하물, 숙소·환전, 카드 결제, 택스리펀",
+    "file": "travel-tips.json"
   }
 ]
