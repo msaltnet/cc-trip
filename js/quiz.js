@@ -11,6 +11,8 @@
   const timerEl = document.getElementById("timer");
   const submitArea = document.getElementById("submit-area");
   const submitBtn = document.getElementById("submit-quiz");
+  const progFillEl = document.getElementById("quiz-progress-fill");
+  const progTextEl = document.getElementById("quiz-progress-text");
 
   const catId = UTIL.getParam("cat");
   const chId = UTIL.getParam("ch");
@@ -94,7 +96,7 @@
       })
       .join("");
 
-    // 선택 시 시각 강조.
+    // 선택 시 시각 강조 + 진행바 갱신.
     formEl.addEventListener("change", function (e) {
       if (e.target && e.target.type === "radio") {
         const group = formEl.querySelectorAll(
@@ -106,8 +108,11 @@
             input.checked
           );
         });
+        updateProgress();
       }
     });
+
+    updateProgress();
   }
 
   // 현재까지 선택된 답안 수집. 미선택은 null.
@@ -116,6 +121,18 @@
       const checked = formEl.querySelector('input[name="q' + qi + '"]:checked');
       return checked ? Number(checked.value) : null;
     });
+  }
+
+  // 진행바: 답한 문항 수 / 전체.
+  function updateProgress() {
+    if (!progFillEl || !progTextEl) return;
+    const total = picked.length;
+    const answered = collectAnswers().filter(function (a) {
+      return a !== null;
+    }).length;
+    const pct = total ? Math.round((answered / total) * 100) : 0;
+    progFillEl.style.width = pct + "%";
+    progTextEl.textContent = answered + " / " + total + " 답함";
   }
 
   function startTimer() {

@@ -545,6 +545,33 @@ body {
   font-size: 0.8rem;
   color: var(--color-text-soft);
 }
+.quiz-progress {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  max-width: var(--maxw);
+  margin: var(--space-2) auto 0;
+}
+.quiz-progress-track {
+  flex: 1 1 auto;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-border);
+  overflow: hidden;
+}
+.quiz-progress-fill {
+  width: 0;
+  height: 100%;
+  background: var(--color-primary);
+  border-radius: 999px;
+  transition: width 0.25s ease;
+}
+.quiz-progress-text {
+  flex: 0 0 auto;
+  font-size: 0.78rem;
+  color: var(--color-text-soft);
+  font-variant-numeric: tabular-nums;
+}
 @keyframes pulse {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.5; }
