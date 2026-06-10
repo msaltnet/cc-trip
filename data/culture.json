@@ -17,7 +17,7 @@
         },
         {
           "heading": "봉사료(service charge)가 포함될 때",
-          "body": "유럽 식당의 계산서에 'service included', 이탈리아의 'servizio compreso', 혹은 'coperto'가 적혀 있다면 봉사료가 이미 포함된 것이다. 이 경우 추가 팁을 줄 의무는 없으며, 영수증을 꼼꼼히 확인하는 습관이 이중 지불을 막아준다."
+          "body": "유럽 식당의 계산서에 'service included' 또는 이탈리아의 'servizio compreso'가 적혀 있다면 봉사료가 이미 포함된 것이다. 단, 이탈리아의 'coperto'는 봉사료가 아니라 자리·빵 등 기본 세팅에 대한 인당 자릿세(커버 차지)이므로 혼동하지 않도록 주의한다. 영수증을 꼼꼼히 확인하는 습관이 이중 지불을 막아준다."
         },
         {
           "heading": "그래도 남긴다면",
@@ -95,7 +95,7 @@
                 "cash only"
               ],
               "answerIndex": 1,
-              "explanation": "'service included' 또는 이탈리아어 'servizio compreso', 'coperto' 등의 표현이 있으면 봉사료가 이미 포함된 것이다."
+              "explanation": "'service included' 또는 이탈리아어 'servizio compreso' 표현이 있으면 봉사료가 이미 포함된 것이다."
             },
             {
               "id": "culture_ch01_set01_006",
@@ -214,12 +214,12 @@
               "question": "이탈리아 식당 계산서의 'coperto'가 의미하는 것은?",
               "options": [
                 "음식이 모두 나왔다는 주방 신호",
-                "자릿세·빵값 등을 포함한 봉사료 항목",
+                "자릿세(커버 차지)·빵값 등을 포함한 인당 자릿세 항목",
                 "카드 결제 수수료",
                 "영업 종료를 알리는 표시"
               ],
               "answerIndex": 1,
-              "explanation": "'coperto'는 이탈리아에서 자리값·빵값 등을 포함한 인당 봉사료 항목으로, 영수증에 표시되면 이미 포함된 것이다."
+              "explanation": "'coperto'는 이탈리아에서 자리값·빵값 등 기본 세팅 비용을 포함한 인당 자릿세(커버 차지) 항목으로, 봉사료(service charge)와는 다르다."
             },
             {
               "id": "culture_ch01_set02_007",
@@ -348,15 +348,15 @@
             {
               "id": "culture_ch01_set03_008",
               "type": "multiple_choice",
-              "question": "팁의 기원과 관련하여 '두문자어설(To Insure Promptness)'에 대한 학계의 입장은?",
+              "question": "유럽에서 봉사료가 이미 포함된 식당이라도 팁을 주고 싶을 때 가장 실용적인 방법은?",
               "options": [
-                "언어학 교과서에 정설로 수록된 공인된 어원이다",
-                "흥미로운 속설이지만 어원이 확실하지 않다는 견해가 우세하다",
-                "19세기 미국 사전에 공식 기재된 내용이다",
-                "영국 왕립학회가 인정한 설명이다"
+                "카드 영수증에 추가 금액을 기재해 청구되도록 한다",
+                "잔돈을 반올림하거나 소액 현금을 테이블 위에 두고 나온다",
+                "QR코드 결제 앱을 통해 팁을 별도 송금한다",
+                "다음 방문 때 누적해서 한꺼번에 전달한다"
               ],
               "answerIndex": 1,
-              "explanation": "'To Insure Promptness' 두문자설은 널리 퍼진 속설일 뿐, 언어학자들은 확실한 어원이 아니라고 지적한다."
+              "explanation": "유럽 카드 단말기는 팁 입력 란이 없는 경우가 많아, 잔돈을 반올림하거나 소액 현금을 테이블에 두는 것이 가장 확실하고 실용적인 방법이다."
             },
             {
               "id": "culture_ch01_set03_009",
