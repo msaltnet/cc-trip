@@ -39,6 +39,20 @@
   if (session.auto) label += " (시간 만료 자동 제출)";
   scoreLabel.textContent = label;
 
+  // 진행/점수 localStorage 기록 + 최고 점수 표시.
+  if (session.cat && session.ch && window.PROGRESS) {
+    var rb = window.PROGRESS.recordResult(session.cat, session.ch, correct, total);
+    var rec = window.PROGRESS.getChapter(session.cat, session.ch);
+    var note = document.createElement("div");
+    note.className = "score-note";
+    if (rb.isNewBest) {
+      note.textContent = "🎉 최고 점수 경신!";
+    } else if (rec) {
+      note.textContent = "최고 " + rec.bestCorrect + " / " + rec.bestTotal;
+    }
+    if (note.textContent) scoreCard.appendChild(note);
+  }
+
   // 해설 리스트.
   reviewEl.innerHTML = picked
     .map(function (q, i) {

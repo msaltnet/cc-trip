@@ -570,6 +570,12 @@ body {
   opacity: 0.9;
   margin-top: var(--space-2);
 }
+.score-note {
+  margin-top: var(--space-3);
+  font-weight: 700;
+  font-size: 0.95rem;
+  opacity: 0.95;
+}
 
 .review-item {
   background: var(--color-surface);
