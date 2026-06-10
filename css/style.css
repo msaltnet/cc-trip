@@ -170,6 +170,32 @@ body {
   line-height: 1.45;
   margin-top: 4px;
 }
+.card-progress {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+}
+.card-progress-track {
+  flex: 1 1 auto;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-border);
+  overflow: hidden;
+}
+.card-progress-fill {
+  display: block;
+  height: 100%;
+  background: var(--color-primary);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+.card-progress-text {
+  flex: 0 0 auto;
+  font-size: 0.78rem;
+  color: var(--color-text-soft);
+  font-variant-numeric: tabular-nums;
+}
 .card-arrow {
   color: var(--color-disabled);
   font-size: 1.2rem;

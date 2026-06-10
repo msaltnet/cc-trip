@@ -26,12 +26,49 @@
           '<span class="card-summary">' +
           esc(c.summary || "") +
           "</span>" +
+          '<span class="card-progress" data-cat="' +
+          esc(c.id) +
+          '" hidden></span>' +
           "</span>" +
           '<span class="card-arrow">›</span>' +
           "</a></li>"
         );
       })
       .join("");
+
+    // 각 카테고리의 진행률을 비동기로 채운다(실패해도 카드 자체엔 영향 없음).
+    if (window.PROGRESS) {
+      categories.forEach(async function (c) {
+        try {
+          const res = await window.DATA.loadCategory(c.id);
+          const totalCh = (res && res.detail && res.detail.chapters
+            ? res.detail.chapters
+            : []
+          ).filter(function (ch) {
+            return window.DATA.hasQuestions(ch);
+          }).length;
+          if (!totalCh) return;
+          const stats = window.PROGRESS.getCategoryStats(c.id, totalCh);
+          const el = listEl.querySelector(
+            '.card-progress[data-cat="' + c.id + '"]'
+          );
+          if (!el) return;
+          const pct = Math.round((stats.attempted / totalCh) * 100);
+          el.innerHTML =
+            '<span class="card-progress-track"><span class="card-progress-fill" style="width:' +
+            pct +
+            '%"></span></span>' +
+            '<span class="card-progress-text">' +
+            stats.attempted +
+            " / " +
+            totalCh +
+            " 챕터</span>";
+          el.hidden = false;
+        } catch (e) {
+          /* 진행 표시는 부가 기능 — 실패 시 조용히 생략 */
+        }
+      });
+    }
   } catch (err) {
     console.error(err);
     listEl.innerHTML =
