@@ -12,12 +12,6 @@
   const startBtn = document.getElementById("start-quiz");
   const prepNote = document.getElementById("prep-note");
 
-  const modal = document.getElementById("pin-modal");
-  const pinInput = document.getElementById("pin-input");
-  const pinError = document.getElementById("pin-error");
-  const pinConfirm = document.getElementById("pin-confirm");
-  const pinCancel = document.getElementById("pin-cancel");
-
   const catId = UTIL.getParam("cat");
   const chId = UTIL.getParam("ch");
 
@@ -152,43 +146,17 @@
     return;
   }
 
-  // ----- PIN 모달 동작 -----
-  function openModal() {
-    pinError.textContent = "";
-    pinInput.value = "";
-    modal.classList.add("is-open");
-    modal.setAttribute("aria-hidden", "false");
-    pinInput.focus();
-  }
-  function closeModal() {
-    modal.classList.remove("is-open");
-    modal.setAttribute("aria-hidden", "true");
-  }
-  function submitPin() {
-    if (pinInput.value === String(CONFIG.QUIZ_PIN)) {
-      // 통과 플래그 기록 후 퀴즈로 이동 (직접 진입 차단용).
-      sessionStorage.setItem(CONFIG.UNLOCK_KEY, catId + ":" + chId);
-      window.location.href =
-        "quiz.html?cat=" +
-        encodeURIComponent(catId) +
-        "&ch=" +
-        encodeURIComponent(chId);
-    } else {
-      pinError.textContent = "PIN이 올바르지 않습니다.";
-      pinInput.value = "";
-      pinInput.focus();
-    }
+  // 퀴즈 시작: 직접 진입 차단용 플래그를 남기고 곧바로 이동.
+  function startQuiz() {
+    sessionStorage.setItem(CONFIG.UNLOCK_KEY, catId + ":" + chId);
+    window.location.href =
+      "quiz.html?cat=" +
+      encodeURIComponent(catId) +
+      "&ch=" +
+      encodeURIComponent(chId);
   }
 
-  startBtn.addEventListener("click", openModal);
-  pinConfirm.addEventListener("click", submitPin);
-  pinCancel.addEventListener("click", closeModal);
-  pinInput.addEventListener("keydown", function (e) {
-    if (e.key === "Enter") submitPin();
-  });
-  modal.addEventListener("click", function (e) {
-    if (e.target === modal) closeModal();
-  });
+  startBtn.addEventListener("click", startQuiz);
 
   function showNotFound() {
     titleEl.textContent = "찾을 수 없는 항목";

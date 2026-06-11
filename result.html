@@ -15,10 +15,15 @@
 
       <div id="review"></div>
 
-      <div id="actions" class="btn-row" hidden>
-        <a id="retry" class="btn btn-secondary">다시 풀기</a>
-        <a id="home" class="btn btn-primary" href="index.html">목차로</a>
+      <div id="actions" hidden>
+        <button id="share" class="btn btn-primary btn-block">📤 결과 공유하기</button>
+        <div class="btn-row">
+          <a id="retry" class="btn btn-secondary">다시 풀기</a>
+          <a id="home" class="btn btn-secondary" href="index.html">목차로</a>
+        </div>
       </div>
+
+      <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
     </main>
 
     <script src="js/theme.js"></script>

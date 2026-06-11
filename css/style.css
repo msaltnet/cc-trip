@@ -291,15 +291,15 @@ body {
 }
 .dlg-line {
   display: flex;
-  gap: var(--space-3);
+  flex-direction: column;
+  gap: 2px;
 }
 .dlg-speaker {
-  flex: none;
-  width: 44px;
-  font-size: 0.82rem;
+  font-size: 0.7rem;
   font-weight: 700;
   color: var(--color-text-soft);
-  padding-top: var(--space-3);
+  padding-left: var(--space-2);
+  letter-spacing: 0.02em;
 }
 /* 누르면 한국어 번역이 토글되는 대사 버튼 */
 .dlg-text {
@@ -465,61 +465,6 @@ body {
   margin-top: var(--space-3);
 }
 
-/* ---------- 모달 (PIN) ---------- */
-.modal-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(31, 42, 55, 0.55);
-  display: none;
-  align-items: center;
-  justify-content: center;
-  padding: var(--space-4);
-  z-index: 100;
-}
-.modal-overlay.is-open {
-  display: flex;
-}
-.modal {
-  background: var(--color-surface);
-  border-radius: var(--radius);
-  padding: var(--space-6) var(--space-5);
-  width: 100%;
-  max-width: 360px;
-  box-shadow: var(--shadow);
-  text-align: center;
-}
-.modal h3 {
-  margin: 0 0 var(--space-2);
-  font-size: 1.2rem;
-}
-.modal p {
-  margin: 0 0 var(--space-4);
-  color: var(--color-text-soft);
-  font-size: 0.92rem;
-}
-.pin-input {
-  width: 100%;
-  font-size: 1.6rem;
-  text-align: center;
-  letter-spacing: 0.4em;
-  padding: var(--space-3);
-  border: 1.5px solid var(--color-border);
-  border-radius: var(--radius-sm);
-  font-family: inherit;
-  margin-bottom: var(--space-3);
-  caret-color: transparent;
-}
-.pin-input:focus {
-  outline: none;
-  border-color: var(--color-primary);
-}
-.pin-error {
-  color: var(--color-warning);
-  font-size: 0.9rem;
-  min-height: 1.2em;
-  margin-bottom: var(--space-3);
-}
-
 /* ---------- 퀴즈 ---------- */
 .timer-bar {
   position: sticky;
@@ -650,6 +595,32 @@ body {
   font-weight: 700;
   font-size: 0.95rem;
   opacity: 0.95;
+}
+
+/* 공유 결과 토스트 */
+#actions .btn-row {
+  margin-top: var(--space-3);
+}
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: var(--space-6);
+  transform: translateX(-50%) translateY(12px);
+  background: var(--color-text);
+  color: #fff;
+  padding: var(--space-3) var(--space-5);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 200;
+}
+.toast.is-show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
 }
 
 .review-item {
